@@ -1,0 +1,250 @@
+# mathplotlib
+mathplotlib = math + plot + libarary
+
+다시 말해, matplotlib는 수학과 그래프를 다루는 파이썬 모듈입니다.
+
+matplotlib는 모듈이이어서 먼저 가지고 와야합니다.
+
+```
+import matplotlib
+```
+
+matplotlib의 버전을 출력하기 위하여 다음과 같은 방법을 사용할 수 있습니다.
+
+```
+print(matplotlib.__version__)
+```
+
+# 그래프 그리기
+matplotlib에서는 리스트를를 이용하여 함수의 정의역과 치역을 계산합니다. 정의역은 x의 값들이고 치역은 y의 값들입니다.
+
+```
+import matplotlib.pyplot as plt
+
+plt.plot([1, 10], [1, 10])
+plt.show()
+```
+
+pyplot은 matplotlib 모듈의 또 다른 모듈입니다. pyplot은 python + plot입니다. plt.show()는 그래프를 보여줍니다.
+
+점을 만들기 위하여 plot 메서드의 새 번째 대개변수로 문자를 입력하면 됩니다. 'x'도 되고 'o'도 됩니다.
+
+정리
+----
+1차 방정식: 리스트 안에 수 2개
+2차 방정식: 3개
+...
+n차 방정식: n+1개
+
+# 마커
+### marker
+matplotlib에서의 마커는 그래프가 꺽기는 부분에 점을 넣을 수 있습니다.
+
+```
+plt.plot([1, 10, 30], [1, 10, 20], marker="x")
+```
+
+marker 대개변수로 문자를 넣을 수 있습니다.
+
+### 문자 fmt
+그래프의 마커, 선, 그리고 색을 정하기 위하여 다음과 같은 방법을 사용할 수 있습니다.
+
+첫 번째는 마커의 모양입니다.
+두 번째는 그래프 선의 모양입니다. (: 점선, - 선, --줄선, -. 줄/점 선)
+세 번째는 그래프의 색깔입니다. (색깔의 첫 번쨰 색깔)
+
+```
+plt.plot([1, 10, 20], [1, 24, 44], 'o:r')
+```
+
+### 마커 크기
+마커의 크기는 대개변수 ms에 수를 입력하면 됩니다.
+
+```
+plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30)
+```
+
+### 마커 윤곽선
+마커의 윤곽선은 mec를 이용하여 지정할 수 있습니다.
+
+```
+plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r')
+```
+
+mec는 marker + edge + color의 약자입니다.
+
+### 마커 색깔
+마커의 색깔은 mfc (marker + face + color)로 설정할 수 있습니다.
+```
+plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r', mfc = 'g')
+```
+
+# 선
+### 선 스타일
+선의 스타일을 정할 수 있는 방법을 알아보겠습니다.
+
+선의 스타일로 linestyle 대개변수에 dotted, dotted, dashed, None, dashdot, solid를 사용할 수 있습니다. linestyle은 ls로도 사용할 수 있습니다.
+```
+plt.plot([1, 10, 20], [1, 24, 44], linestyle = 'dashed')
+```
+
+### 선 폭
+선의 폭은 linewidth 또는 lw로 설정할 수 있습니다.
+
+```
+plt.plot([1, 4, 5], [1, 4, 6], linewidth = '3.14159')
+```
+
+# 레이블과 제목
+x 쪽이 무엇인지 사용자에게 알려주어야합니다. 시간일 수 있고 값일 수 있습니다.
+
+```
+plt.xlabel("Time (h)")
+plt.ylabel("Money (w)")
+```
+
+그래프의 제목은 title() 메서드를 사용할 수 있습니다.
+
+```
+plt.title("Money spent")
+```
+
+그래프 제목의 스타일일과 위치를 바꾸기 위하여 다음과 같은 방법을 사용할 수 있습니다.
+
+```
+font1 = {
+  'family': "serif",
+  'color': "black",
+  'size': 30
+}
+
+plt.title("Money spent", fontdict = font1)
+```
+
+# 그리드
+그래프를 그릴때 그리드가 있으면 바로 눈에 들어 올 수 있는 그래프를 만들 수 있습니다.
+
+`plot()` 메서드를 실행한 후 `plt.grid()` 함수를 실행하면 그리드가 자동으로 그려집니다.
+
+만일 x 축 또는 y 축만 원한다면 대개변수 axis(축을 의미합니다) 값에 x 또는 y를 입력하시면 됩니다.
+
+더 많은 설정은 다 plot() 메서드에 있는 대개변수와 같습니다.
+
+# 1개 이상 그래프
+1개 이상 그래프를 그리는 것을 원한다면 `subplot()`(밑에 있는 기름을 뜻합니다.) 함수를 사용할 수 있습니다.
+
+1. 먼저, `plt.subplot()` 메서드를 실행합니다.
+2. 다음에, `plt.plot()` 메서드를 이용하여 그릴 수 있습니다.
+
+`plt.subplot()`는 가로, 세로, 그리고 몇 번째 그래프인지 입력을 해야합니다.
+
+다음은 subplot() 메서드를 사용하는 예시입니다.
+
+```
+import matplotlib.pyplot as plt
+
+#그래프 1:
+x = [0, 1, 2, 4]
+y = [30, 40, 50, 90]
+
+plt.subplot(1, 2, 1)
+plt.plot(x,y)
+
+#그래프 2:
+x = [0, 1, 2, 3]
+y = [11, 20, 30, 40]
+
+plt.subplot(1, 2, 2)
+plt.plot(x,y)
+
+plt.show()
+```
+
+subplot(row, column, plot)
+
+row는 가로 그래프의 수를 넣습니다. 이 경우에는 1개가 있고 column(세로는) 2개가 있습니다. 그리고 첫 번째 그래프는 첫 번째입니다. 그래서 plot 대개변수에는 1을 입력하고 두 번째는 2를 입력합니다.
+
+# super 제목
+제목인데 super라니, 무슨 말씀을 하시나요?
+
+...라고 불어 볼 수 있습니다.
+
+super는 최고라는 뜻을 가지고도 있지만 더 대단한 또는 더 위에 있다라는 뜻을 가지고도 있습니다.
+
+```
+supertitle("My graps")
+```
+
+supertitle은 2개 이상의 그래프에서 전체 제목입니다.
+
+# scatter
+점을 여러게 만들고 싶다면 scatter 메서드를 사용할 수 있습니다.
+
+scatter은 영어로 '튀다'라는 뜻을 가지고 있지만 '퍼져있다'라는 뜻고 가지고 있습니다.
+
+```
+plt.scatter([0, 1, 2, 3, 4, 5], [0, 10, 20, 30, 40, 50])
+plt.show()
+```
+
+대개변수는 다음이 전부입니다.
+
+1. color = "color" --- 점의 색깔
+2. c = ["red", "green"] --- 하나하나 점 색칠하기
+3. s = [1, 2, 4] --- 사이즈
+4. alpha = 0.5 --- 투명도 (0~1)
+
+# bar
+바를 만들기 위하여 barh 또는 barw 메서드를 사용할 수 있습니다.
+
+```
+plt.barh(["A", "B", "C"], [1, 2, 3])
+```
+
+대개변수는 다음과 같이 있습니다.
+
+1. color = "색깔이름" --- 바의 색깔
+2. width = 1 --- 가로 길이 (가로 바는 width 만 사용할 수 있고 세로바는 height만 사용할 수 있습니다)
+
+# historgrams
+historgrams는 통계에 자주 사용되는 그래프의 종류입니다. 바와 비슷하지만 붙어있습니다.
+
+historgrams는 hist() 메서드를 사용할 수 있습니다.
+
+```
+import matplotlib.pyplot as plt
+
+plt.hist(30, 40, 40, 43)
+plt.show()
+```
+
+# pie 그래프
+pie 그래프? pi 그래프?
+
+pie 그래프란 pie와 모양이 비슷하게 생긴 그래프를 뜻합니다.
+
+pie가 무엇인지 모르나요? pie는 파이입니다 (3.14159...가 아니고요! 이 숫자를 생각했다면 유식합니다).
+
+파이타트는 pie() 메서드를 사용할 수 잇습니다.
+
+```
+import matplotlib.pyplot as plt
+
+mylabels = ["Oranges", "Bananas", "Cherries", "Apples"]
+
+plt.pie([30, 10, 50, 10], labels = mylabels)
+plt.show()
+```
+
+대개변수:
+1. explode = [0.2, 0, 0] --- 터지다! (사실 아닙니다. 어떤 파이처트의 부분이 가운데에서 '터지'는 걸이를 뜻합니다.)
+2. shadow = True --- 그림자
+3. colors = "colorname"
+4. labels = ["Appple", "Banana"] --- 설명
+
+파이그래프의 재목은 label을 지정하고 legend()를 이용하여 정할 수 있습니다.
+
+```
+plt.pie([50, 30, 20], labels = ["Chrome", "Firefox", "Safari"])
+plt.legend(title = "Three most commonly used browsers")
+```
