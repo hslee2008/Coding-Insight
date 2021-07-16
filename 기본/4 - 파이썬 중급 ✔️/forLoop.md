@@ -14,6 +14,8 @@ for i in range(10): #10번 반복
 	print(i)
 ```
 
+range() 함수에 대한 더 자세한 조금 뒤 배우겠습니다.
+
 # for-else문
 if문에서 배웠던 else를 for문에서도 사용할 수 있습니다. for문 뒤에 쓴 else는 for문이 모두 실행되었을 때 실행하는 코드입니다. 따라서 후술할 break를 사용했을 경우에는 작동되지 않습니다.
 ```
@@ -96,3 +98,21 @@ print(i.next())
 iter() 함수를 사용하면 for 반복과 비슷한 이터러블을 만듭니다.
 
 next() 메서드를 사용하면 i의 값을 하나하나 돌려줍니다. 만일 더 이상 값이 없다면 에러를 만듭니다.
+
+# range()
+range()는 for 반복문을 사용할때 매우 유용합니다.
+
+rnage()는 숫자 리스트를 돌려주는 함수입니다.
+
+# range() 값
+range(start, stop, step)이 있습니다.
+
+start는 숫자의 시작입니다.
+stop은 숫자의 끝입니다
+step은 숫자들 간의 간격입니다.
+
+
+```
+for i in range(1, 10, 2):
+  print(i, end=" ")
+```
