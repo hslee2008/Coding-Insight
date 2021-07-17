@@ -116,6 +116,21 @@ wcwidth                           0.2.5
 wheel                             0.36.2
 ```
 
+# Pip 업그래이드
+PIP에서 어떤 파이썬 모듈을 업그래이드를 원한다면 끝에 --upgrade 또는 -U 옵션을 같이 실행하면 자동으로 파이썬 모듈이 업그래이드 됩니다.
+
+```
+pip install pygame --upgrade
+pip install pygame -U
+```
+
+PIP을 업그래이드하고 싶다면 다음과 같은 방법을 사용해야합니다.
+
+```
+pip install pip --upgrade
+pip install pip -U
+```
+
 # Pip 도움말
 PIP 커맨드에서 도움말을 찾기 위하여 pip라고 터미널에 치세요. 조금 뒤 PIP 도우말이 출력이 됩니다.
 
