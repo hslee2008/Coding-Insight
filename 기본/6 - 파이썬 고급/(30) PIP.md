@@ -22,6 +22,26 @@ Camelcase라는 모듈을 설치했습니다. 다음에 `pip uinstall camelcase`
 pip uninstall camelcase
 ```
 
+# PIP show
+어떤 PIP package에 대한 정보를 보기 위하여 `pip show <module>` 커맨드를 사용할 수 있습니다.
+
+```
+pip show pygame
+```
+
+위 커맨드를 실행하면 이름, 버전, 설명, 웹사이트, 작가 이름과 이메일, 라이선스, 설치된 장소, 그리고 이 모듈을 사용하기 위하여 어떤 환경이 필요한지 설명이 출력이됩니다.
+
+# PIP -v
+VERBOSE는 영어로 '말이 많은'을 뜻합니다. 코딩에서는 저금 더 설명을 준다라는 뜻을 가지고 있습니다.
+
+-v 옵션을 사용하면 조금 더 자세한 설명이 나옵니다.
+
+```
+pip -v show pygame
+
+pip -v list
+```
+
 # PIP list
 지금까지 설치된 모든 모듈을 보기 위하여 `pip list`라고 CMD에 입력하세요. 설치된 모든 모둘이 출력됩니다. 저는 다음과 같은 모듈이 설치 되었습니다.
 
@@ -94,4 +114,17 @@ virtualenv-clone                  0.5.4
 virtualenvwrapper-win             1.2.6
 wcwidth                           0.2.5
 wheel                             0.36.2
+```
+
+# Pip 도움말
+PIP 커맨드에서 도움말을 찾기 위하여 pip라고 터미널에 치세요. 조금 뒤 PIP 도우말이 출력이 됩니다.
+
+또는 pip 커맨드 다음에 -h 또는 --help 또는 help 옵션을 달면 아주 제사한 설명이 나옵니다.
+
+다음은 pip 도움말을 바을 수 있는 모든 커맨드입니다. 가장 상황에 맞는 커맨드를 사용하세요.
+```
+pip -h
+pip --help
+pip help
+pip
 ```
