@@ -49,7 +49,7 @@ print(json.dumps(someJson, indent=2, sort_keys=True))
 ```
 
 ### JSON 표현 방법
-JSON의 키와 값은 원래는 ':'로 표현이 됩니다. 키와 값과 다른 키와 값들은 ','로 분류가 됩니다. JSON에서 seperator 대개변수를 이용하여 저희만의 표현 방법을 설정해보겠습니다.
+JSON의 키와 값은 원래는 ':'로 표현이 됩니다. 키와 값과 다른 키와 값들은 ','로 분류가 됩니다. JSON에서 seperator 매개변수를 이용하여 저희만의 표현 방법을 설정해보겠습니다.
 
 ```
 print(json.dumps(someJson, seperator=(". ", "==>")))
