@@ -113,3 +113,25 @@ step은 숫자들 간의 간격입니다.
 for i in range(1, 10, 2):
   print(i, end=" ")
 ```
+
+
+# groupby()
+groubpy()는 리스트 값에서 그룹을 만드는 역할을 하는 매우 중요한 함수입니다.
+
+```
+import itertools
+
+mainList = itertools.groupby(["Hyunseung", "Hyunseung Lee", "Lee", "Lee"])
+mainDict = {}
+
+for key, group in mainList:
+  mainDict[key] = list(group)
+
+print(mainDict)
+```
+
+groupby() 메서드는 리스트에서 같은 값을 모아서 key(값)에 리스트를 저장합니다. 그래서 mainList 안에서 key와 group을 가지고 오고 mainDict에 key가 group의 리스트로 입력하면 잘 데이터가 정리가 됩니다.
+
+```
+{'Hyunseung': ['Hyunseung'], 'Hyunseung Lee': ['Hyunseung Lee'], 'Lee': ['Lee', 'Lee']}
+```
