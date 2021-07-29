@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>파이썬 팩토리 -- 입출력</title>
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="home.html">홈</a>
+  </div>
+  <div>
+    <button id="toggle"
+      onclick="if (document.querySelector('#contents').style.display!='none')
+      {document.querySelector('#contents').style.display='none'} else {document.querySelector('#contents').style.display = 'block'}">메뉴</button>
+    <div id="contents">
+    <h2>파이썬 강좌</h2>
+    <div id="chapt">
+      <h3>파이썬 시작</h3>
+      <p><a href="home.html">파이썬의 정의</a></p>
+      <p><a href="파이썬 정의.html">파이썬 다운로드와 사용 방법</a></p>
+      <p><a href="파이썬 입출력.html">파이썬 입출력</a></p>
+    </div>
+    </div>
+    <div id="everything">
+      <div id="explanation">
+        <h1 class="code-line" data-line-start=0 data-line-end=1><a id="_0"></a>출력</h1>
+        <h2 class="code-line" data-line-start=2 data-line-end=3><a id="__2"></a>출력의 기본</h2>
+        <p class="has-line-data" data-line-start="3" data-line-end="4">대부분의 프로그래밍 언어는 정보를 출력하는 것이 가능합니다. 출력하는 것이란 코딩 언어의
+          콘솔에 어떤 데이터 형식(숫자, 문자, …)을 쓰는 것을 말합니다. 저번 시간에 같이 파이썬 IDLE에 <code>print(&quot;Hello World&quot;)</code>라고 사용했드시
+          우리는 이번에는 <code>Hello World</code> 대신 <code>파이썬!</code>이라는 문자를 출력해보기 위하여
+          <code>print(&quot;파이썬!&quot;)</code>이라고 코드를 제작할 수 있습니다.</p>
+        <p class="has-line-data" data-line-start="5" data-line-end="6">“” 안에 원하는 것은 다 사용할 수 있습니다. 숫자, 영어, 한국어 등 다양하게 콘솔에
+          정보를 출력할 수 있습니다. 다음과 같이 다양한 정보를 출력해볼 수 있습니다.</p>
+        <pre><code class="has-line-data" data-line-start="8" data-line-end="14">print(&quot;Hello World&quot;)
+print(&quot;안녕하세요&quot;)
+print(5)
+print(&quot;5&quot;)
+print(&quot;!@#$&quot;)
+</code></pre>
+        <h2 class="code-line" data-line-start=15 data-line-end=16><a id="_END_15"></a>출력 END</h2>
+        <p class="has-line-data" data-line-start="16" data-line-end="17">또한, 파이썬은 <code>print()</code> 함수로 프린트를 하고 난 후
+          끝에는 무엇을 추가로 넣을지 정할 수 있습니다. 원래는 끝에 새로운 줄을 넣습니다. 다음과 같이 끝에 &quot;.&quot;이라는 문자를 붙일 수 있습니다.</p>
+        <pre><code class="has-line-data" data-line-start="19" data-line-end="21">print(&quot;안녕하세요&quot;, end=&quot;.&quot;)
+</code></pre>
+        <h2 class="code-line" data-line-start=22 data-line-end=23><a id="_SEP_22"></a>출력 SEP</h2>
+        <p class="has-line-data" data-line-start="23" data-line-end="24">프린트 함수에서 여러가지의 단어를 ’ '으로 연결하고 싶다면 다음과 같은 방법을
+          사용해도 됩니다. 이렇게 여러가지 정보를 제공하면 파이썬에서는 빈칸으로 연결합니다.</p>
+        <pre><code class="has-line-data" data-line-start="26" data-line-end="28">print(&quot;Hello&quot;, &quot;World&quot;)
+</code></pre>
+        <p class="has-line-data" data-line-start="29" data-line-end="30">만일 빈 칸 대신 다른 문자를 사용하고 싶다면 sep 안에서 원하는 정보를 제공을
+          하면 됩니다.</p>
+        <pre><code class="has-line-data" data-line-start="32" data-line-end="34">print(&quot;Hello&quot;, &quot;World&quot;, sep=&quot;|&quot;)
+</code></pre>
+        <hr>
+        <p class="has-line-data" data-line-start="36" data-line-end="37"><strong>배우지 않은 포인트</strong></p>
+        <p class="has-line-data" data-line-start="38" data-line-end="39">마지막으로 새로운 파일을 열여서 어떤 글을 쓰고 싶다면 file을 사용하면 됩니다.
+          writing.txt 대신 파일의 경로를 넣으면 되고 두 번째는 꼭 w 또는 a가 되어야 합니다. 그 이유는 파이썬 파일에 적을때 더 배울 것이지만 w는 write이고 a는 append로 파일을
+          수정해야하는 뜻입니다 (이형식은 파일에 쓰는 것으로 w또는 a만 됩니다).</p>
+        <pre><code class="has-line-data" data-line-start="41" data-line-end="43">print(&quot;Hello World&quot;, file=open(&quot;writing.txt&quot;, &quot;w&quot;))
+</code></pre>
+        <hr>
+        <h1 class="code-line" data-line-start=47 data-line-end=48><a id="_47"></a>입력</h1>
+        <p class="has-line-data" data-line-start="48" data-line-end="49">프로그래밍에서 정보를 입력한다는 것은 그 프로그램을 사용하는 사람이 어떠한 제공을
+          해준다면 그것을 읽는 행위를 뜻합니다. 예를 들어서 파이썬 콘솔에 &quot;암호는?: &quot;이라고 입력을 시키면 유저는 암호를 제시합니다. 그러면 만일 저장된 암호와 같다면 로그인을
+          허락해주고 그렇지 않다면 로그아웃 상태로 유지되는 것입니다.</p>
+        <p class="has-line-data" data-line-start="50" data-line-end="51">다음은 정보를 입력하면 그 똑같은 것을 다시 출력하는 코드입니다.</p>
+        <pre><code class="has-line-data" data-line-start="53" data-line-end="55">print(input(&quot;안녕?: &quot;))
+</code></pre>
+      </div>
+      </div>
+      <div id="quiz">
+        <span>파이썬에서 'python'을 정보를 출력하는 코드는?: </span>
+        <input placeholder="정답" id="quizI" type="text"/>
+        <button onclick="checkAnswer()" id="butt">정답 확인</button>
+      </div>
+      <script>
+        function checkAnswer() {
+          document.querySelector("#quizI").value.substring(0, 5) == "print" ? alert("맞았습니다") : alert("틀렸습니다. 힌트: 프린트")
+        }
+
+        document.getElementById("quizI").addEventListener('keypress', e => {
+          if (e.code == "Enter") {
+            document.getElementById("butt").click()
+          }
+        })
+      </script>
+  </body>
+</html>
