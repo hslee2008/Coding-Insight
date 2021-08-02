@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>파이썬 팩토리</title>
+    <link rel="icon" href="python-factory-logo.png" type="image/png">
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+
+      #title {
+        background-image:url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHl0aG9uJTIwY29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+        margin:0;
+        padding:0;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      button {
+        border-radius:50px;outline:none;border:none;padding:10px;
+      }
+    </style>
+  </head>
+  <body style="margin:0;">
+    <div style="margin:0;padding:0;">
+      <ul>
+        <li><a>홈</a></li>
+        <li><a>파이썬</a></li>
+        <li style="float:right;"><a>질문하기</a></li>
+        <li style="float:right;"><a>팀</a></li>
+      </ul>
+    </div>
+    <div>
+      <nav id="title">
+        <div id="main">
+          <h1 style="color:white;">안녕하세요</h1>
+          <br />
+          <h3 style="color:white;">저희는 파이썬 팩토리입니다</h3>
+        </div>
+      </nav>
+    </div>
+    <div style="text-align:center;margin:100px;background-color:#101010;border-style:solid;border-color:#101010;border-radius:50px;color:white;padding:50px;display:flex;">
+      <div>
+        <h2 style="font-size:50px;">파이썬 (Python)</h2>
+        <div style="font-size:14px;padding:50px;">
+          <p>
+            파이썬이라는 단어를 들어보신 적이 있나요? 만일 뱀의 종류 중 하나인 파이썬을 생각하셨다면 틀렸습니다!
+          </p>
+        </div>
+        <button onclick="alert('아직 준비가 되지 않았습니다.')">지금 파이썬 배우기</button>
+      </div>
+      <div style="margin:auto;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"/>
+      </div>
+    </div>
+    <footer style="background-color:#282A35; padding: 50px;text-align:center; color:white;">
+      "지식을 만드는 곳 - 파이썬 팩토리"
+    </footer>
+
+    <script>
+      document.querySelector("#main").style.padding = "200px";
+    </script>
+  </body>
+</html>
