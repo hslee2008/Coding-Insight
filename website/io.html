@@ -86,7 +86,7 @@
     </div>
 
     <div style="text-align: center;">
-      <h1 style="margin:auto;font-size:60px;">파이썬 설치 & 사용 방법 - Computer Science Lab (CSL) 4</h1>
+      <h1 style="margin:auto;font-size:60px;">파이썬 출ㄺ & 입력 - Computer Science Lab (CSL) 5</h1>
     </div>
 
     <br /><br /><br /><br />
@@ -105,8 +105,33 @@
         marginwidth="0" marginheight="0" allowfullscreen></iframe>
     </div>
 
-    <div style="background-color:#343;display:flex;color:white;padding:30px;">
-      <div style="padding:30px;">
+    <br /><br /><br /><br />
+
+    <div style="display:flex;background-color:#c2d7e9;padding:30px;">
+      <div>
+        <h1>출력 file</h1>
+        <p>파일의 내용을 바꾸려면 print()안에 file이라는 매개변수에 파일의 주소를 넣으면 됩니다.</p>
+
+        <code>
+        print("Hello World", file=open("writing.txt", "w"))
+        </code>
+
+        <p>open()은 파이썬에서 파일을 여는 코드입니다. 그 코드 안에 주소와 파일을 열 모드를 입력하면 됩니다.</p>
+
+        <p>파일의 주소를 복사하기 위해서 VSCode를 연 후 사이드 바에 있는 원하는 파일을 우클릭한 후 'Copy path` 버튼을 누르면 됩니다.</p>
+
+
+        <p>입력된 파일의 내용을 바꾸기 위해서 반드시 두 번쨰 매개변수에 'w' 또는 'a'를 입력해야 합니다. 'w'(writing)는 파일의 내용을 덮어 쓰는 것이며, 'a'(appending)는 파일의 내용 끝에 새로운 데이터를 더합니다.</p>
+      </div>
+      <div>
+        <img src="https://static01.nyt.com/images/2017/08/06/education/06WRITING_GIF/06WRITING_GIF-jumbo.gif" width="400px"/>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding:10px;">
+      <div style="padding:20px;">
         <h1>출력 sep</h1>
         <p>print() 안에 'Hello World'를 입력하면 똑같은 값이 콘설에 출력됩니다. 다른 방법은 'Hello'와 'World'를 입력해서 'Hello World'를 나태내 볼 수 있습니다.</p><br />
 
@@ -124,6 +149,33 @@
           print("Hello", "World", sep="|") # Hello|World가 출력됩니다.
         </code>
       </div>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding:20px;display:flex;">
+      <div style="padding-right:50px;">
+        <h1>입력</h1>
+        <p>프로그래밍에서 정보를 입력한다는 것은 사용자가 특정한 정보를 콘솔에 넣고 그것을 저장하는 작업을 뜻합니다.</p>
+
+        <p>예를 들면, 프로그램이 암호를 요구하여 사용자가 암호를 입력하면, 그 값을 먼저 프로그램이 변수에 저장합니다. 그 저장된 값이 계정의 암호와 일치하면 로그인이 가능해지고, 그렇지 않다면 프로그램이 다시 암호를 물어봅니다.</p>
+
+        <code>
+        if 'password' == input("암호: "):
+        print("로그인이 되었습니다.")
+        </code>
+
+        <p>위의 코드에서 if는 배울 내용입니다.</p>
+
+        <code>
+        print(input(">>>"))
+        </code>
+
+        <p>프로그램이 위의 코드에서 '>>>' 다음에 입력된 값을 콘솔에 출력합니다.</p>
+
+      </div>
+      <iframe src="https://trinket.io/embed/python/5b6a7a8b2b" width="100%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen></iframe>
     </div>
 
     </div>
