@@ -107,6 +107,84 @@
     </div>
 
     <br /><br /><br /><br />
+
+    <div style="text-align:center;font-size: 25px;">
+      <h3>데이터 형태란?</h3>
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+        <label for="question-1-answers-A">A) 데이터를 저장할 수 있는 곳 </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+        <label for="question-1-answers-B">B) 다양한 기호의 종류 </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+        <label for="question-1-answers-C">C) 다양한 기호 </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+        <label for="question-1-answers-D">D) 다른 정답 </label>
+      </div>
+
+      <br /><br />
+
+      <h3>데이터 형태를 찾을 수 있는 코드는?</h3>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+        <label for="question-2-answers-A">A) type() </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+        <label for="question-2-answers-B">B) typeof() </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+        <label for="question-2-answers-C">C) type </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+        <label for="question-2-answers-D">D) typeof </label>
+      </div>
+
+      <br /><br />
+
+      <h3>데이터 형태를 확인할 수 있는 방법은?</h3>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+        <label for="question-3-answers-A">A) isinstance() </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+        <label for="question-3-answers-B">B) instance() </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+        <label for="question-3-answers-C">C) is() </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+        <label for="question-3-answers-D">D) isdata() </label>
+      </div>
+
+      <br /><br />
+
+      <button id="butty"
+        onclick='if (document.getElementById("question-1-answer-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-A").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")}; if(document.getElementById("question-3-answers-A").checked) {alert("3번 맞았습니다!")} else {alert("3번 틀렸습니다")};'>정답
+        확인</button>
+    </div>
+
     <script src="menu.js"></script>
 </body>
 
