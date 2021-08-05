@@ -13,6 +13,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <p><a href="string.html">(8) 문자 </a></p>
 <p><a href="stringmethod1.html">(9) 문자 메서드1 </a></p>
 <p><a href="stringmethod2.html">(10) 문자 메서드2 </a></p>
+<p><a href="escapechar.html">(10) 이스케이프 문자 </a></p>
 
 `
 
