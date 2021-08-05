@@ -9,8 +9,8 @@ document.querySelector( "#menu" ).innerHTML = `
 <p><a href="io.html">(4) 입출력</a></p>
 <p><a href="variable.html">(5) 변수</a></p>
 <p><a href="datatype.html">(6) 데이터 형태</a></p>
-<p><a href="comment.html">(6) 주석 </a></p>
-
+<p><a href="comment.html">(7) 주석 </a></p>
+<p><a href="string.html">(8) 문자 </a></p>
 
 `
 
