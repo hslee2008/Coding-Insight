@@ -72,7 +72,7 @@ pip install pip --upgrade
 pip install pip -U
 ```
 
-# Pip 도움말
+# PIP 도움말
 PIP 커맨드에서 도움말을 찾기 위하여 pip이라고 터미널에 입력하세요. 조금 뒤 PIP 도움말이 출력이 됩니다.
 
 또는 pip 커맨드 다음에 -h 또는 --help 또는 help 옵션을 달면 아주 자세한 설명이 나옵니다.
