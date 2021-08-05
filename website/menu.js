@@ -14,6 +14,8 @@ document.querySelector( "#menu" ).innerHTML = `
 <p><a href="stringmethod1.html">(9) 문자 메서드1 </a></p>
 <p><a href="stringmethod2.html">(10) 문자 메서드2 </a></p>
 <p><a href="escapechar.html">(11) 이스케이프 문자 </a></p>
+<h1>파이썬 기본</h1>
+<p><a href="ascii.html">(12) 아스키 문자 </a></p>
 
 `
 
