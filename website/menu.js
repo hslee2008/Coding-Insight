@@ -16,6 +16,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <p><a href="escapechar.html">(11) 이스케이프 문자 </a></p>
 <h1>파이썬 기본</h1>
 <p><a href="ascii.html">(12) 아스키 문자 </a></p>
+<p><a href="boolean.html">(13) 분리언 </a></p>
 
 `
 
