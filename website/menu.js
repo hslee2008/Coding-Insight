@@ -39,6 +39,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <p id="men">
 
 <a href="dictionary.html">(21) 딕셔너리 </a>
+<a href="dictionarymethod.html">(22) 딕셔너리 메서드 </a>
 
 </p>
 
