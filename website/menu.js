@@ -17,6 +17,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <h1>파이썬 기본</h1>
 <p><a href="ascii.html">(12) 아스키 문자 </a></p>
 <p><a href="boolean.html">(13) 분리언 </a></p>
+<p><a href="number.html">(14) 숫자 </a></p>
 
 `
 
