@@ -53,3 +53,7 @@ button>a {
     display:none;
   }
 }
+
+#men > a {
+  margin:5px;
+}
