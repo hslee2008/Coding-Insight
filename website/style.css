@@ -52,6 +52,14 @@ button>a {
   #menu {
     display:none;
   }
+
+  img {
+    display:none;
+  }
+
+  iframe {
+    display:none;
+  }
 }
 
 #men > a {
