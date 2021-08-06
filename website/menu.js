@@ -34,6 +34,14 @@ document.querySelector( "#menu" ).innerHTML = `
 
 </p>
 
+<h1>파이썬 초급</h1>
+
+<p id="men">
+
+<a href="dictionary.html">(21) 딕셔너리 </a>
+
+</p>
+
 `
 
 document.querySelector( "#menu" ).style.textAlign = "center";
