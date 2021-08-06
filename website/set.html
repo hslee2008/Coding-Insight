@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="display:flex;background-color:#02081e;color:white;margin-top:50px;padding:30px;">
+        <div style="padding:10px;margin:10px;">
+          <h1>집합이란?</h1>
+          <p>
+            집합이란 어떤 객관적인 조건에 따라 나뉘어진 목록이라고 할 수 있습니다.<br /><br />
+
+            객관적이란 분명한 기준을 뜻합니다. 예를 들어서 키 큰 사람은 집합이 될 수 없습니다.<br /><br />
+
+            그 이유는 사람마다 키가 크다는 기준이 다르게 때문입니다.<br /><br />
+
+            예를 들어서 우리반에서 서울에 사는 친구들의 집합을 만들어 보겠습니다.
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/17ff96c784" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="text-align: center;">
+        <hr>
+        <br />
+        <h1 style="margin:auto;font-size:60px;">집합 - Computer Science Lab (CSL) 24</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="display:flex; padding:30px;background-color:black;color:white;">
+        <div style="padding:20px;">
+          <h1>집합의 특징</h1>
+          <p>
+            집합에는 순서가 없습니다.
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div>
+            <h1>집합에 값 더하고 빼기</h1>
+            <p>
+              집합 끝 부분에 값을 더하기 위하여 우리는 'add'라는 함수를 사용해 보겠습니다. CODE1 예시를 확인하세요.<br /><br />
+
+              집합을 붙이기 위하여 'update()'을 사용할 수 있습니다. CODE2에서 확인할 수 있습니다.<br /><br />
+
+              참고로 집합에서는 순서가 없기 때문에 항상 코드를 실행할 때 마다 집합에 있는 값들의 순서는 항상 바뀝니다.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/1c4e61a04e" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="padding:10px;display:flex;">
+        <div style="padding:20px;">
+          <h1>집합 값 제거</h1>
+          <p>
+            colorSet이라는 집합에 있는 값 중에서 'red'라는 아이템을 remove()를 사용해서 제거해 보겠습니다.<br /><br />
+
+            remove()라는 메서드를 사용하는데 만일 'red'라는 아이템이 집합 안에 존재하지 않다면 에러가 생깁니다.<br /><br />
+
+            에러가 생기지 않는 것을 원한다면 `discard` 메서드를 사용하세요.
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/62528e1b44" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="text-align:center;">
+        <h3> a = {"a", "b", "c", "d", "e"}<br />a.remove("f")<br />print(a)<br /><br /> 코드를 실행하면 출력되는 값은? </h3>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+          <label for="question-2-answers-A">A) {"a", "b", "c", "d", "e"} </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+          <label for="question-2-answers-B">B) {"a", "b", "c", "d", "e", "f"} </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+          <label for="question-2-answers-C">C) None </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+          <label for="question-2-answers-D">D) 에러 </label>
+        </div>
+
+        <br /><br />
+
+        <button id="butty"
+          onclick='if (document.getElementById("question-1-answers-D").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")};;'>정답
+          확인</button>
+      </div>
+
+      <div style="margin:10px;padding:10px;">
+        <button style="float:left;" onclick="window.location='tuple.html'">🡨 이전</button>
+        <button style="float:right;" onclick="window.location='setmethod.html'">다음 🡪</button>
+      </div>
+
+      <br /><br /><br /><br />
+    </div>
+  </div>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>
