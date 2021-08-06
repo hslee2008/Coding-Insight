@@ -19,6 +19,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <p><a href="boolean.html">(13) 분리언 </a></p>
 <p><a href="number.html">(14) 숫자 </a></p>
 <p><a href="operator.html">(15) 연산자 </a></p>
+<p><a href="numtype.html">(16) 숫자 종류 </a></p>
 
 `
 
