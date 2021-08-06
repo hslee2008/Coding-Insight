@@ -40,6 +40,7 @@ document.querySelector( "#menu" ).innerHTML = `
 
 <a href="dictionary.html">(21) 딕셔너리 </a>
 <a href="dictionarymethod.html">(22) 딕셔너리 메서드 </a>
+<a href="tuple.html">(23) 튜플 </a>
 
 </p>
 
