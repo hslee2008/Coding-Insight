@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="padding:10px;margin:20px;">
+    <div style="text-align: center;">
+      <h1 style="margin:auto;font-size:60px;">파이썬 리스트 메서드 2 - Computer Science Lab (CSL) 20</h1>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="background-color:black;display:flex;color:white; padding:30px;">
+      <div style="padding:20px;">
+        <h1>리스트 정리하기</h1>
+        <p>
+          리스트를 알파벳과 숫자 순서로 정리하기 위해서 'sort' 메서드를 사용할 수 있습니다 (CODE1)<br /><br />
+
+          리스트에서 알파벳과 숫자 순서를 거꾸로 정리하려면 sort 안에서 'reverse'의 값에 'True'를 입력하면 됩니다. (CODE2)<br /><br />
+
+          'reverse' 함수를 이용하여 리스트의 순서를 뒤집을 수도 있습니다. (CODE3)<br /><br />
+
+          저희가 저희만의 규칙을 정할 수 있습니다. CODE4를 보면 문자에서 소문자인 것부터 시작하여 대문자로 정리했습니다.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/44f3241dca" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="display:flex;background-color:#c2d7e9;padding:30px;">
+      <div>
+        <h1>append()</h1>
+        <p>
+          리스트 끝에 새로운 값을 더하기 위하여 우리는 'append()'를 사용해 보겠습니다.<br /><br />
+
+          list.append(item) 형태로 list 끝에 새로운 item을 더합니다.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/12cc090a48" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding:10px;display:flex;">
+      <div style="padding:20px;">
+        <h1>리스트 합치기</h1>
+        <p>
+          두 리스트를 더하여 새로운 리시트를 만들기 위하여 'extend'를 사용할 수 있습니다.<br /><br />
+
+          list1.extend(list2) 형태로 list1이 [list1과 list2]에 있는 아이템을 모두 합친 값을 그 변수 안에 저장하는 메서드입니다.
+        </p>
+      </div>
+      <<iframe src="https://trinket.io/embed/python3/7e53c5b5a9" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding:20px;">
+      <div style="padding-right:50px;">
+        <h1>리스트 비교하기</h1>
+        <p>
+          리스트가 만일 모두 다 숫자로만 이루어져 있다면 가장 큰 수와 가장 작은 수를 max()와 min()을 사용하여 알 수 있습니다.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/94a4a72417" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="margin:10px;padding:10px;">
+      <button style="float:left;" onclick="window.location='listmethod1.html'">🡨 이전</button>
+      <button style="float:right;" onclick="window.location='dictonary.html'">다음 🡪</button>
+    </div>
+
+    <br /><br /><br /><br />
+  </div>
+
+  <div style="text-align:center;">
+    <h3> ["Hello", "World"].reverse()와 같은 값은? </h3>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+      <label for="question-2-answers-A">A) ["Hello", "World"] </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+      <label for="question-2-answers-B">B) ["World", "Hello"] </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+      <label for="question-2-answers-C">C) None </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+      <label for="question-2-answers-D">D) "Hello World" </label>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <button id="butty"
+      onclick='if (document.getElementById("question-2-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")};'>정답
+      확인</button>
+
+      <br /><br /><br /><br />
+  </div>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>

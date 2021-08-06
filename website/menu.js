@@ -30,6 +30,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="nummethod.html">(17) 숫자 메서드 </a>
 <a href="list.html">(18) 리스트 </a>
 <a href="listmethod1.html">(19) 리스트 메서드 1 </a>
+<a href="listmethod2.html">(20) 리스트 메서드 2 </a>
 
 </p>
 
