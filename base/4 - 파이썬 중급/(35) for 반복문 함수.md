@@ -16,7 +16,7 @@ next() 메서드를 사용하면 i의 값을 하나하나 돌려줍니다. next(
 # range()
 range()는 for 반복문을 사용할 때 매우 유용합니다. range() 함수는 숫자로 구성된 리스트를 돌려주는 함수입니다.
 
-range(start, stop, step)이 있습니다.
+range(start, stop, step)가 있습니다.
 
 start는 숫자의 시작입니다.
 stop은 숫자의 끝입니다
@@ -43,7 +43,7 @@ for key, group in mainList:
 print(mainDict)
 ```
 
-groupby() 메서드는 리스트에서 같은 값을 모아서 key(값)에 리스트를 저장합니다. 그래서 mainList 안에서 key와 group을 가지고 오고 mainDict에 key가 group의 리스트로 입력하면 잘 데이터가 정리됩니다.
+groupby() 메서드는 리스트에서 같은 값을 모아서 key(값)에 리스트를 저장합니다. 그래서 mainList 안에서 key와 group을 가지고 오고 mainDict에 key가 group의 리스트로 입력하면 데이터가 잘 정리됩니다.
 
 ```
 {'Hyunseung': ['Hyunseung'], 'Hyunseung Lee': ['Hyunseung Lee'], 'Lee': ['Lee', 'Lee']}
