@@ -20,6 +20,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <p><a href="number.html">(14) 숫자 </a></p>
 <p><a href="operator.html">(15) 연산자 </a></p>
 <p><a href="numtype.html">(16) 숫자 종류 </a></p>
+<p><a href="nummethod.html">(17) 숫자 메서드 </a></p>
 
 `
 
