@@ -18,6 +18,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <p><a href="ascii.html">(12) 아스키 문자 </a></p>
 <p><a href="boolean.html">(13) 분리언 </a></p>
 <p><a href="number.html">(14) 숫자 </a></p>
+<p><a href="operator.html">(15) 연산자 </a></p>
 
 `
 
