@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br />
+        <h1 style="margin:auto;font-size:60px;">특별한 변수 - Computer Science Lab (CSL) 31</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="display:flex; padding:30px;">
+        <div style="padding:20px;">
+          <h1>Global 변수</h1>
+          <p>
+            파이썬에서는 함수 안에 변수를 선언한다면 다른 곳에서 그 것을 사용하지 못합니다.<br /><br />
+
+            그 이유는 함수 안에서 선언된 변수는 그 함수만 특별히 가진 변수이기 때문입니다.<br /><br />
+
+            하지만 우리는 global 키워드를 이용할 수 있습니다.<br /><br />
+
+            global 다음에 변수 이름을 사용하고 변수 이름에 값을 선언하면 모든 코드에서 사용할 수 있는 코드로 변한다.
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/db03626a7c" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;background-color: black;color:white;"">
+          <div style=" padding:10px;">
+          <h1>Nonlocal 변수</h1>
+          <p>
+            NONLOCAL은 GLOBAL의 반대입니다.<br /><br />
+
+            GLOBAL은 그 파일 안에서 변수를 사용할 수 있지만 NONLOCAL은 그 함수, 루프, 클래스 안에서만 사용할 수 있습니다.<br /><br />
+
+            다시 말해, NONLOCAL은 그 들여써진 부분에서만 사용할 수 있습니다.
+
+            <pre>
+              <code>
+                def testing():
+                  nonlocal message
+                  message = "Hello World"
+                  print(message)
+
+                print(message)
+              </code>
+            </pre>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+  </div>
+
+  <div style="margin:10px;padding:10px;">
+    <button style="float:left;" onclick="window.location='functionhard.html'">🡨 이전</button>
+    <button style="float:right;" onclick="window.location='type.html'">다음 🡪</button>
+  </div>
+
+  <br /><br /><br /><br />
+  </div>
+  </div>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>
