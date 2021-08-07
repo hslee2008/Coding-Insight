@@ -60,6 +60,16 @@ button>a {
   iframe {
     display:none;
   }
+
+  #py, button, #vs, #git{
+    padding:10px !important;
+    margin:10px !important;
+  }
+
+  #main {
+    padding:10px !important;
+    margin-top:30px !important;
+  }
 }
 
 #men > a {
