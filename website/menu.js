@@ -52,6 +52,27 @@ document.querySelector( "#menu" ).innerHTML = `
 
 </p>
 
+<h1>파이썬 중급</h1>
+
+<p id="men">
+
+<a href="type.html">(32) 타입 지정</a>
+<a href="anonymousfunction.html">(33) 익명 함수</a>
+<a href="for.html">(34) for 반복문</a>
+<a href="fortype.html">(35) for 반복문 종류</a>
+<a href="forfunction.html">(36) for 반복문 함수</a>
+<a href="while.html">(37) while 반족문</a>
+<a href="oneliner.html">(38) 코드를 한 줄에</a>
+<a href="etcfunction.html">(39) 더 다양한 함수</a>
+<a href="module.html">(40) 모듈 기본</a>
+<a href="modulemaster.html">(41) 모듈 마스터하기</a>
+<a href="pythonmodule.html">(42) 파이썬 모듈</a>
+<a href="date.html">(43) 날짜</a>
+<a href="rnadom.html">(44) 랜덤</a>
+<a href="regex.html">(45) 정규식</a>
+
+</p>
+
 `
 
 document.querySelector( "#menu" ).style.textAlign = "center";
