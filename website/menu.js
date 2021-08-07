@@ -45,6 +45,10 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="setmethod.html">(25) 집합 메서드 </a>
 <a href="if.html">(26) 조건문 </a>
 <a href="ifmaster.html">(27) 조건문 마스터하기 </a>
+<a href="none.html">(28) None </a>
+<a href="function.html">(29) 함수 </a>
+<a href="functionhard.html">(30) 더 여려운 함수 내용 </a>
+<a href="specialvariable.html">(31) 특별한 변수 </a>
 
 </p>
 
