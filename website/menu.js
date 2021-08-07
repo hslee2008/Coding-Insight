@@ -44,6 +44,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="set.html">(24) 집합 </a>
 <a href="setmethod.html">(25) 집합 메서드 </a>
 <a href="if.html">(26) 조건문 </a>
+<a href="ifmaster.html">(27) 조건문 마스터하기 </a>
 
 </p>
 
