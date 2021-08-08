@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br />
+        <h1 style="margin:auto;font-size:60px;">모듈 마스터하기 - Computer Science Lab (CSL) 41</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="display:flex; padding:30px;background-color: #a4b63c;">
+        <div style="padding:20px;">
+          <h1>나만의 모듈 만들기</h1>
+          <p>
+            조금 더 재미있는 프로젝트 하나를 만들어 보겠습니다.<br /><br />
+
+            바로 우리만의 모듈을 만들어서 짝수인지 홀수인지 계산할 수 있는 함수를 만들 것입니다.<br /><br />
+
+            우리의 모듈 이름을 'OEM'(Odd, Even, Module)로 정하려면 파일의 이름은 'OEM'으로 만들면 됩니다.
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/a487c1d3fb" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>모듈 - __import__()</h1>
+            <p>
+              파이썬에서 `__import()__` 함수를 사용한다면 모듈을 불러올 수 있습니다.<br /><br />
+
+              <code>
+              os = __import__("os")<br /><br />
+              </code>
+
+              나만의 모듈은 모듈 파일의 주소를 적어주면 됩니다.<br /><br />
+
+              <code>
+              myMod = __import__(r"C:\main.txt")<br /><br />
+              </code>
+
+              파일의 주소는 vscode에서 파일에 우클릭하고 Copy path를 누르면 복사할 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>모듈 사용할 수 있는 범위</h1>
+            <p>
+              하지만 모듈을 사용하기 위하여 우리는 우리의 매인 코드를 저장한 곳의 파일에만 모듈 파일을 저장할 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+    </div>
+
+    <div style="margin:10px;padding:10px;">
+      <button style="float:left;" onclick="window.location='etcfunction.html'">🡨 이전</button>
+      <button style="float:right;" onclick="window.location='modulemaster.html'">다음 🡪</button>
+    </div>
+
+    <br /><br /><br /><br />
+  </div>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>
