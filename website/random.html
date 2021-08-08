@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="display:flex;margin-top:50px;padding:30px;background-color: #20acda;">
+    <div style="padding:10px;margin:10px;">
+      <h1>무작위의 정의</h1>
+      <p>
+        저희는 살면서 '무작위'라는 단어를 많이 접했습니다.<br /><br />
+
+        이 두 단어는 규칙 없이 아무거나 선택하는 것을 뜻합니다.<br /><br />
+
+        파이썬에서도 'random'이라는 모듈을 사용하면 무작위로 수를 선택할 수 있습니다.
+      </p>
+    </div>
+    <div style="margin:auto;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXZGVvGnbtF2jLOKPqulX9hEzoHF7BAq69A&usqp=CAU"
+        width="200px" />
+    </div>
+  </div>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br />
+        <h1 style="margin:auto;font-size:60px;">랜덤 - Computer Science Lab (CSL) 44</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="display:flex; padding:30px;background-color: #3caeb6;">
+        <div style="padding:20px;">
+          <h1>파이썬 무작위 모듈</h1>
+          <p>
+            'random' 모듈을 가지고 오겠습니다.<br /><br />
+
+            <code>
+              import random as R
+            </code>
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>무작위 - random()</h1>
+            <p>
+              무작위 모듈에서 숫자 0에서 1 사이의 소수(15자리까지)를 선택하여 출력하고 싶다면 random()을 사용하면 됩니다.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/71d6fef8dc" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>무작위 - 두 숫자 사이의 무작위 값 구하기</h1>
+            <p>
+              예를 들어서 1과 10 사이의 무작위 소수(14자리까지)를 선택하기 위하여 'uniform'(교복)을 사용할 수 있습니다.<br /><br />
+
+              uniform의 매개변수는 처음 숫자 이상(처음 숫자 포함)부터 두 번째 숫자까지(포함) 포함합니다.<br /><br /><br /><br />
+
+              일정한 숫자 사이에서 무작위로 정수를 선택하기 위하여 'randint'를 사용할 수 있습니다.<br /><br />
+
+              첫 번째 숫자와 두 분째 숫자 둘 다 포함됩니다.<br /><br /><br /><br />
+
+              두 메서드와 비슷하지만 숫자 간의 차이를 정할 수 있는 메서드 'randrange'는 첫 번째 숫자, 끝나는 숫자, 그리고 공차로 이루어져
+              있습니다.<br /><br /><br /><br />
+
+              마지막으로 'triangular'라는 메서드를 사용하면 어떤 범위 안에서의 정수를 랜덤으로 선택하는 것도 가능하지만 어떤 수가 나올 수 있는 확률을 높이는 방법도 있습니다.
+
+            </p>
+          </div>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/2c93c0b550" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen style="margin:auto;"></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="margin:10px;padding:10px;">
+        <button style="float:left;" onclick="window.location='date.html'">🡨 이전</button>
+        <button style="float:right;" onclick="window.location='regex.html'">다음 🡪</button>
+      </div>
+
+      <br /><br /><br /><br />
+    </div>
+    <script src="menu.js"></script>
+
+</body>
+
+</html>
