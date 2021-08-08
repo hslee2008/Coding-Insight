@@ -1,4 +1,4 @@
-# iter()와 next()
+# iter()와 \_\_next\_\_()
 iter() 메서드를 사용하면 for 반복문을 대신할 수 있습니다.
 
 ```
@@ -26,25 +26,4 @@ step은 숫자 간의 간격입니다.
 ```
 for i in range(1, 10, 2):
   print(i, end=" ")
-```
-
-# groupby()
-groubpy()는 리스트값에서 그룹을 만드는 역할을 하는 매우 중요한 함수입니다.
-
-```
-import itertools
-
-mainList = itertools.groupby(["Hyunseung", "Hyunseung Lee", "Lee", "Lee"])
-mainDict = {}
-
-for key, group in mainList:
-  mainDict[key] = list(group)
-
-print(mainDict)
-```
-
-groupby() 메서드는 리스트에서 같은 값을 모아서 key(값)에 리스트를 저장합니다. 그래서 mainList 안에서 key와 group을 가지고 오고 mainDict에 key가 group의 리스트로 입력하면 데이터가 잘 정리됩니다.
-
-```
-{'Hyunseung': ['Hyunseung'], 'Hyunseung Lee': ['Hyunseung Lee'], 'Lee': ['Lee', 'Lee']}
 ```
