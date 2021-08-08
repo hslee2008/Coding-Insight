@@ -154,7 +154,7 @@ mainTurty.clearstamps()
 mainTurty.speed("fastest")
 ```
 
-터틀의 속도는 0-10 정수로 정할 수 있습니다.
+터틀의 속도는 0-10 정수로 정할 수 있습니다. 참고로 속도를 0으로 하면 가장 빠른 속도로 움직입니다.
 
 fastest: 0
 fast: 10
@@ -216,8 +216,8 @@ screen.register_shape("그림 이름")
   - stretchfactor: (positive, positive)
   - outline: positive
   - tilt: number
-5. mainTurty.color() 메서드를 이용하면 터틀의 색깔을 바꿀 수 있습니다. 터틀이 동작을 나타내는 선의 색깔은 바뀌지 않습니다.
-6. mainTurty.pencolor() 터틀의 동작을 나타내는 선의 생깔이 바뀝니다.
+5. mainTurty.color() 메서드를 이용하면 터틀의 색깔을 바꿀 수 있습니다. 하지만 터틀이 동작을 나타내는 선의 색깔은 바뀌지 않습니다.
+6. mainTurty.pencolor() 터틀의 동작을 나타내는 선의 색깔이 바뀝니다.
 7. 도형을 그리기 전에 begin_fill() 메서드를 사용하면 그림 안의 생깔을 바꿀 수 있습니다. 색칠되는 색은 터틀의 생깔과 같습니다. 끝날때는 end_fill() 함수를 실행하면 됩니다.
 
 # 터틀 컨트롤
@@ -259,7 +259,7 @@ turty.exitonclick()
 
 # 터틀 이벤트
 ### 터틀 키보드
-우리가 게임을 만들고 싶다면 키보드에서 무슨 키가 눌렸는지 알아양합니다.
+우리가 게임을 만들고 싶다면 키보드에서 무슨 키가 눌렸는지 알아야합니다.
 
 1. 먼저, 만일 어떤 키가 눌려지면 실형할 함수를 만드세요. 예: `function whenKeyPressW(): mainTurty.forward(100)`
 2. 다음에 터틀에게 이 함수와 크보드 'w'와 연결을 시킵니다. 예: `screen.onkey(whenKeyPressW, "w"). 첫 번째 대개변수는 함수의 이름 그리고 두 분째는 키보드의 키 이름입니다. screen은 screen = turty.Screen()입니다.
