@@ -90,7 +90,8 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="class.html">(46) 클래서</a>
 <a href="classmethod.html">(47) 클래서 메서드</a>
 <a href="math.html">(48) 수학 - 통계</a>
-<a href="file.html">(49) 파일 다루는 작업 & 파일 읽기</a>
+<a href="file.html">(49) 파일 다루는 작업</a>
+<a href="filereading.html">(50) 파일 읽기</a>
 
 </p>
 
