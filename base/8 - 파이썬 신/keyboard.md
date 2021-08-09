@@ -23,7 +23,7 @@ key.press_and_relase("ctrl+alt+delete")
 ```
 
 # 키보드 기다리기
-어떤 키가 눌러지기 전까지 기다라는 방법도 있습니다.
+어떤 키가 눌러지기 전까지 기다리는 방법도 있습니다.
 
 ```
 import keyboard as key
