@@ -81,12 +81,16 @@ document.querySelector( "#menu" ).innerHTML = `
 
 </p>
 
+<br /><br /><br /><br />
+
 <h1>파이썬 고급</h1>
 
 <p id="men">
 
 <a href="class.html">(46) 클래서</a>
-<a href="math.html">(47) 수학 - 통계</a>
+<a href="classmethod.html">(47) 클래서 메서드</a>
+<a href="math.html">(48) 수학 - 통계</a>
+<a href="file.html">(49) 파일 다루는 작업 & 파일 읽기</a>
 
 </p>
 
