@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="display:flex;margin-top:50px;padding:30px;background-color: #ffe500;">
+    <div style="padding:10px;margin:10px;">
+      <h1>계승이란?</h1>
+      <p>
+        아마도 여러분의 부모님이 돌아가시면 모든 재산은 다 여러분 것이 될 것입니다.<br /><br />
+
+        이것을 계승이라고 합니다.<br /><br />
+
+        무언가를 물려받습니다.
+      </p>
+    </div>
+    <div style="margin: auto;">
+      <img src="https://pbs.twimg.com/profile_images/502406972453289985/AKdzcXPi.png" width="300px" />
+    </div>
+  </div>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br />
+        <h1 style="margin:auto;font-size:60px;">클래스 메서드 - Computer Science Lab (CSL) 47</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="display:flex; padding:30px;background-color: #3caeb6;">
+        <div style="padding:20px;">
+          <h1>파이썬에서 계승</h1>
+          <p>
+            클래스에서도 클래스와 클래스끼리 서로 함수와 변수를 주고받을 수 있습니다.
+          </p>
+        </div>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/e0b362c25c" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>계승 문제와 해결</h1>
+            <p>
+              하지만, 문제가 하나 있습니다.<br /><br />
+
+              우리가 Student 클래스에서 init 메서드를 선언했습니다.<br /><br />
+
+              이 선언한 값은 다 Person 클래스에서 name, age, 그리고 gender 값이 다 없어집니다.<br /><br />
+
+              이를 방지하기 위하여 Person.__init__(python_class, name, age, gender)를 init 메서드 안에 넣을 수 있습니다.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/8e1797ce82" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>super()</h1>
+            <p>
+              super() 함수를 이용하면 매우 더 편리할 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/e9f98d6de4" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>attribute</h1>
+            <p>
+              그렇다면 클래스에 있는 attribute(변수들)은 어떻게 바꾸고, 만들고, 삭제할까요?<br /><br />
+
+              먼저, 변수를 만드는 방법을 알아보겠습니다.<br /><br />
+
+              이미 만들어진 클래스의 변수들을 바꾸는 것이 가능합니다.<br /><br />
+
+              첫 번쨰 매개변수는 클래스 만들어진 변수 이름이고 두 번째는 변수 이름이고 세 번쨰는 변수의 새로운 값입니다.<br /><br />
+
+              클래스의 변수는 `클래스 이름.변수이름`으로 알 수 있지만 getattr() 메서드를 사용하는 방법도 있습니다.<br /><br />
+
+              세 번째로, 클래스가 어떤 변수를 가졌는지를 알 수 있는 함수는 hasattr()을 사용하면 에러를 피할 수 있습니다.<br /><br />
+
+              마지막으로, 클래스의 변수를 삭제할 수 있는 무서운 기능이 있는 delattr()을 사용하면 변수의 에러를 피하는 것이 가능합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/45cfee23ee" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+      <br /><br /><br /><br />
+
+      <div style="margin:10px;padding:10px;">
+        <button style="float:left;" onclick="window.location='class.html'">🡨 이전</button>
+        <button style="float:right;" onclick="window.location='math.html'">다음 🡪</button>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+  </div>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>

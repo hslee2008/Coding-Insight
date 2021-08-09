@@ -86,6 +86,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <p id="men">
 
 <a href="class.html">(46) 클래서</a>
+<a href="math.html">(47) 수학 - 통계</a>
 
 </p>
 
