@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="display:flex;margin-top:50px;padding:30px;background-color: #63b63c;">
+    <div style="padding:10px;margin:10px;">
+      <h1>클래스란?</h1>
+      <p>
+        여러분, 어떤 파일을 여러 번 복사 후 그 새로운 파일만 바꾸고 다음에는 또 새로운 것만 바꾸고 계속 이 과정을 거쳐 수많은 파일을 만든 적이 있나요?<br /><br />
+
+        클래스는 처음에 있던 파일과 비슷합니다.<br /><br />
+
+        클래스라는 것은 어떤 물건을 여러 번 효율적으로 만들 수 있게 합니다.<br /><br />
+
+        예를 들어 저희가 어떤 자동차에 대한 정보를 만들고 싶다면 클래스를 만들어서 무수히 많이 사용할 수 있습니다.<br /><br /><br /><br />
+
+        이제 이 자동차에 대한 정보를 얻기 위하여 MyCar()라고 객체를 만들 수 있습니다.<br />
+      </p>
+    </div>
+    <iframe src="https://trinket.io/embed/python3/725e856cf1" width="100%" height="356" frameborder="0" marginwidth="0"
+      marginheight="0" allowfullscreen style="margin:auto;"></iframe>
+  </div>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br />
+        <h1 style="margin:auto;font-size:60px;">랜덤 - Computer Science Lab (CSL) 44</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="display:flex; padding:30px;background-color: #3caeb6;">
+        <div style="padding:20px;">
+          <h1>__init__()</h1>
+          <p>
+            위에 있는 예시는 딕셔너리와 같은 역할을 하고 있습니다.<br /><br />
+
+            하지만 진짜 클래스를 만들기 위해서 __init__() 함수를 사용하는 방법도 있습니다.<br /><br />
+
+            저희가 그 클래스를 사용하기 위하여 MyCar()이라고 변수에 저장했습니다. 하지만 이제 __init__() 함수를 사용하면 변수를 만들 때 마다 함수처럼 매개변수를 선언할 수
+            있습니다.<br /><br />
+
+            <iframe src="https://trinket.io/embed/python3/1b58b7cdc3" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+            <br /><br />먼저, 클래스 안에서 def `__init__()`이라고 선언한 후 안에 self, name, age, gender 변수를 만들었습니다.<br /><br />
+
+            self는 항상 첫 번째에 있어야 합니다.<br /><br />
+
+            init 함수 안에 `sef.name = name` 같이 `p1.name`이라고 할 때 사용하는 값입니다.<br /><br />
+
+            그래서 저희가 `Person()`을 선언할 때 첫 번째 값은 `name`입니다.<br /><br />
+
+            name의 값을 알기 위해서 `p1.name`을 사용했습니다.
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>클래스 안에 함수</h1>
+            <p>
+              클래스 안에서 함수를 선언하면 항상 그 클래스를 사용할 때 이미 정해진 함수를 쉽게 다룰 수 있습니다.<br /><br />
+
+              예를 들어, 우리가 Person 클래스에서 그 사람의 이름을 출력하는 함수를 만들기 위해 Person 클래스 안에 새로운 함수를 만들겠습니다.<br /><br />
+
+              self 매개변수는 항상 존재해야 합니다.<br /><br />
+
+              그 이유는 처음에 선언된 값들이 다 Self 안에 저장되어 있기 때문입니다.<br /><br />
+
+              이름 'Hyunseung'은 self 안에 딕셔너리와 비슷하게 있어서 self.name을 사용하여 값을 찾을 수 있습니다.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/a1a4151531" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>self (자신!)</h1>
+            <p>
+              self는 영어로 '자신'을 뜻합니다.<br /><br />
+
+              클래스가 만들어질 때 모든 변수는 다 self 안에 저장합니다.<br /><br />
+
+              self는 클래스 안에 있는 딕셔너리입니다.<br /><br />
+
+              단, init 함수와 모든 클래스에 있는 함수는 만일 클래스의 데이터를 접근하고 싶다면 다 첫 번째 매개변수가 self의 이름이어야 합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="margin:10px;padding:10px;">
+        <button style="float:left;" onclick="window.location='regex.html'">🡨 이전</button>
+        <button style="float:right;" onclick="window.location='classmethod.html'">다음 🡪</button>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+  </div>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>

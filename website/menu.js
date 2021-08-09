@@ -73,6 +73,14 @@ document.querySelector( "#menu" ).innerHTML = `
 
 </p>
 
+<h1>파이썬 고급</h1>
+
+<p id="men">
+
+<a href="class.html">(46) 클래서</a>
+
+</p>
+
 `
 
 document.querySelector( "#menu" ).style.textAlign = "center";
