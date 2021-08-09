@@ -28,7 +28,7 @@ async 모듈을 사용하여 오래 걸리는 secondMain() 함수를 print("Fini
 import asyncio
 
 async def main():
-  print( end = "
+  print("Hello", end = "
   task" >")
   task = asyncio.create_task(secondMain())
   print("Finished")
@@ -43,7 +43,7 @@ asyncio.run(main())
 
 첫 번째는 'Hello World Finished'가 출력이 되지만 두 번째는 'Hello Finished World'가 출력이 됩니다.
 
-그 이유는 secondMain() 모듈이 실행되는 동안 Finshed가 출력이 되기 때문에 Finished가 먼저 출력이 됩니다.
+그 이유는 secondMain() 모듈이 실행되는 동안 Finshed가 출력이 되기 때문입니다.
 
 # AWAIT
 하지만, 오래 걸리는 함수가 끝날 때까지 기다리기 위하여 await 키워드를 사용할 수 있습니다.
@@ -59,13 +59,13 @@ async def main():
 
 위의 함수를 실행하면 Hello World Finished가 출력됩니다.
 
-그 이유는 오래 걸리지만 출력이 될 때까지 기다리기 때문입니다.
+그 이유는 오래 걸리는 함수라도 출력이 전부 될 때까지 기다리기 때문입니다.
 
 asyncio는 매우 신기한 특징을 가지고 있습니다.
 
 ```
 async def main():
-  print( end = "
+  print("Hello", end = "
   task" >")
   task = asyncio.create_task(secondMain())
   await asyncio.sleep(5)
@@ -74,9 +74,13 @@ async def main():
 
 위의 코드를 실행하면 Hello World가 출력되고 Finished가 출력이 됩니다.
 
+<<<<<<< HEAD
 그 이유는 create_task()의 함수는 컴퓨터의 코어에 자리가 있으면 바로 실행이 되기 때문입니다.
+=======
+그 이유는 create_task() 메서드는 두 개의 다른 코드를 동시에 실행시키는 특징을 가지고 있기 때문입니다.
+>>>>>>> 7ee7c24fc0e2750026f5f7e30d35104e8c5d9c2e
 
-하지만 몇 초 더 기다리는 코드가 있다면 바로 실행을 합니다.
+하지만 몇 초 기다리는 코드가 있다면 그 다음에 실행을 합니다.
 
 # 예시
 ```
@@ -108,8 +112,8 @@ async def main():
   print(returnVal)
 ```
 
-위의 코드에서는 새로운 함수를 만들고 2개의 create_task() 메서드를 그 안에 넣습니다. 다음에, 첫 번쨰로 만들어진 create_task()가 끝날 때 까지 기다립니다.
+바로 새로운 함수를 만들고 2개의 create_task() 메서드를 만든 후 task 1을 기다리면 됩니다.
 
-하지만 만일 await 하지 않고 바로 returnVal을 만들면 아직 가지고 오는 데 없는 값을 출력하니 코드에 버그가 있습니다.
+하지만 만일 await 하지 않고 바로 returnVal을 만들면 아직 없는 값을 출력하는 것이기 때문에 코드에 버그가 생깁니다.
 
 await을 하면 그 데이터를 기다리는데 printNum() 함수도 실행합니다.
