@@ -75,3 +75,8 @@ button>a {
 #men > a {
   margin:5px;
 }
+
+#menu {
+  width:70%;
+  margin:auto;
+}
