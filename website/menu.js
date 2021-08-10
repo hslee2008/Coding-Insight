@@ -99,6 +99,13 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="stringascode.html">(55) 문자를 코드처럼 실행하기</a>
 <a href="pip.html">(56) PIP</a>
 
+</p>
+
+<h1>파이썬 전문</h1>
+
+<p id="men">
+
+<a href="json.html">(57) JSON</a>
 
 </p>
 

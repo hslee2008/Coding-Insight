@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="display:flex;">
+    <div style="padding:10px;margin:20px;">
+      <div style="display:flex;margin-top:50px;">
+        <div style="margin:auto;text-align:center;">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU78Hj6DPZq_rVh1dyNTc4Lwt_Z05Vr-SRA&usqp=CAU" />
+        </div>
+        <div style="margin:auto;padding:50px;">
+          <h1>JSON</h1>
+          <p>
+            JSON이란 JavaScript Object Notation이라고 데이터를 정리하는 형태 중 하나입니다.<br /><br />
+
+            JSON은 자바스크립트와 대부분 같이 사용되지만 파이썬과도 사용이 가능합니다.<br /><br />
+
+            JSON을 사용하기 위해서 json이라는 모듈을 가지고 와야합니다. 먼저 모듈을 불러옵니다.<br /><br />
+
+            JSON은 딕셔너리와 비슷하지만 항상 문자는 "" 안에 있어야하고 문자, 딕셔너리, 리스트, 튜플, 숫자, 불리언, 그리고 None을 제외한 다른 데이터 형태 값을 사용하지 못합니다.
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="text-align: center;">
+        <hr>
+        <br />
+        <h1 style="margin:auto;font-size:60px;">JSON - Computer Science Lab (CSL) 57</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+
+      <div style="background-color:black;color:white;">
+        <div style="display:flex;width:100%;">
+          <div style="padding:30px;">
+            <h1>JSON을 딕셔너리로</h1>
+            <p>
+              json.loads() 메서드 안에 JSON 데이터 형태를 입력하면 파이썬 딕셔너리로 전환됩니다.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/0812d9740b" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <br /><br />
+
+      <hr />
+
+      <br /><br />
+
+      <div style="display:flex;background-color:#2C2C32;color:white;">
+        <div style="padding:30px;">
+          <h1>딕셔너리를 JSON으로</h1>
+          <p>
+            파이썬 딕셔너리를 JSON으로 전환하기 위하여 json.dumps() 메서드를 이용해보겠습니다.
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="display:flex;background-color:#2C2C32;color:white;">
+        <div style="padding:30px;">
+          <h1>JSON 포맷</h1>
+          <p>
+            JSON을 만들 때 다양한 설정이 있습니다.
+
+            <h2>들여쓰기</h2>
+            JSON의 들여쓰기의 값도 정할 수 있습니다. 들여쓰기란 TAB의 값을 말합니다.<br /><br />
+
+            <code>
+            print(json.dumps(someJson, indent=2))
+            </code>
+
+            <h2>알파벳 순서</h2>
+            JSON의 키에서 알파벳 순서대로 배열을 할 수 있습니다.<br /><br />
+
+            <code>
+            print(json.dumps(someJson, indent=2, sort_keys=True))
+            </code>
+
+            <h2>JSON 표현 방법</h2>
+            JSON의 키와 값은 딕셔너리처럼 ':'으로 나눌 수 있습니다.<br /><br />
+
+            JSON에서 키와 값들은 ','로 분류가 됩니다.<br /><br />
+
+            JSON에서 seperator 매개변수를 이용하여 우리만의 표현 방법을 설정해보겠습니다.<br /><br />
+
+            <code>
+            print(json.dumps(someJson, seperator=(". ", "==>")))
+            </code>
+
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="700" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen style="margin:auto;"></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="margin:10px;padding:10px;">
+        <button style="float:left;" onclick="window.location='pip.html'">🡨 이전</button>
+        <button style="float:right;" onclick="window.location='array.html'">다음 🡪</button>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+  </div>
+  <script src="menu.js">
+
+  </script>
+
+</body>
+
+</html>
