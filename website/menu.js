@@ -92,6 +92,8 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="math.html">(48) 수학 - 통계</a>
 <a href="file.html">(49) 파일 다루는 작업</a>
 <a href="filereading.html">(50) 파일 읽기</a>
+<a href="filewriting.html">(51) 파일 쓰기</a>
+
 
 </p>
 
