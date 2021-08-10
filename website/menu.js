@@ -95,6 +95,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="filewriting.html">(51) 파일 쓰기</a>
 <a href="etcfile.html">(52) 파일 만들기, 삭제하기, encoding</a>
 <a href="contextmanager.html">(53) 컨텍스트 매니저</a>
+<a href="datachange.html">(54) 데이터 형태 바꾸기</a>
 
 
 </p>
