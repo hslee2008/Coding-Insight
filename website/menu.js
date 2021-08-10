@@ -101,7 +101,7 @@ document.querySelector( "#menu" ).innerHTML = `
 
 </p>
 
-<h1>파이썬 전문</h1>
+<h1>파이썬 고수</h1>
 
 <p id="men">
 
