@@ -118,6 +118,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="array.html">(58) 정렬</a>
 <a href="arraytype.html">(59) 정렬 종류</a>
 <a href="arrayshape.html">(60) 정렬 모양</a>
+<a href="error.html">(61) 예외 처리</a>
 
 </p>
 
