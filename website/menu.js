@@ -21,7 +21,10 @@ document.querySelector( "#menu" ).innerHTML = `
 
 </p>
 
+<br /><br /><br /><br />
+
 <h1>파이썬 기본</h1>
+
 <p id="men">
 
 <a href="ascii.html">(12) 아스키 문자 </a>
@@ -37,6 +40,8 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="listmethod2.html">(20) 리스트 메서드 2 </a>
 
 </p>
+
+<br /><br /><br /><br />
 
 <h1>파이썬 초급</h1>
 
@@ -57,6 +62,8 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="specialvariable.html">(31) 특별한 변수 </a>
 
 </p>
+
+<br /><br /><br /><br />
 
 <h1>파이썬 중급</h1>
 
@@ -101,11 +108,14 @@ document.querySelector( "#menu" ).innerHTML = `
 
 </p>
 
+<br /><br /><br /><br />
+
 <h1>파이썬 고수</h1>
 
 <p id="men">
 
 <a href="json.html">(57) JSON</a>
+<a href="array.html">(58) 정렬</a>
 
 </p>
 
