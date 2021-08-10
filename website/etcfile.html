@@ -25,35 +25,29 @@
 
   <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
   <div id="menu"></div>
-  <div style="display:flex;margin-top:50px;padding:30px;background-color: black;color:white;">
-    <div style="padding:10px;margin:10px;">
-      <h1>파일에 쓰기</h1>
-      <p>
-        파일을 쓰는데는 두 가지 모드가 있습니다.<br /><br />
-
-        'w'는 그 파일 안에 있는 모든 내용을 새로운 텍스트로 바꾸고 'a'는 새로운 줄에 쓰고자 하는 텍스트를 더합니다.
-      </p>
-    </div>
-    <iframe src="https://trinket.io/embed/python3/890655e828" width="100%" height="356" frameborder="0" marginwidth="0"
-      marginheight="0" allowfullscreen></iframe>
-  </div>
   <div style="padding:10px;margin:20px;">
     <div style="padding:10px;margin:20px;">
       <div style="text-align: center;">
         <hr>
         <br />
-        <h1 style="margin:auto;font-size:60px;">파일 쓰기 - Computer Science Lab (CSL) 51</h1>
+        <h1 style="margin:auto;font-size:60px;">파일 만들기, 삭제하기, encoding - Computer Science Lab (CSL) 52</h1>
         <br />
         <hr>
       </div>
 
       <br /><br /><br /><br />
 
-      <div style="display:flex; padding:30px;background-color: #b1dab1;">
+      <div style="display:flex; padding:30px;background-color: #123a12;color:white;">
         <div style="padding:20px;">
-          <h1>write()</h1>
+          <h1>파일 만들기</h1>
           <p>
-            write() 메서드를 사용하면 파일에 새로운 내용을 쓸 수 있습니다.
+            파일을 만들기 위해서는 'x' 모드를 사용할 수 있습니다.<br /><br />
+
+            <code>
+              mainFile = open("example.txt", "x")<br /><br />
+            </code>
+
+            만일 example.txt 라는 파일이 이미 존재한다면 에러가 생기게 되고, 그렇지 않다면 example.txt 파일을 만들 수 있습니다.
           </p>
         </div>
       </div>
@@ -63,21 +57,47 @@
       <div>
         <div style="padding:20px;display:flex;">
           <div style="padding:10px;">
-            <h1>writelines()</h1>
+            <h1>파일 삭제하기</h1>
             <p>
-              writelines()는 문자로 구성된 리스트의 값들을 결합하고 파일에 씁니다.
+              파일을 삭제하려면 os라는 모듈을 사용해야 합니다.<br /><br />
+
+              <code>
+                import os<br /><br />
+
+                os.remove("example.txt") #첫 번째 방법<br />
+                os.rmdir("example.txt") #두 번째 방법 (ReMoveDIRectory)
+              </code>
             </p>
           </div>
         </div>
-        <iframe src="https://trinket.io/embed/python3/2fdad67c09" width="100%" height="356" frameborder="0"
-          marginwidth="0" marginheight="0" allowfullscreen></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>인코딩</h1>
+            <p>
+              키보드에 존재하지 않는 문자나 이모지를 읽기 위해서는 인코딩이라는 옵션을 사용해야 합니다.<br /><br />
+
+              파이썬은 기본적으로 Ascii Code 형식을 지원하지만 이모지의 경우는 UTF-8를 사용하기 때문에 인코딩을 사용하여 변환해줘야 합니다.<br /><br />
+
+              <code>
+                mainFile = open("example.txt", "r", encoding="UTF-8")<br /><br />
+
+                mainFile.close()
+              </code>
+            </p>
+          </div>
+        </div>
       </div>
 
       <br /><br /><br /><br />
 
       <div style="margin:10px;padding:10px;">
-        <button style="float:left;" onclick="window.location='filereading.html'">🡨 이전</button>
-        <button style="float:right;" onclick="window.location='etcfile.html'">다음 🡪</button>
+        <button style="float:left;" onclick="window.location='filewriting.html'">🡨 이전</button>
+        <button style="float:right;" onclick="window.location='contextmanager.html'">다음 🡪</button>
       </div>
     </div>
 
@@ -87,26 +107,26 @@
   </div>
 
   <div style="text-align:center;">
-    <h3> 파일 example.txt에는 'Hello'라는 내용이 있습니다. 만일 파일 example.txt에 ' World'라고 a모드를 사용하여 쓰면 코드 실행 후 파일의 내용은? </h3>
+    <h3> 파일 안에 이모지가 있습니다. 그 이모지가 들어있는 파일을 열 때 encoding은 어떤 값으로 넣어야 할까요? 모른다면 밑에 있는 값들 하나하나 다 실행해 보세요! </h3>
 
     <div>
       <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-      <label for="question-2-answers-A">A) "HelloWorld" </label>
+      <label for="question-2-answers-A">A) ASCII </label>
     </div>
 
     <div>
       <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-      <label for="question-2-answers-B">B) "Hello World" </label>
+      <label for="question-2-answers-B">B) UTF-8 </label>
     </div>
 
     <div>
       <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-      <label for="question-2-answers-C">C) "World" </label>
+      <label for="question-2-answers-C">C) ABC </label>
     </div>
 
     <div>
       <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-      <label for="question-2-answers-D">D) " World" </label>
+      <label for="question-2-answers-D">D) ENCODING123 </label>
     </div>
 
     <br /><br /><br /><br />

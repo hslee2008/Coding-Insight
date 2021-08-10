@@ -23,6 +23,7 @@ os.rmdir("example.txt") #두 번째 방법 (ReMoveDIRectory)
 파이썬은 기본적으로 Ascii Code 형식을 지원하지만 이모지의 경우는 UTF-8를 사용하기 때문에 인코딩을 사용하여 변환해줘야 합니다.
 
 ```
-with open("example.txt", "w", encoding="UTF-8") as mainFile:
-  mainFile.write("testing123")
+mainFile = open("example.txt", "r", encoding="UTF-8")
+
+mainFile.close()
 ```
