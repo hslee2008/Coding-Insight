@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <br /><br /><br />
+  <div style="display:flex;margin-left: 30px;">
+    <div style="padding:20px;">
+      <h1>정렬 치수란?</h1>
+      <p>
+        정렬의 치수란 정렬의 깊이입니다.
+
+        조금 더 쉽게 설명하자면, 정렬 안에 정렬이 몇 개 있는지의 값이 정렬의 치수라고 합니다.
+      </p>
+    </div>
+    <div style="margin:auto;">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/002/258/426/original/2d-array-outline-icon-item-from-set-dedicated-to-big-data-and-machine-learning-vector.jpg"
+        width="100px" />
+    </div>
+  </div>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br />
+        <h1 style="margin:auto;font-size:60px;">정렬 종류 - Computer Science Lab (CSL) 59</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="display:flex; padding:30px;background-color: rgb(241, 235, 176);">
+        <div style="padding:20px;">
+          <h1>Scalars - 0D</h1>
+          <p>
+            0-D 정렬은 값이 1개입니다. 0-D는 Scalars라고도 합니다.<br /><br />
+
+            <code>
+              arr = numpy.array(44)
+            </code>
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="padding:20px;display:flex;background-color: rgb(238, 158, 158);">
+        <div style="padding:10px;">
+          <h1>uni-dimension - 1D</h1>
+          <p>
+            1-D 정렬은 정렬이 1개입니다. 1-D는 uni-dimension이라고도 합니다.<br /><br />
+
+            <code>
+              arr = numpy.array([4, 44, 444])
+            </code>
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="padding:20px;display:flex;background-color: rgb(225, 158, 238);">
+        <div style="padding:10px;">
+          <h1>2-D와 x-D</h1>
+          <p>
+            2-D 정렬은 정렬 안에 또 다른 정렬이 있는 형태입니다.<br /><br />
+
+            정렬의 치수는 무한대로 늘어날 수 있습니다.<br /><br />
+
+            <code>
+              arr = numpy.array([ [4, 44, 444], [3, 3, 444] ])
+            </code>
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="padding:20px;display:flex;background-color: rgb(92, 98, 128);color:white;">
+        <div style="padding:10px;">
+          <h1>ndim</h1>
+          <p>
+            정렬의 치수를 알기 위하여 항상 numpy 정렬을 선언한 후 ndim이라는 값을 이용할 수 있습니다.<br /><br />
+
+            <code>
+            print(arr.ndim)
+            </code>
+
+            <br /><br />정렬을 만들 때 정렬의 치수를 지정할 수도 있습니다.<br /><br />
+
+            <code>
+            arr = numpy.array([4, 44, 444, 4444], ndmin=1000)
+            </code>
+          </p>
+        </div>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/7b99138f0e" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+      <br /><br /><br /><br />
+
+      <div style="padding:20px;display:flex;background-color: rgb(92, 98, 128);color:white;">
+        <div style="padding:10px;">
+          <h1>정렬 인덱싱</h1>
+          <p>
+            <h2>1-D</h2>
+            uni-dimension 정렬의 인덱싱은 리스트 인덱싱과 같습니다.<br /><br />
+
+            <h2>2-D</h2>
+            2-D는 정렬 안에 정렬이 있습니다. 그래서 첫 번째 정렬을 선택하고 그 정렬 안의 값을 선택하는 것이 가능합니다.<br /><br />
+
+            이와 같이 3-D는 3개의 수, 4-D는 4개의 수...를 입력하면 됩니다.
+          </p>
+        </div>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/4fe0b3d005" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+      <br /><br /><br /><br />
+
+      <div style="margin:10px;padding:10px;">
+        <button style="float:left;" onclick="window.location='array.html'">🡨 이전</button>
+        <button style="float:right;" onclick="window.location='arrayshape.html'">다음 🡪</button>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+  </div>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>
