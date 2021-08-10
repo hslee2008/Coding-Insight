@@ -61,7 +61,7 @@ button>a {
     display:none;
   }
 
-  #py, button, #vs, #git{
+  #py, button, #vs, #git, #trinket{
     padding:10px !important;
     margin:10px !important;
   }
