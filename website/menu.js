@@ -93,6 +93,8 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="file.html">(49) 파일 다루는 작업</a>
 <a href="filereading.html">(50) 파일 읽기</a>
 <a href="filewriting.html">(51) 파일 쓰기</a>
+<a href="etcfile.html">(52) 파일 만들기, 삭제하기, encoding</a>
+<a href="contextmanager.html">(53) 컨텍스트 매니저</a>
 
 
 </p>
