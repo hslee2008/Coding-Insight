@@ -97,6 +97,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="contextmanager.html">(53) 컨텍스트 매니저</a>
 <a href="datachange.html">(54) 데이터 형태 바꾸기</a>
 <a href="stringascode.html">(55) 문자를 코드처럼 실행하기</a>
+<a href="pip.html">(56) PIP</a>
 
 
 </p>
