@@ -116,6 +116,8 @@ document.querySelector( "#menu" ).innerHTML = `
 
 <a href="json.html">(57) JSON</a>
 <a href="array.html">(58) 정렬</a>
+<a href="arraytype.html">(59) 정렬 종류</a>
+<a href="arrayshape.html">(60) 정렬 모양</a>
 
 </p>
 
