@@ -121,6 +121,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="error.html">(61) 예외 처리</a>
 <a href="error2.html">(62) 에러</a>
 <a href="logging.html">(63) 로깅</a>
+<a href="mapandreduceandfilter.html">(64) map & reduce & filter</a>
 
 </p>
 
