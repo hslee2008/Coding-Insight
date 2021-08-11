@@ -126,6 +126,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="decorator.html">(66) 데코레이터</a>
 <a href="mydecorator.html">(67) 나만의 데코레이터 만들기</a>
 <a href="pythondecorator.html">(68) 파이썬 데코레이터</a>
+<a href="newline.html">(69) 새로운 줄</a>
 
 </p>
 
