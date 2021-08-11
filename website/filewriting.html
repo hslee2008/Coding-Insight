@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="display:flex;margin-top:50px;padding:30px;background-color: black;color:white;">
+    <div style="padding:10px;margin:10px;">
+      <h1>파일에 쓰기</h1>
+      <p>
+        파일을 쓰는데는 두 가지 모드가 있습니다.<br /><br />
+
+        'w'는 그 파일 안에 있는 모든 내용을 새로운 텍스트로 바꾸고 'a'는 새로운 줄에 쓰고자 하는 텍스트를 더합니다.
+      </p>
+    </div>
+    <iframe src="https://trinket.io/embed/python3/890655e828" width="100%" height="356" frameborder="0" marginwidth="0"
+      marginheight="0" allowfullscreen></iframe>
+  </div>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br />
+        <h1 style="margin:auto;font-size:60px;">파일 쓰기 - Computer Science Lab (CSL) 51</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="display:flex; padding:30px;background-color: #b1dab1;">
+        <div style="padding:20px;">
+          <h1>write()</h1>
+          <p>
+            write() 메서드를 사용하면 파일에 새로운 내용을 쓸 수 있습니다.
+          </p>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>writelines()</h1>
+            <p>
+              writelines()는 문자로 구성된 리스트의 값들을 결합하고 파일에 씁니다.
+            </p>
+          </div>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/2fdad67c09" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="margin:10px;padding:10px;">
+        <button style="float:left;" onclick="window.location='filereading.html'">🡨 이전</button>
+        <button style="float:right;" onclick="window.location='etcfile.html'">다음 🡪</button>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+  </div>
+
+  </div>
+
+  <div style="text-align:center;">
+    <h3> 파일 example.txt에는 'Hello'라는 내용이 있습니다. 만일 파일 example.txt에 ' World'라고 a모드를 사용하여 쓰면 코드 실행 후 파일의 내용은? </h3>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+      <label for="question-2-answers-A">A) "HelloWorld" </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+      <label for="question-2-answers-B">B) "Hello World" </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+      <label for="question-2-answers-C">C) "World" </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+      <label for="question-2-answers-D">D) " World" </label>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <button id="butty"
+      onclick='if (document.getElementById("question-2-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")};'>정답
+      확인</button>
+  </div>
+
+  <br /><br /><br /><br />
+
+  <script src="menu.js"></script>
+
+</body>
+
+</html>

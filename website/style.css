@@ -1,0 +1,81 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 30px;
+  font-size:20px;
+  background-color:#111;
+  color:white;
+  cursor:pointer;
+}
+
+button>a {
+  color: gold !important;
+  margin: 50px;
+  text-decoration: none;
+}
+
+#menu > p > a {
+  color:black;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+  #menu {
+    display:none;
+  }
+
+  img {
+    display:none;
+  }
+
+  iframe {
+    display:none;
+  }
+
+  #py, button, #vs, #git, #trinket{
+    padding:10px !important;
+    margin:10px !important;
+  }
+
+  #main {
+    padding:10px !important;
+    margin-top:30px !important;
+  }
+}
+
+#men > a {
+  margin:5px;
+}
+
+#menu {
+  display:none;
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="padding:10px;margin:20px;">
+    <div style="display:flex;background-color:#002140;color:white;margin-top:50px;padding:30px;">
+      <div>
+        <h1>출력이란?</h1>
+        <p>
+          대부분의 사람들은 '출력하다'라는 단어를 들으면 '프린트하다'를 생각합니다.<br /><br />
+
+          하지만 프로그래밍 언어에서의 '출력'이라는 용어는 특정한 정보를 디스플레이 장치에 보여주는 작업입니다.<br /><br />
+
+          파이썬에서 'Hello World'라는 데이터를 출력하는 코드를 작성하고 실행하면, 콘솔에 그 단어가 똑같이 나타납니다.<br /><br />
+
+          <code>
+            print("Hello World")<br />
+            print("안녕하세요")<br />
+            print("5")<br />
+            print("!@#$")<br />
+          </code>
+        </p>
+      </div>
+      <div style="margin:auto;">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVKZTiJlWp0WYkrgiVMQGA2HJyR2pQP3NRg&usqp=CAU" />
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="text-align: center;">
+      <hr>
+      <br />
+      <h1 style="margin:auto;font-size:60px;">파이썬 출력 & 입력 - Computer Science Lab (CSL) 4</h1>
+      <br />
+      <hr>
+    </div>
+
+    <br /><br /><br /><br />
+
+
+    <div style="background-color:black;display:flex;color:white; padding:30px;">
+      <div style="padding:20px;">
+        <h1>출력 end</h1>
+        <p>파이썬은 `print()` 함수로 프린트를 하고 난 후, 괄호 안에 있는 데이터 값 끝에는 무엇을 추가로 넣을지 정할 수 있습니다.</p>
+
+        <p>예를 들면, `print("Hello World")`에서 출력된 데이터 끝에 '.'을 붙여서 콘솔에 "Hello World."이 나타나게 할 수 있습니다.</p>
+
+        <p>옆에있는 코드를 바꾸고 삼각형 버튼을 눌러서 코드를 실행하세요!</p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/62e887bbca" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="display:flex;background-color:#c2d7e9;padding:30px;">
+      <div>
+        <h1>출력 file</h1>
+        <p>파일의 내용을 바꾸려면 print()안에 file이라는 매개변수에 파일의 주소를 넣으면 됩니다.</p>
+
+        <code>
+          print("Hello World", file=open("writing.txt", "w"))
+        </code>
+
+        <p>open()은 파이썬에서 파일을 여는 코드입니다. 그 코드 안에 주소와 파일을 열 모드를 입력하면 됩니다.</p>
+
+        <p>파일의 주소를 복사하기 위해서 VSCode를 연 후 사이드 바에 있는 원하는 파일을 우클릭한 후 'Copy path` 버튼을 누르면 됩니다.</p>
+
+
+        <p>입력된 파일의 내용을 바꾸기 위해서 반드시 두 번째 매개변수에 'w' 또는 'a'를 입력해야 합니다. 'w'(writing)는 파일의 내용을 덮어 쓰는 것이며, 'a'(appending)는 파일의
+          내용 끝에 새로운 데이터를 더합니다.</p>
+      </div>
+      <div>
+        <img src="https://static01.nyt.com/images/2017/08/06/education/06WRITING_GIF/06WRITING_GIF-jumbo.gif"
+          width="400px" />
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding:10px;">
+      <div style="padding:20px;">
+        <h1>출력 sep</h1>
+        <p>print() 안에 'Hello World'를 입력하면 똑같은 값이 콘솔에 출력됩니다. 다른 방법은 'Hello'와 'World'를 입력해서 'Hello World'를 나타나게 해 볼 수
+          있습니다.</p><br />
+
+        <code>
+          print("Hello World")
+          print("Hello", "World") # 'Hello World'가 출력됩니다.
+        </code>
+
+        <p>만일 단어들 사이에 빈 칸 대신 다른 문자를 넣고 싶다면 매개변수인 sep="" 안에 그 문자를 입력하면 됩니다.</p><br />
+
+        <p>예를 들어서 print("Hello", "World")에서 "Hello|World"가 출력되게 하기 위하여 print("Hello", "World", sep="|")를 실행하면 됩니다.</p>
+        <br />
+
+        <code>
+          print("Hello", "World", sep="|") # Hello|World가 출력됩니다.
+        </code>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding:20px;display:flex;">
+      <div style="padding-right:50px;">
+        <h1>입력</h1>
+        <p>프로그래밍에서 정보를 입력한다는 것은 사용자가 특정한 정보를 콘솔에 넣고 그것을 저장하는 작업을 뜻합니다.</p>
+
+        <p>예를 들면, 프로그램이 암호를 요구하여 사용자가 암호를 입력하면, 그 값을 먼저 프로그램이 변수에 저장합니다. 그 저장된 값이 계정의 암호와 일치하면 로그인이 가능해지고, 그렇지 않다면 프로그램이
+          다시 암호를 물어봅니다.</p>
+
+        <code>
+          if 'password' == input("암호: "):
+          print("로그인이 되었습니다.")
+        </code>
+
+        <p>위의 코드에서 if는 배울 내용입니다.</p>
+
+        <code>
+          print(input(">>>"))
+        </code>
+
+        <p>프로그램이 위의 코드에서 '>>>' 다음에 입력된 값을 콘솔에 출력합니다.</p>
+
+      </div>
+      <iframe src="https://trinket.io/embed/python/5b6a7a8b2b" width="100%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen></iframe>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="margin:10px;padding:10px;">
+      <button style="float:left;" onclick="window.location='vscode.html'">🡨 이전</button>
+      <button style="float:right;" onclick="window.location='variable.html'">다음 🡪</button>
+    </div>
+
+    <br /><br /><br /><br /><br /><br />
+
+    <div style="text-align:center;font-size: 25px;">
+      <h3>출력이란?</h3>
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+        <label for="question-1-answers-A">A) 종이에 프린트하기 </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+        <label for="question-1-answers-B">B) 정보를 콘솔에 나타나게 만들기 </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+        <label for="question-1-answers-C">C) 사용자가 정보를 입력하면 변수에 저장하기 </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+        <label for="question-1-answers-D">D) 다른 정답 </label>
+      </div>
+
+      <br /><br />
+
+      <h3>파이썬에서 프린트를 어떻게 할까요?</h3>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+        <label for="question-2-answers-A">A) print "정보" </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+        <label for="question-2-answers-B">B) puts("정보") </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+        <label for="question-2-answers-C">C) console.log("정보") </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+        <label for="question-2-answers-D">D) print("정보") </label>
+      </div>
+
+      <br /><br />
+
+      <h3>프린트 끝에 다른 데이터를 붙여서 어떻게 출력 할까요?</h3>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+        <label for="question-3-answers-A">A) print("정보", end="") </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+        <label for="question-3-answers-B">B) puts("정보", end="") </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+        <label for="question-3-answers-C">C) print("정보") <- end="" </label> </div> <div>
+            <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+            <label for="question-3-answers-D">D) print("정보", theEnd="") </label>
+      </div>
+
+      <br /><br />
+
+      <h3>파일의 내용을 어떻게 프린트 함수를 사용하여 바꿀까요?</h3>
+
+      <div>
+        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+        <label for="question-4-answers-A">A) print("정보", file="file.txt") </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+        <label for="question-4-answers-B">B) print("정보", file=open("file.txt", "w")) </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+        <label for="question-4-answers-C">C) print("정보", file=open("file.txt", "r")) </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+        <label for="question-4-answers-D">D) print("정보", file=open("file.txt", "python")) </label>
+      </div>
+
+      <br /><br />
+
+      <h3>파이썬에서 입력을 어떻게 받을까요? </h3>
+
+      <div>
+        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
+        <label for="question-5-answers-A">A) input() </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
+        <label for="question-5-answers-B">B) print() </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
+        <label for="question-5-answers-C">C) end() </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
+        <label for="question-5-answers-D">D) in() </label>
+      </div>
+
+
+      <br /><br />
+
+      <button id="butty"
+        onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-D").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")}; if(document.getElementById("question-3-answers-A").checked) {alert("3번 맞았습니다!")} else {alert("3번 틀렸습니다")}; if(document.getElementById("question-4-answers-B").checked) {alert("4번 맞았습니다 :)")} else {alert("4번 틀렸습니다")}; if(document.getElementById("question-5-answers-A").checked) {alert("5번 맞았습니다 :o")} else {alert("5번 틀렸습니다")};'>정답
+        확인</button>
+    </div>
+
+
+
+    <br /><br /><br /><br />
+
+
+  </div>
+
+  <script>
+
+  </script>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>

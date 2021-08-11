@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>파이썬 팩토리</title>
+  <link rel="icon" href="img/py.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin:0;padding:0;">
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="python.html">파이썬</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new">질문하기</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/discussions/1">토의</a></li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory/security/policy">정책</a>
+      </li>
+      <li style="float:right;"><a href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+
+  <button style="background-color:white;color:black;width:100%;height:5px;" id="butty"> 메뉴 </button>
+  <div id="menu"></div>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="padding:10px;margin:20px;">
+        <div style="text-align: center;">
+          <hr>
+          <br />
+          <h1 style="margin:auto;font-size:60px;">파이썬 데코레이터 - Computer Science Lab (CSL) 68</h1>
+          <br />
+          <hr>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div style="display:flex; padding:30px;background-color: rgb(250, 199, 199);">
+          <div style="padding:20px;">
+            <h1>@mydecorator</h1>
+            <p>
+              다음과 같은 클래스를 만들어 보겠습니다.<br /><br />
+
+              <pre>
+                <code>
+                  class Teacher:
+                    def __init__(self, name, subjectTeaching):
+                      self.name = name
+                      self.subjectTeaching = subjectTeaching
+
+                    def name(self):
+                      return self.name
+                </code>
+              </pre>
+
+              위의 클래스에서 선생님의 이름을 알기 위하여 `name()`을 사용해야 합니다.<br /><br />
+
+              하지만 @property를 사용한다면 `name`을 사용할 수 있습니다.<br /><br />
+
+              그래서 이 코드를 함수 앞에 넣으면 그 함수는 이제 클래스에서 변수가 됩니다.<br /><br />
+
+              <pre>
+              @property
+              def name(self):
+                return self.name
+              </pre>
+
+              <br />그리고 그 값을 바꿀 수도 있습니다.<br /><br />
+
+              <pre>
+              @name.setter #name 함수의 값을 정하는 새로운 함수를 만들겠습니다.
+              def name(self, val):
+                self.name = val
+              </pre>
+
+              다음과 같은 코드를 실행할 수 있습니다.<br /><br />
+
+              <pre>
+              myFavTeacher = Teacher("MR JAY")
+              print(myFavTeacher.name)
+              myFavTeacher.name = 'MS GOULD'
+              print(myFavTeacher.name)
+              </pre>
+
+              또 값을 지울 수도 있습니다.<br /><br />
+
+              <pre>
+              @name.deleter
+              def name(self, val):
+                print('삭제하겠습니다….)
+
+                del self.name
+              </pre>
+            </p>
+          </div>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div style="display:flex; padding:30px;background-color: rgb(199, 217, 250);">
+          <div style="padding:20px;">
+            <h1>@classmethod</h1>
+            <p>
+              클래스 값을 메서드로 바꿀 수도 있습니다. 하지만 이 코드 뒤에 나오는 함수에서 self는 항상 __init__() 밖에 있는 변수들입니다.<br /><br />
+
+              그래서 __init__() 안에 있는 변수는 다음 함수에서 존재하지 않습니다.
+            </p>
+          </div>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/25a3cc23d1" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+        <br /><br /><br /><br />
+
+        <div style="display:flex; padding:30px;background-color: rgb(199, 217, 250);">
+          <div style="padding:20px;">
+            <h1>@staticmethod</h1>
+            <p>
+              다음에 나오는 함수는 클래스 안에서만 함수 또는 변수를 사용할 수 있습니다.
+
+              만일 클래스 밖에서 사용했다면 에러가 생길 것입니다.
+            </p>
+          </div>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/916a1d2442" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+        <br /><br /><br /><br />
+
+        <div style="margin:10px;padding:10px;">
+          <button style="float:left;" onclick="window.location='mydecorator.html'">🡨 이전</button>
+          <button style="float:right;" onclick="window.location='newline.html'">다음 🡪</button>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+  </div>
+  <script src="menu.js"></script>
+
+</body>
+
+</html>
