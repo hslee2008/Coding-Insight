@@ -122,6 +122,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="error2.html">(62) 에러</a>
 <a href="logging.html">(63) 로깅</a>
 <a href="mapandreduceandfilter.html">(64) map & reduce & filter</a>
+<a href="zlib.html">(65) ZLIB</a>
 
 </p>
 
