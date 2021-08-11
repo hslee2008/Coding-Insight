@@ -125,6 +125,7 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="zlib.html">(65) ZLIB</a>
 <a href="decorator.html">(66) 데코레이터</a>
 <a href="mydecorator.html">(67) 나만의 데코레이터 만들기</a>
+<a href="pythondecorator.html">(68) 파이썬 데코레이터</a>
 
 </p>
 
