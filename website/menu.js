@@ -120,6 +120,7 @@ const menu = `
 <a href="error.html">(61) &#50696;&#50808; &#52376;&#47532;</a>
 <a href="error2.html">(62) &#50640;&#47084;</a>
 <a href="logging.html">(63) &#47196;&#44613;</a>
+<br /><br />
 <a href="mapandreduceandfilter.html">(64) map & reduce & filter</a>
 <a href="zlib.html">(65) ZLIB</a>
 <a href="decorator.html">(66) &#45936;&#53076;&#47112;&#51060;&#53552;</a>
@@ -134,6 +135,7 @@ const menu = `
 
 <a href="newline.html">(69) &#49352;&#47196;&#50868; &#51460;</a>
 <a href="beedongee.html">(70) &#48708;&#46041;&#44592;</a>
+<a href="asyncio.html">(71) asyncio</a>
 
 
 </p>

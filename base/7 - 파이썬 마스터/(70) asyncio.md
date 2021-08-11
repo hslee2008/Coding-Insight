@@ -3,14 +3,12 @@
 import asyncio
 
 async def main():
-  print("Hello", end = "
-  await" >")
+  print("Hello")
   await secondMain()
   print("Finished")
 
 async def secondMain():
-  print("World
-  await" >")
+  print("World")
   await asyncio.sleep(1)
 
 asyncio.run(main())
@@ -28,14 +26,12 @@ async 모듈을 사용하여 오래 걸리는 secondMain() 함수를 print("Fini
 import asyncio
 
 async def main():
-  print("Hello", end = "
-  task" >")
+  print("Hello")
   task = asyncio.create_task(secondMain())
   print("Finished")
 
 async def secondMain():
-  print("World
-  await" >")
+  print("World")
   await asyncio.sleep(1)
 
 asyncio.run(main())
