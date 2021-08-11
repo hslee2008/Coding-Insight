@@ -123,7 +123,8 @@ document.querySelector( "#menu" ).innerHTML = `
 <a href="logging.html">(63) 로깅</a>
 <a href="mapandreduceandfilter.html">(64) map & reduce & filter</a>
 <a href="zlib.html">(65) ZLIB</a>
-<a href="decorator.html">(57) 데코레이터</a>
+<a href="decorator.html">(66) 데코레이터</a>
+<a href="mydecorator.html">(67) 나만의 데코레이터 만들기</a>
 
 </p>
 
