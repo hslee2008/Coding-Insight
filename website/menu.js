@@ -132,9 +132,6 @@ document.querySelector( "#menu" ).innerHTML = `
 
 `
 
-document.querySelector( "#menu" ).style.textAlign = "center";
-document.querySelector( "#menu" ).style.display = "none";
-
 document.querySelector( "#butty" ).addEventListener( 'click', () => {
   if ( document.querySelector( "#menu" ).style.display == "none" ) {
     document.querySelector( "#menu" ).style.display = "block"

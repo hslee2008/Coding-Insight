@@ -77,6 +77,5 @@ button>a {
 }
 
 #menu {
-  width:70%;
-  margin:auto;
+  display:none;
 }
