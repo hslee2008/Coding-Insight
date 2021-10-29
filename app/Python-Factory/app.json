@@ -1,7 +1,7 @@
 {
   "name": "Python-Factory",
   "slug": "Python-Factory",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "orientation": "portrait",
   "icon": "./assets/icon.png",
   "splash": {
@@ -16,7 +16,8 @@
     "**/*"
   ],
   "ios": {
-    "supportsTablet": true
+    "supportsTablet": true,
+    "bundleIdentifier": "com.hyunseung1005.PythonFactory"
   },
   "android": {
     "adaptiveIcon": {

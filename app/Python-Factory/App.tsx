@@ -1,11 +1,11 @@
-import React, { useRef, useState, useEffect } from "react";
-import { FAB, IconButton, ActivityIndicator } from "react-native-paper";
+import React, { useRef, useState } from "react";
+import { Banner, IconButton, ActivityIndicator } from "react-native-paper";
 import {
   View,
   Linking,
   DrawerLayoutAndroid,
   StatusBar,
-  Dimensions,
+  Image,
 } from "react-native";
 import { WebView } from "react-native-webview";
 import Settings, { setting } from "./src/setting.js";
@@ -13,6 +13,102 @@ import Settings, { setting } from "./src/setting.js";
 function useForceUpdate() {
   const [, setValue] = useState(0);
   return () => setValue((value) => value + 1);
+}
+
+function BANN(props: any) {
+  return (
+    <Banner
+      visible={props.fab}
+      style={{ position: "absolute", width: "100%" }}
+      actions={[
+        {
+          label: "GitHub",
+          onPress: () =>
+            Linking.openURL(
+              "https://github.com/HyunseungLee-Travis/Coding-Insight"
+            ),
+        },
+        {
+          label: "YouTube",
+          onPress: () =>
+            Linking.openURL(
+              "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+            ),
+        },
+        {
+          label: "Close",
+          onPress: () => props.setFab(false),
+        },
+      ]}
+      icon={({ size }) => (
+        <Image
+          source={{
+            uri: "https://www.coding-insight.com/py.png",
+          }}
+          style={{
+            width: size,
+            height: size,
+          }}
+        />
+      )}
+    >
+      Learn more about us!
+    </Banner>
+  );
+}
+
+function Bar(props: any) {
+  return (
+    <View
+      style={{
+        flexDirection: "row",
+        justifyContent: "space-evenly",
+        flex: 0.08,
+        backgroundColor: "black",
+      }}
+    >
+      <IconButton icon="undo" onPress={props.goback} color="white" />
+      <IconButton icon="redo" onPress={props.goforward} color="white" />
+      <IconButton
+        icon={
+          !props.webLoading
+            ? "reload"
+            : () => <ActivityIndicator color="white" size="small" />
+        }
+        onPress={props.reload}
+        color="white"
+      />
+      <IconButton
+        icon="chat"
+        disabled={props.link == "https://www.coding-insight.com/chat.html"}
+        onPress={() => {
+          props.setLink("https://www.coding-insight.com/chat.html");
+          props.forceUpdate();
+        }}
+        onLongPress={() => {
+          Linking.openURL("https://www.coding-insight.com/chat.html");
+        }}
+        color="white"
+      />
+      <IconButton
+        icon="home"
+        disabled={props.link == "https://www.coding-insight.com/"}
+        onPress={() => {
+          props.setLink("https://www.coding-insight.com/");
+          props.forceUpdate();
+        }}
+        onLongPress={() => {
+          Linking.openURL("https://www.coding-insight.com/");
+        }}
+        color="white"
+      />
+      <IconButton
+        icon="menu"
+        onPress={() => props.setFab((p: boolean) => !p)}
+        color="white"
+      />
+    </View>
+  );
 }
 
 function App() {
@@ -26,8 +122,7 @@ function App() {
       ? "https://www.coding-insight.com/index-en.html"
       : "https://www.coding-insight.com/"
   );
-  const [modal, setModal] = useState(false);
-  const [bar, setBar] = useState(false);
+  const [fab, setFab] = useState(false);
 
   const reload = () => {
     webViewRef.current.clearHistory();
@@ -38,10 +133,6 @@ function App() {
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
 
-  useEffect(() => {
-    setTimeout(() => setBar(false), 5000);
-  }, [bar])
-
   return (
     <>
       <StatusBar hidden />
@@ -50,7 +141,7 @@ function App() {
         drawerWidth={300}
         drawerPosition="left"
         renderNavigationView={() => (
-          <Settings setLink={setLink} reload={reload} drawer={drawer} showBar={() => setBar(true)} />
+          <Settings reload={reload} drawer={drawer} />
         )}
       >
         <WebView
@@ -58,130 +149,35 @@ function App() {
           source={{ uri: link }}
           onNavigationStateChange={(a) => setLink(a.url)}
           userAgent={"CIAV"}
-          allowsFullscreenVideo={true}
+          onLoad={() => setWebLoading(false)}
+          onLoadProgress={() => setWebLoading(true)}
           thirdPartyCookiesEnabled={setting.cookie}
           showsHorizontalScrollIndicator={setting.scroll}
           showsVerticalScrollIndicator={setting.scroll}
           incognito={setting.secret}
           cacheEnabled={setting.cache}
-          onLoad={() => setWebLoading(false)}
-          onLoadProgress={() => setWebLoading(true)}
-          pullToRefreshEnabled={true}
-          javaScriptCanOpenWindowsAutomatically={true}
-          geolocationEnabled={true}
-          domStorageEnabled={true}
-          startInLoadingState={true}
-          onScroll={() => setBar(true)}
+          pullToRefreshEnabled
+          javaScriptCanOpenWindowsAutomatically
+          geolocationEnabled
+          domStorageEnabled
+          startInLoadingState
+          allowsFullscreenVideo
           injectedJavaScriptBeforeContentLoaded={
             setting.phone
               ? ""
               : `const meta = document.createElement('meta'); meta.setAttribute('content', 'width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0'); meta.setAttribute('name', 'viewport'); document.getElementsByTagName('head')[0].appendChild(meta); `
           }
         />
-
-        {bar ? (
-          <View
-            style={[
-              {
-                flex: 0.08,
-                position: "absolute",
-                width: Dimensions.get("screen").width - 80,
-                height: 50,
-                bottom: 0,
-                backgroundColor: "black",
-                borderRadius: 10,
-                margin: 10,
-              },
-            ]}
-          >
-            <View
-              style={{
-                flexDirection: "row",
-                justifyContent: "space-evenly",
-              }}
-            >
-              <IconButton icon="undo" onPress={goback} color="white" />
-              <IconButton icon="redo" onPress={goforward} color="white" />
-              <IconButton
-                icon={
-                  !webLoading
-                    ? "reload"
-                    : () => <ActivityIndicator color="white" size="small" />
-                }
-                onPress={reload}
-                color="white"
-              />
-              <IconButton
-                icon="chat"
-                disabled={link == "https://www.coding-insight.com/chat.html"}
-                onPress={() => {
-                  setLink("https://www.coding-insight.com/chat.html");
-                  forceUpdate();
-                }}
-                onLongPress={() =>
-                  Linking.openURL("https://www.coding-insight.com/chat.html")
-                }
-                color="white"
-              />
-              <IconButton
-                icon="home"
-                disabled={link == "https://www.coding-insight.com/"}
-                onPress={() => {
-                  setLink("https://www.coding-insight.com/");
-                  forceUpdate();
-                }}
-                onLongPress={() =>
-                  Linking.openURL("https://www.coding-insight.com/")
-                }
-                color="white"
-              />
-            </View>
-          </View>
-        ) : (
-          <></>
-        )}
-
-        <FAB.Group
-          visible={bar}
-          open={modal}
-          icon="menu"
-          color="white"
-          style={{ bottom: -10, right: -5, margin: 0 }}
-          fabStyle={{ backgroundColor: "black" }}
-          actions={[
-            {
-              icon: "controller-classic",
-              onPress: () =>
-                setLink("https://www.coding-insight.com/game.html"),
-            },
-            {
-              icon: "github",
-              label: "GitHub",
-              onPress: () =>
-                Linking.openURL(
-                  "https://github.com/HyunseungLee-Travis/Coding-Insight"
-                ),
-            },
-            {
-              icon: "microsoft-internet-explorer",
-              label: "Browser",
-              onPress: () => Linking.openURL("https://www.coding-insight.com/"),
-            },
-            {
-              icon: "youtube",
-              label: "YouTube",
-              onPress: () =>
-                Linking.openURL(
-                  "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
-                ),
-            },
-            {
-              icon: "cog",
-              onPress: () => drawer.current.openDrawer(),
-              small: false,
-            },
-          ]}
-          onStateChange={() => setModal((a) => !a)}
+        <BANN fab={fab} setFab={setFab} />
+        <Bar
+          goback={goback}
+          goforward={goforward}
+          forceUpdate={forceUpdate}
+          webLoading={webLoading}
+          setFab={setFab}
+          setLink={setLink}
+          reload={reload}
+          link={link}
         />
       </DrawerLayoutAndroid>
     </>
