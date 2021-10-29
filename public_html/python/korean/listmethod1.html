@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+   <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png">
+  <link hreflang="kr" rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a></li>
+      <li><a rel="noopener" href="https:///coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+      <li><a rel="noopener" href="https:///coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
+      <li><a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+          id="video">동영상</a></li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+      <li style="float:right;"><a rel="noopener" href="https:///coding-insight.com/python/english/listmethod1-en.html"
+          style="color:white;" id="trans">English</a></li>
+      <li id="more"><a>더보기</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <button id="butty"> 메뉴 <span style="font-size:14px;">⬅ 클릭하기</span> </button>
+  <div id="menu"></div>
+  <div style="padding:10px;margin:20px;">
+    <div style="text-align: center;">
+      <hr>
+      <br>
+      <div style="text-align: center;" id="speakdiv">
+        <button id="speakbutt">읽어주기</button>
+        <div id="setting">
+          <br><br>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width:25px !important;" />
+          <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br>
+          <img
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width:25px !important;" />
+          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+        </div>
+      </div>
+      <br><br>
+      <h1 style="margin:auto;font-size:30px;"><span id="tit">파이썬 리스트 메서드 1</span><br id="lbbr"><span id="txt">Computer
+          Science Lab
+          (</span>CSL<span id="txt">)</span> 19</h1>
+      <br>
+      <hr>
+    </div>
+
+    <br><br>
+
+    <div style="text-align: center;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OrWWnx2ydHc" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+    <br><br>
+
+    <div style="background-color:black;display:flex;color:white; padding:30px;">
+      <div style="padding:20px;">
+        <h1>리스트 - 인덱싱</h1>
+        <p>
+          CODE1과 같이 인덱싱을 이용하여 x번째 값을 새로운 값으로 바꿀 수 있습니다.<br><br>
+
+          인덱싱을 이용하여 리스트 변수 a의 x~y번째 값까지를 새로운 리스트로 바꿀 수도 있습니다.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/a413df3b12" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="display:flex;background-color:#c2d7e9;padding:30px;">
+      <div>
+        <h1>insert()</h1>
+        <p>
+          insert()라는 메서드를 이용하여 사용자가 원하는 자리에 새로운 값을 더할 수 있습니다.<br><br>
+
+          list.insert(index, item) 형태를 가지고 있고 첫 번째에는 어디(인덱스)에 아이템을 넣을지 입력하면 됩니다.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/d50ab693f8" width="70%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="padding:10px;display:flex;">
+      <div style="padding:20px;">
+        <h1>리스트에서 값 빼기</h1>
+        <p>
+          CODE1에서와 같이 리스트에서 'C'라는 데이터를 제거하기 위하여 'remove'를 사용할 수 있습니다.<br><br>
+
+          CODE2에 있는 예시를 보면 pop(x)과 del 키워드를 이용하여 x번째 값을 제거할 수도 있습니다.<br><br>
+
+          마지막으로 CODE3에 있는 코드는 clear()를 사용하면 리스트를 쓰레기통에 버리는 것과 같이 모든 값을 제거할 수 예시입니다.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/8ea821b7b4" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="padding:20px;display:flex;">
+      <div style="padding-right:50px;">
+        <h1>다른 메서드</h1>
+        <p>
+          <h4>리스트에서 값이 나타나는 개수 찾기</h4>
+          리스트에서 'blue'라는 값이 나타나는 개수를 찾기 위하여 'count()'를 CODE1에서 사용해보겠습니다.<br><br>
+
+          <h4>리스트 값의 인덱스 찾기</h4>
+          리스트에서 값의 인덱스를 찾을 수도 있습니다. CODE2와 같이 'Poo'라는 단어의 인덱스를 찾아보겠습니다.<br><br>
+
+          <h4>리스트에서 모든 값 더하기</h4>
+          sum() 함수를 사용하면 리스트에 있는 모든 숫자를 더한 값을 찾을 수 있습니다 (CODE3)
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/7fdd2b43c1" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
+        style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="margin :10px;padding:10px;">
+      <button style="float:left;"><a href="list.html">❮ 이전</a></button>
+      <button style="float:right;"><a href="listmethod2.html">다음 ❯</a></button>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div style="text-align: center;border-color:black;border-style:solid;">
+      <h1>퀴즈 풀기!</h1>
+    </div>
+  </div>
+
+  <script>
+
+  </script>
+  <script defer src="script.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>

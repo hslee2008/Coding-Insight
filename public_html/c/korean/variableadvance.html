@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+        }
+      gtag("js", new Date());
+
+      gtag("config", "UA-209775586-1");
+      </script>
+    <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+    <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+    <meta name="author" content="Hyunseung, Juha, Gun" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>코딩 인사이트</title>
+    <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+    <link hreflang="kr" rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    </head>
+
+  <body style="margin: 0">
+    <div style="margin: 0; padding: 0" id="navigate">
+      <ul>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a>
+        </li>
+        <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
+        <li>
+          <a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+            id="video">동영상</a>
+        </li>
+        <li style="float:right;"><a><button
+              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+              style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+        <li id="more"><a>더보기</a></li>
+      </ul>
+      </div>
+    <br />
+    <br />
+
+    <button id="butty">
+      메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
+    </button>
+    <div id="menu"></div>
+    <br /><br />
+    <div style="text-align: center">
+      <hr />
+      <br />
+      <div style="text-align: center" id="speakdiv">
+        <button id="speakbutt">읽어주기</button>
+        <div id="setting">
+          <br /><br />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width: 25px !important" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br />
+          <img
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width: 25px !important"
+            />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
+            </div>
+      <br /><br />
+      <h1 style="margin: auto; font-size: 30px">
+        <span id="tit">C 언어 변수 - 고급</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+          id="txt">)</span> 6
+      </h1>
+      <br />
+      <hr />
+      </div>
+
+    <br /><br />
+
+    <div style="padding: 30px; display: flex">
+      <div style="padding: 10px; margin: 10px">
+        <h1>많은 변수를 동시에 선언하는 방법</h1>
+        <p>
+          C 언어는 변수를 선언할 때 데이터 형태를 앞에 붙여야 합니다.<br /><br />
+
+          하지만 계속 int를 사용하면 조금 반복되는 부분이 많아지고 읽기도
+          불편합니다.<br /><br />
+
+          이렇게 다양한 변수가 같은 데이터 형태라면 ','를 사용하고 처음에만
+          데이터 형태를 붙이면 됩니다.<br /><br />
+
+          <code> int a = 1, b = 2, c = 3; </code>
+          </p>
+          </div>
+      <div style="margin: auto">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUanGdzUImXThB9bVOyNzTTtTKrN_6zaP1Rw&usqp=CAU" />
+      </div>
+      </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding: 30px; display: flex; background-color: wheat">
+      <div style="padding: 10px; margin: 10px">
+        <h1>변수 선언 먼저하기</h1>
+        <p>
+          먼저 상자를 만들고 나중에 아이템을 넣을 수는 없나요? 가능합니다.<br /><br />
+
+          변수를 선언할 떄 값을 입력하지 않고 나중에 필요할 때 넣으면 됩니다.
+          참고로 값을 넣지 않으면 변수의 값은 자동으로 0으로 됩니다.<br /><br />
+
+          기억하세요! 변수의 값을 바꾸고 싶으면 데이터 형태를 붙이면 안됩니다!
+          만일 붙이면 새로운 변수가 만들어 집니다.<br /><br />
+
+          <code>
+            int a;<br />
+            a = 1;
+            </code>
+            </p>
+            </div>
+            </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding: 30px; display: flex">
+      <div style="padding: 10px; margin: 10px">
+        <h1>변수를 main() 밖에 선언하기</h1>
+        <p>
+          변수를 main() 밖에 선언하면 파일 안에 있는 모든 곳에서 변수를 사용할
+          수 있습니다.<br /><br />
+
+          하지만 main() 안에서 선언했다면 main()에서만 그 변수를 사용할 수
+          있습니다.<br /><br />
+
+          상자도 집 안에 넣으면 그 집에서만 사용할 수 있지만 밖에 있다면 모든
+          집에서 사용이 가능합니다.<br /><br />
+
+          <code>
+            #include &lt;stdio.h><br /><br />
+
+            int a = 6;<br /><br />
+
+            int main()<br />
+            {<br />
+            &nbsp;printf("%d", a);<br />
+            &nbsp;return 0;<br />
+            }
+            </code>
+            </p>
+            </div>
+      <div style="margin: auto">
+        <img
+          src="data:image/png;base64,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"
+          />
+          </div>
+          </div>
+
+    <br /><br />
+
+    <div style="margin: 10px; padding: 10px">
+      <button style="float: left"><a href="variable.html">❮ 이전</a></button>
+      <button style="float: right"><a href="input.html">다음 ❯</a></button>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <script defer src="script.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+</html>

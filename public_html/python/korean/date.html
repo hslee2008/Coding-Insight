@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+   <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png">
+  <link hreflang="kr" rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a></li>
+      <li><a rel="noopener" href="https:///coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+      <li><a rel="noopener" href="https:///coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
+      <li><a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+          id="video">동영상</a></li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+      <li style="float:right;"><a rel="noopener" href="https:///coding-insight.com/python/english/date-en.html"
+          style="color:white;" id="trans">English</a></li>
+      <li id="more"><a>더보기</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <button id="butty"> 메뉴 <span style="font-size:14px;">⬅ 클릭하기</span> </button>
+  <div id="menu"></div>
+  <div style="display:flex;margin-top:50px;padding:30px;">
+    <div style="padding:10px;margin:10px;">
+      <h1>날짜 모듈 사용 방법?</h1>
+      <p>
+        날짜는 모듈이어서 먼저 가지고 와야 합니다.<br><br>
+
+        <code>
+          import datetime
+        </code>
+      </p>
+    </div>
+    <div style="margin :auto;">
+      <img alt="python-factory-picture" src="https://i.pinimg.com/564x/90/7b/93/907b93a8f31202b6d91b54efb4ec712b.jpg"
+        width="200px" />
+    </div>
+  </div>
+  <br><br>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br>
+        <div style="text-align: center;" id="speakdiv">
+          <button id="speakbutt">읽어주기</button>
+          <div id="setting">
+            <br><br>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width:25px !important;" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+            <br>
+            <img
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width:25px !important;" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+          </div>
+        </div>
+        <br><br>
+      <h1 style="margin:auto;font-size:30px;"><span id="tit">날짜</span><br id="lbbr"><span id="txt">Computer Science
+            Lab
+            (</span>CSL<span
+            id="txt">)</span> 43
+        </h1>
+        <br>
+        <hr>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="display:flex; padding:30px;background-color: #3caeb6;">
+        <div style="padding:20px;">
+          <h1>지금 시간</h1>
+          <p>
+            지금 당장 시간을 파이썬으로 통해 알고 싶으면 datetime.datetime.now()를 사용하면 됩니다.<br><br>
+
+            'yyyy-mm-dd hh:mm:ss' 형식으로 출력이 됩니다.
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/437df64da8" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+      </div>
+
+      <br><br><br><br>
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>시, 분, 초, 마이크로초</h1>
+            <p>
+              지금 시, 분, 초와 밀리초를 알고 싶다면 'strftime'이라는 메서드를 이용하면 됩니다.<br><br>
+
+              strftime() 안에 '%H'(Hour)을 입력하면 24시간 형태를 가진 지금 시각이 출력됩니다.<br><br>
+
+              12 시간 행태를 원한다면 '%I'를 사용하면 됩니다.<br><br>
+
+              12 시간 행태를 사용한다면 오후인지 오전인지 알기 위하여 '%p'(AM 또는 PM)을 사용하면 됩니다.<br><br>
+
+              분은 '%M', 초는 '%S', 마이크로초는 '%f' 입니다
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/b649e0b775" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+            style="margin:auto;"></iframe>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="text-align: center;">
+        <div style="padding:20px;display:flex;">
+          <div style="padding:40px;background-color: black;color:white;">
+            <h1>요일, 월, 년</h1>
+            <p>
+              요일 이름은 '%A'를 사용해서 알 수 있습니다. 요일의 이름은 영어로 출력됩니다(예: Friday).<br><br>
+
+              June, January와 같이 "%B"는 월 이름을 영어로 출력합니다.<br><br>
+
+              "%Y"를 사용하면 년을 알 수 있습니다. 2018, 2021과 같이 년의 전체 값을 출력합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin :10px;padding:10px;">
+        <button style="float:left;"><a href="pythonmodule.html">❮ 이전</a></button>
+        <button style="float:right;"><a href="random.html">다음 ❯</a></button>
+      </div>
+
+      <br><br><br><br>
+    </div>
+    <script defer src="script.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>

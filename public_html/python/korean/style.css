@@ -1,0 +1,195 @@
+body > div > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+img {
+  margin: auto;
+}
+
+body > div > ul > li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 13px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+button {
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+}
+
+button > a {
+  color: white !important;
+  margin: 30px;
+  text-decoration: none;
+}
+
+p > a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 920px) {
+  button:not(#butty) {
+    padding: 5px !important;
+    font-size: 10px !important;
+    margin: 5px !important;
+  }
+
+  div:not(#menu):not(.alert):not(#navigate):not(#introduct):not(#setting) {
+    display: block !important;
+    margin: 1px !important;
+    padding: 1px !important;
+  }
+
+  iframe:not(#vid) {
+    margin: auto !important;
+    width: 100%;
+  }
+
+  #vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  #py,
+  #git,
+  #intro {
+    padding: 20px !important;
+    margin: 10px !important;
+  }
+
+  #main {
+    padding: 10px !important;
+    margin-top: 30px !important;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+
+  ul > li {
+    font-size: 10px !important;
+  }
+
+  button {
+    border-radius:5px !important;
+  }
+
+  #txt {
+    display: none;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px !important;
+  }
+
+  #lbbr {
+    display:block;
+  }
+}
+
+#men > a {
+  margin: 5px;
+}
+
+#menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding:100px;
+  top:50px;
+  list-style-type:none;
+}
+
+#menu > details > p > a {
+  display: list-item;
+}
+
+#butty {
+  margin-bottom: 20px;
+  background-color: black !important;
+  color: white !important;
+  border-radius: 0% !important;
+  padding: 40px;
+  width:100%;
+  font-size:20px;
+}
+
+code {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid dodgerblue;
+  color: black;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+
+*::selection {
+  background-color:rgb(186, 216, 245);
+}
+
+details {
+  cursor: pointer;
+}
+
+img,
+iframe {
+  margin: auto;
+}
+
+#more {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  #quiz,
+  #feedback,
+  #video {
+    display: none;
+  }
+
+  #more {
+    display: block;
+  }
+}
+
+#setting {
+  display:none;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Python-Factory",
+  "slug": "Python-Factory",
+  "version": "1.1.5",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    },
+    "package": "com.hyunseung1005.PythonFactory"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  }
+}

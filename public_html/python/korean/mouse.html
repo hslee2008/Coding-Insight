@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+   <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png">
+  <link hreflang="kr" rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a></li>
+      <li><a rel="noopener" href="https:///coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+      <li><a rel="noopener" href="https:///coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
+      <li><a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+          id="video">동영상</a></li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+      <li style="float:right;"><a rel="noopener" href="https:///coding-insight.com/python/english/mouse-en.html"
+          style="color:white;" id="trans">English</a></li>
+      <li id="more"><a>더보기</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <button id="butty"> 메뉴 <span style="font-size:14px;">⬅ 클릭하기</span> </button>
+  <div id="menu"></div>
+  <div style="display:flex; padding:30px;background-color: #16151b;color:white;">
+    <div style="padding:20px;">
+      <h1>마우스</h1>
+      <p>
+        파이썬에서 컴퓨터 마우스를 제어하는 모듈이 있습니다! 장난을 치기 좋은 모듈같습니다.<br><br>
+
+        설치하기 위해 다음 커맨드를 터미널에서 실행하세요.<br><br>
+
+        <code>pip install mouse</code>
+
+        그리고 가지고 오면 됩니다!<br><br>
+
+        <code>import mouse as m</code>
+      </p>
+    </div>
+    <div style="margin :auto;">
+      <img alt="python-factory-picture"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbvHLIkf7p2IzoQ91r5W7ki5KJoiD4t0oIQQ&usqp=CAU" />
+    </div>
+  </div>
+  <br><br>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br>
+        <div style="text-align: center;" id="speakdiv">
+          <button id="speakbutt">읽어주기</button>
+          <div id="setting">
+            <br><br>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width:25px !important;" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+            <br>
+            <img
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width:25px !important;" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+          </div>
+        </div>
+        <br><br>
+      <h1 style="margin:auto;font-size:30px;"><span id="tit">마우스</span><br id="lbbr"><span id="txt">Computer Science
+            Lab
+            (</span>CSL<span
+            id="txt">)</span> 89
+        </h1>
+        <br>
+        <hr>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="display:flex; padding:30px;background-color: #98d198;color:black;">
+        <div style="padding:20px;">
+          <h1>마우스 클릭</h1>
+          <p>
+            마우스를 클릭하는 함수 click()을 이용하여 왼쪽 또는 오른쪽 버튼을 마우스가 있는 자리에서 클릭할 수 있습니다.<br><br>
+
+            left, right은 왼쪽 오른쪽 버튼인데 가운데 버튼은 무엇일까요? 가운데 버튼은 스크롤링 버튼을 클릭하는 것을 의미합니다. ctrl 키를 누르고 왼쪽 클릭과 같은
+            것입니다.<br><br>
+
+            <code>
+              m.click("left")<br>
+              m.click("right")<br>
+              m.click("middle")
+            </code>
+          </p>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div>
+        <div style="padding:20px;display:flex;background-color: #aaa680;">
+          <div style="padding:10px;">
+            <h1>마우스 위치</h1>
+            <p>
+              파일을 삭제하려면 os라는 모듈을 사용해야 합니다.<br><br>
+
+              <code>
+                print(m.get_position())
+              </code>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>드래깅</h1>
+            <p>
+              드래깅은 마우스에 위에 있는 물질을 좌표로 움직이는 행위입니다.<br><br>
+
+              <code>
+                m.drag(0, 0, 200, 200, duration=3.0)
+              </code>
+
+              위의 커맨드를 지금 실행하면 VSCode 창이 드래깅됩니다.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div>
+        <div style="padding:20px;display:flex;background-color: aquamarine;">
+          <div style="padding:10px;">
+            <h1>마우스 움직이기</h1>
+            <p>
+              마우스는 move() 메서드를 움직일 수 있습니다.<br><br>
+
+              <code>
+                b.move(100, 100, duration=3.0)
+              </code>
+
+              마우스를 오른쪽으로 100, 밑으로 100 움직입니다. 왼쪽 또는 위로 움직이고 싶다면 음의 정수 숫자를 입력하면 됩니다.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>스크롤링</h1>
+            <p>
+              마우스 스크롤링은 scroll() 메서드를 사용하여 위아래로 페이지를 움직일 수 있습니다.<br><br>
+
+              <code>
+                m.scroll(-2)
+              </code>
+
+              2 밑으로 스크롤링합니다. 위로 스크롤링하고 싶다면 양의 정수를 입력하세요.<br><br>
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="margin :10px;padding:10px;">
+        <button style="float:left;"><a href="keyboard.html">❮ 이전</a></button>
+        <button style="float:right;"><a href="matplotlib.html">다음 ❯</a></button>
+      </div>
+    </div>
+
+    <br><br><br><br>
+  </div>
+
+  </div>
+
+  <br><br><br><br>
+
+  <script defer src="script.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>

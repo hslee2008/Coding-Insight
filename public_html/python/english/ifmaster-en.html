@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Insight</title>
+  <link hreflang="en" rel="icon" href="py.png" type="image/png">
+  <link hreflang="en" rel="stylesheet" href="style-en.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+      <li><a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+<li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+    id="video">Video</a>
+</li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+      <li style="float:right;"><a rel="noopener" href="https://coding-insight.com/python/korean/ifmaster.html"
+          id="trans" style="color:white;">한국어</a></li>
+      <li id="more"><a>More</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <button id="butty"> Menu <span style="font-size:14px;">⬅ Click</span> </button>
+  <div id="menu"></div>
+  <br><br>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br>
+        <div style="text-align: center;" id="speakdiv">
+          <button id="speakbutt">Read</button>
+          <div id="setting">
+            <br><br>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width:25px !important;" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+            <br>
+            <img
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width:25px !important;" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+          </div>
+        </div>
+        <br><br>
+      <h1 style="margin:auto;font-size:30px;"><span id="tit">Mastering if Statement</span><br id="lbbr"><span
+            id="txt">Computer
+            Science Lab
+            (</span>CSL<span id="txt">)</span> 27</h1>
+        <br>
+        <hr>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="display:flex; padding:30px;background-color: black;color:white;">
+        <div style="padding:20px;">
+          <h1>Simple If Statement</h1>
+          <p>
+            Sometimes, with all the if, elif, else and indentation, if statement can be a bit confusing.<br><br>
+
+            Howwever, using this syntax, it simplifies if statement into one single line.<br><br>
+
+            <code>
+              if a > b: print("as is greater than b")
+            </code>
+
+            In if-else statement has the following syntax: (statement is True) if (satement) else (statement is
+            False).<br><br>
+
+            <code>
+              a = 2<br>
+              b = 5<br><br>
+
+              print("A") if a > b else print("B")
+            </code>
+
+            if-elif-else statement just have extra 'else (second if is True) if (second if)' line between simple if-else
+            statement.<br><br>
+
+            <code>
+              a = 3320<br>
+              b = 312330<br>
+              print("A") if a > b else print("=") if a == b else print("B")
+            </code>
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/73c3356df0" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
+          style="margin:auto;"></iframe>
+      </div>
+
+      <br><br><br><br>
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>Switch</h1>
+            <p>
+              Other programming languages such as JavaScript has unique and useful syntax called siwtch.<br><br>
+
+              We can use switch to compare values. Switch statements are simply if statements that uses '==' to
+              compare.<br><br>
+
+              However, switch statement does not exist in Python.<br><br>
+
+              Therefore, we have to use another way.<br><br>
+
+              <code>
+                x = input("type in either a or b: ")<br><br>
+
+                a = {<br>
+                "a": "Chose a",<br>
+                "b": "Chose b"<br>
+                }.get(x, "Wrong")<br><br>
+
+                print(a)
+              </code>
+
+              We will be getting the key from dictionary a.<br><br>
+
+              If x is equal to "a", the value of dictionary a will be "Chose a".<br><br>
+
+              On the otherhand, if x is "b", "Chose b" will be printed.<br><br>
+
+              If x does not exist in keys of a, "Wrong" will be printed to the console.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/42bf09e347" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="padding:10px;display:flex;">
+        <div style="padding:20px;">
+          <h1>Indentation</h1>
+          <p>
+            Indentation is when you make an extra space before the first alphabet of the parahraph so that the reader
+            will recognize it is the start.<br><br>
+
+            <code>
+              &nbsp;Start of paragraph. blablablablabla...
+            </code>
+
+            In Python, if you want a code to be inside a syntax (e.g. if statement), you HAVE to indent.<br><br>
+
+            Otherwise, Python will raise an indentation error or think the code is outside of if statement.<br><br>
+
+            <code>
+              if 1==1:<br>
+              &nbsp;print('testing')<br>
+              print("this is not running in if statement")
+            </code>
+
+            The second print is not in if statement because it is not indented.
+          </p>
+        </div>
+      </div>
+
+      <br><br><br>
+    </div>
+
+    <div style="margin :10px;padding:10px;">
+      <button style="float:left;"><a href="if-en.html">❮ Previous</a></button>
+      <button style="float:right;"><a href="none-en.html">Next ❯</a></button>
+    </div>
+
+    <br><br><br><br>]
+  </div>
+  </div>
+  <script defer src="script-en.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python factory</title>
+  <link hreflang="en" rel="icon" href="py.png" type="image/png">
+  <link hreflang="en" rel="stylesheet" href="style-en.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+      <li><a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+<li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+    id="video">Video</a>
+</li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+      <li style="float:right;"><a rel="noopener" href="https://coding-insight.com/python/korean/etcfile.html"
+          id="trans" style="color:white;">한국어</a>
+      <li id="more"><a>More</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <button id="butty"> Menu <span style="font-size:14px;">⬅ Click</span> </button>
+  <div id="menu"></div>
+  <br><br>
+  <div style="padding:10px;margin:20px;">
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br>
+        <div style="text-align: center;" id="speakdiv">
+          <button id="speakbutt">Read</button>
+          <div id="setting">
+            <br><br>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width:25px !important;" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+            <br>
+            <img
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width:25px !important;" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+          </div>
+        </div>
+        <br><br>
+      <h1 style="margin:auto;font-size:30px;"><span id="tit">File Making, Removing, Encoding</span><br id="lbbr"><span
+            id="txt">Computer
+            Science Lab
+            (</span>CSL<span id="txt">)</span> 52</h1>
+        <br>
+        <hr>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="display:flex; padding:30px;background-color: #123a12;color:white;">
+        <div style="padding:20px;">
+          <h1>Making Files</h1>
+          <p>
+            "x" mode will create a file if it does not exist.<br><br>
+
+            Note that error will occur when the file already exists.<br><br>
+
+            <code>
+              mainFile = open("example.txt", "x")
+            </code>
+
+            Adding '+' at the end of original mode will let us write and read file both at once(It will also create file
+            if it does not exist).
+          </p>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>Removing Files</h1>
+            <p>
+              To remove files, use the 'os' module we learned before.<br><br>
+
+              <code>
+                import os<br><br>
+
+                os.remove("example.txt") #using remove() function<br>
+                os.rmdir("example.txt") #using rmdir() function (ReMoveDIRectory)
+              </code>
+            </p>
+          </div>
+          <img
+            src="data:image/jpeg;base64,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" />
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div>
+        <div style="padding:20px;display:flex;">
+          <div style="padding:10px;">
+            <h1>Encoding</h1>
+            <p>
+              By default, Python will open files and read them with 'ASCII'.<br><br>
+
+              So, if there is a character that does not exist in ASCII(such as an emoji), Python will give us an
+              error.<br><br>
+
+              In this case, we have to specify encoding which tells Python how to understand the file.<br><br>
+
+              In ASCII, there are limited numebr of characters.<br><br>
+
+              Use UTF-8 if you have emojis, special characters, or other language character inside your file.<br><br>
+
+              <code>
+                mainFile = open("example.txt", "r", encoding="UTF-8")<br><br>
+
+                mainFile.close()
+              </code>
+            </p>
+          </div>
+          <img
+            src="data:image/png;base64,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" />
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="margin :10px;padding:10px;">
+        <button style="float:left;"><a href="filewriting-en.html">❮ Previuos</a></button>
+        <button style="float:right;"><a href="contextmanager-en.html">Next ❯</a></button>
+      </div>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div style="text-align: center;border-color:black;border-style:solid;">
+      <h1>Quiz Time!</h1>
+    </div>
+  </div>
+
+  </div>
+
+  <div style="text-align:center;">
+    <h3> There is an emoji in file. What kind of encoding should we use for opening that file in Python to not get an
+      error?</h3>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+      <label for="question-2-answers-A">A) ASCII </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+      <label for="question-2-answers-B">B) UTF-8 </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+      <label for="question-2-answers-C">C) ABC </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+      <label for="question-2-answers-D">D) ENCODING123 </label>
+    </div>
+
+    <br><br><br><br>
+
+    <button id="checky"
+      onclick='if (document.getElementById("question-2-answers-B").checked) {alert("1 is right")} else {alert("1 is wrong")};'>Check
+      Answer</button>
+  </div>
+
+  <br><br><br><br>
+
+  <script defer src="script-en.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Insight</title>
+  <link hreflang="en" rel="icon" href="py.png" type="image/png">
+  <link hreflang="en" rel="stylesheet" href="style-en.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python
+          Factory</a>
+      </li>
+      <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+      <li><a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+          id="video">Video</a>
+      </li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+      <li id="more"><a>More</a></li>
+
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <button id="butty"> Menu <span style="font-size:14px;">⬅ Click</span> </button>
+  <div id="menu"></div>
+  <div style="padding:10px;margin:20px;">
+    <div style="display:flex;background-color:#8494ca;color:rgb(0, 0, 0);margin-top:50px;padding:30px;">
+      <div style="padding:10px;margin:10px;">
+        <h1>What is dictionary?</h1>
+        <p>
+          Dictionary is a book that contains a word and an explanation for it.<br><br>
+
+          For example, if we search up the word 'Python' in the dictionary we find the following explanation "a
+          high-level general-purpose programming language".<br><br>
+
+          Here, Python is the 'key' and the explanation is the 'value'.<br><br>
+
+          In Python, dictionary is a data type which contains pairs of keys and values.
+        </p>
+      </div>
+    </div>
+    <div style="padding:10px;margin:20px;">
+      <div style="text-align: center;">
+        <hr>
+        <br>
+        <div style="text-align: center;" id="speakdiv">
+          <button id="speakbutt">Read</button>
+          <div id="setting">
+            <br><br>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width:25px !important;" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+            <br>
+            <img
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width:25px !important;" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+          </div>
+        </div>
+        <br><br>
+        <h1 style="margin:auto;font-size:30px;"><span id="tit">Dictionary</span><br id="lbbr"><span id="txt">Computer
+            Science Lab
+            (</span>CSL<span id="txt">)</span> 21</h1>
+        <br>
+        <hr>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="background-color:black;display:flex;color:white; padding:30px;">
+        <div style="padding:20px;">
+          <h1>How to make dictionary</h1>
+          <p>
+            Dictionary is made up of keys and values seperated by a comma between.<br><br>
+
+            Dictionary has the following syntax.<br><br>
+
+            <code>
+              {<br>
+              Key1: Value1,<br>
+              Key2: Value2,<br>
+              Key3: Value3<br>
+              }
+            </code>
+
+            Let's try making a dictionary in Python.<br><br>
+
+            <code>
+              Tom = {<br>
+              "phonenumber": "010-1234-5678",<br>
+              "age": 14,<br>
+              "bestfriend": "James"<br>
+              }
+            </code>
+
+            Tom is the name of the dictionary variable.<br>
+            phonenumber, age, bestfriend is the key.<br>
+            010-1234-5678, 14, James is the value.<br><br>
+
+            Note that we can put any kind of data type in the keys.
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/534b32664d" width="50%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
+          style="margin:auto;"></iframe>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="display:flex;background-color:#c2d7e9;padding:30px;">
+        <div>
+          <h1>Get the keys</h1>
+          <p>
+            To get a list of keys, use the keys() method.<br><br>
+
+            <code>
+              mainDict = {<br>
+              "member1": "John",<br>
+              "member2": "Sam",<br>
+              "member3": "Maria"<br>
+              }<br><br>
+
+              print(list(mainDict.keys())) #dict_keys(["member1", "member2", "member3"])
+            </code>
+
+            Running mainDict.keys() will return dict_keys instead of lists.<br><br>
+
+            If you want to do operation on the keys, dict_keys is not the data type you are looking for.<br><br>
+
+            We have to use list(mainDict.keys()) to make them into lists.
+
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/1e671b6947" width="50%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="padding:10px;display:flex;">
+        <div style="padding:20px;">
+          <h1>Get the values</h1>
+          <p>
+            Similar to keys() method, we can also use values() to get all the values of dictionary.<br><br>
+
+            <code>
+              mainDict = {<br>
+              "member1": "John",<br>
+              "member2": "Sam",<br>
+              "member3": "Maria"<br>
+              }<br><br>
+
+              print(mainDict.values()) #dict_values("John", "Sam", "Maria")
+            </code>
+
+            This method also returns dict_values so use list() to make them into lists.
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/05de91d4c2" width="50%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+      </div>
+
+      <br><br><br><br>
+
+      <div style="margin :10px;padding:10px;">
+        <button style="float:left;"><a href="listmethod2-en.html">❮ Previous</a></button>
+        <button style="float:right;"><a href="dictionarymethod-en.html">Next
+            ❯</button>
+      </div>
+
+      <br><br><br><br>
+    </div>
+
+    <div style="text-align: center;border-color:black;border-style:solid;">
+      <h1>Quiz Time!</h1>
+    </div>
+
+    <div style="text-align:center;">
+      <h3> What is printed to the console when running: print({"1": "a", "2": "b"}.keys()) </h3>
+
+      <div>
+        <input type="radio" value="A" id="question-2-answers-A" name="question-2-answers" />
+        <label for="question-2-answers-A">A) ["a", "b"] </label>
+      </div>
+
+      <div>
+        <input type="radio" value="B" id="question-2-answers-B" name="question-2-answers" />
+        <label for="question-2-answers-B">B) dict_keys(["a", "b"]) </label>
+      </div>
+
+      <div>
+        <input type="radio" value="C" id="question-2-answers-C" name="question-2-answers" />
+        <label for="question-2-answers-C">C) keys(["a", "b"]) </label>
+      </div>
+
+      <div>
+        <input type="radio" value="D" id="question-2-answers-D" name="question-2-answers" />
+        <label for="question-2-answers-D">D) ["b", "a"] </label>
+      </div>
+
+      <br><br><br><br>
+
+      <button id="checky"
+        onclick='if (document.getElementById("question-2-answers-B").checked) {alert("1 is right")} else {alert("1 is wrong")};'>Check
+        Answer</button>
+
+      <br><br><br><br>
+    </div>
+    <script defer src="script-en.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>

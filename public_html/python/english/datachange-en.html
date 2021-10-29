@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+        }
+      gtag("js", new Date());
+
+      gtag("config", "UA-209775586-1");
+      </script>
+    <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+    <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+    <meta name="author" content="Hyunseung, Juha, Gun" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Insight</title>
+    <link hreflang="en" rel="icon" href="py.png" type="image/png" />
+    <link hreflang="en" rel="stylesheet" href="style-en.css" />
+    <meta charset="UTF-8" />
+    <style>
+      #datachange {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      #datachange td,
+      #datachange th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      }
+
+      #datachange tr:nth-child(even) {
+      background-color: #f2f2f2;
+      }
+
+      #datachange tr:hover {
+      background-color: #ddd;
+      }
+
+      #datachange th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: dodgerblue;
+      color: white;
+      }
+      </style>
+      </head>
+
+  <body style="margin: 0">
+    <div style="margin: 0; padding: 0" id="navigate">
+      <ul>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a>
+        </li>
+        <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+        <li>
+          <a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+            id="video">Video</a>
+        </li>
+        <li style="float:right;"><a><button
+              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+              style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+
+        <li style="float: right">
+          <a rel="noopener" href="https://coding-insight.com/python/korean/datachange.html" id="trans"
+            style="color: white">한국어</a>
+        </li>
+        <li id="more"><a>More</a></li>
+      </ul>
+      </div>
+    <br />
+    <br />
+
+    <button id="butty">
+      Menu <span style="font-size: 14px">⬅ Click</span>
+    </button>
+    <div id="menu"></div>
+    <br /><br />
+    <div style="padding: 10px; margin: 20px">
+      <div style="padding: 10px; margin: 20px">
+        <div style="text-align: center">
+          <hr />
+          <br />
+          <div style="text-align: center" id="speakdiv">
+            <button id="speakbutt">Read</button>
+            <div id="setting">
+              <br /><br />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width: 25px !important"
+                />
+                <input type="range" id="vol" min="0" max="1" step="0.1" />
+              <br />
+              <img
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width: 25px !important"
+                />
+                <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+                </div>
+                </div>
+          <br /><br />
+          <h1 style="margin: auto; font-size: 30px">
+            <span id="tit">Chage Data Type</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+              id="txt">)</span> 54
+          </h1>
+          <br />
+          <hr />
+          </div>
+
+        <br /><br /><br /><br />
+
+        <div style="display: flex; padding: 30px">
+          <div style="padding: 20px">
+            <h1>To List</h1>
+            <p>
+              To change any kind of data into a list, use the list() function
+              and split() method.<br /><br />
+
+              While list() function can be used for any type of data, we can
+              only use split() for strings.<br /><br />
+
+              <code>
+                a = "abcdefghijklmnop"<br />
+                print(list(a))
+                </code>
+
+              The split() method will split the string into multiple pieces
+              according to the given character.<br /><br />
+
+              <code>
+                a = "HelloAWorld."<br />
+                print(a.split("A"))
+                </code>
+                </p>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/b8df2e09d4" width="60%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+            </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div style="padding: 20px; background-color: #cb84dd">
+            <div style="padding: 10px">
+              <h1>To Tuple</h1>
+              <p>
+                Using tuple(), we can change anything to a tuple.<br /><br />
+
+                If you want to convert a string into tuple, make sure to use
+                split() method first then to turn that into a tuple.<br /><br />
+
+                <code>
+                  a = "Hello! World! My! name! is! Hyunseung"<br />
+                  print(tuple(a.split("!")))
+                  </code>
+                  </p>
+                  </div>
+                  <iframe src="https://trinket.io/embed/python3/facd314b6c" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+              </div>
+              </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div style="padding: 20px; display: flex; background-color: #c9d4b3">
+            <div style="padding: 10px">
+              <h1>To Number</h1>
+              <p>
+                To convert to each type of number(int, float, complex), use
+                int(), float() and complex() method.<br /><br />
+
+                <code>
+                  a = "32"<br /><br />
+
+                  print(int(a))
+                  </code>
+
+                Know that if you have a string that contains digits other than
+                numbers(e.g. alphabets), running int(), float() or complex()
+                will return NaN.<br /><br />
+
+                <code>NaN</code>
+
+                NaN is short for Not a Number.
+                </p>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/cf87c918cc" width="70%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+              </div>
+              </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div style="padding: 20px; background-color: #c1c9e3">
+            <div style="padding: 10px">
+              <h1>To Set</h1>
+              <p>
+                Use set() function to turn a data type into a set.<br /><br />
+
+                <code> print(set("abcdefg")) </code>
+                </p>
+                </div>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/6f39069be5" width="100%" height="356" frameborder="0"
+                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+                </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div style="padding: 20px; display: flex; background-color: #a0c9e3">
+            <div style="padding: 10px">
+              <h1>불리언으로 바꾸기</h1>
+              <p>
+                The only data type boolean can convert is integer.<br /><br />
+
+                bool() function will turn the number into either True or
+                False.<br /><br />
+
+                <code>
+                  a = 0<br /><br />
+
+                  print(bool(a))
+                  </code>
+
+                0 is False and the rest of the number is True.
+                </p>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/314b0e422c" width="60%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+              </div>
+              </div>
+
+        <br /><br /><br /><br />
+
+        <table id="datachange" style="width: 100%">
+          <thead>
+            <tr>
+              <th>Data Type</th>
+              <th>Function / Method</th>
+              <th>Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>List</td>
+              <td>list() or slpit()</td>
+              <td>list(a) or a.split(" ")</td>
+            </tr>
+            <tr>
+              <td>Tuple</td>
+              <td>tuple()</td>
+              <td>tuple(a)</td>
+            </tr>
+            <tr>
+              <td>Number</td>
+              <td>int() or float() or complex()</td>
+              <td>int(a)</td>
+            </tr>
+            <tr>
+              <td>Boolean</td>
+              <td>bool()</td>
+              <td>bool(a)</td>
+            </tr>
+            <tr>
+              <td>String</td>
+              <td>str()</td>
+              <td>str(a)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br /><br /><br /><br />
+
+        <div style="margin: 10px; padding: 10px">
+          <button style="float: left">
+            <a href="contextmanager-en.html">❮ Previous</a>
+          </button>
+          <button style="float: right">
+            <a href="stringascode-en.html">Next ❯</a>
+          </button>
+        </div>
+        </div>
+
+      <br /><br /><br /><br />
+      </div>
+      <script defer src="script-en.js"></script>
+
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+</html>

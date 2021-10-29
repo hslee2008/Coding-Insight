@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+        }
+      gtag("js", new Date());
+
+      gtag("config", "UA-209775586-1");
+      </script>
+    <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+    <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+    <meta name="author" content="Hyunseung, Juha, Gun" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Insight</title>
+    <link hreflang="en" rel="icon" href="py.png" type="image/png" />
+    <link hreflang="en" rel="stylesheet" href="style-en.css" />
+    <meta charset="UTF-8" />
+    </head>
+
+  <body style="margin: 0">
+    <div style="margin: 0; padding: 0" id="navigate">
+      <ul>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a>
+        </li>
+        <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+        <li>
+          <a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+            id="video">Video</a>
+        </li>
+        <li style="float:right;"><a><button
+              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+              style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+
+        <li style="float: right">
+          <a rel="noopener" href="https://coding-insight.com/python/korean/forfunction.html" id="trans"
+            style="color: white">한국어</a>
+        </li>
+
+        <li id="more"><a>More</a></li>
+      </ul>
+      </div>
+    <br />
+    <br />
+
+    <button id="butty">
+      Menu <span style="font-size: 14px">⬅ Click</span>
+    </button>
+    <div id="menu"></div>
+    <br /><br />
+    <div style="padding: 10px; margin: 20px">
+      <div style="padding: 10px; margin: 20px">
+        <div style="text-align: center">
+          <hr />
+          <br />
+          <div style="text-align: center" id="speakdiv">
+            <button id="speakbutt">Read</button>
+            <div id="setting">
+              <br /><br />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width: 25px !important"
+                />
+                <input type="range" id="vol" min="0" max="1" step="0.1" />
+              <br />
+              <img
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width: 25px !important"
+                />
+                <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+                </div>
+                </div>
+          <br /><br />
+          <h1 style="margin: auto; font-size: 30px">
+            <span id="tit">Functions Used for Looping</span><br id="lbbr" /><span id="txt">Computer Science Lab
+              (</span>CSL<span id="txt">)</span> 36
+          </h1>
+          <br />
+          <hr />
+          </div>
+
+        <br /><br /><br /><br />
+
+        <div style="display: flex">
+          <div style="padding: 20px">
+            <h1>iter() and __next__()</h1>
+            <p>
+              Using iter() function, we can make an iteration object.<br /><br />
+
+              Using __next__() method, we are going to get each item in
+              order.<br /><br />
+
+              <code>
+                i = iter(["One", "Two", "Three", "Four"])<br /><br />
+
+                print(i.__next__())
+                </code>
+
+              Note that when there is no more items left and you run __next__(),
+              it will return an error.
+              </p>
+              </div>
+              <iframe src="https://trinket.io/embed/python3/ba9d86426e" width="60%" height="356" frameborder="0"
+                marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+              </div>
+        <br /><br /><br /><br />
+
+        <div>
+          <div style="padding: 20px; display: flex">
+            <div style="padding: 10px">
+              <h1>More about range()</h1>
+              <p>
+                range() is very useful when used with for loops.<br /><br />
+
+                range() simply returns a data type that can be iterated.<br /><br />
+
+                There are three parameters: start, stop, and step.<br /><br />
+
+                start is the number that Python should start counting on.<br />
+                stop is the end number.<br />
+                step is the distance between the first number and second number,
+                second number and third number and so on.<br /><br />
+
+                <code>
+                  for i in range(1, 10, 2):<br />
+                  &nbsp;print(i, end=" ")
+                  </code>
+                  </p>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/31f75bee24" width="60%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+            </div>
+            </div>
+
+        <br /><br /><br /><br />
+        </div>
+
+      <div style="margin: 10px; padding: 10px">
+        <button style="float: left">
+          <a href="fortype-en.html">❮ Previous</a>
+        </button>
+        <button style="float: right"><a href="while-en.html">Next ❯</a></button>
+      </div>
+
+      <br /><br /><br /><br />
+      </div>
+      <script defer src="script-en.js"></script>
+
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+</html>

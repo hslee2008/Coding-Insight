@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Insight</title>
+  <link hreflang="en" rel="icon" href="py.png" type="image/png">
+  <link hreflang="en" rel="stylesheet" href="style-en.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+      <li><a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+<li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+    id="video">Video</a>
+</li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+      <li style="float:right;"><a rel="noopener" href="https://coding-insight.com/python/korean/boolean.html"
+          id="trans" style="color:white;">한국어</a>
+      </li>
+      <li id="more"><a>More</a></li>
+
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <button id="butty"> Menu <span style="font-size:14px;">⬅ Click</span> </button>
+  <div id="menu"></div>
+
+  <div style="padding:10px;margin:20px;">
+    <div style="display:flex;background-color:#488a9a;color:white;margin-top:50px;padding:30px;">
+      <div style="padding:10px;margin:10px;">
+        <h1>What is Boolean?</h1>
+        <p>
+          Boolean is a type of data that has only True and False.<br><br>
+
+          Let's try to make a program that prints whether the number user typed in is bigger than 5.<br><br>
+
+          <code>
+            userNumber = int(input("Number: "))<br><br>
+
+            print(userNumber > 5) #whether userNumber is bigger than 5
+          </code>
+
+          We can also store boolean values in variables.<br><br>
+
+          <code>
+            a = 5 > 6
+          </code>
+        </p>
+      </div>
+      <div style="margin :auto;">
+        <img alt="python-factory-picture"
+          src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg" width="300px" />
+      </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="text-align: center;">
+      <hr>
+      <br>
+      <div style="text-align: center;" id="speakdiv">
+        <button id="speakbutt">Read</button>
+        <div id="setting">
+          <br><br>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width:25px !important;" />
+          <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br>
+          <img
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width:25px !important;" />
+          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+        </div>
+      </div>
+      <br><br>
+      <h1 style="margin:auto;font-size:30px;"><span id="tit">Boolean</span><br id="lbbr"><span id="txt">Computer
+          Science Lab
+          (</span>CSL<span id="txt">)</span> 13
+      </h1>
+      <br>
+      <hr>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="padding:30px;display:flex;">
+      <div style="padding:10px;margin:10px;">
+        <h1>Something to be careful</h1>
+        <p>
+          In Python, incorrect is False and correct is True.<br><br>
+
+          I did not made the first alphabet of False and True uppercase on purpose.<br><br>
+
+          Python uses False and True with UPPERCASE letters.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python/8500bba20b" width="50%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="padding:30px;display:flex;background-color: #f7f7f7;">
+      <div style="padding:10px;margin:10px;">
+        <h1>not keyword</h1>
+        <p>
+          Using not, we can switch from true to false and vice versa.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python/5fbbc3204c" width="60%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="padding:30px;display:flex;background-color: black;color:white;">
+      <div style="padding:10px;margin:10px;">
+        <h1>assert</h1>
+        <p>
+          Let's look at the following example.<br><br>
+
+          <code>
+            assert 2 > 1<br>
+            print("YES. 2 is bigger than 1")
+          </code>
+
+          The example above will make an error if 2 is not bigger than 1.<br><br>
+
+          Otherwise, it will continue on and print "Yes. 2 is bigger than 1."<br><br>
+
+          We can also make your own message.<br><br>
+
+          <code>
+            assert 1 > 2, "Hmmm... 🐛🐛🐛(bug) found in code."
+          </code>
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/b23c21c043" width="60%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="padding:30px;display:flex;background-color: white;color:black;">
+      <div style="padding:10px;margin:10px;">
+        <h1>all() and any() </h1>
+        <p>
+          All means everything. We have not yet learned this yet but if everything inside list is True, all() prints
+          True and prints False if
+          otherwise.<br><br>
+
+          any() prints True if any of the items in list is True and False if all of them are False.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python/6d4ae0d672" width="100%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="margin :10px;padding:10px;">
+      <button style="float:left;"><a href="ascii-en.html">❮ Previous</a></button>
+      <button style="float:right;"><a href="number-en.html">Next ❯</a></button>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div style="text-align: center;border-color:black;border-style:solid;">
+      <h1>Quiz Time!</h1>
+    </div>
+
+    <div style="text-align:center;font-size: 25px;">
+      <h3> What is the possible values of a Boolean in Python? </h3>
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+        <label for="question-1-answers-A">A) true, false </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+        <label for="question-1-answers-B">B) True, false </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+        <label for="question-1-answers-C">C) true, False </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+        <label for="question-1-answers-D">D) True, False </label>
+      </div>
+
+      <br><br>
+
+      <h3> What is the value of not (not (not (not (not (not (False))))))</h3>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+        <label for="question-2-answers-A">A) False </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+        <label for="question-2-answers-B">B) True </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+        <label for="question-2-answers-C">C) Null </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+        <label for="question-2-answers-D">D) None </label>
+      </div>
+
+      <br><br>
+
+      <h3> What is the value of any([True, False, False, False, False]) </h3>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+        <label for="question-3-answers-A">A) False </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+        <label for="question-3-answers-B">B) True </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+        <label for="question-3-answers-C">C) Null </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+        <label for="question-3-answers-D">D) None </label>
+      </div>
+
+      <br><br>
+
+      <button id="checky"
+        onclick='if (document.getElementById("question-1-answers-D").checked) {alert("1 is right!")} else {alert("1 is wrong")}; if(document.getElementById("question-2-answers-A").checked) {alert("2 is right :)")} else {alert("2 is wrong")};if(document.getElementById("question-3-answers-B").checked) {alert("3 is right :)")} else {alert("3 is wrong")};'>Check
+        Answer</button>
+    </div>
+
+
+    <script defer src="script-en.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>

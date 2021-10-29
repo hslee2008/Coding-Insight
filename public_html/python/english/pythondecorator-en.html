@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+        }
+      gtag("js", new Date());
+
+      gtag("config", "UA-209775586-1");
+      </script>
+    <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+    <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+    <meta name="author" content="Hyunseung, Juha, Gun" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Insight</title>
+    <link hreflang="en" rel="icon" href="py.png" type="image/png" />
+    <link hreflang="en" rel="stylesheet" href="style-en.css" />
+    <meta charset="UTF-8" />
+    </head>
+
+  <body style="margin: 0">
+    <div style="margin: 0; padding: 0" id="navigate">
+      <ul>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a>
+        </li>
+        <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+        <li>
+          <a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+            id="video">Video</a>
+        </li>
+        <li style="float:right;"><a><button
+              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+              style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+
+        <li style="float: right">
+          <a rel="noopener" href="https://coding-insight.com/python/korean/pythondecorator.html" id="trans"
+            style="color: white">한국어</a>
+        </li>
+
+        <li id="more"><a>More</a></li>
+      </ul>
+      </div>
+    <br />
+    <br />
+
+    <button id="butty">
+      Menu <span style="font-size: 14px">⬅ Click</span>
+    </button>
+    <div id="menu"></div>
+    <div style="padding: 10px; margin: 20px">
+      <div style="padding: 10px; margin: 20px">
+        <div style="padding: 10px; margin: 20px">
+          <div style="text-align: center">
+            <hr />
+            <br />
+            <div style="text-align: center" id="speakdiv">
+              <button id="speakbutt">Read</button>
+              <div id="setting">
+                <br /><br />
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                  style="width: 25px !important"
+                  />
+                  <input type="range" id="vol" min="0" max="1" step="0.1" />
+                <br />
+                <img
+                  src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                  style="width: 25px !important"
+                  />
+                  <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+                  </div>
+                  </div>
+            <br /><br />
+            <h1 style="margin: auto; font-size: 30px">
+              <span id="tit">Python Decorator</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+                id="txt">)</span> 68
+            </h1>
+            <br />
+            <hr />
+            </div>
+
+          <br /><br /><br /><br />
+
+          <div style="
+              display: flex;
+              padding: 30px;
+              background-color: rgb(250, 199, 199);
+            ">
+            <div style="padding: 20px">
+              <h1>@mydecorator</h1>
+              <p>
+                Let's try making a 'Teacher' class.<br /><br />
+
+                <code>
+                  class Teacher:<br />
+                  &nbsp;def __init__(self, name, subjectTeaching):<br />
+                  &nbsp;&nbsp;self.name = name<br />
+                  &nbsp;&nbsp;self.subjectTeaching = subjectTeaching<br /><br />
+
+                  &nbsp;def name(self):<br />
+                  &nbsp;&nbsp;return self.name
+                  </code>
+
+                To access the teacher's name, we have to run the name()
+                function.<br /><br />
+
+                However, if we add @property decorator to the name, the name()
+                function can be used with name(sort of like variable)
+                instead.<br /><br />
+
+                <code>
+                  @property<br />
+                  &nbsp;def name(self):<br />
+                  &nbsp;&nbsp;return self.name
+                  </code>
+
+                Furthermore, we can make a function that sets the self value
+                using @selfvariable.setter property.<br /><br />
+
+                <code>
+                  @name.setter #set name variable to something new<br />
+                  &nbsp;def name(self, val):<br />
+                  &nbsp;&nbsp;self.name = val
+                  </code>
+
+                Finally, we can make a function that deletes a specific self
+                variable by using @selfvariable.deleter decorator.<br /><br />
+
+                <code>
+                  @name.deleter<br />
+                  def name(self, val):<br />
+                  &nbsp;print('삭제하겠습니다….)<br /><br />
+                  &nbsp;del self.name
+                  </code>
+                  </p>
+                  </div>
+                  </div>
+
+          <br /><br /><br /><br />
+
+          <div style="
+              display: flex;
+              padding: 30px;
+              background-color: rgb(199, 217, 250);
+            ">
+            <div style="padding: 20px">
+              <h1>@classmethod</h1>
+              <p>
+                A property can also become a class method when surrounded by
+                @classmethod decorator.
+                </p>
+                </div>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/9e90d8b9d3" width="100%" height="356" frameborder="0"
+                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+
+          <br /><br /><br /><br />
+
+          <div style="
+              display: flex;
+              padding: 30px;
+              background-color: rgb(199, 217, 250);
+            ">
+            <div style="padding: 20px">
+              <h1>@staticmethod</h1>
+              <p>
+                When @staticmethod decorator is added, the function can only be
+                used inside the class.
+                </p>
+                </div>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/d00208b10a" width="100%" height="356" frameborder="0"
+                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+
+          <br /><br /><br /><br />
+
+          <div style="margin: 10px; padding: 10px">
+            <button style="float: left">
+              <a href="mydecorator-en.html">❮ Previous</a>
+            </button>
+            <button style="float: right">
+              <a href="newline-en.html">Next ❯</a>
+            </button>
+          </div>
+          </div>
+          </div>
+
+      <br /><br /><br /><br />
+      </div>
+      <script defer src="script-en.js"></script>
+
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+</html>

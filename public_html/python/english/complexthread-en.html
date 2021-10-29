@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+        }
+      gtag("js", new Date());
+
+      gtag("config", "UA-209775586-1");
+      </script>
+    <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+    <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+    <meta name="author" content="Hyunseung, Juha, Gun" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Insight</title>
+    <link hreflang="en" rel="icon" href="py.png" type="image/png" />
+    <link hreflang="en" rel="stylesheet" href="style-en.css" />
+    <meta charset="UTF-8" />
+    </head>
+
+  <body style="margin: 0">
+    <div style="margin: 0; padding: 0" id="navigate">
+      <ul>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a>
+        </li>
+        <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+        <li>
+          <a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+            id="video">Video</a>
+        </li>
+        <li style="float:right;"><a><button
+              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+              style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+
+        <li style="float: right">
+          <a rel="noopener" href="https://coding-insight.com/python/korean/complexthread.html" id="trans"
+            style="color: white">한국어</a>
+        </li>
+
+        <li id="more"><a>More</a></li>
+      </ul>
+      </div>
+    <br />
+    <br />
+
+    <button id="butty">
+      Menu <span style="font-size: 14px">⬅ Click</span>
+    </button>
+    <div id="menu"></div>
+    <div style="display: flex; margin-top: 50px; padding: 30px">
+      <div style="padding: 10px; margin: 10px">
+        <h1>Mastering Thread</h1>
+        <p>
+          Let's try looking into a much more complex thread.<br /><br />
+
+          <code>
+            import threading, time<br /><br />
+
+            def thread1():<br />
+            &nbsp;print("Hello")<br />
+            &nbsp;time.sleep(1)<br />
+            &nbsp;print("Done")<br />
+            &nbsp;time.sleep(0.9)<br />
+            &nbsp;print("Now It is Really Done!")<br /><br />
+
+            mainThread = threading.Thread(target=thread1)<br />
+            mainThread.start()<br />
+            print(threading.active_count())<br />
+            time.sleep(0.95)<br />
+            print("Finally")
+            </code>
+
+          If we run the code above, things happen this way:<br /><br />
+
+          1. Firstly, mainThread is made.<br />
+          2. Then, thread1 starts.<br />
+          3. "Hello" is printed to the console.<br />
+          4. Next, threading.active_count() runs (Becuase there is 1 second
+          left).<br />
+          5. Python moves on to printing "Finally" because 0.95 is smaller than
+          1.<br />
+          6. Now, Python moves on to "Done" and waits 0.9 then prints "Now it is
+          Reall Done!"
+          </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/d14f421fa3" width="60%" height="700" frameborder="0"
+            marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
+    <div style="padding: 10px; margin: 20px">
+      <div style="padding: 10px; margin: 20px">
+        <div style="padding: 10px; margin: 20px">
+          <div style="text-align: center">
+            <hr />
+            <br />
+            <div style="text-align: center" id="speakdiv">
+              <button id="speakbutt">Read</button>
+              <div id="setting">
+                <br /><br />
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                  style="width: 25px !important"
+                  />
+                  <input type="range" id="vol" min="0" max="1" step="0.1" />
+                <br />
+                <img
+                  src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                  style="width: 25px !important"
+                  />
+                  <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+                  </div>
+                  </div>
+            <br /><br />
+            <h1 style="margin: auto; font-size: 30px">
+              <span id="tit">Mastering Thread</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+                id="txt">)</span> 74
+            </h1>
+            <br />
+            <hr />
+            </div>
+
+          <br /><br /><br /><br />
+
+          <div style="
+              display: flex;
+              padding: 30px;
+              background-color: #efffdc;
+              color: black;
+            ">
+            <div style="padding: 20px">
+              <h1>join() method</h1>
+              <p>
+                Similar to 'await' in asyncio, join() method will wait till that
+                thread is finished.<br /><br />
+
+                <code>
+                  import threading, time<br /><br />
+
+                  def thread1():<br />
+                  &nbsp;print("Hello")<br />
+                  &nbsp;time.sleep(1)<br />
+                  &nbsp;print("Done")<br />
+                  &nbsp;time.sleep(0.9)<br />
+                  &nbsp;print("Now It is Really Done!")<br /><br />
+
+                  mainThread = threading.Thread(target=thread1)<br />
+                  mainThread.start()<br />
+                  print(threading.active_count())<br /><br />
+
+                  mainThread.join()<br /><br />
+
+                  time.sleep(0.95)<br />
+                  print("Finally")
+                  </code>
+
+                1. Firstly, mainThread is made.<br />
+                2. Then, thread1 starts.<br />
+                3. "Hello" is printed to the console.<br />
+                4. Next, threading.active_count() runs (Becuase there is 1
+                second left).<br />
+                5. Since there is join() method, "Done!" and "Now It is Really
+                Done!" is printed.<br />
+                6. Then, "Finally!" is printed.
+                </p>
+                </div>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/4b10ddd953" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+
+          <br /><br /><br /><br />
+
+          <div style="margin: 10px; padding: 10px">
+            <button style="float: left">
+              <a href="thread-en.html">❮ Previous</a>
+            </button>
+            <button style="float: right">
+              <a href="threadmethod-en.html">Next ❯</a>
+            </button>
+          </div>
+          </div>
+          </div>
+
+      <br /><br /><br /><br />
+      </div>
+      <script defer src="script-en.js"></script>
+
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+</html>

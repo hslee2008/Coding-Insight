@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png">
+  <link hreflang="kr" rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a></li>
+      <li><a rel="noopener" href="https:///coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+      <li><a rel="noopener" href="https:///coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
+      <li><a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+          id="video">동영상</a></li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+      <li style="float:right;"><a rel="noopener" href="https:///coding-insight.com/python/english/datatype-en.html"
+          style="color:white;" id="trans">English</a></li>
+      <li id="more"><a>더보기</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <button id="butty"> 메뉴 <span style="font-size:14px;">⬅ 클릭하기</span> </button>
+  <div id="menu"></div>
+
+  <div style="padding:10px;margin:20px;">
+    <div style="display:flex;margin-top:50px;padding:30px;">
+      <div style="padding:10px;margin:10px;">
+        <h1>주석이란?</h1>
+        <p>
+          온라인 수업시간에 '주석 달기'라는 버튼을 사용해 보신적이 있나요?<br><br>
+
+          줌 시간에서 '주석을 달다'라는 뜻은 노트에 쓰는 것을 뜻합니다.<br><br>
+
+          비슷하게 프로그래밍에서 우리의 <mark>코드를 이해하는 것을 도와주기 위한 설명</mark>을 넣을 수 있습니다.<br><br>
+        </p>
+      </div>
+      <div style="margin :auto;">
+        <img alt="python-factory-picture"
+          src="https://i1.wp.com/blog.lulu.com/wp-content/uploads/2020/02/021120_NoteTaking-Blog.png?fit=1200%2C675&ssl=1"
+          width="300px" />
+      </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nJg2uCjwKa4" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="text-align: center;">
+      <hr>
+      <br>
+      <div style="text-align: center;" id="speakdiv">
+        <button id="speakbutt">읽어주기</button>
+        <div id="setting">
+          <br><br>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width:25px !important;" />
+          <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br>
+          <img
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width:25px !important;" />
+          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+        </div>
+      </div>
+      <br><br>
+      <h1 style="margin:auto;font-size:30px;"><span id="tit">주석</span><br id="lbbr"><span id="txt">Computer Science
+          Lab
+          (</span>CSL<span id="txt">)</span> 7</h1>
+      <br>
+      <hr>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="padding:30px;display:flex;">
+      <div style="padding:10px;margin:10px;">
+        <h1>주석을 사용해야 하는 상황</h1>
+        <p>
+          1. 팀으로 일할 때 코드의 부분의 기능을 설명할 때<br><br>
+          2. 프린트 코드에서 어떤 값이 출력하는지 알려줄 때<br><br>
+          3. 주석은 실행이 되지 않는다. 그래서 코드를 주석으로 만들면 전체 코드를 삭제하지 않고 그 코드가 없을 때 어떻게 프로그램이 실행되는지 확인이 가능하다.
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python/450cb9ddc1" width="100%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="padding:30px;display:flex;background-color: #efefef;">
+      <div style="padding:10px;margin:10px;">
+        <h1>한 줄 주석</h1>
+        <p>
+          파이썬에서는 주석을 달기 위하여 '#'를 사용합니다.<br><br>
+
+          '#' 다음에 나오는 문자들은 파이썬을 실행할 때 <mark>영향을 주지 않습니다</mark>. 그 이유는 노트이기 때문에 파이썬에서는 실행되지 않기 때문입니다.<br><br>
+
+          다음은 주석의 예시입니다.<br><br>
+      </div>
+      <iframe src="https://trinket.io/embed/python/5f18131ec9" width="100%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div style="padding:30px;display:flex;background-color: #efefef;">
+      <div style="padding:10px;margin:10px;">
+        <h1>한 줄 이상 주석</h1>
+        <p>
+          주석을 많이 작성하거나 하나 이상 줄을 만들고 싶다면 다음과 같은 방법을 사용할 수 있습니다.<br><br>
+
+          ''' '''와 """ """ 둘다 한 줄 이상 주석을 다는데 사용할 수 있습니다.
+      </div>
+      <iframe src="https://trinket.io/embed/python/ab2de5f9f6" width="100%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+
+    <div style="margin :10px;padding:10px;">
+      <button style="float:left;"><a href="datatype.html">❮ 이전</a></button>
+      <button style="float:right;"><a href="string.html">다음 ❯</a></button>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div style="text-align: center;border-color:black;border-style:solid;">
+      <h1>퀴즈 풀기!</h1>
+    </div>
+
+    <div style="text-align:center;font-size: 25px;">
+      <h3>파이썬에서 한 줄 주석을 다는 방법은?</h3>
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+        <label for="question-1-answers-A">A) # </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+        <label for="question-1-answers-B">B) ! </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+        <label for="question-1-answers-C">C) ~ </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+        <label for="question-1-answers-D">D) & </label>
+      </div>
+
+      <br><br>
+
+      <h3>한 줄 이상 주석 다는 방법은?</h3>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+        <label for="question-2-answers-A">A) """ """ </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+        <label for="question-2-answers-B">B) " " </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+        <label for="question-2-answers-C">C) ( ) </label>
+      </div>
+
+      <div>
+        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+        <label for="question-2-answers-D">D) ([{ }]) </label>
+      </div>
+
+      <br><br>
+
+      <button id="checky" onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-A").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")};'>정답
+        확인</button>
+    </div>
+
+    <script defer src="script.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>

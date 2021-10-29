@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta charset="utf-8">
+  <title>404 | Coding-Insight</title>
+  <link rel="icon" href="py.png" />
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: -webkit-repeating-linear-gradient(-45deg, rgb(255, 255, 255), #69a6ce, #b271cc, #f39a90, #b876d3, #6ba7d0,
+          #9b59b6);
+      background-size: 400%;
+    }
+
+    #error-page {
+      position: absolute;
+      top: 10%;
+      left: 15%;
+      right: 15%;
+      bottom: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #error-page .content {
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .content h2.header {
+      font-size: 18vw;
+      line-height: 1em;
+      position: relative;
+    }
+
+    .content h2.header:after {
+      position: absolute;
+      content: attr(data-text);
+      top: 0;
+      left: 0;
+      right: 0;
+      background: -webkit-repeating-linear-gradient(-45deg, #71b7e6, #69a6ce, #b98acc, #ee8176, #b98acc, #69a6ce,
+          #9b59b6);
+      background-size: 400%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+      animation: animate 10s ease-in-out infinite;
+    }
+
+    @keyframes animate {
+      0% {
+        background-position: 0 0;
+      }
+
+      25% {
+        background-position: 100% 0;
+      }
+
+      50% {
+        background-position: 100% 100%;
+      }
+
+      75% {
+        background-position: 0% 100%;
+      }
+
+      100% {
+        background-position: 0% 0%;
+      }
+    }
+
+    .content h4 {
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      color: #000;
+      font-size: 1.9em;
+      max-width: 600px;
+      position: relative;
+    }
+
+    .content h4:after {
+      position: absolute;
+      content: attr(data-text);
+      top: 0;
+      left: 0;
+      right: 0;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .content p {
+      font-size: 1.2em;
+      color: #0d0d0d;
+    }
+
+    .content .btns {
+      margin: 25px 0;
+      display: inline-flex;
+    }
+
+    .content .btns a {
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+      border: 2px solid #69a6ce;
+      color: #69a6ce;
+      font-weight: 500;
+      padding: 10px 25px;
+      border-radius: 25px;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+    }
+
+    .content .btns a:hover {
+      background: #69a6ce;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="error-page">
+    <div class="content">
+      <h3 id="url">{} 페이지를 찾을 수 없었습니다</h3>
+      <h2 class="header" data-text="404">404</h2>
+      <div style="display: flex;">
+        <div>
+          <h4 data-text="요청한 페이지를 찾을 수 없었습니다.">
+            요청한 페이지를 찾을 수 없었습니다.
+          </h4>
+          <p>조금 뒤에 다시 해보거나 문제를 보고하세요!</p>
+        </div>
+        <div style="margin:auto;">
+          <img src="py.png" width="100px"/>
+        </div>
+      </div>
+      <div class="btns">
+        <a href="https://www.coding-insight.com/">홈으로</a>
+        <a href="https://www.coding-insight.com/chat.html">문제보고</a>
+        <p style="margin:6px;">자동으로 문제는 보고 됩니다.</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.querySelector("#url").innerHTML = document.querySelector("#url").innerHTML.replace("{}",
+    location).replace("https://", "").replace("https://", "");
+  </script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>

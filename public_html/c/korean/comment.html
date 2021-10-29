@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+        }
+      gtag("js", new Date());
+
+      gtag("config", "UA-209775586-1");
+      </script>
+    <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+    <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+    <meta name="author" content="Hyunseung, Juha, Gun" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>코딩 인사이트</title>
+    <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+    <link hreflang="kr" rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    </head>
+
+  <body style="margin: 0">
+    <div style="margin: 0; padding: 0" id="navigate">
+      <ul>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a>
+        </li>
+        <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
+        <li>
+          <a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+            id="video">동영상</a>
+        </li>
+        <li style="float:right;"><a><button
+              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+              style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+        <li id="more"><a>더보기</a></li>
+      </ul>
+      </div>
+    <br />
+    <br />
+
+    <button id="butty">
+      메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
+    </button>
+    <div id="menu"></div>
+    <div style="padding: 30px; display: flex">
+      <div style="padding: 10px; margin: 10px">
+        <h1>주석이란?</h1>
+        <p>
+          C 언어에서 주석은 프로그램에서 사용된 코드를 이해하기 쉽게 만들어준
+          노트입니다.<br /><br />
+
+          예를 들면, printf() 코드가 어떤 기능을 하는지 설명할 때 주석을
+          사용하여 나중에 이해하는데 많은 도움을 줄 수 있습니다.
+          </p>
+          </div>
+          </div>
+    <div style="text-align: center">
+      <hr />
+      <br />
+      <div style="text-align: center" id="speakdiv">
+        <button id="speakbutt">읽어주기</button>
+        <div id="setting">
+          <br /><br />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width: 25px !important" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br />
+          <img
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width: 25px !important"
+            />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
+            </div>
+      <br /><br />
+      <h1 style="margin: auto; font-size: 30px">
+        <span id="tit">주석</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span id="txt">)</span>
+        12
+      </h1>
+      <br />
+      <hr />
+      </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding: 30px; display: flex">
+      <div style="padding: 10px; margin: 10px">
+        <h1>주석 - 한 줄</h1>
+        <p>
+          코드 옆에 노트를 적을 때는 //를 사용합니다.<br /><br />
+
+          // 다음에 있는 모든 문자들은 다 주석 안에 포함이 되고 코드를 실행할 때
+          C 언어는 그것을 무시합니다.<br /><br />
+
+          <code>
+            #include &lt;stdio.h><br /><br />
+
+            int main()<br />
+            {<br />
+            &nbsp;printf("abc"); //prints stuff<br />
+            &nbsp;return 0;<br />
+            }
+            </code>
+            </p>
+            </div>
+      <div style="margin: auto">
+        <img
+          src="data:image/png;base64,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"
+          />
+          </div>
+          </div>
+
+    <br /><br /><br /><br />
+
+    <div style="padding: 30px; display: flex">
+      <div style="padding: 10px; margin: 10px">
+        <h1>주석 - 여러 줄</h1>
+        <p>
+          //를 사용할 때 그 줄에 있고 // 다음에 있는 문자들만 주석입니다.<br /><br />
+
+          그래서 한 줄 이상이 필요할 때에는 /*와 */를 사용하여 주석을 감싸면
+          됩니다.<br /><br />
+
+          /**/ 안에 있는 모든 문자들은 주석입니다.<br /><br />
+
+          <code>
+            #include &lt;stdio.h><br /><br />
+
+            int main()<br />
+            {<br />
+            &nbsp;printf("abc");<br /><br />
+
+            &nbsp;/*<br />
+            &nbsp;prints stuff<br />
+            &nbsp;abc를 출력한다<br />
+            &nbsp;...<br />
+            &nbsp;*/<br /><br />
+
+            &nbsp;return 0;<br />
+            }
+            </code>
+            </p>
+            </div>
+      <div style="margin: auto">
+        <img
+          src="data:image/png;base64,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
+          "
+          />
+          </div>
+          </div>
+
+    <br /><br /><br /><br />
+
+    <div style="margin: 10px; padding: 10px">
+      <button style="float: left"><a href="operator.html">❮ 이전</a></button>
+      <button style="float: right"><a href="grammar.html">다음 ❯</a></button>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <script defer src="script.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+</html>

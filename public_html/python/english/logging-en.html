@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Insight</title>
+  <link hreflang="en" rel="icon" href="py.png" type="image/png">
+  <link hreflang="en" rel="stylesheet" href="style-en.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+      <li><a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+<li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+    id="video">Video</a>
+</li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+      <li style="float:right;"><a rel="noopener" href="https://coding-insight.com/python/korean/logging.html"
+          id="trans" style="color:white;">한국어</a></li>
+      <li id="more"><a>More</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <button id="butty"> Menu <span style="font-size:14px;">⬅ Click</span> </button>
+  <div id="menu"></div>
+  <div style="padding:10px;margin:20px;">
+    <div style="display:flex;margin-top:50px;">
+      <div style="margin :auto;text-align:center;">
+        <img alt="python-factory-picture"
+          src="data:image/png;base64,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" />
+      </div>
+      <div style="margin :auto;padding:50px;">
+        <p>
+          <h1>What is logging?</h1>
+          If there is a problem with a Pyton program and you might want to know what is going on.<br><br>
+
+          In this situation, you can insert a logging statement which will print the value of the variable value to the
+          console.<br><br>
+
+          Logging can tell us about what is going on with our variables.<br><br>
+
+          We have to import logging first in order to use special log method.<br><br>
+
+          But first, we have to set the log file where our loggings will be stored.<br><br>
+
+          <code>
+            import logging<br><br>
+
+            logging.basicConfig(filename="log.log")
+          </code>
+        </p>
+      </div>
+    </div>
+    <div style="padding:10px;margin:20px;">
+      <div style="padding:10px;margin:20px;">
+        <div style="text-align: center;">
+          <hr>
+          <br>
+          <div style="text-align: center;" id="speakdiv">
+            <button id="speakbutt">Read</button>
+            <div id="setting">
+              <br><br>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width:25px !important;" />
+              <input type="range" id="vol" min="0" max="1" step="0.1" />
+              <br>
+              <img
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width:25px !important;" />
+              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
+          </div>
+          <br><br>
+      <h1 style="margin:auto;font-size:30px;"><span id="tit">Logging</span><br id="lbbr"><span id="txt">Computer
+              Science Lab
+              (</span>CSL<span id="txt">)</span> 63
+          </h1>
+          <br>
+          <hr>
+        </div>
+
+        <br><br><br><br>
+
+        <div style="display:flex; padding:30px;background-color: rgb(184, 174, 40);">
+          <div style="padding:20px;">
+            <h1>INFO</h1>
+            <p>
+              info is short for information.<br><br>
+
+              logging.ingo() method will print a value to the log file.
+            </p>
+          </div>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/9d4fc4880a" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+
+        <br><br><br><br>
+
+        <div style="padding:20px;display:flex;background-color: rgb(238, 158, 158);">
+          <div style="padding:10px;">
+            <h1>WARNING</h1>
+            <p>
+              logging.warning() method is for warning the devlopers about something.
+            </p>
+          </div>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/6c1c71f7fd" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+
+        <br><br><br><br>
+
+        <div style="padding:20px;display:flex;background-color: rgb(216, 195, 230);">
+          <div style="padding:10px;">
+            <h1>ERROR and EXCEPTION</h1>
+            <p>
+              logging.error() is for logging error messages if something went wrong.<br><br>
+
+              <code>
+                import logging<br><br>
+
+                logging.error("You are too smart!")
+              </code>
+
+              Exception is very similar to error but a bit different.<br><br>
+
+              Exception is when a variable value went wrong.<br><br>
+
+              <code>
+                import logging<br><br>
+
+                logging.exception("you cannot use this number because it is not allowed.")
+              </code>
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/f9687df6a4" width="60%" height="500" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+        </div>
+
+        <br><br><br><br>
+
+        <div style="margin :10px;padding:10px;">
+          <button style="float:left;"><a href="error2-en.html">❮ Previous</a></button>
+          <button style="float:right;"><a href="mapandreduceandfilter-en.html">Next ❯</button>
+        </div>
+      </div>
+
+      <br><br><br><br>
+    </div>
+  </div>
+  <script defer src="script-en.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display:none;" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
+</html>
