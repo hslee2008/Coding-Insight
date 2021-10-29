@@ -36,8 +36,10 @@ const menu = `
     <a href="boolean.html">(13) &#48520;&#47532;&#50616; </a>
     <a href="number.html">(14) &#49707;&#51088; </a>
     <a href="operator.html">(15) &#50672;&#49328;&#51088; </a>
-    <br><br>
     <a href="numtype.html">(16) &#49707;&#51088; &#51333;&#47448; </a>
+    <br><br>
+    <a href="project/basiccalc.html"> (1 - 2) 간단한 계산기</a>
+    <br><br>
     <a href="nummethod.html">(17) &#49707;&#51088; &#47700;&#49436;&#46300; </a>
     <a href="list.html">(18) &#47532;&#49828;&#53944; </a>
     <a href="listmethod1.html">(19) &#47532;&#49828;&#53944; &#47700;&#49436;&#46300; 1 </a>

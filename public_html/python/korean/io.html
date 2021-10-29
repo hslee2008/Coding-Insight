@@ -43,9 +43,17 @@
         <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
           id="video">동영상</a>
       </li>
-      <li style="float:right;"><a><button
+      <li style="float: right">
+        <a><button
             onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
-            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+            style="
+                background-color: #333;
+                margin: 0 !important;
+                padding: 0 !important;
+              ">
+            🔎
+          </button></a>
+      </li>
       <li style="float: right">
         <a rel="noopener" href="https:///coding-insight.com/python/english/vscode-en.html" style="color: white"
           id="trans">English</a>
@@ -233,7 +241,7 @@
     </div>
     <br /><br />
 
-    <div style="text-align: center; font-size: 25px">
+    <div style="text-align: center; font-size: 25px" id="quizpy">
       <h3>출력이란?</h3>
       <div>
         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
@@ -364,11 +372,10 @@
 
     <br /><br /><br /><br />
   </div>
-
-  <script></script>
+  
   <script defer src="script.js"></script>
   <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
-  <div style="display:none;" id="search-div">
+  <div style="display: none" id="search-div">
     <div class="gcse-searchbox-only"></div>
   </div>
 </body>
