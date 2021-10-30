@@ -79,18 +79,6 @@ function Bar(props: any) {
         color="white"
       />
       <IconButton
-        icon="chat"
-        disabled={props.link == "https://www.coding-insight.com/chat.html"}
-        onPress={() => {
-          props.setLink("https://www.coding-insight.com/chat.html");
-          props.forceUpdate();
-        }}
-        onLongPress={() => {
-          Linking.openURL("https://www.coding-insight.com/chat.html");
-        }}
-        color="white"
-      />
-      <IconButton
         icon="home"
         disabled={props.link == "https://www.coding-insight.com/"}
         onPress={() => {
@@ -141,7 +129,7 @@ function App() {
         drawerWidth={300}
         drawerPosition="left"
         renderNavigationView={() => (
-          <Settings reload={reload} drawer={drawer} />
+          <Settings reload={reload} drawer={drawer} setLink={setLink} />
         )}
       >
         <WebView

@@ -28,7 +28,7 @@ function PythonFactoryIcon() {
         justifyContent: "center",
         alignContent: "center",
         flexDirection: "row",
-        marginBottom: 10,
+        marginBottom: 30,
       }}
     >
       <Image
@@ -277,6 +277,16 @@ function OtherSetting() {
 function AppBar(props) {
   return (
     <Appbar.Header statusBarHeight={0}>
+      <Appbar.Action
+        icon="magnify"
+        onPress = {
+          () => {
+            props.setLink( "https://cse.google.com/cse?cx=ee1853348b1a4e08b" )
+            props?.drawer?.current?.closeDrawer?.()
+            props.reload()
+          }
+        }
+      />
       <Appbar.Content
         title="Coding-Insight"
         subtitle={"v" + manifest.version}
@@ -306,7 +316,7 @@ function Settings(props) {
 
   return (
     <>
-      <AppBar drawer={ props.drawer }/>
+      <AppBar drawer={ props.drawer } setLink={ props.setLink } reload={ props.reload }/>
       <View
         style={[
           {
