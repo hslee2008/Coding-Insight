@@ -1,14 +1,21 @@
 import React, { useRef, useState } from "react";
-import { Banner, IconButton, ActivityIndicator } from "react-native-paper";
+import {
+  Banner,
+  IconButton,
+  ActivityIndicator,
+  Dialog,
+} from "react-native-paper";
 import {
   View,
   Linking,
   DrawerLayoutAndroid,
+  Text,
   StatusBar,
   Image,
 } from "react-native";
 import { WebView } from "react-native-webview";
 import Settings, { setting } from "./src/setting.js";
+import { fetchUpdateAsync, reloadAsync } from "expo-updates";
 
 function useForceUpdate() {
   const [, setValue] = useState(0);
@@ -23,17 +30,21 @@ function BANN(props: any) {
       actions={[
         {
           label: "GitHub",
-          onPress: () =>
+          onPress: () => {
+            props.setFab(false);
             Linking.openURL(
               "https://github.com/HyunseungLee-Travis/Coding-Insight"
-            ),
+            );
+          },
         },
         {
           label: "YouTube",
-          onPress: () =>
+          onPress: () => {
+            props.setFab(false);
             Linking.openURL(
               "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
-            ),
+            );
+          },
         },
         {
           label: "Close",
@@ -111,6 +122,17 @@ function App() {
       : "https://www.coding-insight.com/"
   );
   const [fab, setFab] = useState(false);
+  const [visible, setVisible] = useState(false);
+
+  React.useEffect(() => {
+    try {
+      const { isAvailable } = fetchUpdateAsync();
+
+      if (isAvailable) setVisible(true);
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
 
   const reload = () => {
     webViewRef.current.clearHistory();
@@ -129,9 +151,39 @@ function App() {
         drawerWidth={300}
         drawerPosition="left"
         renderNavigationView={() => (
-          <Settings reload={reload} drawer={drawer} setLink={setLink} />
+          <Settings
+            reload={reload}
+            drawer={drawer}
+            setLink={() => setVisible(false)}
+          />
         )}
       >
+        <Banner
+          visible={visible}
+          actions={[
+            {
+              label: "Update",
+              onPress: reloadAsync,
+            },
+            {
+              label: "Ignore",
+              onPress: () => setVisible(false),
+            },
+          ]}
+          icon={({ size }) => (
+            <Image
+              source={{
+                uri: "https://www.coding-insight.com/py.png",
+              }}
+              style={{
+                width: size,
+                height: size,
+              }}
+            />
+          )}
+        >
+          There was a problem processing a transaction on your credit card.
+        </Banner>
         <WebView
           ref={webViewRef}
           source={{ uri: link }}

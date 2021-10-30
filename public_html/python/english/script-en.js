@@ -204,7 +204,7 @@ document.querySelector( "#butty" ).addEventListener( 'click', () => {
 const set = document.querySelector( "#setting" )
 
 let count = 0;
-const speach = document.body.innerText.substr( document.body.innerText.indexOf( "Read" ) + 5 );
+const speach = document.body.innerText.substr( document.body.innerText.indexOf( "Click" ) + 5 ).replace("read", "");
 const butt = document.querySelector( "#speakbutt" )
 butt.addEventListener( 'click', () => {
   if ( count % 2 == 0 ) {
