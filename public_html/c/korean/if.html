@@ -100,28 +100,25 @@
 
         하지만 시험 점수가 100점이 아니면 {} 안에 있는 코드를 실행하지 않고 넘어갑니다.<br><br>
 
-        <pre>
-          <code>
-          #include &lt;stdio.h>
+        <code>
+          #include &lt;stdio.h><br>
 
-          int main()
-          {
-            int score;
-            scanf("%d", score);
+          int main()<br>
+          {<br>
+          &nbsp;&nbsp;int score;<br>
+          &nbsp;&nbsp;scanf("%d", score);<br><br>
 
-            if (score == 100) {
-              printf("ICE CREAM!!!");
-            }
+          &nbsp;&nbsp;if (score == 100) {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("ICE CREAM!!!");<br>
+          &nbsp;&nbsp;}<br><br>
 
-            return 0;
+          &nbsp;&nbsp;return 0;<br>
           }
-          </code>
-        </pre>
+        </code>
       </p>
     </div>
     <div style="margin:auto;">
-      <img
-        src="data:image/jpeg;base64,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" />
+      <iframe src="https://www.jdoodle.com/embed/v0/3VZL" height="400px" width="700px"></iframe>
     </div>
   </div>
 
@@ -135,24 +132,23 @@
 
         {}를 생략한다면 복잡한 조건문을 사용할 때 이해하기 더 쉽습니다.<br><br>
 
+        <code>
+          #include &lt;stdio.h><br><br>
+
+          int main()<br>
+          {<br>
+          &nbsp;&nbsp;int score;<br>
+          &nbsp;&nbsp;scanf("%d", score);<br><br>
+
+          &nbsp;&nbsp;if (score == 100) printf("ICE CREAM!!!");<br><br>
+
+          &nbsp;&nbsp;return 0;<br>
+          }
+        </code>
       </p>
     </div>
     <div style="margin:auto;">
-      <pre>
-          <code>
-            #include &lt;stdio.h>
-
-            int main()
-            {
-              int score;
-              scanf("%d", score);
-
-              if (score == 100) printf("ICE CREAM!!!");
-
-              return 0;
-            }
-          </code>
-        </pre>
+      <iframe src="https://www.jdoodle.com/embed/v0/3VZO" height="400px" width="700px"></iframe>
     </div>
   </div>
 
@@ -166,22 +162,21 @@
 
         연산자이기 때문에 어떤 변수 안에 조건이 맞다면 특별한 정보를 저장하기 그렇지 않다면 다른 것을 저장하는 형태를 가지고 있습니다.<br><br>
 
-        <pre>
-          <code>
-            #include &lt;stdio.h>
+        <code>
+          #include &lt;stdio.h><br>
 
-            int main()
-            {
-              int a = (1 == 1) ? 1 : 0;
+          int main()<br>
+          {<br>
+          &nbsp;&nbsp;int a = (1 == 1) ? 1 : 0;<br><br>
 
-              printf("%d", a);
-              return 0;
-            }
+          &nbsp;&nbsp;printf("%d", a);<br>
+          &nbsp;&nbsp;return 0;<br>
+          }
         </code>
-      </pre>
       </p>
     </div>
     <div style="margin:auto;">
+      <iframe src="https://www.jdoodle.com/embed/v0/3VZP" width="400px" height="500px"></iframe>
     </div>
   </div>
 
@@ -195,7 +190,7 @@
   <br><br><br><br>
 
   <script defer src="script.js"></script>
-<script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
   <div style="display:none;" id="search-div">
     <div class="gcse-searchbox-only"></div>
   </div>
