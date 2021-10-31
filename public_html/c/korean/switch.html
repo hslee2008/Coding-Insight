@@ -44,6 +44,22 @@
 
   <button id="butty"> 메뉴 <span style="font-size:14px;">⬅ 클릭하기</span> </button>
   <div id="menu"></div>
+
+  <div style="padding:30px;display:flex;">
+    <div style="padding:10px;margin:10px;">
+      <h1>Switch</h1>
+      <p>
+        C 언어에서 switch는 조건문과 비슷하지만 변수와 다른 값을 비교합니다.<br><br>
+
+        switch는 '=='를 사용한 조건문입니다.
+        </code>
+      </p>
+    </div>
+    <div style="margin:auto;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA9KyA0s-jaCrpbHqCh6m7HqlyrR3VueUfEQ&usqp=CAU" />
+    </div>
+  </div>
+
   <div style="text-align: center;">
     <hr>
     <br>
@@ -62,9 +78,9 @@
       </div>
     </div>
     <br><br>
-    <h1 style="margin:auto;font-size:30px;"><span id="tit">복잡한 조건문</span><br id="lbbr"><span id="txt">Computer
+    <h1 style="margin:auto;font-size:30px;"><span id="tit">Switch 문</span><br id="lbbr"><span id="txt">Computer
         Science Lab
-        (</span>CSL<span id="txt">)</span> 16
+        (</span>CSL<span id="txt">)</span> 17
     </h1>
     <br>
     <hr>
@@ -74,32 +90,44 @@
 
   <div style="padding:30px;display:flex;">
     <div style="padding:10px;margin:10px;">
-      <h1>if - else</h1>
+      <h1>조건문이 복잡해진다!!!</h1>
       <p>
-        else는 만일 if 안에 있는 조건이 옳지 않다면 실행할 코드를 담는 곳입니다.<br><br>
+        조건문이 매우 복잡해질 때가 있습니다.<br><br>
 
-        만일 if 안에 있는 조건이 옳다면 else 안에 있는 코드는 실행하지 않을 것입니다.<br><br>
+        예를 들면, char를 입력 받아 A이면 1, B이면 2, C이면 3그리고 F이면 6까지 출력하는 프로그램일 만들어 보겠습니다.<br><br>
 
         <code>
           #include &lt;stdio.h><br><br>
 
           int main()<br>
           {<br>
-          &nbsp;&nbsp;int score = 100;<br><br>
+          &nbsp;&nbsp;char a;<br>
+          &nbsp;&nbsp;scanf("%d", &a);<br><br>
 
-          &nbsp;&nbsp;if (score == 100) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("와!!! 100점!!!");<br>
-          &nbsp;&nbsp;} else {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("흠... 아이스크림 먺지 못하내...");<br>
+          &nbsp;&nbsp;if(a == 'A') {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("1");<br>
+          &nbsp;&nbsp;} else if(a == 'B') {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("2");<br>
+          &nbsp;&nbsp;} else if(a == 'C') {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("3");<br>
+          &nbsp;&nbsp;}else if(a == 'D') {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("4");<br>
+          &nbsp;&nbsp;} else if(a == 'E') {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("5");<br>
+          &nbsp;&nbsp;} else if(a == 'F') {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("6");<br>
           &nbsp;&nbsp;}<br><br>
 
           &nbsp;&nbsp;return 0;<br>
           }
         </code>
+
+        흠... 조금 이해하기 어렵습니다. 이 상황에서 switch문을 사용하면 어떨까요?
+
       </p>
     </div>
     <div style="margin:auto;">
-      <iframe src="https://www.jdoodle.com/embed/v0/3VZT" height="500px" width="700px"></iframe>
+      <iframe src="https://www.jdoodle.com/embed/v0/3W93" height="700px" width="700px"></iframe>
     </div>
   </div>
 
@@ -107,76 +135,39 @@
 
   <div style="padding:30px;display:flex;background-color: black;margin:30px;color:white;">
     <div style="padding:10px;margin:10px;">
-      <h1>else-if</h1>
+      <h1>switch 문</h1>
       <p>
-        시험 점수에서 또 다른 조건을 넣겠습니다.<br><br>
-
-        만일 시험 점수가 100이라면 아이스크림을 먺을 수 있습니다.<br>
-        하지만 시험 점수가 100이 아니고 50 이상이면 공부를 더 해야합니다.<br>
-        마지막으로 50보다 적으면 게음을 1달동안 못합니다.<br><br>
-
-        먼저, 점수가 100인지 확인하고 그렇다면 '아이스크림'을 출력하겠습니다.<br>
-        10점이 아니고 50 이상이여야 하니 else 문 안에 또 다른 if 문을 넣겠습니다.<br>
-        마지막으로, else문 안에 있는 if문에 else문을 달아 50보다 적으면 '게임x'를 출력하겠습니다.<br><br>
+        1. switch() {}를 선언한 후 괄호() 안에 비교하고 싶은 변수를 넣습니다.<br><br>
+        (지금부터 중괄호{} 안에 코드를 넣습니다.)<br><br>
+        2. case "A":라고 친 후 새로운 줄에 만일 a의 값이 A라면 샐행할 코드를 넣습니다.<br><br>
+        (참고로 case는 {} 중괄호를 사용하지 않고 ':'를 사용합니다)<br><br>
+        4. 그리고 항상 a의 값이 A라면 실행할 코드 다음에 "break"를 넣어야 합니다.<br><br>
 
         <code>
           #include &lt;stdio.h><br><br>
 
           int main()<br>
           {<br>
-          &nbsp;&nbsp;int score;<br>
-          &nbsp;&nbsp;scanf("%d", &score);<br><br>
+          &nbsp;&nbsp;char a;<br>
+          &nbsp;&nbsp;scanf("%c", a);<br><br>
 
-          &nbsp;&nbsp;if (score == 100) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("Ice cream!!!");<br>
-          &nbsp;&nbsp;} else {<br><br>
-
-          &nbsp;&nbsp;&nbsp;&nbsp;if (score >= 50) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("Study more!");<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;} else {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("No games for a month :(");<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;}<br><br>
-
+          &nbsp;&nbsp;switch(a) {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;case 'A':<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("1");<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reak;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;case 'B':<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("2");<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
           &nbsp;&nbsp;}<br><br>
 
           &nbsp;&nbsp;return 0;<br>
           }
         </code>
-      </p>
 
+      </p>
     </div>
     <div>
-      <p>
-
-        이렇게 계속 else문 안에 많은 조건문을 넣다보면 매우 복자하게 됩니다.<br><br>
-
-        이 상황에서 else 문 안에 if문과 같이 행동하느 else if 문이라고 if 문 다음에 체인처럼 달 수 있습니다.<br><br>
-
-        <code>
-          #include &lt;stdio.h><br><br>
-
-          int main()<br>
-          {<br>
-          &nbsp;&nbsp;int score;<br>
-          &nbsp;&nbsp;scanf("%d", &score);<br><br>
-
-          &nbsp;&nbsp;if (score == 100) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("Ice cream!!!");<br>
-          &nbsp;&nbsp;} else if (score >= 50) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("Study more!");<br>
-          &nbsp;&nbsp;} else {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("No games for a month :(");<br>
-          &nbsp;&nbsp;}<br><br>
-
-          &nbsp;&nbsp;return 0;<br>
-          }
-        </code>
-
-        <div style="margin:auto;">
-          <iframe src="https://www.jdoodle.com/embed/v0/3VZO" height="300px" width="700px"></iframe>
-        </div>
-
-      </p>
+      <iframe src="https://www.jdoodle.com/embed/v0/3Wcm" width="700px" height="800px"></iframe>
     </div>
   </div>
 
@@ -185,8 +176,8 @@
   <br><br>
 
   <div style="margin :10px;padding:10px;">
-    <button style="float:left;"><a href="if.html">❮ 이전</a></button>
-    <button style="float:right;"><a href="switch.html">다음 ❯</a></button>
+    <button style="float:left;"><a href="hardif.html">❮ 이전</a></button>
+    <button style="float:right;"><a href="for.html">다음 ❯</a></button>
   </div>
 
   <br><br><br><br>
