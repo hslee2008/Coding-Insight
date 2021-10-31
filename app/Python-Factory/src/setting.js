@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { FAB, List, Checkbox, Avatar, Appbar } from "react-native-paper";
-import { View, Text, StyleSheet, Image } from "react-native";
+import { List, Checkbox, Avatar, Appbar, IconButton } from "react-native-paper";
+import { View, Text, StyleSheet, Image, Linking } from "react-native";
 import { reloadAsync, manifest } from "expo-updates";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
@@ -13,6 +13,8 @@ var setting = {
   english: false,
 };
 
+const home = "https://www.coding-insight.com";
+
 const storeData = async () => {
   try {
     const jsonValue = JSON.stringify(setting);
@@ -20,58 +22,6 @@ const storeData = async () => {
     await AsyncStorage.setItem("setting_python_factory", jsonValue);
   } catch (e) {}
 };
-
-function PythonFactoryIcon() {
-  return (
-    <View
-      style={{
-        justifyContent: "center",
-        alignContent: "center",
-        flexDirection: "row",
-        marginBottom: 30,
-      }}
-    >
-      <Image
-        source={{ uri: "https://www.coding-insight.com/py.png" }}
-        style={{ width: 100, height: 100 }}
-      />
-    </View>
-  );
-}
-
-function SettingContent() {
-  return (
-    <View
-      style={{
-        justifyContent: "center",
-        alignItems: "center",
-        flex: 0.2,
-      }}
-    >
-      <Text
-        style={{
-          fontSize: 30,
-        }}
-      >
-        Settings
-      </Text>
-      <Text> If there is a bug, press the button below {"\n"} </Text>
-    </View>
-  );
-}
-
-function MenuButtons() {
-  return (
-    <View
-      style={[
-        styles.flexrow,
-        { justifyContent: "space-evenly", marginTop: 20, marginBottom: 20 },
-      ]}
-    >
-      <FAB icon="clock-fast" label="Update" onPress={reloadAsync} />
-    </View>
-  );
-}
 
 function WebSetting() {
   const [Cookie, setCookie] = useState(false);
@@ -139,7 +89,7 @@ function WebSetting() {
   );
 }
 
-function LooksSetting(props) {
+function LooksSetting() {
   const [phone, setPhone] = useState(false);
   const changePhone = () => {
     setPhone((p) => !p);
@@ -218,8 +168,8 @@ function OtherSetting() {
     setting.english = english;
 
     setting.english
-      ? props.setLink("https://www.coding-insight.com/index-en.html")
-      : props.setLink("https://www.coding-insight.com/");
+      ? props.setLink(home + "/index-en.html")
+      : props.setLink(home);
 
     storeData();
     props.reload();
@@ -277,25 +227,52 @@ function OtherSetting() {
 function AppBar(props) {
   return (
     <Appbar.Header statusBarHeight={0}>
-      <Appbar.Action
-        icon="magnify"
-        onPress = {
-          () => {
-            props.setLink( "https://cse.google.com/cse?cx=ee1853348b1a4e08b" )
-            props?.drawer?.current?.closeDrawer?.()
-            props.reload()
-          }
-        }
-      />
+      <Appbar.Action icon="clock-fast" onPress={reloadAsync} />
       <Appbar.Content
         title="Coding-Insight"
         subtitle={"v" + manifest.version}
       />
-      <Appbar.Action
-        icon="close"
-        onPress={() => props?.drawer?.current?.closeDrawer?.()}
-      />
+      <Appbar.Action icon="close" onPress={() => props.close()} />
     </Appbar.Header>
+  );
+}
+
+function Bar() {
+  return (
+    <View
+      style={{
+        flexDirection: "row",
+        justifyContent: "space-evenly",
+        bottom: 0,
+        position: "absolute",
+        width: "100%",
+      }}
+    >
+      <IconButton
+        icon="github"
+        onPress={() =>
+          Linking.openURL(
+            "https://github.com/HyunseungLee-Travis/Coding-Insight"
+          )
+        }
+      />
+      <IconButton
+        icon="youtube"
+        onPress={() =>
+          Linking.openURL(
+            "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+          )
+        }
+      />
+      <IconButton
+        icon="microsoft-internet-explorer"
+        onPress={() => Linking.openURL(home)}
+      />
+      <IconButton
+        icon="controller-classic"
+        onPress={() => Linking.openURL(home + "/game.html")}
+      />
+    </View>
   );
 }
 
@@ -305,9 +282,7 @@ function Settings(props) {
       try {
         const value = await AsyncStorage.getItem("setting_python_factory");
 
-        if (value !== null) {
-          setting = JSON.parse(value);
-        }
+        if (value !== null) setting = JSON.parse(value);
       } catch (e) {}
     }
 
@@ -316,26 +291,38 @@ function Settings(props) {
 
   return (
     <>
-      <AppBar drawer={ props.drawer } setLink={ props.setLink } reload={ props.reload }/>
+      <AppBar close={props.close} />
+      
       <View
-        style={[
-          {
-            flex: 1,
-            margin: 10,
-            justifyContent: "center",
-          },
-        ]}
+        style={{
+          justifyContent: "center",
+          alignContent: "center",
+          alignItems: "center",
+          marginTop: 20,
+        }}
       >
-        <PythonFactoryIcon />
-        <SettingContent />
-        <MenuButtons />
+        <Image
+          source={{ uri: home + "/py.png" }}
+          style={{ width: 100, height: 100 }}
+        />
+        <Text style={{ fontSize: 30 }}>Settings</Text>
+        <Text> If there is a bug, press the button below </Text>
+      </View>
 
+      <View
+        style={{
+          marginTop: 20,
+          justifyContent: "center",
+        }}
+      >
         <List.AccordionGroup>
           <WebSetting />
-          <LooksSetting reload={ props.reload }/>
+          <LooksSetting reload={props.reload} />
           <OtherSetting />
         </List.AccordionGroup>
       </View>
+
+      <Bar />
     </>
   );
 }
