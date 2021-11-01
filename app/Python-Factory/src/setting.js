@@ -292,7 +292,7 @@ function Settings(props) {
   return (
     <>
       <AppBar close={props.close} />
-      
+
       <View
         style={{
           justifyContent: "center",
@@ -306,7 +306,7 @@ function Settings(props) {
           style={{ width: 100, height: 100 }}
         />
         <Text style={{ fontSize: 30 }}>Settings</Text>
-        <Text> If there is a bug, press the button below </Text>
+        <Text> If there is a bug, press the clock button</Text>
       </View>
 
       <View

@@ -1,9 +1,9 @@
 import "react-native-gesture-handler";
 import React, { useRef, useState } from "react";
 import { IconButton, ActivityIndicator } from "react-native-paper";
-import { View, Linking, StatusBar } from "react-native";
+import { View, Linking, StatusBar, Animated } from "react-native";
 import { WebView } from "react-native-webview";
-import Settings, { setting } from "./src/setting.js";
+import Settings, { setting, SettingContext } from "./src/setting.js";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 
@@ -55,7 +55,7 @@ function Bar(props: any) {
       />
       <IconButton
         icon="cog"
-        onPress={() => props.navigation.push("Settings")}
+        onPress={() => props.navigation.navigate("Settings")}
         color="white"
       />
     </View>
@@ -122,8 +122,42 @@ function Home({ navigation }: any) {
 }
 
 const MainSetting = ({ navigation }: any) => (
-  <Settings close={navigation.pop} />
+  <Settings close={navigation.goBack} />
 );
+
+const forSlide = ({ current, next, inverted, layouts: { screen } }: any) => {
+  const progress = Animated.add(
+    current.progress.interpolate({
+      inputRange: [0, 1],
+      outputRange: [0, 1],
+      extrapolate: "clamp",
+    }),
+    next
+      ? next.progress.interpolate({
+          inputRange: [0, 1],
+          outputRange: [0, 1],
+          extrapolate: "clamp",
+        })
+      : 0
+  );
+
+  return {
+    cardStyle: {
+      transform: [
+        {
+          translateX: Animated.multiply(
+            progress.interpolate({
+              inputRange: [0, 1, 2],
+              outputRange: [screen.width, 0, screen.width * -0.3],
+              extrapolate: "clamp",
+            }),
+            inverted
+          ),
+        },
+      ],
+    },
+  };
+};
 
 function App() {
   return (
@@ -131,10 +165,19 @@ function App() {
       <Stack.Navigator
         screenOptions={{
           headerShown: false,
+          gestureEnabled: true,
         }}
       >
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Settings" component={MainSetting} />
+        <Stack.Screen
+          name="Settings"
+          component={MainSetting}
+          options={{
+            cardStyleInterpolator: forSlide,
+            gestureEnabled: true,
+            gestureDirection: "horizontal-inverted",
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
