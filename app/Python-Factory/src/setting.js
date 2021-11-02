@@ -10,6 +10,7 @@ var setting = {
   secret: true,
   cache: true,
   phone: true,
+  menu: true,
 };
 
 const home = "https://www.coding-insight.com";
@@ -161,6 +162,13 @@ function OtherSetting() {
     storeData();
   };
 
+  const [menu, setMenu] = useState(false);
+  const changeMenu = () => {
+    setMenu((p) => !p);
+    setting.menu = menu;
+    storeData();
+  };
+
   return (
     <List.Accordion
       id="3"
@@ -187,6 +195,25 @@ function OtherSetting() {
           ></Checkbox.Android>
         </View>
       </View>
+      <View style={styles.flexrow}>
+        <Avatar.Icon
+          icon="menu"
+          size={30}
+          style={{
+            backgroundColor: "rgb(0,0,0,0)",
+          }}
+          color="black"
+        />
+        <View style={styles.padsix}>
+          <Text> Use Menu Button </Text>
+        </View>
+        <View>
+          <Checkbox.Android
+            onPress={changeMenu}
+            status={setting.menu ? "checked" : "unchecked"}
+          ></Checkbox.Android>
+        </View>
+      </View>
     </List.Accordion>
   );
 }
@@ -195,7 +222,10 @@ const AppBar = React.memo((props) => (
   <Appbar.Header statusBarHeight={0}>
     <Appbar.Action icon="clock-fast" onPress={reloadAsync} />
     <Appbar.Content title="Coding-Insight" subtitle={"v" + manifest?.version} />
-    <Appbar.Action icon="close" onPress={() => props.close()} />
+    <Appbar.Action icon="close" onPress={() => {
+      props.close();
+      props.reloadWebView();
+    }} />
   </Appbar.Header>
 ));
 
@@ -249,7 +279,7 @@ function Settings(props) {
 
   return (
     <>
-      <AppBar close={props.close} />
+      <AppBar close={props.close} reloadWebView={props.reloadWebView} />
 
       <View
         style={{

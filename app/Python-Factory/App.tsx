@@ -9,6 +9,7 @@ import { NavigationContainer } from "@react-navigation/native";
 
 const Stack = createStackNavigator();
 const home = "https://www.coding-insight.com";
+var reloadWebView: any;
 
 function Bar(props: any) {
   return (
@@ -63,6 +64,7 @@ function Home({ navigation }: any) {
     webViewRef.current.clearCache(true);
     webViewRef.current.reload();
   };
+  reloadWebView = reload;
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
 
@@ -90,24 +92,37 @@ function Home({ navigation }: any) {
         injectedJavaScriptBeforeContentLoaded={
           setting.phone
             ? ""
-            : `const meta = document.createElement('meta'); meta.setAttribute('content', 'width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0'); meta.setAttribute('name', 'viewport'); document.getElementsByTagName('head')[0].appendChild(meta); `
+            : `const meta = document.createElement('meta'); meta.setAttribute('content', 'width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0'); meta.setAttribute('name', 'viewport'); document.getElementsByTagName('head')[0].appendChild(meta);`
         }
       />
-      <Bar
-        goback={goback}
-        goforward={goforward}
-        webLoading={webLoading}
-        setLink={setLink}
-        reload={reload}
-        link={link}
-        navigation={navigation}
-      />
+      {setting.menu ? (
+        <Bar
+          goback={goback}
+          goforward={goforward}
+          webLoading={webLoading}
+          setLink={setLink}
+          reload={reload}
+          link={link}
+          navigation={navigation}
+        />
+      ) : (
+        <IconButton
+          icon="cog"
+          onPress={() => navigation.navigate("Settings")}
+          style={{
+            position: "absolute",
+            backgroundColor: "white",
+            right: 0,
+            bottom: 0,
+          }}
+        />
+      )}
     </>
   );
 }
 
 const MainSetting = ({ navigation }: any) => (
-  <Settings close={navigation.goBack} />
+  <Settings close={navigation.goBack} reloadWebView={reloadWebView} />
 );
 
 const forSlide = ({ current, next, inverted, layouts: { screen } }: any) => {
@@ -153,7 +168,15 @@ function App() {
           gestureEnabled: true,
         }}
       >
-        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{
+            cardStyleInterpolator: forSlide,
+            gestureEnabled: true,
+            gestureDirection: "horizontal-inverted",
+          }}
+        />
         <Stack.Screen
           name="Settings"
           component={MainSetting}
