@@ -10,7 +10,6 @@ var setting = {
   secret: true,
   cache: true,
   phone: true,
-  english: false,
 };
 
 const home = "https://www.coding-insight.com";
@@ -162,19 +161,6 @@ function OtherSetting() {
     storeData();
   };
 
-  const [english, setLang] = useState(true);
-  const changeLang = () => {
-    setLang((p) => !p);
-    setting.english = english;
-
-    setting.english
-      ? props.setLink(home + "/index-en.html")
-      : props.setLink(home);
-
-    storeData();
-    props.reload();
-  };
-
   return (
     <List.Accordion
       id="3"
@@ -201,80 +187,52 @@ function OtherSetting() {
           ></Checkbox.Android>
         </View>
       </View>
-      <View style={styles.flexrow}>
-        <Avatar.Icon
-          icon="ab-testing"
-          size={30}
-          style={{
-            backgroundColor: "rgb(0,0,0,0)",
-          }}
-          color="black"
-        />
-        <View style={styles.padsix}>
-          <Text> Use English Home </Text>
-        </View>
-        <View>
-          <Checkbox.Android
-            onPress={changeLang}
-            status={setting.english ? "checked" : "unchecked"}
-          ></Checkbox.Android>
-        </View>
-      </View>
     </List.Accordion>
   );
 }
 
-function AppBar(props) {
-  return (
-    <Appbar.Header statusBarHeight={0}>
-      <Appbar.Action icon="clock-fast" onPress={reloadAsync} />
-      <Appbar.Content
-        title="Coding-Insight"
-        subtitle={"v" + manifest.version}
-      />
-      <Appbar.Action icon="close" onPress={() => props.close()} />
-    </Appbar.Header>
-  );
-}
+const AppBar = React.memo((props) => (
+  <Appbar.Header statusBarHeight={0}>
+    <Appbar.Action icon="clock-fast" onPress={reloadAsync} />
+    <Appbar.Content title="Coding-Insight" subtitle={"v" + manifest?.version} />
+    <Appbar.Action icon="close" onPress={() => props.close()} />
+  </Appbar.Header>
+));
 
-function Bar() {
-  return (
-    <View
-      style={{
-        flexDirection: "row",
-        justifyContent: "space-evenly",
-        bottom: 0,
-        position: "absolute",
-        width: "100%",
-      }}
-    >
-      <IconButton
-        icon="github"
-        onPress={() =>
-          Linking.openURL(
-            "https://github.com/HyunseungLee-Travis/Coding-Insight"
-          )
-        }
-      />
-      <IconButton
-        icon="youtube"
-        onPress={() =>
-          Linking.openURL(
-            "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
-          )
-        }
-      />
-      <IconButton
-        icon="microsoft-internet-explorer"
-        onPress={() => Linking.openURL(home)}
-      />
-      <IconButton
-        icon="controller-classic"
-        onPress={() => Linking.openURL(home + "/game.html")}
-      />
-    </View>
-  );
-}
+const Bar = React.memo(() => (
+  <View
+    style={{
+      flexDirection: "row",
+      justifyContent: "space-evenly",
+      bottom: 0,
+      position: "absolute",
+      width: "100%",
+    }}
+  >
+    <IconButton
+      icon="github"
+      onPress={() =>
+        Linking.openURL("https://github.com/HyunseungLee-Travis/Coding-Insight")
+      }
+    />
+    <IconButton
+      icon="youtube"
+      onPress={() =>
+        Linking.openURL(
+          "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+        )
+      }
+    />
+    <IconButton
+      icon="microsoft-internet-explorer"
+      onPress={() => Linking.openURL(home)}
+    />
+    <IconButton
+      icon="controller-classic"
+      onPress={() => Linking.openURL(home + "/game.html")}
+    />
+  </View>
+));
 
 function Settings(props) {
   useEffect(() => {

@@ -3,18 +3,12 @@ import React, { useRef, useState } from "react";
 import { IconButton, ActivityIndicator } from "react-native-paper";
 import { View, Linking, StatusBar, Animated } from "react-native";
 import { WebView } from "react-native-webview";
-import Settings, { setting, SettingContext } from "./src/setting.js";
+import Settings, { setting } from "./src/setting.js";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 
 const Stack = createStackNavigator();
-
 const home = "https://www.coding-insight.com";
-
-function useForceUpdate() {
-  const [, setValue] = useState(0);
-  return () => setValue((value) => value + 1);
-}
 
 function Bar(props: any) {
   return (
@@ -44,13 +38,8 @@ function Bar(props: any) {
           props.link == home + "/" ||
           props.link == home + "/index.html"
         }
-        onPress={() => {
-          props.setLink(home);
-          props.forceUpdate();
-        }}
-        onLongPress={() => {
-          Linking.openURL(home);
-        }}
+        onPress={() => props.setLink(home)}
+        onLongPress={() => Linking.openURL(home)}
         color="white"
       />
       <IconButton
@@ -63,13 +52,10 @@ function Bar(props: any) {
 }
 
 function Home({ navigation }: any) {
-  const forceUpdate = useForceUpdate();
   const webViewRef: any = useRef(null);
 
   const [webLoading, setWebLoading] = useState(true);
-  const [link, setLink] = useState(
-    setting.english ? home + "/index-en.html" : home
-  );
+  const [link, setLink] = useState(home);
 
   const reload = () => {
     webViewRef.current.clearHistory();
@@ -110,7 +96,6 @@ function Home({ navigation }: any) {
       <Bar
         goback={goback}
         goforward={goforward}
-        forceUpdate={forceUpdate}
         webLoading={webLoading}
         setLink={setLink}
         reload={reload}
