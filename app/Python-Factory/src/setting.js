@@ -1,6 +1,20 @@
 import React, { useState, useEffect } from "react";
-import { List, Checkbox, Avatar, Appbar, IconButton } from "react-native-paper";
-import { View, Text, StyleSheet, Image, Linking } from "react-native";
+import {
+  List,
+  Checkbox,
+  Avatar,
+  Appbar,
+  IconButton,
+  FAB,
+} from "react-native-paper";
+import {
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  Linking,
+  ScrollView,
+} from "react-native";
 import { reloadAsync, manifest } from "expo-updates";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
@@ -11,9 +25,15 @@ var setting = {
   cache: true,
   phone: true,
   menu: true,
+  korean: true,
 };
 
 const home = "https://www.coding-insight.com";
+
+function useForceUpdate() {
+  const [, setValue] = useState(0);
+  return () => setValue((value) => value + 1);
+}
 
 const storeData = async () => {
   try {
@@ -39,53 +59,46 @@ function WebSetting() {
   };
 
   return (
-    <List.Accordion
-      id="1"
-      title="Web Setting"
-      style={styles.padten}
-      left={(props) => <List.Icon {...props} icon="web" />}
-    >
-      <View style={styles.padten}>
-        <View style={styles.flexrow}>
-          <Avatar.Icon
-            icon="cookie"
-            size={30}
-            style={{
-              backgroundColor: "rgb(0,0,0,0)",
-            }}
-            color="red"
-          />
-          <View style={styles.padsix}>
-            <Text> Use Cookies </Text>
-          </View>
-          <View>
+    <>
+      <List.Item
+        title="Cookie"
+        description="Enable Cookie For YouTube"
+        left={() => (
+          <View style={{ padding: 10 }}>
             <Checkbox.Android
               onPress={changeCookie}
               status={setting.cookie ? "checked" : "unchecked"}
             ></Checkbox.Android>
           </View>
-        </View>
-        <View style={styles.flexrow}>
+        )}
+        right={() => (
           <Avatar.Icon
-            icon="sync"
-            size={30}
-            style={{
-              backgroundColor: "rgb(0,0,0,0)",
-            }}
-            color="red"
+            icon="cookie"
+            style={{ backgroundColor: "rgb(0,0,0,0)" }}
+            color="brown"
           />
-          <View style={styles.padsix}>
-            <Text> Use Cache </Text>
-          </View>
-          <View>
+        )}
+      />
+      <List.Item
+        title="Cache"
+        description="Enable Cache For Fast Speed"
+        left={() => (
+          <View style={{ padding: 10 }}>
             <Checkbox.Android
               onPress={changeCache}
               status={setting.cache ? "checked" : "unchecked"}
             ></Checkbox.Android>
           </View>
-        </View>
-      </View>
-    </List.Accordion>
+        )}
+        right={() => (
+          <Avatar.Icon
+            icon="cached"
+            style={{ backgroundColor: "rgb(0,0,0,0)" }}
+            color="red"
+          />
+        )}
+      />
+    </>
   );
 }
 
@@ -104,53 +117,48 @@ function LooksSetting() {
     storeData();
   };
   return (
-    <List.Accordion
-      id="2"
-      title="Looks Setting"
-      style={styles.padten}
-      left={(props) => <List.Icon {...props} icon="eye" />}
-    >
-      <View style={styles.padten}>
-        <View style={styles.flexrow}>
-          <Avatar.Icon
-            icon="mouse"
-            size={30}
-            style={{
-              backgroundColor: "rgb(0,0,0,0)",
-            }}
-            color="dodgerblue"
-          />
-          <View style={styles.padsix}>
-            <Text> Use Scrollbar </Text>
-          </View>
-          <View>
+    <>
+      <List.Item
+        title="Scroll"
+        description="Enable Scrolling For Navigation"
+        left={() => (
+          <View style={{ padding: 10 }}>
             <Checkbox.Android
               onPress={changeScroll}
               status={setting.scroll ? "checked" : "unchecked"}
             ></Checkbox.Android>
           </View>
-        </View>
-        <View style={styles.flexrow}>
+        )}
+        right={() => (
           <Avatar.Icon
-            icon="phone"
-            size={30}
-            style={{
-              backgroundColor: "rgb(0,0,0,0)",
-            }}
-            color="dodgerblue"
+            icon="mouse"
+            style={{ backgroundColor: "rgb(0,0,0,0)" }}
+            color="grey"
           />
-          <View style={styles.padsix}>
-            <Text> Phone Style </Text>
-          </View>
-          <View>
+        )}
+      />
+      <List.Item
+        title="Phone Style"
+        description="Enable Phone Style big View"
+        left={() => (
+          <View style={{ padding: 10 }}>
             <Checkbox.Android
               onPress={changePhone}
               status={setting.phone ? "checked" : "unchecked"}
             ></Checkbox.Android>
           </View>
-        </View>
-      </View>
-    </List.Accordion>
+        )}
+        right={() => (
+          <View style={[styles.flexrow]}>
+            <Avatar.Icon
+              icon={setting.phone ? "laptop" : "cellphone-text"}
+              style={{ backgroundColor: "rgb(0,0,0,0)" }}
+              color="dodgerblue"
+            />
+          </View>
+        )}
+      />
+    </>
   );
 }
 
@@ -169,63 +177,90 @@ function OtherSetting() {
     storeData();
   };
 
+  const [korean, setKorean] = useState(false);
+  const changeKorean = () => {
+    setKorean((p) => !p);
+    setting.korean = korean;
+    storeData();
+  };
+
   return (
-    <List.Accordion
-      id="3"
-      title="Other"
-      style={styles.padten}
-      left={(props) => <List.Icon {...props} icon="menu" />}
-    >
-      <View style={styles.flexrow}>
-        <Avatar.Icon
-          icon="incognito"
-          size={30}
-          style={{
-            backgroundColor: "rgb(0,0,0,0)",
-          }}
-          color="black"
-        />
-        <View style={styles.padsix}>
-          <Text> Use Secret Mode </Text>
-        </View>
-        <View>
-          <Checkbox.Android
-            onPress={changeSecret}
-            status={setting.secret ? "checked" : "unchecked"}
-          ></Checkbox.Android>
-        </View>
-      </View>
-      <View style={styles.flexrow}>
-        <Avatar.Icon
-          icon="menu"
-          size={30}
-          style={{
-            backgroundColor: "rgb(0,0,0,0)",
-          }}
-          color="black"
-        />
-        <View style={styles.padsix}>
-          <Text> Use Menu Button </Text>
-        </View>
-        <View>
-          <Checkbox.Android
-            onPress={changeMenu}
-            status={setting.menu ? "checked" : "unchecked"}
-          ></Checkbox.Android>
-        </View>
-      </View>
-    </List.Accordion>
+    <>
+      <List.Item
+        title="Incognito"
+        description="Do not let anybody watch you"
+        left={() => (
+          <View style={{ padding: 10 }}>
+            <Checkbox.Android
+              onPress={changeSecret}
+              status={setting.secret ? "checked" : "unchecked"}
+            ></Checkbox.Android>
+          </View>
+        )}
+        right={() => (
+          <Avatar.Icon
+            icon={setting.secret ? "earth" : "incognito"}
+            style={{ backgroundColor: "rgb(0,0,0,0)" }}
+            color="green"
+          />
+        )}
+      />
+      <List.Item
+        title="Menu"
+        description="Use the Menu Button"
+        left={() => (
+          <View style={{ padding: 10 }}>
+            <Checkbox.Android
+              onPress={changeMenu}
+              status={setting.menu ? "checked" : "unchecked"}
+            ></Checkbox.Android>
+          </View>
+        )}
+        right={() => (
+          <Avatar.Icon
+            icon={setting.menu ? "menu" : "menu-open"}
+            style={{ backgroundColor: "rgb(0,0,0,0)" }}
+            color="black"
+          />
+        )}
+      />
+      <List.Item
+        title="Language"
+        description="Use Korean Homepage"
+        left={() => (
+          <View style={{ padding: 10 }}>
+            <Checkbox.Android
+              onPress={changeKorean}
+              status={setting.korean ? "checked" : "unchecked"}
+            ></Checkbox.Android>
+          </View>
+        )}
+        right={() => (
+          <Avatar.Icon
+            icon={setting.korean ? "translate" : "ab-testing"}
+            style={{ backgroundColor: "rgb(0,0,0,0)" }}
+            color="black"
+          />
+        )}
+      />
+    </>
   );
 }
 
 const AppBar = React.memo((props) => (
   <Appbar.Header statusBarHeight={0}>
     <Appbar.Action icon="clock-fast" onPress={reloadAsync} />
-    <Appbar.Content title="Coding-Insight" subtitle={"v" + manifest?.version} />
-    <Appbar.Action icon="close" onPress={() => {
-      props.close();
-      props.reloadWebView();
-    }} />
+    <Appbar.Content
+      title="Coding-Insight App"
+      subtitle={"v" + manifest?.version}
+    />
+    <Appbar.Action
+      icon="close"
+      onPress={() => {
+        props.close();
+        props.reloadWebView();
+      }}
+    />
   </Appbar.Header>
 ));
 
@@ -264,6 +299,30 @@ const Bar = React.memo(() => (
   </View>
 ));
 
+function Header() {
+  return (
+    <View
+      style={{
+        justifyContent: "center",
+        alignContent: "center",
+        alignItems: "center",
+        marginTop: 10,
+        flexDirection: "row",
+        backgroundColor: "rgba(52, 52, 52, 0)",
+      }}
+    >
+      <Image
+        source={{ uri: home + "/py.png" }}
+        style={{ width: 100, height: 100 }}
+      />
+      <View>
+        <Text style={{ fontSize: 30 }}>Settings</Text>
+        <Text> If there is a bug, press the clock button</Text>
+      </View>
+    </View>
+  );
+}
+
 function Settings(props) {
   useEffect(() => {
     async function getit() {
@@ -277,38 +336,39 @@ function Settings(props) {
     getit();
   }, []);
 
+  const forceUpdate = useForceUpdate();
+
   return (
     <>
       <AppBar close={props.close} reloadWebView={props.reloadWebView} />
+      <Header />
 
-      <View
-        style={{
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems: "center",
-          marginTop: 20,
-        }}
+      <ScrollView
+        style={{ alignContent: "center", marginTop: 10 }}
+        contentContainerStyle={{ justifyContent: "center" }}
       >
-        <Image
-          source={{ uri: home + "/py.png" }}
-          style={{ width: 100, height: 100 }}
+        <WebSetting />
+        <LooksSetting reload={props.reload} />
+        <OtherSetting />
+        <FAB
+          label="Reset"
+          icon="lock-reset"
+          style={{ margin: 40, marginBottom: 70 }}
+          onPress={() => {
+            setting = {
+              cookie: true,
+              scroll: true,
+              secret: true,
+              cache: true,
+              phone: true,
+              menu: true,
+              korean: true,
+            };
+            storeData();
+            forceUpdate();
+          }}
         />
-        <Text style={{ fontSize: 30 }}>Settings</Text>
-        <Text> If there is a bug, press the clock button</Text>
-      </View>
-
-      <View
-        style={{
-          marginTop: 20,
-          justifyContent: "center",
-        }}
-      >
-        <List.AccordionGroup>
-          <WebSetting />
-          <LooksSetting reload={props.reload} />
-          <OtherSetting />
-        </List.AccordionGroup>
-      </View>
+      </ScrollView>
 
       <Bar />
     </>

@@ -1,7 +1,7 @@
 import "react-native-gesture-handler";
 import React, { useRef, useState } from "react";
-import { IconButton, ActivityIndicator } from "react-native-paper";
-import { View, Linking, StatusBar, Animated } from "react-native";
+import { IconButton, ProgressBar } from "react-native-paper";
+import { View, Linking, StatusBar, Animated, BackHandler } from "react-native";
 import { WebView } from "react-native-webview";
 import Settings, { setting } from "./src/setting.js";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -24,13 +24,10 @@ function Bar(props: any) {
       <IconButton icon="undo" onPress={props.goback} color="white" />
       <IconButton icon="redo" onPress={props.goforward} color="white" />
       <IconButton
-        icon={
-          !props.webLoading
-            ? "reload"
-            : () => <ActivityIndicator color="white" size="small" />
-        }
+        icon="reload"
         onPress={props.reload}
         color="white"
+        disabled={props.webLoading}
       />
       <IconButton
         icon="home"
@@ -56,7 +53,9 @@ function Home({ navigation }: any) {
   const webViewRef: any = useRef(null);
 
   const [webLoading, setWebLoading] = useState(true);
-  const [link, setLink] = useState(home);
+  const [link, setLink] = useState(
+    setting.korean ? home : home + "/index-en.html"
+  );
 
   const reload = () => {
     webViewRef.current.clearHistory();
@@ -67,6 +66,18 @@ function Home({ navigation }: any) {
   reloadWebView = reload;
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
+
+  BackHandler.addEventListener("hardwareBackPress", () => {
+    if (
+      link == home ||
+      link == home + "/" ||
+      link == home + "/index.html" ||
+      link == home + "index-en.html"
+    ) BackHandler.exitApp();
+    else webViewRef.current.goBack();
+
+    return true;
+  });
 
   return (
     <>
@@ -95,6 +106,7 @@ function Home({ navigation }: any) {
             : `const meta = document.createElement('meta'); meta.setAttribute('content', 'width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0'); meta.setAttribute('name', 'viewport'); document.getElementsByTagName('head')[0].appendChild(meta);`
         }
       />
+      {webLoading ? <ProgressBar indeterminate color="dodgerblue" style={{position: "absolute", width: "100%", height: 5, bottom: 0}} /> : <></>}
       {setting.menu ? (
         <Bar
           goback={goback}
