@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-        }
-      gtag("js", new Date());
+    function gtag() {
+      dataLayer.push( arguments );
+      }
+    gtag( "js", new Date() );
 
-      gtag("config", "UA-209775586-1");
-      </script>
+    gtag( "config", "UA-209775586-1" );
+    </script>
     <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
     <meta name="keywords" content="python, programming, coding-insight, python-factory" />
     <meta name="author" content="Hyunseung, Juha, Gun" />
@@ -24,205 +22,202 @@
     <meta charset="UTF-8" />
     </head>
 
-  <body style="margin: 0">
-    <div style="margin: 0; padding: 0" id="navigate">
-      <ul>
-        <li>
-          <a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a>
-        </li>
-        <li>
-          <a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a>
-        </li>
-        <li>
-          <a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a>
-        </li>
-        <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
-        <li>
-          <a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a>
-        </li>
-        <li>
-          <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
-            id="video">Video</a>
-        </li>
-        <li style="float:right;"><a><button
-              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
-              style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
+<body style="margin: 0">
+  <div style="margin: 0; padding: 0" id="navigate">
+    <ul>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a>
+      </li>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a>
+      </li>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a>
+      </li>
+      <li><a rel="noopener" href="quiz-en.html" id="quiz">Quiz</a></li>
+      <li>
+        <a rel="noopener" href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a>
+      </li>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+          id="video">Video</a>
+      </li>
+      <li style="float:right;"><a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
 
-        <li style="float: right">
-          <a rel="noopener" href="https://coding-insight.com/python/korean/counter.html" id="trans"
-            style="color: white">한국어</a>
-        </li>
-        <li id="more"><a>More</a></li>
+      <li style="float: right">
+        <a rel="noopener" href="https://coding-insight.com/python/korean/counter.html" id="trans"
+          style="color: white">한국어</a>
+      </li>
+      <li id="more"><a>More</a></li>
       </ul>
       </div>
-    <br />
-    <br />
+      <br />
+      <br />
 
-    <button id="butty">
-      Menu <span style="font-size: 14px">⬅ Click</span>
-    </button>
-    <div id="menu"></div>
-    <div style="display: flex; margin-top: 50px; padding: 30px">
-      <div style="padding: 10px; margin: 10px">
-        <h1>Example and Explanation</h1>
-        <p>
-          Inside collection module, there is a class named Counter() that let's
-          us get information about iterables.<br /><br />
+  <button id="butty">
+    Menu <span style="font-size: 14px">⬅ Click</span>
+  </button>
+  <div id="menu"></div>
+  <div style="display: flex; margin-top: 50px; padding: 30px">
+    <div style="padding: 10px; margin: 10px">
+      <h1>Example and Explanation</h1>
+      <p>
+        Inside collection module, there is a class named Counter() that let's
+        us get information about iterables.<br /><br />
 
-          For example, let's try to find the number of each items using the
-          Counter() fuction.<br /><br />
+        For example, let's try to find the number of each items using the
+        Counter() fuction.<br /><br />
 
-          <code>
-            from collections import Counter<br /><br />
+        <code>
+          from collections import Counter<br /><br />
 
-            print(Counter(["A", "A", "B"])) #{"A": 2, "B": 1}
-            </code>
-            </p>
-            </div>
-            <iframe src="https://trinket.io/embed/python3/da3dfe80d1" width="60%" height="356" frameborder="0"
-              marginwidth="0"
-        marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-        </div>
+          print(Counter(["A", "A", "B"])) #{"A": 2, "B": 1}
+          </code>
+          </p>
+          </div>
+    <iframe src="https://trinket.io/embed/python3/da3dfe80d1" width="60%" height="356" frameborder="0" marginwidth="0"
+      marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+    </div>
 
+  <div style="padding: 10px; margin: 20px">
     <div style="padding: 10px; margin: 20px">
       <div style="padding: 10px; margin: 20px">
-        <div style="padding: 10px; margin: 20px">
-          <div style="text-align: center">
-            <hr />
-            <br />
-            <div style="text-align: center" id="speakdiv">
-              <button id="speakbutt">Read</button>
-              <div id="setting">
-                <br /><br />
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                  style="width: 25px !important"
-                  />
-                  <input type="range" id="vol" min="0" max="1" step="0.1" />
+        <div style="text-align: center">
+          <hr />
+          <br />
+          <div style="text-align: center" id="speakdiv">
+            <button id="speakbutt">Read</button>
+            <div id="setting">
+              <br /><br />
+              <img alt="python factory picture"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width: 25px !important" />
+                <input type="range" id="vol" min="0" max="1" step="0.1" />
                 <br />
-                <img
-                  src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                  style="width: 25px !important"
-                  />
-                  <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-                  </div>
-                  </div>
-            <br /><br />
-            <h1 style="margin: auto; font-size: 30px">
-              <span id="tit">Counter</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
-                id="txt">)</span> 77
-            </h1>
-            <br />
-            <hr />
-            </div>
+              <img alt="python factory picture"
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width: 25px !important" />
+                <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+                </div>
+                </div>
+                <br /><br />
+                <h1 style="margin: auto; font-size: 30px">
+                  <span id="tit">Counter</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+                    id="txt">)</span> 77
+                </h1>
+                <br />
+                <hr />
+                </div>
 
-          <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-          <div style="
+        <div style="
               display: flex;
               padding: 30px;
               background-color: #c2ffe2;
               color: black;
             ">
-            <div style="padding: 20px">
-              <h1>Global Counter</h1>
-              <p>
-                We can set the counter as a global variable and update it by
-                using update() method every time we want to count a new
-                iterable.<br /><br />
+          <div style="padding: 20px">
+            <h1>Global Counter</h1>
+            <p>
+              We can set the counter as a global variable and update it by
+              using update() method every time we want to count a new
+              iterable.<br /><br />
 
-                If we update the original counter, a new iterable will be added
-                to it.
-                </p>
-                </div>
-                <iframe src="https://trinket.io/embed/python3/1784ae1aca" width="70%" height="356" frameborder="0"
-              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+              If we update the original counter, a new iterable will be added
+              to it.
+              </p>
+              </div>
+              <iframe src="https://trinket.io/embed/python3/1784ae1aca" width="70%" height="356" frameborder="0"
+                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
               </div>
 
-          <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-          <div style="
+        <div style="
               display: flex;
               padding: 30px;
               background-color: #dce8ff;
               color: black;
             ">
-            <div style="padding: 20px">
-              <h1>elements() method</h1>
-              <p>
-                Every time we update, the counter's elements changes.<br /><br />
+          <div style="padding: 20px">
+            <h1>elements() method</h1>
+            <p>
+              Every time we update, the counter's elements changes.<br /><br />
 
-                To get the complete list of the counter's elements, use the
-                elements() method.
-                </p>
-                </div>
-                </div>
-                <iframe src="https://trinket.io/embed/python3/6776498f90" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+              To get the complete list of the counter's elements, use the
+              elements() method.
+              </p>
+              </div>
+              </div>
+              <iframe src="https://trinket.io/embed/python3/6776498f90" width="100%" height="356" frameborder="0"
+                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
 
-          <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-          <div style="
+        <div style="
               display: flex;
               padding: 30px;
               background-color: #eedcff;
               color: black;
             ">
-            <div style="padding: 20px">
-              <h1>most_common() method</h1>
-              <p>
-                To get the xth most common element in a counter, use the
-                most_common() method and put x inside as a parameter.<br /><br />
+          <div style="padding: 20px">
+            <h1>most_common() method</h1>
+            <p>
+              To get the xth most common element in a counter, use the
+              most_common() method and put x inside as a parameter.<br /><br />
 
-                [("A", 2), ("B", 2), ("C", 2)] is printed.
-                </p>
-                </div>
-                </div>
-                <iframe src="https://trinket.io/embed/python3/f918534c52" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+              [("A", 2), ("B", 2), ("C", 2)] is printed.
+              </p>
+              </div>
+              </div>
+              <iframe src="https://trinket.io/embed/python3/f918534c52" width="100%" height="356" frameborder="0"
+                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
 
-          <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-          <div style="
+        <div style="
               display: flex;
               padding: 30px;
               background-color: #ffdcde;
               color: black;
             ">
-            <div style="padding: 20px">
-              <h1>Subtracting</h1>
-              <p>
-                We can subtract two counters and get a new one.<br /><br />
+          <div style="padding: 20px">
+            <h1>Subtracting</h1>
+            <p>
+              We can subtract two counters and get a new one.<br /><br />
 
-                If the number gets below zero, Python will keep it that way even
-                though having -1 items does not make sense.<br /><br />
+              If the number gets below zero, Python will keep it that way even
+              though having -1 items does not make sense.<br /><br />
 
-                <code>
-                  a = Counter(a = 4, b = 5)<br />
-                  b = Counter(a = 6, b = 9)<br /><br />
+              <code>
+                a = Counter(a = 4, b = 5)<br />
+                b = Counter(a = 6, b = 9)<br /><br />
 
-                  print(a.subtract(b))
-                  </code>
-                  </p>
-                  </div>
-                  </div>
+                print(a.subtract(b))
+                </code>
+                </p>
+                </div>
+                </div>
 
-          <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-          <div style="margin: 10px; padding: 10px">
-            <button style="float: left">
-              <a href="multiprocessing-en.html">❮ Previous</a>
-            </button>
-            <button style="float: right">
-              <a href="request-en.html">Next ❯</a>
-            </button>
-          </div>
-          </div>
-          </div>
+        <div style="margin: 10px; padding: 10px">
+          <button style="float: left">
+            <a href="multiprocessing-en.html">❮ Previous</a>
+          </button>
+          <button style="float: right">
+            <a href="request-en.html">Next ❯</a>
+          </button>
+        </div>
+        </div>
+        </div>
 
-      <br /><br /><br /><br />
-      </div>
-      <script defer src="script-en.js"></script>
+    <br /><br /><br /><br />
+    </div>
+    <script defer src="script-en.js"></script>
 
   <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
   <div style="display:none;" id="search-div">

@@ -1,438 +1,280 @@
 <!DOCTYPE html>
 <html lang="kr">
-  <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      gtag("config", "UA-209775586-1");
-    </script>
-    <meta
-      name="description"
-      content="Welcome to our site where you can learn programming languages easily!"
-    />
-    <meta
-      name="keywords"
-      content="python, programming, coding-insight, python-factory"
-    />
-    <meta name="author" content="Hyunseung, Juha, Gun" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>코딩 인사이트</title>
-    <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
-    <link hreflang="kr" rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-  </head>
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( "js", new Date() );
 
-  <body style="margin: 0">
-    <div style="margin: 0; padding: 0" id="navigate">
-      <ul>
-        <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/index.html"
-            id="home"
-            >홈</a
-          >
-        </li>
-        <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/korean/python.html"
-            id="python"
-            >파이썬</a
-          >
-        </li>
-        <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/c/korean/c.html"
-            id="clang"
-            >C</a
-          >
-        </li>
-        <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
-        <li>
-          <a
-            rel="noopener"
-            href="https://forms.gle/46giCXG3Y7spbm21A"
-            id="feedback"
-            >설문조사</a
-          >
-        </li>
-        <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/python/korean/video.html"
-            style="color: white"
-            id="video"
-            >동영상</a
-          >
-        </li>
-        <li style="float: right">
-          <a
-            ><button
-              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
-              style="
+    gtag( "config", "UA-209775586-1" );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+  <link hreflang="kr" rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+</head>
+
+<body style="margin: 0">
+  <div style="margin: 0; padding: 0" id="navigate">
+    <ul>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a>
+      </li>
+      <li>
+        <a rel="noopener" href="https:///coding-insight.com/python/korean/python.html" id="python">파이썬</a>
+      </li>
+      <li>
+        <a rel="noopener" href="https:///coding-insight.com/c/korean/c.html" id="clang">C</a>
+      </li>
+      <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
+      <li>
+        <a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a>
+      </li>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+          id="video">동영상</a>
+      </li>
+      <li style="float: right">
+        <a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="
                 background-color: #333;
                 margin: 0 !important;
                 padding: 0 !important;
-              "
-            >
-              🔎
-            </button></a
-          >
-        </li>
-        <li style="float: right">
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/english/stringmethod2-en.html"
-            style="color: white"
-            id="trans"
-            >English</a
-          >
-        </li>
-        <li id="more"><a>더보기</a></li>
-      </ul>
-    </div>
-    <br />
-    <br />
+              ">
+            🔎
+          </button></a>
+      </li>
+      <li style="float: right">
+        <a rel="noopener" href="https:///coding-insight.com/python/english/stringmethod2-en.html" style="color: white"
+          id="trans">English</a>
+      </li>
+      <li id="more"><a>더보기</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
 
-    <button id="butty">
-      메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
+  <button id="butty">
+    메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
+  </button>
+  <div id="menu"></div>
+  <br /><br />
+
+  <div style="text-align: center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D4xUOyss96k" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <br /><br />
+
+  <div style="text-align: center">
+    <hr />
+    <br />
+    <div style="text-align: center" id="speakdiv">
+      <button id="speakbutt">읽어주기</button>
+      <div id="setting">
+        <br /><br />
+        <img alt="python factory picture"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+          style="width: 25px !important" />
+        <input type="range" id="vol" min="0" max="1" step="0.1" />
+        <br />
+        <img alt="python factory picture"
+          src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+          style="width: 25px !important" />
+        <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+      </div>
+    </div>
+    <br /><br />
+    <h1 style="margin: auto; font-size: 30px">
+      <span id="tit">문자 메서드2</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+        id="txt">)</span> 10
+    </h1>
+    <br />
+    <hr />
+  </div>
+
+  <br /><br /><br /><br />
+
+  <div style="padding: 30px; display: flex">
+    <div style="padding: 10px; margin: 10px">
+      <h1>문자 더하기</h1>
+      <p>
+        문자를 +를 사용하여 더할 수 있습니다.
+
+        <br /><br /><br />
+
+        하지만 반복되는 패턴을 더하고 싶다면 어떻게 해야 할까요?<br /><br />
+
+        다음과 같은 방법도 있습니다.<br /><br />
+
+        문자 * 숫자는 문자를 숫자만큼 반복하여 되돌려준다는 뜻입니다.<br /><br />
+
+        예를 들어 "Hello" * 2는 "HelloHello"입니다.
+      </p>
+    </div>
+    <iframe src="https://trinket.io/embed/python/54f740c487" width="100%" height="356" frameborder="0" marginwidth="0"
+      marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+  </div>
+
+  <br /><br /><br /><br />
+
+  <div style="padding: 30px; display: flex; background-color: #efefef">
+    <div style="padding: 10px; margin: 10px">
+      <h1>문자에 대한 정보</h1>
+      <p>
+        파이썬에서 문자가 알파벳과 숫자로만 이루어져 있는지 아는 방법이
+        있습니다.<br /><br />
+
+        바로 'isalnum()'이라는 메서드를 이용하면 됩니다.<br /><br />
+
+        또 'isalpha'는 알파벳으로만 되어있는지,<br />
+
+        'isdecimal'은 숫자(0~9)로만 이루어져 있는지,<br />
+
+        'isdigit'은 숫자로만 이루어져 있는지,<br />
+
+        'isidentifier'는 변수 이름 규칙과 일치하는지 알 수 있습니다.<br />
+
+        마지막으로 'isnumeric'은 정수로만 이루어져 있는지, 'isprintable'은
+        정보를 출력하는 것이 가능한지, 'isspace'는 스페이스(공백)로만 이루어져
+        있는지 알 수 있습니다.<br />
+      </p>
+    </div>
+    <iframe src="https://trinket.io/embed/python/9da1796e91" width="100%" height="356" frameborder="0" marginwidth="0"
+      marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+  </div>
+
+  <br /><br /><br /><br />
+
+  <div style="padding: 30px; display: flex; background-color: #ebece9">
+    <div style="padding: 10px; margin: 10px">
+      <h1>파이썬 문자 자르기 - 나쁜말 필터기</h1>
+      <p>
+        나쁜 단어 필터링하는 프로그램을 만들겠습니다.<br /><br />
+
+        먼저, 나쁜 말을 물어보고 '나는 {나쁜 말}이 아니다'라는 뜻이 있는
+        문장을 만들었습니다. 그리고, partition() 메서드를 사용하여 나쁜 단어를
+        기준으로 문장을 자르고 그 나쁜 단어 대신 '**'를 넣었습니다.<br /><br />
+
+        또 다른 예시를 들어보겠습니다.<br /><br /><br /><br />
+
+        이 예시에서 name을 기준으로 잘랐습니다. partitionedSentence를 출력하면
+        ("Hello. My ", "name", " is Hyunseung")가 터미널에 출력이 되는 것을
+        관찰할 수 있습니다. 인덱싱을 사용하여 'name' 전의 문장과 'name' 후의
+        문장을 결합했습니다.<br /><br />
+      </p>
+    </div>
+    <iframe src="https://trinket.io/embed/python/d278186aad" width="100%" height="356" frameborder="0" marginwidth="0"
+      marginheight="0" allowfullscreen loading="lazy"></iframe>
+  </div>
+
+  <br /><br /><br /><br />
+
+  <div style="margin: 10px; padding: 10px">
+    <button style="float: left">
+      <a href="stringmethod1.html">❮ 이전</a>
     </button>
-    <div id="menu"></div>
-    <br /><br />
+    <button style="float: right"><a href="escapechar.html">다음 ❯</a></button>
+  </div>
 
-    <div style="text-align: center">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/D4xUOyss96k"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+  <br /><br /><br /><br />
+
+  <div style="text-align: center; font-size: 25px">
+    <h3>파이썬에서 문자 두 개를 결합하는 방법은?</h3>
+    <div>
+      <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+      <label for="question-1-answers-A">A) + </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+      <label for="question-1-answers-B">B) - </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+      <label for="question-1-answers-C">C) ++ </label>
+    </div>
+
+    <div>
+      <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+      <label for="question-1-answers-D">D) == </label>
     </div>
 
     <br /><br />
 
-    <div style="text-align: center">
-      <hr />
-      <br />
-      <div style="text-align: center" id="speakdiv">
-        <button id="speakbutt">읽어주기</button>
-        <div id="setting">
-          <br /><br />
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-            style="width: 25px !important"
-          />
-          <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br />
-          <img
-            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-            style="width: 25px !important"
-          />
-          <input
-            type="range"
-            id="rate"
-            min="0.1"
-            max="10"
-            step="0.1"
-            value="1"
-          />
-        </div>
-      </div>
-      <br /><br />
-      <h1 style="margin: auto; font-size: 30px">
-        <span id="tit">문자 메서드2</span><br id="lbbr" /><span id="txt"
-          >Computer Science Lab (</span
-        >CSL<span id="txt">)</span> 10
-      </h1>
-      <br />
-      <hr />
+    <h3>파이썬에서 어떤 문자를 x번 반복한 값을 변수에 저장하는 코드는?</h3>
+
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+      <label for="question-2-answers-A">A) a = "문자" * x </label>
     </div>
 
-    <br /><br /><br /><br />
-
-    <div style="padding: 30px; display: flex">
-      <div style="padding: 10px; margin: 10px">
-        <h1>문자 더하기</h1>
-        <p>
-          문자를 +를 사용하여 더할 수 있습니다.
-
-          <br /><br /><br />
-
-          하지만 반복되는 패턴을 더하고 싶다면 어떻게 해야 할까요?<br /><br />
-
-          다음과 같은 방법도 있습니다.<br /><br />
-
-          문자 * 숫자는 문자를 숫자만큼 반복하여 되돌려준다는 뜻입니다.<br /><br />
-
-          예를 들어 "Hello" * 2는 "HelloHello"입니다.
-        </p>
-      </div>
-      <iframe
-        src="https://trinket.io/embed/python/54f740c487"
-        width="100%"
-        height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
-        loading="lazy"
-        style="margin: auto"
-      ></iframe>
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+      <label for="question-2-answers-B">B) a = "문자" - x </label>
     </div>
 
-    <br /><br /><br /><br />
-
-    <div style="padding: 30px; display: flex; background-color: #efefef">
-      <div style="padding: 10px; margin: 10px">
-        <h1>문자에 대한 정보</h1>
-        <p>
-          파이썬에서 문자가 알파벳과 숫자로만 이루어져 있는지 아는 방법이
-          있습니다.<br /><br />
-
-          바로 'isalnum()'이라는 메서드를 이용하면 됩니다.<br /><br />
-
-          또 'isalpha'는 알파벳으로만 되어있는지,<br />
-
-          'isdecimal'은 숫자(0~9)로만 이루어져 있는지,<br />
-
-          'isdigit'은 숫자로만 이루어져 있는지,<br />
-
-          'isidentifier'는 변수 이름 규칙과 일치하는지 알 수 있습니다.<br />
-
-          마지막으로 'isnumeric'은 정수로만 이루어져 있는지, 'isprintable'은
-          정보를 출력하는 것이 가능한지, 'isspace'는 스페이스(공백)로만 이루어져
-          있는지 알 수 있습니다.<br />
-        </p>
-      </div>
-      <iframe
-        src="https://trinket.io/embed/python/9da1796e91"
-        width="100%"
-        height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
-        loading="lazy"
-        style="margin: auto"
-      ></iframe>
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+      <label for="question-2-answers-C">C) a = "문자" $ x </label>
     </div>
 
-    <br /><br /><br /><br />
+    <div>
+      <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+      <label for="question-2-answers-D">D) a = "문자" @ x </label>
+    </div>
+    <br /><br />
 
-    <div style="padding: 30px; display: flex; background-color: #ebece9">
-      <div style="padding: 10px; margin: 10px">
-        <h1>파이썬 문자 자르기 - 나쁜말 필터기</h1>
-        <p>
-          나쁜 단어 필터링하는 프로그램을 만들겠습니다.<br /><br />
+    <h3>파이썬에서 문자를 자르는 방법은?</h3>
 
-          먼저, 나쁜 말을 물어보고 '나는 {나쁜 말}이 아니다'라는 뜻이 있는
-          문장을 만들었습니다. 그리고, partition() 메서드를 사용하여 나쁜 단어를
-          기준으로 문장을 자르고 그 나쁜 단어 대신 '**'를 넣었습니다.<br /><br />
-
-          또 다른 예시를 들어보겠습니다.<br /><br /><br /><br />
-
-          이 예시에서 name을 기준으로 잘랐습니다. partitionedSentence를 출력하면
-          ("Hello. My ", "name", " is Hyunseung")가 터미널에 출력이 되는 것을
-          관찰할 수 있습니다. 인덱싱을 사용하여 'name' 전의 문장과 'name' 후의
-          문장을 결합했습니다.<br /><br />
-        </p>
-      </div>
-      <iframe
-        src="https://trinket.io/embed/python/d278186aad"
-        width="100%"
-        height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
-        loading="lazy"
-      ></iframe>
+    <div>
+      <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+      <label for="question-3-answers-A">A) "string".partition("") </label>
     </div>
 
-    <br /><br /><br /><br />
-
-    <div style="margin: 10px; padding: 10px">
-      <button style="float: left">
-        <a href="stringmethod1.html">❮ 이전</a>
-      </button>
-      <button style="float: right"><a href="escapechar.html">다음 ❯</a></button>
+    <div>
+      <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+      <label for="question-3-answers-B">B) "string".cut("") </label>
     </div>
 
-    <br /><br /><br /><br />
+    <div>
+      <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+      <label for="question-3-answers-C">C) "string".apply("") </label>
+    </div>
 
-    <div style="text-align: center; font-size: 25px">
-      <h3>파이썬에서 문자 두 개를 결합하는 방법은?</h3>
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-A"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) + </label>
-      </div>
-
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-B"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) - </label>
-      </div>
-
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-C"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) ++ </label>
-      </div>
-
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-D"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) == </label>
-      </div>
-
-      <br /><br />
-
-      <h3>파이썬에서 어떤 문자를 x번 반복한 값을 변수에 저장하는 코드는?</h3>
-
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-A"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) a = "문자" * x </label>
-      </div>
-
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-B"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) a = "문자" - x </label>
-      </div>
-
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-C"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) a = "문자" $ x </label>
-      </div>
-
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-D"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) a = "문자" @ x </label>
-      </div>
-      <br /><br />
-
-      <h3>파이썬에서 문자를 자르는 방법은?</h3>
-
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-A"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) "string".partition("") </label>
-      </div>
-
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-B"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) "string".cut("") </label>
-      </div>
-
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-C"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) "string".apply("") </label>
-      </div>
-
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-D"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) "string" / "string" </label>
-      </div>
-
-      <br /><br />
-
-      <button
-        id="checky"
-        onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1번 맞았습니다!")} else {alert("1번
-        틀렸습니다")}; if(document.getElementById("question-2-answers-A").checked) {alert("2번 맞았습니다 :)")} else {alert("2번
-        틀렸습니다")};if(document.getElementById("question-3-answers-A").checked) {alert("3번 맞았습니다 :)")} else {alert("3번
-        틀렸습니다")};'
-      >
-        정답 확인
-      </button>
+    <div>
+      <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+      <label for="question-3-answers-D">D) "string" / "string" </label>
     </div>
 
     <br /><br />
 
-    <script defer src="script.js"></script>
-    <script
-      async
-      src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"
-    ></script>
-    <div style="display: none" id="search-div">
-      <div class="gcse-searchbox-only"></div>
-    </div>
-  </body>
+    <button id="checky"
+      onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-A").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")};if(document.getElementById("question-3-answers-A").checked) {alert("3번 맞았습니다 :)")} else {alert("3번 틀렸습니다")};'>
+      정답 확인
+    </button>
+  </div>
+
+  <br /><br />
+
+  <script defer src="script.js"></script>
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display: none" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
+</body>
+
 </html>

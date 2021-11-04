@@ -1,242 +1,160 @@
 <!DOCTYPE html>
 <html lang="kr">
-  <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
+    function gtag() {
+      dataLayer.push( arguments );
       }
-      gtag("js", new Date());
+    gtag( "js", new Date() );
 
-      gtag("config", "UA-209775586-1");
+    gtag( "config", "UA-209775586-1" );
     </script>
-    <meta
-      name="description"
-      content="Welcome to our site where you can learn programming languages easily!"
-    />
-    <meta
-      name="keywords"
-      content="python, programming, coding-insight, python-factory"
-    />
-    <meta name="author" content="Hyunseung, Juha, Gun" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>코딩 인사이트</title>
-    <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
-    <link hreflang="kr" rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+  <link hreflang="kr" rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
   </head>
 
-  <body style="margin: 0">
-    <div style="margin: 0; padding: 0" id="navigate">
-      <ul>
-        <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/index.html"
-            id="home"
-            >홈</a
-          >
+<body style="margin: 0">
+  <div style="margin: 0; padding: 0" id="navigate">
+    <ul>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/korean/python.html"
-            id="python"
-            >파이썬</a
-          >
+        <a rel="noopener" href="https:///coding-insight.com/python/korean/python.html" id="python">파이썬</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/c/korean/c.html"
-            id="clang"
-            >C</a
-          >
+        <a rel="noopener" href="https:///coding-insight.com/c/korean/c.html" id="clang">C</a>
         </li>
         <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
         <li>
-          <a
-            rel="noopener"
-            href="https://forms.gle/46giCXG3Y7spbm21A"
-            id="feedback"
-            >설문조사</a
-          >
+        <a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/python/korean/video.html"
-            style="color: white"
-            id="video"
-            >동영상</a
-          >
+        <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+          id="video">동영상</a>
         </li>
         <li style="float: right">
-          <a
-            ><button
-              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
-              style="
+        <a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="
                 background-color: #333;
                 margin: 0 !important;
                 padding: 0 !important;
-              "
-            >
+              ">
               🔎
-            </button></a
-          >
-        </li>
-        <li style="float: right">
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/english/forfunction-en.html"
-            style="color: white"
-            id="trans"
-            id="trans"
-            >English</a
-          >
+          </button></a>
+          </li>
+          <li style="float: right">
+        <a rel="noopener" href="https:///coding-insight.com/python/english/forfunction-en.html" style="color: white"
+          id="trans" id="trans">English</a>
         </li>
         <li id="more"><a>더보기</a></li>
-      </ul>
-    </div>
-    <br />
-    <br />
+        </ul>
+        </div>
+        <br />
+        <br />
 
-    <button id="butty">
-      메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
-    </button>
-    <div id="menu"></div>
-    <br /><br />
+  <button id="butty">
+    메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
+  </button>
+  <div id="menu"></div>
+  <br /><br />
+  <div style="padding: 10px; margin: 20px">
     <div style="padding: 10px; margin: 20px">
-      <div style="padding: 10px; margin: 20px">
-        <div style="text-align: center">
-          <hr />
-          <br />
-          <div style="text-align: center" id="speakdiv">
-            <button id="speakbutt">읽어주기</button>
-            <div id="setting">
-              <br /><br />
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                style="width: 25px !important"
-              />
+      <div style="text-align: center">
+        <hr />
+        <br />
+        <div style="text-align: center" id="speakdiv">
+          <button id="speakbutt">읽어주기</button>
+          <div id="setting">
+            <br /><br />
+            <img alt="python factory picture"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width: 25px !important" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
               <br />
-              <img
-                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                style="width: 25px !important"
-              />
-              <input
-                type="range"
-                id="rate"
-                min="0.1"
-                max="10"
-                step="0.1"
-                value="1"
-              />
-            </div>
-          </div>
-          <br /><br />
-          <h1 style="margin: auto; font-size: 30px">
-            <span id="tit">for 반복문 함수</span><br id="lbbr" /><span id="txt"
-              >Computer Science Lab (</span
-            >CSL<span id="txt">)</span> 36
+            <img alt="python factory picture"
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width: 25px !important" />
+              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+              </div>
+              </div>
+              <br /><br />
+              <h1 style="margin: auto; font-size: 30px">
+          <span id="tit">for 반복문 함수</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+            id="txt">)</span> 36
           </h1>
           <br />
           <hr />
-        </div>
-
-        <br /><br /><br /><br />
-
-        <div style="display: flex; padding: 30px">
-          <div style="padding: 20px">
-            <h1>iter()와 __next__()</h1>
-            <p>
-              iter() 메서드를 사용하면 for 반복문을 대신할 수 있습니다.<br /><br />
-
-              iter() 함수를 사용하면 for 반복과 비슷한 이터러블을 만듭니다.<br /><br />
-
-              __next__() 메서드를 사용하면 i의 값을 하나하나 돌려줍니다.
-              __next__()를 사용할 때마다 새로운 값 하나하나가 새롭게
-              나타납니다.<br /><br />
-
-              만일 마지막 값까지 도착했고 더 이상 값이 존재하지 않는데
-              __next__() 메서드를 사용했다면 에러가 생깁니다.
-            </p>
           </div>
-          <iframe
-            src="https://trinket.io/embed/python3/496fc82d74"
-            width="100%"
-            height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
-            loading="lazy"
-            style="margin: auto"
-          ></iframe>
-        </div>
-
-        <br /><br /><br /><br />
-
-        <div>
-          <div style="padding: 20px; display: flex">
-            <div style="padding: 10px">
-              <h1>range()</h1>
-              <p>
-                range()는 for 반복문을 사용할 때 매우 유용합니다. range() 함수는
-                숫자로 구성된 리스트를 돌려주는 함수입니다.<br /><br />
-
-                range(start, stop, step)가 있습니다.<br /><br />
-
-                start는 숫자의 시작입니다.<br />
-                stop은 숫자의 끝입니다.<br />
-                step은 숫자 간의 간격입니다.
-              </p>
-            </div>
-            <iframe
-              src="https://trinket.io/embed/python3/31f75bee24"
-              width="70%"
-              height="356"
-              frameborder="0"
-              marginwidth="0"
-              marginheight="0"
-              allowfullscreen
-              loading="lazy"
-              style="margin: auto"
-            ></iframe>
-          </div>
-        </div>
-
-        <br /><br /><br /><br />
-      </div>
-
-      <div style="margin: 10px; padding: 10px">
-        <button style="float: left"><a href="fortype.html">❮ 이전</a></button>
-        <button style="float: right"><a href="while.html">다음 ❯</a></button>
-      </div>
 
       <br /><br /><br /><br />
+
+      <div style="display: flex; padding: 30px">
+        <div style="padding: 20px">
+          <h1>iter()와 __next__()</h1>
+          <p>
+            iter() 메서드를 사용하면 for 반복문을 대신할 수 있습니다.<br /><br />
+
+            iter() 함수를 사용하면 for 반복과 비슷한 이터러블을 만듭니다.<br /><br />
+
+            __next__() 메서드를 사용하면 i의 값을 하나하나 돌려줍니다.
+            __next__()를 사용할 때마다 새로운 값 하나하나가 새롭게
+            나타납니다.<br /><br />
+
+            만일 마지막 값까지 도착했고 더 이상 값이 존재하지 않는데
+            __next__() 메서드를 사용했다면 에러가 생깁니다.
+            </p>
+            </div>
+        <iframe src="https://trinket.io/embed/python3/496fc82d74" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding: 20px; display: flex">
+          <div style="padding: 10px">
+            <h1>range()</h1>
+            <p>
+              range()는 for 반복문을 사용할 때 매우 유용합니다. range() 함수는
+              숫자로 구성된 리스트를 돌려주는 함수입니다.<br /><br />
+
+              range(start, stop, step)가 있습니다.<br /><br />
+
+              start는 숫자의 시작입니다.<br />
+              stop은 숫자의 끝입니다.<br />
+              step은 숫자 간의 간격입니다.
+              </p>
+              </div>
+          <iframe src="https://trinket.io/embed/python3/31f75bee24" width="70%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+          </div>
+          </div>
+
+      <br /><br /><br /><br />
+      </div>
+
+    <div style="margin: 10px; padding: 10px">
+      <button style="float: left"><a href="fortype.html">❮ 이전</a></button>
+      <button style="float: right"><a href="while.html">다음 ❯</a></button>
+    </div>
+
+    <br /><br /><br /><br />
     </div>
     <script defer src="script.js"></script>
-    <script
-      async
-      src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"
-    ></script>
-    <div style="display: none" id="search-div">
-      <div class="gcse-searchbox-only"></div>
-    </div>
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display: none" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
   </body>
 </html>

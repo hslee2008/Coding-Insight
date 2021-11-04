@@ -1,239 +1,162 @@
 <!DOCTYPE html>
 <html lang="kr">
-  <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
+    function gtag() {
+      dataLayer.push( arguments );
       }
-      gtag("js", new Date());
+    gtag( "js", new Date() );
 
-      gtag("config", "UA-209775586-1");
+    gtag( "config", "UA-209775586-1" );
     </script>
-    <meta
-      name="description"
-      content="Welcome to our site where you can learn programming languages easily!"
-    />
-    <meta
-      name="keywords"
-      content="python, programming, coding-insight, python-factory"
-    />
-    <meta name="author" content="Hyunseung, Juha, Gun" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>코딩 인사이트</title>
-    <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
-    <link hreflang="kr" rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+  <link hreflang="kr" rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
   </head>
 
-  <body style="margin: 0">
-    <div style="margin: 0; padding: 0" id="navigate">
-      <ul>
-        <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/index.html"
-            id="home"
-            >홈</a
-          >
+<body style="margin: 0">
+  <div style="margin: 0; padding: 0" id="navigate">
+    <ul>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/korean/python.html"
-            id="python"
-            >파이썬</a
-          >
+        <a rel="noopener" href="https:///coding-insight.com/python/korean/python.html" id="python">파이썬</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/c/korean/c.html"
-            id="clang"
-            >C</a
-          >
+        <a rel="noopener" href="https:///coding-insight.com/c/korean/c.html" id="clang">C</a>
         </li>
         <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
         <li>
-          <a
-            rel="noopener"
-            href="https://forms.gle/46giCXG3Y7spbm21A"
-            id="feedback"
-            >설문조사</a
-          >
+        <a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/python/korean/video.html"
-            style="color: white"
-            id="video"
-            >동영상</a
-          >
+        <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+          id="video">동영상</a>
         </li>
         <li style="float: right">
-          <a
-            ><button
-              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
-              style="
+        <a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="
                 background-color: #333;
                 margin: 0 !important;
                 padding: 0 !important;
-              "
-            >
+              ">
               🔎
-            </button></a
-          >
-        </li>
-        <li style="float: right">
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/english/spam-en.html"
-            style="color: white"
-            id="trans"
-            >English</a
-          >
+          </button></a>
+          </li>
+          <li style="float: right">
+        <a rel="noopener" href="https:///coding-insight.com/python/english/spam-en.html" style="color: white"
+          id="trans">English</a>
         </li>
         <li id="more"><a>더보기</a></li>
-      </ul>
-    </div>
-    <br />
-    <br />
+        </ul>
+        </div>
+        <br />
+        <br />
 
-    <button id="butty">
-      메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
-    </button>
-    <div id="menu"></div>
-    <br /><br />
-    <div style="display: flex; padding: 30px; background-color: #f8e9d5">
-      <div style="padding: 20px">
-        <h1>장난 이메일</h1>
-        <p>
-          이 프로젝트에서는 친구 또는 가족에게 장난으로 이메일을 보내는 방법을
-          알아보겠습니다.
-        </p>
-      </div>
-      <div style="margin: auto">
-        <img
-          alt="python-factory-picture"
-          src="https://www.incimages.com/uploaded_files/image/empty-email_463770.gif"
-          width="300px"
-        />
-      </div>
+  <button id="butty">
+    메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
+  </button>
+  <div id="menu"></div>
+  <br /><br />
+  <div style="display: flex; padding: 30px; background-color: #f8e9d5">
+    <div style="padding: 20px">
+      <h1>장난 이메일</h1>
+      <p>
+        이 프로젝트에서는 친구 또는 가족에게 장난으로 이메일을 보내는 방법을
+        알아보겠습니다.
+      </p>
     </div>
-    <div style="padding: 10px; margin: 20px">
+    <div style="margin: auto">
+      <img alt="python factory picture" alt="python-factory-picture"
+        src="https://www.incimages.com/uploaded_files/image/empty-email_463770.gif" width="300px" />
+      </div>
+      </div>
       <div style="padding: 10px; margin: 20px">
         <div style="padding: 10px; margin: 20px">
-          <div style="text-align: center">
-            <hr />
-            <br />
-            <div style="text-align: center" id="speakdiv">
-              <button id="speakbutt">읽어주기</button>
-              <div id="setting">
-                <br /><br />
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                  style="width: 25px !important"
-                />
+          <div style="padding: 10px; margin: 20px">
+            <div style="text-align: center">
+              <hr />
+              <br />
+              <div style="text-align: center" id="speakdiv">
+                <button id="speakbutt">읽어주기</button>
+                <div id="setting">
+                  <br /><br />
+              <img alt="python factory picture"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width: 25px !important" />
                 <input type="range" id="vol" min="0" max="1" step="0.1" />
                 <br />
-                <img
-                  src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                  style="width: 25px !important"
-                />
-                <input
-                  type="range"
-                  id="rate"
-                  min="0.1"
-                  max="10"
-                  step="0.1"
-                  value="1"
-                />
-              </div>
-            </div>
-            <br /><br />
-            <h1 style="margin: auto; font-size: 30px">
-              <span id="tit">스펨 이메일</span><br id="lbbr" /><span id="txt"
-                >Computer Science Lab (</span
-              >CSL<span id="txt">)</span> 86
+              <img alt="python factory picture"
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width: 25px !important" />
+                <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+                </div>
+                </div>
+                <br /><br />
+                <h1 style="margin: auto; font-size: 30px">
+            <span id="tit">스펨 이메일</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+              id="txt">)</span> 86
             </h1>
             <br />
             <hr />
-          </div>
+            </div>
 
-          <div style="text-align: center">
-            <h1>준비</h1>
-          </div>
-          <p>
-            smtplib와 ssl을 다운로드 해야합니다. 아마도 이미 설치 되어있겠지만
-            혹시 모르니까 이 코드를 터미널에서 실행을 하세요.<br /><br />
+        <div style="text-align: center">
+          <h1>준비</h1>
+        </div>
+        <p>
+          smtplib와 ssl을 다운로드 해야합니다. 아마도 이미 설치 되어있겠지만
+          혹시 모르니까 이 코드를 터미널에서 실행을 하세요.<br /><br />
 
-            <code> pip install smtpllib & pip install ssl </code>
+          <code> pip install smtpllib & pip install ssl </code>
 
-            먼저, 저의 컴퓨터에서 서버를 연결을 해야합니다. 서버란, 이메일을
-            보내는 기계라고 할 수 있습니다.<br /><br />
+          먼저, 저의 컴퓨터에서 서버를 연결을 해야합니다. 서버란, 이메일을
+          보내는 기계라고 할 수 있습니다.<br /><br />
 
-            터미널(VSCode에서 ctrl+`)에서 다음과 같은 코드를 집어넣고 엔터를
-            누르세요.<br /><br />
+          터미널(VSCode에서 ctrl+`)에서 다음과 같은 코드를 집어넣고 엔터를
+          누르세요.<br /><br />
 
-            <code> python -m smtpd -c DebuggingServer -n localhost:1025 </code>
+          <code> python -m smtpd -c DebuggingServer -n localhost:1025 </code>
 
-            계정에서 먼저 파이썬이 로그인을 하는 것을 허락해야합니다.
-            <a rel="noopener" href="https://myaccount.google.com/lesssecureapps"
-              >설정</a
-            >에서 허락을 누르세요.<br /><br />
+          계정에서 먼저 파이썬이 로그인을 하는 것을 허락해야합니다.
+          <a rel="noopener" href="https://myaccount.google.com/lesssecureapps">설정</a>에서 허락을 누르세요.<br /><br />
 
-            만일 구글이 당신의 계정을 블록킹 했다면 다른 계정으로 하세요. 참고로
-            그 계정과 밑에 있는 코드의 계정 이메일이 일치해야합니다.
+          만일 구글이 당신의 계정을 블록킹 했다면 다른 계정으로 하세요. 참고로
+          그 계정과 밑에 있는 코드의 계정 이메일이 일치해야합니다.
           </p>
 
-          <br /><br />
+        <br /><br />
 
-          <iframe
-            src="https://trinket.io/embed/python3/db9f325b98"
-            width="100%"
-            height="500vh"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
-            loading="lazy"
-            style="margin: auto"
-          ></iframe>
+        <iframe src="https://trinket.io/embed/python3/db9f325b98" width="100%" height="500vh" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
 
-          <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-          <div style="margin: 10px; padding: 10px">
-            <button style="float: left"><a href="calc.html">❮ 이전</a></button>
-            <button style="float: right">
-              <a href="autozoom.html">다음 ❯</a>
-            </button>
-          </div>
+        <div style="margin: 10px; padding: 10px">
+          <button style="float: left"><a href="calc.html">❮ 이전</a></button>
+          <button style="float: right">
+            <a href="autozoom.html">다음 ❯</a>
+          </button>
         </div>
-      </div>
+        </div>
+        </div>
 
-      <br /><br /><br /><br />
+    <br /><br /><br /><br />
     </div>
     <script defer src="script.js"></script>
-    <script
-      async
-      src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"
-    ></script>
-    <div style="display: none" id="search-div">
-      <div class="gcse-searchbox-only"></div>
-    </div>
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display: none" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
   </body>
 </html>

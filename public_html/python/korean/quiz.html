@@ -192,8 +192,9 @@
       <div class="progress--bar"></div>
     </div>
 
-    <img alt="python-factory-picture" src="https://img.icons8.com/color/96/26e07f/checked--v4.png" class="check"
-      style="display:none;position:absolute;" width="150px" />
+    <img alt="python factory picture" src="https://img alt=" python factory
+      picture".icons8.com/color/96/26e07f/checked--v4.png" class="check" style="display:none;position:absolute;"
+      width="150px" />
     <h1 class="wrong" style="display:none;position:absolute;font-size:200px;">❌</h1>
 
     <h1>Quiz</h1>
@@ -436,7 +437,10 @@
         scorePct.style.color = "black";
       }
 
-      gtag('event', 'Quiz Done', {'event_category': 'Point: ' + points, 'event_label': 'Quiz Done'})
+      gtag( 'event', 'Quiz Done', {
+      'event_category': 'Point: ' + points,
+      'event_label': 'Quiz Done'
+      } )
       scorePct.innerHTML = `${points} 점`;
       document.querySelector(
         ".scoreText2"

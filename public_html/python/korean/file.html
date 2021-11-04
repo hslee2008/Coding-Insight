@@ -1,255 +1,180 @@
 <!DOCTYPE html>
 <html lang="kr">
-  <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
+    function gtag() {
+      dataLayer.push( arguments );
       }
-      gtag("js", new Date());
+    gtag( "js", new Date() );
 
-      gtag("config", "UA-209775586-1");
+    gtag( "config", "UA-209775586-1" );
     </script>
-    <meta
-      name="description"
-      content="Welcome to our site where you can learn programming languages easily!"
-    />
-    <meta
-      name="keywords"
-      content="python, programming, coding-insight, python-factory"
-    />
-    <meta name="author" content="Hyunseung, Juha, Gun" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>코딩 인사이트</title>
-    <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
-    <link hreflang="kr" rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+  <link hreflang="kr" rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
   </head>
 
-  <body style="margin: 0">
-    <div style="margin: 0; padding: 0" id="navigate">
-      <ul>
-        <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/index.html"
-            id="home"
-            >홈</a
-          >
+<body style="margin: 0">
+  <div style="margin: 0; padding: 0" id="navigate">
+    <ul>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/korean/python.html"
-            id="python"
-            >파이썬</a
-          >
+        <a rel="noopener" href="https:///coding-insight.com/python/korean/python.html" id="python">파이썬</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/c/korean/c.html"
-            id="clang"
-            >C</a
-          >
+        <a rel="noopener" href="https:///coding-insight.com/c/korean/c.html" id="clang">C</a>
         </li>
         <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
         <li>
-          <a
-            rel="noopener"
-            href="https://forms.gle/46giCXG3Y7spbm21A"
-            id="feedback"
-            >설문조사</a
-          >
+        <a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/python/korean/video.html"
-            style="color: white"
-            id="video"
-            >동영상</a
-          >
+        <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+          id="video">동영상</a>
         </li>
         <li style="float: right">
-          <a
-            ><button
-              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
-              style="
+        <a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="
                 background-color: #333;
                 margin: 0 !important;
                 padding: 0 !important;
-              "
-            >
+              ">
               🔎
-            </button></a
-          >
-        </li>
-        <li style="float: right">
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/english/file-en.html"
-            style="color: white"
-            id="trans"
-            >English</a
-          >
+          </button></a>
+          </li>
+          <li style="float: right">
+        <a rel="noopener" href="https:///coding-insight.com/python/english/file-en.html" style="color: white"
+          id="trans">English</a>
         </li>
         <li id="more"><a>더보기</a></li>
-      </ul>
-    </div>
-    <br />
-    <br />
+        </ul>
+        </div>
+        <br />
+        <br />
 
-    <button id="butty">
-      메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
-    </button>
-    <div id="menu"></div>
-    <div
-      style="
+  <button id="butty">
+    메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
+  </button>
+  <div id="menu"></div>
+  <div style="
         display: flex;
         margin-top: 50px;
         padding: 30px;
         background-color: black;
         color: white;
-      "
-    >
+      ">
       <div style="padding: 10px; margin: 10px">
         <h1>파일 처리란?</h1>
         <p>
           파이썬에서는 파일을 만들고, 읽고, 쓰고, 지우는 것이 가능합니다.<br /><br />
 
-          출력에서 'print()' 함수를 이용하여 파일에 쓰는 것이 가능합니다.
-          'open()'이라는 함수는 파일을 여는 메서드입니다.
+        출력에서 'print()' 함수를 이용하여 파일에 쓰는 것이 가능합니다.
+        'open()'이라는 함수는 파일을 여는 메서드입니다.
         </p>
-      </div>
-      <div style="margin: auto">
-        <img
-          alt="python-factory-picture"
-          src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
-          width="300px"
-        />
-      </div>
-    </div>
-    <br /><br />
-    <div style="padding: 10px; margin: 20px">
-      <div style="padding: 10px; margin: 20px">
-        <div style="text-align: center">
-          <hr />
-          <br />
-          <div style="text-align: center" id="speakdiv">
-            <button id="speakbutt">읽어주기</button>
-            <div id="setting">
-              <br /><br />
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                style="width: 25px !important"
-              />
+        </div>
+        <div style="margin: auto">
+      <img alt="python factory picture" alt="python-factory-picture"
+        src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
+        width="300px" />
+        </div>
+        </div>
+        <br /><br />
+        <div style="padding: 10px; margin: 20px">
+          <div style="padding: 10px; margin: 20px">
+            <div style="text-align: center">
+              <hr />
+              <br />
+              <div style="text-align: center" id="speakdiv">
+                <button id="speakbutt">읽어주기</button>
+                <div id="setting">
+                  <br /><br />
+            <img alt="python factory picture"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width: 25px !important" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
               <br />
-              <img
-                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                style="width: 25px !important"
-              />
-              <input
-                type="range"
-                id="rate"
-                min="0.1"
-                max="10"
-                step="0.1"
-                value="1"
-              />
-            </div>
-          </div>
-          <br /><br />
-          <h1 style="margin: auto; font-size: 30px">
-            <span id="tit">파일 다루는 작업</span><br id="lbbr" /><span id="txt"
-              >Computer Science Lab (</span
-            >CSL<span id="txt">)</span> 49
+            <img alt="python factory picture"
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width: 25px !important" />
+              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+              </div>
+              </div>
+              <br /><br />
+              <h1 style="margin: auto; font-size: 30px">
+          <span id="tit">파일 다루는 작업</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+            id="txt">)</span> 49
           </h1>
           <br />
           <hr />
-        </div>
-
-        <br /><br /><br /><br />
-
-        <div style="display: flex; padding: 30px; background-color: #b1dab1">
-          <div style="padding: 20px">
-            <h1>파일 주소</h1>
-            <p>
-              파일 주소는 파일을 가지고 오는 데 매우 중요한 변수입니다.<br /><br />
-
-              파일 주소는 VSCode에서 파일을 우클릭하고 'copy path' 버튼을 누르면
-              전체 파일 주소가 복사됩니다.
-            </p>
           </div>
-          <img src="img/filepath.jpg" alt="filepath" width="200px" />
-        </div>
-
-        <br /><br /><br /><br />
-
-        <div>
-          <div style="padding: 20px; display: flex">
-            <div style="padding: 10px">
-              <h1>파일 열고 닫기</h1>
-              <p>
-                파일 열기는 open() 함수를 이용할 수 있습니다. 첫 번쨰 매개변수로
-                파일의 주소를 적고 두 번째는 모드를 적습니다. 모드는 다음 시간에
-                배우겠습니다.<br /><br />
-
-                만일 두 번쨰 매개변수인 모드를 입력하지 않았다면 읽기모드로
-                파이썬은 인식합니다.<br /><br />
-
-                항상 파일을 연 후 닫아야 합니다. 그렇지 않으면 파이썬 코드가
-                끝나도 계속 파일이 읽어질 수 있습니다. 그래서 다시는 파일을
-                사용하지 않는다면 꼭 닫으세요!
-              </p>
-            </div>
-          </div>
-          <iframe
-            src="https://trinket.io/embed/python3/5755f85207"
-            width="100%"
-            height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
-            loading="lazy"
-            style="margin: auto"
-          ></iframe>
-        </div>
-
-        <br /><br /><br /><br />
-
-        <div style="margin: 10px; padding: 10px">
-          <button style="float: left"><a href="math.html">❮ 이전</a></button>
-          <button style="float: right">
-            <a href="filereading.html">다음 ❯</a>
-          </button>
-        </div>
-      </div>
 
       <br /><br /><br /><br />
+
+      <div style="display: flex; padding: 30px; background-color: #b1dab1">
+        <div style="padding: 20px">
+          <h1>파일 주소</h1>
+          <p>
+            파일 주소는 파일을 가지고 오는 데 매우 중요한 변수입니다.<br /><br />
+
+            파일 주소는 VSCode에서 파일을 우클릭하고 'copy path' 버튼을 누르면
+            전체 파일 주소가 복사됩니다.
+            </p>
+            </div>
+        <img alt="python factory picture" src="img alt=" python factory picture"/filepath.jpg" alt="filepath"
+          width="200px" />
+        </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div style="padding: 20px; display: flex">
+          <div style="padding: 10px">
+            <h1>파일 열고 닫기</h1>
+            <p>
+              파일 열기는 open() 함수를 이용할 수 있습니다. 첫 번쨰 매개변수로
+              파일의 주소를 적고 두 번째는 모드를 적습니다. 모드는 다음 시간에
+              배우겠습니다.<br /><br />
+
+              만일 두 번쨰 매개변수인 모드를 입력하지 않았다면 읽기모드로
+              파이썬은 인식합니다.<br /><br />
+
+              항상 파일을 연 후 닫아야 합니다. 그렇지 않으면 파이썬 코드가
+              끝나도 계속 파일이 읽어질 수 있습니다. 그래서 다시는 파일을
+              사용하지 않는다면 꼭 닫으세요!
+              </p>
+              </div>
+              </div>
+        <iframe src="https://trinket.io/embed/python3/5755f85207" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
+
+      <br /><br /><br /><br />
+
+      <div style="margin: 10px; padding: 10px">
+        <button style="float: left"><a href="math.html">❮ 이전</a></button>
+        <button style="float: right">
+          <a href="filereading.html">다음 ❯</a>
+        </button>
+      </div>
+      </div>
+
+    <br /><br /><br /><br />
     </div>
     <script defer src="script.js"></script>
-    <script
-      async
-      src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"
-    ></script>
-    <div style="display: none" id="search-div">
-      <div class="gcse-searchbox-only"></div>
-    </div>
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display: none" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
   </body>
 </html>

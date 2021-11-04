@@ -1,300 +1,209 @@
 <!DOCTYPE html>
 <html lang="kr">
-  <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
+    function gtag() {
+      dataLayer.push( arguments );
       }
-      gtag("js", new Date());
+    gtag( "js", new Date() );
 
-      gtag("config", "UA-209775586-1");
+    gtag( "config", "UA-209775586-1" );
     </script>
-    <meta
-      name="description"
-      content="Welcome to our site where you can learn programming languages easily!"
-    />
-    <meta
-      name="keywords"
-      content="python, programming, coding-insight, python-factory"
-    />
-    <meta name="author" content="Hyunseung, Juha, Gun" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>코딩 인사이트</title>
-    <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
-    <link hreflang="kr" rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+  <link hreflang="kr" rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
   </head>
 
-  <body style="margin: 0">
-    <div style="margin: 0; padding: 0" id="navigate">
-      <ul>
-        <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/index.html"
-            id="home"
-            >홈</a
-          >
+<body style="margin: 0">
+  <div style="margin: 0; padding: 0" id="navigate">
+    <ul>
+      <li>
+        <a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/korean/python.html"
-            id="python"
-            >파이썬</a
-          >
+        <a rel="noopener" href="https:///coding-insight.com/python/korean/python.html" id="python">파이썬</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/c/korean/c.html"
-            id="clang"
-            >C</a
-          >
+        <a rel="noopener" href="https:///coding-insight.com/c/korean/c.html" id="clang">C</a>
         </li>
         <li><a rel="noopener" href="quiz.html" id="quiz">퀴즈</a></li>
         <li>
-          <a
-            rel="noopener"
-            href="https://forms.gle/46giCXG3Y7spbm21A"
-            id="feedback"
-            >설문조사</a
-          >
+        <a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a>
         </li>
         <li>
-          <a
-            rel="noopener"
-            href="https://coding-insight.com/python/korean/video.html"
-            style="color: white"
-            id="video"
-            >동영상</a
-          >
+        <a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color: white"
+          id="video">동영상</a>
         </li>
         <li style="float: right">
-          <a
-            ><button
-              onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
-              style="
+        <a><button
+            onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
+            style="
                 background-color: #333;
                 margin: 0 !important;
                 padding: 0 !important;
-              "
-            >
+              ">
               🔎
-            </button></a
-          >
-        </li>
-        <li style="float: right">
-          <a
-            rel="noopener"
-            href="https:///coding-insight.com/python/english/numtype-en.html"
-            style="color: white"
-            id="trans"
-            >English</a
-          >
+          </button></a>
+          </li>
+          <li style="float: right">
+        <a rel="noopener" href="https:///coding-insight.com/python/english/numtype-en.html" style="color: white"
+          id="trans">English</a>
         </li>
         <li id="more"><a>더보기</a></li>
-      </ul>
-    </div>
-    <br />
-    <br />
-
-    <button id="butty">
-      메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
-    </button>
-    <div id="menu"></div>
-
-    <div style="padding: 10px; margin: 20px">
-      <div style="display: flex; margin-top: 50px; padding: 30px">
-        <div style="padding: 10px; margin: 10px">
-          <h1>숫자 종류</h1>
-          <p>
-            파이썬 숫자에는 3가지 종류가 있습니다.<br /><br />
-
-            - int(정수)<br />
-            - float(실수)<br />
-            - complex(허수)<br />
-          </p>
+        </ul>
         </div>
-        <div style="margin: auto">
-          <img
-            alt="python-factory-picture"
-            src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
-            width="500px"
-          />
-        </div>
-      </div>
-
-      <br /><br />
-
-      <div style="text-align: center">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/NhzBkfhAb3g"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-
-      <br /><br />
-
-      <div style="text-align: center">
-        <hr />
         <br />
-        <div style="text-align: center" id="speakdiv">
-          <button id="speakbutt">읽어주기</button>
-          <div id="setting">
-            <br /><br />
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-              style="width: 25px !important"
-            />
+        <br />
+
+  <button id="butty">
+    메뉴 <span style="font-size: 14px">⬅ 클릭하기</span>
+  </button>
+  <div id="menu"></div>
+
+  <div style="padding: 10px; margin: 20px">
+    <div style="display: flex; margin-top: 50px; padding: 30px">
+      <div style="padding: 10px; margin: 10px">
+        <h1>숫자 종류</h1>
+        <p>
+          파이썬 숫자에는 3가지 종류가 있습니다.<br /><br />
+
+          - int(정수)<br />
+          - float(실수)<br />
+          - complex(허수)<br />
+          </p>
+          </div>
+          <div style="margin: auto">
+        <img alt="python factory picture" alt="python-factory-picture"
+          src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
+          width="500px" />
+          </div>
+          </div>
+
+    <br /><br />
+
+    <div style="text-align: center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/NhzBkfhAb3g" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      </div>
+
+    <br /><br />
+
+    <div style="text-align: center">
+      <hr />
+      <br />
+      <div style="text-align: center" id="speakdiv">
+        <button id="speakbutt">읽어주기</button>
+        <div id="setting">
+          <br /><br />
+          <img alt="python factory picture"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
             <br />
-            <img
-              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-              style="width: 25px !important"
-            />
-            <input
-              type="range"
-              id="rate"
-              min="0.1"
-              max="10"
-              step="0.1"
-              value="1"
-            />
-          </div>
-        </div>
-        <br /><br />
-        <h1 style="margin: auto; font-size: 30px">
-          <span id="tit">숫자 종류</span><br id="lbbr" /><span id="txt"
-            >Computer Science Lab (</span
-          >CSL<span id="txt">)</span> 16
+          <img alt="python factory picture"
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width: 25px !important" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
+            </div>
+            <br /><br />
+            <h1 style="margin: auto; font-size: 30px">
+        <span id="tit">숫자 종류</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+          id="txt">)</span> 16
         </h1>
         <br />
         <hr />
-      </div>
-
-      <br /><br /><br /><br />
-
-      <div style="padding: 30px; display: flex">
-        <div style="padding: 10px; margin: 10px">
-          <h1>int (정수)</h1>
-          <p>
-            int는 정수입니다.<br /><br />
-
-            소수점 아래의 숫자가 0인 수를 정수라고 합니다.<br /><br />
-
-            0, 1, 2…. 그리고 -1, -2, -3, ... 숫자들을 정수라고 합니다.<br /><br />
-
-            정수형 변수를 선언하는 방법은 다음과 같습니다.<br /><br />
-
-            변수 형태의 정수인지 확인하기 위해서 저희는 다음과 같은 함수를
-            사용할 수 있습니다.<br /><br />
-          </p>
         </div>
-        <iframe
-          src="https://trinket.io/embed/python3/0856d3ad88"
-          width="60%"
-          height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
-          loading="lazy"
-          style="margin: auto"
-        ></iframe>
+
+    <br /><br /><br /><br />
+
+    <div style="padding: 30px; display: flex">
+      <div style="padding: 10px; margin: 10px">
+        <h1>int (정수)</h1>
+        <p>
+          int는 정수입니다.<br /><br />
+
+          소수점 아래의 숫자가 0인 수를 정수라고 합니다.<br /><br />
+
+          0, 1, 2…. 그리고 -1, -2, -3, ... 숫자들을 정수라고 합니다.<br /><br />
+
+          정수형 변수를 선언하는 방법은 다음과 같습니다.<br /><br />
+
+          변수 형태의 정수인지 확인하기 위해서 저희는 다음과 같은 함수를
+          사용할 수 있습니다.<br /><br />
+          </p>
+          </div>
+      <iframe src="https://trinket.io/embed/python3/0856d3ad88" width="60%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-      <br /><br /><br /><br />
+    <br /><br /><br /><br />
 
-      <div
-        style="
+    <div style="
           padding: 30px;
           display: flex;
           background-color: black;
           color: white;
-        "
-      >
+        ">
         <div style="padding: 10px; margin: 10px">
           <h1>float (실수)</h1>
           <p>
             float는 실수입니다.<br /><br />
 
-            '앗 실수했다!!!'에 그 실수가 아닙니다.<br /><br />
+          '앗 실수했다!!!'에 그 실수가 아닙니다.<br /><br />
 
-            실수란 a/b(b≠0)로 나타낼 수 있는 유리수와 a+√b의 형태로 나타낼 수
-            있는 무리수를 통틀어 실수라고 합니다.<br /><br />
+          실수란 a/b(b≠0)로 나타낼 수 있는 유리수와 a+√b의 형태로 나타낼 수
+          있는 무리수를 통틀어 실수라고 합니다.<br /><br />
 
-            조금 복잡한가요? 실수는 쉽게 소수점 뒤에 숫자가 있는 숫자를
-            뜻합니다.<br /><br />
+          조금 복잡한가요? 실수는 쉽게 소수점 뒤에 숫자가 있는 숫자를
+          뜻합니다.<br /><br />
 
-            예를 들어 3.14159는 소수점 뒤에 숫자가 있기 때문에 실수라고
-            합니다.<br /><br />
+          예를 들어 3.14159는 소수점 뒤에 숫자가 있기 때문에 실수라고
+          합니다.<br /><br />
           </p>
-        </div>
-        <iframe
-          src="https://trinket.io/embed/python3/e726e404fa"
-          width="60%"
-          height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
-          loading="lazy"
-          style="margin: auto"
-        ></iframe>
+          </div>
+      <iframe src="https://trinket.io/embed/python3/e726e404fa" width="60%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-      <br /><br /><br /><br />
+    <br /><br /><br /><br />
 
-      <div style="padding: 30px; display: flex">
-        <div style="padding: 10px; margin: 10px">
-          <h1>complex (허수)</h1>
-          <p>
-            허수는 고등학교 1 수학이어서 이 수업에서는 설명을 하지
-            않겠습니다.<br /><br />
-            부모님이나 선생님 또는 더 나이가 많은 분에게 물어보세요.
-          </p>
-        </div>
+    <div style="padding: 30px; display: flex">
+      <div style="padding: 10px; margin: 10px">
+        <h1>complex (허수)</h1>
+        <p>
+          허수는 고등학교 1 수학이어서 이 수업에서는 설명을 하지
+          않겠습니다.<br /><br />
+          부모님이나 선생님 또는 더 나이가 많은 분에게 물어보세요.
+        </p>
       </div>
-
-      <br /><br /><br /><br />
-
-      <div style="margin: 10px; padding: 10px">
-        <button style="float: left"><a href="project/basiccalc.html">❮ 이전</a></button>
-        <button style="float: right">
-          <a href="nummethod.html">다음 ❯</a>
-        </button>
-      </div>
-
-      <br /><br /><br /><br />
     </div>
 
-    <script defer src="script.js"></script>
-    <script
-      async
-      src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"
-    ></script>
-    <div style="display: none" id="search-div">
-      <div class="gcse-searchbox-only"></div>
+    <br /><br /><br /><br />
+
+    <div style="margin: 10px; padding: 10px">
+      <button style="float: left"><a href="project/basiccalc.html">❮ 이전</a></button>
+      <button style="float: right">
+        <a href="nummethod.html">다음 ❯</a>
+      </button>
     </div>
+
+    <br /><br /><br /><br />
+    </div>
+
+  <script defer src="script.js"></script>
+  <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
+  <div style="display: none" id="search-div">
+    <div class="gcse-searchbox-only"></div>
+  </div>
   </body>
 </html>
