@@ -20,7 +20,7 @@ document.getElementById( "message-form" ).addEventListener( "submit", sendMessag
 var username;
 
 localStorage.getItem( "@@@usernamepythonfactory" ) !== null ? username = localStorage.getItem( "@@@usernamepythonfactory" ) : (
-  username = prompt( "당신의 이름을 입력하세요: " ),
+  username = prompt( "채팅을 사용하깅 위해 이름을 입력하세요: " ),
   localStorage.setItem( "@@@usernamepythonfactory", username )
 )
 //Users
