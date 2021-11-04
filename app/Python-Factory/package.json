@@ -12,6 +12,7 @@
     "@react-navigation/material-top-tabs": "^6.0.6",
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/stack": "^6.0.11",
+    "ansi-regex": "^6.0.1",
     "expo": "~42.0.1",
     "expo-updates": "~0.8.2",
     "react": "16.13.1",

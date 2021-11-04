@@ -30,8 +30,6 @@ const storeData = async () => {
 };
 const check = (a) => (a ? "checked" : "unchecked");
 
-
-
 //!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function WebSetting() {
   const [Cookie, setCookie] = useState(false);
@@ -233,7 +231,6 @@ function AppSetting() {
 }
 //!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
 const AppBar = React.memo((props) => (
   <Appbar.Header statusBarHeight={0}>
     <Appbar.Action icon="clock-fast" onPress={reloadAsync} />
@@ -329,11 +326,13 @@ function Settings(props) {
         const value = await AsyncStorage.getItem("setting_python_factory");
 
         if (value !== null) setting = JSON.parse(value);
+
+        forceUpdate();
       } catch (e) {}
     }
 
     getit();
-  }, []);
+  });
 
   return (
     <>
