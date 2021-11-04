@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import { IconButton, ProgressBar } from "react-native-paper";
 import { View, Linking, StatusBar, Animated, BackHandler } from "react-native";
 import { WebView } from "react-native-webview";
-import Settings, { setting } from "./src/setting.js";
+import Settings, { setting } from "./src/setting.jsx";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 

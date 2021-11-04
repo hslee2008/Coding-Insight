@@ -4,7 +4,7 @@ import { View, Linking, ScrollView } from "react-native";
 import { reloadAsync, manifest } from "expo-updates";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import { Chat, Game, Header, styles, home } from "./component.js";
+import { Chat, Game, Header, styles, home } from "./component.jsx";
 
 const Tab = createMaterialTopTabNavigator();
 var setting = {
