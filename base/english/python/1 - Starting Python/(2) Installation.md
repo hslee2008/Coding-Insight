@@ -3,9 +3,9 @@
 Now that we know what Python (programming language) is, let's learn how to install them in our computer.
 
 1. First, go to [The official site of Python](https://www.python.org/downloads/)
-2. Download the latest version of Python by clicking the yellow page. A new card will appear at the bottom of your browser. ![Download Python](이미지/다운로드.jpg)
+2. Download the latest version of Python by clicking the yellow page. A new card will appear at the bottom of your browser. ![Download Python](이미지/설치.jpg)
 3. Wait untill the download finish...
-4. If you click on the card, a new window will appear like the following ![파이썬 다운로드 마법사](이미지/설치.jpg)
+4. If you click on the card, a new window will appear like the following ![파이썬 설치 마법사](이미지/설치.jpg)
 5. Click the Modify button and check all the options ![파이썬 다우로드 마법사 옵션](이미지/설치2.jpg)
 6. Click next and check all the options again. Click next. ![파이썬 다우로드 마법사 ](이미지/설치3.jpg)
 7. Check everything and move on by clicking the install button
