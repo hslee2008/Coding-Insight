@@ -16,7 +16,7 @@
     "react": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
     "react-native-gesture-handler": "~1.10.2",
-    "react-native-pager-view": "5.0.12",
+    "react-native-pager-view": "5.4.8",
     "react-native-paper": "^4.9.2",
     "react-native-tab-view": "^3.1.1",
     "react-native-vector-icons": "^8.1.0",
