@@ -1,53 +1,70 @@
 import React from "react";
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, Linking } from "react-native";
+import { ProgressBar, IconButton } from "react-native-paper";
 import { WebView } from "react-native-webview";
+import styles from "./style.jsx";
+import global from "./global.jsx";
 
-var home = "https://www.coding-insight.com/";
+var home = "https://www.coding-insight.com";
 
-const Chat = React.memo(() => <WebView source={{ uri: home + "chat.html" }} />);
-const Game = React.memo(() => <WebView source={{ uri: home + "game.html" }} />);
-const Header = React.memo(() => (
-  <View style={styles.view}>
-    <Image source={{ uri: home + "py.png" }} style={styles.image} />
-    <View>
-      <Text style={styles.title}>Settings</Text>
-      <Text style={styles.text}>If there is a bug, press the clock button</Text>
-    </View>
-  </View>
+const Chat = React.memo(() => (
+  <WebView source={{ uri: home + "/chat.html" }} />
 ));
+const Game = React.memo(() => (
+  <WebView source={{ uri: home + "/game.html" }} />
+));
+const Header = React.memo(() => (
+  <>
+    <View style={styles.view}>
+      <Image source={{ uri: home + "/py.png" }} style={styles.image} />
+      <View>
+        <Text style={styles.title}>Settings</Text>
+        <Text style={styles.text}>
+          If there is a bug, press the clock button
+        </Text>
+      </View>
+    </View>
 
-const styles = StyleSheet.create({
-  padsix: {
-    padding: 6,
-  },
-  padten: {
-    padding: 10,
-  },
-  flexrow: {
-    flexDirection: "row",
-  },
-  title: {
-    fontSize: 30,
-  },
-  text: {
-    fontSize: 10,
-  },
-  center: {
-    justifyContent: "center",
-    alignContent: "center",
-  },
-  view: {
-    justifyContent: "center",
-    alignItems: "center",
-    flexDirection: "row",
-  },
-  image: {
-    width: 100,
-    height: 100,
-  },
-  back: {
-    backgroundColor: "rgba(0,0,0,0)",
-  },
+    <View style={styles.view}>
+      <Text>Make sure you close this tab after chaninging setting</Text>
+    </View>
+  </>
+));
+const ProgressPyF = (props) => {
+  if (props.webLoading)
+    return (
+      <ProgressBar indeterminate color="dodgerblue" style={styles.progress} />
+    );
+  else return null;
+};
+
+const Bar = React.memo((props) => {
+  return (
+    <View style={styles.bar}>
+      <IconButton icon="undo" onPress={props.goback} color="white" />
+      <IconButton icon="redo" onPress={props.goforward} color="white" />
+      <IconButton
+        icon="reload"
+        onPress={props.reload}
+        color="white"
+        disabled={props.webLoading}
+      />
+      <IconButton
+        icon="home"
+        disabled={global.ishome(props.link)}
+        onPress={() => props.setLink(home)}
+        onLongPress={() => Linking.openURL(home)}
+        color="white"
+      />
+      <IconButton
+        icon="cog"
+        onPress={() => props.navigation.navigate("Settings")}
+        color="white"
+      />
+    </View>
+  );
 });
+const MenuButton = (props) =>
+  props.menu ? <Bar {...props.barprop} /> : <IconButton {...props.iconprop} />;
 
-export { Chat, Game, Header, styles, home };
+export { Chat, Game, Header, home, ProgressPyF, MenuButton };

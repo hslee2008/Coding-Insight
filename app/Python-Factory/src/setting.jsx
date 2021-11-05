@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { List, Checkbox, Avatar, Appbar, Button } from "react-native-paper";
 import { View, Linking, ScrollView } from "react-native";
 import { reloadAsync, manifest } from "expo-updates";
-import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import { Chat, Game, Header, styles, home } from "./component.jsx";
+import { Chat, Game, Header, home } from "./component.jsx";
+import styles from "./style.jsx";
+import global from "./global.jsx";
 
 const Tab = createMaterialTopTabNavigator();
 var setting = {
@@ -15,19 +16,14 @@ var setting = {
   phone: true,
   menu: true,
   korean: true,
+  bar: true,
 };
 
 function useForceUpdate() {
   const [, setValue] = useState(0);
   return () => setValue((value) => value + 1);
 }
-const storeData = async () => {
-  try {
-    const jsonValue = JSON.stringify(setting);
 
-    await AsyncStorage.setItem("setting_python_factory", jsonValue);
-  } catch (e) {}
-};
 const check = (a) => (a ? "checked" : "unchecked");
 
 //!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -36,14 +32,12 @@ function WebSetting() {
   const changeCookie = () => {
     setCookie((p) => !p);
     setting.cookie = Cookie;
-    storeData();
   };
 
   const [cache, setCache] = useState(false);
   const changeCache = () => {
     setCache((p) => !p);
     setting.cache = cache;
-    storeData();
   };
 
   return (
@@ -56,7 +50,7 @@ function WebSetting() {
             <Checkbox.Android
               onPress={changeCookie}
               status={check(setting.cookie)}
-            ></Checkbox.Android>
+            />
           </View>
         )}
         right={() => (
@@ -67,11 +61,11 @@ function WebSetting() {
         title="Cache"
         description="Enable Cache For Fast Speed"
         left={() => (
-          <View style={{ padding: 10 }}>
+          <View style={styles.padten}>
             <Checkbox.Android
               onPress={changeCache}
               status={check(setting.cache)}
-            ></Checkbox.Android>
+            />
           </View>
         )}
         right={() => (
@@ -87,14 +81,12 @@ function LooksSetting() {
   const changePhone = () => {
     setPhone((p) => !p);
     setting.phone = phone;
-    storeData();
   };
 
   const [scroll, setScroll] = useState(false);
   const changeScroll = () => {
     setScroll((p) => !p);
     setting.scroll = scroll;
-    storeData();
   };
   return (
     <List.Section title="Style Setting">
@@ -102,11 +94,11 @@ function LooksSetting() {
         title="Scroll"
         description="Enable Scrolling For Navigation"
         left={() => (
-          <View style={{ padding: 10 }}>
+          <View style={styles.padten}>
             <Checkbox.Android
               onPress={changeScroll}
               status={check(setting.scroll)}
-            ></Checkbox.Android>
+            />
           </View>
         )}
         right={() => (
@@ -117,11 +109,11 @@ function LooksSetting() {
         title="Phone Style"
         description="Enable Phone Style big View"
         left={() => (
-          <View style={{ padding: 10 }}>
+          <View style={styles.padten}>
             <Checkbox.Android
               onPress={changePhone}
               status={check(setting.phone)}
-            ></Checkbox.Android>
+            />
           </View>
         )}
         right={() => (
@@ -143,14 +135,12 @@ function OtherSetting() {
   const changeSecret = () => {
     setSecret((p) => !p);
     setting.secret = secret;
-    storeData();
   };
 
   const [korean, setKorean] = useState(false);
   const changeKorean = () => {
     setKorean((p) => !p);
     setting.korean = korean;
-    storeData();
   };
 
   return (
@@ -159,11 +149,11 @@ function OtherSetting() {
         title="Incognito"
         description="Do not let anybody watch you"
         left={() => (
-          <View style={{ padding: 10 }}>
+          <View style={styles.padten}>
             <Checkbox.Android
               onPress={changeSecret}
               status={check(setting.secret)}
-            ></Checkbox.Android>
+            />
           </View>
         )}
         right={() => (
@@ -178,11 +168,11 @@ function OtherSetting() {
         title="Language"
         description="Use Korean Homepage"
         left={() => (
-          <View style={{ padding: 10 }}>
+          <View style={styles.padten}>
             <Checkbox.Android
               onPress={changeKorean}
               status={check(setting.korean)}
-            ></Checkbox.Android>
+            />
           </View>
         )}
         right={() => (
@@ -202,7 +192,12 @@ function AppSetting() {
   const changeMenu = () => {
     setMenu((p) => !p);
     setting.menu = menu;
-    storeData();
+  };
+
+  const [bar, setBar] = useState(false);
+  const changeBar = () => {
+    setBar((p) => !p);
+    setting.bar = bar;
   };
 
   return (
@@ -211,16 +206,32 @@ function AppSetting() {
         title="Menu"
         description="Use the Menu Button"
         left={() => (
-          <View style={{ padding: 10 }}>
+          <View style={styles.padten}>
             <Checkbox.Android
               onPress={changeMenu}
               status={check(setting.menu)}
-            ></Checkbox.Android>
+            />
           </View>
         )}
         right={() => (
           <Avatar.Icon
             icon={setting.menu ? "menu" : "menu-open"}
+            style={styles.back}
+            color="black"
+          />
+        )}
+      />
+      <List.Item
+        title="Bar"
+        description="Show the status bar (top)"
+        left={() => (
+          <View style={styles.padten}>
+            <Checkbox.Android onPress={changeBar} status={check(setting.bar)} />
+          </View>
+        )}
+        right={() => (
+          <Avatar.Icon
+            icon="desktop-classic"
             style={styles.back}
             color="black"
           />
@@ -236,7 +247,7 @@ const AppBar = React.memo((props) => (
     <Appbar.Action icon="clock-fast" onPress={reloadAsync} />
     <Appbar.Content
       title="Coding-Insight App"
-      subtitle={"v" + manifest.version}
+      subtitle={global.browsername + " v" + manifest.version}
     />
     <Appbar.Action
       icon="close"
@@ -249,12 +260,7 @@ const AppBar = React.memo((props) => (
 ));
 
 const Bar = React.memo(() => (
-  <View
-    style={{
-      flexDirection: "row",
-      justifyContent: "space-evenly",
-    }}
-  >
+  <View style={styles.bartwo}>
     <Button
       color="black"
       icon="github"
@@ -285,8 +291,8 @@ function MainSettingComponenet(props) {
   return (
     <>
       <ScrollView
-        style={{ alignContent: "center", marginTop: 10 }}
-        contentContainerStyle={{ justifyContent: "center" }}
+        style={styles.scrollview}
+        contentContainerStyle={styles.center}
       >
         <Header />
         <WebSetting />
@@ -297,7 +303,7 @@ function MainSettingComponenet(props) {
           mode="contained"
           compact
           icon="lock-reset"
-          style={{ margin: 40 }}
+          style={styles.margin}
           onPress={() => {
             setting = {
               cookie: true,
@@ -308,7 +314,6 @@ function MainSettingComponenet(props) {
               menu: true,
               korean: true,
             };
-            storeData();
             forceUpdate();
           }}
         >
@@ -320,20 +325,6 @@ function MainSettingComponenet(props) {
 }
 
 function Settings(props) {
-  useEffect(() => {
-    async function getit() {
-      try {
-        const value = await AsyncStorage.getItem("setting_python_factory");
-
-        if (value !== null) setting = JSON.parse(value);
-
-        forceUpdate();
-      } catch (e) {}
-    }
-
-    getit();
-  });
-
   return (
     <>
       <AppBar close={props.close} reloadWebView={props.reloadWebView} />
