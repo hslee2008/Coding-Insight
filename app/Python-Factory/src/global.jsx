@@ -1,7 +1,5 @@
-import { home } from "./component.jsx";
-
 const global = {
-  ishome(link) {
+  ishome(link, home) {
     return (
       link == home ||
       link == home + "/" ||

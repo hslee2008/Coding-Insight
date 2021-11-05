@@ -14,21 +14,13 @@ const Game = React.memo(() => (
   <WebView source={{ uri: home + "/game.html" }} />
 ));
 const Header = React.memo(() => (
-  <>
-    <View style={styles.view}>
-      <Image source={{ uri: home + "/py.png" }} style={styles.image} />
-      <View>
-        <Text style={styles.title}>Settings</Text>
-        <Text style={styles.text}>
-          If there is a bug, press the clock button
-        </Text>
-      </View>
+  <View style={styles.view}>
+    <Image source={{ uri: home + "/py.png" }} style={styles.image} />
+    <View>
+      <Text style={styles.title}>Settings</Text>
+      <Text style={styles.text}>If there is a bug, press the clock button</Text>
     </View>
-
-    <View style={styles.view}>
-      <Text>Make sure you close this tab after chaninging setting</Text>
-    </View>
-  </>
+  </View>
 ));
 const ProgressPyF = (props) => {
   if (props.webLoading)
@@ -51,7 +43,7 @@ const Bar = React.memo((props) => {
       />
       <IconButton
         icon="home"
-        disabled={global.ishome(props.link)}
+        disabled={global.ishome(props.link, home)}
         onPress={() => props.setLink(home)}
         onLongPress={() => Linking.openURL(home)}
         color="white"
