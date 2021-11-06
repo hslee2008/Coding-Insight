@@ -1,7 +1,7 @@
 {
   "name": "Python-Factory",
   "slug": "Python-Factory",
-  "version": "1.3.8.0 Gamma",
+  "version": "1.3.9.0 Alpha",
   "orientation": "portrait",
   "icon": "./assets/icon.png",
   "splash": {
@@ -12,9 +12,7 @@
   "updates": {
     "fallbackToCacheTimeout": 0
   },
-  "assetBundlePatterns": [
-    "**/*"
-  ],
+  "assetBundlePatterns": ["**/*"],
   "ios": {
     "supportsTablet": true,
     "bundleIdentifier": "com.hyunseung1005.PythonFactory"
