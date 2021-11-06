@@ -43,7 +43,7 @@ const Home = React.memo(({ navigation }: any) => {
       <WebView
         ref={webViewRef}
         source={{ uri: link }}
-        onNavigationStateChange={(a) => setLink(a.url)}
+        onNavigationStateChange={(a: any) => setLink(a.url)}
         userAgent={global.browsername}
         onLoad={() => setWebLoading(false)}
         onLoadProgress={() => setWebLoading(true)}
