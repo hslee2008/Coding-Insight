@@ -1,5 +1,5 @@
 const global = {
-  ishome(link, home) {
+  ishome ( link, home ) {
     return (
       link == home ||
       link == home + "/" ||

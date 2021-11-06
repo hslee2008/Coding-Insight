@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create( {
   padsix: { padding: 6 },
   padten: { padding: 10 },
   margin: { margin: 40 },
@@ -52,6 +52,6 @@ const styles = StyleSheet.create({
     margin: 10,
     backgroundColor: "white",
   },
-});
+} );
 
 export default styles;
