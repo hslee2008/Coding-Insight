@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { List, Checkbox, Avatar, Appbar, Button } from "react-native-paper";
+import { List, Checkbox, Avatar, Appbar, Button, AnimatedFAB } from "react-native-paper";
 import { View, Linking, ScrollView } from "react-native";
 import { reloadAsync, manifest } from "expo-updates";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
@@ -299,7 +299,7 @@ function MainSettingComponenet(props) {
         <LooksSetting reload={props.reload} />
         <OtherSetting />
         <AppSetting />
-        <Button
+        <AnimatedFAB
           mode="contained"
           compact
           icon="lock-reset"
@@ -316,9 +316,7 @@ function MainSettingComponenet(props) {
             };
             forceUpdate();
           }}
-        >
-          Reset
-        </Button>
+        />
       </ScrollView>
     </>
   );
