@@ -19,7 +19,7 @@
     "react-native": "^0.64.2",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-paper": "^4.10.0",
-    "react-native-webview": "11.13.0"
+    "react-native-webview": "11.14.2"
   },
   "devDependencies": {
     "@types/react": "^17.0.34",
