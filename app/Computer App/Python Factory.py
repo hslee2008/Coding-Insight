@@ -30,9 +30,9 @@ class Window(QMainWindow):
         homeBtn.triggered.connect(self.home)
         navbar.addAction(homeBtn)
 
-    def home(self): self.browser.setUrl(QUrl('https://www.coding-insight.com'))
+    def home(self): self.browser.setUrl(QUrl('https://www.coding-insight.com/'))
 
 MyApp = QApplication(sys.argv)
-QApplication.setApplicationName('Python Factory Computer App 1.0.1')
+QApplication.setApplicationName('Python Factory Computer App 1.0.3')
 window = Window()
 MyApp.exec_()

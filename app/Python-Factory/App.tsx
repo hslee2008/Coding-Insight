@@ -40,6 +40,7 @@ const Home = React.memo(({ navigation }: any) => {
   return (
     <>
       {!setting.bar ? <StatusBar hidden /> : null}
+
       <WebView
         ref={webViewRef}
         source={{ uri: link }}

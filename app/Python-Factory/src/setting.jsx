@@ -4,9 +4,8 @@ import {
   Checkbox as cb,
   Avatar,
   Appbar,
-  FAB,
+  FAB, Searchbar,
 } from "react-native-paper";
-import { SearchBar, Tooltip, Text } from 'react-native-elements';
 import { View, ScrollView } from "react-native";
 import { reloadAsync, manifest } from "expo-updates";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
@@ -49,47 +48,43 @@ function WebSetting ( props ) {
     <List.Section title="Web Setting">
       { props.query.toLowerCase().indexOf( "cookie" ) != -1 ||
         props.query == "" ? (
-        <Tooltip { ...global.tooltip } popover={ <Text>If you enable this, you can track all the YouTube Videos you watched of our channel Python-Factory!</Text> }>
-          <List.Item
-            title="Cookie"
-            description="Enable Cookie For YouTube"
-            left={ () => (
-              <View style={ styles.padten }>
-                <cb.Item
-                  mode="ios"
-                  onPress={ changeCookie }
-                  status={ global.check( setting.cookie ) }
-                />
-              </View>
-            ) }
-            right={ () => (
-              <Avatar.Icon icon="cookie" style={ styles.back } color="brown" />
-            ) }
-          />
-        </Tooltip>
+        <List.Item
+          title="Cookie"
+          description="Enable Cookie For YouTube"
+          left={ () => (
+            <View style={ styles.padten }>
+              <cb.Item
+                mode="ios"
+                onPress={ changeCookie }
+                status={ global.check( setting.cookie ) }
+              />
+            </View>
+          ) }
+          right={ () => (
+            <Avatar.Icon icon="cookie" style={ styles.back } color="brown" />
+          ) }
+        />
       ) : (
         <></>
       ) }
 
       { props.query.toLowerCase().indexOf( "cache" ) != -1 || props.query == "" ? (
-        <Tooltip { ...global.tooltip } popover={ <Text>Caching makes our site faster because it saves it to your phone!</Text> }>
-          <List.Item
-            title="Cache"
-            description="Enable Cache For Fast Speed"
-            left={ () => (
-              <View style={ styles.padten }>
-                <cb.Item
-                  mode="ios"
-                  onPress={ changeCache }
-                  status={ global.check( setting.cache ) }
-                />
-              </View>
-            ) }
-            right={ () => (
-              <Avatar.Icon icon="cached" style={ styles.back } color="red" />
-            ) }
-          />
-        </Tooltip>
+        <List.Item
+          title="Cache"
+          description="Enable Cache For Fast Speed"
+          left={ () => (
+            <View style={ styles.padten }>
+              <cb.Item
+                mode="ios"
+                onPress={ changeCache }
+                status={ global.check( setting.cache ) }
+              />
+            </View>
+          ) }
+          right={ () => (
+            <Avatar.Icon icon="cached" style={ styles.back } color="red" />
+          ) }
+        />
       ) : (
         <></>
       ) }
@@ -113,53 +108,49 @@ function LooksSetting ( props ) {
     <List.Section title="Style Setting">
       { props.query.toLowerCase().indexOf( "scroll" ) != -1 ||
         props.query == "" ? (
-        <Tooltip { ...global.tooltip } popover={ <Text>Use the Scrollbar for navigating more easily!</Text> }>
-          <List.Item
-            title="Scroll"
-            description="Enable Scrolling For Navigation"
-            left={ () => (
-              <View style={ styles.padten }>
-                <cb.Item
-                  mode="ios"
-                  onPress={ changeScroll }
-                  status={ global.check( setting.scroll ) }
-                />
-              </View>
-            ) }
-            right={ () => (
-              <Avatar.Icon icon="mouse" style={ styles.back } color="grey" />
-            ) }
-          />
-        </Tooltip>
+        <List.Item
+          title="Scroll"
+          description="Enable Scrolling For Navigation"
+          left={ () => (
+            <View style={ styles.padten }>
+              <cb.Item
+                mode="ios"
+                onPress={ changeScroll }
+                status={ global.check( setting.scroll ) }
+              />
+            </View>
+          ) }
+          right={ () => (
+            <Avatar.Icon icon="mouse" style={ styles.back } color="grey" />
+          ) }
+        />
       ) : (
         <></>
       ) }
 
       { props.query.toLowerCase().indexOf( "phone" ) != -1 || props.query == "" ? (
-        <Tooltip { ...global.tooltip } popover={ <Text>If you want, you can make our site big to fit screen or small like a computer.</Text> }>
-          <List.Item
-            title="Phone Style"
-            description="Enable Phone Style big View"
-            left={ () => (
-              <View style={ styles.padten }>
-                <cb.Item
-                  mode="ios"
-                  onPress={ changePhone }
-                  status={ global.check( setting.phone ) }
-                />
-              </View>
-            ) }
-            right={ () => (
-              <View style={ [ styles.flexrow ] }>
-                <Avatar.Icon
-                  icon={ setting.phone ? "laptop" : "cellphone-text" }
-                  style={ styles.back }
-                  color="dodgerblue"
-                />
-              </View>
-            ) }
-          />
-        </Tooltip>
+        <List.Item
+          title="Phone Style"
+          description="Enable Phone Style big View"
+          left={ () => (
+            <View style={ styles.padten }>
+              <cb.Item
+                mode="ios"
+                onPress={ changePhone }
+                status={ global.check( setting.phone ) }
+              />
+            </View>
+          ) }
+          right={ () => (
+            <View style={ [ styles.flexrow ] }>
+              <Avatar.Icon
+                icon={ setting.phone ? "laptop" : "cellphone-text" }
+                style={ styles.back }
+                color="dodgerblue"
+              />
+            </View>
+          ) }
+        />
       ) : (
         <></>
       ) }
@@ -184,56 +175,52 @@ function OtherSetting ( props ) {
     <List.Section title="Accessibility Setting">
       { props.query.toLowerCase().indexOf( "secret" ) != -1 ||
         props.query == "" ? (
-        <Tooltip { ...global.tooltip } popover={ <Text>Make sure you protect your data using the incognito mode!</Text> }>
-          <List.Item
-            title="Incognito"
-            description="Do not let anybody watch you"
-            left={ () => (
-              <View style={ styles.padten }>
-                <cb.Item
-                  mode="ios"
-                  onPress={ changeSecret }
-                  status={ global.check( setting.secret ) }
-                />
-              </View>
-            ) }
-            right={ () => (
-              <Avatar.Icon
-                icon={ setting.secret ? "earth" : "incognito" }
-                style={ styles.back }
-                color="green"
+        <List.Item
+          title="Incognito"
+          description="Do not let anybody watch you"
+          left={ () => (
+            <View style={ styles.padten }>
+              <cb.Item
+                mode="ios"
+                onPress={ changeSecret }
+                status={ global.check( setting.secret ) }
               />
-            ) }
-          />
-        </Tooltip>
+            </View>
+          ) }
+          right={ () => (
+            <Avatar.Icon
+              icon={ setting.secret ? "earth" : "incognito" }
+              style={ styles.back }
+              color="green"
+            />
+          ) }
+        />
       ) : (
         <></>
       ) }
 
       { props.query.toLowerCase().indexOf( "language" ) != -1 ||
         props.query == "" ? (
-        <Tooltip { ...global.tooltip } popover={ <Text>Use English or Korean Homepage.</Text> }>
-          <List.Item
-            title="Language"
-            description="Use Korean Homepage"
-            left={ () => (
-              <View style={ styles.padten }>
-                <cb.Item
-                  mode="ios"
-                  onPress={ changeKorean }
-                  status={ global.check( setting.korean ) }
-                />
-              </View>
-            ) }
-            right={ () => (
-              <Avatar.Icon
-                icon={ setting.korean ? "translate" : "ab-testing" }
-                style={ styles.back }
-                color="black"
+        <List.Item
+          title="Language"
+          description="Use Korean Homepage"
+          left={ () => (
+            <View style={ styles.padten }>
+              <cb.Item
+                mode="ios"
+                onPress={ changeKorean }
+                status={ global.check( setting.korean ) }
               />
-            ) }
-          />
-        </Tooltip>
+            </View>
+          ) }
+          right={ () => (
+            <Avatar.Icon
+              icon={ setting.korean ? "translate" : "ab-testing" }
+              style={ styles.back }
+              color="black"
+            />
+          ) }
+        />
       ) : (
         <></>
       ) }
@@ -257,56 +244,52 @@ function AppSetting ( props ) {
   return (
     <List.Section title="App Setting">
       { props.query.toLowerCase().indexOf( "menu" ) != -1 || props.query == "" ? (
-        <Tooltip { ...global.tooltip } popover={ <Text>Use the menu buttons to quickly navigate or hide them.</Text> }>
-          <List.Item
-            title="Menu"
-            description="Use the Menu Button"
-            left={ () => (
-              <View style={ styles.padten }>
-                <cb.Item
-                  mode="ios"
-                  onPress={ changeMenu }
-                  status={ global.check( setting.menu ) }
-                />
-              </View>
-            ) }
-            right={ () => (
-              <Avatar.Icon
-                icon={ setting.menu ? "menu" : "menu-open" }
-                style={ styles.back }
-                color="black"
+        <List.Item
+          title="Menu"
+          description="Use the Menu Button"
+          left={ () => (
+            <View style={ styles.padten }>
+              <cb.Item
+                mode="ios"
+                onPress={ changeMenu }
+                status={ global.check( setting.menu ) }
               />
-            ) }
-          />
-        </Tooltip>
+            </View>
+          ) }
+          right={ () => (
+            <Avatar.Icon
+              icon={ setting.menu ? "menu" : "menu-open" }
+              style={ styles.back }
+              color="black"
+            />
+          ) }
+        />
       ) : (
         <></>
       ) }
 
       { props.query.toLowerCase().indexOf( "bar" ) != -1 || props.query == "" ? (
-        <Tooltip { ...global.tooltip } popover={ <Text>Use the status bar or hide them if you hate it!</Text> }>
-          <List.Item
-            title="Bar"
-            description="Show the status bar (top)"
-            left={ () => (
-              <View style={ styles.padten }>
-                <cb.Item
-                  mode="ios"
-                  mode="ios"
-                  onPress={ changeBar }
-                  status={ global.check( setting.bar ) }
-                />
-              </View>
-            ) }
-            right={ () => (
-              <Avatar.Icon
-                icon="desktop-classic"
-                style={ styles.back }
-                color="black"
+        <List.Item
+          title="Bar"
+          description="Show the status bar (top)"
+          left={ () => (
+            <View style={ styles.padten }>
+              <cb.Item
+                mode="ios"
+                mode="ios"
+                onPress={ changeBar }
+                status={ global.check( setting.bar ) }
               />
-            ) }
-          />
-        </Tooltip>
+            </View>
+          ) }
+          right={ () => (
+            <Avatar.Icon
+              icon="desktop-classic"
+              style={ styles.back }
+              color="black"
+            />
+          ) }
+        />
       ) : (
         <></>
       ) }
@@ -342,20 +325,7 @@ function MainSettingComponenet ( props ) {
     <>
       <ScrollView style={ styles.scrollview } contentContainerStyle={ styles.center }>
         <Header />
-        <SearchBar
-          placeholder="Search"
-          onChangeText={ onChangeSearch }
-          value={ searchQuery }
-          containerStyle={ {
-            backgroundColor: "transparent",
-            borderBottomColor: 'transparent',
-            borderTopColor: 'transparent',
-            margin: 10
-          } }
-          color="black"
-          showLoading
-          platform="ios"
-        />
+        <Searchbar placeholder="Search" onChangeText={ onChangeSearch } value={ searchQuery } style={ styles.marginten } />
         <WebSetting query={ searchQuery } />
         <LooksSetting reload={ props.reload } query={ searchQuery } />
         <OtherSetting query={ searchQuery } />
