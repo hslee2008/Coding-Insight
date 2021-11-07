@@ -1,5 +1,5 @@
 import React, { useState, memo } from "react";
-import { View, Text, Image, Linking } from "react-native";
+import { View, Text, Linking, Image } from "react-native";
 import { ProgressBar, IconButton, FAB } from "react-native-paper";
 import { WebView } from "react-native-webview";
 import styles from "./style.jsx";
@@ -39,38 +39,36 @@ const SettingBar = memo( ( props ) => {
   const { open } = state;
 
   return (
-    <>
-      <FAB.Group
-        icon="more"
-        fabStyle={ { backgroundColor: "white" } }
-        actions={ [
-          {
-            icon: "github",
-            onPress: () =>
-              props.setLinkMore(
-                "https://github.com/HyunseungLee-Travis/Coding-Insight"
-              ),
-          },
-          {
-            icon: "youtube",
-            onPress: () =>
-              props.setLinkMore(
-                "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
-              ),
-          },
-          {
-            icon: "controller-classic",
-            onPress: () => props.setLinkMore( home + "/game.html" ),
-          },
-          {
-            icon: "chat",
-            onPress: () => props.setLinkMore( home + "/chat.html" ),
-          },
-        ] }
-        open={ open }
-        onStateChange={ onStateChange }
-      />
-    </>
+    <FAB.Group
+      icon="more"
+      fabStyle={ { backgroundColor: "white" } }
+      actions={ [
+        {
+          icon: "github",
+          onPress: () =>
+            props.setLinkMore(
+              "https://github.com/HyunseungLee-Travis/Coding-Insight"
+            ),
+        },
+        {
+          icon: "youtube",
+          onPress: () =>
+            props.setLinkMore(
+              "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+            ),
+        },
+        {
+          icon: "controller-classic",
+          onPress: () => props.setLinkMore( home + "/game.html" ),
+        },
+        {
+          icon: "chat",
+          onPress: () => props.setLinkMore( home + "/chat.html" ),
+        },
+      ] }
+      open={ open }
+      onStateChange={ onStateChange }
+    />
   );
 } );
 
