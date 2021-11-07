@@ -210,7 +210,7 @@ document.querySelector( "#butty" ).addEventListener( 'click', () => {
 const set = document.querySelector( "#setting" )
 
 let count = 0;
-const speach = document.body.innerText.substr( document.body.innerText.indexOf( "클릭하기" ) + 4 ).replace("읽어주기", "");
+const speach = document.body.innerText.substr( document.body.innerText.indexOf( "클릭" ) + 4 ).replace( "읽어주기", "" );
 const butt = document.querySelector( "#speakbutt" )
 butt.addEventListener( 'click', () => {
   if ( count % 2 == 0 ) {
