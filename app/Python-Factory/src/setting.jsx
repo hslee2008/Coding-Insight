@@ -8,12 +8,10 @@ import {
 } from "react-native-paper";
 import { View, ScrollView } from "react-native";
 import { reloadAsync, manifest } from "expo-updates";
-import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import { More, Header, SettingBar } from "./component.jsx";
+import { Header } from "./component.jsx";
 import styles from "./style.jsx";
 import global from "./global.jsx";
 
-const Tab = createMaterialTopTabNavigator();
 var setting = {
   cookie: true,
   scroll: true,
@@ -30,7 +28,6 @@ function useForceUpdate () {
   return () => setValue( ( value ) => value + 1 );
 }
 
-//!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function WebSetting ( props ) {
   const [ Cookie, setCookie ] = useState( false );
   const changeCookie = () => {
@@ -296,7 +293,6 @@ function AppSetting ( props ) {
     </List.Section>
   );
 }
-//!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 const AppBar = memo( ( props ) => (
   <Appbar.Header statusBarHeight={ 0 }>
@@ -315,7 +311,7 @@ const AppBar = memo( ( props ) => (
   </Appbar.Header>
 ) );
 
-function MainSettingComponenet ( props ) {
+function Settings ( props ) {
   const forceUpdate = useForceUpdate();
   const [ searchQuery, setSearchQuery ] = useState( "" );
 
@@ -323,6 +319,8 @@ function MainSettingComponenet ( props ) {
 
   return (
     <>
+      <AppBar close={ props.close } reloadWebView={ props.reloadWebView } />
+
       <ScrollView style={ styles.scrollview } contentContainerStyle={ styles.center }>
         <Header />
         <Searchbar placeholder="Search" onChangeText={ onChangeSearch } value={ searchQuery } style={ styles.marginten } />
@@ -350,32 +348,6 @@ function MainSettingComponenet ( props ) {
           forceUpdate();
         } }
       />
-    </>
-  );
-}
-
-function MoreComponent () {
-  const [ linkMore, setLinkMore ] = useState(
-    "https://www.coding-insight.com/chat.html"
-  );
-
-  return (
-    <>
-      <More type={ linkMore } />
-      <SettingBar setLinkMore={ setLinkMore } />
-    </>
-  );
-}
-
-function Settings ( props ) {
-  return (
-    <>
-      <AppBar close={ props.close } reloadWebView={ props.reloadWebView } />
-
-      <Tab.Navigator>
-        <Tab.Screen name="Setting" component={ MainSettingComponenet } />
-        <Tab.Screen name="More" component={ MoreComponent } />
-      </Tab.Navigator>
     </>
   );
 }

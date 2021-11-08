@@ -8,9 +8,69 @@ import { NavigationContainer } from "@react-navigation/native";
 import { home, ProgressPyF, MenuButton } from "./src/component.jsx";
 import styles from "./src/style.jsx";
 import global from "./src/global.jsx";
+import { Dialog, Portal, Provider, Button } from "react-native-paper";
 
 var Stack = createStackNavigator(),
   reloadWebView: any;
+
+const Alert = (props: any) => (
+  <Portal>
+    <Dialog visible={props.visible} onDismiss={() => props.setVisible(false)}>
+      <Dialog.Title>See More about our Site</Dialog.Title>
+      <Dialog.Content>
+        <Button
+          icon="magnify"
+          onPress={() => {
+            props.setVisible(false);
+            props.setLink("https://cse.google.com/cse?cx=ee1853348b1a4e08b");
+          }}
+        >
+          Search
+        </Button>
+        <Button
+          icon="github"
+          onPress={() => {
+            props.setVisible(false);
+            props.setLink(
+              "https://github.com/HyunseungLee-Travis/Coding-Insight"
+            );
+          }}
+        >
+          GitHub
+        </Button>
+        <Button
+          icon="youtube"
+          onPress={() => {
+            props.setVisible(false);
+            props.setLink(
+              "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+            );
+          }}
+        >
+          YouTube
+        </Button>
+        <Button
+          icon="controller-classic"
+          onPress={() => {
+            props.setVisible(false);
+            props.setLink("https://www.coding-insight.com/game.html");
+          }}
+        >
+          Game
+        </Button>
+        <Button
+          icon="chat"
+          onPress={() => {
+            props.setVisible(false);
+            props.setLink("https://www.coding-insight.com/chat.html");
+          }}
+        >
+          Chat
+        </Button>
+      </Dialog.Content>
+    </Dialog>
+  </Portal>
+);
 
 const Home = React.memo(({ navigation }: any) => {
   const webViewRef: any = useRef(null);
@@ -19,6 +79,7 @@ const Home = React.memo(({ navigation }: any) => {
   const [link, setLink] = useState(
     setting.korean ? home : home + "/index-en.html"
   );
+  const [visible, setVisible] = React.useState(false);
 
   const reload = () => {
     webViewRef.current.clearHistory();
@@ -31,14 +92,18 @@ const Home = React.memo(({ navigation }: any) => {
   const goforward = () => webViewRef.current.goForward();
 
   BackHandler.addEventListener("hardwareBackPress", () => {
-    if (global.ishome(link)) BackHandler.exitApp();
-    else webViewRef.current.goBack();
-
+    global.ishome(link) ? BackHandler.exitApp() : webViewRef.current.goBack();
     return true;
   });
 
   return (
-    <>
+    <Provider>
+      <Alert
+        visible={visible}
+        setVisible={setVisible}
+        setLink={(a: string) => setLink(a)}
+      />
+
       {!setting.bar ? <StatusBar hidden /> : null}
 
       <WebView
@@ -74,6 +139,8 @@ const Home = React.memo(({ navigation }: any) => {
           reload,
           link,
           navigation,
+          setVisible,
+          visible,
         }}
         iconprop={{
           icon: "cog",
@@ -81,7 +148,7 @@ const Home = React.memo(({ navigation }: any) => {
           style: styles.icon,
         }}
       />
-    </>
+    </Provider>
   );
 });
 
