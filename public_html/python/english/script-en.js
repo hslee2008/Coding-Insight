@@ -3,9 +3,9 @@ if ( navigator.userAgent == "CIAV" ) {
 }
 
 
-//Menu <span style="font-size:14px;">⬅ Click</span>
+//Menu</span>
 const menu = `
-<button style="position:absolute;top:0;right:0;margin:5px;" onclick="document.querySelector('#menu').style.display = 'none'">Close</button>
+<button class="btn-close" aria-label="Close" style="position:absolute;top:0;right:0;margin:5px;" onclick="document.querySelector('#menu').style.display = 'none'"></button>
 <details>
   <summary>Starting Python</summary>
   <p id="men">
@@ -188,7 +188,7 @@ const menu = `
 
 document.querySelector( "#menu" ).innerHTML = menu;
 
-//Menu <span style="font-size:14px;">⬅ Click</span>
+//Menu</span>
 document.querySelector( "#menu" ).style.textAlign = "center";
 document.querySelector( "#menu" ).style.display = "none";
 
@@ -278,7 +278,7 @@ mb.addEventListener( "click", () => {
     document.querySelector( "#clang" ).style.display = "none"
     document.querySelector( "#trans" ).style.display = "none"
     document.querySelector( "#video" ).style.display = "block"
-    mb.innerHTML = "<a>숨기기</a>"
+    mb.innerHTML = "<a>Hide</a>"
   } else {
     document.querySelector( "#quiz" ).style.display = "none"
     document.querySelector( "#feedback" ).style.display = "none"
@@ -287,7 +287,7 @@ mb.addEventListener( "click", () => {
     document.querySelector( "#python" ).style.display = "block"
     document.querySelector( "#clang" ).style.display = "block"
     document.querySelector( "#trans" ).style.display = "block"
-    mb.innerHTML = "<a>더보기</a>"
+    mb.innerHTML = "<a>More</a>"
   }
   c++
 } )

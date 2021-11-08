@@ -13,6 +13,10 @@ img {
   margin: auto;
 }
 
+#more {
+  color: white;
+}
+
 body > div > ul > li {
   float: left;
 }
@@ -60,8 +64,8 @@ p > a {
 
   div:not(#menu):not(.alert):not(#navigate):not(#introduct):not(#setting) {
     display: block !important;
-    margin: 1px !important;
-    padding: 1px !important;
+    margin: 2px !important;
+    padding: 2px !important;
   }
 
   iframe:not(#vid) {
@@ -137,16 +141,6 @@ ul {
 
 #menu > details > p > a {
   display: list-item;
-}
-
-#butty {
-  margin-bottom: 20px;
-  background-color: black !important;
-  color: white !important;
-  border-radius: 0% !important;
-  padding: 40px;
-  width: 100%;
-  font-size: 20px;
 }
 
 code {

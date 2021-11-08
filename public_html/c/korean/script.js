@@ -4,7 +4,7 @@ if ( navigator.userAgent == "CIAV" ) {
 
 //Menu
 const menu = `
-<button style="position:absolute;top:0;right:0;margin:5px;" onclick="document.querySelector('#menu').style.display = 'none'">닫기</button>
+<button class="btn-close" aria-label="Close" style="position:absolute;top:0;right:0;margin:5px;" onclick="document.querySelector('#menu').style.display = 'none'"></button>
 <details>
   <summary>&#x43;&#x20;&#xc5b8;&#xc5b4;&#x20;&#xc2dc;&#xc791;</summary>
   <p id="men">
