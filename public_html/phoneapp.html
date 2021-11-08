@@ -20,6 +20,8 @@
   <title>앱 설치</title>
   <link rel="icon" href="py.png" type="image/png">
   <link rel="stylesheet" href="python/korean/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <meta charset="UTF-8">
 </head>
 
@@ -46,26 +48,25 @@
   <br>
   <br>
 
-  <div style="margin:50px;display: flex;justify-content: space-evenly;">
-    <div style="padding:50px;text-align: center;">
-      <img alt="python factory picture"
-        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAnFBMVEXM3rz///98syBjmQLO38CEtzd4sRF0rwDU5MGqy4PM3ruVwVnO379elgDQ4cHD2a2zzZaTt2SBtSzA16eOvE16pz/E2LGiwICYwWGtzYacw2exz46Zu296shl/qkS20penyXuhxnGKukG81aGsyI10oy/3+vTd6dLs8+aRvlKgxm60zZifv3eIsFZtnyCFrk5TkADY5szi7NmSt2gp8aFBAAAKxUlEQVR4nO2dbWOjKBeGWaPmCSHYmsRJ09q82Oxs2zSd2fn//20FAd8VtSr24f7URo1c4XjO4YAK/irR/+bGwHKt5THA+Oc/f5e1qZWAOoSG4dvGJgAQ4H+/EFIpQgLpnxCAEPz+57sSGoa9gQiEkPiLGOsI/QHFEZcQEH0RYw2haw0ol0HaJwwixq+w1WpC++G3OZig87ixI8M5IMAZO/ucGsKFCQYUQgtqOb4rTgthV7+qFCEA+EQNdS46sfvlqBghABuC6G9g/AmEP7t0o2qEaG1kOzFkBB26UTVCgPbE2/jL1IlhB4+jHuGa+lPLSX/c/mpUjhCAM7kS7ZSZAtqN34XQPFIz3eXODFGrblSPEK39dEiMEcG/34IQYJciOgWb2jgcBQnNpZ/K3JJqETdUJFyQC9E+Fp46zOKmT4gC2ofLks3w5/QJHZdExDMs2Q5xo4tRQULgnWnmVkYYqsnFqCIhotn33CvdoZG/UZHQ3NGsJihyppGa+BslCU92Ud6WknwOpyQhzdvsh8pzSwd/JQkfKgKikGwvqkiIDjT3PtWcWzJqKEkY0D7c151bDlFJwjU5t19LKIeoMGF+hJgTxBMldGQJZXpRRUIQES6xxK71HlVNwpI6RpFqEdUklLbSUHUJnIqE8p6GClan4d+BEFV6GyUJJSM+V/WlqCRhlLW9SZ+78lJUkvCR9mFdXpoQrLBTFQklxhYoFvm3qhNVJMTl40OEyHy456yDw+Ex1CFYe6aJQIWzUZHQPBXNzSATQ299WOxfz5brGr5N5BuutVk4qCJiKEmYrdMgEyEYLPYbi3D5vsEXpkTrGmz3BMqLqEoSvtJaG524IGbpHRY7a057rETzZXnAUJEQRjOIMKSD68Pb2fXL2TjiYVKEnkUa7ULvcb9xi3vOjy5DsdHeT4kQrWlV3z0X2CUhm8+N8+vu7XhcLI6n3ZlOivvLSREGhTYZshnW6/54WEMaB6OFVKEhz6dHeLBzcL57fj0eHAeaGGULxdMjjAJ+ouvszSnsuLC/CovgE+zDKBwyOmu3CMwyOKopEtJgYdi+tXxYe8Csmr4A0yR0yWra8ymgGWetJkjozd3doyNFRzRFwnWYiMrvPkFCINl5TEoQljW5GUqJFCA0nXUhCvIC7wsYFSA8uu6u4GMUWIZbzN5IoxMixw4j92OeBG5sw36tWFIiqfEJD/PCBU50gskvXRYkr9EJgUcTsNziGLocwX77BlYKAFlqmDdTSJYFVa8okdP4hLT66S8xH9GxYR1dk+/LTBEqTwggIXQd57DYnS3XN6zz6+ngUCOVnXxRnNCky9TOlm+zO7dIKcIllYriVbITJHyISin5uoT1TSK+uSgqu1CdKka20yGEp/Jip/3qdEYcnRDus3WlFKLVOW8bmxDvqgCpk+2IODIhfqsGJO6mY+I2LmG+9FlgqG9TJvSsuikVo3PqNiphtJy5Th3tdExCduNEPWL1emeFCdPl+QpZUyU05fgMY15x44HKhHR0LyV7P1HC2lgYm2n5/TEqE0bT8XJm2iF3G5HQke7C2nsr1CSUyWe4pFdaKkUoHStIA8+tTzMiYTyVK6HsAwamQbiZ29Iy2ruaEa/Dx6O8Fu3DxZjxsMkDhtqfZnBCVLVuoo+DhyaE64cHVpdwmogOoGCweGhc1BiWEHlLshiNrtA2z3N5+cTTwOjghogD92G0jm5OWhmVuiVFpkph9KSvpvNRgxKiRzaaII/taEooDrabxcZBCU1eGyWTaU0JUwcrS8jTGLLOvjFh8mBNqAk1oSbUhJpQE2pCTagJNaEm1ISaUBNqQk3YiXAvGtmiEjUJwgUrl5FZ68aEyYNVJWR3HkQ3ijSuCHv0CcmGv2l0yqGr+gfD9n2brqhsTIgOZCW4bTWcuRi4qm86x+VyQV4U05wwebC6hIDMjkVNbE6YOFhhwlgtCFtJE2rCLoTs6SMC1BdLL2J2f8JrMczjPhJfCe2/7rl2gnAXffA2xfU0gC+zENnYo1h54YnFw3B6azHyigmFJcbLozssu2TShJpQE0pIE3aUJtSEmlBCmrCjFCXk2bj7HQjFzUGJ+7cgGzt+j2eb8Bu8/MTNTSZbaTlvtgyxUOMTAnNpZ4yUdCx9x/EXPLxFBUIA38goPl2rR4f9Zv8Vj8VQghCYMFhnH8FG7lX4Ls/6IvqC51+USRHCHqUJNaEmHF+aUBNqwvGlCTWhJhxfmlATasL4REylG4Qwzg3uYeHRsPjjcQiRs2V6z7QeX7dpPX9+PL17qbVPKGDbPhLPpEXv4pBr5dudhyHE19WMavWZeXAuvmdbhFZEH+84bjZ6n9GdVtvEwfDGv/KmQh+CLW//LVPFzhMyzO1afDe6Y58mCM34uOq1NsMQIifGeEm3p4QwZIz3LCBE7/yw1Y/qxykPQyiMNGzQR/qQUkLyY+BSQngR31dz7mEI4TZu9ioDzwlXscS+zC3lCePf5VI3szEIIVonrS9tprytq/u7F6ofT89i1wsuJsR34utqH8c3CKF5TVji6qOY8AeO3siIMb678H6N7DTfhzf+ZdfaBgxCiC+zhNLeNEEY/yIOI1g9wyJCJCz7o75WPgQhCpKAGTMtIgT4hXe6V0CI78RFKPHA7yEI8TXlLlfJzKSYUJjh6g7lCT3hR2WeiTkIIWvulrXsllwsWkyIPpOfpgnND26jT1LvHu+fEK1Za5+Y7aXMtJiQd/vqycwSIm7BuQRwNEL8xFobOAVNKyHkx1yzhMjjfvQid2vJAIQi3GP4zH7+RJRuaqWxH32Xe/lF/4TCSD+wsL2XuHElhNyXvKc9zW/hZVdXybd79E/IDS5MpHkCnswli6PFtTha3K5XESllX1/SPyHPkUmgR5dkw0sJccA5PtMRfyZyVsmLcAjCcPQauxfhQGIzTRAKPQmgyOvGhGKD5EU4BGEMhZK4ogfEKOHzKdLnZSaGfttM5h0T3ksvbeifkBncLTKr9H9Jwllu7DS7rTOjp4ReVLkOUcC68DPFEwf98hHwavbOvr2IsLo4MyAh/pNyJLz4ELvC8irGRRRqkp5G9LhcRtM/Ifekq2gUgLysNy2rRN3u43FDHC1+XBNeSImIz8P9bMuBPjLeNH8dkm66XZPRIBHxzXj/mxJZm2jP5ZmJ9yn3pmKP7X2kP9fri5Mue6cybyjG988qEAqjzHnKFUwTiioGwrkXT6fHFnEdUSpx65eQx7+iC43lMCUj4HJCYejhMTL3XfZLWFEM5SWW5oRAjJ9WW4mQ0XMf3grpIkWOogUhju30T72d9kqYimPZgi/zpi0I4zHibHZXi9gv4R/uJ58S+kwF/TaEAApDqE9t+iXkPRjg+OnqmBfAo3jWijCueddXTPskFH4980PzkEiZWhEm84S61KZPwnhKIl3H5+OpbXtC5AgfVpfa9EnIw33mZxaZHA367QiBKaridSl4j4TCSFcZb+AlzbQlYTLuV8/O9Ego2p4tGokRFanCtCWM66Y8sg5PCFMeJdlgEbG99oRJO32uChn9EaKXXyzA535ixEL/rzB1xh/Rbr8qCdn+l1RdnB0Zfl5VtemzDz2m/CYvsYn/WdkPhV8lPi06xRCEikgTakJNOL40oSbUhONLE2pCTTi+NOH/PeHD7yYvohxHnQgN11JffidCw1dfRjfCiUgTakL1VUH4Hxv6tOw2lVfGAAAAAElFTkSuQmCC"
-        />
-      <h1>APK 파일 (안드로이드 폰)</h1>
-      <h2>앱 버전 1.3.9.1 Alpha</h2>
-      <h3><mark>참고로 IOS는 아직 지원하지 않습니다</mark></h3>
-      <a href="img/Python Factory App.apk"
-        onclick="gtag('event', 'click', {'event_category': 'phone app download', 'event_label': 'phone app download'})">설치</a>
+  <div style="margin:50px;display: flex;justify-content: space-evenly; position:relative; z-index:5;">
+    <div class="card" style="width: 18rem;">
+      <img
+        src="data:image/png;base64,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"
+        class="card-img-top" alt="python factory image">
+      <div class="card-body">
+        <h5 class="card-title">APK 파일 (안드로이드 폰)</h5>
+        <p class="card-text">앱 버전 1.3.9.1 Alpha</p>
+        <a href="./img/Python Factory.exe" class="btn btn-primary">Download</a>
+      </div>
     </div>
-    <div style="padding:50px;text-align: center;">
-      <img alt="python factory picture"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH0zHBsZo9CODR7LmLMabRDfy9F8UFW2yGMQ&usqp=CAU"
-        />
-      <h1>EXE 파일 (컴퓨터 앱)</h1>
-      <h2>앱 버전 Alpha 1.0.2</h2>
-      <h3><mark>윈도우, Mac, 그리고 Linux 다 지원합니다.</mark></h3>
-      <a href="img/Python Factory.exe"
-        onclick="gtag('event', 'click', {'event_category': 'com app download', 'event_label': 'com app download'})">설치</a>
+    <div class="card" style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uX7BrZxloZno__TSSZEAI3FysOBzjDVdfw&usqp=CAU"
+        class="card-img-top" alt="exe file">
+      <div class="card-body">
+        <h5 class="card-title">EXE 파일 (컴퓨터)</h5>
+        <p class="card-text">앱 버전 Alpha 1.0.2</p>
+        <a href="./img/Python Factory.exe" class="btn btn-primary">Download</a>
+      </div>
     </div>
   </div>
 
@@ -138,8 +139,7 @@
 
         설치 버튼을 누릅니다.<br><br>
 
-        <img alt="python factory picture" src="img/installgalaxystore.jpg"
-          width="300" /><br><br>
+        <img alt="python factory picture" src="img/installgalaxystore.jpg" width="300" /><br><br>
 
         실행 버튼을 클릭합니다.<br><br>
 

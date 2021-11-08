@@ -98,7 +98,7 @@ p > a {
   }
 
   button {
-    border-radius:5px !important;
+    border-radius: 5px !important;
   }
 
   #txt {
@@ -113,8 +113,12 @@ p > a {
   }
 
   #lbbr {
-    display:block;
+    display: block;
   }
+}
+
+ul {
+  z-index: 10;
 }
 
 #men > a {
@@ -125,9 +129,10 @@ p > a {
   display: none;
   position: absolute;
   background-color: white;
-  padding:100px;
-  top:50px;
-  list-style-type:none;
+  padding: 100px;
+  top: 50px;
+  list-style-type: none;
+  z-index: 10;
 }
 
 #menu > details > p > a {
@@ -140,8 +145,8 @@ p > a {
   color: white !important;
   border-radius: 0% !important;
   padding: 40px;
-  width:100%;
-  font-size:20px;
+  width: 100%;
+  font-size: 20px;
 }
 
 code {
@@ -162,7 +167,7 @@ code {
 }
 
 *::selection {
-  background-color:rgb(186, 216, 245);
+  background-color: rgb(186, 216, 245);
 }
 
 details {
@@ -191,5 +196,5 @@ iframe {
 }
 
 #setting {
-  display:none;
+  display: none;
 }
