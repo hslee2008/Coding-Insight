@@ -20,6 +20,8 @@
   <title>홈</title>
   <link rel="icon" href="py.png" type="image/png">
   <link rel="stylesheet" href="python/korean/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <meta charset="UTF-8">
   <style>
     ul {
@@ -53,10 +55,6 @@
       text-decoration: none;
     }
 
-    li a:hover {
-      background-color: #111;
-    }
-
     #title {
       background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHl0aG9uJTIwY29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
       margin: 0;
@@ -65,18 +63,6 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-    }
-
-    button {
-      border-radius: 10px;
-      outline: none;
-      border: none;
-      padding: 5px;
-      background-color: #282A35;
-    }
-
-    button:hover {
-      background-color: transparent;
     }
 
     @media only screen and (max-width: 900px) {
@@ -119,10 +105,6 @@
     .closebtn:hover {
       color: black;
     }
-
-    br {
-      margin-bottom: 100px;
-    }
   </style>
 </head>
 
@@ -140,7 +122,7 @@
             onclick="const e = document.querySelector('#search-div'); e.style.display = e.style.display == 'block' ? 'none' : 'block' "
             style="background-color: #333; margin: 0 !important; padding: 0 !important;">🔎</button></a></li>
       <li style="float:right;"><a rel="noopener" href="index-en.html" style="color:white;" id="trans">English</a></li>
-      <li id="more"><a>더보기</a></li>
+      <li id="more"><a style="color: white;">더보기</a></li>
     </ul>
   </div>
   <div id="introduct">
@@ -163,16 +145,20 @@
     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
     죄송합니다. IE 브라우저를 지원하지 않습니다 ᕦ(ò_óˇ)ᕤ
   </div>
-  <div style="margin :100px;display:flex;" id="intro">
-    <div>
-      <h1>파이썬 팩토리</h1>
-      <p>우리의 목적은 어린이들이 블록코딩을 배운 후 텍스트 기반인 파이썬 코딩 방식을 독학으로 배울 수 있는 사이트를 개설하고 무료로 운영하는 것입니다.</p>
-    </div>
-    <div style="margin:auto;">
-      <img alt="python factory picture" src="py.png" />
+  <div class="card mb-3" style="max-width: 1000px; margin:auto;margin-top: 30px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="py.png" class="img-fluid rounded-start" alt="python factory image">
+      </div>
+      <div class="col-md-8" style="align-self:center;">
+        <div class="card-body">
+          <h5 class="card-title">파이썬 팩토리</h5>
+          <p class="card-text">우리의 목적은 어린이들이 블록코딩을 배운 후 텍스트 기반인 파이썬 코딩 방식을 독학으로 배울 수 있는 사이트를 개설하고 무료로 운영하는 것입니다.</p>
+          <p class="card-text"><small class="text-muted" id="date"></small></p>
+        </div>
+      </div>
     </div>
   </div>
-  <br>
   <div id="divvy"
     style="margin :100px;border-style:solid;border-color:#101010;border-radius:10px;padding:50px;display:flex;" id="py">
     <div>
@@ -207,11 +193,12 @@
             파이썬이라는 단어를 들어보신 적이 있나요?<br><br>만일 뱀의 종류 중 하나인 파이썬을 생각하셨다면 틀렸습니다!
           </p>
         </div>
-        <button><a rel="noopener" href="python/korean/python.html" style="text-decoration:none;color:black;">파이썬
-            배우기</a></button>
-        <button><a rel="noopener" href="https://coding-insight.com/python/korean/quiz.html">퀴즈</a></button>
-        <button><a rel="noopener" href="python/korean/install.html"
-            style="text-decoration:none;color:black;">설치</a></button>
+        <a class="btn btn-light" rel="noopener" href="python/korean/python.html"
+          style="text-decoration:none;color:black;">파이썬
+          배우기</a>
+        <a class="btn btn-light" rel="noopener" href="https://coding-insight.com/python/korean/quiz.html">퀴즈</a>
+        <a class="btn btn-light" rel="noopener" href="python/korean/install.html"
+          style="text-decoration:none;color:black;">설치</a>
         <div style="margin :auto;">
           <img alt="python factory picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU" />
@@ -230,9 +217,11 @@
             C언어는 B 언어보다 더 성공적이어서 B 다음 알파벳인 C를 선택했다고 합니다.
           </p>
         </div>
-        <button><a rel="noopener" href="c/korean/c.html" style="text-decoration:none;color:black;">C 언어 배우기</a></button>
-        <button><a rel="noopener" href="https://coding-insight.com/c/korean/quiz.html">퀴즈</a></button>
-        <button><a rel="noopener" href="c/korean/install.html" style="text-decoration:none;color:black;">설치</a></button>
+        <a class="btn btn-light" rel="noopener" href="c/korean/c.html" style="text-decoration:none;color:black;">C 언어
+          배우기</a>
+        <a class="btn btn-light" rel="noopener" href="https://coding-insight.com/c/korean/quiz.html">퀴즈</a>
+        <a class="btn btn-light" rel="noopener" href="c/korean/install.html"
+          style="text-decoration:none;color:black;">설치</a>
         <div style="margin :50px;">
           <img alt="python factory picture" style="width:200px;"
             src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAREBEQDxMVFRAQEBUSEBYWFhAWGBUWFRcWFhUTExUYHSggGBslGxUVITMhJSkrLy4uFx8zODMsNygtLisBCgoKDg0OGRAQGy0iHyUtNTArKzUtLS0zKy0uLSstLS0vLS0tLy0tLS0tLSstLS0tLS0vLy0tLS0tLSsrLTUtLf/AABEIAKgBKwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcCCAH/xABEEAACAQICBgYHBQUGBwAAAAAAAQIDEQQFBhIhMUFRE2FxgYKhByJCUpGxwSMzNLLRMmKiwvAXcpKT0uEUFRZDU1Rj/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAIDBAUBBv/EACkRAQACAgIBAgYCAwEAAAAAAAABAgMRBCExUXESIjIzQWEFE4GRsUL/2gAMAwEAAhEDEQA/ALcAAkAAAAAAAAAAAAAAAAAAADFiMTCmrzaS+fYuJAY7PZS2Ulqrm97/AELsWC+TxCFrxVN4zH06S9d7eEVtZErSN3+72f3tvyIOTbd3tb3s/DpY+FjiPm7lTOSZ8Llgswp1V6r28U95tFETa2reiXwOeyjaNX1o8+P+5my8KY7onXL6rIDFhsTCotaDuvl2rgZTDMTHUrQAHj0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZFY7O4Q2U/Xl/Cu/iTpjtedVhGbRHlJzmoq8mkubITH58t1FX/ee7uRD4vGVKrvOV+S4LsRgOlh4VY7v2ptkn8PdatKb1pttvizwDLh8NUqPVpQlOXKMZSfkbuqwrYgTuG0Px89vQ6q/flCPle/kbX/QWO5Uv8x/6SqeRjj/ANQ9+GfRWAT2I0Ox8NvQ6y/clCXle/kQ2JwtSm9WrCUJcpRlH4XW0nXJS3idvJiYeaNWUHrRbTXFE5gc+4Vv8S+qIAEMuCmSPmexaY8L1TqKSTi009zR6KThcXOm7wdua4PtRYMDnkJ2VT1Zc/ZffwOZm4l6dx3C+uSJSwCYMiwAAAAAAAAAAAAAAAAAAAAAAAAAAA0cdmtOldX1pe6vq+B7zau4UZyjvskuq7tcpzZt4vGjJ81vCq99dQ3cdmdSrsbtH3Vu7+ZpAHVrStY1EKJmZ8hnwODqVpqnRg5zluS4Lm3wXWzPk2VVcVVVKktr2yk90I+9L9OJ13Isko4SnqUltf7c3+1N82/pwM/I5MYuo7lKtdq3kWgFOFp4t9JL3ItqC7Xvl5IuWGw0KcdWnGMIrcopJfBGUHJyZb3ndpXxWI8AAK3oYsTh4VIuNSMZxe9SSa+DMoApOeaAUp3nhH0c/cd3B9j3x811HP8AH4GrQm6daDhNcHx609zXWjuxG55ktHF03TqrbvhJftQfOL+nE2YOZanVu4V2pE+HEwb+d5TVwlV0qvbCS3TjwkvquDNA61bRaNwp1puYHMqlL9l3j7r2ru5FhwObU6tlfVnyf0fEqE5pK7dkaNfMHuhs63v7inLxKZP1KVck1dMBF6N42VbDwlLbJeq3zs2r+RKHFvX4bTWfw0xO42AAi9AAAAAAAAAAAAAAAAAAAAAEdn/3E/D+ZFULXn/3E/D+ZFUOtwPtz7s+XyHqnTcpKMVeUmlFLi27JI8lw9G+VdJXliJL1aCtDk5yT29yv8Uas2SMdJshEbldNFsijhKChvqy9arLnLkupbl8eJNAHAtabTuWiI0AFO0r00jQcqOGSlWWycntjB8re1LyXkSx47XnVSZiFvnNLa2kub2Gr/zXDXt01K/LpKf6nFswzCtXlrV6kpv957F2R3LuNWxvj+P67sr/ALXfYTTV001zW3zPRwrAY+tQlrUKkoP912T7Y7n3o6Fotpsq0o0cVaNV7ITWyM3ya9mXk+rcUZuHekbjuHsZIlcwCq6T6dYXB3gn0tdbOjg1aL/+k90eza+ozUpa86rG05mI8pDSvJ6eKw8ozajKCc6c3ZKDS4v3XuZw/EY1K6jta2X4d3M2dItKcXjX9tO1K/q0oXUFyuvafW/IhDt8Tj2xV1af8M97RM9PdSo5O8nf+uB4AZsVr3oZ+H8T+bJ8gNDPw/ifzZPnzef7tvdsp9MAAKkwAAAAAAAAAAAAAAAAAAAABHZ/9xPw/mRVC15/9xPw/mRVDrcD7c+7Pl8h1zQHB9HgaT41b1X4n6v8Kicik9jO65VS1KFGHu0YR+EUiPPtqsQY/LaABy1yuacZ28Lh7QdqtZ6kHxivamuxebRyQtXpJxLljFDhSpRS7ZXk/LV+BVTs8PHFccT+ZZ7zuQA81JqKvJ2RrRejFWrxhve3glvNPEY5vZDZ18TTZKKo7WTNNOMbXoxodJqQjHVk47J1OF5z37rbrFaAPaY606rGiZmfIACbwDAYF70M/D+J/Nk+QGhn4fxP5snz5rP923u2U+mAAFSYAAAAAAAAAAAAAAAAAAAAAjs/+4n4fzIqha8/+4n4fzIqh1uB9ufdny+X5Lc+w7xl89alSkuNOD+MUcIOyaG4rpcDh5cY0+jfbBuH0I/yEfLWTF5lNAA5a5yf0i0XHHyb3Tp05LuWr/KVhu217lvOi+lbAP8A4dYuEXJ4fZUS/wDHJr1n1Re3sbOKYrFzqP1ns4JbjucO0XxR+me8alKYvNktlPa+fDu5kXLFTbvJ37fpyMANcRpFu06yfaeyPMtOs1v2okjptg2KmBrRpU686c40aqvTm16slu2Pd8d+9GA8iYnw8fgAJAGAwL3oZ+H8T+bJ8gNDPw/ifzZPnzWf7tvdsp9MAAKkwAAAAAAAAAAAAAAAAAAAABHZ/wDcT8P5kVQtef8A3E/D+ZFUOtwPtz7s+XyF99GGZ26XCye99LT8lNL+F97Of1asYK8mkv63czRw+klSjWp1sOrOnNSV/aXGL5Jq67zTnxf2UmqFZ1O30eDQyLNaWLw9PEUXeFRX64tbJQlyad13G+cCY1OpaXmpBSTjJJpqzT2pp700cS079HlXCylXwcXUwrd3CN3Oj1W3yh171x5nbwXYc9sU7qjasS+U0wfRmc6FZfim5VqEdd75wvTk+1wtrd9yD/sny29717cukjb46t/M6Vf5DHMdxKr+uXD2y9aC+j2ti5Rr4uLp4RWeq9k6y32Se2MH7z38Oa6hk+hGXYVqdKhFzjunO9SS6053t3FiKM/Pm3VI1+0q4/VgeEpun0ThF09XV1Gk46q2KOrutYoWknoxpTvUwMuinv6OTbpv+698PNdSOiAxY8t8c7rKyaxPl835rldfDT6PEU5U58L7pdcZLZJdhpn0LpVUwkMJVnjYxnQhHWkpK7b9lQ46zdkrbbs+dXik5Serqxcm4xu3qpvZG72uy2X6jtcTkTmidxrTPenwsoYTvuBrVr3oZ+H8T+bJ8gNDPw/ifzZPnzef7tvdsp9MAAKkwAAAAAAAAAAAAAAAAAAAABoZ7G9CfUk32Jps59i83S2Uld+893dzOntXVnxKZnmhl254Z2u76j3eF8Dfw+RWm62VZKTPcKZWqym9aTbf9bjwZsVhp05OFSLjJcH9DCdiJiY3Cha9AdMJZdV1Z3lhKr+1irtxe5VYLnzXFdaO94PF061ONWlJTpzipQlF3TT4pnyyWPRHTDE5fP7N69CTvUoybs+coP2Jde58VxMPL4n9nzU8/wDU6X11L6JBX9GtMMHj0uhnara8qU7RqLns9pdcbosBx7Vms6mNL4nYADwAAAMWLxMKUJVKslCnBOUpSdkkuLZC6S6XYPARfT1L1LXjShaVSXh9ldcrI4tpfplicwlab1MPGV6dGLdtm6VR+3LyXBcTTg4t8s+keqFrxDa9IOmMswqqFK8cJSf2ad05y2rpZrs3Lgm+L2VEA7mPHXHWK1UTO+3qMmtxnhiFx2GKhRlNqMIuTfBFqyXRFyalX/wrd38yGXkUxR80va1mye0Ng1h1fi213tsnjFhqChFRjuRlPn72+K029WqI1GgAEXoAAAAAAAAAAAAAAAAAAAAAAADTzDLKVeOrVgmvNdaZSc50PqU7yoevH3X+0uzmdCBdi5F8f0yhakS4vOLTtJNNb07pnk6rm2Q0MQvXjaXCS2Nd5R840Yr0LyS6SnzS2rtX6HWw82mTqepU2xzCDTaaabTTumtjT5p8GWrJ/SHmWHSiqqqwXs1k57OWvdS+LZVAab463j5o2hE68OqYT0xP/vYTbzp1P5ZR+pu/2xYb/wBWv8aP+o48DPPBwz+Evjs6pjPTE7fY4TbwdSp/LGP1KvnHpEzLEJx6VUYPhRTg7cnNty+DRUwTrxMVfEPJtMv2Tbbbbbbu2222+bb2tn4CWyvIK1Zp2cYc3vfYi2+SuON2nTyI34RUYttJK7e5IsGUaLVarTqerHlx7+Rbco0cpUVe15c3tfxJqEEtiRy8/Pm3VOv2uri9UfluS0qKSjFdf+/MkkgDnzMzO5W6AAePQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADV94AFfznRWjWvKK1KnOPHtXEo2aZLXw7+0jePCSu138jrJ4q0oyTUkmnvuasPLvj68wrtSJcYBfc60NhO88O9SW/V9l/oVaej+KUtV03vte8bdt7nVx8vHeN70pmkwizdy7K6tdrUjs953t3cy0ZNogtkq2177cPhxLdhsJCCSitxmz8+I6x/7Tri9VeybROnTtKfrS5v6LgWWlRjFWirHsHMve153adroiIAAQegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+aqAA/QAAAAAAAAAAAAAAAAAAAAAAAf/2Q==" />
@@ -252,11 +241,11 @@
           우리의 프로젝트를 확인하세요!!!<br><br>
         </p>
       </div>
-      <button><a rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory"
-          style="text-decoration:none;color:#000000;">깃허브</a></button>
-      <button><a rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new"
-          style="text-decoration:none;color:black;">깃허브에 질문하기 & 문의하기
-        </a></button>
+      <a class="btn btn-light" rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory"
+        style="text-decoration:none;color:#000000;">깃허브</a>
+      <a class="btn btn-light" rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory/issues/new"
+        style="text-decoration:none;color:black;">깃허브에 질문하기 & 문의하기
+      </a>
     </div>
     <div style="margin :auto;">
       <img alt="python factory picture"
@@ -275,7 +264,8 @@
           파이썬 코딩 언어를 사용해서 컴퓨터 앱도 만들었습니다.
         </p>
       </div>
-      <button><a rel="noopener" href="phoneapp.html" style="text-decoration:none;color:#000000;">설치 받는 방법</a></button>
+      <a class="btn btn-light" rel="noopener" href="phoneapp.html" style="text-decoration:none;color:#000000;">설치 받는
+        방법</a>
     </div>
     <div style="margin :auto;">
       <img alt="python factory picture"
@@ -287,9 +277,9 @@
     background-attachment: fixed;
     background-repeat:none;background-size:cover; padding: 50px;text-align:center; color:white;">
     <div>
-      <button onclick="speak()"><a rel="noopener" href="https://www.coding-insight.com/chat.html">질문하기</a></button>
-      <button><a rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a></button>
-      <button><a rel="noopener" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a></button>
+      <a class="btn btn-light" rel="noopener" href="https://www.coding-insight.com/chat.html">질문하기</a>
+      <a class="btn btn-light" rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
+      <a class="btn btn-light" rel="noopener" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
     </div>
     <br><br>
     <img alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
@@ -336,7 +326,7 @@
         document.querySelector( "#clang" ).style.display = "none"
         document.querySelector( "#trans" ).style.display = "none"
         document.querySelector( "#video" ).style.display = "block"
-        mb.innerHTML = "<a>숨기기</a>"
+        mb.innerHTML = "<a style='color:white;'>숨기기</a>"
       } else {
         document.querySelector( "#quiz" ).style.display = "none"
         document.querySelector( "#feedback" ).style.display = "none"
@@ -345,7 +335,7 @@
         document.querySelector( "#python" ).style.display = "block"
         document.querySelector( "#clang" ).style.display = "block"
         document.querySelector( "#trans" ).style.display = "block"
-        mb.innerHTML = "<a>더보기</a>"
+        mb.innerHTML = "<a style='color:white;'>더보기</a>"
       }
       c++
     } )
@@ -355,6 +345,9 @@
         open( "https://coding-insight.com/chat.html" )
       }
     }
+
+    document.querySelector( "#date" ).innerText = "마지막 업데이트: " + (( new Date().getTime() - new Date( document
+      .lastModified ) )/1000).toFixed() + "초 전";
   </script>
   <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>
   <div style="display:none;" id="search-div">
