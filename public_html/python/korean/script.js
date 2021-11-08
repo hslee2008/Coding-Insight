@@ -1,5 +1,5 @@
 if ( navigator.userAgent == "CIAV" ) {
-  document.querySelector( "#speakdiv" ).setAttribute('style', 'display: none !important')
+  document.querySelector( "#speakdiv" ).setAttribute( 'style', 'display: none !important' )
 }
 
 //Menu

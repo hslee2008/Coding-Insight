@@ -5,6 +5,7 @@ if ( navigator.userAgent == "CIAV" ) {
 //Menu
 const menu = `
 <button class="btn-close" aria-label="Close" style="position:absolute;top:0;right:0;margin:5px;" onclick="document.querySelector('#menu').style.display = 'none'"></button>
+
 <details>
   <summary>&#x43;&#x20;&#xc5b8;&#xc5b4;&#x20;&#xc2dc;&#xc791;</summary>
   <p id="men">
@@ -149,7 +150,6 @@ mb.addEventListener( "click", () => {
     document.querySelector( "#home" ).style.display = "none"
     document.querySelector( "#python" ).style.display = "none"
     document.querySelector( "#clang" ).style.display = "none"
-    document.querySelector( "#trans" ).style.display = "none"
     document.querySelector( "#video" ).style.display = "block"
     mb.innerHTML = "<a>숨기기</a>"
   } else {
@@ -159,7 +159,7 @@ mb.addEventListener( "click", () => {
     document.querySelector( "#home" ).style.display = "block"
     document.querySelector( "#python" ).style.display = "block"
     document.querySelector( "#clang" ).style.display = "block"
-    document.querySelector( "#trans" ).style.display = "block"
+    document.querySelector( "#video" ).style.display = "none"
     mb.innerHTML = "<a>더보기</a>"
   }
   c++

@@ -11,7 +11,7 @@ const menu = `
   <p id="men">
     <a href="python-en.html">(1) The Definition of Python</a>
     <a href="install-en.html">(2) Installation </a>
-    <a href="VSCode-en.html">(3) Download VSCode </a>
+    <a href="vscode-en.html">(3) Download VSCode </a>
     <a href="io-en.html">(4) Input and Output </a>
     <a href="variable-en.html">(5) Variable </a>
     <br><br>
