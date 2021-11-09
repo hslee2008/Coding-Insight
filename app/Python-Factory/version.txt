@@ -1,7 +1,6 @@
-a.b.c.d e
+a.b.c.d
 
-e -> Simple Bug Fix (Security and React Native)
-d -> Component and Setting Change
+d -> Component and Setting Change and Simple Bug Fix (Security and React Native)
 c --> File Change and Fast
 b --> Style Change
 a --> Complete Change
