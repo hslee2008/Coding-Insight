@@ -136,10 +136,12 @@
         <img alt="python factory picture" src="py.png" width="200px">
       </div>
       <div style="text-align: center;margin:auto;" id="videodiv">
-        <iframe id="vid" src="https://www.youtube.com/embed/ya7Ud1tTpag" title="YouTube video player" SameSite="None"
-          frameborder="0" width="640" height="360"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe id="vid" class="embed-responsive-item" src="https://www.youtube.com/embed/ya7Ud1tTpag"
+            title="YouTube video player" SameSite="None" frameborder="0" width="640" height="360"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+        </div>
       </div>
     </nav>
   </div>
@@ -349,12 +351,12 @@
     }
 
     setInterval( () => {
-    var date = new Date( 0 );
-    date.setSeconds( ( ( new Date().getTime() - new Date( document
-    .lastModified ) ) / 1000 ).toFixed() )
-    var timeString = date.toISOString().substr( 11, 8 );
+      var date = new Date( 0 );
+      date.setSeconds( ( ( new Date().getTime() - new Date( document
+        .lastModified ) ) / 1000 ).toFixed() )
+      var timeString = date.toISOString().substr( 11, 8 );
 
-    document.querySelector( "#date" ).innerText = "마지막 업데이트: " + timeString + "시간 전";
+      document.querySelector( "#date" ).innerText = "마지막 업데이트: " + timeString + "시간 전";
     }, 500 );
   </script>
   <script async src="https://cse.google.com/cse.js?cx=ee1853348b1a4e08b"></script>

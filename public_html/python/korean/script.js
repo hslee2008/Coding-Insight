@@ -1,7 +1,3 @@
-if ( navigator.userAgent == "CIAV" ) {
-  document.querySelector( "#speakdiv" ).setAttribute( 'style', 'display: none !important' )
-}
-
 //Menu
 const menu = `
 <button class="btn-close" aria-label="Close" style="position:absolute;top:0;right:0;margin:5px;" onclick="document.querySelector('#menu').style.display = 'none'"></button>

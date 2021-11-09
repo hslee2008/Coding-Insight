@@ -92,7 +92,10 @@ const Home = React.memo(({ navigation }: any) => {
   const goforward = () => webViewRef.current.goForward();
 
   BackHandler.addEventListener("hardwareBackPress", () => {
-    global.ishome(link) ? BackHandler.exitApp() : webViewRef.current.goBack();
+    navigation.navigate("Home")
+
+    global.ishome(link, home) ? BackHandler.exitApp() : webViewRef.current.goBack();
+
     return true;
   });
 
@@ -104,11 +107,9 @@ const Home = React.memo(({ navigation }: any) => {
         setLink={(a: string) => setLink(a)}
       />
 
-      {!setting.bar ? <StatusBar hidden /> : null}
-
       <WebView
         ref={webViewRef}
-        source={{ uri: link }}
+        source={{ uri:  link }}
         onNavigationStateChange={(a: any) => setLink(a.url)}
         userAgent={global.browsername}
         onLoad={() => setWebLoading(false)}
@@ -159,6 +160,7 @@ const MainSetting = React.memo(({ navigation }: any) => (
 function App() {
   return (
     <NavigationContainer>
+      <StatusBar hidden />
       <Stack.Navigator screenOptions={global.screenopt}>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Settings" component={MainSetting} />

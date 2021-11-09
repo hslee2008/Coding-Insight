@@ -20,7 +20,6 @@ var setting = {
   phone: true,
   menu: true,
   korean: true,
-  bar: true,
 };
 
 function useForceUpdate () {
@@ -232,12 +231,6 @@ function AppSetting ( props ) {
     setting.menu = menu;
   };
 
-  const [ bar, setBar ] = useState( false );
-  const changeBar = () => {
-    setBar( ( p ) => !p );
-    setting.bar = bar;
-  };
-
   return (
     <List.Section title="App Setting">
       { props.query.toLowerCase().indexOf( "menu" ) != -1 || props.query == "" ? (
@@ -256,32 +249,6 @@ function AppSetting ( props ) {
           right={ () => (
             <Avatar.Icon
               icon={ setting.menu ? "menu" : "menu-open" }
-              style={ styles.back }
-              color="black"
-            />
-          ) }
-        />
-      ) : (
-        <></>
-      ) }
-
-      { props.query.toLowerCase().indexOf( "bar" ) != -1 || props.query == "" ? (
-        <List.Item
-          title="Bar"
-          description="Show the status bar (top)"
-          left={ () => (
-            <View style={ styles.padten }>
-              <cb.Item
-                mode="ios"
-                mode="ios"
-                onPress={ changeBar }
-                status={ global.check( setting.bar ) }
-              />
-            </View>
-          ) }
-          right={ () => (
-            <Avatar.Icon
-              icon="desktop-classic"
               style={ styles.back }
               color="black"
             />
