@@ -45,7 +45,7 @@ button {
 }
 
 button > a {
-  color: white !important;
+  color: black !important;
   margin: 30px;
   text-decoration: none;
 }
