@@ -23,6 +23,14 @@
     <link hreflang="kr" rel="icon" href="py.png" type="image/png">
     <link hreflang="kr" rel="stylesheet" href="style.css" />
     <meta charset="UTF-8">
+    <style>
+        #grid {
+            display: grid;
+            grid-template-columns: 1fr fit-content(100%);
+            grid-gap: 50px;
+            padding: 50px;
+        }
+    </style>
 </head>
 
 <body style="margin:0;">
@@ -45,70 +53,120 @@
 
     <br><br><br><br>
 
-    <div style="text-align: center;">
-        <h1>자동으로 줌 열기!</h1>
-        <button class="btn btn-outline-success col-5" id="code-butt0">코드 보기</button>
-        <p>이제 컴퓨터만 켜 있으면 일어나지 않아도 수업에 자동으로 참여가능합니다!</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0bwQtUOqW_g" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <div id="code0"></div>
-    <br><br>
-    <div style="text-align: center;">
-        <h1>나만의 파이썬 게임!(벽돌 게임)</h1>
-        <button class="btn btn-outline-success col-5" id="code-butt">코드 보기</button>
-        <p>파이썬을 이용해서 나만의 게임을 만들어 보겠습니다!</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5G1PBdmfcqc" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <div id="code"></div>
-    <br><br>
-    <div style="text-align: center;">
-        <h1>파이썬을 이용해서 가족 개인 정보 얻기!</h1>
-        <button class="btn btn-outline-success col-5" id="code-butt2">코드 보기</button>
-        <p>파이썬 코드 20줄만 사용해서 컴퓨터와 똑같은 와이파이를 사용하는 디바이스를 해킹하기</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RZSzjcp_DII" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <div id="code2"></div>
-    <br><br>
-    <div style="text-align: center;">
-        <h1>햄스터 조종하기! 머신 러닝</h1>
-        <button class="btn btn-outline-success col-5" id="code-butt3">코드 보기</button>
-        <p>햄스터를 명령하기! 햄스터의 왕이 되세요!</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ePuu9qYlQVY" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <div id="code3"></div>
+    <div id="grid">
+        <div class="card" style="max-width: 560px">
+            <div class="card-header">
+                자동으로 줌 열기!
+            </div>
+            <iframe width="560" class="card-img-top" height="315" src="https://www.youtube.com/embed/0bwQtUOqW_g"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="card-body">
+                <button class="btn btn-primary" id="code-butt0">코드 보기</button>
+                <p class="card-text">이제 컴퓨터만 켜 있으면 일어나지 않아도 수업에 자동으로 참여가능합니다!</p>
+                <div id="code0"></div>
+            </div>
+        </div>
 
-    <div style="text-align: center;">
-        <h1>엔트리 대신 파이썬!</h1>
-        <p>파이썬으로 엔트리 조종하기!</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3Hkbj5CH8oY" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+
+
+
+
+        <div class="card" style="max-width: 560px">
+            <div class="card-header">
+                나만의 파이썬 게임!(벽돌 게임)
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5G1PBdmfcqc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="card-body">
+                <button class="btn btn-primary" id="code-butt">코드 보기</button>
+                <p class="card-text">파이썬을 이용해서 나만의 게임을 만들어 보겠습니다!</p>
+                <div id="code"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="card" style="max-width: 560px">
+            <div class="card-header">
+                파이썬을 이용해서 가족 개인 정보 얻기!
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RZSzjcp_DII"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="card-body">
+                <button class="btn btn-primary" id="code-butt2">코드 보기</button>
+                <p class="card-text">파이썬 코드 20줄만 사용해서 컴퓨터와 똑같은 와이파이를 사용하는 디바이스를 해킹하기</p>
+                <div id="code2"></div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="card" style="max-width: 560px">
+            <div class="card-header">
+                햄스터 조종하기! 머신 러닝
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ePuu9qYlQVY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="card-body">
+                <button class="btn btn-primary" id="code-butt3">코드 보기</button>
+                <p class="card-text">햄스터를 명령하기! 햄스터의 왕이 되세요!</p>
+                <div id="code3"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="card" style="max-width: 560px">
+            <div class="card-header">
+                엔트리 대신 파이썬!
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Hkbj5CH8oY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="card-body">
+                <p class="card-text">파이썬으로 엔트리 조종하기!</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="card" style="max-width: 560px">
+            <div class="card-header">
+                파이썬으로 네트워크 스캐닝 도구 만들기!
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qYMiwwFynco"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="card-body">
+                <p class="card-text">지금 당장 윤리적 해킹의 기본을 알아두세요!</p>
+                <div id="code4"></div>
+            </div>
+        </div>
     </div>
-    <br><br>
-    <div style="text-align: center;">
-        <h1>파이썬으로 네트워크 스캐닝 도구 만들기!</h1>
-        <button class="btn btn-outline-success col-5" id="code-butt4">코드 보기</button>
-        <p>지금 당장 윤리적 해킹의 기본을 알아두세요!</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qYMiwwFynco" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <div id="code4"></div>
-    </div>
+
 
     <br>
     <hr><br>
