@@ -161,6 +161,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             <div class="card-body">
+                <button class="btn btn-primary" id="code-butt4">코드 보기</button>
                 <p class="card-text">지금 당장 윤리적 해킹의 기본을 알아두세요!</p>
                 <div id="code4"></div>
             </div>
@@ -312,17 +313,17 @@
                 s.ioctl(socket.SIO_RCVALL, socket.RCVALL_ON)
 
                 while True:
-                data = s.recvfrom(65565)
-                ethernet_header = data[0][0:14]
-                eth_header = struct.unpack("!6s6s2s", ethernet_header)
-                ipheader = data[0][14:34]
-                ip_header = struct.unpack("!12s4s4s", ipheader)
+                    data = s.recvfrom(65565)
+                    ethernet_header = data[0][0:14]
+                    eth_header = struct.unpack("!6s6s2s", ethernet_header)
+                    ipheader = data[0][14:34]
+                    ip_header = struct.unpack("!12s4s4s", ipheader)
 
-                print("Destination MAC:", binascii.hexlify(eth_header[0]), " Source MAC:",
-                binascii.hexlify(eth_header[1]), " Type:", binascii.hexlify(eth_header[2]))
-                print("Source IP:", socket.inet_ntoa(ip_header[1]), " Destination IP:", socket.inet_ntoa(ip_header[2]))
+                    print("Destination MAC:", binascii.hexlify(eth_header[0]), " Source MAC:",
+                    binascii.hexlify(eth_header[1]), " Type:", binascii.hexlify(eth_header[2]))
+                    print("Source IP:", socket.inet_ntoa(ip_header[1]), " Destination IP:", socket.inet_ntoa(ip_header[2]))
 
-                print(data[0].decode("ISO-8859-1"))
+                    print(data[0].decode("ISO-8859-1"))
             </pre>
         `
         } )
