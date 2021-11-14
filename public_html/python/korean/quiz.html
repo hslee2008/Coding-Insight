@@ -21,6 +21,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>퀴즈</title>
   <style>
+    .wrong {
+      animation-duration: 1s;
+      animation-name: slidein;
+    }
+
+    @keyframes slidein {
+      0% {
+        margin-right: -100px;
+      }
+
+      100% {
+        margin-right: 30px;
+      }
+    }
+
+    .check {
+      animation-duration: 1s;
+      animation-name: s;
+    }
+
+    @keyframes s {
+      0% {
+        margin-right: -100px;
+      }
+
+      100% {
+        margin-right: 30px;
+      }
+    }
+
     body>div>ul {
       list-style-type: none;
       margin: 0;
@@ -34,6 +64,10 @@
 
     body>div>ul>li {
       float: left;
+    }
+
+    body {
+      overflow: hidden;
     }
 
     li a {
@@ -194,9 +228,23 @@
       <div class="progress--bar"></div>
     </div>
 
-    <img alt="python factory picture" src="https://img.icons8.com/color/96/26e07f/checked--v4.png" class="check"
-      style="display:none;position:absolute;" width="150px" />
-    <h1 class="wrong" style="display:none;position:absolute;font-size:200px;">❌</h1>
+    <div class="card text-white bg-primary mb-3 check"
+      style="display:none;margin:30px;position:absolute;bottom:0;right:0;font-size:10px;" role="alert">
+      <div class="card-header">Yeah!</div>
+      <div class="card-body">
+        <h5 class="card-title">맞았습니다</h5>
+        <p class="card-text">계속 하세요!</p>
+      </div>
+    </div>
+
+    <div class="card text-white bg-danger mb-3 wrong"
+      style="display:none;margin:30px;position:absolute;bottom:0;right:0;font-size:10px;" role="alert">
+      <div class="card-header">Oops!</div>
+      <div class="card-body">
+        <h5 class="card-title">정답이 아닙니다!</h5>
+        <p class="card-text">사이트에서 공부하세요!</p>
+      </div>
+    </div>
 
     <h1>Quiz</h1>
 
