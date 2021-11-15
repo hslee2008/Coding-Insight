@@ -49,6 +49,7 @@ const menu = `
   <p id="men">
     <a href="conbregot.html">(23) &#67;&#111;&#110;&#116;&#105;&#110;&#117;&#101;&#44;&#32;&#66;&#114;&#101;&#97;&#107;&#44;&#32;&#71;&#111;&#116;&#111;&#32;&#47928;</a>
     <a href="array.html">(24) &#48176;&#50676;<span class="badge badge-secondary" style="color:red;">NEW</span></a>
+    <a href="string.html">(24) &#47928;&#51088;&#50676;<span class="badge badge-secondary" style="color:red;">NEW</span></a>
   </p>
 </details>
 
