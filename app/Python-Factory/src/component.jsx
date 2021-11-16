@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { View, Text, Linking, Image } from "react-native";
-import { ProgressBar, IconButton } from "react-native-paper";
+import { ProgressBar, IconButton, List } from "react-native-paper";
 import styles from "./style.jsx";
 import global from "./global.jsx";
 
@@ -48,10 +48,7 @@ const Bar = memo( ( props ) => {
       />
       <IconButton
         icon="menu"
-        onPress={ () => {
-          props.setVisible( p => !p )
-          console.log( props.visible )
-        } }
+        onPress={ () => props.setVisible( p => !p ) }
         color="white"
       />
       <IconButton
@@ -62,7 +59,38 @@ const Bar = memo( ( props ) => {
     </View>
   );
 } );
+
+const MenuMore = ( props ) => (
+  <List.Section>
+    <List.Subheader>Learn More About Us!</List.Subheader>
+    <List.Item title="Search" left={ () => <List.Icon icon="magnify" /> } description="Search us in Google CSE" onPress={ () => {
+      props.setVisible( false );
+      props.setLink( "https://cse.google.com/cse?cx=ee1853348b1a4e08b" );
+    } } />
+    <List.Item title="GitHub" left={ () => <List.Icon icon="github" /> } description="Check our source code" onPress={ () => {
+      props.setVisible( false );
+      props.setLink(
+        "https://github.com/HyunseungLee-Travis/Coding-Insight"
+      );
+    } } />
+    <List.Item title="YouTube" left={ () => <List.Icon icon="youtube" /> } description="Watch videos about Python" onPress={ () => {
+      props.setVisible( false );
+      props.setLink(
+        "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+      );
+    } } />
+    <List.Item title="Game" left={ () => <List.Icon icon="controller-classic" /> } description="Play a simple game" onPress={ () => {
+      props.setVisible( false );
+      props.setLink( "https://www.coding-insight.com/game.html" );
+    } } />
+    <List.Item title="Chat" left={ () => <List.Icon icon="chat" /> } description="Chat with the developers" onPress={ () => {
+      props.setVisible( false );
+      props.setLink( "https://www.coding-insight.com/chat.html" );
+    } } />
+  </List.Section>
+);
+
 const MenuButton = ( props ) =>
   props.menu ? <Bar { ...props.barprop } /> : <IconButton { ...props.iconprop } />;
 
-export { Header, home, ProgressPyF, MenuButton };
+export { Header, home, ProgressPyF, MenuButton, MenuMore };

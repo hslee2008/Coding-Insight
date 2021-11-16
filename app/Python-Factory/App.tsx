@@ -5,68 +5,22 @@ import { WebView } from "react-native-webview";
 import Settings, { setting } from "./src/setting.jsx";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
-import { home, ProgressPyF, MenuButton } from "./src/component.jsx";
+import { home, ProgressPyF, MenuButton, MenuMore } from "./src/component.jsx";
 import styles from "./src/style.jsx";
 import global from "./src/global.jsx";
-import { Dialog, Portal, Provider, Button } from "react-native-paper";
+import { Dialog, Portal, Provider } from "react-native-paper";
 
 var Stack = createStackNavigator(),
-  reloadWebView: any;
+  reloadWebView: any,
+  navi: any,
+  web_view: any,
+  linka: any;
 
 const Alert = (props: any) => (
   <Portal>
     <Dialog visible={props.visible} onDismiss={() => props.setVisible(false)}>
-      <Dialog.Title>See More about our Site</Dialog.Title>
       <Dialog.Content>
-        <Button
-          icon="magnify"
-          onPress={() => {
-            props.setVisible(false);
-            props.setLink("https://cse.google.com/cse?cx=ee1853348b1a4e08b");
-          }}
-        >
-          Search
-        </Button>
-        <Button
-          icon="github"
-          onPress={() => {
-            props.setVisible(false);
-            props.setLink(
-              "https://github.com/HyunseungLee-Travis/Coding-Insight"
-            );
-          }}
-        >
-          GitHub
-        </Button>
-        <Button
-          icon="youtube"
-          onPress={() => {
-            props.setVisible(false);
-            props.setLink(
-              "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
-            );
-          }}
-        >
-          YouTube
-        </Button>
-        <Button
-          icon="controller-classic"
-          onPress={() => {
-            props.setVisible(false);
-            props.setLink("https://www.coding-insight.com/game.html");
-          }}
-        >
-          Game
-        </Button>
-        <Button
-          icon="chat"
-          onPress={() => {
-            props.setVisible(false);
-            props.setLink("https://www.coding-insight.com/chat.html");
-          }}
-        >
-          Chat
-        </Button>
+        <MenuMore {...props} />
       </Dialog.Content>
     </Dialog>
   </Portal>
@@ -91,13 +45,9 @@ const Home = React.memo(({ navigation }: any) => {
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
 
-  BackHandler.addEventListener("hardwareBackPress", () => {
-    navigation.navigate("Home")
-
-    global.ishome(link, home) ? BackHandler.exitApp() : webViewRef.current.goBack();
-
-    return true;
-  });
+  navi = navigation;
+  web_view = webViewRef;
+  linka = link;
 
   return (
     <Provider>
@@ -109,7 +59,7 @@ const Home = React.memo(({ navigation }: any) => {
 
       <WebView
         ref={webViewRef}
-        source={{ uri:  link }}
+        source={{ uri: link }}
         onNavigationStateChange={(a: any) => setLink(a.url)}
         userAgent={global.browsername}
         onLoad={() => setWebLoading(false)}
@@ -158,6 +108,16 @@ const MainSetting = React.memo(({ navigation }: any) => (
 ));
 
 function App() {
+  BackHandler.addEventListener("hardwareBackPress", () => {
+    navi.navigate("Home");
+
+    global.ishome(linka, home)
+      ? BackHandler.exitApp()
+      : web_view.current.goBack();
+
+    return true;
+  });
+
   return (
     <NavigationContainer>
       <StatusBar hidden />
