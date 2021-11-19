@@ -5,11 +5,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -69,7 +64,7 @@
 
     #title {
       background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHl0aG9uJTIwY29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
-      margin: 0;
+      margin: 0 !important;
       padding: 0;
       background-attachment: fixed;
       background-position: center;
@@ -171,7 +166,7 @@
     </div>
   </div>
   <nav id="entry"
-    style="margin :100px;border-style:solid;border-color:#101010;border-radius:10px;padding:50px;display:flex;" id="py"
+    style="margin :100px;border-style:solid;border-color:#101010;border-radius:10px;padding:50px;display:flex;"
     class="shadow-lg p-3 mb-5 bg-white rounded">
     <div>
       <div style="text-align:center;">
@@ -196,8 +191,7 @@
   </nav>
   <div style="display: flex;justify-content: space-evenly;">
     <div
-      style="text-align:center;margin:20px;background-color:#101010;border-style:solid;border-radius:10px;color:white;padding:50px;display:flex;"
-      id="py">
+      style="text-align:center;margin:20px;background-color:#101010;border-style:solid;border-radius:10px;color:white;padding:50px;display:flex;">
       <div>
         <h2 style="font-size:20px;">파이썬 (Python)</h2>
         <div style="font-size:14px;padding:50px;">
@@ -219,8 +213,7 @@
       </div>
     </div>
     <div
-      style="text-align:center;margin:20px;background-color:#b7b3b4;border-style:solid;border-radius:10px;color:black;padding:50px;display:flex;border-color:#b7b3b4;"
-      id="py">
+      style="text-align:center;margin:20px;background-color:#b7b3b4;border-style:solid;border-radius:10px;color:black;padding:50px;display:flex;border-color:#b7b3b4;">
       <div>
         <h2 style="font-size:20px;">C 언어</h2>
         <div style="font-size:14px;padding:50px;">
@@ -372,28 +365,6 @@
 
       document.querySelector( "#date" ).innerText = "마지막 업데이트: " + timeString + "시간 전";
     }, 500 );
-  </script>
-  <script>
-    ( function () {
-
-      var controller = new ScrollMagic.Controller();
-
-      var tween1 = TweenMax.fromTo( "#entry", 0.6, {
-        scale: 1,
-      }, {
-        scale: 1.1
-      } )
-
-      var scene = new ScrollMagic.Scene( {
-          triggerElement: "#entry",
-          duration: "50%"
-        } )
-        .setTween( tween1 )
-        .addTo( controller )
-
-
-
-    }() )
   </script>
 </body>
 

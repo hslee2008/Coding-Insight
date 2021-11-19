@@ -48,8 +48,9 @@ const menu = `
   <summary>&#67;&#32;&#50616;&#50612;&#32;&#52488;&#44553;</summary>
   <p id="men">
     <a href="conbregot.html">(23) &#67;&#111;&#110;&#116;&#105;&#110;&#117;&#101;&#44;&#32;&#66;&#114;&#101;&#97;&#107;&#44;&#32;&#71;&#111;&#116;&#111;&#32;&#47928;</a>
-    <a href="array.html">(24) &#48176;&#50676;<span class="badge badge-secondary" style="color:red;">NEW</span></a>
-    <a href="string.html">(24) &#47928;&#51088;&#50676;<span class="badge badge-secondary" style="color:red;">NEW</span></a>
+    <a href="array.html">(24) &#48176;&#50676;</a>
+    <a href="string.html">(25) &#47928;&#51088;&#50676;</a>
+    <a href="stringlibrary.html">(26) &#115;&#116;&#114;&#105;&#110;&#103;&#32;&#46972;&#51060;&#48652;&#47084;&#47532;<span class="badge badge-secondary" style="color:red;">NEW</span></a>
   </p>
 </details>
 

@@ -47,22 +47,26 @@
 
   <div style="padding:30px;display:flex;margin:30px;">
     <div style="padding:10px;margin:10px;">
-      <h1>do - while이란?</h1>
+      <h1>string.h</h1>
       <p>
-        do - while은 while과 매우 비슷합니다.<br><br>
+        string.h는 라이브러리 이름입니다.<br><br>
 
-        하지만, do - while은 코드를 먼저 실행하고 조건을 확인합니다.<br><br>
+        라이브러리란 특별한 기능을 담고 있는 파일을 뜻합니다.<br><br>
 
-        그래서 만일 조건이 맞더라 하더라도 코드를 먼저 실행하고 종료합니다.<br><br>
+        그 라이브러리의 파일 안에서 특별한 함수를 가지고 와서 사용할 수 있습니다.<br><br>
 
-        반면에, while은 조건을 먼저 확인하고 코드를 실행합니다. 그래서 조건이 맞다면 바로 끝냅니다.
+        가지고 오려면 #include &lt;>를 사용해서 &lt;> 안에 라이브러리 이름을 넣습니다.<br><br>
+
+        <code>#include &lt;string.h></code>
       </p>
     </div>
-    <div style="margin:auto;">
-      <img alt="python factory picture"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbVNNNbmpjCeLqYpzXRD_laaMoqSMNnvPfhw&usqp=CAU" />
+    <div style="margin: auto;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64-iXvGvvY0ocawLl6ECyR1njP5AJM9J4iA&usqp=CAU"
+        width="300px" alt="words" />
     </div>
   </div>
+
+  <br><br>
 
   <div style="text-align: center;">
     <hr>
@@ -83,9 +87,9 @@
       </div>
     </div>
     <br><br>
-    <h1 style="margin:auto;font-size:30px;"><span id="tit">do - while 반복문</span><br id="lbbr"><span id="txt">Computer
+    <h1 style="margin:auto;font-size:30px;"><span id="tit">string 라이브러리</span><br id="lbbr"><span id="txt">Computer
         Science Lab
-        (</span>CSL<span id="txt">)</span> 21
+        (</span>CSL<span id="txt">)</span> 26
     </h1>
     <br>
     <hr>
@@ -93,65 +97,76 @@
 
   <br><br><br><br>
 
-  <div style="padding:30px;display:flex;">
-    <div style="padding:10px;margin:10px;">
-      <h1>do - while 사용</h1>
-      <p>
-        do - while은 while과 비슷하고 while에서도 do - while과 비슷한 기능을 넣을 수 있기 때문에 많이 사용되지는 않습니다.<br><br>
-
-        하지만 알면 좋고 특별한 상황에서 유용하게 사용할 수 있습니다.
-      </p>
-    </div>
-    <div style="margin: auto;">
-      <img src="http://pics.c4learn.com/2014/01/cpp-do-while-loop.png" width="200px" alt="for loop" />
-    </div>
-  </div>
-
-  <br><br>
-
-  <div style="padding:30px;display:flex;margin:30px;background-color: #000000;color:white;">
-    <div style="padding:10px;margin:10px;">
-      <h1>예시</h1>
-      <code>
-        #include &lt;stdio.h><br><br>
-
-        ing main()<br>
-        {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;char a;<br><br>
-
-        &nbsp;&nbsp;&nbsp;&nbsp;do {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scanf("%d", &a);<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("%d", n);<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;} while (a != "f");<br><br>
-
-        &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
-        }
-      </code>
-    </div>
-    <div style="margin: auto;">
-      <iframe src="https://www.jdoodle.com/embed/v0/3YM3" width="700px" height="400px"></iframe>
-    </div>
-  </div>
-
-  <br><br>
-
   <div style="padding:30px;display:flex;margin:30px;">
     <div style="padding:10px;margin:10px;">
-      <h1>주의 할 점</h1>
+      <h1>문자열 붙이기</h1>
       <p>
-        while 조건 다음에 꼭 ;를 붙이세요!
+        <h3>strcat()</h3>
+
+        문자열 a에 문자열 b를 붙이기 위해서 strcat() 함수를 사용할 수 있습니다.<br><br>
+
+        strcat(string, secondString) 형태로 string 변수의 값 뒤에 secondString 변수의 값을 붙입니다.<br><br>
+
+        secondString은 변수가 아닌 문자열이어도 됩니다.<br><br>
+
+        <code>
+          char str[99];<br><br>
+
+          strcpy(str, "Hello World");<br><br>
+
+          puts(str);
+        </code>
+
+        <h3>strncat()</h3>
+
+        strncat은 strcat()과 비슷하지만 한 변수에 다른 변수의 문자열(길이가 제한되어 있습니다)을 붙입니다.<br><br>
+
+        strncat(string, secondString, x) 형태로 string에 secondString의 x번째에서 끊어서 붙입니다.<br><br>
+
+        <code>
+          char strs[99] = "Hello ";<br>
+          char secStr[99] = "World";<br><br>
+
+          strncat(strs, secStr, 5);<br><br>
+
+          puts(strs);
+        </code>
+
       </p>
+    </div>
+    <div style="margin: auto;">
+      <iframe src="https://www.jdoodle.com/embed/v0/44gl" width="500" height="700"></iframe>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div style="padding:30px;margin:30px;background-color: #000000;color:white;display:flex;">
+    <div style="padding:10px;margin:10px;">
+      <h1>문자열 길이 구하기</h1>
+      <p>
+        strlen(string) 형태로 string 문자열의 길이를 알 수 있습니다.<br><br>
+
+        <code>
+          printf("%d", strlen("C is awsome"));
+        </code>
+
+        참고로 공백 포함입니다.
+      </p>
+    </div>
+    <div style="margin:auto;">
+      <iframe src="https://www.jdoodle.com/embed/v0/44gm" width="600" height="400"></iframe>
     </div>
   </div>
 
   <br><br>
 
   <div style="margin :20px;padding:10px;">
-    <button style="float:left;" class="btn btn-outline-info"><a href="doublefor.html">❮ 이전</a></button>
-    <button style="float:right;" class="btn btn-outline-info"><a href="inffor.html">다음 ❯</a></button>
+    <button style="float:left;" class="btn btn-outline-info"><a href="string.html">❮ 이전</a></button>
+    <button style="float:right;" class="btn btn-outline-info"><a href="2darr.html">다음 ❯</a></button>
   </div>
 
-  <br><br><br><br>
+  <br><br><br><br><br><br>
 
   <script defer src="script.js"></script>
 </body>
