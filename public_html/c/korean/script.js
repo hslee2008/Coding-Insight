@@ -51,6 +51,7 @@ const menu = `
     <a href="array.html">(24) &#48176;&#50676;</a>
     <a href="string.html">(25) &#47928;&#51088;&#50676;</a>
     <a href="stringlibrary.html">(26) &#115;&#116;&#114;&#105;&#110;&#103;&#32;&#46972;&#51060;&#48652;&#47084;&#47532;<span class="badge badge-secondary" style="color:red;">NEW</span></a>
+    <a href="2darr.html">(26) &#50;&#52264;&#50896;&#32;&#48176;&#50676;<span class="badge badge-secondary" style="color:red;">NEW</span></a>
   </p>
 </details>
 
