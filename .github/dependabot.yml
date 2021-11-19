@@ -4,8 +4,3 @@ updates:
     directory: "../app/Python-Factory"
     schedule:
       interval: "daily"
-  
-  - package-ecosystem: "npm"
-    directory: "../website/public_html"
-    schedule:
-      interval: "daily"
