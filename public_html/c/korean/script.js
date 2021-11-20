@@ -55,9 +55,18 @@ const menu = `
     <br /><br />
     <a href="function.html">(28) &#54632;&#49688;</a>
     <a href="mainfunction.html">(29) &#109;&#97;&#105;&#110;&#32;&#54632;&#49688; </a>
-    <a href="storageclass.html">(30) &#49828;&#53664;&#47532;&#51648;&#32;&#53364;&#47000;&#49828;<span class="badge badge-secondary" style="color:red;">새로운 내용</span>
-    <a href="typedef.html">(31) &#116;&#121;&#112;&#101;&#100;&#101;&#102;<span class="badge badge-secondary" style="color:red;">새로운 내용</span>
- </a>
+    <a href="storageclass.html">(30) &#49828;&#53664;&#47532;&#51648;&#32;&#53364;&#47000;&#49828;</a>
+    <a href="typedef.html">(31) &#116;&#121;&#112;&#101;&#100;&#101;&#102;</a>
+  </p>
+</details>
+
+<br /><br />
+
+
+<details>
+  <summary>&#67;&#32;&#50616;&#50612;&#32;&#51473;&#44553;</summary>
+  <p id="men">
+    <a href="struct.html">(32) struct<span class="badge badge-secondary" style="color:red;">새로운 내용</span></a>
   </p>
 </details>
 

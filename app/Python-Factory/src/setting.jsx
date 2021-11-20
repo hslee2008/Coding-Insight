@@ -4,7 +4,8 @@ import {
   Checkbox as cb,
   Avatar,
   Appbar,
-  FAB, Searchbar,
+  FAB,
+  Searchbar,
 } from "react-native-paper";
 import { View, ScrollView } from "react-native";
 import { reloadAsync, manifest } from "expo-updates";
@@ -20,7 +21,7 @@ var setting = {
   phone: true,
   menu: true,
   korean: true,
-};
+}, changed = false;
 
 function useForceUpdate () {
   const [ , setValue ] = useState( 0 );
@@ -32,12 +33,14 @@ function WebSetting ( props ) {
   const changeCookie = () => {
     setCookie( ( p ) => !p );
     setting.cookie = Cookie;
+    changed = true;
   };
 
   const [ cache, setCache ] = useState( false );
   const changeCache = () => {
     setCache( ( p ) => !p );
     setting.cache = cache;
+    changed = true;
   };
 
   return (
@@ -93,12 +96,14 @@ function LooksSetting ( props ) {
   const changePhone = () => {
     setPhone( ( p ) => !p );
     setting.phone = phone;
+    changed = true;
   };
 
   const [ scroll, setScroll ] = useState( false );
   const changeScroll = () => {
     setScroll( ( p ) => !p );
     setting.scroll = scroll;
+    changed = true;
   };
   return (
     <List.Section title="Style Setting">
@@ -159,12 +164,14 @@ function OtherSetting ( props ) {
   const changeSecret = () => {
     setSecret( ( p ) => !p );
     setting.secret = secret;
+    changed = true;
   };
 
   const [ korean, setKorean ] = useState( false );
   const changeKorean = () => {
     setKorean( ( p ) => !p );
     setting.korean = korean;
+    changed = true;
   };
 
   return (
@@ -229,6 +236,7 @@ function AppSetting ( props ) {
   const changeMenu = () => {
     setMenu( ( p ) => !p );
     setting.menu = menu;
+    changed = true;
   };
 
   return (
@@ -272,7 +280,9 @@ const AppBar = memo( ( props ) => (
       icon="close"
       onPress={ () => {
         props.close();
-        props.reloadWebView();
+        if ( changed ) props.reloadWebView();
+
+        changed = false;
       } }
     />
   </Appbar.Header>

@@ -33,12 +33,24 @@ const Bar = memo( ( props ) => {
     >
       <IconButton icon="undo" onPress={ props.goback } color="white" />
       <IconButton icon="redo" onPress={ props.goforward } color="white" />
-      <IconButton
-        icon="reload"
-        onPress={ props.reload }
-        color="white"
-        disabled={ props.webLoading }
-      />
+      {
+        props.webLoading ? (
+          <IconButton
+            icon="stop"
+            onPress={ () => {
+              props.stop();
+              props.setWebLoading( false );
+            } }
+            color="white"
+          />
+        ) : (
+          <IconButton
+            icon="reload"
+            onPress={ props.reload }
+            color="white"
+          />
+        )
+      }
       <IconButton
         icon="home"
         disabled={ global.ishome( props.link, home ) }

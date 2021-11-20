@@ -44,6 +44,7 @@ const Home = React.memo(({ navigation }: any) => {
   reloadWebView = reload;
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
+  const stop = () => webViewRef.current.stopLoading();
 
   navi = navigation;
   web_view = webViewRef;
@@ -92,6 +93,8 @@ const Home = React.memo(({ navigation }: any) => {
           navigation,
           setVisible,
           visible,
+          stop,
+          setWebLoading,
         }}
         iconprop={{
           icon: "cog",
