@@ -52,9 +52,11 @@ const menu = `
     <a href="string.html">(25) &#47928;&#51088;&#50676;</a>
     <a href="stringlibrary.html">(26) &#115;&#116;&#114;&#105;&#110;&#103;&#32;&#46972;&#51060;&#48652;&#47084;&#47532;</a>
     <a href="2darr.html">(27) &#50;&#52264;&#50896;&#32;&#48176;&#50676;</a>
+    <br /><br />
     <a href="function.html">(28) &#54632;&#49688;</a>
     <a href="mainfunction.html">(29) &#109;&#97;&#105;&#110;&#32;&#54632;&#49688; </a>
     <a href="storageclass.html">(30) &#49828;&#53664;&#47532;&#51648;&#32;&#53364;&#47000;&#49828;<span class="badge badge-secondary" style="color:red;">새로운 내용</span>
+    <a href="typedef.html">(31) &#116;&#121;&#112;&#101;&#100;&#101;&#102;<span class="badge badge-secondary" style="color:red;">새로운 내용</span>
  </a>
   </p>
 </details>
