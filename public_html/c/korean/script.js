@@ -53,6 +53,7 @@ const menu = `
     <a href="stringlibrary.html">(26) &#115;&#116;&#114;&#105;&#110;&#103;&#32;&#46972;&#51060;&#48652;&#47084;&#47532;</a>
     <a href="2darr.html">(26) &#50;&#52264;&#50896;&#32;&#48176;&#50676;</a>
     <a href="function.html">(26) &#54632;&#49688;<span class="badge badge-secondary" style="color:red;">NEW</span></a>
+    <a href="mainfunction.html">(27) main <span class="badge badge-secondary" style="color:red;">NEW</span></a>
   </p>
 </details>
 
