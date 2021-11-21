@@ -1,14 +1,37 @@
 import React, { memo } from "react";
-import { View, Text, Linking, Image } from "react-native";
-import { ProgressBar, IconButton, List } from "react-native-paper";
+import { View, Text, Linking, } from "react-native";
+import { ProgressBar, List, IconButton } from "react-native-paper";
+import Constants from 'expo-constants';
 import styles from "./style.jsx";
 import global from "./global.jsx";
+import {
+  Image,
+  ScrollView,
+  Box,
+  Actionsheet,
+} from "native-base";
 
 var home = "https://www.coding-insight.com";
 
+
+const Alert = ( props ) => (
+  <Actionsheet
+    isOpen={ props.visible }
+    onClose={ () => props.setVisible( false ) }
+  >
+    <Actionsheet.Content>
+      <Box w="100%" h="100%" px={ 2 } justifyContent="center">
+        <ScrollView>
+          <MenuMore { ...props } />
+        </ScrollView>
+      </Box>
+    </Actionsheet.Content>
+  </Actionsheet>
+);
+
 const Header = memo( () => (
   <View style={ styles.view }>
-    <Image source={ { uri: home + "/py.png" } } style={ styles.image } />
+    <Image source={ { uri: home + "/py.png" } } style={ styles.image } alt="python factory logo" />
     <View>
       <Text style={ styles.title }>Settings</Text>
       <Text style={ styles.text }>If there is a bug, press the clock button</Text>
@@ -25,12 +48,7 @@ const ProgressPyF = ( props ) => {
 
 const Bar = memo( ( props ) => {
   return (
-    <View
-      style={ [
-        styles.view,
-        { backgroundColor: "black", justifyContent: "space-evenly" },
-      ] }
-    >
+    <View style={ styles.bar }>
       <IconButton icon="undo" onPress={ props.goback } color="white" />
       <IconButton icon="redo" onPress={ props.goforward } color="white" />
       {
@@ -39,7 +57,6 @@ const Bar = memo( ( props ) => {
             icon="stop"
             onPress={ () => {
               props.stop();
-              props.setWebLoading( false );
             } }
             color="white"
           />
@@ -99,10 +116,14 @@ const MenuMore = ( props ) => (
       props.setVisible( false );
       props.setLink( "https://www.coding-insight.com/chat.html" );
     } } />
+    <List.Item title="Release" left={ () => <List.Icon icon="application" /> } description="Check the latest updates" onPress={ () => {
+      props.setVisible( false );
+      props.setLink( "https://github.com/HyunseungLee-Travis/Coding-Insight/releases/tag/" + Constants.manifest.version );
+    } } />
   </List.Section>
 );
 
 const MenuButton = ( props ) =>
   props.menu ? <Bar { ...props.barprop } /> : <IconButton { ...props.iconprop } />;
 
-export { Header, home, ProgressPyF, MenuButton, MenuMore };
+export { Header, home, ProgressPyF, MenuButton, MenuMore, Alert };

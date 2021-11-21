@@ -1,14 +1,15 @@
 import "react-native-gesture-handler";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, memo } from "react";
 import { StatusBar, BackHandler } from "react-native";
 import { WebView } from "react-native-webview";
 import Settings, { setting } from "./src/setting.jsx";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
-import { home, ProgressPyF, MenuButton, MenuMore } from "./src/component.jsx";
+import { home, ProgressPyF, MenuButton, Alert } from "./src/component.jsx";
 import styles from "./src/style.jsx";
 import global from "./src/global.jsx";
-import { Dialog, Portal, Provider } from "react-native-paper";
+import { Provider } from "react-native-paper";
+import { NativeBaseProvider, useToast } from "native-base";
 
 var Stack = createStackNavigator(),
   reloadWebView: any,
@@ -16,24 +17,16 @@ var Stack = createStackNavigator(),
   web_view: any,
   linka: any;
 
-const Alert = (props: any) => (
-  <Portal>
-    <Dialog visible={props.visible} onDismiss={() => props.setVisible(false)}>
-      <Dialog.Content>
-        <MenuMore {...props} />
-      </Dialog.Content>
-    </Dialog>
-  </Portal>
-);
-
-const Home = React.memo(({ navigation }: any) => {
+const Home = memo(({ navigation }: any) => {
   const webViewRef: any = useRef(null);
+  const toast = useToast();
 
   const [webLoading, setWebLoading] = useState(true);
   const [link, setLink] = useState(
     setting.korean ? home : home + "/index-en.html"
   );
-  const [visible, setVisible] = React.useState(false);
+  const [visible, setVisible] = useState(false);
+  const [menu, setMenu] = useState(false);
 
   const reload = () => {
     webViewRef.current.clearHistory();
@@ -44,7 +37,15 @@ const Home = React.memo(({ navigation }: any) => {
   reloadWebView = reload;
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
-  const stop = () => webViewRef.current.stopLoading();
+  const stop = () => {
+    webViewRef.current.stopLoading();
+    setWebLoading(false);
+    toast.show({
+      title: "Make sure!",
+      description: "to reload to see the full page",
+      status: "info",
+    });
+  };
 
   navi = navigation;
   web_view = webViewRef;
@@ -57,7 +58,6 @@ const Home = React.memo(({ navigation }: any) => {
         setVisible={setVisible}
         setLink={(a: string) => setLink(a)}
       />
-
       <WebView
         ref={webViewRef}
         source={{ uri: link }}
@@ -84,6 +84,13 @@ const Home = React.memo(({ navigation }: any) => {
         }
         textZoom={parseInt(setting.text)}
         setBuiltInZoomControls={setting.zoom}
+        onError={() => {
+          toast.show({
+            title: "Error",
+            status: "error",
+            description: "Please try again",
+          });
+        }}
       />
       <ProgressPyF webLoading={webLoading} />
       <MenuButton
@@ -100,6 +107,7 @@ const Home = React.memo(({ navigation }: any) => {
           visible,
           stop,
           setWebLoading,
+          setMenu,
         }}
         iconprop={{
           icon: "cog",
@@ -111,7 +119,7 @@ const Home = React.memo(({ navigation }: any) => {
   );
 });
 
-const MainSetting = React.memo(({ navigation }: any) => (
+const MainSetting = memo(({ navigation }: any) => (
   <Settings close={navigation.goBack} reloadWebView={reloadWebView} />
 ));
 
@@ -127,14 +135,16 @@ function App() {
   });
 
   return (
-    <NavigationContainer>
-      <StatusBar hidden />
-      <Stack.Navigator screenOptions={global.screenopt}>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Settings" component={MainSetting} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <NativeBaseProvider>
+      <NavigationContainer>
+        <StatusBar hidden />
+        <Stack.Navigator screenOptions={global.screenopt}>
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Settings" component={MainSetting} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </NativeBaseProvider>
   );
 }
 
-export default React.memo(App);
+export default memo(App);
