@@ -1,6 +1,6 @@
-a.b.c.d
+a.b.c *
 
-d -> Component and Setting Change and Simple Bug Fix (Security and React Native)
-c --> File Change and Fast
-b --> Style Change
+c --> Component and Setting Change and Simple Bug Fix (Security and React Native)
+b --> File, Style Change and Fast
 a --> Complete Change
+* --> Initial Release
