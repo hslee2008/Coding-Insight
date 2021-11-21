@@ -73,12 +73,17 @@ const Home = React.memo(({ navigation }: any) => {
         pullToRefreshEnabled
         javaScriptCanOpenWindowsAutomatically
         geolocationEnabled
+        setSupportMultipleWindows
+        saveFormDataDisabled
+        allowFileAccess
         domStorageEnabled
         startInLoadingState
         allowsFullscreenVideo
         injectedJavaScriptBeforeContentLoaded={
           setting.phone ? "" : global.javascript
         }
+        textZoom={parseInt(setting.text)}
+        setBuiltInZoomControls={setting.zoom}
       />
       <ProgressPyF webLoading={webLoading} />
       <MenuButton
