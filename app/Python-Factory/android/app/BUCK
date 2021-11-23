@@ -1,13 +1,3 @@
-# To learn about Buck see [Docs](https://buckbuild.com/).
-# To run your application with Buck:
-# - install Buck
-# - `npm start` - to start the packager
-# - `cd android`
-# - `keytool -genkey -v -keystore keystores/debug.keystore -storepass android -alias androiddebugkey -keypass android -dname "CN=Android Debug,O=Android,C=US"`
-# - `./gradlew :app:copyDownloadableDepsToLibs` - make all Gradle compile dependencies available to Buck
-# - `buck install -r android/app` - compile, install and run application
-#
-
 load(":build_defs.bzl", "create_aar_targets", "create_jar_targets")
 
 lib_deps = []
