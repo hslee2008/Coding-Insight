@@ -1,7 +1,6 @@
 import React, { memo } from "react";
 import { View, Text, Linking, } from "react-native";
 import { ProgressBar, List, IconButton } from "react-native-paper";
-import Constants from 'expo-constants';
 import styles from "./style.jsx";
 import global from "./global.jsx";
 import {
@@ -13,16 +12,50 @@ import {
 
 var home = "https://www.coding-insight.com";
 
-
 const Alert = ( props ) => (
-  <Actionsheet
-    isOpen={ props.visible }
-    onClose={ () => props.setVisible( false ) }
-  >
+  <Actionsheet isOpen={ props.visible } onClose={ props.hide }>
     <Actionsheet.Content>
       <Box w="100%" h="100%" px={ 2 } justifyContent="center">
         <ScrollView>
-          <MenuMore { ...props } />
+          <List.Section>
+            <List.Subheader>Learn More About Us!</List.Subheader>
+            <List.Item title="Search" left={ () => <List.Icon icon="magnify" /> } description="Search us in Google CSE" onPress={ () => {
+              props.setLink( "https://cse.google.com/cse?cx=ee1853348b1a4e08b" );
+              props.hide();
+            } } />
+            <List.Item title="GitHub" left={ () => <List.Icon icon="github" /> } description="Check our source code" onPress={ () => {
+              props.setLink(
+                "https://github.com/HyunseungLee-Travis/Coding-Insight"
+              );
+              props.hide();
+            } } />
+            <List.Item title="YouTube" left={ () => <List.Icon icon="youtube" /> } description="Watch videos about Python" onPress={ () => {
+              props.setLink(
+                "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+              );
+              props.hide();
+            } } />
+            <List.Item title="Game" left={ () => <List.Icon icon="controller-classic" /> } description="Play a simple game" onPress={ () => {
+              props.setLink( "https://www.coding-insight.com/game.html" );
+              props.hide();
+            } } />
+            <List.Item title="Chat" left={ () => <List.Icon icon="chat" /> } description="Chat with the developers" onPress={ () => {
+              props.setLink( "https://www.coding-insight.com/chat.html" );
+              props.hide();
+            } } />
+            <List.Item title="Release" left={ () => <List.Icon icon="application" /> } description="Check the latest updates" onPress={ () => {
+              props.setLink( "https://github.com/HyunseungLee-Travis/Coding-Insight/releases/tag/1.4.2" );
+              props.hide();
+            } } />
+            <List.Item title="Feedback" left={ () => <List.Icon icon="message-alert" /> } description="Please tell us what you think" onPress={ () => {
+              props.setLink( "https://docs.google.com/forms/d/e/1FAIpQLSd_8WaZFf9FOanYdBil4t1PBZmzY6uRElimcbXbqVZgxghISg/viewform" );
+              props.hide();
+            } } />
+            <List.Item title="Fun Videos" left={ () => <List.Icon icon="movie" /> } description="Watch fun videos about Python" onPress={ () => {
+              props.setLink( "https://coding-insight.com/python/korean/video.html" );
+              props.hide();
+            } } />
+          </List.Section>
         </ScrollView>
       </Box>
     </Actionsheet.Content>
@@ -38,13 +71,13 @@ const Header = memo( () => (
     </View>
   </View>
 ) );
-const ProgressPyF = ( props ) => {
-  if ( props.webLoading )
-    return (
-      <ProgressBar indeterminate color="dodgerblue" style={ styles.progress } />
-    );
-  else return null;
-};
+
+const ProgressPyF = props =>
+  props.webLoading
+    ?
+    <ProgressBar indeterminate color="dodgerblue" style={ styles.progress } />
+    : null;
+
 
 const Bar = memo( ( props ) => {
   return (
@@ -82,48 +115,27 @@ const Bar = memo( ( props ) => {
       />
       <IconButton
         icon="cog"
-        onPress={ () => props.navigation.navigate( "Settings" ) }
+        onPress={ props.goToSetting }
         color="white"
       />
     </View>
   );
 } );
 
-const MenuMore = ( props ) => (
-  <List.Section>
-    <List.Subheader>Learn More About Us!</List.Subheader>
-    <List.Item title="Search" left={ () => <List.Icon icon="magnify" /> } description="Search us in Google CSE" onPress={ () => {
-      props.setVisible( false );
-      props.setLink( "https://cse.google.com/cse?cx=ee1853348b1a4e08b" );
-    } } />
-    <List.Item title="GitHub" left={ () => <List.Icon icon="github" /> } description="Check our source code" onPress={ () => {
-      props.setVisible( false );
-      props.setLink(
-        "https://github.com/HyunseungLee-Travis/Coding-Insight"
-      );
-    } } />
-    <List.Item title="YouTube" left={ () => <List.Icon icon="youtube" /> } description="Watch videos about Python" onPress={ () => {
-      props.setVisible( false );
-      props.setLink(
-        "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
-      );
-    } } />
-    <List.Item title="Game" left={ () => <List.Icon icon="controller-classic" /> } description="Play a simple game" onPress={ () => {
-      props.setVisible( false );
-      props.setLink( "https://www.coding-insight.com/game.html" );
-    } } />
-    <List.Item title="Chat" left={ () => <List.Icon icon="chat" /> } description="Chat with the developers" onPress={ () => {
-      props.setVisible( false );
-      props.setLink( "https://www.coding-insight.com/chat.html" );
-    } } />
-    <List.Item title="Release" left={ () => <List.Icon icon="application" /> } description="Check the latest updates" onPress={ () => {
-      props.setVisible( false );
-      props.setLink( "https://github.com/HyunseungLee-Travis/Coding-Insight/releases/tag/" + Constants.manifest.version );
-    } } />
-  </List.Section>
-);
-
 const MenuButton = ( props ) =>
-  props.menu ? <Bar { ...props.barprop } /> : <IconButton { ...props.iconprop } />;
+  props.menu ? <Bar { ...{
+    goback: props.gf.goback,
+    goforward: props.gf.goforward,
+    webLoading: props.gf.webLoading,
+    setLink: props.gf.setLink,
+    reload: props.gf.reload,
+    link: props.gf.link,
+    navigation: props.gf.navigation,
+    setVisible: props.gf.setVisible,
+    visible: props.gf.visible,
+    stop: props.gf.stop,
+    setWebLoading: props.gf.setWebLoading,
+    goToSetting: props.gf.goToSetting
+  } } /> : <IconButton { ...props.iconprop } />;
 
-export { Header, home, ProgressPyF, MenuButton, MenuMore, Alert };
+export { Header, home, ProgressPyF, MenuButton, Alert };

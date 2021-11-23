@@ -1,0 +1,40 @@
+1.4.x
+최적화
+패키지 업데이트
+Expo Eject
+버그 고침
+
+1.3.x
+DrawerLayoutAndroid 사용
+최적화
+스타일 바꿈
+버그 고침
+Context API 사용
+forceUpdate() 사용
+영어/한국어 설정 추가
+폰/컴퓨터 설정 더함
+아이콘 업데이트
+Code Splitting
+StatusBar 리액트 네이티브 사용
+Depcheck로 패키지 최적화
+Expo와 몇가지 패키지 업데이트
+배너, 트래커 더함
+스타일 글로벌 변수 추가
+스타일 버그 고침
+
+1.2.x
+메뉴 바 업데이트
+Webview 링크를 useState로 사용
+margin 버그 고침
+검색 버튼 추가
+
+1.1.x
+최적화
+설정 더함
+내용 더함
+스타일 바꿈
+React Native Paper 사용
+Expo-update 도구 사용
+
+1.0.x
+처음 릴리스

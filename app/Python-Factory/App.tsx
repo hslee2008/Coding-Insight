@@ -2,31 +2,41 @@ import "react-native-gesture-handler";
 import React, { useRef, useState, memo } from "react";
 import { StatusBar, BackHandler } from "react-native";
 import { WebView } from "react-native-webview";
-import Settings, { setting } from "./src/setting.jsx";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
+import { NativeBaseProvider, useToast } from "native-base";
+
 import { home, ProgressPyF, MenuButton, Alert } from "./src/component.jsx";
+import Settings, { setting } from "./src/setting.jsx";
 import styles from "./src/style.jsx";
 import global from "./src/global.jsx";
-import { Provider } from "react-native-paper";
-import { NativeBaseProvider, useToast } from "native-base";
 
 var Stack = createStackNavigator(),
   reloadWebView: any,
-  navi: any,
-  web_view: any,
-  linka: any;
+  isOnSetting: boolean = false,
+  globalFunctions: any;
 
 const Home = memo(({ navigation }: any) => {
   const webViewRef: any = useRef(null);
   const toast = useToast();
+
+  BackHandler.addEventListener("hardwareBackPress", () => {
+    if (isOnSetting) {
+      navigation.navigate("Home");
+    } else if (global.ishome(globalFunctions.link, home)) {
+      BackHandler.exitApp();
+    } else {
+      webViewRef.current.goBack();
+    }
+
+    return true;
+  });
 
   const [webLoading, setWebLoading] = useState(true);
   const [link, setLink] = useState(
     setting.korean ? home : home + "/index-en.html"
   );
   const [visible, setVisible] = useState(false);
-  const [menu, setMenu] = useState(false);
 
   const reload = () => {
     webViewRef.current.clearHistory();
@@ -34,7 +44,6 @@ const Home = memo(({ navigation }: any) => {
     webViewRef.current.clearCache(true);
     webViewRef.current.reload();
   };
-  reloadWebView = reload;
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
   const stop = () => {
@@ -47,103 +56,90 @@ const Home = memo(({ navigation }: any) => {
     });
   };
 
-  navi = navigation;
-  web_view = webViewRef;
-  linka = link;
+  reloadWebView = reload;
+
+  globalFunctions = {
+    webViewRef,
+    toast,
+    webLoading,
+    setWebLoading,
+    link,
+    setLink,
+    visible,
+    setVisible,
+    reload,
+    goback,
+    goforward,
+    stop,
+    navigation,
+    goToSetting: () => {
+      navigation.navigate("Settings");
+      isOnSetting = true;
+    },
+  };
 
   return (
-    <Provider>
+    <>
       <Alert
         visible={visible}
-        setVisible={setVisible}
+        hide={() => setVisible(false)}
         setLink={(a: string) => setLink(a)}
       />
       <WebView
+        {...global.webView}
         ref={webViewRef}
         source={{ uri: link }}
         onNavigationStateChange={(a: any) => setLink(a.url)}
-        userAgent={global.browsername}
         onLoad={() => setWebLoading(false)}
         onLoadProgress={() => setWebLoading(true)}
+        userAgent="CIAV"
         thirdPartyCookiesEnabled={setting.cookie}
         showsHorizontalScrollIndicator={setting.scroll}
         showsVerticalScrollIndicator={setting.scroll}
         incognito={setting.secret}
         cacheEnabled={setting.cache}
-        pullToRefreshEnabled
-        javaScriptCanOpenWindowsAutomatically
-        geolocationEnabled
-        setSupportMultipleWindows
-        saveFormDataDisabled
-        allowFileAccess
-        domStorageEnabled
-        startInLoadingState
-        allowsFullscreenVideo
-        injectedJavaScriptBeforeContentLoaded={
-          setting.phone ? "" : global.javascript
-        }
         textZoom={parseInt(setting.text)}
         setBuiltInZoomControls={setting.zoom}
-        onError={() => {
-          toast.show({
-            title: "Error",
-            status: "error",
-            description: "Please try again",
-          });
-        }}
+        injectedJavaScriptBeforeContentLoaded={setting.phone ? "" : global.js}
       />
       <ProgressPyF webLoading={webLoading} />
       <MenuButton
+        gf={globalFunctions}
         menu={setting.menu}
-        barprop={{
-          goback,
-          goforward,
-          webLoading,
-          setLink,
-          reload,
-          link,
-          navigation,
-          setVisible,
-          visible,
-          stop,
-          setWebLoading,
-          setMenu,
-        }}
         iconprop={{
           icon: "cog",
           onPress: () => navigation.navigate("Settings"),
           style: styles.icon,
         }}
       />
-    </Provider>
+    </>
   );
 });
 
-const MainSetting = memo(({ navigation }: any) => (
-  <Settings close={navigation.goBack} reloadWebView={reloadWebView} />
-));
+const MainSetting = memo(({ navigation }: any) => {
+  const MainSettingComponent = {
+    close: navigation.goBack,
+    reloadWebView: reloadWebView,
+    isOnSetting: () => {
+      isOnSetting = false;
+    },
+    reload: globalFunctions.reload,
+  };
+
+  return <Settings {...MainSettingComponent} />;
+});
 
 function App() {
-  BackHandler.addEventListener("hardwareBackPress", () => {
-    navi.navigate("Home");
-
-    global.ishome(linka, home)
-      ? BackHandler.exitApp()
-      : web_view.current.goBack();
-
-    return true;
-  });
-
   return (
-    <NativeBaseProvider>
-      <NavigationContainer>
+    <NavigationContainer>
+      <NativeBaseProvider>
         <StatusBar hidden />
         <Stack.Navigator screenOptions={global.screenopt}>
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Settings" component={MainSetting} />
         </Stack.Navigator>
-      </NavigationContainer>
-    </NativeBaseProvider>
+      </NativeBaseProvider>
+    </NavigationContainer>
   );
 }
 
