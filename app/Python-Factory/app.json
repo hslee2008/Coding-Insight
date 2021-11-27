@@ -2,7 +2,7 @@
   "expo": {
     "name": "Python-Factory",
     "slug": "Python-Factory",
-    "version": "1.4.2 Phi"
+    "version": "1.4.3"
   },
   "orientation": "portrait",
   "icon": "./assets/icon.png",
