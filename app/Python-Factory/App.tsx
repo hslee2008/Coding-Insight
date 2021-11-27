@@ -5,6 +5,7 @@ import { WebView } from "react-native-webview";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 import { NativeBaseProvider, useToast } from "native-base";
+import { Provider } from "react-native-paper";
 
 import { home, ProgressPyF, MenuButton, Alert } from "./src/component.jsx";
 import Settings, { setting } from "./src/setting.jsx";
@@ -38,12 +39,7 @@ const Home = memo(({ navigation }: any) => {
   );
   const [visible, setVisible] = useState(false);
 
-  const reload = () => {
-    webViewRef.current.clearHistory();
-    webViewRef.current.clearFormData();
-    webViewRef.current.clearCache(true);
-    webViewRef.current.reload();
-  };
+  const reload = () => webViewRef.current.reload();
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
   const stop = () => {
@@ -51,9 +47,14 @@ const Home = memo(({ navigation }: any) => {
     setWebLoading(false);
     toast.show({
       title: "Make sure!",
-      description: "to reload to see the full page",
+      description: "to reload in order to see the full page",
       status: "info",
     });
+  };
+  const erase = () => {
+    webViewRef.current.clearHistory();
+    webViewRef.current.clearFormData();
+    webViewRef.current.clearCache(true);
   };
 
   reloadWebView = reload;
@@ -72,6 +73,7 @@ const Home = memo(({ navigation }: any) => {
     goforward,
     stop,
     navigation,
+    erase,
     goToSetting: () => {
       navigation.navigate("Settings");
       isOnSetting = true;
@@ -92,6 +94,7 @@ const Home = memo(({ navigation }: any) => {
         onNavigationStateChange={(a: any) => setLink(a.url)}
         onLoad={() => setWebLoading(false)}
         onLoadProgress={() => setWebLoading(true)}
+        originWhitelist={["https://*"]}
         userAgent="CIAV"
         thirdPartyCookiesEnabled={setting.cookie}
         showsHorizontalScrollIndicator={setting.scroll}
@@ -131,15 +134,17 @@ const MainSetting = memo(({ navigation }: any) => {
 
 function App() {
   return (
-    <NavigationContainer>
-      <NativeBaseProvider>
-        <StatusBar hidden />
-        <Stack.Navigator screenOptions={global.screenopt}>
-          <Stack.Screen name="Home" component={Home} />
-          <Stack.Screen name="Settings" component={MainSetting} />
-        </Stack.Navigator>
-      </NativeBaseProvider>
-    </NavigationContainer>
+    <Provider>
+      <NavigationContainer>
+        <NativeBaseProvider>
+          <StatusBar hidden />
+          <Stack.Navigator screenOptions={global.screenopt}>
+            <Stack.Screen name="Home" component={Home} />
+            <Stack.Screen name="Settings" component={MainSetting} />
+          </Stack.Navigator>
+        </NativeBaseProvider>
+      </NavigationContainer>
+    </Provider>
   );
 }
 

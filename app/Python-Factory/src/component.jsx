@@ -1,6 +1,6 @@
 import React, { memo } from "react";
-import { View, Text, Linking, } from "react-native";
-import { ProgressBar, List, IconButton } from "react-native-paper";
+import { View, Text, Linking } from "react-native";
+import { ProgressBar, List, IconButton, Menu } from "react-native-paper";
 import styles from "./style.jsx";
 import global from "./global.jsx";
 import {
@@ -78,8 +78,14 @@ const ProgressPyF = props =>
     <ProgressBar indeterminate color="dodgerblue" style={ styles.progress } />
     : null;
 
-
 const Bar = memo( ( props ) => {
+
+  const [ visible, setVisible ] = React.useState( false );
+
+  const openMenu = () => setVisible( true );
+
+  const closeMenu = () => setVisible( false );
+
   return (
     <View style={ styles.bar }>
       <IconButton icon="undo" onPress={ props.goback } color="white" />
@@ -108,16 +114,18 @@ const Bar = memo( ( props ) => {
         onLongPress={ () => Linking.openURL( home ) }
         color="white"
       />
-      <IconButton
-        icon="menu"
-        onPress={ () => props.setVisible( p => !p ) }
-        color="white"
-      />
-      <IconButton
-        icon="cog"
-        onPress={ props.goToSetting }
-        color="white"
-      />
+      <>
+        <Menu
+          visible={ visible }
+          onDismiss={ closeMenu }
+          anchor={ <IconButton icon="menu" color="white" onPress={ openMenu }></IconButton> }
+        >
+          <Menu.Item onPress={ () => { props.setVisible( p => !p ); closeMenu(); } } title="More" />
+          <Menu.Item onPress={ () => { props.goToSetting(); closeMenu(); } } title="Setting" />
+          <Menu.Item onPress={ () => { props.setLink( "https://forms.gle/mqt9geVNxzkVmfPz9" ); closeMenu(); } } title="Report Bug" />
+          <Menu.Item onPress={ () => { props.erase(); closeMenu(); } } title="Erase all data" />
+        </Menu>
+      </>
     </View>
   );
 } );
@@ -135,7 +143,8 @@ const MenuButton = ( props ) =>
     visible: props.gf.visible,
     stop: props.gf.stop,
     setWebLoading: props.gf.setWebLoading,
-    goToSetting: props.gf.goToSetting
+    goToSetting: props.gf.goToSetting,
+    erase: props.gf.erase
   } } /> : <IconButton { ...props.iconprop } />;
 
 export { Header, home, ProgressPyF, MenuButton, Alert };
