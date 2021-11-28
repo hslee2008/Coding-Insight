@@ -85,7 +85,7 @@ const menu = `
 <details>
   <summary>C 언어 고급</summary>
   <p id="men">
-    <a href="struct.html">(42) 화살표</a>
+    <a href="arrow.html">(42) 화살표</a>
   </p>
 </details>
 
