@@ -71,6 +71,8 @@ const menu = `
     <a href="usingpointer.html">(34) 포인터 사용하기</a>
     <a href="union.html">(35) union</a>
     <a href="void.html">(36) void</a>
+    <br /><br />
+    <a href="include.html">(37) #include</a>
   </p>
 </details>
 
