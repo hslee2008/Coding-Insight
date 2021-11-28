@@ -86,6 +86,7 @@ const menu = `
   <summary>C 언어 고급</summary>
   <p id="men">
     <a href="arrow.html">(42) 화살표</a>
+    <a href="random.html">(43) 랜덤</a>
   </p>
 </details>
 
