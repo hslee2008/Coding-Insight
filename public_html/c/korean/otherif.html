@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png">
+  <link hreflang="kr" rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+      <li><a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+          id="video">동영상</a></li>
+      <li id="more"><a>더보기</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
+      class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
+  <div id="menu"></div>
+
+  <div style="padding:30px;display:flex;margin:30px;">
+    <div style="padding:10px;margin:10px;">
+      <h1>조건문 다른 방법으로 만들기</h1>
+      <p>
+        조건문을 if...else if...else 형태와는 조금 다른 기능을 C 언어에서는 사용할 수 있습니다.<br><br>
+
+        if, else if, 그리고 else 앞에 #를 붙이면 됩니다.<br><br>
+
+        쉽게 설명하자면, #이 없는 조건문은 조건을 따라 실행하고 #가 있다면 쉽게 미리 어떤 코드를 실행할지 정합니다.<br><br>
+
+        <code>
+          #if 1 == 1<br>
+          printf("1");<br>
+          #else<br>
+          printf("not 1");<br>
+          #endif
+        </code>
+
+        #을 사용하지 않으면 1 == 1일때 printf("1")을 실행하고 아니면 printf("not 1")을 실행합니다.<br><br>
+
+        #를 사용하면 미리 C 언어가 1 == 1이라는 것을 알고 printf("1");만 사용합니다.
+      </p>
+    </div>
+    <div style="margin: auto;">
+      <img src="http://rawgit.com/caiogondim/webpack-conditional-loader/master/logo/banner.svg" width="500px"
+        alt="words" />
+    </div>
+  </div>
+
+  <br><br>
+
+  <div style="text-align: center;">
+    <hr>
+    <br>
+    <div style="text-align: center;" id="speakdiv">
+      <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
+      <div id="setting">
+        <br><br>
+        <img alt="python factory picture"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+          style="width:25px !important;" />
+        <input type="range" id="vol" min="0" max="1" step="0.1" />
+        <br>
+        <img alt="python factory picture"
+          src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+          style="width:25px !important;" />
+        <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+      </div>
+    </div>
+    <br><br>
+    <h1 style="margin:auto;font-size:30px;"><span id="tit">조건문 - 다른 방법</span><br id="lbbr"><span id="txt">Computer
+        Science Lab
+        (</span>CSL<span id="txt">)</span> 40
+    </h1>
+    <br>
+    <hr>
+  </div>
+
+  <br><br><br><br>
+
+  <div style="padding:30px;display:flex;margin:30px;background-color: rgb(226, 203, 248);">
+    <div style="padding:10px;margin:10px;">
+      <h1>#if ... #else</h1>
+      <p>
+        #if하고 조건을 집어넣으면 만일 그 조건이 옳다면 안에 있는 코드를 실행합니다.<br><br>
+
+        #else가 존재하면 #else와 #if까지의 코드는 if안에 있고 그렇지 않다면 #if부터 #endif까지가 if의 코드입니다.<br><br>
+
+        <code>
+          #if (1 == 1)<br>
+          printf("1 is equal to 1");<br>
+          #else<br>
+          printf("1 is not equal to 1");<br>
+          #endif
+        </code>
+      </p>
+    </div>
+    <div style="margin: auto;">
+      <iframe src="https://www.jdoodle.com/embed/v0/47BV" width="600" height="400"></iframe>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div style="margin :20px;padding:10px;">
+    <button style="float:left;" class="btn btn-outline-secondary"><a href="macro.html">❮ 이전</a></button>
+    <button style="float:right;" class="btn btn-outline-secondary"><a href="error.html">다음 ❯</a></button>
+  </div>
+
+  <br><br><br><br><br><br>
+
+  <script defer src="script.js"></script>
+</body>
+
+</html>

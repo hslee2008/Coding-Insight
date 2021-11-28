@@ -75,6 +75,7 @@ const menu = `
     <a href="include.html">(37) #include</a>
     <a href="assert.html">(38) assert</a>
     <a href="macro.html">(39) 매크로</a>
+    <a href="otherif.html">(40) 조건문 - 다른 방법</a>
   </p>
 </details>
 
