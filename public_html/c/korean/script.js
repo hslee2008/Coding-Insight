@@ -66,8 +66,9 @@ const menu = `
 <details>
   <summary>&#67;&#32;&#50616;&#50612;&#32;&#51473;&#44553;</summary>
   <p id="men">
-    <a href="struct.html">(32) struct<span class="badge badge-secondary" style="color:red;">새로운 내용</span></a>
-    <a href="pointer.html">(33) 포인터<span class="badge badge-secondary" style="color:red;">새롭고 신기한 내용!</span></a>
+    <a href="struct.html">(32) struct</a>
+    <a href="pointer.html">(33) 포인터</a>
+    <a href="usingpointer.html">(34) 포인터 사용하기</a>
   </p>
 </details>
 
