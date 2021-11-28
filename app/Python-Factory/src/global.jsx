@@ -19,7 +19,9 @@ const global = {
     allowFileAccess: true,
     domStorageEnabled: true,
     startInLoadingState: true,
-    allowsFullscreenVideo: true
+    allowsFullscreenVideo: true,
+    userAgent: "CIAV",
+    originWhitelist: [ "https://*" ]
   }
 };
 

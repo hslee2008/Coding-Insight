@@ -13,7 +13,6 @@ import styles from "./src/style.jsx";
 import global from "./src/global.jsx";
 
 var Stack = createStackNavigator(),
-  reloadWebView: any,
   isOnSetting: boolean = false,
   globalFunctions: any;
 
@@ -22,13 +21,11 @@ const Home = memo(({ navigation }: any) => {
   const toast = useToast();
 
   BackHandler.addEventListener("hardwareBackPress", () => {
-    if (isOnSetting) {
-      navigation.navigate("Home");
-    } else if (global.ishome(globalFunctions.link, home)) {
-      BackHandler.exitApp();
-    } else {
-      webViewRef.current.goBack();
-    }
+    isOnSetting
+      ? navigation.navigate("Home")
+      : global.ishome(globalFunctions.link, home)
+      ? BackHandler.exitApp()
+      : webViewRef.current.goBack();
 
     return true;
   });
@@ -56,8 +53,6 @@ const Home = memo(({ navigation }: any) => {
     webViewRef.current.clearFormData();
     webViewRef.current.clearCache(true);
   };
-
-  reloadWebView = reload;
 
   globalFunctions = {
     webViewRef,
@@ -94,8 +89,6 @@ const Home = memo(({ navigation }: any) => {
         onNavigationStateChange={(a: any) => setLink(a.url)}
         onLoad={() => setWebLoading(false)}
         onLoadProgress={() => setWebLoading(true)}
-        originWhitelist={["https://*"]}
-        userAgent="CIAV"
         thirdPartyCookiesEnabled={setting.cookie}
         showsHorizontalScrollIndicator={setting.scroll}
         showsVerticalScrollIndicator={setting.scroll}
@@ -122,7 +115,7 @@ const Home = memo(({ navigation }: any) => {
 const MainSetting = memo(({ navigation }: any) => {
   const MainSettingComponent = {
     close: navigation.goBack,
-    reloadWebView: reloadWebView,
+    reloadWebView: globalFunctions.reload,
     isOnSetting: () => {
       isOnSetting = false;
     },
@@ -132,20 +125,22 @@ const MainSetting = memo(({ navigation }: any) => {
   return <Settings {...MainSettingComponent} />;
 });
 
+const AppBase = memo(() => (
+  <Provider>
+    <NavigationContainer>
+      <NativeBaseProvider>
+        <StatusBar hidden />
+        <Stack.Navigator screenOptions={global.screenopt}>
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Settings" component={MainSetting} />
+        </Stack.Navigator>
+      </NativeBaseProvider>
+    </NavigationContainer>
+  </Provider>
+));
+
 function App() {
-  return (
-    <Provider>
-      <NavigationContainer>
-        <NativeBaseProvider>
-          <StatusBar hidden />
-          <Stack.Navigator screenOptions={global.screenopt}>
-            <Stack.Screen name="Home" component={Home} />
-            <Stack.Screen name="Settings" component={MainSetting} />
-          </Stack.Navigator>
-        </NativeBaseProvider>
-      </NavigationContainer>
-    </Provider>
-  );
+  return <AppBase />;
 }
 
 export default memo(App);
