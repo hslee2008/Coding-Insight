@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png">
+  <link hreflang="kr" rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+      <li><a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+          id="video">동영상</a></li>
+      <li id="more"><a>더보기</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
+      class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
+  <div id="menu"></div>
+
+  <br><br>
+
+  <div style="padding:30px;display:flex;margin:30px;background-color: #ffe44f;">
+    <div style="padding:10px;margin:10px;">
+      <h1>ctype.h 라이브러리</h1>
+      <p>
+        ctype 라이브러리는 어떤 문자가 숫자로만, 문자로만 등 확인하는 함수를 가지고 있는 라이브러리 이름입니다.<br><br>
+
+        쉽게 설명하지면, ctype 라이브러리를 사용하여 C 언어에 있는 다양한 데이터 형태를 다룰 수 있습니다.<br><br>
+
+        <code>
+          #include &lt;ctype.h>
+        </code>
+      </p>
+    </div>
+    <div style="margin: auto;">
+      <img
+        src="data:image/png;base64,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"
+        width="300px" alt="words" />
+    </div>
+  </div>
+
+  <br><br>
+
+  <div style="text-align: center;">
+    <hr>
+    <br>
+    <div style="text-align: center;" id="speakdiv">
+      <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
+      <div id="setting">
+        <br><br>
+        <img alt="python factory picture"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+          style="width:25px !important;" />
+        <input type="range" id="vol" min="0" max="1" step="0.1" />
+        <br>
+        <img alt="python factory picture"
+          src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+          style="width:25px !important;" />
+        <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+      </div>
+    </div>
+    <br><br>
+    <h1 style="margin:auto;font-size:30px;"><span id="tit">ctype.h</span><br id="lbbr"><span id="txt">Computer
+        Science Lab
+        (</span>CSL<span id="txt">)</span> 44
+    </h1>
+    <br>
+    <hr>
+  </div>
+
+  <br><br><br><br>
+
+  <div style="padding:30px;display:flex;margin:30px;background-color: rgb(206, 203, 248);">
+    <div style="padding:10px;margin:10px;">
+      <h1>islower()와 tolower()</h1>
+      <p>
+        islower()이라는 함수는 문자를 입력하면 영문자가 소문자인지 확인하는 함수입니다.<br><br>
+
+        <code>
+
+          if (islower('a')) {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("lower");<br>
+          } else {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not lower");<br>
+          }
+
+        </code>
+
+        tolower()은 문자를 소문자로 바꾸는 함수입니다.<br><br>
+
+        <code>
+
+          if (islower('a')) {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("lower");<br>
+          } else {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not lower");<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("%c", tolower('a'));<br>
+          }
+
+        </code>
+      </p>
+    </div>
+    <div style="margin: auto;">
+      <iframe src="https://www.jdoodle.com/embed/v0/47C5" width="700" height="500"></iframe>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div style="padding:30px;display:flex;margin:30px;">
+    <div style="padding:10px;margin:10px;">
+      <h1>isupper()와 toupper()</h1>
+      <p>
+        isupper()이라는 함수는 문자를 입력하면 영문자가 대문자인지 확인하는 함수입니다.<br><br>
+
+        <code>
+          if (isupper('A')) {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("upper");<br>
+          } else {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not upper");<br>
+          }
+        </code>
+
+        toupper()은 문자를 대문자로 바꾸는 함수입니다.<br><br>
+
+        <code>
+          if (islower('A')) {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("upper");<br>
+          } else {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not upper");<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("%c", toupper('A'));<br>
+          }
+        </code>
+      </p>
+    </div>
+    <div style="margin: auto;">
+      <iframe src="https://www.jdoodle.com/embed/v0/47C6" width="700" height="500"></iframe>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div style="padding:30px;margin:30px;">
+    <div style="padding:10px;margin:10px;">
+      <h1>프린트를 할 수 있는지</h1>
+      <p>
+        ctype.h의 isprint() 함수를 사용하면 그 문자가 터미널에 출력이 될 수 있는지 확인할 수 있습니다.<br><br>
+
+        <code>
+          if (isprint('a')) {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("printable!");<br>
+          } else {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not printable :(");<br>
+          }
+        </code>
+        <iframe src="https://www.jdoodle.com/embed/v0/47C8" width="100%" height="500"></iframe>
+      </p>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div style="padding:30px;display:flex;margin:30px;background-color: #92dfef;">
+    <div style="padding:10px;margin:10px;">
+      <h1>중요 내용 정리하기</h1>
+      <p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">뜻</th>
+              <th scope="col">예시</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">isalnum()</th>
+              <td>문자 또는 수자인지</td>
+              <td><kbd>isalnum(3)</kbd></td>
+            </tr>
+            <tr>
+              <th scope="row">isalpha()</th>
+              <td>문자인지</td>
+              <td><kbd>isalnum("asdf")</kbd></td>
+            </tr>
+            <tr>
+              <th scope="row">isdigit()</th>
+              <td>숫자인지</td>
+              <td><kbd>isalnum("hi")</kbd></td>
+            </tr>
+            <tr>
+              <th scope="row">isspace()</th>
+              <td>스페이스로만 이루어져 있는지</td>
+              <td><kbd>isalnum("hi world")</kbd></td>
+            </tr>
+            <tr>
+              <th scope="row">isblank()</th>
+              <td>스페이스 또는 탭</td>
+              <td><kbd>isblank(" d")</kbd></td>
+            </tr>
+          </tbody>
+        </table>
+      </p>
+    </div>
+    <div style="margin: auto;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ137lwmN4YunGWSNzQZ8yq4q4ZPE22ss5uvQ&usqp=CAU"
+        alt="important-sign" width="300px" />
+    </div>
+  </div>
+
+  <br><br>
+
+  <div style="margin :20px;padding:10px;">
+    <button style="float:left;" class="btn btn-outline-secondary"><a href="random.html">❮ 이전</a></button>
+    <button style="float:right;" class="btn btn-outline-secondary"><a href="stopprogram.html">다음 ❯</a></button>
+  </div>
+
+  <br><br><br><br><br><br>
+
+  <script defer src="script.js"></script>
+</body>
+
+</html>
