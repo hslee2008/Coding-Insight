@@ -70,6 +70,7 @@ const menu = `
     <a href="pointer.html">(33) 포인터</a>
     <a href="usingpointer.html">(34) 포인터 사용하기</a>
     <a href="union.html">(35) union</a>
+    <a href="void.html">(36) void</a>
   </p>
 </details>
 
