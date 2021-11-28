@@ -69,6 +69,7 @@ const menu = `
     <a href="struct.html">(32) struct</a>
     <a href="pointer.html">(33) 포인터</a>
     <a href="usingpointer.html">(34) 포인터 사용하기</a>
+    <a href="union.html">(35) union</a>
   </p>
 </details>
 
