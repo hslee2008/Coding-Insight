@@ -74,6 +74,7 @@ const menu = `
     <br /><br />
     <a href="include.html">(37) #include</a>
     <a href="assert.html">(38) assert</a>
+    <a href="macro.html">(39) 매크로</a>
   </p>
 </details>
 
