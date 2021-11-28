@@ -73,6 +73,7 @@ const menu = `
     <a href="void.html">(36) void</a>
     <br /><br />
     <a href="include.html">(37) #include</a>
+    <a href="assert.html">(38) assert</a>
   </p>
 </details>
 
