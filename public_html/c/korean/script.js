@@ -92,6 +92,7 @@ const menu = `
     <a href="math.html">(46) math.h 라이브러리</a>
     <br /><br />
     <a href="file.html">(47) 파일 다루기</a>
+    <a href="readfile.html">(48) 파일 읽기</a>
   </p>
 </details>
 
