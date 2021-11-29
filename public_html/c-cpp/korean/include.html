@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push( arguments );
+    }
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-209775586-1' );
+  </script>
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png">
+  <link hreflang="kr" rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body style="margin:0;">
+  <div style="margin :0;padding:0;" id="navigate">
+    <ul>
+      <li><a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/c/korean/c.html" id="clang">C/C++</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+      <li><a rel="noopener" href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+      <li><a rel="noopener" href="https://coding-insight.com/python/korean/video.html" style="color:white;"
+          id="video">동영상</a></li>
+      <li id="more"><a>더보기</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
+      class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
+  <div id="menu"></div>
+
+  <div style="padding:30px;display:flex;margin:30px;">
+    <div style="padding:10px;margin:10px;">
+      <h1>#include란?</h1>
+      <p>
+        include를 사용하면 다른 파일에 있는 함수와 변수를 그 파일 안에서 사용할 수 있습니다.<br><br>
+
+        include 다음에 <>를 입력하고 안에 파일 이름을 넣으면 됩니다. <> 대신 ""를 사용해도 됩니다.
+      </p>
+    </div>
+    <div style="margin: auto;">
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAS1BMVEX///8AAAAHBwcmJib6+vq1tbUNDQ12dnZUVFSrq6t5eXleXl7i4uLl5eXz8/NLS0stLS3a2tpCQkKkpKRYWFiXl5ewsLBoaGhVVVUrESokAAACMklEQVR4nO3c7U7CQBBGYdrSQqFQvvH+r1SJMe5iUhOYmX3F81zAjEco7Q+W2QwAAAAAAAAAAAAA8F9s28XYdHX1qK4ZF5dt6YpZu3w8IVEv26IZ/c6i4tOuL5axP9hl3Bz2ZTqOnW3Hx+VyLNGxss64WcR3XD06quoa3eHyetwEvyZHr46qCr1O9ubX+bcu8rPL+HM3d4jr6D07qiruznh3P6/X/TB/dNZ8uKzvnnJ2ln/rlDbfe9o8O3BzyidGPXcts61ni5HnbOTSYuTvtrV5x11JHfNUn72zTlZTs3dXzHtrkf7vnr4+vmzS13llNXXSmGxc241dJ2NHu7ETmmSj4Ud+enNq7MZOSB9PBruxQzK2sxs7IX0zP3wf/GmeXu12Yyd4LSREbSEhagsJUVtIiNpCQtQWEqK2kBC1hYSoLSREbSEhagsJUVtIiNpCQtQQooYQNYSoIUQNIWoIUUOIGkLUFhKitpAQtYWEqC0kRG0hIWoLCVFbSIjYwpf5AnP8V8qdQuK/5O8Ukp6EiTl24RMyxB+E8QnJTqDFHE1yCSlxWMwjpMjxPfuQIT/ZGHWg0jZkPvQn5yOu1ROemnV5kRDzY+CFQjrDk3RFQ+x/KqFMiMNNvUiIx8+JlAhxeciKD3H6yZ3wkIP551WRkJ31fbBISP3m+HwVFNI146ot8tNtU3/wn0KIGkLUEKKGEDWEqCFEDSFqCFFDiBpC1BCi5mVCAAAAAAAAAAAAAACu3gFG0RZlnbgsJAAAAABJRU5ErkJggg=="
+        width="200px" alt="words" />
+    </div>
+  </div>
+
+  <br><br>
+
+  <div style="text-align: center;">
+    <hr>
+    <br>
+    <div style="text-align: center;" id="speakdiv">
+      <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
+      <div id="setting">
+        <br><br>
+        <img alt="python factory picture"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+          style="width:25px !important;" />
+        <input type="range" id="vol" min="0" max="1" step="0.1" />
+        <br>
+        <img alt="python factory picture"
+          src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+          style="width:25px !important;" />
+        <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+      </div>
+    </div>
+    <br><br>
+    <h1 style="margin:auto;font-size:30px;"><span id="tit">#include</span><br id="lbbr"><span id="txt">Computer
+        Science Lab
+        (</span>CSL<span id="txt">)</span> 37
+    </h1>
+    <br>
+    <hr>
+  </div>
+
+  <br><br><br><br>
+
+  <div style="padding:30px;display:flex;margin:30px;">
+    <div style="padding:10px;margin:10px;">
+      <h1>나만의 라이브러리 만들기</h1>
+      <p>
+        나만의 라이브러리를 만들고 더하는 함수 add(int a, int b) 함수를 만들어서 다른 파일에서 add 함수를 실행해 보겠습니다.<br><br>
+
+        .h로 끝나는 파일을 만듭니다. h파일은 header파일로 다양한 함수를 저장하는 파일 형식입니다.<br><br>
+
+        h파일에는 C 언어를 넣기만 하고 main.c에서 #include &lt;filename.h>를 실행하면 끝났습니다.<br><br>
+
+        바로 main.c에서 add()를 실행하면 됩니다!
+      </p>
+    </div>
+    <div style="margin: auto;">
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANcAAADqCAMAAAAGRyD0AAABIFBMVEX///8AE3/09PT19fXz8/PExMTn5+cAEH7q6ur09PLJycnY2Njw8PDPz8/r6+v49vS1r8UdHoHIxNPe3t4AAHvT09Ojo6O4uLi/ucgPGX6VlZW/v7+pqakOXLbs9v98fHyzs7OaYoufn5//9PIACXwAAHMYQ5y1j6KQibHP7P+ikLGFhYWLi4vIyNwQF4C4udH///dCideygpRSWp6SkaqjoLJfZqCgosbfyNKLfKZeVpL13d+1lq4+NYXKq7r/7eoxLIGAbp9sX5jZusVLQoumi6qPeJr73d65p8FuZ5QiJ4NXhsmAZI+jha/D3fmTaox0RXrd1uTV3/Dr3M08AHeIfpoAAImiwux+V4Phz85FDnYzWLjp//+VWIaCgqtcUY8Dw3vYAAAOr0lEQVR4nO2dj4ObthXH7wBjwKBLijnfxV7n3V22rt0u3ZrbmmRpuvXH1u5ntmVb96P5//+LvScJECBAAgmfXX9jX2yMkD5+0uPpB/jk5KijjjrqqA65MQl8CwqCgMRx7O4Ki6RZZEVJkmSL1I89dxds8SJLopktAR2ykenJSJbZqIWoNF0sMhSSTc3lRwnxjCtmIiQIGOHkNvNnUWCNS0ADEeLsO5cncOVgaDQ/8PabyxPqYlkZUf40rn88l1NTjYuC5QZDR7JIp2hq5rlysEZN5FxwWkvt22wEVwOoRlZykQpXFM2S1LYLGcDVziOvirnBsHVRrtlsPVtYdiC6XP1QTTQBbMHCm/V6naTxPeFSRZKDFRFIAmDr1Wo1y2yCKXPpUZVsldMzVkTKtV5tt6vMYnSlyDWEyhEdCDNZXhGRa7NZJYE1v6jGNRCr4vNFMMa12UapLfehwDUYSkATwajBoB5uzs/tgfVwjWRqA+NcVwhmx3t0cJlgEtBKMG4w4Lo6t+Xvp+ECMAfJEKww2AbBNrNkYQOslcsck1uwockoGBiMVcRHV6soWVjw9zIuRwHL7RHuILEasEFNzA0GXI/AYDbApFwqRlCRLKFHKBgajHJdrXHgynhVlNZDpwyDzFdNsBi6jsJg2wj8iHGLtbSv0abqkBdQg+Vc52sIrYxXxV6/ERpnc9B3oMEY16MV7ZMZ9ortfp5jhcbBnJgUBrvCipgtzIO1czEgt4VrBJpDnX3pOTZRysBMVsU2LrBTr6MYzEUNBtFv7hFZ0Gj0BF1yVYocUi4VD6jJhPI8ZjBaEbGBpRzMYEgl2quEckId566BxPZnLSyhFRG4tqmfW8xYdF+ph6WxHB2uTkD+ATtwhSvLK+JmgadqZjFT41TV9iXhkoFRX1J1KNzLdFiJ+1Z4unBuFiviJgtKMEM9aIGr4ipkp7JGARtbwsoW2U64GbmKiohcCWHBFTjFzDcDVuUqwSSnsi4uR7alBR4DfAymCo94HqGHzMHMePu2uLfh+BtGGyWoiCmtiLSvMoMODO+YwWnMiO9Q5jLcz8SKmPGKCFyuV4AlRoY8po/nUa7QwKDTDFxOLIAZaGLa8bzeeViqsOSiDexqHUOUX1gsSQz4jrY4quvLHs2FpxHhDHaOXDxspGCZb42rJ54fb6+47ISdz5BLqIpJNvr03BHPd3GNYsP2xXrNFS5aOX06lTS+ifX1U1r6lWO5+GgA7atsNhHjKsCS8WCd8XxHIxsB5nCuvNMMXJ5bgrHJv7FxRwuXo+rZ9ZloGk8cvdkmcf55DpYki3Fg8njevJFq4uOICTaw7TbySRx7Tg1sVEDV1k+xTJaPj7KZlRUuEMMVYqkfFEPdSToGrO43ynrYZzwjXAmbutxiK9tst+sZpWP952yM76jH8yVX2FcpR3IFfGYFJ5s52Tlqs13j6r7FOG/f6Kd4eVW05w9del7Ow0FcHbCqoW1WYLhRcYfAJRbZ6riNSzuWgc/Xc0DfhC19oHAFGzS6JBs8Ad16/uqPEzXJxASMK1+Bg+fhHA7ZOBoabbDvaLGX3rjNEC62XJovclssOF/E10BsKdpmFQ1tYr3jUarjNvTZRVMmoyFuHJfL3NICjy2fomhItoFTmwGuPCQMLY/bUHuxFWEkYPKFpXx8Rc6WLYUYBiZyVf18B1jruI1slKbBRcdthKWyHFBYRMWMxshWyaAm1uLnLY/buJIMOGKx3ChvaRA9jrSXyNDYZpQMG548R45WLF8BsvXCFJc3AZfUvXA0kQzQZgOa2E7GbTpOBq4j2Iw7x/WAafXdjNt0cLncW1Iy7kFm+jNjO5iH7bIXpytXsLAIMtGuiX3jNhbmYd3WlOUHbNFRsRBTf/J5F/OwCgmd3H/w0Fh7qLSTywpYzzHFg5d1UXvuuS/uVSyBFpDyVyD0ZnTHp9rHN8TpZlO20lR5KltkmnPq8rhXgWsKNAz7CY+rFnousdq+GAL7a3mEQ4mLe0UKpmewtnlYajV7Ixxquzle2f/M9MYTq/0U2sjEkRs7YP3J8uN7hcUyvUGc9nWVOh5REVJxT/GYRRi80HP1bf0UZYWdyVqapiySku+Zn5/9RaLVwVSO5+Ud4jAMO5M1R0LyTrPKoRkYjxWTKBjP5Ql+vsipkblT55KMGPQPD3RwUSOyJpYmWt2wzvXzYt0Iiz+1gneaWpJKdgzpqqTQKbjQYMlaZ8yt+zqORhEkGpRIQx73idlax3GMvz5l4NehJGYvajDg0lli1Hc9ET16Zwze/nUoh+6tWG4BRoLFLNFwHG3zsPXjq51t1FOpKueKyUKr1yzrp0hOOu2dQafjC1HqQqpwocHSSGfoV2Meto2rGAmxYjWBS8fRt/dTFAsZlitY2u02DsxFsOFclXlY5SIOS6VK5JYtzNc6Mbetg5WXSlLA9hnbzmSKYAwKNZhr6Ldt1kbVQxcNH56Bca7uMg79PnS4kGwo12B/WKQyDufkzT4cYa9eLnkh+/z8GLSSKxzFVRm3USxiOCiVBpc31l4j/LylYZBK7DncXnzcpl9NLuMrWFgSM1y1ZqZWSAsj3uX+ZrmkRWzt+XYma0vVSVP2lw1zqY7b1Mc31FKpj9tUxhiMcMlHloaNR90rLk82biMbXNEft1G/FskOl+IwxbBU+scGrtQMl1ohB38hmsf2D5drYD3Mj6Y3QVnsYH5as4ijeD08xvNG43nj87XG43mNLsck8fyoenjA8fyAyPxQ4/n+wvWqkrUXNkMYQ1xm7gmgD1VUG1tcWvF8ZYt0VXbHOm1OUvyp8u00ntfkqkzEihaahstTnYdtvJP0IuU7VfJqKYMNLtMTqnXpc00a9+pLtnq+X1PH84NUz0WBy/z4vNYJdcxJzQrX4IkHU1SdXJPPOxhCamcy0E+xN6PazeS4Xabazfi8CSyrfsNTjswNM6lh3ad4XjEArte7e8+lhlXjmrif0jbeWwEJGziyhZWVLU0Aa/aSovER88qWIfG8tJ8yYTwv4ZIMohvqp8jNZG18fvRCu3ImS9yUvxCzaivDYK4oIqEbSgVN5ewMHlT5/8WrcsMA0cZYyaqed/2lSzKVeD7+KdWTj57eXbyzF7q4u/vFL2mh25aNnl1//Oz5/Pb29vR2fnN6e/mwS5e3VJflXpeXtQ3TCHK9ucGcT58/+/hagnX94lcvl8s50+npfH/EC7tcvvzkVdNaL54tYY+91s2nX75omOvXe48FYMvf1MCuP7vcfyyokMv3K1Xx+uPPl7sukxHdfF5xHtdfzA/BXKD5l6LBXr282XWBDGm+fCBw/fbTAzHX6enyPaEi/u4wWhdq+ZUQL753OFzzr985TK7Li9Idvn/kuu/6LnCdHSjXofqNKbigf7ScosswcfuaP/wI9LV9sIm5lt/DjH4wQb2Ymuvdk5MPj1yDdeQyokPnYrKY0W64Hv/+yZMnF394bC+/nXD98U88wz9by3AnXO/mOX74F1s57oILgV6//iv+/7e/Wwo9dsP14s3jx//4J2b5L0tZ7oTrm39DRsv//Bfs9sUBcX34P8zn5oc/hpc/moBrgn6KcF4+cg3RkcuIjlwjdeQyokPjWj4GLQ+Oa/kzPPzPl0eusTpyjZHAhS9KrpP95ir8RvkCwMqX5lWZTznQeYfrA+U6zhPdfx259kvfCa4DWkdU4XoxwQTpRKpwHc46vdObl8L6qFfPDoarsp7t+rODMdjy27MT0WAH4jnmp0I1RM/x9iAMNr95elbhOvvk4SGALZ+/Pqnq+v3bvQebL99mZyd1sE/eLveabH7z8KuogQVg37x5uVzesEtZ9ubCm7yoN8vLl3dEggWKs2+ff35L97rZaWE1xEt6+/ari0X7Lz2cnaUXDx48uHv69O7BXuju6Rta0os0ltuqIry+MvTGXFJoUSF7hviHXl+pACRwyS+ALaR+ybya2i8ybb1mFD+a+r7fpqC6uEbdf6N6bW4NzASb0/kTHa3X+oaDrvM1cl+RPmrP6zOV1fuKhH33FWkUOA6CwCFeHBRvY4GW8ASxT7qhdnVfEY8/8BJ0+PZZcfEvCbzYhX8Bsxm8DQj9wXn68B32Ooid8nec2G/3lkfttlYpG/cVCTwHyhbEgQMEUPTYZQ+XEIRDe8UETAVvY+IFfuDA03N8APb9OGbPgP5miA+2I7DBIcQP4KFIZef+G4RAVfJ8+EfgAW88KKUPjYb4gOIjFxbdQXvFnh/DX0gD9oI9SYDfiY+b4UjwfxxDjj58O3AQurFe7WxxNcFiH81B3IBAA6IlJ37s03oYx5TL8YMAqcGIHhgGmPFrcCANMGMKB40JXB574cNhXPpo3C5lwvuKwDcLNQraEf0f6iVA+iT0WD1k9vJch70FYA/3BWOEyOVTLg8sCs0JPgCDI3TO1ch9wvuKuIEfwiMMsTYSrH5enMI7qGwh1i0sOxgMucIQ3oCBwXpYbYOQckGKAGsl+wCeBAmxzRJv+vsEihZDX0n9ZeHK8B295RT3lrFH/Rxzqh77KbsQPvdCLyw28N1ws+bN52zeJ7D9hlka4r/Mo3tPPXNcUjQzXL0UzV2M3v/Qzo0CG7ZSsZ3R+x/eI2nZy01nSYCnSnzS5PG9ERaGlQrfxEEWqXCx1hukUZI2tditJCUCJVEKkVsHEQ2xCaE/ALxIZtFsTbVi2nJt2nU+Uh2H3uTZ89Ks1lyzCCzgY2hKJcEiiATy2e8aR+tVSQGZXqEeUf0k1wcVfX+0Pqgrz4jlS4tQ8HPOdbRIschBgABNMDeOqbEoF/0l6iSKohmqMFvVXvQ7vmro0TDVD1MzYWEsZiVQhEqSDKonx8LWJ62QtF3ymuiLbSpDJVT0cIy3YK5qNUA0XeUoszXPgWUYsdyxHJXGRk1FKJPX7zyY5ZjpCsLCcWQ1JTXlhYh6VU9ZqppDzW/wcoGR0EruicYP355IevZ+KblrGuEz2w+YlrkGlfGEFkehqeqATOXUKJxciD9QhKUPinNUIccshwl8DeXJd1Xuo4466qij9kz/B6o40F7vQakMAAAAAElFTkSuQmCC"
+        width="200"></div>
+  </div>
+  </div>
+
+  <br><br>
+
+  <div style="margin :30px;padding:40px;">
+    <button style="float:left;" class="btn btn-outline-secondary"><a href="void.html">❮ 이전</a></button>
+    <button style="float:right;" class="btn btn-outline-secondary"><a href="assert.html">다음 ❯</a></button>
+  </div>
+
+  <br><br><br><br><br><br>
+
+  <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
+    background-attachment: fixed;
+    background-repeat:none;background-size:cover; padding: 50px;text-align:center; color:white;">
+    <div>
+      <a class="btn btn-outline-info" rel="noopener" href="https://www.coding-insight.com/chat.html">질문하기</a>
+      <a class="btn btn-outline-info" rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
+      <a class="btn btn-outline-info" rel="noopener"
+        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+    </div>
+    <br><br>
+    <img alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
+    <br>
+    <div style="padding:5px;display: flex;justify-content: center;width:100%;">
+      <div>
+        <h1 style="font-size:30px;">Python Factory © 2021</h1>
+        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
+      </div>
+    </div>
+  </footer>
+  <script defer src="script.js"></script>
+</body>
+
+</html>
