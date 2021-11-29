@@ -88,6 +88,7 @@ const menu = `
     <a href="arrow.html">(42) 화살표</a>
     <a href="random.html">(43) 랜덤</a>
     <a href="ctype.html">(44) c 타입</a>
+    <a href="stopprogram.html">(45) 프로그램 중단</a>
   </p>
 </details>
 

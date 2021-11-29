@@ -55,7 +55,7 @@ p > a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1000px) {
   button:not(#butty) {
     padding: 5px !important;
     font-size: 10px !important;
