@@ -93,6 +93,7 @@ const menu = `
     <br /><br />
     <a href="file.html">(47) 파일 다루기</a>
     <a href="readfile.html">(48) 파일 읽기</a>
+    <a href="writefile.html">(49) 파일 쓰기</a>
   </p>
 </details>
 
