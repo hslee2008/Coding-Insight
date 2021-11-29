@@ -90,6 +90,8 @@ const menu = `
     <a href="ctype.html">(44) c 타입</a>
     <a href="stopprogram.html">(45) 프로그램 중단</a>
     <a href="math.html">(46) math.h 라이브러리</a>
+    <br /><br />
+    <a href="file.html">(47) 파일 다루기</a>
   </p>
 </details>
 
