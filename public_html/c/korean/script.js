@@ -89,6 +89,7 @@ const menu = `
     <a href="random.html">(43) 랜덤</a>
     <a href="ctype.html">(44) c 타입</a>
     <a href="stopprogram.html">(45) 프로그램 중단</a>
+    <a href="math.html">(46) math.h 라이브러리</a>
   </p>
 </details>
 
