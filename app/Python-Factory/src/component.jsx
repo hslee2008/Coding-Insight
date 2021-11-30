@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import { View, Text, Linking } from "react-native";
+import { View, Text, Linking, Share } from "react-native";
 import { ProgressBar, List, IconButton, Menu } from "react-native-paper";
 import styles from "./style.jsx";
 import global from "./global.jsx";
@@ -81,9 +81,7 @@ const ProgressPyF = props =>
 const Bar = memo( ( props ) => {
 
   const [ visible, setVisible ] = React.useState( false );
-
   const openMenu = () => setVisible( true );
-
   const closeMenu = () => setVisible( false );
 
   return (
@@ -120,10 +118,16 @@ const Bar = memo( ( props ) => {
           onDismiss={ closeMenu }
           anchor={ <IconButton icon="menu" color="white" onPress={ openMenu }></IconButton> }
         >
-          <Menu.Item onPress={ () => { props.setVisible( p => !p ); closeMenu(); } } title="More" />
-          <Menu.Item onPress={ () => { props.goToSetting(); closeMenu(); } } title="Setting" />
+          <Menu.Item onPress={ () => { props.setVisible( p => !p ); closeMenu(); } } title="Learn More" />
+          <Menu.Item onPress={ () => { props.goToSetting(); closeMenu(); } } title="See Setting" />
           <Menu.Item onPress={ () => { props.setLink( "https://forms.gle/mqt9geVNxzkVmfPz9" ); closeMenu(); } } title="Report Bug" />
           <Menu.Item onPress={ () => { props.erase(); closeMenu(); } } title="Erase all data" />
+          <Menu.Item onPress={ async () => {
+            await Share.share( {
+              title: "Coding-Insight link",
+              message: props.link,
+            } ); closeMenu();
+          } } title="Share Link" />
         </Menu>
       </>
     </View>
