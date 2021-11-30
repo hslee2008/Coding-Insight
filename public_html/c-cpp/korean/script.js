@@ -94,11 +94,20 @@ const menu = `
     <a href="file.html">(47) 파일 다루기</a>
     <a href="readfile.html">(48) 파일 읽기</a>
     <a href="writefile.html">(49) 파일 쓰기</a>
-    <a href="deltefile.html">(50) 파일 삭제하기</a>
+    <a href="deletefile.html">(50) 파일 삭제하기</a>
   </p>
 </details>
 
 <br /><br />
+<hr />
+<br /><br />
+
+<details>
+  <summary>C++ 시작</summary>
+  <p id="men">
+    <a href="cpp.html">(1) C++의 정의 </a>
+  </p>
+</details>
 
 
 
