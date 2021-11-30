@@ -46,8 +46,8 @@
       <li id="more"><a>더보기</a></li>
     </ul>
   </div>
-  <br />
-  <br />
+  <br>
+  <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
       class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
@@ -60,9 +60,9 @@
       </div>
       <div style="padding: 50px">
         <p>
-          데코레이터는 한국어로 번역하면 '장식하는 물체'입니다.<br /><br />
+          데코레이터는 한국어로 번역하면 '장식하는 물체'입니다.<br><br>
 
-          하지만 파이썬에서는 조금 다른 개념입니다.<br /><br />
+          하지만 파이썬에서는 조금 다른 개념입니다.<br><br>
 
           데코레이터는 파이썬 함수를 장식하는 또 다른 함수로
           <mark>함수에 추가 기능을 더합니다</mark>.
@@ -73,32 +73,32 @@
       <div style="padding: 10px; margin: 20px">
         <div style="text-align: center">
           <hr />
-          <br />
+          <br>
           <div style="text-align: center" id="speakdiv">
             <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
             <div id="setting">
-              <br /><br />
+              <br><br>
               <img alt="python factory picture"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                 style="width: 25px !important" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
-              <br />
+              <br>
               <img alt="python factory picture"
                 src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                 style="width: 25px !important" />
               <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
             </div>
           </div>
-          <br /><br />
+          <br><br>
           <h1 style="margin: auto; font-size: 30px">
             <span id="tit">데코레이터 기본</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
               id="txt">)</span> 66
           </h1>
-          <br />
+          <br>
           <hr />
         </div>
 
-        <br /><br /><br /><br />
+        <br><br><br><br>
 
         <div style="
               display: flex;
@@ -108,31 +108,31 @@
           <div style="padding: 20px">
             <h1>데코레이터 예시</h1>
             <p>
-              어떤 수의 제곱근을 계산하는 함수를 만들어 보겠습니다.<br /><br />
+              어떤 수의 제곱근을 계산하는 함수를 만들어 보겠습니다.<br><br>
 
-              밑에 있는 함수에 4를 입력하면 2가 출력이 됩니다.<br /><br />
+              밑에 있는 함수에 4를 입력하면 2가 출력이 됩니다.<br><br>
 
               하지만, 만일 a 값이 0보다 작다면 어떻게 대처를 할 수
-              있을까요?<br /><br />
+              있을까요?<br><br>
 
               조건문을 사용한다면 가능하겠지만 매우 복잡해집니다. 이 상황에서
-              데코레이터를 사용할 수 있습니다.<br /><br />
+              데코레이터를 사용할 수 있습니다.<br><br>
 
               이제 우리가 원하는 값을 반환하는 함수를 만들겠습니다. 입력을
               사용하여 사용자가 지정한 값을 반환하는 것도 가능하지만 이
               예시에서는 쉽게 설명하기 위하여 -4를 돌려주는 함수를
-              만들겠습니다.<br /><br />
+              만들겠습니다.<br><br>
 
               <code> def returnVal():return -4 </code>
 
-              위의 함수는 데코레이터의 예시입니다.<br /><br />
+              위의 함수는 데코레이터의 예시입니다.<br><br>
 
               먼저, 데코레이터 함수를 만들기 위하여 메인 함수를 매개변수 안에
               만듭니다. 이 mainFunction은 어떤 다른 함수에서 돌려주는
-              값(squreRootOf에서는 a의 제곱근)입니다.<br /><br />
+              값(squreRootOf에서는 a의 제곱근)입니다.<br><br>
 
               함수 안에 또 다른 함수를 만들어서 func 변수 안에 저장하고 새로운
-              값인 abs() 함수를 사용하여 새로운 값을 돌려줍니다.<br /><br />
+              값인 abs() 함수를 사용하여 새로운 값을 돌려줍니다.<br><br>
 
               밑에 있는 예시를 확인하세요. 하지만 이렇게 하면 많이 복잡합니다.
               그래서 파이썬에는 더 쉬운 방법이 있습니다.
@@ -142,7 +142,7 @@
         <iframe src="https://trinket.io/embed/python3/867aac4aa9" width="100%" height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
 
-        <br /><br /><br /><br />
+        <br><br><br><br>
 
         <div style="
               padding: 20px;
@@ -153,18 +153,18 @@
             <h1>데코레이터 사용 방법</h1>
             <p>
               데코레이터를 사용하기 위하여 returnVal() 함수를 선언하기 바로
-              전에 다음과 같은 코드를 붙여넣습니다.<br /><br />
+              전에 다음과 같은 코드를 붙여넣습니다.<br><br>
 
               <code>
-                @minusDecorator<br />
+                @minusDecorator<br>
                 def returnVal():return -4
               </code>
 
               위 코드의 첫 번째 매개변수는 함수이지만 @를 하면 바로 다음에
-              나오는 코드를 실행합니다.<br /><br />
+              나오는 코드를 실행합니다.<br><br>
 
               returnVal()에서 돌려주는 절댓값을 계산하기 위하여 쉽게
-              returnVal() 함수만 사용하면 됩니다.<br /><br />
+              returnVal() 함수만 사용하면 됩니다.<br><br>
 
               원래는 minusDecorator(returnVal())을 사용하여 절댓값을
               계산하지만 @를 사용하면 바로 returnVal()을 실행해도 데코레이터에
@@ -173,7 +173,7 @@
           </div>
         </div>
 
-        <br /><br /><br /><br />
+        <br><br><br><br>
 
         <div style="
               padding: 20px;
@@ -191,7 +191,7 @@
         <iframe src="https://trinket.io/embed/python3/659cf1cdb5" width="100%" height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
 
-        <br /><br /><br /><br />
+        <br><br><br><br>
 
         <div style="margin: 30px; padding: 40px">
           <button style="float: left" class="btn btn-outline-secondary"><a href="zlib.html">❮ 이전</a></button>
@@ -202,7 +202,7 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
   </div>
   <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
     background-attachment: fixed;

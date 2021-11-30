@@ -52,8 +52,8 @@
       <li id="more"><a>More</a></li>
     </ul>
   </div>
-  <br />
-  <br />
+  <br>
+  <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
       class="btn btn-outline-success col-5 btn-lg btn-block">Menu</button></div>
@@ -71,17 +71,17 @@
         <p>
           Many people think of 'printing' as showing information on page.
           However, there is a new definition of 'printing' that you might not
-          be aware of.<br /><br />
+          be aware of.<br><br>
 
           In programming language, printing is when a computer displays
           information on screen. The box in which the computer prints is
-          called 'console'.<br /><br />
+          called 'console'.<br><br>
 
-          To print information to the console, use the following code.<br /><br />
+          To print information to the console, use the following code.<br><br>
 
           <code>
-            print("Hello World")<br />
-            print("5")<br />
+            print("Hello World")<br>
+            print("5")<br>
             print("!@#$")
           </code>
         </p>
@@ -92,36 +92,36 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
 
     <div style="text-align: center">
       <hr />
-      <br />
+      <br>
       <div style="text-align: center" id="speakdiv">
         <button id="speakbutt" class="btn btn-outline-primary">Read</button>
         <div id="setting">
-          <br /><br />
+          <br><br>
           <img alt="python factory picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width: 25px !important" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br />
+          <br>
           <img alt="python factory picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width: 25px !important" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
         </div>
-        <br /><br />
+        <br><br>
         <h1 style="margin: auto; font-size: 30px">
           <span id="tit">Input and Output</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span> 4
         </h1>
-        <br />
+        <br>
         <hr />
         </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
 
     <div style="
           background-color: black;
@@ -132,17 +132,17 @@
       <div style="padding: 20px">
         <h1>Using 'end' in print()</h1>
         <p>
-          We can print a text next to another one by using 'end'.<br /><br />
+          We can print a text next to another one by using 'end'.<br><br>
 
           Most programming languages by default print the text itself to the
           console. However, Python prints a new line after the original
-          text.<br /><br />
+          text.<br><br>
 
           Somtimes we want two prints to be on the same line. This is an
-          example of a situation where we need to use 'end'.<br /><br />
+          example of a situation where we need to use 'end'.<br><br>
 
           For example, if we want to print "Hello World"(without "") and then
-          a period, we can use end to store '.'.<br /><br />
+          a period, we can use end to store '.'.<br><br>
 
           <code> print("Hello World", end=".") </code>
         </p>
@@ -151,28 +151,28 @@
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
 
     <div style="display: flex; background-color: #c2d7e9; padding: 30px">
       <div>
         <h1>Using 'sep' in print()</h1>
         <p>
-          If we print "Hello World", Python prints "Hello World".<br /><br />
+          If we print "Hello World", Python prints "Hello World".<br><br>
 
           Another way of doing this is by putting multiple texts seperated by
           commans inside print(). Python will automatically squish the texts
-          with spaces between them.<br /><br />
+          with spaces between them.<br><br>
 
           <code>
-            print("Hello World")<br />
+            print("Hello World")<br>
             print("Hello", "World")
           </code>
 
           The example above uses spaces to squish words. What if we want to
           choose our own character to squish with? For example, we might want
-          to squish the texts together with a space and a comma.<br /><br />
+          to squish the texts together with a space and a comma.<br><br>
 
-          We can use 'sep' to store the character inside<br /><br />
+          We can use 'sep' to store the character inside<br><br>
 
           <code> print("Hello", "World", sep=" ,") </code>
         </p>
@@ -184,31 +184,31 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
 
     <div style="padding: 20px; display: flex">
       <div style="padding-right: 50px">
         <h1>input</h1>
         <p>
-          The task of getting information from the user is called 'input'.<br /><br />
+          The task of getting information from the user is called 'input'.<br><br>
 
-          In human terms, we call this 'asking'.<br /><br />
+          In human terms, we call this 'asking'.<br><br>
 
-          For example, let's build a simple login program using Python.<br /><br />
+          For example, let's build a simple login program using Python.<br><br>
 
-          1. First, get the typed in password.<br />
-          2. Second, compare it to the set password<br />
+          1. First, get the typed in password.<br>
+          2. Second, compare it to the set password<br>
           3. If the two password is the same, login otherwise stay logged
-          out.<br /><br />
+          out.<br><br>
 
           <code>
-            if 'password' == input("Password:"):<br />
+            if 'password' == input("Password:"):<br>
             &emsp;print("Login")
           </code>
 
           We have not learned about 'if' yet. To put it simply, if(in this
           case) is used to compare the input and 'password' to see if they
-          match.<br /><br />
+          match.<br><br>
 
           Make sure you put an indent before 'print("Login")'.
         </p>
@@ -217,7 +217,7 @@
         marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
 
     <div style="margin: 30px; padding: 40px">
       <button style="float: left" class="btn btn-outline-secondary">
@@ -228,12 +228,12 @@
       </button>
     </div>
 
-    <br /><br /><br /><br /><br /><br />
+    <br><br><br><br><br><br>
 
     <div style="text-align: center; border-color: black; border-style: solid">
       <h1>Quiz Time!</h1>
     </div>
-    <br /><br />
+    <br><br>
 
     <div style="text-align: center; font-size: 25px">
       <h3>What is printing (programming)?</h3>
@@ -260,7 +260,7 @@
         <label for="question-1-answers-D">D) Other </label>
       </div>
 
-      <br /><br />
+      <br><br>
 
       <h3>How do we print information in Python?</h3>
 
@@ -284,7 +284,7 @@
         <label for="question-2-answers-D">D) print("info") </label>
       </div>
 
-      <br /><br />
+      <br><br>
 
       <h3>How do we add additional data to end of given data in print()?</h3>
 
@@ -305,7 +305,7 @@
             <label for="question-3-answers-D">D) print("info", theEnd="") </label>
       </div>
 
-      <br /><br />
+      <br><br>
 
       <h3>How do we change file content with print()?</h3>
 
@@ -333,7 +333,7 @@
         </label>
       </div>
 
-      <br /><br />
+      <br><br>
 
       <h3>How do we get input from the user?</h3>
 
@@ -357,7 +357,7 @@
         <label for="question-5-answers-D">D) in() </label>
       </div>
 
-      <br /><br />
+      <br><br>
 
       <button id="checky" class="btn btn-outline-dark"
         onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1  is right!!")} else {alert("1 is wrong")}; if(document.getElementById("question-2-answers-D").checked) {alert("2  is right! :)")} else {alert("2 is wrong")}; if(document.getElementById("question-3-answers-A").checked) {alert("3  is right!!")} else {alert("3 is wrong")}; if(document.getElementById("question-4-answers-B").checked) {alert("4  is right! :)")} else {alert("4 is wrong")}; if(document.getElementById("question-5-answers-A").checked) {alert("5  is right! :o")} else {alert("5 is wrong")};'>
@@ -365,7 +365,7 @@
       </button>
     </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
   </div>
 
   <script></script>

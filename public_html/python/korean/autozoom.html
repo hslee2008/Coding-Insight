@@ -45,13 +45,13 @@
       <li id="more"><a>더보기</a></li>
     </ul>
   </div>
-  <br />
-  <br />
+  <br>
+  <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
       class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
   <div id="menu"></div>
-  <br /><br />
+  <br><br>
   <div style="
         display: flex;
         padding: 30px;
@@ -61,24 +61,24 @@
     <div style="padding: 20px">
       <h1>프로젝트: 자동으로 줌 열기</h1>
       <p>
-        파이썬에서 자동으로 줌을 열 수 있습니다.<br /><br />
+        파이썬에서 자동으로 줌을 열 수 있습니다.<br><br>
 
         먼저, 파이썬 모듈의 도움이 필요합니다. 줌 링크를 열기 위하여
         webbrowser와, 키보드에서 엔터와 비밀번호를 칠 때, 그리고 로딩하는데
-        코드를 멈출 수 있는 time 모듈이 필요합니다.<br /><br />
+        코드를 멈출 수 있는 time 모듈이 필요합니다.<br><br>
 
-        1. 먼저, webbrowser와 keyboard 모듈을 설치 해야합니다.<br />
+        1. 먼저, webbrowser와 keyboard 모듈을 설치 해야합니다.<br>
         2. cmd에서 pip install keyboard와 pip install webbrowser를
-        실행합니다.<br />
-        3. 다음에, 새로운 파이썬 파일을 만들고 안에 코드를 작성합니다.<br />
+        실행합니다.<br>
+        3. 다음에, 새로운 파이썬 파일을 만들고 안에 코드를 작성합니다.<br>
         4. 파이썬 파일에 webbrowser, keyboard, time 모듈을 가지고 옵니다.
-        (import webbrowser, keyboard, time)<br />
-        5. 다음에, 몇 분 기다릴지 물어봅니다. minute = int(input("분: "))<br />
-        6. 몇 분 기다리는지 출력하고 minute 분 기다립니다<br />
+        (import webbrowser, keyboard, time)<br>
+        5. 다음에, 몇 분 기다릴지 물어봅니다. minute = int(input("분: "))<br>
+        6. 몇 분 기다리는지 출력하고 minute 분 기다립니다<br>
         7. 다음에, 웹브라우저에서 줌 링크를 열게 만듭니다.
-        webbrowser.open("zoom link")<br />
-        8. 줌이 로딩되는 동안 5초 기다린 후 왼쪽 화살표와 엔터를 누릅니다.<br />
-        9. 5초 기다리고 비밀번호 타이핑 후 엔터를 누릅니다.<br /><br />
+        webbrowser.open("zoom link")<br>
+        8. 줌이 로딩되는 동안 5초 기다린 후 왼쪽 화살표와 엔터를 누릅니다.<br>
+        9. 5초 기다리고 비밀번호 타이핑 후 엔터를 누릅니다.<br><br>
 
         10. 끝!
       </p>
@@ -94,28 +94,28 @@
       <div style="padding: 10px; margin: 20px">
         <div style="text-align: center">
           <hr />
-          <br />
+          <br>
           <div style="text-align: center" id="speakdiv">
             <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
             <div id="setting">
-              <br /><br />
+              <br><br>
               <img alt="python factory picture"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                 style="width: 25px !important" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
-              <br />
+              <br>
               <img alt="python factory picture"
                 src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                 style="width: 25px !important" />
               <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
             </div>
           </div>
-          <br /><br />
+          <br><br>
           <h1 style="margin: auto; font-size: 30px">
             <span id="tit">자동으로 줌 열기</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
               id="txt">)</span> 87
           </h1>
-          <br />
+          <br>
           <hr />
         </div>
 
@@ -123,27 +123,27 @@
           <h1>코드</h1>
         </div>
         <code>
-          import webbrowser, keyboard, time<br /><br />
+          import webbrowser, keyboard, time<br><br>
 
-          minute = int(input("몇 분 기달리기: "))<br /><br />
+          minute = int(input("몇 분 기달리기: "))<br><br>
 
-          print(minute, " 기다리겠습니다.")<br />
-          time.sleep(minute)<br /><br />
+          print(minute, " 기다리겠습니다.")<br>
+          time.sleep(minute)<br><br>
 
-          webbrowser.open("zoomlink")<br /><br />
+          webbrowser.open("zoomlink")<br><br>
 
-          time.sleep(5)<br /><br />
+          time.sleep(5)<br><br>
 
-          keyboard.press_and_release("left")<br />
-          keyboard.press_and_release("enter")<br /><br />
+          keyboard.press_and_release("left")<br>
+          keyboard.press_and_release("enter")<br><br>
 
-          time.sleep(5)<br /><br />
+          time.sleep(5)<br><br>
 
-          keyboard.write("20211004")<br />
+          keyboard.write("20211004")<br>
           keyboard.press_and_release("enter")
         </code>
 
-        <br /><br /><br /><br />
+        <br><br><br><br>
 
         <div style="margin: 30px; padding: 40px">
           <button style="float: left" class="btn btn-outline-secondary"><a href="spam.html">❮ 이전</a></button>
@@ -154,7 +154,7 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
   </div>
   <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
     background-attachment: fixed;

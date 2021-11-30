@@ -53,8 +53,8 @@
       <li id="more"><a>More</a></li>
     </ul>
   </div>
-  <br />
-  <br />
+  <br>
+  <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
       class="btn btn-outline-success col-5 btn-lg btn-block">Menu</button></div>
@@ -63,34 +63,34 @@
     <div style="padding: 10px; margin: 10px">
       <h1>Mastering Thread</h1>
       <p>
-        Let's try looking into a much more complex thread.<br /><br />
+        Let's try looking into a much more complex thread.<br><br>
 
         <code>
-          import threading, time<br /><br />
+          import threading, time<br><br>
 
-          def thread1():<br />
-          &nbsp;print("Hello")<br />
-          &nbsp;time.sleep(1)<br />
-          &nbsp;print("Done")<br />
-          &nbsp;time.sleep(0.9)<br />
-          &nbsp;print("Now It is Really Done!")<br /><br />
+          def thread1():<br>
+          &nbsp;print("Hello")<br>
+          &nbsp;time.sleep(1)<br>
+          &nbsp;print("Done")<br>
+          &nbsp;time.sleep(0.9)<br>
+          &nbsp;print("Now It is Really Done!")<br><br>
 
-          mainThread = threading.Thread(target=thread1)<br />
-          mainThread.start()<br />
-          print(threading.active_count())<br />
-          time.sleep(0.95)<br />
+          mainThread = threading.Thread(target=thread1)<br>
+          mainThread.start()<br>
+          print(threading.active_count())<br>
+          time.sleep(0.95)<br>
           print("Finally")
         </code>
 
-        If we run the code above, things happen this way:<br /><br />
+        If we run the code above, things happen this way:<br><br>
 
-        1. Firstly, mainThread is made.<br />
-        2. Then, thread1 starts.<br />
-        3. "Hello" is printed to the console.<br />
+        1. Firstly, mainThread is made.<br>
+        2. Then, thread1 starts.<br>
+        3. "Hello" is printed to the console.<br>
         4. Next, threading.active_count() runs (Becuase there is 1 second
-        left).<br />
+        left).<br>
         5. Python moves on to printing "Finally" because 0.95 is smaller than
-        1.<br />
+        1.<br>
         6. Now, Python moves on to "Done" and waits 0.9 then prints "Now it is
         Reall Done!"
       </p>
@@ -103,32 +103,32 @@
       <div style="padding: 10px; margin: 20px">
         <div style="text-align: center">
           <hr />
-          <br />
+          <br>
           <div style="text-align: center" id="speakdiv">
             <button id="speakbutt" class="btn btn-outline-primary">Read</button>
             <div id="setting">
-              <br /><br />
+              <br><br>
               <img alt="python factory picture"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                 style="width: 25px !important" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
-              <br />
+              <br>
               <img alt="python factory picture"
                 src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                 style="width: 25px !important" />
               <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
             </div>
             </div>
-            <br /><br />
+            <br><br>
             <h1 style="margin: auto; font-size: 30px">
               <span id="tit">Mastering Thread</span><br id="lbbr" /><span id="txt">Computer Science Lab
                 (</span>CSL<span id="txt">)</span> 74
             </h1>
-            <br />
+            <br>
             <hr />
             </div>
 
-        <br /><br /><br /><br />
+        <br><br><br><br>
 
         <div style="
               display: flex;
@@ -140,35 +140,35 @@
             <h1>join() method</h1>
             <p>
               Similar to 'await' in asyncio, join() method will wait till that
-              thread is finished.<br /><br />
+              thread is finished.<br><br>
 
               <code>
-                import threading, time<br /><br />
+                import threading, time<br><br>
 
-                def thread1():<br />
-                &nbsp;print("Hello")<br />
-                &nbsp;time.sleep(1)<br />
-                &nbsp;print("Done")<br />
-                &nbsp;time.sleep(0.9)<br />
-                &nbsp;print("Now It is Really Done!")<br /><br />
+                def thread1():<br>
+                &nbsp;print("Hello")<br>
+                &nbsp;time.sleep(1)<br>
+                &nbsp;print("Done")<br>
+                &nbsp;time.sleep(0.9)<br>
+                &nbsp;print("Now It is Really Done!")<br><br>
 
-                mainThread = threading.Thread(target=thread1)<br />
-                mainThread.start()<br />
-                print(threading.active_count())<br /><br />
+                mainThread = threading.Thread(target=thread1)<br>
+                mainThread.start()<br>
+                print(threading.active_count())<br><br>
 
-                mainThread.join()<br /><br />
+                mainThread.join()<br><br>
 
-                time.sleep(0.95)<br />
+                time.sleep(0.95)<br>
                 print("Finally")
               </code>
 
-              1. Firstly, mainThread is made.<br />
-              2. Then, thread1 starts.<br />
-              3. "Hello" is printed to the console.<br />
+              1. Firstly, mainThread is made.<br>
+              2. Then, thread1 starts.<br>
+              3. "Hello" is printed to the console.<br>
               4. Next, threading.active_count() runs (Becuase there is 1
-              second left).<br />
+              second left).<br>
               5. Since there is join() method, "Done!" and "Now It is Really
-              Done!" is printed.<br />
+              Done!" is printed.<br>
               6. Then, "Finally!" is printed.
             </p>
           </div>
@@ -176,7 +176,7 @@
           <iframe src="https://trinket.io/embed/python3/4b10ddd953" width="100%" height="356" frameborder="0"
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
 
-        <br /><br /><br /><br />
+        <br><br><br><br>
 
         <div style="margin: 30px; padding: 40px">
           <button style="float: left" class="btn btn-outline-secondary">
@@ -189,7 +189,7 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
   </div>
   <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
     background-attachment: fixed;

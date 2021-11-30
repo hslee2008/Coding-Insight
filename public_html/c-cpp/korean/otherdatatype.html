@@ -42,65 +42,65 @@
       <li id="more"><a>더보기</a></li>
     </ul>
   </div>
-  <br />
-  <br />
+  <br>
+  <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
       class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
   <div id="menu"></div>
   <div style="text-align: center">
     <hr />
-    <br />
+    <br>
     <div style="text-align: center" id="speakdiv">
       <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
       <div id="setting">
-        <br /><br />
+        <br><br>
         <img alt="python factory picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width: 25px !important" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
-        <br />
+        <br>
         <img alt="python factory picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width: 25px !important" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
       </div>
     </div>
-    <br /><br />
+    <br><br>
     <h1 style="margin: auto; font-size: 30px">
       <span id="tit">확장 데이터 형태</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
         id="txt">)</span> 8
     </h1>
-    <br />
+    <br>
     <hr />
   </div>
 
-  <br /><br /><br /><br />
+  <br><br><br><br>
 
   <div style="padding: 30px; display: flex">
     <div style="padding: 10px; margin: 10px">
       <h1>데이터 형태 보너스 - short, long</h1>
       <p>
         short를 int 앞에 붙이면 int의 가능한 값은 줄어들고 long을 붙이면
-        많아집니다.<br /><br />
+        많아집니다.<br><br>
 
-        short int는 -32768부터 32767까지 가능하고 %hd를 사용합니다.<br /><br />
+        short int는 -32768부터 32767까지 가능하고 %hd를 사용합니다.<br><br>
 
         long int는 -2,147,483,648부터 2,147,483,647까지 이고 %ld를
-        사용합니다.<br /><br />
+        사용합니다.<br><br>
 
         long을 두 번 붙인 long long int는 -9223372040000000000부터
-        9223372040000000000까지 가능하고 %lld를 사용합니다.<br /><br />
+        9223372040000000000까지 가능하고 %lld를 사용합니다.<br><br>
 
-        아쉽게도 long long long int는 존재하지 않습니다.<br /><br />
+        아쉽게도 long long long int는 존재하지 않습니다.<br><br>
 
         <code>
-          #include &lt;stdio.h><br /><br />
+          #include &lt;stdio.h><br><br>
 
-          int main()<br />
-          {<br />
-          &nbsp;long long int a = 123456789;<br />
-          &nbsp;return 0;<br />
+          int main()<br>
+          {<br>
+          &nbsp;long long int a = 123456789;<br>
+          &nbsp;return 0;<br>
           }
         </code>
       </p>
@@ -111,39 +111,39 @@
     </div>
   </div>
 
-  <br /><br /><br /><br />
+  <br><br><br><br>
 
   <div style="padding: 30px; display: flex">
     <div style="padding: 10px; margin: 10px">
       <h1>데이터 형태 보너스 - unsigned, signed</h1>
       <p>
         unsigned는 기호가 붙지 않은 수를 뜻합니다. unsinged를 기본 데이터 형태
-        붙이면 -값은 불가능하지만 +값은 더 많아집니다.<br /><br />
+        붙이면 -값은 불가능하지만 +값은 더 많아집니다.<br><br>
 
-        unsigned short int는 0부터 65535만 가능하고 %hu를 사용합니다.<br /><br />
+        unsigned short int는 0부터 65535만 가능하고 %hu를 사용합니다.<br><br>
 
-        0부터 4294967295까지 unsigned int라고 '%u'를 사용합니다.<br /><br />
+        0부터 4294967295까지 unsigned int라고 '%u'를 사용합니다.<br><br>
 
         unsigned long int와 unsigned long long int는 각 0부터 4294967295,
-        0부터 18446744073709551615까지 '%lu'와 '%llu'를 사용합니다.<br /><br />
+        0부터 18446744073709551615까지 '%lu'와 '%llu'를 사용합니다.<br><br>
 
         signed char은 조금 더 긴 char를 뜻합니다. 케릭터 하나는 0부터
         255까지의 값을 가질 수 있지만 signed char는 -128부터 127까지
-        가능합니다.<br /><br />
+        가능합니다.<br><br>
 
         <code>
-          #include &lt;stdio.h><br /><br />
+          #include &lt;stdio.h><br><br>
 
-          int main()<br />
-          {<br />
-          &nbsp;short int a = 123;<br />
-          &nbsp;long int b = 123;<br />
-          &nbsp;long long int c = 123123;<br />
-          &nbsp;unsigned long long int d = 123123123;<br />
-          &nbsp;unsigned short in e = 123;<br />
-          &nbsp;signed char f = 'a';<br /><br />
+          int main()<br>
+          {<br>
+          &nbsp;short int a = 123;<br>
+          &nbsp;long int b = 123;<br>
+          &nbsp;long long int c = 123123;<br>
+          &nbsp;unsigned long long int d = 123123123;<br>
+          &nbsp;unsigned short in e = 123;<br>
+          &nbsp;signed char f = 'a';<br><br>
 
-          &nbsp;return 0;<br />
+          &nbsp;return 0;<br>
           }
         </code>
       </p>
@@ -154,7 +154,7 @@
     </div>
   </div>
 
-  <br /><br /><br /><br />
+  <br><br><br><br>
 
   <div style="margin: 30px; padding: 40px">
     <button style="float: left" class="btn btn-outline-secondary">
@@ -165,7 +165,7 @@
     </button>
   </div>
 
-  <br /><br /><br /><br />
+  <br><br><br><br>
 
   <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
     background-attachment: fixed;

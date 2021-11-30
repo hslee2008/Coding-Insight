@@ -52,13 +52,13 @@
       <li id="more"><a>More</a></li>
     </ul>
   </div>
-  <br />
-  <br />
+  <br>
+  <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
       class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
 
-  <br />
+  <br>
   <div style="
         display: flex;
         padding: 30px;
@@ -70,7 +70,7 @@
       <h1>Definition of Module</h1>
       <p>
         Modules are a group of functions, variables, and classes to be used in
-        other files.<br /><br />
+        other files.<br><br>
 
         We can fetch functions, variables, and classes from other files and
         use it outside of the file.
@@ -78,38 +78,38 @@
     </div>
     </div>
 
-  <br /><br /><br /><br />
-  <br /><br />
+  <br><br><br><br>
+  <br><br>
   <div style="padding: 10px; margin: 20px">
     <div style="padding: 10px; margin: 20px">
       <div style="text-align: center">
         <hr />
-        <br />
+        <br>
         <div style="text-align: center" id="speakdiv">
           <button id="speakbutt" class="btn btn-outline-primary">Read</button>
           <div id="setting">
-            <br /><br />
+            <br><br>
             <img alt="python factory picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br />
+            <br>
             <img alt="python factory picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
           </div>
-          <br /><br />
+          <br><br>
           <h1 style="margin: auto; font-size: 30px">
             <span id="tit">Basics of Module</span><br id="lbbr" /><span id="txt">Computer Science Lab
               (</span>CSL<span id="txt">)</span> 40
           </h1>
-          <br />
+          <br>
           <hr />
           </div>
 
-      <br /><br /><br /><br />
+      <br><br><br><br>
 
       <div>
         <div style="padding: 20px; display: flex">
@@ -117,11 +117,11 @@
             <h1>import - Import Module</h1>
             <p>
               We have to fetch the module to use functions and variables
-              inside it.<br /><br />
+              inside it.<br><br>
 
-              To do this, run the code 'import filename'.<br /><br />
+              To do this, run the code 'import filename'.<br><br>
 
-              Do not put '.py'(extension) at the end, only the file name.<br /><br />
+              Do not put '.py'(extension) at the end, only the file name.<br><br>
 
               <code> import math </code>
 
@@ -131,7 +131,7 @@
           </div>
           </div>
 
-      <br /><br /><br /><br />
+      <br><br><br><br>
 
       <div>
         <div style="
@@ -143,22 +143,22 @@
             <h1>dir(module) - Look at all functions and variables</h1>
             <p>
               When we use dir(), we can see all the available functions and
-              variables.<br /><br />
+              variables.<br><br>
 
               <code>
-                import math<br /><br />
+                import math<br><br>
 
                 print(dir(math))
               </code>
 
               If we run the code above, we can see an item named 'sqrt' inside
-              the list.<br /><br />
+              the list.<br><br>
 
               sqrt is short for Square Root and it is used for finding square
-              root of a number.<br /><br />
+              root of a number.<br><br>
 
               <code>
-                import math<br /><br />
+                import math<br><br>
 
                 print(math.sqrt(4))
               </code>
@@ -169,7 +169,7 @@
             <iframe src="https://trinket.io/embed/python3/170c0ea7f7" width="100%" height="356" frameborder="0"
               marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
 
-      <br /><br /><br /><br />
+      <br><br><br><br>
 
       <div>
         <div style="
@@ -181,31 +181,31 @@
             <h1>'as' keyword</h1>
             <p>
               Let's assume there is a file named
-              abcdefgjijklmnopqrstuvwxyz.py.<br /><br />
+              abcdefgjijklmnopqrstuvwxyz.py.<br><br>
 
               We want to import the file as a module to use the function
-              abc().<br /><br />
+              abc().<br><br>
 
               However, typing abcdefghijklmnopqrstuvwxyz every time is very
-              annoying.<br /><br />
+              annoying.<br><br>
 
-              There are two ways we can achieve this.<br /><br />
+              There are two ways we can achieve this.<br><br>
 
-              1. Store all information on a variable<br /><br />
+              1. Store all information on a variable<br><br>
 
               <code>
-                import abcdefghijklmnopqrstuvwxyz<br /><br />
+                import abcdefghijklmnopqrstuvwxyz<br><br>
 
-                alphabet = abcdefghijklmnopqrstuvwxyz<br /><br />
+                alphabet = abcdefghijklmnopqrstuvwxyz<br><br>
 
-                alphabet.abc()<br />
+                alphabet.abc()<br>
                 abcdefghibjkmnopqrstuvwxyz.abc() #Sames as the code above
               </code>
 
-              2. Using as keyword<br /><br />
+              2. Using as keyword<br><br>
 
               <code>
-                import abcdefghijklmnopqrstuvwxyz as alphabet<br /><br />
+                import abcdefghijklmnopqrstuvwxyz as alphabet<br><br>
 
                 alphabet.abc()
               </code>
@@ -218,7 +218,7 @@
           <iframe src="https://trinket.io/embed/python3/170c0ea7f7" width="100%" height="356" frameborder="0"
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
 
-      <br /><br /><br /><br />
+      <br><br><br><br>
     </div>
 
     <div style="margin: 30px; padding: 40px">
@@ -230,7 +230,7 @@
       </button>
     </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
   </div>
   <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
     background-attachment: fixed;

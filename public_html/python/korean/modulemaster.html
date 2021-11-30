@@ -45,43 +45,43 @@
       <li id="more"><a>더보기</a></li>
     </ul>
     </div>
-    <br />
-    <br />
+    <br>
+    <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
       class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
   <div id="menu"></div>
-  <br /><br />
+  <br><br>
   <div style="padding: 10px; margin: 20px">
     <div style="padding: 10px; margin: 20px">
       <div style="text-align: center">
         <hr />
-        <br />
+        <br>
         <div style="text-align: center" id="speakdiv">
           <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
           <div id="setting">
-            <br /><br />
+            <br><br>
             <img alt="python factory picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br />
+            <br>
             <img alt="python factory picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
           </div>
-          <br /><br />
+          <br><br>
           <h1 style="margin: auto; font-size: 30px">
           <span id="tit">모듈 마스터하기</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span> 41
         </h1>
-        <br />
+        <br>
         <hr />
       </div>
 
-      <br /><br /><br /><br />
+      <br><br><br><br>
 
       <div style="display: flex; padding: 30px; background-color: #afb3d4">
         <div style="padding: 20px">
@@ -89,36 +89,36 @@
           <p>
             조금 더 재미있는 프로젝트 하나를 만들어 보겠습니다. 바로 우리만의
             모듈을 만들어서 짝수인지 홀수인지 계산할 수 있는 함수를 만들
-            것입니다.<br /><br />
+            것입니다.<br><br>
 
             우리의 모듈 이름을 'OEM'(Odd, Even Module)로 정하려면 파일의
-            이름은 'OEM'으로 만들면 됩니다.<br /><br />
+            이름은 'OEM'으로 만들면 됩니다.<br><br>
 
             <code>
-              #OEM<br />
-              def isEven(num):<br />
-              &nbsp;return num%2==0<br /><br />
+              #OEM<br>
+              def isEven(num):<br>
+              &nbsp;return num%2==0<br><br>
 
-              def isOdd(num):<br />
+              def isOdd(num):<br>
               &nbsp;return num%2==1
             </code>
 
-            그리고 우리의 중요한 코드를 담을 'main.py' 파일을 만드세요. 그리고 isEven을 사용하기 위하여 isEven을 가지고 오겠습니다.<br /><br />
+            그리고 우리의 중요한 코드를 담을 'main.py' 파일을 만드세요. 그리고 isEven을 사용하기 위하여 isEven을 가지고 오겠습니다.<br><br>
 
             <code>
-              #main<br />
-              from OEM import isEven<br /><br />
+              #main<br>
+              from OEM import isEven<br><br>
 
               print(isEven(3)) #False가 출력됩니다
             </code>
 
             하지만 isEven만 사용이 가능하고 isOdd는 불가능합니다. 그래서 모든
-            함수를 가지고 오기 위하여 \*를 사용할 수 있습니다<br /><br />
+            함수를 가지고 오기 위하여 \*를 사용할 수 있습니다<br><br>
 
             <code>
-              from OEM import *<br /><br />
+              from OEM import *<br><br>
 
-              print(OEM.isEven(3)) #False가 출력됩니다<br />
+              print(OEM.isEven(3)) #False가 출력됩니다<br>
               print(OEM.isOdd(5)) #True가 출력됩니다
             </code>
 
@@ -130,19 +130,19 @@
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <br><br><br><br>
 
       <div>
         <div style="padding: 20px; display: flex; background-color: antiquewhite">
           <div style="padding: 10px">
             <h1>모듈 출판하기</h1>
             <p>
-              모듈을 PyPi에 출판이 가능합니다.<br /><br />
+              모듈을 PyPi에 출판이 가능합니다.<br><br>
 
               출판하면 전 세계 사람들이 `pip install`을 실행하면 우리의 코드를
-              내려받는 것이 가능합니다.<br /><br />
+              내려받는 것이 가능합니다.<br><br>
 
-              터미널에 다음과 같은 코드를 실행하세요.<br /><br />
+              터미널에 다음과 같은 코드를 실행하세요.<br><br>
 
               python filename.py register -r
             </p>
@@ -150,7 +150,7 @@
           </div>
           </div>
 
-      <br /><br /><br /><br />
+      <br><br><br><br>
 
       <div>
         <div style="padding: 20px; display: flex">
@@ -158,11 +158,11 @@
             <h1>모듈 - __import__()</h1>
             <p>
               파이썬에서 __import()__ 함수를 사용한다면 모듈을 불러올 수
-              있습니다.<br /><br />
+              있습니다.<br><br>
 
               <code> OS = __import__("os") </code>
 
-              나만의 모듈은 모듈 파일의 주소를 적어주면 됩니다.<br /><br />
+              나만의 모듈은 모듈 파일의 주소를 적어주면 됩니다.<br><br>
 
               <code> myMod = __import__(r"C:\main.py") </code>
 
@@ -173,7 +173,7 @@
           </div>
           </div>
 
-      <br /><br /><br /><br />
+      <br><br><br><br>
 
       <div>
         <div style="padding: 20px; display: flex">
@@ -187,7 +187,7 @@
         </div>
       </div>
 
-      <br /><br /><br /><br />
+      <br><br><br><br>
     </div>
 
     <div style="margin: 30px; padding: 40px">
@@ -199,7 +199,7 @@
       </button>
     </div>
 
-    <br /><br /><br /><br />
+    <br><br><br><br>
   </div>
   <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
     background-attachment: fixed;
