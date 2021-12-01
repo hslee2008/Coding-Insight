@@ -1,20 +1,33 @@
-# 슬로건
+<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/HyunseungLee-Travis/Coding-Insight"></a>
 
-"지식을 만드는 곳 - 파이썬 팩토리"
+<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/HyunseungLee-Travis/Coding-Insight"></a>
+<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/HyunseungLee-Travis/Coding-Insight"></a>
 
-# Python-Factory 목적
+<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/stargazers"><img alt="GitHub stars" src="
+https://img.shields.io/badge/Programming%20Languages-C%2C%20C%2B%2B%2C%20Python-red"></a>
+<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/stargazers"><img alt="GitHub stars" src="
+https://img.shields.io/badge/Languages-English%2C%20Korean-red"></a>
 
-저희의 목적은 어린이들이 <abbr title="마우스로 블록을 지정하여 코드화하는 기법">블록코딩</abbr>을 배운 후 텍스트 기반인 파이썬 코딩 방식을 독학으로 배울 수 있는 사이트를 개설하고 무료로 운영하는 것입니다.
-
-# 소개
+# 개발자
 
 - 이현승
 - 임주하
 - 김건
 
-# 결과
+# 링크
+
 - 유튜브: https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA
+
+- 비디오: https://coding-insight.com/python/korean/video.html
+
 - 사이트: http://coding-insight.com/
+
 - 깃허브: https://github.com/HyunseungLee-Travis/Coding-Insight
+
 - 설문조사: https://forms.gle/46giCXG3Y7spbm21A
+
 - 구글 애널리틱스: https://datastudio.google.com/s/g5TB1fxdneM
+
+- 채팅: https://www.coding-insight.com/chat.html
+
+- 게임: https://www.coding-insight.com/game.html
