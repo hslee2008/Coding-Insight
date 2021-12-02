@@ -56,7 +56,7 @@
   <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
-      class="btn btn-outline-success col-5 btn-lg btn-block">Menu</button></div>
+      class="btn btn-outline-success col-5 btn-lg btn-block menu-button">Menu</button></div>
   <div id="menu"></div>
   <div style="padding: 10px; margin: 20px">
     <div style="padding: 10px; margin: 20px">
@@ -72,7 +72,7 @@
             <code> pip install pandas </code>
           </p>
         </div>
-        <img alt="python factory picture"
+        <img class="img-fluid" alt="python factory picture"
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAA8FBMVEX///9BcZn9vjP///3//v9AcZr///z+vTM8bpfx+Pn8//9DcJg8bJJjh6VBcZc6bJa0xtL8uyaBoLc0ZZExZo/W4+r+vTD7vzNVfJ4vY4z3///86LuvwM39+uo/cJw2Z47i6+////X4vTb66MH21ov85a3989T/+OT4xmH3vz/436KdtMb9uSLH1uD85bPe6O5xkq16m7JPd5zN4O3P2uLk8/k/bYz3wUrzxVP8+uD+78SOpbdcgKT23Zb+8dGlucj00n36zG/0zmb5w1fG0Nvx4qEdXYuCnrxZfpn1z3JVeZ8eWYGUprRgg5r6y27804h6gycOAAASh0lEQVR4nO1dC3eiShJubEBooBFBkIyC5mFijNE4yeThTZxHdnayd3fn//+brWp8AGqyd+bu6j3T35nJiQRM+6W669FV1YRISLwBCtj1GP7CUAV2PYq/LFTVNE3J34+iPHPlTP4DoKulT66BfxglvUFVKXx/BEiWOWogRh0TL+iSv/8KFGWPNOqTOI4DQByn3Bk0iA4/kRS+CeCOHoxjVwMoAPxqu37zmqhM0vcmgD3m+Jprc0tZwbLjGpE65G1QRlsBD6ZXaSZ9cwnUktiU7L0JnKBNO52Z5jBdiR9XNCsdELbr0e09gD0z4PZNx2wESgFGU6qON4Fa1zcm4LC9D6wCfZothe9tUHLtc7d2M3R4Ufq0QC5+b0NH+hLXThOlhLij73pwew00+ahKR75iILimWJqykkG/Azeo2V27HupeQiWMqdT8YE2aTcdxmrZvWEvrxfI7RKU63kRlHGsDFjLFFjrCbDiGkpO+7KpOmVQiG8A6w9as1aoNrzumyZh5cz3Nqw+/o98/HT31uiB9cvYWAKsZG0ziwHdd1w/8OE5TO40DN+d58LhzGnmA2/OuqjJdTuAVKB3xwNBysqaAo1ZQvDy+6XmVSiX0vLt7JsnLQSUd29CKZnIZ3L95QPoq1ap315XxvyXQDnFcjb/KnqIE5qVXBfaiStU7Zqo0AucASWrEwsh7DZp9cHKBwgcEVr3TXQ96fwDSN3XfED2YvL+RYzF5Ed6jtF2WoKRpvEmfOyVn4Zy9KLyT4ZcVzOBN9hT/un24oK9SPWzvesx7A0o6Jfq4srYOug55t5y7MHufdj3q/QG9LtJnWZxjtECzLNQnnGtGMDH1Lyvhi7yjXQ96jzAs0Kcphot7lH6aBgKx3ZwddD+i2TKnr3Lxbtdj3iM8+wXpC5rTWuPmxjRvbm5Go8ZoZJL2w9mKPYCkL4cCfYb9TOj95cn5+QngEnB+/KnveSvFAapX0rcEy09ezbJvyMmdV0KYFz1c+x52Pep9AWWksZI+K6iRRw89s8p2VCvS7VgCDJd4YajwhLOe9yp3YvL2u7se9d6AUmYv7Tz3Cn0zkL6SuBVfRmfS61gAAy62koUMNHdGv4SVNxB5xzLimg alt="
           python factory
           picture"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" />
@@ -86,12 +86,12 @@
             <button id="speakbutt" class="btn btn-outline-primary">Read</button>
             <div id="setting">
               <br><br>
-              <img alt="python factory picture"
+              <img class="img-fluid" alt="python factory picture"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                 style="width: 25px !important" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
               <br>
-              <img alt="python factory picture"
+              <img class="img-fluid" alt="python factory picture"
                 src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                 style="width: 25px !important" />
               <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
@@ -162,7 +162,8 @@
             </p>
             </div>
             </div>
-            <iframe src="https://trinket.io/embed/python3/ad2ac39772" width="100%" height="356" frameborder="0"
+            <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/ad2ac39772" width="100%"
+              height="356" frameborder="0"
               marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
         <br><br><br><br>
@@ -183,7 +184,8 @@
             </p>
           </div>
           </div>
-          <iframe src="https://trinket.io/embed/python3/f3002f6946" width="100%" height="356" frameborder="0"
+          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/f3002f6946" width="100%"
+            height="356" frameborder="0"
             marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
         <br><br><br><br>
@@ -229,11 +231,12 @@
               </code>
             </p>
             </div>
-          <img alt="python factory picture"
+          <img class="img-fluid" alt="python factory picture"
             src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2018/09/windows-key-v-turnon-button.jpg?itok=ZV9pLnok"
             width="500px" alt="clipboard" /><br>
         </div>
-        <iframe src="https://trinket.io/embed/python3/f3002f6946" width="100%" height="356" frameborder="0"
+        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/f3002f6946" width="100%"
+          height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
         <br><br><br><br>
@@ -277,9 +280,10 @@
               </code>
             </p>
             </div>
-          <img alt="python factory picture" src="img/csv.jpg" width="500px" alt="clipboard" />
+          <img class="img-fluid" alt="python factory picture" src="img/csv.jpg" width="500px" alt="clipboard" />
         </div>
-        <iframe src="https://trinket.io/embed/python3/7640f07850" width="100%" height="356" frameborder="0"
+        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/7640f07850" width="100%"
+          height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
         <br><br><br><br>
@@ -308,7 +312,7 @@
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
     <br><br>
-    <img alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
+    <img class="img-fluid" alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
     <br>
     <div style="padding:5px;display: flex;justify-content: center;width:100%;">
       <div>

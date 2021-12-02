@@ -56,6 +56,13 @@ p > a {
 }
 
 @media only screen and (max-width: 1000px) {
+  #menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+
   button:not(#butty) {
     padding: 5px !important;
     font-size: 10px !important;
@@ -81,9 +88,7 @@ p > a {
     width: 40%;
   }
 
-  #py,
-  #git,
-  #intro {
+  #py {
     padding: 20px !important;
     margin: 10px !important;
   }
@@ -120,6 +125,21 @@ p > a {
   #lbbr {
     display: block;
   }
+
+  .menu-button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    width: 100px;
+    background-color: #188754;
+    color: white;
+  }
+
+  .menu-button:hover {
+    background-color: white;
+    color: #188754;
+  }
 }
 
 ul {
@@ -134,6 +154,7 @@ ul {
   display: none;
   position: absolute;
   background-color: white;
+  overflow: auto;
   padding: 100px;
   top: 50px;
   list-style-type: none;
@@ -159,6 +180,13 @@ code {
   padding: 1em 1.5em;
   display: block;
   word-wrap: break-word;
+}
+
+div:has(iframe) {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
 }
 
 *::selection {

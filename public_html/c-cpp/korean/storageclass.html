@@ -42,7 +42,7 @@
   <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
-      class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
+      class="btn btn-outline-success col-5 btn-lg btn-block menu-button">메뉴</button></div>
   <div id="menu"></div>
 
   <div style="padding:30px;display:flex;margin:30px;">
@@ -57,7 +57,7 @@
       </p>
     </div>
     <div style="margin: auto;">
-      <img
+      <img class="img-fluid"
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAACUlJTPz8+ysrL6+vrq6urX19eNjY1PT0/a2tr39/ehoaEUFBSdnZ3y8vJra2vj4+N2dnaAgIC7u7vExMSEhISsrKwfHx9XV1cxMTFwcHBiYmK1tbVFRUXIyMg5OTkMDAxAQEBkZGQrKystLS0aGhpqd1GFAAAEd0lEQVR4nO2di1bqMBBFW6DlKQV5CaiAev3/T7xwlYtKhUmZzEm6zv4A1uzVkiYzkyRJCCGEEEIIIYQQQqqQ9cft5rjI0HH4oWh2urv0g+39YoyOR5ve/UP6nW4LHZMmvWVawsMCHZcW/UmZ34FVGx2bCu3Vb4J7BujoFJhe8NuzRsd3M4vLgvsRBx3hjVx5ggce0THeRO+6YJp20FHewp3EMJ2hw6zOvUgwTfvoQKvSFgqmE3SkVXmUGqYFOtRqiB9hms7RsVZD+i/cs4vyn5jJBdN0io62CjMXwxE62ip0XAzfYnxNLy0pzolxze8kGOO8JnczHKLjdUc06T4R4fS76WYY4Te//ob1f0v7boYxZhZlq98jPXS4FXCYeKdxrp+eXASjTEcVLoZxZoZLixW/EOO0VJAMPvGMjrUaDq/pEzrWishHU3SkVal/NjF5FhrGOc4c2MgEo0zSfPImMoy5Eiya1yzRUd7EH4FhEx3kTbSuC0ZeBBbko2L92n8iMNygY7wNQWo/xtX9FwTf/C06xpsQ1UhDa6nJZ9OWkKEwVbNrXPmh6Sy3shu4rGp1WQ78W7ZHML0PRn6nd9mvHYaGTDy2F7fd0p++2Hl7jIL+NCM8VfzDEfSk6FhH8oyHtUgRxn/wyJ1+BQD9lfiJetbDoXvLCO0BtYsWOkN50exYzDVBt9ro1NtkhG5NXJrWtUS1kuPY+WOE5jojvJH0gOZo6lAFNEQzuTNEy5Si2QbXQMuU0qAhDWkIh4Y0pCEeGtKQhnhoSEMa4qEhDWmIh4Y0/EqY+VJNw5CaFE5oGoZZmdE0DK6K/w9VwzHapgxVw5Lq09tjZzCcr7cAtU90Db8Np+/LRfvUPtdrgdoxlQ2T5rHSvZ6ddevkw/caGO4dG6/L+VN5M1IG+GTqG16mkJ95Falhkgxqb2g99QEYSvcaRmxo+xQhhqbrLIyhZX8YyNBwBgsyNHxPUYbFru6Gybz2hmb9xDDDxGrJiDO0GmtwhlZzN5yh43mQMRoabSACGhrlbYCGRtlVoKHRXloaeqT+b6nRRjeg4a7uhk4HsUdp6HQQe5SGVpsVcYay48siNjTbygczdDtZN0JDu64GlKHdAS8gQ8MNtSBDyRGCURtaHkIEMTQtAyMMBWdAxm1oXMi3N7Q+CMzasGfe/6VvmDUHjcag/Mzm3Gyu5s+wOC6KuueSbYCfuuHmayL7ZTL7f/5Nvum8IPy0Dc/X7bvVcj1avgCPAGMHrRO174Kufyd7/Xcj1H9HSf13BdEQAw1pSEM8NKQhDfHQkIY0xENDGtIQDw1pSEM89c+Xat7jbduBIKWlaBjiBR66V3iEWZlRvWUuvGtmtC+aCXGo0bwaIcwasPJF3q9onzNedQUDfIjqd7Gb7UEXMtcWTLIV2ukbKw8XWYb1nqq/owdCugDR01Xs4dz65O2u+RzUwPaDrc9Lga2P8ypDc9FUQtF5gOq9d/Sv5/xJfzZBnQa5nZwfaOiJLO81renlHu9yJoQQQgghhBBCSPD8Bbitac/gWoAeAAAAAElFTkSuQmCC"
         width="250px" alt="words" />
     </div>
@@ -72,12 +72,12 @@
       <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
       <div id="setting">
         <br><br>
-        <img alt="python factory picture"
+        <img class="img-fluid" alt="python factory picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width:25px !important;" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
         <br>
-        <img alt="python factory picture"
+        <img class="img-fluid" alt="python factory picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width:25px !important;" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
@@ -212,7 +212,7 @@
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
     </div>
     <br><br>
-    <img alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
+    <img class="img-fluid" alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
     <br>
     <div style="padding:5px;display: flex;justify-content: center;width:100%;">
       <div>

@@ -46,7 +46,7 @@
   <br>
 
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
-      class="btn btn-outline-success col-5 btn-lg btn-block">메뉴 버튼</button></div>
+      class="btn btn-outline-success col-5 btn-lg btn-block menu-button">메뉴</button></div>
   <div id="menu"></div>
   <div style="padding: 30px; display: flex">
     <div style="padding: 10px; margin: 10px">
@@ -57,7 +57,7 @@
       </p>
     </div>
     <div style="margin: auto">
-      <img alt="python factory picture"
+      <img class="img-fluid" alt="python factory picture"
         src="https://media.istockphoto.com/vectors/esc-keyboard-button-icon-vector-line-icon-vector-id1202771377?k=20&m=1202771377&s=612x612&w=0&h=zqUUC3E6V5S8mcCC5_msDOhnEvOeuBYN46r5byyySQU="
         width="300px" />
     </div>
@@ -69,12 +69,12 @@
       <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
       <div id="setting">
         <br><br>
-        <img alt="python factory picture"
+        <img class="img-fluid" alt="python factory picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width: 25px !important" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
         <br>
-        <img alt="python factory picture"
+        <img class="img-fluid" alt="python factory picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width: 25px !important" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
@@ -139,7 +139,7 @@
       </p>
     </div>
     <div style="margin: auto">
-      <img alt="python factory picture"
+      <img class="img-fluid" alt="python factory picture"
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEtCAMAAACrn9tZAAAAdVBMVEUAAAD////s7Oy+vr7Nzc3c3Nzn5+enp6fHx8f19fXf39+qqqry8vL6+vpCQkJ4eHhKSkqWlpYbGxuJiYkXFxe1tbUsLCyzs7NlZWVPT0/FxcVwcHBiYmJ/f3+fn59VVVULCwuYmJjT09M5OTkjIyOOjo6FhYWxxF0IAAADr0lEQVR4nO2dR3IjMRAEScpS4shRorw0pMz/n7ixB/QRubcqbFS+IGMaAdMogotFCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEf+ew6nKh9isul102ar/iui+6vFYLFiD6qPYrHvuiK7Vf8dAXna7UgsUwg/RklNof9UVP1X7FE9T+SS3YuAfRI7VgAbU/UfsVZ/BJb9SCjR2IbtWCxWGU2h/3RU/v1YKN51EG6Q2IHqsFCxikPqJ7+KQ2OygapLdqwcb3qi96rhYsYILa3KkFG59Q+2e1YINEX9SCxUVf9KD2K7bwSW1W0VcQPVMLFjBBPaj9ihf4pGq/gmr/phZs3Ex9UZ8e1KYv6rPNp/6j2q94B9Fhan+p9iug/+hTe1pFbfqP1If4UAsWp31Rn0bpD3zSb7Vgg2ZSn9qDqE+jlPqPar/iA0R9+o/DiMJNzlrtV1DtbfqPdLz/VQsWIOrTg4IJyidmQIP0Uy1YgOiP2q+g/qPar4Bt/mZWCzauoPavasFi3Rf16T9C7X1iBrTNt+lB3YGozzYf+o8+Yb3zvuhmpxZs0PHeZhWd4Xjv03+EVdRHlPqPNrd4XyDq03+E2vvEDCCwNdlMUBQz8NlBwQ2uT+2hD+EzQdEtns0g/YJbPJ8bXBikPo1S+LnD0iYLQ2nid7VgAbUfZpD6HPFogrK5ydnB8d6n9pCF8ZmgqP+o9itom2/Tf5xhFfUJbEGaeFL7Fb9Qe5s08RuI+tQeRH22+dR/VPsVtyDq038EUZvIO/UhfGq/B1GbJjnd5NisogtYRX2O97CDmma1YIPCej4RExD1WUWh/+iThaE+hE3/kX4sbJMopSOez/Eenl2YvtSCDQpq2gzScZ7cGCZmMMyTG+NMUHBB4hMzgDyEzyClJrlNzOAbds8+/UeImPgEtijybjNB0RHPJ00M/Uef2oOoz5MblCS32ert4Ld4Pv1HWEV9Iu97qL1NzIAGqU//EWrvs4rCBLWe1YIN2kHZ/CZnHuYGFxKlPjMp9R/VfgVNUD79RxikPonSYZ7coJiBzU3OOK8ZQGjHpw9BMQO1X0FHPJ8JCvoQPoN0mCc3/pt3qX22+cM8ubGHT2pzxBun9iDqkyiFG1yfsB4d8Xz6jyDqE3kf5skNihnY/BaPgprDrKI+T38O888eFHkfpvY+YT16k1ztV0Bgy+cGl94kt+lDzMM8ubE96uJzaA4hhBBCCCGEEEIIIYQQQgghhBBCCCGEEMJf/gBBWylPiOZIDgAAAABJRU5ErkJggg==" />
     </div>
   </div>
@@ -187,7 +187,7 @@
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
     </div>
     <br><br>
-    <img alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
+    <img class="img-fluid" alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
     <br>
     <div style="padding:5px;display: flex;justify-content: center;width:100%;">
       <div>
