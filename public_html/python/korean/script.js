@@ -1,7 +1,5 @@
 //Menu
-const menu = `
-<button class="btn-close" aria-label="Close" style="position:absolute;top:0;right:0;margin:5px;" onclick="document.querySelector('#menu').style.display = 'none'"></button>
-<details>
+const menu = `<details>
   <summary>&#54028;&#51060;&#50028; &#49884;&#51089;</summary>
   <p id="men">
     <a href="python.html">(1) &#54028;&#51060;&#50028;</a>
@@ -188,19 +186,6 @@ const menu = `
 `;
 
 document.querySelector( "#menu" ).innerHTML = menu;
-
-
-//Menu - Hide and show
-document.querySelector( "#menu" ).style.textAlign = "center";
-document.querySelector( "#menu" ).style.display = "none";
-
-document.querySelector( "#butty" ).addEventListener( 'click', () => {
-  if ( document.querySelector( "#menu" ).style.display == "none" ) {
-    document.querySelector( "#menu" ).style.display = "block"
-  } else {
-    document.querySelector( "#menu" ).style.display = "none"
-  }
-} )
 
 //speechSynthesis - button
 const set = document.querySelector( "#setting" )

@@ -1,7 +1,5 @@
 //Menu</span>
-const menu = `
-<button class="btn-close" aria-label="Close" style="position:absolute;top:0;right:0;margin:5px;" onclick="document.querySelector('#menu').style.display = 'none'"></button>
-<details>
+const menu = `<details>
   <summary>Starting Python</summary>
   <p id="men">
     <a href="python-en.html">(1) The Definition of Python</a>
@@ -182,18 +180,6 @@ const menu = `
 `;
 
 document.querySelector( "#menu" ).innerHTML = menu;
-
-//Menu</span>
-document.querySelector( "#menu" ).style.textAlign = "center";
-document.querySelector( "#menu" ).style.display = "none";
-
-document.querySelector( "#butty" ).addEventListener( 'click', () => {
-  if ( document.querySelector( "#menu" ).style.display == "none" ) {
-    document.querySelector( "#menu" ).style.display = "block"
-  } else {
-    document.querySelector( "#menu" ).style.display = "none"
-  }
-} )
 
 //speechSynthesis - button
 const set = document.querySelector( "#setting" )

@@ -1,7 +1,5 @@
 //Menu
 const menu = `
-<button class="btn-close" aria-label="Close" style="position:absolute;top:0;right:0;margin:5px;" onclick="document.querySelector('#menu').style.display = 'none'"></button>
-
 <details>
   <summary>&#x43;&#x20;&#xc5b8;&#xc5b4;&#x20;&#xc2dc;&#xc791;</summary>
   <p id="men">
@@ -117,19 +115,6 @@ const menu = `
 `;
 
 document.querySelector( "#menu" ).innerHTML = menu;
-
-
-//Menu - Hide and show
-document.querySelector( "#menu" ).style.textAlign = "center";
-document.querySelector( "#menu" ).style.display = "none";
-
-document.querySelector( "#butty" ).addEventListener( 'click', () => {
-  if ( document.querySelector( "#menu" ).style.display == "none" ) {
-    document.querySelector( "#menu" ).style.display = "block"
-  } else {
-    document.querySelector( "#menu" ).style.display = "none"
-  }
-} )
 
 //speechSynthesis - button
 const set = document.querySelector( "#setting" )
