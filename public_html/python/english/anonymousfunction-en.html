@@ -2,21 +2,11 @@
 <html lang="en">
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push( arguments );
-    }
-    gtag( "js", new Date() );
-
-    gtag( "config", "UA-209775586-1" );
-  </script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
   <meta name="author" content="Hyunseung, Juha, Gun" />
@@ -62,8 +52,8 @@
   <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
       class="btn btn-outline-success col-5 btn-lg btn-block menu-button" type="button" data-bs-toggle="offcanvas"
       data-bs-target="#demo">Menu</button></div>
-      <div class="offcanvas offcanvas-start" id="demo" style="overflow: auto;">
-        <div id="menu"></div>
+  <div class="offcanvas offcanvas-start" id="demo" style="overflow: auto;">
+    <div id="menu"></div>
   </div>
   <div style="
         display: flex;
@@ -107,15 +97,15 @@
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
-          </div>
-          <br><br>
-          <h1 style="margin: auto; font-size: 30px">
-            <span id="tit">Anonymous Function</span><br id="lbbr" /><span id="txt">Computer Science Lab
-              (</span>CSL<span id="txt">)</span> 33
-          </h1>
-          <br>
-          <hr />
-          </div>
+        </div>
+        <br><br>
+        <h1 style="margin: auto; font-size: 30px">
+          <span id="tit">Anonymous Function</span><br id="lbbr" /><span id="txt">Computer Science Lab
+            (</span>CSL<span id="txt">)</span> 33
+        </h1>
+        <br>
+        <hr />
+        </div>
 
       <br><br><br><br>
 
@@ -151,15 +141,14 @@
               print(x)
             </code>
           </p>
-          </div>
+        </div>
         <img class="img-fluid" alt="python factory picture"
           src="data:image/png;base64,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 alt="
           python factory
           picture"fcEzX/BImBmeRYyPiyohIJbA3uc9XYYE9HkpLyjEUlsC2NQOQxAQT9jQ6rNI8MuqXxgsPKHlU/2PX3kcZ3nONd4RAEyQbCf4M7mICUYojukqs10zblbc4dP39F3LhOHAkI/AUboLpcx4NKMAqLktKIfFx0ZpViJc66RsoFnFDj1v+h0jZCcv53eqIgj0powqYgnjpMGO/gJNlE7lYlij/gLEYsf1oWlT7SlmuWSiPFMiu1usO1OOh50QbXw5ZMnRouSxwFdxZr2wL0vUMdzFp37NxaVIF3PuUC9c7UojaP1PVj11N0ipleUYy1VDIh6o7sytq4tWqXSjHzyku2CcB2InkbjIyComy38jz9Q4IybFylbPfZJlUUc7GlgC78BiaXaZ6F9VfhJzQnJ4peFKq1HHa1v0QHXpPa96WnJDvg8slGkfPOsuam1TTVt2lSqUD1nol7d9eZLKZmcPB20W4m6mMJuE+HIK9du/h17FA7/G4xNqtr2lIdnfOb85+soN8r+tpPAWJOXP1iWqZD9u24XDwUDebWIffMbeRxJuNs/HUAfA2N0GvsZMNt+XA6XvXHtFPSNqHRNCw26z5wHOwDMEvSNqG4NmpQ+vdosKgIQN3cYNxB+iniJ2zmLUNwr7XQp2Q19T0YOFuoQsCBfkzp3LA9o+iTdVWb6MZa0gNGr+7coLpKVq+ocuDKaqptI7Qt9f6E6PScSoc5uNfiOBwUZRzCdhsANPp8Q+hvKAuG+mBA+ha9iV+zv/OHbIAdJ6dBV5TXctcw31ioWTNarCxi/MZuoDpoKEQmMVHy0qNy/GacqKtX7XoojJsrzO9iqusvj83j+TcmGCxFEodO3f36+hS0ru9x5HilHV3Mjqjno2z8/kW6quYH8MNGkM3xPQftFe6MWUfBd+KXaflZcVH18q+5GVBvM6PuUPxGxgfMduBBZF94SdQrVvdL2UNyn/AWZPIe7TL75FOkyisp7pV2guE/5R8Z4H2atzrpMmzFV3yvthGyiz9NKtvNfOYdOqn9TJIKdFX+CN4N6goivbn1MVPN9xw2Oz5KbcDviFCRVeQqRxruxm7va6A14YlKzkIyqCk4XhqU9LBoZ0denyPrPG5Ppy8ErpGz7qjDmXEi26/aMR/qw2KZcmpW3idj7KH4V2i+G1aDHNFL80h1O1S5dc3b/9Ma50r0+HztRdTgzMKuV/JaSJZtJZzFstRvnE9psZIf+fLlbpRbS5WCTanTMKebc5os+/H+ZMh6nq5fRfvDceex0Bvu3ySrinDGpOsocPSteVi5fjtmL6YmWBUmjSH4iiiwl+4KsfIV+o8udPtAXFyJNjmjVjRVOMEjufZugFbrMbjf6QvD95SbwE9OJ0250RFr3vjbJAfPkUks1iteVESVKNNeJ+SGz7hB8W70NpDAbVL4dBZ9cykRgtEZxlTIKvqqG5bLBYWsYEtgj4g/Xl+8D004lOicIYxAKsy5jYd2cPJAeVEmmO2C8Mw3wDCD569OlDbwBpusNC7EjIxbtr6s+aTR7x85yP/HikSPNcyn0Hl9jq5j2FyLl0f4fF+8Th8VI2EXuR+nkpNu7jnPmgqx3u2UxSw3uYBGRTD4YnfvruWbOmPa7+4fkg6zIY/qiqPm/RB/0Bl9t1+MqCOxLodmY9ufr/e51I2SSy3MES1KxeZ1sl4thK7tw5VF1aGSz6fTQavVarcN0Omv/d3bcH/7whz/84eb/XP0CozhZRyUAAAAASUVORK5CYII=" />
       </div>
       <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/ad432c8141" width="100%" height="356"
-        frameborder="0"
-        marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+        frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
 
       <br><br><br><br>
 
@@ -189,10 +178,9 @@
               return value.
             </p>
           </div>
-          </div>
-          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/69fbd8545d" width="100%"
-            height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/69fbd8545d" width="100%"
+          height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
           </div>
 
       <br><br><br><br>
@@ -211,7 +199,7 @@
     background-attachment: fixed;
     background-repeat:none;background-size:cover; padding: 50px;text-align:center; color:white;">
     <div>
-      <a class="btn btn-outline-info" rel="noopener" href="https://www.coding-insight.com/chat.html">Questions</a>
+      <a class="btn btn-outline-info" rel="noopener" href="https://coding-insight.com/chat.html">Questions</a>
       <a class="btn btn-outline-info" rel="noopener"
         href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
       <a class="btn btn-outline-info" rel="noopener"
@@ -226,7 +214,7 @@
         <p>"Where you make knowledge - Python Factory"</p>
       </div>
     </div>
-    </footer>
+  </footer>
   <script defer src="script-en.js"></script>
 </body>
 </html>

@@ -23,6 +23,6 @@
 
 - 구글 애널리틱스: https://datastudio.google.com/s/g5TB1fxdneM
 
-- 채팅: https://www.coding-insight.com/chat.html
+- 채팅: https://coding-insight.com/chat.html
 
-- 게임: https://www.coding-insight.com/game.html
+- 게임: https://coding-insight.com/game.html

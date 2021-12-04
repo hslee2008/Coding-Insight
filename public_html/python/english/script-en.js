@@ -1,3 +1,12 @@
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+  dataLayer.push( arguments );
+}
+gtag( 'js', new Date() );
+
+gtag( 'config', 'UA-209775586-1' );
+
 //Menu</span>
 const menu = `<details>
   <summary>Starting Python</summary>

@@ -1,3 +1,12 @@
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+  dataLayer.push( arguments );
+}
+gtag( 'js', new Date() );
+
+gtag( 'config', 'UA-209775586-1' );
+
 //Menu
 const menu = `<details>
   <summary>&#54028;&#51060;&#50028; &#49884;&#51089;</summary>

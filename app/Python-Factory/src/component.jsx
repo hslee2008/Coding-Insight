@@ -10,7 +10,7 @@ import {
   Actionsheet,
 } from "native-base";
 
-var home = "https://www.coding-insight.com";
+var home = "https://coding-insight.com";
 
 const Alert = ( props ) => (
   <Actionsheet isOpen={ props.visible } onClose={ props.hide }>
@@ -36,11 +36,11 @@ const Alert = ( props ) => (
               props.hide();
             } } />
             <List.Item title="Game" left={ () => <List.Icon icon="controller-classic" /> } description="Play a simple game" onPress={ () => {
-              props.setLink( "https://www.coding-insight.com/game.html" );
+              props.setLink( "https://coding-insight.com/game.html" );
               props.hide();
             } } />
             <List.Item title="Chat" left={ () => <List.Icon icon="chat" /> } description="Chat with the developers" onPress={ () => {
-              props.setLink( "https://www.coding-insight.com/chat.html" );
+              props.setLink( "https://coding-insight.com/chat.html" );
               props.hide();
             } } />
             <List.Item title="Release" left={ () => <List.Icon icon="application" /> } description="Check the latest updates" onPress={ () => {

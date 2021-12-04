@@ -7,7 +7,7 @@ class Window(QMainWindow):
     def __init__(self):
         super(Window,self).__init__()
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl('https://www.coding-insight.com'))
+        self.browser.setUrl(QUrl('https://coding-insight.com'))
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
@@ -30,7 +30,7 @@ class Window(QMainWindow):
         homeBtn.triggered.connect(self.home)
         navbar.addAction(homeBtn)
 
-    def home(self): self.browser.setUrl(QUrl('https://www.coding-insight.com/'))
+    def home(self): self.browser.setUrl(QUrl('https://coding-insight.com/'))
 
 MyApp = QApplication(sys.argv)
 QApplication.setApplicationName('Python Factory Computer App 1.0.3')
