@@ -108,6 +108,7 @@ const menu = `
     <a href="cpp.html">(1) C++의 정의 </a>
     <a href="io-cpp.html">(2) 입출력</a>
     <a href="string-cpp.html">(3) 문자열</a>
+    <a href="vectorbasic.html">(4) Vector</a>
   </p>
 </details>
 
