@@ -23,6 +23,33 @@
   <link hreflang="kr" rel="icon" href="py.png" type="image/png">
   <link hreflang="kr" rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 10px;
+      background-color: #f5f1e4;
+      padding: 10px;
+    }
+
+    .grid-container>div {
+      padding: 20px 0;
+    }
+
+    .item1 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    .item2 {
+      margin: auto;
+    }
+
+    .item3 {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  </style>
 </head>
 
 <body style="margin:0;">
@@ -57,7 +84,6 @@
             #include &lt;iostream><br>
             using namespace std;
           </code>
-
         </p>
       </div>
       <div style="margin :auto;">
@@ -125,8 +151,8 @@
 
     <br><br>
 
-    <div style="display:flex;background-color:#c2d7e9;padding:30px;">
-      <div>
+    <div class="grid-container">
+      <div class="item1">
         <h1>문자열 연쇄하기</h1>
         <p>
           문자열의 연쇄는 + 또는 &lt;&lt;를 사용하면 됩니다.<br><br>
@@ -141,10 +167,10 @@
 
             int main()<br>
             {<br>
-            string a = "C" + " and ";<br>
-            cout &lt;&lt; a &lt;&lt; "C++";<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;string a = "C" + " and ";<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; a &lt;&lt; "C++";<br><br>
 
-            return 0;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
             }
           </code>
 
@@ -156,20 +182,68 @@
 
             int main()<br>
             {<br>
-            string a = "A";<br>
-            string b = "B";<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;string a = "A";<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;string b = "B";<br><br>
 
-            cout &lt;&lt; a.append(b);<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; a.append(b);<br><br>
 
-            return 0;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
             }
           </code>
 
           참고로 append() 메서드가 훨씬 더 빠릅니다. + 대신 append()를 사용하세요.
         </p>
       </div>
+      <div class="item2"><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt3AYFdzHDL7tEZBxP6-cUkZr7ZwreDQgw9w&usqp=CAU">
+      </div>
+      <div class="item3"><iframe src="https://www.jdoodle.com/embed/v0/48MS" width="100%" height="500px"></iframe>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div style="display: flex; padding:30px;">
+      <div style="padding:20px;">
+        <h1>문자열과 숫자</h1>
+        <p>
+          문자열과 숫자를 + 또는 append()를 사용하면 ASCII 값이 대신 출력됩니다.<br><br>
+
+          이 상황에서는 + 대신 &lt;&lt; 를 사용하세요.<br><br>
+
+          다른 데이터 형태는 &lt;&lt;를 사이에 두면 C++은 각 데이터 형태에 맞게 출력합니다.
+        </p>
+      </div>
       <div style="margin: auto;">
-        <iframe src="https://www.jdoodle.com/embed/v0/48MS" width="700px" height="500px"></iframe>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZmCiqEqphB-hs74TU9ZqgGd2B-COX2HBWQ&usqp=CAU">
+      </div>
+    </div>
+
+    <br><br>
+
+    <div style="display: flex; padding:30px; background-color: #d5adfc;">
+      <div style="padding:20px;">
+        <h1>length()와 size()</h1>
+        <p>
+          length()와 size()는 문자열의 길이를 돌려주는 메서드입니다.<br><br>
+
+          <code>
+            #include &lt;iostream><br>
+            using namespace std;<br><br>
+
+            int main()<br>
+            {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;string a = "Testing";<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; a.length();<br><br>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
+            }
+          </code> length()와 size()는 같습니다.
+
+        </p>
+      </div>
+      <div style="margin: auto;">
+        <iframe src="https://www.jdoodle.com/embed/v0/4aoo" width="700px" height="400px"></iframe>
       </div>
     </div>
 

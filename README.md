@@ -3,11 +3,6 @@
 <a href="https://github.com/HyunseungLee-Travis/Coding-Insight/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/HyunseungLee-Travis/Coding-Insight"></a>
 <a href="https://github.com/HyunseungLee-Travis/Coding-Insight/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/HyunseungLee-Travis/Coding-Insight"></a>
 
-<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/stargazers"><img alt="GitHub stars" src="
-https://img.shields.io/badge/Programming%20Languages-C%2C%20C%2B%2B%2C%20Python-red"></a>
-<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/stargazers"><img alt="GitHub stars" src="
-https://img.shields.io/badge/Languages-English%2C%20Korean-red"></a>
-
 # 개발자
 
 - 이현승
