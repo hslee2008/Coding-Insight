@@ -3,9 +3,9 @@
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -30,8 +30,8 @@
   </style>
 </head>
 
-<body style="margin: 0">
-  <div style="margin: 0; padding: 0" id="navigate">
+<body class="m-0">
+  <div class="m-0 p-0" id="navigate">
     <ul>
       <li>
         <a rel="noopener" href="https://coding-insight.com/index-en.html" id="home">Home</a>
@@ -62,9 +62,8 @@
   <br>
   <br>
 
-  <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
-      class="btn btn-outline-success col-5 btn-lg btn-block menu-button" type="button" data-bs-toggle="offcanvas"
-      data-bs-target="#demo">Menu</button></div>
+  <div class="menu-div"><button id="butty" class="btn btn-outline-success col-5 btn-lg btn-block menu-button"
+      type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Menu</button></div>
   <div class="offcanvas offcanvas-start" id="demo" style="overflow: auto;">
     <div id="menu"></div>
   </div>
@@ -90,23 +89,18 @@
           </div>
         </div>
         <br><br>
-        <h1 style="margin: auto; font-size: 30px">
+        <h1 class="display-6">
           <span id="tit">Types of loops</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span> 35
         </h1>
         <br>
         <hr />
-        </div>
+      </div>
 
       <br><br><br><br>
 
-      <div style="
-            display: flex;
-            padding: 30px;
-            background-color: black;
-            color: white;
-          ">
-        <div style="padding: 20px">
+      <div class="norm-div" style="background-color: black;color: white;">
+        <div class="sub-div">
           <h1>Iterable</h1>
           <p>
             A data type that can be accessed through indexing in loops are
@@ -131,53 +125,47 @@
 
       <br><br><br><br>
 
-      <div>
-        <div style="padding: 20px; display: flex">
-          <div style="padding: 10px">
-            <h1>Generator</h1>
-            <p>
-              Generators are similar to iterables. The only difference is that
-              the datas are deleted after running.<br><br>
+      <div class="norm-div">
+        <div class="inner-div">
+          <h1>Generator</h1>
+          <p>
+            Generators are similar to iterables. The only difference is that
+            the datas are deleted after running.<br><br>
 
-              This is why generators are better at handling big dats than
-              iterables.<br><br>
+            This is why generators are better at handling big dats than
+            iterables.<br><br>
 
-              Using generators preserve more space.
+            Using generators preserve more space.
             </p>
-          </div>
-          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c87eacfde8" width="50%"
-            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-            style="margin: auto"></iframe>
             </div>
-            </div>
+        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c87eacfde8" width="50%" height="356"
+          frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
 
       <br><br><br><br>
 
-      <div>
-        <div style="padding: 20px; display: flex">
-          <div style="padding: 10px">
-            <h1>YIELD</h1>
-            <p>
-              Yield has the same function as return.<br><br>
+      <div class="norm-div">
+        <div class="inner-div">
+          <h1>YIELD</h1>
+          <p>
+            Yield has the same function as return.<br><br>
 
-              1. Firstly, make a generator function<br>
-              2. Next, make an iterable and for loop<br>
-              3. Use yield to return a value which will be stored inside
-              iterable variable<br>
-              4. Make a for loop that access each item inside generator
-              function
+            1. Firstly, make a generator function<br>
+            2. Next, make an iterable and for loop<br>
+            3. Use yield to return a value which will be stored inside
+            iterable variable<br>
+            4. Make a for loop that access each item inside generator
+            function
             </p>
-          </div>
-          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c9ce2cddc8" width="60%"
-            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-            style="margin: auto"></iframe>
             </div>
-            </div>
+        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c9ce2cddc8" width="60%" height="356"
+          frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
 
       <br><br><br><br>
     </div>
 
-    <div style="margin: 30px; padding: 40px">
+    <div style="margin: 20px; padding: 20px">
       <button style="float: left" class="btn btn-outline-secondary">
         <a href="for-en.html">❮ Previous</a>
       </button>
@@ -188,9 +176,7 @@
 
     <br><br><br><br>
   </div>
-  <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
-    background-attachment: fixed;
-    background-repeat:none;background-size:cover; padding: 50px;text-align:center; color:white;">
+  <footer>
     <div>
       <a class="btn btn-outline-info" rel="noopener" href="https://coding-insight.com/chat.html">Questions</a>
       <a class="btn btn-outline-info" rel="noopener"
@@ -201,9 +187,9 @@
     <br><br>
     <img class="img-fluid" alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
     <br>
-    <div style="padding:5px;display: flex;justify-content: center;width:100%;">
+    <div class="d-flex justify-content-center" style="width:100%; padding:5px;">
       <div>
-        <h1 style="font-size:30px;">Python Factory © 2021</h1>
+        <h1 class="display-6">Python Factory © 2021</h1>
         <p>"Where you make knowledge - Python Factory"</p>
       </div>
     </div>

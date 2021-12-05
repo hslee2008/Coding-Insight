@@ -4,9 +4,9 @@
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -34,16 +34,16 @@
   <br>
   <br>
 
-  <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
-      class="btn btn-outline-success col-5 btn-lg btn-block menu-button" type="button" data-bs-toggle="offcanvas"
-      data-bs-target="#demo" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">메뉴</button></div>
-      <div class="offcanvas offcanvas-start" id="demo" style="overflow: auto;">
-        <div id="menu"></div>
+  <div class="menu-div"><button id="butty" class="btn btn-outline-success col-5 btn-lg btn-block menu-button"
+      type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#demo">메뉴</button></div>
+  <div class="offcanvas offcanvas-start" id="demo" style="overflow: auto;">
+    <div id="menu"></div>
   </div>
 
   <br><br>
 
-  <div style="padding:30px;display:flex;margin:30px;">
+  <div class="header-div">
     <div class="sub-div">
       <h1>파일 읽기</h1>
       <p>
@@ -88,7 +88,7 @@
       </div>
     </div>
     <br><br>
-    <h1 style="margin:auto;font-size:30px;"><span id="tit">파일 읽기</span><br id="lbbr"><span id="txt">Computer
+    <h1 class="display-6"><span id="tit">파일 읽기</span><br id="lbbr"><span id="txt">Computer
         Science Lab
         (</span>CSL<span id="txt">)</span> 48
     </h1>
@@ -98,7 +98,7 @@
 
   <br><br><br><br>
 
-  <div style="padding:30px;display:flex;margin:30px;">
+  <div class="header-div">
     <div class="sub-div">
       <h1>파일 내용 읽기</h1>
       <p>
@@ -139,9 +139,7 @@
 
   <br><br><br><br><br><br>
 
-  <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
-    background-attachment: fixed;
-    background-repeat:none;background-size:cover; padding: 50px;text-align:center; color:white;">
+  <footer>
     <div>
       <a class="btn btn-outline-info" rel="noopener" href="https://coding-insight.com/chat.html">질문하기</a>
       <a class="btn btn-outline-info" rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
@@ -151,9 +149,9 @@
     <br><br>
     <img class="img-fluid" alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
     <br>
-    <div style="padding:5px;display: flex;justify-content: center;width:100%;">
+    <div class="d-flex justify-content-center" style="width:100%; padding:5px;">
       <div>
-        <h1 style="font-size:30px;">Python Factory © 2021</h1>
+        <h1 class="display-6">Python Factory © 2021</h1>
         <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
       </div>
     </div>

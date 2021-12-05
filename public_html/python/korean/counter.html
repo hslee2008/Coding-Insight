@@ -18,8 +18,8 @@
   <meta charset="UTF-8" />
 </head>
 
-<body style="margin: 0">
-  <div style="margin: 0; padding: 0" id="navigate">
+<body class="m-0">
+  <div class="m-0 p-0" id="navigate">
     <ul>
       <li><a rel="noopener" href="https://coding-insight.com/index.html" id="home">홈</a></li>
       <li>
@@ -42,9 +42,9 @@
   <br>
   <br>
 
-  <div style="text-align: center; margin-top: 60px; margin-bottom: 30px;"><button id="butty"
-      class="btn btn-outline-success col-5 btn-lg btn-block menu-button" type="button" data-bs-toggle="offcanvas"
-      data-bs-target="#demo" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">메뉴</button></div>
+  <div class="menu-div"><button id="butty" class="btn btn-outline-success col-5 btn-lg btn-block menu-button"
+      type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#demo">메뉴</button></div>
   <div class="offcanvas offcanvas-start" id="demo" style="overflow: auto;">
     <div id="menu"></div>
   </div>
@@ -88,7 +88,7 @@
             </div>
           </div>
           <br><br>
-          <h1 style="margin: auto; font-size: 30px">
+          <h1 class="display-6">
             <span id="tit">카운터</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
               id="txt">)</span> 77
           </h1>
@@ -104,7 +104,7 @@
               background-color: #c2ffe2;
               color: black;
             ">
-          <div style="padding: 20px">
+          <div class="sub-div">
             <h1>글로벌 카운터</h1>
             <p>
               카운터를 글로벌 변수로 삼아 계속 업데이트하는 것이 가능합니다.
@@ -125,7 +125,7 @@
               background-color: #dce8ff;
               color: black;
             ">
-          <div style="padding: 20px">
+          <div class="sub-div">
             <h1>카운터 아이템</h1>
             <p>
               카운터를 계속 업데이트하다 보면 카운터 아이템의 값을 다시 찾아야
@@ -146,7 +146,7 @@
               background-color: #eedcff;
               color: black;
             ">
-          <div style="padding: 20px">
+          <div class="sub-div">
             <h1>카운터 가장 흔한 값</h1>
             <p>
               카운터에서 가장 흔히 나오는 값을 찾으려면 most_common() 메서드를
@@ -166,7 +166,7 @@
               background-color: #ffdcde;
               color: black;
             ">
-          <div style="padding: 20px">
+          <div class="sub-div">
             <h1>카운터 값 빼기</h1>
             <p>
               카운터 2개로 값을 빼서 새로운 카운터를 저장할 수 있습니다.<br><br>
@@ -185,7 +185,7 @@
 
         <br><br><br><br>
 
-        <div style="margin: 30px; padding: 40px">
+        <div style="margin: 20px; padding: 20px">
           <button style="float: left" class="btn btn-outline-secondary">
             <a href="multiprocessing.html">❮ 이전</a>
           </button>
@@ -198,9 +198,7 @@
 
     <br><br><br><br>
   </div>
-  <footer style="background-image:url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
-    background-attachment: fixed;
-    background-repeat:none;background-size:cover; padding: 50px;text-align:center; color:white;">
+  <footer>
     <div>
       <a class="btn btn-outline-info" rel="noopener" href="https://coding-insight.com/chat.html">질문하기</a>
       <a class="btn btn-outline-info" rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
@@ -210,9 +208,9 @@
     <br><br>
     <img class="img-fluid" alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
     <br>
-    <div style="padding:5px;display: flex;justify-content: center;width:100%;">
+    <div class="d-flex justify-content-center" style="width:100%; padding:5px;">
       <div>
-        <h1 style="font-size:30px;">Python Factory © 2021</h1>
+        <h1 class="display-6">Python Factory © 2021</h1>
         <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
       </div>
     </div>
