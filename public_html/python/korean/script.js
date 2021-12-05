@@ -206,7 +206,7 @@ butt.addEventListener( 'click', () => {
   if ( count % 2 == 0 ) {
     try {
       const a = new SpeechSynthesisUtterance( speach );
-      a.lang = 'kr';
+      a.lang = 'ko-kr';
       a.volume = document.querySelector( "#vol" ).value;
       a.rate = document.querySelector( "#rate" ).value;
       speechSynthesis.speak( a );
@@ -236,7 +236,7 @@ document.querySelector( "#vol" ).addEventListener( "change", e => {
   try {
     speechSynthesis.cancel();
     const a = new SpeechSynthesisUtterance( speach );
-    a.lang = 'kr';
+    a.lang = 'ko-kr';
     a.volume = e.target.value;
     a.rate = document.querySelector( "#rate" ).value;
     speechSynthesis.speak( a );
@@ -250,7 +250,7 @@ document.querySelector( "#rate" ).addEventListener( "change", e => {
   try {
     speechSynthesis.cancel();
     const a = new SpeechSynthesisUtterance( speach );
-    a.lang = 'kr';
+    a.lang = 'ko-kr';
     a.volume = document.querySelector( '#vol' ).value;
     a.rate = e.target.value;
     speechSynthesis.speak( a );

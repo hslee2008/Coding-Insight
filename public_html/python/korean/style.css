@@ -15,6 +15,7 @@ img {
 
 #more {
   color: white;
+  display: none;
 }
 
 body > div > ul > li {
@@ -154,7 +155,7 @@ ul {
   position: absolute;
   background-color: white;
   overflow: auto;
-  padding: 100px;
+  padding: 50px;
   top: 50px;
   list-style-type: none;
   z-index: 10;
@@ -188,19 +189,9 @@ div:has(iframe) {
   padding-top: 56.25%;
 }
 
-*::selection {
-  background-color: rgb(186, 216, 245);
-}
-
 details {
   cursor: pointer;
 }
-
-img,
-iframe {
-  margin: auto;
-}
-
 
 @media only screen and (max-width: 700px) {
   #quiz,
