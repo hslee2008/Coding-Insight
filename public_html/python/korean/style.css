@@ -193,6 +193,16 @@ details {
   cursor: pointer;
 }
 
+.norm-div {
+  padding:30px;
+  display:flex;
+}
+
+.sub-div {
+  padding:10px;
+  margin:10px;
+}
+
 @media only screen and (max-width: 700px) {
   #quiz,
   #feedback,
