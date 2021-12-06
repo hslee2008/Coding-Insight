@@ -6,7 +6,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-  </script>
+    </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -35,8 +35,7 @@
     </ul>
   </div>
 
-  <br>
-  <br>
+  <br><br>
 
   <div class="menu-div"><button id="butty" class="btn btn-outline-success col-5 btn-lg btn-block menu-button"
       type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Menu</button></div>
@@ -44,159 +43,158 @@
   <div class="offcanvas offcanvas-start" id="demo" style="overflow: auto;">
     <div id="menu"></div>
   </div>
-  <div style="display:flex;">
-    <div class="sub-div">
-      <div style="display:flex;margin-top:50px;">
-        <div style="margin :auto;text-align:center;">
-          <img class="img-fluid" alt="python factory picture"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU78Hj6DPZq_rVh1dyNTc4Lwt_Z05Vr-SRA&usqp=CAU" />
-        </div>
-        <div style="margin :auto;padding:50px;">
-          <h1>JSON</h1>
-          <p>
-            JSON is short for JavaScript Object Notation and it is a type of data.<br><br>
 
-            JSON is very similar to dictionaries but they are a littble bit different.<br><br>
+  <div class="sub-div">
+    <div style="display:flex;margin-top:50px;">
+      <div style="margin :auto;text-align:center;">
+        <img class="img-fluid" alt="python factory picture"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU78Hj6DPZq_rVh1dyNTc4Lwt_Z05Vr-SRA&usqp=CAU" />
+      </div>
+      <div style="margin :auto;padding:50px;">
+        <h1>JSON</h1>
+        <p>
+          JSON is short for JavaScript Object Notation and it is a type of data.<br><br>
 
-            Almost every new programming language in the world supports JSON.<br><br>
+          JSON is very similar to dictionaries but they are a littble bit different.<br><br>
 
-            Note that JSON should always have ""(Double) surrounding key and the value can only be string, dictionary,
-            list, tuple, number, and None.<br><br>
+          Almost every new programming language in the world supports JSON.<br><br>
 
-            <code>
+          Note that JSON should always have ""(Double) surrounding key and the value can only be string, dictionary,
+          list, tuple, number, and None.<br><br>
+
+          <code>
               import json<br><br>
 
               someJson = '{"name": "Hyunseung Lee", "bornIn": "2008", "gender": "male"}'
             </code>
-          </p>
+        </p>
+      </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="text-center">
+      <hr>
+      <br>
+      <div class="text-center" id="speakdiv">
+        <button id="speakbutt" class="btn btn-outline-primary">Read</button>
+        <div id="setting">
+          <br><br>
+          <img class="img-fluid" alt="python factory picture"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width:25px !important;" />
+          <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br>
+          <img class="img-fluid" alt="python factory picture"
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width:25px !important;" />
+          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
+      <br><br>
+      <h1 class="display-6"><span id="tit">JSON</span><br id="lbbr"><span id="txt">Computer
+          Science Lab
+          (</span>CSL<span id="txt">)</span> 57
+      </h1>
+      <br>
+      <hr>
+    </div>
 
-      <br><br><br><br>
-
-      <div class="text-center">
-        <hr>
-        <br>
-        <div class="text-center" id="speakdiv">
-          <button id="speakbutt" class="btn btn-outline-primary">Read</button>
-          <div id="setting">
-            <br><br>
-            <img class="img-fluid" alt="python factory picture"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-              style="width:25px !important;" />
-            <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
-            <img class="img-fluid" alt="python factory picture"
-              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-              style="width:25px !important;" />
-            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-          </div>
-        </div>
-        <br><br>
-        <h1 class="display-6"><span id="tit">JSON</span><br id="lbbr"><span id="txt">Computer
-            Science Lab
-            (</span>CSL<span id="txt">)</span> 57
-        </h1>
-        <br>
-        <hr>
-      </div>
-
-      <br><br><br><br>
+    <br><br><br><br>
 
 
-      <div style="background-color:black;color:white;padding:10px;">
-        <div style="display:flex;width:100%;">
-          <div class="p-10">
-            <h1>JSON to Dictionary</h1>
-            <p>
-              json.loads() converts JSON to dictionary.<br><br>
+    <div style="background-color:black;color:white;padding:10px;">
+      <div class="norm-div" style="width:100%;">
+        <div class="p-10">
+          <h1>JSON to Dictionary</h1>
+          <p>
+            json.loads() converts JSON to dictionary.<br><br>
 
-              This way, you can access each key.<br><br>
+            This way, you can access each key.<br><br>
 
-              <code>
+            <code>
                 import json<br>
                 someJson = '{"name": "Hyunseung Lee", "bornIn": "2008", "gender": "male"}'<br><br>
 
                 print(json.loads(someJson)["name"]) #Hyunseung Lee is rinted
               </code>
-            </p>
-          </div>
-          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/3500e49e2c" width="100%"
-            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-        </div>
-      </div>
-
-      <br><br>
-
-      <div class="p-10">
-        <div class="p-10">
-          <h1>Dictionary to JSON</h1>
-          <p>
-            json.dumps() method will convert dictionary to JSON.
           </p>
         </div>
-      </div>
-      <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="356"
-        frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-
-      <br><br><br><br>
-
-      <div style="display:flex;background-color:#2C2C32;color:white;">
-        <div style="padding:30px;">
-          <h1>Formatting JSON</h1>
-          <p>
-            There are a lot of format settings you have in JSON which makes it easier to handle than
-            dictionaries.<br><br>
-
-            <h1>Indentation</h1>
-
-            We can set the indentation of each pair, making it easier for us to read in the terminal(if we print
-            JSON).<br><br>
-
-            <code>
-              print(json.dumps(someJson, indent=2))
-            </code>
-
-            <h1>Sort JSON</h1>
-
-            We can sort JSON keys in alphabetical descending order.<br><br>
-
-            <code>
-              print(json.dumps(someJson, indent=2, sort_keys=True))
-            </code>
-
-            <h1>JSON characters</h1>
-
-            JSON uses ':' to seperate keys and values.<br><br>
-
-            It also uses ','(Comma) to seperate each pair.<br><br>
-
-            Using the 'seperator' argument in dumps() method, we can set the character to use instead of ':'
-            and
-            ','(Comma).<br><br>
-
-            <code>
-              print(json.dumps(someJson, seperator=(". ", "==>")))
-            </code>
-
-            The example above will print the JSON with '. ' seperating keys and values and '==>' seperating each pair.
-          </p>
-        </div>
-      </div>
-      <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="356"
-        frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
-        style="margin: auto;"></iframe>
-
-      <br><br><br><br>
-
-      <div style="margin:20px;padding:20px;">
-        <button style="float:left;" class="btn btn-outline-secondary"><a href="pip-en.html">❮ Previous</a></button>
-        <button style="float:right;" class="btn btn-outline-secondary"><a href="array-en.html">Next ❯</a></button>
+        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/3500e49e2c" width="100%"
+          height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
       </div>
     </div>
 
+    <br><br>
+
+    <div class="p-10">
+      <div class="p-10">
+        <h1>Dictionary to JSON</h1>
+        <p>
+          json.dumps() method will convert dictionary to JSON.
+        </p>
+      </div>
+    </div>
+    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="356"
+      frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+
     <br><br><br><br>
-  </div>
+
+    <div class="d-flex" style="background-color:#2C2C32;color:white;">
+      <div style="padding:30px;">
+        <h1>Formatting JSON</h1>
+        <p>
+          There are a lot of format settings you have in JSON which makes it easier to handle than
+          dictionaries.<br><br>
+
+        <h1>Indentation</h1>
+
+        We can set the indentation of each pair, making it easier for us to read in the terminal(if we print
+        JSON).<br><br>
+
+        <code>
+              print(json.dumps(someJson, indent=2))
+            </code>
+
+        <h1>Sort JSON</h1>
+
+        We can sort JSON keys in alphabetical descending order.<br><br>
+
+        <code>
+              print(json.dumps(someJson, indent=2, sort_keys=True))
+            </code>
+
+        <h1>JSON characters</h1>
+
+        JSON uses ':' to seperate keys and values.<br><br>
+
+        It also uses ','(Comma) to seperate each pair.<br><br>
+
+        Using the 'seperator' argument in dumps() method, we can set the character to use instead of ':'
+        and
+        ','(Comma).<br><br>
+
+        <code>
+              print(json.dumps(someJson, seperator=(". ", "==>")))
+            </code>
+
+        The example above will print the JSON with '. ' seperating keys and values and '==>' seperating each pair.
+        </p>
+      </div>
+    </div>
+    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="356"
+      frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
+      style="margin: auto;"></iframe>
+
+    <br><br><br><br>
+
+    <div style="margin:20px;padding:20px;">
+      <button style="float:left;" class="btn btn-outline-secondary"><a href="pip-en.html">❮ Previous</a></button>
+      <button style="float:right;" class="btn btn-outline-secondary"><a href="array-en.html">Next ❯</a></button>
+    </div>
+
+  <br><br><br><br>
+
   <footer>
     <div>
       <a class="btn btn-outline-info" rel="noopener" href="https://coding-insight.com/chat.html">Questions</a>
