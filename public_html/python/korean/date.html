@@ -6,7 +6,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-  </script>
+    </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -33,8 +33,8 @@
       <li id="more"><a>더보기</a></li>
     </ul>
   </div>
-  <br>
-  <br>
+
+  <br><br>
 
   <div class="menu-div"><button id="butty" class="btn btn-outline-success col-5 btn-lg btn-block menu-button"
       type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button" data-bs-toggle="offcanvas"
@@ -42,7 +42,8 @@
   <div class="offcanvas offcanvas-start" id="demo" style="overflow: auto;">
     <div id="menu"></div>
   </div>
-  <div style="display:flex;margin-top:50px;padding:30px;">
+
+  <div class="norm=div" style="margin-top:50px;">
     <div class="sub-div">
       <h1>날짜 모듈 사용 방법?</h1>
       <p>
@@ -57,118 +58,113 @@
       <img class="img-fluid" alt="python factory picture"
         src="https://i.pinimg.com/564x/90/7b/93/907b93a8f31202b6d91b54efb4ec712b.jpg" width="200px" />
     </div>
-  </div>
+
   <br><br>
+
   <div class="sub-div">
-    <div class="sub-div">
-      <div class="text-center">
-        <hr>
-        <br>
-        <div class="text-center" id="speakdiv">
-          <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
-          <div id="setting">
-            <br><br>
-            <img class="img-fluid" alt="python factory picture"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-              style="width:25px !important;" />
-            <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
-            <img class="img-fluid" alt="python factory picture"
-              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-              style="width:25px !important;" />
-            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-          </div>
+    <div class="text-center">
+      <hr>
+      <br>
+      <div class="text-center" id="speakdiv">
+        <button id="speakbutt" class="btn btn-outline-primary">읽어주기</button>
+        <div id="setting">
+          <br><br>
+          <img class="img-fluid" alt="python factory picture"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width:25px !important;" />
+          <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br>
+          <img class="img-fluid" alt="python factory picture"
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width:25px !important;" />
+          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
-        <br><br>
-        <h1 class="display-6"><span id="tit">날짜</span><br id="lbbr"><span id="txt">Computer Science
-            Lab
-            (</span>CSL<span id="txt">)</span> 43
-        </h1>
-        <br>
-        <hr>
-      </div>
-
-      <br><br><br><br>
-
-      <div class="norm-div" style="background-color: #3caeb6;">
-        <div class="sub-div">
-          <h1>지금 시간</h1>
-          <p>
-            지금 당장 시간을 파이썬으로 통해 알고 싶으면 datetime.datetime.now()를 사용하면 됩니다.<br><br>
-
-            'yyyy-mm-dd hh:mm:ss' 형식으로 출력이 됩니다.
-          </p>
-        </div>
-        <iframe src="https://trinket.io/embed/python3/437df64da8" width="100%" height="356" frameborder="0"
-          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-      </div>
-
-      <br><br><br><br>
-
-      <div>
-        <div class="norm-div">
-          <div class="p-10">
-            <h1>시, 분, 초, 마이크로초</h1>
-            <p>
-              지금 시, 분, 초와 밀리초를 알고 싶다면 'strftime'이라는 메서드를 이용하면 됩니다.<br><br>
-
-              strftime() 안에 '%H'(Hour)을 입력하면 24시간 형태를 가진 지금 시각이 출력됩니다.<br><br>
-
-              12 시간 행태를 원한다면 '%I'를 사용하면 됩니다.<br><br>
-
-              12 시간 행태를 사용한다면 오후인지 오전인지 알기 위하여 '%p'(AM 또는 PM)을 사용하면 됩니다.<br><br>
-
-              분은 '%M', 초는 '%S', 마이크로초는 '%f' 입니다
-            </p>
-          </div>
-          <iframe src="https://trinket.io/embed/python3/b649e0b775" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-        </div>
-      </div>
-
-      <br><br><br><br>
-
-      <div class="text-center">
-        <div class="norm-div">
-          <div style="padding:40px;background-color: black;color:white;">
-            <h1>요일, 월, 년</h1>
-            <p>
-              요일 이름은 '%A'를 사용해서 알 수 있습니다. 요일의 이름은 영어로 출력됩니다(예: Friday).<br><br>
-
-              June, January와 같이 "%B"는 월 이름을 영어로 출력합니다.<br><br>
-
-              "%Y"를 사용하면 년을 알 수 있습니다. 2018, 2021과 같이 년의 전체 값을 출력합니다.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div style="margin:20px;padding:20px;">
-        <button style="float:left;" class="btn btn-outline-secondary"><a href="pythonmodule.html">❮ 이전</a></button>
-        <button style="float:right;" class="btn btn-outline-secondary"><a href="random.html">다음 ❯</a></button>
-      </div>
-
-      <br><br><br><br>
-    </div>
-    <footer>
-      <div>
-        <a class="btn btn-outline-info" rel="noopener" href="https://coding-insight.com/chat.html">질문하기</a>
-        <a class="btn btn-outline-info" rel="noopener"
-          href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-        <a class="btn btn-outline-info" rel="noopener"
-          href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
       </div>
       <br><br>
-      <img class="img-fluid" alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
+      <h1 class="display-6"><span id="tit">날짜</span><br id="lbbr"><span id="txt">Computer Science
+          Lab
+          (</span>CSL<span id="txt">)</span> 43
+      </h1>
       <br>
-      <div class="d-flex justify-content-center" style="width:100%; padding:5px;">
-        <div>
-          <h1 class="display-6">Python Factory © 2021</h1>
-          <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-        </div>
+      <hr>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="norm-div" style="background-color: #3caeb6;">
+      <div class="sub-div">
+        <h1>지금 시간</h1>
+        <p>
+          지금 당장 시간을 파이썬으로 통해 알고 싶으면 datetime.datetime.now()를 사용하면 됩니다.<br><br>
+
+          'yyyy-mm-dd hh:mm:ss' 형식으로 출력이 됩니다.
+        </p>
       </div>
-    </footer>
-    <script defer src="script.js"></script>
+      <iframe src="https://trinket.io/embed/python3/437df64da8" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="norm-div">
+      <div class="p-10">
+        <h1>시, 분, 초, 마이크로초</h1>
+        <p>
+          지금 시, 분, 초와 밀리초를 알고 싶다면 'strftime'이라는 메서드를 이용하면 됩니다.<br><br>
+
+          strftime() 안에 '%H'(Hour)을 입력하면 24시간 형태를 가진 지금 시각이 출력됩니다.<br><br>
+
+          12 시간 행태를 원한다면 '%I'를 사용하면 됩니다.<br><br>
+
+          12 시간 행태를 사용한다면 오후인지 오전인지 알기 위하여 '%p'(AM 또는 PM)을 사용하면 됩니다.<br><br>
+
+          분은 '%M', 초는 '%S', 마이크로초는 '%f' 입니다
+        </p>
+      </div>
+      <iframe src="https://trinket.io/embed/python3/b649e0b775" width="100%" height="356" frameborder="0"
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="norm-div">
+      <div style="padding:40px;background-color: black;color:white;">
+        <h1>요일, 월, 년</h1>
+        <p>
+          요일 이름은 '%A'를 사용해서 알 수 있습니다. 요일의 이름은 영어로 출력됩니다(예: Friday).<br><br>
+
+          June, January와 같이 "%B"는 월 이름을 영어로 출력합니다.<br><br>
+
+          "%Y"를 사용하면 년을 알 수 있습니다. 2018, 2021과 같이 년의 전체 값을 출력합니다.
+        </p>
+      </div>
+    </div>
+
+    <div style="margin:20px;padding:20px;">
+      <button style="float:left;" class="btn btn-outline-secondary"><a href="pythonmodule.html">❮ 이전</a></button>
+      <button style="float:right;" class="btn btn-outline-secondary"><a href="random.html">다음 ❯</a></button>
+    </div>
+
+  <br><br><br><br>
+
+  <footer>
+    <div>
+      <a class="btn btn-outline-info" rel="noopener" href="https://coding-insight.com/chat.html">질문하기</a>
+      <a class="btn btn-outline-info" rel="noopener" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
+      <a class="btn btn-outline-info" rel="noopener"
+        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+    </div>
+    <br><br>
+    <img class="img-fluid" alt="python factory picture" src="py.png" width="200px" alt="python-factory-logo" />
+    <br>
+    <div class="d-flex justify-content-center" style="width:100%; padding:5px;">
+      <div>
+        <h1 class="display-6">Python Factory © 2021</h1>
+        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
+      </div>
+    </div>
+  </footer>
+  <script defer src="script.js"></script>
 </body>
 
 </html>
