@@ -99,7 +99,7 @@
 
       <br><br><br><br>
 
-      <div style="display:flex; padding:30px;background-color: #98d198;color:black;">
+      <div class="norm-div" style="background-color: #98d198;color:black;">
         <div class="sub-div">
           <h1>Mouse click</h1>
           <p>
@@ -116,79 +116,71 @@
 
       <br><br><br><br>
 
-      <div>
-        <div style="padding:20px;display:flex;background-color: #aaa680;">
-          <div class="p-10">
-            <h1>Mouse position</h1>
-            <p>
-              To get the x and y coordinate of you mouse, use he get_position() method.<br><br>
+      <div class="norm-div" style="background-color: #aaa680;">
+        <div class="p-10">
+          <h1>Mouse position</h1>
+          <p>
+            To get the x and y coordinate of you mouse, use he get_position() method.<br><br>
 
-              <code>
-                print(m.get_position())
-              </code>
-            </p>
-          </div>
+            <code>
+              print(m.get_position())
+            </code>
+          </p>
         </div>
       </div>
 
       <br><br><br><br>
 
-      <div>
-        <div class="norm-div">
-          <div class="p-10">
-            <h1>Dragging</h1>
-            <p>
-              You can drag by using the drag() method.<br><br>
+      <div class="norm-div">
+        <div class="p-10">
+          <h1>Dragging</h1>
+          <p>
+            You can drag by using the drag() method.<br><br>
 
-              Put in the x and y coordinate of starting place and x&y coordinate of end place.<br><br>
+            Put in the x and y coordinate of starting place and x&y coordinate of end place.<br><br>
 
-              You can also specify the duration.<br><br>
+            You can also specify the duration.<br><br>
 
-              <code>
-                m.drag(0, 0, 200, 200, duration=3.0)
-              </code>
+            <code>
+              m.drag(0, 0, 200, 200, duration=3.0)
+            </code>
 
-              If we run that command right now in VSCode, the window is dragged to 200 and 200.
-            </p>
-          </div>
+            If we run that command right now in VSCode, the window is dragged to 200 and 200.
+          </p>
         </div>
       </div>
 
       <br><br><br><br>
 
-      <div>
-        <div class="norm-div" style="background-color: aquamarine;">
-          <div class="p-10">
-            <h1>Moving mouse</h1>
-            <p>
-              Simply use the move() method to move the mouse.<br><br>
+      <div class="norm-div" style="background-color: aquamarine;">
+        <div class="p-10">
+          <h1>Moving mouse</h1>
+          <p>
+            Simply use the move() method to move the mouse.<br><br>
 
-              You will move right and top of your mouse by 100.<br><br>
+            You will move right and top of your mouse by 100.<br><br>
 
-              <code>
-                b.move(100, 100, duration=3.0)
-              </code>
-            </p>
-          </div>
+            <code>
+              b.move(100, 100, duration=3.0)
+            </code>
+          </p>
         </div>
       </div>
 
       <br><br><br><br>
 
-      <div>
-        <div class="norm-div">
-          <div class="p-10">
-            <h1>Scrolling</h1>
-            <p>
-              Use the scroll() method to scroll up and down.<br><br>
+      <div class="norm-div">
+        <div class="p-10">
+          <h1>Scrolling</h1>
+          <p>
+            Use the scroll() method to scroll up and down.<br><br>
 
-              If the number is positive, you will move up and a negative number will scroll down.<br><br>
+            If the number is positive, you will move up and a negative number will scroll down.<br><br>
 
-              <code>
-                m.scroll(-2)
-              </code>
-            </p>
-          </div>
+            <code>
+              m.scroll(-2)
+            </code>
+          </p>
         </div>
       </div>
 
