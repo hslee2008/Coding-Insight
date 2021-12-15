@@ -28,7 +28,6 @@ const styles = StyleSheet.create( {
     right: 0,
     bottom: 0,
   },
-  avaicon: { color: "white", backgroundColor: "black" },
 } );
 
 export default styles;

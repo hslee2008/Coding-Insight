@@ -3,9 +3,7 @@ import React, { useRef, useState, memo } from "react";
 import { StatusBar, BackHandler } from "react-native";
 import { WebView } from "react-native-webview";
 import { createStackNavigator } from "@react-navigation/stack";
-import { NavigationContainer } from "@react-navigation/native";
-import { NativeBaseProvider, useToast } from "native-base";
-import { Provider } from "react-native-paper";
+import { useToast } from "native-base";
 
 import { home, ProgressPyF, MenuButton, Alert } from "./src/component.jsx";
 import Settings, { setting } from "./src/setting.jsx";
@@ -24,8 +22,8 @@ const Home = memo(({ navigation }: any) => {
     isOnSetting
       ? navigation.navigate("Home")
       : global.ishome(globalFunctions.link, home)
-      ? BackHandler.exitApp()
-      : webViewRef.current.goBack();
+        ? BackHandler.exitApp()
+        : webViewRef.current.goBack();
 
     return true;
   });
@@ -126,17 +124,12 @@ const MainSetting = memo(({ navigation }: any) => {
 });
 
 const AppBase = memo(() => (
-  <Provider>
-    <NavigationContainer>
-      <NativeBaseProvider>
-        <StatusBar hidden />
-        <Stack.Navigator screenOptions={global.screenopt}>
-          <Stack.Screen name="Home" component={Home} />
-          <Stack.Screen name="Settings" component={MainSetting} />
-        </Stack.Navigator>
-      </NativeBaseProvider>
-    </NavigationContainer>
-  </Provider>
-));
+  <>
+    <StatusBar hidden />
+    <Stack.Navigator screenOptions={global.screenopt}>
+      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Settings" component={MainSetting} />
+    </Stack.Navigator>
+  </>));
 
 export default memo(AppBase);
