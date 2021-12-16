@@ -22,7 +22,7 @@
     "react-native-paper": "^4.11.1",
     "react-native-safe-area-context": "3.3.2",
     "react-native-svg": "12.1.1",
-    "react-native-webview": "11.13.0"
+    "react-native-webview": "11.15.0"
   },
   "devDependencies": {
     "@types/react": "~17.0.21",
