@@ -42,7 +42,7 @@
     <div id="menu"></div>
   </div>
 
-  <div class="sub-div">
+  <div>
     <div class="header-div text-white" style="background-color: #0e0e0e; margin-top: 50px;">
       <div class="sub-div">
         <h1>변수란?</h1>
@@ -58,12 +58,17 @@
           src="https://mblogthumb-phinf.pstatic.net/20140319_89/leedahee111_1395209827273qETWy_JPEG/lights-cubes-3D--1573013-1920x1080.jpg?type=w2"
           width="300px" />
       </div>
+    </div>
+
+    <br><br>
+
+    <div class="text-center">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/Qu5_eBK6OkI" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
 
-    <br><br><br><br>
+    <br><br>
 
     <div class="text-center">
       <hr>
@@ -119,7 +124,8 @@
       <div class="sub-div">
         <h1>변수 사용 방법</h1>
         <p>
-          변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이 출력되지 않고 변수의 값이 출력됩니다.
+          변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이 출력되지 않고 변수의 값이 출력됩니다.<br><br>
+
           <code>
             name = "John"<br>
             print(name) #John이 출력됩니다.
@@ -237,11 +243,11 @@
 
     <br><br><br><br>
 
-    <div class="text-center p-5" style="border-color:black;border-style:solid;margin-bottom: 10">
+    <div class="text-center border border-dark rounded p-3 m-3">
       <h1>퀴즈 풀기!</h1>
     </div>
 
-    <div style="text-align:center;font-size: 25px;">
+    <div class="text-center" style="font-size: 25px;">
       <h3>변수란?</h3>
       <div>
         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
@@ -365,9 +371,8 @@
       <button id="checky" class="btn btn-outline-dark"
         onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-D").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")}; if(document.getElementById("question-3-answers-B").checked) {alert("3번 맞았습니다!")} else {alert("3번 틀렸습니다")}; if(document.getElementById("question-4-answers-A").checked) {alert("4번 맞았습니다 :)")} else {alert("4번 틀렸습니다")}; if(document.getElementById("question-5-answers-A").checked) {alert("5번 맞았습니다 :o")} else {alert("5번 틀렸습니다")};'>정답
         확인</button>
+<br><br><br>
     </div>
-
-
     <footer>
       <div>
         <a class="btn btn-outline-info" rel="noopener" href="https://coding-insight.com/chat.html">질문하기</a>

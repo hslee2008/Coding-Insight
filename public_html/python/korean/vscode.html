@@ -41,6 +41,7 @@
   <div class="offcanvas offcanvas-start" id="demo" style="overflow: auto;">
     <div id="menu"></div>
   </div>
+
   <div>
     <div>
       <div
@@ -79,14 +80,30 @@
 
       <br><br><br><br>
 
-      <div class="text-align: center">
-        <hr>
+      <div class="text-center">
+        <hr />
         <br>
-        <h1 style="font-size: 30px;"><span id="tit">VSCode 설치</span><br id="lbbr"><span id="txt">Computer Science
-            Lab
-            (</span>CSL<span id="txt">)</span> 3</h1>
+        <div class="text-center" id="speakdiv">
+          <button id="speakbutt" class="btn btn-outline-primary">Read</button>
+          <div id="setting">
+            <br><br>
+            <img class="img-fluid" alt="python factory picture"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width: 25px !important" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+            <br>
+            <img class="img-fluid" alt="python factory picture"
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width: 25px !important" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+          </div>
+        </div>
+        <br><br>
+        <h1 class="display-6">
+          <span id="tit">VSCode 설치</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span id="txt">)</span> 3
+        </h1>
         <br>
-        <hr>
+        <hr />
       </div>
 
       <br><br><br><br>
@@ -110,7 +127,7 @@
             <p>6. 파일 안에 파이썬 코드를
               입력합니다. print("Hello World")</p>
             <p>7. 파이썬 파일 위쪽 코너에 보면 삼각형이 있습니다. 그 삼각형을 클릭하세요.</p>
-            <img class="img-fluid" alt="python factory picture" src="img/tri.jpg" /><br>
+            <img class="img-fluid" alt="python factory picture" src="img/tri.jpg" /><br><br>
             <img class="img-fluid" alt="python factory picture" src="img/run.jpg">
             <p>Hello World라고 출력될
               것입니다.</p>

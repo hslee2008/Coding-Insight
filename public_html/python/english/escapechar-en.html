@@ -44,7 +44,7 @@
     <div id="menu"></div>
   </div>
 
-  <div class="sub-div">
+  <div>
     <div class="header-div text-white" style="background-color: #0e0e0e; margin-top: 50px;">
       <div class="sub-div">
         <h1>What is escape character?</h1>
@@ -101,7 +101,7 @@
 
     <br><br><br><br>
 
-    <div class="norm-div">
+    <div class="header-div">
       <div class="sub-div">
         <h1>\' and \"</h1>
         <p>
@@ -120,7 +120,7 @@
 
     <br><br><br><br>
 
-    <div class="norm-div" style="background-color: #f7f7f7;">
+    <div class="header-div" style="background-color: #f7f7f7;">
       <div class="sub-div">
         <h1>\n</h1>
         <p>
@@ -139,7 +139,7 @@
 
     <br><br><br><br>
 
-    <div class="norm-div">
+    <div class="header-div">
       <div style="padding: 10px;">
         <h1>\r</h1>
         <p>
@@ -155,7 +155,7 @@
 
     <br><br><br><br>
 
-    <div class="norm-div text-white" style="background-color: #2f4960;">
+    <div class="header-div text-white" style="background-color: #2f4960;">
       <div style="margin:20px;">
         <h1>\t</h1>
         <p>
@@ -170,12 +170,14 @@
         </p>
       </div>
     </div>
-    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/82e2765c4e" width="100%" height="356"
+    <div class="m-3">
+      <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/82e2765c4e" width="100%" height="356"
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+    </div>
 
     <br><br><br><br>
 
-    <div class="norm-div" style="background-color: #f6f6f6;">
+    <div class="header-div" style="background-color: #f6f6f6;">
       <div class="sub-div">
         <h1>r'string' syntax</h1>
         <p>
@@ -198,11 +200,11 @@
 
     <br><br><br><br>
 
-    <div class="text-center p-5" style="border-color:black;border-style:solid;margin-bottom: 10">
-      <h1>Quiz Time!</h1>
+    <div class="text-center border border-dark rounded p-3 m-3">
+      <h1>Solve This Quiz!!</h1>
     </div>
 
-    <div style="text-align:center;font-size: 25px;">
+    <div class="text-center" style="font-size: 25px;">
       <h3> How can we put new lines in ''? </h3>
       <div>
         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
@@ -229,6 +231,8 @@
       <button id="checky" class="btn btn-outline-dark"
         onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1 is right!")} else {alert("1 is wrong")};'>Check
         answer</button>
+
+        <br><br><br><br>
     </div>
 
     <footer>

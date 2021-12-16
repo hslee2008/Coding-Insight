@@ -1,3 +1,7 @@
+h3 {
+  text-decoration: underline;
+}
+
 body > div > ul {
   list-style-type: none;
   margin: 0;
@@ -224,6 +228,15 @@ details {
   margin-top: 60px;
   margin-bottom: 30px;
 }
+
+.color-contrast-div {
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+/*Custom*/
 
 footer {
   background-image: url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
