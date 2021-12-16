@@ -1,6 +1,6 @@
 import "react-native-gesture-handler";
 import React, { useRef, useState, memo } from "react";
-import { StatusBar, BackHandler } from "react-native";
+import { StatusBar, BackHandler, Text } from "react-native";
 import { WebView } from "react-native-webview";
 import { createStackNavigator } from "@react-navigation/stack";
 import { useToast } from "native-base";
@@ -22,8 +22,8 @@ const Home = memo(({ navigation }: any) => {
     isOnSetting
       ? navigation.navigate("Home")
       : global.ishome(globalFunctions.link, home)
-        ? BackHandler.exitApp()
-        : webViewRef.current.goBack();
+      ? BackHandler.exitApp()
+      : webViewRef.current.goBack();
 
     return true;
   });
@@ -33,6 +33,7 @@ const Home = memo(({ navigation }: any) => {
     setting.korean ? home : home + "/index-en.html"
   );
   const [visible, setVisible] = useState(false);
+  const [error, setError] = useState(false);
 
   const reload = () => webViewRef.current.reload();
   const goback = () => webViewRef.current.goBack();
@@ -95,6 +96,28 @@ const Home = memo(({ navigation }: any) => {
         textZoom={parseInt(setting.text)}
         setBuiltInZoomControls={setting.zoom}
         injectedJavaScriptBeforeContentLoaded={setting.phone ? "" : global.js}
+        onError={() =>
+          toast.show({
+            title: "Error :(",
+            description: "Report this bug or re-install this app",
+            status: "error",
+          })
+        }
+        onHttpError={() =>
+          toast.show({
+            title: "HTTP Error",
+            description: "This page does not exist",
+            status: "warning",
+          })
+        }
+        onRenderProcessGone={() =>
+          toast.show({
+            title: "Process Gone!",
+            description: "Something went wrong",
+            status: "error",
+          })
+        }
+        renderError={(errorName) => <Text>{errorName}</Text>}
       />
       <ProgressPyF webLoading={webLoading} />
       <MenuButton
@@ -130,6 +153,7 @@ const AppBase = memo(() => (
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Settings" component={MainSetting} />
     </Stack.Navigator>
-  </>));
+  </>
+));
 
 export default memo(AppBase);

@@ -20,6 +20,10 @@ const global = {
     domStorageEnabled: true,
     startInLoadingState: true,
     allowsFullscreenVideo: true,
+    mediaPlaybackRequiresUserAction: true,
+    scalesPageToFit: true,
+    allowFileAccessFromFileURLs: true,
+    allowUniversalAccessFromFileURLs: true,
     userAgent: "CIAV",
     originWhitelist: [ "https://*" ]
   }
