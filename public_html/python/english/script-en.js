@@ -291,3 +291,14 @@ window.onerror = function ( mes ) {
 
 //title
 document.title = document.getElementById( "tit" ).innerText
+
+//Keyboard
+document.addEventListener( "keydown", e => {
+  if ( e.ctrlKey ) {
+    switch ( e.code ) {
+      case 'KeyM':
+        document.querySelector( "#butty" ).click();
+        break;
+    }
+  }
+} )
