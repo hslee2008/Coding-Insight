@@ -1,23 +1,31 @@
+//REACET NATIVE PACKAGE IMPORT//
 import "react-native-gesture-handler";
 import React, { useRef, useState, memo } from "react";
 import { StatusBar, BackHandler, Text } from "react-native";
 import { WebView } from "react-native-webview";
 import { createStackNavigator } from "@react-navigation/stack";
-import { useToast } from "native-base";
 
-import { home, ProgressPyF, MenuButton, Alert } from "./src/component.jsx";
+//LOCAL PACKAGE IMPORT//
+import {
+  home,
+  ProgressPyF,
+  MenuButton,
+  Alert,
+  SnackBarsForErrors,
+} from "./src/component.jsx";
 import Settings, { setting } from "./src/setting.jsx";
 import styles from "./src/style.jsx";
 import global from "./src/global.jsx";
 
+//GLOBAL VARIABLES//
 var Stack = createStackNavigator(),
   isOnSetting: boolean = false,
   globalFunctions: any;
 
 const Home = memo(({ navigation }: any) => {
   const webViewRef: any = useRef(null);
-  const toast = useToast();
 
+  //BACKHANDLER
   BackHandler.addEventListener("hardwareBackPress", () => {
     isOnSetting
       ? navigation.navigate("Home")
@@ -28,24 +36,37 @@ const Home = memo(({ navigation }: any) => {
     return true;
   });
 
+  //STATES//
   const [webLoading, setWebLoading] = useState(true);
   const [link, setLink] = useState(
     setting.korean ? home : home + "/index-en.html"
   );
   const [visible, setVisible] = useState(false);
-  const [error, setError] = useState(false);
 
+  const [HTTPError, setHTTPError] = useState(false);
+  const onToggleHTTPError = () => setHTTPError(!visible);
+  const onDismissHTTPError = () => setHTTPError(false);
+
+  const [Error, setError] = useState(false);
+  const onToggleError = () => setError(!visible);
+  const onDismissError = () => setError(false);
+
+  const [Process, setProcess] = useState(false);
+  const onToggleProcess = () => setProcess(!visible);
+  const onDismissProcess = () => setProcess(false);
+
+  const [Reload, setReload] = useState(false);
+  const onToggleReload = () => setReload(!visible);
+  const onDismissReload = () => setReload(false);
+
+  //WEBVIEW FUNCTIONS//
   const reload = () => webViewRef.current.reload();
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
   const stop = () => {
     webViewRef.current.stopLoading();
     setWebLoading(false);
-    toast.show({
-      title: "Make sure!",
-      description: "to reload in order to see the full page",
-      status: "info",
-    });
+    onToggleReload();
   };
   const erase = () => {
     webViewRef.current.clearHistory();
@@ -53,9 +74,9 @@ const Home = memo(({ navigation }: any) => {
     webViewRef.current.clearCache(true);
   };
 
+  //GLOBAL FUNCTIONS//
   globalFunctions = {
     webViewRef,
-    toast,
     webLoading,
     setWebLoading,
     link,
@@ -88,6 +109,9 @@ const Home = memo(({ navigation }: any) => {
         onNavigationStateChange={(a: any) => setLink(a.url)}
         onLoad={() => setWebLoading(false)}
         onLoadProgress={() => setWebLoading(true)}
+        onError={() => onToggleError()}
+        onHttpError={() => onToggleHTTPError()}
+        onRenderProcessGone={() => onToggleProcess()}
         thirdPartyCookiesEnabled={setting.cookie}
         showsHorizontalScrollIndicator={setting.scroll}
         showsVerticalScrollIndicator={setting.scroll}
@@ -96,28 +120,6 @@ const Home = memo(({ navigation }: any) => {
         textZoom={parseInt(setting.text)}
         setBuiltInZoomControls={setting.zoom}
         injectedJavaScriptBeforeContentLoaded={setting.phone ? "" : global.js}
-        onError={() =>
-          toast.show({
-            title: "Error :(",
-            description: "Report this bug or re-install this app",
-            status: "error",
-          })
-        }
-        onHttpError={() =>
-          toast.show({
-            title: "HTTP Error",
-            description: "This page does not exist",
-            status: "warning",
-          })
-        }
-        onRenderProcessGone={() =>
-          toast.show({
-            title: "Process Gone!",
-            description: "Something went wrong",
-            status: "error",
-          })
-        }
-        renderError={(errorName) => <Text>{errorName}</Text>}
       />
       <ProgressPyF webLoading={webLoading} />
       <MenuButton
@@ -128,6 +130,18 @@ const Home = memo(({ navigation }: any) => {
           onPress: () => navigation.navigate("Settings"),
           style: styles.icon,
         }}
+      />
+      <SnackBarsForErrors
+        HTTPError={HTTPError}
+        onDismissHTTPError={onDismissHTTPError}
+        goback={goback}
+        Error={Error}
+        onDismissError={onDismissError}
+        Process={Process}
+        onDismissProcess={onDismissProcess}
+        Reload={Reload}
+        onDismissReload={onDismissReload}
+        reload={reload}
       />
     </>
   );

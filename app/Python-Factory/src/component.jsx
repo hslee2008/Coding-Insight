@@ -1,16 +1,31 @@
 import React, { memo, useState } from "react";
-import { View, Text, Linking, Share, BackHandler } from "react-native";
-import { ProgressBar, List, IconButton, Menu } from "react-native-paper";
+import {
+  View,
+  Text,
+  Linking,
+  Share,
+  BackHandler,
+  ScrollView,
+} from "react-native";
+import {
+  ProgressBar,
+  List,
+  IconButton,
+  Menu,
+  Snackbar,
+} from "react-native-paper";
+import { Image, Box, Actionsheet } from "native-base";
+import { reloadAsync } from "expo-updates";
+
 import styles from "./style.jsx";
 import global from "./global.jsx";
-import { Image, ScrollView, Box, Actionsheet } from "native-base";
 
 var home = "https://coding-insight.com";
 
 const ListBottom = (props) => {
   return (
     <>
-      <View style={ styles.view }>
+      <View style={styles.view}>
         <IconButton
           icon="exit-to-app"
           onPress={() => {
@@ -209,7 +224,7 @@ const Bar = memo((props) => {
               props.goToSetting();
               closeMenu();
             }}
-            title="⚙️ Open Setting"
+            title="⛏️ Open Setting"
           />
           <ListBottom
             setVisible={setVisible}
@@ -246,4 +261,55 @@ const MenuButton = (props) =>
     <IconButton {...props.iconprop} />
   );
 
-export { Header, home, ProgressPyF, MenuButton, Alert };
+function SnackBarsForErrors(props) {
+  return (
+    <>
+      <Snackbar
+        visible={props.HTTPError}
+        onDismiss={props.onDismissHTTPError}
+        style={{ bottom: 50 }}
+        action={{
+          label: "OK",
+          onPress: props.goback,
+        }}
+      >
+        HTTP Error: This page does not exist
+      </Snackbar>
+      <Snackbar
+        visible={props.Error}
+        onDismiss={props.onDismissError}
+        style={{ bottom: 50 }}
+        action={{
+          label: "Update",
+          onPress: reloadAsync,
+        }}
+      >
+        Please reload or re-install this app
+      </Snackbar>
+      <Snackbar
+        visible={props.Process}
+        onDismiss={props.onDismissProcess}
+        style={{ bottom: 50 }}
+        action={{
+          label: "OK",
+          onPress: props.onDismissProcess,
+        }}
+      >
+        Process Gone! Something went wrong
+      </Snackbar>
+      <Snackbar
+        visible={props.Reload}
+        onDismiss={props.onDismissReload}
+        style={{ bottom: 50 }}
+        action={{
+          label: "Reload Again",
+          onPress: props.reload,
+        }}
+      >
+        Reloading stopped.
+      </Snackbar>
+    </>
+  );
+}
+
+export { Header, home, ProgressPyF, MenuButton, Alert, SnackBarsForErrors };
