@@ -4,16 +4,12 @@ import { NativeBaseProvider } from "native-base";
 import { NavigationContainer } from "@react-navigation/native";
 import AppBase from "./Main";
 
-function App() {
-  return (
-    <Provider>
-      <NavigationContainer>
-        <NativeBaseProvider>
-          <AppBase />
-        </NativeBaseProvider>
-      </NavigationContainer>
-    </Provider>
-  );
-}
-
-export default memo(App);
+export default memo(() => (
+  <Provider>
+    <NavigationContainer>
+      <NativeBaseProvider>
+        <AppBase />
+      </NativeBaseProvider>
+    </NavigationContainer>
+  </Provider>
+));

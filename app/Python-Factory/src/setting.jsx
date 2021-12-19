@@ -1,6 +1,6 @@
 import React, { useState, memo } from "react";
-import { Appbar, Searchbar } from "react-native-paper";
-import { ScrollView } from "react-native";
+import { Appbar, Searchbar, Button } from "react-native-paper";
+import { ScrollView, View } from "react-native";
 import { reloadAsync, manifest } from "expo-updates";
 import { Header } from "./component.jsx";
 import styles from "./style.jsx";
@@ -44,6 +44,14 @@ const AppBar = memo((props) => (
   </Appbar.Header>
 ));
 
+const Functions = memo((props) => {
+  return (
+    <View style={[styles.view, { justifyContent: "space-evenly" }]}>
+      <Button icon="eraser" onPress={() => props.erase()}>Erase All Data</Button>
+    </View>
+  );
+});
+
 const Settings = memo((props) => {
   const [searchQuery, setSearchQuery] = useState("");
   const onChangeSearch = (query) => setSearchQuery(query);
@@ -67,6 +75,7 @@ const Settings = memo((props) => {
           value={searchQuery}
           style={styles.marginten}
         />
+        <Functions erase={ props.erase } />
         <WebSetting
           query={searchQuery}
           setting={setting}

@@ -24,35 +24,26 @@ var home = "https://coding-insight.com";
 
 const ListBottom = (props) => {
   return (
-    <>
-      <View style={styles.view}>
-        <IconButton
-          icon="exit-to-app"
-          onPress={() => {
-            props.closeMenu();
-            BackHandler.exitApp();
-          }}
-        />
-        <IconButton
-          icon="eraser"
-          onPress={() => {
-            props.closeMenu();
-            props.erase();
-          }}
-        />
-        <IconButton
-          icon="share-variant"
-          onPress={async () => {
-            props.closeMenu();
-            await Share.share({
-              title: "Coding-Insight link",
-              message: props.link,
-            });
-          }}
-        />
-        <IconButton icon="close" onPress={() => props.setVisible(false)} />
-      </View>
-    </>
+    <View style={styles.view}>
+      <IconButton
+        icon="exit-to-app"
+        onPress={() => {
+          props.closeMenu();
+          BackHandler.exitApp();
+        }}
+      />
+      <IconButton
+        icon="share-variant"
+        onPress={async () => {
+          props.closeMenu();
+          await Share.share({
+            title: "Coding-Insight link",
+            message: props.link,
+          });
+        }}
+      />
+      <IconButton icon="close" onPress={() => props.setVisible(false)} />
+    </View>
   );
 };
 
@@ -71,6 +62,15 @@ const Alert = (props) => (
                 props.setLink(
                   "https://cse.google.com/cse?cx=ee1853348b1a4e08b"
                 );
+                props.hide();
+              }}
+            />
+            <List.Item
+              title="Google"
+              left={() => <List.Icon icon="google" />}
+              description="Search Google"
+              onPress={() => {
+                props.setLink("https://www.google.com");
                 props.hide();
               }}
             />
@@ -217,15 +217,16 @@ const Bar = memo((props) => {
               props.setVisible((p) => !p);
               closeMenu();
             }}
-            title="📁 Learn More"
+            title="🗃 Learn More"
           />
           <Menu.Item
             onPress={() => {
               props.goToSetting();
               closeMenu();
             }}
-            title="⛏️ Open Setting"
+            title="⚙️ Open Setting"
           />
+          <Menu.Item onPress={ () => reloadAsync() } title="⏳ Update App" />
           <ListBottom
             setVisible={setVisible}
             closeMenu={closeMenu}

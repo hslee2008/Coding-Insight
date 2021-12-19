@@ -155,6 +155,7 @@ const MainSetting = memo(({ navigation }: any) => {
       isOnSetting = false;
     },
     reload: globalFunctions.reload,
+    erase: globalFunctions.erase,
   };
 
   return <Settings {...MainSettingComponent} />;
