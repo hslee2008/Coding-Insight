@@ -224,7 +224,7 @@ const Bar = memo((props) => {
               props.goToSetting();
               closeMenu();
             }}
-            title="⚙️ Open Setting"
+            title="🐍 Open Setting"
           />
           <Menu.Item onPress={ () => reloadAsync() } title="⏳ Update App" />
           <ListBottom

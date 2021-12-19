@@ -47,7 +47,9 @@ const AppBar = memo((props) => (
 const Functions = memo((props) => {
   return (
     <View style={[styles.view, { justifyContent: "space-evenly" }]}>
-      <Button icon="eraser" onPress={() => props.erase()}>Erase All Data</Button>
+      <Button icon="eraser" onPress={() => props.erase()}>
+        Erase All Data
+      </Button>
     </View>
   );
 });
@@ -64,40 +66,39 @@ const Settings = memo((props) => {
         isOnSetting={props.isOnSetting}
       />
 
-      <ScrollView
-        style={styles.scrollview}
-        contentContainerStyle={styles.center}
-      >
-        <Header />
-        <Searchbar
-          placeholder="Search"
-          onChangeText={onChangeSearch}
-          value={searchQuery}
-          style={styles.marginten}
-        />
-        <Functions erase={ props.erase } />
-        <WebSetting
-          query={searchQuery}
-          setting={setting}
-          change={() => (changed = true)}
-        />
-        <LooksSetting
-          reload={props.reload}
-          query={searchQuery}
-          setting={setting}
-          change={() => (changed = true)}
-        />
-        <OtherSetting
-          query={searchQuery}
-          setting={setting}
-          change={() => (changed = true)}
-        />
-        <AppSetting
-          query={searchQuery}
-          setting={setting}
-          change={() => (changed = true)}
-        />
-      </ScrollView>
+      <View style={{ flex: 1 }}>
+        <ScrollView contentContainerStyle={ { flexGrow: 1 } }>
+          <Header />
+          <Searchbar
+            placeholder="Search"
+            onChangeText={onChangeSearch}
+            value={searchQuery}
+            style={styles.marginten}
+          />
+          <Functions erase={props.erase} />
+          <WebSetting
+            query={searchQuery}
+            setting={setting}
+            change={() => (changed = true)}
+          />
+          <LooksSetting
+            reload={props.reload}
+            query={searchQuery}
+            setting={setting}
+            change={() => (changed = true)}
+          />
+          <OtherSetting
+            query={searchQuery}
+            setting={setting}
+            change={() => (changed = true)}
+          />
+          <AppSetting
+            query={searchQuery}
+            setting={setting}
+            change={() => (changed = true)}
+          />
+        </ScrollView>
+      </View>
     </>
   );
 });

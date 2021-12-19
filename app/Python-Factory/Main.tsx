@@ -1,7 +1,7 @@
 //REACET NATIVE PACKAGE IMPORT//
 import "react-native-gesture-handler";
 import React, { useRef, useState, memo } from "react";
-import { StatusBar, BackHandler, Text } from "react-native";
+import { StatusBar, BackHandler } from "react-native";
 import { WebView } from "react-native-webview";
 import { createStackNavigator } from "@react-navigation/stack";
 
@@ -165,8 +165,16 @@ const AppBase = memo(() => (
   <>
     <StatusBar hidden />
     <Stack.Navigator screenOptions={global.screenopt}>
-      <Stack.Screen name="Home" component={Home} />
-      <Stack.Screen name="Settings" component={MainSetting} />
+      <Stack.Screen
+        name="Home"
+        component={Home}
+        options={{ gestureEnabled: false }}
+      />
+      <Stack.Screen
+        name="Settings"
+        component={MainSetting}
+        options={{ gestureEnabled: false }}
+      />
     </Stack.Navigator>
   </>
 ));
