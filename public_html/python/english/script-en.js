@@ -8,7 +8,11 @@ gtag( 'js', new Date() );
 gtag( 'config', 'UA-209775586-1' );
 
 //Menu</span>
-const menu = `<details>
+const menu = `
+
+<button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
+
+<details>
   <summary>Starting Python</summary>
   <p id="men">
     <a href="python-en.html">(1) The Definition of Python</a>
@@ -194,7 +198,7 @@ document.querySelector( "#menu" ).innerHTML = menu;
 const set = document.querySelector( "#setting" )
 
 let count = 0;
-const speach = document.body.innerText.substr( document.body.innerText.indexOf( "Click" ) + 5 ).replace("read", "");
+const speach = document.body.innerText.substring( document.body.innerText.indexOf( "Click" ) + 5 ).replace( "read", "" );
 const butt = document.querySelector( "#speakbutt" )
 butt.addEventListener( 'click', () => {
   if ( count % 2 == 0 ) {

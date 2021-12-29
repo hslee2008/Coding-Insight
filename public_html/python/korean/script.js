@@ -8,7 +8,11 @@ gtag( 'js', new Date() );
 gtag( 'config', 'UA-209775586-1' );
 
 //Menu
-const menu = `<details>
+const menu = `
+
+<button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
+
+<details>
   <summary>&#54028;&#51060;&#50028; &#49884;&#51089;</summary>
   <p id="men">
     <a href="python.html">(1) &#54028;&#51060;&#50028;</a>
@@ -200,7 +204,7 @@ document.querySelector( "#menu" ).innerHTML = menu;
 const set = document.querySelector( "#setting" )
 
 let count = 0;
-const speach = document.body.innerText.substr( document.body.innerText.indexOf( "클릭" ) + 4 ).replace( "읽어주기", "" );
+const speach = document.body.innerText.substring( document.body.innerText.indexOf( "클릭" ) + 4 ).replace( "읽어주기", "" );
 const butt = document.querySelector( "#speakbutt" )
 butt.addEventListener( 'click', () => {
   if ( count % 2 == 0 ) {

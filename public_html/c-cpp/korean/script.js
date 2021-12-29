@@ -9,6 +9,9 @@ gtag( 'config', 'UA-209775586-1' );
 
 //Menu
 const menu = `
+
+<button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
+
 <details>
   <summary>&#x43;&#x20;&#xc5b8;&#xc5b4;&#x20;&#xc2dc;&#xc791;</summary>
   <p id="men">
@@ -129,7 +132,7 @@ document.querySelector( "#menu" ).innerHTML = menu;
 const set = document.querySelector( "#setting" )
 
 let count = 0;
-const speach = document.body.innerText.substr( document.body.innerText.indexOf( "읽어주기" ) + 3 );
+const speach = document.body.innerText.substring( document.body.innerText.indexOf( "읽어주기" ) + 3 );
 const butt = document.querySelector( "#speakbutt" )
 butt.addEventListener( 'click', () => {
   if ( count % 2 == 0 ) {

@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#menu-close-button {
+  display: none;
+}
+
 h3 {
   text-decoration: underline;
 }
@@ -148,6 +152,10 @@ p > a {
   .menu-button:hover {
     background-color: white;
     color: #188754;
+  }
+
+  #menu-close-button {
+    display: block;
   }
 }
 

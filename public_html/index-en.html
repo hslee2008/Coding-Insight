@@ -384,7 +384,7 @@
       var date = new Date( 0 );
       date.setSeconds( ( ( new Date().getTime() - new Date( document
         .lastModified ) ) / 1000 ).toFixed() )
-      var timeString = date.toISOString().substr( 11, 8 );
+      var timeString = date.toISOString().substring( 11, 8 );
 
       document.querySelector( "#date" ).innerText = "Last Update: " + timeString + " ago";
     }, 500 );
