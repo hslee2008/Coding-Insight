@@ -1,3 +1,6 @@
+/*
+! React Native Library Imports
+*/
 import React, { memo, useState } from "react";
 import {
   View,
@@ -17,11 +20,21 @@ import {
 import { Image, Box, Actionsheet } from "native-base";
 import { reloadAsync } from "expo-updates";
 
+/*
+! Local React Native Imports
+*/
 import styles from "./style.jsx";
 import global from "./global.jsx";
+import Links from "./links.js";
 
+/*
+! Global Variables
+*/
 var home = "https://coding-insight.com";
 
+/*
+! Menu List Bottom
+*/
 const ListBottom = (props) => {
   return (
     <View style={styles.view}>
@@ -42,11 +55,14 @@ const ListBottom = (props) => {
           });
         }}
       />
-      <IconButton icon="close" onPress={() => props.setVisible(false)} />
+      <IconButton icon="close" onPress={props.closeMenu} />
     </View>
   );
 };
 
+/*
+! Alert Sheet
+*/
 const Alert = (props) => (
   <Actionsheet isOpen={props.visible} onClose={props.hide}>
     <Actionsheet.Content>
@@ -54,99 +70,19 @@ const Alert = (props) => (
         <ScrollView>
           <List.Section>
             <List.Subheader>Learn More About Us!</List.Subheader>
-            <List.Item
-              title="Search"
-              left={() => <List.Icon icon="magnify" />}
-              description="Search us in Google CSE"
-              onPress={() => {
-                props.setLink(
-                  "https://cse.google.com/cse?cx=ee1853348b1a4e08b"
-                );
-                props.hide();
-              }}
-            />
-            <List.Item
-              title="Google"
-              left={() => <List.Icon icon="google" />}
-              description="Search Google"
-              onPress={() => {
-                props.setLink("https://www.google.com");
-                props.hide();
-              }}
-            />
-            <List.Item
-              title="GitHub"
-              left={() => <List.Icon icon="github" />}
-              description="Check our source code"
-              onPress={() => {
-                props.setLink(
-                  "https://github.com/HyunseungLee-Travis/Coding-Insight"
-                );
-                props.hide();
-              }}
-            />
-            <List.Item
-              title="YouTube"
-              left={() => <List.Icon icon="youtube" />}
-              description="Watch videos about Python"
-              onPress={() => {
-                props.setLink(
-                  "https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
-                );
-                props.hide();
-              }}
-            />
-            <List.Item
-              title="Game"
-              left={() => <List.Icon icon="controller-classic" />}
-              description="Play a simple game"
-              onPress={() => {
-                props.setLink("https://coding-insight.com/game.html");
-                props.hide();
-              }}
-            />
-            <List.Item
-              title="Chat"
-              left={() => <List.Icon icon="chat" />}
-              description="Chat with the developers"
-              onPress={() => {
-                props.setLink("https://coding-insight.com/chat.html");
-                props.hide();
-              }}
-            />
-            <List.Item
-              title="Release"
-              left={() => <List.Icon icon="application" />}
-              description="Check the latest updates"
-              onPress={() => {
-                props.setLink(
-                  "https://github.com/HyunseungLee-Travis/Coding-Insight/releases/tag/1.4.2"
-                );
-                props.hide();
-              }}
-            />
-            <List.Item
-              title="Feedback"
-              left={() => <List.Icon icon="message-alert" />}
-              description="Please tell us what you think"
-              onPress={() => {
-                props.setLink(
-                  "https://docs.google.com/forms/d/e/1FAIpQLSd_8WaZFf9FOanYdBil4t1PBZmzY6uRElimcbXbqVZgxghISg/viewform"
-                );
-                props.hide();
-              }}
-            />
-            <List.Item
-              title="Fun Videos"
-              left={() => <List.Icon icon="movie" />}
-              description="Watch fun videos about Python"
-              onPress={() => {
-                props.setLink(
-                  "https://coding-insight.com/python/korean/video.html"
-                );
-                props.hide();
-              }}
-            />
+
+            {Links.map((a, ind) => (
+              <List.Item
+                key={ind}
+                title={a.title}
+                left={() => <List.Icon icon={a.icon} />}
+                description={a.description}
+                onPress={() => {
+                  props.setLink(a.link);
+                  props.hide();
+                }}
+              />
+            ))}
           </List.Section>
         </ScrollView>
       </Box>
@@ -217,16 +153,16 @@ const Bar = memo((props) => {
               props.setVisible((p) => !p);
               closeMenu();
             }}
-            title="🗃 Learn More"
+            title="📂 Learn More"
           />
           <Menu.Item
             onPress={() => {
               props.goToSetting();
               closeMenu();
             }}
-            title="🐍 Open Setting"
+            title="🖥️ Open Setting"
           />
-          <Menu.Item onPress={ () => reloadAsync() } title="⏳ Update App" />
+          <Menu.Item onPress={() => reloadAsync()} title="⏳ Update App" />
           <ListBottom
             setVisible={setVisible}
             closeMenu={closeMenu}
@@ -276,6 +212,7 @@ function SnackBarsForErrors(props) {
       >
         HTTP Error: This page does not exist
       </Snackbar>
+
       <Snackbar
         visible={props.Error}
         onDismiss={props.onDismissError}
@@ -285,8 +222,9 @@ function SnackBarsForErrors(props) {
           onPress: reloadAsync,
         }}
       >
-        Please reload or re-install this app
+        NetworkError: Please connect to the network
       </Snackbar>
+
       <Snackbar
         visible={props.Process}
         onDismiss={props.onDismissProcess}
@@ -298,6 +236,7 @@ function SnackBarsForErrors(props) {
       >
         Process Gone! Something went wrong
       </Snackbar>
+
       <Snackbar
         visible={props.Reload}
         onDismiss={props.onDismissReload}

@@ -1,11 +1,15 @@
-//REACET NATIVE PACKAGE IMPORT//
+/*
+! React Native Library Imports
+*/
 import "react-native-gesture-handler";
 import React, { useRef, useState, memo } from "react";
 import { StatusBar, BackHandler } from "react-native";
 import { WebView } from "react-native-webview";
 import { createStackNavigator } from "@react-navigation/stack";
 
-//LOCAL PACKAGE IMPORT//
+/*
+! Local React Native Imports
+*/
 import {
   home,
   ProgressPyF,
@@ -17,15 +21,19 @@ import Settings, { setting } from "./src/setting.jsx";
 import styles from "./src/style.jsx";
 import global from "./src/global.jsx";
 
-//GLOBAL VARIABLES//
+/*
+!GLOBAL VARIABLES
+*/
 var Stack = createStackNavigator(),
   isOnSetting: boolean = false,
   globalFunctions: any;
 
-const Home = memo(({ navigation }: any) => {
+const HomeWrapper = memo(({ navigation }: any) => {
   const webViewRef: any = useRef(null);
 
-  //BACKHANDLER
+  /*
+  !BACKHANDLER
+  */
   BackHandler.addEventListener("hardwareBackPress", () => {
     isOnSetting
       ? navigation.navigate("Home")
@@ -36,36 +44,42 @@ const Home = memo(({ navigation }: any) => {
     return true;
   });
 
-  //STATES//
+  /*
+  !STATES
+  */
   const [webLoading, setWebLoading] = useState(true);
+  const [visible, setVisible] = useState(false);
+  const [HTTPError, setHTTPError] = useState(false);
+  const [Error, setError] = useState(false);
+  const [Process, setProcess] = useState(false);
+  const [Reload, setReload] = useState(false);
   const [link, setLink] = useState(
     setting.korean ? home : home + "/index-en.html"
   );
-  const [visible, setVisible] = useState(false);
 
-  const [HTTPError, setHTTPError] = useState(false);
+  /*
+  !FUNCTIONS
+  */
   const onToggleHTTPError = () => setHTTPError(!visible);
   const onDismissHTTPError = () => setHTTPError(false);
-
-  const [Error, setError] = useState(false);
   const onToggleError = () => setError(!visible);
   const onDismissError = () => setError(false);
-
-  const [Process, setProcess] = useState(false);
   const onToggleProcess = () => setProcess(!visible);
   const onDismissProcess = () => setProcess(false);
-
-  const [Reload, setReload] = useState(false);
   const onToggleReload = () => setReload(!visible);
   const onDismissReload = () => setReload(false);
 
-  //WEBVIEW FUNCTIONS//
+  const hide = () => setVisible(false);
+
+  const webLoadingFalse = () => setWebLoading(false);
+  const webLoadingTrue = () => setWebLoading(true);
+
   const reload = () => webViewRef.current.reload();
   const goback = () => webViewRef.current.goBack();
   const goforward = () => webViewRef.current.goForward();
   const stop = () => {
     webViewRef.current.stopLoading();
-    setWebLoading(false);
+    webLoadingFalse();
     onToggleReload();
   };
   const erase = () => {
@@ -74,7 +88,9 @@ const Home = memo(({ navigation }: any) => {
     webViewRef.current.clearCache(true);
   };
 
-  //GLOBAL FUNCTIONS//
+  /*
+  !GLOBAL FUNCTIONS
+  */
   globalFunctions = {
     webViewRef,
     webLoading,
@@ -97,21 +113,31 @@ const Home = memo(({ navigation }: any) => {
 
   return (
     <>
-      <Alert
-        visible={visible}
-        hide={() => setVisible(false)}
-        setLink={(a: string) => setLink(a)}
+      <Alert visible={visible} hide={hide} setLink={setLink} />
+      <SnackBarsForErrors
+        {...{
+          HTTPError,
+          onDismissHTTPError,
+          goback,
+          Error,
+          onDismissError,
+          Process,
+          onDismissProcess,
+          Reload,
+          onDismissReload,
+          reload,
+        }}
       />
       <WebView
         {...global.webView}
         ref={webViewRef}
         source={{ uri: link }}
         onNavigationStateChange={(a: any) => setLink(a.url)}
-        onLoad={() => setWebLoading(false)}
-        onLoadProgress={() => setWebLoading(true)}
-        onError={() => onToggleError()}
-        onHttpError={() => onToggleHTTPError()}
-        onRenderProcessGone={() => onToggleProcess()}
+        onLoad={webLoadingFalse}
+        onLoadProgress={webLoadingTrue}
+        onError={onToggleError}
+        onHttpError={onToggleHTTPError}
+        onRenderProcessGone={onToggleProcess}
         thirdPartyCookiesEnabled={setting.cookie}
         showsHorizontalScrollIndicator={setting.scroll}
         showsVerticalScrollIndicator={setting.scroll}
@@ -131,51 +157,47 @@ const Home = memo(({ navigation }: any) => {
           style: styles.icon,
         }}
       />
-      <SnackBarsForErrors
-        HTTPError={HTTPError}
-        onDismissHTTPError={onDismissHTTPError}
-        goback={goback}
-        Error={Error}
-        onDismissError={onDismissError}
-        Process={Process}
-        onDismissProcess={onDismissProcess}
-        Reload={Reload}
-        onDismissReload={onDismissReload}
-        reload={reload}
-      />
     </>
   );
 });
 
-const MainSetting = memo(({ navigation }: any) => {
-  const MainSettingComponent = {
-    close: navigation.goBack,
-    reloadWebView: globalFunctions.reload,
-    isOnSetting: () => {
-      isOnSetting = false;
-    },
-    reload: globalFunctions.reload,
-    erase: globalFunctions.erase,
-  };
+/*
+ ! Main Wrapper for setting and home
+ */
+const SettingWrapper = memo(({ navigation }: any) => (
+  <Settings
+    {...{
+      close: navigation.goBack,
+      reloadWebView: globalFunctions.reload,
+      reload: globalFunctions.reload,
+      erase: globalFunctions.erase,
+      isOnSetting: () => (isOnSetting = false),
+    }}
+  />
+));
 
-  return <Settings {...MainSettingComponent} />;
-});
+const StackNavigatorWrapper = memo(() => (
+  <Stack.Navigator screenOptions={global.screenopt}>
+    <Stack.Screen
+      name="Home"
+      component={HomeWrapper}
+      options={{ gestureEnabled: false }}
+    />
+    <Stack.Screen
+      name="Settings"
+      component={SettingWrapper}
+      options={{ gestureEnabled: false }}
+    />
+  </Stack.Navigator>
+));
 
+/*
+ ! Default App Base Component
+ */
 const AppBase = memo(() => (
   <>
     <StatusBar hidden />
-    <Stack.Navigator screenOptions={global.screenopt}>
-      <Stack.Screen
-        name="Home"
-        component={Home}
-        options={{ gestureEnabled: false }}
-      />
-      <Stack.Screen
-        name="Settings"
-        component={MainSetting}
-        options={{ gestureEnabled: false }}
-      />
-    </Stack.Navigator>
+    <StackNavigatorWrapper />
   </>
 ));
 
