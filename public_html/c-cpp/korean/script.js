@@ -70,10 +70,7 @@ const menu = `
   </p>
 </details>
 
-<br /><br />
-
-
-<details>
+< br / > < br / > < details >
   <summary>&#67;&#32;&#50616;&#50612;&#32;&#51473;&#44553;</summary>
   <p id="men">
     <a href="struct.html">(32) struct</a>
@@ -120,10 +117,7 @@ const menu = `
     <a href="string-cpp.html">(3) 문자열</a>
     <a href="vectorbasic.html">(4) Vector</a>
   </p>
-</details>
-
-
-
+< /details>
 `;
 
 document.querySelector( "#menu" ).innerHTML = menu;

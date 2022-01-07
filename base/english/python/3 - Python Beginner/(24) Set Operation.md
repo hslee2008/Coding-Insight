@@ -69,10 +69,7 @@ If typing the long word 'intersection' is hard, use the operator & to find the i
 
 Using the symmetric_difference_update() method, we can find the items that only exists in the first set.
 
-symmetric_difference() method exists too and it returns new set while symmetric_dffierence_update() will change the first set.
-
-
-```
+symmetric_difference() method exists too and it returns new set while symmetric_dffierence_update() will change the first set.```
 bestCodingLanguage = {"Javascript", "C++", "C", "Python"}
 greatButNotTheBestLCodingLanguage = {"C++", "C", "Python"}
 

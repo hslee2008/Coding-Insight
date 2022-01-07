@@ -15,10 +15,7 @@ Firts, we need few modules. Webbrowser(open zoom), keyboard(for typing), and tim
 10. Finished!
 
 ```
-import webbrowser, keyboard, time
-
-
-minute = int(input("Time to wait(minute): "))
+import webbrowser, keyboard, timeminute = int(input("Time to wait(minute): "))
 
 print(minute, " waiting.")
 time.sleep(minute)

@@ -33,7 +33,6 @@ const menu = `
   </p>
 </details>
 
-
 <br><br>
 
 <details>

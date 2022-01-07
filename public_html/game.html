@@ -402,10 +402,7 @@
 
     function Truck() {
       const truck = new THREE.Group();
-      const color = vechicleColors[ Math.floor( Math.random() * vechicleColors.length ) ];
-
-
-      const base = new THREE.Mesh(
+      const color = vechicleColors[ Math.floor( Math.random() * vechicleColors.length ) ]; const base = new THREE.Mesh(
         new THREE.BoxBufferGeometry( 100 * zoom, 25 * zoom, 5 * zoom ),
         new THREE.MeshLambertMaterial( {
           color: 0xb4c6fc,
@@ -700,10 +697,7 @@
         // right arrow
         move( 'right' );
       }
-    }
-
-
-    document.getElementById( 'forward' ).addEventListener( "click", movef );
+    } document.getElementById( 'forward' ).addEventListener( "click", movef );
     document.getElementById( 'backward' ).addEventListener( "click", moveb );
     document.getElementById( 'left' ).addEventListener( "click", movel );
     document.getElementById( 'right' ).addEventListener( "click", mover );

@@ -46,10 +46,7 @@ The minusDecorator() function above is an example of a decorator.
 Now, let's try using them.
 
 ```
-decorate = minusDecorator(returnVal())
-
-
-print(squareRootOf(decorate()))
+decorate = minusDecorator(returnVal())print(squareRootOf(decorate()))
 ```
 
 Now, instead of inserting negative number to squareRootOf() function, we can insert a function that will return the aboslute value of any negative number given.

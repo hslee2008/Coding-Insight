@@ -38,7 +38,7 @@ const Links = [ {
     title: "Release",
     icon: "application",
     description: "Check the latest updates",
-    link: "https://github.com/HyunseungLee-Travis/Coding-Insight/releases/tag/1.4.2", //Version mentioned here
+    link: "https://github.com/HyunseungLee-Travis/Coding-Insight/releases/tag/2.0.1", //Version mentioned here
   },
   {
     title: "Feedback",

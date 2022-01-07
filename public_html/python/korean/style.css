@@ -6,6 +6,10 @@ html {
   display: none;
 }
 
+#navigate {
+  display: flex;
+}
+
 h3 {
   text-decoration: underline;
 }
@@ -15,35 +19,31 @@ body > div > ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: fixed;
   top: 0;
   width: 100%;
-}
-
-img {
-  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 #more {
-  color: white;
+  color: black;
   display: none;
 }
 
-body > div > ul > li {
-  float: left;
+li {
+  float: right;
 }
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 13px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 li a:hover {
-  background-color: #111;
+  color: black;
 }
 
 button {
@@ -53,7 +53,7 @@ button {
   padding: 10px;
   font-size: 15px;
   background-color: #111;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
@@ -84,8 +84,8 @@ p > a {
 
   div:not(#menu):not(.alert):not(#navigate):not(#introduct):not(#setting) {
     display: block !important;
-    margin: 2px !important;
-    padding: 2px !important;
+    margin: 3px !important;
+    padding: 3px !important;
   }
 
   iframe:not(#vid) {
@@ -128,7 +128,7 @@ p > a {
     display: none;
   }
 
-  img {
+  img:not(.py-menu-image) {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -137,21 +137,6 @@ p > a {
 
   #lbbr {
     display: block;
-  }
-
-  .menu-button {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 10px;
-    width: 100px;
-    background-color: #188754;
-    color: white;
-  }
-
-  .menu-button:hover {
-    background-color: white;
-    color: #188754;
   }
 
   #menu-close-button {

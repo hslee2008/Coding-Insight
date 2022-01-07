@@ -21,10 +21,7 @@ class Person:
     self.name *= x
 
   def __call__(self):
-    print(self.name)
-
-
-me = Person("Hyunseung")
+    print(self.name)me = Person("Hyunseung")
 me * 5
 me()
 ```
@@ -51,10 +48,7 @@ class Person:
     print(self.name)
 
   def __len__(self):
-    return len(self.name)
-
-
-me = Person("Hyunseung")
+    return len(self.name)me = Person("Hyunseung")
 me * 5
 me()
 print(len(me))

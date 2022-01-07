@@ -25,8 +25,5 @@ Nonlocal is the opposite of global as it sets the variable to be only allowed in
 def testing():
   nonlocal message
   message = "Hello world"
-  print(message)
-
-
-print(message) #error
+  print(message)print(message) #error
 ```
