@@ -2,6 +2,7 @@
 <html lang="kr">
 
 <head>
+  <meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -16,172 +17,172 @@
   <title>앱 설치</title>
   <link rel="icon" href="py.png" type="image/png">
   <link rel="stylesheet" href="python/korean/style.css">
-  <meta charset="UTF-8">
 </head>
 
 <body class="m-0">
   <div id="app">
-  <div class="m-0 p-0" id="navigate">
-    <ul>
-      <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
-      <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
-      <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
-      <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-      <li><a href="quiz.html" id="quiz">퀴즈</a></li>
-      <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
-      <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
-      <li style="float:right;"><a href="https://coding-insight.com/python/english/additionaldundermethod-en.html"
-          style="color:white;" id="trans">English</a></li>
-      <li id="more"><a>더보기</a></li>
-    </ul>
-    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button"
-      data-bs-toggle="offcanvas" data-bs-target="#demo"
-      style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
-  </div>
-  <br /><br />
-  <br />
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="quiz.html" id="quiz">퀴즈</a></li>
+        <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+        <li style="float:right;"><a href="https://coding-insight.com/python/english/additionaldundermethod-en.html"
+            style="color:white;" id="trans">English</a></li>
+        <li id="more"><a>더보기</a></li>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+      </div>
+      <br /><br />
+      <br />
 
-  <div style="margin:50px;display: flex;justify-content: space-evenly; position:relative; z-index:5;">
-    <div class="card" style="width: 18rem;">
-      <img class="img-fluid"
-        src="data:image/png;base64,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"
-        class="card-img-top" alt="python factory image">
-      <div class="card-body">
-        <h5 class="card-title">APK 파일 (안드로이드 폰)</h5>
-        <p class="card-text">앱 버전 2.0.0</p>
-        <a href="./img/Python Factory App.apk" class="btn btn-primary">Download</a>
+    <div style="margin:50px;display: flex;justify-content: space-evenly; position:relative; z-index:5;">
+      <div class="card" style="width: 18rem;">
+        <img class="img-fluid"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAA3lBMVEX//////v8/2oY924YAAAA924Q/2oQ41n3N893///0+3INbWVrc2dpvbW6wrq/8///Bv8DLy8v39veZl5iKh4hDQULu7e4pKCg9PDy5t7h9fH3S0dGO47dNS0wyMTGqqanv/vnx8PCXlZUcGxtraWrp/PU12Xyg5sBr2p+w7MlC14hO1JHa+Ozp/O7m5OU4NjcREBBTUVIiICB12qmt5s470ond+PFy36vC8tWH47Br3p7V9d+V576D5amL4bFb25Se5cZb1ZrA79qn5L+X4rKQ6MOs79PK9db7//Nk2pPjAzqwAAAPLklEQVR4nO2cCVvivBbHk9akUMECIoq4FJECteIybizKyDt33uv3/0I3W0sKlKXQVrz9zzzPIM32S05yctI4AKRKlSpVqlSpUqVKlSpVqlSpUqVKlSpVqlSpUqVKlSrV/7cgyBoAZLMx1QUMI46aZGXOfrWaMQEa2bde7ylexMEN0pUPM6ZKn2wdPT/FU5fQECGE7bdYAI2XG0VF6DOu7qRVGq86Qjrq38ZS25mGVBXdvEAYR3VMsKXrSNe1FoTRT8OMYqmqqrdNI5YpzwRvRzqV7RjZiLvVMNsWqYnMBxDfABIH0VEw1nWrF/363UHMWnpGjBZKZPYxRrplZ6KuqPllkfmO7AGMFxCMFQXrCLfNiOtpqTpd0IYgXkBSWY9MDQVpYxChkRrAsQkftkZNI05ASCtzsIUwVj/NCNc2aPTY+Fkd4ppi3K5BRtjSMFYUqxVlTWONAfZNGD8gND+RqqjasxNdPcarxrzR2EhgBLPEVZAdBnUVkVX0hDQyfvq7ARIAhNlm26LzQ8mAiKahObKIt7XsQTZrJAAI4Vhh+5l2VOtMC2PqbYfZhACB8cEAtQ4Lf7esLHRsRLdLX7fASAgQOCNEF7nRbRTO0OzpdD+ovmWNpEYQGL/JKq6qynAzJzyv5RCMbaRiZP0ieIkAsoY1SVRBYpnnwaLUhvnijN/+/m4Nz7iGrc7b28BpshCWeYA52cxXlbmITIKAgG5JKaD+np07hkbTGbd6/ZGtIk3TLUmahhS73xuOBeasOnwFO8tmkwQ0jDYZQqSrYwkQ8icvb632SNEIDA14MLU3RL0aYqJ7aIKsEcyzzoBvNSeHWNw2SAr7BSQKSOJtmw4hahtQemrcjoftZz4ES0SZkT167wxMqY8MY8iftrLJjiDRmUIAVa1Ddoti7G47r7bCVh8aqS4FVOmREolM+sMBRWCjCB3eOzcmTGwEXUrirSjKTZMuFllA6TRLjM0qUoUoY7vlEEsgJMTDUmj8FnOUOwfQyLZYI9EZ6Xwz8y7o1gekaxVZNNt/TVLB2FYoYHv+2hUrYBaYX+zUyx7cdj4VS6ebj5CAqqKounZzNrj9pLktPIgyml4RkMy7N8yGcGST8FBRkB4ekKy0RGRhJfOaAP5JBm8aEBrvOmumQv9sBEhEAHVu83QH+D0AYUbRJ+1ckSsIUBrODkhmBs6YqPmbO4VtA344sZ71BgEab1/0XGH7gBjZLZP4jAQgoUTovGrs3CSCEdSRNRonwecZjgHN3zY7WNfR9gFpUbrWe0ng9a4rgwyfcOuL2rmJdGsUz1vIuXwdW3OdQlSAWLeUj2Yyi02zJ22lowIkZqooo0wS/iIzstjuMWJAsn+wsR3zFQRAQqMOidLJtoUsEsuWis0Jyd8zM04zhdAc2pEyTQspr05cZkqNpflLUeLkIz5R+XRAPINInXtbQzhWQBVhyx7HFR06n9HOubmAZMW2/8Zwz4KO303ky8ocQLpUU8Lox9C5wQkAcmdk/40cj9pnYoAohjF0bjQ9es8XCGhFPQ+dT4zVxABp0GK/RUcIQZP4hxXCnKhEq9XtDIgqRoRmG+lJAyJtNIgqQDTONB0nDqhbn81o+LIdRY7XkwIk8dMvMxLAjO0760wOEONWFLvS20+yiuGJlPgl8DCyx9vnM3vsncO3AMTKaNvXqyD4h92A/S6A6N3cspH+a+vKMsDImSeAirLVO4AGNPvEQWBR/AwgeUQC4G0OKppbmAdI/rEzEG7NHRqwpeoS2zQgu01AR3dbfJgUqOtqICBlfDW3Fv5COKBvVwIBsX3zenbWtzW0HUIV2/3en/eRzd7IBQFq/8BtEUKjb/msUwakbz47TXrZyvkg83QbeEo7YxqGYWb61NkGAGLd3tYxVBZ0NBQIiFB/wC5AQMMYP+ubjyFW/mOKSxXNHkbyIx8gpr9psA28rHE7wmiW0K3Udlhz6Hsuo7MxHtGHAdkFZlKm2bYWAOK3LfDRi5JDpKiBgBq/L07v5EKYfVXsDfGw68NZoY5/MfO1AukjcyuAzrMaDKjemKK7WYPeNsQjED1x95SWB0FPCwRUkPJ3C44ia5yReRAIiN/5fXEB2LQ3nYTU7gwXEMBO8AgS9/u1hcApSy+jMcC5iwz+MCQBc/OFdCABEpPA0jI6vRLo2sb7GQj/+26RKvCsXEB5ADcHVLUMkHvMZ/MzgNaouamrIANI3Xcw4KtkogC8PKN5zV5dyPrrA1xgopQQPW16F8r4oHfiggHVmxd5kXlSNgbsyXzGr0BHj+k6Sn9tcjNAxyZR/AJARRlKDSJ78g0BFfTsSCYxfvY9mwYkG7aNfCEx7z8Wvaw7h88FxM8iuqaecGirMzvktQnbTX6Lm/xt0t8eWgho9c2NBvB2pKvL2nwzNvjVGfMPexm7sdq3rEAABm3FV/uc/ZSu/eu7tzOjhXhkTmn8uGdRe5B9lmmaZnPcx2hpb6wgpI06jmmazu8bhJYBYq3HrwQHUS42UbMt3uQuahCmd677/ZEt7hxuLqTZ/faXbSN9KSBCzy+QEYYBJFtBtHwEGSRvybYAERLXMdWlI4hxJxsesCUsdHmrWYrVkq4EKB2+LgHU2/8NDWh+6asCblVrASr0t+9CAjre+fV3BkS/QVjAoa5vz+6iAsSob4YENNoI0XvY3x1QcUA4QMd29zDfGRBh/SkkYMfyNmnfFpB+o/dCAvYs73XL9wa8aYYCbPL/UuX7AyL8FgaQ/jbEZC3+1oBaK9QI/iMf8HxXQAapv5oh/oMwEssr8bOFAcT6qBni99zNfhJsYQDZ3Zn1R9CxUczuLzQgQp21AQ04jnv/EhpQUaxhiMPD1qbHR7EBYkV/N3hQuDoeNHqJWejagBh9mesD9ncJ0HbAmoDAHM2+I/++gNpgbUDH3iFAHOL8N6MkZ6Lra/3XTHC8lTPcuITXB3zSLG13ZPXWBTRuMzslZ11PT+OMhH4FOpzWB1wS7n8nBYSCCxlSwO+kFDAoT5yN3EShAX+CUsBdVwq460oBd107Ahi+PbEBblIuixVCFhwXIKieUlVCFAxA9fz4oRCQE5TKtODD4NwxAZb3qHJhAA9Z1sv5WUGpQZ8+BFnx9wcE3XuW9aI+Ny8oHdOn+zsMWNjjKv5UwKIArP1UwMoFy3pemp935wGFjTZqAY3afUCyzFzlD7tBOX8AIFzYop8AuFA/BDCwUZuvovI38jPvc3CfSE98gFMFzs8xp43z0m0KCEC9Vj04KHbZVyUq8aTEfyDfdwsHB4VcaRqRPikeHFRrdbpZlgCByMpS5HLe/pRUW6GVFXJ1fyu8mryEpRyrk2bZCBCA3Cn3Qo39AlnN7k5OTi7YphDULujnKtkJP/Ct1NGhfy8FStX9Bt9klUn3yIBlWs5JHZQOaN5z0TaS4fqY+/S705o0ylVa1V1x0qjK1RFP93BZ2giQ7NT3Jtqv5Ni/V6yRfH9xUNqfJDiRZxionUt5D32A1+xzvfLAaXjbQPFIyrB3TfyCaMUB+6LgHdZeNqQ6azA8IKicyFXuHRdmAC8f5AT3E0LRKk+nMmCefe6K0u/4u6yyP8PefRX4iiq4nZ73p6tehAUElePpOmcAG/4Ex3V/oyQ1pgEbbkMpIID56QxegOQDBPB6Otl9SEAAPeu7eDh/nBQoA3Ks83MXtCzaVPO4jh5O7idJ5RH0SofeGkT0eHzs9RofQxkQgKtJrQ/SAIQBPBQdVKYLZL3o4R76AR+KZNgqbuI6XyaF9R1VK6Ti7qXXkinA++vDw3KeVOeGRPlivVTqVoXhP7L9mQ/Q7bk8XZtLtdPwgKDLW3VXE84OXs4FzEM+hUQTeTNE0tOScHZdt3f8gPs50Zd1vr4cF3jVAIr+Op0C9Kyq6nrgQiMkIBAD+OitG+43fsCjkru28VaXme/l7T31KgX18zmAD24ABKrs50Ztpi46hDJgzeXzEhbDAkJuJtJJiPuVD9A7CxJf7APv4/EkAABuy3yAbt+54yLXBfhXV1OAfKrmZZ9fDgnIT0Iu6nLawgzg5KAEVFiG88nsvZLbKxhkwLyXtdvwlzUp/8gHCOCdr2d45pCAHObUt1GsN6YB85OuLN15Lbpmz2oyoGilDDg9+P66BAuxYgmwwj7d+QkewgFeTluNZ6My4GSUADzigGS02IQ7rvgAazOAngULggP/Ts9LJAHmpnqVJSyHA+T+pjqnUhnwch4gdxInJR9gbgZwssnmnVmc026aYQbwyp/wMBzg4QaA7NPduoD+s2twGghY9ie8Cgd4MM9Ej1YC5LPisesDLC4ArM7WBcUy6jdRvqBcz+mJ9QGLs2WJ8pcD5qdNzrOI+YC12akFSmxzeO9fZOrs06N8gAjgSTjAyuP0MLimtByQpzv1RajnCwD5rr7hq4uP6r7fTYDzGWMWvRPC0V8Le59sGnhouQIgnyqSuwKivfMB3S8kPwHghVe+7Oi5HZzLXXcdDtDtQrrrc8WLWgFQzJ8jL3gCufuFgGJbdOAF7SJ6atSnAPkkmXS7t6cLASg2lHuXIk1F8K0CKHbeRzl3QrsRUACg23dXJZ6+6+tLOZoQ4UNZJCy50VOYcMkNYc4PcpVu8cqLCJcDunsZYnXFbiVXcH8KAoTeCN9dFXO5wqn4ib+O8AF2RTMuDmvdbu7SO3IIFdFPDhGkkHU5IIS+wwBf3gBAb0L4dCwOGX0R/SThvVxyKMDStb/CvaP7FQHJ2taYzrsY0A0hZT6xmfUDupPO091jKEDWEOg/CNrnKzI/sqgtBCRG5z+wOpg9dPIBkhkxdQL04EVTHFBsqsDUcc9dLdyhk+iugtTMcomvYWU+GeYDnnhepS71zlFNdHxNWin8gMSs5e5sXHoHve4JpQsIctJRZb7Cjw3XfkfvlgYL/DD2iL6/AtV8/vpaHAVd5skP8m6lSL7IT/aJZN09PKc2/XhdILVXTuljfsjSZZ994R9gGS73mb0dX1dLALqEAB5eExW9JpHQ5JQFU3dlukyzeq/m4y0D5M8ruW4JSK8h5JwzRfm/KHVzFQh48+V+m07qZYCVnJtjuo3+b+o5dsA/r961AN0kQfkXiWOtmWfFysCqRa8AGFpbK2jzRkQJmDBjCrjrSgF3XSngrisF3HWlgLuuFHDXlQLuulLAXVcKuOtKAXddKeCuKwXcdaWAu64UcNeVAu66UsBd148H/B+6fdr613zmwQAAAABJRU5ErkJggg=="
+          class="card-img-top" alt="python factory image">
+        <div class="card-body">
+          <h5 class="card-title">APK 파일 (안드로이드 폰)</h5>
+          <p class="card-text">앱 버전 2.0.0</p>
+          <a href="./img/Python Factory App.apk" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="img-fluid"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uX7BrZxloZno__TSSZEAI3FysOBzjDVdfw&usqp=CAU"
+          class="card-img-top" alt="exe file">
+        <div class="card-body">
+          <h5 class="card-title">EXE 파일 (컴퓨터)</h5>
+          <p class="card-text">앱 버전 1.0.2</p>
+          <a href="./img/Python Factory.exe" class="btn btn-primary">Download</a>
+        </div>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img class="img-fluid"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uX7BrZxloZno__TSSZEAI3FysOBzjDVdfw&usqp=CAU"
-        class="card-img-top" alt="exe file">
-      <div class="card-body">
-        <h5 class="card-title">EXE 파일 (컴퓨터)</h5>
-        <p class="card-text">앱 버전 1.0.2</p>
-        <a href="./img/Python Factory.exe" class="btn btn-primary">Download</a>
+
+    <div>
+      <div class="text-center">
+        <hr>
+        <br />
+        <h1 class="display-6">폰 앱 내려받기</h1>
+        <br />
+        <hr>
       </div>
     </div>
-  </div>
 
-  <div>
-    <div class="text-center">
-      <hr>
-      <br />
-      <h1 class="display-6">폰 앱 내려받기</h1>
-      <br />
-      <hr>
+    <div style="display: flex;">
+      <div style="margin:10px;text-align: center;">
+        <h3>APK 파일 내려받기</h1>
+          <p>
+            저희 사이트 또는 <a href="https://github.com/HyunseungLee-Travis/Coding-Insight/releases/tag/v1.3.10"
+              style="color: dodgerblue;">깃허브</a> 에서 APK 파일을 설치
+            받습니다.<br /><br />
+
+            APK 파일은 폰에서 앱 파일입니다.<br /><br />
+
+            <img class="img-fluid" alt="python_factory_picture" src="img/harm.jpg" /><br /><br />
+
+            만일 설치할 것이냐고 물어보면 확인 버튼을 누르세요.<br /><br />
+
+            설치가 올바르게 시작이 되었다면 다음과 같이 폰에서 보여야 합니다.<br /><br />
+
+            <img class="img-fluid" alt="python_factory_picture" src="img/detail.jpg" /><br /><br />
+
+            조금 뒤 다음과 같이 스크린이 보일 것입니다.<br /><br />
+
+            <img class="img-fluid" alt="python_factory_picture" src="img/open.jpg" /><br /><br />
+
+            오픈 버튼을 누르세요.<br /><br />
+
+            다음과 같이 보일 수 있습니다. 설정을 누르세요.<br /><br />
+
+            만일 다음과 같이 보이지 않고 바로 설치가 시작된다면 넘어가세요.<br /><br />
+
+            <img class="img-fluid" alt="python_factory_picture" src="img/ask.jpg" /><br /><br />
+
+            그리고 다음과 같이 스크린에서 설정 창이 뜹니다.<br /><br />
+
+            조금 다를 수 있지만 '출처를 알 수 없는 앱 설치 허용'을 허용하세요.<br /><br />
+
+            <img class="img-fluid" alt="python_factory_picture" src="img/setting.jpg" /><br /><br />
+
+            백 버튼을 누르면 설치 할 것이냐고 물어볼 것입니다. '설치' 버튼을 누르세요.<br /><br />
+
+            <img class="img-fluid" alt="python_factory_picture" src="img/install.jpg" /><br /><br />
+
+            다음, 'Play Protect에서 찬단했습니다'라고 뜰 수 있습니다. 무시하고 설치하기 버튼을 누르세요.<br /><br />
+
+            <img class="img-fluid" alt="python_factory_picture" src="img/playprotect.jpg" /><br /><br />
+
+            파이썬 팩토리 앱이 설치 되었다고 뜰 것입니다.<br /><br />
+
+            OPEN을 누르면 저희 앱을 열 수 있습니다!<br /><br />
+
+            <img class="img-fluid" alt="python_factory_picture" src="img/installed.jpg" />
+            </p>
+            </div>
+            <div class="text-center m-5">
+              <h3>갤럭시 스토어</h3>
+              <p>
+                갤럭시 스토어에서 "Python Factory App"이라고 칩니다.<br /><br />
+
+          또는 <a href="https://galaxy.store/pyfact" style="color: dodgerblue;">갤럭시 스토어 링크</a>를 클릭하세요<br /><br />
+
+          <img class="img-fluid" alt="python_factory_picture" src="img/galaxystore.jpg" width="300" /><br /><br />
+
+          설치 버튼을 누릅니다.<br /><br />
+
+          <img class="img-fluid" alt="python_factory_picture" src="img/installgalaxystore.jpg"
+            width="300" /><br /><br />
+
+          실행 버튼을 클릭합니다.<br /><br />
+
+          <img class="img-fluid" alt="python_factory_picture" src="img/runapp.jpg" width="300" /><br /><br />
+
+          참고로 새로운 버전은 거의 매일 업데이트 되니 가끔 [설정]에서 Update 버튼을 눌러주세요!
+          </p>
+          </div>
+          </div>
+
+    <br /><br /><br /><br />
+
+    <div>
+      <div class="text-center">
+        <hr>
+        <br />
+        <h1 class="display-6">컴퓨터 앱 설치</h1>
+        <br />
+        <hr>
+      </div>
     </div>
-  </div>
 
-  <div style="display: flex;">
     <div style="margin:10px;text-align: center;">
-      <h3>APK 파일 내려받기</h1>
-        <p>
-          저희 사이트 또는 <a href="https://github.com/HyunseungLee-Travis/Coding-Insight/releases/tag/v1.3.10"
-            style="color: dodgerblue;">깃허브</a> 에서 APK 파일을 설치
-          받습니다.<br /><br />
-
-          APK 파일은 폰에서 앱 파일입니다.<br /><br />
-
-          <img class="img-fluid" alt="python_factory_picture" src="img/harm.jpg" /><br /><br />
-
-          만일 설치할 것이냐고 물어보면 확인 버튼을 누르세요.<br /><br />
-
-          설치가 올바르게 시작이 되었다면 다음과 같이 폰에서 보여야 합니다.<br /><br />
-
-          <img class="img-fluid" alt="python_factory_picture" src="img/detail.jpg" /><br /><br />
-
-          조금 뒤 다음과 같이 스크린이 보일 것입니다.<br /><br />
-
-          <img class="img-fluid" alt="python_factory_picture" src="img/open.jpg" /><br /><br />
-
-          오픈 버튼을 누르세요.<br /><br />
-
-          다음과 같이 보일 수 있습니다. 설정을 누르세요.<br /><br />
-
-          만일 다음과 같이 보이지 않고 바로 설치가 시작된다면 넘어가세요.<br /><br />
-
-          <img class="img-fluid" alt="python_factory_picture" src="img/ask.jpg" /><br /><br />
-
-          그리고 다음과 같이 스크린에서 설정 창이 뜹니다.<br /><br />
-
-          조금 다를 수 있지만 '출처를 알 수 없는 앱 설치 허용'을 허용하세요.<br /><br />
-
-          <img class="img-fluid" alt="python_factory_picture" src="img/setting.jpg" /><br /><br />
-
-          백 버튼을 누르면 설치 할 것이냐고 물어볼 것입니다. '설치' 버튼을 누르세요.<br /><br />
-
-          <img class="img-fluid" alt="python_factory_picture" src="img/install.jpg" /><br /><br />
-
-          다음, 'Play Protect에서 찬단했습니다'라고 뜰 수 있습니다. 무시하고 설치하기 버튼을 누르세요.<br /><br />
-
-          <img class="img-fluid" alt="python_factory_picture" src="img/playprotect.jpg" /><br /><br />
-
-          파이썬 팩토리 앱이 설치 되었다고 뜰 것입니다.<br /><br />
-
-          OPEN을 누르면 저희 앱을 열 수 있습니다!<br /><br />
-
-          <img class="img-fluid" alt="python_factory_picture" src="img/installed.jpg" />
-        </p>
-    </div>
-    <div class="text-center m-5">
-      <h3>갤럭시 스토어</h3>
+      <h3>파일 설치</h3>
       <p>
-        갤럭시 스토어에서 "Python Factory App"이라고 칩니다.<br /><br />
+        위에 있는 링크를 눌러서 EXE 파일을 설치 받습니다.<br /><br />
 
-        또는 <a href="https://galaxy.store/pyfact" style="color: dodgerblue;">갤럭시 스토어 링크</a>를 클릭하세요<br /><br />
+        <img class="img-fluid" alt="python_factory_picture" src="img/exe.jpg" /><br /><br />
 
-        <img class="img-fluid" alt="python_factory_picture" src="img/galaxystore.jpg" width="300" /><br /><br />
+        박스 안을 클릭하세요.
+        </p>
+        <h3>윈도우 보호</h3>
+        <p>
+          다음과 같이 윈도우에서 파일을 막을 수 있습니다.<br /><br />
 
-        설치 버튼을 누릅니다.<br /><br />
+        <img class="img-fluid" alt="python_factory_picture" src="img/windowsprotect.jpg" /><br /><br />
 
-        <img class="img-fluid" alt="python_factory_picture" src="img/installgalaxystore.jpg" width="300" /><br /><br />
+        추가 정보를 누르고 실행 버튼을 클릭하세요.<br /><br />
 
-        실행 버튼을 클릭합니다.<br /><br />
+        <img class="img-fluid" alt="python_factory_picture" src="img/run.jpg" />
+        </p>
+        </div>
 
-        <img class="img-fluid" alt="python_factory_picture" src="img/runapp.jpg" width="300" /><br /><br />
-
-        참고로 새로운 버전은 거의 매일 업데이트 되니 가끔 [설정]에서 Update 버튼을 눌러주세요!
-      </p>
-    </div>
-  </div>
-
-  <br /><br /><br /><br />
-
-  <div>
-    <div class="text-center">
-      <hr>
-      <br />
-      <h1 class="display-6">컴퓨터 앱 설치</h1>
-      <br />
-      <hr>
-    </div>
-  </div>
-
-  <div style="margin:10px;text-align: center;">
-    <h3>파일 설치</h3>
-    <p>
-      위에 있는 링크를 눌러서 EXE 파일을 설치 받습니다.<br /><br />
-
-      <img class="img-fluid" alt="python_factory_picture" src="img/exe.jpg" /><br /><br />
-
-      박스 안을 클릭하세요.
-    </p>
-    <h3>윈도우 보호</h3>
-    <p>
-      다음과 같이 윈도우에서 파일을 막을 수 있습니다.<br /><br />
-
-      <img class="img-fluid" alt="python_factory_picture" src="img/windowsprotect.jpg" /><br /><br />
-
-      추가 정보를 누르고 실행 버튼을 클릭하세요.<br /><br />
-
-      <img class="img-fluid" alt="python_factory_picture" src="img/run.jpg" />
-    </p>
-  </div>
-
-  <br /><br /><br /><br />
-  <script src="component.js"></script>
+    <br /><br /><br /><br />
+    <script src="component.js"></script>
 </body>
 
 </html>

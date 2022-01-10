@@ -2,6 +2,7 @@
 <html lang="kr">
 
 <head>
+  <meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -16,359 +17,357 @@
   <title>코딩 인사이트</title>
   <link hreflang="kr" rel="icon" href="py.png" type="image/png">
   <link hreflang="kr" rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
 </head>
 
 <body class="m-0">
   <div id="app">
-  <div class="m-0 p-0" id="navigate">
-    <ul>
-      <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
-      <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
-      <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
-      <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-      <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
-      <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
-      <li><a href="https://coding-insight.com/python/korean/video.html"
-          id="video">동영상</a></li>
-      <li style="float:right;"><a href="https://coding-insight.com/python/english/string-en.html" id="trans">English</a>
-      </li>
-      <li id="more"><a>더보기</a></li>
-    </ul>
-    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button"
-      data-bs-toggle="offcanvas" data-bs-target="#demo"
-      style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
-  </div>
-  <br /><br />
-  <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-    <div id="menu">
-      <py-pyfact-menu></py-pyfact-menu>
-    </div>
-  </div>
-
-  <div>
-    <div class="header-div text-white" style="background-color: #0e0e0e; margin-top: 50px;">
-      <div class="sub-div">
-        <h1>문자란?</h1>
-        <p>
-          문자란 언어를 구성하는 기호를 뜻합니다.<br /><br />
-
-          예를 들어 영어에서는 'A', 'B', 'C' 등을 문자라고 합니다.<br /><br />
-
-          파이썬에서 문자란 '' 또는 "" 안에 넣은 데이터 형태를 뜻합니다. 그래서 숫자가 따옴표 안에 있어도 문자라고 여겨집니다.<br /><br />
-        </p>
-      </div>
-      <div style="margin: auto;">
-        <img class="img-fluid" alt="python_factory_picture"
-          src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
-          width="300px" />
-      </div>
-    </div>
-
-    <br /><br />
-
-    <div class="text-center">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/NT0qINEacEo" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-
-    <br /><br />
-
-    <div class="text-center">
-      <hr>
-      <br />
-      <div class="text-center" id="speakdiv">
-        <button id="speakbutt" class="btn btn-primary">읽어주기</button>
-        <div id="setting">
-          <br /><br />
-          <img class="img-fluid" alt="python_factory_picture"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-            style="width:25px !important;" />
-          <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br />
-          <img class="img-fluid" alt="python_factory_picture"
-            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-            style="width:25px !important;" />
-          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-        </div>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+        <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+        <li style="float:right;"><a href="https://coding-insight.com/python/english/string-en.html"
+            id="trans">English</a>
+        </li>
+        <li id="more"><a>더보기</a></li>
+        </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
       </div>
       <br /><br />
-      <h1 class="display-6"><span id="tit">파이썬 문자</span><br id="lbbr"><span id="txt">Computer
-          Science Lab
-          (</span>CSL<span id="txt">)</span> 8
-      </h1>
-      <br />
-      <hr>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div class="norm-div">
-      <div class="sub-div">
-        <h1>파이썬에서 문자 만들기</h1>
-        <p>
-          문자는 항상 '' 또는 "" 안에 값이 있어야 합니다.<br /><br />
-          하지만 ''와 "" 안의 값은 항상 한 줄 안에 있어야 합니다.<br /><br />
-          옆에 있는 예시를 보면 Hello와 World가 한 줄에 없어서 에러가 생긴 것입니다.<br />
-        </p>
+      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+        <div id="menu">
+          <py-pyfact-menu></py-pyfact-menu>
+        </div>
       </div>
-      <iframe src="https://trinket.io/embed/python/7c86f7328a" width="50%" height="356" frameborder="0" marginwidth="0"
-        marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-    </div>
 
-    <br /><br /><br /><br />
+    <div>
+      <div class="header-div text-white" style="background-color: #0e0e0e; margin-top: 50px;">
+        <div class="sub-div">
+          <h1>문자란?</h1>
+          <p>
+            문자란 언어를 구성하는 기호를 뜻합니다.<br /><br />
 
-    <div class="norm-div" style="background-color: #f7f7f7;">
-      <div class="sub-div">
-        <h1>문자 - 여러 줄</h1>
-        <p>
-          만일 문자와 문자 사이에 많은 줄이 있는 형태로 데이터를 출력하고 싶다면 어떻게 할까요? <br /></br />
+            예를 들어 영어에서는 'A', 'B', 'C' 등을 문자라고 합니다.<br /><br />
 
-          예를 들어
+            파이썬에서 문자란 '' 또는 "" 안에 넣은 데이터 형태를 뜻합니다. 그래서 숫자가 따옴표 안에 있어도 문자라고 여겨집니다.<br /><br />
+            </p>
+            </div>
+            <div style="margin: auto;">
+              <img class="img-fluid" alt="python_factory_picture"
+                src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
+                width="300px" />
+            </div>
+            </div>
 
-          <pre>
+      <br /><br />
+
+      <div class="text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NT0qINEacEo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+          </div>
+
+      <br /><br />
+
+      <div class="text-center">
+        <hr>
+        <br />
+        <div class="text-center" id="speakdiv">
+          <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+          <div id="setting">
+            <br /><br />
+            <img class="img-fluid" alt="python_factory_picture"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width:25px !important;" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+            <br />
+            <img class="img-fluid" alt="python_factory_picture"
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width:25px !important;" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+          </div>
+        </div>
+        <br /><br />
+        <h1 class="display-6"><span id="tit">파이썬 문자</span><br id="lbbr"><span id="txt">Computer
+            Science Lab
+            (</span>CSL<span id="txt">)</span> 8
+        </h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div class="norm-div">
+        <div class="sub-div">
+          <h1>파이썬에서 문자 만들기</h1>
+          <p>
+            문자는 항상 '' 또는 "" 안에 값이 있어야 합니다.<br /><br />
+            하지만 ''와 "" 안의 값은 항상 한 줄 안에 있어야 합니다.<br /><br />
+            옆에 있는 예시를 보면 Hello와 World가 한 줄에 없어서 에러가 생긴 것입니다.<br />
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python/7c86f7328a" width="50%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+        </div>
+
+      <br /><br /><br /><br />
+
+      <div class="norm-div" style="background-color: #f7f7f7;">
+        <div class="sub-div">
+          <h1>문자 - 여러 줄</h1>
+          <p>
+            만일 문자와 문자 사이에 많은 줄이 있는 형태로 데이터를 출력하고 싶다면 어떻게 할까요? <br /></br />
+
+            예를 들어
+
+            <pre>
             hello
             world
           </pre>
 
-          를 출력하는 방법은 있을까요?<br /><br />
+            를 출력하는 방법은 있을까요?<br /><br />
 
-          다양한 방법이 있겠지만 3개 예시를 보겠습니다. <br /><br />
+            다양한 방법이 있겠지만 3개 예시를 보겠습니다. <br /><br />
 
-          4번째 방법을 보면 ''' '''를 사용했습니다.<br /><br />
+            4번째 방법을 보면 ''' '''를 사용했습니다.<br /><br />
 
-          이 기호 안에 저희는 새로운 줄(enter)을 넣어서 사용할 수 있습니다. 하지만 ''와 ""에서는 새로운 줄을 사용할 수 없습니다.<br /><br />
+            이 기호 안에 저희는 새로운 줄(enter)을 넣어서 사용할 수 있습니다. 하지만 ''와 ""에서는 새로운 줄을 사용할 수 없습니다.<br /><br />
 
-          ''' ''' 대신 """ """를 사용해도 됩니다.<br /><br />
-        </p>
-      </div>
-      <iframe src="https://trinket.io/embed/python/c420acd5f8" width="100%" height="356" frameborder="0" marginwidth="0"
-        marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div class="norm-div">
-      <div style="padding: 10px;">
-        <h1>문자 인덱싱 - x 번째 값 구하기</h1>
-        <p>
-          문자에서 선택하고 싶은 한 장소의 정보를 찾아내는 작업을 인덱싱이라고 하고 그 장소를 인덱스라고 합니다.<br /><br />
-
-          예를 들어 Hello에서 첫 번째 문자를 출력하기 위해서 인덱스 0을 사용할 수 있습니다.<br /><br />
-
-          <code>
-            a = "Hello"<br />
-            print(a[0])
-          </code>
-
-          문자 다음에 나오는 [] (대괄호) 안에 있는 숫자는 문자의 인덱스입니다.<br /><br />
-
-          일상생활에서 '처음'이라고 하면 보통 1을 생각합니다.<br /><br />
-
-          하지만 배열(문자열, 리스트 등)에서 첫 번째 인덱스를 출력하기 위해서 0을 사용합니다. 2번째는 1이고 3번째는 2입니다.<br /><br />
-
-          이 이유는 조금 뒤에 설명하겠습니다.<br /><br />
-        </p>
-      </div>
-      <iframe src="https://trinket.io/embed/python3/e1cdc9760f" width="100%" height="356" frameborder="0"
-        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
-        style="margin: auto;"></iframe>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div class="norm-div text-white" style="background-color: #2f4960;">
-      <div style="margin:20px;">
-        <h1>문자 인덱싱 - x 부터 y까지 값</h1>
-        <p>
-          문자에서 어떤 범위의 부분 문자를 구하기 위하여 다음과 같은 방법을 사용할 수 있습니다.<br /><br />
-
-          [] 안에 ':'를 사용하여 ':' 전에 나오는 인덱스를 포함하고 ':' 다음에 나오는 인덱스는 제외하고 출력이 됩니다.<br /><br />
-
-          만일 0이 없이 '' 만 있어도 파이썬은 0이라고 인식합니다.<br /><br />
-        </p>
-      </div>
-      <iframe src="https://trinket.io/embed/python/47c742b3bd" width="100%" height="356" frameborder="0" marginwidth="0"
-        marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div class="norm-div" style="background-color: #f6f6f6;">
-      <div class="sub-div">
-        <h1>거꾸로 문자 뒤집기</h1>
-        <p>
-          문자를 거꾸로 바꾸기 위하여 인덱싱을 사용할 수도 있습니다.<br /><br />
-
-          옆의 예시에서 ::-1은 0:0:-1을 생략한 코드입니다.<br /><br />
-
-          마지막 숫자는 스텝을 뜻합니다. 스텝은 문자 인덱싱을 셀때 단위입니다. 예를 들면, 단위를 2로 정하면 2 문자 중 하나씩만 출력됩니다.<br /><br />
-
-          스텝을 -1로 입력하면 거꾸로 바꿀 수 있습니다.<br /><br />
-        </p>
-      </div>
-      <iframe src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frameborder="0" marginwidth="0"
-        marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div style="margin:20px;padding:20px;">
-      <button style="float:left;" class="btn btn-light"><a href="comment.html">❮ 이전</a></button>
-      <button style="float:right;" class="btn btn-light"><a href="stringmethod1.html">다음 ❯</a></button>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div class="text-center border border-dark rounded p-3 m-3">
-      <h1>퀴즈 풀기!</h1>
-    </div>
-
-    <div class="text-center" style="font-size: 25px;">
-      <h3>문자를 만들 수 있는데 사용하는 것은?</h3>
-      <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-        <label for="question-1-answers-A">A) !문자! </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-        <label for="question-1-answers-B">B) "문자" </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-        <label for="question-1-answers-C">C) [문자] </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-        <label for="question-1-answers-D">D) 다른 정답 </label>
-      </div>
-
-      <br /><br />
-
-      <h3>한 개 이상 줄을 문자 안에 넣을 수 있는 방법은? </h3>
-
-      <div>
-        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-        <label for="question-2-answers-A">A) ?문자? 사용 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-        <label for="question-2-answers-B">B) #문자 사용 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-        <label for="question-2-answers-C">C) """ 문자 """ 사용 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-        <label for="question-2-answers-D">D) (문자) 사용 </label>
-      </div>
-
-      <br /><br />
-
-      <h3> 문자에서 3 번째 인덱스를 찾아내는데 사용할 숫자로 알맞은 것은? </h3>
-
-      <div>
-        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-        <label for="question-3-answers-A">A) 0 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-        <label for="question-3-answers-B">B) 1 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-        <label for="question-3-answers-C">C) 2 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
-        <label for="question-3-answers-D">D) 3 </label>
-      </div>
-
-      <br /><br />
-
-      <h3> 다음 중 형태가 틀린 것은? </h3>
-
-      <div>
-        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
-        <label for="question-4-answers-A">A) a[1:3] </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-        <label for="question-4-answers-B">B) a[:4] </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-        <label for="question-4-answers-C">C) a[:] </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-        <label for="question-4-answers-D">D) a[] </label>
-      </div>
-
-      <br /><br />
-
-      <h3> 마지막 인덱스를 찾는데 알맞은 숫자는? </h3>
-
-      <div>
-        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-        <label for="question-5-answers-A">A) 0 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-        <label for="question-5-answers-B">B) -1 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-        <label for="question-5-answers-C">C) -2 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-        <label for="question-5-answers-D">D) 0 </label>
-      </div> <br /><br />
-
-      <button id="checky" class="btn btn-dark"
-        onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-C").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")}; if(document.getElementById("question-3-answers-C").checked) {alert("3번 맞았습니다!")} else {alert("3번 틀렸습니다")}; if(document.getElementById("question-4-answers-D").checked) {alert("4번 맞았습니다 :)")} else {alert("4번 틀렸습니다")}; if(document.getElementById("question-5-answers-B").checked) {alert("5번 맞았습니다 :o")} else {alert("5번 틀렸습니다")};'>정답
-        확인</button>
-<br /><br /><br />
-    </div>
-    <footer>
-      <div>
-        <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-        <a class="btn btn-light"
-          href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-        <a class="btn btn-light"
-          href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
-      </div>
-      <br /><br />
-      <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-      <br />
-      <div class="d-flex justify-content-center p-0 w-100">
-        <div>
-          <h1 class="display-6">Python-Factory © 2021</h1>
-          <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
+            ''' ''' 대신 """ """를 사용해도 됩니다.<br /><br />
+            </p>
+            </div>
+        <iframe src="https://trinket.io/embed/python/c420acd5f8" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
         </div>
+
+      <br /><br /><br /><br />
+
+      <div class="norm-div">
+        <div style="padding: 10px;">
+          <h1>문자 인덱싱 - x 번째 값 구하기</h1>
+          <p>
+            문자에서 선택하고 싶은 한 장소의 정보를 찾아내는 작업을 인덱싱이라고 하고 그 장소를 인덱스라고 합니다.<br /><br />
+
+            예를 들어 Hello에서 첫 번째 문자를 출력하기 위해서 인덱스 0을 사용할 수 있습니다.<br /><br />
+
+            <code>
+              a = "Hello"<br />
+              print(a[0])
+            </code>
+
+            문자 다음에 나오는 [] (대괄호) 안에 있는 숫자는 문자의 인덱스입니다.<br /><br />
+
+            일상생활에서 '처음'이라고 하면 보통 1을 생각합니다.<br /><br />
+
+            하지만 배열(문자열, 리스트 등)에서 첫 번째 인덱스를 출력하기 위해서 0을 사용합니다. 2번째는 1이고 3번째는 2입니다.<br /><br />
+
+            이 이유는 조금 뒤에 설명하겠습니다.<br /><br />
+            </p>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/e1cdc9760f" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
+              style="margin: auto;"></iframe>
+            </div>
+
+      <br /><br /><br /><br />
+
+      <div class="norm-div text-white" style="background-color: #2f4960;">
+        <div style="margin:20px;">
+          <h1>문자 인덱싱 - x 부터 y까지 값</h1>
+          <p>
+            문자에서 어떤 범위의 부분 문자를 구하기 위하여 다음과 같은 방법을 사용할 수 있습니다.<br /><br />
+
+            [] 안에 ':'를 사용하여 ':' 전에 나오는 인덱스를 포함하고 ':' 다음에 나오는 인덱스는 제외하고 출력이 됩니다.<br /><br />
+
+            만일 0이 없이 '' 만 있어도 파이썬은 0이라고 인식합니다.<br /><br />
+            </p>
+            </div>
+        <iframe src="https://trinket.io/embed/python/47c742b3bd" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+        </div>
+
+      <br /><br /><br /><br />
+
+      <div class="norm-div" style="background-color: #f6f6f6;">
+        <div class="sub-div">
+          <h1>거꾸로 문자 뒤집기</h1>
+          <p>
+            문자를 거꾸로 바꾸기 위하여 인덱싱을 사용할 수도 있습니다.<br /><br />
+
+            옆의 예시에서 ::-1은 0:0:-1을 생략한 코드입니다.<br /><br />
+
+            마지막 숫자는 스텝을 뜻합니다. 스텝은 문자 인덱싱을 셀때 단위입니다. 예를 들면, 단위를 2로 정하면 2 문자 중 하나씩만 출력됩니다.<br /><br />
+
+            스텝을 -1로 입력하면 거꾸로 바꿀 수 있습니다.<br /><br />
+            </p>
+            </div>
+        <iframe src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+        </div>
+
+      <br /><br /><br /><br />
+
+      <div style="margin:20px;padding:20px;">
+        <button style="float:left;" class="btn btn-light"><a href="comment.html">❮ 이전</a></button>
+        <button style="float:right;" class="btn btn-light"><a href="stringmethod1.html">다음 ❯</a></button>
       </div>
-    </footer>
-  </div>
+
+      <br /><br /><br /><br />
+
+      <div class="text-center border border-dark rounded p-3 m-3">
+        <h1>퀴즈 풀기!</h1>
+      </div>
+
+      <div class="text-center" style="font-size: 25px;">
+        <h3>문자를 만들 수 있는데 사용하는 것은?</h3>
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+          <label for="question-1-answers-A">A) !문자! </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+          <label for="question-1-answers-B">B) "문자" </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+          <label for="question-1-answers-C">C) [문자] </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+          <label for="question-1-answers-D">D) 다른 정답 </label>
+        </div>
+
+        <br /><br />
+
+        <h3>한 개 이상 줄을 문자 안에 넣을 수 있는 방법은? </h3>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+          <label for="question-2-answers-A">A) ?문자? 사용 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+          <label for="question-2-answers-B">B) #문자 사용 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+          <label for="question-2-answers-C">C) """ 문자 """ 사용 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+          <label for="question-2-answers-D">D) (문자) 사용 </label>
+        </div>
+
+        <br /><br />
+
+        <h3> 문자에서 3 번째 인덱스를 찾아내는데 사용할 숫자로 알맞은 것은? </h3>
+
+        <div>
+          <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+          <label for="question-3-answers-A">A) 0 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+          <label for="question-3-answers-B">B) 1 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+          <label for="question-3-answers-C">C) 2 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+          <label for="question-3-answers-D">D) 3 </label>
+        </div>
+
+        <br /><br />
+
+        <h3> 다음 중 형태가 틀린 것은? </h3>
+
+        <div>
+          <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+          <label for="question-4-answers-A">A) a[1:3] </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+          <label for="question-4-answers-B">B) a[:4] </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+          <label for="question-4-answers-C">C) a[:] </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+          <label for="question-4-answers-D">D) a[] </label>
+        </div>
+
+        <br /><br />
+
+        <h3> 마지막 인덱스를 찾는데 알맞은 숫자는? </h3>
+
+        <div>
+          <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
+          <label for="question-5-answers-A">A) 0 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
+          <label for="question-5-answers-B">B) -1 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
+          <label for="question-5-answers-C">C) -2 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
+          <label for="question-5-answers-D">D) 0 </label>
+        </div> <br /><br />
+
+        <button id="checky" class="btn btn-dark"
+          onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-C").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")}; if(document.getElementById("question-3-answers-C").checked) {alert("3번 맞았습니다!")} else {alert("3번 틀렸습니다")}; if(document.getElementById("question-4-answers-D").checked) {alert("4번 맞았습니다 :)")} else {alert("4번 틀렸습니다")}; if(document.getElementById("question-5-answers-B").checked) {alert("5번 맞았습니다 :o")} else {alert("5번 틀렸습니다")};'>정답
+          확인</button>
+        <br /><br /><br />
+        </div>
+        <footer>
+          <div>
+            <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
+          <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
+          <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+          </div>
+          <br /><br />
+          <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
+          <br />
+          <div class="d-flex justify-content-center p-0 w-100">
+            <div>
+              <h1 class="display-6">Python-Factory © 2021</h1>
+              <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
+            </div>
+          </div>
+          </footer>
+          </div>
     <script defer src="script.js"></script>
-<script src="../../component.js"></script>
+    <script src="../../component.js"></script>
 </body>
 
 </html>

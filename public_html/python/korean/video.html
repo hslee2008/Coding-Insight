@@ -2,12 +2,13 @@
 <html lang="kr">
 
 <head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-      </script>
-      <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
     <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
     <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -16,7 +17,6 @@
     <title>파이썬 동영상</title>
     <link hreflang="kr" rel="icon" href="py.png" type="image/png">
     <link hreflang="kr" rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8">
     <style>
         #grid {
             display: grid;
@@ -28,131 +28,130 @@
 </head>
 
 <body class="m-0">
-  <div id="app">
-    <div class="m-0 p-0" id="navigate">
-        <ul>
-      <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
-      <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
-      <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
-      <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-      <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
-      <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
-      <li><a href="https://coding-insight.com/python/korean/video.html"
-                    id="video">동영상</a></li>
-            </li>
-            <li id="more"><a>더보기</a></li>
-            <div style="display:none;" id="search-div">
-                <div class="gcse-searchbox-only"></div>
+    <div id="app">
+        <div class="m-0 p-0" id="navigate">
+            <ul>
+                <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+                <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+                <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+                <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+                <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+                <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+                <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+                </li>
+                <li id="more"><a>더보기</a></li>
+                <div style="display:none;" id="search-div">
+                    <div class="gcse-searchbox-only"></div>
+                </div>
+                </ul>
+            <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+                type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+                style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
             </div>
-        </ul>
-    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button"
-        data-bs-toggle="offcanvas" data-bs-target="#demo"
-        style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
-    </div>
 
-    <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-    <div id="grid">
-        <div class="card" style="max-width: 560px">
-            <div class="card-header">
-                자동으로 줌 열기!
+        <div id="grid">
+            <div class="card" style="max-width: 560px">
+                <div class="card-header">
+                    자동으로 줌 열기!
+                </div>
+                <iframe width="560" class="card-img-top" height="315" src="https://www.youtube.com/embed/0bwQtUOqW_g"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <button class="btn btn-primary" id="code-butt0">코드 보기</button>
+                    <p class="card-text">이제 컴퓨터만 켜 있으면 일어나지 않아도 수업에 자동으로 참여가능합니다!</p>
+                    <div id="code0"></div>
+                </div>
             </div>
-            <iframe width="560" class="card-img-top" height="315" src="https://www.youtube.com/embed/0bwQtUOqW_g"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="card-body">
-                <button class="btn btn-primary" id="code-butt0">코드 보기</button>
-                <p class="card-text">이제 컴퓨터만 켜 있으면 일어나지 않아도 수업에 자동으로 참여가능합니다!</p>
-                <div id="code0"></div>
+            <div class="card" style="max-width: 560px">
+                <div class="card-header">
+                    나만의 파이썬 게임!(벽돌 게임)
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5G1PBdmfcqc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <button class="btn btn-primary" id="code-butt">코드 보기</button>
+                    <p class="card-text">파이썬을 이용해서 나만의 게임을 만들어 보겠습니다!</p>
+                    <div id="code"></div>
+                </div>
             </div>
-        </div>
-        <div class="card" style="max-width: 560px">
-            <div class="card-header">
-                나만의 파이썬 게임!(벽돌 게임)
+            <div class="card" style="max-width: 560px">
+                <div class="card-header">
+                    파이썬을 이용해서 가족 개인 정보 얻기!
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RZSzjcp_DII"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <button class="btn btn-primary" id="code-butt2">코드 보기</button>
+                    <p class="card-text">파이썬 코드 20줄만 사용해서 컴퓨터와 똑같은 와이파이를 사용하는 디바이스를 해킹하기</p>
+                    <div id="code2"></div>
+                </div>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5G1PBdmfcqc"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="card-body">
-                <button class="btn btn-primary" id="code-butt">코드 보기</button>
-                <p class="card-text">파이썬을 이용해서 나만의 게임을 만들어 보겠습니다!</p>
-                <div id="code"></div>
+            <div class="card" style="max-width: 560px">
+                <div class="card-header">
+                    햄스터 조종하기! 머신 러닝
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ePuu9qYlQVY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <button class="btn btn-primary" id="code-butt3">코드 보기</button>
+                    <p class="card-text">햄스터를 명령하기! 햄스터의 왕이 되세요!</p>
+                    <div id="code3"></div>
+                </div>
             </div>
-        </div>
-        <div class="card" style="max-width: 560px">
-            <div class="card-header">
-                파이썬을 이용해서 가족 개인 정보 얻기!
+            <div class="card" style="max-width: 560px">
+                <div class="card-header">
+                    엔트리 대신 파이썬!
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3Hkbj5CH8oY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <p class="card-text">파이썬으로 엔트리 조종하기!</p>
+                </div>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RZSzjcp_DII"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="card-body">
-                <button class="btn btn-primary" id="code-butt2">코드 보기</button>
-                <p class="card-text">파이썬 코드 20줄만 사용해서 컴퓨터와 똑같은 와이파이를 사용하는 디바이스를 해킹하기</p>
-                <div id="code2"></div>
+            <div class="card" style="max-width: 560px">
+                <div class="card-header">
+                    파이썬으로 네트워크 스캐닝 도구 만들기!
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qYMiwwFynco"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <button class="btn btn-primary" id="code-butt4">코드 보기</button>
+                    <p class="card-text">지금 당장 윤리적 해킹의 기본을 알아두세요!</p>
+                    <div id="code4"></div>
+                </div>
             </div>
-        </div>
-        <div class="card" style="max-width: 560px">
-            <div class="card-header">
-                햄스터 조종하기! 머신 러닝
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ePuu9qYlQVY"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="card-body">
-                <button class="btn btn-primary" id="code-butt3">코드 보기</button>
-                <p class="card-text">햄스터를 명령하기! 햄스터의 왕이 되세요!</p>
-                <div id="code3"></div>
-            </div>
-        </div>
-        <div class="card" style="max-width: 560px">
-            <div class="card-header">
-                엔트리 대신 파이썬!
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Hkbj5CH8oY"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="card-body">
-                <p class="card-text">파이썬으로 엔트리 조종하기!</p>
-            </div>
-        </div>
-        <div class="card" style="max-width: 560px">
-            <div class="card-header">
-                파이썬으로 네트워크 스캐닝 도구 만들기!
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qYMiwwFynco"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="card-body">
-                <button class="btn btn-primary" id="code-butt4">코드 보기</button>
-                <p class="card-text">지금 당장 윤리적 해킹의 기본을 알아두세요!</p>
-                <div id="code4"></div>
-            </div>
-        </div>
-    </div> <br />
-    <hr><br />
+        </div> <br />
+        <hr><br />
 
-    <div style="padding:30px;text-align: center;margin:30px;" class="jumbotron">
-        <h1 class="display-4">파이썬 강좌 모음</h1>
-        <p class="lead">파이썬을 재미있는 비디오를 통해 공부해요!</p>
-        <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/videoseries?list=PLhHi1BeBom9e62FpDsAnpP-tJUULibSPE"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
+        <div style="padding:30px;text-align: center;margin:30px;" class="jumbotron">
+            <h1 class="display-4">파이썬 강좌 모음</h1>
+            <p class="lead">파이썬을 재미있는 비디오를 통해 공부해요!</p>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/videoseries?list=PLhHi1BeBom9e62FpDsAnpP-tJUULibSPE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
 
-    <br /><br />
+        <br /><br />
 
-    <script defer>
-        document.querySelector("#code-butt0").addEventListener("click", () => {
-            document.querySelector("#code0").innerHTML = `
+        <script defer>
+            document.querySelector( "#code-butt0" ).addEventListener( "click", () => {
+            document.querySelector( "#code0" ).innerHTML = `
         <pre>
             import webbrowser, keyboard, time
 
@@ -174,10 +173,10 @@
             keyboard.press_and_release("enter")
         </pre>
       `
-        })
+            } )
 
-        document.querySelector("#code-butt").addEventListener("click", () => {
-            document.querySelector("#code").innerHTML = `
+            document.querySelector( "#code-butt" ).addEventListener( "click", () => {
+            document.querySelector( "#code" ).innerHTML = `
         <pre>
           import sys,math,random,pygame
           from pygame.locals import QUIT, KEYDOWN, K_LEFT, K_RIGHT, Rect
@@ -264,10 +263,10 @@
 
         </pre>
       `
-        })
+            } )
 
-        document.querySelector("#code-butt2").addEventListener("click", () => {
-            document.querySelector("#code2").innerHTML = `
+            document.querySelector( "#code-butt2" ).addEventListener( "click", () => {
+            document.querySelector( "#code2" ).innerHTML = `
             <pre>
                 import socket, struct, binascii
 
@@ -293,18 +292,18 @@
                     print(data[0].decode("ISO-8859-1"))
             </pre>
         `
-        })
+            } )
 
-        document.querySelector("#code-butt3").addEventListener("click", () => {
-            document.querySelector("#code3").innerHTML = `
+            document.querySelector( "#code-butt3" ).addEventListener( "click", () => {
+            document.querySelector( "#code3" ).innerHTML = `
             <pre>
 
             </pre>
         `
-        })
+            } )
 
-        document.querySelector("#code-butt4").addEventListener("click", () => {
-            document.querySelector("#code4").innerHTML = `
+            document.querySelector( "#code-butt4" ).addEventListener( "click", () => {
+            document.querySelector( "#code4" ).innerHTML = `
     <pre>
             from socket import *
             import time
@@ -328,9 +327,9 @@
                 s.close() print(time.time() - startTime, " 시간")
         </pre>
     `
-        })
-    </script>
-<script src="../../component.js"></script>
+            } )
+            </script>
+            <script src="../../component.js"></script>
 </body>
 
 </html>

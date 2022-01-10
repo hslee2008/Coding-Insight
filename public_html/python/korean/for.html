@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
+  <meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -15,7 +16,6 @@
   <title>코딩 인사이트</title>
   <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
   <link hreflang="kr" rel="stylesheet" href="style.css" />
-  <meta charset="UTF-8" />
   <style>
     #img {
       animation: 3s ease-in 1s infinite reverse both running circle;
@@ -33,203 +33,201 @@
 
 <body class="m-0">
   <div id="app">
-  <div class="m-0 p-0" id="navigate">
-    <ul>
-      <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
-      <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
-      <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
-      <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-      <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
-      <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
-      <li><a href="https://coding-insight.com/python/korean/video.html"
-          id="video">동영상</a></li>
-          <li style="float:right;">
-        <a href="https://coding-insight.com/python/engish/for-en.html"
-          id="trans">English</a>
-      </li>
-      <li id="more"><a>더보기</a></li>
-    </ul>
-    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button"
-      data-bs-toggle="offcanvas" data-bs-target="#demo"
-      style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
-  </div>
-  <br /><br />
-  <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-    <div id="menu">
-      <py-pyfact-menu></py-pyfact-menu>
-    </div>
-  </div>
-
-  <div>
-    <div style="display: flex; margin-top: 50px; padding: 30px">
-      <div class="sub-div">
-        <h1>for 반복문이란?</h1>
-        <p>
-          for 반복문이란 반복되는 작업을 매우 효율적이게 맡을 수 있는
-          반복문입니다.
-        </p>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+        <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+        <li style="float:right;">
+          <a href="https://coding-insight.com/python/engish/for-en.html" id="trans">English</a>
+          </li>
+          <li id="more"><a>더보기</a></li>
+          </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
       </div>
-      <div style="margin: auto">
-        <img class="img-fluid" alt="python_factory_picture" alt="python-factory-picture"
-          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAflBMVEX///8AAAD6+vp9fX2mpqYICAjr6+tZWVmpqano6Oi5ubmTk5P39/fx8fGHh4cKCgp3d3dUVFTOzs4+Pj4yMjIqKioXFxeNjY3BwcHV1dVfX1/Ly8tMTExCQkKfn58dHR2ysrJxcXEsLCxoaGgjIyPb29sZGRk2NjZAQECYmJiMK1CoAAAH8ElEQVR4nO2dZ5ejOgyGE0pCGhDSO6RM+f9/8JJkMpNiGUkWkL3Hz7e7567Ju9iyrGIaDYvFYrFYLBaLxWKxWCwWi0WETtL1eqEbZ1nshj2vm3Tq/kVUnMSL15Oo+UK0H8beou6fh2OQxiP/VcKDnFHc7df9O/Wswk+9hl/8Ufi2b2aV7ZAqfpjEb6ilEx5pKq6Me626f/kD82HBsoDxl0ndv/6GE2AXBsAorVvCBY81px4Zp3WraAQTcxkXKd1aZSQjGRln1qfaZLQOcjJy/KymXTKYiurIOdYxvzpraRlnloOqdaTir+PKbl6pjL7s6njAdarTcRqXp6PZ/KrMa+mWNK1u7NROiyM9677LlZETBYrHLsZDWR1x6TpyZi+PnfnNkaQMp12FjmYze3xsZ5P/2URQR7+U3UNF+954eZfzfySoY0P6MbvNIQ5n2yDwtj33sJ6QDi1/Sga3WSBmmAk69pmXvO7Sp6AwMvHH8Od3z39P0FLhJAc5r46HQLMV9LsZ8gSzvPzv2d8fSJ0lUes8WiLMfZJ9YMbKV3yyv/tvIZ8SY3c3HtIVdwLMNA1nDxPRE9GB2AfXK8qACdmSv+4uDLqFjxmSp/CJKCUW0HEq8q/GpLdxY0U6Ky/NdfQL/N2oxx15S/BA1+ZCCs4fbQML3xqihXwa60i140dbs9E9RQJCyc5UR0f7+vfGoWjsQc3Y2dLu6EuBIE4fab4MQxOBbuzQXMaZECXELIbX0k2sbxkdufXCCGGZ+F80FstPZVScSRFusdHjEo0O0XAAQonR+9fsvamMghtuoRCTBalZ6WLr44JTrOP5JE8Czn8I2asfFpi9pM0f3wMHFfDg7uihdvcNe3wHPJVOJJMZ2ND+nv0EcIVEkilydKZlyn4EmK819BPvGSyRMnK4z5hDAxqsupdnUOoluIF66KgQiRUsObRQMnNCd6C9ln0efIEYgmW6EpBLOhbT0XC2pES9Kt+AALK9Zk7oMymhAoQ3FVbAaMIJl3y9oyeYyxofWocllPNgg3UH1uiAXRQIyig4HTBhetZkgGaW7Ar5oxMX+1us7Btgs/iOWyGDsChIf+QMCxgTmZA4QP9bnzvhBIQGwFBll/AE2oMJI/sGRBdljyFKuprUCcM3AoxvJUUvKzAezDD96qADa7UxOC3V1piefXPUA/F2JA6dTGWN6eeghfrVMr02FoPw9eRIz74BUYdqC6f7vWdrTM++qdc6//TPxPH2Dz+AbjTVDqlJhIxLem926I6e+rxT6rYOcufm0890ageuLIexiMUt0kLOvnWUOkxTRgacDpd/Wp/699TJBONspAktN2L8U6oLHUp04TEMZjty9k29jVS3rwM4W6qQnlKIRDFIxaiPh7IpkUpQp49E6oyqRe2hCMbgqyJTCqnS9/3/oE4y/YP2Rl17yAua1srMGs43Q21vqFUKp+/aO87VOVKq4Tw1P8L6fPYLX0oh1LhaP/87UVzrJQ3q5Ds5HXo9xhzq6zsFYs/kaXLL8rTrajdXp2fo4fi/pMK62h7HG+raQHrw4T4c9JnK/85CMqUQeu7t0fhNthX2a15Rx6PoHsqzH7+bVbuxAGEcuv/96ulM3SoDv0DsmW5FVQNFWXUbi7pIN6LPcHU8yF9WdSeLOsnPiEeB5b60/iMuQKUY4zQCLLYzowpuNACq6hhPdmAh+bbklWyN++oYus/xY/X1FMdy3XzAZrFCtkXtm9My3Xygjp11PCzuRyvPzYeKQlkmE9PDVZabDxSi8ZL8yIs26G2UxUAFVrxQEKJ54MpG3M2HJgNvM1YnFpQIu/nQCmHmxrUtYs9IuvnOHngIs9oYLCdXI1fpqI4w5paF6XwDxSgAsdgb6UA7Mbcev0WQIXl1EWj22c4qXofkZVJg/z//ehd0d4pk+icBq39T9piQ8XhiI+mnDMCSf4O6JNQlKPyOfCVwZbnBa8eUq49lT76wN2HS6ZEV6xC+nUzjTKQGwxZ3Zgvn8zS+hFERTPFFKJLN041GV9OuYDSD9Rc9iCsJNDrMinlQzpZYLYTO2d6ZbbgnjBCpdaI9/aRmYwMpo2eGAuGUgdbUG/d0Ia/02huf2xNtC9+Hcewc23tqesHLt/5fzDyuib8fc2jgb3UKwjUCNdOE9tMp96U4s4IOsZGA80Boz242P1nnnnmRiz2V8K2Jd2QOyYt+VfjOZS4sgaIAILScPKaxVWa/fch0+yHmep9NgJzSfQ9z15nQbnuffdsnKL8+t/oZYrHMl6hLN6Q67O5CsNcLxJGdwceD7qscHe+A3KCGUqedX2frFu1x0Les+Z+qD6YMVtsM34e/lru69GfE9q/ziVdyUXNcH9zZ1guC75mbLb9oFzevBVNi18tp77t4qrruV3BenTln356jPVk1Opai0YDPpv8a7cFdsmaIcDRgrYz2eOyPpmDxpWvw5+r3mxC/xUNlWlmlW0tdACrEqMKSUMztZFyyakvcSFcXEfio/MsdlMuk8Azr+BpUV+ArQ498pDXIyOnHsob4UGPfqeDF/pt6v5fWFfoUyRt8ySoVkDJ5jy601HB/fJNPpJ1JgMs/EPjtunrk1bR6rBk2mb3XZwQvLGLid9+O8dt8QfCZRYj+KscofFsVV/rdeFQQ64lGblpz/xaWkxcPx8rP0a5jb1F5B4cprcU86M1CN8tcN+wF3eQNF7bFYrFYLBaLxWKxWCwWi+Xf5D9vgmr/Kr2dWQAAAABJRU5ErkJggg=="
-          id="img alt=" python factory picture"s" />
-      </div>
-    </div>
-    <div class="sub-div">
-      <div class="text-center">
-        <hr />
-        <br />
-        <div class="text-center" id="speakdiv">
-          <button id="speakbutt" class="btn btn-primary">읽어주기</button>
-          <div id="setting">
-            <br /><br />
-            <img class="img-fluid" alt="python_factory_picture"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-              style="width: 25px !important" />
-            <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br />
-            <img class="img-fluid" alt="python_factory_picture"
-              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-              style="width: 25px !important" />
-            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-          </div>
+      <br /><br />
+      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+        <div id="menu">
+          <py-pyfact-menu></py-pyfact-menu>
         </div>
-        <br /><br />
-        <h1 class="display-6">
-          <span id="tit">for 반복문</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
-            id="txt">)</span> 34
-        </h1>
-        <br />
-        <hr />
       </div>
 
-      <br /><br /><br /><br />
-
-      <div class="norm-div">
+    <div>
+      <div style="display: flex; margin-top: 50px; padding: 30px">
         <div class="sub-div">
-          <h1>for 반복문</h1>
+          <h1>for 반복문이란?</h1>
           <p>
-            for 반복문은 리스트와 함께 사용할 수 있는 반복문입니다.<br /><br />
-
-            for ~ in ~:의 형태로 사용합니다.<br /><br />
-
-            for 뒤에는 임의의 변수 이름을 쓰고 in 뒤에는 이터러블(리스트,
-            튜플, range())의 이름을 씁니다.<br /><br />
-
-            옆의 for 문이 실행될 때는 i 변수에 리스트의 값이 차례대로
-            들어갑니다. 예를 들어 1번째 반복에선 a의 첫 번째 값이 i에
-            들어갑니다.
+            for 반복문이란 반복되는 작업을 매우 효율적이게 맡을 수 있는
+            반복문입니다.
           </p>
         </div>
-        <iframe src="https://trinket.io/embed/python3/b3dec1798f" width="100%" height="356" frameborder="0"
-          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        <div style="margin: auto">
+          <img class="img-fluid" alt="python_factory_picture" alt="python-factory-picture"
+            src="data:image/png;base64,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"
+            id="img alt=" python factory picture"s" />
+        </div>
       </div>
+      <div class="sub-div">
+        <div class="text-center">
+          <hr />
+          <br />
+          <div class="text-center" id="speakdiv">
+            <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+            <div id="setting">
+              <br /><br />
+              <img class="img-fluid" alt="python_factory_picture"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width: 25px !important" />
+              <input type="range" id="vol" min="0" max="1" step="0.1" />
+              <br />
+              <img class="img-fluid" alt="python_factory_picture"
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width: 25px !important" />
+              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
+          </div>
+          <br /><br />
+          <h1 class="display-6">
+            <span id="tit">for 반복문</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+              id="txt">)</span> 34
+          </h1>
+          <br />
+          <hr />
+        </div>
 
-      <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-      <div>
-        <div style="
+        <div class="norm-div">
+          <div class="sub-div">
+            <h1>for 반복문</h1>
+            <p>
+              for 반복문은 리스트와 함께 사용할 수 있는 반복문입니다.<br /><br />
+
+              for ~ in ~:의 형태로 사용합니다.<br /><br />
+
+              for 뒤에는 임의의 변수 이름을 쓰고 in 뒤에는 이터러블(리스트,
+              튜플, range())의 이름을 씁니다.<br /><br />
+
+              옆의 for 문이 실행될 때는 i 변수에 리스트의 값이 차례대로
+              들어갑니다. 예를 들어 1번째 반복에선 a의 첫 번째 값이 i에
+              들어갑니다.
+              </p>
+              </div>
+              <iframe src="https://trinket.io/embed/python3/b3dec1798f" width="100%" height="356" frameborder="0"
+                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+              </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div style="
               padding: 20px;
               display: flex;
               background-color: black;
               color: white;
             ">
-          <div class="inner-div">
-            <h1>for + range()</h1>
-            <p>
-              특정한 개수만큼 반복을 시킬 수도 있습니다.<br /><br />
+            <div class="inner-div">
+              <h1>for + range()</h1>
+              <p>
+                특정한 개수만큼 반복을 시킬 수도 있습니다.<br /><br />
 
-              바로 range 메서드를 쓰면 됩니다.<br /><br />
+                바로 range 메서드를 쓰면 됩니다.<br /><br />
 
-              range 메서드는 괄호 안에 쓴 길이 만큼의 리스트를 생성해
-              줍니다.<br /><br /><br /><br />
+                range 메서드는 괄호 안에 쓴 길이 만큼의 리스트를 생성해
+                줍니다.<br /><br /><br /><br />
 
-              range() 함수에 대한 더 자세한 내용은 조금 뒤 배우겠습니다.
-            </p>
+                range() 함수에 대한 더 자세한 내용은 조금 뒤 배우겠습니다.
+                </p>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/dab1cb41c0" width="100%" height="356" frameborder="0"
+                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+                </div>
+                </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div class="norm-div">
+            <div class="inner-div">
+              <h1>for + else</h1>
+              <p>
+                조건문에서 공부했던 else를 for과 같이 사용하면 for의 range가
+                끝나면 else문 안에 있는 파이썬 코드를 실행합니다.
+              </p>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/4712475b5d" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
           </div>
-          <iframe src="https://trinket.io/embed/python3/dab1cb41c0" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
         </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div style="padding: 20px; display: flex; background-color: dimgrey">
+            <div class="inner-div">
+              <h1>팁!</h1>
+              <p>
+                for 반복문은 하나하나 값을 모두 가지고 와서 for 문 안에 있는
+                코드를 실행하는 코드여서 매우 느립니다.<br /><br />
+
+                느린 for 반복문을 사용할 때 변수를 미리 지정하고 변수의 이름을
+                넣는 것이 더 빠릅니다. 예를 들어 range(5)을 변수 안에 저장하여
+                for i in range() 대신 for i in (name)를 실행하면 조금 더
+                빨라집니다.
+                </p>
+                </div>
+                </div>
+                </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div style="padding: 20px; display: flex; background-color: cornsilk">
+            <div class="inner-div">
+              <h1>반복 중단</h1>
+              <p>
+                반복을 하다가 중단시킬 수도 있습니다.<br /><br />
+
+                break라는 코드를 사용하면 됩니다.<br /><br />
+
+                break는 반복문(while, for 모두 포함) 내에 들어가면 멈추는 조건을
+                만족하지 않아도 반복문을 강제로 중단시킵니다.<br /><br />
+
+                옆에 있는 예시에서는 for 반복문이 0에서 10까지 반복하며 그 수를
+                출력합니다. 하지만 만일 수가 5가 된다면 바로 for 반복문을 멈추고
+                Done!!!을 출력합니다.
+                </p>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/9f190d6a4f" width="100%" height="356" frameborder="0"
+                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+                </div>
+                </div>
+
+      </div>
+
+      <br /><br /><br /><br />
+      <div style="margin: 20px; padding: 20px">
+        <button style="float: left" class="btn btn-light">
+          <a href="anonymousfunction.html">❮ 이전</a>
+        </button>
+        <button style="float: right" class="btn btn-light"><a href="fortype.html">다음 ❯</a></button>
       </div>
 
       <br /><br /><br /><br />
 
-      <div>
-        <div class="norm-div">
-          <div class="inner-div">
-            <h1>for + else</h1>
-            <p>
-              조건문에서 공부했던 else를 for과 같이 사용하면 for의 range가
-              끝나면 else문 안에 있는 파이썬 코드를 실행합니다.
-            </p>
-          </div>
-          <iframe src="https://trinket.io/embed/python3/4712475b5d" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-        </div>
+      <div class="text-center border border-dark rounded p-3 m-3">
+        <h1>퀴즈 풀기!</h1>
       </div>
-
-      <br /><br /><br /><br />
-
-      <div>
-        <div style="padding: 20px; display: flex; background-color: dimgrey">
-          <div class="inner-div">
-            <h1>팁!</h1>
-            <p>
-              for 반복문은 하나하나 값을 모두 가지고 와서 for 문 안에 있는
-              코드를 실행하는 코드여서 매우 느립니다.<br /><br />
-
-              느린 for 반복문을 사용할 때 변수를 미리 지정하고 변수의 이름을
-              넣는 것이 더 빠릅니다. 예를 들어 range(5)을 변수 안에 저장하여
-              for i in range() 대신 for i in (name)를 실행하면 조금 더
-              빨라집니다.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <br /><br /><br /><br />
-
-      <div>
-        <div style="padding: 20px; display: flex; background-color: cornsilk">
-          <div class="inner-div">
-            <h1>반복 중단</h1>
-            <p>
-              반복을 하다가 중단시킬 수도 있습니다.<br /><br />
-
-              break라는 코드를 사용하면 됩니다.<br /><br />
-
-              break는 반복문(while, for 모두 포함) 내에 들어가면 멈추는 조건을
-              만족하지 않아도 반복문을 강제로 중단시킵니다.<br /><br />
-
-              옆에 있는 예시에서는 for 반복문이 0에서 10까지 반복하며 그 수를
-              출력합니다. 하지만 만일 수가 5가 된다면 바로 for 반복문을 멈추고
-              Done!!!을 출력합니다.
-            </p>
-          </div>
-          <iframe src="https://trinket.io/embed/python3/9f190d6a4f" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-        </div>
-      </div>
-
+      <pyfact-footer></pyfact-footer>
     </div>
-
-    <br /><br /><br /><br />
-    <div style="margin: 20px; padding: 20px">
-      <button style="float: left" class="btn btn-light">
-        <a href="anonymousfunction.html">❮ 이전</a>
-      </button>
-      <button style="float: right" class="btn btn-light"><a href="fortype.html">다음 ❯</a></button>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div class="text-center border border-dark rounded p-3 m-3">
-      <h1>퀴즈 풀기!</h1>
-    </div>
-  <pyfact-footer></pyfact-footer>
-    </div>
-  <script defer src="script.js"></script>
-<script src="../../component.js"></script>
+    <script defer src="script.js"></script>
+    <script src="../../component.js"></script>
 </body>
 
 </html>

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -16,161 +17,157 @@
   <title>Coding Insight</title>
   <link hreflang="en" rel="icon" href="py.png" type="image/png">
   <link hreflang="en" rel="stylesheet" href="style-en.css">
-  <meta charset="UTF-8">
 </head>
 
 <body class="m-0">
   <div id="app">
-  <div class="m-0 p-0" id="navigate">
-    <ul>
-      <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
-      <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
-      <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
-      <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-      <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
-      <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
-      <li><a href="https://coding-insight.com/python/korean/video.html"
-          id="video">Video</a>
-      </li>
-      <li style="float:right;"><a href="https://coding-insight.com/python/korean/oneliner.html"
-          id="trans" style="color:white;">한국어</a></li>
-      <li id="more"><a>More</a></li>
-    </ul>
-    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button"
-      data-bs-toggle="offcanvas" data-bs-target="#demo"
-      style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
-  </div>
-  <br /><br />
-<div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-    <div id="menu">
-      <py-pyfact-menu-en></py-pyfact-menu-en>
-    </div>
-  </div>
-  <div>
-    <div class="sub-div">
-      <div style="display:flex;background-color:#ffde59;color:black;margin-top:50px;padding:30px;">
-        <div class="sub-div">
-          <h1>Why should we put codes in one line?</h1>
-          <p>
-            Some computers are very slow.<br /><br />
-
-            It might be necessary to care about performance of your program/app.
-          </p>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
+        <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a>
+        </li>
+        <li style="float:right;"><a href="https://coding-insight.com/python/korean/oneliner.html" id="trans"
+            style="color:white;">한국어</a></li>
+        <li id="more"><a>More</a></li>
+        </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+      </div>
+      <br /><br />
+      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+        <div id="menu">
+          <py-pyfact-menu-en></py-pyfact-menu-en>
         </div>
       </div>
+      <div>
+        <div class="sub-div">
+          <div style="display:flex;background-color:#ffde59;color:black;margin-top:50px;padding:30px;">
+            <div class="sub-div">
+              <h1>Why should we put codes in one line?</h1>
+              <p>
+                Some computers are very slow.<br /><br />
 
-      <br /><br /><br /><br />
+              It might be necessary to care about performance of your program/app.
+              </p>
+              </div>
+              </div>
 
-      <div class="text-center">
-        <hr>
-        <br />
-        <div class="text-center" id="speakdiv">
-          <button id="speakbutt" class="btn btn-primary">Read</button>
-          <div id="setting">
-            <br /><br />
-            <img class="img-fluid" alt="python_factory_picture"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-              style="width:25px !important;" />
-            <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br />
-            <img class="img-fluid" alt="python_factory_picture"
-              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-              style="width:25px !important;" />
-            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+        <br /><br /><br /><br />
+
+        <div class="text-center">
+          <hr>
+          <br />
+          <div class="text-center" id="speakdiv">
+            <button id="speakbutt" class="btn btn-primary">Read</button>
+            <div id="setting">
+              <br /><br />
+              <img class="img-fluid" alt="python_factory_picture"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width:25px !important;" />
+              <input type="range" id="vol" min="0" max="1" step="0.1" />
+              <br />
+              <img class="img-fluid" alt="python_factory_picture"
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width:25px !important;" />
+              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
           </div>
+          <br /><br />
+          <h1 class="display-6"><span id="tit">Code in One Line</span><br id="lbbr"><span id="txt">Computer
+              Science
+              Lab (</span>CSL<span id="txt">)</span>
+            38</h1>
+          <br />
+          <hr>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div class="color-contrast-div">
+          <div class="sub-div">
+            <h1>; Semicolon</h1>
+            <p>
+              In other programming languages such as JavaScript, there is ';'(semicolon) to seperate code.<br /><br />
+
+              It exists in Python, but it is uncommon.<br /><br />
+
+              For example, let's look at the code below.<br /><br />
+
+              <code>
+                print("Hello", end=" ")<br />
+                print("World")
+              </code>
+
+              The code above is equal to the code below.<br /><br />
+
+              <code>
+                print("Hello", end=" "); print("World")
+              </code>
+              </p>
+              </div>
+          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/724bf9a522" width="60%"
+            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+            style="margin:auto;" style="margin: auto;"></iframe>
+          </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div class="norm-div">
+            <div style="padding: 10px;">
+              <h1>More explanation</h1>
+              <p>
+                In Python, semicolons are purely optional.<br /><br />
+
+                You can use it and not use it.<br /><br />
+
+                It does not make a single difference.<br /><br />
+
+                Note: you can also put semicolons after each code.
+                </p>
+                </div>
+                <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/ca6f756679" width="60%"
+                  height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+                  style="margin: auto;"></iframe>
+                </div>
+                </div>
+
+        <br /><br /><br /><br />
+        </div>
+
+      <div style="margin:20px;padding:20px;">
+        <button style="float:left;" class="btn btn-light"><a href="while-en.html">❮ Previous</a></button>
+        <button style="float:right;" class="btn btn-light"><a href="etcfunction-en.html">Next ❯</a></button>
+      </div>
+      </div>
+
+    <br /><br /><br /><br />
+
+    <footer>
+      <div>
+        <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
+        <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
+        <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
         </div>
         <br /><br />
-        <h1 class="display-6"><span id="tit">Code in One Line</span><br id="lbbr"><span id="txt">Computer
-            Science
-            Lab (</span>CSL<span id="txt">)</span>
-          38</h1>
+        <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
         <br />
-        <hr>
-      </div>
-
-      <br /><br /><br /><br />
-
-      <div class="color-contrast-div">
-        <div class="sub-div">
-          <h1>; Semicolon</h1>
-          <p>
-            In other programming languages such as JavaScript, there is ';'(semicolon) to seperate code.<br /><br />
-
-            It exists in Python, but it is uncommon.<br /><br />
-
-            For example, let's look at the code below.<br /><br />
-
-            <code>
-              print("Hello", end=" ")<br />
-              print("World")
-            </code>
-
-            The code above is equal to the code below.<br /><br />
-
-            <code>
-              print("Hello", end=" "); print("World")
-            </code>
-          </p>
-        </div>
-        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/724bf9a522" width="60%" height="356"
-          frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
-          style="margin: auto;"></iframe>
-      </div>
-
-      <br /><br /><br /><br />
-
-      <div>
-        <div class="norm-div">
-          <div style="padding: 10px;">
-            <h1>More explanation</h1>
-            <p>
-              In Python, semicolons are purely optional.<br /><br />
-
-              You can use it and not use it.<br /><br />
-
-              It does not make a single difference.<br /><br />
-
-              Note: you can also put semicolons after each code.
-            </p>
+        <div class="d-flex justify-content-center p-0 w-100">
+          <div>
+            <h1 class="display-6">Python-Factory © 2021</h1>
+            <p>"Where you make knowledge - Python Factory"</p>
           </div>
-          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/ca6f756679" width="60%"
-            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-            style="margin: auto;"></iframe>
         </div>
-      </div>
-
-      <br /><br /><br /><br />
-    </div>
-
-    <div style="margin:20px;padding:20px;">
-      <button style="float:left;" class="btn btn-light"><a href="while-en.html">❮ Previous</a></button>
-      <button style="float:right;" class="btn btn-light"><a href="etcfunction-en.html">Next ❯</a></button>
-    </div>
-  </div>
-
-  <br /><br /><br /><br />
-
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
-      <a class="btn btn-light"
-        href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
-    </div>
-    <br /><br />
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br />
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"Where you make knowledge - Python Factory"</p>
-      </div>
-    </div>
-  </footer>
+        </footer>
   </div>
   <script defer src="script-en.js"></script>
-<script src="../../component.js"></script>
+  <script src="../../component.js"></script>
 </body>
 
 </html>

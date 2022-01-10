@@ -2,6 +2,7 @@
 <html lang="kr">
 
 <head>
+  <meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -16,221 +17,219 @@
   <title>코딩 인사이트</title>
   <link hreflang="kr" rel="icon" href="py.png" type="image/png">
   <link hreflang="kr" rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
 </head>
 
 <body class="m-0">
   <div id="app">
-  <div class="m-0 p-0" id="navigate">
-    <ul>
-      <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
-      <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
-      <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
-      <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-      <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
-      <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
-      <li><a href="https://coding-insight.com/python/korean/video.html"
-          id="video">동영상</a></li>
-      <li style="float:right;"><a href="https://coding-insight.com/python/english/zlib-en.html" id="trans"
-          id="trans">English</a></li>
-      <li id="more"><a>더보기</a></li>
-    </ul>
-    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button"
-      data-bs-toggle="offcanvas" data-bs-target="#demo"
-      style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
-  </div>
-  <br /><br />
-  <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-    <div id="menu">
-      <py-pyfact-menu></py-pyfact-menu>
-    </div>
-  </div>
-
-  <div>
-    <div style="display:flex;margin-top:50px;">
-      <div style="margin: auto;">
-        <img class="img-fluid" alt="python_factory_picture"
-          src="data:image/png;base64,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" />
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+        <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+        <li style="float:right;"><a href="https://coding-insight.com/python/english/zlib-en.html" id="trans"
+            id="trans">English</a></li>
+        <li id="more"><a>더보기</a></li>
+        </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
       </div>
-      <div style="padding: 10px;">
-        <p>
-          <h1>파일 압축이란?</h1>
-          파일을 압축하면 파일에 있는 <mark>내용의 용량이 많이 줄어듭니다</mark>.<br /><br />
-
-          어떻게 파일을 압축할까요?
-        </p>
+      <br /><br />
+      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+        <div id="menu">
+          <py-pyfact-menu></py-pyfact-menu>
+        </div>
       </div>
-    </div>
-    <div class="sub-div">
-      <div class="sub-div">
-        <div class="text-center">
-          <hr>
-          <br />
-          <div class="text-center" id="speakdiv">
-            <button id="speakbutt" class="btn btn-primary">읽어주기</button>
-            <div id="setting">
-              <br /><br />
-              <img class="img-fluid" alt="python_factory_picture"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                style="width:25px !important;" />
-              <input type="range" id="vol" min="0" max="1" step="0.1" />
-              <br />
-              <img class="img-fluid" alt="python_factory_picture"
-                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                style="width:25px !important;" />
-              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+
+    <div>
+      <div style="display:flex;margin-top:50px;">
+        <div style="margin: auto;">
+          <img class="img-fluid" alt="python_factory_picture"
+            src="data:image/png;base64,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" />
+        </div>
+        <div style="padding: 10px;">
+          <p>
+            <h1>파일 압축이란?</h1>
+            파일을 압축하면 파일에 있는 <mark>내용의 용량이 많이 줄어듭니다</mark>.<br /><br />
+
+            어떻게 파일을 압축할까요?
+            </p>
+            </div>
+            </div>
+            <div class="sub-div">
+              <div class="sub-div">
+                <div class="text-center">
+                  <hr>
+                  <br />
+                  <div class="text-center" id="speakdiv">
+                    <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+                    <div id="setting">
+                      <br /><br />
+                      <img class="img-fluid" alt="python_factory_picture"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                        style="width:25px !important;" />
+                      <input type="range" id="vol" min="0" max="1" step="0.1" />
+                      <br />
+                      <img class="img-fluid" alt="python_factory_picture"
+                        src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                        style="width:25px !important;" />
+                      <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+                    </div>
+                  </div>
+                  <br /><br />
+                  <h1 class="display-6"><span id="tit">zlib</span><br id="lbbr"><span id="txt">Computer
+                      Science Lab
+                      (</span>CSL<span id="txt">)</span>
+                    65</h1>
+                  <br />
+                  <hr>
+                </div>
+
+          <br /><br /><br /><br />
+
+          <div class="norm-div">
+            <div class="sub-div">
+              <h1>파일 압축의 원리</h1>
+              <p>
+                파일에서는 반복되는 단어들이 많이 있습니다.<br /><br />
+
+                <code>
+                  And miles to go before I sleep, and miles to go before I sleep.
+                </code>
+
+                miles, to, go, before, I, sleep와 같은 단어들은 2번 반복이 됩니다.<br /><br />
+
+                만일 이 파일 옆에 따로 딕셔너리를 만들어서 이 값들 대신 다른 값을 넣는다면 어떻게 될까요?<br /><br />
+
+                다음과 같은 딕셔너리를 만들 수 있습니다.<br /><br />
+
+                <code>
+                  {<br />
+                  "miles": 0,<br />
+                  "to": 1,<br />
+                  "go": 2,<br />
+                  "before": 3,<br />
+                  "I": 4,<br />
+                  "sleep": 5<br />
+                  }
+                </code>
+
+                위의 딕셔너리를 사용하여 파일을 압축한다면 다음과 같은 내용으로 바뀔 수 있습니다.<br /><br />
+
+                <code>
+                  And 0 1 2 3 4 5, and 0 1 2 3 4 5.
+                </code>
+                </p>
+                </div>
+                <img class="img-fluid" alt="python_factory_picture"
+                  src="data:image/jpeg;base64,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"
+                  alt="compress" />
+                </div>
+
+          <br /><br /><br /><br />
+
+          <div class="norm-div" style="background-color: rgb(207, 238, 203);">
+            <div class="sub-div">
+              <h1>ZLIB 모듈</h1>
+              <p>
+                파이썬에서는 파일 또는 데이터 형태를 압축할 수 있는 모듈이 있습니다.<br /><br />
+
+                zlib이라는 모듈입니다.<br /><br />
+
+                zlib은 ZIP COMPRESSION LIBRARY의 약자입니다.<br /><br />
+
+                먼저, PIP을 이용하여 zlib을 내려받겠습니다.<br /><br />
+
+                <code>pip install zlib</code>
+
+                다음에, 새로운 파일을 만들어 zlib 모듈을 가지고 오겠습니다.<br /><br />
+
+                <code>
+                  import zlib
+                </code>
+                </p>
+                </div>
+                <div style="margin: auto;">
+                  <img class="img-fluid" alt="python_factory_picture"
+                    src="https://en.terminalroot.com.br/assets/img/cppdaily/zlib.png" width="400px" />
+                </div>
+                </div>
+
+          <br /><br /><br /><br />
+
+          <div class="norm-div" style="background-color: rgb(238, 233, 158);">
+            <div style="padding: 10px;">
+              <h1>ZLIB - 문자 압축하기</h1>
+              <p>
+                문자를 압축하겠습니다.<br /><br />
+
+                아래 코드에 대한 설명을 하자면<br /><br />
+
+                1. 먼저, zlib 모듈을 가지고 옵니다.<br />
+                2. 다음, 압축할 문자를 만듭니다. 이 문자는 byte 문자여야 하니 문자 앞에 'b'를 붙입니다.<br />
+                3. 그리고, zlib.compress() 메서드를 이용하여 압축합니다.<br /><br />
+
+                아래의 코드를 실행하면 63, 44 숫자가 나옵니다. 이처럼 길이가 63인 문자를 길이가 44인 문자로 바꾸기가 가능합니다.
+                </p>
+                </div>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/74a9209480" width="100%" height="356" frameborder="0"
+                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+
+          <br /><br /><br /><br />
+
+          <div class="norm-div" style="background-color: rgb(26, 185, 172);">
+            <div style="padding: 10px;">
+              <h1>ZLIB - 문자 압축 level</h1>
+              <p>
+                문자 압축을 하는데 다양한 level이 있습니다. zlib에서는 총 10개의 level (0~9)이 있습니다.<br /><br />
+
+                0 - 가장 낮은 level로 압축을 하지 않습니다.<br />
+                1 - 두 번째로 낮은 level로 압축을 조금 합니다. 속도는 빠릅니다.<br />
+                ...<br />
+                9 - 가장 높은 level로 압축은 많이 하지만 속도는 느립니다.<br /><br />
+
+                하지만 위의 예시에서는 1(원래 값)과 9와 차이가 없습니다. 그 이유는 너무 짧기 때문입니다.
+                </p>
+                </div>
+                </div>
+                <iframe src="https://trinket.io/embed/python3/50ab5d6ef3" width="100%" height="356" frameborder="0"
+                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+
+          <br /><br /><br /><br />
+
+          <div class="norm-div" style="background-color: rgb(213, 188, 219);">
+            <div style="padding: 10px;">
+              <h1>ZLIB - 문자 압축 풀기</h1>
+              <p>
+                압축을 풀기 위하여 zlib.decompress() 메서드를 사용할 수 있습니다.
+              </p>
             </div>
           </div>
-          <br /><br />
-          <h1 class="display-6"><span id="tit">zlib</span><br id="lbbr"><span id="txt">Computer
-              Science Lab
-              (</span>CSL<span id="txt">)</span>
-            65</h1>
-          <br />
-          <hr>
-        </div>
+          <iframe src="https://trinket.io/embed/python3/c42b0b500e" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-        <br /><br /><br /><br />
+          <br /><br /><br /><br />
 
-        <div class="norm-div">
-          <div class="sub-div">
-            <h1>파일 압축의 원리</h1>
-            <p>
-              파일에서는 반복되는 단어들이 많이 있습니다.<br /><br />
-
-              <code>
-                And miles to go before I sleep, and miles to go before I sleep.
-              </code>
-
-              miles, to, go, before, I, sleep와 같은 단어들은 2번 반복이 됩니다.<br /><br />
-
-              만일 이 파일 옆에 따로 딕셔너리를 만들어서 이 값들 대신 다른 값을 넣는다면 어떻게 될까요?<br /><br />
-
-              다음과 같은 딕셔너리를 만들 수 있습니다.<br /><br />
-
-              <code>
-                {<br />
-                "miles": 0,<br />
-                "to": 1,<br />
-                "go": 2,<br />
-                "before": 3,<br />
-                "I": 4,<br />
-                "sleep": 5<br />
-                }
-              </code>
-
-              위의 딕셔너리를 사용하여 파일을 압축한다면 다음과 같은 내용으로 바뀔 수 있습니다.<br /><br />
-
-              <code>
-                And 0 1 2 3 4 5, and 0 1 2 3 4 5.
-              </code>
-            </p>
+          <div style="margin:20px;padding:20px;">
+            <button style="float:left;" class="btn btn-light"><a href="mapandreduceandfilter.html">❮
+                이전</a></button>
+            <button style="float:right;" class="btn btn-light"><a href="decorator.html">다음 ❯</a></button>
           </div>
-          <img class="img-fluid" alt="python_factory_picture"
-            src="data:image/jpeg;base64,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"
-            alt="compress" />
-        </div>
-
-        <br /><br /><br /><br />
-
-        <div class="norm-div" style="background-color: rgb(207, 238, 203);">
-          <div class="sub-div">
-            <h1>ZLIB 모듈</h1>
-            <p>
-              파이썬에서는 파일 또는 데이터 형태를 압축할 수 있는 모듈이 있습니다.<br /><br />
-
-              zlib이라는 모듈입니다.<br /><br />
-
-              zlib은 ZIP COMPRESSION LIBRARY의 약자입니다.<br /><br />
-
-              먼저, PIP을 이용하여 zlib을 내려받겠습니다.<br /><br />
-
-              <code>pip install zlib</code>
-
-              다음에, 새로운 파일을 만들어 zlib 모듈을 가지고 오겠습니다.<br /><br />
-
-              <code>
-                import zlib
-              </code>
-            </p>
           </div>
-          <div style="margin: auto;">
-            <img class="img-fluid" alt="python_factory_picture"
-              src="https://en.terminalroot.com.br/assets/img/cppdaily/zlib.png" width="400px" />
           </div>
-        </div>
-
-        <br /><br /><br /><br />
-
-        <div class="norm-div" style="background-color: rgb(238, 233, 158);">
-          <div style="padding: 10px;">
-            <h1>ZLIB - 문자 압축하기</h1>
-            <p>
-              문자를 압축하겠습니다.<br /><br />
-
-              아래 코드에 대한 설명을 하자면<br /><br />
-
-              1. 먼저, zlib 모듈을 가지고 옵니다.<br />
-              2. 다음, 압축할 문자를 만듭니다. 이 문자는 byte 문자여야 하니 문자 앞에 'b'를 붙입니다.<br />
-              3. 그리고, zlib.compress() 메서드를 이용하여 압축합니다.<br /><br />
-
-              아래의 코드를 실행하면 63, 44 숫자가 나옵니다. 이처럼 길이가 63인 문자를 길이가 44인 문자로 바꾸기가 가능합니다.
-            </p>
           </div>
-        </div>
-        <iframe src="https://trinket.io/embed/python3/74a9209480" width="100%" height="356" frameborder="0"
-          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-        <br /><br /><br /><br />
+    <br /><br /><br /><br />
 
-        <div class="norm-div" style="background-color: rgb(26, 185, 172);">
-          <div style="padding: 10px;">
-            <h1>ZLIB - 문자 압축 level</h1>
-            <p>
-              문자 압축을 하는데 다양한 level이 있습니다. zlib에서는 총 10개의 level (0~9)이 있습니다.<br /><br />
-
-              0 - 가장 낮은 level로 압축을 하지 않습니다.<br />
-              1 - 두 번째로 낮은 level로 압축을 조금 합니다. 속도는 빠릅니다.<br />
-              ...<br />
-              9 - 가장 높은 level로 압축은 많이 하지만 속도는 느립니다.<br /><br />
-
-              하지만 위의 예시에서는 1(원래 값)과 9와 차이가 없습니다. 그 이유는 너무 짧기 때문입니다.
-            </p>
-          </div>
-        </div>
-        <iframe src="https://trinket.io/embed/python3/50ab5d6ef3" width="100%" height="356" frameborder="0"
-          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-
-        <br /><br /><br /><br />
-
-        <div class="norm-div" style="background-color: rgb(213, 188, 219);">
-          <div style="padding: 10px;">
-            <h1>ZLIB - 문자 압축 풀기</h1>
-            <p>
-              압축을 풀기 위하여 zlib.decompress() 메서드를 사용할 수 있습니다.
-            </p>
-          </div>
-        </div>
-        <iframe src="https://trinket.io/embed/python3/c42b0b500e" width="100%" height="356" frameborder="0"
-          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-
-        <br /><br /><br /><br />
-
-        <div style="margin:20px;padding:20px;">
-          <button style="float:left;" class="btn btn-light"><a href="mapandreduceandfilter.html">❮
-              이전</a></button>
-          <button style="float:right;" class="btn btn-light"><a href="decorator.html">다음 ❯</a></button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <br /><br /><br /><br />
-
-  <pyfact-footer></pyfact-footer>
+    <pyfact-footer></pyfact-footer>
     </div>
   <script defer src="script.js"></script>
-<script src="../../component.js"></script>
+  <script src="../../component.js"></script>
 </body>
 
 </html>

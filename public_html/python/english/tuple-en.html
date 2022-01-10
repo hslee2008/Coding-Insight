@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -16,243 +17,241 @@
   <title>Coding Insight</title>
   <link hreflang="en" rel="icon" href="py.png" type="image/png">
   <link hreflang="en" rel="stylesheet" href="style-en.css">
-  <meta charset="UTF-8">
 </head>
 
 <body class="m-0">
   <div id="app">
-  <div class="m-0 p-0" id="navigate">
-    <ul>
-      <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
-      <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
-      <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
-      <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-      <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
-      <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
-      <li><a href="https://coding-insight.com/python/korean/video.html"
-          id="video">Video</a>
-      </li>
-      <li style="float:right;"><a href="https://coding-insight.com/python/korean/tuple.html" id="trans"
-          style="color:white;">한국어</a>
-      </li>
-      <li id="more"><a>More</a></li>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
+        <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a>
+        </li>
+        <li style="float:right;"><a href="https://coding-insight.com/python/korean/tuple.html" id="trans"
+            style="color:white;">한국어</a>
+        </li>
+        <li id="more"><a>More</a></li>
 
-    </ul>
-    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button"
-      data-bs-toggle="offcanvas" data-bs-target="#demo"
-      style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
-  </div>
-  <br /><br />
-  <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-    <div id="menu">
-      <py-pyfact-menu-en></py-pyfact-menu-en>
-    </div>
-  </div>
-  <div>
-    <div class="sub-div">
-      <div class="norm-div text-white" style="background-color:#02081e;">
-        <div class="sub-div">
-          <h1>What is tuple?</h1>
-          <p>
-            Tuple is very similar to lists but we cannot change what is inside tuple.<br /><br />
-
-            Using list, we can change each items using indexing but we cannot do so with tuples.<br /><br />
-
-            So, we usually tuple for storing menus of values that should not be touched by anyone.<br /><br />
-
-            Tuples use () instead of [].<br /><br />
-
-            <code>
-              bestCodingLangTuple = ("Javascript") #nobody can change this<br />
-              print(bestCodingLangTuple)<br /><br />
-
-              bestCodingLangTyple[0] = "C++" # error
-            </code>
-          </p>
-        </div>
-        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/3b0dada577" width="100%"
-          height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
       </div>
+      <br /><br />
+      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+        <div id="menu">
+          <py-pyfact-menu-en></py-pyfact-menu-en>
+        </div>
+      </div>
+      <div>
+        <div class="sub-div">
+          <div class="norm-div text-white" style="background-color:#02081e;">
+            <div class="sub-div">
+              <h1>What is tuple?</h1>
+              <p>
+                Tuple is very similar to lists but we cannot change what is inside tuple.<br /><br />
 
-      <br /><br /><br /><br />
+              Using list, we can change each items using indexing but we cannot do so with tuples.<br /><br />
 
-      <div class="text-center">
-        <hr>
-        <br />
-        <div class="text-center" id="speakdiv">
-          <button id="speakbutt" class="btn btn-primary">Read</button>
-          <div id="setting">
-            <br /><br />
-            <img class="img-fluid" alt="python_factory_picture"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-              style="width:25px !important;" />
-            <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br />
-            <img class="img-fluid" alt="python_factory_picture"
-              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-              style="width:25px !important;" />
-            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+              So, we usually tuple for storing menus of values that should not be touched by anyone.<br /><br />
+
+              Tuples use () instead of [].<br /><br />
+
+              <code>
+                bestCodingLangTuple = ("Javascript") #nobody can change this<br />
+                print(bestCodingLangTuple)<br /><br />
+
+                bestCodingLangTyple[0] = "C++" # error
+                </code>
+                </p>
+                </div>
+                <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/3b0dada577" width="100%"
+                  height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+                </div>
+
+        <br /><br /><br /><br />
+
+        <div class="text-center">
+          <hr>
+          <br />
+          <div class="text-center" id="speakdiv">
+            <button id="speakbutt" class="btn btn-primary">Read</button>
+            <div id="setting">
+              <br /><br />
+              <img class="img-fluid" alt="python_factory_picture"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width:25px !important;" />
+              <input type="range" id="vol" min="0" max="1" step="0.1" />
+              <br />
+              <img class="img-fluid" alt="python_factory_picture"
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width:25px !important;" />
+              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
           </div>
+          <br /><br />
+          <h1 class="display-6"><span id="tit">Tuple</span><br id="lbbr"><span id="txt">Computer
+              Science Lab
+              (</span>CSL<span id="txt">)</span> 23
+          </h1>
+          <br />
+          <hr>
         </div>
-        <br /><br />
-        <h1 class="display-6"><span id="tit">Tuple</span><br id="lbbr"><span id="txt">Computer
-            Science Lab
-            (</span>CSL<span id="txt">)</span> 23
-        </h1>
-        <br />
-        <hr>
-      </div>
 
-      <br /><br /><br /><br />
+        <br /><br /><br /><br />
 
-      <div style="display:flex; padding:30px;background-color:black;color:white;">
-        <div class="sub-div">
-          <h1>Tuples hacks & tips - unravel</h1>
-          <p>
-            We can use tuples like a box to unravel the contents inside.<br /><br />
+        <div style="display:flex; padding:30px;background-color:black;color:white;">
+          <div class="sub-div">
+            <h1>Tuples hacks & tips - unravel</h1>
+            <p>
+              We can use tuples like a box to unravel the contents inside.<br /><br />
 
-            If we lign the same number of new variable names on left and put the tuple after '='. Variable number should
-            be equal to tuple length.<br /><br />
+              If we lign the same number of new variable names on left and put the tuple after '='. Variable number
+              should
+              be equal to tuple length.<br /><br />
 
-            <code>
-              fruits = ("apple", "banana", "cherry")<br /><br />
+              <code>
+                fruits = ("apple", "banana", "cherry")<br /><br />
 
-              green, yellow, red = fruits #green = apple, yellow = banana, red = cherry<br /><br />
+                green, yellow, red = fruits #green = apple, yellow = banana, red = cherry<br /><br />
 
-              print(green)<br />
-              print(yellow)<br />
-              print(red)
-            </code>
+                print(green)<br />
+                print(yellow)<br />
+                print(red)
+                </code>
 
-            If we want to store the REST of values of tuples inside variable, use the * after variable name.<br /><br />
+              If we want to store the REST of values of tuples inside variable, use the * after variable
+              name.<br /><br />
 
-            <code>
-              fruits = ("apple", "banana", "cherry", "melon")<br /><br />
+              <code>
+                fruits = ("apple", "banana", "cherry", "melon")<br /><br />
 
-              (green, yellow, red*) = fruits # same as above but red is euqal to cherry and melon<br /><br />
+                (green, yellow, red*) = fruits # same as above but red is euqal to cherry and melon<br /><br />
 
-              print(green)<br />
-              print(yellow)<br />
-              print(red)
-            </code>
-          </p>
-        </div>
-        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/76cd83a2ae" width="100%"
-          height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-      </div>
+                print(green)<br />
+                print(yellow)<br />
+                print(red)
+                </code>
+                </p>
+                </div>
+                <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/76cd83a2ae" width="100%"
+                  height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+                </div>
 
-      <br /><br /><br /><br />
-
-      <div>
-        <div class="sub-div">
-          <h1>Tuple set length</h1>
-          <p>
-            To set the length of the tuple and tell Python not to allow any more items, use the additional
-            comma.<br /><br />
-
-            Now, nobody can add more to it! (Adding is possible though changing is not)<br /><br />
-
-            <code>
-              a = 1, 2,<br />
-              b = 3,
-            </code>
-          </p>
-          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/1a3ca85630" width="100%"
-            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-            style="margin: auto;"></iframe>
-        </div>
-      </div>
-
-      <br /><br /><br /><br />
-
-      <div class="norm-div">
-        <div class="sub-div">
-          <h1>zip()</h1>
-          <p>
-            We usually see two sides of the zipper lign up when we zip.<br /><br />
-
-            Similar to this, we can zip up (lign up) two tuple's value.<br /><br />
-
-            By using zip(), Python will return a zipped data type. Use tuple() or list() to use them.<br /><br />
-
-            Looking at the example below, (1, "one"), (2, "two"), and so on is inside a tuple. In other words, double
-            tuple is created which has tuples containing each item of the original tuple.<br /><br />
-
-            <code>
-              firstTup = (1, 2, 3, 4, 5)<br />
-              secondTup = ("one", "two", "three", "four", "five")<br /><br />
-
-              zipped = zip(firstTup, secondTup)<br /><br />
-
-              print(tuple(zipped))
-            </code>
-          </p>
-        </div>
-        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c70ec1ecfe" width="100%"
-          height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-      </div>
-
-      <br /><br /><br /><br />
-
-      <div class="text-center">
-        <h3> what is printed when running: print( zip( (1, 2, 3), ("1", "2", "3") ) ) ? </h3>
+        <br /><br /><br /><br />
 
         <div>
-          <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-          <label for="question-2-answers-A">A) ((1, '1'), (2, '2'), (3, '3')) </label>
+          <div class="sub-div">
+            <h1>Tuple set length</h1>
+            <p>
+              To set the length of the tuple and tell Python not to allow any more items, use the additional
+              comma.<br /><br />
+
+              Now, nobody can add more to it! (Adding is possible though changing is not)<br /><br />
+
+              <code>
+                a = 1, 2,<br />
+                b = 3,
+              </code>
+              </p>
+              <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/1a3ca85630" width="100%"
+                height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+                style="margin: auto;"></iframe>
+              </div>
+              </div>
+
+        <br /><br /><br /><br />
+
+        <div class="norm-div">
+          <div class="sub-div">
+            <h1>zip()</h1>
+            <p>
+              We usually see two sides of the zipper lign up when we zip.<br /><br />
+
+              Similar to this, we can zip up (lign up) two tuple's value.<br /><br />
+
+              By using zip(), Python will return a zipped data type. Use tuple() or list() to use them.<br /><br />
+
+              Looking at the example below, (1, "one"), (2, "two"), and so on is inside a tuple. In other words, double
+              tuple is created which has tuples containing each item of the original tuple.<br /><br />
+
+              <code>
+                firstTup = (1, 2, 3, 4, 5)<br />
+                secondTup = ("one", "two", "three", "four", "five")<br /><br />
+
+                zipped = zip(firstTup, secondTup)<br /><br />
+
+                print(tuple(zipped))
+                </code>
+                </p>
+                </div>
+                <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c70ec1ecfe" width="100%"
+                  height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+                </div>
+
+        <br /><br /><br /><br />
+
+        <div class="text-center">
+          <h3> what is printed when running: print( zip( (1, 2, 3), ("1", "2", "3") ) ) ? </h3>
+
+          <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+            <label for="question-2-answers-A">A) ((1, '1'), (2, '2'), (3, '3')) </label>
+          </div>
+
+          <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+            <label for="question-2-answers-B">B) (('1', 1), ('2', 2), ('3', 3)) </label>
+          </div>
+
+          <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+            <label for="question-2-answers-C">C) None </label>
+          </div>
+
+          <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+            <label for="question-2-answers-D">D) Other </label>
+          </div>
+
+          <br /><br />
+
+          <button id="checky" class="btn btn-dark"
+            onclick='if (document.getElementById("question-2-answers-D").checked) {alert("1 is right!")} else {alert("1 is wrong")};'>Check
+            Answer</button>
+          </div>
+
+        <div style="margin:20px;padding:20px;">
+          <button style="float:left;" class="btn btn-light"><a href="dictionarymethod-en.html">❮
+              Previous</button>
+          <button style="float:right;" class="btn btn-light"><a href="set-en.html">Next ❯</a></button>
         </div>
 
-        <div>
-          <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-          <label for="question-2-answers-B">B) (('1', 1), ('2', 2), ('3', 3)) </label>
+        <br /><br /><br /><br />
         </div>
-
-        <div>
-          <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-          <label for="question-2-answers-C">C) None </label>
-        </div>
-
-        <div>
-          <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-          <label for="question-2-answers-D">D) Other </label>
-        </div>
-
-        <br /><br />
-
-        <button id="checky" class="btn btn-dark"
-          onclick='if (document.getElementById("question-2-answers-D").checked) {alert("1 is right!")} else {alert("1 is wrong")};'>Check
-          Answer</button>
-      </div>
-
-      <div style="margin:20px;padding:20px;">
-        <button style="float:left;" class="btn btn-light"><a href="dictionarymethod-en.html">❮
-            Previous</button>
-        <button style="float:right;" class="btn btn-light"><a href="set-en.html">Next ❯</a></button>
-      </div>
-
-      <br /><br /><br /><br />
-    </div>
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
-      <a class="btn btn-light"
-        href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
-    </div>
-    <br /><br />
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br />
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"Where you make knowledge - Python Factory"</p>
-      </div>
-    </div>
-  </footer>
-  </div>
-  <script defer src="script-en.js"></script>
-<script src="../../component.js"></script>
+        <footer>
+          <div>
+            <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
+          <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
+          <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+          </div>
+          <br /><br />
+          <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
+          <br />
+          <div class="d-flex justify-content-center p-0 w-100">
+            <div>
+              <h1 class="display-6">Python-Factory © 2021</h1>
+              <p>"Where you make knowledge - Python Factory"</p>
+            </div>
+          </div>
+          </footer>
+          </div>
+          <script defer src="script-en.js"></script>
+          <script src="../../component.js"></script>
 </body>
 
 </html>

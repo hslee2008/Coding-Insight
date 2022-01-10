@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
+  <meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -15,140 +16,138 @@
   <title>코딩 인사이트</title>
   <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
   <link hreflang="kr" rel="stylesheet" href="style.css" />
-  <meta charset="UTF-8" />
 </head>
 
 <body class="m-0">
   <div id="app">
-  <div class="m-0 p-0" id="navigate">
-    <ul>
-      <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
-      <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
-      <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
-      <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-      <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
-      <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
-      <li><a href="https://coding-insight.com/python/korean/video.html"
-          id="video">동영상</a></li>
-          <li style="float:right;">
-        <a href="https://coding-insight.com/python/english/autozoom-en.html" id="trans">English</a>
-      </li>
-      <li id="more"><a>더보기</a></li>
-    </ul>
-    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button"
-      data-bs-toggle="offcanvas" data-bs-target="#demo"
-      style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
-  </div>
-  <br /><br />
-  <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-    <div id="menu">
-      <py-pyfact-menu></py-pyfact-menu>
-    </div>
-  </div>
-  <br /><br />
-  <div class="norm-div" style="background-color: #2d8cff; color: black;">
-    <div class="sub-div">
-      <h1>프로젝트: 자동으로 줌 열기</h1>
-      <p>
-        파이썬에서 자동으로 줌을 열 수 있습니다.<br /><br />
-
-        먼저, 파이썬 모듈의 도움이 필요합니다. 줌 링크를 열기 위하여
-        webbrowser와, 키보드에서 엔터와 비밀번호를 칠 때, 그리고 로딩하는데
-        코드를 멈출 수 있는 time 모듈이 필요합니다.<br /><br />
-
-        1. 먼저, webbrowser와 keyboard 모듈을 설치 해야합니다.<br />
-        2. cmd에서 pip install keyboard와 pip install webbrowser를
-        실행합니다.<br />
-        3. 다음에, 새로운 파이썬 파일을 만들고 안에 코드를 작성합니다.<br />
-        4. 파이썬 파일에 webbrowser, keyboard, time 모듈을 가지고 옵니다.
-        (import webbrowser, keyboard, time)<br />
-        5. 다음에, 몇 분 기다릴지 물어봅니다. minute = int(input("분: "))<br />
-        6. 몇 분 기다리는지 출력하고 minute 분 기다립니다<br />
-        7. 다음에, 웹브라우저에서 줌 링크를 열게 만듭니다.
-        webbrowser.open("zoom link")<br />
-        8. 줌이 로딩되는 동안 5초 기다린 후 왼쪽 화살표와 엔터를 누릅니다.<br />
-        9. 5초 기다리고 비밀번호 타이핑 후 엔터를 누릅니다.<br /><br />
-
-        10. 끝!
-      </p>
-    </div>
-    <div style="margin: auto">
-      <img class="img-fluid" alt="python_factory_picture" alt="python-factory-picture"
-        src="data:image/jpeg;base64,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"
-        width="300px" />
-    </div>
-  <div class="sub-div">
-    <div class="sub-div">
-      <div class="sub-div">
-        <div class="text-center">
-          <hr />
-          <br />
-          <div class="text-center" id="speakdiv">
-            <button id="speakbutt" class="btn btn-primary">읽어주기</button>
-            <div id="setting">
-              <br /><br />
-              <img class="img-fluid" alt="python_factory_picture"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                style="width: 25px !important" />
-              <input type="range" id="vol" min="0" max="1" step="0.1" />
-              <br />
-              <img class="img-fluid" alt="python_factory_picture"
-                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                style="width: 25px !important" />
-              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-            </div>
-          </div>
-          <br /><br />
-          <h1 class="display-6">
-            <span id="tit">자동으로 줌 열기</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
-              id="txt">)</span> 87
-          </h1>
-          <br />
-          <hr />
-        </div>
-
-        <div class="text-center">
-          <h1>코드</h1>
-        </div>
-        <code>
-          import webbrowser, keyboard, time<br /><br />
-
-          minute = int(input("몇 분 기달리기: "))<br /><br />
-
-          print(minute, " 기다리겠습니다.")<br />
-          time.sleep(minute)<br /><br />
-
-          webbrowser.open("zoomlink")<br /><br />
-
-          time.sleep(5)<br /><br />
-
-          keyboard.press_and_release("left")<br />
-          keyboard.press_and_release("enter")<br /><br />
-
-          time.sleep(5)<br /><br />
-
-          keyboard.write("20211004")<br />
-          keyboard.press_and_release("enter")
-        </code>
-
-        <br /><br /><br /><br />
-
-        <div style="margin: 20px; padding: 20px">
-          <button style="float: left" class="btn btn-light"><a href="spam.html">❮ 이전</a></button>
-          <button style="float: right" class="btn btn-light">
-            <a href="keyboard.html">다음 ❯</a>
-          </button>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+        <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+        <li style="float:right;">
+          <a href="https://coding-insight.com/python/english/autozoom-en.html" id="trans">English</a>
+        </li>
+        <li id="more"><a>더보기</a></li>
+        </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+      </div>
+      <br /><br />
+      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+        <div id="menu">
+          <py-pyfact-menu></py-pyfact-menu>
         </div>
       </div>
-    </div>
-  </div>
+      <br /><br />
+      <div class="norm-div" style="background-color: #2d8cff; color: black;">
+        <div class="sub-div">
+          <h1>프로젝트: 자동으로 줌 열기</h1>
+          <p>
+            파이썬에서 자동으로 줌을 열 수 있습니다.<br /><br />
 
-  <br /><br /><br /><br />
+          먼저, 파이썬 모듈의 도움이 필요합니다. 줌 링크를 열기 위하여
+          webbrowser와, 키보드에서 엔터와 비밀번호를 칠 때, 그리고 로딩하는데
+          코드를 멈출 수 있는 time 모듈이 필요합니다.<br /><br />
 
-  <pyfact-footer></pyfact-footer>
+          1. 먼저, webbrowser와 keyboard 모듈을 설치 해야합니다.<br />
+          2. cmd에서 pip install keyboard와 pip install webbrowser를
+          실행합니다.<br />
+          3. 다음에, 새로운 파이썬 파일을 만들고 안에 코드를 작성합니다.<br />
+          4. 파이썬 파일에 webbrowser, keyboard, time 모듈을 가지고 옵니다.
+          (import webbrowser, keyboard, time)<br />
+          5. 다음에, 몇 분 기다릴지 물어봅니다. minute = int(input("분: "))<br />
+          6. 몇 분 기다리는지 출력하고 minute 분 기다립니다<br />
+          7. 다음에, 웹브라우저에서 줌 링크를 열게 만듭니다.
+          webbrowser.open("zoom link")<br />
+          8. 줌이 로딩되는 동안 5초 기다린 후 왼쪽 화살표와 엔터를 누릅니다.<br />
+          9. 5초 기다리고 비밀번호 타이핑 후 엔터를 누릅니다.<br /><br />
+
+          10. 끝!
+          </p>
+          </div>
+          <div style="margin: auto">
+            <img class="img-fluid" alt="python_factory_picture" alt="python-factory-picture"
+              src="data:image/jpeg;base64,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"
+              width="300px" />
+          </div>
+          <div class="sub-div">
+            <div class="sub-div">
+              <div class="sub-div">
+                <div class="text-center">
+                  <hr />
+                  <br />
+                  <div class="text-center" id="speakdiv">
+                    <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+                    <div id="setting">
+                      <br /><br />
+                      <img class="img-fluid" alt="python_factory_picture"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                        style="width: 25px !important" />
+                      <input type="range" id="vol" min="0" max="1" step="0.1" />
+                      <br />
+                      <img class="img-fluid" alt="python_factory_picture"
+                        src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                        style="width: 25px !important" />
+                      <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+                    </div>
+                  </div>
+                  <br /><br />
+                  <h1 class="display-6">
+                    <span id="tit">자동으로 줌 열기</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+                      id="txt">)</span> 87
+                  </h1>
+                  <br />
+                  <hr />
+                </div>
+
+            <div class="text-center">
+              <h1>코드</h1>
+            </div>
+            <code>
+              import webbrowser, keyboard, time<br /><br />
+
+              minute = int(input("몇 분 기달리기: "))<br /><br />
+
+              print(minute, " 기다리겠습니다.")<br />
+              time.sleep(minute)<br /><br />
+
+              webbrowser.open("zoomlink")<br /><br />
+
+              time.sleep(5)<br /><br />
+
+              keyboard.press_and_release("left")<br />
+              keyboard.press_and_release("enter")<br /><br />
+
+              time.sleep(5)<br /><br />
+
+              keyboard.write("20211004")<br />
+              keyboard.press_and_release("enter")
+              </code>
+
+            <br /><br /><br /><br />
+
+            <div style="margin: 20px; padding: 20px">
+              <button style="float: left" class="btn btn-light"><a href="spam.html">❮ 이전</a></button>
+              <button style="float: right" class="btn btn-light">
+                <a href="keyboard.html">다음 ❯</a>
+              </button>
+            </div>
+            </div>
+            </div>
+            </div>
+
+      <br /><br /><br /><br />
+
+      <pyfact-footer></pyfact-footer>
     </div>
-  <script defer src="script.js"></script>
-<script src="../../component.js"></script>
+    <script defer src="script.js"></script>
+    <script src="../../component.js"></script>
 </body>
 
 </html>

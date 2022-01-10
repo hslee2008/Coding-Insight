@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -16,372 +17,370 @@
   <title>Coding Insight</title>
   <link hreflang="en" rel="icon" href="py.png" type="image/png">
   <link hreflang="en" rel="stylesheet" href="style-en.css">
-  <meta charset="UTF-8">
 </head>
 
 <body class="m-0">
   <div id="app">
-  <div class="m-0 p-0" id="navigate">
-    <ul>
-      <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
-      <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
-      <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
-      <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-      <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
-      <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
-      <li><a href="https://coding-insight.com/python/korean/video.html"
-          id="video">Video</a>
-      </li>
-      <li style="float:right;"><a href="https://coding-insight.com/python/korean/string.html" id="trans"
-          style="color:white;">한국어</a></li>
-      <li id="more"><a>More</a></li>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
+        <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a>
+        </li>
+        <li style="float:right;"><a href="https://coding-insight.com/python/korean/string.html" id="trans"
+            style="color:white;">한국어</a></li>
+        <li id="more"><a>More</a></li>
 
-    </ul>
-    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" type="button"
-      data-bs-toggle="offcanvas" data-bs-target="#demo"
-      style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
-  </div>
-  <br /><br />
-<div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-    <div id="menu">
-      <py-pyfact-menu-en></py-pyfact-menu-en>
-    </div>
-  </div>
-
-  <div>
-    <div class="header-div text-white" style="background-color: #0e0e0e; margin-top: 50px;">
-      <div class="sub-div">
-        <h1>What is string?</h1>
-        <p>
-          String all symbols that makes human language.<br /><br />
-
-          For example, 'A' and 'B' is called a string in programming language.<br /><br />
-
-          To make a string in Python, put symbols inside '' or "".<br /><br />
-
-          Note that even though numbers are inside '' or "", they are regarded as strings.
-        </p>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
       </div>
-      <div style="margin: auto;">
-        <img class="img-fluid" alt="python_factory_picture"
-          src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
-          width="300px" />
-      </div>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div class="text-center">
-      <hr>
-      <br />
-      <div class="text-center" id="speakdiv">
-        <button id="speakbutt" class="btn btn-primary">Read</button>
-        <div id="setting">
-          <br /><br />
-          <img class="img-fluid" alt="python_factory_picture"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-            style="width:25px !important;" />
-          <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br />
-          <img class="img-fluid" alt="python_factory_picture"
-            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-            style="width:25px !important;" />
-          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+      <br /><br />
+      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+        <div id="menu">
+          <py-pyfact-menu-en></py-pyfact-menu-en>
         </div>
       </div>
-      <br /><br />
-      <h1 class="display-6"><span id="tit">Python String</span><br id="lbbr"><span id="txt">Computer
-          Science Lab
-          (</span>CSL<span id="txt">)</span> 8</h1>
-      <br />
-      <hr>
-    </div>
 
-    <br /><br /><br /><br />
-
-    <div style="padding:30px;display:flex;background-color: aquamarine;">
-      <div class="sub-div">
-        <h1>Multi - line string</h1>
-        <p>
-          What would you do if there were lots and lots of lines to print?<br /><br />
-
-          Try printing Harry Potter and the Sorcerer's Stone to the console.<br /><br />
-
-          Nightmare.<br /><br />
-
-          <code>
-            THE BOY WHO LIVED
-            M r. and Mrs. Dursley, of number four, Privet Drive, were proud to say
-            that they were perfectly normal, thank you very much. They were the last people
-            you’d expect to be involved in anything strange or mysterious, because they just
-            didn’t hold with such nonsense.<br />
-            Mr. Dursley was the director of a firm called Grunnings, which made
-            drills. He was a big, beefy man with hardly any neck, although he did have a
-            very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the
-            usual amount of neck, which came in very useful as she spent so much of her
-            time craning over garden fences, spying on the neighbors. The Dursleys had a
-            small son called Dudley and in their opinion there was no finer boy anywhere.
-          </code>
-
-          However, there is rather very simple solution to this problem.
-
-          Use """""" and ''''''.
-
-          In """ and ''', we can make new lines. However, using '' or "", we cannot.
-        </p>
-      </div>
-    </div>
-    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python/7c86f7328a" width="100%" height="356"
-      frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-
-    <br /><br /><br /><br />
-
-    <div class="norm-div" style="background-color: #f7f7f7;">
-      <div class="sub-div">
-        <h1>String indexing</h1>
-        <p>
-          Indexing is when choosing a specific point in a string.<br /><br />
-
-          For example, we can use the following code to print the first alphabet of 'Hello'.<br /><br />
-
-          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c826f990bd" width="100%"
-            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-            style="margin: auto;"></iframe><br /><br />
-
-          The number after [] is called index.<br /><br />
-
-          If we look closely, we see that we used '0' instead of '1' to find the FIRST index of string.<br /><br />
-
-          First is 0, second is 1, third is 2 and so on.<br /><br />
-
-          This interesting fact will be explained in the 'list' chapter.
-        </p>
-      </div>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div class="norm-div">
-      <div style="padding: 10px;">
-        <h1>String print from x to y</h1>
-        <p>
-          To print from range x to y, we can use ':' between index. From index x (first number) to y - 1 (not
-          include
-          second number) is returned.<br /><br />
-
-          Note that if we do not define first and second index, Python will interpret it as 0.<br /><br />
-
-          So, using [:] will print everything.
-        </p>
-      </div>
-    </div>
-    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/e1cdc9760f" width="100%" height="356"
-      frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-
-    <br /><br /><br /><br />
-
-    <div class="norm-div text-white" style="background-color: #2f4960;">
-      <div style="margin:20px;">
-        <h1>String start backward</h1>
-        <p>
-          Using -1 starts from backward.<br /><br />
-
-          <code>
-            a = "Hello"<br /><br />
-
-            # H E L L O<br />
-            # 0 1 2 3 4<br />
-            # -5 -4 -3 -2 -1<br /><br />
-
-            print(a[-1])
-          </code>
-        </p>
-      </div>
-    </div>
-    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/048c09e858" width="100%" height="356"
-      frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-
-    <br /><br /><br /><br />
-
-    <div class="norm-div" style="background-color: #f6f6f6;">
-      <div class="sub-div">
-        <h1>Reverse string</h1>
-        <p>
-          To reverse string, use [::-1].<br /><br />
-
-          ::-1 is short for 0:0:-1.<br /><br />
-
-          The last number is the step of indexing. Step means the distance between each index.<br /><br />
-
-          Using -1 means starting backward and moving to forward.<br /><br />
-
-          In other words, it prints the string backward.
-
-        </p>
-      </div>
-    </div>
-    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/751018529e" width="100%" height="356"
-      frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-
-    <br /><br /><br /><br />
-
-    <div style="margin:20px;padding:20px;">
-      <button style="float:left;" class="btn btn-light"><a href="comment-en.html">❮ Previous</a></button>
-      <button style="float:right;" class="btn btn-light"><a href="stringmethod1-en.html">Next ❯</a></button>
-    </div>
-
-    <br /><br /><br /><br />
-
-    <div class="text-center border border-dark rounded p-3 m-3">
-      <h1>Solve This Quiz!!</h1>
-    </div>
-
-    <div class="text-center" style="font-size: 25px;">
-      <h3>What is not a syntax we can use for declaring strings in Python?</h3>
-      <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-        <label for="question-1-answers-A">A) !string! </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-        <label for="question-1-answers-B">B) "string" </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-        <label for="question-1-answers-C">C) [string] </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-        <label for="question-1-answers-D">D) Other </label>
-      </div>
-
-      <br /><br />
-
-      <h3>How can we make multi - line string in Pyton?</h3>
-
-      <div>
-        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-        <label for="question-2-answers-A">A) ?string? use </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-        <label for="question-2-answers-B">B) #string use </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-        <label for="question-2-answers-C">C) """ string """ use </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-        <label for="question-2-answers-D">D) (string) use </label>
-      </div>
-
-      <br /><br />
-
-      <h3> What index can we use to print the third alphabet of "Hello"? </h3>
-
-      <div>
-        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-        <label for="question-3-answers-A">A) 0 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-        <label for="question-3-answers-B">B) 1 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-        <label for="question-3-answers-C">C) 2 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
-        <label for="question-3-answers-D">D) 3 </label>
-      </div>
-
-      <br /><br />
-
-      <h3> In the 4 code bellow, which has the wrong syntax? </h3>
-
-      <div>
-        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
-        <label for="question-4-answers-A">A) a[1:3] </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-        <label for="question-4-answers-B">B) a[:4] </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-        <label for="question-4-answers-C">C) a[:] </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-        <label for="question-4-answers-D">D) a[] </label>
-      </div>
-
-      <br /><br />
-
-      <h3> What is the right index to get the last index of string? </h3>
-
-      <div>
-        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-        <label for="question-5-answers-A">A) 0 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-        <label for="question-5-answers-B">B) -1 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-        <label for="question-5-answers-C">C) -2 </label>
-      </div>
-
-      <div>
-        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-        <label for="question-5-answers-D">D) -0 </label>
-      </div> <br /><br />
-
-      <button id="checky" class="btn btn-dark"
-        onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1 is right!")} else {alert("1 is wrong")}; if(document.getElementById("question-2-answers-C").checked) {alert("2 is right :)")} else {alert("2 is wrong")}; if(document.getElementById("question-3-answers-C").checked) {alert("3 is right!")} else {alert("3 is wrong")}; if(document.getElementById("question-4-answers-D").checked) {alert("4 is right :)")} else {alert("4 is wrong")}; if(document.getElementById("question-5-answers-B").checked) {alert("5 is right :o")} else {alert("5 is wrong")};'>
-        Check Answer</button>
-    </div>
-
-  <footer>
     <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
-      <a class="btn btn-light"
-        href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
-    </div>
-    <br /><br />
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br />
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"Where you make knowledge - Python Factory"</p>
-      </div>
-    </div>
-  </footer>
-  </div>
+      <div class="header-div text-white" style="background-color: #0e0e0e; margin-top: 50px;">
+        <div class="sub-div">
+          <h1>What is string?</h1>
+          <p>
+            String all symbols that makes human language.<br /><br />
 
-  <script defer src="script-en.js">
-  </script>
-<script src="../../component.js"></script>
+            For example, 'A' and 'B' is called a string in programming language.<br /><br />
+
+            To make a string in Python, put symbols inside '' or "".<br /><br />
+
+            Note that even though numbers are inside '' or "", they are regarded as strings.
+            </p>
+            </div>
+            <div style="margin: auto;">
+              <img class="img-fluid" alt="python_factory_picture"
+                src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
+                width="300px" />
+            </div>
+            </div>
+
+      <br /><br /><br /><br />
+
+      <div class="text-center">
+        <hr>
+        <br />
+        <div class="text-center" id="speakdiv">
+          <button id="speakbutt" class="btn btn-primary">Read</button>
+          <div id="setting">
+            <br /><br />
+            <img class="img-fluid" alt="python_factory_picture"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width:25px !important;" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+            <br />
+            <img class="img-fluid" alt="python_factory_picture"
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width:25px !important;" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+          </div>
+        </div>
+        <br /><br />
+        <h1 class="display-6"><span id="tit">Python String</span><br id="lbbr"><span id="txt">Computer
+            Science Lab
+            (</span>CSL<span id="txt">)</span> 8</h1>
+        <br />
+        <hr>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div style="padding:30px;display:flex;background-color: aquamarine;">
+        <div class="sub-div">
+          <h1>Multi - line string</h1>
+          <p>
+            What would you do if there were lots and lots of lines to print?<br /><br />
+
+            Try printing Harry Potter and the Sorcerer's Stone to the console.<br /><br />
+
+            Nightmare.<br /><br />
+
+            <code>
+              THE BOY WHO LIVED
+              M r. and Mrs. Dursley, of number four, Privet Drive, were proud to say
+              that they were perfectly normal, thank you very much. They were the last people
+              you’d expect to be involved in anything strange or mysterious, because they just
+              didn’t hold with such nonsense.<br />
+              Mr. Dursley was the director of a firm called Grunnings, which made
+              drills. He was a big, beefy man with hardly any neck, although he did have a
+              very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the
+              usual amount of neck, which came in very useful as she spent so much of her
+              time craning over garden fences, spying on the neighbors. The Dursleys had a
+              small son called Dudley and in their opinion there was no finer boy anywhere.
+            </code>
+
+            However, there is rather very simple solution to this problem.
+
+            Use """""" and ''''''.
+
+            In """ and ''', we can make new lines. However, using '' or "", we cannot.
+            </p>
+            </div>
+            </div>
+            <iframe class="embed-responsive-item" src="https://trinket.io/embed/python/7c86f7328a" width="100%"
+              height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+              style="margin: auto;"></iframe>
+
+      <br /><br /><br /><br />
+
+      <div class="norm-div" style="background-color: #f7f7f7;">
+        <div class="sub-div">
+          <h1>String indexing</h1>
+          <p>
+            Indexing is when choosing a specific point in a string.<br /><br />
+
+            For example, we can use the following code to print the first alphabet of 'Hello'.<br /><br />
+
+            <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c826f990bd" width="100%"
+              height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+              style="margin: auto;"></iframe><br /><br />
+
+            The number after [] is called index.<br /><br />
+
+            If we look closely, we see that we used '0' instead of '1' to find the FIRST index of string.<br /><br />
+
+            First is 0, second is 1, third is 2 and so on.<br /><br />
+
+            This interesting fact will be explained in the 'list' chapter.
+            </p>
+            </div>
+            </div>
+
+      <br /><br /><br /><br />
+
+      <div class="norm-div">
+        <div style="padding: 10px;">
+          <h1>String print from x to y</h1>
+          <p>
+            To print from range x to y, we can use ':' between index. From index x (first number) to y - 1 (not
+            include
+            second number) is returned.<br /><br />
+
+            Note that if we do not define first and second index, Python will interpret it as 0.<br /><br />
+
+            So, using [:] will print everything.
+            </p>
+            </div>
+            </div>
+            <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/e1cdc9760f" width="100%"
+              height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+              style="margin: auto;"></iframe>
+
+      <br /><br /><br /><br />
+
+      <div class="norm-div text-white" style="background-color: #2f4960;">
+        <div style="margin:20px;">
+          <h1>String start backward</h1>
+          <p>
+            Using -1 starts from backward.<br /><br />
+
+            <code>
+              a = "Hello"<br /><br />
+
+              # H E L L O<br />
+              # 0 1 2 3 4<br />
+              # -5 -4 -3 -2 -1<br /><br />
+
+              print(a[-1])
+              </code>
+              </p>
+              </div>
+              </div>
+              <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/048c09e858" width="100%"
+                height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+
+      <br /><br /><br /><br />
+
+      <div class="norm-div" style="background-color: #f6f6f6;">
+        <div class="sub-div">
+          <h1>Reverse string</h1>
+          <p>
+            To reverse string, use [::-1].<br /><br />
+
+            ::-1 is short for 0:0:-1.<br /><br />
+
+            The last number is the step of indexing. Step means the distance between each index.<br /><br />
+
+            Using -1 means starting backward and moving to forward.<br /><br />
+
+            In other words, it prints the string backward.
+
+          </p>
+          </div>
+          </div>
+          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/751018529e" width="100%"
+            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+
+      <br /><br /><br /><br />
+
+      <div style="margin:20px;padding:20px;">
+        <button style="float:left;" class="btn btn-light"><a href="comment-en.html">❮ Previous</a></button>
+        <button style="float:right;" class="btn btn-light"><a href="stringmethod1-en.html">Next ❯</a></button>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div class="text-center border border-dark rounded p-3 m-3">
+        <h1>Solve This Quiz!!</h1>
+      </div>
+
+      <div class="text-center" style="font-size: 25px;">
+        <h3>What is not a syntax we can use for declaring strings in Python?</h3>
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+          <label for="question-1-answers-A">A) !string! </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+          <label for="question-1-answers-B">B) "string" </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+          <label for="question-1-answers-C">C) [string] </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+          <label for="question-1-answers-D">D) Other </label>
+        </div>
+
+        <br /><br />
+
+        <h3>How can we make multi - line string in Pyton?</h3>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+          <label for="question-2-answers-A">A) ?string? use </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+          <label for="question-2-answers-B">B) #string use </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+          <label for="question-2-answers-C">C) """ string """ use </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+          <label for="question-2-answers-D">D) (string) use </label>
+        </div>
+
+        <br /><br />
+
+        <h3> What index can we use to print the third alphabet of "Hello"? </h3>
+
+        <div>
+          <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+          <label for="question-3-answers-A">A) 0 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+          <label for="question-3-answers-B">B) 1 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+          <label for="question-3-answers-C">C) 2 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+          <label for="question-3-answers-D">D) 3 </label>
+        </div>
+
+        <br /><br />
+
+        <h3> In the 4 code bellow, which has the wrong syntax? </h3>
+
+        <div>
+          <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+          <label for="question-4-answers-A">A) a[1:3] </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+          <label for="question-4-answers-B">B) a[:4] </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+          <label for="question-4-answers-C">C) a[:] </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+          <label for="question-4-answers-D">D) a[] </label>
+        </div>
+
+        <br /><br />
+
+        <h3> What is the right index to get the last index of string? </h3>
+
+        <div>
+          <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
+          <label for="question-5-answers-A">A) 0 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
+          <label for="question-5-answers-B">B) -1 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
+          <label for="question-5-answers-C">C) -2 </label>
+        </div>
+
+        <div>
+          <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
+          <label for="question-5-answers-D">D) -0 </label>
+        </div> <br /><br />
+
+        <button id="checky" class="btn btn-dark"
+          onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1 is right!")} else {alert("1 is wrong")}; if(document.getElementById("question-2-answers-C").checked) {alert("2 is right :)")} else {alert("2 is wrong")}; if(document.getElementById("question-3-answers-C").checked) {alert("3 is right!")} else {alert("3 is wrong")}; if(document.getElementById("question-4-answers-D").checked) {alert("4 is right :)")} else {alert("4 is wrong")}; if(document.getElementById("question-5-answers-B").checked) {alert("5 is right :o")} else {alert("5 is wrong")};'>
+          Check Answer</button>
+        </div>
+
+      <footer>
+        <div>
+          <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
+          <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
+          <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+          </div>
+          <br /><br />
+          <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
+          <br />
+          <div class="d-flex justify-content-center p-0 w-100">
+            <div>
+              <h1 class="display-6">Python-Factory © 2021</h1>
+              <p>"Where you make knowledge - Python Factory"</p>
+            </div>
+          </div>
+          </footer>
+          </div>
+
+    <script defer src="script-en.js">
+    </script>
+    <script src="../../component.js"></script>
 </body>
 
 </html>

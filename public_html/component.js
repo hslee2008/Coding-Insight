@@ -17,6 +17,8 @@ var checkHeader = _.throttle(() => {
 window.addEventListener('scroll', checkHeader);
 
 
+
+//Vue.js
 const app = Vue.createApp( {} );
 
 app.component("pyfact-footer", {
@@ -34,7 +36,43 @@ app.component("pyfact-footer", {
         </div>
       </div>
     </footer>`,
-});
+} );
+
+app.component( "pyfact-footer-en", {
+  template:
+      `<footer>
+        <div>
+          <a class="btn btn-light" href="https://coding-insight.com/chat.html"
+            >Questions</a
+          >
+          <a
+            class="btn btn-light"
+            href="https://github.com/HyunseungLee-Travis/Python-Factory"
+            >Team</a
+          >
+          <a
+            class="btn btn-light"
+            href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+            >YouTube</a
+          >
+          <br /><br />
+          <img
+            class="img-fluid"
+            alt="python_factory_picture"
+            src="py.png"
+            width="200px"
+            alt="python-factory-logo"
+          />
+          <br />
+          <div class="d-flex justify-content-center p-0 w-100">
+            <div>
+              <h1 class="display-6">Python-Factory © 2021</h1>
+              <p>"Where you make knowledge - Python Factory"</p>
+            </div>
+          </div>
+        </div>
+      </footer>`,
+} );
 
 app.component("c-pyfact-menu", {
   template: `
