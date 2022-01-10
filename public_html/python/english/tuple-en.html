@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -35,7 +42,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -45,17 +52,17 @@
         <div class="sub-div">
           <h1>What is tuple?</h1>
           <p>
-            Tuple is very similar to lists but we cannot change what is inside tuple.<br><br>
+            Tuple is very similar to lists but we cannot change what is inside tuple.<br /><br />
 
-            Using list, we can change each items using indexing but we cannot do so with tuples.<br><br>
+            Using list, we can change each items using indexing but we cannot do so with tuples.<br /><br />
 
-            So, we usually tuple for storing menus of values that should not be touched by anyone.<br><br>
+            So, we usually tuple for storing menus of values that should not be touched by anyone.<br /><br />
 
-            Tuples use () instead of [].<br><br>
+            Tuples use () instead of [].<br /><br />
 
             <code>
-              bestCodingLangTuple = ("Javascript") #nobody can change this<br>
-              print(bestCodingLangTuple)<br><br>
+              bestCodingLangTuple = ("Javascript") #nobody can change this<br />
+              print(bestCodingLangTuple)<br /><br />
 
               bestCodingLangTyple[0] = "C++" # error
             </code>
@@ -65,65 +72,65 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="text-center">
         <hr>
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width:25px !important;" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width:25px !important;" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6"><span id="tit">Tuple</span><br id="lbbr"><span id="txt">Computer
             Science Lab
             (</span>CSL<span id="txt">)</span> 23
         </h1>
-        <br>
+        <br />
         <hr>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="display:flex; padding:30px;background-color:black;color:white;">
         <div class="sub-div">
           <h1>Tuples hacks & tips - unravel</h1>
           <p>
-            We can use tuples like a box to unravel the contents inside.<br><br>
+            We can use tuples like a box to unravel the contents inside.<br /><br />
 
             If we lign the same number of new variable names on left and put the tuple after '='. Variable number should
-            be equal to tuple length.<br><br>
+            be equal to tuple length.<br /><br />
 
             <code>
-              fruits = ("apple", "banana", "cherry")<br><br>
+              fruits = ("apple", "banana", "cherry")<br /><br />
 
-              green, yellow, red = fruits #green = apple, yellow = banana, red = cherry<br><br>
+              green, yellow, red = fruits #green = apple, yellow = banana, red = cherry<br /><br />
 
-              print(green)<br>
-              print(yellow)<br>
+              print(green)<br />
+              print(yellow)<br />
               print(red)
             </code>
 
-            If we want to store the REST of values of tuples inside variable, use the * after variable name.<br><br>
+            If we want to store the REST of values of tuples inside variable, use the * after variable name.<br /><br />
 
             <code>
-              fruits = ("apple", "banana", "cherry", "melon")<br><br>
+              fruits = ("apple", "banana", "cherry", "melon")<br /><br />
 
-              (green, yellow, red*) = fruits # same as above but red is euqal to cherry and melon<br><br>
+              (green, yellow, red*) = fruits # same as above but red is euqal to cherry and melon<br /><br />
 
-              print(green)<br>
-              print(yellow)<br>
+              print(green)<br />
+              print(yellow)<br />
               print(red)
             </code>
           </p>
@@ -132,19 +139,19 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="sub-div">
           <h1>Tuple set length</h1>
           <p>
             To set the length of the tuple and tell Python not to allow any more items, use the additional
-            comma.<br><br>
+            comma.<br /><br />
 
-            Now, nobody can add more to it! (Adding is possible though changing is not)<br><br>
+            Now, nobody can add more to it! (Adding is possible though changing is not)<br /><br />
 
             <code>
-              a = 1, 2,<br>
+              a = 1, 2,<br />
               b = 3,
             </code>
           </p>
@@ -154,26 +161,26 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
           <h1>zip()</h1>
           <p>
-            We usually see two sides of the zipper lign up when we zip.<br><br>
+            We usually see two sides of the zipper lign up when we zip.<br /><br />
 
-            Similar to this, we can zip up (lign up) two tuple's value.<br><br>
+            Similar to this, we can zip up (lign up) two tuple's value.<br /><br />
 
-            By using zip(), Python will return a zipped data type. Use tuple() or list() to use them.<br><br>
+            By using zip(), Python will return a zipped data type. Use tuple() or list() to use them.<br /><br />
 
             Looking at the example below, (1, "one"), (2, "two"), and so on is inside a tuple. In other words, double
-            tuple is created which has tuples containing each item of the original tuple.<br><br>
+            tuple is created which has tuples containing each item of the original tuple.<br /><br />
 
             <code>
-              firstTup = (1, 2, 3, 4, 5)<br>
-              secondTup = ("one", "two", "three", "four", "five")<br><br>
+              firstTup = (1, 2, 3, 4, 5)<br />
+              secondTup = ("one", "two", "three", "four", "five")<br /><br />
 
-              zipped = zip(firstTup, secondTup)<br><br>
+              zipped = zip(firstTup, secondTup)<br /><br />
 
               print(tuple(zipped))
             </code>
@@ -183,7 +190,7 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="text-center">
         <h3> what is printed when running: print( zip( (1, 2, 3), ("1", "2", "3") ) ) ? </h3>
@@ -208,7 +215,7 @@
           <label for="question-2-answers-D">D) Other </label>
         </div>
 
-        <br><br>
+        <br /><br />
 
         <button id="checky" class="btn btn-dark"
           onclick='if (document.getElementById("question-2-answers-D").checked) {alert("1 is right!")} else {alert("1 is wrong")};'>Check
@@ -221,7 +228,7 @@
         <button style="float:right;" class="btn btn-light"><a href="set-en.html">Next ❯</a></button>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
     </div>
   <footer>
     <div>
@@ -231,9 +238,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -241,7 +248,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

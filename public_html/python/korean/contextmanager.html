@@ -3,6 +3,12 @@
 <meta name="descrption" content="Welcome to our site where you can learn programming languages easily!" />
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -34,7 +41,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -43,19 +50,19 @@
       <h1>with를 사용한 컨텍스트 매니저</h1>
       <p>
         파이썬에서는 사용한 파일을 닫지 않으면 파일에 이상이 생길 수 있기
-        때문에, 파일을 연 후에는 항상 닫아야 합니다.<br><br>
+        때문에, 파일을 연 후에는 항상 닫아야 합니다.<br /><br />
 
         이때 close()라는 메서드를 사용하게 되는데, 때로는 close() 메서드를
-        반복적으로 사용하기 귀찮을 때가 있습니다.<br><br>
+        반복적으로 사용하기 귀찮을 때가 있습니다.<br /><br />
 
         또, 코드가 복잡해지다보면 파일을 닫기 전에 에러가 발생할 가능성이
-        높아집니다. 에러가 발생했을 경우에는 파일이 닫히지도 않습니다.<br><br>
+        높아집니다. 에러가 발생했을 경우에는 파일이 닫히지도 않습니다.<br /><br />
 
         이럴때 "with"라는 키워드를 사용하여 파일을 자동으로 닫는 방법을 사용할
-        수 있습니다.<br><br>
+        수 있습니다.<br /><br />
 
         with 문은 코드를 실행했을 때 에러가 발생하든 안하든 마지막에 close()를
-        해주기 때문입니다.<br><br>
+        해주기 때문입니다.<br /><br />
 
         컨텍스트 매니저란 with문에서 사용하도록 설계된 객체로 아래와 같은
         코드로 진행됩니다.
@@ -68,47 +75,47 @@
       </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr />
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">읽어주기</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6">
           <span id="tit">컨텍스트 메니저</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span> 53
         </h1>
-        <br>
+        <br />
         <hr />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="color-contrast-div">
         <div class="sub-div">
           <h1>컨텍스트 메니저 예시</h1>
           <p>
             컨텍스트 메니저를 사용하면 이제부터 close() 메서드는 더 이상
-            필요하지 않습니다!<br><br>
+            필요하지 않습니다!<br /><br />
 
             컨텍스트 메니저는 처음에 with와 파일을 여는 함수를 넣고 oepn()
-            함수를 저장할 변수의 이름을 넣습니다.<br><br>
+            함수를 저장할 변수의 이름을 넣습니다.<br /><br />
 
             그리고 그 안에는 파일을 다루는 코드만 있으면 됩니다!
           </p>
@@ -117,16 +124,16 @@
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="norm-div">
           <div class="inner-div">
             <h1>나만의 컨택스트 메니저 만들기</h1>
             <p>
-              파이썬에서는 open() 함수가 있습니다.<br><br>
+              파이썬에서는 open() 함수가 있습니다.<br /><br />
 
-              우리만의 open() 함수를 만들 수도 있습니다.<br><br>
+              우리만의 open() 함수를 만들 수도 있습니다.<br /><br />
 
               클래스 안에 __enter__()와 __exit__() 함수를 만듭니다.
               __enter__() 함수 안에서는 파일을 열 때 실행할 코드를 넣습니다.
@@ -139,7 +146,7 @@
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin: 20px; padding: 20px">
         <button style="float: left" class="btn btn-light"><a href="etcfile.html">❮ 이전</a></button>
@@ -149,29 +156,15 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+  <pyfact-footer></pyfact-footer>
     </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

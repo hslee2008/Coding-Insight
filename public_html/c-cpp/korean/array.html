@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -30,7 +37,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -39,9 +46,9 @@
     <div class="sub-div">
       <h1>배열이란?</h1>
       <p>
-        배열이란 한 종류의 데이터를 모은 그룹입니다.<br><br>
+        배열이란 한 종류의 데이터를 모은 그룹입니다.<br /><br />
 
-        상자와 비교한다면 배열은 많은 상자를 옆으로 나열한 데이터 형태입니다.<br><br>
+        상자와 비교한다면 배열은 많은 상자를 옆으로 나열한 데이터 형태입니다.<br /><br />
 
         예를 들면, 각 반의 수를 저장하고 싶다면 1반부터 6반까지 31숫자를 넣을 때 배열을 사용하여 쉽게 데이터를 다룰 수 있습니다.
       </p>
@@ -53,52 +60,52 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="text-center">
     <hr>
-    <br>
+    <br />
     <div class="text-center" id="speakdiv">
       <button id="speakbutt" class="btn btn-primary">읽어주기</button>
       <div id="setting">
-        <br><br>
+        <br /><br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width:25px !important;" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
-        <br>
+        <br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width:25px !important;" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
       </div>
     </div>
-    <br><br>
+    <br /><br />
     <h1 class="display-6"><span id="tit">배열</span><br id="lbbr"><span id="txt">Computer
         Science Lab
         (</span>CSL<span id="txt">)</span> 24
     </h1>
-    <br>
+    <br />
     <hr>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div" style="background-color: #f3f3f3;">
     <div class="sub-div">
       <h1>배열 선언과 사용</h1>
-      <p>배열은 다음과 같은 방법으로 선언합니다.<br><br>
+      <p>배열은 다음과 같은 방법으로 선언합니다.<br /><br />
 
-        1. 자료형 입력하기<br>
-        2. 배열 변수의 이름<br>
-        3. 배열 아이템의 개수<br>
-        4. 다음에 변수와 비슷하게 =를 사용한 후 아이템을 {} 안에 넣습니다.<br>
-        5. ;<br><br>
+        1. 자료형 입력하기<br />
+        2. 배열 변수의 이름<br />
+        3. 배열 아이템의 개수<br />
+        4. 다음에 변수와 비슷하게 =를 사용한 후 아이템을 {} 안에 넣습니다.<br />
+        5. ;<br /><br />
 
-        만일 아이템을 아직 넣고 싶지 않다면 배열 아이템의 계수 선언후 바로 ;를 넣으세요.<br><br>
+        만일 아이템을 아직 넣고 싶지 않다면 배열 아이템의 계수 선언후 바로 ;를 넣으세요.<br /><br />
 
         <code>
-          int classroom[6] = {31, 32, 30, 29, 34, 32};<br><br>
+          int classroom[6] = {31, 32, 30, 29, 34, 32};<br /><br />
 
           int classroomS[6];
         </code>
@@ -112,28 +119,28 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="header-div" style="background-color: #000000;color:white;">
     <div class="sub-div">
       <h1>배열에 아이템 대입</h1>
       <p>
-        반의 배열을 만들었습니다. 그렇다면, 어떻게 정보를 저장할 수 있을까요?<br><br>
+        반의 배열을 만들었습니다. 그렇다면, 어떻게 정보를 저장할 수 있을까요?<br /><br />
 
-        배열 안에 정보를 넣으려면 [] 기호를 사용해서 특정한 위치에 있는 아이템을 알 수 있거나 바꿀 수 있습니다.<br><br>
+        배열 안에 정보를 넣으려면 [] 기호를 사용해서 특정한 위치에 있는 아이템을 알 수 있거나 바꿀 수 있습니다.<br /><br />
 
-        예를 들면, 배열의 첫 번째 아이템에 값 '30'을 대입하기 위해서 다음과 같은 방법을 사용할 수 있습니다.<br><br>
+        예를 들면, 배열의 첫 번째 아이템에 값 '30'을 대입하기 위해서 다음과 같은 방법을 사용할 수 있습니다.<br /><br />
 
         <code>
-          int class[6];<br><br>
+          int class[6];<br /><br />
 
           class[0] = 30;
         </code>
 
-        <mark>참고로 인덱싱에서 x 숫자를 집어넣으면 x + 1번째 아이템을 되돌려 줍니다.<br>또한, 실수로 class 배열의 크기 6을 넘어가면 에러 또는 이상한 숫자가 되돌려
-          집니다.</mark><br><br>
+        <mark>참고로 인덱싱에서 x 숫자를 집어넣으면 x + 1번째 아이템을 되돌려 줍니다.<br />또한, 실수로 class 배열의 크기 6을 넘어가면 에러 또는 이상한 숫자가 되돌려
+          집니다.</mark><br /><br />
 
-        0부터 5까지 아이템의 입력을 받고 싶다면 다음과 같이 for 반복문을 사용할 수 있습니다.<br><br>
+        0부터 5까지 아이템의 입력을 받고 싶다면 다음과 같이 for 반복문을 사용할 수 있습니다.<br /><br />
 
         <code>
           for (int i = 0; i &lt; 6; i++) scanf("%d", class[i]);
@@ -145,15 +152,15 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="newline-div">
     <div class="sub-div">
       <h1>배열의 크기</h1>
       <p>
-        배열의 크기를 알기 위해 sizeof()를 이용합니다.<br><br>
+        배열의 크기를 알기 위해 sizeof()를 이용합니다.<br /><br />
 
-        sizeof()의 ()안에 배열 변수의 이름을 넣게되면 그 배열의 크기를 int 형식으로 변수 안에 저장합니다.<br><br>
+        sizeof()의 ()안에 배열 변수의 이름을 넣게되면 그 배열의 크기를 int 형식으로 변수 안에 저장합니다.<br /><br />
 
         하지만 sizeof()는 배열의 총 차지하는 용량을 출력하기 때문에 전체가 아닌 sizeof(array[0])으로 나누어야지 배열의 아이템 개수를 알려줍니다.
       </p>
@@ -163,13 +170,13 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="newline-div">
     <div class="sub-div">
       <h1>배열 초기화</h1>
       <p>
-        배열을 다 0으로 초기화하려면 아이템을 {} 안에 넣을 때 대신 0을 넣고 ,를 입력하면 모든 아이템이 다 '0'으로 초기화 됩니다.<br><br>
+        배열을 다 0으로 초기화하려면 아이템을 {} 안에 넣을 때 대신 0을 넣고 ,를 입력하면 모든 아이템이 다 '0'으로 초기화 됩니다.<br /><br />
 
         <code>
           int class[6] = {0,};
@@ -178,33 +185,19 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div style="margin:20px;padding:20px;">
     <button style="float:left;" class="btn btn-light"><a href="conbregot.html">❮ 이전</a></button>
     <button style="float:right;" class="btn btn-light"><a href="string.html">다음 ❯</a></button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
-    </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
+  <pyfact-footer></pyfact-footer>
+  </div>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

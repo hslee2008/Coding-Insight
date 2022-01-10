@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -32,7 +39,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -42,11 +49,11 @@
       <div class="sub-div">
         <h1>ASCII란?</h1>
         <p>
-          ASCII는 한국어로 '아스키'라고 발음합니다.<br><br>
+          ASCII는 한국어로 '아스키'라고 발음합니다.<br /><br />
 
-          아스키는 American Standard Code for Information Interchange의 약자입니다. 한국어로는 "정보 교환을 위한 미국 표준 암호"를 뜻합니다.<br><br>
+          아스키는 American Standard Code for Information Interchange의 약자입니다. 한국어로는 "정보 교환을 위한 미국 표준 암호"를 뜻합니다.<br /><br />
 
-          ASCII는 알파벳의 모든 캐릭터를 0에서 127(자연수)로 나타낸 코드입니다. 예를 들면, 아무것도 없는 ' '는 0입니다.<br><br>
+          ASCII는 알파벳의 모든 캐릭터를 0에서 127(자연수)로 나타낸 코드입니다. 예를 들면, 아무것도 없는 ' '는 0입니다.<br /><br />
 
           퀴즈! 알파벳을 ASCII로 나타낼 때 a가 클까요? 아니면 A가 클까요? A라고 하셨나요? 흠… A가 크게 보이지만 ASCII에서는 a가 더 큽니다.
         </p>
@@ -58,7 +65,7 @@
       </div>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <div class="text-center">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/YnFUR00gk5s" title="YouTube video player"
@@ -66,44 +73,44 @@
         allowfullscreen></iframe>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <div class="text-center">
       <hr>
-      <br>
+      <br />
       <div class="text-center" id="speakdiv">
         <button id="speakbutt" class="btn btn-primary">읽어주기</button>
         <div id="setting">
-          <br><br>
+          <br /><br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br>
+          <br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
-      <br><br>
+      <br /><br />
       <h1 class="display-6"><span id="tit">아스키</span><br id="lbbr"><span id="txt">Computer Science
           Lab
           (</span>CSL<span id="txt">)</span> 12
       </h1>
-      <br>
+      <br />
       <hr>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="header-div">
       <div class="sub-div">
         <h1>ord()</h1>
         <p>
-          어떤 캐릭터의 <mark>ASCII 코드</mark>를 알기 위하여 ord() 함수를 사용할 수 있습니다.<br><br>
+          어떤 캐릭터의 <mark>ASCII 코드</mark>를 알기 위하여 ord() 함수를 사용할 수 있습니다.<br /><br />
 
-          단, 꼭 <strong>캐릭터</strong>여야 합니다. 알파벳 하나하나만 입력할 수 있습니다.<br><br>
+          단, 꼭 <strong>캐릭터</strong>여야 합니다. 알파벳 하나하나만 입력할 수 있습니다.<br /><br />
 
           여러 개의 아스키를 찾고 싶으면 for 반복문을 사용해야 하지만 이 내용은 조금 뒤에 배우겠습니다.
         </p>
@@ -112,7 +119,7 @@
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="header-div" style="background-color: #f7f7f7;">
       <div class="sub-div">
@@ -125,14 +132,14 @@
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="margin:20px;padding:20px;">
       <button style="float:left;" class="btn btn-light"><a href="escapechar.html">❮ 이전</a></button>
       <button style="float:right;" class="btn btn-light"><a href="boolean.html">다음 ❯</a></button>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center border border-dark rounded p-3 m-3">
       <h1>퀴즈 풀기!</h1>
@@ -160,7 +167,7 @@
         <label for="question-1-answers-D">D) 다른 정답 </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3> 숫자를 아스키로 바꾸는 방법은? </h3>
 
@@ -184,12 +191,12 @@
         <label for="question-2-answers-D">D) chr() </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <button id="checky" class="btn btn-dark"
         onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-D").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")};'>정답
         확인</button>
-<br><br><br>
+<br /><br /><br />
     </div>
     <footer>
       <div>
@@ -199,9 +206,9 @@
         <a class="btn btn-light"
           href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
       </div>
-      <br><br>
+      <br /><br />
       <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-      <br>
+      <br />
       <div class="d-flex justify-content-center p-0 w-100">
         <div>
           <h1 class="display-6">Python-Factory © 2021</h1>
@@ -209,7 +216,9 @@
         </div>
       </div>
     </footer>
+  </div>
     <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

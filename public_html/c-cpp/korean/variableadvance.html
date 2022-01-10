@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -30,51 +37,51 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
-  <br><br>
+  <br /><br />
   <div class="text-center">
     <hr />
-    <br>
+    <br />
     <div class="text-center" id="speakdiv">
       <button id="speakbutt" class="btn btn-primary">읽어주기</button>
       <div id="setting">
-        <br><br>
+        <br /><br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width: 25px !important" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
-        <br>
+        <br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width: 25px !important" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
       </div>
     </div>
-    <br><br>
+    <br /><br />
     <h1 class="display-6">
       <span id="tit">C 언어 변수 - 고급</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
         id="txt">)</span> 6
     </h1>
-    <br>
+    <br />
     <hr />
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="norm-div">
     <div class="sub-div">
       <h1>많은 변수를 동시에 선언하는 방법</h1>
       <p>
-        C 언어는 변수를 선언할 때 데이터 형태를 앞에 붙여야 합니다.<br><br>
+        C 언어는 변수를 선언할 때 데이터 형태를 앞에 붙여야 합니다.<br /><br />
 
         하지만 계속 int를 사용하면 조금 반복되는 부분이 많아지고 읽기도
-        불편합니다.<br><br>
+        불편합니다.<br /><br />
 
         이렇게 다양한 변수가 같은 데이터 형태라면 ','를 사용하고 처음에만
-        데이터 형태를 붙이면 됩니다.<br><br>
+        데이터 형태를 붙이면 됩니다.<br /><br />
 
         <code> int a = 1, b = 2, c = 3; </code>
       </p>
@@ -85,22 +92,22 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div style="padding: 30px; display: flex; background-color: wheat">
     <div class="sub-div">
       <h1>변수 선언 먼저하기</h1>
       <p>
-        먼저 상자를 만들고 나중에 아이템을 넣을 수는 없나요? 가능합니다.<br><br>
+        먼저 상자를 만들고 나중에 아이템을 넣을 수는 없나요? 가능합니다.<br /><br />
 
         변수를 선언할 떄 값을 입력하지 않고 나중에 필요할 때 넣으면 됩니다.
-        참고로 값을 넣지 않으면 변수의 값은 자동으로 0으로 됩니다.<br><br>
+        참고로 값을 넣지 않으면 변수의 값은 자동으로 0으로 됩니다.<br /><br />
 
         기억하세요! 변수의 값을 바꾸고 싶으면 데이터 형태를 붙이면 안됩니다!
-        만일 붙이면 새로운 변수가 만들어 집니다.<br><br>
+        만일 붙이면 새로운 변수가 만들어 집니다.<br /><br />
 
         <code>
-          int a;<br>
+          int a;<br />
           a = 1;
         </code>
       </p>
@@ -110,30 +117,30 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="norm-div">
     <div class="sub-div">
       <h1>변수를 main() 밖에 선언하기</h1>
       <p>
         변수를 main() 밖에 선언하면 파일 안에 있는 모든 곳에서 변수를 사용할
-        수 있습니다.<br><br>
+        수 있습니다.<br /><br />
 
         하지만 main() 안에서 선언했다면 main()에서만 그 변수를 사용할 수
-        있습니다.<br><br>
+        있습니다.<br /><br />
 
         상자도 집 안에 넣으면 그 집에서만 사용할 수 있지만 밖에 있다면 모든
-        집에서 사용이 가능합니다.<br><br>
+        집에서 사용이 가능합니다.<br /><br />
 
         <code>
-          #include &lt;stdio.h><br><br>
+          #include &lt;stdio.h><br /><br />
 
-          int a = 6;<br><br>
+          int a = 6;<br /><br />
 
-          int main()<br>
-          {<br>
-          &nbsp;printf("%d", a);<br>
-          &nbsp;return 0;<br>
+          int main()<br />
+          {<br />
+          &nbsp;printf("%d", a);<br />
+          &nbsp;return 0;<br />
           }
         </code>
       </p>
@@ -143,33 +150,19 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div style="margin: 20px; padding: 20px">
     <button style="float: left" class="btn btn-light"><a href="variable.html">❮ 이전</a></button>
     <button style="float: right" class="btn btn-light"><a href="input.html">다음 ❯</a></button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
-    </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
+  <pyfact-footer></pyfact-footer>
+  </div>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

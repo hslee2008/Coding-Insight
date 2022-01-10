@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,7 +40,7 @@
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
 
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -46,42 +53,42 @@
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU" />
         </div>
         <div style="margin :auto;padding:50px;">
-          <p>파이썬을 기기에 설치하기<br><br>
+          <p>파이썬을 기기에 설치하기<br /><br />
             파이썬이 이진수 (0과 1)로 컴파일이 되어서 기계가 이해하기를 도와주기 위해서 먼저 공식 사이트에서 컴파일러를 설치해야 합니다.
           </p>
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="text-center">
         <hr>
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">읽어주기</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width:25px !important;" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width:25px !important;" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6"><span id="tit">파이썬 설치 & 사용 방법</span><br id="lbbr"><span id="txt">Computer
             Science
             Lab
             (</span>CSL<span id="txt">)</span> 2</h1>
-        <br>
+        <br />
         <hr>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
       <div style="background-color:black;color:white;padding-bottom:20px;">
         <div style="display: flex;">
           <div style="padding: 30px;">
@@ -89,25 +96,25 @@
             <p>
               1. <a href="https://www.python.org/downloads/"
                 style="color:yellow;text-decoration: none;">파이썬
-                사이트</a> 설치 페이지로 들어가기.<br><br>
-              2. 노란색 버튼 'Download Python 3.10.0' 누르기<br><br>
-              3. 새로운 설치 박스가 브라우저 밑에 생기는데 이를 클릭하기<br><br>
+                사이트</a> 설치 페이지로 들어가기.<br /><br />
+                2. 노란색 버튼 'Download Python 3.10.0' 누르기<br /><br />
+                3. 새로운 설치 박스가 브라우저 밑에 생기는데 이를 클릭하기<br /><br />
 
-              <img class="img-fluid" src="img/다운로드.jpg" width=70%" /><br><br>
+              <img class="img-fluid" src="img/다운로드.jpg" width=70%" /><br /><br />
 
-              4. Add Python to Path 옵션을 클릭<br><br>
-              5. Customize installation 버튼을 누르기<br><br>
+              4. Add Python to Path 옵션을 클릭<br /><br />
+              5. Customize installation 버튼을 누르기<br /><br />
 
-              <img class="img-fluid" alt="python_factory_picture" src="img/installnow.jpg" width="70%"><br><br>
+              <img class="img-fluid" alt="python_factory_picture" src="img/installnow.jpg" width="70%"><br /><br />
 
-              6. 모두 선택하고 Next 버튼을 누르기<br><br>
+              6. 모두 선택하고 Next 버튼을 누르기<br /><br />
 
-              <img class="img-fluid" alt="python_factory_picture" src="img/설치2.jpg" width="70%"><br><br>
+              <img class="img-fluid" alt="python_factory_picture" src="img/설치2.jpg" width="70%"><br /><br />
 
-              7. 1부터 5번째 옵션을 선택하기<br><br>
-              8. Install 버튼 누르기<br><br>
+              7. 1부터 5번째 옵션을 선택하기<br /><br />
+              8. Install 버튼 누르기<br /><br />
 
-              <img class="img-fluid" alt="python_factory_picture" src="img/adopt.jpg" width="70%"><br><br>
+              <img class="img-fluid" alt="python_factory_picture" src="img/adopt.jpg" width="70%"><br /><br />
 
               9. Close 버튼을 눌러주세요.
             </p>
@@ -115,20 +122,20 @@
           <div style="padding: 30px;">
             <h1>사용 방법</h1>
             <p>
-              저희는 파이썬의 IDLE이라는 편집기를 사용하겠습니다.<br><br>
+              저희는 파이썬의 IDLE이라는 편집기를 사용하겠습니다.<br /><br />
 
-              먼저 파이썬의 IDLE을 이용하려면 앱을 찾고 실행을 해야 합니다.<br><br>
+              먼저 파이썬의 IDLE을 이용하려면 앱을 찾고 실행을 해야 합니다.<br /><br />
 
               <kbd>windows+s</kbd>버튼을 누른 후 'idle'라고 치면 파이썬 IDLE가 뜹니다. 열기 또는 엔터를
-              누르세요.<br><br>
+              누르세요.<br /><br />
 
-              <img class="img-fluid" alt="python_factory_picture" src="img/idle.jpg" width="70%" /><br><br>
+              <img class="img-fluid" alt="python_factory_picture" src="img/idle.jpg" width="70%" /><br /><br />
 
-              파이썬 코드를 실행하기 위해서 >>> 다음에 넣고 엔터를 누르면 됩니다.<br><br>
+              파이썬 코드를 실행하기 위해서 >>> 다음에 넣고 엔터를 누르면 됩니다.<br /><br />
 
-              <img class="img-fluid" alt="python_factory_picture" src="img/idle2.jpg" width="70%" /><br><br>
+              <img class="img-fluid" alt="python_factory_picture" src="img/idle2.jpg" width="70%" /><br /><br />
 
-              <kbd>print("Hello World")</kbd>라고 친 후 엔터를 누르겠습니다.<br><br>
+              <kbd>print("Hello World")</kbd>라고 친 후 엔터를 누르겠습니다.<br /><br />
 
               <img class="img-fluid" alt="python_factory_picture" src="img/printhelloworld.jpg" width="70%" />
             </p>
@@ -136,7 +143,7 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="display:flex;background-color:#2C2C32;color:white; padding: 30px;">
         <div style="text-align:center;margin:auto;">
@@ -146,18 +153,18 @@
         <div style="margin: auto;">
           <h1>VSCode란?</h1>
           <p>
-            VSCode를 사용해보겠습니다.<br><br>
+            VSCode를 사용해보겠습니다.<br /><br />
 
-            VSCode는 파이썬 코드를 편집하는 과정을 쉽게 만들어주는 플랫폼입니다.<br><br>
+            VSCode는 파이썬 코드를 편집하는 과정을 쉽게 만들어주는 플랫폼입니다.<br /><br />
 
-            지금까지는 IDLE을 사용했지만 VSCode를 사용하면 매우 더 쉬워집니다.<br><br>
+            지금까지는 IDLE을 사용했지만 VSCode를 사용하면 매우 더 쉬워집니다.<br /><br />
 
             VSCode 설치 방법과 사용방법은 다음 시간에 설명하겠습니다.
           </p>
         </div>
         </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin:20px;padding:20px;">
         <button style="float:left;" class="btn btn-light"><a href="python.html">❮ 이전</a></button>
@@ -165,7 +172,7 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
     <footer>
       <div>
         <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
@@ -174,9 +181,9 @@
         <a class="btn btn-light"
           href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
       </div>
-      <br><br>
+      <br /><br />
       <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-      <br>
+      <br />
       <div class="d-flex justify-content-center p-0 w-100">
         <div>
           <h1 class="display-6">Python-Factory © 2021</h1>
@@ -184,7 +191,9 @@
         </div>
       </div>
     </footer>
+  </div>
     <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

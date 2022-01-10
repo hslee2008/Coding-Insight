@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,7 +40,7 @@
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
 
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -42,7 +49,7 @@
     <div class="sub-div">
       <h1>날짜 모듈 사용 방법?</h1>
       <p>
-        날짜는 모듈이어서 먼저 가지고 와야 합니다.<br><br>
+        날짜는 모듈이어서 먼저 가지고 와야 합니다.<br /><br />
 
         <code>
           import datetime
@@ -55,43 +62,43 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="sub-div">
     <div class="text-center">
       <hr>
-      <br>
+      <br />
       <div class="text-center" id="speakdiv">
         <button id="speakbutt" class="btn btn-primary">읽어주기</button>
         <div id="setting">
-          <br><br>
+          <br /><br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br>
+          <br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
-      <br><br>
+      <br /><br />
       <h1 class="display-6"><span id="tit">날짜</span><br id="lbbr"><span id="txt">Computer Science
           Lab
           (</span>CSL<span id="txt">)</span> 43
       </h1>
-      <br>
+      <br />
       <hr>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div" style="background-color: #3caeb6;">
       <div class="sub-div">
         <h1>지금 시간</h1>
         <p>
-          지금 당장 시간을 파이썬으로 통해 알고 싶으면 datetime.datetime.now()를 사용하면 됩니다.<br><br>
+          지금 당장 시간을 파이썬으로 통해 알고 싶으면 datetime.datetime.now()를 사용하면 됩니다.<br /><br />
 
           'yyyy-mm-dd hh:mm:ss' 형식으로 출력이 됩니다.
         </p>
@@ -100,19 +107,19 @@
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div style="padding: 10px;">
         <h1>시, 분, 초, 마이크로초</h1>
         <p>
-          지금 시, 분, 초와 밀리초를 알고 싶다면 'strftime'이라는 메서드를 이용하면 됩니다.<br><br>
+          지금 시, 분, 초와 밀리초를 알고 싶다면 'strftime'이라는 메서드를 이용하면 됩니다.<br /><br />
 
-          strftime() 안에 '%H'(Hour)을 입력하면 24시간 형태를 가진 지금 시각이 출력됩니다.<br><br>
+          strftime() 안에 '%H'(Hour)을 입력하면 24시간 형태를 가진 지금 시각이 출력됩니다.<br /><br />
 
-          12 시간 행태를 원한다면 '%I'를 사용하면 됩니다.<br><br>
+          12 시간 행태를 원한다면 '%I'를 사용하면 됩니다.<br /><br />
 
-          12 시간 행태를 사용한다면 오후인지 오전인지 알기 위하여 '%p'(AM 또는 PM)을 사용하면 됩니다.<br><br>
+          12 시간 행태를 사용한다면 오후인지 오전인지 알기 위하여 '%p'(AM 또는 PM)을 사용하면 됩니다.<br /><br />
 
           분은 '%M', 초는 '%S', 마이크로초는 '%f' 입니다
         </p>
@@ -121,15 +128,15 @@
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div style="padding:40px;background-color: black;color:white;">
         <h1>요일, 월, 년</h1>
         <p>
-          요일 이름은 '%A'를 사용해서 알 수 있습니다. 요일의 이름은 영어로 출력됩니다(예: Friday).<br><br>
+          요일 이름은 '%A'를 사용해서 알 수 있습니다. 요일의 이름은 영어로 출력됩니다(예: Friday).<br /><br />
 
-          June, January와 같이 "%B"는 월 이름을 영어로 출력합니다.<br><br>
+          June, January와 같이 "%B"는 월 이름을 영어로 출력합니다.<br /><br />
 
           "%Y"를 사용하면 년을 알 수 있습니다. 2018, 2021과 같이 년의 전체 값을 출력합니다.
         </p>
@@ -142,26 +149,12 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+  <pyfact-footer></pyfact-footer>
     </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

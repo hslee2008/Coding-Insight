@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -32,7 +39,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -42,11 +49,11 @@
       <div class="sub-div">
         <h1>데이터 형태란?</h1>
         <p>
-          프로그램에서 <mark>다양한 기호</mark>(숫자, 문자 등)를 통틀어 데이터라고 합니다.<br><br>
+          프로그램에서 <mark>다양한 기호</mark>(숫자, 문자 등)를 통틀어 데이터라고 합니다.<br /><br />
 
-          그리고 데이터 형태는 데이터의 다양한 종류를 뜻합니다..<br><br>
+          그리고 데이터 형태는 데이터의 다양한 종류를 뜻합니다..<br /><br />
 
-          사람이 가장 자주 접하는 데이터 형태인 문자는 ""를 사용하여 변수 안에 저장할 수 있습니다..<br><br>
+          사람이 가장 자주 접하는 데이터 형태인 문자는 ""를 사용하여 변수 안에 저장할 수 있습니다..<br /><br />
 
           <code>
             weather = "대체로 흐림"
@@ -59,7 +66,7 @@
       </div>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <div class="text-center">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/DDrOcpflWDc" title="YouTube video player"
@@ -67,42 +74,42 @@
         allowfullscreen></iframe>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <div class="text-center">
       <hr>
-      <br>
+      <br />
       <div class="text-center" id="speakdiv">
         <button id="speakbutt" class="btn btn-primary">읽어주기</button>
         <div id="setting">
-          <br><br>
+          <br /><br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br>
+          <br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
-      <br><br>
+      <br /><br />
       <h1 class="display-6"><span id="tit">데이터 형태</span><br id="lbbr"><span id="txt">Computer
           Science Lab
           (</span>CSL<span id="txt">)</span> 6
       </h1>
-      <br>
+      <br />
       <hr>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div class="sub-div">
         <h1>데이터 형태 알기</h1>
         <p>
-          저희는 파이썬에서 <mark>type() 함수</mark>를 사용하여 변수의 데이터 형태를 알 수 있습니다.<br><br>
+          저희는 파이썬에서 <mark>type() 함수</mark>를 사용하여 변수의 데이터 형태를 알 수 있습니다.<br /><br />
 
           <code>
             print(type("안녕"))
@@ -115,25 +122,25 @@
         marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="padding:30px;display:flex;background-color: #fcfcfc;">
       <div class="sub-div">
         <h1>데이터 형태 확인</h1>
         <p>
-          isinstance()는 변수의 데이터 형태를 확인해주는 함수입니다.<br><br>
+          isinstance()는 변수의 데이터 형태를 확인해주는 함수입니다.<br /><br />
 
-          첫 번째에 변수 이름을 넣고 두 번째에는 데이터 형태 이름을 넣습니다. 이 코드를 실행하면 True 또는 False가 출력됩니다.<br><br><br><br>
+          첫 번째에 변수 이름을 넣고 두 번째에는 데이터 형태 이름을 넣습니다. 이 코드를 실행하면 True 또는 False가 출력됩니다.<br /><br /><br /><br />
 
           <iframe src="https://trinket.io/embed/python/437398710e" width="100%" height="356" frameborder="0"
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-            style="margin: auto;"></iframe><br><br><br><br>
+            style="margin: auto;"></iframe><br /><br /><br /><br />
 
-          위의 예시에서는 weather 변수가 str(문자)인지 알려주는 프로그램을 만들었습니다.<br><br>
+          위의 예시에서는 weather 변수가 str(문자)인지 알려주는 프로그램을 만들었습니다.<br /><br />
 
-          isinstance(변수, 변수 형태)의 형태를 가지고 있습니다.<br><br>
+          isinstance(변수, 변수 형태)의 형태를 가지고 있습니다.<br /><br />
 
-          위의 예시는 True를 출력합니다. 그 이유는 "sunny"가 문자(str)이기 때문입니다.<br><br>
+          위의 예시는 True를 출력합니다. 그 이유는 "sunny"가 문자(str)이기 때문입니다.<br /><br />
       </div>
       <div style="margin: auto;">
         <img class="img-fluid" alt="python_factory_picture"
@@ -142,14 +149,14 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="margin:20px;padding:20px;">
       <button style="float:left;" class="btn btn-light"><a href="project/madlib.html">❮ 이전</a></button>
       <button style="float:right;" class="btn btn-light"><a href="comment.html">다음 ❯</a></button>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center border border-dark rounded p-3 m-3">
       <h1>퀴즈 풀기!</h1>
@@ -177,7 +184,7 @@
         <label for="question-1-answers-D">D) 다른 정답 </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3>데이터 형태를 찾을 수 있는 코드는?</h3>
 
@@ -201,7 +208,7 @@
         <label for="question-2-answers-D">D) typeof </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3>데이터 형태를 확인할 수 있는 방법은?</h3>
 
@@ -225,12 +232,12 @@
         <label for="question-3-answers-D">D) isdata() </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <button id="checky" class="btn btn-dark"
         onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-A").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")}; if(document.getElementById("question-3-answers-A").checked) {alert("3번 맞았습니다!")} else {alert("3번 틀렸습니다")};'>정답
         확인</button>
-<br><br><br><br>
+<br /><br /><br /><br />
     </div>
 
     <footer>
@@ -241,9 +248,9 @@
         <a class="btn btn-light"
           href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
       </div>
-      <br><br>
+      <br /><br />
       <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-      <br>
+      <br />
       <div class="d-flex justify-content-center p-0 w-100">
         <div>
           <h1 class="display-6">Python-Factory © 2021</h1>
@@ -251,7 +258,9 @@
         </div>
       </div>
     </footer>
+  </div>
     <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

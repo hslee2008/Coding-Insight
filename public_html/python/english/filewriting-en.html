@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,7 +40,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -42,9 +49,9 @@
     <div class="sub-div">
       <h1>Writing to files</h1>
       <p>
-        There are two modes in writing files.<br><br>
+        There are two modes in writing files.<br /><br />
 
-        'w' mode replaces the entire file content with new one.<br>
+        'w' mode replaces the entire file content with new one.<br />
         'a' mode adds(appends) to the end of the file.
       </p>
     </div>
@@ -52,74 +59,74 @@
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="sub-div">
     <div class="text-center">
       <hr>
-      <br>
+      <br />
       <div class="text-center" id="speakdiv">
         <button id="speakbutt" class="btn btn-primary">Read</button>
         <div id="setting">
-          <br><br>
+          <br /><br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br>
+          <br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
-      <br><br>
+      <br /><br />
       <h1 class="display-6"><span id="tit">File Writing</span><br id="lbbr"><span id="txt">Computer
           Science Lab
           (</span>CSL<span id="txt">)</span> 51
       </h1>
-      <br>
+      <br />
       <hr>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="display:flex; padding:30px;background-color: #b1dab1;">
       <div class="sub-div">
         <h1>write()</h1>
         <p>
-          Using the write() method, we can write to the file.<br><br>
+          Using the write() method, we can write to the file.<br /><br />
 
           <code>
-              mainFile = open("example.txt", "a")<br>
-              mainFile.write("Now the file has more content!")<br>
+              mainFile = open("example.txt", "a")<br />
+              mainFile.write("Now the file has more content!")<br />
               mainFile.close()
             </code>
 
           While the top example added the text to the content, the example below will change the content
-          entirely.<br><br>
+          entirely.<br /><br />
 
           <code>
-              mainFile = open("example.txt", "w")<br>
-              mainFile.write("new content")<br>
+              mainFile = open("example.txt", "w")<br />
+              mainFile.write("new content")<br />
               mainFile.close()
             </code>
         </p>
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div>
       <div class="norm-div">
         <div style="padding: 10px;">
           <h1>writelines()</h1>
           <p>
-            writelines() will write each items in iterable in one line in a file.<br><br>
+            writelines() will write each items in iterable in one line in a file.<br /><br />
 
             <code>
-                mainfile = open("example.txt", "w")<br>
-                print(mainfile.writelines(["1", "2", "3", "4"]))<br>
+                mainfile = open("example.txt", "w")<br />
+                print(mainfile.writelines(["1", "2", "3", "4"]))<br />
                 mainfile.close()
               </code>
           </p>
@@ -129,7 +136,7 @@
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="margin:20px;padding:20px;">
       <button style="float:left;" class="btn btn-light"><a href="filereading-en.html">❮
@@ -138,7 +145,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="text-center border border-dark rounded p-3 m-3">
     <h1>Solve This Quiz!!</h1>
@@ -170,14 +177,14 @@
       <label for="question-2-answers-D">D) " World" </label>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <button id="checky" class="btn btn-dark"
       onclick='if (document.getElementById("question-2-answers-B").checked) {alert("1 is right!")} else {alert("1 is wrong")};'>Check
       Answer</button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
   <footer>
     <div>
       <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
@@ -186,9 +193,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -196,7 +203,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -34,7 +41,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -52,17 +59,17 @@
           <h1>What is set?</h1>
           <p>
             Set is a group of items that satisfies one or more than clear
-            condition.<br><br>
+            condition.<br /><br />
 
             When I mean by clear, I mean a condition where everybody thinks
-            the same way.<br><br>
+            the same way.<br /><br />
 
             For example, "people above 160cm height, please rise" is very easy
             to follow. On the other hand, "people who are tall, please rise" is confusing because one might think
-            themself as tall or small.<br><br>
+            themself as tall or small.<br /><br />
 
             For example, let's try creating a set of students who are taller
-            than 160cm in class.<br><br>
+            than 160cm in class.<br /><br />
 
             <code> people = {"Elvis", "Taylor", "Michael", "John"} </code>
 
@@ -73,36 +80,36 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="text-center">
         <hr />
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6">
           <span id="tit">Set</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span> 24
         </h1>
-        <br>
+        <br />
         <hr />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="norm-div">
@@ -110,18 +117,18 @@
             <h1>Adding items and merging sets</h1>
             <p>
               To add a value to the end of a set, we'll use a function called
-              'add'.<br><br>
+              'add'.<br /><br />
 
               <code>
-                tallPeople = {"Random Guy", "Hyunseung", "Mrs. Jone"}<br>
+                tallPeople = {"Random Guy", "Hyunseung", "Mrs. Jone"}<br />
                 tallPeople.add("3Einstein")
               </code>
 
-              You can use 'update()' to attach a set to the first one.<br><br>
+              You can use 'update()' to attach a set to the first one.<br /><br />
 
               <code>
-                tallPeople = {"Einstein", "Isaac", "Tesla"}<br>
-                shortPeople = {"I.M Short", "Random Guy"}<br>
+                tallPeople = {"Einstein", "Isaac", "Tesla"}<br />
+                shortPeople = {"I.M Short", "Random Guy"}<br />
                 tallPeople.update(shortPeople)
               </code>
             </p>
@@ -131,37 +138,37 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
           <h1>Removing set values</h1>
           <p>
-            Let's remove the item 'red' from the values ​​in the set.<br><br>
+            Let's remove the item 'red' from the values ​​in the set.<br /><br />
 
             <code>
-              colorSet = {"red", "green", "blue", "orange"}<br>
-              colorSet.remove('red')<br><br>
+              colorSet = {"red", "green", "blue", "orange"}<br />
+              colorSet.remove('red')<br /><br />
 
               print(colorSet)
             </code>
 
             If the remove method is used and the item 'red' does not exist in
             a certain set, an error occurs. If you want no errors, use the
-            discard method.<br><br>
+            discard method.<br /><br />
 
             <code>
-              colorSet = {"red", "green", "blue", "orange"}<br>
-              colorSet.discard('black') #colorSet set has not changed.<br><br>
+              colorSet = {"red", "green", "blue", "orange"}<br />
+              colorSet.discard('black') #colorSet set has not changed.<br /><br />
 
               print(colorset)
             </code>
 
-            You can use the clear method to clear all the items in the set.<br><br>
+            You can use the clear method to clear all the items in the set.<br /><br />
 
             <code>
-              colorSet = {"red", "green", "blue", "orange"}<br>
-              colorSet.clear()<br><br>
+              colorSet = {"red", "green", "blue", "orange"}<br />
+              colorSet.clear()<br /><br />
 
               print(colorSet)
             </code>
@@ -171,16 +178,16 @@
       <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/62528e1b44" width="100%" height="356"
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="text-center border border-dark rounded p-3 m-3">
         <h1>Solve This Quiz!!</h1>
       </div>
-      <br><br>
+      <br /><br />
 
       <div class="text-center">
         <h3>
-          a = {"a", "b", "c", "d", "e"}<br>a.remove("f")<br>print(a)<br><br>
+          a = {"a", "b", "c", "d", "e"}<br />a.remove("f")<br />print(a)<br /><br />
           What is printed to the console when running the script above?
         </h3>
 
@@ -206,7 +213,7 @@
           <label for="question-2-answers-D">D) Error </label>
         </div>
 
-        <br><br>
+        <br /><br />
 
         <button id="checky" class="btn btn-dark"
           onclick='if (document.getElementById("question-2-answers-D").checked) {alert("1 is right!")} else {alert("1 is wrong")};'>
@@ -223,7 +230,7 @@
         </button>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
     </div>
   <footer>
     <div>
@@ -233,9 +240,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -243,7 +250,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

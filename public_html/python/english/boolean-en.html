@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -35,7 +42,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -45,17 +52,17 @@
       <div class="sub-div">
         <h1>What is Boolean?</h1>
         <p>
-          Boolean is a type of data that has only True and False.<br><br>
+          Boolean is a type of data that has only True and False.<br /><br />
 
-          Let's try to make a program that prints whether the number user typed in is bigger than 5.<br><br>
+          Let's try to make a program that prints whether the number user typed in is bigger than 5.<br /><br />
 
           <code>
-            userNumber = int(input("Number: "))<br><br>
+            userNumber = int(input("Number: "))<br /><br />
 
             print(userNumber > 5) #whether userNumber is bigger than 5
           </code>
 
-          We can also store boolean values in variables.<br><br>
+          We can also store boolean values in variables.<br /><br />
 
           <code>
             a = 5 > 6
@@ -68,44 +75,44 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center">
       <hr>
-      <br>
+      <br />
       <div class="text-center" id="speakdiv">
         <button id="speakbutt" class="btn btn-primary">Read</button>
         <div id="setting">
-          <br><br>
+          <br /><br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br>
+          <br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
-      <br><br>
+      <br /><br />
       <h1 class="display-6"><span id="tit">Boolean</span><br id="lbbr"><span id="txt">Computer
           Science Lab
           (</span>CSL<span id="txt">)</span> 13
       </h1>
-      <br>
+      <br />
       <hr>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div class="sub-div">
         <h1>Something to be careful</h1>
         <p>
-          In Python, incorrect is False and correct is True.<br><br>
+          In Python, incorrect is False and correct is True.<br /><br />
 
-          I did not made the first alphabet of False and True uppercase on purpose.<br><br>
+          I did not made the first alphabet of False and True uppercase on purpose.<br /><br />
 
           Python uses False and True with UPPERCASE letters.
         </p>
@@ -114,7 +121,7 @@
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div" style="background-color: #f7f7f7;">
       <div class="sub-div">
@@ -127,24 +134,24 @@
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="color-contrast-div">
       <div class="sub-div">
         <h1>assert</h1>
         <p>
-          Let's look at the following example.<br><br>
+          Let's look at the following example.<br /><br />
 
           <code>
-            assert 2 > 1<br>
+            assert 2 > 1<br />
             print("YES. 2 is bigger than 1")
           </code>
 
-          The example above will make an error if 2 is not bigger than 1.<br><br>
+          The example above will make an error if 2 is not bigger than 1.<br /><br />
 
-          Otherwise, it will continue on and print "Yes. 2 is bigger than 1."<br><br>
+          Otherwise, it will continue on and print "Yes. 2 is bigger than 1."<br /><br />
 
-          We can also make your own message.<br><br>
+          We can also make your own message.<br /><br />
 
           <code>
             assert 1 > 2, "Hmmm... 🐛🐛🐛(bug) found in code."
@@ -155,7 +162,7 @@
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div" style="">
       <div class="sub-div">
@@ -163,7 +170,7 @@
         <p>
           All means everything. We have not yet learned this yet but if everything inside list is True, all() prints
           True and prints False if
-          otherwise.<br><br>
+          otherwise.<br /><br />
 
           any() prints True if any of the items in list is True and False if all of them are False.
         </p>
@@ -172,14 +179,14 @@
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="margin:20px;padding:20px;">
       <button style="float:left;" class="btn btn-light"><a href="ascii-en.html">❮ Previous</a></button>
       <button style="float:right;" class="btn btn-light"><a href="number-en.html">Next ❯</a></button>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center border border-dark rounded p-3 m-3">
       <h1>Solve This Quiz!!</h1>
@@ -207,7 +214,7 @@
         <label for="question-1-answers-D">D) True, False </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3> What is the value of not (not (not (not (not (not (False))))))</h3>
 
@@ -231,7 +238,7 @@
         <label for="question-2-answers-D">D) None </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3> What is the value of any([True, False, False, False, False]) </h3>
 
@@ -255,7 +262,7 @@
         <label for="question-3-answers-D">D) None </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <button id="checky" class="btn btn-dark"
         onclick='if (document.getElementById("question-1-answers-D").checked) {alert("1 is right!")} else {alert("1 is wrong")}; if(document.getElementById("question-2-answers-A").checked) {alert("2 is right :)")} else {alert("2 is wrong")};if(document.getElementById("question-3-answers-B").checked) {alert("3 is right :)")} else {alert("3 is wrong")};'>Check
@@ -270,9 +277,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -280,7 +287,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

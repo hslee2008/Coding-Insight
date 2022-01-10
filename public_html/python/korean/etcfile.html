@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -32,51 +39,51 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr>
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">읽어주기</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width:25px !important;" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width:25px !important;" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6"><span id="tit">파일 만들기, 삭제하기, encoding</span><br id="lbbr"><span id="txt">Computer
             Science Lab
             (</span>CSL<span id="txt">)</span> 52</h1>
-        <br>
+        <br />
         <hr>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="display:flex; padding:30px;background-color: #123a12;color:white;">
         <div class="sub-div">
           <h1>파일 만들기</h1>
           <p>
-            파일을 만들기 위해서는 'x' 모드를 사용할 수 있습니다.<br><br>
+            파일을 만들기 위해서는 'x' 모드를 사용할 수 있습니다.<br /><br />
 
             <code>
-              mainFile = open("example.txt", "x")<br><br>
+              mainFile = open("example.txt", "x")<br /><br />
             </code>
 
             만일 example.txt 라는 파일이 이미 존재한다면 에러가 생기게 되고, 그렇지 않다면 example.txt 파일을 만들 수 있습니다.
@@ -84,19 +91,19 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="norm-div">
           <div style="padding: 10px;">
             <h1>파일 삭제하기</h1>
             <p>
-              파일을 삭제하려면 os라는 모듈을 사용해야 합니다.<br><br>
+              파일을 삭제하려면 os라는 모듈을 사용해야 합니다.<br /><br />
 
               <code>
-                import os<br><br>
+                import os<br /><br />
 
-                os.remove("example.txt") #첫 번째 방법<br>
+                os.remove("example.txt") #첫 번째 방법<br />
                 os.rmdir("example.txt") #두 번째 방법 (ReMoveDIRectory)
               </code>
             </p>
@@ -104,19 +111,19 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="norm-div">
           <div style="padding: 10px;">
             <h1>인코딩</h1>
             <p>
-              키보드에 존재하지 않는 문자나 이모지를 읽기 위해서는 인코딩이라는 옵션을 사용해야 합니다.<br><br>
+              키보드에 존재하지 않는 문자나 이모지를 읽기 위해서는 인코딩이라는 옵션을 사용해야 합니다.<br /><br />
 
-              파이썬은 기본적으로 Ascii Code 형식을 지원하지만 이모지의 경우는 UTF-8를 사용하기 때문에 인코딩을 사용하여 변환해줘야 합니다.<br><br>
+              파이썬은 기본적으로 Ascii Code 형식을 지원하지만 이모지의 경우는 UTF-8를 사용하기 때문에 인코딩을 사용하여 변환해줘야 합니다.<br /><br />
 
               <code>
-                mainFile = open("example.txt", "r", encoding="UTF-8")<br><br>
+                mainFile = open("example.txt", "r", encoding="UTF-8")<br /><br />
 
                 mainFile.close()
               </code>
@@ -125,7 +132,7 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin:20px;padding:20px;">
         <button style="float:left;" class="btn btn-light"><a href="filewriting.html">❮ 이전</a></button>
@@ -133,14 +140,14 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
   </div>
 
 </div>
 
 <div class="text-center border border-dark rounded p-3 m-3">
   <h1>퀴즈 풀기!</h1>
-</div><br><br>
+</div><br /><br />
 
   <div class="text-center">
     <h3> 파일 안에 이모지가 있습니다. 그 이모지가 들어있는 파일을 열 때 encoding은 어떤 값으로 넣어야 할까요? 모른다면 밑에 있는 값들 하나하나 다 실행해 보세요! </h3>
@@ -165,33 +172,19 @@
       <label for="question-2-answers-D">D) ENCODING123 </label>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <button id="checky" class="btn btn-dark"
       onclick='if (document.getElementById("question-2-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")};'>정답
       확인</button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+  <pyfact-footer></pyfact-footer>
     </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -42,6 +48,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -62,64 +69,64 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr />
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6">
           <span id="tit">Chage Data Type</span><br id="lbbr" /><span id="txt">Computer Science Lab
             (</span>CSL<span id="txt">)</span> 54
         </h1>
-        <br>
+        <br />
         <hr />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
           <h1>To List</h1>
           <p>
             To change any kind of data into a list, use the list() function
-            and split() method.<br><br>
+            and split() method.<br /><br />
 
             While list() function can be used for any type of data, we can
-            only use split() for strings.<br><br>
+            only use split() for strings.<br /><br />
 
             <code>
-              a = "abcdefghijklmnop"<br>
+              a = "abcdefghijklmnop"<br />
               print(list(a))
             </code>
 
             The split() method will split the string into multiple pieces
-            according to the given character.<br><br>
+            according to the given character.<br /><br />
 
             <code>
-              a = "HelloAWorld."<br>
+              a = "HelloAWorld."<br />
               print(a.split("A"))
             </code>
           </p>
@@ -128,20 +135,20 @@
           frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="padding: 20px; background-color: #cb84dd">
           <div class="inner-div">
             <h1>To Tuple</h1>
             <p>
-              Using tuple(), we can change anything to a tuple.<br><br>
+              Using tuple(), we can change anything to a tuple.<br /><br />
 
               If you want to convert a string into tuple, make sure to use
-              split() method first then to turn that into a tuple.<br><br>
+              split() method first then to turn that into a tuple.<br /><br />
 
               <code>
-                a = "Hello! World! My! name! is! Hyunseung"<br>
+                a = "Hello! World! My! name! is! Hyunseung"<br />
                 print(tuple(a.split("!")))
               </code>
             </p>
@@ -152,7 +159,7 @@
         </div>
         </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="padding: 20px; display: flex; background-color: #c9d4b3">
@@ -160,17 +167,17 @@
             <h1>To Number</h1>
             <p>
               To convert to each type of number(int, float, complex), use
-              int(), float() and complex() method.<br><br>
+              int(), float() and complex() method.<br /><br />
 
               <code>
-                a = "32"<br><br>
+                a = "32"<br /><br />
 
                 print(int(a))
               </code>
 
               Know that if you have a string that contains digits other than
               numbers(e.g. alphabets), running int(), float() or complex()
-              will return NaN.<br><br>
+              will return NaN.<br /><br />
 
               <code>NaN</code>
 
@@ -183,14 +190,14 @@
         </div>
         </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="padding: 20px; background-color: #c1c9e3">
           <div class="inner-div">
             <h1>To Set</h1>
             <p>
-              Use set() function to turn a data type into a set.<br><br>
+              Use set() function to turn a data type into a set.<br /><br />
 
               <code> print(set("abcdefg")) </code>
             </p>
@@ -200,20 +207,20 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="padding: 20px; display: flex; background-color: #a0c9e3">
           <div class="inner-div">
             <h1>불리언으로 바꾸기</h1>
             <p>
-              The only data type boolean can convert is integer.<br><br>
+              The only data type boolean can convert is integer.<br /><br />
 
               bool() function will turn the number into either True or
-              False.<br><br>
+              False.<br /><br />
 
               <code>
-                a = 0<br><br>
+                a = 0<br /><br />
 
                 print(bool(a))
               </code>
@@ -227,7 +234,7 @@
         </div>
         </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <table id="datachange" style="width: 100%">
         <thead>
@@ -266,7 +273,7 @@
         </tbody>
       </table>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin: 20px; padding: 20px">
         <button style="float: left" class="btn btn-light">
@@ -279,7 +286,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <footer>
     <div>
@@ -289,9 +296,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -299,6 +306,8 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 </html>

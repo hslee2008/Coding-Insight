@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -13,6 +19,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,13 +40,13 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br> <br>
+  <br /><br /> <br />
   <div class="norm-div" style="background-color: black; color: white; margin: 20px;">
     <div class="sub-div">
       <h1>Definition of Module</h1>
       <p>
         Modules are a group of functions, variables, and classes to be used in
-        other files.<br><br>
+        other files.<br /><br />
 
         We can fetch functions, variables, and classes from other files and
         use it outside of the file.
@@ -47,38 +54,38 @@
     </div>
   </div>
 
-  <br><br><br><br>
-  <br><br>
+  <br /><br /><br /><br />
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr />
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6">
           <span id="tit">Basics of Module</span><br id="lbbr" /><span id="txt">Computer Science Lab
             (</span>CSL<span id="txt">)</span> 40
         </h1>
-        <br>
+        <br />
         <hr />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="norm-div">
@@ -86,11 +93,11 @@
             <h1>import - Import Module</h1>
             <p>
               We have to fetch the module to use functions and variables
-              inside it.<br><br>
+              inside it.<br /><br />
 
-              To do this, run the code 'import filename'.<br><br>
+              To do this, run the code 'import filename'.<br /><br />
 
-              Do not put '.py'(extension) at the end, only the file name.<br><br>
+              Do not put '.py'(extension) at the end, only the file name.<br /><br />
 
               <code> import math </code>
 
@@ -100,7 +107,7 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="
@@ -112,22 +119,22 @@
             <h1>dir(module) - Look at all functions and variables</h1>
             <p>
               When we use dir(), we can see all the available functions and
-              variables.<br><br>
+              variables.<br /><br />
 
               <code>
-                import math<br><br>
+                import math<br /><br />
 
                 print(dir(math))
               </code>
 
               If we run the code above, we can see an item named 'sqrt' inside
-              the list.<br><br>
+              the list.<br /><br />
 
               sqrt is short for Square Root and it is used for finding square
-              root of a number.<br><br>
+              root of a number.<br /><br />
 
               <code>
-                import math<br><br>
+                import math<br /><br />
 
                 print(math.sqrt(4))
               </code>
@@ -138,7 +145,7 @@
       <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/170c0ea7f7" width="100%" height="356"
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="
@@ -150,31 +157,31 @@
             <h1>'as' keyword</h1>
             <p>
               Let's assume there is a file named
-              abcdefgjijklmnopqrstuvwxyz.py.<br><br>
+              abcdefgjijklmnopqrstuvwxyz.py.<br /><br />
 
               We want to import the file as a module to use the function
-              abc().<br><br>
+              abc().<br /><br />
 
               However, typing abcdefghijklmnopqrstuvwxyz every time is very
-              annoying.<br><br>
+              annoying.<br /><br />
 
-              There are two ways we can achieve this.<br><br>
+              There are two ways we can achieve this.<br /><br />
 
-              1. Store all information on a variable<br><br>
+              1. Store all information on a variable<br /><br />
 
               <code>
-                import abcdefghijklmnopqrstuvwxyz<br><br>
+                import abcdefghijklmnopqrstuvwxyz<br /><br />
 
-                alphabet = abcdefghijklmnopqrstuvwxyz<br><br>
+                alphabet = abcdefghijklmnopqrstuvwxyz<br /><br />
 
-                alphabet.abc()<br>
+                alphabet.abc()<br />
                 abcdefghibjkmnopqrstuvwxyz.abc() #Sames as the code above
               </code>
 
-              2. Using as keyword<br><br>
+              2. Using as keyword<br /><br />
 
               <code>
-                import abcdefghijklmnopqrstuvwxyz as alphabet<br><br>
+                import abcdefghijklmnopqrstuvwxyz as alphabet<br /><br />
 
                 alphabet.abc()
               </code>
@@ -189,8 +196,7 @@
 
       </div>
 
-      <br><br><br><br>
-      
+      <br /><br /><br /><br />
     <div style="margin: 20px; padding: 20px">
       <button style="float: left" class="btn btn-light">
         <a href="etcfunction-en.html">❮ Previous</a>
@@ -201,7 +207,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <footer>
     <div>
@@ -211,9 +217,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -221,6 +227,8 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 </html>

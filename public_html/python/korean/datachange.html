@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -42,6 +48,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -62,53 +69,53 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr />
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">읽어주기</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6">
           <span id="tit">데이터 형태 바꾸기</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span> 54
         </h1>
-        <br>
+        <br />
         <hr />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
           <h1>리스트로 바꾸기</h1>
           <p>
             리스트로 바꾸기 위해서는 list()와 split() 메서드를 사용할 수
-            있습니다.<br><br>
+            있습니다.<br /><br />
 
             첫 번째 방법은 list()를 사용하는 방법입니다. list()는 리스트로
-            바꾸는 메서드입니다.<br>
+            바꾸는 메서드입니다.<br />
             두 번째 방법은 split() 메서드를 이용하여, 캐릭터 또는 문자를
             기준으로 문자를 리스트로 자를 수 있습니다.
           </p>
@@ -117,7 +124,7 @@
       <iframe src="https://trinket.io/embed/python3/b8df2e09d4" width="100%" height="356" frameborder="0"
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
       <div style="padding: 20px; background-color: #cb84dd">
         <div class="inner-div">
           <h1>튜플로 바꾸기</h1>
@@ -130,16 +137,16 @@
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
       <div style="padding: 20px; display: flex; background-color: #c9d4b3">
         <div class="inner-div">
           <h1>숫자로 바꾸기</h1>
           <p>
             숫자로는 바꾸기 위해서는 int(), float(), complex() 메서드를
-            사용할 수 있습니다.<br><br>
+            사용할 수 있습니다.<br /><br />
 
             만일 문자 안에 있는 캐릭터가 숫자가 아니라면 다음과 같은 결과가
-            나올 것입니다.<br><br>
+            나올 것입니다.<br /><br />
 
             <code>NaN</code>
 
@@ -149,13 +156,13 @@
             <iframe src="https://trinket.io/embed/python3/cf87c918cc" width="70%" height="356" frameborder="0"
               marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
-      <br><br><br><br>
+      <br /><br /><br /><br />
       <div style="padding: 20px; display: flex; background-color: #d4c8b3">
         <div class="inner-div">
           <h1>불리언으로 바꾸기</h1>
           <p>
             불리언으로 바꾸기 위해서는 bool() 이라는 메서드를 사용할 수
-            있습니다. bool()은 Boolean의 약자입니다.<br><br>
+            있습니다. bool()은 Boolean의 약자입니다.<br /><br />
 
             0은 항상 False이고 1은 True입니다.
             </p>
@@ -164,7 +171,7 @@
               marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
             </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <table id="datachange" style="width: 100%">
         <thead>
@@ -203,7 +210,7 @@
         </tbody>
       </table>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin: 20px; padding: 20px">
         <button style="float: left" class="btn btn-light">
@@ -215,26 +222,12 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
   </div>
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+  <pyfact-footer></pyfact-footer>
     </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

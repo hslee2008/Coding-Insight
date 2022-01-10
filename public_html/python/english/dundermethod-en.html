@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,7 +40,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -41,9 +48,9 @@
     <div class="sub-div">
       <h1>What is dunder?</h1>
       <p>
-        In Context Manager, we learned about __exit__() and __enter__() method.<br><br>
+        In Context Manager, we learned about __exit__() and __enter__() method.<br /><br />
 
-        These are called dunder method.<br><br>
+        These are called dunder method.<br /><br />
 
         Methods that starts with __ and __ is called dunder method (a.k.a. magic method)
       </p>
@@ -58,80 +65,80 @@
       <div class="sub-div">
         <div class="text-center">
           <hr>
-          <br>
+          <br />
           <div class="text-center" id="speakdiv">
             <button id="speakbutt" class="btn btn-primary">Read</button>
             <div id="setting">
-              <br><br>
+              <br /><br />
               <img class="img-fluid" alt="python_factory_picture"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                 style="width:25px !important;" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
-              <br>
+              <br />
               <img class="img-fluid" alt="python_factory_picture"
                 src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                 style="width:25px !important;" />
               <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
             </div>
           </div>
-          <br><br>
+          <br /><br />
           <h1 class="display-6"><span id="tit">Dunder Method</span><br id="lbbr"><span id="txt">Computer
               Science Lab
               (</span>CSL<span id="txt">)</span>
             80</h1>
-          <br>
+          <br />
           <hr>
         </div>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="display:flex; padding:30px;background-color: #ffffff; color: black;">
           <div class="sub-div">
             <h1>__str__() and __repr__()</h1>
             <p>
-              Let's first make a class that does nothing and has nothing.<br><br>
+              Let's first make a class that does nothing and has nothing.<br /><br />
 
               <code>
-                class Person:<br>
-                &nbsp;pass<br><br>
+                class Person:<br />
+                &nbsp;pass<br /><br />
 
                 a = Person()
               </code>
 
-              Now, let's try printing 'a' or Person().<br><br>
+              Now, let's try printing 'a' or Person().<br /><br />
 
               <code>
                 print(a)
               </code>
 
-              We just get a weird string that we cannot understand.<br><br>
+              We just get a weird string that we cannot understand.<br /><br />
 
               However, when we print this way, we can specify what to return instead of the weird string we saw
-              earlier.<br><br>
+              earlier.<br /><br />
 
               <code>
-                class Person:<br>
-                &nbsp;def __init__(self, name):<br>
-                &nbsp;&nbsp;self.name = name<br><br>
+                class Person:<br />
+                &nbsp;def __init__(self, name):<br />
+                &nbsp;&nbsp;self.name = name<br /><br />
 
-                &nbsp;def __str__(self):<br>
+                &nbsp;def __str__(self):<br />
                 &nbsp;&nbsp;return "A person named " + self.name
               </code>
 
-              Now, if we make a Person() class and print that, we get 'A person named yourname'.<br><br>
+              Now, if we make a Person() class and print that, we get 'A person named yourname'.<br /><br />
 
               Furthermore, using repr() on that class will return a specific object inside the __repr__() dunder
-              method.<br><br>
+              method.<br /><br />
 
               <code>
-                class Person:<br>
-                &nbsp;def __init__(self, name):<br>
-                &nbsp;&nbsp;self.name = name<br><br>
+                class Person:<br />
+                &nbsp;def __init__(self, name):<br />
+                &nbsp;&nbsp;self.name = name<br /><br />
 
-                &nbsp;def __str__(self):<br>
-                &nbsp;&nbsp;return "__str__"<br><br>
+                &nbsp;def __str__(self):<br />
+                &nbsp;&nbsp;return "__str__"<br /><br />
 
-                &nbsp;def __repr__(self):<br>
+                &nbsp;def __repr__(self):<br />
                 &nbsp;&nbsp;return "__repr__"
               </code>
             </p>
@@ -143,7 +150,7 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto;"></iframe>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="display:flex; padding:30px;background-color: #9dcfb0; color: black;">
           <div class="sub-div">
@@ -157,13 +164,13 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto;"></iframe>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div class="norm-div" style="background-color: #8cdae7; color: black;">
           <div class="sub-div">
             <h1>__new__()</h1>
             <p>
-              When a class is amde, we can run a specific code inside __new__().<br><br>
+              When a class is amde, we can run a specific code inside __new__().<br /><br />
 
               "I am created by you!" is printed.
             </p>
@@ -173,7 +180,7 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto;"></iframe>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="margin:20px;padding:20px;">
           <button style="float:left;" class="btn btn-light"><a href="requestmethod-en.html">❮
@@ -185,7 +192,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <footer>
     <div>
@@ -195,9 +202,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -205,7 +212,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

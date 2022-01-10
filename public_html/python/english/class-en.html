@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -13,6 +19,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,7 +40,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -48,12 +55,12 @@
       <h1>What is class?</h1>
       <p>
         Think of a situation where you want to create multiple files with same
-        format (e.g. letter writing style format).<br><br>
+        format (e.g. letter writing style format).<br /><br />
 
-        Then, you copy the style containg it and write letters.<br><br>
+        Then, you copy the style containg it and write letters.<br /><br />
 
         In this example, the origin file can be called 'template' and in
-        Python terms, it is a 'class'.<br><br>
+        Python terms, it is a 'class'.<br /><br />
 
         Class is a template code.
       </p>
@@ -64,58 +71,58 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr />
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6">
           <span id="tit">Class</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span> 46
         </h1>
-        <br>
+        <br />
         <hr />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="display: flex; padding: 30px; background-color: #c4b9ff">
         <div class="sub-div">
           <h1>Creating class</h1>
           <p>
             For example, if we are planning on creating multiple dictionaries
-            about cars that has same keys, we can make a class instead.<br><br>
+            about cars that has same keys, we can make a class instead.<br /><br />
 
-            In dictionaries, you have to make same keys all the time.<br><br>
+            In dictionaries, you have to make same keys all the time.<br /><br />
 
-            With class, create one class then declare them seperatley.<br><br>
+            With class, create one class then declare them seperatley.<br /><br />
 
             <code>
-              class MyCar:<br>
+              class MyCar:<br />
               &nbsp;model_name = QWE_123
             </code>
 
-            To make a car, use 'new classname()' code.<br><br>
+            To make a car, use 'new classname()' code.<br /><br />
 
             <code>
-              myCar = new MyCar()<br>
+              myCar = new MyCar()<br />
               print(myCar.model_name) #QWE_123
             </code>
           </p>
@@ -124,46 +131,46 @@
           frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div" style="background-color: #3caeb6">
         <div class="sub-div">
           <h1>__init__()</h1>
           <p>
-            The example above is very similar to a dictionary.<br><br>
+            The example above is very similar to a dictionary.<br /><br />
 
             However, classes are much more than a simple data type for storing
-            information.<br><br>
+            information.<br /><br />
 
             To make a real class, declare the __init_\_() function inside
-            class.<br><br>
+            class.<br /><br />
 
             In the example above, we need to access variables inside classes
-            like dictionaries with keys.<br><br>
+            like dictionaries with keys.<br /><br />
 
             In the example below, we can put in information between () when
-            declaring.<br><br>
+            declaring.<br /><br />
 
             <code>
-              class Person:<br>
-              &nbsp;def __init__(self, name, age, gender):<br>
-              &nbsp;&nbsp;self.name = name<br>
-              &nbsp;&nbsp;self.age = age<br>
-              &nbsp;&nbsp;self.gender = gender<br><br>
+              class Person:<br />
+              &nbsp;def __init__(self, name, age, gender):<br />
+              &nbsp;&nbsp;self.name = name<br />
+              &nbsp;&nbsp;self.age = age<br />
+              &nbsp;&nbsp;self.gender = gender<br /><br />
 
-              p1 = Person("Hyunseung", 12, "Male")<br><br>
+              p1 = Person("Hyunseung", 12, "Male")<br /><br />
 
               print(p1.name)
             </code>
 
-            To use __init_\_(),<br>
-            1. Declare __init_\_() function inside the class<br>
+            To use __init_\_(),<br />
+            1. Declare __init_\_() function inside the class<br />
             2. Make sure that the first parameter of __init_\_() function is
-            'self'<br>
-            3. Put in the information you will gather about a person<br>
-            4. Put 'self.variable = variable' code inside the function<br>
+            'self'<br />
+            3. Put in the information you will gather about a person<br />
+            4. Put 'self.variable = variable' code inside the function<br />
             5. When declaring a new class, put in the information in order
           </p>
         </div>
@@ -171,7 +178,7 @@
       <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/a77f155c7b" width="100%" height="356"
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="norm-div">
@@ -179,12 +186,12 @@
             <h1>Functions inside class</h1>
             <p>
               The difference from class and dictionaries are not simply
-              __init__() functions.<br><br>
+              __init__() functions.<br /><br />
 
-              Classes can have functions inside them.<br><br>
+              Classes can have functions inside them.<br /><br />
 
               The best thing is, the function has access to all the previously
-              declared self.variables.<br><br>
+              declared self.variables.<br /><br />
 
               To use the self variable, try 'self.variablename'.
             </p>
@@ -195,7 +202,7 @@
         </div>
         </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="norm-div">
@@ -203,25 +210,25 @@
             <h1>self</h1>
             <p>
               When creating variables inside class, using self as containers
-              will be better for management.<br><br>
+              will be better for management.<br /><br />
 
               Note that if you want to use self variables inside functions,
-              you have to put in 'self' as the first parameter.<br><br>
+              you have to put in 'self' as the first parameter.<br /><br />
 
               Furthoremore, self does not need to be 'self'. It can be 'abc'
-              or 'python' or anything as long as all the self is same.<br><br>
+              or 'python' or anything as long as all the self is same.<br /><br />
 
               <code>
-                class Person:<br>
-                &nbsp;def __init__(abc, name, age, gender):<br>
-                &nbsp;&nbsp;abc.name = name<br>
-                &nbsp;&nbsp;abc.age = age<br>
-                &nbsp;&nbsp;abc.gender = gender<br><br>
+                class Person:<br />
+                &nbsp;def __init__(abc, name, age, gender):<br />
+                &nbsp;&nbsp;abc.name = name<br />
+                &nbsp;&nbsp;abc.age = age<br />
+                &nbsp;&nbsp;abc.gender = gender<br /><br />
 
-                &nbsp;def printTheName(abc):<br>
-                &nbsp;&nbsp;print(abc.name)<br><br>
+                &nbsp;def printTheName(abc):<br />
+                &nbsp;&nbsp;print(abc.name)<br /><br />
 
-                p1 = Person("Hyunseung", 12, "Male")<br><br>
+                p1 = Person("Hyunseung", 12, "Male")<br /><br />
 
                 p1.printTheName()
               </code>
@@ -230,7 +237,7 @@
         </div>
         </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin: 20px; padding: 20px">
         <button style="float: left" class="btn btn-light">
@@ -243,7 +250,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <footer>
     <div>
@@ -253,9 +260,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -263,6 +270,8 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 </html>

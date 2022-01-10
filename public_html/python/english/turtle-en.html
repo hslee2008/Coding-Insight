@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,7 +40,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -50,48 +57,48 @@
       </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr>
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width:25px !important;" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width:25px !important;" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6"><span id="tit">Turtle</span><br id="lbbr"><span id="txt">Computer
             Science Lab
             (</span>CSL<span id="txt">)</span>
           91</h1>
-        <br>
+        <br />
         <hr>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div" style="background-color: #b2dff1;color:black;">
         <div class="sub-div">
           <h1>Preparing Turtle</h1>
           <p>
-            Turtle is a module.<br><br>
+            Turtle is a module.<br /><br />
 
-            Let's first fetch the turtle module.<br><br>
+            Let's first fetch the turtle module.<br /><br />
 
             When you are making Python file, do not name it turtle(because Python will import from your file instead of
-            turtle file).<br><br>
+            turtle file).<br /><br />
 
             <code>
               import turtle as turty
@@ -100,26 +107,26 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div" style="background-color: #e7dd85;">
         <div style="padding: 10px;">
           <h1>Get started with Turtle</h1>
           <p>
-            Turtle needs to have a screen to move on.<br><br>
+            Turtle needs to have a screen to move on.<br /><br />
 
-            Use the getscreen() method to show the screen.<br><br>
+            Use the getscreen() method to show the screen.<br /><br />
 
             <code>
-              import turtle as turty<br><br>
+              import turtle as turty<br /><br />
 
               turty.getscreen()
             </code>
 
-            Now, let's try making a turtle(character) in that window using the Turtle() method.<br><br>
+            Now, let's try making a turtle(character) in that window using the Turtle() method.<br /><br />
 
             <code>
-              import turtle as turty<br><br>
+              import turtle as turty<br /><br />
 
               mainTurty = turty.Turtle()
             </code>
@@ -128,7 +135,7 @@
       </div>
       <a href="https://replit.com/@HyunseungLeeTra/Demo#main.py">Turtle Example</a>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div style="padding: 10px;">
@@ -136,81 +143,81 @@
           <div>
             <h2>forward, backward, right, left</h2>
 
-            When we first ran the function Turtle(), a turtle-shaped character popped on screen.<br><br>
+            When we first ran the function Turtle(), a turtle-shaped character popped on screen.<br /><br />
 
-            Use the forward() and backward() to move the turtle.<br><br>
+            Use the forward() and backward() to move the turtle.<br /><br />
 
             Furthermore, if you want to turn the turtle, use the right() & left() method then put in the
-            degree.<br><br>
+            degree.<br /><br />
 
             <code>
-              import turtle as turty<br><br>
+              import turtle as turty<br /><br />
 
-              mainTurty = turty.Turtle()<br><br>
+              mainTurty = turty.Turtle()<br /><br />
 
-              mainTurty.right(90) #Right 90 degrees<br>
-              mainTurty.forward(90) #Move front 90 pixel<br>
-              mainTurty.left(90) #Left 90 degrees<br>
+              mainTurty.right(90) #Right 90 degrees<br />
+              mainTurty.forward(90) #Move front 90 pixel<br />
+              mainTurty.left(90) #Left 90 degrees<br />
               mainTurty.backward(90) #Move back 90 pixel
             </code>
 
             Note that rt() can be used instead of right(), fd() instead of forward(), lt() instead of left() and
-            finally, bk() instead of backward().<br><br>
+            finally, bk() instead of backward().<br /><br />
 
             <h2>x, y coordinate</h2>
 
-            We can use the goto() method to move turtle to a specific x and y coordinate.<br><br>
+            We can use the goto() method to move turtle to a specific x and y coordinate.<br /><br />
 
             <code>
-              import turtle as turty<br><br>
+              import turtle as turty<br /><br />
 
-              mainTurty = turty.Turtle()<br><br>
+              mainTurty = turty.Turtle()<br /><br />
 
               mainTurty.goto(100, 100)
             </code>
 
-            Furthermore, use the home() methdo to go to the center of you screen.<br><br>
+            Furthermore, use the home() methdo to go to the center of you screen.<br /><br />
 
-            Note that you can also use the setpos(), setposition() method to move turtle to specific place.<br><br>
+            Note that you can also use the setpos(), setposition() method to move turtle to specific place.<br /><br />
 
             <code>
-              import turtle as turty<br><br>
+              import turtle as turty<br /><br />
 
-              mainTurty = turty.Turtle()<br><br>
+              mainTurty = turty.Turtle()<br /><br />
 
-              mainTurty.goto(444, 444)<br>
-              mainTurty.setpos(444, 444)<br>
-              mainTurty.setposition(444, 444)<br><br>
+              mainTurty.goto(444, 444)<br />
+              mainTurty.setpos(444, 444)<br />
+              mainTurty.setposition(444, 444)<br /><br />
 
               mainTurty.home()
             </code>
 
-            Use setx() and sety() function to move turtle to specific x and y coordinate.<br><br>
+            Use setx() and sety() function to move turtle to specific x and y coordinate.<br /><br />
 
             <code>
-              import turtle as turty<br><br>
+              import turtle as turty<br /><br />
 
-              mainTurty = turty.Turtle()<br><br>
+              mainTurty = turty.Turtle()<br /><br />
 
-              mainTurty.setx(444)<br>
+              mainTurty.setx(444)<br />
               mainTurty.sety(444)
             </code>
 
             <h3>Turtle Direction</h3>
 
-            You can set the angle the turtle will be looking at by using the setheading() or seth() method.<br><br>
+            You can set the angle the turtle will be looking at by using the setheading() or seth() method.<br /><br />
 
             <code>
-              import turtle as turty<br><br>
+              import turtle as turty<br /><br />
 
-              mainTurty = turty.Turtle()<br><br>
+              mainTurty = turty.Turtle()<br /><br />
 
               mainTurty.setheading(180) #look at 180 degree
             </code>
           </div>
         </div>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div class="norm-div" style="background-color: aquamarine;">
           <div style="padding: 10px;">
@@ -218,19 +225,19 @@
             <p>
               <h3>Shape</h3>
 
-              Use the circle() method to make the turtle move in a circle.<br><br>
+              Use the circle() method to make the turtle move in a circle.<br /><br />
 
-              The number parameter inside circle() method is the radius of the circle.<br><br>
+              The number parameter inside circle() method is the radius of the circle.<br /><br />
 
               <code>
-                import turtle as turty<br><br>
+                import turtle as turty<br /><br />
 
-                mainTurty = turty.Turtle()<br><br>
+                mainTurty = turty.Turtle()<br /><br />
 
                 mainTurty.circle(100) #100 radius.
               </code>
 
-              The dot() method will draw a dot on the screen having the radius of given number.<br><br>
+              The dot() method will draw a dot on the screen having the radius of given number.<br /><br />
 
               <code>
                 mainTurty.dot(20)
@@ -238,49 +245,50 @@
 
               <h3>Cloning Turtle</h3>
 
-              When you use the stamp() method, a double turtle will pop up on screen.<br><br>
+              When you use the stamp() method, a double turtle will pop up on screen.<br /><br />
 
               <code>
-                mainTurty.stamp()<br><br>
+                mainTurty.stamp()<br /><br />
 
                 mainTurty.forward(100)
               </code>
 
-              Clear every single fake clones of the turtle using clearstamps() method.<br><br>
+              Clear every single fake clones of the turtle using clearstamps() method.<br /><br />
 
               If you put in a number in clearstamps() that number of stamps, in order, will be cleared from
-              screen.<br><br>
+              screen.<br /><br />
 
               <code>
-                for i in range(30):<br>
-                &nbsp;mainTurty.stamp()<br>
-                &nbsp;mainTurty.fd(10)<br><br>
+                for i in range(30):<br />
+                &nbsp;mainTurty.stamp()<br />
+                &nbsp;mainTurty.fd(10)<br /><br />
 
-                mainTurty.clearstamps(3)<br>
-                mainTurty.clearstamps(-3)<br>
+                mainTurty.clearstamps(3)<br />
+                mainTurty.clearstamps(-3)<br />
                 mainTurty.clearstamps()
               </code>
 
               <h3>Turtle speed</h3>
 
-              To set the turtle speed, use the speed() method and either put in the speed value or speed name.<br><br>
+              To set the turtle speed, use the speed() method and either put in the speed value or speed
+              name.<br /><br />
 
               <code>
                 mainTurty.speed("fastest")
               </code>
 
-              Turtle's speed can be expressed as an intger from 1 to 10.<br><br>
+              Turtle's speed can be expressed as an intger from 1 to 10.<br /><br />
 
-              fastest: 0<br>
-              fast: 10<br>
-              normal: 6<br>
-              slow: 3<br>
+              fastest: 0<br />
+              fast: 10<br />
+              normal: 6<br />
+              slow: 3<br />
               slowest: 1
             </p>
           </div>
         </div>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="margin:20px;padding:20px;">
           <button style="float:left;" class="btn btn-light"><a href="matplotlib-en.html">❮
@@ -289,12 +297,12 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
     </div>
 
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
   <footer>
     <div>
       <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
@@ -303,9 +311,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -313,7 +321,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

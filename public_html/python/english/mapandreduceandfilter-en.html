@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -34,7 +41,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -47,13 +54,13 @@
         <p>
           <h1>Beginner's code</h1>
           Beginnrs usually makes a code like the following when they are asked to create a program that iterates through
-          a list and raise by 2.<br><br>
+          a list and raise by 2.<br /><br />
 
           <code>
-            mainList = [1, 2, 3]<br>
-            newList = []<br><br>
+            mainList = [1, 2, 3]<br />
+            newList = []<br /><br />
 
-            for i in mainList:<br>
+            for i in mainList:<br />
             &nbsp;newList.append(i**2)
           </code>
 
@@ -67,55 +74,55 @@
       <div class="sub-div">
         <div class="text-center">
           <hr>
-          <br>
+          <br />
           <div class="text-center" id="speakdiv">
             <button id="speakbutt" class="btn btn-primary">Read</button>
             <div id="setting">
-              <br><br>
+              <br /><br />
               <img class="img-fluid" alt="python_factory_picture"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                 style="width:25px !important;" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
-              <br>
+              <br />
               <img class="img-fluid" alt="python_factory_picture"
                 src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                 style="width:25px !important;" />
               <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
             </div>
           </div>
-          <br><br>
+          <br /><br />
           <h1 class="display-6"><span id="tit">map, reduce, filter</span><br id="lbbr"><span id="txt">Computer
               Science Lab
               (</span>CSL<span id="txt">)</span>
             64</h1>
-          <br>
+          <br />
           <hr>
         </div>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="display:flex; padding:30px;background-color: rgb(170, 223, 165);">
           <div class="sub-div">
             <h1>Using map()</h1>
             <p>
-              Let's first look at an example of map().<br><br>
+              Let's first look at an example of map().<br /><br />
 
               <code>
-                mainList = [1, 2, 3]<br>
+                mainList = [1, 2, 3]<br />
                 newList = list(map(square, mainList))
               </code>
 
-              map() function has two parameters of function to run on each element and the iterator.<br><br>
+              map() function has two parameters of function to run on each element and the iterator.<br /><br />
 
-              map() will inject every item of the list into square() function and get the return value.<br><br>
+              map() will inject every item of the list into square() function and get the return value.<br /><br />
 
-              The return value will replace the olde ones in the previous list.<br><br>
+              The return value will replace the olde ones in the previous list.<br /><br />
 
               If you want to make your own function, use the lambda(anonymous function) and make 1 parameter and 1
-              returning value.<br><br>
+              returning value.<br /><br />
 
               <code>
-                mainList = [1, 2, 3]<br>
+                mainList = [1, 2, 3]<br />
                 newList = list(map(lambda n: n * 2, mainList))
               </code>
 
@@ -126,18 +133,18 @@
         </div>
         <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/0b62993bad" width="100%"
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div class="norm-div" style="background-color: rgb(158, 235, 238);">
           <div style="padding: 10px;">
             <h1>Using filter()</h1>
             <p>
-              Filtering means to remove specific datas that matches a statement.<br><br>
+              Filtering means to remove specific datas that matches a statement.<br /><br />
 
-              For example, let's try removing any numbers that is below 0.<br><br>
+              For example, let's try removing any numbers that is below 0.<br /><br />
 
               <code>
-                mainList = [1, 2, 3, -1, -2, 5]<br>
+                mainList = [1, 2, 3, -1, -2, 5]<br />
                 newList = filter(lambda number: number < 0, mainList) </code> In the exaple above, each value of
                   mainList will be inected into lambda and if lambda returns True, the item is removed. </p> </div>
                   </div> <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/9eb9345774"
@@ -145,21 +152,21 @@
                   loading="lazy" style="margin:auto;">
                   </iframe>
 
-                  <br><br><br><br>
+                  <br /><br /><br /><br />
 
                   <div style="padding:20px;display:flex;background-color: rgb(214, 174, 181);">
                     <div style="padding: 10px;">
                       <h1>Using reduce()</h1>
                       <p>
-                        If you want to get outcome of every item in list, you can use the reduce() method.<br><br>
+                        If you want to get outcome of every item in list, you can use the reduce() method.<br /><br />
 
-                        For example, you can merge all strings together in a list.<br><br>
+                        For example, you can merge all strings together in a list.<br /><br />
 
                         <code>
-                          from functools import reduce<br><br>
+                          from functools import reduce<br /><br />
 
-                          mainList = ["Hello", " ", "World", "."]<br>
-                          newList = reduce(lambda x, y: x + y, mainList)<br><br>
+                          mainList = ["Hello", " ", "World", "."]<br />
+                          newList = reduce(lambda x, y: x + y, mainList)<br /><br />
 
                           print(newList)
                         </code>
@@ -172,7 +179,7 @@
                     height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
                     style="margin: auto;"></iframe>
 
-                  <br><br><br><br>
+                  <br /><br /><br /><br />
 
                   <div style="margin:20px;padding:20px;">
                     <button style="float:left;" class="btn btn-light"><a href="logging-en.html">❮
@@ -183,7 +190,7 @@
           </div>
         </div>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
       </div>
     </div>
   <footer
@@ -197,9 +204,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -207,7 +214,9 @@
         </div>
         </div>
         </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

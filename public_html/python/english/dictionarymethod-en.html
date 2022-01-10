@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -13,6 +19,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,50 +40,50 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr />
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6">
           <span id="tit">Dictionary Method</span><br id="lbbr" /><span id="txt">Computer Science Lab
             (</span>CSL<span id="txt">)</span> 22
         </h1>
-        <br>
+        <br />
         <hr />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
           <h1>How to add a pair of key and value</h1>
           <p>
             Inside a dictionary variable named 'md', let's try adding 'c'
-            value to the '3' key.<br><br>
+            value to the '3' key.<br /><br />
 
             <code> a[3] = 'c' </code>
           </p>
@@ -85,22 +92,22 @@
           frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="background-color: #c2d7e9; display: flex; padding: 20px">
         <div class="sub-div">
           <h1>How to delete a pair of key and value</h1>
           <p>
             Similar to deletig a variable, we can delete a pair of key and
-            value.<br><br>
+            value.<br /><br />
 
-            We are treating the pair like a single variable.<br><br>
+            We are treating the pair like a single variable.<br /><br />
 
-            Use the del keyword.<br><br>
+            Use the del keyword.<br /><br />
 
             <code>
-              a={1:"A",2:"B",3;"C"}<br>
-              del a[1]<br><br>
+              a={1:"A",2:"B",3;"C"}<br />
+              del a[1]<br /><br />
 
               print(a)
             </code>
@@ -112,48 +119,48 @@
           frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
           <h1>How to change value of key</h1>
           <p>
             To change the value of key, type in the key name inside [] and new
-            value after it.<br><br>
+            value after it.<br /><br />
 
             <code>
-              mainDict = {<br>
-              "member1": "John",<br>
-              "member2": "Sam",<br>
-              "member3": "Maria"<br>
-              }<br><br>
+              mainDict = {<br />
+              "member1": "John",<br />
+              "member2": "Sam",<br />
+              "member3": "Maria"<br />
+              }<br /><br />
 
-              mainDict["member3"] = "Clara"<br><br>
+              mainDict["member3"] = "Clara"<br /><br />
 
               print(mainDict)
             </code>
 
             To add the contents of a dictionary to another, use the update()
-            method.<br><br>
+            method.<br /><br />
 
             It has the following syntax:
-            dictionary.update(secondDictionary)<br><br>
+            dictionary.update(secondDictionary)<br /><br />
 
             If the following key inside secondDictionary already exists in
             dictionary, it updates it. If the key does not exist in
-            dictionary, it adds new ones.<br><br>
+            dictionary, it adds new ones.<br /><br />
 
             <code>
-              cars = {<br>
-              "brand": "Ford",<br>
-              "model": "Mustang",<br>
-              "year": 1964<br>
-              }<br><br>
+              cars = {<br />
+              "brand": "Ford",<br />
+              "model": "Mustang",<br />
+              "year": 1964<br />
+              }<br /><br />
 
-              cars.update({<br>
-              "isFromUnitedStates": true, #new key<br>
-              "brand": "Samsung" #brand is updated to Samsung<br>
-              })<br><br>
+              cars.update({<br />
+              "isFromUnitedStates": true, #new key<br />
+              "brand": "Samsung" #brand is updated to Samsung<br />
+              })<br /><br />
 
               print(cars)
             </code>
@@ -163,27 +170,27 @@
       <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/9b40fb09d3" width="100%" height="356"
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
           <h1>Get dictionary key</h1>
           <p>
-            To find the value of the key, use the get() method.<br><br>
+            To find the value of the key, use the get() method.<br /><br />
 
-            If the value does not exist, it will return a default value.<br><br>
+            If the value does not exist, it will return a default value.<br /><br />
 
             <code>
-              mainDict = {<br>
-              "member1": "John",<br>
-              "member2": "Sam",<br>
-              "member3": "Maria"<br>
-              }<br><br>
+              mainDict = {<br />
+              "member1": "John",<br />
+              "member2": "Sam",<br />
+              "member3": "Maria"<br />
+              }<br /><br />
 
               print(mainDict.get("member1", "Hmmm... Not found"))
             </code>
 
-            member1 exists so get() returns "John".<br><br>
+            member1 exists so get() returns "John".<br /><br />
 
             However, if we put in member4 instead of member1, it will return
             "Hmmm... Not found".
@@ -194,7 +201,7 @@
           style="margin: auto"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin: 20px; padding: 20px">
         <button style="float: left" class="btn btn-light">
@@ -205,7 +212,7 @@
         </button>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
     </div>
   <footer>
     <div>
@@ -215,9 +222,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -225,6 +232,8 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 </html>

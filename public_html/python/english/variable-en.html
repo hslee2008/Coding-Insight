@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -34,7 +41,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -44,9 +51,9 @@
       <div class="sub-div">
         <h1>What is variable?</h1>
         <p>
-          A variable in programming language is a place where you can store information.<br><br>
+          A variable in programming language is a place where you can store information.<br /><br />
 
-          For example, think of a box. It can contain anything that fits into it.<br><br>
+          For example, think of a box. It can contain anything that fits into it.<br /><br />
 
           A variable is very similar to a box.
         </p>
@@ -58,42 +65,42 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center">
       <hr>
-      <br>
+      <br />
       <div class="text-center" id="speakdiv">
         <button id="speakbutt" class="btn btn-primary">Read</button>
         <div id="setting">
-          <br><br>
+          <br /><br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br>
+          <br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
-      <br><br>
+      <br /><br />
       <h1 class="display-6"><span id="tit">Variable</span><br id="lbbr"><span id="txt">Computer
           Science Lab
           (</span>CSL<span id="txt">)</span> 5
       </h1>
-      <br>
+      <br />
       <hr>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div class="sub-div">
         <h1>Declare variable</h1>
         <p>
-          To declare a variable in Python, we can use the following syntax.<br><br>
+          To declare a variable in Python, we can use the following syntax.<br /><br />
 
           <code>
             NAME = DATA
@@ -106,16 +113,16 @@
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div" style="background-color: #f7f7f7;">
       <div class="sub-div">
         <h1>Using variable</h1>
         <p>
-          You can use the value of the variable by using the name of it without "".<br><br>
+          You can use the value of the variable by using the name of it without "".<br /><br />
 
           <code>
-            name = "John"<br><br>
+            name = "John"<br /><br />
             print(name)
           </code>
 
@@ -124,22 +131,22 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div>
         <h1>Variable name rules</h1>
         <p>
-          There are three rules in variable names.<br><br>
+          There are three rules in variable names.<br /><br />
 
-          1. Only alphabets, numbers and _ is allowed<br>
-          2. The first letter of variable name should not be a number<br>
+          1. Only alphabets, numbers and _ is allowed<br />
+          2. The first letter of variable name should not be a number<br />
           3. You cannot use certain names like (yield, return) - this group is called keywords
         </p>
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div class="sub-div">
@@ -152,7 +159,7 @@
     <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/ddd8867b8c" width="100%" height="356"
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div text-white" style="background-color: #2f4960;">
       <div style="margin:auto;">
@@ -162,24 +169,24 @@
       <div>
         <h1>Delete variable</h1>
         <p>
-          We can delete variables to preserve more space.<br><br>
+          We can delete variables to preserve more space.<br /><br />
 
-          Simply use del keyword to delete name.<br><br>
+          Simply use del keyword to delete name.<br /><br />
 
           <code>
-            name = "Python - Factory"<br>
-            del name<br>
+            name = "Python - Factory"<br />
+            del name<br />
             print(name)
           </code>
 
-          If we run the code above, we get an error.<br><br>
+          If we run the code above, we get an error.<br /><br />
 
-          We are trying to print a variable that does not exist.<br><br>
+          We are trying to print a variable that does not exist.<br /><br />
         </p>
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div" style="background-color: #f6f6f6;">
       <div style="margin: auto;">
@@ -190,20 +197,20 @@
         <h1>Declare multiple variables at once</h1>
         <p>
           To declare mutiple variable and assign multiple values, use commas to seperate names and values left and right
-          side of '='.<br><br>
+          side of '='.<br /><br />
 
           <code>
-            a, b, c = 1, 2, 3<br>
+            a, b, c = 1, 2, 3<br />
             print(a)
           </code>
 
-          To assign single value to multiple variable, line them up and put value at the end.<br><br>
+          To assign single value to multiple variable, line them up and put value at the end.<br /><br />
 
           <code>
-            a = b = c = d = e = "alphabet"<br><br>
+            a = b = c = d = e = "alphabet"<br /><br />
 
-            print(a)<br>
-            print(b)<br>
+            print(a)<br />
+            print(b)<br />
             print(c)
           </code>
 
@@ -211,14 +218,14 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="margin:20px;padding:20px;">
       <button style="float:left;" class="btn btn-light"><a href="io-en.html">❮ Previous</a></button>
       <button style="float:right;" class="btn btn-light"><a href="datatype-en.html">Next ❯</a></button>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center border border-dark rounded p-3 m-3">
       <h1>Solve This Quiz!!</h1>
@@ -246,7 +253,7 @@
         <label for="question-1-answers-D">D) Other </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3>How do we declare variable in Python?</h3>
 
@@ -270,7 +277,7 @@
         <label for="question-2-answers-D">D) Name = Value </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3>What goes against the rule of variable names in Python?</h3>
 
@@ -294,7 +301,7 @@
         <label for="question-3-answers-D">D) hello123 </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3> How do we change variable's value in Python? </h3>
 
@@ -318,7 +325,7 @@
         <label for="question-4-answers-D">D) Value == Name </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3>How do we delete variable?</h3>
 
@@ -340,7 +347,7 @@
       <div>
         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
         <label for="question-5-answers-D">D) delete() </label>
-      </div> <br><br>
+      </div> <br /><br />
 
       <button id="checky" class="btn btn-dark"
         onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1is right!")} else {alert("1is wrong")}; if(document.getElementById("question-2-answers-D").checked) {alert("2is right :)")} else {alert("2is wrong")}; if(document.getElementById("question-3-answers-B").checked) {alert("3is right!")} else {alert("3is wrong")}; if(document.getElementById("question-4-answers-A").checked) {alert("4is right :)")} else {alert("4is wrong")}; if(document.getElementById("question-5-answers-A").checked) {alert("5is right :o")} else {alert("5is wrong")};'>Check
@@ -357,9 +364,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -367,7 +374,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

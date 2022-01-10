@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -30,7 +37,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -39,13 +46,13 @@
     <div class="sub-div">
       <h1>string.h</h1>
       <p>
-        string.h는 라이브러리 이름입니다.<br><br>
+        string.h는 라이브러리 이름입니다.<br /><br />
 
-        라이브러리란 특별한 기능을 담고 있는 파일을 뜻합니다.<br><br>
+        라이브러리란 특별한 기능을 담고 있는 파일을 뜻합니다.<br /><br />
 
-        그 라이브러리의 파일 안에서 특별한 함수를 가지고 와서 사용할 수 있습니다.<br><br>
+        그 라이브러리의 파일 안에서 특별한 함수를 가지고 와서 사용할 수 있습니다.<br /><br />
 
-        가지고 오려면 #include &lt;>를 사용해서 &lt;> 안에 라이브러리 이름을 넣습니다.<br><br>
+        가지고 오려면 #include &lt;>를 사용해서 &lt;> 안에 라이브러리 이름을 넣습니다.<br /><br />
 
         <code>#include &lt;string.h></code>
       </p>
@@ -57,36 +64,36 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="text-center">
     <hr>
-    <br>
+    <br />
     <div class="text-center" id="speakdiv">
       <button id="speakbutt" class="btn btn-primary">읽어주기</button>
       <div id="setting">
-        <br><br>
+        <br /><br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width:25px !important;" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
-        <br>
+        <br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width:25px !important;" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
       </div>
     </div>
-    <br><br>
+    <br /><br />
     <h1 class="display-6"><span id="tit">string 라이브러리</span><br id="lbbr"><span id="txt">Computer
         Science Lab
         (</span>CSL<span id="txt">)</span> 26
     </h1>
-    <br>
+    <br />
     <hr>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div">
     <div class="sub-div">
@@ -94,31 +101,31 @@
       <p>
         <h3>strcat()</h3>
 
-        문자열 a에 문자열 b를 붙이기 위해서 strcat() 함수를 사용할 수 있습니다.<br><br>
+        문자열 a에 문자열 b를 붙이기 위해서 strcat() 함수를 사용할 수 있습니다.<br /><br />
 
-        strcat(string, secondString) 형태로 string 변수의 값 뒤에 secondString 변수의 값을 붙입니다.<br><br>
+        strcat(string, secondString) 형태로 string 변수의 값 뒤에 secondString 변수의 값을 붙입니다.<br /><br />
 
-        secondString은 변수가 아닌 문자열이어도 됩니다.<br><br>
+        secondString은 변수가 아닌 문자열이어도 됩니다.<br /><br />
 
         <code>
-          char str[99];<br><br>
+          char str[99];<br /><br />
 
-          strcpy(str, "Hello World");<br><br>
+          strcpy(str, "Hello World");<br /><br />
 
           puts(str);
         </code>
 
         <h3>strncat()</h3>
 
-        strncat은 strcat()과 비슷하지만 한 변수에 다른 변수의 문자열(길이가 제한되어 있습니다)을 붙입니다.<br><br>
+        strncat은 strcat()과 비슷하지만 한 변수에 다른 변수의 문자열(길이가 제한되어 있습니다)을 붙입니다.<br /><br />
 
-        strncat(string, secondString, x) 형태로 string에 secondString의 x번째에서 끊어서 붙입니다.<br><br>
+        strncat(string, secondString, x) 형태로 string에 secondString의 x번째에서 끊어서 붙입니다.<br /><br />
 
         <code>
-          char strs[99] = "Hello ";<br>
-          char secStr[99] = "World";<br><br>
+          char strs[99] = "Hello ";<br />
+          char secStr[99] = "World";<br /><br />
 
-          strncat(strs, secStr, 5);<br><br>
+          strncat(strs, secStr, 5);<br /><br />
 
           puts(strs);
         </code>
@@ -130,13 +137,13 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div style="padding:30px;margin:30px;background-color: #000000;color:white;display:flex;">
     <div class="sub-div">
       <h1>문자열 길이 구하기</h1>
       <p>
-        strlen(string) 형태로 string 문자열의 길이를 알 수 있습니다.<br><br>
+        strlen(string) 형태로 string 문자열의 길이를 알 수 있습니다.<br /><br />
 
         <code>
           printf("%d", strlen("C is awsome"));
@@ -150,33 +157,19 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div style="margin:20px;padding:20px;">
     <button style="float:left;" class="btn btn-light"><a href="string.html">❮ 이전</a></button>
     <button style="float:right;" class="btn btn-light"><a href="2darr.html">다음 ❯</a></button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
-    </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
+  <pyfact-footer></pyfact-footer>
+  </div>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

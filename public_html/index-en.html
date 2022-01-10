@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
@@ -76,6 +82,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -92,7 +99,7 @@
   <div id="introduct">
     <nav id="title" style="display:flex;height:800px; justify-content: center;">
       <div id="main">
-        <br><br>
+        <br /><br />
         <h1 style="color:white;text-decoration:underline;text-decoration-color: dodgerblue;">Hello</h1>
         <h2 style="color:white;">We are Python-Factory</h2>
         <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px">
@@ -125,7 +132,7 @@
           <p class="card-text">
             Our goal is to teach text based programming to students who mastered block coding but is struggling
             with text
-            programming<br><br>
+            programming<br /><br />
 
             Let's start with Python!
           </p>
@@ -142,11 +149,11 @@
       </div>
       <div style="font-size:14px;padding:50px;">
         <p>
-          Have you ever heard the word 'Scratch' in your life?<br><br>
+          Have you ever heard the word 'Scratch' in your life?<br /><br />
 
-          'Scratch' is a type of block coding language.<br><br>
+          'Scratch' is a type of block coding language.<br /><br />
 
-          In this site, we will be learning about Python.<br><br>
+          In this site, we will be learning about Python.<br /><br />
 
           While Scratch can only make animation, simple games, quizzes and a bit more, learning Python can give you
           infinite access to everything.
@@ -167,7 +174,7 @@
         <h2 style="font-size:20px;">Python</h2>
         <div style="font-size:14px;padding:50px;">
           <p>
-            Have you ever heard of the word "Python"?<br><br>
+            Have you ever heard of the word "Python"?<br /><br />
 
             It is a language used by developers to make a computer do anything for you!
           </p>
@@ -188,7 +195,7 @@
         <h2 style="font-size:20px;">C</h2>
         <div style="font-size:14px;padding:50px;">
           <p>
-            Did you know that C programming languaeg is named 'C'<br> because it is better than 'C' programming
+            Did you know that C programming languaeg is named 'C'<br /> because it is better than 'C' programming
             language?
           </p>
         </div>
@@ -205,13 +212,13 @@
   </div>
 
   <div
-    style="text-align:center;margin:100px;background-color:#333333;border-style:solid;border-color:#595959;border-radius:10px;padding:50px;display:flex;"
+    style="text-align:center;margin:100px;background-color:#333333;border-style:solid;border-color:#595959;border-radius:10px;padding:50px;display:flex;color:white;"
     id="git">
     <div>
       <h2 style="font-size:20px;">Github</h2>
       <div style="font-size:14px;padding:50px;">
         <p>
-          GitHub is an virtual environment for teams to store codes!<br><br>
+          GitHub is an virtual environment for teams to store codes!<br /><br />
 
           Checkout out our official release pages in GitHub.
         </p>
@@ -236,9 +243,9 @@
       <h2 style="font-size:20px;">Install Phone app and Computer app</h2>
       <div style="font-size:14px;padding:50px;">
         <p>
-          We made our own Phone app and Computer app to easily navigate to our site!<br><br>
+          We made our own Phone app and Computer app to easily navigate to our site!<br /><br />
 
-          Phone app is made with React Native<br>
+          Phone app is made with React Native<br />
           Computer App is made with Python
         </p>
       </div>
@@ -250,33 +257,7 @@
         src="data:image/jpeg;base64,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" />
     </div>
   </div>
-  <br>
-  <div class="container">
-    <h1>Send Message</h1>
-    <form target="_blank" action="https://formsubmit.co/hyunseunglee2008@gmail.com" method="POST">
-      <div class="form-group">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="names">Name</label>
-            <input type="text class=" form-control" id="names aria-describedby=" emailHelp" placeholder="Type in name"
-              required>
-          </div>
-          <br>
-          <div class="form-group">
-            <label for="names">Email</label>
-            <input type="email" name="email" class="form-control" id="email" placeholder="Type in email" required>
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <br>
-        <textarea placeholder="message" class="form-control" name="message" rows="10" required></textarea>
-      </div>
-      <br>
-      <button type="submit" class="btn btn-lg btn-dark btn-block">Send!</button>
-    </form>
-  </div>
-  <br><br>
+  <br /><br />
   <footer>
     <div>
       <a class="btn btn-light" href="/chat.html">Questions</a>
@@ -285,9 +266,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -295,6 +276,7 @@
       </div>
     </div>
   </footer>
+  </div>
 
   <script>
     document.querySelector( "#main" ).style.padding = "200px";
@@ -359,6 +341,7 @@
       document.querySelector( "#date" ).innerText = "Last Update: " + timeString + " ago";
     }, 500 );
   </script>
+<script src="vuejs.js"></script>
 </body>
 
 </html>

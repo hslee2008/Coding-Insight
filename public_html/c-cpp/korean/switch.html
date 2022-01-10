@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -30,7 +37,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -39,7 +46,7 @@
     <div class="sub-div">
       <h1>Switch</h1>
       <p>
-        C 언어에서 switch는 조건문과 비슷하지만 변수와 다른 값을 비교합니다.<br><br>
+        C 언어에서 switch는 조건문과 비슷하지만 변수와 다른 값을 비교합니다.<br /><br />
 
         switch는 '=='를 사용한 조건문입니다.
         </code>
@@ -52,64 +59,64 @@
 
   <div class="text-center">
     <hr>
-    <br>
+    <br />
     <div class="text-center" id="speakdiv">
       <button id="speakbutt" class="btn btn-primary">읽어주기</button>
       <div id="setting">
-        <br><br>
+        <br /><br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width:25px !important;" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
-        <br>
+        <br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width:25px !important;" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
       </div>
     </div>
-    <br><br>
+    <br /><br />
     <h1 class="display-6"><span id="tit">Switch 문</span><br id="lbbr"><span id="txt">Computer
         Science Lab
         (</span>CSL<span id="txt">)</span> 17
     </h1>
-    <br>
+    <br />
     <hr>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="norm-div">
     <div class="sub-div">
       <h1>조건문이 복잡해진다!!!</h1>
       <p>
-        조건문이 매우 복잡해질 때가 있습니다.<br><br>
+        조건문이 매우 복잡해질 때가 있습니다.<br /><br />
 
-        예를 들면, char를 입력 받아 A이면 1, B이면 2, C이면 3그리고 F이면 6까지 출력하는 프로그램을 만들어 보겠습니다.<br><br>
+        예를 들면, char를 입력 받아 A이면 1, B이면 2, C이면 3그리고 F이면 6까지 출력하는 프로그램을 만들어 보겠습니다.<br /><br />
 
         <code>
-          #include &lt;stdio.h><br><br>
+          #include &lt;stdio.h><br /><br />
 
-          int main()<br>
-          {<br>
-          &nbsp;&nbsp;char a;<br>
-          &nbsp;&nbsp;scanf("%d", &a);<br><br>
+          int main()<br />
+          {<br />
+          &nbsp;&nbsp;char a;<br />
+          &nbsp;&nbsp;scanf("%d", &a);<br /><br />
 
-          &nbsp;&nbsp;if(a == 'A') {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("1");<br>
-          &nbsp;&nbsp;} else if(a == 'B') {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("2");<br>
-          &nbsp;&nbsp;} else if(a == 'C') {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("3");<br>
-          &nbsp;&nbsp;}else if(a == 'D') {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("4");<br>
-          &nbsp;&nbsp;} else if(a == 'E') {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("5");<br>
-          &nbsp;&nbsp;} else if(a == 'F') {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("6");<br>
-          &nbsp;&nbsp;}<br><br>
+          &nbsp;&nbsp;if(a == 'A') {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("1");<br />
+          &nbsp;&nbsp;} else if(a == 'B') {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("2");<br />
+          &nbsp;&nbsp;} else if(a == 'C') {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("3");<br />
+          &nbsp;&nbsp;}else if(a == 'D') {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("4");<br />
+          &nbsp;&nbsp;} else if(a == 'E') {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("5");<br />
+          &nbsp;&nbsp;} else if(a == 'F') {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("6");<br />
+          &nbsp;&nbsp;}<br /><br />
 
-          &nbsp;&nbsp;return 0;<br>
+          &nbsp;&nbsp;return 0;<br />
           }
         </code>
 
@@ -122,36 +129,36 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div style="padding:30px;display:flex;background-color: black;margin:30px;color:white;">
     <div class="sub-div">
       <h1>switch 문</h1>
       <p>
-        1. switch() {}를 선언한 후 괄호() 안에 비교하고 싶은 변수를 넣습니다.<br><br>
-        (지금부터 중괄호{} 안에 코드를 넣습니다.)<br><br>
-        2. case "A":라고 친 후 새로운 줄에 만일 a의 값이 A라면 샐행할 코드를 넣습니다.<br><br>
-        (참고로 case는 {} 중괄호를 사용하지 않고 ':'를 사용합니다)<br><br>
-        4. 그리고 항상 a의 값이 A라면 실행할 코드 다음에 "break"를 넣어야 합니다.<br><br>
+        1. switch() {}를 선언한 후 괄호() 안에 비교하고 싶은 변수를 넣습니다.<br /><br />
+        (지금부터 중괄호{} 안에 코드를 넣습니다.)<br /><br />
+        2. case "A":라고 친 후 새로운 줄에 만일 a의 값이 A라면 샐행할 코드를 넣습니다.<br /><br />
+        (참고로 case는 {} 중괄호를 사용하지 않고 ':'를 사용합니다)<br /><br />
+        4. 그리고 항상 a의 값이 A라면 실행할 코드 다음에 "break"를 넣어야 합니다.<br /><br />
 
         <code>
-          #include &lt;stdio.h><br><br>
+          #include &lt;stdio.h><br /><br />
 
-          int main()<br>
-          {<br>
-          &nbsp;&nbsp;char a;<br>
-          &nbsp;&nbsp;scanf("%c", a);<br><br>
+          int main()<br />
+          {<br />
+          &nbsp;&nbsp;char a;<br />
+          &nbsp;&nbsp;scanf("%c", a);<br /><br />
 
-          &nbsp;&nbsp;switch(a) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;case 'A':<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("1");<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reak;<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;case 'B':<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("2");<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
-          &nbsp;&nbsp;}<br><br>
+          &nbsp;&nbsp;switch(a) {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;case 'A':<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("1");<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reak;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;case 'B':<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("2");<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br />
+          &nbsp;&nbsp;}<br /><br />
 
-          &nbsp;&nbsp;return 0;<br>
+          &nbsp;&nbsp;return 0;<br />
           }
         </code>
 
@@ -162,35 +169,21 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
-  <br><br>
+  <br /><br />
 
   <div style="margin:20px;padding:20px;">
     <button style="float:left;" class="btn btn-light"><a href="hardif.html">❮ 이전</a></button>
     <button style="float:right;" class="btn btn-light"><a href="for.html">다음 ❯</a></button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
-    </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
+  <pyfact-footer></pyfact-footer>
+  </div>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

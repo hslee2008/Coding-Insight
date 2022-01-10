@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -13,6 +19,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,17 +40,17 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
-<br><br>
+<br /><br />
 
   <div class="d-flex">
     <div class="sub-div">
       <h1>What is PIP?</h1>
       <p>
-        PIP is a program that handles files and modules.<br><br>
+        PIP is a program that handles files and modules.<br /><br />
 
         In Python compiler higher than 3.4 will automatically download PIP.
       </p>
@@ -54,49 +61,49 @@
       </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr />
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6">
           <span id="tit">PIP</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span> 56
         </h1>
-        <br>
+        <br />
         <hr />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
           <h1>Check whether PIP is installed</h1>
           <p>
-            First, press 'windows+r'.<br><br>
+            First, press 'windows+r'.<br /><br />
 
-            A new window will pop up and type in 'cmd' and press enter.<br><br>
+            A new window will pop up and type in 'cmd' and press enter.<br /><br />
 
-            Next, type in 'pip --version' in the terminal.<br><br>
+            Next, type in 'pip --version' in the terminal.<br /><br />
 
-            If a number appears, you have PIP in your computer!<br>
+            If a number appears, you have PIP in your computer!<br />
             If error occurs, let's download PIP right now!
           </p>
         </div>
@@ -105,7 +112,7 @@
           width="500px" />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="padding: 20px; background-color: #a297d3">
@@ -113,15 +120,15 @@
             <h1>How to install PIP</h1>
             <p>
               Back to first when we downloaded Python, open the download page
-              again.<br><br>
+              again.<br /><br />
 
-              Download Python again.<br><br>
+              Download Python again.<br /><br />
 
-              Then, click on the 'MODIFY' button.<br><br>
+              Then, click on the 'MODIFY' button.<br /><br />
 
-              <img class="img-fluid" alt="python_factory_picture" src="img/설치.jpg" width="400px" /><br><br>
+              <img class="img-fluid" alt="python_factory_picture" src="img/설치.jpg" width="400px" /><br /><br />
 
-              Next, click the 'install pip' option and continue.<br><br>
+              Next, click the 'install pip' option and continue.<br /><br />
 
               Then, open the terminal like we did before (windows+r and type
               cmd), type in 'pip install pip'.
@@ -130,17 +137,17 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="norm-div">
           <div class="inner-div">
             <h1>PIP install & uninstall</h1>
             <p>
-              We can easily install any package in the world using PIP.<br><br>
+              We can easily install any package in the world using PIP.<br /><br />
 
               Run the command 'pip install packagename' to install a specific
-              pacakge(replace pacakgename with the name of the pacakge).<br><br>
+              pacakge(replace pacakgename with the name of the pacakge).<br /><br />
 
               <code> pip install camelcase </code>
             </p>
@@ -148,22 +155,22 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="padding: 20px; background-color: #c9d4b3">
           <div class="inner-div">
             <h1>PIP show</h1>
-            The 'pip uninstall packagename' will uninstall the pacakge.<br><br>
+            The 'pip uninstall packagename' will uninstall the pacakge.<br /><br />
 
             <code> pip show pygame </code>
           </div>
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin: 20px; padding: 20px">
         <button style="float: left" class="btn btn-light">
@@ -176,7 +183,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <footer>
     <div>
@@ -186,9 +193,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -196,6 +203,8 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 </html>

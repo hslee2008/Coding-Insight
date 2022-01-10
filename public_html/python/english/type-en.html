@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,43 +40,43 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr>
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width:25px !important;" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width:25px !important;" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6"><span id="tit">Type Assignment</span><br id="lbbr"><span id="txt">Computer
             Science
             Lab (</span>CSL<span id="txt">)</span> 32
         </h1>
-        <br>
+        <br />
         <hr>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
@@ -77,13 +84,13 @@
           <p>
             We can decide what kind of data type the user should use. Put ':' and data type name after
             variable
-            name.<br><br>
+            name.<br /><br />
 
             To decide the return value, put '-> str' after the parenthesis so that the developer does not return the
-            wrong kind of format.<br><br>
+            wrong kind of format.<br /><br />
 
             <code>
-              def wowAnd(nextToWow: str) -> str:<br>
+              def wowAnd(nextToWow: str) -> str:<br />
               &nbsp;return "wow " + nextToWow
             </code>
 
@@ -96,38 +103,38 @@
           style="margin: auto;"></iframe>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="d-flex bg-black text-white" style="padding:20px;">
           <div style="padding:10px;">
           <h1>Is it callable?</h1>
           <p>
-            Sometimes, we might get confused with variable names and function names.<br><br>
+            Sometimes, we might get confused with variable names and function names.<br /><br />
 
             Use callable() function and put in either variable name or function name to see whether they are
-            callable.<br><br>
+            callable.<br /><br />
 
-            Callable means we can reference them and run the code inside.<br><br>
+            Callable means we can reference them and run the code inside.<br /><br />
 
             <code>
-              def testing():<br>
-              &nbsp;print("hello world")<br><br>
+              def testing():<br />
+              &nbsp;print("hello world")<br /><br />
 
-              test = "test"<br><br>
+              test = "test"<br /><br />
 
-              print(callable(testing)) #True<br>
+              print(callable(testing)) #True<br />
               print(callable(test)) #False
             </code>
 
             We can use callable to prevent silly errors such as mistaking a function name for variable name and vice
-            versa.<br><br>
+            versa.<br /><br />
 
             <code>
-              def testing():<br>
-              &nbsp;print("hello world")<br><br>
+              def testing():<br />
+              &nbsp;print("hello world")<br /><br />
 
-              test = "test"<br><br>
+              test = "test"<br /><br />
 
               test()
             </code>
@@ -139,7 +146,7 @@
     </div>
     </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div style="margin:20px;padding:20px;">
     <button style="float:left;" class="btn btn-light"><a href="specialvariable-en.html">❮
@@ -148,7 +155,7 @@
         ❯</a></button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
   </div>
   <footer>
     <div>
@@ -158,9 +165,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -168,7 +175,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

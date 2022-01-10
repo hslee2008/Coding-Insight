@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -13,6 +19,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,50 +40,50 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
 
   <div class="text-center">
     <hr />
-    <br>
+    <br />
     <div class="text-center" id="speakdiv">
       <button id="speakbutt" class="btn btn-primary">Read</button>
       <div id="setting">
-        <br><br>
+        <br /><br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width: 25px !important" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
-        <br>
+        <br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width: 25px !important" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
       </div>
     </div>
-    <br><br>
+    <br /><br />
     <h1 class="display-6">
       <span id="tit">String Method1</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
         id="txt">)</span> 9
     </h1>
-    <br>
+    <br />
     <hr />
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div">
     <div class="sub-div">
       <h1>Get length of string</h1>
       <p>
-        To get the length of a certain string, we can use the len() code.<br><br>
+        To get the length of a certain string, we can use the len() code.<br /><br />
 
-        Simply put a string inside len() and it will return a number.<br><br>
+        Simply put a string inside len() and it will return a number.<br /><br />
 
         <code>
-          a = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"<br>
+          a = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"<br />
           print(len(a)) #26 is printed
         </code>
       </p>
@@ -85,19 +92,19 @@
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div" style="background-color: #e6b2b2">
     <div class="sub-div">
       <h1>Check whether substring is inside string</h1>
       <p>
-        Substring means a part of a string.<br><br>
+        Substring means a part of a string.<br /><br />
 
         To check whether a substring is inside a string, we can use the 'in'
-        keyword.<br><br>
+        keyword.<br /><br />
 
         'Teddy Bear' in 'this box'. Similar to this syntax, put substring
-        first and string later with 'in' seperating.<br><br>
+        first and string later with 'in' seperating.<br /><br />
 
         <code> print('abc' in 'abcdef') </code>
       </p>
@@ -106,19 +113,19 @@
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div" style="background-color: #ebece9">
     <div class="sub-div">
       <h1>Substring's index in string</h1>
       <p>
         To get the index of a substring which is inside string, use the
-        index() method.<br><br>
+        index() method.<br /><br />
 
-        Having the format of 'string'.index(string), it prints the index.<br><br>
+        Having the format of 'string'.index(string), it prints the index.<br /><br />
 
         Note that if the substring does not exist, the code will cause an
-        error.<br><br>
+        error.<br /><br />
 
         <code> print('abcdef'.index('abc')) </code>
       </p>
@@ -130,37 +137,37 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div" style="background-color: black; color: white;">
     <div class="sub-div">
       <h1>Uppercase and Lowercase in string</h1>
       <p>
-        Python has lots of useful tools for handling upper and lowercase.<br><br>
+        Python has lots of useful tools for handling upper and lowercase.<br /><br />
 
         <code>
-          a = "hello world"<br>
-          b = "HELLO WORLD Ω"<br><br>
+          a = "hello world"<br />
+          b = "HELLO WORLD Ω"<br /><br />
 
-          print(a.capitalize()) #Hello world is printed<br>
-          print(a.title()) #Hello World printed<br>
-          print(a.upper()) #HELLO WORLD is printed<br>
-          print(b.lower()) #hello world Ω is printed<br>
-          print(b.isupper()) #True<br>
-          print(b.islower()) #False<br>
+          print(a.capitalize()) #Hello world is printed<br />
+          print(a.title()) #Hello World printed<br />
+          print(a.upper()) #HELLO WORLD is printed<br />
+          print(b.lower()) #hello world Ω is printed<br />
+          print(b.isupper()) #True<br />
+          print(b.islower()) #False<br />
           print(a.istitle()) #False
         </code>
 
-        capitalize() makes the first alphabet of the sentence capitalized.<br><br>
+        capitalize() makes the first alphabet of the sentence capitalized.<br /><br />
 
-        title() makes the string into a title format (books).<br><br>
+        title() makes the string into a title format (books).<br /><br />
 
-        upper() makes every single alphabet into an upper case letter.<br><br>
+        upper() makes every single alphabet into an upper case letter.<br /><br />
 
-        lower() on the other hand, makes everything into lower case.<br><br>
+        lower() on the other hand, makes everything into lower case.<br /><br />
 
         isupper() and is islower() checks whether the string is in all upper
-        or lower case. Guess which is which.<br><br>
+        or lower case. Guess which is which.<br /><br />
 
         istitle() returns either True or False depending whether the string is
         in title format.
@@ -172,29 +179,29 @@
     frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div" style="background-color: #6dcfba">
     <div class="sub-div">
       <h1>Centering string</h1>
       <p>
         Centering a string means surrounding the original string with new
-        characters.<br><br>
+        characters.<br /><br />
 
         With ' ' surrounding the string, it will look like it is in the
-        middle.<br><br>
+        middle.<br /><br />
 
         <code>
-          txt = "Hello World"<br>
-          x = txt.center(50)<br>
+          txt = "Hello World"<br />
+          x = txt.center(50)<br />
           print(x)
         </code>
 
-        Put the number of characters for each side of original string.<br><br>
+        Put the number of characters for each side of original string.<br /><br />
 
         <code>
-          txt = "Hello World"<br>
-          x = txt.center(50, '|')<br>
+          txt = "Hello World"<br />
+          x = txt.center(50, '|')<br />
           print(x)
         </code>
 
@@ -207,7 +214,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div style="margin: 20px; padding: 20px">
     <button style="float: left" class="btn btn-light">
@@ -218,7 +225,7 @@
     </button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div style="text-align: center; font-size: 25px">
     <h3>How do we get the length of string in Python</h3>
@@ -242,7 +249,7 @@
       <label for="question-1-answers-D">D) length() </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <h3>How do we check for a substring inside string?</h3>
 
@@ -266,7 +273,7 @@
       <label for="question-2-answers-D">D) &lt </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <h3>How do we check the index of a substring inside string?</h3>
 
@@ -290,7 +297,7 @@
       <label for="question-3-answers-D">D) index </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <h3>How do we change to uppercase and lowercase in Python?</h3>
 
@@ -315,7 +322,7 @@
       <label for="question-4-answers-D">D) u(), l() </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <h3>How do we center string in Python?</h3>
 
@@ -339,7 +346,7 @@
       <label for="question-5-answers-D">D) toMiddle() </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <button id="checky" class="btn btn-dark"
       onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1 is right!")} else {alert("1 is wrong")}; if(document.getElementById("question-2-answers-C").checked) {alert("2 is right :)")} else {alert("2 is wrong")};if(document.getElementById("question-3-answers-C").checked) {alert("3 is right :)")} else {alert("3 is wrong")};if(document.getElementById("question-4-answers-A").checked) {alert("4 is right :)")} else {alert("4 is wrong")};if(document.getElementById("question-5-answers-A").checked) {alert("5 is right :)")} else {alert("5 is wrong")};'>
@@ -347,7 +354,7 @@
     </button>
   </div>
 
-  <br><br>
+  <br /><br />
   <footer>
     <div>
       <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
@@ -356,9 +363,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -366,6 +373,8 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 </html>

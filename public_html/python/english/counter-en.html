@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -13,6 +19,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,7 +40,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -42,13 +49,13 @@
       <h1>Example and Explanation</h1>
       <p>
         Inside collection module, there is a class named Counter() that let's
-        us get information about iterables.<br><br>
+        us get information about iterables.<br /><br />
 
         For example, let's try to find the number of each items using the
-        Counter() fuction.<br><br>
+        Counter() fuction.<br /><br />
 
         <code>
-          from collections import Counter<br><br>
+          from collections import Counter<br /><br />
 
           print(Counter(["A", "A", "B"])) #{"A": 2, "B": 1}
         </code>
@@ -63,32 +70,32 @@
       <div class="sub-div">
         <div class="text-center">
           <hr />
-          <br>
+          <br />
           <div class="text-center" id="speakdiv">
             <button id="speakbutt" class="btn btn-primary">Read</button>
             <div id="setting">
-              <br><br>
+              <br /><br />
               <img class="img-fluid" alt="python_factory_picture"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                 style="width: 25px !important" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
-              <br>
+              <br />
               <img class="img-fluid" alt="python_factory_picture"
                 src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                 style="width: 25px !important" />
               <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
             </div>
           </div>
-          <br><br>
+          <br /><br />
           <h1 class="display-6">
             <span id="tit">Counter</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
               id="txt">)</span> 77
           </h1>
-          <br>
+          <br />
           <hr />
         </div>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="
               display: flex;
@@ -101,7 +108,7 @@
             <p>
               We can set the counter as a global variable and update it by
               using update() method every time we want to count a new
-              iterable.<br><br>
+              iterable.<br /><br />
 
               If we update the original counter, a new iterable will be added
               to it.
@@ -112,7 +119,7 @@
             style="margin: auto"></iframe>
         </div>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="
               display: flex;
@@ -123,7 +130,7 @@
           <div class="sub-div">
             <h1>elements() method</h1>
             <p>
-              Every time we update, the counter's elements changes.<br><br>
+              Every time we update, the counter's elements changes.<br /><br />
 
               To get the complete list of the counter's elements, use the
               elements() method.
@@ -134,7 +141,7 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto"></iframe>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="
               display: flex;
@@ -146,7 +153,7 @@
             <h1>most_common() method</h1>
             <p>
               To get the xth most common element in a counter, use the
-              most_common() method and put x inside as a parameter.<br><br>
+              most_common() method and put x inside as a parameter.<br /><br />
 
               [("A", 2), ("B", 2), ("C", 2)] is printed.
             </p>
@@ -156,7 +163,7 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto"></iframe>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="
               display: flex;
@@ -167,14 +174,14 @@
           <div class="sub-div">
             <h1>Subtracting</h1>
             <p>
-              We can subtract two counters and get a new one.<br><br>
+              We can subtract two counters and get a new one.<br /><br />
 
               If the number gets below zero, Python will keep it that way even
-              though having -1 items does not make sense.<br><br>
+              though having -1 items does not make sense.<br /><br />
 
               <code>
-                a = Counter(a = 4, b = 5)<br>
-                b = Counter(a = 6, b = 9)<br><br>
+                a = Counter(a = 4, b = 5)<br />
+                b = Counter(a = 6, b = 9)<br /><br />
 
                 print(a.subtract(b))
               </code>
@@ -182,7 +189,7 @@
           </div>
         </div>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="margin: 20px; padding: 20px">
           <button style="float: left" class="btn btn-light">
@@ -196,7 +203,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <footer>
     <div>
@@ -206,9 +213,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -216,6 +223,8 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 </html>

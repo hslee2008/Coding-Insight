@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -30,7 +37,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -39,21 +46,21 @@
     <div class="sub-div">
       <h1>조건문 다른 방법으로 만들기</h1>
       <p>
-        조건문을 if...else if...else 형태와는 조금 다른 기능을 C 언어에서는 사용할 수 있습니다.<br><br>
+        조건문을 if...else if...else 형태와는 조금 다른 기능을 C 언어에서는 사용할 수 있습니다.<br /><br />
 
-        if, else if, 그리고 else 앞에 #를 붙이면 됩니다.<br><br>
+        if, else if, 그리고 else 앞에 #를 붙이면 됩니다.<br /><br />
 
-        쉽게 설명하자면, #이 없는 조건문은 조건을 따라 실행하고 #가 있다면 쉽게 미리 어떤 코드를 실행할지 정합니다.<br><br>
+        쉽게 설명하자면, #이 없는 조건문은 조건을 따라 실행하고 #가 있다면 쉽게 미리 어떤 코드를 실행할지 정합니다.<br /><br />
 
         <code>
-          #if 1 == 1<br>
-          printf("1");<br>
-          #else<br>
-          printf("not 1");<br>
+          #if 1 == 1<br />
+          printf("1");<br />
+          #else<br />
+          printf("not 1");<br />
           #endif
         </code>
 
-        #을 사용하지 않으면 1 == 1일때 printf("1")을 실행하고 아니면 printf("not 1")을 실행합니다.<br><br>
+        #을 사용하지 않으면 1 == 1일때 printf("1")을 실행하고 아니면 printf("not 1")을 실행합니다.<br /><br />
 
         #를 사용하면 미리 C 언어가 1 == 1이라는 것을 알고 printf("1");만 사용합니다.
       </p>
@@ -64,50 +71,50 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="text-center">
     <hr>
-    <br>
+    <br />
     <div class="text-center" id="speakdiv">
       <button id="speakbutt" class="btn btn-primary">읽어주기</button>
       <div id="setting">
-        <br><br>
+        <br /><br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width:25px !important;" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
-        <br>
+        <br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width:25px !important;" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
       </div>
     </div>
-    <br><br>
+    <br /><br />
     <h1 class="display-6"><span id="tit">조건문 - 다른 방법</span><br id="lbbr"><span id="txt">Computer
         Science Lab
         (</span>CSL<span id="txt">)</span> 40
     </h1>
-    <br>
+    <br />
     <hr>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div style="padding:30px;display:flex;margin:30px;background-color: rgb(226, 203, 248);">
     <div class="sub-div">
       <h1>#if ... #else</h1>
       <p>
-        #if하고 조건을 집어넣으면 만일 그 조건이 옳다면 안에 있는 코드를 실행합니다.<br><br>
+        #if하고 조건을 집어넣으면 만일 그 조건이 옳다면 안에 있는 코드를 실행합니다.<br /><br />
 
-        #else가 존재하면 #else와 #if까지의 코드는 if안에 있고 그렇지 않다면 #if부터 #endif까지가 if의 코드입니다.<br><br>
+        #else가 존재하면 #else와 #if까지의 코드는 if안에 있고 그렇지 않다면 #if부터 #endif까지가 if의 코드입니다.<br /><br />
 
         <code>
-          #if (1 == 1)<br>
-          printf("1 is equal to 1");<br>
-          #else<br>
-          printf("1 is not equal to 1");<br>
+          #if (1 == 1)<br />
+          printf("1 is equal to 1");<br />
+          #else<br />
+          printf("1 is not equal to 1");<br />
           #endif
         </code>
       </p>
@@ -117,33 +124,19 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div style="margin:20px;padding:20px;">
     <button style="float:left;" class="btn btn-light"><a href="macro.html">❮ 이전</a></button>
     <button style="float:right;" class="btn btn-light"><a href="error.html">다음 ❯</a></button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
-    </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
+  <pyfact-footer></pyfact-footer>
+  </div>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

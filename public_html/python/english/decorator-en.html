@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -33,7 +40,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -43,7 +50,7 @@
       <div style="padding: 10px;">
         <p>
         <h1>What is decorator?</h1>
-        In our everyday life, decorator is an object that makes another one more beautiful.<br><br>
+        In our everyday life, decorator is an object that makes another one more beautiful.<br /><br />
 
         In Python, decorators add more functionality to normal functions and make them super-function.
         </p>
@@ -54,91 +61,91 @@
       </div>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <div class="sub-div">
       <div class="text-center">
         <hr>
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width:25px !important;" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width:25px !important;" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6"><span id="tit">Decorator</span><br id="lbbr"><span id="txt">Computer
             Science Lab
             (</span>CSL<span id="txt">)</span> 66</h1>
-        <br>
+        <br />
         <hr>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div" style="background-color: rgb(250, 199, 199);">
         <div class="sub-div">
           <h1>Decorator examples</h1>
           <p>
-            Let's try making a function that calculates the square root of a number.<br><br>
+            Let's try making a function that calculates the square root of a number.<br /><br />
 
             <code>
-                def squareRootOf(a):<br>
+                def squareRootOf(a):<br />
                 &nbsp;return a ** 0.5
               </code>
 
-            If we insert 4 in that function, 2 comes out.<br><br>
+            If we insert 4 in that function, 2 comes out.<br /><br />
 
-            However, what will happen when we try putting in a negative number?<br><br>
+            However, what will happen when we try putting in a negative number?<br /><br />
 
             We can try to make an if statement and tell the users that it is not possible to find the square root of
-            negative numbers.<br><br>
+            negative numbers.<br /><br />
 
-            Using if statement can get very messy and hard to read.<br><br>
+            Using if statement can get very messy and hard to read.<br /><br />
 
-            Let's try doing it in a little bit differently.<br><br>
+            Let's try doing it in a little bit differently.<br /><br />
 
             <code>
-                def minusDecorator(mainFunction):<br>
-                &nbsp;def mainFunc():<br>
-                &nbsp;&nbsp;func = mainFunction() #now, func do the same thing as mainFunction<br>
-                &nbsp;&nbsp;toAbsVal = abs(func) #get the absolute value<br>
-                &nbsp;&nbsp;return toAbsVal #return that<br><br>
+                def minusDecorator(mainFunction):<br />
+                &nbsp;def mainFunc():<br />
+                &nbsp;&nbsp;func = mainFunction() #now, func do the same thing as mainFunction<br />
+                &nbsp;&nbsp;toAbsVal = abs(func) #get the absolute value<br />
+                &nbsp;&nbsp;return toAbsVal #return that<br /><br />
 
                 &nbsp;return mainFunc # return newe func
               </code>
 
             Now, if we put in a function that returns negative number, the absolute value of that number will be given
-            instead.<br><br>
+            instead.<br /><br />
 
             <code>
-                def returnVal():<br>
+                def returnVal():<br />
                 &nbsp;return -4
               </code>
 
-            The minusDecorator() function above is an example of a decorator.<br><br>
+            The minusDecorator() function above is an example of a decorator.<br /><br />
 
-            Now, let's try using them.<br><br>
+            Now, let's try using them.<br /><br />
 
             <code>
-                decorate = minusDecorator(returnVal())<br><br>
+                decorate = minusDecorator(returnVal())<br /><br />
 
                 print(squareRootOf(decorate()))
               </code>
 
             Now, instead of inserting negative number to squareRootOf() function, we can insert a function that will
-            return the aboslute value of any negative number given.<br><br>
+            return the aboslute value of any negative number given.<br /><br />
 
-            However, this method is very hard to understand and complicated.<br><br>
+            However, this method is very hard to understand and complicated.<br /><br />
 
             Let's try using decorators in a different way.
           </p>
@@ -147,27 +154,27 @@
       <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/867aac4aa9" width="100%" height="356"
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div" style="background-color: rgb(238, 233, 158);">
         <div style="padding: 10px;">
           <h1>Using Decorator</h1>
           <p>
-            We can use the '@' before a function to attach a decorator.<br><br>
+            We can use the '@' before a function to attach a decorator.<br /><br />
 
             This way, every time we run returnVal() function, we will get an absolute value of -4 instead of getting
-            -4.<br><br>
+            -4.<br /><br />
 
             <code>
-                @minusDecorator<br>
-                def returnVal():<br>
+                @minusDecorator<br />
+                def returnVal():<br />
                 &nbsp;return -4
               </code>
           </p>
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div d-flex" style="background-color: rgb(26, 185, 172);">
         <div style="padding: 10px;">
@@ -181,7 +188,7 @@
       <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/659cf1cdb5" width="100%" height="456"
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin:20px;padding:20px;">
         <button style="float:left;" class="btn btn-light"><a href="zlib-en.html">❮ Previous</a></button>
@@ -191,7 +198,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
   <footer>
     <div>
       <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
@@ -200,9 +207,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -210,7 +217,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

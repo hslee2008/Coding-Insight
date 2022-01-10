@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -30,20 +37,20 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div style="padding:30px;display:flex;margin:30px;background-color: #ffe44f;">
     <div class="sub-div">
       <h1>ctype.h 라이브러리</h1>
       <p>
-        ctype 라이브러리는 어떤 문자가 숫자로만, 문자로만 등 확인하는 함수를 가지고 있는 라이브러리 이름입니다.<br><br>
+        ctype 라이브러리는 어떤 문자가 숫자로만, 문자로만 등 확인하는 함수를 가지고 있는 라이브러리 이름입니다.<br /><br />
 
-        쉽게 설명하지면, ctype 라이브러리를 사용하여 C 언어에 있는 다양한 데이터 형태를 다룰 수 있습니다.<br><br>
+        쉽게 설명하지면, ctype 라이브러리를 사용하여 C 언어에 있는 다양한 데이터 형태를 다룰 수 있습니다.<br /><br />
 
         <code>
           #include &lt;ctype.h>
@@ -57,62 +64,62 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="text-center">
     <hr>
-    <br>
+    <br />
     <div class="text-center" id="speakdiv">
       <button id="speakbutt" class="btn btn-primary">읽어주기</button>
       <div id="setting">
-        <br><br>
+        <br /><br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width:25px !important;" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
-        <br>
+        <br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width:25px !important;" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
       </div>
     </div>
-    <br><br>
+    <br /><br />
     <h1 class="display-6"><span id="tit">ctype.h</span><br id="lbbr"><span id="txt">Computer
         Science Lab
         (</span>CSL<span id="txt">)</span> 44
     </h1>
-    <br>
+    <br />
     <hr>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div" style="background-color: rgb(206, 203, 248);">
     <div class="sub-div">
       <h1>islower()와 tolower()</h1>
       <p>
-        islower()이라는 함수는 문자를 입력하면 영문자가 소문자인지 확인하는 함수입니다.<br><br>
+        islower()이라는 함수는 문자를 입력하면 영문자가 소문자인지 확인하는 함수입니다.<br /><br />
 
         <code>
 
-          if (islower('a')) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("lower");<br>
-          } else {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("not lower");<br>
+          if (islower('a')) {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("lower");<br />
+          } else {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not lower");<br />
           }
 
         </code>
 
-        tolower()은 문자를 소문자로 바꾸는 함수입니다.<br><br>
+        tolower()은 문자를 소문자로 바꾸는 함수입니다.<br /><br />
 
         <code>
 
-          if (islower('a')) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("lower");<br>
-          } else {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("not lower");<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("%c", tolower('a'));<br>
+          if (islower('a')) {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("lower");<br />
+          } else {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not lower");<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("%c", tolower('a'));<br />
           }
 
         </code>
@@ -123,30 +130,30 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="header-div">
     <div class="sub-div">
       <h1>isupper()와 toupper()</h1>
       <p>
-        isupper()이라는 함수는 문자를 입력하면 영문자가 대문자인지 확인하는 함수입니다.<br><br>
+        isupper()이라는 함수는 문자를 입력하면 영문자가 대문자인지 확인하는 함수입니다.<br /><br />
 
         <code>
-          if (isupper('A')) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("upper");<br>
-          } else {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("not upper");<br>
+          if (isupper('A')) {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("upper");<br />
+          } else {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not upper");<br />
           }
         </code>
 
-        toupper()은 문자를 대문자로 바꾸는 함수입니다.<br><br>
+        toupper()은 문자를 대문자로 바꾸는 함수입니다.<br /><br />
 
         <code>
-          if (islower('A')) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("upper");<br>
-          } else {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("not upper");<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("%c", toupper('A'));<br>
+          if (islower('A')) {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("upper");<br />
+          } else {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not upper");<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("%c", toupper('A'));<br />
           }
         </code>
       </p>
@@ -156,19 +163,19 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="newline-div">
     <div class="sub-div">
       <h1>프린트를 할 수 있는지</h1>
       <p>
-        ctype.h의 isprint() 함수를 사용하면 그 문자가 터미널에 출력이 될 수 있는지 확인할 수 있습니다.<br><br>
+        ctype.h의 isprint() 함수를 사용하면 그 문자가 터미널에 출력이 될 수 있는지 확인할 수 있습니다.<br /><br />
 
         <code>
-          if (isprint('a')) {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("printable!");<br>
-          } else {<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;printf("not printable :(");<br>
+          if (isprint('a')) {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("printable!");<br />
+          } else {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;printf("not printable :(");<br />
           }
         </code>
         <iframe src="https://www.jdoodle.com/embed/v0/47C8" width="100%" height="500"></iframe>
@@ -176,7 +183,7 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div style="padding:30px;display:flex;margin:30px;background-color: #92dfef;">
     <div class="sub-div">
@@ -227,33 +234,19 @@
     </div>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div style="margin:20px;padding:20px;">
     <button style="float:left;" class="btn btn-light"><a href="random.html">❮ 이전</a></button>
     <button style="float:right;" class="btn btn-light"><a href="stopprogram.html">다음 ❯</a></button>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
-    </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
+  <pyfact-footer></pyfact-footer>
+  </div>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

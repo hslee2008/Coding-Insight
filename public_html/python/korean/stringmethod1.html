@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -32,11 +39,11 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
-  <br><br>
+  <br /><br />
 
   <div class="text-center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4_uGNu9IlCU" title="YouTube video player"
@@ -44,65 +51,65 @@
       allowfullscreen></iframe>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="text-center">
     <hr>
-    <br>
+    <br />
     <div class="text-center" id="speakdiv">
       <button id="speakbutt" class="btn btn-primary">읽어주기</button>
       <div id="setting">
-        <br><br>
+        <br /><br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
           style="width:25px !important;" />
         <input type="range" id="vol" min="0" max="1" step="0.1" />
-        <br>
+        <br />
         <img class="img-fluid" alt="python_factory_picture"
           src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
           style="width:25px !important;" />
         <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
       </div>
     </div>
-    <br><br>
+    <br /><br />
     <h1 class="display-6"><span id="tit">문자 메서드1</span><br id="lbbr"><span id="txt">Computer Science
         Lab
         (</span>CSL<span id="txt">)</span> 9
     </h1>
-    <br>
+    <br />
     <hr>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div">
     <div class="sub-div">
       <h1>문자의 길이 구하기</h1>
       <p>
-        가끔 파이썬에서 문자의 길이를 알아야 할 때가 있습니다.<br><br>
+        가끔 파이썬에서 문자의 길이를 알아야 할 때가 있습니다.<br /><br />
 
-        예를 들어 사용자가 새로운 암호를 input() 함수 안에 입력하고 있을 때, 파이썬 프로그램은 암호가 짧아서 조금 더 긴 암호를 넣으라고 물어 볼 수 있습니다.<br><br>
+        예를 들어 사용자가 새로운 암호를 input() 함수 안에 입력하고 있을 때, 파이썬 프로그램은 암호가 짧아서 조금 더 긴 암호를 넣으라고 물어 볼 수 있습니다.<br /><br />
 
-        문자의 길이를 구하기 위해서 len() 함수를 사용할 수 있습니다.<br><br>
+        문자의 길이를 구하기 위해서 len() 함수를 사용할 수 있습니다.<br /><br />
 
-        len은 영어로 '길이'를 뜻하는 length의 줄임말입니다.<br><br>
+        len은 영어로 '길이'를 뜻하는 length의 줄임말입니다.<br /><br />
       </p>
     </div>
     <iframe src="https://trinket.io/embed/python/41e9ea9617" width="100%" height="356" frameborder="0" marginwidth="0"
       marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div" style="background-color: #efefef;">
     <div class="sub-div">
       <h1>문자 안에 부분문자열이 존재하는지 확인</h1>
       <p>
-        부분문자열은 문자 안의 문자입니다.<br><br>
+        부분문자열은 문자 안의 문자입니다.<br /><br />
 
-        예를 들어 문자 'abc'에는 부분문자열 'a','b'등이 존재합니다.<br><br>
+        예를 들어 문자 'abc'에는 부분문자열 'a','b'등이 존재합니다.<br /><br />
 
-        문자 안에 부분문자열이 존재하는지 알기 위하여 우리는 'in'이라는 키워드를 사용할 수 있습니다.<br><br>
+        문자 안에 부분문자열이 존재하는지 알기 위하여 우리는 'in'이라는 키워드를 사용할 수 있습니다.<br /><br />
 
         'in'은 한국어로 '안'이라는 뜻으로 "abc가 abcdef 안에 있나요?"라고 파이썬에게 물어보는
         것과 같습니다.
@@ -111,25 +118,25 @@
     <iframe src="https://trinket.io/embed/python/a26965d6fd" width="100%" height="356" frameborder="0" marginwidth="0"
       marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
   </div>
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div bg-black text-white">
     <div class="sub-div">
       <h1>문자의 대소문자</h1>
       <p>
-        파이썬에서 대문자를 소문자로, 소문자를 대문자로 바꿀 수 있는 방법이 있습니다.<br><br><br><br>
+        파이썬에서 대문자를 소문자로, 소문자를 대문자로 바꿀 수 있는 방법이 있습니다.<br /><br /><br /><br />
 
-        title()은 책 제목 형식(책 제목 형식은 첫 번째 단어의 첫 번째 알파벳이 대문자인 형태)으로 바꿉니다.<br><br>
+        title()은 책 제목 형식(책 제목 형식은 첫 번째 단어의 첫 번째 알파벳이 대문자인 형태)으로 바꿉니다.<br /><br />
 
-        upper()은 모든 알파벳을 대문자로 전환합니다.<br><br>
+        upper()은 모든 알파벳을 대문자로 전환합니다.<br /><br />
 
-        lower()은 모든 알파벳을 소문자로 전환합니다.<br><br>
+        lower()은 모든 알파벳을 소문자로 전환합니다.<br /><br />
 
-        casefold()는 모든 알파벳을 소문자로 전환합니다. lower()와 조금 달리 영어가 아닌 문자도 소문자로 전환합니다.<br><br>
+        casefold()는 모든 알파벳을 소문자로 전환합니다. lower()와 조금 달리 영어가 아닌 문자도 소문자로 전환합니다.<br /><br />
 
-        isupper()은 모든 알파벳이 대문자인지 알려줍니다.<br><br>
+        isupper()은 모든 알파벳이 대문자인지 알려줍니다.<br /><br />
 
-        islower()은 모든 알파벳이 소문자인지 알려줍니다.<br><br>
+        islower()은 모든 알파벳이 소문자인지 알려줍니다.<br /><br />
 
         istitle()은 책 제목 형식인지 알려주는 역할을 합니다.
       </p>
@@ -138,7 +145,7 @@
       marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div" style="background-color: #ebece9;">
     <div class="sub-div text-center">
@@ -160,13 +167,13 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <div class="header-div text-white bg-black">
     <div class="sub-div">
       <h1>파이썬 문자 센터링</h1>
       <p>
-        파이썬에서 센터링이란 문자를 ' '로 둘러싸는 것을 뜻합니다. ' '로 둘러싸여 있지만 가운데에 있는 것처럼 보입니다.<br><br>
+        파이썬에서 센터링이란 문자를 ' '로 둘러싸는 것을 뜻합니다. ' '로 둘러싸여 있지만 가운데에 있는 것처럼 보입니다.<br /><br />
 
         <pre>
         txt = "Hello World"
@@ -174,7 +181,7 @@
         print(x)
         </pre>
 
-        center에서 첫 번째 숫자는 문자를 센터하는 ' '의 수이고 두 번째는 문자를 센터할 캐릭터입니다.<br><br>
+        center에서 첫 번째 숫자는 문자를 센터하는 ' '의 수이고 두 번째는 문자를 센터할 캐릭터입니다.<br /><br />
 
         <pre>
         txt = "Hello World"
@@ -191,19 +198,19 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
   <div style="margin:20px;padding:20px;">
     <button style="float:left;" class="btn btn-light"><a href="string.html">❮ 이전</a></button>
     <button style="float:right;" class="btn btn-light"><a href="stringmethod2.html">다음 ❯</a></button>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="text-center border border-dark rounded p-3 m-3">
     <h1>퀴즈 풀기!</h1>
   </div>
 
-  <br><br>
+  <br /><br />
 
   <div class="text-center" style="font-size: 25px;">
     <h3>파이썬에서 문자의 길이를 찾는 방법은?</h3>
@@ -227,7 +234,7 @@
       <label for="question-1-answers-D">D) length() </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <h3>문자 안에 부분문자열이 존재하는지 확인하는 방법은?</h3>
 
@@ -251,7 +258,7 @@
       <label for="question-2-answers-D">D) &lt </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <h3>어떤 값의 인덱스를 찾는 방법은?</h3>
 
@@ -275,7 +282,7 @@
       <label for="question-3-answers-D">D) index </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <h3>문자를 대문자로 전환하는 방법과 소문자로 전환하는 방법은? </h3>
 
@@ -299,7 +306,7 @@
       <label for="question-4-answers-D">D) u(), l() </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <h3>파이썬 문자 센터링하는 방법은? </h3>
 
@@ -323,32 +330,18 @@
       <label for="question-5-answers-D">D) toMiddle() </label>
     </div>
 
-    <br><br>
+    <br /><br />
 
     <button id="checky" class="btn btn-dark"
       onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번      틀렸습니다")};if(document.getElementById("question-3-answers-C").checked) {alert("3번 맞았습니다 :)")} else {alert("3번 틀렸습니다")};if(document.getElementById("question-4-answers-A").checked) {alert("4번 맞았습니다 :)")} else {alert("4번 틀렸습니다")};if(document.getElementById("question-5-answers-A").checked) {alert("5번 맞았습니다 :)")} else {alert("5번 틀렸습니다")};'>정답
       확인</button>
   </div>
 
-  <br><br>
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+  <br /><br />
+  <pyfact-footer></pyfact-footer>
     </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

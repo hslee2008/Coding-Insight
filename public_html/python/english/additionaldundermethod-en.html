@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -13,6 +19,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -34,7 +41,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -44,41 +51,41 @@
       <div class="sub-div">
         <div class="text-center">
           <hr />
-          <br>
+          <br />
           <div class="text-center" id="speakdiv">
             <button id="speakbutt" class="btn btn-primary">Read</button>
             <div id="setting">
-              <br><br>
+              <br /><br />
               <img class="img-fluid" alt="python_factory_picture"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                 style="width: 25px !important" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
-              <br>
+              <br />
               <img class="img-fluid" alt="python_factory_picture"
                 src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                 style="width: 25px !important" />
               <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
             </div>
           </div>
-          <br><br>
+          <br /><br />
           <h1 class="display-6">
             <span id="tit">Additional Dundermethod</span><br id="lbbr" /><span id="txt">Computer Science Lab
               (</span>CSL<span id="txt">)</span> 81
           </h1>
-          <br>
+          <br />
           <hr />
         </div>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div class="norm-div text-black" style="background-color: #f7ffc7;">
           <div class="sub-div">
             <h1>__call__() and __mul__()</h1>
             <p>
-              Class cannot be ran like a function.<br><br>
+              Class cannot be ran like a function.<br /><br />
 
               However, using the __call__() dunder method, we can specify the
-              code we want to run.<br><br>
+              code we want to run.<br /><br />
 
               The __mul__() dunder method can make us do multiplcation
               operation on that class.
@@ -89,7 +96,7 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto"></iframe>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div class="norm-div text-black" style="background-color: #9dcfb0;">
           <div class="sub-div">
@@ -104,7 +111,7 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto"></iframe>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="
               display: flex;
@@ -115,16 +122,16 @@
           <div class="sub-div">
             <h1>_ & __ difference</h1>
             <p>
-              Let's try making a simple class.<br><br>
+              Let's try making a simple class.<br /><br />
 
               There will be three self variable inside the class, but the
-              second and third one will have _ and __ before attached.<br><br>
+              second and third one will have _ and __ before attached.<br /><br />
 
               <code>
-                clas Person:<br>
-                &nbsp;def __init__(self):<br>
-                &nbsp;&nbsp;self.test1 = 1<br>
-                &nbsp;&nbsp;self._test2 = 2<br>
+                clas Person:<br />
+                &nbsp;def __init__(self):<br />
+                &nbsp;&nbsp;self.test1 = 1<br />
+                &nbsp;&nbsp;self._test2 = 2<br />
                 &nbsp;&nbsp;self.__test3 = 3
               </code>
 
@@ -140,7 +147,7 @@
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto"></iframe>
 
-        <br><br><br><br>
+        <br /><br /><br /><br />
 
         <div style="margin: 20px; padding: 20px">
           <button style="float: left" class="btn btn-light">
@@ -154,7 +161,7 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
   <footer>
     <div>
@@ -164,9 +171,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -174,6 +181,8 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 </html>

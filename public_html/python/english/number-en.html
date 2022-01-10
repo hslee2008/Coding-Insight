@@ -2,6 +2,12 @@
 <html lang="eb">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -34,7 +41,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -44,14 +51,14 @@
       <div class="sub-div">
         <h1>Declare number variable</h1>
         <p>
-          We use numbers all the time.<br><br>
+          We use numbers all the time.<br /><br />
 
-          In Python, numbers are used as much as it is in human world.<br><br>
+          In Python, numbers are used as much as it is in human world.<br /><br />
 
-          To declare numbers, assign the number without quotation marks to the variable.<br><br>
+          To declare numbers, assign the number without quotation marks to the variable.<br /><br />
 
           <code>
-            age = 12<br>
+            age = 12<br />
             print(age)
           </code>
         </p>
@@ -62,44 +69,44 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center">
       <hr>
-      <br>
+      <br />
       <div class="text-center" id="speakdiv">
         <button id="speakbutt" class="btn btn-primary">Read</button>
         <div id="setting">
-          <br><br>
+          <br /><br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br>
+          <br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
-      <br><br>
+      <br /><br />
       <h1 class="display-6"><span id="tit">Number</span><br id="lbbr"><span id="txt">Computer
           Science Lab
           (</span>CSL<span id="txt">)</span> 14
       </h1>
-      <br>
+      <br />
       <hr>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div class="sub-div">
         <h1>Basic Calculation</h1>
         <p>
-          In elementary school, we learned how to add, subtract, multiply, and divide.<br><br>
+          In elementary school, we learned how to add, subtract, multiply, and divide.<br /><br />
 
-          Adding and subtracting is same in Python. Use + and -.<br><br>
+          Adding and subtracting is same in Python. Use + and -.<br /><br />
 
           On the other hand, multiplying and dividing is a bit different. Instead of using the normal operators, Python
           uses * and /.
@@ -109,33 +116,33 @@
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div" style="background-color: #f7f7f7;">
       <div class="sub-div">
         <h1>The difference between number and 'number'</h1>
         <p>
-          There are two ways you can define a number variable.<br><br>
+          There are two ways you can define a number variable.<br /><br />
 
-          One way is to define it as a string, inside the quotation mark.<br><br>
+          One way is to define it as a string, inside the quotation mark.<br /><br />
 
-          The other way is to simply define them as a number without the quotation mark.<br><br>
+          The other way is to simply define them as a number without the quotation mark.<br /><br />
 
           <code>
-            firstNumber = "1"<br>
+            firstNumber = "1"<br />
             secondNumber = 1
           </code>
 
-          Is there a different? Yes.<br><br>
+          Is there a different? Yes.<br /><br />
 
           <code>
-            print(type(firstNumber))<br>
+            print(type(firstNumber))<br />
             print(type(secondNumber))
           </code>
 
-          If we look at the example above, we can see that &lt;class 'str'> is printed.<br><br>
+          If we look at the example above, we can see that &lt;class 'str'> is printed.<br /><br />
 
-          Then, &lt;class 'int'> is printed.<br><br>
+          Then, &lt;class 'int'> is printed.<br /><br />
 
           This is because Python interprets anything inside quotation mark as a string no matter what.
         </p>
@@ -144,30 +151,30 @@
     <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/81191f5590" width="100%" height="356"
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="color-contrast-div">
       <div class="sub-div">
         <h1>input() value to number</h1>
         <p>
-          input() always returns string.<br><br>
+          input() always returns string.<br /><br />
 
           <code>
-            firstNumber = input("Number 1: ")<br>
-            secondNumber = input("Number 2: ")<br><br>
+            firstNumber = input("Number 1: ")<br />
+            secondNumber = input("Number 2: ")<br /><br />
 
             print(firstNumber + secondNumber)
           </code>
 
-          Let's run the example code above.<br><br>
+          Let's run the example code above.<br /><br />
 
-          Typing in 1 and 1 should give us 2.<br><br>
+          Typing in 1 and 1 should give us 2.<br /><br />
 
-          Wait. What? It gave us 11.<br><br>
+          Wait. What? It gave us 11.<br /><br />
 
-          This is because 1 and 1 is a string and using + will merge them.<br><br>
+          This is because 1 and 1 is a string and using + will merge them.<br /><br />
 
-          To do the calculation correctly, we first have to make the string number to number.<br><br>
+          To do the calculation correctly, we first have to make the string number to number.<br /><br />
 
           Use int() to make string into a number.
 
@@ -176,14 +183,14 @@
     </div>
     <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/4b9cfba68b" width="50%" height="356"
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="margin:20px;padding:20px;">
       <button style="float:left;" class="btn btn-light"><a href="boolean-en.html">❮ Previous</a></button>
       <button style="float:right;" class="btn btn-light"><a href="operator-en.html">Next ❯</a></button>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center border border-dark rounded p-3 m-3">
       <h1>Solve This Quiz!!</h1>
@@ -211,7 +218,7 @@
         <label for="question-1-answers-D">D) Error occurs. </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3> How do we change '1'(str) to 1(int)? </h3>
 
@@ -235,7 +242,7 @@
         <label for="question-2-answers-D">D) integer("1") </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <button id="checky" class="btn btn-dark"
         onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1 is right!")} else {alert("1 is wrong")}; if(document.getElementById("question-2-answers-A").checked) {alert("2 is right :)")} else {alert("2 is wrong")};'>Check
@@ -250,9 +257,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -260,7 +267,9 @@
       </div>
     </div>
   </footer>
+  </div>
   <script defer src="script-en.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

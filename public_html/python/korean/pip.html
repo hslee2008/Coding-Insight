@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -34,17 +41,17 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
   <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
-<br><br>
+<br /><br />
 
   <div class="d-flex">
     <div class="sub-div">
       <h1>PIP란?</h1>
       <p>
-        PIP는 파이썬에서 파일 또는 모듈을 다루는 프로그램 이름입니다.<br><br>
+        PIP는 파이썬에서 파일 또는 모듈을 다루는 프로그램 이름입니다.<br /><br />
 
         파이썬 3.4 버전 이상이면 PIP는 자동으로 설치가 되지만 그
         아래버전은 처음에 파이썬을 내려받을 때 PIP를 설치 안 했을 수 있습니다.
@@ -56,54 +63,54 @@
       </div>
   </div>
 
-  <br><br>
+  <br /><br />
   <div>
     <div class="sub-div">
       <div class="text-center">
         <hr />
-        <br>
+        <br />
         <div class="text-center" id="speakdiv">
           <button id="speakbutt" class="btn btn-primary">읽어주기</button>
           <div id="setting">
-            <br><br>
+            <br /><br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width: 25px !important" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
-            <br>
+            <br />
             <img class="img-fluid" alt="python_factory_picture"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width: 25px !important" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
           </div>
         </div>
-        <br><br>
+        <br /><br />
         <h1 class="display-6">
           <span id="tit">PIP</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span> 56
         </h1>
-        <br>
+        <br />
         <hr />
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div class="norm-div">
         <div class="sub-div">
           <h1>PIP 설치를 했는지 확인하는 방법</h1>
           <p>
             VSCode에서 <kbd>ctrl + `</kbd> 를 눌러 터미널을 열고 pip --version이라고 친 후
-            엔터를 누릅니다.<br><br>
+            엔터를 누릅니다.<br /><br />
 
             만일 에러가 뜨지 않고 숫자가 나온다면 PIP는 설치되어있는
-            것입니다.<br><br>
+            것입니다.<br /><br />
 
             하지만 빨간 글씨로 에러가 나면 설치되지 않은 것입니다.
           </p>
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="padding: 20px; background-color: #a297d3">
@@ -112,14 +119,14 @@
             <p>
               1. 처음 파이썬 마법사를 검색하여 클릭한 후 'MODIFY'를 누르세요.
               다음에 'pip 설치' 옵션을 선택한 후 다시 설치하는 방법도
-              있습니다.<br>
+              있습니다.<br />
               2. cmd에서 'pip install pip'이라고 치면 됩니다.
             </p>
           </div>
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div class="norm-div">
@@ -127,12 +134,12 @@
             <h1>PIP install & uninstall</h1>
             <p>
               PIP에서 파이썬 모듈을 설치할 수 있습니다. CMD에서 다음과 같은
-              코드를 입력 후 엔터를 누르세요.<br><br>
+              코드를 입력 후 엔터를 누르세요.<br /><br />
 
               <code> pip install camelcase </code>
 
               Camelcase라는 모듈을 설치했습니다. 그 다음 pip uninstall
-              camelcase를 입력하시면 Camelcase가 삭제됩니다.<br><br>
+              camelcase를 입력하시면 Camelcase가 삭제됩니다.<br /><br />
 
               <code> pip uninstall camelcase </code>
             </p>
@@ -140,16 +147,16 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div>
         <div style="padding: 20px; background-color: #c9d4b3">
           <div class="inner-div">
             <h1>PIP show</h1>
             어떤 PIP package에 대한 정보를 보기 위하여 pip show 커맨드를
-            사용할 수 있습니다.<br><br>
+            사용할 수 있습니다.<br /><br />
 
-            <code> pip show pygame<br><br> </code>
+            <code> pip show pygame<br /><br /> </code>
 
             위 커맨드를 실행하면 이름, 버전, 설명, 웹사이트, 작가 이름과
             이메일, 라이선스, 설치된 장소, 그리고 이 모듈을 사용하기 위하여
@@ -158,9 +165,9 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
-      <br><br><br><br>
+      <br /><br /><br /><br />
 
       <div style="margin: 20px; padding: 20px">
         <button style="float: left" class="btn btn-light">
@@ -171,26 +178,12 @@
     </div>
   </div>
 
-  <br><br><br><br>
+  <br /><br /><br /><br />
 
-  <footer>
-    <div>
-      <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
-      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
-      <a class="btn btn-light"
-        href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+  <pyfact-footer></pyfact-footer>
     </div>
-    <br><br>
-    <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
-    <div class="d-flex justify-content-center p-0 w-100">
-      <div>
-        <h1 class="display-6">Python-Factory © 2021</h1>
-        <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-      </div>
-    </div>
-  </footer>
   <script defer src="script.js"></script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>

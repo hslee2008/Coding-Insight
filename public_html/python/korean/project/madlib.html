@@ -2,6 +2,12 @@
 <html lang="kr">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -32,7 +39,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 
   <button id="butty" class="btn btn-success col-5 btn-lg btn-block menu-button" type="button" data-bs-toggle="offcanvas"
       data-bs-target="#demo" type="button" data-bs-toggle="offcanvas"
@@ -51,7 +58,7 @@
       <div class="sub-div">
         <h1>매드립스란?</h1>
         <p>
-          매드립스는 빈칸이 있는 곳에 단어들을 넣으며 문장을 만들어 나가는 게임입니다.<br><br>
+          매드립스는 빈칸이 있는 곳에 단어들을 넣으며 문장을 만들어 나가는 게임입니다.<br /><br />
 
           파이썬을 사용해서 매드립을 만들어 보겠습니다.
         </p>
@@ -63,45 +70,45 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center">
       <hr>
-      <br>
+      <br />
       <div class="text-center" id="speakdiv">
         <button id="speakbutt" class="btn btn-primary">읽어주기</button>
         <div id="setting">
-          <br><br>
+          <br /><br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br>
+          <br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
-      <br><br>
+      <br /><br />
       <h1 class="display-6"><span id="tit">매드립스 게임 만들기</span><br id="lbbr"><span id="txt">Computer
           Science Project
           (</span>CSP<span id="txt">)</span> 1 - 1
       </h1>
-      <br>
+      <br />
       <hr>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div class="sub-div">
         <h1>알고리즘</h1>
         <p>
-          어떻게 매드립스 게임을 만들지 알아보겠습니다.<br><br>
+          어떻게 매드립스 게임을 만들지 알아보겠습니다.<br /><br />
 
-          1. 먼저, 기본 문장 틀을 만들어 빈칸과 단어를 넣을 것입니다. (예: "Roses are 빈칸")<br>
-          2. 다음, 사용자의 입력을 input()을 사용해 받을 것입니다.<br>
+          1. 먼저, 기본 문장 틀을 만들어 빈칸과 단어를 넣을 것입니다. (예: "Roses are 빈칸")<br />
+          2. 다음, 사용자의 입력을 input()을 사용해 받을 것입니다.<br />
           3. 마지막으로 그 입력을 빈칸에 넣어 문장을 완성하고 출력할 것입니다.
         </p>
       </div>
@@ -112,7 +119,7 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div" style="background-color: #f7f7f7;">
       <div class="sub-div">
@@ -120,37 +127,37 @@
         <div style="display: flex; padding: 5px;">
           <div style="margin: 5px;">
             <h2>1. 빈 칸이 들어 있는 문장 만들기</h2>
-            sentence라는 변수 안에 "Roses are ?. Violets are ?. And I like ?."라는 문장을 저장하겠습니다.<br><br>
+            sentence라는 변수 안에 "Roses are ?. Violets are ?. And I like ?."라는 문장을 저장하겠습니다.<br /><br />
 
             <code>
               sentence = "Roses are {}. Violets are {}. And I like {}."
             </code>
 
-            {}는 빈칸이고 나중에 {} 안에 단어를 넣을 것입니다.<br><br>
+            {}는 빈칸이고 나중에 {} 안에 단어를 넣을 것입니다.<br /><br />
 
             <h2>2. 입력받기</h2>
-            입력은 input()을 사용해 총 3개를 받겠습니다.<br><br>
+            입력은 input()을 사용해 총 3개를 받겠습니다.<br /><br />
 
             <code>
-              fw = input("형용사(영어): ")<br>
-              sw = input("형용사(영어): ")<br>
+              fw = input("형용사(영어): ")<br />
+              sw = input("형용사(영어): ")<br />
               tw = input("사람: ")
             </code>
           </div>
           <div style="margin: 5px;">
             <h2>3. 빈칸에 넣기</h2>
-            format()이라는 메서드를 사용해 sentence 안에 있는 모든 {}를 새로운 값으로 변화하게 만들어 보겠습니다.<br><br>
+            format()이라는 메서드를 사용해 sentence 안에 있는 모든 {}를 새로운 값으로 변화하게 만들어 보겠습니다.<br /><br />
 
             <code>
               finish = sentence.format(fw, sw, tw)
             </code>
 
-            format을 사용하면 문장 안에 있는 {}들은 나타나느 순서대로 fw, sw, tw로 바뀝니다.<br><br>
+            format을 사용하면 문장 안에 있는 {}들은 나타나느 순서대로 fw, sw, tw로 바뀝니다.<br /><br />
 
             그래서 처음의 {}는 fw의 값, 두 번째는 sw, 그리고 마지막은 tw로 바뀝니다.
 
             <h2>4. 출력하기</h2>
-            출력은 print()를 사용하겠습니다.<br><br>
+            출력은 print()를 사용하겠습니다.<br /><br />
 
             <code>
               print(finish)
@@ -160,7 +167,7 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="padding:30px;">
       <div>
@@ -170,14 +177,14 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="margin:20px;padding:20px;">
       <button style="float:left;" class="btn btn-light"><a href="../variable.html">❮ 이전</a></button>
       <button style="float:right;" class="btn btn-light"><a href="../datatype.html">다음 ❯</a></button>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
   </div>
 

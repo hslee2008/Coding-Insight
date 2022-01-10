@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
@@ -14,6 +20,7 @@
 </head>
 
 <body class="m-0">
+  <div id="app">
   <div class="m-0 p-0" id="navigate">
     <ul>
       <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
@@ -34,7 +41,7 @@
       data-bs-toggle="offcanvas" data-bs-target="#demo"
       style="width: 10vw; margin: 5px; font-size: 20px !important;">☰</button>
   </div>
-  <br><br>
+  <br /><br />
 <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
     <div id="menu"></div>
   </div>
@@ -44,11 +51,11 @@
       <div class="sub-div">
         <h1>What is string?</h1>
         <p>
-          String all symbols that makes human language.<br><br>
+          String all symbols that makes human language.<br /><br />
 
-          For example, 'A' and 'B' is called a string in programming language.<br><br>
+          For example, 'A' and 'B' is called a string in programming language.<br /><br />
 
-          To make a string in Python, put symbols inside '' or "".<br><br>
+          To make a string in Python, put symbols inside '' or "".<br /><br />
 
           Note that even though numbers are inside '' or "", they are regarded as strings.
         </p>
@@ -60,52 +67,52 @@
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center">
       <hr>
-      <br>
+      <br />
       <div class="text-center" id="speakdiv">
         <button id="speakbutt" class="btn btn-primary">Read</button>
         <div id="setting">
-          <br><br>
+          <br /><br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
-          <br>
+          <br />
           <img class="img-fluid" alt="python_factory_picture"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
         </div>
       </div>
-      <br><br>
+      <br /><br />
       <h1 class="display-6"><span id="tit">Python String</span><br id="lbbr"><span id="txt">Computer
           Science Lab
           (</span>CSL<span id="txt">)</span> 8</h1>
-      <br>
+      <br />
       <hr>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="padding:30px;display:flex;background-color: aquamarine;">
       <div class="sub-div">
         <h1>Multi - line string</h1>
         <p>
-          What would you do if there were lots and lots of lines to print?<br><br>
+          What would you do if there were lots and lots of lines to print?<br /><br />
 
-          Try printing Harry Potter and the Sorcerer's Stone to the console.<br><br>
+          Try printing Harry Potter and the Sorcerer's Stone to the console.<br /><br />
 
-          Nightmare.<br><br>
+          Nightmare.<br /><br />
 
           <code>
             THE BOY WHO LIVED
             M r. and Mrs. Dursley, of number four, Privet Drive, were proud to say
             that they were perfectly normal, thank you very much. They were the last people
             you’d expect to be involved in anything strange or mysterious, because they just
-            didn’t hold with such nonsense.<br>
+            didn’t hold with such nonsense.<br />
             Mr. Dursley was the director of a firm called Grunnings, which made
             drills. He was a big, beefy man with hardly any neck, although he did have a
             very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the
@@ -125,32 +132,32 @@
     <iframe class="embed-responsive-item" src="https://trinket.io/embed/python/7c86f7328a" width="100%" height="356"
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div" style="background-color: #f7f7f7;">
       <div class="sub-div">
         <h1>String indexing</h1>
         <p>
-          Indexing is when choosing a specific point in a string.<br><br>
+          Indexing is when choosing a specific point in a string.<br /><br />
 
-          For example, we can use the following code to print the first alphabet of 'Hello'.<br><br>
+          For example, we can use the following code to print the first alphabet of 'Hello'.<br /><br />
 
           <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c826f990bd" width="100%"
             height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-            style="margin: auto;"></iframe><br><br>
+            style="margin: auto;"></iframe><br /><br />
 
-          The number after [] is called index.<br><br>
+          The number after [] is called index.<br /><br />
 
-          If we look closely, we see that we used '0' instead of '1' to find the FIRST index of string.<br><br>
+          If we look closely, we see that we used '0' instead of '1' to find the FIRST index of string.<br /><br />
 
-          First is 0, second is 1, third is 2 and so on.<br><br>
+          First is 0, second is 1, third is 2 and so on.<br /><br />
 
           This interesting fact will be explained in the 'list' chapter.
         </p>
       </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div">
       <div style="padding: 10px;">
@@ -158,9 +165,9 @@
         <p>
           To print from range x to y, we can use ':' between index. From index x (first number) to y - 1 (not
           include
-          second number) is returned.<br><br>
+          second number) is returned.<br /><br />
 
-          Note that if we do not define first and second index, Python will interpret it as 0.<br><br>
+          Note that if we do not define first and second index, Python will interpret it as 0.<br /><br />
 
           So, using [:] will print everything.
         </p>
@@ -169,20 +176,20 @@
     <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/e1cdc9760f" width="100%" height="356"
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div text-white" style="background-color: #2f4960;">
       <div style="margin:20px;">
         <h1>String start backward</h1>
         <p>
-          Using -1 starts from backward.<br><br>
+          Using -1 starts from backward.<br /><br />
 
           <code>
-            a = "Hello"<br><br>
+            a = "Hello"<br /><br />
 
-            # H E L L O<br>
-            # 0 1 2 3 4<br>
-            # -5 -4 -3 -2 -1<br><br>
+            # H E L L O<br />
+            # 0 1 2 3 4<br />
+            # -5 -4 -3 -2 -1<br /><br />
 
             print(a[-1])
           </code>
@@ -192,19 +199,19 @@
     <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/048c09e858" width="100%" height="356"
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="norm-div" style="background-color: #f6f6f6;">
       <div class="sub-div">
         <h1>Reverse string</h1>
         <p>
-          To reverse string, use [::-1].<br><br>
+          To reverse string, use [::-1].<br /><br />
 
-          ::-1 is short for 0:0:-1.<br><br>
+          ::-1 is short for 0:0:-1.<br /><br />
 
-          The last number is the step of indexing. Step means the distance between each index.<br><br>
+          The last number is the step of indexing. Step means the distance between each index.<br /><br />
 
-          Using -1 means starting backward and moving to forward.<br><br>
+          Using -1 means starting backward and moving to forward.<br /><br />
 
           In other words, it prints the string backward.
 
@@ -214,14 +221,14 @@
     <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/751018529e" width="100%" height="356"
       frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div style="margin:20px;padding:20px;">
       <button style="float:left;" class="btn btn-light"><a href="comment-en.html">❮ Previous</a></button>
       <button style="float:right;" class="btn btn-light"><a href="stringmethod1-en.html">Next ❯</a></button>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <div class="text-center border border-dark rounded p-3 m-3">
       <h1>Solve This Quiz!!</h1>
@@ -249,7 +256,7 @@
         <label for="question-1-answers-D">D) Other </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3>How can we make multi - line string in Pyton?</h3>
 
@@ -273,7 +280,7 @@
         <label for="question-2-answers-D">D) (string) use </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3> What index can we use to print the third alphabet of "Hello"? </h3>
 
@@ -297,7 +304,7 @@
         <label for="question-3-answers-D">D) 3 </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3> In the 4 code bellow, which has the wrong syntax? </h3>
 
@@ -321,7 +328,7 @@
         <label for="question-4-answers-D">D) a[] </label>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h3> What is the right index to get the last index of string? </h3>
 
@@ -343,7 +350,7 @@
       <div>
         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
         <label for="question-5-answers-D">D) -0 </label>
-      </div> <br><br>
+      </div> <br /><br />
 
       <button id="checky" class="btn btn-dark"
         onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1 is right!")} else {alert("1 is wrong")}; if(document.getElementById("question-2-answers-C").checked) {alert("2 is right :)")} else {alert("2 is wrong")}; if(document.getElementById("question-3-answers-C").checked) {alert("3 is right!")} else {alert("3 is wrong")}; if(document.getElementById("question-4-answers-D").checked) {alert("4 is right :)")} else {alert("4 is wrong")}; if(document.getElementById("question-5-answers-B").checked) {alert("5 is right :o")} else {alert("5 is wrong")};'>
@@ -358,9 +365,9 @@
       <a class="btn btn-light"
         href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
     </div>
-    <br><br>
+    <br /><br />
     <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
-    <br>
+    <br />
     <div class="d-flex justify-content-center p-0 w-100">
       <div>
         <h1 class="display-6">Python-Factory © 2021</h1>
@@ -368,9 +375,11 @@
       </div>
     </div>
   </footer>
+  </div>
 
   <script defer src="script-en.js">
   </script>
+<script src="../../vuejs.js"></script>
 </body>
 
 </html>
