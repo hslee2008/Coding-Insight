@@ -1,15 +1,10 @@
 /*
-! React Native Library Imports
+! React Native Imports
 */
 import "react-native-gesture-handler";
 import React, { useRef, useState, memo } from "react";
-import { StatusBar, BackHandler } from "react-native";
+import { BackHandler } from "react-native";
 import { WebView } from "react-native-webview";
-import { createStackNavigator } from "@react-navigation/stack";
-
-/*
-! Local React Native Imports
-*/
 import {
   home,
   ProgressPyF,
@@ -24,8 +19,7 @@ import global from "./src/global.jsx";
 /*
 !GLOBAL VARIABLES
 */
-var Stack = createStackNavigator(),
-  isOnSetting: boolean = false,
+var isOnSetting: boolean = false,
   globalFunctions: any;
 
 const HomeWrapper = memo(({ navigation }: any) => {
@@ -161,10 +155,7 @@ const HomeWrapper = memo(({ navigation }: any) => {
   );
 });
 
-/*
- ! Main Wrapper for setting and home
- */
-const SettingWrapper = memo(({ navigation }: any) => (
+const SettingWrapper = ({ navigation }: any) => (
   <Settings
     {...{
       close: navigation.goBack,
@@ -174,31 +165,6 @@ const SettingWrapper = memo(({ navigation }: any) => (
       isOnSetting: () => (isOnSetting = false),
     }}
   />
-));
+);
 
-const StackNavigatorWrapper = memo(() => (
-  <Stack.Navigator screenOptions={global.screenopt}>
-    <Stack.Screen
-      name="Home"
-      component={HomeWrapper}
-      options={{ gestureEnabled: false }}
-    />
-    <Stack.Screen
-      name="Settings"
-      component={SettingWrapper}
-      options={{ gestureEnabled: false }}
-    />
-  </Stack.Navigator>
-));
-
-/*
- ! Default App Base Component
- */
-const AppBase = memo(() => (
-  <>
-    <StatusBar hidden />
-    <StackNavigatorWrapper />
-  </>
-));
-
-export default memo(AppBase);
+export { HomeWrapper, SettingWrapper };

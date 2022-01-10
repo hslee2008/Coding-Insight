@@ -1,3 +1,12 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 10px 10px 0.5px rgb(108, 107, 107);
+  z-index: 100;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -69,10 +78,9 @@ p > a {
   text-decoration: none;
 }
 
-
-    a {
-    margin: 3px;
-    }
+a {
+  margin: 3px;
+}
 
 @media only screen and (max-width: 1000px) {
   #menu {
