@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { memo, Suspense, lazy } from "react";
 import { StatusBar } from "react-native";
 import { Provider } from "react-native-paper";
 import { NativeBaseProvider } from "native-base";
