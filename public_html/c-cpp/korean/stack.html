@@ -31,44 +31,37 @@
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li id="more"><a>더보기</a></li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
-      </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <c-pyfact-menu></c-pyfact-menu>
-        </div>
-      </div>
-
+    </div>
     <br /><br />
-
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <c-pyfact-menu></c-pyfact-menu>
+      </div>
+    </div>
+    <br /><br />
     <div class="norm-div" style="margin-top:50px;">
       <div class="sub-div">
         <h1>stack이란?</h1>
         <p>
           stack은 쌓다를 뜻합니다.<br /><br />
-
           stack은 데이터 종류의 하나로 값들을 쌓아 올리는 특징을 가지고 있습니다.<br /><br />
-
           stack은 stack이라는 라이브러리에서 가지고 와야 합니다.<br /><br />
-
           <code>
             #include &lt;stack>
           </code>
-          </p>
-          </div>
-          <div style="margin: auto;">
-            <img class="img-fluid"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/1200px-Data_stack.svg.png"
-              width="200" />
-          </div>
-          </div>
-
+        </p>
+      </div>
+      <div style="margin: auto;">
+        <img class="img-fluid"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/1200px-Data_stack.svg.png"
+          width="200" />
+      </div>
+    </div>
     <br /><br /><br /><br />
-
     <div class="text-center">
       <hr>
       <br />
@@ -90,51 +83,47 @@
       <br /><br />
       <h1 class="display-6"><span id="tit">stack</span><br id="lbbr"><span id="txt">Computer
           Science Lab
-          (</span>CSL<span id="txt">)</span> 6</h1>
+          (</span>CSL<span id="txt">)</span> 6
+      </h1>
       <br />
       <hr>
     </div>
-
     <br /><br /><br /><br />
-
     <div class="header-div" style="background-color: aquamarine;">
       <div class="sub-div">
         <h1>stack 사용하기</h1>
         <p>
           stack은 <kbd>stack&lt;데이터형태></kbd> 형태로 선언하면 됩니다.<br /><br />
 
-          &lt;> 사이에는 stack에 넣을 값들의 데이터 형태를 입력하면 됩니다.<br /><br />
-
-          <> 뒤에는 stack 이름을 넣고 {} 안에 각 데이터를 처음으로 추가할 수 있습니다.<br /><br />
-
-            만일 {}를 사용했는데 에러가 생기면 {} 대신 ({})를 사용하고 =는 사용하지 마세요.<br /><br />
+          데이터를 추가하기 위해서 push()를 사용하세요.<br><br>
 
             <code>
               #include &lt;iostream><br />
               #include &lt;stack><br />
               using namespace std;<br /><br />
-
               int main()<br />
               {<br />
-              &nbsp;&nbsp;stack&lt;int> s = {0, 1, 2, 3, 4, 5};<br /><br />
+              &nbsp;&nbsp;stack<int> s;<br><br>
+
+              &nbsp;&nbsp;s.push(3);<br>
+              &nbsp;&nbsp;s.push(4);<br>
+              &nbsp;&nbsp;s.push(5);<br><br>
 
               &nbsp;&nbsp;return 0;<br />
               }
-              </code>
-              </p>
-              </div>
-              <div style="margin:auto;">
-                <iframe src="https://www.jdoodle.com/embed/v0/4ePU" width="700" height="500"></iframe>
-              </div>
-              </div>
-
+            </code>
+        </p>
+      </div>
+      <div style="margin:auto;">
+        <iframe src="https://www.jdoodle.com/embed/v0/4iuF" width="700" height="500"></iframe>
+      </div>
+    </div>
     <br /><br />
-
     <div class="header-div">
       <div class="sub-div">
         <h1>pop()와 push()</h1>
         <p>
-          pop() 메서드를 사용하면 stack의 마지막 아이템을 제거합니다.<br /><br />
+          pop()를 사용하면 stack의 마지막 아이템을 제거합니다.<br /><br />
 
           push()를 사용하면 뒤에 새로운 아이템을 더합니다.<br /><br />
 
@@ -142,99 +131,78 @@
             #include &lt;iostream><br />
             #include &lt;stack><br />
             using namespace std;<br /><br />
-
             int main()<br />
             {<br />
-            &nbsp;&nbsp;stack&lt;int> s = {0, 1, 2, 3, 4, 5};<br /><br />
-
+            &nbsp;&nbsp;stack&lt;int> s;<br /><br />
             &nbsp;&nbsp;s.push(3);<br />
             &nbsp;&nbsp;s.pop();<br /><br />
-
             &nbsp;&nbsp;return 0;<br />
             }
-            </code>
-            </p>
-            </div>
-            <div style="margin:auto;">
-              <iframe src="https://www.jdoodle.com/embed/v0/4fsk" width="800" height="450"></iframe>
-            </div>
-            </div>
-
+          </code>
+        </p>
+      </div>
+      <div style="margin:auto;">
+        <iframe src="https://www.jdoodle.com/embed/v0/4iuG" width="800" height="450"></iframe>
+      </div>
+    </div>
     <br /><br />
-
     <div class="header-div" style="background-color: rgb(230, 194, 216);">
       <div class="sub-div">
         <h1>size()</h1>
         <p>
           size()를 사용하면 정수로 stack 안에 있는 아이템의 개수를 알 수 있습니다.<br /><br />
-
           <code>
             #include &lt;iostream><br />
             #include &lt;stack><br />
             using namespace std;<br /><br />
-
             int main()<br />
             {<br />
-            &nbsp;&nbsp;stack<int> s = {0, 1, 2, 3, 4, 5};<br />
+            &nbsp;&nbsp;stack&lt;int> s;<br><br>
               &nbsp;&nbsp;s.push(3);<br />
               &nbsp;&nbsp;s.pop();<br /><br />
-
               &nbsp;&nbsp;cout
               << s.size();<br /><br />
-
               &nbsp;&nbsp;return 0;<br />
-              }
+            }
           </code>
-          </p>
-          </div>
-          <div style="margin:auto;">
-            <iframe src="https://www.jdoodle.com/embed/v0/4ePX" width="750" height="450"></iframe>
-          </div>
-          </div>
-
+        </p>
+      </div>
+      <div style="margin:auto;">
+        <iframe src="https://www.jdoodle.com/embed/v0/4iuH" width="750" height="450"></iframe>
+      </div>
+    </div>
     <br /><br />
-
     <div class="header-div">
       <div class="sub-div">
         <h1>top()</h1>
         <p>
           top()을 사용하면 stack에서 가장 위에 있는 아이템을 찾을 수 있습니다.<br /><br />
-
           <code>
             #include &lt;iostream><br />
             #include &lt;stack><br />
             using namespace std;<br /><br />
-
             int main()<br />
             {<br />
-            &nbsp;&nbsp;stack&lt;int> s = {0, 1, 2, 3, 4, 5};<br /><br />
-
-            &nbsp;&nbsp;cout
-            << s.top();<br />
+            &nbsp;&nbsp;stack&lt;int> s;<br /><br />
+            &nbsp;&nbsp;s.push(3);<br><br>
+            &nbsp;&nbsp;cout << s.top();<br />
             &nbsp;&nbsp;s.pop();<br />
-            &nbsp;&nbsp;cout
-            << s.top();<br /><br />
-
+            &nbsp;&nbsp;cout << s.top();<br /><br />
             &nbsp;&nbsp;return 0;<br />
             }`
-            </code>
-            </p>
-            </div>
-            <div style="margin:auto;">
-              <iframe src="https://www.jdoodle.com/embed/v0/4ePX" width="750" height="450"></iframe>
-            </div>
-            </div>
-
-    <br /><br />
-
-    <div style="margin:20px;padding:20px;">
-      <button style="float:left;" class="btn btn-light"><a href="vectorbasic.html">❮ 이전</a></button>
-      <button style="float:right;" class="btn btn-light"><a href="stack.html">다음 ❯</a></button>
+          </code>
+        </p>
+      </div>
+      <div style="margin:auto;">
+        <iframe src="https://www.jdoodle.com/embed/v0/4iuI" width="750" height="450"></iframe>
+      </div>
     </div>
-  </div>
-
+    <br /><br />
+    <div style="margin:20px;padding:20px;">
+      <button style="float:left;" class="btn btn-light"><a href="vectormethod.html">❮ 이전</a></button>
+      <button style="float:right;" class="btn btn-light"><a href="allheader.html">다음 ❯</a></button>
+    </div>
   <br /><br /><br /><br />
-
   <pyfact-footer></pyfact-footer>
   </div>
   <script defer src="script.js"></script>

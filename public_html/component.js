@@ -1,7 +1,174 @@
-(function(){function t(){}function e(t){return null==t?t===c?d:l:E&&E in Object(t)?function(t){var e=T.call(t,E),n=t[E];try{t[E]=c;var r=!0}catch(t){}var o=S.call(t);return r&&(e?t[E]=n:delete t[E]),o}(t):function(t){return S.call(t)}(t)}function n(t,e,n){function o(e){var n=d,r=p;return d=p=c,g=e,y=t.apply(r,n)}function i(t){var n=t-v;return v===c||n>=e||n<0||h&&t-g>=b}function f(){var t=L();return i(t)?l(t):(m=setTimeout(f,function(t){var n=e-(t-v);return h?_(n,b-(t-g)):n}(t)),c)}function l(t){return m=c,O&&d?o(t):(d=p=c,y)}function s(){var t=L(),n=i(t);if(d=arguments,p=this,v=t,n){if(m===c)return function(t){return g=t,m=setTimeout(f,e),j?o(t):y}(v);if(h)return m=setTimeout(f,e),o(v)}return m===c&&(m=setTimeout(f,e)),y}var d,p,b,y,m,v,g=0,j=!1,h=!1,O=!0;if("function"!=typeof t)throw new TypeError(a);return e=u(e)||0,r(n)&&(j=!!n.leading,b=(h="maxWait"in n)?N(u(n.maxWait)||0,e):b,O="trailing"in n?!!n.trailing:O),s.cancel=function(){m!==c&&clearTimeout(m),g=0,d=v=p=m=c},s.flush=function(){return m===c?y:l(L())},s}function r(t){var e=typeof t;return null!=t&&("object"==e||"function"==e)}function o(t){return null!=t&&"object"==typeof t}function i(t){return"symbol"==typeof t||o(t)&&e(t)==s}function u(t){if("number"==typeof t)return t;if(i(t))return f;if(r(t)){var e="function"==typeof t.valueOf?t.valueOf():t;t=r(e)?e+"":e}if("string"!=typeof t)return 0===t?t:+t;t=t.replace(p,"");var n=y.test(t);return n||m.test(t)?v(t.slice(2),n?2:8):b.test(t)?f:+t}var c,a="Expected a function",f=NaN,l="[object Null]",s="[object Symbol]",d="[object Undefined]",p=/^\s+|\s+$/g,b=/^[-+]0x[0-9a-f]+$/i,y=/^0b[01]+$/i,m=/^0o[0-7]+$/i,v=parseInt,g="object"==typeof global&&global&&global.Object===Object&&global,j="object"==typeof self&&self&&self.Object===Object&&self,h=g||j||Function("return this")(),O="object"==typeof exports&&exports&&!exports.nodeType&&exports,w=O&&"object"==typeof module&&module&&!module.nodeType&&module,x=Object.prototype,T=x.hasOwnProperty,S=x.toString,k=h.Symbol,E=k?k.toStringTag:c,N=Math.max,_=Math.min,L=function(){return h.Date.now()};t.debounce=n,t.throttle=function(t,e,o){var i=!0,u=!0;if("function"!=typeof t)throw new TypeError(a);return r(o)&&(i="leading"in o?!!o.leading:i,u="trailing"in o?!!o.trailing:u),n(t,e,{leading:i,maxWait:e,trailing:u})},t.isObject=r,t.isObjectLike=o,t.isSymbol=i,t.now=L,t.toNumber=u,t.VERSION="4.17.5","function"==typeof define&&"object"==typeof define.amd&&define.amd?(h._=t,define(function(){return t})):w?((w.exports=t)._=t,O._=t):h._=t}).call(this);var checkHeader=_.throttle(()=>{Math.round(window.scrollY)>100?document.querySelector("#navigate").classList.add("sticky"):document.querySelector("#navigate").classList.remove("sticky")},300);window.addEventListener("scroll",checkHeader);
+(function () {
+  function t() {}
+  function e(t) {
+    return null == t
+      ? t === c
+        ? d
+        : l
+      : E && E in Object(t)
+      ? (function (t) {
+          var e = T.call(t, E),
+            n = t[E];
+          try {
+            t[E] = c;
+            var r = !0;
+          } catch (t) {}
+          var o = S.call(t);
+          return r && (e ? (t[E] = n) : delete t[E]), o;
+        })(t)
+      : (function (t) {
+          return S.call(t);
+        })(t);
+  }
+  function n(t, e, n) {
+    function o(e) {
+      var n = d,
+        r = p;
+      return (d = p = c), (g = e), (y = t.apply(r, n));
+    }
+    function i(t) {
+      var n = t - v;
+      return v === c || n >= e || n < 0 || (h && t - g >= b);
+    }
+    function f() {
+      var t = L();
+      return i(t)
+        ? l(t)
+        : ((m = setTimeout(
+            f,
+            (function (t) {
+              var n = e - (t - v);
+              return h ? _(n, b - (t - g)) : n;
+            })(t)
+          )),
+          c);
+    }
+    function l(t) {
+      return (m = c), O && d ? o(t) : ((d = p = c), y);
+    }
+    function s() {
+      var t = L(),
+        n = i(t);
+      if (((d = arguments), (p = this), (v = t), n)) {
+        if (m === c)
+          return (function (t) {
+            return (g = t), (m = setTimeout(f, e)), j ? o(t) : y;
+          })(v);
+        if (h) return (m = setTimeout(f, e)), o(v);
+      }
+      return m === c && (m = setTimeout(f, e)), y;
+    }
+    var d,
+      p,
+      b,
+      y,
+      m,
+      v,
+      g = 0,
+      j = !1,
+      h = !1,
+      O = !0;
+    if ("function" != typeof t) throw new TypeError(a);
+    return (
+      (e = u(e) || 0),
+      r(n) &&
+        ((j = !!n.leading),
+        (b = (h = "maxWait" in n) ? N(u(n.maxWait) || 0, e) : b),
+        (O = "trailing" in n ? !!n.trailing : O)),
+      (s.cancel = function () {
+        m !== c && clearTimeout(m), (g = 0), (d = v = p = m = c);
+      }),
+      (s.flush = function () {
+        return m === c ? y : l(L());
+      }),
+      s
+    );
+  }
+  function r(t) {
+    var e = typeof t;
+    return null != t && ("object" == e || "function" == e);
+  }
+  function o(t) {
+    return null != t && "object" == typeof t;
+  }
+  function i(t) {
+    return "symbol" == typeof t || (o(t) && e(t) == s);
+  }
+  function u(t) {
+    if ("number" == typeof t) return t;
+    if (i(t)) return f;
+    if (r(t)) {
+      var e = "function" == typeof t.valueOf ? t.valueOf() : t;
+      t = r(e) ? e + "" : e;
+    }
+    if ("string" != typeof t) return 0 === t ? t : +t;
+    t = t.replace(p, "");
+    var n = y.test(t);
+    return n || m.test(t) ? v(t.slice(2), n ? 2 : 8) : b.test(t) ? f : +t;
+  }
+  var c,
+    a = "Expected a function",
+    f = NaN,
+    l = "[object Null]",
+    s = "[object Symbol]",
+    d = "[object Undefined]",
+    p = /^\s+|\s+$/g,
+    b = /^[-+]0x[0-9a-f]+$/i,
+    y = /^0b[01]+$/i,
+    m = /^0o[0-7]+$/i,
+    v = parseInt,
+    g =
+      "object" == typeof global && global && global.Object === Object && global,
+    j = "object" == typeof self && self && self.Object === Object && self,
+    h = g || j || Function("return this")(),
+    O = "object" == typeof exports && exports && !exports.nodeType && exports,
+    w = O && "object" == typeof module && module && !module.nodeType && module,
+    x = Object.prototype,
+    T = x.hasOwnProperty,
+    S = x.toString,
+    k = h.Symbol,
+    E = k ? k.toStringTag : c,
+    N = Math.max,
+    _ = Math.min,
+    L = function () {
+      return h.Date.now();
+    };
+  (t.debounce = n),
+    (t.throttle = function (t, e, o) {
+      var i = !0,
+        u = !0;
+      if ("function" != typeof t) throw new TypeError(a);
+      return (
+        r(o) &&
+          ((i = "leading" in o ? !!o.leading : i),
+          (u = "trailing" in o ? !!o.trailing : u)),
+        n(t, e, { leading: i, maxWait: e, trailing: u })
+      );
+    }),
+    (t.isObject = r),
+    (t.isObjectLike = o),
+    (t.isSymbol = i),
+    (t.now = L),
+    (t.toNumber = u),
+    (t.VERSION = "4.17.5"),
+    "function" == typeof define && "object" == typeof define.amd && define.amd
+      ? ((h._ = t),
+        define(function () {
+          return t;
+        }))
+      : w
+      ? (((w.exports = t)._ = t), (O._ = t))
+      : (h._ = t);
+}.call(this));
+var checkHeader = _.throttle(() => {
+  Math.round(window.scrollY) > 100
+    ? document.querySelector("#navigate").classList.add("sticky")
+    : document.querySelector("#navigate").classList.remove("sticky");
+}, 300);
+window.addEventListener("scroll", checkHeader);
 
 //Vue.js
-const app = Vue.createApp( {} );
+const app = Vue.createApp({});
 
 app.component("pyfact-footer", {
   template: `<footer>
@@ -18,11 +185,10 @@ app.component("pyfact-footer", {
         </div>
       </div>
     </footer>`,
-} );
+});
 
-app.component( "pyfact-footer-en", {
-  template:
-      `<footer>
+app.component("pyfact-footer-en", {
+  template: `<footer>
         <div>
           <a class="btn btn-light" href="https://coding-insight.com/chat.html"
             >Questions</a
@@ -53,7 +219,7 @@ app.component( "pyfact-footer-en", {
           </div>
         </div>
       </footer>`,
-} );
+});
 
 app.component("c-pyfact-menu", {
   template: `
@@ -108,7 +274,7 @@ app.component("c-pyfact-menu", {
     <a href="conbregot.html">(23) &#67;&#111;&#110;&#116;&#105;&#110;&#117;&#101;&#44;&#32;&#66;&#114;&#101;&#97;&#107;&#44;&#32;&#71;&#111;&#116;&#111;&#32;&#47928;</a>
     <a href="array.html">(24) &#48176;&#50676;</a>
     <a href="string.html">(25) &#47928;&#51088;&#50676;</a>
-    <a href="stringlibrary.html">(26) &#115;&#116;&#114;&#105;&#110;&#103;&#32;&#46972;&#51060;&#48652;&#47084;&#47532;</a>
+    <a href="stringlibrary.html">(26) &#115;&#116;&#114;&#105;&#110;&#103;&#32;&#46972;&#51메서드;&#48652;&#47084;&#47532;</a>
     <a href="2darr.html">(27) &#50;&#52264;&#50896;&#32;&#48176;&#50676;</a>
     <br /><br />
     <a href="function.html">(28) &#54632;&#49688;</a>
@@ -166,6 +332,9 @@ app.component("c-pyfact-menu", {
     <a href="io-cpp.html">(2) 입출력</a>
     <a href="string-cpp.html">(3) 문자열</a>
     <a href="vectorbasic.html">(4) Vector</a>
+    <a href="vectormethod.html">(5) Vector 메서드</a>
+    <a href="stack.html">(6) Stack</a>
+    <a href="akkllheader.html">(7) bits/stdc++.h</a>
   </p>
 </details>`,
 });
@@ -359,7 +528,7 @@ app.component("py-pyfact-menu", {
 <br /> <br />`,
 });
 
-app.component('py-pyfact-menu-en', {
+app.component("py-pyfact-menu-en", {
   template: `
     <button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
 
@@ -540,7 +709,7 @@ app.component('py-pyfact-menu-en', {
 </details>
 
 <br /> <br />
-  `
-})
+  `,
+});
 
 app.mount("#app");

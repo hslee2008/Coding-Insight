@@ -3,7 +3,8 @@
   top: 0;
   width: 100%;
   background-color: white;
-  box-shadow: 0 10px #f7f7f7;
+  box-shadow: 0 5px 10px 5px #636363;
+  z-index: 100;
 }
 
 img:not(.py-menu-image) {
