@@ -2,16 +2,10 @@
 ! React Native Imports
 */
 import "react-native-gesture-handler";
-import React, { useRef, useState, memo } from "react";
+import React, { useRef, useState } from "react";
 import { BackHandler } from "react-native";
-import { WebView } from "react-native-webview";
-import {
-  home,
-  ProgressPyF,
-  MenuButton,
-  Alert,
-  SnackBarsForErrors,
-} from "./src/component.jsx";
+import PythonFactoryWebView from "./WebView";
+import { home, ProgressPyF, MenuButton, Alert } from "./src/component.jsx";
 import Settings, { setting } from "./src/setting.jsx";
 import styles from "./src/style.jsx";
 import global from "./src/global.jsx";
@@ -22,7 +16,7 @@ import global from "./src/global.jsx";
 var isOnSetting: boolean = false,
   globalFunctions: any;
 
-const HomeWrapper = memo(({ navigation }: any) => {
+const HomeWrapper = ({ navigation }: any) => {
   const webViewRef: any = useRef(null);
 
   /*
@@ -38,67 +32,10 @@ const HomeWrapper = memo(({ navigation }: any) => {
     return true;
   });
 
-  /*
-  !STATES
-  */
-  const [webLoading, setWebLoading] = useState(true);
   const [visible, setVisible] = useState(false);
-  const [HTTPError, setHTTPError] = useState(false);
-  const [Error, setError] = useState(false);
-  const [Process, setProcess] = useState(false);
-  const [Reload, setReload] = useState(false);
-  const [link, setLink] = useState(
-    setting.korean ? home : home + "/index-en.html"
-  );
 
-  /*
-  !FUNCTIONS
-  */
-  const onToggleHTTPError = () => setHTTPError(!visible);
-  const onDismissHTTPError = () => setHTTPError(false);
-  const onToggleError = () => setError(!visible);
-  const onDismissError = () => setError(false);
-  const onToggleProcess = () => setProcess(!visible);
-  const onDismissProcess = () => setProcess(false);
-  const onToggleReload = () => setReload(!visible);
-  const onDismissReload = () => setReload(false);
-
-  const hide = () => setVisible(false);
-
-  const webLoadingFalse = () => setWebLoading(false);
-  const webLoadingTrue = () => setWebLoading(true);
-
-  const reload = () => webViewRef.current.reload();
-  const goback = () => webViewRef.current.goBack();
-  const goforward = () => webViewRef.current.goForward();
-  const stop = () => {
-    webViewRef.current.stopLoading();
-    webLoadingFalse();
-    onToggleReload();
-  };
-  const erase = () => {
-    webViewRef.current.clearHistory();
-    webViewRef.current.clearFormData();
-    webViewRef.current.clearCache(true);
-  };
-
-  /*
-  !GLOBAL FUNCTIONS
-  */
   globalFunctions = {
     webViewRef,
-    webLoading,
-    setWebLoading,
-    link,
-    setLink,
-    visible,
-    setVisible,
-    reload,
-    goback,
-    goforward,
-    stop,
-    navigation,
-    erase,
     goToSetting: () => {
       navigation.navigate("Settings");
       isOnSetting = true;
@@ -107,41 +44,13 @@ const HomeWrapper = memo(({ navigation }: any) => {
 
   return (
     <>
-      <Alert visible={visible} hide={hide} setLink={setLink} />
-      <SnackBarsForErrors
-        {...{
-          HTTPError,
-          onDismissHTTPError,
-          goback,
-          Error,
-          onDismissError,
-          Process,
-          onDismissProcess,
-          Reload,
-          onDismissReload,
-          reload,
-        }}
+      <Alert
+        visible={visible}
+        hide={() => setVisible(false)}
+        setLink={(a: any) => webViewRef.current.setLink(a.url)}
       />
-      <WebView
-        {...global.webView}
-        ref={webViewRef}
-        source={{ uri: link }}
-        onNavigationStateChange={(a: any) => setLink(a.url)}
-        onLoad={webLoadingFalse}
-        onLoadProgress={webLoadingTrue}
-        onError={onToggleError}
-        onHttpError={onToggleHTTPError}
-        onRenderProcessGone={onToggleProcess}
-        thirdPartyCookiesEnabled={setting.cookie}
-        showsHorizontalScrollIndicator={setting.scroll}
-        showsVerticalScrollIndicator={setting.scroll}
-        incognito={setting.secret}
-        cacheEnabled={setting.cache}
-        textZoom={parseInt(setting.text)}
-        setBuiltInZoomControls={setting.zoom}
-        injectedJavaScriptBeforeContentLoaded={setting.phone ? "" : global.js}
-      />
-      <ProgressPyF webLoading={webLoading} />
+      <PythonFactoryWebView ref={webViewRef} />
+      <ProgressPyF webLoading={() => webViewRef.current.getWebLoading()} />
       <MenuButton
         gf={globalFunctions}
         menu={setting.menu}
@@ -153,15 +62,13 @@ const HomeWrapper = memo(({ navigation }: any) => {
       />
     </>
   );
-});
+};
 
 const SettingWrapper = ({ navigation }: any) => (
   <Settings
     {...{
+      webViewRef: globalFunctions.webViewRef,
       close: navigation.goBack,
-      reloadWebView: globalFunctions.reload,
-      reload: globalFunctions.reload,
-      erase: globalFunctions.erase,
       isOnSetting: () => (isOnSetting = false),
     }}
   />

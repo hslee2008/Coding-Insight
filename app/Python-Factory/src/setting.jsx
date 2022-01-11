@@ -47,7 +47,7 @@ const AppBar = memo((props) => (
 const Functions = memo((props) => {
   return (
     <View style={[styles.view, { justifyContent: "space-evenly" }]}>
-      <Button icon="eraser" onPress={() => props.erase()}>
+      <Button icon="eraser" onPress={props.erase}>
         Erase All Data
       </Button>
     </View>
@@ -75,7 +75,7 @@ const Settings = memo((props) => {
             value={searchQuery}
             style={styles.marginten}
           />
-          <Functions erase={props.erase} />
+          <Functions erase={() => props.webViewRef.current.erase()} />
           <WebSetting
             query={searchQuery}
             setting={setting}

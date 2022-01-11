@@ -118,17 +118,12 @@ const Bar = memo((props) => {
     <View style={styles.bar}>
       <IconButton icon="undo" onPress={props.goback} color="white" />
       <IconButton icon="redo" onPress={props.goforward} color="white" />
-      {props.webLoading ? (
-        <IconButton
-          icon="stop"
-          onPress={() => {
-            props.stop();
-          }}
-          color="white"
-        />
-      ) : (
-        <IconButton icon="reload" onPress={props.reload} color="white" />
-      )}
+      <IconButton
+        icon="reload"
+        onPress={props.reload}
+        color="white"
+        disabled={props.webLoading}
+      />
       <IconButton
         icon="home"
         disabled={global.ishome(props.link, home)}
@@ -167,7 +162,7 @@ const Bar = memo((props) => {
             setVisible={setVisible}
             closeMenu={closeMenu}
             link={props.link}
-            erase={props.erase}
+            erase={() => props.webViewRef.current.erase()}
           />
         </Menu>
       </>
@@ -179,19 +174,19 @@ const MenuButton = (props) =>
   props.menu ? (
     <Bar
       {...{
-        goback: props.gf.goback,
-        goforward: props.gf.goforward,
+        goback: () => props.gf.webViewRef.current.goBack(),
+        goforward: () => props.gf.webViewRef.current.goForward(),
+        reload: () => props.gf.webViewRef.current.reload(),
+        erase: () => props.gf.webViewRef.current.erase(),
+
         webLoading: props.gf.webLoading,
         setLink: props.gf.setLink,
-        reload: props.gf.reload,
         link: props.gf.link,
         navigation: props.gf.navigation,
         setVisible: props.gf.setVisible,
         visible: props.gf.visible,
-        stop: props.gf.stop,
         setWebLoading: props.gf.setWebLoading,
         goToSetting: props.gf.goToSetting,
-        erase: props.gf.erase,
       }}
     />
   ) : (
@@ -204,10 +199,10 @@ function SnackBarsForErrors(props) {
       <Snackbar
         visible={props.HTTPError}
         onDismiss={props.onDismissHTTPError}
-        style={{ bottom: 50 }}
+        style={{ bottom: 50, zIndex: 100 }}
         action={{
           label: "OK",
-          onPress: props.goback,
+          onPress: () => props.webViewRef.current.goBack(),
         }}
       >
         HTTP Error: This page does not exist
@@ -216,7 +211,7 @@ function SnackBarsForErrors(props) {
       <Snackbar
         visible={props.Error}
         onDismiss={props.onDismissError}
-        style={{ bottom: 50 }}
+        style={{ bottom: 50, zIndex: 100 }}
         action={{
           label: "Update",
           onPress: reloadAsync,
@@ -228,25 +223,13 @@ function SnackBarsForErrors(props) {
       <Snackbar
         visible={props.Process}
         onDismiss={props.onDismissProcess}
-        style={{ bottom: 50 }}
+        style={{ bottom: 50, zIndex: 100 }}
         action={{
           label: "OK",
           onPress: props.onDismissProcess,
         }}
       >
         Process Gone! Something went wrong
-      </Snackbar>
-
-      <Snackbar
-        visible={props.Reload}
-        onDismiss={props.onDismissReload}
-        style={{ bottom: 50 }}
-        action={{
-          label: "Reload Again",
-          onPress: props.reload,
-        }}
-      >
-        Reloading stopped.
       </Snackbar>
     </>
   );
