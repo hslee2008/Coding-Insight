@@ -550,7 +550,21 @@ app.component("py-pyfact-menu-en", {
 
 <br /> <br />
   `,
-});
+} );
+
+app.component( "rust-pyfact-menu", {
+  template: `
+    <button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
+
+  <details>
+    <summary>Rust 시작</summary>
+    <p id="men">
+      <a href="rust.html">(1) Rust</a>
+    </p>
+  </details>
+
+  `,
+} );
 
 app.mount("#app");
 
