@@ -1,171 +1,12 @@
-(function () {
-  function t() {}
-  function e(t) {
-    return null == t
-      ? t === c
-        ? d
-        : l
-      : E && E in Object(t)
-      ? (function (t) {
-          var e = T.call(t, E),
-            n = t[E];
-          try {
-            t[E] = c;
-            var r = !0;
-          } catch (t) {}
-          var o = S.call(t);
-          return r && (e ? (t[E] = n) : delete t[E]), o;
-        })(t)
-      : (function (t) {
-          return S.call(t);
-        })(t);
-  }
-  function n(t, e, n) {
-    function o(e) {
-      var n = d,
-        r = p;
-      return (d = p = c), (g = e), (y = t.apply(r, n));
-    }
-    function i(t) {
-      var n = t - v;
-      return v === c || n >= e || n < 0 || (h && t - g >= b);
-    }
-    function f() {
-      var t = L();
-      return i(t)
-        ? l(t)
-        : ((m = setTimeout(
-            f,
-            (function (t) {
-              var n = e - (t - v);
-              return h ? _(n, b - (t - g)) : n;
-            })(t)
-          )),
-          c);
-    }
-    function l(t) {
-      return (m = c), O && d ? o(t) : ((d = p = c), y);
-    }
-    function s() {
-      var t = L(),
-        n = i(t);
-      if (((d = arguments), (p = this), (v = t), n)) {
-        if (m === c)
-          return (function (t) {
-            return (g = t), (m = setTimeout(f, e)), j ? o(t) : y;
-          })(v);
-        if (h) return (m = setTimeout(f, e)), o(v);
-      }
-      return m === c && (m = setTimeout(f, e)), y;
-    }
-    var d,
-      p,
-      b,
-      y,
-      m,
-      v,
-      g = 0,
-      j = !1,
-      h = !1,
-      O = !0;
-    if ("function" != typeof t) throw new TypeError(a);
-    return (
-      (e = u(e) || 0),
-      r(n) &&
-        ((j = !!n.leading),
-        (b = (h = "maxWait" in n) ? N(u(n.maxWait) || 0, e) : b),
-        (O = "trailing" in n ? !!n.trailing : O)),
-      (s.cancel = function () {
-        m !== c && clearTimeout(m), (g = 0), (d = v = p = m = c);
-      }),
-      (s.flush = function () {
-        return m === c ? y : l(L());
-      }),
-      s
-    );
-  }
-  function r(t) {
-    var e = typeof t;
-    return null != t && ("object" == e || "function" == e);
-  }
-  function o(t) {
-    return null != t && "object" == typeof t;
-  }
-  function i(t) {
-    return "symbol" == typeof t || (o(t) && e(t) == s);
-  }
-  function u(t) {
-    if ("number" == typeof t) return t;
-    if (i(t)) return f;
-    if (r(t)) {
-      var e = "function" == typeof t.valueOf ? t.valueOf() : t;
-      t = r(e) ? e + "" : e;
-    }
-    if ("string" != typeof t) return 0 === t ? t : +t;
-    t = t.replace(p, "");
-    var n = y.test(t);
-    return n || m.test(t) ? v(t.slice(2), n ? 2 : 8) : b.test(t) ? f : +t;
-  }
-  var c,
-    a = "Expected a function",
-    f = NaN,
-    l = "[object Null]",
-    s = "[object Symbol]",
-    d = "[object Undefined]",
-    p = /^\s+|\s+$/g,
-    b = /^[-+]0x[0-9a-f]+$/i,
-    y = /^0b[01]+$/i,
-    m = /^0o[0-7]+$/i,
-    v = parseInt,
-    g =
-      "object" == typeof global && global && global.Object === Object && global,
-    j = "object" == typeof self && self && self.Object === Object && self,
-    h = g || j || Function("return this")(),
-    O = "object" == typeof exports && exports && !exports.nodeType && exports,
-    w = O && "object" == typeof module && module && !module.nodeType && module,
-    x = Object.prototype,
-    T = x.hasOwnProperty,
-    S = x.toString,
-    k = h.Symbol,
-    E = k ? k.toStringTag : c,
-    N = Math.max,
-    _ = Math.min,
-    L = function () {
-      return h.Date.now();
-    };
-  (t.debounce = n),
-    (t.throttle = function (t, e, o) {
-      var i = !0,
-        u = !0;
-      if ("function" != typeof t) throw new TypeError(a);
-      return (
-        r(o) &&
-          ((i = "leading" in o ? !!o.leading : i),
-          (u = "trailing" in o ? !!o.trailing : u)),
-        n(t, e, { leading: i, maxWait: e, trailing: u })
-      );
-    }),
-    (t.isObject = r),
-    (t.isObjectLike = o),
-    (t.isSymbol = i),
-    (t.now = L),
-    (t.toNumber = u),
-    (t.VERSION = "4.17.5"),
-    "function" == typeof define && "object" == typeof define.amd && define.amd
-      ? ((h._ = t),
-        define(function () {
-          return t;
-        }))
-      : w
-      ? (((w.exports = t)._ = t), (O._ = t))
-      : (h._ = t);
-}.call(this));
+// prettier-ignore
+( function () { function t () { } function e ( t, e, r ) { function o ( e ) { var n = d, r = p; return d = p = u, g = e, y = t.apply( r, n ) } function a ( t ) { var n = t - v; return v === u || n >= e || n < 0 || h && t - g >= b } function f () { var t = _(); return a( t ) ? l( t ) : ( m = setTimeout( f, function ( t ) { var n = e - ( t - v ); return h ? N( n, b - ( t - g ) ) : n }( t ) ), u ) } function l ( t ) { return m = u, O && d ? o( t ) : ( d = p = u, y ) } function s () { var t = _(), n = a( t ); if ( d = arguments, p = this, v = t, n ) { if ( m === u ) return function ( t ) { return g = t, m = setTimeout( f, e ), j ? o( t ) : y }( v ); if ( h ) return m = setTimeout( f, e ), o( v ) } return m === u && ( m = setTimeout( f, e ) ), y } var d, p, b, y, m, v, g = 0, j = !1, h = !1, O = !0; if ( "function" != typeof t ) throw new TypeError( c ); return e = i( e ) || 0, n( r ) && ( j = !!r.leading, b = ( h = "maxWait" in r ) ? E( i( r.maxWait ) || 0, e ) : b, O = "trailing" in r ? !!r.trailing : O ), s.cancel = function () { m !== u && clearTimeout( m ), g = 0, d = v = p = m = u }, s.flush = function () { return m === u ? y : l( _() ) }, s } function n ( t ) { var e = typeof t; return null != t && ( "object" == e || "function" == e ) } function r ( t ) { return null != t && "object" == typeof t } function o ( t ) { return "symbol" == typeof t || r( t ) && function ( t ) { return null == t ? t === u ? s : f : k && k in Object( t ) ? function ( t ) { var e = x.call( t, k ), n = t[ k ]; try { t[ k ] = u; var r = !0 } catch ( t ) { } var o = T.call( t ); return r && ( e ? t[ k ] = n : delete t[ k ] ), o }( t ) : function ( t ) { return T.call( t ) }( t ) }( t ) == l } function i ( t ) { if ( "number" == typeof t ) return t; if ( o( t ) ) return a; if ( n( t ) ) { var e = "function" == typeof t.valueOf ? t.valueOf() : t; t = n( e ) ? e + "" : e } if ( "string" != typeof t ) return 0 === t ? t : +t; t = t.replace( d, "" ); var r = b.test( t ); return r || y.test( t ) ? m( t.slice( 2 ), r ? 2 : 8 ) : p.test( t ) ? a : +t } var u, c = "Expected a function", a = NaN, f = "[object Null]", l = "[object Symbol]", s = "[object Undefined]", d = /^\s+|\s+$/g, p = /^[-+]0x[0-9a-f]+$/i, b = /^0b[01]+$/i, y = /^0o[0-7]+$/i, m = parseInt, v = "object" == typeof global && global && global.Object === Object && global, g = "object" == typeof self && self && self.Object === Object && self, j = v || g || Function( "return this" )(), h = "object" == typeof exports && exports && !exports.nodeType && exports, O = h && "object" == typeof module && module && !module.nodeType && module, w = Object.prototype, x = w.hasOwnProperty, T = w.toString, S = j.Symbol, k = S ? S.toStringTag : u, E = Math.max, N = Math.min, _ = function () { return j.Date.now() }; t.debounce = e, t.throttle = function ( t, r, o ) { var i = !0, u = !0; if ( "function" != typeof t ) throw new TypeError( c ); return n( o ) && ( i = "leading" in o ? !!o.leading : i, u = "trailing" in o ? !!o.trailing : u ), e( t, r, { leading: i, maxWait: r, trailing: u } ) }, t.isObject = n, t.isObjectLike = r, t.isSymbol = o, t.now = _, t.toNumber = i, t.VERSION = "4.17.5", "function" == typeof define && "object" == typeof define.amd && define.amd ? ( j._ = t, define( function () { return t } ) ) : O ? ( ( O.exports = t )._ = t, h._ = t ) : j._ = t } ).call( this );
 var checkHeader = _.throttle(() => {
   Math.round(window.scrollY) > 100
     ? document.querySelector("#navigate").classList.add("sticky")
     : document.querySelector("#navigate").classList.remove("sticky");
 }, 300);
 window.addEventListener("scroll", checkHeader);
+// prettier-ignore
 
 //Vue.js
 const app = Vue.createApp({});
@@ -204,11 +45,10 @@ app.component("pyfact-footer-en", {
             >YouTube</a
           >
           <br /><br />
-          <img
+          < img alt = "python-factory-picture"
             class="img-fluid"
             src="py.png"
             width="200px"
-            alt="python-factory-logo"
           />
           <br />
           <div class="d-flex justify-content-center p-0 w-100">
@@ -713,3 +553,9 @@ app.component("py-pyfact-menu-en", {
 });
 
 app.mount("#app");
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/service_worker.js").then(function () {
+    console.log("서비스 워커가 등록됨!");
+  });
+}

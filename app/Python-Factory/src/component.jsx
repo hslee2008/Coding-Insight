@@ -1,31 +1,22 @@
 /*
 ! React Native Library Imports
 */
+import { reloadAsync } from "expo-updates";
+import { Actionsheet, Box, Image } from "native-base";
 import React, { memo, useState } from "react";
 import {
-  View,
-  Text,
-  Linking,
-  Share,
-  BackHandler,
-  ScrollView,
+    BackHandler, Linking, ScrollView, Share, Text, View
 } from "react-native";
 import {
-  ProgressBar,
-  List,
-  IconButton,
-  Menu,
-  Snackbar,
+    IconButton, List, Menu, ProgressBar, Snackbar
 } from "react-native-paper";
-import { Image, Box, Actionsheet } from "native-base";
-import { reloadAsync } from "expo-updates";
-
+import global from "./global.jsx";
+import Links from "./links.js";
 /*
 ! Local React Native Imports
 */
 import styles from "./style.jsx";
-import global from "./global.jsx";
-import Links from "./links.js";
+
 
 /*
 ! Global Variables
@@ -95,7 +86,7 @@ const Header = memo(() => (
     <Image
       source={{ uri: home + "/py.png" }}
       style={styles.image}
-      alt="python factory logo"
+
     />
     <View>
       <Text style={styles.title}>Settings</Text>

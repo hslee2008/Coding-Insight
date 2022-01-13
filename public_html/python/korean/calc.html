@@ -9,12 +9,15 @@
   </script>
   <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <meta name="theme-color" content="#20232a" />
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
   <meta name="author" content="Hyunseung, Juha, Gun" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>코딩 인사이트</title>
   <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/py.png" />
+  <link rel="manifest" href="../../manifest.json">
   <link hreflang="kr" rel="stylesheet" href="style.css" />
 </head>
 
@@ -22,7 +25,8 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
+          style="float: right; margin: 10px;">
         <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
@@ -32,7 +36,9 @@
         <li style="float:right;">
           <a href="https://coding-insight.com/python/english/calc-en.html" id="trans" id="trans">English</a>
           </li>
-          <li id="more"><a>더보기</a></li>
+          <li id="more">
+            <p>더보기</p>
+          </li>
           </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
@@ -55,7 +61,7 @@
           </p>
           </div>
           <div style="margin: auto">
-            <img class="img-fluid" alt="python_factory_picture" alt="python-factory-picture"
+            <img alt="python-factory-picture" class="img-fluid"
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAk1BMVEX///9InePU3+nivAAJM1c+meKnzPDY4elRoeSixOZCnOc4m+zovQDVuTeFp7KsyueSveaarJGmx+cALU8jXIwwcKh0r+TI2eizzudLouoVQmo0d7Dc4+mTvuY2luFbpuXX6Pi92POGt+XI3/XLtz+OqaJ3pbdrrOR6suWcxu66s2BxpLxOntpto8FCk9U6g8EgV4awUr1fAAAD40lEQVR4nO3dfXeaMBTHcVMXfOom6mrrquBDW7GPe/+vbnhOQXQk4mpyWfv9/X1P5XOiCeQCbTQIIYQQQgghhBBCCKl35kESt/0kToK5d1+gIq38RUcq8OpbaZ+8d6Re+QNuIu++baKNL2AoA0yJoR9gIAVMiV5+jHM5YEqcexDG/ieZXXTsHriSHMJ0EN1PqGNRoFKJc6Hkd3Qb7RooOs9s43yuWYiP4cKxMDgQdnuu0z0Qul4SD4S9wd13t7kb9CSFvcfLputcPvbkhN0n98CU+NSVEw68CAcIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhwgrCey/CezmhevYAbDaflZyw+9K8dJ3mS1dQqLrq4YfbPKj92758C1Oj6xx8nn+h7yBEiBAhQoQIESL8F6E2pErR6X/Iv1CvO8OydMa6QtG6WDSuUORfqMNpqzzTYV6oO8aizq6obywKtaAwbl2YMk2yyvXUXLTOjjsxF7ViOaEOzcJWNoi6YynKBlEPLUV7g+hZOLMcV/8kYd9SNBMU2sbwfELJMUSIECFChAgRIkSIECFChAgRfg7h196n+RR7bdb90nzX27Zfmm2F6nE990uVXlbZzp4Zi3bfP8vG+FJyz1vpOOyUZbbXkohn5UXFFxTqdXlRePAWw9r0nlwV0T9EiPBLCs84iUzKIi3U7WVYluXeQmAqaheKJq+35VH7SN8r/tiwTBd703ppKmrtFvPJ1ciUt4mgsG05a8sa2CqucNam3kbfTBm9ygnT0TGfTeZn3rYLkOy0bfLTIrwVFJ7t6skqvJrICc92BYwQIUKECBEiRIgQIUKECBEiROhUyD7Nfy+0NrCz3V5bAztvhddWaOlN3+SFkfmhrWH2/7FqK0wHqH9Tln6x+a4TQ1H+8FeNhcbnIvVpRTUWnikIESL8kLBK//poUY2Fej0uy7p4/Pp4UW2FOr4oX82nrd1ap9emoov83rDaCpXxfKxwR6GlFd5q11xo7XLnt45+uMvN1ZNL4ae/ekKIECFChAgRIkSIECFChAgRIkRYD6Gty50/Y257rWX+gszJrUX4puSE+sZ09K3r3Z73tamo0ApXv0zE0W/JJ7tUFF6Xp1Oo0zND0d7LEq5+ledW9Om8bdclKsthl7tCUenzlX8/Y+lcuHDTP6wevXAsnEfHD8JporljYUN8DF0DG4mwMHEuXMl+TaOVc2EjPn4YDhO7B8rONe7nmW02csTI9WL4nqUUMQr9AMVGMdr4AqYTqvK/LGrlYRotJNCRT2T6aZ5+goWsgiRu+0mcBH7HjxBCCCGEEEIIIYSQ0/MHIXVUWTCLJwEAAAAASUVORK5CYII="
               width="300px" />
           </div>
@@ -69,12 +75,12 @@
                     <button id="speakbutt" class="btn btn-primary">읽어주기</button>
                     <div id="setting">
                       <br /><br />
-                      <img class="img-fluid" alt="python_factory_picture"
+                      <img alt="python-factory-picture" class="img-fluid"
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                         style="width: 25px !important" />
                       <input type="range" id="vol" min="0" max="1" step="0.1" />
                       <br />
-                      <img class="img-fluid" alt="python_factory_picture"
+                      <img alt="python-factory-picture" class="img-fluid"
                         src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                         style="width: 25px !important" />
                       <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <meta name="theme-color" content="#20232a" />
+  <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/py.png" />
+  <link rel="manifest" href="../../manifest.json">
+  <link hreflang="kr" rel="stylesheet" href="style.css" />
+</head>
+
+<body class="m-0">
+  <div id="app">
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
+          style="float: right; margin: 10px" />
+        <li>
+          <a href="https://coding-insight.com/index.html" id="home">홈</a>
+        </li>
+        <li>
+          <a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a>
+        </li>
+        <li>
+          <a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a>
+        </li>
+        <li>
+          <a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a>
+        </li>
+        <li>
+          <a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a>
+        </li>
+        <li>
+          <a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a>
+        </li>
+        <li id="more">
+          <p>더보기</p>
+        </li>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important">
+        ☰
+      </button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto" id="demo">
+      <div id="menu">
+        <c-pyfact-menu></c-pyfact-menu>
+      </div>
+    </div>
+    <br /><br />
+    <div class="norm-div" style="margin-top: 50px">
+      <div class="sub-div">
+        <h1>예외 처리란?</h1>
+        <p>
+          예외 처리는 만일 코드를 실행하는데 에러가 생기는 부분을 찾아내고 에러 때문에 프로그램을 바로 종료하지 않고 계속 문제 없이 넘어가게 만들어주는 작업을 예외 처리라고 합니다.<br><br>
+
+          만일 나누기 프로그램을 만들 때 분모를 0으로 입력하면 에러가 생깁니다.<br><br>
+
+          이 상황에서 예외 처리를 하지 않는다면 에러가 나고 프로그램이 강재로 중단됩니다.<br><br>
+
+          하지만 예외 처리를 한다면 사용자에게 분모가 0이 될 수 없다고 설명을 하고 넘어갈 수 있습니다.
+        </p>
+      </div>
+      <div style="margin: auto">
+        <img alt="python-factory-picture" class="img-fluid"
+          src="data:image/jpeg;base64,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"
+          width="200" />
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <div class="text-center">
+      <hr />
+      <br />
+      <div class="text-center" id="speakdiv">
+        <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+        <div id="setting">
+          <br /><br />
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width: 25px !important" />
+          <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br />
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width: 25px !important" />
+          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+        </div>
+      </div>
+      <br /><br />
+      <h1 class="display-6">
+        <span id="tit">예외 처리</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+          id="txt">)</span> 8
+      </h1>
+      <br />
+      <hr />
+    </div>
+    <br /><br /><br /><br />
+    <div class="header-div">
+      <div class="sub-div">
+        <h1>예외 처리하는 방법</h1>
+        <p>
+          try{} 안에 문제가 될 수 있는 코드를 넣고 catch()를 사용해서 특정한 에러가 일어났을 때 프로그램을 중단하지 않고 바로 catch() 안에 있는 코드를 실행할 수 있습니다.<br><br>
+
+          <code>
+            #include &lt;iostream><br>
+            using namespace std;<br><br>
+
+            double division(int a, int b) {<br>
+            &nbsp;&nbsp;if( b == 0 ) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;throw "Division by zero condition!";<br>
+            &nbsp;&nbsp;}<br><br>
+
+            &nbsp;&nbsp;return (a/b);<br>
+            }<br><br>
+
+            int main () {<br>
+            &nbsp;&nbsp;int x = 50;<br>
+            &nbsp;&nbsp;int y = 0;<br>
+            &nbsp;&nbsp;double z = 0;<br><br>
+
+            &nbsp;&nbsp;try {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;z = division(x, y);<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;cout << z << endl;<br>
+              &nbsp;&nbsp;} catch (const char* msg) {<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;cerr << msg << endl;<br>
+                &nbsp;&nbsp;}<br><br>
+
+                &nbsp;&nbsp;return 0;<br>
+                }
+          </code>
+
+          참고로 catch() 안에 있는 const char*은 에러 문자로 catch() 코드에서 msg 변수를 사용할 수 있게 도와줍니다.
+        </p>
+      </div>
+      <iframe src="https://www.jdoodle.com/embed/v0/4iPQ" width="1000vw"></iframe>
+    </div>
+    <div class="header-div">
+      <div class="sub-div">
+        <h1>단점</h1>
+        <p>
+          1. 프로그램이 느려질 수 있습니다.
+        </p>
+      </div>
+    </div>
+    <br /><br />
+    <div class="header-div">
+      <div class="sub-div">
+        <h1>내용</h1>
+        <p>
+          다음은 bits/stdc++.h 파일 안에 있는 모든 헤더들입니다.<br><br>
+
+          <pre>
+              // C
+#ifndef _GLIBCXX_NO_ASSERT
+#include &lt;cassert>
+#endif
+#include &lt;cctype>
+#include &lt;cerrno>
+#include &lt;cfloat>
+#include &lt;ciso646>
+#include &lt;climits>
+#include &lt;clocale>
+#include &lt;cmath>
+#include &lt;csetjmp>
+#include &lt;csignal>
+#include &lt;cstdarg>
+#include &lt;cstddef>
+#include &lt;cstdio>
+#include &lt;cstdlib>
+#include &lt;cstring>
+#include &lt;ctime>
+
+#if __cplusplus >= 201103L
+#include &lt;ccomplex>
+#include &lt;cfenv>
+#include &lt;cinttypes>
+#include &lt;cstdalign>
+#include &lt;cstdbool>
+#include &lt;cstdint>
+#include &lt;ctgmath>
+#include &lt;cwchar>
+#include &lt;cwctype>
+#endif
+
+// C++
+#include &lt;algorithm>
+#include &lt;bitset>
+#include &lt;complex>
+#include &lt;deque>
+#include &lt;exception>
+#include &lt;fstream>
+#include &lt;functional>
+#include &lt;iomanip>
+#include &lt;ios>
+#include &lt;iosfwd>
+#include &lt;iostream>
+#include &lt;istream>
+#include &lt;iterator>
+#include &lt;limits>
+#include &lt;list>
+#include &lt;locale>
+#include &lt;map>
+#include &lt;memory>
+#include &lt;new>
+#include &lt;numeric>
+#include &lt;ostream>
+#include &lt;queue>
+#include &lt;set>
+#include &lt;sstream>
+#include &lt;stack>
+#include &lt;stdexcept>
+#include &lt;streambuf>
+#include &lt;string>
+#include &lt;typeinfo>
+#include &lt;utility>
+#include &lt;valarray>
+#include &lt;vector>
+
+#if __cplusplus >= 201103L
+#include &lt;array>
+#include &lt;atomic>
+#include &lt;chrono>
+#include &lt;condition_variable>
+#include &lt;forward_list>
+#include &lt;future>
+#include &lt;initializer_list>
+#include &lt;mutex>
+#include &lt;random>
+#include &lt;ratio>
+#include &lt;regex>
+#include &lt;scoped_allocator>
+#include &lt;system_error>
+#include &lt;thread>
+#include &lt;tuple>
+#include &lt;typeindex>
+#include &lt;type_traits>
+#include &lt;unordered_map>
+#include &lt;unordered_set>
+#endif
+            </pre>
+        </p>
+      </div>
+    </div>
+    <br /><br />
+    <div style="margin: 20px; padding: 20px">
+      <button style="float: left" class="btn btn-light">
+        <a href="stack.html">❮ 이전</a>
+      </button>
+      <button style="float: right" class="btn btn-light">
+        <a href="errorhandling.html">다음 ❯</a>
+      </button>
+    </div>
+    <br /><br /><br /><br />
+    <pyfact-footer></pyfact-footer>
+  </div>
+  <script defer src="script.js"></script>
+  <script src="../../component.js"></script>
+</body>
+
+</html>

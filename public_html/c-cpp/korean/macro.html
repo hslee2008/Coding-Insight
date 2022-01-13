@@ -10,12 +10,15 @@
   </script>
   <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <meta name="theme-color" content="#20232a" />
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
   <meta name="author" content="Hyunseung, Juha, Gun">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>코딩 인사이트</title>
   <link hreflang="kr" rel="icon" href="py.png" type="image/png">
+  <link rel="apple-touch-icon" href="/py.png" />
+  <link rel="manifest" href="../../manifest.json">
   <link hreflang="kr" rel="stylesheet" href="style.css">
 </head>
 
@@ -23,14 +26,17 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
+          style="float: right; margin: 10px;">
         <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
-        <li id="more"><a>더보기</a></li>
+        <li id="more">
+          <p>더보기</p>
+        </li>
         </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
@@ -55,9 +61,9 @@
           </p>
           </div>
           <div style="margin: auto;">
-            <img class="img-fluid"
+            <img alt="python-factory-picture" class="img-fluid"
               src="data:image/png;base64,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"
-              width="300px" alt="words" />
+              width="300px" />
           </div>
           </div>
 
@@ -70,12 +76,12 @@
         <button id="speakbutt" class="btn btn-primary">읽어주기</button>
         <div id="setting">
           <br /><br />
-          <img class="img-fluid" alt="python_factory_picture"
+          <img alt="python-factory-picture" class="img-fluid"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
             style="width:25px !important;" />
           <input type="range" id="vol" min="0" max="1" step="0.1" />
           <br />
-          <img class="img-fluid" alt="python_factory_picture"
+          <img alt="python-factory-picture" class="img-fluid"
             src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
             style="width:25px !important;" />
           <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />

@@ -49,9 +49,10 @@ body > #app > div > ul {
 
 li {
   float: right;
+  align-content: center;
 }
 
-li a {
+li a, li p {
   display: block;
   color: black;
   text-align: center;
@@ -59,8 +60,8 @@ li a {
   text-decoration: underline;
 }
 
-li a:hover {
-  color: black;
+li p {
+  margin: 3px;
 }
 
 button {

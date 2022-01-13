@@ -9,12 +9,15 @@
   </script>
   <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <meta name="theme-color" content="#20232a" />
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
   <meta name="author" content="Hyunseung, Juha, Gun" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>코딩 인사이트</title>
   <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/py.png" />
+  <link rel="manifest" href="../../manifest.json">
   <link hreflang="kr" rel="stylesheet" href="style.css" />
   <style>
     #img {
@@ -35,7 +38,8 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
+          style="float: right; margin: 10px;">
         <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
@@ -45,7 +49,9 @@
         <li style="float:right;">
           <a href="https://coding-insight.com/python/engish/for-en.html" id="trans">English</a>
           </li>
-          <li id="more"><a>더보기</a></li>
+          <li id="more">
+            <p>더보기</p>
+          </li>
           </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
@@ -68,9 +74,9 @@
           </p>
         </div>
         <div style="margin: auto">
-          <img class="img-fluid" alt="python_factory_picture" alt="python-factory-picture"
+          <img alt="python-factory-picture" class="img-fluid"
             src="data:image/png;base64,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"
-            id="img alt=" python factory picture"s" />
+            id="img s" />
         </div>
       </div>
       <div class="sub-div">
@@ -81,12 +87,12 @@
             <button id="speakbutt" class="btn btn-primary">읽어주기</button>
             <div id="setting">
               <br /><br />
-              <img class="img-fluid" alt="python_factory_picture"
+              <img alt="python-factory-picture" class="img-fluid"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                 style="width: 25px !important" />
               <input type="range" id="vol" min="0" max="1" step="0.1" />
               <br />
-              <img class="img-fluid" alt="python_factory_picture"
+              <img alt="python-factory-picture" class="img-fluid"
                 src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                 style="width: 25px !important" />
               <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />

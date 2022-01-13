@@ -10,12 +10,15 @@
   </script>
   <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <meta name="theme-color" content="#20232a" />
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
   <meta name="author" content="Hyunseung, Juha, Gun">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>코딩 인사이트</title>
   <link hreflang="kr" rel="icon" href="py.png" type="image/png">
+  <link rel="apple-touch-icon" href="/py.png" />
+  <link rel="manifest" href="../../manifest.json">
   <link hreflang="kr" rel="stylesheet" href="style.css">
 </head>
 
@@ -23,7 +26,8 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
+          style="float: right; margin: 10px;">
         <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
@@ -32,7 +36,9 @@
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li style="float:right;"><a href="https://coding-insight.com/python/english/operator-en.html"
             id="trans">English</a></li>
-        <li id="more"><a>더보기</a></li>
+        <li id="more">
+          <p>더보기</p>
+        </li>
         </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
@@ -58,7 +64,7 @@
             </p>
             </div>
             <div style="margin: auto;">
-              <img class="img-fluid" alt="python_factory_picture"
+              <img alt="python-factory-picture" class="img-fluid"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAEJ9fzr3QpW7a9Ase_cE279O1pTyY4GZ2T4cXc7rXrugIqPf_586nsM-Ajo_Q0Qxuyxk&usqp=CAU"
                 width="300px" />
             </div>
@@ -82,12 +88,12 @@
           <button id="speakbutt" class="btn btn-primary">읽어주기</button>
           <div id="setting">
             <br /><br />
-            <img class="img-fluid" alt="python_factory_picture"
+            <img alt="python-factory-picture" class="img-fluid"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width:25px !important;" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
             <br />
-            <img class="img-fluid" alt="python_factory_picture"
+            <img alt="python-factory-picture" class="img-fluid"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width:25px !important;" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
@@ -176,7 +182,7 @@
           <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
           </div>
           <br /><br />
-          <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
+          <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
           <br />
           <div class="d-flex justify-content-center p-0 w-100">
             <div>

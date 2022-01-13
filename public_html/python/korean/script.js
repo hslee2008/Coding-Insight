@@ -85,7 +85,7 @@ mb.addEventListener( "click", () => {
     document.querySelector( "#clang" ).style.display = "none"
     document.querySelector( "#trans" ).style.display = "none"
     document.querySelector( "#video" ).style.display = "block"
-    mb.innerHTML = "<a>숨기기</a>"
+    mb.innerHTML = "<p>숨기기</p>"
   } else {
     document.querySelector( "#quiz" ).style.display = "none"
     document.querySelector( "#feedback" ).style.display = "none"
@@ -94,7 +94,7 @@ mb.addEventListener( "click", () => {
     document.querySelector( "#python" ).style.display = "block"
     document.querySelector( "#clang" ).style.display = "block"
     document.querySelector( "#trans" ).style.display = "block"
-    mb.innerHTML = "<a>더보기</a>"
+    mb.innerHTML = "<p>더보기</p>"
   }
   c++
 } )

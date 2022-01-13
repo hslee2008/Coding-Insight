@@ -1,6 +1,6 @@
-<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/HyunseungLee-Travis/Coding-Insight"></a>
-<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/HyunseungLee-Travis/Coding-Insight"></a>
-<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/HyunseungLee-Travis/Coding-Insight"></a>
+<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/issues"><img alt="python-factory-picture"  src="https://img.shields.io/github/issues/HyunseungLee-Travis/Coding-Insight"></a>
+<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/network"><img alt="python-factory-picture"  src="https://img.shields.io/github/forks/HyunseungLee-Travis/Coding-Insight"></a>
+<a href="https://github.com/HyunseungLee-Travis/Coding-Insight/stargazers"><img alt="python-factory-picture"  src="https://img.shields.io/github/stars/HyunseungLee-Travis/Coding-Insight"></a>
 
 # 개발자
 

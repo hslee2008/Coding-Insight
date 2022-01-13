@@ -1,4 +1,5 @@
-const Links = [ {
+const Links = [
+  {
     title: "Search",
     icon: "magnify",
     description: "Search about us in Google",
@@ -26,13 +27,13 @@ const Links = [ {
     title: "Game",
     icon: "controller-classic",
     description: "A game made by the developers",
-    link: "https://coding-insight.com/game.html",
+    link: "http://gaming.coding-insight.com/",
   },
   {
     title: "Chat",
     icon: "chat",
     description: "Chat with the developers",
-    link: "https://coding-insight.com/chat.html",
+    link: "http://chat.coding-insight.com/",
   },
   {
     title: "Release",
@@ -54,4 +55,4 @@ const Links = [ {
   },
 ];
 
-export default Links
+export default Links;

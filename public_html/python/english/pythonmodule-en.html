@@ -10,6 +10,7 @@
   </script>
   <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <meta name="theme-color" content="#20232a" />
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
   <meta name="author" content="Hyunseung, Juha, Gun">
@@ -23,7 +24,8 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
+          style="float: right; margin: 10px;">
         <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
         <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
@@ -33,7 +35,9 @@
         </li>
         <li style="float:right;"><a href="https://coding-insight.com/python/korean/pythonmodule.html" id="trans"
             style="color:white;">한국어</a></li>
-        <li id="more"><a>More</a></li>
+        <li id="more">
+          <p>More</p>
+        </li>
         </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
@@ -57,98 +61,99 @@
           <button id="speakbutt" class="btn btn-primary">Read</button>
           <div id="setting">
             <br /><br />
-            <img class="img-fluid" alt="python_factory_picture"
+            <img alt="python-factory-picture" class="img-fluid"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
               style="width:25px !important;" />
             <input type="range" id="vol" min="0" max="1" step="0.1" />
             <br />
-            <img class="img-fluid" alt="python_factory_picture"
+            <img alt="python-factory-picture" class="img-fluid"
               src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
               style="width:25px !important;" />
             <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-          </div>
-        </div>
-        <br /><br />
-        <h1 class="display-6"><span id="tit">Python Modules</span><br id="lbbr"><span id="txt">Computer
-            Science
-            Lab (</span>CSL<span id="txt">)</span>
-          42</h1>
-        <br />
-        <hr>
-      </div>
+            </div>
+            </div>
+            <br /><br />
+            <h1 class="display-6"><span id="tit">Python Modules</span><br id="lbbr"><span id="txt">Computer
+                Science
+                Lab (</span>CSL<span id="txt">)</span>
+              42</h1>
+            <br />
+            <hr>
+            </div>
 
-      <br /><br /><br /><br />
+            <br /><br /><br /><br />
 
-      <div class="norm-div" style="background-color: #a4b63c;">
-        <div class="sub-div">
-          <h1>TIME</h1>
-          <p>
-            The time module helps us with operations that has to do with times in Python.<br /><br />
+            <div class="norm-div" style="background-color: #a4b63c;">
+              <div class="sub-div">
+                <h1>TIME</h1>
+                <p>
+                  The time module helps us with operations that has to do with times in Python.<br /><br />
 
-            <kbd>import time</kbd>
-            <h2>sleep()</h2>
+                  <kbd>import time</kbd>
+                  <h2>sleep()</h2>
 
-            Using time.sleep(x), we can stop the code for 'x' seconds.
-          </p>
-        </div>
-        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/9c6cf057e5" width="100%"
-          height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-      </div>
+                  Using time.sleep(x), we can stop the code for 'x' seconds.
+                  </p>
+                  </div>
+                  <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/9c6cf057e5" width="100%"
+                    height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen
+                    loading="lazy"></iframe>
+                    </div>
 
-      <br /><br /><br /><br />
+            <br /><br /><br /><br />
 
-      <div>
-        <div class="norm-div">
-          <div style="padding: 10px;">
-            <h1>OS</h1>
-            <p>
-              <h2>OS란?</h2>
-              OS means the computer software.<br /><br />
+            <div>
+              <div class="norm-div">
+                <div style="padding: 10px;">
+                  <h1>OS</h1>
+                  <p>
+                    <h2>OS란?</h2>
+                    OS means the computer software.<br /><br />
 
-              Using this module, we can control our system.<br /><br />
+                    Using this module, we can control our system.<br /><br />
 
-              <kbd>import os</kbd>
+                    <kbd>import os</kbd>
 
-              <h2>OS - clear the terminal</h2>
-              If there are a lot of outputs in Python program, it can get very messy.<br /><br />
+                    <h2>OS - clear the terminal</h2>
+                    If there are a lot of outputs in Python program, it can get very messy.<br /><br />
 
-              os.system("cls") helps us clear our terminal.<br /><br />
+                    os.system("cls") helps us clear our terminal.<br /><br />
 
-              Note that depending on your terminal and system, it can be either 'cls' or 'clear'.<br /><br />
+                    Note that depending on your terminal and system, it can be either 'cls' or 'clear'.<br /><br />
 
-              <code>
-                import os<br /><br />
+                    <code>
+                      import os<br /><br />
 
-                os.system("cls")
-              </code>
-            </p>
-          </div>
-          <img class="img-fluid" alt="python_factory_picture"
-            src="data:image/jpeg;base64,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" />
-          <br /><br />
-        </div>
-        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/63f69099ff" width="100%"
-          height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-          style="margin:auto;" style="margin: auto;"></iframe>
-      </div>
+                      os.system("cls")
+                      </code>
+                      </p>
+                      </div>
+                <img alt="python-factory-picture" class="img-fluid"
+                  src="data:image/jpeg;base64,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" />
+                <br /><br />
+                </div>
+                <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/63f69099ff" width="100%"
+                  height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+                  style="margin:auto;" style="margin: auto;"></iframe>
+                </div>
 
-      <br /><br /><br /><br />
+            <br /><br /><br /><br />
 
-      <div style="margin:20px;padding:20px;">
-        <button style="float:left;" class="btn btn-light"><a href="modulemaster-en.html">❮ Previous</a></button>
-        <button style="float:right;" class="btn btn-light"><a href="date-en.html">Next ❯</a></button>
-      </div>
+            <div style="margin:20px;padding:20px;">
+              <button style="float:left;" class="btn btn-light"><a href="modulemaster-en.html">❮ Previous</a></button>
+              <button style="float:right;" class="btn btn-light"><a href="date-en.html">Next ❯</a></button>
+            </div>
 
-      <br /><br /><br /><br />
-    </div>
-    <footer>
-      <div>
-        <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
-        <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
-        <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
-        </div>
-        <br /><br />
-        <img class="img-fluid" alt="python_factory_picture" src="py.png" width="200px" alt="python-factory-logo" />
+            <br /><br /><br /><br />
+            </div>
+            <footer>
+              <div>
+                <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
+                <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
+                <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+              </div>
+              <br /><br />
+              <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
         <br />
         <div class="d-flex justify-content-center p-0 w-100">
           <div>

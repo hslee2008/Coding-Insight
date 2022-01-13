@@ -10,12 +10,15 @@
   </script>
   <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <meta name="theme-color" content="#20232a" />
   <meta name="description" content="Welcome to our site where you can learn programming languages easily!" />
   <meta name="keywords" content="python, programming, coding-insight, python-factory" />
   <meta name="author" content="Hyunseung, Juha, Gun" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>코딩 인사이트</title>
   <link hreflang="kr" rel="icon" href="py.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/py.png" />
+  <link rel="manifest" href="../../manifest.json">
   <link hreflang="kr" rel="stylesheet" href="style.css" />
 </head>
 
@@ -23,7 +26,8 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img src="../../py.png" class="py-menu-image" width="50" style="float: right; margin: 10px;">
+        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
+          style="float: right; margin: 10px;">
         <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
@@ -33,7 +37,9 @@
         <li style="float:right;">
           <a href="https://coding-insight.com/python/english/__name__-en.html" id="trans">English</a>
         </li>
-        <li id="more"><a>더보기</a></li>
+        <li id="more">
+          <p>더보기</p>
+        </li>
         </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
@@ -56,12 +62,12 @@
               <button id="speakbutt" class="btn btn-primary">읽어주기</button>
               <div id="setting">
                 <br /><br />
-                <img class="img-fluid" alt="python_factory_picture"
+                <img alt="python-factory-picture" class="img-fluid"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
                   style="width: 25px !important" />
                 <input type="range" id="vol" min="0" max="1" step="0.1" />
                 <br />
-                <img class="img-fluid" alt="python_factory_picture"
+                <img alt="python-factory-picture" class="img-fluid"
                   src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
                   style="width: 25px !important" />
                 <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
@@ -92,7 +98,7 @@
                 </p>
                 </div>
                 <div style="margin: auto">
-                  <img class="img-fluid" alt="python_factory_picture"
+                  <img alt="python-factory-picture" class="img-fluid"
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZEAAAB9CAMAAABUDq4oAAAA5FBMVEUzMzMoKzIqLTIoKCiIdDuUfj2hn5+Uk5MvMDMwMzEiNCcyMzIwMDAsLCwuLzPDHKa4H51QLUkrNC0jIyMoNCsjKDJnWzighz5mZWW2tLS0l0GNeDxiVjchJjI5ODS0srJeXV1FRETJx8dTUlJ6KGucHodFQTUeHx/hukdKRTUYITHSr0V7enrc2dmmjD9SSjZ7ajrAoEKKiIiopqZoK1xfLVWuH5U8MTpJSEiJJneXJYJvKmJQSTaEJHN2J2gYNCEANgzQGLDjEsD59vb1y0oVFhYCBQVEMEBZLlDU0tJxYjm5m0HMzHjDAAAEZ0lEQVR4nO3YfVeiShwH8AE0UWZoE3kUUaEwNU2lVbNubvdud7f1/b+fOzzY7h7FtD+2PPf7OR78BYwYX2YGJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOB/ThAObCDvt9fBn/th1GrrSqnWatU/fXjBNMPDWvTdfTIJTfNII6lNp1kk5fLtxeKu/IeP3+hfhvtd9WvF+z32l7uX/cYbv9I7q97epv1CmT3+dXf+kJ8I7UiSpklJyQuNEsI6vGD8la2T6MHH11d9ZfsWuSHouiroIq/5W/LO+5TeU5OtuiCu123j9R09rdRG/l4fULWyrCSFUjmbflku80ct2n4+Kfl+iZ99GkS23wwouxqUfNuyfYsRyYp8+8Q7OBJ9ON5+wuTrft1xXHM1UolsmI5T9Eg8yK3G8aglh+M631xQ8z5X7Gejlmr060cUSfXh9HERj1rK7NPj36en01nOBcux1j+Tdrs5YTyRqzZp+YRqtk1KAyvwNWY1W6Q9sUluJNVKqkpqWZV0R7E+zBnvxcK4a/RHxOnKsuF6XqGYnFi5bsQxqO7lyAuHo7xIdKeQdari1/FRzSizu4tkHlHkmymd7QiE0Jb/RFmrqREikXlA7DbVmnPJOulIfkezW0EQzKMrltO6en6aOq9dZNVZEomXN7GLBUMIhw3dvJaJ7nXDbhqdkCYiu8MejyV/+g69rPBG3cMmqndWvUkTIdXP04qyIxCeCA+DtiKJSBPftqNBnEjArBOJ8UQGdsLKS4TfOGSUl2r3NxMLP8RwKAg8EdlcDYfDdGIQ14nwMGS3uMflrx5VID8TKfNEdu75kgi17I6m/Wv/mkjnmfB1WkfKPc7Dp9RDbZFVZ7sj+ZmIUC/0dN1L+8jBiai9oxq0DkiEBc0OX0QdNik9SZ3WgN99RXNmlTTmP7GJLWlS56qVN48os7PUrPwtq175ZkLBEEOzIZj3uuny+67Cqhc/+PUKrs5PsXptNviiqL/2D6qjS/OIZnalVvl8sayV43ut79PlrgdEGtiDK+ZFA4tRuxk1m35zbg2amvXckp5LjI9kUWTzfpN7qPWg9VLt/mr8bsoJw/GPxtD07lem6RTHdZn3jOLY4Q+V8r3TN1TPfP1xUax/XR1PIoq8WEwfF4ubsvLtNi7Os9PEpE1tywooiReUtqxAC6z23LKoZ81pYFESb59LlG42zJ1afiFs8lzXI+612nU9ldeh6Lr8wc9wOcMjoevey3x1V93S9PfPvva2H/NDks8T38vKLClu0kTY5GRDSWKMdwAaLwgPhVfpH3GZraPxo8pGy8nrkajFTYYYP3fI8St5XxextIgXqrGl6e994sgm9kQ8aq2LGJ8pNuxxXjk6f1NLuV7YsNfPV3xy32x5TE+E+9oyau0VSPxjyptaipv2vLTlLU33awkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7+o/2U9rJu5E+X0AAAAASUVORK5CYII=" />
                 </div>
                 </div>

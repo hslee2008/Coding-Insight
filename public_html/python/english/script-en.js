@@ -86,7 +86,7 @@ mb.addEventListener( "click", () => {
     document.querySelector( "#clang" ).style.display = "none"
     document.querySelector( "#trans" ).style.display = "none"
     document.querySelector( "#video" ).style.display = "block"
-    mb.innerHTML = "<a>Hide</a>"
+    mb.innerHTML = "<p>Hide</p>"
   } else {
     document.querySelector( "#quiz" ).style.display = "none"
     document.querySelector( "#feedback" ).style.display = "none"
@@ -95,7 +95,7 @@ mb.addEventListener( "click", () => {
     document.querySelector( "#python" ).style.display = "block"
     document.querySelector( "#clang" ).style.display = "block"
     document.querySelector( "#trans" ).style.display = "block"
-    mb.innerHTML = "<a>More</a>"
+    mb.innerHTML = "<p>More</p>"
   }
   c++
 } )
