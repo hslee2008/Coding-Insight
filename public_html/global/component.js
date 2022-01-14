@@ -137,7 +137,8 @@ window.addEventListener( "scroll", checkHeader );
 const app = Vue.createApp( {} );
 
 app.component( "pyfact-footer", {
-  template: `<footer>
+      template: `
+    <footer>
       <div>
         <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
         <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
@@ -150,8 +151,9 @@ app.component( "pyfact-footer", {
           <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
         </div>
       </div>
-    </footer>`,
-} );
+    < /footer>
+    `,
+});
 
 app.component( "pyfact-footer-en", {
   template: `<footer>
@@ -172,7 +174,7 @@ app.component( "pyfact-footer-en", {
           <br /><br />
           < img alt = "python-factory-picture"
             class="img-fluid"
-            src="/global/py.png"
+            src = "/global/favicon.ico"
             width="200px"
           />
           <br />
@@ -710,8 +712,5 @@ app.component( "no-script", {
 
 app.mount( "#app" );
 
-
-
-if ( "serviceWorker" in navigator ) {
-  navigator.serviceWorker.register( "/pwa/service_worker.js" )
-}
+if ( "serviceWorker" in navigator )
+  navigator.serviceWorker.register( "/pwa/service_worker.js" );

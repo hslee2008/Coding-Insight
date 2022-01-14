@@ -3,7 +3,6 @@
 */
 import "react-native-gesture-handler";
 import React, { useRef, useState, memo } from "react";
-import { BackHandler } from "react-native";
 import { WebView } from "react-native-webview";
 import {
   home,
@@ -24,19 +23,6 @@ var isOnSetting: boolean = false,
 
 const HomeWrapper = memo(({ navigation }: any) => {
   const webViewRef: any = useRef(null);
-
-  /*
-  !BACKHANDLER
-  */
-  BackHandler.addEventListener("hardwareBackPress", () => {
-    isOnSetting
-      ? navigation.navigate("Home")
-      : global.ishome(globalFunctions.link, home)
-      ? BackHandler.exitApp()
-      : webViewRef.current.goBack();
-
-    return true;
-  });
 
   /*
   !STATES
@@ -99,10 +85,12 @@ const HomeWrapper = memo(({ navigation }: any) => {
     stop,
     navigation,
     erase,
+    isOnSetting,
     goToSetting: () => {
       navigation.navigate("Settings");
       isOnSetting = true;
     },
+    navigateHome: () => navigation.navigate("Home"),
   };
 
   return (
@@ -167,4 +155,4 @@ const SettingWrapper = ({ navigation }: any) => (
   />
 );
 
-export { HomeWrapper, SettingWrapper };
+export { HomeWrapper, SettingWrapper, globalFunctions };

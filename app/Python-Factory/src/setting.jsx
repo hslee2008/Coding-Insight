@@ -67,7 +67,7 @@ const Settings = memo((props) => {
       />
 
       <View style={{ flex: 1 }}>
-        <ScrollView contentContainerStyle={ { flexGrow: 1 } }>
+        <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
           <Header />
           <Searchbar
             placeholder="Search"

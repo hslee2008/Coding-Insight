@@ -2,7 +2,7 @@ const sCacheName = "python-factory-service-worker-pwa";
 const aFilesToCache = [
   "./index.html",
   "./manifest.json",
-  "./py.png",
+  "./favicon.ico",
   "./global/style.css",
   "./component.js",
   "./index-en.html",

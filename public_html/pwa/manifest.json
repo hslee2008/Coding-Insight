@@ -4,10 +4,11 @@
   "version": "2022.01.13",
   "description": "Welcome to our site where you can learn programming languages easily!",
   "dir": "rtl",
+  "author": ["Hyunseung", "Juha", "Gun"],
   "categories": ["python", "programming", "coding-insight", "python-factory"],
   "icons": [
     {
-      "src": "/py.png",
+      "src": "/favicon.ico",
       "sizes": "309x304",
       "purpose": "any maskable"
     },
