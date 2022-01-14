@@ -24,12 +24,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <a href="https://coding-insight.com/index-en.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
         <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a>
@@ -45,20 +44,20 @@
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu-en></py-pyfact-menu-en>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu-en></py-pyfact-menu-en>
-        </div>
-      </div>
-      <div>
-        <div class="sub-div">
-          <div class="norm-div text-white" style="background-color:#02081e;">
-            <div class="sub-div">
-              <h1>What is tuple?</h1>
-              <p>
-                Tuple is very similar to lists but we cannot change what is inside tuple.<br /><br />
+    </div>
+    <div>
+      <div class="sub-div">
+        <div class="norm-div text-white" style="background-color:#02081e;">
+          <div class="sub-div">
+            <h1>What is tuple?</h1>
+            <p>
+              Tuple is very similar to lists but we cannot change what is inside tuple.<br /><br />
 
               Using list, we can change each items using indexing but we cannot do so with tuples.<br /><br />
 
@@ -71,12 +70,12 @@
                 print(bestCodingLangTuple)<br /><br />
 
                 bestCodingLangTyple[0] = "C++" # error
-                </code>
-                </p>
-                </div>
-                <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/3b0dada577" width="100%"
-                  height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-                </div>
+              </code>
+              </p>
+              </div>
+              <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/3b0dada577" width="100%"
+                height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+              </div>
 
         <br /><br /><br /><br />
 
@@ -127,7 +126,7 @@
                 print(green)<br />
                 print(yellow)<br />
                 print(red)
-                </code>
+              </code>
 
               If we want to store the REST of values of tuples inside variable, use the * after variable
               name.<br /><br />
@@ -140,12 +139,12 @@
                 print(green)<br />
                 print(yellow)<br />
                 print(red)
-                </code>
-                </p>
-                </div>
-                <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/76cd83a2ae" width="100%"
-                  height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-                </div>
+              </code>
+              </p>
+              </div>
+              <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/76cd83a2ae" width="100%"
+                height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+              </div>
 
         <br /><br /><br /><br />
 
@@ -162,12 +161,12 @@
                 a = 1, 2,<br />
                 b = 3,
               </code>
-              </p>
-              <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/1a3ca85630" width="100%"
-                height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-                style="margin: auto;"></iframe>
-              </div>
-              </div>
+            </p>
+            <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/1a3ca85630" width="100%"
+              height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+              style="margin: auto;"></iframe>
+            </div>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -191,12 +190,12 @@
                 zipped = zip(firstTup, secondTup)<br /><br />
 
                 print(tuple(zipped))
-                </code>
-                </p>
-                </div>
-                <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c70ec1ecfe" width="100%"
-                  height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-                </div>
+              </code>
+              </p>
+              </div>
+              <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/c70ec1ecfe" width="100%"
+                height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+              </div>
 
         <br /><br /><br /><br />
 
@@ -228,7 +227,7 @@
           <button id="checky" class="btn btn-dark"
             onclick='if (document.getElementById("question-2-answers-D").checked) {alert("1 is right!")} else {alert("1 is wrong")};'>Check
             Answer</button>
-          </div>
+        </div>
 
         <div style="margin:20px;padding:20px;">
           <button style="float:left;" class="btn btn-light"><a href="dictionarymethod-en.html">❮
@@ -237,26 +236,26 @@
         </div>
 
         <br /><br /><br /><br />
-        </div>
-        <footer>
-          <div>
-            <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
+      </div>
+      <footer>
+        <div>
+          <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
           <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
           <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+        </div>
+        <br /><br />
+        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+        <br />
+        <div class="d-flex justify-content-center p-0 w-100">
+          <div>
+            <h1 class="display-6">Python-Factory © 2021</h1>
+            <p>"Where you make knowledge - Python Factory"</p>
           </div>
-          <br /><br />
-          <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-          <br />
-          <div class="d-flex justify-content-center p-0 w-100">
-            <div>
-              <h1 class="display-6">Python-Factory © 2021</h1>
-              <p>"Where you make knowledge - Python Factory"</p>
-            </div>
-          </div>
-          </footer>
-          </div>
-          <script defer src="script-en.js"></script>
-          <script src="../../component.js"></script>
+        </div>
+        </footer>
+        </div>
+        <script defer src="script-en.js"></script>
+        <script src="../../component.js"></script>
 </body>
 
 </html>

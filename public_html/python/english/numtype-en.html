@@ -25,32 +25,31 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <a href="https://coding-insight.com/index-en.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
         <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a></li>
         <li style="float:right;">
           <a href="https://coding-insight.com/python/korean/numtype.html" id="trans" style="color: white">한국어</a>
-          </li>
-          <li id="more">
-            <p>More</p>
-          </li>
-          </ul>
+        </li>
+        <li id="more">
+          <p>More</p>
+        </li>
+        </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu-en></py-pyfact-menu-en>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu-en></py-pyfact-menu-en>
-        </div>
-      </div>
+    </div>
 
     <div class="sub-div">
       <div style="display: flex; margin-top: 50px; padding: 30px">
@@ -62,14 +61,14 @@
             - integer<br />
             - float<br />
             - complex
-            </p>
-            </div>
-            <div style="margin: auto">
-              <img alt="python-factory-picture" class="img-fluid"
-                src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
-                width="500px" />
-            </div>
-            </div>
+          </p>
+          </div>
+          <div style="margin: auto">
+            <img alt="python-factory-picture" class="img-fluid"
+              src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
+              width="500px" />
+          </div>
+          </div>
 
       <br /><br /><br /><br />
 
@@ -115,11 +114,11 @@
               a = -1<br />
               b = 123
             </code>
-            </p>
-            </div>
-            <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/966ab84f00" width="70%"
-              height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-            </div>
+          </p>
+          </div>
+        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/966ab84f00" width="70%" height="356"
+          frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+        </div>
 
       <br /><br /><br /><br />
 
@@ -136,12 +135,11 @@
               floatNumber = 3.14159265358979323846264<br />
               print(type(floatNumber)) #&lt;class 'float'> is printed
             </code>
-            </p>
-            </div>
-            <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/e726e404fa" width="60%"
-              height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-              style="margin: auto"></iframe>
-            </div>
+          </p>
+          </div>
+        <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/e726e404fa" width="60%" height="356"
+          frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
 
       <br /><br /><br /><br />
 
@@ -153,9 +151,9 @@
             that we will be learning today.<br /><br />
 
             Try searching up in the internet of ask someone older than you.
-            </p>
-            </div>
-            </div>
+          </p>
+          </div>
+          </div>
 
       <br /><br /><br /><br />
 
@@ -167,7 +165,7 @@
           <a href="nummethod-en.html">Next ❯</a>
         </button>
       </div>
-      </div>
+    </div>
 
     <br /><br /><br /><br />
 
@@ -176,17 +174,17 @@
         <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
         <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
         <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+      </div>
+      <br /><br />
+      <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+      <br />
+      <div class="d-flex justify-content-center p-0 w-100">
+        <div>
+          <h1 class="display-6">Python-Factory © 2021</h1>
+          <p>"Where you make knowledge - Python Factory"</p>
         </div>
-        <br /><br />
-        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-        <br />
-        <div class="d-flex justify-content-center p-0 w-100">
-          <div>
-            <h1 class="display-6">Python-Factory © 2021</h1>
-            <p>"Where you make knowledge - Python Factory"</p>
-          </div>
-        </div>
-        </footer>
+      </div>
+      </footer>
   </div>
   <script defer src="script-en.js"></script>
   <script src="../../component.js"></script>

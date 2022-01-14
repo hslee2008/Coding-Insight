@@ -25,12 +25,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <a href="https://coding-insight.com/index-en.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
         <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a></li>
@@ -42,17 +41,17 @@
         <li id="more">
           <p>More</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu-en></py-pyfact-menu-en>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu-en></py-pyfact-menu-en>
-        </div>
-      </div>
+    </div>
 
     <div>
       <div class="sub-div">
@@ -104,7 +103,7 @@
 
                   &nbsp;def name(self):<br />
                   &nbsp;&nbsp;return self.name
-                  </code>
+                </code>
 
                 To access the teacher's name, we have to run the name()
                 function.<br /><br />
@@ -137,9 +136,9 @@
                   &nbsp;print('삭제하겠습니다….)<br /><br />
                   &nbsp;del self.name
                 </code>
-                </p>
-                </div>
-                </div>
+              </p>
+              </div>
+              </div>
 
           <br /><br /><br /><br />
 
@@ -179,9 +178,9 @@
               <a href="newline-en.html">Next ❯</a>
             </button>
           </div>
-          </div>
-          </div>
-          </div>
+        </div>
+        </div>
+        </div>
 
     <br /><br /><br /><br />
 
@@ -190,17 +189,17 @@
         <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
         <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
         <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+      </div>
+      <br /><br />
+      <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+      <br />
+      <div class="d-flex justify-content-center p-0 w-100">
+        <div>
+          <h1 class="display-6">Python-Factory © 2021</h1>
+          <p>"Where you make knowledge - Python Factory"</p>
         </div>
-        <br /><br />
-        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-        <br />
-        <div class="d-flex justify-content-center p-0 w-100">
-          <div>
-            <h1 class="display-6">Python-Factory © 2021</h1>
-            <p>"Where you make knowledge - Python Factory"</p>
-          </div>
-        </div>
-        </footer>
+      </div>
+      </footer>
   </div>
   <script defer src="script-en.js"></script>
   <script src="../../component.js"></script>

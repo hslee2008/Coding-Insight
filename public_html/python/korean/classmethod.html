@@ -25,33 +25,32 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li style="float:right;">
           <a href="https://coding-insight.com/python/english/classmethod-en.html" id="trans">English</a>
-          </li>
-          <li id="more">
-            <p>더보기</p>
-          </li>
-          </ul>
+        </li>
+        <li id="more">
+          <p>더보기</p>
+        </li>
+        </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
-      <div style="
+    </div>
+    <div style="
         display: flex;
         margin-top: 50px;
         padding: 30px;
@@ -64,11 +63,11 @@
 
           파이썬에서는 클래스의
           <mark>함수와 변수를 다른 클래스로 옮기는 작업</mark>을 뜻합니다.
-          </p>
-          </div>
-          <div style="margin: auto">
-            <img alt="python-factory-picture" class="img-fluid"
-              src="https://pbs.twimg.com/profile_images/502406972453289985/AKdzcXPi.png" width="300px" />
+        </p>
+        </div>
+        <div style="margin: auto">
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://pbs.twimg.com/profile_images/502406972453289985/AKdzcXPi.png" width="300px" />
       </div>
     </div>
 
@@ -132,12 +131,12 @@
 
                 이를 방지하기 위하여 Person.__init__(python_class, name, age,
                 gender)를 init 메서드 안에 넣을 수 있습니다.
-                </p>
-                </div>
-                <iframe src="https://trinket.io/embed/python3/8e1797ce82" width="100%" height="356" frameborder="0"
-                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-                </div>
-                </div>
+              </p>
+              </div>
+              <iframe src="https://trinket.io/embed/python3/8e1797ce82" width="100%" height="356" frameborder="0"
+                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+              </div>
+              </div>
 
         <br /><br /><br /><br />
 
@@ -177,12 +176,12 @@
 
                 마지막으로, 클래스의 변수를 삭제할 수 있는 무서운 기능이 있는
                 delattr()을 사용하면 변수의 에러를 피하는 것이 가능합니다.
-                </p>
-                </div>
-                </div>
-                </div>
-                <iframe src="https://trinket.io/embed/python3/45cfee23ee" width="100%" height="356" frameborder="0"
-                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+              </p>
+              </div>
+              </div>
+              </div>
+              <iframe src="https://trinket.io/embed/python3/45cfee23ee" width="100%" height="356" frameborder="0"
+                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
 
         <br /><br /><br /><br />
 
@@ -190,13 +189,13 @@
           <button style="float: left" class="btn btn-light"><a href="class.html">❮ 이전</a></button>
           <button style="float: right" class="btn btn-light"><a href="math.html">다음 ❯</a></button>
         </div>
-        </div>
-        </div>
+      </div>
+      </div>
 
     <br /><br /><br /><br />
 
     <pyfact-footer></pyfact-footer>
-    </div>
+  </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
 </body>

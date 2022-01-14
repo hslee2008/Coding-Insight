@@ -26,12 +26,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
@@ -40,17 +39,17 @@
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
+    </div>
 
     <div class="sub-div">
       <div class="norm-div text-white" style="background-color:#02081e;">
@@ -66,14 +65,13 @@
             <code>
               weather = "대체로 흐림"
             </code>
-            </p>
+          </p>
+          </div>
+          <div style="margin: auto;">
+            <img alt="python-factory-picture" class="img-fluid"
+            src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg" width="300px" />
             </div>
-            <div style="margin: auto;">
-              <img alt="python-factory-picture" class="img-fluid"
-                src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
-                width="300px" />
-                </div>
-                </div>
+            </div>
 
       <br /><br />
 
@@ -82,7 +80,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-          </div>
+      </div>
 
       <br /><br />
 
@@ -126,11 +124,11 @@
             </code>
 
             <code>&ltclass 'str'></code>은 "안녕"이 str 데이터 변수(str은 문자입니다)라는 것을 알려줍니다.
-            </p>
-            </div>
+          </p>
+          </div>
         <iframe src="https://trinket.io/embed/python/1068ac5668" width="100%" height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-        </div>
+      </div>
 
       <br /><br /><br /><br />
 
@@ -151,13 +149,13 @@
             isinstance(변수, 변수 형태)의 형태를 가지고 있습니다.<br /><br />
 
             위의 예시는 True를 출력합니다. 그 이유는 "sunny"가 문자(str)이기 때문입니다.<br /><br />
-            </div>
-            <div style="margin: auto;">
-              <img alt="python-factory-picture" class="img-fluid"
-                src="https://www.sas.com/en_us/insights/articles/big-data/big-data-privacy/_jcr_content/par02/image_df5.img.jpg/1601048186486.jpg"
-                width="342" height="300" />
-            </div>
-            </div>
+        </div>
+        <div style="margin: auto;">
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://www.sas.com/en_us/insights/articles/big-data/big-data-privacy/_jcr_content/par02/image_df5.img.jpg/1601048186486.jpg"
+            width="342" height="300" />
+        </div>
+        </div>
 
       <br /><br /><br /><br />
 
@@ -248,25 +246,25 @@
           onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-A").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")}; if(document.getElementById("question-3-answers-A").checked) {alert("3번 맞았습니다!")} else {alert("3번 틀렸습니다")};'>정답
           확인</button>
         <br /><br /><br /><br />
-        </div>
+      </div>
 
       <footer>
         <div>
           <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
           <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
           <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+        </div>
+        <br /><br />
+        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+        <br />
+        <div class="d-flex justify-content-center p-0 w-100">
+          <div>
+            <h1 class="display-6">Python-Factory © 2021</h1>
+            <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
           </div>
-          <br /><br />
-          <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-          <br />
-          <div class="d-flex justify-content-center p-0 w-100">
-            <div>
-              <h1 class="display-6">Python-Factory © 2021</h1>
-              <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-            </div>
-          </div>
-          </footer>
-          </div>
+        </div>
+        </footer>
+        </div>
     <script defer src="script.js"></script>
     <script src="../../component.js"></script>
 </body>

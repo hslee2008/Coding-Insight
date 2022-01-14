@@ -25,76 +25,75 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <a href="https://coding-insight.com/index-en.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
         <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a></li>
         <li style="float:right;">
           <a href="https://coding-insight.com/python/korean/calc.html" id="trans" style="color: white">한국어</a>
-          </li>
+        </li>
 
         <li id="more">
           <p>More</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu-en></py-pyfact-menu-en>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu-en></py-pyfact-menu-en>
-        </div>
-      </div>
-      <div style="display: flex; padding: 30px; background-color: #ffffff">
-        <div class="sub-div">
-          <h1>Making Calculator</h1>
-          <p>
-            Let's try making a calculator in Python.<br /><br />
+    </div>
+    <div style="display: flex; padding: 30px; background-color: #ffffff">
+      <div class="sub-div">
+        <h1>Making Calculator</h1>
+        <p>
+          Let's try making a calculator in Python.<br /><br />
 
           We learned these methods.
-          </p>
-          </div>
-          <div style="margin: auto">
-            <img alt="python-factory-picture" class="img-fluid"
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAk1BMVEX///9InePU3+nivAAJM1c+meKnzPDY4elRoeSixOZCnOc4m+zovQDVuTeFp7KsyueSveaarJGmx+cALU8jXIwwcKh0r+TI2eizzudLouoVQmo0d7Dc4+mTvuY2luFbpuXX6Pi92POGt+XI3/XLtz+OqaJ3pbdrrOR6suWcxu66s2BxpLxOntpto8FCk9U6g8EgV4awUr1fAAAD40lEQVR4nO3dfXeaMBTHcVMXfOom6mrrquBDW7GPe/+vbnhOQXQk4mpyWfv9/X1P5XOiCeQCbTQIIYQQQgghhBBCCKl35kESt/0kToK5d1+gIq38RUcq8OpbaZ+8d6Re+QNuIu++baKNL2AoA0yJoR9gIAVMiV5+jHM5YEqcexDG/ieZXXTsHriSHMJ0EN1PqGNRoFKJc6Hkd3Qb7RooOs9s43yuWYiP4cKxMDgQdnuu0z0Qul4SD4S9wd13t7kb9CSFvcfLputcPvbkhN0n98CU+NSVEw68CAcIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhwgrCey/CezmhevYAbDaflZyw+9K8dJ3mS1dQqLrq4YfbPKj92758C1Oj6xx8nn+h7yBEiBAhQoQIESL8F6E2pErR6X/Iv1CvO8OydMa6QtG6WDSuUORfqMNpqzzTYV6oO8aizq6obywKtaAwbl2YMk2yyvXUXLTOjjsxF7ViOaEOzcJWNoi6YynKBlEPLUV7g+hZOLMcV/8kYd9SNBMU2sbwfELJMUSIECFChAgRIkSIECFChAgRfg7h196n+RR7bdb90nzX27Zfmm2F6nE990uVXlbZzp4Zi3bfP8vG+FJyz1vpOOyUZbbXkohn5UXFFxTqdXlRePAWw9r0nlwV0T9EiPBLCs84iUzKIi3U7WVYluXeQmAqaheKJq+35VH7SN8r/tiwTBd703ppKmrtFvPJ1ciUt4mgsG05a8sa2CqucNam3kbfTBm9ygnT0TGfTeZn3rYLkOy0bfLTIrwVFJ7t6skqvJrICc92BYwQIUKECBEiRIgQIUKECBEiROhUyD7Nfy+0NrCz3V5bAztvhddWaOlN3+SFkfmhrWH2/7FqK0wHqH9Tln6x+a4TQ1H+8FeNhcbnIvVpRTUWnikIESL8kLBK//poUY2Fej0uy7p4/Pp4UW2FOr4oX82nrd1ap9emoov83rDaCpXxfKxwR6GlFd5q11xo7XLnt45+uMvN1ZNL4ae/ekKIECFChAgRIkSIECFChAgRIkRYD6Gty50/Y257rWX+gszJrUX4puSE+sZ09K3r3Z73tamo0ApXv0zE0W/JJ7tUFF6Xp1Oo0zND0d7LEq5+ledW9Om8bdclKsthl7tCUenzlX8/Y+lcuHDTP6wevXAsnEfHD8JporljYUN8DF0DG4mwMHEuXMl+TaOVc2EjPn4YDhO7B8rONe7nmW02csTI9WL4nqUUMQr9AMVGMdr4AqYTqvK/LGrlYRotJNCRT2T6aZ5+goWsgiRu+0mcBH7HjxBCCCGEEEIIIYSQ0/MHIXVUWTCLJwEAAAAASUVORK5CYII="
-              width="300px" />
-          </div>
+        </p>
+        </div>
+        <div style="margin: auto">
+          <img alt="python-factory-picture" class="img-fluid"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAk1BMVEX///9InePU3+nivAAJM1c+meKnzPDY4elRoeSixOZCnOc4m+zovQDVuTeFp7KsyueSveaarJGmx+cALU8jXIwwcKh0r+TI2eizzudLouoVQmo0d7Dc4+mTvuY2luFbpuXX6Pi92POGt+XI3/XLtz+OqaJ3pbdrrOR6suWcxu66s2BxpLxOntpto8FCk9U6g8EgV4awUr1fAAAD40lEQVR4nO3dfXeaMBTHcVMXfOom6mrrquBDW7GPe/+vbnhOQXQk4mpyWfv9/X1P5XOiCeQCbTQIIYQQQgghhBBCCKl35kESt/0kToK5d1+gIq38RUcq8OpbaZ+8d6Re+QNuIu++baKNL2AoA0yJoR9gIAVMiV5+jHM5YEqcexDG/ieZXXTsHriSHMJ0EN1PqGNRoFKJc6Hkd3Qb7RooOs9s43yuWYiP4cKxMDgQdnuu0z0Qul4SD4S9wd13t7kb9CSFvcfLputcPvbkhN0n98CU+NSVEw68CAcIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhwgrCey/CezmhevYAbDaflZyw+9K8dJ3mS1dQqLrq4YfbPKj92758C1Oj6xx8nn+h7yBEiBAhQoQIESL8F6E2pErR6X/Iv1CvO8OydMa6QtG6WDSuUORfqMNpqzzTYV6oO8aizq6obywKtaAwbl2YMk2yyvXUXLTOjjsxF7ViOaEOzcJWNoi6YynKBlEPLUV7g+hZOLMcV/8kYd9SNBMU2sbwfELJMUSIECFChAgRIkSIECFChAgRfg7h196n+RR7bdb90nzX27Zfmm2F6nE990uVXlbZzp4Zi3bfP8vG+FJyz1vpOOyUZbbXkohn5UXFFxTqdXlRePAWw9r0nlwV0T9EiPBLCs84iUzKIi3U7WVYluXeQmAqaheKJq+35VH7SN8r/tiwTBd703ppKmrtFvPJ1ciUt4mgsG05a8sa2CqucNam3kbfTBm9ygnT0TGfTeZn3rYLkOy0bfLTIrwVFJ7t6skqvJrICc92BYwQIUKECBEiRIgQIUKECBEiROhUyD7Nfy+0NrCz3V5bAztvhddWaOlN3+SFkfmhrWH2/7FqK0wHqH9Tln6x+a4TQ1H+8FeNhcbnIvVpRTUWnikIESL8kLBK//poUY2Fej0uy7p4/Pp4UW2FOr4oX82nrd1ap9emoov83rDaCpXxfKxwR6GlFd5q11xo7XLnt45+uMvN1ZNL4ae/ekKIECFChAgRIkSIECFChAgRIkRYD6Gty50/Y257rWX+gszJrUX4puSE+sZ09K3r3Z73tamo0ApXv0zE0W/JJ7tUFF6Xp1Oo0zND0d7LEq5+ledW9Om8bdclKsthl7tCUenzlX8/Y+lcuHDTP6wevXAsnEfHD8JporljYUN8DF0DG4mwMHEuXMl+TaOVc2EjPn4YDhO7B8rONe7nmW02csTI9WL4nqUUMQr9AMVGMdr4AqYTqvK/LGrlYRotJNCRT2T6aZ5+goWsgiRu+0mcBH7HjxBCCCGEEEIIIYSQ0/MHIXVUWTCLJwEAAAAASUVORK5CYII="
+            width="300px" />
+        </div>
+        <div class="sub-div">
           <div class="sub-div">
             <div class="sub-div">
-              <div class="sub-div">
-                <div class="text-center">
-                  <hr />
-                  <br />
-                  <div class="text-center" id="speakdiv">
-                    <button id="speakbutt" class="btn btn-primary">Read</button>
-                    <div id="setting">
-                      <br /><br />
-                      <img alt="python-factory-picture" class="img-fluid"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                        style="width: 25px !important" />
-                      <input type="range" id="vol" min="0" max="1" step="0.1" />
-                      <br />
-                      <img alt="python-factory-picture" class="img-fluid"
-                        src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                        style="width: 25px !important" />
-                      <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-                    </div>
+              <div class="text-center">
+                <hr />
+                <br />
+                <div class="text-center" id="speakdiv">
+                  <button id="speakbutt" class="btn btn-primary">Read</button>
+                  <div id="setting">
+                    <br /><br />
+                    <img alt="python-factory-picture" class="img-fluid"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                      style="width: 25px !important" />
+                    <input type="range" id="vol" min="0" max="1" step="0.1" />
+                    <br />
+                    <img alt="python-factory-picture" class="img-fluid"
+                      src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                      style="width: 25px !important" />
+                    <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
                   </div>
-                  <br /><br />
-                  <h1 class="display-6">
-                    <span id="tit">Making Calculator</span><br id="lbbr" /><span id="txt">Computer Science Lab
-                      (</span>CSL<span id="txt">)</span> 85
-                  </h1>
-                  <br />
-                  <hr />
                 </div>
+                <br /><br />
+                <h1 class="display-6">
+                  <span id="tit">Making Calculator</span><br id="lbbr" /><span id="txt">Computer Science Lab
+                    (</span>CSL<span id="txt">)</span> 85
+                </h1>
+                <br />
+                <hr />
+              </div>
 
             <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/4d4502b22c" width="100%"
               height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
@@ -109,9 +108,9 @@
                 <a href="spam-en.html">Next ❯</a>
               </button>
             </div>
-            </div>
-            </div>
-            </div>
+          </div>
+          </div>
+          </div>
 
       <br /><br /><br /><br />
 
@@ -120,19 +119,19 @@
           <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
           <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
           <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+        </div>
+        <br /><br />
+        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+        <br />
+        <div class="d-flex justify-content-center p-0 w-100">
+          <div>
+            <h1 class="display-6">Python-Factory © 2021</h1>
+            <p>"Where you make knowledge - Python Factory"</p>
           </div>
-          <br /><br />
-          <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-          <br />
-          <div class="d-flex justify-content-center p-0 w-100">
-            <div>
-              <h1 class="display-6">Python-Factory © 2021</h1>
-              <p>"Where you make knowledge - Python Factory"</p>
-            </div>
-          </div>
-          </footer>
-          </div>
-          <script defer src="script-en.js"></script>
-          <script src="../../component.js"></script>
+        </div>
+        </footer>
+        </div>
+        <script defer src="script-en.js"></script>
+        <script src="../../component.js"></script>
 </body>
 </html>

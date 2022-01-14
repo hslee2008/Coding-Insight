@@ -26,33 +26,32 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li style="float:right;">
           <a href="https://coding-insight.com/python/english/tuple-en.html" id="trans">English</a>
-          </li>
-          <li id="more">
-            <p>더보기</p>
-          </li>
-          </ul>
+        </li>
+        <li id="more">
+          <p>더보기</p>
+        </li>
+        </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
-      <br /><br />
+    </div>
+    <br /><br />
 
     <div class="sub-div">
       <div class="sub-div">
@@ -77,12 +76,12 @@
 
               CODE3와 같이 파이썬에서 신기하게도 () 없이도 튜플이라고 인식할 수
               있는 기능이 있습니다.
-              </p>
-              </div>
-              <iframe src="https://trinket.io/embed/python3/069924886e" width="100%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"
-                style="margin: auto"></iframe>
-              </div>
+            </p>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/069924886e" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"
+              style="margin: auto"></iframe>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -109,10 +108,10 @@
             <span id="tit">튜플</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
               id="txt">)</span>
             23
-            </h1>
-            <br />
-            <hr />
-            </div>
+          </h1>
+          <br />
+          <hr />
+          </div>
 
         <br /><br />
 
@@ -150,11 +149,11 @@
                 a = 1, 2,<br />
                 b = 3,
               </code>
-              </p>
-              <iframe src="https://trinket.io/embed/python3/0cc2f9e56d" width="100%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen></iframe>
-              </div>
-              </div>
+            </p>
+            <iframe src="https://trinket.io/embed/python3/0cc2f9e56d" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen></iframe>
+            </div>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -168,11 +167,11 @@
 
               zipped 함수를 사용했지만 실제로 튜플을 보기 위하여 tuple() 함수를
               사용해야 합니다.
-              </p>
-              </div>
-              <iframe src="https://trinket.io/embed/python3/1af130ab47" width="100%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-              </div>
+            </p>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/1af130ab47" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -210,7 +209,7 @@
             onclick='if (document.getElementById("question-2-answers-D").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")};'>
             정답 확인
           </button>
-          </div>
+        </div>
 
         <div style="margin: 20px; padding: 20px">
           <button style="float: left" class="btn btn-light">
@@ -218,13 +217,13 @@
           </button>
           <button style="float: right" class="btn btn-light"><a href="set.html">다음 ❯</a></button>
         </div>
-        </div>
-        </div>
+      </div>
+      </div>
 
     <br /><br /><br /><br />
 
     <pyfact-footer></pyfact-footer>
-    </div>
+  </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
 </body>

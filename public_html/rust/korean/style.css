@@ -58,6 +58,7 @@ li a, li p {
   text-align: center;
   padding: 14px 13px;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 li p {

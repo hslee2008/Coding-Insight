@@ -26,34 +26,33 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
-      <div class="norm-div">
-        <div class="sub-div">
-          <h1>클래스란?</h1>
-          <p>
-            여러분, 파일의 템플릿을 만들고 그 템플릿을 복사하여 따로 다른 파일에 저장하신 적이 있나요?<br /><br />
+    </div>
+    <div class="norm-div">
+      <div class="sub-div">
+        <h1>클래스란?</h1>
+        <p>
+          여러분, 파일의 템플릿을 만들고 그 템플릿을 복사하여 따로 다른 파일에 저장하신 적이 있나요?<br /><br />
 
           클래스는 그 파일의 템플릿과 비슷합니다.<br /><br />
 
@@ -62,8 +61,8 @@
           예를 들어 우리가 어떤 자동차에 대한 정보를 만들고 싶다면 클래스를 만들어서 무수히 많이 사용할 수 있습니다.<br /><br /><br /><br />
 
           이제 이 자동차에 대한 정보를 얻기 위하여 new MyCar()라고 객체를 만들 수 있습니다.<br />
-          </p>
-          </div>
+        </p>
+        </div>
       <iframe src="https://trinket.io/embed/python3/725e856cf1" width="100%" height="356" frameborder="0"
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
@@ -141,9 +140,9 @@
 
             이름 'Hyunseung'은 self 안에 딕셔너리와 비슷하게 있어서 self.name을 사용하여 값을 찾을 수 있습니다.
           </p>
-          </div>
-          <iframe src="https://trinket.io/embed/python3/a1a4151531" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/a1a4151531" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
       </div>
 
       <br /><br /><br /><br />

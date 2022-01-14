@@ -26,29 +26,28 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <c-pyfact-menu></c-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <c-pyfact-menu></c-pyfact-menu>
-        </div>
-      </div>
+    </div>
 
     <div class="header-div">
       <div class="sub-div">
@@ -63,14 +62,14 @@
           <code>
             assert(1 == 1);
           </code>
-          </p>
-          </div>
-          <div style="margin: auto;">
-            <img alt="python-factory-picture" class="img-fluid"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSLJp1k4wFB_ksZh8Lbbrd22FsVDRDdB944g&usqp=CAU"
-              width="300px" />
-          </div>
-          </div>
+        </p>
+        </div>
+        <div style="margin: auto;">
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSLJp1k4wFB_ksZh8Lbbrd22FsVDRDdB944g&usqp=CAU"
+            width="300px" />
+        </div>
+        </div>
 
     <br /><br />
 

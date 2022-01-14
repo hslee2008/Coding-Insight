@@ -212,23 +212,22 @@
   <div id="app">
     <div class="m-0 p-0">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         </li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html">다시 시작</a></li>
       </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <div id="quiz">
+      <div class="progress">
+        <div class="progress--bar"></div>
       </div>
-      <div id="quiz">
-        <div class="progress">
-          <div class="progress--bar"></div>
-        </div>
 
       <div class="card text-white bg-primary mb-3 check"
         style="display:none;margin:30px;position:absolute;bottom:0;right:0;font-size:10px;" role="alert">
@@ -255,7 +254,7 @@
         <div class="options">
 
         </div>
-        </div>
+      </div>
 
       <div class="scoreArea">
         <div class="scoreText1">--</div>
@@ -417,8 +416,8 @@
 
         //Functions
         function showQuestion() {
-        if ( questions[ currentQuestion ] ) {
-        let q = questions[ currentQuestion ];
+          if ( questions[ currentQuestion ] ) {
+          let q = questions[ currentQuestion ];
 
             let progress = Math.floor( ( currentQuestion / questions.length ) * 100 );
             progressBar.style.width = `${progress}%`;
@@ -431,7 +430,7 @@
             let optionsHtml = "";
 
             for ( let i in q.options ) {
-            optionsHtml += `<div data-op="${i}" class="option"><span> ${
+              optionsHtml += `<div data-op="${i}" class="option"><span> ${
               parseInt(i) + 1
               }</span> ${q.options[i]}</div>`;
             }
@@ -439,39 +438,39 @@
             document.querySelector( ".options" ).innerHTML = optionsHtml;
 
             document.querySelectorAll( ".options .option" ).forEach( ( item ) => {
-            item.addEventListener( "click", optionsClickEvent );
+              item.addEventListener( "click", optionsClickEvent );
             } );
-            } else {
+          } else {
             finishQuiz();
-            }
-            }
+          }
+          }
 
         function optionsClickEvent( e ) {
-        let clickedOption = parseInt( e.target.getAttribute( "data-op" ) );
+          let clickedOption = parseInt( e.target.getAttribute( "data-op" ) );
 
           if ( questions[ currentQuestion ].answer === clickedOption ) {
-          document.getElementsByClassName( "check" )[ 0 ].style.display = "block"
-          document.getElementsByClassName( "options" )[ 0 ].style.opacity = "0.3"
-          setTimeout( () => {
-          document.getElementsByClassName( "check" )[ 0 ].style.display = "none"
-          document.getElementsByClassName( "options" )[ 0 ].style.opacity = "1"
-          }, 1500 )
-          correctAnswers++;
+            document.getElementsByClassName( "check" )[ 0 ].style.display = "block"
+            document.getElementsByClassName( "options" )[ 0 ].style.opacity = "0.3"
+            setTimeout( () => {
+            document.getElementsByClassName( "check" )[ 0 ].style.display = "none"
+            document.getElementsByClassName( "options" )[ 0 ].style.opacity = "1"
+            }, 1500 )
+            correctAnswers++;
           } else {
-          document.getElementsByClassName( "wrong" )[ 0 ].style.display = "block"
-          document.getElementsByClassName( "options" )[ 0 ].style.opacity = "0.3"
-          setTimeout( () => {
-          document.getElementsByClassName( "wrong" )[ 0 ].style.display = "none"
-          document.getElementsByClassName( "options" )[ 0 ].style.opacity = "1"
-          }, 1500 )
+            document.getElementsByClassName( "wrong" )[ 0 ].style.display = "block"
+            document.getElementsByClassName( "options" )[ 0 ].style.opacity = "0.3"
+            setTimeout( () => {
+            document.getElementsByClassName( "wrong" )[ 0 ].style.display = "none"
+            document.getElementsByClassName( "options" )[ 0 ].style.opacity = "1"
+            }, 1500 )
           }
 
           currentQuestion++;
           showQuestion();
-          }
+        }
 
         function finishQuiz() {
-        let points = Math.floor( ( correctAnswers / questions.length ) * 100 );
+          let points = Math.floor( ( correctAnswers / questions.length ) * 100 );
 
           if ( points <= 30 ) { scoreText1.innerHTML="흠... 점수가 조금 낮습니다. 사이트에서 다시 공부하세요!!!" ;
             scorePct.style.color="#f00000" ; } else if ( points> 30 && points < 70 ) {
@@ -485,20 +484,20 @@
               }
 
           gtag( 'event', 'Quiz Done', {
-          'event_category': 'Point: ' + points,
-          'event_label': 'Quiz Done'
+            'event_category': 'Point: ' + points,
+            'event_label': 'Quiz Done'
           } )
           scorePct.innerHTML = `${points} 점`;
           document.querySelector(
-          ".scoreText2"
+            ".scoreText2"
           ).innerHTML = `${questions.length}개 중 ${correctAnswers} 맞았습니다.`;
 
           scoreArea.style.display = "block";
           questionArea.style.display = "none";
           progressBar.style.width = "100%";
-          }
-          </script>
-          <script src="../../component.js"></script>
+        }
+        </script>
+        <script src="../../component.js"></script>
 </body>
 
 </html>

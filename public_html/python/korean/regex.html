@@ -26,12 +26,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
@@ -41,17 +40,17 @@
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
+    </div>
 
     <div>
       <div class="norm-div text-black" style="margin-top:50px;background-color:#30c58d;">
@@ -69,40 +68,40 @@
             <code>
               import re #영어로 Regular Expression입니다. (re)
             </code>
-            </p>
-            </div>
-            <div style="margin: auto;">
+          </p>
+          </div>
+          <div style="margin: auto;">
           <img alt="python-factory-picture" class="img-fluid"
             src="https://cmgcode.com/images/portfolio/regexoff-icon.png" width="300px" />
-          </div>
-          </div>
-          <br /><br /><br /><br />
-          <div class="sub-div">
-            <div class="text-center">
-              <hr>
-              <br />
-              <div class="text-center" id="speakdiv">
-                <button id="speakbutt" class="btn btn-primary">읽어주기</button>
-                <div id="setting">
-                  <br /><br />
-                  <img alt="python-factory-picture" class="img-fluid"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                    style="width:25px !important;" />
-                  <input type="range" id="vol" min="0" max="1" step="0.1" />
-                  <br />
-                  <img alt="python-factory-picture" class="img-fluid"
-                    src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                    style="width:25px !important;" />
-                  <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-                </div>
+        </div>
+        </div>
+        <br /><br /><br /><br />
+        <div class="sub-div">
+          <div class="text-center">
+            <hr>
+            <br />
+            <div class="text-center" id="speakdiv">
+              <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+              <div id="setting">
+                <br /><br />
+                <img alt="python-factory-picture" class="img-fluid"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                  style="width:25px !important;" />
+                <input type="range" id="vol" min="0" max="1" step="0.1" />
+                <br />
+                <img alt="python-factory-picture" class="img-fluid"
+                  src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                  style="width:25px !important;" />
+                <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
               </div>
-              <br /><br />
-              <h1 class="display-6"><span id="tit">정규식</span><br id="lbbr"><span id="txt"></span>Computer
-                Science Lab
-                (</span>CSL<span></span>)</span> 45</h1>
-              <br />
-              <hr>
             </div>
+            <br /><br />
+            <h1 class="display-6"><span id="tit">정규식</span><br id="lbbr"><span id="txt"></span>Computer
+              Science Lab
+              (</span>CSL<span></span>)</span> 45</h1>
+            <br />
+            <hr>
+          </div>
 
         <br /><br /><br /><br />
 
@@ -146,23 +145,23 @@
               &nbsp;. -- 임의의 알파벳: "h."는 ha, hb, hc, ... hz 다입니다<br />
               &nbsp;^ -- 단어 중 다음 패턴으로 시작하는지: "^hello": hello로 시작하는 단어가 있는지<br />
               &nbsp;$ -- 단어 중 다음 패턴으로 끝나는지: "$hello": hello로 끝나는 단어가 있는지
-              </p>
-              </div>
-              </div>
+            </p>
+            </div>
+            </div>
 
         <br /><br /><br />
-        </div>
+      </div>
 
       <div style="margin:20px;padding:20px;">
         <button style="float:left;" class="btn btn-light"><a href="random.html">❮ 이전</a></button>
         <button style="float:right;" class="btn btn-light"><a href="class.html">다음 ❯</a></button>
       </div>
-      </div>
+    </div>
 
     <br /><br /><br /><br />
 
     <pyfact-footer></pyfact-footer>
-    </div>
+  </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
 </body>

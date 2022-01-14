@@ -26,12 +26,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
@@ -40,17 +39,17 @@
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
+    </div>
 
     <div class="sub-div">
       <div class="norm-div" style="margin-top:50px;">
@@ -62,14 +61,14 @@
             줌 시간에서 '주석을 달다'라는 뜻은 노트에 쓰는 것을 뜻합니다.<br /><br />
 
             비슷하게 프로그래밍에서 우리의 <mark>코드를 이해하는 것을 도와주기 위한 설명</mark>을 넣을 수 있습니다.<br /><br />
-            </p>
-            </div>
-            <div style="margin: auto;">
-              <img alt="python-factory-picture" class="img-fluid"
-                src="https://i1.wp.com/blog.lulu.com/wp-content/uploads/2020/02/021120_NoteTaking-Blog.png?fit=1200%2C675&ssl=1"
-                width="300px" />
-            </div>
-            </div>
+          </p>
+          </div>
+          <div style="margin: auto;">
+            <img alt="python-factory-picture" class="img-fluid"
+              src="https://i1.wp.com/blog.lulu.com/wp-content/uploads/2020/02/021120_NoteTaking-Blog.png?fit=1200%2C675&ssl=1"
+              width="300px" />
+          </div>
+          </div>
 
       <br /><br />
 
@@ -78,7 +77,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-          </div>
+      </div>
 
       <br /><br />
 
@@ -121,7 +120,7 @@
         </div>
         <iframe src="https://trinket.io/embed/python/450cb9ddc1" width="100%" height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-        </div>
+      </div>
 
       <br /><br /><br /><br />
 
@@ -134,10 +133,10 @@
             '#' 다음에 나오는 문자들은 파이썬을 실행할 때 <mark>영향을 주지 않습니다</mark>. 그 이유는 노트이기 때문에 파이썬에서는 실행되지 않기 때문입니다.<br /><br />
 
             다음은 주석의 예시입니다.<br /><br />
-            </div>
+        </div>
         <iframe src="https://trinket.io/embed/python/5f18131ec9" width="100%" height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-        </div>
+      </div>
 
       <br /><br /><br /><br />
 
@@ -148,10 +147,10 @@
             주석을 많이 작성하거나 하나 이상 줄을 만들고 싶다면 다음과 같은 방법을 사용할 수 있습니다.<br /><br />
 
             ''' '''와 """ """ 둘다 한 줄 이상 주석을 다는데 사용할 수 있습니다.
-            </div>
+        </div>
         <iframe src="https://trinket.io/embed/python/ab2de5f9f6" width="100%" height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-        </div>
+      </div>
 
       <br /><br /><br /><br />
       <div style="margin:20px;padding:20px;">
@@ -217,25 +216,25 @@
           onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-A").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")};'>정답
           확인</button>
         <br /><br /><br /><br />
-        </div>
+      </div>
 
       <footer>
         <div>
           <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
           <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
           <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+        </div>
+        <br /><br />
+        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+        <br />
+        <div class="d-flex justify-content-center p-0 w-100">
+          <div>
+            <h1 class="display-6">Python-Factory © 2021</h1>
+            <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
           </div>
-          <br /><br />
-          <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-          <br />
-          <div class="d-flex justify-content-center p-0 w-100">
-            <div>
-              <h1 class="display-6">Python-Factory © 2021</h1>
-              <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-            </div>
-          </div>
-          </footer>
-          </div>
+        </div>
+        </footer>
+        </div>
     <script defer src="script.js"></script>
     <script src="../../component.js"></script>
 </body>

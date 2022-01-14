@@ -81,20 +81,20 @@ mb.addEventListener( "click", () => {
     document.querySelector( "#quiz" ).style.display = "block"
     document.querySelector( "#feedback" ).style.display = "block"
     document.querySelector( "#video" ).style.display = "block"
-    document.querySelector( "#home" ).style.display = "none"
     document.querySelector( "#python" ).style.display = "none"
     document.querySelector( "#clang" ).style.display = "none"
     document.querySelector( "#trans" ).style.display = "none"
     document.querySelector( "#video" ).style.display = "block"
+    document.querySelector( "#rust" ).style.display = "none"
     mb.innerHTML = "<p>Hide</p>"
   } else {
     document.querySelector( "#quiz" ).style.display = "none"
     document.querySelector( "#feedback" ).style.display = "none"
     document.querySelector( "#video" ).style.display = "none"
-    document.querySelector( "#home" ).style.display = "block"
     document.querySelector( "#python" ).style.display = "block"
     document.querySelector( "#clang" ).style.display = "block"
     document.querySelector( "#trans" ).style.display = "block"
+    document.querySelector( "#rust" ).style.display = "block"
     mb.innerHTML = "<p>More</p>"
   }
   c++

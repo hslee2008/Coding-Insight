@@ -26,54 +26,53 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
-      <div>
-        <div class="header-div text-white" style="background-color:#02081e;">
-          <div class="sub-div">
-            <h1>딕셔너리란?</h1>
-            <p>
-              딕셔너리(DICTIONARY)는 한국어로 '사전'을 뜻합니다.<br /><br />
+    </div>
+    <div>
+      <div class="header-div text-white" style="background-color:#02081e;">
+        <div class="sub-div">
+          <h1>딕셔너리란?</h1>
+          <p>
+            딕셔너리(DICTIONARY)는 한국어로 '사전'을 뜻합니다.<br /><br />
 
             일상생활에서의 사전은 단어와 그 단어에 대한 설명으로 이루어져 있습니다.<br /><br />
 
             코딩에서도 파이썬 딕셔너리는 <mark>키(key)와 값(value)의 한쌍이 여러개로 이루어진 데이터 형태</mark>를 뜻합니다.<br /><br />
 
             예를 들어 보겠습니다.
-            </p>
-            </div>
+          </p>
+          </div>
         <iframe src="https://trinket.io/embed/python3/ba9dc3b4ac" width="50%" height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-        </div>
-        <br /><br />
+      </div>
+      <br /><br />
 
       <div class="text-center">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/LmDFgFK4mFA" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-          </div>
+      </div>
 
       <br /><br />
 
@@ -129,12 +128,12 @@
               "James"입니다.<br /><br />
 
               딕셔너리에서는 Key와 Value에는 정수, 문자열 등 모든 데이터를 넣을 수 있습니다.<br /><br />
-              </p>
-              </div>
-              <iframe src="https://trinket.io/embed/python3/534b32664d" width="50%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
-                style="margin: auto;"></iframe>
-              </div>
+            </p>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/534b32664d" width="50%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"
+              style="margin: auto;"></iframe>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -147,11 +146,11 @@
               keys()를 사용하고 그 정보를 출력하면 dict_keys([keys])의 형태로 출력이 됩니다.<br /><br />
 
               keys()는 <a href="for.html">for 반복문</a>에서 더 유용하게 사용할 수 있는 예시를 들겠습니다.
-              </p>
-              </div>
-              <iframe src="https://trinket.io/embed/python3/1e671b6947" width="50%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-              </div>
+            </p>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/1e671b6947" width="50%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -162,11 +161,11 @@
               Key의 값을 모두 찾는 것처럼 Value의 모든 값을 찾을 수 있습니다.<br /><br />
 
               values()를 사용하면 dict_values([values]) 형태로 value가 출력이 됩니다.<br /><br />
-              </p>
-              </div>
-              <iframe src="https://trinket.io/embed/python3/05de91d4c2" width="50%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-              </div>
+            </p>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/05de91d4c2" width="50%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -180,7 +179,7 @@
         <div class="text-center border border-dark rounded p-3 m-3">
           <h1>퀴즈 풀기!</h1>
         </div>
-        </div>
+      </div>
 
       <div class="text-center">
         <h3> print({"1": "a", "2": "b"}.keys()) 코드를 실행하면? </h3>
@@ -212,24 +211,24 @@
           확인</button>
 
         <br /><br /><br /><br />
-        </div>
-        <footer>
-          <div>
-            <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
+      </div>
+      <footer>
+        <div>
+          <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
           <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
           <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+        </div>
+        <br /><br />
+        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+        <br />
+        <div class="d-flex justify-content-center p-0 w-100">
+          <div>
+            <h1 class="display-6">Python-Factory © 2021</h1>
+            <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
           </div>
-          <br /><br />
-          <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-          <br />
-          <div class="d-flex justify-content-center p-0 w-100">
-            <div>
-              <h1 class="display-6">Python-Factory © 2021</h1>
-              <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-            </div>
-          </div>
-          </footer>
-          </div>
+        </div>
+        </footer>
+        </div>
     <script defer src="script.js"></script>
     <script src="../../component.js"></script>
 </body>

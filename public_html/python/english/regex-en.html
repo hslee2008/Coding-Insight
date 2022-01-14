@@ -24,12 +24,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <a href="https://coding-insight.com/index-en.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
         <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a>
@@ -39,23 +38,23 @@
         <li id="more">
           <p>More</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu-en></py-pyfact-menu-en>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu-en></py-pyfact-menu-en>
-        </div>
-      </div>
-      <div>
-        <div class="norm-div text-black" style="margin-top:50px;background-color:#30c58d;">
-          <div class="sub-div">
-            <h1>What is RegEx?</h1>
-            <p>
-              RegEx is short for Regular Expression.<br /><br />
+    </div>
+    <div>
+      <div class="norm-div text-black" style="margin-top:50px;background-color:#30c58d;">
+        <div class="sub-div">
+          <h1>What is RegEx?</h1>
+          <p>
+            RegEx is short for Regular Expression.<br /><br />
 
             Regular Expression means strings with certain patterns.<br /><br />
 
@@ -67,40 +66,40 @@
             <code>
               import re
             </code>
-            </p>
-            </div>
-            <div style="margin: auto;">
+          </p>
+          </div>
+          <div style="margin: auto;">
           <img alt="python-factory-picture" class="img-fluid"
             src="https://cmgcode.com/images/portfolio/regexoff-icon.png" width="300px" />
-          </div>
-          </div>
-          <br /><br /><br /><br />
-          <div class="sub-div">
-            <div class="text-center">
-              <hr>
-              <br />
-              <div class="text-center" id="speakdiv">
-                <button id="speakbutt" class="btn btn-primary">Read</button>
-                <div id="setting">
-                  <br /><br />
-                  <img alt="python-factory-picture" class="img-fluid"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                    style="width:25px !important;" />
-                  <input type="range" id="vol" min="0" max="1" step="0.1" />
-                  <br />
-                  <img alt="python-factory-picture" class="img-fluid"
-                    src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                    style="width:25px !important;" />
-                  <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-                </div>
+        </div>
+        </div>
+        <br /><br /><br /><br />
+        <div class="sub-div">
+          <div class="text-center">
+            <hr>
+            <br />
+            <div class="text-center" id="speakdiv">
+              <button id="speakbutt" class="btn btn-primary">Read</button>
+              <div id="setting">
+                <br /><br />
+                <img alt="python-factory-picture" class="img-fluid"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                  style="width:25px !important;" />
+                <input type="range" id="vol" min="0" max="1" step="0.1" />
+                <br />
+                <img alt="python-factory-picture" class="img-fluid"
+                  src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                  style="width:25px !important;" />
+                <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
               </div>
-              <br /><br />
-              <h1 class="display-6"><span id="tit">RegEx</span><br id="lbbr"><span id="txt"></span>Computer
-                Science Lab
-                (</span>CSL<span></span>)</span> 45</h1>
-              <br />
-              <hr>
             </div>
+            <br /><br />
+            <h1 class="display-6"><span id="tit">RegEx</span><br id="lbbr"><span id="txt"></span>Computer
+              Science Lab
+              (</span>CSL<span></span>)</span> 45</h1>
+            <br />
+            <hr>
+          </div>
 
         <br /><br /><br /><br />
 
@@ -117,12 +116,12 @@
                 string = "123abc"<br /><br />
 
                 print(re.match(pattern, string).group())
-                </code>
+              </code>
 
               If the code above gives us an error, string variable does not start with pattern.
-              </p>
-              </div>
-              </div>
+            </p>
+            </div>
+            </div>
         <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/6b78aaf023" width="100%"
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto;"></iframe>
@@ -144,11 +143,11 @@
                   string = "123abc"<br /><br />
 
                   print(re.search(pattern, string).group())
-                  </code>
-                  </p>
-                  </div>
-                  </div>
-                  </div>
+                </code>
+                </p>
+                </div>
+                </div>
+                </div>
         <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/6d2e182407" width="100%"
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto;"></iframe>
@@ -167,18 +166,18 @@
               &nbsp;. -- any character: `"h."` can be ha, hb, hc, ... hz.<br />
               &nbsp;^ -- words starting with: `"^hello"`: whether the word starts with 'hello'<br />
               &nbsp;$ -- words ending with: `"$hello"`: whether the word ends with 'hello'
-              </p>
-              </div>
-              </div>
+            </p>
+            </div>
+            </div>
 
         <br /><br /><br />
-        </div>
+      </div>
 
       <div style="margin:20px;padding:20px;">
         <button style="float:left;" class="btn btn-light"><a href="random-en.html">❮ Previous</a></button>
         <button style="float:right;" class="btn btn-light"><a href="class-en.html">Next ❯</a></button>
       </div>
-      </div>
+    </div>
 
     <br /><br /><br /><br />
 
@@ -187,17 +186,17 @@
         <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
         <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
         <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+      </div>
+      <br /><br />
+      <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+      <br />
+      <div class="d-flex justify-content-center p-0 w-100">
+        <div>
+          <h1 class="display-6">Python-Factory © 2021</h1>
+          <p>"Where you make knowledge - Python Factory"</p>
         </div>
-        <br /><br />
-        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-        <br />
-        <div class="d-flex justify-content-center p-0 w-100">
-          <div>
-            <h1 class="display-6">Python-Factory © 2021</h1>
-            <p>"Where you make knowledge - Python Factory"</p>
-          </div>
-        </div>
-        </footer>
+      </div>
+      </footer>
   </div>
   <script defer src="script-en.js"></script>
   <script src="../../component.js"></script>

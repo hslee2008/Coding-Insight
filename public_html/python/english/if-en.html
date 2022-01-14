@@ -24,12 +24,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <a href="https://coding-insight.com/index-en.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
         <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a>
@@ -39,24 +38,24 @@
         <li id="more">
           <p>More</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu-en></py-pyfact-menu-en>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu-en></py-pyfact-menu-en>
-        </div>
-      </div>
-      <div>
-        <div class="sub-div">
-          <div style="display:flex;background-color:#595c64;color:whitesmoke;margin-top:50px;padding:30px;">
-            <div class="sub-div">
-              <h1>If Statement</h1>
-              <p>
-                If statement is a statement that contains the meaning 'if'.<br /><br />
+    </div>
+    <div>
+      <div class="sub-div">
+        <div style="display:flex;background-color:#595c64;color:whitesmoke;margin-top:50px;padding:30px;">
+          <div class="sub-div">
+            <h1>If Statement</h1>
+            <p>
+              If statement is a statement that contains the meaning 'if'.<br /><br />
 
               For example, "If you get 100 in your test, I will give you a candy".<br /><br />
 
@@ -70,20 +69,20 @@
 
                 if a == "100":<br />
                 &nbsp;print("play game")
-                </code>
+              </code>
 
               Depending on the statement a == "100", either "play game" is printed or nothing.<br /><br />
 
               If a is 100, print "play game" and nothing if otherwise.<br /><br />
 
               Note to put ':' after statement and indent the code you want to run if statement is true.
-              </p>
-              </div>
-              <div style="margin : auto;">
-                <img alt="python-factory-picture" class="img-fluid"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3wpiBBpzSMnlDX8KrxleWQf5wKSf2lGHbtw&usqp=CAU" />
-              </div>
-              </div>
+            </p>
+            </div>
+            <div style="margin : auto;">
+              <img alt="python-factory-picture" class="img-fluid"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3wpiBBpzSMnlDX8KrxleWQf5wKSf2lGHbtw&usqp=CAU" />
+            </div>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -132,12 +131,12 @@
                 &nbsp;print("candy")<br />
                 else:<br />
                 &nbsp;print("nothing")
-                </code>
-                </p>
-                </div>
+              </code>
+              </p>
+              </div>
           <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/9e61608715" width="50%"
             height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-          </div>
+        </div>
 
         <br /><br /><br /><br />
 
@@ -156,13 +155,13 @@
 
                 <h4>or</h4>
                 The if statement will run if at least one of the two statement is True.
-                </p>
-                </div>
-                </div>
-                <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/9e178be286" width="100%"
-                  height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-                  style="margin: auto;"></iframe>
-                </div>
+              </p>
+              </div>
+              </div>
+              <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/9e178be286" width="100%"
+                height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
+                style="margin: auto;"></iframe>
+              </div>
 
         <br /><br /><br /><br />
 
@@ -185,21 +184,21 @@
               If - elif - else is a combination of statements we just learned.<br /><br />
 
               If all the satements inside if and elif is False, Python will run the code inside else.
-              </p>
-              </div>
-              </div>
+            </p>
+            </div>
+            </div>
         <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/4f34d13cdc" width="100%"
           height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
           style="margin: auto;"></iframe>
 
         <br /><br /><br />
-        </div>
+      </div>
 
       <div style="margin:20px;padding:20px;">
         <button style="float:left;" class="btn btn-light"><a href="setmethod-en.html">❮ Previous</a></button>
         <button style="float:right;" class="btn btn-light"><a href="ifmaster-en.html">Next ❯</a></button>
       </div>
-      </div>
+    </div>
 
     <br /><br /><br /><br />
 
@@ -208,17 +207,17 @@
         <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
         <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
         <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+      </div>
+      <br /><br />
+      <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+      <br />
+      <div class="d-flex justify-content-center p-0 w-100">
+        <div>
+          <h1 class="display-6">Python-Factory © 2021</h1>
+          <p>"Where you make knowledge - Python Factory"</p>
         </div>
-        <br /><br />
-        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-        <br />
-        <div class="d-flex justify-content-center p-0 w-100">
-          <div>
-            <h1 class="display-6">Python-Factory © 2021</h1>
-            <p>"Where you make knowledge - Python Factory"</p>
-          </div>
-        </div>
-        </footer>
+      </div>
+      </footer>
   </div>
   <script defer src="script-en.js"></script>
   <script src="../../component.js"></script>

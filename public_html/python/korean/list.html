@@ -25,32 +25,31 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li style="float:right;">
           <a href="https://coding-insight.com/python/english/list-en.html" id="trans">English</a>
-          </li>
-          <li id="more">
-            <p>더보기</p>
-          </li>
-          </ul>
+        </li>
+        <li id="more">
+          <p>더보기</p>
+        </li>
+        </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
+    </div>
 
     <div class="sub-div">
       <div style="
@@ -69,14 +68,14 @@
 
             예를 들면, 일상생활에서 오늘 해야할 일을 나열할 때 파이썬에서
             리스트를 사용할 수 있습니다.
-            </p>
-            </div>
-            <div style="margin: auto">
-              <img alt="python-factory-picture" class="img-fluid"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAA7VBMVEVpuuf///86UGUAAAD+22c4S19rvetUi63cn0IrRVyzuMC3vsRNiapXmL07VGopQ1rGy9Lm5uaTk5MuLi6JiYnfpEX8+PK2trb/3GMmJiZfuOzNzc3T0ZCkpKTz8/P5+fljrNVRUVFra2tjY2P/4WczTGV5fWbT09P/3V6GhGaYw8Sgxr3iokCao6ytra1ZWVl1dXUZGRl3vdyHwNTi1YPb04qyyLPS0ZXo1X/z2W+kxruNwc1ZtvC2yq1xvODKz5qcvLFNfZtDY31xbl1xbV17dFvPw65ygZD66tHamC9CQkKOjo4eHh5LX3JepM2YkfgTAAAEMElEQVR4nO3db1eaUADHcUDA0dTNcpNwglpN1h81zdKc23Bbli3f/8sZaBoqKCKee+7l933QE4vD/QQoVz2X4xBCCCGEEEIIIYQQQgghhBBCCCGEKE7Tmq1WU9NI7wfBtIsb0VTFzkWMEdo2gJ1qtknvCbHapjghUEX1hvS+kEm7NcUJwl1HFc1+PE+Hrtq9V1W1p3GtriqS3hsi9eyDgGve2WeBdm4fCOek92f/act9v7evh63J06LWtw1uv6/8Cul9jrhe+8tyHftq2J88qLVtjs7d8i+0e4R3Otq0c1NdznlG6PxwHuxNnyGXM++ZOhJsA9Er9af9WKvr+ZhosvXSyc/gtsm1+t4CsTFQTXP6UpFFA1kuLeRjsDbz1+I2ZJn0qLZJLlkZwd3Z19PtDU6/nS1sJGOV6FGQk5IkRG8gSFKSFgSbQBD2YWArpOhAkMcrBJEZCNKYCgR5sLLn0RkIAyoMSquHQYQGEg3XRTntZfD78tPWXf71MkjTYLB6RbQN/ly+2zpvAxqeGtwGyodZ4Qzmf67QaqC8HHyc9fAUwuBh/ucHLwqVBsqQf+sxhMHTo2sDQ4VGg4zhNghzTXQb8BkKDZQr9wj4zyFa2MCVQqHBAR9p72EAAxjAAAYwgAEMYAADGDBroPsUC4NsMe/8TPhUjYFB1R5nPeYGuelAjbxPxvqhs2OQ5Y2aT8UN5RkwcE6CyppzYVMnDBjweq3A72BQZ8EgomAAAxjAAAYwgAEMYMCaQdaZJ9ErJ57VszEwME4SiVrM5w8OnYFmeb1e9mwUh+Og8frPNnwKOsNIs0HeJrg2eD343bI3As0GfO3Iue5tMX/AoME03/nElWreM4wMGOwcDGAAAxjAAAYwgAGDBr6vE4N+CINqg3y9se5+IQ7zB85947ERb4PZ/EHWp4AEVBs8OwZZXm9UfKoH+yQKzQbGKJEorp0/YN+A56vO8e43n1guj+JgEE0wgAEMYAADGMAABiwa+L3n6o5dg7xze6wfHW/M551G+g2cm6VGwPdcWTWYfX/hcHPPrJ4Lr3MoRiFkVQYMnO8zleP+HY5qrmjgOxzTa2PYGDLYNRjAAAYwgAEMYAADBg3051yYCmwY5BLHhdD3C4dMGBSdoei8fhSmf0UmDGafwYjz9aD2ehxch7x3rjBgwOeuR+GvB4zMofCTKXM9wHyi5xxjjQmDaIIBDGAAAxjAAAYwgAEjBlebx7VNNK6/sLgOx+7RuA6HIA2jRBie0WiwsC7PjtG2Lo9rna639Zl2TJlvkw4Dj2X7IoyKtcq40mCfBoMS6fEFKrXHA0FKkR5doOSxtTcEyaJjDUuOS1qZvShIGStJemyBS6asQSbyBlYqWSI9tOClU3somUqTHtc2ydw4HXljjpJrwTw58kiPCCGEEEIIIYQQQgghhBBCCKHF/gOL+hRBPEW1XwAAAABJRU5ErkJggg=="
-                width="300px" />
-            </div>
-            </div>
+          </p>
+          </div>
+          <div style="margin: auto">
+            <img alt="python-factory-picture" class="img-fluid"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAA7VBMVEVpuuf///86UGUAAAD+22c4S19rvetUi63cn0IrRVyzuMC3vsRNiapXmL07VGopQ1rGy9Lm5uaTk5MuLi6JiYnfpEX8+PK2trb/3GMmJiZfuOzNzc3T0ZCkpKTz8/P5+fljrNVRUVFra2tjY2P/4WczTGV5fWbT09P/3V6GhGaYw8Sgxr3iokCao6ytra1ZWVl1dXUZGRl3vdyHwNTi1YPb04qyyLPS0ZXo1X/z2W+kxruNwc1ZtvC2yq1xvODKz5qcvLFNfZtDY31xbl1xbV17dFvPw65ygZD66tHamC9CQkKOjo4eHh5LX3JepM2YkfgTAAAEMElEQVR4nO3db1eaUADHcUDA0dTNcpNwglpN1h81zdKc23Bbli3f/8sZaBoqKCKee+7l933QE4vD/QQoVz2X4xBCCCGEEEIIIYQQQgghhBBCCCGEKE7Tmq1WU9NI7wfBtIsb0VTFzkWMEdo2gJ1qtknvCbHapjghUEX1hvS+kEm7NcUJwl1HFc1+PE+Hrtq9V1W1p3GtriqS3hsi9eyDgGve2WeBdm4fCOek92f/act9v7evh63J06LWtw1uv6/8Cul9jrhe+8tyHftq2J88qLVtjs7d8i+0e4R3Otq0c1NdznlG6PxwHuxNnyGXM++ZOhJsA9Er9af9WKvr+ZhosvXSyc/gtsm1+t4CsTFQTXP6UpFFA1kuLeRjsDbz1+I2ZJn0qLZJLlkZwd3Z19PtDU6/nS1sJGOV6FGQk5IkRG8gSFKSFgSbQBD2YWArpOhAkMcrBJEZCNKYCgR5sLLn0RkIAyoMSquHQYQGEg3XRTntZfD78tPWXf71MkjTYLB6RbQN/ly+2zpvAxqeGtwGyodZ4Qzmf67QaqC8HHyc9fAUwuBh/ucHLwqVBsqQf+sxhMHTo2sDQ4VGg4zhNghzTXQb8BkKDZQr9wj4zyFa2MCVQqHBAR9p72EAAxjAAAYwgAEMYAADGDBroPsUC4NsMe/8TPhUjYFB1R5nPeYGuelAjbxPxvqhs2OQ5Y2aT8UN5RkwcE6CyppzYVMnDBjweq3A72BQZ8EgomAAAxjAAAYwgAEMYMCaQdaZJ9ErJ57VszEwME4SiVrM5w8OnYFmeb1e9mwUh+Og8frPNnwKOsNIs0HeJrg2eD343bI3As0GfO3Iue5tMX/AoME03/nElWreM4wMGOwcDGAAAxjAAAYwgAGDBr6vE4N+CINqg3y9se5+IQ7zB85947ERb4PZ/EHWp4AEVBs8OwZZXm9UfKoH+yQKzQbGKJEorp0/YN+A56vO8e43n1guj+JgEE0wgAEMYAADGMAABiwa+L3n6o5dg7xze6wfHW/M551G+g2cm6VGwPdcWTWYfX/hcHPPrJ4Lr3MoRiFkVQYMnO8zleP+HY5qrmjgOxzTa2PYGDLYNRjAAAYwgAEMYAADBg3051yYCmwY5BLHhdD3C4dMGBSdoei8fhSmf0UmDGafwYjz9aD2ehxch7x3rjBgwOeuR+GvB4zMofCTKXM9wHyi5xxjjQmDaIIBDGAAAxjAAAYwgAEjBlebx7VNNK6/sLgOx+7RuA6HIA2jRBie0WiwsC7PjtG2Lo9rna639Zl2TJlvkw4Dj2X7IoyKtcq40mCfBoMS6fEFKrXHA0FKkR5doOSxtTcEyaJjDUuOS1qZvShIGStJemyBS6asQSbyBlYqWSI9tOClU3somUqTHtc2ydw4HXljjpJrwTw58kiPCCGEEEIIIYQQQgghhBBCCKHF/gOL+hRBPEW1XwAAAABJRU5ErkJggg=="
+              width="300px" />
+          </div>
+          </div>
 
       <br /><br />
 
@@ -85,7 +84,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-          </div>
+      </div>
 
       <br /><br />
 
@@ -112,10 +111,10 @@
           <span id="tit">리스트</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
             id="txt">)</span>
           18
-          </h1>
-          <br />
-          <hr />
-          </div>
+        </h1>
+        <br />
+        <hr />
+        </div>
 
       <br /><br /><br /><br />
 
@@ -127,11 +126,11 @@
             됩니다.<br /><br />
 
             리스트에서 항상 ,가 데이터들 사이에 있어야 합니다.
-            </p>
-            </div>
-            <iframe src="https://trinket.io/embed/python3/59634d0a4b" width="100%" height="356" frameborder="0"
-              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-            </div>
+          </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/59634d0a4b" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+          </div>
 
       <br /><br /><br /><br />
 
@@ -176,14 +175,14 @@
 
             그래서 첫 번째 리스트 값을 0을 이용해서 찾는 이유는 공차의 값을
             기준으로 0이 곱해졌기 때문입니다.
-            </p>
-            </div>
-            <div style="margin: auto">
-              <img alt="python-factory-picture" class="img-fluid"
-                src="https://epe.brightspotcdn.com/dims4/default/98845a7/2147483647/strip/true/crop/1695x1150+7+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2F49%2F23%2F863695b641f897e4211cfa36c71e%2Fv40-15sr-math-research.jpg"
-                width="300px" />
-            </div>
-            </div>
+          </p>
+          </div>
+          <div style="margin: auto">
+            <img alt="python-factory-picture" class="img-fluid"
+              src="https://epe.brightspotcdn.com/dims4/default/98845a7/2147483647/strip/true/crop/1695x1150+7+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2F49%2F23%2F863695b641f897e4211cfa36c71e%2Fv40-15sr-math-research.jpg"
+              width="300px" />
+          </div>
+          </div>
 
       <br /><br /><br /><br />
 
@@ -195,10 +194,10 @@
       </div>
 
       <br /><br /><br /><br />
-      </div>
+    </div>
 
     <pyfact-footer></pyfact-footer>
-    </div>
+  </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
 </body>

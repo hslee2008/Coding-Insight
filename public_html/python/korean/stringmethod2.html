@@ -26,33 +26,32 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li style="float:right;">
           <a href="https://coding-insight.com/python/english/stringmethod2-en.html" id="trans">English</a>
-          </li>
-          <li id="more">
-            <p>더보기</p>
-          </li>
-          </ul>
+        </li>
+        <li id="more">
+          <p>더보기</p>
+        </li>
+        </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
-      <br /><br />
+    </div>
+    <br /><br />
 
     <div class="text-center">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/D4xUOyss96k" title="YouTube video player"
@@ -106,11 +105,11 @@
           문자 * 숫자는 문자를 숫자만큼 반복하여 되돌려준다는 뜻입니다.<br /><br />
 
           예를 들어 "Hello" * 2는 "HelloHello"입니다.
-          </p>
-          </div>
-          <iframe src="https://trinket.io/embed/python/54f740c487" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-          </div>
+        </p>
+        </div>
+      <iframe src="https://trinket.io/embed/python/54f740c487" width="100%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+      </div>
 
     <br /><br /><br /><br />
 
@@ -134,11 +133,11 @@
           마지막으로 'isnumeric'은 정수로만 이루어져 있는지, 'isprintable'은
           정보를 출력하는 것이 가능한지, 'isspace'는 스페이스(공백)로만 이루어져
           있는지 알 수 있습니다.<br />
-          </p>
-          </div>
-          <iframe src="https://trinket.io/embed/python/9da1796e91" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-          </div>
+        </p>
+        </div>
+      <iframe src="https://trinket.io/embed/python/9da1796e91" width="100%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+      </div>
 
     <br /><br /><br /><br />
 
@@ -158,11 +157,11 @@
           ("Hello. My ", "name", " is Hyunseung")가 터미널에 출력이 되는 것을
           관찰할 수 있습니다. 인덱싱을 사용하여 'name' 전의 문장과 'name' 후의
           문장을 결합했습니다.<br /><br />
-          </p>
-          </div>
-          <iframe src="https://trinket.io/embed/python/d278186aad" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
-          </div>
+        </p>
+        </div>
+      <iframe src="https://trinket.io/embed/python/d278186aad" width="100%" height="356" frameborder="0" marginwidth="0"
+        marginheight="0" allowfullscreen loading="lazy"></iframe>
+      </div>
 
     <br /><br /><br /><br />
 
@@ -256,12 +255,12 @@
         onclick='if (document.getElementById("question-1-answers-A").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-A").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")};if(document.getElementById("question-3-answers-A").checked) {alert("3번 맞았습니다 :)")} else {alert("3번 틀렸습니다")};'>
         정답 확인
       </button>
-      </div>
+    </div>
 
     <br /><br />
 
     <pyfact-footer></pyfact-footer>
-    </div>
+  </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
 </body>

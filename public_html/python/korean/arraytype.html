@@ -26,12 +26,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
@@ -41,18 +40,18 @@
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
-      <br /><br />
+    </div>
+    <br /><br />
 
     <div class="norm-div">
       <div class="sub-div">
@@ -61,14 +60,14 @@
           정렬의 치수란 <mark>정렬의 깊이</mark>입니다.
 
           조금 더 쉽게 설명하자면, 정렬 안에 정렬이 몇 개 있는지의 값이 정렬의 치수라고 합니다.
-          </p>
-          </div>
-          <div style="margin: auto;">
-            <img alt="python-factory-picture" class="img-fluid"
-              src="https://static.vecteezy.com/system/resources/previews/002/258/426/original/2d-array-outline-icon-item-from-set-dedicated-to-big-data-and-machine-learning-vector.jpg"
-              width="100px" />
-          </div>
-          </div>
+        </p>
+        </div>
+        <div style="margin: auto;">
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://static.vecteezy.com/system/resources/previews/002/258/426/original/2d-array-outline-icon-item-from-set-dedicated-to-big-data-and-machine-learning-vector.jpg"
+            width="100px" />
+        </div>
+        </div>
 
     <br /><br />
     <div>
@@ -111,9 +110,9 @@
               <code>
                 arr = numpy.array(44)
               </code>
-              </p>
-              </div>
-              </div>
+            </p>
+            </div>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -126,9 +125,9 @@
               <code>
                 arr = numpy.array([4, 44, 444])
               </code>
-              </p>
-              </div>
-              </div>
+            </p>
+            </div>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -143,9 +142,9 @@
               <code>
                 arr = numpy.array([ [4, 44, 444], [3, 3, 444] ])
               </code>
-              </p>
-              </div>
-              </div>
+            </p>
+            </div>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -164,11 +163,11 @@
               <code>
                 arr = numpy.array([4, 44, 444, 4444], ndmin=1000)
               </code>
-              </p>
-              </div>
-              </div>
-              <iframe src="https://trinket.io/embed/python3/7b99138f0e" width="100%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+            </p>
+            </div>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/7b99138f0e" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
         <br /><br /><br /><br />
 
@@ -183,11 +182,11 @@
               2-D는 정렬 안에 정렬이 있습니다. 그래서 첫 번째 정렬을 선택하고 그 정렬 안의 값을 선택하는 것이 가능합니다.<br /><br />
 
               이와 같이 3-D는 3개의 수, 4-D는 4개의 수...를 입력하면 됩니다.
-              </p>
-              </div>
-              </div>
-              <iframe src="https://trinket.io/embed/python3/4fe0b3d005" width="100%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+            </p>
+            </div>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/4fe0b3d005" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
         <br /><br /><br /><br />
 
@@ -195,13 +194,13 @@
           <button style="float:left;" class="btn btn-light"><a href="array.html">❮ 이전</a></button>
           <button style="float:right;" class="btn btn-light"><a href="arrayshape.html">다음 ❯</a></button>
         </div>
-        </div>
-        </div>
+      </div>
+      </div>
 
     <br /><br /><br /><br />
 
     <pyfact-footer></pyfact-footer>
-    </div>
+  </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
 </body>

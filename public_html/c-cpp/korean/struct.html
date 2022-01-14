@@ -26,29 +26,28 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <c-pyfact-menu></c-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <c-pyfact-menu></c-pyfact-menu>
-        </div>
-      </div>
+    </div>
 
     <div style="padding:30px;display:flex;margin:30px;background-color: #f7f7f7;">
       <div class="sub-div">
@@ -61,12 +60,11 @@
           하지만 하나하나 다 나열하여 저장하면 비효율적이고 귀찮습니다.<br /><br />
 
           이 상황에서 구조체 person을 만들고 모든 정보를 person 한 구조체에 넣으면 됩니다.
-          </p>
-          </div>
-          <div style="margin: auto;">
-            <img alt="python-factory-picture" class="img-fluid"
-              src="data:image/png;base64,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"
-               />
+        </p>
+        </div>
+        <div style="margin: auto;">
+          <img alt="python-factory-picture" class="img-fluid"
+            src="data:image/png;base64,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" />
           </div>
           </div>
 
@@ -124,13 +122,13 @@
             typedef struct Person PersonStruct;<br /><br />
 
             PersonStruct testing = {"John", 12, "M"};
-            </code>
-            </p>
-            </div>
-            <div style="margin: auto;">
-              <iframe src="https://www.jdoodle.com/embed/v0/47oW" width="600" height="500"></iframe>
-            </div>
-            </div>
+          </code>
+          </p>
+          </div>
+          <div style="margin: auto;">
+            <iframe src="https://www.jdoodle.com/embed/v0/47oW" width="600" height="500"></iframe>
+          </div>
+          </div>
 
     <br /><br />
 
@@ -154,12 +152,12 @@
           이런 방법을 사용하면 더 예쁘게 보입니다.<br /><br />
 
           <code>typedef struct &lt;struct 이름> {변수} &lt;대신 사용할 이름></code>
-          </p>
-          </div>
-          <div style="margin: auto;">
-            <iframe src="https://www.jdoodle.com/embed/v0/47p1" width="600" height="500"></iframe>
-          </div>
-          </div>
+        </p>
+        </div>
+        <div style="margin: auto;">
+          <iframe src="https://www.jdoodle.com/embed/v0/47p1" width="600" height="500"></iframe>
+        </div>
+        </div>
 
     <br /><br />
 
@@ -179,13 +177,13 @@
 
             PersonStruct data;<br />
             data.age = 12;
-            </code>
-            </p>
-            </div>
-            <div style="margin: auto;">
-              <iframe src="https://www.jdoodle.com/embed/v0/47p7" width="600" height="300"></iframe>
-            </div>
-            </div>
+          </code>
+          </p>
+          </div>
+          <div style="margin: auto;">
+            <iframe src="https://www.jdoodle.com/embed/v0/47p7" width="600" height="300"></iframe>
+          </div>
+          </div>
 
     <br /><br />
 
@@ -201,17 +199,17 @@
         <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
         <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">팀</a>
         <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">유튜브</a>
+      </div>
+      <br /><br />
+      <img alt="python-factory-picture" class="img-fluid" src="py.png" />
+      <br />
+      <div class="d-flex justify-content-center p-0 w-100">
+        <div>
+          <h1 class="display-6">Python-Factory © 2021</h1>
+          <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
         </div>
-        <br /><br />
-        <img alt="python-factory-picture" class="img-fluid" src="py.png" />
-        <br />
-        <div class="d-flex justify-content-center p-0 w-100">
-          <div>
-            <h1 class="display-6">Python-Factory © 2021</h1>
-            <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
-          </div>
-        </div>
-        </footer>
+      </div>
+      </footer>
   </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>

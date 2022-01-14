@@ -26,12 +26,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
@@ -40,35 +39,35 @@
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
-      <div style="display:flex;margin-top:50px;padding:30px;background-color: #142a66;color:white;">
-        <div class="sub-div">
-          <h1>리퀘스트란?</h1>
-          <p>
-            '물을 리퀘스트하다'라고 할 때 리퀘스트는 '요구하다'를 의미합니다.<br /><br />
+    </div>
+    <div style="display:flex;margin-top:50px;padding:30px;background-color: #142a66;color:white;">
+      <div class="sub-div">
+        <h1>리퀘스트란?</h1>
+        <p>
+          '물을 리퀘스트하다'라고 할 때 리퀘스트는 '요구하다'를 의미합니다.<br /><br />
 
           리퀘스트는 파이썬에서 웹에 있는 정보를 가지고 오는 모듈의 이름입니다.<br /><br />
 
           온라인상에서 원하는 데이터를 리퀘스트하는 것이 가능합니다.<br /><br />
 
           예를 들어 온라인에 올려진 유명한 사람의 생일 JSON 파일을 파이썬 프로그램에서 가지고 와서 사용할 수 있습니다.
-          </p>
-          </div>
-          <div style="margin: auto;">
-            <img alt="python-factory-picture" class="img-fluid"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxLF2l2sITXnde-o9OyhTjoPeWHCWLrC2Ry2-FlQVH-aDSQPE1kh02OMA1yT_Yeui3LM&usqp=CAU" />
-          </div>
-          </div>
+        </p>
+        </div>
+        <div style="margin: auto;">
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxLF2l2sITXnde-o9OyhTjoPeWHCWLrC2Ry2-FlQVH-aDSQPE1kh02OMA1yT_Yeui3LM&usqp=CAU" />
+        </div>
+        </div>
 
     <div class="sub-div">
       <div class="sub-div">
@@ -130,11 +129,11 @@
             있습니다.<br /><br />
 
             그리고 indentifier? 뒤에 있는 데이터가 다 딕셔너리로 표현이 될 수 있습니다.
-            </p>
-            </div>
-            </div>
-            <iframe src="https://trinket.io/embed/python3/3f896f4b27" width="100%" height="356" frameborder="0"
-              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+          </p>
+          </div>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/3f896f4b27" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
       <br /><br /><br /><br />
 
@@ -151,11 +150,11 @@
             데이터를 가지고 오며 ASCII에 존재하지 않는 캐릭터가 있어서 문제가 발생할 수 있습니다.<br /><br />
 
             반응.encoding의 형태로 encoding의 값을 알 수 있고 지정하는 것이 가능합니다.
-            </p>
-            </div>
-            </div>
-            <iframe src="https://trinket.io/embed/python3/4751110c8f" width="100%" height="356" frameborder="0"
-              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+          </p>
+          </div>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/4751110c8f" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
       <br /><br /><br /><br />
 
@@ -173,10 +172,10 @@
               b = Counter(a = 6, b = 9)
 
               print(a.subtract(b))
-              </code>
-              </p>
-              </div>
-              </div>
+            </code>
+            </p>
+            </div>
+            </div>
 
       <br /><br /><br /><br />
 
@@ -184,8 +183,8 @@
         <button style="float:left;" class="btn btn-light"><a href="counter.html">❮ 이전</a></button>
         <button style="float:right;" class="btn btn-light"><a href="requestmethod.html">다음 ❯</a></button>
       </div>
-      </div>
-      </div>
+    </div>
+    </div>
   </div>
 
   <br /><br /><br /><br />

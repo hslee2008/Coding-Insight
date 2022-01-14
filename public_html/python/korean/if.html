@@ -26,12 +26,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
@@ -40,35 +39,35 @@
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
-      <div>
-        <div class="sub-div">
-          <div style="display:flex;background-color:#595c64;color:whitesmoke;margin-top:50px;padding:30px;">
-            <div class="sub-div">
-              <h1>조건문</h1>
-              <p>
-                "너 오늘 보는 시험에서 100점 맞으면 동영상 게임 2시간 할 수 있게 해줄께" - 엄마 -<br /><br />
+    </div>
+    <div>
+      <div class="sub-div">
+        <div style="display:flex;background-color:#595c64;color:whitesmoke;margin-top:50px;padding:30px;">
+          <div class="sub-div">
+            <h1>조건문</h1>
+            <p>
+              "너 오늘 보는 시험에서 100점 맞으면 동영상 게임 2시간 할 수 있게 해줄께" - 엄마 -<br /><br />
 
               위의 예시에서 만일 시험 점수가 100 점이라면 게임 2시간을 할 수 있고 그렇지 않다면 게임을 할 수 없습니다.<br /><br />
 
               파이썬에서도 어떤 조건에 맞다면 어떤 코드를 실행할 수 있는 기능이 있습니다.
-              </p>
-              </div>
-              <div style="margin : auto;">
-                <img alt="python-factory-picture" class="img-fluid"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3wpiBBpzSMnlDX8KrxleWQf5wKSf2lGHbtw&usqp=CAU" />
-              </div>
-              </div>
+            </p>
+            </div>
+            <div style="margin : auto;">
+              <img alt="python-factory-picture" class="img-fluid"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3wpiBBpzSMnlDX8KrxleWQf5wKSf2lGHbtw&usqp=CAU" />
+            </div>
+            </div>
 
         <br /><br />
 
@@ -123,9 +122,9 @@
               만일 파이썬 조건문에서 코드를 들여쓰지 않는다면 에러가 생깁니다.<br /><br />
 
               그 이유는 파이썬에서 항상 어떤 코드가 조건문 안에 있다면 항상 들여쓰기를 기준으로 삼고 있기 때문입니다.
-              </p>
-              </div>\
-              </div>
+            </p>
+            </div>\
+            </div>
 
         <br /><br /><br /><br />
 
@@ -139,12 +138,12 @@
 
                 <h4>or</h4>
                 or는 하나라도 참이면 참입니다. 만일 두 조건 중 하나라도 참이면 어떤 코드를 실행하고 싶다면 or 논리연산자를 사용하세요.
-                </p>
-                </div>
-                </div>
-                <iframe src="https://trinket.io/embed/python3/9e178be286" width="100%" height="356" frameborder="0"
-                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
-                </div>
+              </p>
+              </div>
+              </div>
+              <iframe src="https://trinket.io/embed/python3/9e178be286" width="100%" height="356" frameborder="0"
+                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+              </div>
 
         <br /><br /><br /><br />
 
@@ -168,14 +167,14 @@
               그리고 elif 조건이 맞다면 elif 문의 코드를 실행하고 넘어갑니다.<br /><br />
 
               마지막으로 모든 elif 문의 조건이 맞지 않다면 else 문의 코드를 실행합니다.
-              </p>
-              </div>
-              </div>
-              <iframe src="https://trinket.io/embed/python3/4f34d13cdc" width="100%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+            </p>
+            </div>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/4f34d13cdc" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
         <br /><br /><br />
-        </div>
+      </div>
 
       <div style="margin:20px;padding:20px;">
         <button style="float:left;" class="btn btn-light"><a href="setmethod.html">❮ 이전</a></button>
@@ -187,9 +186,9 @@
       <div class="text-center border border-dark rounded p-3 m-3">
         <h1>퀴즈 풀기!</h1>
       </div>
-      </div>
-      <pyfact-footer></pyfact-footer>
-      </div>
+    </div>
+    <pyfact-footer></pyfact-footer>
+    </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
 </body>

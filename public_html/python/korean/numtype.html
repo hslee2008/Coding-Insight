@@ -25,32 +25,31 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li style="float:right;">
           <a href="https://coding-insight.com/python/english/numtype-en.html" id="trans">English</a>
-          </li>
-          <li id="more">
-            <p>더보기</p>
-          </li>
-          </ul>
+        </li>
+        <li id="more">
+          <p>더보기</p>
+        </li>
+        </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
+    </div>
 
     <div class="sub-div">
       <div style="display: flex; margin-top: 50px; padding: 30px">
@@ -62,14 +61,14 @@
             - int(정수)<br />
             - float(실수)<br />
             - complex(허수)<br />
-            </p>
-            </div>
-            <div style="margin: auto">
-              <img alt="python-factory-picture" class="img-fluid"
-                src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
-                width="500px" />
-            </div>
-            </div>
+          </p>
+          </div>
+          <div style="margin: auto">
+            <img alt="python-factory-picture" class="img-fluid"
+              src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
+              width="500px" />
+          </div>
+          </div>
 
       <br /><br />
 
@@ -78,7 +77,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-          </div>
+      </div>
 
       <br /><br />
 
@@ -125,11 +124,11 @@
 
             변수 형태의 정수인지 확인하기 위해서 저희는 다음과 같은 함수를
             사용할 수 있습니다.<br /><br />
-            </p>
-            </div>
+          </p>
+          </div>
         <iframe src="https://trinket.io/embed/python3/0856d3ad88" width="60%" height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-        </div>
+      </div>
 
       <br /><br /><br /><br />
 
@@ -149,11 +148,11 @@
 
             예를 들어 3.14159는 소수점 뒤에 숫자가 있기 때문에 실수라고
             합니다.<br /><br />
-            </p>
-            </div>
+          </p>
+          </div>
         <iframe src="https://trinket.io/embed/python3/e726e404fa" width="60%" height="356" frameborder="0"
           marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
-        </div>
+      </div>
 
       <br /><br /><br /><br />
 
@@ -178,10 +177,10 @@
       </div>
 
       <br /><br /><br /><br />
-      </div>
+    </div>
 
     <pyfact-footer></pyfact-footer>
-    </div>
+  </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
 </body>

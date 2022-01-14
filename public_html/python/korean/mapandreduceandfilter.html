@@ -26,12 +26,11 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
@@ -41,17 +40,17 @@
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu></py-pyfact-menu>
-        </div>
-      </div>
+    </div>
 
     <div>
       <div style="display:flex;margin-top:50px;">
@@ -65,37 +64,37 @@
             이 코드는 for 반복문을 사용했습니다.<br /><br />
 
             for 반복문은 상대적으로 느리므로 매우 크고 복잡한 앱을 만드는 데 좋지 않습니다.
-            </p>
-            </div>
-            </div>
+          </p>
+          </div>
+          </div>
+          <div class="sub-div">
             <div class="sub-div">
-              <div class="sub-div">
-                <div class="text-center">
-                  <hr>
-                  <br />
-                  <div class="text-center" id="speakdiv">
-                    <button id="speakbutt" class="btn btn-primary">읽어주기</button>
-                    <div id="setting">
-                      <br /><br />
-                      <img alt="python-factory-picture" class="img-fluid"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                        style="width:25px !important;" />
-                      <input type="range" id="vol" min="0" max="1" step="0.1" />
-                      <br />
-                      <img alt="python-factory-picture" class="img-fluid"
-                        src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                        style="width:25px !important;" />
-                      <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-                    </div>
+              <div class="text-center">
+                <hr>
+                <br />
+                <div class="text-center" id="speakdiv">
+                  <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+                  <div id="setting">
+                    <br /><br />
+                    <img alt="python-factory-picture" class="img-fluid"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                      style="width:25px !important;" />
+                    <input type="range" id="vol" min="0" max="1" step="0.1" />
+                    <br />
+                    <img alt="python-factory-picture" class="img-fluid"
+                      src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                      style="width:25px !important;" />
+                    <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
                   </div>
-                  <br /><br />
-                  <h1 class="display-6"><span id="tit">map, reduce, filter</span><br id="lbbr"><span id="txt">Computer
-                      Science Lab
-                      (</span>CSL<span id="txt">)</span>
-                    64</h1>
-                  <br />
-                  <hr>
                 </div>
+                <br /><br />
+                <h1 class="display-6"><span id="tit">map, reduce, filter</span><br id="lbbr"><span id="txt">Computer
+                    Science Lab
+                    (</span>CSL<span id="txt">)</span>
+                  64</h1>
+                <br />
+                <hr>
+              </div>
 
           <br /><br /><br /><br />
 
@@ -130,10 +129,10 @@
                 만일 어떤 함수가 x개 매개변수가 필요하다면 x개 리스트를 입력하면 됩니다. 그리고 lambda에서는 x개 매개변수를 만들면 됩니다.<br /><br />
 
                 참고로 map()은 리스트에서 숫자뿐만 아니라 모든 데이터 형태를 반복할 수 있습니다. 문자도 됩니다.
-                </p>
-                </div>
-                </div>
-                <br /><br /><br /><br />
+              </p>
+              </div>
+              </div>
+              <br /><br /><br /><br />
 
           <div class="norm-div" style="background-color: rgb(158, 235, 238);">
             <div style="padding: 10px;">
@@ -153,11 +152,11 @@
 
                 참고로 map()과 같이 lambda 대신 def를 이용한 함수여도 되고 이미 존재하는
                 함수를 사용해도 됩니다.
-                </p>
-                </div>
-                </div>
-                <iframe src="https://trinket.io/embed/python3/9eb9345774" width="100%" height="356" frameborder="0"
-                  marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+              </p>
+              </div>
+              </div>
+              <iframe src="https://trinket.io/embed/python3/9eb9345774" width="100%" height="356" frameborder="0"
+                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
           <br /><br /><br /><br />
 
@@ -177,10 +176,10 @@
                 만일 reduce의 값이 여러 개라면 먼저 하나하나 함수에 집어넣고 돌아오는 값을 저장한 후 모든 값을 한꺼번에 돌려줍니다.
 
               </p>
-              </div>
-              </div>
-              <iframe src="https://trinket.io/embed/python3/294b66f2c5" width="100%" height="356" frameborder="0"
-                marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+            </div>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/294b66f2c5" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
           <br /><br /><br /><br />
 
@@ -188,14 +187,14 @@
             <button style="float:left;" class="btn btn-light"><a href="logging.html">❮ 이전</a></button>
             <button style="float:right;" class="btn btn-light"><a href="zlib.html">다음 ❯</a></button>
           </div>
-          </div>
-          </div>
-          </div>
+        </div>
+        </div>
+        </div>
 
     <br /><br /><br /><br />
 
     <pyfact-footer></pyfact-footer>
-    </div>
+  </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
 </body>

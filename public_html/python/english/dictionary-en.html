@@ -24,13 +24,12 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index-en.html" id="home">Home</a></li>
+        <a href="https://coding-insight.com/index-en.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a>
         </li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
         <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a>
@@ -43,19 +42,19 @@
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu-en></py-pyfact-menu-en>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <py-pyfact-menu-en></py-pyfact-menu-en>
-        </div>
-      </div>
-      <div>
-        <div style="display:flex;background-color:#8494ca;color:rgb(0, 0, 0);margin-top:50px;padding:30px;">
-          <div class="sub-div">
-            <h1>What is dictionary?</h1>
-            <p>
-              Dictionary is a book that contains a word and an explanation for it.<br /><br />
+    </div>
+    <div>
+      <div style="display:flex;background-color:#8494ca;color:rgb(0, 0, 0);margin-top:50px;padding:30px;">
+        <div class="sub-div">
+          <h1>What is dictionary?</h1>
+          <p>
+            Dictionary is a book that contains a word and an explanation for it.<br /><br />
 
             For example, if we search up the word 'Python' in the dictionary we find the following explanation "a
             high-level general-purpose programming language".<br /><br />
@@ -63,35 +62,35 @@
             Here, Python is the 'key' and the explanation is the 'value'.<br /><br />
 
             In Python, dictionary is a data type which contains pairs of keys and values.
-            </p>
-            </div>
-            </div>
-            <div class="sub-div">
-              <div class="text-center">
-                <hr>
-                <br />
-                <div class="text-center" id="speakdiv">
-                  <button id="speakbutt" class="btn btn-primary">Read</button>
-                  <div id="setting">
-                    <br /><br />
-                    <img alt="python-factory-picture" class="img-fluid"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
-                      style="width:25px !important;" />
-                    <input type="range" id="vol" min="0" max="1" step="0.1" />
-                    <br />
-                    <img alt="python-factory-picture" class="img-fluid"
-                      src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
-                      style="width:25px !important;" />
-                    <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
-                  </div>
+          </p>
+          </div>
+          </div>
+          <div class="sub-div">
+            <div class="text-center">
+              <hr>
+              <br />
+              <div class="text-center" id="speakdiv">
+                <button id="speakbutt" class="btn btn-primary">Read</button>
+                <div id="setting">
+                  <br /><br />
+                  <img alt="python-factory-picture" class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                    style="width:25px !important;" />
+                  <input type="range" id="vol" min="0" max="1" step="0.1" />
+                  <br />
+                  <img alt="python-factory-picture" class="img-fluid"
+                    src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                    style="width:25px !important;" />
+                  <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
                 </div>
-                <br /><br />
-                <h1 class="display-6"><span id="tit">Dictionary</span><br id="lbbr"><span id="txt">Computer
-                    Science Lab
-                    (</span>CSL<span id="txt">)</span> 21</h1>
-                <br />
-                <hr>
               </div>
+              <br /><br />
+              <h1 class="display-6"><span id="tit">Dictionary</span><br id="lbbr"><span id="txt">Computer
+                  Science Lab
+                  (</span>CSL<span id="txt">)</span> 21</h1>
+              <br />
+              <hr>
+            </div>
 
         <br /><br /><br /><br />
 
@@ -126,12 +125,12 @@
               010-1234-5678, 14, James is the value.<br /><br />
 
               Note that we can put any kind of data type in the keys.
-              </p>
-              </div>
+            </p>
+            </div>
           <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/534b32664d" width="50%"
             height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
             style="margin:auto;" style="margin: auto;"></iframe>
-          </div>
+        </div>
 
         <br /><br /><br /><br />
 
@@ -149,7 +148,7 @@
                 }<br /><br />
 
                 print(list(mainDict.keys())) #dict_keys(["member1", "member2", "member3"])
-                </code>
+              </code>
 
               Running mainDict.keys() will return dict_keys instead of lists.<br /><br />
 
@@ -158,7 +157,7 @@
               We have to use list(mainDict.keys()) to make them into lists.
 
             </p>
-            </div>
+          </div>
           <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/1e671b6947" width="50%"
             height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:
           auto;"></iframe>
@@ -180,11 +179,11 @@
                 }<br /><br />
 
                 print(mainDict.values()) #dict_values("John", "Sam", "Maria")
-                </code>
+              </code>
 
               This method also returns dict_values so use list() to make them into lists.
-              </p>
-              </div>
+            </p>
+            </div>
           <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/05de91d4c2" width="50%"
             height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:
           auto;"></iframe>
@@ -199,7 +198,7 @@
         </div>
 
         <br /><br /><br /><br />
-        </div>
+      </div>
 
       <div class="text-center border border-dark rounded p-3 m-3">
         <h1>Solve This Quiz!!</h1>
@@ -235,24 +234,24 @@
           Answer</button>
 
         <br /><br /><br /><br />
-        </div>
-        <footer>
-          <div>
-            <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
+      </div>
+      <footer>
+        <div>
+          <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
           <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
           <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+        </div>
+        <br /><br />
+        <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
+        <br />
+        <div class="d-flex justify-content-center p-0 w-100">
+          <div>
+            <h1 class="display-6">Python-Factory © 2021</h1>
+            <p>"Where you make knowledge - Python Factory"</p>
           </div>
-          <br /><br />
-          <img alt="python-factory-picture" class="img-fluid" src="py.png" width="200px" />
-          <br />
-          <div class="d-flex justify-content-center p-0 w-100">
-            <div>
-              <h1 class="display-6">Python-Factory © 2021</h1>
-              <p>"Where you make knowledge - Python Factory"</p>
-            </div>
-          </div>
-          </footer>
-          </div>
+        </div>
+        </footer>
+        </div>
 
     <script defer src="script-en.js">
     </script>

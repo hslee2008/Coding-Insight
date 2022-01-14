@@ -26,47 +26,46 @@
   <div id="app">
     <div class="m-0 p-0" id="navigate">
       <ul>
-        <img alt="python-factory-picture" src="../../py.png" class="py-menu-image" width="50"
-          style="float: right; margin: 10px;">
-        <li><a href="https://coding-insight.com/index.html" id="home">홈</a></li>
+        <a href="www.coding-insight.com/index.html"><img alt="python-factory-picture" src="../../py.png"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
         <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
         <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
-        <li><a href="https://coding-insight.com/rust/korean/rust.html">Rust</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
         <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
         <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
         <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
         <li id="more">
           <p>더보기</p>
         </li>
-        </ul>
+      </ul>
       <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
         style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <c-pyfact-menu></c-pyfact-menu>
       </div>
-      <br /><br />
-      <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
-        <div id="menu">
-          <c-pyfact-menu></c-pyfact-menu>
-        </div>
-      </div>
-      <div>
-        <div class="norm-div" style="background-color:#002140;color:white;margin-top:50px;">
-          <div>
-            <h1>출력하기</h1>
-            <p>
-              출력한다는 것은 정보를 기계 스크린에 보여주는 작업을 뜻합니다.<br /><br />
+    </div>
+    <div>
+      <div class="norm-div" style="background-color:#002140;color:white;margin-top:50px;">
+        <div>
+          <h1>출력하기</h1>
+          <p>
+            출력한다는 것은 정보를 기계 스크린에 보여주는 작업을 뜻합니다.<br /><br />
 
             왜 출력이 필요한가요?<br /><br />
 
             출력을 사용하면 정보에 대하여 많은 것을 알 수 있기 때문에 코드에서의 문제, 정보, 에러 등 프로그램을 작성할 때 많은 도움이 됩니다.<br /><br />
 
             옆에 있는 이미지에서 printf()는 터미널에 어떤 문자열을 나타나게 합니다.
-            </p>
-            </div>
-            <div style="margin: auto;">
-              <iframe src="https://www.jdoodle.com/embed/v0/3VrZ" width="600px" height="300px"></iframe>
-            </div>
-            </div>
+          </p>
+          </div>
+          <div style="margin: auto;">
+            <iframe src="https://www.jdoodle.com/embed/v0/3VrZ" width="600px" height="300px"></iframe>
+          </div>
+          </div>
 
       <br /><br /><br /><br />
 
@@ -116,7 +115,7 @@
               &nbsp;printf("Hello World");<br />
               &nbsp;return 0;<br />
               }
-              </code>
+            </code>
 
             <h2>숫자 출력하기</h2>
 
@@ -135,12 +134,12 @@
             간단히 설명하자면, %d 대신 다른 숫자를 집어 넣기 위해서 이런 방법을 사용했습니다.<br /><br />
 
             그 이유는 '변수' 부분에서 배우겠습니다.
-            </p>
-            </div>
-            <div style="margin:auto;">
-              <iframe src="https://www.jdoodle.com/embed/v0/3Vs1" width="600px" height="900px"></iframe>
-            </div>
-            </div>
+          </p>
+          </div>
+          <div style="margin:auto;">
+            <iframe src="https://www.jdoodle.com/embed/v0/3Vs1" width="600px" height="900px"></iframe>
+          </div>
+          </div>
 
       <br /><br /><br /><br />
 
@@ -161,13 +160,13 @@
               &nbsp;putchar('H');<br />
               &nbsp;return 0;<br />
               }
-              </code>
-              </p>
-              </div>
-              <div style="margin:auto;">
-                <iframe src="https://www.jdoodle.com/embed/v0/3Vs3" width="700px" height="400px"></iframe>
-              </div>
-              </div>
+            </code>
+            </p>
+            </div>
+            <div style="margin:auto;">
+              <iframe src="https://www.jdoodle.com/embed/v0/3Vs3" width="700px" height="400px"></iframe>
+            </div>
+            </div>
 
       <br /><br /><br /><br />
 
@@ -190,10 +189,10 @@
               &nbsp;puts("Yeah");<br />
               &nbsp;return 0;<br />
               }
-              </code>
-              </p>
-              </div>
-              </div>
+            </code>
+            </p>
+            </div>
+            </div>
 
       <br /><br /><br /><br />
 
@@ -261,11 +260,11 @@
         <button id="checky" class="btn btn-dark"
           onclick='if (document.getElementById("question-1-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-D").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")};'>정답
           확인</button>
-        </div>
+      </div>
 
       <br /><br /><br /><br />
-      </div>
-      <pyfact-footer></pyfact-footer>
+    </div>
+    <pyfact-footer></pyfact-footer>
   </div>
   <script defer src="script.js"></script>
   <script src="../../component.js"></script>
