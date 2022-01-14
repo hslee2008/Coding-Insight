@@ -713,7 +713,5 @@ app.mount( "#app" );
 
 
 if ( "serviceWorker" in navigator ) {
-  navigator.serviceWorker.register( "/pwa/service_worker.js" ).then( function () {
-    console.log( "서비스 워커가 등록됨!" );
-  } );
+  navigator.serviceWorker.register( "/pwa/service_worker.js" )
 }
