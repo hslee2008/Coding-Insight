@@ -1,0 +1,54 @@
+{
+  "name": "Python-Factory 2",
+  "short_name": "Python-Factory",
+  "version": "2022.01.13",
+  "description": "Welcome to our site where you can learn programming languages easily!",
+  "dir": "rtl",
+  "categories": ["python", "programming", "coding-insight", "python-factory"],
+  "icons": [
+    {
+      "src": "/py.png",
+      "sizes": "309x304",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa/image.png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa/splash.png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Python (Korean)",
+      "url": "/python/korean/python.html",
+      "description": "Learn Python in Korean"
+    },
+    {
+      "name": "Python (English)",
+      "url": "/python/english/python-en.html",
+      "description": "Learn Python in English"
+    },
+    {
+      "name": "C/C++ (Korean)",
+      "url": "/c/korean/c.html",
+      "description": "Learn C and C++ in Korean"
+    },
+    {
+      "name": "Rust (Korean)",
+      "url": "/rust/korean/rust.html",
+      "description": "Learn Rust in Korean"
+    }
+  ],
+  "theme_color": "#20232a",
+  "background_color": "#20232a",
+  "display": "minimal-ui",
+  "scope": "./",
+  "start_url": "./index.html",
+  "prefer_related_applications": false,
+  "orientation": "portrait"
+}
