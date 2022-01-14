@@ -8,19 +8,19 @@
   "categories": ["python", "programming", "coding-insight", "python-factory"],
   "icons": [
     {
-      "src": "/favicon.ico",
+      "src": "./global/favicon.ico",
       "sizes": "309x304",
       "purpose": "any maskable"
     },
     {
-      "src": "/pwa/image.png",
+      "src": "./pwa/image.png",
       "sizes": "192x192",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "/pwa/splash.png",
+      "src": "./pwa/splash.png",
       "sizes": "512x512",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ],
   "shortcuts": [

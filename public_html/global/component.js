@@ -125,19 +125,19 @@
     return t
   } ) ) : O ? ( ( O.exports = t )._ = t, h._ = t ) : j._ = t
 } ).call( this );
-var checkHeader = _.throttle( () => {
-  Math.round( window.scrollY ) > 100 ?
-    document.querySelector( "#navigate" ).classList.add( "sticky" ) :
-    document.querySelector( "#navigate" ).classList.remove( "sticky" );
-}, 300 );
-window.addEventListener( "scroll", checkHeader );
+var checkHeader = _.throttle(() => {
+  Math.round(window.scrollY) > 100
+    ? document.querySelector("#navigate").classList.add("sticky")
+    : document.querySelector("#navigate").classList.remove("sticky");
+}, 300);
+window.addEventListener("scroll", checkHeader);
 // prettier-ignore
 
 //Vue.js
 const app = Vue.createApp( {} );
 
-app.component( "pyfact-footer", {
-      template: `
+app.component("pyfact-footer", {
+  template: `
     <footer>
       <div>
         <a class="btn btn-light" href="https://coding-insight.com/chat.html">질문하기</a>
@@ -155,7 +155,7 @@ app.component( "pyfact-footer", {
     `,
 });
 
-app.component( "pyfact-footer-en", {
+app.component("pyfact-footer-en", {
   template: `<footer>
         <div>
           <a class="btn btn-light" href="https://coding-insight.com/chat.html"
@@ -186,9 +186,9 @@ app.component( "pyfact-footer-en", {
           </div>
         </div>
       </footer>`,
-} );
+});
 
-app.component( "c-pyfact-menu", {
+app.component("c-pyfact-menu", {
   template: `
 
 <button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
@@ -304,9 +304,9 @@ app.component( "c-pyfact-menu", {
     <a href="akkllheader.html">(7) bits/stdc++.h</a>
   </p>
 </details>`,
-} );
+});
 
-app.component( "py-pyfact-menu", {
+app.component("py-pyfact-menu", {
   template: `
 
 <button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
@@ -493,9 +493,9 @@ app.component( "py-pyfact-menu", {
 </details>
 
 <br /> <br />`,
-} );
+});
 
-app.component( "py-pyfact-menu-en", {
+app.component("py-pyfact-menu-en", {
   template: `
     <button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
 
@@ -677,9 +677,9 @@ app.component( "py-pyfact-menu-en", {
 
 <br /> <br />
   `,
-} );
+});
 
-app.component( "rust-pyfact-menu", {
+app.component("rust-pyfact-menu", {
   template: `
     <button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
 
@@ -691,9 +691,9 @@ app.component( "rust-pyfact-menu", {
   </details>
 
   `,
-} );
+});
 
-app.component( "no-script", {
+app.component("no-script", {
   data() {
     return {
       showNoScript: true,
@@ -708,9 +708,22 @@ app.component( "no-script", {
       <button class="btn btn-primary" v-on:click="showNoScript = false">다시 보지 않기</button>
     </noscript>
   `,
-} );
+});
 
-app.mount( "#app" );
+app.mount("#app");
 
-if ( "serviceWorker" in navigator )
-  navigator.serviceWorker.register( "/pwa/service_worker.js" );
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("/service_worker.js").then(
+      function (registration) {
+        console.log(
+          "ServiceWorker registration successful with scope: ",
+          registration.scope
+        );
+      },
+      function (err) {
+        console.log("ServiceWorker registration failed: ", err);
+      }
+    );
+  });
+}
