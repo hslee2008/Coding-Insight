@@ -231,6 +231,11 @@ details {
   margin: 10px;
 }
 
+#app > .sub-div {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .header-div {
   padding: 30px;
   display: flex;

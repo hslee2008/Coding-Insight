@@ -1,3 +1,5 @@
+let message;
+
 const firebaseConfig = {
   apiKey: "AIzaSyBDZDp_ZA-5CItCIKZBmU4zSJ7BzBuoM4Q",
   authDomain: "pythonfac.firebaseapp.com",
@@ -5,52 +7,58 @@ const firebaseConfig = {
   storageBucket: "pythonfac.appspot.com",
   messagingSenderId: "245956452130",
   appId: "1:245956452130:web:d28acb7415e88605a24f7b",
-  measurementId: "G-YXL60PTGXW"
+  measurementId: "G-YXL60PTGXW",
 };
 
-firebase.initializeApp( firebaseConfig );
+firebase.initializeApp(firebaseConfig);
 //INIT
 
 //DATABASE
 const db = firebase.database();
 
-document.getElementById( "message-form" ).addEventListener( "submit", sendMessage );
+document.getElementById("message-form").addEventListener("submit", sendMessage);
 
 //Users
 var username;
 
-localStorage.getItem( "@@@usernamepythonfactory" ) !== null ? username = localStorage.getItem( "@@@usernamepythonfactory" ) : (
-  username = prompt( "채팅을 사용하깅 위해 이름을 입력하세요: " ),
-  localStorage.setItem( "@@@usernamepythonfactory", username )
-)
+localStorage.getItem("@@@usernamepythonfactory") !== null
+  ? (username = localStorage.getItem("@@@usernamepythonfactory"))
+  : ((username = prompt("채팅을 사용하깅 위해 이름을 입력하세요: ")),
+    localStorage.setItem("@@@usernamepythonfactory", username));
 //Users
-function sendMessage( e ) {
+function sendMessage(e) {
   e.preventDefault();
 
   const timestamp = Date.now();
-  const messageInput = document.getElementById( "message-input" );
+  const messageInput = document.getElementById("message-input");
   const message = messageInput.value;
 
   messageInput.value = "";
-  document
-    .getElementById( "messages" )
-    .scrollIntoView( {
-      behavior: "smooth",
-      block: "end",
-      inline: "nearest"
-    } );
+  document.getElementById("messages").scrollIntoView({
+    behavior: "smooth",
+    block: "end",
+    inline: "nearest",
+  });
 
-  db.ref( "messages/" + timestamp ).set( {
+  db.ref("messages/" + timestamp).set({
     username,
     message,
-  } );
+  });
 }
 
-const fetchChat = db.ref( "messages/" );
+const fetchChat = db.ref("messages/");
 
-fetchChat.on( "child_added", function ( snapshot ) {
+fetchChat.on("child_added", function (snapshot) {
   const messages = snapshot.val();
-  const message = `<li class=${ username === messages.username ? "sent" : "receive" }><span>${messages.username}:
-      </span>${messages.message}</li>`;
-  document.getElementById( "messages" ).innerHTML += message;
-} );
+
+  const app = Vue.createApp({});
+
+  app.component("messages-pyfact", {
+    template: `<li class=${
+      username === messages.username ? "sent" : "receive"
+    }><span>${messages.username}:
+      </span>${messages.message}</li>`,
+  });
+
+  app.mount("#messages");
+});
