@@ -1,16 +1,24 @@
 {
-  "name": "Python-Factory 2",
-  "short_name": "Python-Factory",
+  "name": "Python-Factory App 2",
+  "short_name": "Python-Factory (2)",
   "version": "2022.01.13",
   "description": "Welcome to our site where you can learn programming languages easily!",
   "dir": "rtl",
+  "id": "/index.html",
   "author": ["Hyunseung", "Juha", "Gun"],
   "categories": ["python", "programming", "coding-insight", "python-factory"],
+  "theme_color": "#20232a",
+  "background_color": "#20232a",
+  "display": "minimal-ui",
+  "scope": "./",
+  "start_url": "/index.html",
+  "prefer_related_applications": false,
+  "orientation": "portrait",
   "icons": [
     {
       "src": "./global/favicon.ico",
       "sizes": "309x304",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "./pwa/image.png",
@@ -20,36 +28,42 @@
     {
       "src": "./pwa/splash.png",
       "sizes": "512x512",
-      "purpose": "any"
+      "purpose": "any maskable"
     }
   ],
   "shortcuts": [
     {
       "name": "Python (Korean)",
+      "short_name": "Python [kr]",
       "url": "/python/korean/python.html",
-      "description": "Learn Python in Korean"
+      "description": "Learn Python in Korean",
+      "icons": [{ "src": "/global/icons8-python-96.png", "sizes": "96x96" }]
     },
     {
       "name": "Python (English)",
+      "short_name": "Python [en]",
       "url": "/python/english/python-en.html",
-      "description": "Learn Python in English"
+      "description": "Learn Python in English",
+      "icons": [{ "src": "/global/icons8-python-96.png", "sizes": "96x96" }]
     },
     {
       "name": "C/C++ (Korean)",
+      "short_name": "C/C++ [kr]",
       "url": "/c/korean/c.html",
-      "description": "Learn C and C++ in Korean"
+      "description": "Learn C and C++ in Korean",
+      "icons": [{ "src": "/global/icons8-c++-96.png", "sizes": "96x96" }]
     },
     {
       "name": "Rust (Korean)",
+      "short_name": "Rust [kr]",
       "url": "/rust/korean/rust.html",
-      "description": "Learn Rust in Korean"
+      "description": "Learn Rust in Korean",
+      "icons": [
+        {
+          "src": "/global/icons8-rust-is-a-multi-paradigm-system-programming-language-96.png",
+          "sizes": "96x96"
+        }
+      ]
     }
-  ],
-  "theme_color": "#20232a",
-  "background_color": "#20232a",
-  "display": "minimal-ui",
-  "scope": "./",
-  "start_url": "./index.html",
-  "prefer_related_applications": false,
-  "orientation": "portrait"
+  ]
 }
