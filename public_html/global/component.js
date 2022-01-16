@@ -147,7 +147,7 @@ app.component("pyfact-footer", {
       <br/><br/>
       <div class="d-flex justify-content-center p-0 w-100">
         <div>
-          <h1 class="display-6">Python-Factory © 2021</h1>
+          < h1 class = "display-6" > Python - Factory© 2022 < /h1>
           <p>"지식을 만드는 곳 - 파이썬 팩토리"</p>
         </div>
       </div>
@@ -180,7 +180,7 @@ app.component("pyfact-footer-en", {
           <br />
           <div class="d-flex justify-content-center p-0 w-100">
             <div>
-              <h1 class="display-6">Python-Factory © 2021</h1>
+              < h1 class = "display-6" > Python - Factory© 2022 < /h1>
               <p>"Where you make knowledge - Python Factory"</p>
             </div>
           </div>

@@ -43,4 +43,4 @@ To find the name of today, use '%A'.
 
 The month name such as June and January can be found with '%B'.
 
-Using "%Y", we can find the full year in yyyy format (e.g. 2021).
+Using "%Y", we can find the full year in yyyy format (e.g. 2022).

@@ -13,55 +13,31 @@ const aFilesToCache = [
 ];
 
 self.addEventListener("install", (pEvent) => {
+  console.log("서비스워커 설치함!");
   pEvent.waitUntil(
     caches.open(sCacheName).then((pCache) => {
+      console.log("파일을 캐시에 저장함!");
       return pCache.addAll(aFilesToCache);
     })
   );
 });
 
-addEventListener("fetch", function (event) {
-  event.respondWith(
-    caches.match(event.request).then(function (response) {
-      if (response) {
-        return response;
-      } else {
-        return fetch(event.request)
-          .then(function (res) {
-            return caches.open(CACHE_DYNAMIC_NAME).then(function (cache) {
-              cache.put(event.request.url, res.clone());
-              return res;
-            });
-          })
-          .catch(function (err) {
-            return caches
-              .open(CACHE_CONTAINING_ERROR_MESSAGES)
-              .then(function (cache) {
-                return cache.match("./index.html");
-              });
-          });
-      }
-    })
-  );
+self.addEventListener("activate", (pEvent) => {
+  console.log("서비스워커 동작 시작됨!");
 });
 
-if (typeof window !== "undefined") {
-  let deferredPrompt;
-
-  window.addEventListener("beforeinstallprompt", (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-    showInstallPromotion();
-  });
-
-  buttonInstall.addEventListener("click", async () => {
-    hideInstallPromotion();
-    deferredPrompt.prompt();
-    deferredPrompt = null;
-  });
-
-  window.addEventListener("appinstalled", () => {
-    hideInstallPromotion();
-    deferredPrompt = null;
-  });
-}
+self.addEventListener("fetch", (pEvent) => {
+  pEvent.respondWith(
+    caches
+      .match(pEvent.request)
+      .then((response) => {
+        if (!response) {
+          console.log("네트워크에서 데이터 요청!", pEvent.request);
+          return fetch(pEvent.request);
+        }
+        console.log("캐시에서 데이터 요청!", pEvent.request);
+        return response;
+      })
+      .catch((err) => console.log(err))
+  );
+});
