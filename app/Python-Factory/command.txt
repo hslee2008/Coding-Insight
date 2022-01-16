@@ -1,0 +1,2 @@
+npx @react-native-community/cli doctor
+expo fetch:android:keystore

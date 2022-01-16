@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#20232a" />
+  <meta name="description"
+    content="Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="/global/favicon.ico" type="image/png">
+  <link rel="apple-touch-icon" href="/global/favicon.ico" />
+  <link rel="manifest" href="/manifest.json">
+  <link hreflang="kr" rel="stylesheet" href="/global/style.css" />
+</head>
+
+<body class="m-0">
+  <div id="app">
+    <no-script></no-script>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <a href="https://coding-insight.com/index.html"><img alt="python-factory-picture" src="/global/favicon.ico"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
+        <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
+        <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+        <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <c-pyfact-menu></c-pyfact-menu>
+      </div>
+    </div>
+
+    <div style="padding:30px;display:flex;margin:30px;background-color: #ffee73;">
+      <div class="sub-div">
+        <h1>main() 함수란?</h1>
+        <p>
+          main() 함수는 C 언어에서 실행할 모든 코드를 담은 곳입니다.<br /><br />
+
+          지켜야 하는 규칙이 있습니다.<br /><br />
+
+          1. 꼭 이름이 main이어야 합니다. 대소문자 구별이 됩니다.<br />
+          2. return하는 값은 0이어야지만 실행이 됩니다.<br />
+          3. return이 숫자이니 main의 데이터 형태도 int이어야 합니다.
+        </p>
+      </div>
+      <div style="margin: auto;">
+        <img alt="python-factory-picture" class="img-fluid"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVtWFSGRUxMggLLNqG3lCfUkfN02VTaOkHw&usqp=CAU"
+          width="400px" />
+      </div>
+    </div>
+
+    <br /><br />
+
+    <div class="text-center">
+      <hr>
+      <br />
+      <div class="text-center" id="speakdiv">
+        <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+        <div id="setting">
+          <br /><br />
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width:25px !important;" />
+          <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br />
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width:25px !important;" />
+          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+        </div>
+      </div>
+      <br /><br />
+      <h1 class="display-6"><span id="tit">main 함수</span><br id="lbbr"><span id="txt">Computer
+          Science Lab
+          (</span>CSL<span id="txt">)</span> 29
+      </h1>
+      <br />
+      <hr>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div class="norm-div" style="background-color: beige">
+      <div class="sub-div">
+        <h1>main() 함수의 매개변수</h1>
+        <p>
+          main 함수도 매개변수가 있습니다.<br /><br />
+
+          우리가 만든 exe 파일을 실행할 때 'name.exe' 형태를 터미널에 입력해서 실행합니다.<br /><br />
+
+          이때 특별한 매개변수를 넣을 수 있습니다.<br /><br />
+
+          'name.exe' 다음에 몇가지 값을 넣으면 처음 main() 함수의 매개변수 안에 다 저장이 됩니다.<br /><br />
+
+          참고로 name.exe 다음에 나오는 값들은 ' '로 분리됩니다.<br /><br />
+
+          <code>
+            #include &lt;stdio.h><br /><br />
+
+            int main(int a, int b) {<br />
+            &nbsp;&nbsp;printf("%d", a + b);<br /><br />
+
+            &nbsp;&nbsp;return 0;<br />
+            }
+          </code>
+
+          그리고 다음과 같이 VSCode 터미널에 입력합니다.<br /><br />
+
+          <code>
+            a.exe 1 1
+          </code>
+
+          참고로 a.exe 대신 여러분의 파일명을 입력하세요. 아마도 a.exe일 것입니다.<br /><br />
+
+          파일 이름을 확인하기 위해서 VSCode의 파일을 열고(<kbd>ctrl+shift+e</kbd>) exe로 끝나는 파일을 찾습니다.
+        </p>
+      </div>
+      <div style="margin: auto;">
+        <iframe src="https://www.jdoodle.com/embed/v0/44gu" width="600" height="700"></iframe>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <div style="margin:20px;padding:20px;">
+      <button style="float:left;" class="btn btn-light"><a href="function.html">❮ 이전</a></button>
+      <button style="float:right;" class="btn btn-light"><a href="storageclass.html">다음 ❯</a></button>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <pyfact-footer></pyfact-footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer>
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js" defer></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script defer src="script.js"></script>
+  <script src="/global/component.js" defer></script>
+</body>
+
+</html>

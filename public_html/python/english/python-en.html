@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#20232a" />
+  <meta name="description"
+    content="Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coding Insight</title>
+  <link hreflang="en" rel="icon" href="/global/favicon.ico" type="image/png" />
+  <link rel="apple-touch-icon" href="/global/favicon.ico" />
+  <link rel="manifest" href="/manifest.json">
+  <link hreflang="en" rel="stylesheet" href="/global/style.css" />
+</head>
+
+<body class="m-0">
+  <div id="app">
+    <no-script></no-script>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <a href="https://coding-insight.com/index-en.html"><img alt="python-factory-picture" src="/global/favicon.ico"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
+        <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
+        <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
+        <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a></li>
+        <li style="float:right;">
+          <a href="https://coding-insight.com/python/korean/python.html" id="trans" style="color: white">한국어</a>
+        </li>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu-en></py-pyfact-menu-en>
+      </div>
+    </div>
+
+    <div>
+      <div class="sub-div">
+        <div style="display: flex; background-color: black; color: white">
+          <div>
+            <img alt="python-factory-picture" class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU" />
+          </div>
+          <div style="margin: auto; padding: 50px">
+            <p>
+              Have you ever heard of the word Python?<br /><br />
+
+              If you are thinking about a type of snake named Python, then you
+              are incorrect.<br /><br />
+
+              It is not a snake we will be learning today, it is PROGRAMMING!
+            </p>
+          </div>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div class="text-center">
+          <hr />
+          <br />
+          <div class="text-center" id="speakdiv">
+            <button id="speakbutt" class="btn btn-primary">Read</button>
+            <div id="setting">
+              <br /><br />
+              <img alt="python-factory-picture" class="img-fluid"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width: 25px !important" />
+              <input type="range" id="vol" min="0" max="1" step="0.1" />
+              <br />
+              <img alt="python-factory-picture" class="img-fluid"
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width: 25px !important" />
+              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
+          </div>
+          <br /><br />
+          <h1 class="display-6">
+            <span id="tit">The Definition of Python</span><br id="lbbr" /><span id="txt">Computer Science Lab
+              (</span>CSL<span id="txt">)</span> 1
+          </h1>
+          <br />
+          <hr />
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div style="
+            display: flex;
+            background-color: #4592c6;
+            color: white;
+            padding: 20px;
+          ">
+          <div>
+            <div class="d-flex justify-content-center align-items-center w-100" style="height: 70px;">
+              <h1>The definition of Programming</h1>
+            </div>
+            <div>
+              <p>
+                Programming is a 'language' between machines and humans.<br /><br />
+
+                Similar to people from the U.S. speaking their own language,
+                machines have their clever and unique way of communicating.<br /><br />
+
+                It is very important that mechanics are efficient. To make this
+                possible, humans invented another language called BINARY CODE
+                which is all 0s and 1s. With only 2 possible outcome of a single
+                digit, there is less chance of errors and the core can read the
+                command faster than 0s and 1s and 2s.<br /><br />
+
+                Programming language is here to help us as a guide between human
+                and mechanics world as it is very hard for humans to speak 0s
+                and 1s and impossible for computers to learn sophisticated human
+                languages.
+              </p>
+            </div>
+          </div>
+          <div class="text-center m-auto">
+            <img alt="python-factory-picture" class="img-fluid"
+              src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg" height="auto"
+              width="300px" id="programming-pick" />
+          </div>
+        </div>
+
+        <br /><br />
+
+        <div class="d-flex justify-content-center align-items-center w-100" style="height: 70px;">
+          <h1>What can you do with Python?</h1>
+        </div>
+        <div>
+          <p>
+            What is the benefits of learning Python?<br /><br />
+
+            Firstly, Python is very easy to learn. If you are new to programming
+            languages, you can get started right now with Python in our
+            website!<br /><br />
+
+            Secondly, we can use Python for many needs and jobs. Python is very
+            flexible and we can use them in many situations. For example, if we
+            are collecting datas from weather reports, we can store that in a
+            file. Then, we can draw graphs and make calculation automatically
+            using Python. We will learn how to do this in MATPLOTLIB part.<br /><br />
+
+            There are many more reasons to learn Python but we will cut here as
+            the two above is the most unique thing about Python.
+          </p>
+        </div>
+
+        <br /><br />
+
+        <div style="display: flex; background-color: #bce5b6; padding: 20px">
+          <div>
+            <div class="d-flex justify-content-center align-items-center w-100" style="height: 70px;">
+              <h1>Where did the name 'Python' come from?</h1>
+            </div>
+            <p>
+              Python is made by Guido Van Rossum.<br /><br />
+
+              While thinking about the new name of his programming language,
+              Rossum had been watching a comedy show by Monty Python. He named
+              his language after the last name of the main actor.<br /><br />
+
+              The programming language's name 'Python' does not come from the
+              snake.<br /><br />
+
+              If you had been Rossum, about to name the new programming language
+              that will change the world, what would you have named it?
+            </p>
+          </div>
+          <div class="text-center m-auto">
+            <img alt="python-factory-picture" class="img-fluid"
+              src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZiTWokV_L9TfhhN0MhRTK-VxLsQGmhd5Are01xE7esIWHrzpn"
+              width="210.5px" height="280.75px" />
+          </div>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div style="display: flex; background-color: #2c2c32; color: white">
+          <div class="text-center m-auto">
+            <img alt="python-factory-picture" class="img-fluid"
+              src="data:image/png;base64,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" />
+          </div>
+          <div style="margin: auto">
+            <h1>Learning Python from this site</h1>
+            <p>
+              This site is for people who are new to the concept of
+              programming.<br /><br />
+
+              "Where you make KNOWLEDGE"
+            </p>
+          </div>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div style="margin: 20px; padding: 20px">
+          <button style="float: right" class="btn btn-light">
+            <a href="install-en.html">Next ❯</a>
+          </button>
+        </div>
+
+        <br /><br /><br /><br />
+      </div>
+      <footer>
+        <div>
+          <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
+          <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
+          <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+        </div>
+        <br /><br />
+        <img alt="python-factory-picture" class="img-fluid" src="/global/favicon.ico" width="200px" />
+        <br />
+        <div class="d-flex justify-content-center p-0 w-100">
+          <div>
+            <h1 class="display-6">Python-Factory © 2022</h1>
+            <p>"Where you make knowledge - Python Factory"</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer>
+    </script>
+    <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js" defer></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+    <script defer src="script.js"></script>
+    <script src="/global/component.js" defer></script>
+    </body>
+
+</html>

@@ -1,0 +1,297 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 5px 10px 5px #636363;
+  z-index: 100;
+}
+
+img:not(.py-menu-image) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#menu-close-button {
+  display: none;
+}
+
+#navigate {
+  display: flex;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+body > #app > div > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#more {
+  color: black;
+  display: none;
+}
+
+li {
+  float: right;
+  align-content: center;
+}
+
+li a,
+li p {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+li p {
+  margin: 3px;
+}
+
+button {
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #111;
+  color: black;
+  cursor: pointer;
+}
+
+button > a {
+  color: black !important;
+  margin: 30px;
+  text-decoration: none;
+}
+
+p > a {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  margin: 3px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+  }
+
+  button:not(#butty) {
+    padding: 5px !important;
+    font-size: 10px !important;
+    margin: 5px !important;
+  }
+
+  div:not(#menu):not(.alert):not(#navigate):not(#introduct):not(#setting):not(#app) {
+    display: block !important;
+    margin: 3px !important;
+    padding: 3px !important;
+  }
+
+  iframe:not(#vid) {
+    margin: auto !important;
+    width: 100%;
+    height: 400px;
+  }
+
+  #vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  #py {
+    padding: 20px !important;
+    margin: 10px !important;
+  }
+
+  #main {
+    padding: 10px !important;
+    margin-top: 30px !important;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+
+  ul > li {
+    font-size: 10px !important;
+  }
+
+  button {
+    border-radius: 5px !important;
+  }
+
+  #txt {
+    display: none;
+  }
+
+  img:not(.py-menu-image) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px !important;
+  }
+
+  .py-menu-image {
+    display: none;
+  }
+
+  #lbbr {
+    display: block;
+  }
+
+  #menu-close-button {
+    display: block;
+  }
+}
+
+ul {
+  z-index: 10;
+}
+
+#men > a {
+  margin: 5px;
+}
+
+#menu {
+  position: absolute;
+  background-color: white;
+  overflow: auto;
+  padding: 50px;
+  top: 50px;
+  list-style-type: none;
+  z-index: 10;
+}
+
+#menu > details > p > a {
+  display: list-item;
+}
+
+code {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid dodgerblue;
+  color: black;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+
+div:has(iframe) {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+details {
+  cursor: pointer;
+}
+
+/*Custom*/
+.norm-div {
+  padding: 30px;
+  display: flex;
+}
+
+.sub-div {
+  padding: 10px;
+  margin: 10px;
+}
+
+#app > .sub-div {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.header-div {
+  padding: 30px;
+  display: flex;
+  margin: 30px;
+}
+
+.newline-div {
+  padding: 30px;
+  margin: 30px;
+}
+
+.inner-div {
+  padding: 10px;
+}
+
+.menu-div {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.color-contrast-div {
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+/*Custom*/
+
+footer {
+  background-image: url(https://developers.redhat.com/sites/default/files/styles/share/public/blog/2019/05/RHEL-python-1569314-pixabay.jpg?itok=3_MmlSKn);
+  background-attachment: fixed;
+  background-repeat: none;
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+/*Custom*/
+
+@media only screen and (max-width: 700px) {
+  #quiz,
+  #feedback,
+  #video {
+    display: none;
+  }
+
+  #more {
+    display: block;
+  }
+}
+
+#setting {
+  display: none;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#20232a" />
+  <meta name="description"
+    content="Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="/global/favicon.ico" type="image/png" />
+  <link rel="apple-touch-icon" href="/global/favicon.ico" />
+  <link rel="manifest" href="/manifest.json">
+  <link hreflang="kr" rel="stylesheet" href="style.css" />
+</head>
+
+<body class="m-0">
+  <div id="app">
+    <no-script></no-script>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <a href="https://coding-insight.com/index.html"><img alt="python-factory-picture" src="/global/favicon.ico"
+            class="py-menu-image" width="50" style="float: right; margin: 10px" /></a>
+        <li>
+          <a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a>
+        </li>
+        <li>
+          <a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a>
+        </li>
+        <li>
+          <a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a>
+        </li>
+        <li>
+          <a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a>
+        </li>
+        <li>
+          <a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a>
+        </li>
+        <li>
+          <a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a>
+        </li>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important">
+        ☰
+      </button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto" id="demo">
+      <div id="menu">
+        <c-pyfact-menu></c-pyfact-menu>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <hr />
+      <br />
+      <div class="text-center" id="speakdiv">
+        <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+        <div id="setting">
+          <br /><br />
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width: 25px !important" />
+          <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br />
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width: 25px !important" />
+          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+        </div>
+      </div>
+      <br /><br />
+      <h1 class="display-6">
+        <span id="tit">Continue, Break, Goto 문</span><br id="lbbr" /><span id="txt">Computer Science Lab
+          (</span>CSL<span id="txt">)</span> 23
+      </h1>
+      <br />
+      <hr />
+      </div>
+
+    <br /><br /><br /><br />
+
+    <div class="header-div">
+      <div class="sub-div">
+        <h1>break</h1>
+        <p>
+          break란 반복문에서 빠져 나오는 코드입니다.<br /><br />
+
+          언제 정확히 어디에서 코드를 끊을지 설정할 수 있는 키워드르 매우
+          유용합니다.<br /><br />
+
+          예를 들면, 0에서 9까지 반복하며 그 값을 출력할 것입니다. 하지만
+          저번과는 조금 다르게 5에서 끊겠습니다.
+        </p>
+      </div>
+      <div style="margin: auto">
+        <img alt="python-factory-picture" class="img-fluid"
+          src="https://cdn.educba.com/academy/wp-content/uploads/2019/10/flow-chart-of-break-statementDone.jpg"
+          width="200px" />
+      </div>
+    </div>
+    <div class="text-center">
+      <iframe src="https://www.jdoodle.com/embed/v0/3YMb" width="80%" height="400px" style="margin: 60px"></iframe>
+    </div>
+
+    <br /><br />
+
+    <div style="
+          padding: 30px;
+          margin: 30px;
+          background-color: #000000;
+          color: white;
+        ">
+      <div class="sub-div">
+        <h1>continue</h1>
+        <p>
+          continue라는 제어문은 다음 값으로 변수를 넘어가게 만듭니다.<br /><br />
+
+          예를 들면, 0에서 9까지 반복하고 4번은 출력하지 않겠습니다.
+        </p>
+      </div>
+      <div style="margin: auto">
+        <iframe src="https://www.jdoodle.com/embed/v0/3YMd" width="100%" height="300px"></iframe>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <div class="header-div">
+      <div class="sub-div">
+        <h1>goto</h1>
+        <p>
+          goto라는 키워드는 어떤 코드를 만들고 반복문에서 바로 그 코드로
+          넘어가는 키워드입니다.<br /><br />
+
+          하지만 이 키워드를 사용한다면 C의 반복문을 복잡하게 하거나 망칠 수
+          있으니 break를 사용하세요.<br /><br />
+
+          예를 들면, a의 값이 15라면 바로 넘어가겠습니다.
+        </p>
+      </div>
+      <div style="margin: auto">
+        <img alt="python-factory-picture" class="img-fluid"
+          src="data:image/png;base64,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"
+          width="200px" />
+      </div>
+    </div>
+    <div class="text-center">
+      <iframe src="https://www.jdoodle.com/embed/v0/3YMe" width="80%" height="400px" style="margin: 60px"></iframe>
+    </div>
+
+    <br /><br />
+
+    <div style="margin: 20px; padding: 20px">
+      <button style="float: left" class="btn btn-light">
+        <a href="inffor.html">❮ 이전</a>
+      </button>
+      <button style="float: right" class="btn btn-light">
+        <a href="array.html">다음 ❯</a>
+      </button>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <pyfact-footer></pyfact-footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer>
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js" defer></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script defer src="script.js"></script>
+  <script src="/global/component.js" defer></script>
+</body>
+
+</html>

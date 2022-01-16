@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#20232a" />
+  <meta name="description"
+    content="Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!">
+  <meta name="keywords" content="python, programming, coding-insight, python-factory">
+  <meta name="author" content="Hyunseung, Juha, Gun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Insight</title>
+  <link hreflang="en" rel="icon" href="/global/favicon.ico" type="image/png">
+  <link hreflang="en" rel="stylesheet" href="/global/style.css" />
+</head>
+
+<body class="m-0">
+  <div id="app">
+    <no-script></no-script>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <a href="https://coding-insight.com/index-en.html"><img alt="python-factory-picture" src="/global/favicon.ico"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
+        <li><a href="https://coding-insight.com/python/english/python-en.html" id="python">Python</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
+        <li><a href="https://coding-insight.com/python/english/quiz-en.html" id="quiz">Quiz</a></li>
+        <li><a href="https://forms.gle/PHbjBnzuT3YdG5j37" id="feedback">Feedback</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">Video</a>
+        </li>
+        <li style="float:right;"><a href="https://coding-insight.com/python/korean/dundermethod.html" id="trans"
+            style="color:white;">한국어</a>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu-en></py-pyfact-menu-en>
+      </div>
+    </div>
+    <div class="norm-div">
+      <div class="sub-div">
+        <h1>What is dunder?</h1>
+        <p>
+          In Context Manager, we learned about __exit__() and __enter__() method.<br /><br />
+
+          These are called dunder method.<br /><br />
+
+          Methods that starts with __ and __ is called dunder method (a.k.a. magic method)
+        </p>
+      </div>
+      <div style='margin:auto;'>
+        <img alt="python-factory-picture" class="img-fluid"
+          src="https://media.istockphoto.com/vectors/magic-wand-line-icon-vector-id1164851035?k=6&m=1164851035&s=612x612&w=0&h=ihapeRsHBDDFTTa7CxId_I5ExnbGrJug8aQEVOOviW4="
+          width="300px" />
+      </div>
+    </div>
+  </div>
+
+  <div class="sub-div">
+    <div class="text-center">
+      <hr>
+      <br />
+      <div class="text-center" id="speakdiv">
+        <button id="speakbutt" class="btn btn-primary">Read</button>
+        <div id="setting">
+          <br /><br />
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+            style="width:25px !important;" />
+          <input type="range" id="vol" min="0" max="1" step="0.1" />
+          <br />
+          <img alt="python-factory-picture" class="img-fluid"
+            src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+            style="width:25px !important;" />
+          <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+        </div>
+      </div>
+      <br /><br />
+      <h1 class="display-6"><span id="tit">Dunder Method</span><br id="lbbr"><span id="txt">Computer
+          Science Lab
+          (</span>CSL<span id="txt">)</span>
+        80</h1>
+      <br />
+      <hr>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div style="display:flex; padding:30px;background-color: #ffffff; color: black;">
+      <div class="sub-div">
+        <h1>__str__() and __repr__()</h1>
+        <p>
+          Let's first make a class that does nothing and has nothing.<br /><br />
+
+          <code>
+            class Person:<br />
+            &nbsp;pass<br /><br />
+
+            a = Person()
+          </code>
+
+          Now, let's try printing 'a' or Person().<br /><br />
+
+          <code>
+            print(a)
+          </code>
+
+          We just get a weird string that we cannot understand.<br /><br />
+
+          However, when we print this way, we can specify what to return instead of the weird string we saw
+          earlier.<br /><br />
+
+          <code>
+            class Person:<br />
+            &nbsp;def __init__(self, name):<br />
+            &nbsp;&nbsp;self.name = name<br /><br />
+
+            &nbsp;def __str__(self):<br />
+            &nbsp;&nbsp;return "A person named " + self.name
+          </code>
+
+          Now, if we make a Person() class and print that, we get 'A person named yourname'.<br /><br />
+
+          Furthermore, using repr() on that class will return a specific object inside the __repr__() dunder
+          method.<br /><br />
+
+          <code>
+            class Person:<br />
+            &nbsp;def __init__(self, name):<br />
+            &nbsp;&nbsp;self.name = name<br /><br />
+
+            &nbsp;def __str__(self):<br />
+            &nbsp;&nbsp;return "__str__"<br /><br />
+
+            &nbsp;def __repr__(self):<br />
+            &nbsp;&nbsp;return "__repr__"
+          </code>
+        </p>
+      </div>
+      <img alt="python-factory-picture" class="img-fluid"
+        src="data:image/png;base64,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" />
+      </div>
+    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/f4dfd29f8c" width="100%" height="356"
+      frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+
+    <br /><br /><br /><br />
+
+    <div style="display:flex; padding:30px;background-color: #9dcfb0; color: black;">
+      <div class="sub-div">
+        <h1>__del__()</h1>
+        <p>
+          We can even delete the class by using 'del' keyword and when we do that, we can run a specific code.
+        </p>
+      </div>
+    </div>
+    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/3c64d6b06e" width="100%" height="356"
+      frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+
+    <br /><br /><br /><br />
+
+    <div class="norm-div" style="background-color: #8cdae7; color: black;">
+      <div class="sub-div">
+        <h1>__new__()</h1>
+        <p>
+          When a class is amde, we can run a specific code inside __new__().<br /><br />
+
+          "I am created by you!" is printed.
+        </p>
+      </div>
+    </div>
+    <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/5505e2e889" width="100%" height="356"
+      frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+
+    <br /><br /><br /><br />
+
+    <div style="margin:20px;padding:20px;">
+      <button style="float:left;" class="btn btn-light"><a href="requestmethod-en.html">❮
+          Previous</a></button>
+      <button style="float:right;" class="btn btn-light"><a href="additionaldundermethod-en.html">Next
+          ❯</button>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <br /><br /><br /><br />
+
+  <footer>
+    <div>
+      <a class="btn btn-light" href="https://coding-insight.com/chat.html">Questions</a>
+      <a class="btn btn-light" href="https://github.com/HyunseungLee-Travis/Python-Factory">Team</a>
+      <a class="btn btn-light" href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA">YouTube</a>
+    </div>
+    <br /><br />
+    <img alt="python-factory-picture" class="img-fluid" src="/global/favicon.ico" width="200px" />
+    <br />
+    <div class="d-flex justify-content-center p-0 w-100">
+      <div>
+        <h1 class="display-6">Python-Factory © 2022</h1>
+        <p>"Where you make knowledge - Python Factory"</p>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer>
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js" defer></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script defer src="script.js"></script>
+  <script src="/global/component.js" defer></script>
+</body>
+
+</html>

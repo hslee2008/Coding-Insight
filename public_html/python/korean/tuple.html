@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#20232a" />
+  <meta name="description"
+    content="Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="/global/favicon.ico" type="image/png" />
+  <link rel="apple-touch-icon" href="/global/favicon.ico" />
+  <link rel="manifest" href="/manifest.json">
+  <link hreflang="kr" rel="stylesheet" href="/global/style.css" />
+</head>
+
+<body class="m-0">
+  <div id="app">
+    <no-script></no-script>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <a href="https://coding-insight.com/index.html"><img alt="python-factory-picture" src="/global/favicon.ico"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
+        <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
+        <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+        <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+        <li style="float:right;">
+          <a href="https://coding-insight.com/python/english/tuple-en.html" id="trans">English</a>
+        </li>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="sub-div">
+      <div class="sub-div">
+        <div class="norm-div" style=" background-color: #02081e; color: white; margin-top: 50px;">
+          <div class="sub-div">
+            <h1>튜플이란?</h1>
+            <p>
+              튜플이란 리스트와 같지만 안에 있는 값을 바꿀 수 없는 데이터의
+              형태를 뜻합니다.<br /><br />
+
+              리스트에서는 인덱싱을 사용하여 새로운 값으로 바꿀 수 있지만
+              튜플에서는 못합니다.<br /><br />
+
+              그래서 파이썬 프로그램을 짜는데 절대로 사용자가 바꾸면 안 되는
+              데이터들(예: 점수, 시험 성적, ...)을 튜플 안에 저장할 수
+              있습니다.<br /><br />
+
+              튜플에서는 대괄호[] 대신 소괄호()를 사용합니다. CODE1에서
+              확인하겠습니다.<br /><br />
+
+              CODE2와 같이 강제로 바꾸려 한다면 에러가 출력됩니다.<br /><br />
+
+              CODE3와 같이 파이썬에서 신기하게도 () 없이도 튜플이라고 인식할 수
+              있는 기능이 있습니다.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/069924886e" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"
+            style="margin: auto"></iframe>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div class="text-center">
+          <hr />
+          <br />
+          <div class="text-center" id="speakdiv">
+            <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+            <div id="setting">
+              <br /><br />
+              <img alt="python-factory-picture" class="img-fluid"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width: 25px !important" />
+              <input type="range" id="vol" min="0" max="1" step="0.1" />
+              <br />
+              <img alt="python-factory-picture" class="img-fluid"
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width: 25px !important" />
+              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
+          </div>
+          <br /><br />
+          <h1 class="display-6">
+            <span id="tit">튜플</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+              id="txt">)</span>
+            23
+          </h1>
+          <br />
+          <hr />
+        </div>
+
+        <br /><br />
+
+        <div class="text-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iIUhChzGajA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <br /><br />
+
+        <div class="color-contrast-div">
+          <div class="sub-div">
+            <h1>튜플 풀기</h1>
+            <p>CODE1과 같이 튜플을 만들고 상자같이 풀 수 있습니다.</p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/8c81ff1498" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div class="text-center">
+          <div class="sub-div">
+            <h1>튜플 길이 지정하기</h1>
+            <p>
+              파이썬에서는 튜플의 길이를 미리 지정하여 나중에 실수로 값을 더하는
+              행위를 막을 수 있습니다.<br /><br />
+
+              마지막에 ','를 넣어 다시는 값을 원하지 않는다고 파이썬에게
+              알려주는 것이 가능합니다.<br /><br />
+
+              <code>
+                a = 1, 2,<br />
+                b = 3,
+              </code>
+            </p>
+            <iframe src="https://trinket.io/embed/python3/0cc2f9e56d" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div class="norm-div">
+          <div class="sub-div">
+            <h1>zip()</h1>
+            <p>
+              zip이란 우리가 지퍼를 올려서 닫는 것을 뜻합니다.<br /><br />
+
+              파이썬에서 튜플을 지퍼처럼 서로 묶을 수 있습니다.<br /><br />
+
+              zipped 함수를 사용했지만 실제로 튜플을 보기 위하여 tuple() 함수를
+              사용해야 합니다.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/1af130ab47" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div class="text-center">
+          <h3>
+            print( zip( (1, 2, 3), ("1", "2", "3") ) ) 코드를 실행하면 출력되는
+            값은?
+          </h3>
+
+          <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+            <label for="question-2-answers-A">A) ((1, '1'), (2, '2'), (3, '3'))
+            </label>
+          </div>
+
+          <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+            <label for="question-2-answers-B">B) (('1', 1), ('2', 2), ('3', 3))
+            </label>
+          </div>
+
+          <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+            <label for="question-2-answers-C">C) None </label>
+          </div>
+
+          <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+            <label for="question-2-answers-D">D) 다른 정답 </label>
+          </div>
+
+          <br /><br />
+
+          <button id="checky" class="btn btn-dark"
+            onclick='if (document.getElementById("question-2-answers-D").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")};'>
+            정답 확인
+          </button>
+        </div>
+
+        <div style="margin: 20px; padding: 20px">
+          <button style="float: left" class="btn btn-light">
+            <a href="dictionarymethod.html">❮ 이전</a>
+          </button>
+          <button style="float: right" class="btn btn-light"><a href="set.html">다음 ❯</a></button>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <pyfact-footer></pyfact-footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer>
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js" defer></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script defer src="script.js"></script>
+  <script src="/global/component.js" defer></script>
+</body>
+
+</html>

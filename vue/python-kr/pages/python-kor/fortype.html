@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#20232a" />
+  <meta name="description"
+    content="Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="/global/favicon.ico" type="image/png" />
+  <link rel="apple-touch-icon" href="/global/favicon.ico" />
+  <link rel="manifest" href="/manifest.json">
+  <link hreflang="kr" rel="stylesheet" href="/global/style.css" />
+  <style>
+    #img {
+      animation: 3s ease-in 1s infinite reverse both running circle;
+    }
+
+    @keyframes circle {
+      from {}
+
+      to {
+        transform: rotate(180deg);
+      }
+    }
+  </style>
+</head>
+
+<body class="m-0">
+  <div id="app">
+    <no-script></no-script>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <a href="https://coding-insight.com/index.html"><img alt="python-factory-picture" src="/global/favicon.ico"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
+        <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
+        <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+        <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+        <li style="float:right;">
+          <a href="https://coding-insight.com/python/english/fortype-en.html" id="trans">English</a>
+        </li>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
+      </div>
+    </div>
+  </div>
+
+  <br /><br />
+  <div>
+    <div class="sub-div">
+      <div class="text-center">
+        <hr />
+        <br />
+        <div class="text-center" id="speakdiv">
+          <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+          <div id="setting">
+            <br /><br />
+            <img alt="python-factory-picture" class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+              style="width: 25px !important" />
+            <input type="range" id="vol" min="0" max="1" step="0.1" />
+            <br />
+            <img alt="python-factory-picture" class="img-fluid"
+              src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+              style="width: 25px !important" />
+            <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+          </div>
+        </div>
+        <br /><br />
+        <h1 class="display-6">
+          <span id="tit">for 반복문 종류</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+            id="txt">)</span> 35
+        </h1>
+        <br />
+        <hr />
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div class="color-contrast-div">
+        <div class="sub-div">
+          <h1>Iterable</h1>
+          <p>
+            for 반복문을 사용하여 리스트에 있는 아이템을 순환하며 하나씩
+            선택하여 사용할 수 있습니다.<br /><br />
+
+            이런 순환이 가능한 변수를 Iterable(이-터-러-블)이라고 합니다.<br /><br />
+
+            옆에 있는 CODE1은 이터러블을 사용한 for 문의 예시입니다.<br /><br /><br /><br />
+
+            CODE2는 for 반복문을 줄인 코드입니다.<br /><br />
+
+            [x for x in range(3)]는 [0, 1, 2]와 같습니다. 첫 번째 있는 값은 각
+            아이템의 값이고 첫 번째 다음에는 for 반복문 형태와 같습니다.<br /><br />
+
+            리스트 안에 for 반복문 코드가 있습니다.<br /><br />
+
+            for 키워드 전에는 돌려주는 값이고 그다음은 원래 for 반복문 형태와
+            같습니다.
+          </p>
+        </div>
+        <iframe src="https://trinket.io/embed/python3/a532b0eef6" width="100%" height="356" frameborder="0"
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"
+          style="margin: auto"></iframe>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div class="norm-div">
+          <div class="inner-div">
+            <h1>Generator</h1>
+            <p>
+              Generator(제너레이터)는 이터러블과 같다고 할 수 있습니다.<br /><br />
+
+              하지만 데이터(예: 튜플)를 만든 후 바로 삭제를 합니다.<br /><br />
+
+              myList를 사용해서 for 반복문을 다시 실행할 수 없습니다.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/c87eacfde8" width="50%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div>
+        <div class="norm-div">
+          <div class="inner-div">
+            <h1>YIELD</h1>
+            <p>
+              Yield는 return과 비슷한 기능을 가지고 있습니다.<br /><br />
+
+              Yield를 사용하면 매우 효율적이게 작업을 처리할 수 있습니다.<br /><br />
+
+              1. 먼저, 제너레이터 함수를 만듭니다.<br />
+              2. 다음에 제너레이터 함수 안에 for 반복문을 넣은 후 yield
+              키워드를 사용하여 제너레이터 함수를 사용할 때 되돌려지는
+              리스트를 만듭니다.<br />
+              3. 변수 안에 되돌려지는 리스트를 만듭니다.<br />
+              4. for 반복문을 만듭니다.
+            </p>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/c9ce2cddc8" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <br /><br /><br /><br />
+    <div style="margin: 20px; padding: 20px">
+      <button style="float: left" class="btn btn-light"><a href="for.html">❮ 이전</a></button>
+      <button style="float: right" class="btn btn-light">
+        <a href="forfunction.html">다음 ❯</a>
+      </button>
+    </div>
+  </div>
+
+  <br /><br /><br /><br />
+
+  <pyfact-footer></pyfact-footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer>
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js" defer></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script defer src="script.js"></script>
+  <script src="/global/component.js" defer></script>
+</body>
+
+</html>

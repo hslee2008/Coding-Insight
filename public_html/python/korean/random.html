@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#20232a" />
+  <meta name="description"
+    content="Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!" />
+  <meta name="keywords" content="python, programming, coding-insight, python-factory" />
+  <meta name="author" content="Hyunseung, Juha, Gun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩 인사이트</title>
+  <link hreflang="kr" rel="icon" href="/global/favicon.ico" type="image/png" />
+  <link rel="apple-touch-icon" href="/global/favicon.ico" />
+  <link rel="manifest" href="/manifest.json">
+  <link hreflang="kr" rel="stylesheet" href="/global/style.css" />
+</head>
+
+<body class="m-0">
+  <div id="app">
+    <no-script></no-script>
+    <div class="m-0 p-0" id="navigate">
+      <ul>
+        <a href="https://coding-insight.com/index.html"><img alt="python-factory-picture" src="/global/favicon.ico"
+            class="py-menu-image" width="50" style="float: right; margin: 10px;"></a>
+        <li><a href="https://coding-insight.com/python/korean/python.html" id="python">파이썬</a></li>
+        <li><a href="https://coding-insight.com/c-cpp/korean/c.html" id="clang">C/C++</a></li>
+        <li><a href="https://coding-insight.com/rust/korean/rust.html" id="rust">Rust</a></li>
+        <li><a href="https://coding-insight.com/python/korean/quiz.html" id="quiz">퀴즈</a></li>
+        <li><a href="https://forms.gle/46giCXG3Y7spbm21A" id="feedback">설문조사</a></li>
+        <li><a href="https://coding-insight.com/python/korean/video.html" id="video">동영상</a></li>
+        <li style="float:right;">
+          <a href="https://coding-insight.com/python/english/random-en.html" id="trans">English</a>
+        </li>
+      </ul>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        style="width: 7vw; margin: 8px; font-size: 20px !important;">☰</button>
+    </div>
+    <br /><br />
+    <div class="offcanvas offcanvas-start" style="overflow: auto;" id="demo">
+      <div id="menu">
+        <py-pyfact-menu></py-pyfact-menu>
+      </div>
+    </div>
+    <div class="norm-div m-5" style="margin-top: 50px; background-color: #20acda;">
+      <div class="sub-div">
+        <h1>무작위의 정의</h1>
+        <p>
+          우리는 살면서 '무작위'라는 단어를 많이 접했습니다.<br /><br />
+
+          이 두 단어는 규칙 없이 아무거나 선택하는 것을 뜻합니다.<br /><br />
+
+          파이썬에서도 'random'이라는 모듈을 사용하면 무작위로 수를 선택할 수
+          있습니다.
+        </p>
+      </div>
+      <div style="margin: auto">
+        <img alt="python-factory-picture" class="img-fluid"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXZGVvGnbtF2jLOKPqulX9hEzoHF7BAq69A&usqp=CAU"
+          width="200px" />
+      </div>
+    </div>
+
+    <br /><br />
+    <div>
+      <div class="sub-div">
+        <div class="text-center">
+          <hr />
+          <br />
+          <div class="text-center" id="speakdiv">
+            <button id="speakbutt" class="btn btn-primary">읽어주기</button>
+            <div id="setting">
+              <br /><br />
+              <img alt="python-factory-picture" class="img-fluid"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AHHmmfz0XnncQ4vwByhsbm4y9EsBCWwezA&usqp=CAU"
+                style="width: 25px !important" />
+              <input type="range" id="vol" min="0" max="1" step="0.1" />
+              <br />
+              <img alt="python-factory-picture" class="img-fluid"
+                src="https://media.istockphoto.com/vectors/fast-stopwatch-icon-service-delivery-logo-vector-id1195047669?b=1&k=20&m=1195047669&s=170667a&w=0&h=m2_2VQfzkp7MohSAnum44ZHn4ArujF630ApInHD1Wjw="
+                style="width: 25px !important" />
+              <input type="range" id="rate" min="0.1" max="10" step="0.1" value="1" />
+            </div>
+          </div>
+          <br /><br />
+          <h1 class="display-6">
+            <span id="tit">랜덤</span><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
+              id="txt">)</span>
+            44
+          </h1>
+          <br />
+          <hr />
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div class="norm-div" style="background-color: #3caeb6">
+          <div class="sub-div">
+            <h1>파이썬 무작위 모듈</h1>
+            <p>
+              'random' 모듈을 가지고 오겠습니다.<br /><br />
+
+              <code> import random as R </code>
+            </p>
+          </div>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div class="norm-div">
+            <div class="inner-div">
+              <h1>무작위 - random()</h1>
+              <p>
+                무작위 모듈에서 숫자 0에서 1 사이의 소수(15자리까지)를 선택하여
+                출력하고 싶다면 random()을 사용하면 됩니다.
+              </p>
+            </div>
+            <iframe src="https://trinket.io/embed/python3/71d6fef8dc" width="100%" height="356" frameborder="0"
+              marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"></iframe>
+          </div>
+        </div>
+
+        <br /><br /><br /><br />
+
+        <div>
+          <div class="norm-div">
+            <div class="inner-div">
+              <h1>무작위 - 두 숫자 사이의 무작위 값 구하기</h1>
+              <p>
+                예를 들어 1과 10 사이의 무작위 소수(14자리까지)를 선택하기
+                위하여 'uniform'(교복)을 사용할 수 있습니다.<br /><br />
+
+                uniform의 매개변수는 처음 숫자 이상(처음 숫자 포함)부터 두 번째
+                숫자까지(포함) 포함합니다.<br /><br /><br /><br />
+
+                일정한 숫자 사이에서 무작위로 정수를 선택하기 위하여 'randint'를
+                사용할 수 있습니다.<br /><br />
+
+                첫 번째 숫자와 두 분째 숫자 둘 다 포함됩니다.<br /><br /><br /><br />
+
+                숫자 간의 차이를 정할 수 있는 메서드 'randrange'는 첫 번째 숫자,
+                끝나는 숫자, 그리고 공차(연속되는 두 숫자의 차이)로 이루어져
+                있습니다.<br /><br /><br /><br />
+
+                마지막으로 'triangular'라는 메서드를 사용하면 어떤 범위 안에서의
+                정수를 랜덤으로 선택하는 것도 가능하지만 어떤 수가 나올 수 있는
+                확률을 높이는 방법도 있습니다.
+              </p>
+            </div>
+          </div>
+          <iframe src="https://trinket.io/embed/python3/2c93c0b550" width="100%" height="356" frameborder="0"
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto"
+            style="margin: auto"></iframe>
+          </div>
+
+        <br /><br /><br /><br />
+
+        <div style="margin: 20px; padding: 20px">
+          <button style="float: left" class="btn btn-light"><a href="date.html">❮ 이전</a></button>
+          <button style="float: right" class="btn btn-light"><a href="regex.html">다음 ❯</a></button>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <pyfact-footer></pyfact-footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer>
+  </script>
+  <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js" defer></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+  <script defer src="script.js"></script>
+  <script src="/global/component.js" defer></script>
+</body>
+
+</html>
