@@ -86,32 +86,6 @@ document.querySelector("#rate").addEventListener("change", (e) => {
   }
 });
 
-//more
-const mb = document.querySelector("#more");
-let c = 0;
-mb.addEventListener("click", () => {
-  if (c % 2 == 0) {
-    document.querySelector("#quiz").style.display = "block";
-    document.querySelector("#feedback").style.display = "block";
-    document.querySelector("#video").style.display = "block";
-    document.querySelector("#python").style.display = "none";
-    document.querySelector("#clang").style.display = "none";
-    document.querySelector( "#video" ).style.display = "block";
-    document.querySelector( "#rust" ).style.display = "none"
-    mb.innerHTML = "<p>숨기기</p>";
-  } else {
-    document.querySelector("#quiz").style.display = "none";
-    document.querySelector("#feedback").style.display = "none";
-    document.querySelector("#video").style.display = "none";
-    document.querySelector("#python").style.display = "block";
-    document.querySelector("#clang").style.display = "block";
-    document.querySelector( "#video" ).style.display = "none";
-    document.querySelector( "#rust" ).style.display = "block"
-    mb.innerHTML = "<p>더보기</p>";
-  }
-  c++;
-});
-
 window.onerror = function (mes) {
   alert("흠... 버그가 있습니다. 개발자들에게 빨리 알려주세요! - " + mes);
   if (confirm("메시지를 보내고 싶나요?")) {

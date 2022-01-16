@@ -1,8 +1,8 @@
 {
-  "name": "Python-Factory App 2",
+  "name": "Python-Factory App (2)",
   "short_name": "Python-Factory (2)",
-  "version": "2022.01.13",
-  "description": "Welcome to our site where you can learn programming languages easily!",
+  "version": "2022.01.16",
+  "description": "Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!",
   "dir": "rtl",
   "id": "/index.html",
   "author": ["Hyunseung", "Juha", "Gun"],

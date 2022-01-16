@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"
-      defer />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#20232a" />
   <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
-  <meta name="description" content="Welcome to our site where you can learn programming languages easily!">
+  <meta name="description"
+    content="Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!">
   <meta name="keywords" content="python, programming, coding-insight, python-factory">
   <meta name="author" content="Hyunseung, Juha, Gun">
   <link rel="icon" href="/global/favicon.ico" type="image/png" />
@@ -327,17 +327,17 @@
         context.fillRect( 0, 0, width, height );
         context.fillStyle = "rgba(0,0,0,0.6)";
         rects.forEach( rect => {
-        context.fillRect( rect.x, rect.y, rect.w, rect.h );
+          context.fillRect( rect.x, rect.y, rect.w, rect.h );
         } );
         return new THREE.CanvasTexture( canvas );
       }
 
       function Wheel() {
         const wheel = new THREE.Mesh(
-        new THREE.BoxBufferGeometry( 12 * zoom, 33 * zoom, 12 * zoom ),
-        new THREE.MeshLambertMaterial( {
-        color: 0x333333
-        } )
+          new THREE.BoxBufferGeometry( 12 * zoom, 33 * zoom, 12 * zoom ),
+          new THREE.MeshLambertMaterial( {
+          color: 0x333333
+          } )
         );
         wheel.position.z = 6 * zoom;
         return wheel;
@@ -350,7 +350,7 @@
         const main = new THREE.Mesh(
           new THREE.BoxBufferGeometry( 60 * zoom, 30 * zoom, 15 * zoom ),
           new THREE.MeshPhongMaterial( {
-          color
+            color
           } )
         );
         main.position.z = 12 * zoom;
@@ -361,28 +361,28 @@
         const cabin = new THREE.Mesh(
           new THREE.BoxBufferGeometry( 33 * zoom, 24 * zoom, 12 * zoom ),
           [
-          new THREE.MeshPhongMaterial( {
-          color: 0xcccccc,
-          map: carBackTexture
-          } ),
-          new THREE.MeshPhongMaterial( {
-          color: 0xcccccc,
-          map: carFrontTexture
-          } ),
-          new THREE.MeshPhongMaterial( {
-          color: 0xcccccc,
-          map: carRightSideTexture
-          } ),
-          new THREE.MeshPhongMaterial( {
-          color: 0xcccccc,
-          map: carLeftSideTexture
-          } ),
-          new THREE.MeshPhongMaterial( {
-          color: 0xcccccc,
-          } ), // top
-          new THREE.MeshPhongMaterial( {
-          color: 0xcccccc,
-          } ) // bottom
+            new THREE.MeshPhongMaterial( {
+            color: 0xcccccc,
+            map: carBackTexture
+            } ),
+            new THREE.MeshPhongMaterial( {
+            color: 0xcccccc,
+            map: carFrontTexture
+            } ),
+            new THREE.MeshPhongMaterial( {
+            color: 0xcccccc,
+            map: carRightSideTexture
+            } ),
+            new THREE.MeshPhongMaterial( {
+            color: 0xcccccc,
+            map: carLeftSideTexture
+            } ),
+            new THREE.MeshPhongMaterial( {
+            color: 0xcccccc,
+            } ), // top
+            new THREE.MeshPhongMaterial( {
+            color: 0xcccccc,
+            } ) // bottom
           ]
         );
         cabin.position.x = 6 * zoom;
@@ -411,7 +411,7 @@
         const base = new THREE.Mesh(
           new THREE.BoxBufferGeometry( 100 * zoom, 25 * zoom, 5 * zoom ),
           new THREE.MeshLambertMaterial( {
-          color: 0xb4c6fc,
+            color: 0xb4c6fc,
           } )
         );
         base.position.z = 10 * zoom;
@@ -420,7 +420,7 @@
         const cargo = new THREE.Mesh(
           new THREE.BoxBufferGeometry( 75 * zoom, 35 * zoom, 40 * zoom ),
           new THREE.MeshPhongMaterial( {
-          color: 0xb4c6fc,
+            color: 0xb4c6fc,
           } )
         );
         cargo.position.x = 15 * zoom;
@@ -432,27 +432,27 @@
         const cabin = new THREE.Mesh(
           new THREE.BoxBufferGeometry( 25 * zoom, 30 * zoom, 30 * zoom ),
           [
-          new THREE.MeshPhongMaterial( {
-          color,
-          } ), // back
-          new THREE.MeshPhongMaterial( {
-          color,
-          map: truckFrontTexture
-          } ),
-          new THREE.MeshPhongMaterial( {
-          color,
-          map: truckRightSideTexture
-          } ),
-          new THREE.MeshPhongMaterial( {
-          color,
-          map: truckLeftSideTexture
-          } ),
-          new THREE.MeshPhongMaterial( {
-          color,
-          } ), // top
-          new THREE.MeshPhongMaterial( {
-          color,
-          } ) // bottom
+            new THREE.MeshPhongMaterial( {
+            color,
+            } ), // back
+            new THREE.MeshPhongMaterial( {
+            color,
+            map: truckFrontTexture
+            } ),
+            new THREE.MeshPhongMaterial( {
+            color,
+            map: truckRightSideTexture
+            } ),
+            new THREE.MeshPhongMaterial( {
+            color,
+            map: truckLeftSideTexture
+            } ),
+            new THREE.MeshPhongMaterial( {
+            color,
+            } ), // top
+            new THREE.MeshPhongMaterial( {
+            color,
+            } ) // bottom
           ]
         );
         cabin.position.x = -40 * zoom;
@@ -482,7 +482,7 @@
         const trunk = new THREE.Mesh(
           new THREE.BoxBufferGeometry( 15 * zoom, 15 * zoom, 20 * zoom ),
           new THREE.MeshPhongMaterial( {
-          color: 0x4d2926,
+            color: 0x4d2926,
           } )
         );
         trunk.position.z = 10 * zoom;
@@ -495,7 +495,7 @@
         const crown = new THREE.Mesh(
           new THREE.BoxBufferGeometry( 30 * zoom, 30 * zoom, height * zoom ),
           new THREE.MeshLambertMaterial( {
-          color: 0x7aa21d,
+            color: 0x7aa21d,
           } )
         );
         crown.position.z = ( height / 2 + 20 ) * zoom;
@@ -512,7 +512,7 @@
         const body = new THREE.Mesh(
           new THREE.BoxBufferGeometry( chickenSize * zoom, chickenSize * zoom, 20 * zoom ),
           new THREE.MeshPhongMaterial( {
-          color: "white",
+            color: "white",
           } )
         );
         body.position.z = 10 * zoom;
@@ -523,7 +523,7 @@
         const rowel = new THREE.Mesh(
           new THREE.BoxBufferGeometry( 2 * zoom, 4 * zoom, 2 * zoom ),
           new THREE.MeshLambertMaterial( {
-          color: "dodgerblue",
+            color: "dodgerblue",
           } )
         );
         rowel.position.z = 21 * zoom;
@@ -540,7 +540,7 @@
         const createSection = color => new THREE.Mesh(
           new THREE.PlaneBufferGeometry( boardWidth * zoom, positionWidth * zoom ),
           new THREE.MeshPhongMaterial( {
-          color
+            color
           } )
         );
 
@@ -565,7 +565,7 @@
         const createSection = color => new THREE.Mesh(
           new THREE.BoxBufferGeometry( boardWidth * zoom, positionWidth * zoom, 3 * zoom ),
           new THREE.MeshPhongMaterial( {
-          color
+            color
           } )
         );
 
@@ -603,15 +603,15 @@
           break;
           }
           case 'car': {
-          this.mesh = new Road();
-          this.direction = Math.random() >= 0.5;
+            this.mesh = new Road();
+            this.direction = Math.random() >= 0.5;
 
             const occupiedPositions = new Set();
             this.vechicles = [ 1, 2, 3 ].map( () => {
               const vechicle = new Car();
               let position;
               do {
-              position = Math.floor( Math.random() * columns / 2 );
+                position = Math.floor( Math.random() * columns / 2 );
               } while ( occupiedPositions.has( position ) )
               occupiedPositions.add( position );
               vechicle.position.x = ( position * positionWidth * 2 + positionWidth / 2 ) * zoom - boardWidth *
@@ -640,7 +640,7 @@
               const vechicle = new Truck();
               let position;
               do {
-              position = Math.floor( Math.random() * columns / 3 );
+                position = Math.floor( Math.random() * columns / 3 );
               } while ( occupiedPositions.has( position ) )
               occupiedPositions.add( position );
               vechicle.position.x = ( position * positionWidth * 3 + positionWidth / 2 ) * zoom - boardWidth *
@@ -660,8 +660,8 @@
 
             break;
           }
-          }
-          }
+        }
+        }
 
       document.querySelector( "#retry" ).addEventListener( "click", () => {
         window.location.reload()
@@ -685,17 +685,17 @@
 
       function check( event ) {
         if ( event.keyCode == '38' ) {
-        // up arrow
-        move( 'forward' );
+          // up arrow
+          move( 'forward' );
         } else if ( event.keyCode == '40' ) {
-        // down arrow
-        move( 'backward' );
+          // down arrow
+          move( 'backward' );
         } else if ( event.keyCode == '37' ) {
-        // left arrow
-        move( 'left' );
+          // left arrow
+          move( 'left' );
         } else if ( event.keyCode == '39' ) {
-        // right arrow
-        move( 'right' );
+          // right arrow
+          move( 'right' );
         }
       }
       document.getElementById( 'forward' ).addEventListener( "click", movef );
@@ -706,46 +706,46 @@
 
       function move( direction ) {
         const finalPositions = moves.reduce( ( position, move ) => {
-        if ( move === 'forward' ) return {
-        lane: position.lane + 1,
-        column: position.column
-        };
-        if ( move === 'backward' ) return {
-        lane: position.lane - 1,
-        column: position.column
-        };
-        if ( move === 'left' ) return {
-        lane: position.lane,
-        column: position.column - 1
-        };
-        if ( move === 'right' ) return {
-        lane: position.lane,
-        column: position.column + 1
-        };
+          if ( move === 'forward' ) return {
+          lane: position.lane + 1,
+          column: position.column
+          };
+          if ( move === 'backward' ) return {
+          lane: position.lane - 1,
+          column: position.column
+          };
+          if ( move === 'left' ) return {
+          lane: position.lane,
+          column: position.column - 1
+          };
+          if ( move === 'right' ) return {
+          lane: position.lane,
+          column: position.column + 1
+          };
         }, {
-        lane: currentLane,
-        column: currentColumn
+          lane: currentLane,
+          column: currentColumn
         } )
 
         if ( direction === 'forward' ) {
           if ( lanes[ finalPositions.lane + 1 ].type === 'forest' &&
-          lanes[ finalPositions.lane + 1 ].occupiedPositions.has( finalPositions.column ) ) return;
+            lanes[ finalPositions.lane + 1 ].occupiedPositions.has( finalPositions.column ) ) return;
           if ( !stepStartTimestamp ) startMoving = true;
           addLane();
         } else if ( direction === 'backward' ) {
           if ( finalPositions.lane === 0 ) return;
           if ( lanes[ finalPositions.lane - 1 ].type === 'forest' &&
-          lanes[ finalPositions.lane - 1 ].occupiedPositions.has( finalPositions.column ) ) return;
+            lanes[ finalPositions.lane - 1 ].occupiedPositions.has( finalPositions.column ) ) return;
           if ( !stepStartTimestamp ) startMoving = true;
         } else if ( direction === 'left' ) {
           if ( finalPositions.column === 0 ) return;
           if ( lanes[ finalPositions.lane ].type === 'forest' &&
-          lanes[ finalPositions.lane ].occupiedPositions.has( finalPositions.column - 1 ) ) return;
+            lanes[ finalPositions.lane ].occupiedPositions.has( finalPositions.column - 1 ) ) return;
           if ( !stepStartTimestamp ) startMoving = true;
         } else if ( direction === 'right' ) {
           if ( finalPositions.column === columns - 1 ) return;
           if ( lanes[ finalPositions.lane ].type === 'forest' &&
-          lanes[ finalPositions.lane ].occupiedPositions.has( finalPositions.column + 1 ) ) return;
+            lanes[ finalPositions.lane ].occupiedPositions.has( finalPositions.column + 1 ) ) return;
           if ( !stepStartTimestamp ) startMoving = true;
         }
         moves.push( direction );
@@ -761,18 +761,18 @@
         // Animate cars and trucks moving on the lane
         lanes.forEach( lane => {
           if ( lane.type === 'car' || lane.type === 'truck' ) {
-          const aBitBeforeTheBeginingOfLane = -boardWidth * zoom / 2 - positionWidth * 2 * zoom;
-          const aBitAfterTheEndOFLane = boardWidth * zoom / 2 + positionWidth * 2 * zoom;
-          lane.vechicles.forEach( vechicle => {
-          if ( lane.direction ) {
+            const aBitBeforeTheBeginingOfLane = -boardWidth * zoom / 2 - positionWidth * 2 * zoom;
+            const aBitAfterTheEndOFLane = boardWidth * zoom / 2 + positionWidth * 2 * zoom;
+            lane.vechicles.forEach( vechicle => {
+            if ( lane.direction ) {
                 vechicle.position.x = vechicle.position.x < aBitBeforeTheBeginingOfLane ? aBitAfterTheEndOFLane :
                   vechicle.position.x -=lane.speed / 16 * delta; } else { vechicle.position.x=vechicle.position.x>
                   aBitAfterTheEndOFLane ?
                   aBitBeforeTheBeginingOfLane : vechicle.position.x += lane.speed / 16 * delta;
               }
-              } );
-              }
-              } );
+            } );
+            }
+            } );
 
         if ( startMoving ) {
           stepStartTimestamp = timestamp;
@@ -784,11 +784,11 @@
           const moveDeltaDistance = Math.min( moveDeltaTime / stepTime, 1 ) * positionWidth * zoom;
           const jumpDeltaDistance = Math.sin( Math.min( moveDeltaTime / stepTime, 1 ) * Math.PI ) * 8 * zoom;
           switch ( moves[ 0 ] ) {
-          case 'forward': {
-          const positionY = currentLane * positionWidth * zoom + moveDeltaDistance;
-          camera.position.y = initialCameraPositionY + positionY;
-          dirLight.position.y = initialDirLightPositionY + positionY;
-          chicken.position.y = positionY; // initial chicken position is 0
+            case 'forward': {
+            const positionY = currentLane * positionWidth * zoom + moveDeltaDistance;
+            camera.position.y = initialCameraPositionY + positionY;
+            dirLight.position.y = initialDirLightPositionY + positionY;
+            chicken.position.y = positionY; // initial chicken position is 0
 
               chicken.position.z = jumpDeltaDistance;
               break;
@@ -821,23 +821,23 @@
               chicken.position.z = jumpDeltaDistance;
               break;
             }
-            }
-            // Once a step has ended
-            if ( moveDeltaTime > stepTime ) {
+          }
+          // Once a step has ended
+          if ( moveDeltaTime > stepTime ) {
             switch ( moves[ 0 ] ) {
               case 'forward': {
                 if ( endDOM.style.visibility != 'visible' ) {
-                currentLane++;
-                counterDOM.innerHTML = currentLane;
-                document.title = currentLane;
+                  currentLane++;
+                  counterDOM.innerHTML = currentLane;
+                  document.title = currentLane;
                 }
                 break;
               }
               case 'backward': {
                 if ( endDOM.style.visibility != 'visible' ) {
-                currentLane--;
-                counterDOM.innerHTML = currentLane;
-                document.title = currentLane;
+                  currentLane--;
+                  counterDOM.innerHTML = currentLane;
+                  document.title = currentLane;
                 }
                 break;
               }
@@ -852,16 +852,16 @@
             }
             moves.shift();
             stepStartTimestamp = moves.length === 0 ? null : timestamp;
-            }
-            }
-            if ( lanes[ currentLane ].type === 'car' || lanes[ currentLane ].type === 'truck' ) {
-            const chickenMinX = chicken.position.x - chickenSize * zoom / 2;
-            const chickenMaxX = chicken.position.x + chickenSize * zoom / 2;
-            const vechicleLength = {
+          }
+          }
+          if ( lanes[ currentLane ].type === 'car' || lanes[ currentLane ].type === 'truck' ) {
+          const chickenMinX = chicken.position.x - chickenSize * zoom / 2;
+          const chickenMaxX = chicken.position.x + chickenSize * zoom / 2;
+          const vechicleLength = {
             car: 60,
             truck: 105
-            } [ lanes[ currentLane ].type ];
-            lanes[ currentLane ].vechicles.forEach( vechicle => {
+          } [ lanes[ currentLane ].type ];
+          lanes[ currentLane ].vechicles.forEach( vechicle => {
             const carMinX = vechicle.position.x - vechicleLength * zoom / 2;
             const carMaxX = vechicle.position.x + vechicleLength * zoom / 2;
             if ( chickenMaxX > carMinX && chickenMinX < carMaxX ) { chicken.rotation.y=83.3
@@ -874,24 +874,22 @@
 
               endDOM.style.visibility = 'visible';
             }
-            } );
-            }
-            renderer.render(
-            scene, camera );
-            }
-            requestAnimationFrame( animate );
-            </script>
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-              integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-              crossorigin="anonymous" defer>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-              integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-              crossorigin="anonymous" defer>
-            </script>
-            <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js" defer></script>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
-            <script defer src="script.js"></script>
-            <script src="/global/component.js" defer></script>
-            </body>
+          } );
+          }
+          renderer.render(
+          scene, camera );
+          }
+          requestAnimationFrame( animate );
+          </script>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" defer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer>
+      </script>
+      <script src="https://unpkg.com/vue@3.2.26/dist/vue.global.prod.js" defer></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209775586-1"></script>
+      <script defer src="script.js"></script>
+      <script src="/global/component.js" defer></script>
+      </body>
 
 </html>

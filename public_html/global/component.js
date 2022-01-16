@@ -180,7 +180,7 @@ app.component("pyfact-footer-en", {
           <br />
           <div class="d-flex justify-content-center p-0 w-100">
             <div>
-              < h1 class = "display-6" > Python - Factory© 2022 < /h1>
+              <h1 class="display-6"> Python-Factory © 2022 </h1>
               <p>"Where you make knowledge - Python Factory"</p>
             </div>
           </div>
@@ -310,6 +310,8 @@ app.component("py-pyfact-menu", {
   template: `
 
 <button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
+
+<a href="../python/korean/quiz.html">퀴즈</a>
 
 <details>
   <summary>&#54028;&#51060;&#50028; &#49884;&#51089;</summary>
@@ -498,6 +500,8 @@ app.component("py-pyfact-menu", {
 app.component("py-pyfact-menu-en", {
   template: `
     <button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
+
+<a href="../python/english/quiz-en.html">Quiz</a>
 
 <details>
   <summary>Starting Python</summary>

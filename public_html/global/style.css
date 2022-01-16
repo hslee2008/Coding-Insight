@@ -52,7 +52,8 @@ li {
   align-content: center;
 }
 
-li a, li p {
+li a,
+li p {
   display: block;
   color: black;
   text-align: center;

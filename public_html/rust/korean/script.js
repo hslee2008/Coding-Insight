@@ -14,30 +14,33 @@ const set = document.querySelector( "#setting" )
 let count = 0;
 const speach = document.body.innerText.substring( document.body.innerText.indexOf( "클릭" ) + 4 ).replace( "읽어주기", "" );
 const butt = document.querySelector( "#speakbutt" )
-butt.addEventListener( 'click', () => {
-  if ( count % 2 == 0 ) {
-    try {
-      const a = new SpeechSynthesisUtterance( speach );
-      a.lang = 'ko-kr';
-      a.volume = document.querySelector( "#vol" ).value;
-      a.rate = document.querySelector( "#rate" ).value;
-      speechSynthesis.speak( a );
-      butt.innerText = "멈추기";
-    } catch ( err ) {
-      alert( ":( 당신의 디바이스의 브라우저에서 읽어주기 기능이 존재하지 않습니다. 에러 (" + err + ")" )
+
+if ( butt != null ) {
+  butt.addEventListener( 'click', () => {
+    if ( count % 2 == 0 ) {
+      try {
+        const a = new SpeechSynthesisUtterance( speach );
+        a.lang = 'ko-kr';
+        a.volume = document.querySelector( "#vol" ).value;
+        a.rate = document.querySelector( "#rate" ).value;
+        speechSynthesis.speak( a );
+        butt.innerText = "멈추기";
+      } catch ( err ) {
+        alert( ":( 당신의 디바이스의 브라우저에서 읽어주기 기능이 존재하지 않습니다. 에러 (" + err + ")" )
+      }
+      set.style.display = "block";
+    } else {
+      try {
+        speechSynthesis.cancel();
+        butt.innerText = "읽어주기";
+      } catch ( err ) {
+        alert( ":( 당신의 디바이스의 브라우저에서 읽어주기 기능이 존재하지 않습니다." )
+      }
+      set.style.display = "none"
     }
-    set.style.display = "block";
-  } else {
-    try {
-      speechSynthesis.cancel();
-      butt.innerText = "읽어주기";
-    } catch ( err ) {
-      alert( ":( 당신의 디바이스의 브라우저에서 읽어주기 기능이 존재하지 않습니다." )
-    }
-    set.style.display = "none"
-  }
-  count++;
-} )
+    count++;
+  } )
+}
 
 window.addEventListener( 'beforeunload', function ( e ) {
   speechSynthesis.cancel();
@@ -70,33 +73,6 @@ document.querySelector( "#rate" ).addEventListener( "change", e => {
   } catch ( err ) {
     alert( ":( 당신의 디바이스의 브라우저에서 읽어주기 기능이 존재하지 않습니다." )
   }
-} )
-
-//more
-const mb = document.querySelector( '#more' )
-let c = 0;
-mb.addEventListener( "click", () => {
-  if ( c % 2 == 0 ) {
-    document.querySelector( "#quiz" ).style.display = "block"
-    document.querySelector( "#feedback" ).style.display = "block"
-    document.querySelector( "#video" ).style.display = "block"
-    document.querySelector( "#python" ).style.display = "none"
-    document.querySelector( "#clang" ).style.display = "none"
-    document.querySelector( "#trans" ).style.display = "none"
-    document.querySelector( "#video" ).style.display = "block"
-    document.querySelector( "#rust" ).style.display = "none"
-    mb.innerHTML = "<p>숨기기</p>"
-  } else {
-    document.querySelector( "#quiz" ).style.display = "none"
-    document.querySelector( "#feedback" ).style.display = "none"
-    document.querySelector( "#video" ).style.display = "none"
-    document.querySelector( "#python" ).style.display = "block"
-    document.querySelector( "#clang" ).style.display = "block"
-    document.querySelector( "#trans" ).style.display = "block"
-    document.querySelector( "#rust" ).style.display = "block"
-    mb.innerHTML = "<p>더보기</p>"
-  }
-  c++
 } )
 
 window.onerror = function ( mes ) {
