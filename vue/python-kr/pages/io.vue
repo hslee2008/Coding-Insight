@@ -28,7 +28,7 @@
 
       <div class="text-center">
         <iframe
-          width="560"
+          width="80%"
           height="315"
           src="https://www.youtube.com/embed/QXtsTPcvuqk"
           title="YouTube video player"
@@ -40,30 +40,12 @@
 
       <br /><br />
 
-      <div class="text-center">
-        <hr />
-        <br />
-        <v-btn class="ma-2" outlined>
-          읽어주기<v-icon right> mdi-bullhorn </v-icon>
-        </v-btn>
-
-        <v-btn class="ma-2" outlined>
-          English<v-icon right> mdi-ab-testing </v-icon>
-        </v-btn>
-        <br /><br />
-        <h1 class="display-6">
-          <span id="tit">파이썬 출력 & 입력</span><br id="lbbr" /><span id="txt"
-            >Computer Science Lab (</span
-          >CSL<span id="txt">)</span> 4
-        </h1>
-        <br />
-        <hr />
-      </div>
+      <Header num="4" title="입출력"></Header>
 
       <br /><br /><br /><br />
 
-      <div class="norm-div bg-black text-white" style="margin: 40px">
-        <div class="sub-div">
+      <div class="norm-div bg-black text-white">
+        <div>
           <h1>출력 end</h1>
           <p>
             파이썬은 print() 함수로 프린트를 하고 난 후, 괄호 안에 있는 데이터
@@ -77,6 +59,7 @@
 
           <p>옆에있는 코드를 바꾸고 삼각형 버튼을 눌러서 코드를 실행하세요!</p>
         </div>
+
         <iframe
           src="https://trinket.io/embed/python3/62e887bbca"
           width="100%"
@@ -93,7 +76,7 @@
       <br /><br /><br /><br />
 
       <div class="norm-div">
-        <div class="sub-div">
+        <div>
           <h1>출력 sep</h1>
           <p>
             print() 안에 'Hello World'를 입력하면 똑같은 값이 콘솔에 출력됩니다.
@@ -128,7 +111,7 @@
       <br /><br /><br /><br />
 
       <div class="norm-div">
-        <div style="padding-right: 50px">
+        <div>
           <h1>입력</h1>
           <p>
             프로그래밍에서 정보를 입력한다는 것은 사용자가 특정한 정보를 콘솔에
@@ -154,6 +137,7 @@
             프로그램이 위의 코드에서 '>>>' 다음에 입력된 값을 콘솔에 출력합니다.
           </p>
         </div>
+
         <iframe
           src="https://trinket.io/embed/python/5b6a7a8b2b"
           width="100%"
@@ -169,7 +153,7 @@
 
       <br /><br /><br /><br />
 
-      <div style="margin: 20px; padding: 20px">
+      <div>
         <a href="vscode" style="text-decoration: none; float: left">
           <v-btn class="ma-2" outlined>
             <v-icon left> mdi-chevron-left </v-icon>Back
@@ -185,251 +169,282 @@
 
       <br /><br /><br /><br />
 
-      <div style="background-color: grey; padding: 10px; border-radius: 5px">
+      <div class="quiz">
         <h1>퀴즈 풀기!</h1>
 
         <hr />
-        
+
         <br /><br />
 
-        <div style="text-align: center; font-size: 25px" id="quizpy">
-          <h3>출력이란?</h3>
-          <div>
-            <input
-              type="radio"
-              name="question-1-answers"
-              id="question-1-answers-A"
-              value="A"
-            />
-            <label for="question-1-answers-A">A) 종이에 프린트하기 </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-1-answers"
-              id="question-1-answers-B"
-              value="B"
-            />
-            <label for="question-1-answers-B"
-              >B) 정보를 콘솔에 나타나게 만들기
-            </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-1-answers"
-              id="question-1-answers-C"
-              value="C"
-            />
-            <label for="question-1-answers-C"
-              >C) 사용자가 정보를 입력하면 변수에 저장하기
-            </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-1-answers"
-              id="question-1-answers-D"
-              value="D"
-            />
-            <label for="question-1-answers-D">D) 다른 정답 </label>
-          </div>
-
-          <br /><br />
-
-          <h3>파이썬에서 프린트를 어떻게 할까요?</h3>
-
-          <div>
-            <input
-              type="radio"
-              name="question-2-answers"
-              id="question-2-answers-A"
-              value="A"
-            />
-            <label for="question-2-answers-A">A) print "정보" </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-2-answers"
-              id="question-2-answers-B"
-              value="B"
-            />
-            <label for="question-2-answers-B">B) puts("정보") </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-2-answers"
-              id="question-2-answers-C"
-              value="C"
-            />
-            <label for="question-2-answers-C">C) console.log("정보") </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-2-answers"
-              id="question-2-answers-D"
-              value="D"
-            />
-            <label for="question-2-answers-D">D) print("정보") </label>
-          </div>
-
-          <br /><br />
-
-          <h3>프린트 끝에 다른 데이터를 붙여서 어떻게 출력 할까요?</h3>
-
-          <div>
-            <input
-              type="radio"
-              name="question-3-answers"
-              id="question-3-answers-A"
-              value="A"
-            />
-            <label for="question-3-answers-A">A) print("정보", end="") </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-3-answers"
-              id="question-3-answers-B"
-              value="B"
-            />
-            <label for="question-3-answers-B">B) puts("정보", end="") </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-3-answers"
-              id="question-3-answers-C"
-              value="C"
-            />
-            <label for="question-3-answers-C"
-              >C) print("정보") <- end=""
-            </label>
-          </div>
-          <div>
-            <input
-              type="radio"
-              name="question-3-answers"
-              id="question-3-answers-D"
-              value="D"
-            />
-            <label for="question-3-answers-D"
-              >D) print("정보", theEnd="")
-            </label>
-          </div>
-
-          <br /><br />
-
-          <h3>파일의 내용을 어떻게 프린트 함수를 사용하여 바꿀까요?</h3>
-
-          <div>
-            <input
-              type="radio"
-              name="question-4-answers"
-              id="question-4-answers-A"
-              value="A"
-            />
-            <label for="question-4-answers-A"
-              >A) print("정보", file="file.txt")
-            </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-4-answers"
-              id="question-4-answers-B"
-              value="B"
-            />
-            <label for="question-4-answers-B"
-              >B) print("정보", file=open("file.txt", "w"))
-            </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-4-answers"
-              id="question-4-answers-C"
-              value="C"
-            />
-            <label for="question-4-answers-C"
-              >C) print("정보", file=open("file.txt", "r"))
-            </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-4-answers"
-              id="question-4-answers-D"
-              value="D"
-            />
-            <label for="question-4-answers-D"
-              >D) print("정보", file=open("file.txt", "python"))
-            </label>
-          </div>
-
-          <br /><br />
-
-          <h3>파이썬에서 입력을 어떻게 받을까요?</h3>
-
-          <div>
-            <input
-              type="radio"
-              name="question-5-answers"
-              id="question-5-answers-A"
-              value="A"
-            />
-            <label for="question-5-answers-A">A) input() </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-5-answers"
-              id="question-5-answers-B"
-              value="B"
-            />
-            <label for="question-5-answers-B">B) print() </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-5-answers"
-              id="question-5-answers-C"
-              value="C"
-            />
-            <label for="question-5-answers-C">C) end() </label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              name="question-5-answers"
-              id="question-5-answers-D"
-              value="D"
-            />
-            <label for="question-5-answers-D">D) in() </label>
-          </div>
-
-          <br /><br />
+        <h5>출력이란?</h5>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-A"
+            value="A"
+          />
+          <label for="question-1-answers-A">A) 종이에 프린트하기 </label>
         </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-B"
+            value="B"
+          />
+          <label for="question-1-answers-B"
+            >B) 정보를 콘솔에 나타나게 만들기
+          </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-C"
+            value="C"
+          />
+          <label for="question-1-answers-C"
+            >C) 사용자가 정보를 입력하면 변수에 저장하기
+          </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-D"
+            value="D"
+          />
+          <label for="question-1-answers-D">D) 다른 정답 </label>
+        </div>
+
+        <br /><br />
+
+        <h5>파이썬에서 프린트를 어떻게 할까요?</h5>
+
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+            value="A"
+          />
+          <label for="question-2-answers-A">A) print "정보" </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-B"
+            value="B"
+          />
+          <label for="question-2-answers-B">B) puts("정보") </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-C"
+            value="C"
+          />
+          <label for="question-2-answers-C">C) console.log("정보") </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-D"
+            value="D"
+          />
+          <label for="question-2-answers-D">D) print("정보") </label>
+        </div>
+
+        <br /><br />
+
+        <h5>프린트 끝에 다른 데이터를 붙여서 어떻게 출력 할까요?</h5>
+
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-A"
+            value="A"
+          />
+          <label for="question-3-answers-A">A) print("정보", end="") </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-B"
+            value="B"
+          />
+          <label for="question-3-answers-B">B) puts("정보", end="") </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-C"
+            value="C"
+          />
+          <label for="question-3-answers-C">C) print("정보") <- end="" </label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-D"
+            value="D"
+          />
+          <label for="question-3-answers-D">D) print("정보", theEnd="") </label>
+        </div>
+
+        <br /><br />
+
+        <h5>파일의 내용을 어떻게 프린트 함수를 사용하여 바꿀까요?</h5>
+
+        <div>
+          <input
+            type="radio"
+            name="question-4-answers"
+            id="question-4-answers-A"
+            value="A"
+          />
+          <label for="question-4-answers-A"
+            >A) print("정보", file="file.txt")
+          </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-4-answers"
+            id="question-4-answers-B"
+            value="B"
+          />
+          <label for="question-4-answers-B"
+            >B) print("정보", file=open("file.txt", "w"))
+          </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-4-answers"
+            id="question-4-answers-C"
+            value="C"
+          />
+          <label for="question-4-answers-C"
+            >C) print("정보", file=open("file.txt", "r"))
+          </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-4-answers"
+            id="question-4-answers-D"
+            value="D"
+          />
+          <label for="question-4-answers-D"
+            >D) print("정보", file=open("file.txt", "python"))
+          </label>
+        </div>
+
+        <br /><br />
+
+        <h5>파이썬에서 입력을 어떻게 받을까요?</h5>
+
+        <div>
+          <input
+            type="radio"
+            name="question-5-answers"
+            id="question-5-answers-A"
+            value="A"
+          />
+          <label for="question-5-answers-A">A) input() </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-5-answers"
+            id="question-5-answers-B"
+            value="B"
+          />
+          <label for="question-5-answers-B">B) print() </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-5-answers"
+            id="question-5-answers-C"
+            value="C"
+          />
+          <label for="question-5-answers-C">C) end() </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-5-answers"
+            id="question-5-answers-D"
+            value="D"
+          />
+          <label for="question-5-answers-D">D) in() </label>
+        </div>
+
+        <br /><br />
+
+        <v-btn v-on:click="checkAnswer"> 정답 확인 </v-btn>
       </div>
     </div>
 
     <br /><br /><br /><br />
   </div>
 </template>
+
+<script>
+export default {
+  name: 'InputOutputPage',
+  methods: {
+    checkAnswer() {
+      if (document.getElementById('question-1-answers-B').checked) {
+        alert('1번 맞았습니다!')
+      } else {
+        alert('1번 틀렸습니다')
+      }
+      if (document.getElementById('question-2-answers-D').checked) {
+        alert('2번 맞았습니다 :)')
+      } else {
+        alert('2번 틀렸습니다')
+      }
+      if (document.getElementById('question-3-answers-A').checked) {
+        alert('3번 맞았습니다!')
+      } else {
+        alert('3 틀렸습니다')
+      }
+      if (document.getElementById('question-4-answers-B').checked) {
+        alert('4번 맞았습니다 :)')
+      } else {
+        alert('4번 틀렸습니다')
+      }
+      if (document.getElementById('question-5-answers-A').checked) {
+        alert('5번 맞았습니다 :o')
+      } else {
+        alert('5번 틀렸습니다')
+      }
+    },
+  },
+}
+</script>

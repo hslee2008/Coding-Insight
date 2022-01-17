@@ -7,11 +7,36 @@ export default {
     title: '파이썬',
     meta: [
       {
-        charset: 'utf-8',
+        charset: 'UTF-8',
+      },
+      {
+        http_equiv: 'X-UA-Compatible',
+        content: 'IE=edge',
       },
       {
         name: 'viewport',
-        content: 'width=device-width, initial-scale=1',
+        content: 'width=device-width, initial-scale=1.0',
+      },
+      {
+        name: 'theme-color',
+        content: '#20232a',
+      },
+      {
+        name: 'keywords',
+        content: [
+          'python',
+          'c',
+          'c++',
+          'rust',
+          'programming',
+          'coding',
+          'coding-insight',
+          'python-factory',
+        ],
+      },
+      {
+        name: 'author',
+        content: ['Hyunseung', 'Juha', 'Gun'],
       },
       {
         hid: 'description',
@@ -30,54 +55,84 @@ export default {
         type: 'image/x-icon',
         href: '/favicon.ico',
       },
+      {
+        rel: 'apple-touch-icon',
+        href: '/favicon.ico',
+      },
+      {
+        rel: 'manifest',
+        href: '/manifest.json',
+      },
     ],
     script: [
       {
         src: 'https://www.googletagmanager.com/gtag/js?id=UA-209775586-1',
         async: true,
       },
+      {
+        src: 'global.js',
+      },
     ],
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['./assets/css/global.css'],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+  // https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
+  // https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
-    // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify',
-  ],
+  // https://go.nuxtjs.dev/config-modules
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify'],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
-  ],
+  // https://go.nuxtjs.dev/config-modules
+  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
+  // https://go.nuxtjs.dev/config-axios
   axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+    // https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
   },
 
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
+  //  https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'kr',
+      name: '파이썬 (Python-Factory)',
+      short_name: '파이썬 (Python-Factory)',
+      version: '2022.01.16',
+      description: 'Learn Python in Coding-Insight',
+      dir: 'rtl',
+      id: '/index.html',
+      author: ['Hyunseung', 'Juha', 'Gun'],
+      categories: ['python', 'programming', 'coding-insight', 'python-factory'],
+      theme_color: '#20232a',
+      background_color: '#20232a',
+      display: 'minimal-ui',
+      scope: './',
+      start_url: '/index.html',
+      prefer_related_applications: false,
+      orientation: 'portrait',
+      icons: [
+        {
+          src: '/favicon.ico',
+          sizes: '256x256',
+          purpose: 'any',
+        },
+        {
+          src: '/favicon.ico',
+          sizes: '192x192',
+          purpose: 'any',
+        },
+        {
+          src: './icon.png',
+          sizes: '512x512',
+          purpose: 'any maskable',
+        },
+      ],
     },
   },
 
-  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {

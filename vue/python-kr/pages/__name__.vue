@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div>
-      <div class="sub-div">
-        <div class="sub-div">
+        <div>
           <div class="text-center">
             <div id="speakdiv" style="display: flex; justify-content: center;">
               <v-btn
@@ -38,7 +36,7 @@
 
           <br /><br /><br /><br />
 
-            <div class="sub-div">
+            <div>
               <h1>__name__이란?</h1>
               <p>
                 __name__이란 실행이 되고 있는
@@ -58,7 +56,7 @@
           <br /><br /><br /><br />
 
           <div style="padding: 30px;">
-            <div class="sub-div">
+            <div>
               <h1>__name__ == __main__</h1>
               <p>
                 다음과 같은 예시를 보겠습니다.<br /><br />
@@ -83,7 +81,7 @@
 
           <br /><br /><br /><br />
 
-          <div style="margin: 20px; padding: 20px">
+          <div>
             <a href="asyncio.html" style="text-decoration: none; float: left;">
               <v-btn
                 class="ma-2"
@@ -113,12 +111,9 @@
 
 
         </div>
-      </div>
-    </div>
 
     <br /><br /><br /><br />
 
-    <pyfact-footer></pyfact-footer>
   </div>
   </div>
 </template>

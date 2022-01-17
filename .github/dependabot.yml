@@ -4,3 +4,7 @@ updates:
     directory: "../app/Python-Factory"
     schedule:
       interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "../vue/python-kr"
+    schedule:
+      interval: "daily"

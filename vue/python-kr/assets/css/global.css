@@ -14,3 +14,28 @@ code {
   display: block;
   word-wrap: break-word;
 }
+
+.quiz {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .img-div {
+    display: block !important;
+    justify-content: initial;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  #lbbr {
+    display: block;
+  }
+
+  #txt {
+    display: none;
+  }
+}

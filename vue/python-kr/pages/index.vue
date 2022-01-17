@@ -1,11 +1,12 @@
 <template>
   <div>
-    <div class="sub-div">
-      <div style="display: flex; background-color: #101010; color: white">
-        <div>
-          <img
+    <div>
+      <div style="display: flex; background-color: #101010" class="img-div">
+        <div style="display: flex; justify-content: center">
+          <v-img
             alt="python-factory-picture"
             class="img-fluid"
+            max-width="300px"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"
           />
         </div>
@@ -20,26 +21,13 @@
 
       <br /><br /><br /><br />
 
-      <div class="text-center">
-        <hr />
-        <br />
-        <h1 class="display-6">
-          <span id="tit">파이썬의 정의</span><br id="lbbr" /><span id="txt"
-            >Computer Science Lab (</span
-          >CSL<span id="txt">)</span> 1
-        </h1>
-        <br />
-        <hr />
-      </div>
+      <Header num="1" title="파이썬의 정의"></Header>
 
       <br /><br /><br /><br />
 
       <div class="norm-div">
         <div>
-          <div
-            class="d-flex justify-content-center align-items-center w-100"
-            style="height: 70px"
-          >
+          <div>
             <h1>블록 코딩과 텍스트 기반 코딩</h1>
           </div>
           <div>
@@ -58,13 +46,11 @@
             </p>
           </div>
           <div class="text-center m-auto">
-            <img
+            <v-img
               alt="python-factory-picture"
               class="img-fluid"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
-              height="auto"
-              width="300px"
-              id="programming-pick"
+              max-width="300px"
             />
           </div>
         </div>
@@ -74,10 +60,7 @@
 
       <div class="norm-div">
         <div>
-          <div
-            class="d-flex justify-content-center align-items-center w-100"
-            style="height: 70px"
-          >
+          <div>
             <h1>프로그래밍 언어?</h1>
           </div>
           <div>
@@ -94,23 +77,18 @@
           </div>
         </div>
         <div class="text-center m-auto">
-          <img
+          <v-img
             alt="python-factory-picture"
             class="img-fluid"
             src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
-            height="auto"
-            width="300px"
-            id="programming-pick"
+            max-width="300px"
           />
         </div>
       </div>
 
       <br /><br />
 
-      <div
-        class="d-flex justify-content-center align-items-center w-100"
-        style="height: 70px"
-      >
+      <div>
         <h1>파이썬으로 할 수 있는 것들</h1>
       </div>
       <div>
@@ -135,19 +113,9 @@
 
       <br /><br />
 
-      <div
-        style="
-          display: flex;
-          background-color: green;
-          border-radius: 5px;
-          padding: 20px;
-        "
-      >
+      <div style="display: flex" class="img-div">
         <div>
-          <div
-            class="d-flex justify-content-center align-items-center w-100"
-            style="height: 70px"
-          >
+          <div>
             <h1>파이썬의 이름은 어디에서 유래했을까요?</h1>
           </div>
           <p style="margin: 5px">
@@ -164,23 +132,19 @@
             같나요?<br /><br />
           </p>
         </div>
-        <div class="text-center m-auto">
-          <img
+        <div class="text-center m-auto img-div">
+          <v-img
             alt="python-factory-picture"
             class="img-fluid"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDvusEfnc81WXy7PBDME8ZDa7miwprm8Z4Q&usqp=CAU"
-            width="210.5px"
-            height="280.75px"
+            max-width="210.5px"
           />
         </div>
       </div>
 
       <br /><br />
 
-      <div
-        class="d-flex justify-content-center align-items-center w-100"
-        style="height: 70px"
-      >
+      <div>
         <h1>파이썬의 장점</h1>
       </div>
       <div>
@@ -197,8 +161,9 @@
 
       <div class="text-center" style="padding: 10px">
         <h1>파이썬 강좌 모음</h1>
+
         <iframe
-          width="560"
+          width="80%"
           height="315"
           src="https://www.youtube.com/embed/videoseries?list=PLhHi1BeBom9e62FpDsAnpP-tJUULibSPE"
           title="YouTube video player"
@@ -210,7 +175,7 @@
 
       <br /><br />
 
-      <div style="margin: 20px; padding: 20px">
+      <div>
         <a href="install" style="text-decoration: none; float: right">
           <v-btn class="ma-2" outlined>
             Next<v-icon right> mdi-chevron-right </v-icon>
@@ -223,6 +188,8 @@
 </template>
 
 <script>
+import Header from '../components/Header.vue'
+
 export default {
   name: 'IndexPage',
 }

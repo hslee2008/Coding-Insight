@@ -1,0 +1,163 @@
+[
+  {
+    "name": "ascii",
+    "path": "/ascii",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\ascii.vue",
+    "chunkName": "pages/ascii",
+    "_name": "_2c0e1146"
+  },
+  {
+    "name": "boolean",
+    "path": "/boolean",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\boolean.vue",
+    "chunkName": "pages/boolean",
+    "_name": "_7de47898"
+  },
+  {
+    "name": "calc",
+    "path": "/calc",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\calc.vue",
+    "chunkName": "pages/calc",
+    "_name": "_3e8fc5f9"
+  },
+  {
+    "name": "comment",
+    "path": "/comment",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\comment.vue",
+    "chunkName": "pages/comment",
+    "_name": "_a8635b2a"
+  },
+  {
+    "name": "datatype",
+    "path": "/datatype",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\datatype.vue",
+    "chunkName": "pages/datatype",
+    "_name": "_77bc3ff0"
+  },
+  {
+    "name": "escapechar",
+    "path": "/escapechar",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\escapechar.vue",
+    "chunkName": "pages/escapechar",
+    "_name": "_a033e60a"
+  },
+  {
+    "name": "install",
+    "path": "/install",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\install.vue",
+    "chunkName": "pages/install",
+    "_name": "_a39ee8b2"
+  },
+  {
+    "name": "io",
+    "path": "/io",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\io.vue",
+    "chunkName": "pages/io",
+    "_name": "_159efb4a"
+  },
+  {
+    "name": "list",
+    "path": "/list",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\list.vue",
+    "chunkName": "pages/list",
+    "_name": "_cce4a07c"
+  },
+  {
+    "name": "listmethod1",
+    "path": "/listmethod1",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\listmethod1.vue",
+    "chunkName": "pages/listmethod1",
+    "_name": "_502b859e"
+  },
+  {
+    "name": "madlib",
+    "path": "/madlib",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\madlib.vue",
+    "chunkName": "pages/madlib",
+    "_name": "_651763d9"
+  },
+  {
+    "name": "number",
+    "path": "/number",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\number.vue",
+    "chunkName": "pages/number",
+    "_name": "_7eb3d9ed"
+  },
+  {
+    "name": "nummethod",
+    "path": "/nummethod",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\nummethod.vue",
+    "chunkName": "pages/nummethod",
+    "_name": "_7ccf9a1a"
+  },
+  {
+    "name": "numtype",
+    "path": "/numtype",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\numtype.vue",
+    "chunkName": "pages/numtype",
+    "_name": "_71d45968"
+  },
+  {
+    "name": "operator",
+    "path": "/operator",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\operator.vue",
+    "chunkName": "pages/operator",
+    "_name": "_c995e270"
+  },
+  {
+    "name": "string",
+    "path": "/string",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\string.vue",
+    "chunkName": "pages/string",
+    "_name": "_3850bab5"
+  },
+  {
+    "name": "stringmethod1",
+    "path": "/stringmethod1",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\stringmethod1.vue",
+    "chunkName": "pages/stringmethod1",
+    "_name": "_f2f2596a"
+  },
+  {
+    "name": "stringmethod2",
+    "path": "/stringmethod2",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\stringmethod2.vue",
+    "chunkName": "pages/stringmethod2",
+    "_name": "_f2d62a68"
+  },
+  {
+    "name": "variable",
+    "path": "/variable",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\variable.vue",
+    "chunkName": "pages/variable",
+    "_name": "_ea11e6c0"
+  },
+  {
+    "name": "vscode",
+    "path": "/vscode",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\vscode.vue",
+    "chunkName": "pages/vscode",
+    "_name": "_d2208764"
+  },
+  {
+    "name": "python-kor-script",
+    "path": "/python-kor/script",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\python-kor\\\\script.js",
+    "chunkName": "pages/python-kor/script",
+    "_name": "_75795afa"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_98c66f44"
+  },
+  {
+    "name": "_name__",
+    "path": "/:_name__",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\__name__.vue",
+    "chunkName": "pages/__name__",
+    "_name": "_b8a863a2"
+  }
+]
