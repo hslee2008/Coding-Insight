@@ -1,7 +1,23 @@
 {
-  "name": "python-kr",
-  "short_name": "python-kr",
+  "name": "파이썬 (Python-Factory)",
+  "short_name": "파이썬 (Python-Factory)",
+  "description": "Learn Python in Coding-Insight",
   "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
     {
       "src": "/_nuxt/icons/icon_64x64.1a4b9f.png",
       "sizes": "64x64",
@@ -45,8 +61,26 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/?standalone=true",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "lang": "kr"
+  "start_url": "/index.html",
+  "display": "minimal-ui",
+  "background_color": "#20232a",
+  "theme_color": "#20232a",
+  "lang": "en",
+  "dir": "rtl",
+  "version": "2022.01.16",
+  "id": "/index.html",
+  "author": [
+    "Hyunseung",
+    "Juha",
+    "Gun"
+  ],
+  "categories": [
+    "python",
+    "programming",
+    "coding-insight",
+    "python-factory"
+  ],
+  "scope": "./",
+  "prefer_related_applications": false,
+  "orientation": "portrait"
 }
