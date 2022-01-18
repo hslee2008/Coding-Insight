@@ -211,7 +211,7 @@
 
       <br /><br />
 
-      <h5>변수란?</h5>
+      <h3>변수란?</h3>
       <div>
         <input
           type="radio"
@@ -251,7 +251,7 @@
         <label for="question-1-answers-D">D) 다른 정답 </label>
       </div>
       <br /><br />
-      <h5>파이썬에서 변수 선언 방법은?</h5>
+      <h3>파이썬에서 변수 선언 방법은?</h3>
       <div>
         <input
           type="radio"
@@ -289,7 +289,7 @@
         <label for="question-2-answers-D">D) 이름 = 값 </label>
       </div>
       <br /><br />
-      <h5>다음 중 변수의 이름이 될 수 없는 것은?</h5>
+      <h3>다음 중 변수의 이름이 될 수 없는 것은?</h3>
       <div>
         <input
           type="radio"
@@ -327,7 +327,7 @@
         <label for="question-3-answers-D">D) hello123 </label>
       </div>
       <br /><br />
-      <h5>변수의 값을 바꾸는 방법은?</h5>
+      <h3>변수의 값을 바꾸는 방법은?</h3>
       <div>
         <input
           type="radio"
@@ -365,7 +365,7 @@
         <label for="question-4-answers-D">D) 값 == 이름 </label>
       </div>
       <br /><br />
-      <h5>변수를 삭제하는 방법은?</h5>
+      <h3>변수를 삭제하는 방법은?</h3>
       <div>
         <input
           type="radio"
@@ -403,7 +403,9 @@
         <label for="question-5-answers-D">D) delete() </label>
       </div>
       <br /><br />
-      <v-btn v-on:click="checkAnswer">정답 확인</v-btn>
+      <v-btn v-on:click="checkAnswer">
+        <v-icon left>mdi-check-decagram</v-icon>정답 확인
+      </v-btn>
     </div>
     <br /><br />
   </div>

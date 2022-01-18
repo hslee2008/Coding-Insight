@@ -8,8 +8,44 @@
       app
     >
       <v-list>
+        <h1 style="text-align: center">파이썬 시작</h1>
+        <v-divider></v-divider>
         <v-list-item
-          v-for="(item, i) in items"
+          v-for="(item, i) in items.start_python"
+          :key="i"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content> </v-list-item
+        ><br /><br />
+
+        <h1 style="text-align: center">파이썬 기본</h1>
+        <v-divider></v-divider>
+        <v-list-item
+          v-for="(item, i) in items.python_basics"
+          :key="i"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content> </v-list-item
+        ><br /><br />
+
+        <h1 style="text-align: center">파이썬 초급</h1>
+        <v-divider></v-divider>
+        <v-list-item
+          v-for="(item, i) in items.python_beginner"
           :key="i"
           :to="item.to"
           router
@@ -78,121 +114,165 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
-      items: [
-        {
-          icon: 'mdi-source-commit-start',
-          title: '시작',
-          to: '/',
-        },
-        {
-          icon: 'mdi-download',
-          title: '설치',
-          to: 'install',
-        },
-        {
-          icon: 'mdi-microsoft-visual-studio-code',
-          title: 'VSCode',
-          to: 'vscode',
-        },
-        {
-          icon: 'mdi-audio-input-rca',
-          title: '입출력',
-          to: 'io',
-        },
-        {
-          icon: 'mdi-application-variable',
-          title: '변수',
-          to: 'variable',
-        },
-        {
-          icon: 'mdi-lipstick',
-          title: '매드립스 만들기',
-          to: 'madlib',
-        },
+      items: {
+        start_python: [
+          {
+            icon: 'mdi-source-commit-start',
+            title: '시작',
+            to: './',
+          },
+          {
+            icon: 'mdi-download',
+            title: '설치',
+            to: './install',
+          },
+          {
+            icon: 'mdi-microsoft-visual-studio-code',
+            title: 'VSCode',
+            to: './vscode',
+          },
+          {
+            icon: 'mdi-audio-input-rca',
+            title: '입출력',
+            to: './io',
+          },
+          {
+            icon: 'mdi-application-variable',
+            title: '변수',
+            to: './variable',
+          },
+          {
+            icon: 'mdi-lipstick',
+            title: '매드립스 만들기',
+            to: './madlib',
+          },
 
-        {
-          icon: 'mdi-database',
-          title: '데이터 형태',
-          to: 'datatype',
-        },
-        {
-          icon: 'mdi-message',
-          title: '주석',
-          to: 'comment',
-        },
-        {
-          icon: 'mdi-code-string',
-          title: '문자',
-          to: 'string',
-        },
-        {
-          icon: 'mdi-function-variant',
-          title: '문자 메서드 1',
-          to: 'stringmethod1',
-        },
-        {
-          icon: 'mdi-function-variant',
-          title: '문자 메서드 2',
-          to: 'stringmethod2',
-        },
-        {
-          icon: 'mdi-door-sliding-lock',
-          title: '이스케이프 문자',
-          to: 'escapechar',
-        },
+          {
+            icon: 'mdi-database',
+            title: '데이터 형태',
+            to: './datatype',
+          },
+          {
+            icon: 'mdi-message',
+            title: '주석',
+            to: './comment',
+          },
+          {
+            icon: 'mdi-code-string',
+            title: '문자',
+            to: './string',
+          },
+          {
+            icon: 'mdi-function-variant',
+            title: '문자 메서드 1',
+            to: './stringmethod1',
+          },
+          {
+            icon: 'mdi-function-variant',
+            title: '문자 메서드 2',
+            to: './stringmethod2',
+          },
+          {
+            icon: 'mdi-door-sliding-lock',
+            title: '이스케이프 문자',
+            to: './escapechar',
+          },
+        ],
 
-        {
-          icon: 'mdi-ab-testing',
-          title: '아스키',
-          to: 'ascii',
-        },
-        {
-          icon: 'mdi-numeric-2',
-          title: '분리언',
-          to: 'boolean',
-        },
-        {
-          icon: 'mdi-counter',
-          title: '숫자',
-          to: 'number',
-        },
-        {
-          icon: 'mdi-plus-minus',
-          title: '연산자',
-          to: 'operator',
-        },
-        {
-          icon: 'mdi-format-list-bulleted-type',
-          title: '숫자 종류',
-          to: 'numtype',
-        },
-        {
-          icon: 'mdi-calculator',
-          title: '계산기 만들기',
-          to: 'calc',
-        },
-        {
-          icon: 'mdi-application-parentheses',
-          title: '숫자 메서드',
-          to: 'nummethod',
-        },
-        {
-          icon: 'mdi-filter-variant',
-          title: '리스트',
-          to: 'list',
-        },
-        {
-          icon: 'mdi-playlist-plus',
-          title: '리스트 메서드 1',
-          to: 'listmethod1',
-        },
+        python_basics: [
+          {
+            icon: 'mdi-ab-testing',
+            title: '아스키',
+            to: './ascii',
+          },
+          {
+            icon: 'mdi-numeric-2',
+            title: '분리언',
+            to: './boolean',
+          },
+          {
+            icon: 'mdi-counter',
+            title: '숫자',
+            to: './number',
+          },
+          {
+            icon: 'mdi-plus-minus',
+            title: '연산자',
+            to: './operator',
+          },
+          {
+            icon: 'mdi-format-list-bulleted-type',
+            title: '숫자 종류',
+            to: './numtype',
+          },
+          {
+            icon: 'mdi-calculator',
+            title: '계산기 만들기',
+            to: './calc',
+          },
+          {
+            icon: 'mdi-code-parentheses-box',
+            title: '숫자 메서드',
+            to: './nummethod',
+          },
+          {
+            icon: 'mdi-filter-variant',
+            title: '리스트',
+            to: './list',
+          },
+          {
+            icon: 'mdi-playlist-plus',
+            title: '리스트 메서드 1',
+            to: './listmethod1',
+          },
+          {
+            icon: 'mdi-playlist-plus',
+            title: '리스트 메서드 2',
+            to: './listmethod2',
+          },
+        ],
 
-        {
-          icon: 'mdi-download',
-          title: '__name__',
-          to: '__name__',
-        },
-      ],
+        python_beginner: [
+          {
+            icon: 'mdi-book-alphabet',
+            title: '딕셔너리',
+            to: './dictionary',
+          },
+          {
+            icon: 'mdi-book-cog-outline',
+            title: '딕셔너리 메서드',
+            to: './dictionarymethod',
+          },
+          {
+            icon: 'mdi-application-parentheses-outline',
+            title: '튜플',
+            to: './tuple',
+          },
+          {
+            icon: 'mdi-application-braces-outline',
+            title: '집합',
+            to: './set',
+          },
+          {
+            icon: 'mdi-application-cog-outline',
+            title: '집합 메서드',
+            to: './setmethod',
+          },
+          {
+            icon: 'mdi-car-shift-pattern',
+            title: '조건문',
+            to: './if',
+          },
+        ],
+
+        master_python: [
+          {
+            icon: 'mdi-download',
+            title: '__name__',
+            to: './__name__',
+          },
+        ],
+      },
       miniVariant: false,
       right: true,
       rightDrawer: false,

@@ -1,3 +1,21 @@
+importScripts(
+  "https://storage.googleapis.com/workbox-cdn/releases/6.4.2/workbox-sw.js"
+);
+
+workbox.routing.registerRoute(
+  /\.(?:css|js|html|json|png|jpg)$/,
+  new workbox.strategies.StaleWhileRevalidate({
+    "python-factory-service-worker-pwa": "assets",
+  })
+);
+
+workbox.routing.registerRoute(
+  /\.(?:html|json|png|jpg|ico)$/,
+  new workbox.strategies.CacheFirst({
+    "python-factory-service-worker-pwa": "files",
+  })
+);
+
 const sCacheName = "python-factory-service-worker-pwa";
 const aFilesToCache = [
   "/index.html",

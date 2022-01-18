@@ -35,11 +35,32 @@
     "_name": "_77bc3ff0"
   },
   {
+    "name": "dictionary",
+    "path": "/dictionary",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\dictionary.vue",
+    "chunkName": "pages/dictionary",
+    "_name": "_6f584a8c"
+  },
+  {
+    "name": "dictionarymethod",
+    "path": "/dictionarymethod",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\dictionarymethod.vue",
+    "chunkName": "pages/dictionarymethod",
+    "_name": "_89ab9cca"
+  },
+  {
     "name": "escapechar",
     "path": "/escapechar",
     "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\escapechar.vue",
     "chunkName": "pages/escapechar",
     "_name": "_a033e60a"
+  },
+  {
+    "name": "if",
+    "path": "/if",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\if.vue",
+    "chunkName": "pages/if",
+    "_name": "_152027c1"
   },
   {
     "name": "install",
@@ -68,6 +89,13 @@
     "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\listmethod1.vue",
     "chunkName": "pages/listmethod1",
     "_name": "_502b859e"
+  },
+  {
+    "name": "listmethod2",
+    "path": "/listmethod2",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\listmethod2.vue",
+    "chunkName": "pages/listmethod2",
+    "_name": "_50399d1f"
   },
   {
     "name": "madlib",
@@ -105,6 +133,20 @@
     "_name": "_c995e270"
   },
   {
+    "name": "set",
+    "path": "/set",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\set.vue",
+    "chunkName": "pages/set",
+    "_name": "_bc2ffe24"
+  },
+  {
+    "name": "setmethod",
+    "path": "/setmethod",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\setmethod.vue",
+    "chunkName": "pages/setmethod",
+    "_name": "_014de0cf"
+  },
+  {
     "name": "string",
     "path": "/string",
     "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\string.vue",
@@ -124,6 +166,13 @@
     "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\stringmethod2.vue",
     "chunkName": "pages/stringmethod2",
     "_name": "_f2d62a68"
+  },
+  {
+    "name": "tuple",
+    "path": "/tuple",
+    "component": "C:\\\\Users\\\\USER\\\\Desktop\\\\Folder\\\\Code\\\\coding-insight\\\\vue\\\\python-kr\\\\pages\\\\tuple.vue",
+    "chunkName": "pages/tuple",
+    "_name": "_6f66bc54"
   },
   {
     "name": "variable",

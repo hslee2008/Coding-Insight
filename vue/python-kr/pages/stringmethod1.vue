@@ -369,10 +369,8 @@
             <label for="question-5-answers-D">D) toMiddle() </label>
          </div>
          <br /><br />
-         <v-btn
-         v-on:click="checkAnswer"
-            >
-         정답 확인
+         <v-btn v-on:click="checkAnswer">
+            <v-icon left>mdi-check-decagram</v-icon>정답 확인
          </v-btn>
       </div>
       <br /><br />

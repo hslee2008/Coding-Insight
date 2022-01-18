@@ -233,7 +233,9 @@
 
       <br /><br />
 
-      <v-btn v-on:click="CommentPage">정답 확인</v-btn>
+      <v-btn v-on:click="checkAnswer">
+        <v-icon left>mdi-check-decagram</v-icon>정답 확인
+      </v-btn>
     </div>
     <br /><br />
   </div>
@@ -245,16 +247,16 @@ export default {
   methods: {
     checkAnwer() {
       if (document.getElementById('question-1-answers-A').checked) {
-        alert('1번 맞았습니다!')
+        alert('1번 맞았습니다!');
       } else {
-        alert('1번 틀렸습니다')
+        alert('1번 틀렸습니다');
       }
       if (document.getElementById('question-2-answers-A').checked) {
-        alert('2번 맞았습니다 :)')
+        alert('2번 맞았습니다 :)');
       } else {
-        alert('2번 틀렸습니다')
+        alert('2번 틀렸습니다');
       }
     },
   },
-}
+};
 </script>

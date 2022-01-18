@@ -9,19 +9,26 @@ const _7de47898 = () => interopDefault(import('..\\pages\\boolean.vue' /* webpac
 const _3e8fc5f9 = () => interopDefault(import('..\\pages\\calc.vue' /* webpackChunkName: "pages/calc" */))
 const _a8635b2a = () => interopDefault(import('..\\pages\\comment.vue' /* webpackChunkName: "pages/comment" */))
 const _77bc3ff0 = () => interopDefault(import('..\\pages\\datatype.vue' /* webpackChunkName: "pages/datatype" */))
+const _6f584a8c = () => interopDefault(import('..\\pages\\dictionary.vue' /* webpackChunkName: "pages/dictionary" */))
+const _89ab9cca = () => interopDefault(import('..\\pages\\dictionarymethod.vue' /* webpackChunkName: "pages/dictionarymethod" */))
 const _a033e60a = () => interopDefault(import('..\\pages\\escapechar.vue' /* webpackChunkName: "pages/escapechar" */))
+const _152027c1 = () => interopDefault(import('..\\pages\\if.vue' /* webpackChunkName: "pages/if" */))
 const _a39ee8b2 = () => interopDefault(import('..\\pages\\install.vue' /* webpackChunkName: "pages/install" */))
 const _159efb4a = () => interopDefault(import('..\\pages\\io.vue' /* webpackChunkName: "pages/io" */))
 const _cce4a07c = () => interopDefault(import('..\\pages\\list.vue' /* webpackChunkName: "pages/list" */))
 const _502b859e = () => interopDefault(import('..\\pages\\listmethod1.vue' /* webpackChunkName: "pages/listmethod1" */))
+const _50399d1f = () => interopDefault(import('..\\pages\\listmethod2.vue' /* webpackChunkName: "pages/listmethod2" */))
 const _651763d9 = () => interopDefault(import('..\\pages\\madlib.vue' /* webpackChunkName: "pages/madlib" */))
 const _7eb3d9ed = () => interopDefault(import('..\\pages\\number.vue' /* webpackChunkName: "pages/number" */))
 const _7ccf9a1a = () => interopDefault(import('..\\pages\\nummethod.vue' /* webpackChunkName: "pages/nummethod" */))
 const _71d45968 = () => interopDefault(import('..\\pages\\numtype.vue' /* webpackChunkName: "pages/numtype" */))
 const _c995e270 = () => interopDefault(import('..\\pages\\operator.vue' /* webpackChunkName: "pages/operator" */))
+const _bc2ffe24 = () => interopDefault(import('..\\pages\\set.vue' /* webpackChunkName: "pages/set" */))
+const _014de0cf = () => interopDefault(import('..\\pages\\setmethod.vue' /* webpackChunkName: "pages/setmethod" */))
 const _3850bab5 = () => interopDefault(import('..\\pages\\string.vue' /* webpackChunkName: "pages/string" */))
 const _f2f2596a = () => interopDefault(import('..\\pages\\stringmethod1.vue' /* webpackChunkName: "pages/stringmethod1" */))
 const _f2d62a68 = () => interopDefault(import('..\\pages\\stringmethod2.vue' /* webpackChunkName: "pages/stringmethod2" */))
+const _6f66bc54 = () => interopDefault(import('..\\pages\\tuple.vue' /* webpackChunkName: "pages/tuple" */))
 const _ea11e6c0 = () => interopDefault(import('..\\pages\\variable.vue' /* webpackChunkName: "pages/variable" */))
 const _d2208764 = () => interopDefault(import('..\\pages\\vscode.vue' /* webpackChunkName: "pages/vscode" */))
 const _75795afa = () => interopDefault(import('..\\pages\\python-kor\\script.js' /* webpackChunkName: "pages/python-kor/script" */))
@@ -60,9 +67,21 @@ export const routerOptions = {
     component: _77bc3ff0,
     name: "datatype"
   }, {
+    path: "/dictionary",
+    component: _6f584a8c,
+    name: "dictionary"
+  }, {
+    path: "/dictionarymethod",
+    component: _89ab9cca,
+    name: "dictionarymethod"
+  }, {
     path: "/escapechar",
     component: _a033e60a,
     name: "escapechar"
+  }, {
+    path: "/if",
+    component: _152027c1,
+    name: "if"
   }, {
     path: "/install",
     component: _a39ee8b2,
@@ -79,6 +98,10 @@ export const routerOptions = {
     path: "/listmethod1",
     component: _502b859e,
     name: "listmethod1"
+  }, {
+    path: "/listmethod2",
+    component: _50399d1f,
+    name: "listmethod2"
   }, {
     path: "/madlib",
     component: _651763d9,
@@ -100,6 +123,14 @@ export const routerOptions = {
     component: _c995e270,
     name: "operator"
   }, {
+    path: "/set",
+    component: _bc2ffe24,
+    name: "set"
+  }, {
+    path: "/setmethod",
+    component: _014de0cf,
+    name: "setmethod"
+  }, {
     path: "/string",
     component: _3850bab5,
     name: "string"
@@ -111,6 +142,10 @@ export const routerOptions = {
     path: "/stringmethod2",
     component: _f2d62a68,
     name: "stringmethod2"
+  }, {
+    path: "/tuple",
+    component: _6f66bc54,
+    name: "tuple"
   }, {
     path: "/variable",
     component: _ea11e6c0,
