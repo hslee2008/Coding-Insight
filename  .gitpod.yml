@@ -1,0 +1,19 @@
+tasks:
+  - name: 'Nuxt.js (Py KR)'
+    init: cd vue/python-kr && npm install
+    command: cd vue/python-kr && npm run build && npm run generate && npm run dev
+    openMode: split-right
+  - name: 'React Native'
+    init: cd app/Python-Factory && npm install
+    command: cd app/Python-Factory
+
+ports:
+  - port: 8000
+    onOpen: open-preview
+
+vscode:
+  - extensions:
+
+github:
+  prebuild:
+    master: true
