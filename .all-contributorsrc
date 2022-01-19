@@ -1,0 +1,80 @@
+{
+  "projectName": "Coding-Insight",
+  "projectOwner": "HyunseungLee-Travis",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "contributorsPerLine": 20,
+  "contributorsSortAlphabetically": false,
+  "contributors": [
+    {
+      "login": "HyunseungLee-Travis",
+      "name": "Hyunseung Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78584173?s=40&u=ab3a03fc1b0ad4289e18b9611d200d0b4ccb097b&v=4",
+      "profile": "https://github.com/HyunseungLee-Travis",
+      "contributions": [
+        "blog",
+        "code",
+        "content",
+        "data",
+        "design",
+        "infra",
+        "maintenance",
+        "projectManagement",
+        "question",
+        "research",
+        "security",
+        "tool",
+        "translation",
+        "tutorial",
+        "video"
+      ]
+    },
+    {
+      "login": "gmtt902",
+      "name": "Juha Im",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87412592?v=4",
+      "profile": "https://github.com/GMTT902",
+      "contributions": [
+        "ideas",
+        "code",
+        "content",
+        "maintenance",
+        "projectManagement",
+        "question",
+        "research",
+        "security",
+        "tool",
+        "translation",
+        "tutorial",
+        "talk",
+        "platform",
+        "video"
+      ]
+    },
+    {
+      "login": "kimgun1217",
+      "name": "Gun Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87595094?v=4",
+      "profile": "https://github.com/kimgun1217",
+      "contributions": [
+        "ideas",
+        "code",
+        "content",
+        "maintenance",
+        "projectManagement",
+        "question",
+        "research",
+        "security",
+        "tool",
+        "translation",
+        "tutorial",
+        "talk",
+        "platform",
+        "video"
+      ]
+    }
+  ]
+}

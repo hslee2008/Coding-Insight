@@ -1,5 +1,6 @@
 public_html/python/korean/
 vue/python-kr/.nuxt
+app/Python-Factory/.expo
 
 vue/python-kr/node_modules
 app/Python-Factory/node_modules
