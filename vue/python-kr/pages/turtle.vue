@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div style="display: flex">
-      <div style="margin: auto">
+    <div class="d-flex img-div">
+      <div class="m-auto">
         <h1>Turtle이란?</h1>
         <p>
           "Turtle이란 영어로 거북이를 뜻합니다."<br /><br />

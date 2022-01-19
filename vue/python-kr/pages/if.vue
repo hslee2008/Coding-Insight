@@ -2,7 +2,7 @@
    <div>
       <br />
 
-      <div style="display:flex;background-color:#595c64;padding:30px;border-radius: 5px;">
+      <div style="display:flex;background-color:#595c64;padding:30px;border-radius: 5px;" class="img-div">
          <div>
             <h1>조건문</h1>
             <p>

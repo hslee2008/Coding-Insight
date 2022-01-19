@@ -1,7 +1,7 @@
 <template>
   <div>
     <br />
-    <div style="display: flex" class="img-div">
+    <div class="d-flex img-div">
       <div style="padding: 5px; margin: auto">
         <h1>ASCII란?</h1>
         <p>
@@ -18,7 +18,7 @@
           하셨나요? 흠… A가 크게 보이지만 ASCII에서는 a가 더 큽니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

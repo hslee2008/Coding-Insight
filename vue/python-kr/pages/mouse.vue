@@ -18,7 +18,7 @@
           <code>import mouse as m</code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <img
           alt="python-factory-picture"
           class="img-fluid"

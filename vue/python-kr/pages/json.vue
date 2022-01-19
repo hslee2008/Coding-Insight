@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex;">
+    <div class="d-flex img-div">
       <div style="margin: auto;">
         <v-img alt="python-factory-picture" class="img-fluid" max-width="400px"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU78Hj6DPZq_rVh1dyNTc4Lwt_Z05Vr-SRA&usqp=CAU" />

@@ -112,7 +112,7 @@
 
     <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div class="d-flex img-div">
       <div>
         <div>
           <h1>파이썬의 이름은 어디에서 유래했을까요?</h1>

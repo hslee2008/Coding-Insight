@@ -1,8 +1,9 @@
 <template>
   <div>
     <br />
-    <div style="display: flex">
-      <div style="margin: auto">
+
+    <div class="d-flex img-div">
+      <div class="m-auto">
         <h1>리스트란?</h1>
         <p>
           리스트는 한국어로 '순서'입니다.<br /><br />
@@ -12,7 +13,7 @@
           사용할 수 있습니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -93,6 +94,7 @@
         border-radius: 5px;
         background-color: #4c4da0;
       "
+      class="img-div"
     >
       <div>
         <h1>인덱싱이 x를 사용하면 x-1 번째를 출력하는 이유</h1>
@@ -112,7 +114,7 @@
           기준으로 0이 곱해졌기 때문입니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

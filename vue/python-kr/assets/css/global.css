@@ -22,6 +22,11 @@ code {
 }
 
 @media screen and (max-width: 900px) {
+  div:has(img) {
+    display: block !important;
+    justify-content: initial;
+  }
+
   .img-div {
     display: block !important;
     justify-content: initial;

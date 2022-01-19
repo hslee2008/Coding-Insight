@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div style="display: flex">
-      <div style="margin: auto">
+    <div class="d-flex img-div">
+      <div class="m-auto">
         <h1>GTTS란?</h1>
         <p>
           GTTS는 문자를 컴퓨터가 말하게 만들 수 있는 기능을 가지고 있습니다.<br /><br />
@@ -16,7 +16,7 @@
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -31,8 +31,8 @@
 
     <QuadSpace></QuadSpace>
 
-    <div style="display: flex">
-      <div style="margin: auto">
+    <div class="d-flex img-div">
+      <div class="m-auto">
         <h1>GTTS 커맨드</h1>
         <p>
           터미널을 키고 다음 코드를 실행하세요.<br /><br />
@@ -45,7 +45,7 @@
           있습니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

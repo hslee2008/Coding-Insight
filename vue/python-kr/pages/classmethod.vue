@@ -10,8 +10,9 @@
         border-radius: 5px;
         background-color: #ffe500;
       "
+      class="img-div"
     >
-      <div style="margin: auto">
+      <div class="m-auto">
         <h1>계승이란?</h1>
         <p>
           계승이란 무언가를 밑으로 물려주는 것을 뜻합니다.<br /><br />
@@ -19,7 +20,7 @@
           <mark>함수와 변수를 다른 클래스로 옮기는 작업</mark>을 뜻합니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

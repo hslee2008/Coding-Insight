@@ -2,15 +2,15 @@
   <div>
     <br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div class="d-flex img-div">
+      <div class="m-auto">
         <h1>for 반복문이란?</h1>
         <p>
           for 반복문이란 반복되는 작업을 매우 효율적이게 맡을 수 있는
           반복문입니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

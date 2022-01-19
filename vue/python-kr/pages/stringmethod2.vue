@@ -21,7 +21,7 @@
 
       <QuadSpace></QuadSpace>
 
-      <div style="display: flex;" class="img-div">
+      <div class="d-flex img-div">
         <div style="margin: auto;">
           <h1>문자 더하기</h1>
           <p>

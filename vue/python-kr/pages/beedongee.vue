@@ -3,7 +3,7 @@ Be
   <div>
     <br />
 
-    <div class="d-flex">
+    <div class="d-flex" class="img-div">
       <div>
         <h1>비동기란?</h1>
         <p>
@@ -16,7 +16,7 @@ Be
           모듈입니다. 이를 이용하여 여러 문제들을 해결할 수 있습니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

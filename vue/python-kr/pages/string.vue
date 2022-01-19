@@ -1,7 +1,7 @@
 <template>
     <div>
       <br>
-      <div style="display: flex;" class="img-div">
+      <div class="d-flex img-div">
         <div>
           <h1>문자란?</h1>
           <p>
@@ -36,7 +36,7 @@
 
       <QuadSpace></QuadSpace>
 
-      <div style="display: flex;" class="img-div">
+      <div class="d-flex img-div">
         <div style="margin: auto;">
           <h1>파이썬에서 문자 만들기</h1>
           <p>

@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div class="d-flex">
+    <div class="d-flex" class="img-div">
       <div style="margin: auto; padding: 20px">
         <h1>PIP란?</h1>
         <p>
@@ -12,7 +12,7 @@
           처음에 파이썬을 내려받을 때 PIP를 설치 안 했을 수 있습니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

@@ -14,7 +14,7 @@
           있습니다.<br /><br />
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

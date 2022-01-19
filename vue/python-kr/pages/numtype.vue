@@ -1,7 +1,7 @@
 <template>
       <div>
       <br>
-        <div style="display: flex;">
+        <div class="d-flex img-div">
           <div style="margin: auto;">
             <h1>숫자 종류</h1>
             <p>
@@ -12,7 +12,7 @@
               - complex(허수)<br />
             </p>
           </div>
-          <div style="margin: auto">
+          <div class="m-auto">
             <v-img
               alt="python-factory-picture"
               class="img-fluid"

@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex;">
+    <div class="d-flex img-div">
       <div style="margin: auto;">
         <h1>통계란?</h1>
         <p>

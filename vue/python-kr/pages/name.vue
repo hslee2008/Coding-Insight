@@ -14,7 +14,7 @@
         또한, __name__은 모듈의 이름을 확인하는 데도 사용됩니다.
       </p>
     </div>
-    <div style="text-align: center">
+    <div class="tex-center">
       <v-img
         alt="python-factory-picture"
         max-width="500px"

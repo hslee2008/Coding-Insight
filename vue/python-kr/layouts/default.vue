@@ -1,12 +1,6 @@
 <template>
   <v-app light>
-    <v-navigation-drawer
-      v-model="drawer"
-      :clipped="clipped"
-      :mini-variant="miniVariant"
-      fixed
-      app
-    >
+    <v-navigation-drawer v-model="drawer" :clipped="clipped" fixed app>
       <v-list>
         <h1 class="text-center">파이썬 시작</h1>
 
@@ -75,107 +69,104 @@
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
           </v-list-item-content>
-        </v-list-item> </v-list
-      ><br /><br />
+        </v-list-item>
 
-      <h1 style="text-align: center">파이썬 고급</h1>
-      <v-divider></v-divider>
-      <v-list-item
-        v-for="(item, i) in items.advanced_python"
-        :key="i.toString() + 'advanced_python'"
-        :to="item.to"
-        router
-        exact
-      >
-        <v-list-item-action>
-          <v-icon>{{ item.icon }}</v-icon>
-        </v-list-item-action>
-        <v-list-item-content>
-          <v-list-item-title v-text="item.title" />
-        </v-list-item-content> </v-list-item
-      ><br /><br />
+        <h1 style="text-align: center">파이썬 고급</h1>
+        <v-divider></v-divider>
+        <v-list-item
+          v-for="(item, i) in items.advanced_python"
+          :key="i.toString() + 'advanced_python'"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content> </v-list-item
+        ><br /><br />
 
-      <h1 style="text-align: center">파이썬 고수</h1>
-      <v-divider></v-divider>
-      <v-list-item
-        v-for="(item, i) in items.python_specialist"
-        :key="i.toString() + 'python_specialist'"
-        :to="item.to"
-        router
-        exact
-      >
-        <v-list-item-action>
-          <v-icon>{{ item.icon }}</v-icon>
-        </v-list-item-action>
-        <v-list-item-content>
-          <v-list-item-title v-text="item.title" />
-        </v-list-item-content> </v-list-item
-      ><br /><br />
+        <h1 style="text-align: center">파이썬 고수</h1>
+        <v-divider></v-divider>
+        <v-list-item
+          v-for="(item, i) in items.python_specialist"
+          :key="i.toString() + 'python_specialist'"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content> </v-list-item
+        ><br /><br />
 
-      <h1 style="text-align: center">파이썬 고급</h1>
-      <v-divider></v-divider>
-      <v-list-item
-        v-for="(item, i) in items.master_python"
-        :key="i.toString() + 'master_python'"
-        :to="item.to"
-        router
-        exact
-      >
-        <v-list-item-action>
-          <v-icon>{{ item.icon }}</v-icon>
-        </v-list-item-action>
-        <v-list-item-content>
-          <v-list-item-title v-text="item.title" />
-        </v-list-item-content> </v-list-item
-      ><br /><br />
+        <h1 style="text-align: center">파이썬 고급</h1>
+        <v-divider></v-divider>
+        <v-list-item
+          v-for="(item, i) in items.master_python"
+          :key="i.toString() + 'master_python'"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content> </v-list-item
+        ><br /><br />
 
-      <h1 style="text-align: center">파이썬 신</h1>
-      <v-divider></v-divider>
-      <v-list-item
-        v-for="(item, i) in items.python_god"
-        :key="i.toString() + 'python_god'"
-        :to="item.to"
-        router
-        exact
-      >
-        <v-list-item-action>
-          <v-icon>{{ item.icon }}</v-icon>
-        </v-list-item-action>
-        <v-list-item-content>
-          <v-list-item-title v-text="item.title" />
-        </v-list-item-content> </v-list-item
-      ><br /><br />
+        <h1 style="text-align: center">파이썬 신</h1>
+        <v-divider></v-divider>
+        <v-list-item
+          v-for="(item, i) in items.python_god"
+          :key="i.toString() + 'python_god'"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content> </v-list-item
+        ><br /><br />
 
-      <h1 style="text-align: center">기타</h1>
-      <v-divider></v-divider>
-      <v-list-item
-        v-for="(item, i) in items.other"
-        :key="i.toString() + 'other'"
-        :to="item.to"
-        router
-        exact
-      >
-        <v-list-item-action>
-          <v-icon>{{ item.icon }}</v-icon>
-        </v-list-item-action>
-        <v-list-item-content>
-          <v-list-item-title v-text="item.title" />
-        </v-list-item-content>
-      </v-list-item>
+        <h1 style="text-align: center">기타</h1>
+        <v-divider></v-divider>
+        <v-list-item
+          v-for="(item, i) in items.other"
+          :key="i.toString() + 'other'"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
     </v-navigation-drawer>
 
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn icon @click.stop="miniVariant = !miniVariant">
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
       <v-btn icon @click.stop="clipped = !clipped">
         <v-icon>{{ clipped ? 'mdi-forwardburger' : 'mdi-backburger' }}</v-icon>
       </v-btn>
       <v-toolbar-title v-text="title" />
       <v-spacer />
       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
-        <v-icon>mdi-menu</v-icon>
+        <v-icon>mdi-web</v-icon>
       </v-btn>
     </v-app-bar>
 
@@ -185,12 +176,115 @@
       </v-container>
     </v-main>
 
-    <v-navigation-drawer v-model="rightDrawer" :right="right" temporary fixed>
-      <v-btn class="ma-2" color="primary" dark to="/">
-        파이썬
-        <v-icon dark right> mdi-language-python </v-icon>
-      </v-btn>
-    </v-navigation-drawer>
+    <v-navigation-drawer
+      v-model="rightDrawer"
+      :right="true"
+      :bottom="true"
+      width="70%"
+      temporary
+      fixed
+      style="padding: 10px; display: flex"
+      ><v-row>
+        <v-card class="mx-auto" max-width="350">
+          <v-img
+            class="white--text align-end"
+            height="200px"
+            src="https://miro.medium.com/max/6016/0*ocReqNnxsbtP8OtU"
+          >
+            <v-card-title>파이썬 프로그래밍 언어</v-card-title>
+          </v-img>
+
+          <v-card-subtitle class="pb-0"> Python </v-card-subtitle>
+
+          <v-card-text class="text--primary">
+            <div>
+              파이썬은 대부분 초보자들이 처음으로 배우는 코딩 언어입니다. 매우
+              배우기 쉽습니다!
+            </div>
+          </v-card-text>
+
+          <v-card-actions>
+            <NuxtLink to="/">
+              <v-btn class="ma-2" color="primary" dark>
+                파이썬
+                <v-icon dark right> mdi-language-python </v-icon>
+              </v-btn>
+            </NuxtLink>
+            <NuxtLink to="/quiz">
+              <v-btn class="ma-2" color="primary" dark>
+                퀴즈
+                <v-icon dark right> mdi-chat-question </v-icon>
+              </v-btn>
+            </NuxtLink>
+            <NuxtLink to="/video">
+              <v-btn class="ma-2" color="primary" dark>
+                비디오
+                <v-icon dark right> mdi-youtube </v-icon>
+              </v-btn>
+            </NuxtLink>
+          </v-card-actions>
+        </v-card>
+
+        <v-card class="mx-auto" max-width="350">
+          <v-img
+            class="white--text align-end"
+            height="200px"
+            src="https://i.stack.imgur.com/mWPIq.png"
+          >
+            <v-card-title>C/C++ 프로그래밍 언어</v-card-title>
+          </v-img>
+
+          <v-card-subtitle class="pb-0"> C/C++ </v-card-subtitle>
+
+          <v-card-text class="text--primary">
+            <div>
+              C/C++는 매우 좋지 않는 환경에서도 잘 실행이 될 수 있는 매우 빠른
+              코딩 언어입니다.
+            </div>
+          </v-card-text>
+
+          <v-card-actions>
+            <a href="https://coding-insight.com/c-cpp/korean/c.html">
+              <v-btn class="ma-2" color="primary" dark>
+                <v-icon dark right> mdi-language-c </v-icon>
+              </v-btn>
+            </a>
+            <a href="https://coding-insight.com/c-cpp/korean/cpp.html">
+              <v-btn class="ma-2" color="primary" dark>
+                <v-icon dark right> mdi-language-cpp </v-icon></v-btn
+              >
+            </a>
+          </v-card-actions>
+        </v-card>
+
+        <v-card class="mx-auto" max-width="350">
+          <v-img
+            class="white--text align-end"
+            height="200px"
+            src="https://i2.wp.com/www.thecoderworld.com/wp-content/uploads/2020/04/Rust-Based-Programming-Language.png?fit=1280%2C720&ssl=1"
+          >
+            <v-card-title>Rust 프로그래밍 언어</v-card-title>
+          </v-img>
+
+          <v-card-subtitle class="pb-0"> Rust </v-card-subtitle>
+
+          <v-card-text class="text--primary">
+            <div>
+              Rust 프로그래밍 언어는 매우 안정적이면서 C 언어처럼 빠릅니다!
+            </div>
+          </v-card-text>
+
+          <v-card-actions>
+            <a href="https://coding-insight.com/c-cpp/korean/c.html">
+              <v-btn class="ma-2" color="primary" dark>
+                Rust
+                <v-icon dark right> mdi-language-rust </v-icon>
+              </v-btn>
+            </a>
+          </v-card-actions>
+        </v-card>
+      </v-row></v-navigation-drawer
+    >
 
     <v-footer
       :absolute="false"
@@ -220,12 +314,12 @@ export default {
       items: {
         start_python: [
           {
-            icon: 'mdi-source-commit-start',
+            icon: 'mdi-map-marker',
             title: '시작',
             to: '/',
           },
           {
-            icon: 'mdi-download',
+            icon: 'mdi-folder-download',
             title: '설치',
             to: '/install',
           },
@@ -235,7 +329,7 @@ export default {
             to: '/vscode',
           },
           {
-            icon: 'mdi-audio-input-rca',
+            icon: 'mdi-video-input-component',
             title: '입출력',
             to: '/io',
           },
@@ -245,8 +339,8 @@ export default {
             to: '/variable',
           },
           {
-            icon: 'mdi-lipstick',
-            title: '매드립스 만들기',
+            icon: 'mdi-emoticon-lol',
+            title: '매드립스',
             to: '/madlib',
           },
 
@@ -256,27 +350,27 @@ export default {
             to: '/datatype',
           },
           {
-            icon: 'mdi-message',
+            icon: 'mdi-comment-quote',
             title: '주석',
             to: '/comment',
           },
           {
-            icon: 'mdi-code-string',
+            icon: 'mdi-alphabetical',
             title: '문자',
             to: '/string',
           },
           {
-            icon: 'mdi-function-variant',
+            icon: 'mdi-sort-alphabetical-ascending',
             title: '문자 메서드 1',
             to: '/stringmethod1',
           },
           {
-            icon: 'mdi-function-variant',
+            icon: 'mdi-sort-alphabetical-descending',
             title: '문자 메서드 2',
             to: '/stringmethod2',
           },
           {
-            icon: 'mdi-door-sliding-lock',
+            icon: 'mdi-exit-run',
             title: '이스케이프 문자',
             to: '/escapechar',
           },
@@ -284,27 +378,27 @@ export default {
 
         python_basics: [
           {
-            icon: 'mdi-ab-testing',
+            icon: 'mdi-book-alphabet',
             title: '아스키',
             to: '/ascii',
           },
           {
-            icon: 'mdi-numeric-2',
+            icon: 'mdi-nintendo-switch',
             title: '분리언',
             to: '/boolean',
           },
           {
-            icon: 'mdi-counter',
+            icon: 'mdi-numeric',
             title: '숫자',
             to: '/number',
           },
           {
-            icon: 'mdi-plus-minus',
+            icon: 'mdi-plus-minus-variant',
             title: '연산자',
             to: '/operator',
           },
           {
-            icon: 'mdi-format-list-numbered',
+            icon: 'mdi-pi',
             title: '숫자 종류',
             to: '/numtype',
           },
@@ -314,7 +408,7 @@ export default {
             to: '/calc',
           },
           {
-            icon: 'mdi-code-parentheses-box',
+            icon: 'mdi-numeric-9-plus-box-multiple',
             title: '숫자 메서드',
             to: '/nummethod',
           },
@@ -329,7 +423,7 @@ export default {
             to: '/listmethod1',
           },
           {
-            icon: 'mdi-playlist-plus',
+            icon: 'mdi-playlist-minus',
             title: '리스트 메서드 2',
             to: '/listmethod2',
           },
@@ -337,32 +431,32 @@ export default {
 
         python_beginner: [
           {
-            icon: 'mdi-book-alphabet',
+            icon: 'mdi-notebook-multiple',
             title: '딕셔너리',
             to: '/dictionary',
           },
           {
-            icon: 'mdi-book-cog-outline',
+            icon: 'mdi-notebook-plus',
             title: '딕셔너리 메서드',
             to: '/dictionarymethod',
           },
           {
-            icon: 'mdi-application-parentheses-outline',
+            icon: 'mdi-view-list',
             title: '튜플',
             to: '/tuple',
           },
           {
-            icon: 'mdi-application-braces-outline',
+            icon: 'mdi-code-braces',
             title: '집합',
             to: '/set',
           },
           {
-            icon: 'mdi-application-cog-outline',
+            icon: 'mdi-code-braces-box',
             title: '집합 메서드',
             to: '/setmethod',
           },
           {
-            icon: 'mdi-car-shift-pattern',
+            icon: 'mdi-diversify',
             title: '조건문',
             to: '/if',
           },
@@ -382,7 +476,7 @@ export default {
             to: '/function',
           },
           {
-            icon: 'mdi-account-details',
+            icon: 'mdi-function-variant',
             title: '함수 (자세히)',
             to: '/functionhard',
           },
@@ -395,12 +489,12 @@ export default {
 
         intermediate_python: [
           {
-            icon: 'mdi-database-settings-outline',
+            icon: 'mdi-database-cog',
             title: '타입 지정',
             to: '/type',
           },
           {
-            icon: 'mdi-incognito-circle',
+            icon: 'mdi-incognito',
             title: '익명함수',
             to: '/anonymousfunction',
           },
@@ -410,17 +504,17 @@ export default {
             to: '/for',
           },
           {
-            icon: 'mdi-fast-forward-60',
+            icon: 'mdi-skip-forward',
             title: '반복문 종류',
             to: '/fortype',
           },
           {
-            icon: 'mdi-fast-forward-30',
+            icon: 'mdi-rewind',
             title: '반복문 함수',
             to: '/forfunction',
           },
           {
-            icon: 'mdi-directions-fork',
+            icon: 'mdi-sync',
             title: 'While 반복문',
             to: '/while',
           },
@@ -430,6 +524,7 @@ export default {
             to: '/oneliner',
           },
           {
+            //TODO
             icon: 'mdi-dots-horizontal',
             title: '다양한 함수',
             to: '/etcfunction',
@@ -440,12 +535,12 @@ export default {
             to: '/module',
           },
           {
-            icon: 'mdi-package-variant',
+            icon: 'mdi-gift',
             title: '모듈 마스터',
             to: '/modulemaster',
           },
           {
-            icon: 'mdi-camera-timer',
+            icon: 'mdi-package-variant',
             title: '파이썬 모듈',
             to: '/pythonmodule',
           },
@@ -455,7 +550,7 @@ export default {
             to: '/date',
           },
           {
-            icon: 'mdi-dice-1',
+            icon: 'mdi-dice-multiple',
             title: '랜덤',
             to: '/random',
           },
@@ -468,17 +563,17 @@ export default {
 
         advanced_python: [
           {
-            icon: 'mdi-google-classroom',
+            icon: 'mdi-map',
             title: '클래스',
             to: '/class',
           },
           {
-            icon: 'mdi-microsoft-windows-classic',
+            icon: 'mdi-map-outline',
             title: '클래스 메서드',
             to: '/classmethod',
           },
           {
-            icon: 'mdi-android-studio',
+            icon: 'mdi-math-integral',
             title: '수학 (통계)',
             to: '/math',
           },
@@ -498,12 +593,12 @@ export default {
             to: '/filewriting',
           },
           {
-            icon: 'mdi-barcode',
+            icon: 'mdi-file-tree',
             title: '파일 만들기, 삭제하기, encoding',
             to: '/etcfile',
           },
           {
-            icon: 'mdi-account-check',
+            icon: 'mdi-file-sign',
             title: '컨텍스트 매니저',
             to: '/contextmanager',
           },
@@ -513,12 +608,12 @@ export default {
             to: '/datachange',
           },
           {
-            icon: 'mdi-application-cog-outline',
+            icon: 'mdi-code-tags',
             title: '문자열을 코드로',
             to: '/stringascode',
           },
           {
-            icon: 'mdi-tray-arrow-down',
+            icon: 'mdi-progress-download',
             title: 'PIP',
             to: '/pip',
           },
@@ -531,7 +626,7 @@ export default {
             to: '/json',
           },
           {
-            icon: 'mdi-arrange-bring-to-front',
+            icon: 'mdi-clipboard',
             title: '정렬',
             to: '/array',
           },
@@ -541,7 +636,7 @@ export default {
             to: '/array_type',
           },
           {
-            icon: 'mdi-format-list-bulleted-type',
+            icon: 'mdi-clipboard-pulse',
             title: '정렬 모양',
             to: '/array_shape',
           },
@@ -551,17 +646,17 @@ export default {
             to: '/error',
           },
           {
-            icon: 'mdi-alert-circle-outline',
+            icon: 'mdi-water-boiler-alert',
             title: '에러',
             to: '/error2',
           },
           {
-            icon: 'mdi-post',
+            icon: 'mdi-pulse',
             title: '로깅',
             to: '/logging',
           },
           {
-            icon: 'mdi-chart-gantt',
+            icon: 'mdi-filter',
             title: 'Map, Reduce, Filter',
             to: '/mapandreduceandfilter',
           },
@@ -571,12 +666,12 @@ export default {
             to: '/decorator',
           },
           {
-            icon: 'mdi-string-lights-off',
+            icon: 'mdi-ornament',
             title: '나만의 데코레이터',
             to: '/mydecorator',
           },
           {
-            icon: 'mdi-language-python',
+            icon: 'mdi-wrench-outline',
             title: '파이썬 데코레이터',
             to: '/pythondecorator',
           },
@@ -589,12 +684,12 @@ export default {
             to: '/newline',
           },
           {
-            icon: 'mdi-sync-alert',
+            icon: 'mdi-sync-off',
             title: '비동기',
             to: '/beedongee',
           },
           {
-            icon: 'mdi-cog-sync',
+            icon: 'mdi-sync',
             title: 'asyncio',
             to: '/asyncio',
           },
@@ -619,60 +714,60 @@ export default {
             to: '/threadmethod',
           },
           {
-            icon: 'mdi-scoreboard',
+            icon: 'mdi-desktop-classic',
             title: '멀티프로세싱',
             to: '/multiprocessing',
           },
           {
-            icon: 'mdi-countertop-outline',
+            icon: 'mdi-account-question',
             title: '카운터',
             to: '/counter',
           },
           {
-            icon: 'mdi-frequently-asked-questions',
+            icon: 'mdi-hand-wave',
             title: '리퀘스트',
             to: '/request',
           },
           {
-            icon: 'mdi-bottle-tonic-outline',
+            icon: 'mdi-hand-coin',
             title: '리퀘스트 메서드',
             to: '/requestmethod',
           },
           {
-            icon: 'mdi-lightning-bolt',
+            icon: 'mdi-puzzle',
             title: '던더메서드',
             to: '/dundermethod',
           },
           {
-            icon: 'mdi-lightning-bolt-circle',
+            icon: 'mdi-puzzle-plus',
             title: '추가 던더메서드',
             to: '/additionaldundermethod',
           },
           {
-            icon: 'mdi-weather-lightning-rainy',
+            icon: 'mdi-puzzle-star',
             title: '기타 던더메서드',
             to: '/etcdundermethod',
           },
           {
-            icon: 'mdi-cash-register',
+            icon: 'mdi-lan-pending',
             title: 'atexit',
             to: '/atexit',
           },
           {
-            icon: 'mdi-map-marker-path',
-            title: 'coroutine',
+            icon: 'mdi-transit-connection-variant',
+            title: '코루틴',
             to: '/coroutine',
           },
         ],
 
         python_god: [
           {
-            icon: 'mdi-stack-overflow',
+            icon: 'mdi-email-alert',
             title: '스펨 이메일',
             to: '/spam',
           },
           {
-            icon: 'mdi-magnify-plus-outline',
+            icon: 'mdi-video-box',
             title: '자동 줌',
             to: '/autozoom',
           },
@@ -682,17 +777,17 @@ export default {
             to: '/keyboard',
           },
           {
-            icon: 'mdi-chart-scatter-plot',
+            icon: 'mdi-chart-bar-stacked',
             title: 'Matplotlib',
             to: '/matplotlib',
           },
           {
-            icon: 'mdi-mouse',
+            icon: 'mdi-mouse-bluetooth',
             title: '마우스',
             to: '/mouse',
           },
           {
-            icon: 'mdi-turtle',
+            icon: 'mdi-tortoise',
             title: '터틀',
             to: '/turtle',
           },
@@ -702,7 +797,7 @@ export default {
             to: '/pandas',
           },
           {
-            icon: 'mdi-account-voice',
+            icon: 'mdi-monitor-speaker',
             title: 'gTTS',
             to: '/gtts',
           },
@@ -710,26 +805,24 @@ export default {
 
         other: [
           {
-            icon: 'mdi-map-marker-question',
+            icon: 'mdi-head-question',
             title: '퀴즈!',
             to: '/quiz',
           },
           {
-            icon: 'mdi-file-video',
+            icon: 'mdi-video-marker',
             title: '비디오 모음',
             to: '/video',
           },
           {
-            icon: 'mdi-check-all',
+            icon: 'mdi-checkbox-multiple-marked-circle-outline',
             title: '끝?',
             to: '/finished',
           },
         ],
       },
-      miniVariant: false,
-      right: true,
       rightDrawer: false,
-      title: '파이썬',
+      title: '파이썬 프로그래밍 언어',
     }
   },
   mounted() {

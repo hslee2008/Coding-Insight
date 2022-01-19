@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display:flex;padding:10px;background-color: #142a66;border-radius: 5px;">
+    <div style="display:flex;padding:10px;background-color: #142a66;border-radius: 5px;" class="img-div">
       <div>
         <h1>리퀘스트란?</h1>
         <p>

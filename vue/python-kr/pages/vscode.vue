@@ -94,7 +94,7 @@
 
     <QuadSpace></QuadSpace>
 
-    <div style="display: flex; justify-content: center">
+    <div style="display: flex; justify-content: center" class="img-div">
       <div>
         <h1>VSCode에서 파이썬 프로그래밍하기</h1>
         <p>1. 파이썬 코드를 저장하기 위한 폴더가 필요합니다.</p>
@@ -183,7 +183,7 @@
           알려줍니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="v-img-fluid"

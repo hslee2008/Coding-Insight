@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div class="d-flex img-div">
+      <div class="m-auto">
         <h1>스레드란?</h1>
         <p>
           설명할 것이 조금 많습니다.<br /><br />
@@ -21,7 +21,7 @@
           실행할 수 있습니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

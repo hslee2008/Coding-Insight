@@ -2,7 +2,7 @@
    <div>
       <br />
 
-      <div style="display: flex;" class="img-div">
+      <div class="d-flex img-div">
          <div class="margin: 5px;">
             <h1>연산자란?</h1>
             <p>

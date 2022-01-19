@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div class="d-flex img-div">
       <div>
         <h1>에러</h1>
         <p>
@@ -12,7 +12,7 @@
           제거하거나 무시할 수 있습니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

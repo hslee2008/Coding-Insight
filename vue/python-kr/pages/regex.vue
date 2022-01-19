@@ -10,8 +10,9 @@
         color: black;
         border-radius: 5px;
       "
+      class="img-div"
     >
-      <div style="margin: auto">
+      <div class="m-auto">
         <h1>정규식이란</h1>
         <p>
           정규식은 프로그래밍에서 특정한 규칙을 가진 문자열의 집합을
@@ -23,7 +24,7 @@
           <code> import re #영어로 Regular Expression입니다. (re) </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

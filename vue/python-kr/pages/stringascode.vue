@@ -3,7 +3,7 @@
     <br />
 
     <div
-      class="d-flex"
+      class="d-flex img-div"
       style="background-color: #313131; padding: 10px; border-radius: 5px"
     >
       <div>
@@ -16,7 +16,7 @@
           예를 들면, 사용자가 터미널에 입력한 문자를 코드처럼 실행이 가능합니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

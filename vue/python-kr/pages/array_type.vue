@@ -9,6 +9,7 @@
         padding: 10px;
         border-radius: 5px;
       "
+      class="img-div"
     >
       <div>
         <h1>정렬이란?</h1>
@@ -25,7 +26,7 @@
           3. 정렬은 숫자를 저장하는 데이터 종류로 더 편합니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

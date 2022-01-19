@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div class="d-flex img-div">
       <div style="margin: auto; padding: 10px">
         <h1>판다스</h1>
         <p>
@@ -147,7 +147,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="m-auto">
         <img
           alt="python-factory-picture"
           class="img-fluid"

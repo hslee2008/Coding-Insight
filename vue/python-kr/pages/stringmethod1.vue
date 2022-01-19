@@ -107,8 +107,8 @@
 
       <QuadSpace></QuadSpace>
 
-      <div style="display: flex" class="img-div">
-         <div style="margin: auto">
+      <div class="d-flex img-div">
+         <div class="m-auto">
             <h1>문자에서 문자의 인덱스</h1>
             <p>
                index() 메서드를 사용하여 문자 안에 또 다른 문자가 존재하는지 알 수
@@ -117,7 +117,7 @@
                만일 문자열이 문자 안에 없다면 에러가 생깁니다.
             </p>
          </div>
-         <div style="margin: auto">
+         <div class="m-auto">
             <v-img
                alt="python-factory-picture"
                class="img-fluid"
@@ -129,8 +129,8 @@
 
       <QuadSpace></QuadSpace>
 
-      <div style="display: flex" class="img-div">
-         <div style="margin: auto">
+      <div class="d-flex img-div">
+         <div class="m-auto">
             <h1>파이썬 문자 센터링</h1>
             <p>
                파이썬에서 센터링이란 문자를 ' '로 둘러싸는 것을 뜻합니다. ' '로

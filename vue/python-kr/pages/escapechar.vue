@@ -49,8 +49,8 @@
 
     <QuadSpace></QuadSpace>
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div class="d-flex img-div">
+      <div class="m-auto">
         <h1>\'와 \"</h1>
         <p>
           \'와 \"는 각각 ', "와 충돌하지 않게 도와주는 문자입니다.<br /><br />
@@ -83,8 +83,8 @@
 
     <QuadSpace></QuadSpace>
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div class="d-flex img-div">
+      <div class="m-auto">
         <h1>\n</h1>
         <p>
           영어로 새로운 줄은 newline이라고 합니다. \n는 엔터와 같습니다.<br /><br />
