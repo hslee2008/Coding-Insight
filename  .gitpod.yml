@@ -5,8 +5,7 @@ tasks:
     openMode: split-right
   - name: 'React Native'
     init: cd app/Python-Factory && npm install
-    command: cd app/Python-Factory
-
+    command: cd app/Python-Factory && npm run start
 ports:
   - port: 8000
     onOpen: open-preview
@@ -17,3 +16,14 @@ vscode:
 github:
   prebuild:
     master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addComment: true
+    addCheck: false
+    addBadge: true
+
+gitConfig:
+  user.email: "hyunseunglee2008@gmail.com"
+  user.name: "HyunseungLee-Travis"
+  alias.acp: "!f() { git pull && git add -all && git commit -a -m \"$@\" && git push; };"
