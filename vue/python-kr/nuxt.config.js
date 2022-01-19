@@ -1,8 +1,9 @@
-import colors from 'vuetify/es5/util/colors'
+import colors from 'vuetify/es5/util/colors';
 
 export default {
   generate: {
     dir: '../../public_html/python/korean',
+    devtools: true
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -81,13 +82,13 @@ export default {
   css: ['./assets/css/global.css'],
 
   // https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/vue-gtag.js'],
 
   // https://go.nuxtjs.dev/config-components
   components: true,
-
+  
   // https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify'],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify', '@nuxt/image'],
 
   // https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
@@ -171,5 +172,13 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
-}
+  build: {
+    devtools: true,
+    optmizeCSS: true,
+    splitChunks: {
+      layouts: true,
+      pages: true,
+      commons: true,
+    },
+  },
+};

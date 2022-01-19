@@ -207,7 +207,7 @@
 
     <QuadSpace></QuadSpace>
 
-    <BeforeNextButton flink="index" slink="vscode"></BeforeNextButton>
+    <BeforeNextButton flink="/" slink="vscode"></BeforeNextButton>
 
     <QuadSpace></QuadSpace>
   </div>
