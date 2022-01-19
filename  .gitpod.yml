@@ -4,7 +4,7 @@ tasks:
     command: cd vue/python-kr && npm run build && npm run generate && npm run dev
     openMode: split-right
   - name: 'React Native'
-    init: cd app/Python-Factory && npm install
+    init: npm install -g expo-cli && cd app/Python-Factory && npm install
     command: cd app/Python-Factory && npm run start
 ports:
   - port: 8000
