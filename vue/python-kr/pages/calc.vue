@@ -7,7 +7,7 @@
     <QuadSpace></QuadSpace>
 
     <div style="display: flex; justify-content: center" class="img-div">
-      <div class="m-auto">
+      <div class="mx-auto">
         <h1>덧셈 계산기 만들기</h1>
         <p>
           이번 시간에는 저번에 배운 숫자와 연산자를 사용해 간단한 덧셈 계산기를
@@ -34,7 +34,7 @@
           부분을 공부하세요.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -50,7 +50,7 @@
 
     <QuadSpace></QuadSpace>
 
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>알고리즘</h1>
         <p>
@@ -65,7 +65,7 @@
           않겠습니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

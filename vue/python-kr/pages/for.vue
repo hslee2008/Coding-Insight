@@ -2,15 +2,15 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>for 반복문이란?</h1>
         <p>
           for 반복문이란 반복되는 작업을 매우 효율적이게 맡을 수 있는
           반복문입니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -111,7 +111,7 @@
     <QuadSpace></QuadSpace>
 
     <div>
-      <div style="padding: 10px; border-radius: 5px; background-color: dimgrey">
+      <div style="padding: 10px; border-radius: 5px">
         <div>
           <h1>팁!</h1>
           <p>
@@ -163,7 +163,10 @@
 
     <QuadSpace></QuadSpace>
 
-    <BeforeNextButton flink="anonymousfunction" slink="fortype"></BeforeNextButton>
+    <BeforeNextButton
+      flink="anonymousfunction"
+      slink="fortype"
+    ></BeforeNextButton>
 
     <QuadSpace></QuadSpace>
   </div>

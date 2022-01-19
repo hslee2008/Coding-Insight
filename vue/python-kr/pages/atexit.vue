@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto; padding: 10px">
         <h1>파이썬 함수 등록</h1>
         <p>
@@ -18,7 +18,7 @@
           그래서 atexit 모듈이 존재합니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

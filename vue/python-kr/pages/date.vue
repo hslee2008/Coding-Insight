@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>날짜 모듈 사용 방법?</h1>
         <p>
           날짜는 모듈이어서 먼저 가지고 와야 합니다.<br /><br />
@@ -11,7 +11,7 @@
           <code> import datetime </code>
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

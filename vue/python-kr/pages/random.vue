@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>무작위의 정의</h1>
         <p>
           우리는 살면서 '무작위'라는 단어를 많이 접했습니다.<br /><br />
@@ -12,7 +12,7 @@
           있습니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

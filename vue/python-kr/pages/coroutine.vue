@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>코루틴 만들기</h1>
         <p>
           아주 아주 오래전에 for 반복문에서 yield 키워드에 대하여 배웠습니다.<br /><br />
@@ -10,7 +10,7 @@
           만들 수 있게 도와줍니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

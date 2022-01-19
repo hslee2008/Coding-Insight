@@ -1,7 +1,8 @@
 <template>
     <div>
       <br>
-      <div class="d-flex img-div">
+
+      <div style="display: flex" class="img-div">
         <div>
           <h1>문자란?</h1>
           <p>
@@ -12,7 +13,7 @@
             파이썬에서 문자란 '' 또는 "" 안에 넣은 데이터 형태를 뜻합니다. 그래서 숫자가 따옴표 안에 있어도 문자라고 여겨집니다.<br /><br />
           </p>
         </div>
-        <div style="margin: auto;">
+        <div style="display: flex; justify-content: center;">
           <v-img alt="python-factory-picture" class="img-fluid"
             src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
             max-width="300px" />
@@ -36,7 +37,7 @@
 
       <QuadSpace></QuadSpace>
 
-      <div class="d-flex img-div">
+      <div style="display: flex" class="img-div">
         <div style="margin: auto;">
           <h1>파이썬에서 문자 만들기</h1>
           <p>

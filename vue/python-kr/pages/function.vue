@@ -3,16 +3,10 @@
     <br />
     <div>
       <div
-        style="
-          display: flex;
-          background-color: #ffde59;
-          color: black;
-          padding: 10px;
-          border-radius: 5px;
-        "
+        style="display: flex; padding: 10px; border-radius: 5px"
         class="img-div"
       >
-        <div class="m-auto">
+        <div class="mx-auto">
           <h1>함수란?</h1>
           <p>
             코딩에서 함수의 정의란 코드의 모음을 뜻합니다. 함수를 사용하면 매우
@@ -20,7 +14,7 @@
             해주는 도구입니다.
           </p>
         </div>
-        <div class="m-auto">
+        <div class="mx-auto">
           <v-img
             alt="python-factory-picture"
             class="img-fluid"

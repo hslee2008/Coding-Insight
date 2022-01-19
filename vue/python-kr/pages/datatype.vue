@@ -1,7 +1,7 @@
 <template>
   <div>
     <br />
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>데이터 형태란?</h1>
         <p>
@@ -16,7 +16,7 @@
           <code> weather = "대체로 흐림" </code>
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -46,7 +46,7 @@
 
     <QuadSpace></QuadSpace>
 
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto; padding-right: 5px">
         <h1>데이터 형태 알기</h1>
         <p>
@@ -107,7 +107,7 @@
         </p>
       </div>
 
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

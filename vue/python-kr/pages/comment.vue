@@ -1,8 +1,9 @@
 <template>
   <div>
     <br />
+
     <div style="display: flex; margin: auto" class="img-div">
-      <div>
+      <div style="margin: auto">
         <h1>주석이란?</h1>
         <p>
           온라인 수업시간에 '주석 달기'라는 버튼을 사용해 보신적이 있나요?<br /><br />
@@ -14,7 +15,7 @@
           있습니다.<br /><br />
         </p>
       </div>
-      <div class="m-auto">
+      <div class="text-center">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

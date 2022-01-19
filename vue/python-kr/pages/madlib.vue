@@ -17,8 +17,8 @@
 
     <QuadSpace></QuadSpace>
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>매드립스란?</h1>
         <p>
           매드립스는 빈칸이 있는 곳에 단어들을 넣으며 문장을 만들어 나가는
@@ -27,7 +27,7 @@
           파이썬을 사용해서 매드립을 만들어 보겠습니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -43,8 +43,8 @@
 
     <QuadSpace></QuadSpace>
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>알고리즘</h1>
         <p>
           어떻게 매드립스 게임을 만들지 알아보겠습니다.<br /><br />
@@ -55,7 +55,7 @@
           3. 마지막으로 그 입력을 빈칸에 넣어 문장을 완성하고 출력할 것입니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

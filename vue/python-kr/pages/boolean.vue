@@ -1,7 +1,7 @@
 <template>
   <div>
     <br />
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>분리언란?</h1>
         <p>
@@ -25,7 +25,7 @@
           <code> a = 5 > 6 </code>
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -41,8 +41,8 @@
 
     <QuadSpace></QuadSpace>
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>분리언 - 주의할 점</h1>
         <p>
           파이썬에서는 '옳다면 True라고 출력되고 옳지 않다면 False'라고

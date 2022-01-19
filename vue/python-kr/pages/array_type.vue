@@ -3,12 +3,7 @@
     <br />
 
     <div
-      style="
-        background-color: #5db79e;
-        display: flex;
-        padding: 10px;
-        border-radius: 5px;
-      "
+      style="display: flex; padding: 10px; border-radius: 5px"
       class="img-div"
     >
       <div>
@@ -26,7 +21,7 @@
           3. 정렬은 숫자를 저장하는 데이터 종류로 더 편합니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

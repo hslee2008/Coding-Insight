@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div style="display: flex; background-color: #101010" class="img-div">
+    <br />
+
+    <div style="display: flex" class="img-div">
       <div style="display: flex; justify-content: center">
         <v-img
           alt="python-factory-picture"
@@ -44,7 +46,7 @@
             있습니다.
           </p>
         </div>
-        <div class="text-center m-auto">
+        <div class="text-center mx-auto">
           <v-img
             alt="python-factory-picture"
             class="img-fluid"
@@ -75,7 +77,7 @@
           </p>
         </div>
       </div>
-      <div class="text-center m-auto">
+      <div class="text-center mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -112,7 +114,7 @@
 
     <br /><br />
 
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div>
         <div>
           <h1>파이썬의 이름은 어디에서 유래했을까요?</h1>
@@ -131,7 +133,7 @@
           같나요?<br /><br />
         </p>
       </div>
-      <div class="text-center m-auto img-div">
+      <div class="text-center mx-auto img-div">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

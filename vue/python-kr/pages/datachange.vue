@@ -114,7 +114,7 @@
 
     <v-data-table
       :headers="headers"
-      :items="desserts"
+      :items="items"
       :items-per-page="10"
       class="elevation-1"
     ></v-data-table>
@@ -122,7 +122,7 @@
     <QuadSpace></QuadSpace>
 
     <BeforeNextButton flink="contextmanager" slink="stringascode"></BeforeNextButton>
-    
+
     <QuadSpace></QuadSpace>
   </div>
 </template>
@@ -142,7 +142,7 @@ export default {
         { text: '바꾸는 방법', value: 'how' },
         { text: '예시', value: 'example' },
       ],
-      desserts: [
+      items: [
         {
           name: '리스트',
           how: 'list() 또는 slpit()',

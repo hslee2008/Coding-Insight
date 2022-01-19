@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
-      <div style="margin: auto;">
+    <div style="display: flex" class="img-div">
+      <div style="display: flex; justify-content: center;">
         <v-img alt="python-factory-picture" class="img-fluid" max-width="400px"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU78Hj6DPZq_rVh1dyNTc4Lwt_Z05Vr-SRA&usqp=CAU" />
       </div>

@@ -3,42 +3,59 @@
     <div>
       <h1>파이썬 여행 끝!!!</h1>
       <p>하지만 아직 더 남아 있는 여행이 있습니다!</p>
-      <ul>
-        <img
-          alt="python-factory-picture"
-          src="/global/favicon.ico"
-          class="py-menu-image"
-          width="50"
-          style="float: right; margin: 10px"
-        />
-        <li>
-          <a href="https://www.tensorflow.org/api_docs">텐서플로우</a>
-          - 머신 러닝
-        </li>
-        <li>
-          <a href="https://www.pygame.org/docs/">파이게임</a> - 게임 만들기
-        </li>
-        <li>
-          <a href="https://docs.djangoproject.com/en/3.2/">장고</a>
-          - 웹사이트 만들기
-        </li>
-        <li>
-          <a href="https://flask.palletsprojects.com/en/2.0.x/">플레스크</a>
-          - 웹사이트 만들기
-        </li>
-        <li>
-          <a href="https://pytorch.org/docs/stable/index.html">파이토치</a>
-          - 딥러닝
-        </li>
-        <li>
-          <a href="https://opencv.org/">오픈cv</a> - 컴퓨터 사진 및 동영상
-          라이브 데이터 처리
-        </li>
-        <li>
-          <a href="https://www.javatpoint.com/python-tkinter">TKinter</a>
-          - GUI 라이브러리
-        </li>
-      </ul>
+
+      <v-data-table
+        :headers="headers"
+        :items="items"
+        :items-per-page="10"
+        class="elevation-1"
+      ></v-data-table>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      headers: [
+        {
+          text: '라이브러리/프레입워크',
+          align: 'start',
+          sortable: false,
+          value: 'name',
+        },
+        { text: '링크', value: 'link' },
+        { text: '사용 용도', value: 'topic' },
+      ],
+      items: [
+        {
+          name: '텐서플로우',
+          link: 'https://www.tensorflow.org/api_docs',
+          topic: '머신러닝 & 딥러닝',
+        },
+        {
+          name: '파이게임',
+          link: 'https://www.pygame.org/docs/',
+          topic: '게임 만들기',
+        },
+        {
+          name: '장고',
+          link: 'https://docs.djangoproject.com/en/3.2/',
+          topic: '웹사이트 만들기',
+        },
+        {
+          name: '오픈cv',
+          link: 'https://opencv.org',
+          topic: '동영상 & 사진 처리',
+        },
+        {
+          name: 'TKinter',
+          link: 'https://www.javatpoint.com/python-tkinter',
+          topic: 'GUI (컴퓨터 앱)',
+        },
+      ],
+    }
+  },
+}
+</script>

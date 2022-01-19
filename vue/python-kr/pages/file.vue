@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>파일 처리란?</h1>
         <p>
           파이썬에서는 파일을 만들고, 읽고, 쓰고, 지우는 것이 가능합니다.<br /><br />
@@ -12,7 +12,7 @@
           'open()'이라는 함수는 파일을 여는 메서드입니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -28,8 +28,8 @@
 
     <QuadSpace></QuadSpace>
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>파일 주소</h1>
         <p>
           파일 주소는 파일을 가지고 오는 데 매우 중요한 변수입니다.<br /><br />

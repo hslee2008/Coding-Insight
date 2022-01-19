@@ -1,8 +1,8 @@
 <template>
   <div>
     <br />
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>변수 - 숫자 선언 방법</h1>
         <p>
           숫자는 우리가 항상 사용하는 것입니다. '사과 2개', '책 3권' 등 다양한
@@ -17,7 +17,7 @@
           </code>
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

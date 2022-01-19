@@ -1,7 +1,7 @@
 <template>
   <div>
     <br />
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>변수란?</h1>
         <p>
@@ -13,7 +13,7 @@
           있습니다.<br /><br />
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -126,8 +126,8 @@
 
     <QuadSpace></QuadSpace>
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -155,7 +155,7 @@
 
     <QuadSpace></QuadSpace>
 
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>변수를 한번에 많이 선정하기</h1>
         <p>

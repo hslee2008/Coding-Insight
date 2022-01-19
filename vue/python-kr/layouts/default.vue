@@ -1,5 +1,7 @@
 <template>
-  <v-app light>
+  <v-app dark>
+    <Fab></Fab>
+    
     <v-navigation-drawer v-model="drawer" :clipped="clipped" fixed app>
       <v-list>
         <h1 class="text-center">파이썬 시작</h1>
@@ -13,7 +15,9 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{
+              !howMuchDoneQ(item.to) ? item.icon : 'mdi-check-decagram'
+            }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -30,7 +34,9 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{
+              !howMuchDoneQ(item.to) ? item.icon : 'mdi-check-decagram'
+            }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -47,7 +53,9 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{
+              !howMuchDoneQ(item.to) ? item.icon : 'mdi-check-decagram'
+            }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -64,7 +72,9 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{
+              !howMuchDoneQ(item.to) ? item.icon : 'mdi-check-decagram'
+            }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -81,7 +91,9 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{
+              !howMuchDoneQ(item.to) ? item.icon : 'mdi-check-decagram'
+            }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -98,7 +110,9 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{
+              !howMuchDoneQ(item.to) ? item.icon : 'mdi-check-decagram'
+            }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -115,7 +129,9 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{
+              !howMuchDoneQ(item.to) ? item.icon : 'mdi-check-decagram'
+            }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -132,7 +148,9 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{
+              !howMuchDoneQ(item.to) ? item.icon : 'mdi-check-decagram'
+            }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -149,7 +167,9 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{
+              !howMuchDoneQ(item.to) ? item.icon : 'mdi-check-decagram'
+            }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -165,6 +185,9 @@
       </v-btn>
       <v-toolbar-title v-text="title" />
       <v-spacer />
+      <v-btn icon @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark">
+        <v-icon>mdi-theme-light-dark</v-icon>
+      </v-btn>
       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
         <v-icon>mdi-web</v-icon>
       </v-btn>
@@ -834,6 +857,11 @@ export default {
     gtag('js', new Date())
 
     gtag('config', 'UA-209775586-1')
+  },
+  methods: {
+    howMuchDoneQ(checking) {
+      return false
+    },
   },
 }
 </script>

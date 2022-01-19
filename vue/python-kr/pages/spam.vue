@@ -2,15 +2,15 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>장난 이메일</h1>
         <p>
           이 프로젝트에서는 친구 또는 가족에게 장난으로 이메일을 보내는 방법을
           알아보겠습니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

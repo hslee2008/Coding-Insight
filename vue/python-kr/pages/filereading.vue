@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>파일 읽기란?</h1>
         <p>
@@ -20,7 +20,7 @@
           r은 'reading'의 약자입니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

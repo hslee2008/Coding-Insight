@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto;">
         <h1>통계란?</h1>
         <p>
@@ -11,7 +11,7 @@
           파이썬에서 통계는 statistics 모듈을 사용하여 쉽게 계산할 수 있습니다.
         </p>
       </div>
-      <div style="margin: auto;">
+      <div style="display: flex; justify-content: center;">
         <v-img alt="python-factory-picture" class="img-fluid"
           src="https://ih1.redbubble.net/image.455632594.5388/flat,550x550,075,f.u2.jpg" width="300px" />
       </div>

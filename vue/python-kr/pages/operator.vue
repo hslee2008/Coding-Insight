@@ -2,7 +2,7 @@
    <div>
       <br />
 
-      <div class="d-flex img-div">
+      <div style="display: flex" class="img-div">
          <div class="margin: 5px;">
             <h1>연산자란?</h1>
             <p>
@@ -11,7 +11,7 @@
                이 장에서는 파이썬에서 사용되고 알면 좋은 연산자에 대하여 배우겠습니다.
             </p>
          </div>
-         <div style="margin: auto;">
+         <div style="display: flex; justify-content: center;">
             <v-img alt="python-factory-picture" class="img-fluid"
                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAEJ9fzr3QpW7a9Ase_cE279O1pTyY4GZ2T4cXc7rXrugIqPf_586nsM-Ajo_Q0Qxuyxk&usqp=CAU"
                max-width="300px" />

@@ -3,16 +3,10 @@
     <br />
 
     <div
-      style="
-        display: flex;
-        color: black;
-        padding: 10px;
-        border-radius: 5px;
-        background-color: #ffe500;
-      "
+      style="display: flex; padding: 10px; border-radius: 5px"
       class="img-div"
     >
-      <div class="m-auto">
+      <div class="mx-auto">
         <h1>계승이란?</h1>
         <p>
           계승이란 무언가를 밑으로 물려주는 것을 뜻합니다.<br /><br />
@@ -20,7 +14,7 @@
           <mark>함수와 변수를 다른 클래스로 옮기는 작업</mark>을 뜻합니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

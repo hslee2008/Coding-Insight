@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>던더 메서드란?</h1>
         <p>
           클래스 시간에 __변수 이름 형태인 클래스 변수를 배웠습니다.<br /><br />
@@ -12,7 +12,7 @@
           이번 시간에는 다양한 던더 메서드에 대하여 배우겠습니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

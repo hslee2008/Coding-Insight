@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div style="display: flex">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>키보드</h1>
         <p>
           키보드를 제어해보겠습니다.<br /><br />
@@ -13,7 +13,7 @@
           <code>pip install keyboard</code>
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <img
           alt="python-factory-picture"
           class="img-fluid"

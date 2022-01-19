@@ -183,7 +183,7 @@
           알려줍니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="v-img-fluid"

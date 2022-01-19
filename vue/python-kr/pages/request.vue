@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display:flex;padding:10px;background-color: #142a66;border-radius: 5px;" class="img-div">
+    <div style="display:flex;padding:10px; border-radius: 5px;" class="img-div">
       <div>
         <h1>리퀘스트란?</h1>
         <p>
@@ -12,7 +12,7 @@
           예를 들어 온라인에 올려진 유명한 사람의 생일 JSON 파일을 파이썬 프로그램에서 가지고 와서 사용할 수 있습니다.
         </p>
       </div>
-      <div style="margin: auto;">
+      <div style="display: flex; justify-content: center;">
         <v-img alt="python-factory-picture" class="img-fluid"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxLF2l2sITXnde-o9OyhTjoPeWHCWLrC2Ry2-FlQVH-aDSQPE1kh02OMA1yT_Yeui3LM&usqp=CAU" />
       </div>

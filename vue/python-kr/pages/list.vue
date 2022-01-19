@@ -2,8 +2,8 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
-      <div class="m-auto">
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
         <h1>리스트란?</h1>
         <p>
           리스트는 한국어로 '순서'입니다.<br /><br />
@@ -13,7 +13,7 @@
           사용할 수 있습니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"
@@ -88,12 +88,7 @@
     <QuadSpace></QuadSpace>
 
     <div
-      style="
-        display: flex;
-        padding: 30px;
-        border-radius: 5px;
-        background-color: #4c4da0;
-      "
+      style="display: flex; padding: 30px; border-radius: 5px"
       class="img-div"
     >
       <div>
@@ -114,7 +109,7 @@
           기준으로 0이 곱해졌기 때문입니다.
         </p>
       </div>
-      <div class="m-auto">
+      <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
           class="img-fluid"

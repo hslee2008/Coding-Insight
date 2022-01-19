@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div class="d-flex img-div">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto; padding: 10px">
         <h1>딕셔너리란?</h1>
         <p>
