@@ -29,7 +29,8 @@
         "tool",
         "translation",
         "tutorial",
-        "video"
+        "video",
+        "ideas"
       ]
     },
     {
@@ -76,5 +77,6 @@
         "video"
       ]
     }
-  ]
+  ],
+  "skipCi": true
 }
