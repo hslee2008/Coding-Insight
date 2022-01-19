@@ -104,6 +104,11 @@ export default {
     height: '2px',
     continuous: true,
   },
+  loadingIndicator: {
+    name: 'pulse',
+    color: 'skyblue',
+    background: 'white',
+  },
 
   //  https://go.nuxtjs.dev/pwa
   pwa: {

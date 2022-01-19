@@ -22,90 +22,153 @@
 
     <QuadSpace></QuadSpace>
 
-    <div>
-      <div style="display: flex" class="img-div">
-        <div style="padding: 30px">
-          <h1>설치</h1>
-          <p>
-            1.
+    <div style="display: flex; flex-wrap: wrap; gap: 10px">
+      <div>
+        <v-list-item-title>파이썬 컴파일러 설치</v-list-item-title>
+        <v-stepper v-model="e6" vertical width="550px">
+          <v-stepper-step :complete="e6 > 1" step="1">
             <a
               href="https://www.python.org/downloads/"
               style="color: yellow; text-decoration: none"
-              >파이썬 사이트</a
+              target="_blank"
+              >파이썬 공식 사이트</a
             >
-            설치 페이지로 들어가기.<br /><br />
-            2. 노란색 버튼 'Download Python 3.10.0' 누르기<br /><br />
-            3. 새로운 설치 박스가 브라우저 밑에 생기는데 이를 클릭하기<br /><br />
+            설치 페이지로 들어가기
+          </v-stepper-step>
 
-            <v-img
-              alt="python-factory-picture"
-              class="img-fluid"
-              src="/img/다운로드.jpg"
-            /><br /><br />
+          <v-stepper-content step="1">
+            <v-card color="grey lighten-1" class="mb-12" height="200px">
+              <v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/python.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e6 = 2"> Continue </v-btn>
+          </v-stepper-content>
 
-            4. Add Python to Path 옵션을 클릭<br /><br />
-            5. Customize installation 버튼을 누르기<br /><br />
+          <v-stepper-step :complete="e6 > 2" step="2">
+            노란색 버튼 'Download Python 3.10.2' 누르기
+          </v-stepper-step>
 
-            <v-img
-              alt="python-factory-picture"
-              class="img-fluid"
-              src="/img/installnow.jpg"
-            /><br /><br />
+          <v-stepper-content step="2">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/button.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e6 = 3"> Continue </v-btn>
+          </v-stepper-content>
 
-            6. 모두 선택하고 Next 버튼을 누르기<br /><br />
+          <v-stepper-step :complete="e6 > 3" step="3">
+            새로운 설치 박스가 브라우저 밑에 생기는데 이를 클릭하기
+          </v-stepper-step>
 
-            <v-img
-              alt="python-factory-picture"
-              class="img-fluid"
-              src="/img/설치2.jpg"
-            /><br /><br />
+          <v-stepper-content step="3">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/다운로드.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e6 = 4"> Continue </v-btn>
+          </v-stepper-content>
 
-            7. 1부터 5번째 옵션을 선택하기<br /><br />
-            8. Install 버튼 누르기<br /><br />
+          <v-stepper-step :complete="e6 > 4" step="4">
+            Add Python to Path 옵션을 클릭 & Customize installation 버튼을
+            누르기
+          </v-stepper-step>
+          <v-stepper-content step="4">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/installnow.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e6 = 5"> Continue </v-btn>
+          </v-stepper-content>
 
-            <v-img
-              alt="python-factory-picture"
-              class="img-fluid"
-              src="/img/adopt.jpg"
-            /><br /><br />
+          <v-stepper-step :complete="e6 > 5" step="5">
+            모두 선택하고 Next 버튼을 누르기
+          </v-stepper-step>
+          <v-stepper-content step="5">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/설치2.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e6 = 6"> Continue </v-btn>
+          </v-stepper-content>
 
-            9. Close 버튼을 눌러주세요.
-          </p>
-        </div>
-        <div style="padding: 30px">
-          <h1>사용 방법</h1>
-          <p>
-            저희는 파이썬의 IDLE이라는 편집기를 사용하겠습니다.<br /><br />
+          <v-stepper-step :complete="e6 > 6" step="6">
+            1부터 5번째 옵션을 선택하기 & Install 버튼 누르기
+          </v-stepper-step>
+          <v-stepper-content step="6">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/adopt.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e6 = 7"> Continue </v-btn>
+          </v-stepper-content>
 
-            먼저 파이썬의 IDLE을 이용하려면 앱을 찾고 실행을 해야 합니다.<br /><br />
+          <v-stepper-step :complete="e6 > 7" step="7">
+            Close 버튼을 눌러주세요.
+          </v-stepper-step>
+        </v-stepper>
+      </div>
 
+      <br /><br />
+
+      <div>
+        <v-list-item-title>파이썬 컴파일러 설치</v-list-item-title>
+        <v-stepper v-model="e5" vertical width="550px">
+          <v-stepper-step :complete="e5 > 1" step="1">
+            시작하기 전...
+          </v-stepper-step>
+
+          <v-stepper-content step="1">
+            <v-card color="grey lighten-1" class="mb-12" height="200px">
+              <v-card-text style="color: black"
+                >저희는 파이썬의 IDLE이라는 편집기를 사용하겠습니다.<br /><br />
+                먼저 파이썬의 IDLE을 이용하려면 앱을 찾고 실행을 해야
+                합니다.</v-card-text
+              ></v-card
+            >
+            <v-btn color="primary" @click="e5 = 2"> Continue </v-btn>
+          </v-stepper-content>
+
+          <v-stepper-step :complete="e5 > 2" step="2">
             <kbd>windows+s</kbd>버튼을 누른 후 'idle'라고 치면 파이썬 IDLE가
-            뜹니다. 열기 또는 엔터를 누르세요.<br /><br />
+            뜹니다. 열기 또는 엔터를 누르세요.
+          </v-stepper-step>
 
-            <v-img
-              alt="python-factory-picture"
-              class="img-fluid"
-              src="/img/idle.jpg"
-            /><br /><br />
+          <v-stepper-content step="2">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/idle.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e5 = 3"> Continue </v-btn>
+          </v-stepper-content>
 
+          <v-stepper-step :complete="e5 > 3" step="3">
             파이썬 코드를 실행하기 위해서 >>> 다음에 넣고 엔터를 누르면
-            됩니다.<br /><br />
+            됩니다.
+          </v-stepper-step>
 
-            <v-img
-              alt="python-factory-picture"
-              class="img-fluid"
-              src="/img/idle2.jpg"
-            /><br /><br />
-
-            <kbd>print("Hello World")</kbd>라고 친 후 엔터를 누르겠습니다.<br /><br />
-
-            <v-img
-              alt="python-factory-picture"
-              class="img-fluid"
-              src="/img/printhelloworld.jpg"
-            />
-          </p>
-        </div>
+          <v-stepper-content step="3">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/helloworld.jpg')"
+            /></v-card>
+          </v-stepper-content>
+        </v-stepper>
       </div>
     </div>
 
@@ -153,5 +216,11 @@
 <script>
 export default {
   name: 'InstallPage',
+  data() {
+    return {
+      e6: 1,
+      e5: 1,
+    }
+  },
 }
 </script>

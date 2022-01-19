@@ -3,14 +3,15 @@
     color="blue"
     fab
     dark
-    small
+    x-small
     fixed
     bottom
     right
+    icon
     @click="scrollTop"
     class="top-fab"
   >
-    <v-icon>mdi-arrow-up-thin-circle-outline</v-icon></v-btn
+    <v-icon>mdi-mouse-move-up</v-icon></v-btn
   >
 </template>
 

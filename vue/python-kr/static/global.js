@@ -8,3 +8,4 @@ if ('serviceWorker' in navigator) {
       console.log('Service worker registration failed, error:', err)
     })
 }
+

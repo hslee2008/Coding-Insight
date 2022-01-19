@@ -2,89 +2,161 @@
   <div>
     <br />
 
-    <div style="display: flex; justify-content: space-evenly" class="img-div">
+    <div style="display: flex; gap: 10px; flex-wrap: wrap; text-align: center">
       <div>
-        <h1>VSCode 설치하는 방법</h1>
-        <p>
-          1.
-          <a
-            target="_blank"
-            href="https://code.visualstudio.com/download"
-            style="text-decoration: none; color: yellow"
-            >VSCode 설치 페이지</a
-          >를 방문합니다.
-        </p>
-        <p>2. 알맞은 컴퓨터 소프트웨어를 선택합니다.</p>
-        <p>+ 키보드에 창틀이 있으면 윈도우입니다(없다면 MAC).</p>
-        <v-img
-          alt="python-factory-picture"
-          :src="require('./img/vscode.jpg')"
-          max-width="400px"
-        />
-        <p>3. 설치가 100%다 되면 그 박스를 클릭하세요.</p>
-        <v-img
-          alt="python-factory-picture"
-          :src="require('./img/vscodesetup.jpg')"
-          max-width="400px"
-        />
-        <p>4. 동의합니다를 선택하세요.</p>
-        <v-img
-          alt="python-factory-picture"
-          :src="require('./img/agree.jpg')"
-          max-width="400px"
-        />
-        <p>5. 다음(또는 Next) 버튼을 누르세요.</p>
-        <v-img
-          alt="python-factory-picture"
-          :src="require('./img/nextvscode.jpg')"
-          max-width="400px"
-        />
-        <p>6. 설치 버튼을 누르세요.</p>
-        <v-img
-          alt="python-factory-picture"
-          ::src="require('./img/installvscode.jpg')"
-          max-width="400px"
-        />
-        <p>7. 끝내기 버튼을 누르세요.</p>
-        <v-img
-          alt="python-factory-picture"
-          :src="require('./img/vscodefinish.jpg')"
-          max-width="400px"
-        />
+        <v-list-item-title>VSCode 설치</v-list-item-title>
+        <v-stepper v-model="e5" vertical width="700px">
+          <v-stepper-step :complete="e5 > 1" step="1">
+            <a
+              target="_blank"
+              href="https://code.visualstudio.com/download"
+              style="text-decoration: none; color: yellow"
+              >VSCode 설치 페이지</a
+            >를 방문합니다. & 알맞은 컴퓨터 소프트웨어를 선택합니다.<br /><br />
+            <small>키보드에 창문 그림이 있으면 왼쪽, 없으면 오른쪽입니다</small>
+          </v-stepper-step>
+
+          <v-stepper-content step="1">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/vscode.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e5 = 2"> Continue </v-btn>
+          </v-stepper-content>
+
+          <v-stepper-step :complete="e5 > 2" step="2">
+            새로운 박스가 생길 것이고 설치가 100% 다 되면 그 박스를 클릭하세요.
+          </v-stepper-step>
+
+          <v-stepper-content step="2">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/vscodesetup.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e5 = 3"> Continue </v-btn>
+          </v-stepper-content>
+
+          <v-stepper-step :complete="e5 > 3" step="3">
+            동의합니다 그리고 다음을 누르세요.
+          </v-stepper-step>
+
+          <v-stepper-content step="3">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/agree.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e5 = 4"> Continue </v-btn>
+          </v-stepper-content>
+
+          <v-stepper-step :complete="e5 > 4" step="4">
+            또 다음을 누르세요.
+          </v-stepper-step>
+
+          <v-stepper-content step="4">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/nextvscode.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e5 = 5"> Continue </v-btn>
+          </v-stepper-content>
+
+          <v-stepper-step :complete="e5 > 5" step="5">
+            설치 버튼을 누르세요.
+          </v-stepper-step>
+
+          <v-stepper-content step="5">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/installvscode.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e5 = 6"> Continue </v-btn>
+          </v-stepper-content>
+
+          <v-stepper-step :complete="e5 > 5" step="6">
+            끝내기 버튼을 누르세요.
+          </v-stepper-step>
+
+          <v-stepper-content step="6">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/vscodefinish.jpg')"
+            /></v-card>
+          </v-stepper-content>
+        </v-stepper>
       </div>
-      <br /><br />
+
       <div>
-        <h1>VSCode에서 파이썬 프로그래밍 준비</h1>
-        <p>
-          1. VSCode 왼쪽 바에 4 큐브 모양의 버튼이 있습니다. 클릭하세요.
-          (<kbd>CTRL+SHIFT+X</kbd>)
-        </p>
-        <v-img
-          alt="python-factory-picture"
-          :src="require('./img/cube.jpg')"
-          max-width="400px"
-        />
-        <p>3. Python이라고 친 후 기다리세요</p>
-        <v-img
-          alt="python-factory-picture"
-          :src="require('./img/input.jpg')"
-          max-width="400px"
-        />
-        <p>4. 처음으로 나타나는 확장 도구을 설치하세요 (install 버튼 누르기)</p>
-        <v-img
-          alt="python-factory-picture"
-          :src="require('./img/extinstall.jpg')"
-          max-width="400px"
-        />
-        <p>
-          5. Code Runner을 치고 가장 먼저 나오는 확장 도구을 설치하세요
-          (install)
-        </p>
-        <v-img
-          alt="python-factory-picture"
-          :src="require('./img/coderunner.jpg')"
-          max-width="400px"
-        />
+        <v-list-item-title>VSCode에서 파이썬 프로그래밍 준비</v-list-item-title>
+        <v-stepper v-model="e4" vertical width="700px">
+          <v-stepper-step :complete="e4 > 1" step="1">
+            VSCode 왼쪽 바에 4 큐브 모양의 버튼이 있습니다. 클릭하세요.<br /><br />
+            <small><kbd>CTRL+SHIFT+X</kbd></small>
+          </v-stepper-step>
+
+          <v-stepper-content step="1">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/cube.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e4 = 2"> Continue </v-btn>
+          </v-stepper-content>
+
+          <v-stepper-step :complete="e4 > 2" step="2">
+            Python이라고 친 후 기다리세요
+          </v-stepper-step>
+
+          <v-stepper-content step="2">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/input.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e4 = 3"> Continue </v-btn>
+          </v-stepper-content>
+
+          <v-stepper-step :complete="e4 > 3" step="3">
+            처음으로 나타나는 확장 도구을 설치하세요 (install 버튼 누르기)
+          </v-stepper-step>
+
+          <v-stepper-content step="3">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/extinstall.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e4 = 4"> Continue </v-btn>
+          </v-stepper-content>
+
+          <v-stepper-step :complete="e4 > 4" step="4">
+            Code Runner을 치고 가장 먼저 나오는 확장 도구을 설치하세요 (install)
+          </v-stepper-step>
+
+          <v-stepper-content step="4">
+            <v-card color="grey lighten-1" class="mb-12" height="200px"
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/coderunner.jpg')"
+            /></v-card>
+            <v-btn color="primary" @click="e4 = 5"> Continue </v-btn>
+          </v-stepper-content>
+        </v-stepper>
       </div>
     </div>
 
@@ -94,77 +166,113 @@
 
     <QuadSpace></QuadSpace>
 
-    <div style="display: flex; justify-content: center" class="img-div">
-      <div>
-        <h1>VSCode에서 파이썬 프로그래밍하기</h1>
-        <p>1. 파이썬 코드를 저장하기 위한 폴더가 필요합니다.</p>
-        <p>
-          2. CTRL+SHIFT+E 또는 왼쪽 바에 있는 파일 버튼(버튼 중 맨 위)을
-          누르세요.
-        </p>
-        <v-img
-          alt="python-factory-picture"
-          class="v-img-fluid"
-          :src="require('./img/file.jpg')"
-          max-width="400px"
-        />
-        <br />
-        <p>3. "Open Folder" 버튼을 누르고 코드를 저장할 파일을 선택하세요.</p>
-        <v-img
-          alt="python-factory-picture"
-          class="v-img-fluid"
-          :src="require('./img/choose.jpg')"
-          max-width="400px"
-        />
-        <br />
-        <p>
-          4. 파일 이름 옆에 보면 4개의 버튼이 있습니다. 가장 왼쪽 버튼을
+    <div>
+      <v-list-item-title>VSCode에서 파이썬 프로그래밍하기</v-list-item-title>
+      <v-stepper v-model="e3" vertical width="700px">
+        <v-stepper-step :complete="e3 > 1" step="1">
+          파이썬 코드를 저장하기 위한 폴더가 필요합니다. CTRL+SHIFT+E 또는 왼쪽
+          바에 있는 파일 버튼(버튼 중 맨 위)을 누르세요.
+        </v-stepper-step>
+
+        <v-stepper-content step="1">
+          <v-card color="grey lighten-1" class="mb-12" height="200px"
+            ><v-img
+              alt="python-factory-picture"
+              class="img-fluid"
+              :src="require('./img/file.jpg')"
+          /></v-card>
+          <v-btn color="primary" @click="e3 = 2"> Continue </v-btn>
+        </v-stepper-content>
+
+        <v-stepper-step :complete="e3 > 2" step="2">
+          "Open Folder" 버튼을 누르고 코드를 저장할 파일을 선택하세요
+        </v-stepper-step>
+
+        <v-stepper-content step="2">
+          <v-card color="grey lighten-1" class="mb-12" height="200px"
+            ><v-img
+              alt="python-factory-picture"
+              class="img-fluid"
+              :src="require('./img/choose.jpg')"
+          /></v-card>
+          <v-btn color="primary" @click="e3 = 3"> Continue </v-btn>
+        </v-stepper-content>
+
+        <v-stepper-step :complete="e3 > 3" step="3">
+          파일 이름 옆에 보면 4개의 버튼이 있습니다. 가장 왼쪽 버튼을
           클릭하세요.
-        </p>
-        <v-img
-          alt="python-factory-picture"
-          class="v-img-fluid"
-          :src="require('./img/newfile.jpg')"
-          max-width="400px"
-        />
-        <br />
-        <p>5. 파이썬 파일 이름을 입력 후 '.py'로 끝내고 엔터를 누르세요.</p>
-        <v-img
-          alt="python-factory-picture"
-          class="v-img-fluid"
-          :src="require('./img/filename.jpg')"
-          max-width="400px"
-        />
-        <br />
-        <p>6. 파일 안에 파이썬 코드를 입력합니다. print("Hello World")</p>
-        <p>
-          7. 파이썬 파일 위쪽 코너에 보면 삼각형이 있습니다. 그 삼각형을
+        </v-stepper-step>
+
+        <v-stepper-content step="3">
+          <v-card color="grey lighten-1" class="mb-12" height="200px"
+            ><v-img
+              alt="python-factory-picture"
+              class="img-fluid"
+              :src="require('./img/newfile.jpg')"
+          /></v-card>
+          <v-btn color="primary" @click="e3 = 4"> Continue </v-btn>
+        </v-stepper-content>
+
+        <v-stepper-step :complete="e3 > 4" step="4">
+          파이썬 파일 이름을 입력 후 '.py'로 끝내고 엔터를 누르세요.
+        </v-stepper-step>
+
+        <v-stepper-content step="4">
+          <v-card color="grey lighten-1" class="mb-12" height="200px"
+            ><v-img
+              alt="python-factory-picture"
+              class="img-fluid"
+              :src="require('./img/filename.jpg')"
+          /></v-card>
+          <v-btn color="primary" @click="e3 = 5"> Continue </v-btn>
+        </v-stepper-content>
+
+        <v-stepper-step :complete="e3 > 5" step="5">
+          파일 안에 파이썬 코드를 입력합니다. print("Hello World")
+        </v-stepper-step>
+
+        <v-stepper-content step="5">
+          <v-btn color="primary" @click="e3 = 6"> Continue </v-btn>
+        </v-stepper-content>
+
+        <v-stepper-step :complete="e3 > 6" step="6">
+          파이썬 파일 위쪽 코너에 보면 삼각형이 있습니다. 그 삼각형을
           클릭하세요.
-        </p>
-        <v-img
-          alt="python-factory-picture"
-          class="v-img-fluid"
-          :src="require('./img/tri.jpg')"
-          max-width="400px"
-        />
-        <br />
-        <v-img
-          alt="python-factory-picture"
-          class="v-img-fluid"
-          :src="require('./img/run.jpg')"
-          max-width="400px"
-        />
-        <br />
-        <p>Hello World라고 출력될 것입니다.</p>
-        <v-img
-          alt="python-factory-picture"
-          class="v-img-fluid"
-          :src="require('./img/helloworld.jpg')"
-          max-width="400px"
-        />
-      </div>
+        </v-stepper-step>
+
+        <v-stepper-content step="6">
+          <v-card color="grey lighten-1" class="mb-12" height="200px"
+            ><v-row
+              ><v-img
+                alt="python-factory-picture"
+                class="img-fluid"
+                :src="require('./img/tri.jpg')" />
+              <v-img
+                alt="python-factory-picture"
+                class="v-img-fluid"
+                :src="require('./img/run.jpg')"
+                max-width="400px" /></v-row
+          ></v-card>
+          <v-btn color="primary" @click="e3 = 7"> Continue </v-btn>
+        </v-stepper-content>
+
+        <v-stepper-step :complete="e3 > 7" step="7">
+          Hello World가 출력되었을 것입니다...
+        </v-stepper-step>
+
+        <v-stepper-content step="7">
+          <v-card color="grey lighten-1" class="mb-12" height="200px"
+            ><v-row>
+              <v-img
+                alt="python-factory-picture"
+                class="v-img-fluid"
+                :src="require('./img/helloworld.jpg')"
+                max-width="400px" /></v-row
+          ></v-card>
+        </v-stepper-content>
+      </v-stepper>
     </div>
-    <br /><br />
+
     <div style="display: flex; padding: 10px" class="img-div">
       <div>
         <h1>.py?</h1>
@@ -205,5 +313,12 @@
 <script>
 export default {
   name: 'VSCodePage',
+  data() {
+    return {
+      e3: 1,
+      e4: 1,
+      e5: 1,
+    }
+  },
 }
 </script>

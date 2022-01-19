@@ -9,7 +9,7 @@
       >
     </v-btn>
 
-    <v-btn class="ma-2" outlined @click="debuga">
+    <v-btn class="ma-2" outlined @click="toEnglish">
       English<v-icon right> mdi-ab-testing </v-icon>
     </v-btn>
     <br /><br />
@@ -35,10 +35,10 @@ export default {
     }
   },
   methods: {
-    debuga() {
+    toEnglish() {
       window.location =
         'https://coding-insight.com/python/english' +
-        $nuxt.$route.path +
+        ($nuxt.$route.path == '/' ? '/python' : $nuxt.$route.path) +
         '-en.html'
     },
     speak() {

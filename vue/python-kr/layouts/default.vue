@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <Fab></Fab>
-    
+
     <v-navigation-drawer v-model="drawer" :clipped="clipped" fixed app>
       <v-list>
         <h1 class="text-center">파이썬 시작</h1>
@@ -78,8 +78,8 @@
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
+          </v-list-item-content> </v-list-item
+        ><br /><br />
 
         <h1 style="text-align: center">파이썬 고급</h1>
         <v-divider></v-divider>
@@ -119,7 +119,7 @@
           </v-list-item-content> </v-list-item
         ><br /><br />
 
-        <h1 style="text-align: center">파이썬 고급</h1>
+        <h1 style="text-align: center">파이썬 마스터</h1>
         <v-divider></v-divider>
         <v-list-item
           v-for="(item, i) in items.master_python"
@@ -313,15 +313,33 @@
       :absolute="false"
       style="display: flex; justify-content: flex-end; padding: 10px"
     >
-      <v-img
-        src="favicon.ico"
-        max-width="25px"
-        style="margin-right: 5px"
-      ></v-img>
-      <span
-        >Python-Factory &copy; {{ new Date().getFullYear() }} (Hyunseung, Juha,
-        Gun)</span
-      >
+      <v-row justify="center">
+        <v-btn
+          rounded
+          href="https://github.com/HyunseungLee-Travis/Coding-Insight"
+          icon
+        >
+          <v-icon>mdi-github</v-icon>
+        </v-btn>
+        <v-btn
+          rounded
+          href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+          icon
+        >
+          <v-icon>mdi-youtube</v-icon>
+        </v-btn>
+        <v-btn
+          rounded
+          href="https://docs.google.com/forms/d/e/1FAIpQLSezvUnfD8p2ngwlQHVzAdh6CYk-J-M8VbzSgUJLmKDmvisZGQ/viewform"
+          icon
+        >
+          <v-icon>mdi-file-sign</v-icon>
+        </v-btn>
+      </v-row>
+      <div>
+        Python-Factory &copy; {{ new Date().getFullYear() }} (Hyunseung, Juha,
+        Gun)
+      </div>
     </v-footer>
   </v-app>
 </template>
@@ -547,8 +565,7 @@ export default {
             to: '/oneliner',
           },
           {
-            //TODO
-            icon: 'mdi-dots-horizontal',
+            icon: 'mdi-dots-circle',
             title: '다양한 함수',
             to: '/etcfunction',
           },
