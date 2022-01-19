@@ -35,7 +35,7 @@
     {
       "name": "Python (Korean)",
       "short_name": "Python [kr]",
-      "url": "/python/korean/python.html",
+      "url": "/python/korean/",
       "description": "Learn Python in Korean",
       "icons": [{ "src": "/global/icons8-python-96.png", "sizes": "96x96" }]
     },

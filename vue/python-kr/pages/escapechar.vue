@@ -47,7 +47,7 @@
 
     <Header num="11" title="이스케이프 문자"></Header>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -81,7 +81,7 @@
       뒤집어진 모양으로 보일 수도 있습니다.</mark
     >
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -108,7 +108,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -139,7 +139,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -155,7 +155,7 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -184,23 +184,11 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
-    <div>
-      <a href="vscode" style="text-decoration: none; float: left">
-        <v-btn class="ma-2" outlined>
-          <v-icon left> mdi-chevron-left </v-icon>Back
-        </v-btn>
-      </a>
+    <BeforeNextButton flink="stringmethod2" slink="ascii"></BeforeNextButton>
 
-      <a href="variable" style="text-decoration: none; float: right">
-        <v-btn class="ma-2" outlined>
-          Next<v-icon right> mdi-chevron-right </v-icon>
-        </v-btn>
-      </a>
-    </div>
-
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -256,7 +244,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <br /><br />
+    <QuadSpace></QuadSpace>
   </div>
 </template>
 
@@ -266,11 +254,11 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-A').checked) {
-        alert('1번 맞았습니다!');
+        alert('1번 맞았습니다!')
       } else {
-        alert('1번 틀렸습니다');
+        alert('1번 틀렸습니다')
       }
     },
   },
-};
+}
 </script>

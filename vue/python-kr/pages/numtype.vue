@@ -13,7 +13,7 @@
             </p>
           </div>
           <div style="margin: auto">
-            <img
+            <v-img
               alt="python-factory-picture"
               class="img-fluid"
               src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
@@ -40,7 +40,7 @@
 
         <Header num="16" title="숫자 종류"></Header>
 
-        <br /><br /><br /><br />
+        <QuadSpace></QuadSpace>
 
         <div>
           <div>
@@ -71,7 +71,7 @@
           ></iframe>
         </div>
 
-        <br /><br /><br /><br />
+        <QuadSpace></QuadSpace>
 
         <div class="color-contrast-div">
           <div>
@@ -104,7 +104,7 @@
           ></iframe>
         </div>
 
-        <br /><br /><br /><br />
+        <QuadSpace></QuadSpace>
 
         <div>
           <div>
@@ -117,23 +117,11 @@
           </div>
         </div>
 
-        <br /><br /><br /><br />
+        <QuadSpace></QuadSpace>
 
-        <div>
-          <a href="operator" style="text-decoration: none; float: left">
-            <v-btn class="ma-2" outlined>
-              <v-icon left> mdi-chevron-left </v-icon>Back
-            </v-btn>
-          </a>
+        <BeforeNextButton flink="operator" slink="calc"></BeforeNextButton>
 
-          <a href="calc" style="text-decoration: none; float: right">
-            <v-btn class="ma-2" outlined>
-              Next<v-icon right> mdi-chevron-right </v-icon>
-            </v-btn>
-          </a>
-        </div>
-
-        <br /><br /><br /><br />
+        <QuadSpace></QuadSpace>
       </div>
 
     </div>

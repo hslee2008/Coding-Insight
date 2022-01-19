@@ -73,12 +73,12 @@
     {
       "hid": "apple-touch-icon",
       "rel": "apple-touch-icon",
-      "href": "/_nuxt/icons/icon_512x512.1a4b9f.png",
+      "href": "/python/korean/_nuxt/icons/icon_512x512.1a4b9f.png",
       "sizes": "512x512"
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.646bdc25.json",
+      "href": "/python/korean/_nuxt/manifest.bd38841a.json",
       "hid": "manifest"
     }
   ],

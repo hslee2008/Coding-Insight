@@ -8,6 +8,9 @@
 - 임주하
 - 김건
 
+# 프레임워크
+NuxtJS, VueJS, VuetifyJS
+
 # 링크
 
 - 유튜브: https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA

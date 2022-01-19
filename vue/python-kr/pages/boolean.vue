@@ -35,11 +35,11 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <Header num="13" title="분리언"></Header>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -67,7 +67,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -90,7 +90,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -120,7 +120,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -147,23 +147,11 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
-    <div>
-      <a href="datatype" style="text-decoration: none; float: left">
-        <v-btn class="ma-2" outlined>
-          <v-icon left> mdi-chevron-left </v-icon>Back
-        </v-btn>
-      </a>
+    <BeforeNextButton flink="ascii" slink="number"></BeforeNextButton>
 
-      <a href="string" style="text-decoration: none; float: right">
-        <v-btn class="ma-2" outlined>
-          Next<v-icon right> mdi-chevron-right </v-icon>
-        </v-btn>
-      </a>
-    </div>
-
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -309,7 +297,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <br /><br />
+    <QuadSpace></QuadSpace>
   </div>
 </template>
 

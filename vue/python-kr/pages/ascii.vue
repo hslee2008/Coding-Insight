@@ -46,7 +46,7 @@
 
     <Header num="12" title="아스키"></Header>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -75,7 +75,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -98,23 +98,11 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
-    <div>
-      <a href="escapechar" style="text-decoration: none; float: left">
-        <v-btn class="ma-2" outlined>
-          <v-icon left> mdi-chevron-left </v-icon>Back
-        </v-btn>
-      </a>
+    <BeforeNextButton flink="esacapechar" slink="boolean"></BeforeNextButton>
 
-      <a href="boolean" style="text-decoration: none; float: right">
-        <v-btn class="ma-2" outlined>
-          Next<v-icon right> mdi-chevron-right </v-icon>
-        </v-btn>
-      </a>
-    </div>
-
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -214,7 +202,8 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <br /><br />
+
+    <QuadSpace></QuadSpace>
   </div>
 </template>
 

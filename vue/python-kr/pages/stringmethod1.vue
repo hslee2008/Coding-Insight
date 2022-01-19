@@ -19,7 +19,7 @@
 
       <Header num="9" title="문자열 메서드 1"></Header>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div class="header-div">
          <div>
@@ -46,7 +46,7 @@
             ></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div>
          <div>
@@ -73,7 +73,7 @@
             ></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div class="header-div bg-black text-white">
          <div>
@@ -105,7 +105,7 @@
             ></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div style="display: flex" class="img-div">
          <div style="margin: auto">
@@ -127,7 +127,7 @@
          </div>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div style="display: flex" class="img-div">
          <div style="margin: auto">
@@ -153,20 +153,7 @@
 
       <br /><br />
 
-      <div>
-         <a href="string" style="text-decoration: none; float: left">
-            <v-btn class="ma-2" outlined>
-               <v-icon left> mdi-chevron-left </v-icon>
-               Back
-            </v-btn>
-         </a>
-         <a href="stringmethod2" style="text-decoration: none; float: right">
-            <v-btn class="ma-2" outlined>
-               Next
-               <v-icon right> mdi-chevron-right </v-icon>
-            </v-btn>
-         </a>
-      </div>
+      <BeforeNextButton flink="string" slink="stringmethod2"></BeforeNextButton>
 
       <br /><br />
 

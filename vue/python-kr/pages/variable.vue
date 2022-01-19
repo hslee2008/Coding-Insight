@@ -41,7 +41,7 @@
 
     <Header num="5" title="변수"></Header>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -66,7 +66,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -84,7 +84,7 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -99,7 +99,7 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -124,7 +124,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -141,7 +141,7 @@
           변수가 더 이상 필요 없고 이 코드가 실행되고 있는 기기에 저장 공간이
           많이 없다면 삭제해도 됩니다.<br /><br />
           삭제는 del 키워드를 사용하고 뒤에 변수 이름을 넣으면 이제 변수를 다시
-          사용할 수 없게 됩니다.<br /><br /><br /><br />
+          사용할 수 없게 됩니다.<QuadSpace></QuadSpace>
           <code>
             name = "Python - Factory"<br /><br />
             del name<br /><br />
@@ -153,7 +153,7 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div style="display: flex" class="img-div">
       <div>
@@ -186,23 +186,11 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
-    <div>
-      <a href="io" style="text-decoration: none; float: left">
-        <v-btn class="ma-2" outlined>
-          <v-icon left> mdi-chevron-left </v-icon>Back
-        </v-btn>
-      </a>
+    <BeforeNextButton flink="io" slink="madlib"></BeforeNextButton>
 
-      <a href="madlib" style="text-decoration: none; float: right">
-        <v-btn class="ma-2" outlined>
-          Next<v-icon right> mdi-chevron-right </v-icon>
-        </v-btn>
-      </a>
-    </div>
-
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -407,7 +395,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <br /><br />
+    <QuadSpace></QuadSpace>
   </div>
 </template>
 

@@ -1,6 +1,7 @@
 <template>
   <div>
     <br />
+
     <div style="display: flex" class="img-div">
       <div style="margin: auto; padding: 10px">
         <h1>딕셔너리란?</h1>
@@ -48,7 +49,7 @@
 
     <Header num="21" title="딕셔너리"></Header>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -89,7 +90,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -101,8 +102,8 @@
           keys()를 사용하고 그 정보를 출력하면 dict_keys([keys])의 형태로 출력이
           됩니다.<br /><br />
 
-          keys()는 <a href="for.html">for 반복문</a>에서 더 유용하게 사용할 수
-          있는 예시를 들겠습니다.
+          keys()는 <NuxtLink to="/for">for 반복문</NuxtLink>에서 더 유용하게
+          사용할 수 있는 예시를 들겠습니다.
         </p>
       </div>
       <iframe
@@ -118,7 +119,7 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -143,23 +144,11 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
-    <div>
-      <a href="listmethod2" style="text-decoration: none; float: left">
-        <v-btn class="ma-2" outlined>
-          <v-icon left> mdi-chevron-left </v-icon>Back
-        </v-btn>
-      </a>
+    <BeforeNextButton flink="listmethod2" slink="dictionarymethod"></BeforeNextButton>
 
-      <a href="dictionarymethod" style="text-decoration: none; float: right">
-        <v-btn class="ma-2" outlined>
-          Next<v-icon right> mdi-chevron-right </v-icon>
-        </v-btn>
-      </a>
-    </div>
-
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -210,13 +199,13 @@
         <label for="question-2-answers-D">D) ["b", "a"] </label>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <v-btn v-on:click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <br /><br />
+    <QuadSpace></QuadSpace>
   </div>
 </template>
 
@@ -226,11 +215,11 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-B').checked) {
-        alert('1번 맞았습니다!');
+        alert('1번 맞았습니다!')
       } else {
-        alert('1번 틀렸습니다');
+        alert('1번 틀렸습니다')
       }
     },
   },
-};
+}
 </script>

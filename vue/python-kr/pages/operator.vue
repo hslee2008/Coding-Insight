@@ -31,19 +31,19 @@
 
       <Header num="15" title="연산자"></Header>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
-      <div class="norm-div">
+      <div>
          <div>
             <h1> 산수 연산자 </h1>
             <p>
-               산수 연산자는 <a href="number.html">숫자</a>에서 배웠습니다.<br /><br />
+               산수 연산자는 <NuxtLink to="/number.html">숫자</NuxtLink>에서 배웠습니다.<br /><br />
                기억이 나지 않는다면 다시 한번 확인하세요.
             </p>
          </div>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div>
          <div>
@@ -65,7 +65,7 @@
 
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div class="color-contrast-div">
          <div>
@@ -87,24 +87,10 @@
 
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
-      <div>
-        <a href="number" style="text-decoration: none; float: left">
-          <v-btn class="ma-2" outlined>
-            <v-icon left> mdi-chevron-left </v-icon>Back
-          </v-btn>
-        </a>
+      <BeforeNextButton flink="number" slink="numtype"></BeforeNextButton>
 
-        <a href="numtype" style="text-decoration: none; float: right">
-          <v-btn class="ma-2" outlined>
-            Next<v-icon right> mdi-chevron-right </v-icon>
-          </v-btn>
-        </a>
-      </div>
-
-      <br /><br /><br /><br />
-
-   </div>
+      <QuadSpace></QuadSpace>
    </div>
 </template>

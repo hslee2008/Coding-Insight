@@ -11,7 +11,7 @@ export default {
       rtl: false,
       throttle: 200,
       duration: 5000,
-      continuous: false
+      continuous: true
     }
   },
   computed: {
@@ -163,7 +163,7 @@ export default {
   width: 0%;
   opacity: 1;
   transition: width 0.1s, opacity 0.4s;
-  background-color: black;
+  background-color: skyblue;
   z-index: 999999;
 }
 

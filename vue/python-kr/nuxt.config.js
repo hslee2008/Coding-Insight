@@ -1,6 +1,9 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  generate: {
+    dir: '../../public_html/python/korean',
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s (Python-Factory)',
@@ -92,7 +95,14 @@ export default {
   // https://go.nuxtjs.dev/config-axios
   axios: {
     // https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
+    baseURL: 'https://www.coding-insight.com/python/korean/',
+  },
+
+  loading: {
+    color: 'skyblue',
+    failedColor: 'red',
+    height: '2px',
+    continuous: true,
   },
 
   //  https://go.nuxtjs.dev/pwa
@@ -131,6 +141,10 @@ export default {
         },
       ],
     },
+  },
+
+  router: {
+    base: '/python/korean/',
   },
 
   vuetify: {

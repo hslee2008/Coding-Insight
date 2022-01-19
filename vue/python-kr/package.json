@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt build && nuxt && nuxt generate",
-    "build": "nuxt build && nuxt generate",
+    "dev": "nuxt",
+    "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
@@ -18,12 +18,11 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
-    "typescript": "^4.5.4",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "vuetify": "^2.6.1",
-    "vuex": "^3.6.2"
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
@@ -42,7 +41,6 @@
     "jest": "^27.4.4",
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.1",
-    "vue-jest": "^3.0.4",
-    "webpack": "^4.46.0"
+    "vue-jest": "^3.0.4"
   }
 }

@@ -12,7 +12,7 @@
             </p>
          </div>
          <div style="margin : auto;">
-            <img alt="python-factory-picture" class="img-fluid"
+            <v-img alt="python-factory-picture" class="img-fluid"
                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3wpiBBpzSMnlDX8KrxleWQf5wKSf2lGHbtw&usqp=CAU" />
          </div>
       </div>
@@ -30,7 +30,7 @@
 
       <Header title="조거문" num="26"></Header>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div>
          <div>
@@ -45,7 +45,7 @@
          </div>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div>
          <div>
@@ -63,7 +63,7 @@
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div>
          <div>
@@ -87,19 +87,10 @@
 
       <br /><br />
 
-        <div>
-          <a href="setmethod" style="text-decoration: none; float: left">
-            <v-btn class="ma-2" outlined>
-              <v-icon left> mdi-chevron-left </v-icon>Back
-            </v-btn>
-          </a>
+      <QuadSpace></QuadSpace>
 
-          <a href="ifmaster" style="text-decoration: none; float: right">
-            <v-btn class="ma-2" outlined>
-              Next<v-icon right> mdi-chevron-right </v-icon>
-            </v-btn>
-          </a>
-        </div>
-    <br /><br /><br /><br />
+      <BeforeNextButton flink="setmethod" slink="ifmaster"></BeforeNextButton>
+
+      <QuadSpace></QuadSpace>
   </div>
 </template>

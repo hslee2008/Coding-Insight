@@ -48,7 +48,7 @@
 
     <Header num="24" title="집합"></Header>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -88,7 +88,7 @@
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div>
       <div>
@@ -116,23 +116,11 @@
       ></iframe>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
-    <div>
-      <a href="tuple" style="text-decoration: none; float: left">
-        <v-btn class="ma-2" outlined>
-          <v-icon left> mdi-chevron-left </v-icon>Back
-        </v-btn>
-      </a>
+    <BeforeNextButton flink="tuple" slink="setmethod"></BeforeNextButton>
 
-      <a href="setmethod" style="text-decoration: none; float: right">
-        <v-btn class="ma-2" outlined>
-          Next<v-icon right> mdi-chevron-right </v-icon>
-        </v-btn>
-      </a>
-    </div>
-
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -195,7 +183,7 @@
       </v-btn>
     </div>
 
-    <br /><br />
+    <QuadSpace></QuadSpace>
   </div>
 </template>
 
@@ -205,11 +193,11 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-D').checked) {
-        alert('1번 맞았습니다!');
+        alert('1번 맞았습니다!')
       } else {
-        alert('1번 틀렸습니다');
+        alert('1번 틀렸습니다')
       }
     },
   },
-};
+}
 </script>

@@ -42,7 +42,7 @@
 
       <Header num="4" title="입출력"></Header>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div class="norm-div bg-black text-white">
         <div>
@@ -73,9 +73,9 @@
         ></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
-      <div class="norm-div">
+      <div>
         <div>
           <h1>출력 sep</h1>
           <p>
@@ -108,9 +108,9 @@
         </div>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
-      <div class="norm-div">
+      <div>
         <div>
           <h1>입력</h1>
           <p>
@@ -151,23 +151,11 @@
         ></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
-      <div>
-        <a href="vscode" style="text-decoration: none; float: left">
-          <v-btn class="ma-2" outlined>
-            <v-icon left> mdi-chevron-left </v-icon>Back
-          </v-btn>
-        </a>
+      <BeforeNextButton flink="vscode" slink="variable"></BeforeNextButton>
 
-        <a href="variable" style="text-decoration: none; float: right">
-          <v-btn class="ma-2" outlined>
-            Next<v-icon right> mdi-chevron-right </v-icon>
-          </v-btn>
-        </a>
-      </div>
-
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div class="quiz">
         <h1>퀴즈 풀기!</h1>
@@ -407,12 +395,12 @@
         <br /><br />
 
         <v-btn v-on:click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn>
       </div>
     </div>
 
-    <br /><br /><br /><br />
+    <QuadSpace></QuadSpace>
   </div>
 </template>
 

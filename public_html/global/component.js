@@ -311,7 +311,7 @@ app.component("py-pyfact-menu", {
 
 <button type="button" style="position: absolute; right: 0; top: 0;" id="menu-close-button" class="btn-close" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#demo" data-bs-toggle="offcanvas" data-bs-target="#demo"></button>
 
-<a href="../python/korean/quiz.html">퀴즈</a>
+< a href = "../python/korean/quiz" > 퀴즈 < /a>
 
 <details>
   <summary>&#54028;&#51060;&#50028; &#49884;&#51089;</summary>

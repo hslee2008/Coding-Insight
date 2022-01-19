@@ -1,5 +1,11 @@
 {
+  "BeforeNextButton": {
+    "description": "Auto imported from components/BeforeNextButton.vue"
+  },
   "Header": {
     "description": "Auto imported from components/Header.vue"
+  },
+  "QuadSpace": {
+    "description": "Auto imported from components/QuadSpace.vue"
   }
 }

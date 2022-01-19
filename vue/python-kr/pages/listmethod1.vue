@@ -27,7 +27,7 @@
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div>
          <div>
@@ -41,7 +41,7 @@
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div>
          <div>
@@ -56,7 +56,7 @@
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
       <div>
          <div>
@@ -75,22 +75,10 @@
             style="margin: auto;"></iframe>
       </div>
 
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
 
-      <div>
-        <a href="list" style="text-decoration: none; float: left">
-          <v-btn class="ma-2" outlined>
-            <v-icon left> mdi-chevron-left </v-icon>Back
-          </v-btn>
-        </a>
+      <BeforeNextButton flink="list" slink="listmethod2"></BeforeNextButton>
 
-        <a href="listmethod2" style="text-decoration: none; float: right">
-          <v-btn class="ma-2" outlined>
-            Next<v-icon right> mdi-chevron-right </v-icon>
-          </v-btn>
-        </a>
-      </div>
-
-      <br /><br /><br /><br />
+      <QuadSpace></QuadSpace>
    </div>
 </template>
