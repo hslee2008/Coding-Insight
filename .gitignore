@@ -1,6 +1,6 @@
-vue/python-kr/.nuxt
+vue/nuxt/.nuxt
 app/Python-Factory/.expo
 
-vue/python-kr/node_modules
+vue/nuxt/node_modules
 app/Python-Factory/node_modules
 

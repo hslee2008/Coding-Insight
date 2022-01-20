@@ -6,7 +6,7 @@ const options = {
     debug: false,
   },
   cacheOptions: {
-    cacheId: "python-kr-prod",
+    cacheId: "nuxt-prod",
     directoryIndex: "/",
     revision: "naTeDaYyOgxH",
   },

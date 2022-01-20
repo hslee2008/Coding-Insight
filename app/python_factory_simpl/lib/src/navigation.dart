@@ -54,6 +54,12 @@ class NavigationControls extends StatelessWidget {
               },
             ),
             IconButton(
+              icon: const Icon(Icons.home),
+              onPressed: () async {
+                await controller.loadUrl("https://coding-insight.com");
+              },
+            ),
+            IconButton(
               icon: const Icon(Icons.replay),
               onPressed: () {
                 controller.reload();

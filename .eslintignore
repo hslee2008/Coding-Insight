@@ -1,7 +1,5 @@
-public_html/python/korean
-
-vue/python-kr/.nuxt
-vue/python-kr/node_modules
+vue/nuxt/.nuxt
+vue/nuxt/node_modules
 
 app/Python-Factory/node_modules
 app/Python-Factory/.expo

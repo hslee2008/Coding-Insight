@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.python_factory_simpl">
    <application
+        android:networkSecurityConfig="@xml/network_security_config"
         android:label="python_factory_simpl"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">

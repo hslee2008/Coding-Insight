@@ -1,4 +1,4 @@
-('C:\\Users\\USER\\Desktop\\Folder\\Code\\Coding-Insight\\app\\Computer '
+('C:\\Users\\USER\\Desktop\\Folder\\Code\\coding-insight\\app\\Computer '
  'App\\build\\Python Factory\\PYZ-00.pyz',
  [('multiprocessing.popen_spawn_posix',
    'C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python310\\lib\\multiprocessing\\popen_spawn_posix.py',
@@ -663,9 +663,9 @@
   ('stringprep',
    'C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
    'PYMODULE')])

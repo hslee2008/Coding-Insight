@@ -10,26 +10,26 @@ import 'src/web_view_stack.dart';
 void main() {
   runApp(
     const MaterialApp(
-      home: WebViewApp(),
+      home: PythonFactoryApp(),
     ),
   );
 }
 
-class WebViewApp extends StatefulWidget {
-  const WebViewApp({Key? key}) : super(key: key);
+class PythonFactoryApp extends StatefulWidget {
+  const PythonFactoryApp({Key? key}) : super(key: key);
 
   @override
-  State<WebViewApp> createState() => _WebViewAppState();
+  State<PythonFactoryApp> createState() => _PythonFactoryAppState();
 }
 
-class _WebViewAppState extends State<WebViewApp> {
+class _PythonFactoryAppState extends State<PythonFactoryApp> {
   final controller = Completer<WebViewController>();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Python-Factory-Simpl'),
+        title: const Text('Python-Factory 1.0.1', style: TextStyle(fontSize: 13)),
         actions: [
           NavigationControls(controller: controller),
           Menu(globcontroller: controller),
