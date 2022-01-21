@@ -9,7 +9,9 @@
 - 김건
 
 # 프레임워크
-NuxtJS, VueJS, VuetifyJS
+웹사이트: NuxtJS, VueJS, VuetifyJS
+폰앱: Flutter, React Native
+컴퓨터앱: Python
 
 # 링크
 

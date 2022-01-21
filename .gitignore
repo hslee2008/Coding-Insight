@@ -1,6 +1,7 @@
-vue/nuxt/.nuxt
 app/Python-Factory/.expo
-
-vue/nuxt/node_modules
 app/Python-Factory/node_modules
 
+website/.nuxt
+website/node_modules
+
+public_html/
