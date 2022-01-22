@@ -24,18 +24,18 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header num="Proj: 6" title="암호 프로그램 (더 안전한)"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <h1>프로그램 설명</h1>
       <p>추가 기능: +3번 이상 로그인하면 거절하기기</p>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <h1>코드 설명</h1>
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <h1>코드 확인하기</h1>
     <iframe
@@ -68,14 +68,14 @@
       allowfullscreen
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton
       flink="ifmaster"
       slink="none"
     ></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

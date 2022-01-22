@@ -1,0 +1,328 @@
+<template>
+  <div>
+    <br />
+    <div style="display: flex" class="img-div">
+      <div>
+        <h1>What is Boolean?</h1>
+        <p>
+          Boolean is a type of data that has only True and False.<br /><br />
+
+          Let's try to make a program that prints whether the number user typed
+          in is bigger than 5.<br /><br />
+
+          <code>
+            userNumber = int(input("Number: "))<br /><br />
+
+            print(userNumber > 5) #whether userNumber is bigger than 5
+          </code>
+
+          We can also store boolean values in variables.<br /><br />
+
+          <code> a = 5 > 6 </code>
+        </p>
+      </div>
+      <div class="mx-auto">
+        <v-img
+          alt="python-factory-picture"
+          class="img-fluid"
+          src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
+          max-width="300px"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <Header num="13" title="Boolean"></Header>
+
+    <QuadSpace />
+
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
+        <h1>Something to be careful</h1>
+        <p>
+          In Python, incorrect is False and correct is True.<br /><br />
+
+          I did not made the first alphabet of False and True uppercase on
+          purpose.<br /><br />
+
+          Python uses False and True with UPPERCASE letters.
+        </p>
+      </div>
+      <iframe
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python/8500bba20b"
+        width="50%"
+        height="356"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        loading="lazy"
+        style="margin: auto"
+      ></iframe>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h1>not keyword</h1>
+        <p>Using not, we can switch from true to false and vice versa.</p>
+      </div>
+      <iframe
+        <iframe
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python/5fbbc3204c"
+        width="60%"
+        height="356"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        loading="lazy"
+        style="margin: auto"
+      ></iframe>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h1>assert</h1>
+        <p>
+          Let's look at the following example.<br /><br />
+
+          <code>
+            assert 2 > 1<br />
+            print("YES. 2 is bigger than 1")
+          </code>
+
+          The example above will make an error if 2 is not bigger than 1.<br /><br />
+
+          Otherwise, it will continue on and print "Yes. 2 is bigger than 1."<br /><br />
+
+          We can also make your own message.<br /><br />
+
+          <code> assert 1 > 2, "Hmmm... 🐛🐛🐛(bug) found in code." </code>
+        </p>
+      </div>
+
+      <iframe
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python3/b23c21c043"
+        width="60%"
+        height="356"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        loading="lazy"
+        style="margin: auto"
+      ></iframe>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h1>all() and any()</h1>
+        <p>
+          All means everything. We have not yet learned this yet but if
+          everything inside list is True, all() prints True and prints False if
+          otherwise.<br /><br />
+
+          any() prints True if any of the items in list is True and False if all
+          of them are False.
+        </p>
+      </div>
+      <iframe
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python/6d4ae0d672"
+        width="100%"
+        height="356"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        loading="lazy"
+        style="margin: auto"
+      ></iframe>
+    </div>
+
+    <QuadSpace />
+
+    <BeforeNextButton flink="ascii" slink="number"></BeforeNextButton>
+
+    <QuadSpace />
+
+    <div class="quiz">
+      <h1>Solve This Quiz!!</h1>
+
+      <hr />
+
+      <br /><br />
+
+      <h3>What is the possible values of a Boolean in Python?</h3>
+      <div>
+        <input
+          type="radio"
+          name="question-1-answers"
+          id="question-1-answers-A"
+          value="A"
+        />
+        <label for="question-1-answers-A">A) true, false </label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="question-1-answers"
+          id="question-1-answers-B"
+          value="B"
+        />
+        <label for="question-1-answers-B">B) True, false </label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="question-1-answers"
+          id="question-1-answers-C"
+          value="C"
+        />
+        <label for="question-1-answers-C">C) true, False </label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="question-1-answers"
+          id="question-1-answers-D"
+          value="D"
+        />
+        <label for="question-1-answers-D">D) True, False </label>
+      </div>
+
+      <br /><br />
+
+      <h3>What is the value of not (not (not (not (not (not (False))))))</h3>
+
+      <div>
+        <input
+          type="radio"
+          name="question-2-answers"
+          id="question-2-answers-A"
+          value="A"
+        />
+        <label for="question-2-answers-A">A) False </label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="question-2-answers"
+          id="question-2-answers-B"
+          value="B"
+        />
+        <label for="question-2-answers-B">B) True </label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="question-2-answers"
+          id="question-2-answers-C"
+          value="C"
+        />
+        <label for="question-2-answers-C">C) Null </label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="question-2-answers"
+          id="question-2-answers-D"
+          value="D"
+        />
+        <label for="question-2-answers-D">D) None </label>
+      </div>
+
+      <br /><br />
+
+      <h3>What is the value of any([True, False, False, False, False])</h3>
+
+      <div>
+        <input
+          type="radio"
+          name="question-3-answers"
+          id="question-3-answers-A"
+          value="A"
+        />
+        <label for="question-3-answers-A">A) False </label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="question-3-answers"
+          id="question-3-answers-B"
+          value="B"
+        />
+        <label for="question-3-answers-B">B) True </label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="question-3-answers"
+          id="question-3-answers-C"
+          value="C"
+        />
+        <label for="question-3-answers-C">C) Null </label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="question-3-answers"
+          id="question-3-answers-D"
+          value="D"
+        />
+        <label for="question-3-answers-D">D) None </label>
+      </div>
+
+      <br /><br />
+
+      <v-btn @click="checkAnswer">
+        <v-icon left>mdi-check-decagram</v-icon>Check Answer
+      </v-btn>
+    </div>
+    <QuadSpace />
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'BooleanPage',
+  methods: {
+    checkAnswer() {
+      if (document.getElementById('question-1-answers-D').checked) {
+        alert('1 ✔️!');
+      } else {
+        alert('1 ❌');
+      }
+      if (document.getElementById('question-2-answers-A').checked) {
+        alert('2 ✔️');
+      } else {
+        alert('2 ❌');
+      }
+      if (document.getElementById('question-3-answers-B').checked) {
+        alert('3 ✔️');
+      } else {
+        alert('3 ❌');
+      }
+    },
+  },
+};
+</script>

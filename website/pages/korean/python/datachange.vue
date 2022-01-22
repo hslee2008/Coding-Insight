@@ -4,7 +4,7 @@
 
     <Header num="54" title="데이터 형태 바꾸기"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -32,7 +32,7 @@
       style="margin: auto"
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div class="inner-div">
@@ -55,7 +55,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -85,7 +85,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -110,7 +110,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <v-data-table
       :headers="headers"
@@ -119,11 +119,11 @@
       class="elevation-1"
     ></v-data-table>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="contact2" slink="stringascode"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

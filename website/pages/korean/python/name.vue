@@ -26,9 +26,9 @@
 
     <Header num="72" title="__name__"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -72,11 +72,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="asyncio" slink="thread"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

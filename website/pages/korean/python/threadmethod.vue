@@ -4,7 +4,7 @@
 
     <Header num="75" title="스레드 메서드"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -51,11 +51,11 @@
       style="margin: auto"
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="complexthread" slink="multiprocessing"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

@@ -26,7 +26,7 @@
 
     <Header num="91" title="판다스"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -87,7 +87,7 @@
       allowfullscreen
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -111,7 +111,7 @@
       allowfullscreen
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex">
       <div>
@@ -166,7 +166,7 @@
       allowfullscreen
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -219,11 +219,11 @@
       allowfullscreen
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="turtle" slink="gtts"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

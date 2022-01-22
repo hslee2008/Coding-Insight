@@ -35,7 +35,7 @@
 
     <Header num="58" title="정렬"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -60,7 +60,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -89,11 +89,11 @@
       style="margin: auto"
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="array" slink="array_shape"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

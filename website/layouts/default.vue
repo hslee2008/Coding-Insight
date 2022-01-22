@@ -217,7 +217,10 @@
       </v-btn>
 
       <v-menu
-        v-if="$nuxt.$route.path.includes('python')"
+        v-if="
+          !$nuxt.$route.path.includes('rust') &&
+          !$nuxt.$route.path.includes('c-cpp')
+        "
         open-on-hover
         top
         offset-y
@@ -320,12 +323,12 @@
           <v-card-actions>
             <a href="https://coding-insight.com/c-cpp/korean/c.html">
               <v-btn class="ma-2" color="primary" dark>
-                <v-icon dark right> mdi-language-c </v-icon>
+                <v-icon dark> mdi-language-c </v-icon>
               </v-btn>
             </a>
             <a href="https://coding-insight.com/c-cpp/korean/cpp.html">
               <v-btn class="ma-2" color="primary" dark>
-                <v-icon dark right> mdi-language-cpp </v-icon></v-btn
+                <v-icon dark> mdi-language-cpp </v-icon></v-btn
               >
             </a>
           </v-card-actions>
@@ -439,27 +442,32 @@ export default {
     gtag('config', 'UA-209775586-1');
   },
   methods: {
-    englishValue(a) {
-      return this.$nuxt.$route.path.includes('english') ? a + '_en' : a;
-    },
     isEnglish() {
-      return this.$nuxt.$route.path.includes('english');
+      return (
+        this.$nuxt.$route.path.includes('english') ||
+        this.$nuxt.$route.path.includes('-en')
+      );
+    },
+    englishValue(a) {
+      return this.isEnglish() ? a + '_en' : a;
     },
     toEnglish() {
-      if ($nuxt.$route.path.includes('korean'))
+      if (!this.isEnglish())
         window.location =
           '/english/python' +
           ($nuxt.$route.path === '/'
             ? '/python'
             : $nuxt.$route.path.replace('/korean/python', ''));
+      else window.location = $nuxt.$route.path == '/' ? '/index-en' : 'app-en';
     },
     toKorean() {
-      if ($nuxt.$route.path.includes('english'))
+      if (this.isEnglish())
         window.location =
           '/korean/python' +
           ($nuxt.$route.path === '/'
             ? '/python'
             : $nuxt.$route.path.replace('/english/python', ''));
+      else window.location = $nuxt.$route.path == '/index-en' ? '/' : 'app';
     },
   },
 };

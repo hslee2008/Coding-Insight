@@ -21,7 +21,7 @@ alt="python-factory-picture" class="img-fluid"
 
     <Header num="65" title="zlib"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -52,7 +52,7 @@ alt="python-factory-picture" class="img-fluid"
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -76,7 +76,7 @@ alt="python-factory-picture" class="img-fluid"
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -95,7 +95,7 @@ alt="python-factory-picture" class="img-fluid"
 src="https://trinket.io/embed/python3/74a9209480" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -114,7 +114,7 @@ src="https://trinket.io/embed/python3/74a9209480" width="100%" height="356" fram
 src="https://trinket.io/embed/python3/50ab5d6ef3" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -128,11 +128,11 @@ src="https://trinket.io/embed/python3/50ab5d6ef3" width="100%" height="356" fram
 src="https://trinket.io/embed/python3/c42b0b500e" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="mapandreduceandfilter" slink="decorator"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

@@ -27,11 +27,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header num="14" title="숫자"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -61,7 +61,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -70,7 +70,7 @@
           파이썬에서는 숫자를 2가지 방법으로 선언할 수 있습니다.<br /><br />
 
           하나는 ''안에 숫자를 쓰는 것('숫자')이고 다른 하나는 '' 없이 숫자만
-          선언하는 방법입니다.<QuadSpace></QuadSpace>
+          선언하는 방법입니다.<QuadSpace />
 
           차이가 있을까요? 네, 차이가 있습니다.<br /><br />
 
@@ -96,7 +96,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -107,7 +107,7 @@
           이제 1과 1을 입력하세요. 그러면 짜잔! 2가 나옵니다...?<br /><br />
 
           흠... 왜 11이 나올까요? 1+1은 2가 아닌가요? 우리의 코드에는 문제가
-          있습니다.<QuadSpace></QuadSpace>
+          있습니다.<QuadSpace />
 
           그것은 input() 함수가 돌려주는 정보, 다시 말해 firstNumber와
           secondNumber에 저장된 데이터 형태는 문자입니다.<br /><br />
@@ -135,11 +135,11 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="boolean" slink="operator"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -239,7 +239,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -249,14 +249,14 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-A').checked) {
-        alert('1번 맞았습니다!')
+        alert('1 ✔️!')
       } else {
-        alert('1번 틀렸습니다')
+        alert('1 ❌')
       }
       if (document.getElementById('question-2-answers-A').checked) {
-        alert('2번 맞았습니다 :)')
+        alert('2 ✔️')
       } else {
-        alert('2번 틀렸습니다')
+        alert('2 ❌')
       }
     },
   },

@@ -24,7 +24,7 @@
 
     <Header num="85" title="스펨 이메일"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="text-center">
       <h1>준비</h1>
@@ -65,11 +65,11 @@
       style="margin: auto"
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="coroutine" slink="autozoom"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

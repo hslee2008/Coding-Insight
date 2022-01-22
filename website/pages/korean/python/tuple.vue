@@ -77,7 +77,7 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -106,7 +106,7 @@
         </div>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -133,11 +133,11 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <BeforeNextButton flink="zipping" slink="set"></BeforeNextButton>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div class="quiz">
         <h1>퀴즈 풀기!</h1>
@@ -202,7 +202,7 @@
         </v-btn>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
     </div>
   </div>
 </template>
@@ -213,9 +213,9 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-D').checked) {
-        alert('1번 맞았습니다!');
+        alert('1 ✔️!');
       } else {
-        alert('1번 틀렸습니다');
+        alert('1 ❌');
       }
     },
   },

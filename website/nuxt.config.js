@@ -3,7 +3,7 @@ import colors from 'vuetify/es5/util/colors';
 export default {
   target: 'static',
   generate: {
-    dir: '../../public_html/',
+    dir: '../public_html/',
     devtools: true,
   },
   // Global page headers: https://go.nuxtjs.dev/config-head

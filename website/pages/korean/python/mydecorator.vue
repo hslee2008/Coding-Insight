@@ -4,7 +4,7 @@
 
     <Header num="67" title="나만의 데코레이터"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -23,11 +23,11 @@
       loading="lazy"
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="decorator" slink="pythondecorator"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

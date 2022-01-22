@@ -40,7 +40,7 @@
 
         <Header num="16" title="숫자 종류"></Header>
 
-        <QuadSpace></QuadSpace>
+        <QuadSpace />
 
         <div>
           <div>
@@ -71,9 +71,9 @@
           ></iframe>
         </div>
 
-        <QuadSpace></QuadSpace>
+        <QuadSpace />
 
-        <div class="color-contrast-div">
+        <div>
           <div>
             <h1>float (실수)</h1>
             <p>
@@ -104,7 +104,7 @@
           ></iframe>
         </div>
 
-        <QuadSpace></QuadSpace>
+        <QuadSpace />
 
         <div>
           <div>
@@ -117,11 +117,11 @@
           </div>
         </div>
 
-        <QuadSpace></QuadSpace>
+        <QuadSpace />
 
         <BeforeNextButton flink="operator" slink="calc"></BeforeNextButton>
 
-        <QuadSpace></QuadSpace>
+        <QuadSpace />
       </div>
 
     </div>

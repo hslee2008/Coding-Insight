@@ -29,7 +29,7 @@
 
     <Header num="92" title="gTTS"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -78,11 +78,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="pandas" slink="finished"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

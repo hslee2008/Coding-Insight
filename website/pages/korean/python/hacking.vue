@@ -23,11 +23,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header num="Proj: 7" title="해킹: 가족 감시"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <h1>프로그램 설명</h1>
@@ -37,7 +37,7 @@
       </p>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <h1>코드 설명</h1>
@@ -76,11 +76,11 @@
       allowfullscreen
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="pythonmodule" slink="date"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

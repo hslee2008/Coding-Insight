@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn color="primary" dark @click="sheet1 = !sheet1">
@@ -314,11 +314,11 @@
       </div>
     </v-bottom-sheet>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header num="3" title="VSCode 설치"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <v-btn color="primary" dark @click="sheet3 = !sheet3">
       VSCode에서 파이썬 프로그래밍 작작
@@ -554,11 +554,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="install" slink="io"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

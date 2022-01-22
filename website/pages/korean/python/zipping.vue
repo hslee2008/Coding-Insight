@@ -23,11 +23,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header num="Proj: 5" title="압축 프로그램"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <h1>프로그램 설명</h1>
@@ -38,7 +38,7 @@
       </p>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <h1>코드 설명</h1>
@@ -62,7 +62,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <h1>코드 확인하기</h1>
     <iframe
@@ -75,14 +75,14 @@
       allowfullscreen
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton
       flink="dictionarymethod"
       slink="tuple"
     ></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

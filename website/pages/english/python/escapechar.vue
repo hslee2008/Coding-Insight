@@ -1,0 +1,244 @@
+<template>
+  <div>
+    <div>
+      <br />
+
+      <div>
+        <h1>What is escape character?</h1>
+        <p>
+          Escape characters and characters that escapes conflicts.<br /><br />
+
+          For example, let's look at the following string.<br /><br />
+
+          <code> ""HI" said Clara" </code>
+
+          To us, we can distinguish that HI is sperate from the entire
+          sentence.<br /><br />
+
+          However, computer thinks that the syntax is like the following: "" and
+          HI and " said Cara".<br /><br />
+
+          In other words, it returns an error.
+        </p>
+      </div>
+      <iframe
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python3/9219317e00"
+        width="60%"
+        height="356"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <br /><br />
+
+    <Header num="11" title="Escacpe Character"></Header>
+
+    <QuadSpace />
+
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
+        <h1>\' and \"</h1>
+        <p>
+          \' and \" are escape characters.<br /><br />
+
+          It can be used inside ' and " without any conflicts.<br /><br />
+
+          <code> text = '\'escape character\'' </code>
+        </p>
+      </div>
+      <iframe
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python/5d4e5680b4"
+        width="60%"
+        height="356"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        loading="lazy"
+        style="margin: auto"
+      ></iframe>
+    </div>
+
+    <br />
+    <mark
+      >Note that depending on your computer, it might look like a big W or a
+      slash.</mark
+    >
+
+    <QuadSpace />
+
+    <div style="display: flex" class="img-div">
+      <div class="mx-auto">
+        <h1>\n</h1>
+        <p>
+          n is short for newline.<br /><br />
+
+          \n is same as pressing enter.<br /><br />
+
+          <code> text = "Hello\nWorld" </code>
+        </p>
+      </div>
+      <iframe
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python3/9c8ca944b5"
+        width="60%"
+        height="356"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h1>\r</h1>
+        <p>
+          Though this character is a bit different depending on your system, \r
+          is usually similar as pressing backspace.<br /><br />
+
+          <code> text = "Hello!!\rWorld" </code>
+        </p>
+      </div>
+
+      <QuadSpace />
+
+      <div>
+        <div>
+          <h1>\t</h1>
+          <p>
+            \t is similar to pressing tab in keyboard. A tab is equal to 4
+            spaces ' '.
+            <br /><br />
+
+            <code> essay = "Hello\tWorld" </code>
+
+            We can set our own tab size using expandtabs.
+          </p>
+        </div>
+        <iframe
+          class="embed-responsive-item"
+          src="https://trinket.io/embed/python3/82e2765c4e"
+          width="100%"
+          height="356"
+          frameborder="0"
+          marginwidth="0"
+          marginheight="0"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <QuadSpace />
+
+      <div>
+        <div>
+          <h1>r'string' syntax</h1>
+          <p>
+            Sometimes, we might want to make a string that does not contain any
+            raw strings.<br /><br />
+
+            To do this, we have to put r before the quotation mark.
+          </p>
+        </div>
+        <iframe
+          class="embed-responsive-item"
+          src="https://trinket.io/embed/python/6366397170"
+          width="100%"
+          height="356"
+          frameborder="0"
+          marginwidth="0"
+          marginheight="0"
+          allowfullscreen
+          loading="lazy"
+          style="margin: auto"
+        ></iframe>
+      </div>
+
+      <QuadSpace />
+
+      <BeforeNextButton flink="password" slink="ascii"></BeforeNextButton>
+
+      <QuadSpace />
+
+      <div class="quiz">
+        <h1>Solve This Quiz!!</h1>
+
+        <hr />
+
+        <br /><br />
+        <h3>How can we put new lines in ''?</h3>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-A"
+            value="A"
+          />
+          <label for="question-1-answers-A">A) \n </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-B"
+            value="B"
+          />
+          <label for="question-1-answers-B">B) \a </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-C"
+            value="C"
+          />
+          <label for="question-1-answers-C">C) \r </label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-D"
+            value="D"
+          />
+          <label for="question-1-answers-D">D) \t </label>
+        </div>
+
+        <br /><br />
+
+        <v-btn @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn>
+      </div>
+      <QuadSpace />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'EscapeChar',
+  methods: {
+    checkAnswer() {
+      if (document.getElementById('question-1-answers-A').checked) {
+        alert('1 ✔️!');
+      } else {
+        alert('1 ❌');
+      }
+    },
+  },
+};
+</script>

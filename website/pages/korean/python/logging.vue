@@ -23,7 +23,7 @@ alt="python-factory-picture" class="img-fluid"
 
     <Header num="63" title="로깅"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -38,7 +38,7 @@ alt="python-factory-picture" class="img-fluid"
 src="https://trinket.io/embed/python3/9d4fc4880a" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div style="padding: 10px;">
@@ -52,7 +52,7 @@ src="https://trinket.io/embed/python3/9d4fc4880a" width="100%" height="356" fram
 src="https://trinket.io/embed/python3/784c0fc5a6" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -67,11 +67,11 @@ src="https://trinket.io/embed/python3/784c0fc5a6" width="100%" height="356" fram
 src="https://trinket.io/embed/python3/f9687df6a4" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="error2" slink="mapandreduceandfilter"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

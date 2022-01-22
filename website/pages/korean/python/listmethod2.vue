@@ -16,11 +16,9 @@
 
     <br />
 
-    <Header title="파이썬 리스트 메서드 2" num="20"></Header>
+    <Header title="리스트 메서드 2" num="20"></Header>
 
-    <br /><br />
-
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>
@@ -52,7 +50,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -77,7 +75,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -103,7 +101,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -126,11 +124,11 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="listmethod1" slink="dictionary"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -181,14 +179,14 @@
         <label for="question-2-answers-D">D) "Hello World" </label>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <v-btn @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -198,9 +196,9 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-B').checked) {
-        alert('1번 맞았습니다!')
+        alert('1 ✔️!')
       } else {
-        alert('1번 틀렸습니다')
+        alert('1 ❌')
       }
     },
   },

@@ -18,11 +18,11 @@
       </p>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header-en num="2" title="Installation & First program"></Header-en>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn color="primary" dark @click="sheet1 = !sheet1">
@@ -323,7 +323,7 @@
       </v-bottom-sheet>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div
       style="display: flex; justify-content: center; border-radius: 5px"
@@ -349,11 +349,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="/" slink="vscode"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

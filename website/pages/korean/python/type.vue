@@ -5,7 +5,7 @@
     <div>
       <Header num="32" title="타입 지정"></Header>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -37,7 +37,7 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -67,11 +67,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="specialvariable" slink="anonymousfunction"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

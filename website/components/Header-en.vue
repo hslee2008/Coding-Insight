@@ -10,7 +10,7 @@
     </v-btn>
 
     <v-btn class="ma-2" outlined to="/">
-      홈<v-icon right> mdi-home </v-icon>
+      Home<v-icon right> mdi-home </v-icon>
     </v-btn>
     <br /><br />
     <h1 class="display-6">
@@ -44,7 +44,7 @@ export default {
         try {
           const a = new SpeechSynthesisUtterance(
             document.body.innerText.substring(
-              document.body.innerText.indexOf('읽어주기') + 8,
+              document.body.innerText.indexOf('Read') + 8,
             ),
           );
           a.lang = 'ko-kr';

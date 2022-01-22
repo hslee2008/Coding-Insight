@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn color="primary" dark @click="sheet1 = !sheet1">
@@ -310,11 +310,11 @@
       </div>
     </v-bottom-sheet>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header-en num="3" title="VSCode Installation"></Header-en>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <v-btn color="primary" dark @click="sheet3 = !sheet3">
       Start programming in VSCode
@@ -536,11 +536,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="install" slink="io"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

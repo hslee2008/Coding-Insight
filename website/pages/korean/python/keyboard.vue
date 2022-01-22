@@ -27,7 +27,7 @@
 
     <Header num="87" title="키보드"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="text-center">
       <h1>키보드로 문자 쓰기</h1>
@@ -52,11 +52,11 @@
       key.press_and_relase("ctrl+alt+delete")
     </code>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="autozoom" slink="matplotlib"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

@@ -23,7 +23,7 @@ alt="python-factory-picture" class="img-fluid"
 
     <Header num="78" title="리퀘스트"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -38,7 +38,7 @@ src="https://trinket.io/embed/python3/a8fbf8fda2" width="100%" height="356" fram
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -57,7 +57,7 @@ src="https://trinket.io/embed/python3/3f896f4b27" width="100%" height="356" fram
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -77,7 +77,7 @@ src="https://trinket.io/embed/python3/4751110c8f" width="100%" height="356" fram
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -95,14 +95,14 @@ src="https://trinket.io/embed/python3/4751110c8f" width="100%" height="356" fram
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton
       flink="counter"
       slink="requestmethod"
     ></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

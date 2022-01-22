@@ -31,7 +31,7 @@
 
     <Header title="Rust" num="1"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -62,7 +62,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -85,7 +85,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <NuxtLink to="./install" style="text-decoration: none; float: right">
@@ -95,7 +95,7 @@
       </NuxtLink>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

@@ -31,7 +31,7 @@
 
     <Header num="90" title="터틀"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -49,7 +49,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -67,7 +67,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
         <div>
           <h1>Turtle 움직이기</h1>
@@ -172,11 +172,11 @@
           </p>
         </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="mouse" slink="pandas"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
   </div>
 </template>

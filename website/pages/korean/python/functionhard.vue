@@ -5,7 +5,7 @@
     <div>
       <Header num="30" title="함수 (자세히)"></Header>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -37,7 +37,7 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -65,7 +65,7 @@
         </div>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -110,7 +110,7 @@
         </div>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -134,11 +134,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="function" slink="specialvariable"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -201,7 +201,7 @@
       </v-btn>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -211,9 +211,9 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-C').checked) {
-        alert('1번 맞았습니다!')
+        alert('1 ✔️!')
       } else {
-        alert('1번 틀렸습니다')
+        alert('1 ❌')
       }
     },
   },

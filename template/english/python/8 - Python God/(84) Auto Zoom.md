@@ -7,7 +7,7 @@ Firts, we need few modules. Webbrowser(open zoom), keyboard(for typing), and tim
 1. First, download webbhrowser and keyboard by running: `pip install keyboard && pip install webbrowser`
 2. Next, make a new file and start riding code
 3. Import webbrowser, keyboard and time
-4. Wait till the time is right and print the waiting time
+4. Wait till the time ✔️ and print the waiting time
 5. Then, open zoom link
 6. Wait 5 seconds to load and press left arrow and enter to allow zoom
 7. Wait 5 seconds and type in ID and PASSWORD.

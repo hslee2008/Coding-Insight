@@ -17,7 +17,7 @@
 
     <Header num="69" title="새로운 줄"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -44,11 +44,11 @@
       loading="lazy"
       style="margin: auto"
     ></iframe>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="pythondecorator" slink="beedongee"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

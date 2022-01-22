@@ -47,7 +47,7 @@
 
     <Header num="11" title="이스케이프 문자"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -81,7 +81,7 @@
       뒤집어진 모양으로 보일 수도 있습니다.</mark
     >
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -108,7 +108,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -139,7 +139,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -155,7 +155,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -184,11 +184,11 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="password" slink="ascii"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -244,7 +244,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -254,9 +254,9 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-A').checked) {
-        alert('1번 맞았습니다!')
+        alert('1 ✔️!')
       } else {
-        alert('1번 틀렸습니다')
+        alert('1 ❌')
       }
     },
   },

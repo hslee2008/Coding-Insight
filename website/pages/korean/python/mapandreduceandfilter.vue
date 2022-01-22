@@ -20,7 +20,7 @@ src="https://trinket.io/embed/python3/0be5e6efb5" width="100%" height="356" fram
 
     <Header num="64" title="map, reduce, filter"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -48,7 +48,7 @@ src="https://trinket.io/embed/python3/373f6daa17" width="100%" height="356" fram
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -70,7 +70,7 @@ src="https://trinket.io/embed/python3/373f6daa17" width="100%" height="356" fram
 src="https://trinket.io/embed/python3/9eb9345774" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -89,11 +89,11 @@ src="https://trinket.io/embed/python3/9eb9345774" width="100%" height="356" fram
 src="https://trinket.io/embed/python3/294b66f2c5" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="logging" slink="zlib"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

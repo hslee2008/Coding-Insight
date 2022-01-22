@@ -18,9 +18,7 @@
 
     <Header title="숫자 메서드" num="17"></Header>
 
-    <br /><br />
-
-    <br /><br />
+<QuadSpace />
 
     <div class="header-div bg-black text-white">
       <div>
@@ -50,11 +48,11 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="calc" slink="list"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -112,7 +110,7 @@
       </v-btn>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -122,9 +120,9 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-B').checked) {
-        alert('1번 맞았습니다!')
+        alert('1 ✔️!')
       } else {
-        alert('1번 틀렸습니다')
+        alert('1 ❌')
       }
     },
   },

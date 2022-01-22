@@ -18,7 +18,7 @@
 
     <Header num="10" title="문자열 메서드 2"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -50,7 +50,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -87,7 +87,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -118,11 +118,11 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="stringmethod1" slink="password"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -266,7 +266,7 @@
       </v-btn>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -276,19 +276,19 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-A').checked) {
-        alert('1번 맞았습니다!');
+        alert('1 ✔️!');
       } else {
-        alert('1번 틀렸습니다');
+        alert('1 ❌');
       }
       if (document.getElementById('question-2-answers-A').checked) {
-        alert('2번 맞았습니다 :)');
+        alert('2 ✔️');
       } else {
-        alert('2번 틀렸습니다');
+        alert('2 ❌');
       }
       if (document.getElementById('question-3-answers-A').checked) {
-        alert('3번 맞았습니다 :)');
+        alert('3 ✔️');
       } else {
-        alert('3번 틀렸습니다');
+        alert('3 ❌');
       }
     },
   },

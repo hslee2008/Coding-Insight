@@ -32,7 +32,7 @@ width="560" height="315" src="https://www.youtube.com/embed/DzDnLTtrDQk" title="
 
       <Header title="조거문" num="26"></Header>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
          <div>
@@ -47,7 +47,7 @@ width="560" height="315" src="https://www.youtube.com/embed/DzDnLTtrDQk" title="
          </div>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
          <div>
@@ -66,7 +66,7 @@ src="https://trinket.io/embed/python3/9e178be286" width="100%" height="356" fram
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
          <div>
@@ -92,11 +92,11 @@ src="https://trinket.io/embed/python3/9e178be286" width="100%" height="356" fram
 
       <br /><br />
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <BeforeNextButton flink="setmethod" slink="ifmaster"></BeforeNextButton>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
   </div>
 </template>
 

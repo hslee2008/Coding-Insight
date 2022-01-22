@@ -1,10 +1,6 @@
 <template>
-  <div class="sub-div">
-    <div class="text-center">
-      <h1>프로젝트 수업!</h1>
-    </div>
-
-    <QuadSpace></QuadSpace>
+  <div>
+    <QuadSpace />
 
     <div style="display: flex; justify-content: center" class="img-div">
       <div class="mx-auto">
@@ -16,20 +12,10 @@
           몰래 이 프로그램을 사용해서 덧셈의 왕처럼 보일 수 있습니다.<br /><br />
 
           시작하기 전에
-          <a
-            href="https://coding-insight.com/python/korean/number.html"
-            style="color: dodgerblue"
-            >숫자</a
-          >,
-          <a
-            href="https://coding-insight.com/python/korean/operator.html"
-            style="color: dodgerblue"
-            >연산자</a
-          >,
-          <a
-            href="https://coding-insight.com/python/korean/numtype.html"
-            style="color: dodgerblue"
-            >숫자의 종류</a
+          <NuxtLink to="number" style="color: dodgerblue">숫자</NuxtLink>,
+          <NuxtLink to="operator" style="color: dodgerblue">연산자</NuxtLink>,
+          <NuxtLink to="numtype" style="color: dodgerblue"
+            >숫자의 종류</NuxtLink
           >
           부분을 공부하세요.
         </p>
@@ -44,11 +30,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header title="간단한 계산기 만들기" num="Proj: 3"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -75,7 +61,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -89,7 +75,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -122,16 +108,16 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="numtype" slink="nummethod"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
 <script>
-  export default {
-    name: "CalcPage"
-  }
+export default {
+  name: 'CalcPage',
+};
 </script>

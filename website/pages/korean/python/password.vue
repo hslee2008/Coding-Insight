@@ -23,11 +23,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header num="Proj: 2" title="암호 프로그램"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <h1>프로그램 설명</h1>
@@ -37,7 +37,7 @@
       </p>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <h1>코드 설명</h1>
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <h1>코드 확인하기</h1>
     <iframe
@@ -69,12 +69,14 @@
       allowfullscreen
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton
       flink="stringmethod2"
       slink="escapechar"
     ></BeforeNextButton>
+
+    <QuadSpace />
   </div>
 </template>
 

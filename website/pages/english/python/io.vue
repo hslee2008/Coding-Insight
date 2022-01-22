@@ -29,7 +29,7 @@
 
       <Header-en num="4" title="Input & Output"></Header-en>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div class="norm-div bg-black text-white">
         <div>
@@ -64,7 +64,7 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -93,7 +93,7 @@
         </div>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -136,11 +136,11 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <BeforeNextButton flink="vscode" slink="variable"></BeforeNextButton>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div class="quiz">
         <h1>Solve This Quiz!!</h1>
@@ -338,7 +338,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -350,12 +350,12 @@ export default {
       if (document.getElementById('question-1-answers-B').checked) {
         alert('1is correct!');
       } else {
-        alert('1 is wrong');
+        alert('1 ❌');
       }
       if (document.getElementById('question-2-answers-D').checked) {
-        alert('2is correct :)');
+        alert('2is correct');
       } else {
-        alert('2 is wrong');
+        alert('2 ❌');
       }
       if (document.getElementById('question-3-answers-A').checked) {
         alert('3is correct!');
@@ -363,14 +363,14 @@ export default {
         alert('3 틀렸습니다');
       }
       if (document.getElementById('question-4-answers-B').checked) {
-        alert('4is correct :)');
+        alert('4is correct');
       } else {
-        alert('4 is wrong');
+        alert('4 ❌');
       }
       if (document.getElementById('question-5-answers-A').checked) {
         alert('5is correct :o');
       } else {
-        alert('5 is wrong');
+        alert('5 ❌');
       }
     },
   },

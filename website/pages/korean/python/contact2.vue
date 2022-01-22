@@ -17,11 +17,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <Header num="Proj: 8" title="친구 목록 2"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <h1>프로그램 설명</h1>
@@ -31,7 +31,7 @@
       </p>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <h1>코드 확인하기</h1>
     <iframe
@@ -44,14 +44,14 @@
       allowfullscreen
     ></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton
       flink="contextmanager"
       slink="datachange"
     ></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

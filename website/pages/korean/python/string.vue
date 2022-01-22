@@ -37,7 +37,7 @@ width="80%" height="315" src="https://www.youtube.com/embed/NT0qINEacEo" title="
 
       <Header num="8" title="문자열"></Header>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div style="display: flex" class="img-div">
         <div style="margin: auto;">
@@ -55,7 +55,7 @@ src="https://trinket.io/embed/python/7c86f7328a" width="50%" height="356" frameb
 
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div >
         <div>
@@ -88,7 +88,7 @@ src="https://trinket.io/embed/python/c420acd5f8" width="100%" height="356" frame
 
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -119,7 +119,7 @@ src="https://trinket.io/embed/python3/e1cdc9760f" width="100%" height="356" fram
 
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div style="margin:20px;">
@@ -139,7 +139,7 @@ src="https://trinket.io/embed/python/47c742b3bd" width="100%" height="356" frame
 
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -161,11 +161,11 @@ src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frame
 
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <BeforeNextButton flink="comment" slink="stringmethod1"></BeforeNextButton>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div class="quiz">
         <h1>퀴즈 풀기!</h1>
@@ -296,7 +296,7 @@ src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frame
         </v-btn>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
     </div>
 </template>
 
@@ -305,7 +305,7 @@ src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frame
     name: "StringPage",
     methods: {
       checkAnswer() {
-        if (document.getElementById("question-1-answers-B").checked) {alert("1번 맞았습니다!")} else {alert("1번 틀렸습니다")}; if(document.getElementById("question-2-answers-C").checked) {alert("2번 맞았습니다 :)")} else {alert("2번 틀렸습니다")}; if(document.getElementById("question-3-answers-C").checked) {alert("3번 맞았습니다!")} else {alert("3번 틀렸습니다")}; if(document.getElementById("question-4-answers-D").checked) {alert("4번 맞았습니다 :)")} else {alert("4번 틀렸습니다")}; if(document.getElementById("question-5-answers-B").checked) {alert("5번 맞았습니다 :o")} else {alert("5번 틀렸습니다")};
+        if (document.getElementById("question-1-answers-B").checked) {alert("1 ✔️!")} else {alert("1 ❌")}; if(document.getElementById("question-2-answers-C").checked) {alert("2 ✔️")} else {alert("2 ❌")}; if(document.getElementById("question-3-answers-C").checked) {alert("3 ✔️!")} else {alert("3 ❌")}; if(document.getElementById("question-4-answers-D").checked) {alert("4 ✔️")} else {alert("4 ❌")}; if(document.getElementById("question-5-answers-B").checked) {alert("5 ✔️ :o")} else {alert("5 ❌")};
       }
     }
   }

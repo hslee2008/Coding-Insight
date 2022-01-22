@@ -1,7 +1,7 @@
 <template>
   <div>
     <br />
-    
+
     <div style="display: flex" class="img-div">
       <div>
         <h1>변수란?</h1>
@@ -42,7 +42,7 @@
 
     <Header num="5" title="변수"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -67,7 +67,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -85,7 +85,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -100,7 +100,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -125,7 +125,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -142,7 +142,7 @@
           변수가 더 이상 필요 없고 이 코드가 실행되고 있는 기기에 저장 공간이
           많이 없다면 삭제해도 됩니다.<br /><br />
           삭제는 del 키워드를 사용하고 뒤에 변수 이름을 넣으면 이제 변수를 다시
-          사용할 수 없게 됩니다.<QuadSpace></QuadSpace>
+          사용할 수 없게 됩니다.<QuadSpace />
           <code>
             name = "Python - Factory"<br /><br />
             del name<br /><br />
@@ -154,7 +154,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -187,11 +187,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="io" slink="madlib"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -396,7 +396,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -406,29 +406,29 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-A').checked) {
-        alert('1번 맞았습니다!')
+        alert('1 ✔️!')
       } else {
-        alert('1번 틀렸습니다')
+        alert('1 ❌')
       }
       if (document.getElementById('question-2-answers-D').checked) {
-        alert('2번 맞았습니다 :)')
+        alert('2 ✔️')
       } else {
-        alert('2번 틀렸습니다')
+        alert('2 ❌')
       }
       if (document.getElementById('question-3-answers-B').checked) {
-        alert('3번 맞았습니다!')
+        alert('3 ✔️!')
       } else {
-        alert('3번 틀렸습니다')
+        alert('3 ❌')
       }
       if (document.getElementById('question-4-answers-A').checked) {
-        alert('4번 맞았습니다 :)')
+        alert('4 ✔️')
       } else {
-        alert('4번 틀렸습니다')
+        alert('4 ❌')
       }
       if (document.getElementById('question-5-answers-A').checked) {
-        alert('5번 맞았습니다 :o')
+        alert('5 ✔️ :o')
       } else {
-        alert('5번 틀렸습니다')
+        alert('5 ❌')
       }
     },
   },

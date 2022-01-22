@@ -5,7 +5,7 @@
     <div>
       <Header num="35" title="반복문 종류"></Header>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -16,7 +16,7 @@
 
             이런 순환이 가능한 변수를 Iterable(이-터-러-블)이라고 합니다.<br /><br />
 
-            옆에 있는 CODE1은 이터러블을 사용한 for 문의 예시입니다.<QuadSpace></QuadSpace>
+            옆에 있는 CODE1은 이터러블을 사용한 for 문의 예시입니다.<QuadSpace />
 
             CODE2는 for 반복문을 줄인 코드입니다.<br /><br />
 
@@ -42,7 +42,7 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -70,7 +70,7 @@
         </div>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -104,11 +104,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="for" slink="forfunction"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

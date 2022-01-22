@@ -24,7 +24,7 @@ alt="python-factory-picture" class="img-fluid"
 
     <Header num="76" title="멀티프로세싱"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -38,7 +38,7 @@ alt="python-factory-picture" class="img-fluid"
 src="https://trinket.io/embed/python3/bbf4c84765" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -67,11 +67,11 @@ src="https://trinket.io/embed/python3/bbf4c84765" width="100%" height="356" fram
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="threadmethod" slink="counter"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

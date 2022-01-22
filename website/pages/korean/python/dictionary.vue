@@ -49,7 +49,7 @@
 
     <Header num="21" title="딕셔너리"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -90,7 +90,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -119,7 +119,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -144,11 +144,11 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="listmethod2" slink="dictionarymethod"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -199,13 +199,13 @@
         <label for="question-2-answers-D">D) ["b", "a"] </label>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <v-btn @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -215,9 +215,9 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-B').checked) {
-        alert('1번 맞았습니다!')
+        alert('1 ✔️!')
       } else {
-        alert('1번 틀렸습니다')
+        alert('1 ❌')
       }
     },
   },

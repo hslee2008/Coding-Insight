@@ -23,7 +23,7 @@ alt="python-factory-picture" class="img-fluid" max-width="400px"
 
     <Header num="57" title="JSON"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -37,7 +37,7 @@ src="https://trinket.io/embed/python3/0812d9740b" width="100%" height="356" fram
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -51,7 +51,7 @@ src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="356" fram
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -83,11 +83,11 @@ src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="200" fram
         style="margin: auto;"></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="pip" slink="array"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

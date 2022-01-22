@@ -4,7 +4,7 @@
 
     <Header num="42" title="파이썬 모듈"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -18,7 +18,7 @@ src="https://trinket.io/embed/python3/cf2c9fad50" width="100%" height="358" fram
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -42,11 +42,11 @@ src="https://trinket.io/embed/python3/63f69099ff" width="100%" height="356" fram
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="hacking" slink="date"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

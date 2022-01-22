@@ -29,7 +29,7 @@
 
     <Header-en num="5" title="Variable"></Header-en>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -56,7 +56,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -92,7 +92,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -112,7 +112,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -143,7 +143,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -171,11 +171,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="io" slink="madlib"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>Solve This Quiz!!</h1>
@@ -382,7 +382,7 @@
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -392,29 +392,29 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-A').checked) {
-        alert('1 is right!');
+        alert('1 ✔️!');
       } else {
-        alert('1 is wrong');
+        alert('1 ❌');
       }
       if (document.getElementById('question-2-answers-D').checked) {
-        alert('2 is right :)');
+        alert('2 ✔️');
       } else {
-        alert('2 is wrong');
+        alert('2 ❌');
       }
       if (document.getElementById('question-3-answers-B').checked) {
-        alert('3 is right!');
+        alert('3 ✔️!');
       } else {
-        alert('3 is wrong');
+        alert('3 ❌');
       }
       if (document.getElementById('question-4-answers-A').checked) {
-        alert('4 is right :)');
+        alert('4 ✔️');
       } else {
-        alert('4 is wrong');
+        alert('4 ❌');
       }
       if (document.getElementById('question-5-answers-A').checked) {
-        alert('5 is right :o');
+        alert('5 ✔️ :o');
       } else {
-        alert('5 is wrong');
+        alert('5 ❌');
       }
     },
   },

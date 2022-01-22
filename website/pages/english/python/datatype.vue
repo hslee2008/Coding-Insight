@@ -31,9 +31,9 @@
 
     <br /><br />
 
-    <Header num="6" title="데이터 형태"></Header>
+    <Header-en num="6" title="Data Type"></Header-en>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto; padding-right: 5px">
@@ -67,7 +67,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -96,7 +96,7 @@
 
     <BeforeNextButton flink="madlib" slink="comment"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -242,7 +242,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -252,19 +252,19 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-B').checked) {
-        alert('1 is right!');
+        alert('1 ✔️!');
       } else {
-        alert('1 is wrong');
+        alert('1 ❌');
       }
       if (document.getElementById('question-2-answers-A').checked) {
-        alert('2 is right :)');
+        alert('2 ✔️');
       } else {
-        alert('2 is wrong');
+        alert('2 ❌');
       }
       if (document.getElementById('question-3-answers-A').checked) {
-        alert('3 is right!');
+        alert('3 ✔️!');
       } else {
-        alert('3 is wrong');
+        alert('3 ❌');
       }
     },
   },

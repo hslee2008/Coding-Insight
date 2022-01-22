@@ -20,7 +20,7 @@
 
     <br /><br />
 
-    <div class="color-contrast-div">
+    <div>
       <div>
         <h1>조건문 간단히 하기</h1>
         <p>
@@ -55,7 +55,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -110,7 +110,7 @@
 
     <BeforeNextButton flink="if" slink="password-safe"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

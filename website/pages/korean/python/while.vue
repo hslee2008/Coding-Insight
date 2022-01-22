@@ -5,7 +5,7 @@
     <div>
       <Header num="37" title="While 반복문"></Header>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -32,7 +32,7 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -46,7 +46,7 @@
 
               while 문에서는 무한 반복문을 조심해야 합니다. 무한 반복문이란 말
               그대로 무한으로 코드를 실행하는 것으로 실수로 코드를 잘못 작성해서
-              코드가 계속 실행될 수 있습니다.<QuadSpace></QuadSpace>
+              코드가 계속 실행될 수 있습니다.<QuadSpace />
 
               밑에 있는 CODE2 에시를 살펴보겠습니다.<br /><br />
 
@@ -78,7 +78,7 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -104,7 +104,7 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -122,11 +122,11 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="forfunction" slink="oneliner"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

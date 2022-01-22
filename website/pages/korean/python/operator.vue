@@ -33,7 +33,7 @@ width="80%" height="315" src="https://www.youtube.com/embed/sGZLq4VZW58" title="
 
       <Header num="15" title="연산자"></Header>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
          <div>
@@ -45,7 +45,7 @@ width="80%" height="315" src="https://www.youtube.com/embed/sGZLq4VZW58" title="
          </div>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
          <div>
@@ -68,9 +68,9 @@ src="https://trinket.io/embed/python3/fd203a6323" width="100%" height="356" fram
 
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
-      <div class="color-contrast-div">
+      <div>
          <div>
             <h1>비교 연산자</h1>
             <p>
@@ -91,11 +91,11 @@ src="https://trinket.io/embed/python3/39a09b977e"
 
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <BeforeNextButton flink="number" slink="numtype"></BeforeNextButton>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
    </div>
 </template>
 

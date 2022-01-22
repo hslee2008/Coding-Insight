@@ -22,7 +22,7 @@ alt="python-factory-picture" class="img-fluid"
 
     <Header num="48" title="수학 (통계)"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -51,7 +51,7 @@ src="https://trinket.io/embed/python3/b4ab6a9593" width="100%" height="356" fram
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -71,7 +71,7 @@ src="https://trinket.io/embed/python3/0a8bc90264" width="100%" height="356" fram
         style="margin: auto;"></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -86,11 +86,11 @@ src="https://trinket.io/embed/python3/0a8bc90264" width="100%" height="356" fram
 src="https://trinket.io/embed/python3/0a8bc90264" width="100%" height="356" frameborder="0"
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="classmethod" slink="file"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

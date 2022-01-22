@@ -31,7 +31,7 @@
 
     <Header num="53" title="컨텍스트 매니저"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -59,7 +59,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -93,7 +93,7 @@
 
     <BeforeNextButton flink="filewriting" slink="contact2"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

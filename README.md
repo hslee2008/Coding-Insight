@@ -17,7 +17,7 @@
 
 - 유튜브: https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA
 
-- 비디오: https://coding-insight.com/python/korean/video.html
+- 비디오: https://coding-insight.com/korean/python/video
 
 - 사이트: http://coding-insight.com/
 

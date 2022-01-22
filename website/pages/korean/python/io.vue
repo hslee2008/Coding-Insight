@@ -42,7 +42,7 @@
 
       <Header num="4" title="입출력"></Header>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div class="norm-div bg-black text-white">
         <div>
@@ -73,7 +73,7 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -108,7 +108,7 @@
         </div>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div>
         <div>
@@ -151,11 +151,11 @@
         ></iframe>
       </div>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <BeforeNextButton flink="vscode" slink="variable"></BeforeNextButton>
 
-      <QuadSpace></QuadSpace>
+      <QuadSpace />
 
       <div class="quiz">
         <h1>퀴즈 풀기!</h1>
@@ -348,7 +348,7 @@
       </div>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -358,29 +358,29 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-B').checked) {
-        alert('1번 맞았습니다!')
+        alert('1 ✔️!')
       } else {
-        alert('1번 틀렸습니다')
+        alert('1 ❌')
       }
       if (document.getElementById('question-2-answers-D').checked) {
-        alert('2번 맞았습니다 :)')
+        alert('2 ✔️')
       } else {
-        alert('2번 틀렸습니다')
+        alert('2 ❌')
       }
       if (document.getElementById('question-3-answers-A').checked) {
-        alert('3번 맞았습니다!')
+        alert('3 ✔️!')
       } else {
         alert('3 틀렸습니다')
       }
       if (document.getElementById('question-4-answers-B').checked) {
-        alert('4번 맞았습니다 :)')
+        alert('4 ✔️')
       } else {
-        alert('4번 틀렸습니다')
+        alert('4 ❌')
       }
       if (document.getElementById('question-5-answers-A').checked) {
-        alert('5번 맞았습니다 :o')
+        alert('5 ✔️ :o')
       } else {
-        alert('5번 틀렸습니다')
+        alert('5 ❌')
       }
     },
   },

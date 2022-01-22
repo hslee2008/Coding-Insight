@@ -51,7 +51,7 @@ const Links = [
     title: "Fun Videos",
     icon: "movie",
     description: "Watch fun videos about Python",
-    link: "https://coding-insight.com/python/korean/video.html",
+    link: "https://coding-insight.com/korean/python/video",
   },
 ];
 

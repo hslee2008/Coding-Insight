@@ -34,7 +34,7 @@
 
     <Header num="86" title="자동 줌"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="text-center">
       <h1>코드</h1>
@@ -60,11 +60,11 @@
       keyboard.press_and_release("enter")
     </code>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <BeforeNextButton flink="spam" slink="keyboard"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 

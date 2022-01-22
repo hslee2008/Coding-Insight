@@ -589,5 +589,93 @@ export default {
       title: 'Data Type',
       to: '/english/python/datatype',
     },
+    {
+      icon: 'mdi-comment-quote',
+      title: 'Comment',
+      to: '/english/python/comment',
+    },
+    {
+      icon: 'mdi-alphabetical',
+      title: 'String',
+      to: '/english/python/string',
+    },
+    {
+      icon: 'mdi-sort-alphabetical-ascending',
+      title: 'String Method 1',
+      to: '/english/python/stringmethod1',
+    },
+    {
+      icon: 'mdi-sort-alphabetical-descending',
+      title: 'String Method 2',
+      to: '/english/python/stringmethod2',
+    },
+    {
+      icon: 'mdi-lock-alert',
+      title: 'Mission: Password',
+      to: '/english/python/password',
+    },
+    {
+      icon: 'mdi-exit-run',
+      title: 'Escape Character',
+      to: '/english/python/escapechar',
+    },
+  ],
+
+  python_basics_en: [
+    {
+      icon: 'mdi-book-alphabet',
+      title: 'ASCII',
+      to: '/english/python/ascii',
+    },
+    {
+      icon: 'mdi-nintendo-switch',
+      title: 'Boolean',
+      to: '/english/python/boolean',
+    },
+    {
+      icon: 'mdi-numeric',
+      title: 'Number',
+      to: '/english/python/number',
+    },
+    {
+      icon: 'mdi-plus-minus-variant',
+      title: 'Operator',
+      to: '/english/python/operator',
+    },
+    {
+      icon: 'mdi-pi',
+      title: 'Numer Types',
+      to: '/english/python/numtype',
+    },
+    {
+      icon: 'mdi-calculator',
+      title: 'Mission: Basic Calculator',
+      to: '/english/python/calc',
+    },
+    {
+      icon: 'mdi-numeric-9-plus-box-multiple',
+      title: 'Number Method',
+      to: '/english/python/nummethod',
+    },
+    {
+      icon: 'mdi-filter-variant',
+      title: 'List',
+      to: '/english/python/list',
+    },
+    {
+      icon: 'mdi-playlist-plus',
+      title: 'List Method 1',
+      to: '/english/python/listmethod1',
+    },
+    {
+      icon: 'mdi-playlist-minus',
+      title: 'List Method 2',
+      to: '/english/python/listmethod2',
+    },
+    {
+      icon: 'mdi-account-box',
+      title: 'Mission: Contact',
+      to: '/english/python/contact',
+    },
   ],
 };

@@ -44,7 +44,7 @@
 
     <Header num="6" title="데이터 형태"></Header>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto; padding-right: 5px">
@@ -72,7 +72,7 @@
       ></iframe>
     </div>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div>
       <div>
@@ -122,7 +122,7 @@
 
     <BeforeNextButton flink="madlib" slink="comment"></BeforeNextButton>
 
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
@@ -266,7 +266,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <QuadSpace></QuadSpace>
+    <QuadSpace />
   </div>
 </template>
 
@@ -276,19 +276,19 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-B').checked) {
-        alert('1번 맞았습니다!')
+        alert('1 ✔️!')
       } else {
-        alert('1번 틀렸습니다')
+        alert('1 ❌')
       }
       if (document.getElementById('question-2-answers-A').checked) {
-        alert('2번 맞았습니다 :)')
+        alert('2 ✔️')
       } else {
-        alert('2번 틀렸습니다')
+        alert('2 ❌')
       }
       if (document.getElementById('question-3-answers-A').checked) {
-        alert('3번 맞았습니다!')
+        alert('3 ✔️!')
       } else {
-        alert('3번 틀렸습니다')
+        alert('3 ❌')
       }
     },
   },
