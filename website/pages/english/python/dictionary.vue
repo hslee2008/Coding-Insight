@@ -107,7 +107,7 @@
     <BeforeNextButton
       flink="contact"
       slink="dictionarymethod"
-    ></BeforeNextButton>
+     />
 
     <QuadSpace />
 

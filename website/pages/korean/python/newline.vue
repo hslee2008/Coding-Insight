@@ -46,7 +46,7 @@
     ></iframe>
     <QuadSpace />
 
-    <BeforeNextButton flink="pythondecorator" slink="beedongee"></BeforeNextButton>
+    <BeforeNextButton flink="pythondecorator" slink="beedongee" />
 
     <QuadSpace />
   </div>

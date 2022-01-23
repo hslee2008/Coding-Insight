@@ -74,7 +74,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="asyncio" slink="thread"></BeforeNextButton>
+    <BeforeNextButton flink="asyncio" slink="thread" />
 
     <QuadSpace />
   </div>

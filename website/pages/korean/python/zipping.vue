@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex">
-      <div style="margin: auto; padding: 20px">
+      <div style="margin: auto;">
         <h1>나만의 압축 프로그램</h1>
         <p>
           사실 윈도우아 맥에는 압축 프로그램이 있습니다.<br /><br />
@@ -80,7 +80,7 @@
     <BeforeNextButton
       flink="dictionarymethod"
       slink="tuple"
-    ></BeforeNextButton>
+     />
 
     <QuadSpace />
   </div>

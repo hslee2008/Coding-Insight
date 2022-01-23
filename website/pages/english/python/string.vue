@@ -202,7 +202,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="comment" slink="stringmethod1"></BeforeNextButton>
+    <BeforeNextButton flink="comment" slink="stringmethod1" />
 
     <QuadSpace />
 

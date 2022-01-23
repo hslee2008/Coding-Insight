@@ -1,0 +1,34 @@
+{
+  "name": "파이썬 (Python-Factory)",
+  "short_name": "파이썬 (Python-Factory)",
+  "version": "2022.01.16",
+  "description": "Learn Python in Coding-Insight",
+  "dir": "rtl",
+  "id": "/index.html",
+  "author": ["Hyunseung", "Juha", "Gun"],
+  "categories": ["python", "programming", "coding-insight", "python-factory"],
+  "theme_color": "#20232a",
+  "background_color": "#20232a",
+  "display": "minimal-ui",
+  "scope": "./",
+  "start_url": "/",
+  "prefer_related_applications": false,
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

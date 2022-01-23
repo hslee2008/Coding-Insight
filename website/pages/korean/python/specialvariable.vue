@@ -65,7 +65,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="functionhard" slink="type"></BeforeNextButton>
+    <BeforeNextButton flink="functionhard" slink="type" />
 
     <QuadSpace />
   </div>

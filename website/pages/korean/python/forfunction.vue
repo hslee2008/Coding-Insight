@@ -70,7 +70,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="fortype" slink="while"></BeforeNextButton>
+    <BeforeNextButton flink="fortype" slink="while" />
 
     <QuadSpace />
   </div>

@@ -69,7 +69,7 @@
         style="margin: auto;"></iframe>
     </div>
     <QuadSpace />
-    <BeforeNextButton flink="list" slink="listmethod2"></BeforeNextButton>
+    <BeforeNextButton flink="list" slink="listmethod2" />
     <QuadSpace />
   </div>
 </template>

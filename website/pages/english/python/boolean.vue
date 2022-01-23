@@ -152,7 +152,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="ascii" slink="number"></BeforeNextButton>
+    <BeforeNextButton flink="ascii" slink="number" />
 
     <QuadSpace />
 

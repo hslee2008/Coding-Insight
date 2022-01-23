@@ -110,7 +110,7 @@
       ></iframe>
     </div>
     <QuadSpace />
-    <BeforeNextButton flink="number" slink="numtype"></BeforeNextButton>
+    <BeforeNextButton flink="number" slink="numtype" />
     <QuadSpace />
   </div>
 </template>

@@ -57,7 +57,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="atexit" slink="spam"></BeforeNextButton>
+    <BeforeNextButton flink="atexit" slink="spam" />
 
     <QuadSpace />
   </div>

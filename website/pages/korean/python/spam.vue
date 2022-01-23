@@ -67,7 +67,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="coroutine" slink="autozoom"></BeforeNextButton>
+    <BeforeNextButton flink="coroutine" slink="autozoom" />
 
     <QuadSpace />
   </div>

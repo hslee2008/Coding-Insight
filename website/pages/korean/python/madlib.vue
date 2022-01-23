@@ -133,7 +133,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="variable" slink="datatype"></BeforeNextButton>
+    <BeforeNextButton flink="variable" slink="datatype" />
 
     <QuadSpace />
   </div>

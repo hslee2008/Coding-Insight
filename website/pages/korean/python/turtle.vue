@@ -174,7 +174,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="mouse" slink="pandas"></BeforeNextButton>
+    <BeforeNextButton flink="mouse" slink="pandas" />
 
     <QuadSpace />
 

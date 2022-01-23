@@ -135,7 +135,7 @@
 
       <QuadSpace />
 
-      <BeforeNextButton flink="zipping" slink="set"></BeforeNextButton>
+      <BeforeNextButton flink="zipping" slink="set" />
 
       <QuadSpace />
 

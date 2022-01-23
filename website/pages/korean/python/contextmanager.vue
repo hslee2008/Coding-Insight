@@ -91,7 +91,7 @@
 
     <br /><br />
 
-    <BeforeNextButton flink="filewriting" slink="contact2"></BeforeNextButton>
+    <BeforeNextButton flink="filewriting" slink="contact2" />
 
     <QuadSpace />
   </div>

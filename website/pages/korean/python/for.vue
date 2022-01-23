@@ -167,7 +167,7 @@
     <BeforeNextButton
       flink="anonymousfunction"
       slink="fortype"
-    ></BeforeNextButton>
+     />
 
     <QuadSpace />
   </div>

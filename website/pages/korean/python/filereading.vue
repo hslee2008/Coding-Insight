@@ -143,7 +143,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="file" slink="filewriting"></BeforeNextButton>
+    <BeforeNextButton flink="file" slink="filewriting" />
 
     <QuadSpace />
   </div>

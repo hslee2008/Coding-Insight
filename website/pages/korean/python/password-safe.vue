@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex">
-      <div style="margin: auto; padding: 20px">
+      <div style="margin: auto;">
         <h1>로그인 프로그램</h1>
         <p>
           <NuxtLink to="./password">암호 로그인 시스템</NuxtLink> 페이지에서
@@ -73,7 +73,7 @@
     <BeforeNextButton
       flink="ifmaster"
       slink="none"
-    ></BeforeNextButton>
+     />
 
     <QuadSpace />
   </div>

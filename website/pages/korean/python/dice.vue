@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex">
-      <div style="margin: auto; padding: 20px">
+      <div style="margin: auto;">
         <h1>주사위</h1>
         <p>주사위를 만드는 프로그램을 만들어 보겠습니다.</p>
       </div>
@@ -52,7 +52,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="random" slink="regex"></BeforeNextButton>
+    <BeforeNextButton flink="random" slink="regex" />
 
     <QuadSpace />
   </div>

@@ -92,7 +92,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="numtype" slink="nummethod"></BeforeNextButton>
+    <BeforeNextButton flink="numtype" slink="nummethod" />
 
     <QuadSpace />
   </div>

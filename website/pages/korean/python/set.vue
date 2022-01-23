@@ -118,7 +118,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="tuple" slink="setmethod"></BeforeNextButton>
+    <BeforeNextButton flink="tuple" slink="setmethod" />
 
     <QuadSpace />
 

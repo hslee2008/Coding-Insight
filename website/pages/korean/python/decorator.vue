@@ -128,7 +128,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="zlib" slink="mydecorator"></BeforeNextButton>
+    <BeforeNextButton flink="zlib" slink="mydecorator" />
 
     <QuadSpace />
   </div>

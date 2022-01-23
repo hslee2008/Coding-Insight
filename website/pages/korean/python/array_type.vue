@@ -91,7 +91,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="array" slink="array_shape"></BeforeNextButton>
+    <BeforeNextButton flink="array" slink="array_shape" />
 
     <QuadSpace />
   </div>

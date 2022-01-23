@@ -93,7 +93,7 @@ src="https://trinket.io/embed/python3/39a09b977e"
 
       <QuadSpace />
 
-      <BeforeNextButton flink="number" slink="numtype"></BeforeNextButton>
+      <BeforeNextButton flink="number" slink="numtype" />
 
       <QuadSpace />
    </div>

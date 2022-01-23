@@ -101,7 +101,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="operator" slink="calc"></BeforeNextButton>
+    <BeforeNextButton flink="operator" slink="calc" />
 
     <QuadSpace />
 

@@ -152,7 +152,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="beedongee" slink="name"></BeforeNextButton>
+    <BeforeNextButton flink="beedongee" slink="name" />
 
     <QuadSpace />
   </div>

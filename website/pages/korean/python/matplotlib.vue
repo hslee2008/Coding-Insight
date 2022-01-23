@@ -225,7 +225,7 @@ src="https://trinket.io/embed/python3/074b4c95ef" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <BeforeNextButton flink="keyboard" slink="mouse"></BeforeNextButton>
+    <BeforeNextButton flink="keyboard" slink="mouse" />
 
     <QuadSpace />
   </div>

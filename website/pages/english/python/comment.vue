@@ -108,7 +108,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="datatype" slink="string"></BeforeNextButton>
+    <BeforeNextButton flink="datatype" slink="string" />
 
     <QuadSpace />
 

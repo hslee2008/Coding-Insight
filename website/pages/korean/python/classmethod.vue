@@ -139,7 +139,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="class" slink="math"></BeforeNextButton>
+    <BeforeNextButton flink="class" slink="math" />
 
     <QuadSpace />
   </div>

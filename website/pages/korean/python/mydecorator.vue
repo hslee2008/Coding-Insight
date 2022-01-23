@@ -25,7 +25,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="decorator" slink="pythondecorator"></BeforeNextButton>
+    <BeforeNextButton flink="decorator" slink="pythondecorator" />
 
     <QuadSpace />
   </div>

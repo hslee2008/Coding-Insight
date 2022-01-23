@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex">
-      <div style="margin: auto; padding: 20px">
+      <div style="margin: auto;">
         <h1>Making a login program</h1>
         <p>
           Let's make a login program that prompts the user for password!<br /><br />
@@ -75,7 +75,7 @@
     <BeforeNextButton
       flink="stringmethod2"
       slink="escapechar"
-    ></BeforeNextButton>
+     />
 
     <QuadSpace />
   </div>

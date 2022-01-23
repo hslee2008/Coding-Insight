@@ -251,6 +251,7 @@
       :bottom="true"
       width="80%"
       fixed
+      temporary
       style="padding: 10px; display: flex"
       ><v-row>
         <v-card class="mx-auto" max-width="350">
@@ -428,22 +429,36 @@ export default {
       return this.isEnglish() ? a + '_en' : a;
     },
     toEnglish() {
-      if (!this.isEnglish())
-        window.location =
-          '/english/python' +
-          ($nuxt.$route.path === '/'
-            ? '/python'
-            : $nuxt.$route.path.replace('/korean/python', ''));
-      else window.location = $nuxt.$route.path == '/' ? '/index-en' : 'app-en';
+      switch ($nuxt.$route.path) {
+        case '/':
+          window.location = '/index-en';
+          break;
+        case '/app':
+          window.location = '/app-en';
+          break;
+        default:
+          window.location = '/english/python' +
+            ($nuxt.$route.path === '/'
+              ? '/python'
+              : $nuxt.$route.path.replace('/korean/python', ''));
+          break;
+      }
     },
     toKorean() {
-      if (this.isEnglish())
-        window.location =
-          '/korean/python' +
-          ($nuxt.$route.path === '/'
-            ? '/python'
-            : $nuxt.$route.path.replace('/english/python', ''));
-      else window.location = $nuxt.$route.path == '/index-en' ? '/' : 'app';
+      switch ($nuxt.$route.path) {
+        case '/index-en':
+          window.location = '/';
+          break;
+        case '/app-en':
+          window.location = '/app';
+          break;
+        default:
+          window.location = '/korean/python' +
+            ($nuxt.$route.path === '/'
+              ? '/python'
+              : $nuxt.$route.path.replace('/english/python', ''));
+          break;
+      }
     },
   },
 };

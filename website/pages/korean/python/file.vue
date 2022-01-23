@@ -81,7 +81,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="math" slink="filereading"></BeforeNextButton>
+    <BeforeNextButton flink="math" slink="filereading" />
 
     <QuadSpace />
   </div>

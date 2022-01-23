@@ -124,7 +124,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="forfunction" slink="oneliner"></BeforeNextButton>
+    <BeforeNextButton flink="forfunction" slink="oneliner" />
 
     <QuadSpace />
   </div>

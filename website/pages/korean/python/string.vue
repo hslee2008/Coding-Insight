@@ -163,7 +163,7 @@ src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frame
 
       <QuadSpace />
 
-      <BeforeNextButton flink="comment" slink="stringmethod1"></BeforeNextButton>
+      <BeforeNextButton flink="comment" slink="stringmethod1" />
 
       <QuadSpace />
 

@@ -121,7 +121,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="module" slink="pythonmodule"></BeforeNextButton>
+    <BeforeNextButton flink="module" slink="pythonmodule" />
 
     <QuadSpace />
   </div>

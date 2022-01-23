@@ -77,7 +77,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="error" slink="logging"></BeforeNextButton>
+    <BeforeNextButton flink="error" slink="logging" />
 
     <QuadSpace />
   </div>

@@ -137,7 +137,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="set" slink="if"></BeforeNextButton>
+    <BeforeNextButton flink="set" slink="if" />
 
     <QuadSpace />
   </div>

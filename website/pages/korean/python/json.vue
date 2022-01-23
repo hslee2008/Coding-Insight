@@ -8,7 +8,7 @@
 alt="python-factory-picture" class="img-fluid" max-width="400px"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU78Hj6DPZq_rVh1dyNTc4Lwt_Z05Vr-SRA&usqp=CAU" />
       </div>
-      <div style="margin: auto; padding: 20px;">
+      <div style="margin: auto;">
         <h1>JSON</h1>
         <p>
           JSON이란 JavaScript Object Notation이라고 데이터를 정리하는 형태 중 하나입니다.<br /><br />
@@ -85,7 +85,7 @@ src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="200" fram
 
     <QuadSpace />
 
-    <BeforeNextButton flink="pip" slink="array"></BeforeNextButton>
+    <BeforeNextButton flink="pip" slink="array" />
 
     <QuadSpace />
   </div>

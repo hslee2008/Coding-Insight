@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex">
-      <div style="margin: auto; padding: 20px">
+      <div style="margin: auto;">
         <h1>로그인 프로그램</h1>
         <p>
           파이썬을 사용해서 암호 로그인 프로그램을 만들어 보겠습니다!<br /><br />
@@ -74,7 +74,7 @@
     <BeforeNextButton
       flink="stringmethod2"
       slink="escapechar"
-    ></BeforeNextButton>
+     />
 
     <QuadSpace />
   </div>

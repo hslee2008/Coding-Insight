@@ -186,7 +186,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="password" slink="ascii"></BeforeNextButton>
+    <BeforeNextButton flink="password" slink="ascii" />
 
     <QuadSpace />
 

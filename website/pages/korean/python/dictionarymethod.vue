@@ -123,7 +123,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="dictionary" slink="zipping"></BeforeNextButton>
+    <BeforeNextButton flink="dictionary" slink="zipping" />
 
     <QuadSpace />
   </div>

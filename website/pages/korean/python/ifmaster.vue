@@ -108,7 +108,7 @@
 
     <br /><br /><br />
 
-    <BeforeNextButton flink="if" slink="password-safe"></BeforeNextButton>
+    <BeforeNextButton flink="if" slink="password-safe" />
 
     <QuadSpace />
   </div>

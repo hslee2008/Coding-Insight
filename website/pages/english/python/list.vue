@@ -119,7 +119,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="nummethod" slink="listmethod1"></BeforeNextButton>
+    <BeforeNextButton flink="nummethod" slink="listmethod1" />
 
     <QuadSpace />
   </div>

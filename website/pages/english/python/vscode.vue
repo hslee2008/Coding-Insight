@@ -538,7 +538,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="install" slink="io"></BeforeNextButton>
+    <BeforeNextButton flink="install" slink="io" />
 
     <QuadSpace />
   </div>

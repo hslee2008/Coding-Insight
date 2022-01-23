@@ -91,7 +91,7 @@ src="https://trinket.io/embed/python3/294b66f2c5" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <BeforeNextButton flink="logging" slink="zlib"></BeforeNextButton>
+    <BeforeNextButton flink="logging" slink="zlib" />
 
     <QuadSpace />
   </div>

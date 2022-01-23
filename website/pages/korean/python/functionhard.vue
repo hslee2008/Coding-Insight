@@ -136,7 +136,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="function" slink="specialvariable"></BeforeNextButton>
+    <BeforeNextButton flink="function" slink="specialvariable" />
 
     <QuadSpace />
 

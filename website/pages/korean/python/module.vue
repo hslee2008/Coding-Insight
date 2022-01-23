@@ -90,7 +90,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="etcfunction" slink="modulemaster"></BeforeNextButton>
+    <BeforeNextButton flink="etcfunction" slink="modulemaster" />
 
     <QuadSpace />
   </div>

@@ -94,7 +94,7 @@
 
     <br /><br />
 
-    <BeforeNextButton flink="madlib" slink="comment"></BeforeNextButton>
+    <BeforeNextButton flink="madlib" slink="comment" />
 
     <QuadSpace />
 

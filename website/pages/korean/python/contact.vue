@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex">
-      <div style="margin: auto; padding: 20px">
+      <div style="margin: auto;">
         <h1>친구 목록 다루기</h1>
         <p>
           파이썬 리스트를 사용해서 친구 목록 다루는 프로그램을 만들어
@@ -93,7 +93,7 @@
     <BeforeNextButton
       flink="listmethod2"
       slink="dictionary"
-    ></BeforeNextButton>
+     />
 
     <QuadSpace />
   </div>

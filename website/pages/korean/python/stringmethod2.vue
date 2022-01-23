@@ -120,7 +120,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="stringmethod1" slink="password"></BeforeNextButton>
+    <BeforeNextButton flink="stringmethod1" slink="password" />
 
     <QuadSpace />
 

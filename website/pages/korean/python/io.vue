@@ -153,7 +153,7 @@
 
       <QuadSpace />
 
-      <BeforeNextButton flink="vscode" slink="variable"></BeforeNextButton>
+      <BeforeNextButton flink="vscode" slink="variable" />
 
       <QuadSpace />
 

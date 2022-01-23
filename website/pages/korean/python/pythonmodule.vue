@@ -44,7 +44,7 @@ src="https://trinket.io/embed/python3/63f69099ff" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <BeforeNextButton flink="hacking" slink="date"></BeforeNextButton>
+    <BeforeNextButton flink="hacking" slink="date" />
 
     <QuadSpace />
   </div>

@@ -151,7 +151,7 @@
 
     <br /><br />
 
-    <BeforeNextButton flink="string" slink="stringmethod2"></BeforeNextButton>
+    <BeforeNextButton flink="string" slink="stringmethod2" />
 
     <br /><br />
 

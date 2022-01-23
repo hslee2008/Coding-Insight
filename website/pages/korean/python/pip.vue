@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto; padding: 20px">
+      <div style="margin: auto;">
         <h1>PIP란?</h1>
         <p>
           PIP는 파이썬에서 파일 또는 모듈을 다루는 프로그램 이름입니다.<br /><br />
@@ -97,7 +97,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="stringascode" slink="json"></BeforeNextButton>
+    <BeforeNextButton flink="stringascode" slink="json" />
 
     <QuadSpace />
   </div>

@@ -19,7 +19,7 @@
         </p>
       </div>
       <div class="mx-auto">
-        <img
+        <v-img
           alt="python-factory-picture"
           class="img-fluid"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbvHLIkf7p2IzoQ91r5W7ki5KJoiD4t0oIQQ&usqp=CAU"
@@ -108,7 +108,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="matplotlib" slink="turtle"></BeforeNextButton>
+    <BeforeNextButton flink="matplotlib" slink="turtle" />
 
     <QuadSpace />
   </div>

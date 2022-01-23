@@ -422,7 +422,7 @@ h1 {
 
 .scoreArea {
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 20px;
+ ;
   border-radius: 20px;
   margin: 10px;
   text-align: center;

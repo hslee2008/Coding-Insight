@@ -64,7 +64,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="filereading" slink="etcfile"></BeforeNextButton>
+    <BeforeNextButton flink="filereading" slink="etcfile" />
 
     <QuadSpace />
 

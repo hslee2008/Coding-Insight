@@ -121,7 +121,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="contact2" slink="stringascode"></BeforeNextButton>
+    <BeforeNextButton flink="contact2" slink="stringascode" />
 
     <QuadSpace />
   </div>

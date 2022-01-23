@@ -8,22 +8,24 @@
 
     <div>
       <div>
-        <h1>딕셔너리 쌍 추가하기</h1>
+        <h1>How to add a pair of key and value</h1>
         <p>
-          a = {1: "a", 2: "b"}라는 딕셔너리에 {3: "c"}라는 딕셔너리 쌍을
-          추가시키는 방법 중 <mark>인덱싱</mark>을 사용하는 방법이 있습니다.
+          Inside a dictionary variable named 'md', let's try adding 'c' value to
+          the '3' key.<br /><br />
+
+          <code> a[3] = 'c' </code>
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/bb91a39a67"
-        width="100%"
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python3/32e3c5c425"
+        width="50%"
         height="356"
         frameborder="0"
         marginwidth="0"
         marginheight="0"
         allowfullscreen
         loading="lazy"
-        style="margin: auto"
       ></iframe>
     </div>
 
@@ -31,11 +33,23 @@
 
     <div>
       <div>
-        <h1>딕셔너리 쌍 삭제하기</h1>
+        <h1>How to delete a pair of key and value</h1>
         <p>
-          딕셔너리 요소를 삭제하는 방법은 매우 간단합니다.<br /><br />
+          Similar to deletig a variable, we can delete a pair of key and
+          value.<br /><br />
 
-          del 딕셔너리 이름[Key]를 입력하면 삭제할 수 있습니다.
+          We are treating the pair like a single variable.<br /><br />
+
+          Use the del keyword.<br /><br />
+
+          <code>
+            a={1:"A",2:"B",3;"C"}<br />
+            del a[1]<br /><br />
+
+            print(a)
+          </code>
+
+          if we use del, only the pair will be deleted from the dictionary.
         </p>
         <iframe
           src="https://trinket.io/embed/python3/1a3ca85630"
@@ -55,21 +69,51 @@
 
     <div>
       <div>
-        <h1>딕셔너리 값 바꾸기</h1>
+        <h1>How to change value of key</h1>
         <p>
-          딕셔너리 Key의 값을 바꾸고 싶다면 딕셔너리에서 Key를 선택한 후 새로운
-          값을 입력하면 됩니다. CODE1에서 확인하세요.<br /><br />
+          To change the value of key, type in the key name inside [] and new
+          value after it.<br /><br />
 
-          한 번에 많은 Key의 값을 바꾸고 싶다면 update() 메서드를 사용하여
-          update() 함수 안에 또 다른 딕셔너리를 입력하면 됩니다. CODE2에서
-          확인하세요.<br /><br />
+          <code>
+            mainDict = {<br />
+            "member1": "John",<br />
+            "member2": "Sam",<br />
+            "member3": "Maria"<br />
+            }<br /><br />
 
-          만일 새로운 딕셔너리 안에 새로운 key가 있다면 새로운 key를 만들고 이미
-          있다면 그 key의 값을 바꿉니다.<br /><br />
+            mainDict["member3"] = "Clara"<br /><br />
+
+            print(mainDict)
+          </code>
+
+          To add the contents of a dictionary to another, use the update()
+          method.<br /><br />
+
+          It has the following syntax: dictionary.update(secondDictionary)<br /><br />
+
+          If the following key inside secondDictionary already exists in
+          dictionary, it updates it. If the key does not exist in dictionary, it
+          adds new ones.<br /><br />
+
+          <code>
+            cars = {<br />
+            "brand": "Ford",<br />
+            "model": "Mustang",<br />
+            "year": 1964<br />
+            }<br /><br />
+
+            cars.update({<br />
+            "isFromUnitedStates": true, #new key<br />
+            "brand": "Samsung" #brand is updated to Samsung<br />
+            })<br /><br />
+
+            print(cars)
+          </code>
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/c093c433f6"
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python3/9b40fb09d3"
         width="100%"
         height="356"
         frameborder="0"
@@ -77,7 +121,6 @@
         marginheight="0"
         allowfullscreen
         loading="lazy"
-        style="margin: auto"
       ></iframe>
     </div>
 
@@ -85,13 +128,26 @@
 
     <div>
       <div>
-        <h1>get()</h1>
+        <h1>Get dictionary key</h1>
         <p>
-          딕셔너리에서 Key의 Value를 찾기 위하여 get()라는 메서드를 사용할 수
-          있습니다.<br /><br />
+          To find the value of the key, use the get() method.<br /><br />
 
-          첫 번째 매개변수에는 아이템의 값을 넣고 두 번째는 만일 그 값이
-          딕셔너리에 존재하지 않는다면 출력될 값을 입력하면 됩니다.
+          If the value does not exist, it will return a default value.<br /><br />
+
+          <code>
+            mainDict = {<br />
+            "member1": "John",<br />
+            "member2": "Sam",<br />
+            "member3": "Maria"<br />
+            }<br /><br />
+
+            print(mainDict.get("member1", "Hmmm... Not found"))
+          </code>
+
+          member1 exists so get() returns "John".<br /><br />
+
+          However, if we put in member4 instead of member1, it will return
+          "Hmmm... Not found".
         </p>
       </div>
       <iframe
@@ -109,7 +165,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="dictionary" slink="zipping"></BeforeNextButton>
+    <BeforeNextButton flink="dictionary" slink="zipping" />
 
     <QuadSpace />
   </div>
@@ -118,5 +174,5 @@
 <script>
 export default {
   name: 'DictionaryMethodPage',
-}
+};
 </script>

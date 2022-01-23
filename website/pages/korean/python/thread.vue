@@ -123,7 +123,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="name" slink="complexthread"></BeforeNextButton>
+    <BeforeNextButton flink="name" slink="complexthread" />
 
     <QuadSpace />
   </div>

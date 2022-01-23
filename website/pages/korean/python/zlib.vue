@@ -130,7 +130,7 @@ src="https://trinket.io/embed/python3/c42b0b500e" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <BeforeNextButton flink="mapandreduceandfilter" slink="decorator"></BeforeNextButton>
+    <BeforeNextButton flink="mapandreduceandfilter" slink="decorator" />
 
     <QuadSpace />
   </div>

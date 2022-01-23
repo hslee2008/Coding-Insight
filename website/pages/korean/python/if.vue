@@ -94,7 +94,7 @@ src="https://trinket.io/embed/python3/9e178be286" width="100%" height="356" fram
 
       <QuadSpace />
 
-      <BeforeNextButton flink="setmethod" slink="ifmaster"></BeforeNextButton>
+      <BeforeNextButton flink="setmethod" slink="ifmaster" />
 
       <QuadSpace />
   </div>

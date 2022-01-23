@@ -113,7 +113,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="regex" slink="classmethod"></BeforeNextButton>
+    <BeforeNextButton flink="regex" slink="classmethod" />
 
     <QuadSpace />
   </div>

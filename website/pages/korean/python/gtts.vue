@@ -80,7 +80,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="pandas" slink="finished"></BeforeNextButton>
+    <BeforeNextButton flink="pandas" slink="finished" />
 
     <QuadSpace />
   </div>

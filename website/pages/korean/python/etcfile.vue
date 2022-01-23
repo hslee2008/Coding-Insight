@@ -65,7 +65,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="filewriting" slink="contextmanager"></BeforeNextButton>
+    <BeforeNextButton flink="filewriting" slink="contextmanager" />
 
     <QuadSpace />
 

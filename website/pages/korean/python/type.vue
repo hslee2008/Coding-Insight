@@ -69,7 +69,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="specialvariable" slink="anonymousfunction"></BeforeNextButton>
+    <BeforeNextButton flink="specialvariable" slink="anonymousfunction" />
 
     <QuadSpace />
   </div>

@@ -102,7 +102,7 @@
 
     <br /><br />
 
-    <BeforeNextButton flink="hacking" slink="random"></BeforeNextButton>
+    <BeforeNextButton flink="hacking" slink="random" />
 
     <QuadSpace />
   </div>

@@ -53,7 +53,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="complexthread" slink="multiprocessing"></BeforeNextButton>
+    <BeforeNextButton flink="complexthread" slink="multiprocessing" />
 
     <QuadSpace />
   </div>

@@ -69,7 +69,7 @@ src="https://trinket.io/embed/python3/bbf4c84765" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <BeforeNextButton flink="threadmethod" slink="counter"></BeforeNextButton>
+    <BeforeNextButton flink="threadmethod" slink="counter" />
 
     <QuadSpace />
   </div>

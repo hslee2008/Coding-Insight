@@ -91,7 +91,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="json" slink="array_type"></BeforeNextButton>
+    <BeforeNextButton flink="json" slink="array_type" />
 
     <QuadSpace />
   </div>

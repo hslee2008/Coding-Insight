@@ -84,7 +84,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="etcdundermethod" slink="coroutine"></BeforeNextButton>
+    <BeforeNextButton flink="etcdundermethod" slink="coroutine" />
 
     <QuadSpace />
   </div>

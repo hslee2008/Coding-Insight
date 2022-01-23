@@ -101,7 +101,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="dice" slink="class"></BeforeNextButton>
+    <BeforeNextButton flink="dice" slink="class" />
 
     <QuadSpace />
   </div>

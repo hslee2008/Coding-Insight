@@ -71,7 +71,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="thread" slink="threadmethod"></BeforeNextButton>
+    <BeforeNextButton flink="thread" slink="threadmethod" />
 
     <QuadSpace />
   </div>

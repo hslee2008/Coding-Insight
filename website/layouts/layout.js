@@ -695,5 +695,40 @@ export default {
       title: 'Mission: Zipping Program',
       to: '/english/python/zipping',
     },
+    {
+      icon: 'mdi-view-list',
+      title: 'Tuple',
+      to: '/english/python/tuple',
+    },
+    {
+      icon: 'mdi-code-braces',
+      title: 'Set',
+      to: '/english/python/set',
+    },
+    {
+      icon: 'mdi-code-braces-box',
+      title: 'Set Method',
+      to: '/english/python/setmethod',
+    },
+    {
+      icon: 'mdi-diversify',
+      title: 'If Statement',
+      to: '/english/python/if',
+    },
+    {
+      icon: 'mdi-arrow-decision',
+      title: 'If Master',
+      to: '/english/python/ifmaster',
+    },
+    {
+      icon: 'mdi-lock-check',
+      title: 'Mission: Password (More Secure)',
+      to: '/korean/python/password-safe',
+    },
+    {
+      icon: 'mdi-border-none-variant',
+      title: 'None',
+      to: '/english/python/none',
+    },
   ],
 };

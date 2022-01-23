@@ -40,7 +40,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="calc" slink="list"></BeforeNextButton>
+    <BeforeNextButton flink="calc" slink="list" />
 
     <QuadSpace />
 

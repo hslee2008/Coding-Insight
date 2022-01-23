@@ -137,7 +137,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="boolean" slink="operator"></BeforeNextButton>
+    <BeforeNextButton flink="boolean" slink="operator" />
 
     <QuadSpace />
 

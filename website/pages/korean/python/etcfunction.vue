@@ -56,7 +56,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="oneliner" slink="module"></BeforeNextButton>
+    <BeforeNextButton flink="oneliner" slink="module" />
 
     <QuadSpace />
   </div>

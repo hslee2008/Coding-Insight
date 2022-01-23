@@ -100,7 +100,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="escapechar" slink="boolean"></BeforeNextButton>
+    <BeforeNextButton flink="escapechar" slink="boolean" />
 
     <QuadSpace />
 

@@ -62,7 +62,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="request" slink="dundermethod"></BeforeNextButton>
+    <BeforeNextButton flink="request" slink="dundermethod" />
 
     <QuadSpace />
   </div>

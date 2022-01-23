@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex">
-      <div style="margin: auto; padding: 20px">
+      <div style="margin: auto;">
         <h1>Contact List</h1>
         <p>
           We can make a contact list of friends using Python.<br /><br />
@@ -77,7 +77,7 @@
     <BeforeNextButton
       flink="listmethod2"
       slink="dictionary"
-    ></BeforeNextButton>
+     />
 
     <QuadSpace />
   </div>

@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex">
-      <div style="margin: auto; padding: 20px">
+      <div style="margin: auto;">
         <h1>해킹</h1>
         <p>
           파이썬을 사용해서 여러분 집의 인터넷에서 일어나는 모든 일을 알 수 있는
@@ -78,7 +78,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="pythonmodule" slink="date"></BeforeNextButton>
+    <BeforeNextButton flink="pythonmodule" slink="date" />
 
     <QuadSpace />
   </div>

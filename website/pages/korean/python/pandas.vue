@@ -148,7 +148,7 @@
         </p>
       </div>
       <div class="mx-auto">
-        <img
+        <v-img
           alt="python-factory-picture"
           class="img-fluid"
           src="https://t1.daumcdn.net/cfile/tistory/9916724E5D3CD66B19"
@@ -202,11 +202,11 @@
           </code>
         </p>
       </div>
-      <img
+      <v-img
         alt="python-factory-picture"
         class="img-fluid"
         :src="require('./image/csv.jpg')"
-        width="500px"
+        max-width="500px"
       />
     </div>
     <iframe
@@ -221,7 +221,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="turtle" slink="gtts"></BeforeNextButton>
+    <BeforeNextButton flink="turtle" slink="gtts" />
 
     <QuadSpace />
   </div>

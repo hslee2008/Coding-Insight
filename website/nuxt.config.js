@@ -74,9 +74,6 @@ export default {
         src: 'https://www.googletagmanager.com/gtag/js?id=UA-209775586-1',
         async: true,
       },
-      {
-        src: 'global.js',
-      },
     ],
   },
 
@@ -89,11 +86,11 @@ export default {
   components: true,
 
   // https://go.nuxtjs.dev/config-modules
-  buildModules: [ '@nuxt/typescript-build', '@nuxtjs/vuetify', '@nuxt/image' ],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify', '@nuxt/image'],
 
   vue: {
     devtools: true,
-    performance: true
+    performance: true,
   },
 
   // https://go.nuxtjs.dev/config-modules
@@ -133,7 +130,7 @@ export default {
       background_color: '#20232a',
       display: 'minimal-ui',
       scope: './',
-      start_url: '/index.html',
+      start_url: '/',
       prefer_related_applications: false,
       orientation: 'portrait',
       icons: [
@@ -153,6 +150,9 @@ export default {
           purpose: 'any maskable',
         },
       ],
+    },
+    workbox: {
+      offlinePage: '/offline.html',
     },
   },
 

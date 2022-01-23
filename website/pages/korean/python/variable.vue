@@ -189,7 +189,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="io" slink="madlib"></BeforeNextButton>
+    <BeforeNextButton flink="io" slink="madlib" />
 
     <QuadSpace />
 

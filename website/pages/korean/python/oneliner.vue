@@ -71,7 +71,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="while" slink="etcfunction"></BeforeNextButton>
+    <BeforeNextButton flink="while" slink="etcfunction" />
 
     <QuadSpace />
   </div>

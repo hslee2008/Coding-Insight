@@ -105,7 +105,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="listmethod1" slink="dictionary"></BeforeNextButton>
+    <BeforeNextButton flink="listmethod1" slink="dictionary" />
 
     <QuadSpace />
 
