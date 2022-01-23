@@ -2,14 +2,7 @@
   <v-app dark>
     <Fab></Fab>
 
-    <v-navigation-drawer
-      v-model="drawer"
-      :collapsed="collapsed"
-      temporary
-      fixed
-      app
-      width="300"
-    >
+    <v-navigation-drawer v-model="drawer" temporary fixed app width="300">
       <v-list v-if="$nuxt.$route.path.includes('python')">
         <h1 class="text-center">
           {{ isEnglish() ? 'Start Python' : '파이썬 시작' }}
@@ -201,14 +194,10 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar :collapse="collapsed" fixed app>
+    <v-app-bar fixed app collapse-on-scroll rounded>
       <template v-if="$nuxt.$route.path != '/' && $nuxt.$route.path != '/app'">
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-        <v-btn icon @click.stop="collapsed = !collapsed">
-          <v-icon>{{
-            'mdi-arrow-collapse-' + (collapsed ? 'right' : 'left')
-          }}</v-icon>
-        </v-btn>
+        <v-btn icon to="/"><v-icon>mdi-home</v-icon></v-btn>
         <v-toolbar-title v-text="title" />
       </template>
       <v-spacer />
@@ -224,6 +213,9 @@
         open-on-hover
         top
         offset-y
+        auto
+        close-on-click
+        rounded
         transition="slide-y-transition"
       >
         <template #activator="{ on, attrs }">
@@ -258,7 +250,6 @@
       :right="true"
       :bottom="true"
       width="80%"
-      temporary
       fixed
       style="padding: 10px; display: flex"
       ><v-row>
@@ -361,20 +352,6 @@
           </v-card-actions>
         </v-card>
       </v-row>
-
-      <br /><br />
-
-      <v-footer
-        :absolute="false"
-        fixed
-        style="display: flex; justify-content: flex-end; padding: 10px"
-      >
-        <v-row justify="center">
-          <v-btn rounded href="/app">
-            <v-icon left>mdi-home</v-icon> 홈으로 이동
-          </v-btn>
-        </v-row>
-      </v-footer>
     </v-navigation-drawer>
 
     <v-footer
@@ -419,7 +396,6 @@ export default {
   name: 'DefaultLayout',
   data() {
     return {
-      collapsed: false,
       drawer: false,
       fixed: false,
       items: {

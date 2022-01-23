@@ -678,4 +678,22 @@ export default {
       to: '/english/python/contact',
     },
   ],
+
+  python_beginner_en: [
+    {
+      icon: 'mdi-notebook-multiple',
+      title: 'Dictionary',
+      to: '/english/python/dictionary',
+    },
+    {
+      icon: 'mdi-notebook-plus',
+      title: 'Dictionary Method',
+      to: '/english/python/dictionarymethod',
+    },
+    {
+      icon: 'mdi-folder-zip',
+      title: 'Mission: Zipping Program',
+      to: '/english/python/zipping',
+    },
+  ],
 };

@@ -89,7 +89,12 @@ export default {
   components: true,
 
   // https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify', '@nuxt/image'],
+  buildModules: [ '@nuxt/typescript-build', '@nuxtjs/vuetify', '@nuxt/image' ],
+
+  vue: {
+    devtools: true,
+    performance: true
+  },
 
   // https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
@@ -105,11 +110,12 @@ export default {
     failedColor: 'red',
     height: '2px',
     continuous: true,
+    throttle: 50,
   },
   loadingIndicator: {
     name: 'pulse',
-    color: 'skyblue',
-    background: 'white',
+    color: 'white',
+    background: 'black',
   },
 
   //  https://go.nuxtjs.dev/pwa

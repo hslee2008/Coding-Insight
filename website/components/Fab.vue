@@ -3,7 +3,6 @@
     color="blue"
     fab
     dark
-    x-small
     fixed
     bottom
     right
@@ -27,7 +26,7 @@ export default {
 </script>
 
 <style>
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .top-fab {
     display: none;
   }
