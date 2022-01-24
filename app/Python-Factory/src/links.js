@@ -27,13 +27,13 @@ const Links = [
     title: "Game",
     icon: "controller-classic",
     description: "A game made by the developers",
-    link: "http://gaming.coding-insight.com/",
+    link: "http://coding-insight.com/game//",
   },
   {
     title: "Chat",
     icon: "chat",
     description: "Chat with the developers",
-    link: "http://chat.coding-insight.com/",
+    link: "http://coding-insight.com/chat//",
   },
   {
     title: "Release",

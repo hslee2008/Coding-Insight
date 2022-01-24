@@ -112,7 +112,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="decorator" slink="newline" />
+    <BeforeNextButton flink="mydecorator" slink="newline" />
 
     <QuadSpace />
   </div>

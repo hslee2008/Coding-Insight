@@ -29,7 +29,7 @@
 
     <br /><br />
 
-    <Header num="12" title="ASCII"></Header>
+    <Header-en num="12" title="ASCII"></Header-en>
 
     <QuadSpace />
 

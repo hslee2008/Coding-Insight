@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <Header num="27" title="If Master"></Header>
+    <Header-en num="27" title="If Master"></Header-en>
 
     <br /><br />
 

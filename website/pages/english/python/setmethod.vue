@@ -27,7 +27,7 @@
 
     <br /><br />
 
-    <Header num="25" title="Set Method"></Header>
+    <Header-en num="25" title="Set Method"></Header-en>
 
     <QuadSpace />
 

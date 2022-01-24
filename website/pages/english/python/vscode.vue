@@ -517,7 +517,7 @@
       </div>
     </v-bottom-sheet>
 
-    <div style="display: flex; padding: 10px" class="img-div">
+    <div style="display: flex;" class="img-div">
       <div>
         <h1>.py?</h1>
         <p>

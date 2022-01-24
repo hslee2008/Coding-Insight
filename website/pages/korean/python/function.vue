@@ -3,7 +3,7 @@
     <br />
     <div>
       <div
-        style="display: flex; padding: 10px; border-radius: 5px"
+        style="display: flex; border-radius: 5px"
         class="img-div"
       >
         <div class="mx-auto">

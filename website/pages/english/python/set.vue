@@ -39,7 +39,7 @@
 
     <br /><br />
 
-    <Header num="24" title="Set"></Header>
+    <Header-en num="24" title="Set"></Header-en>
 
     <QuadSpace />
 

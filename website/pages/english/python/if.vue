@@ -35,7 +35,7 @@
         allowfullscreen></iframe>
     </div>
     <br /><br />
-    <Header title="If Statement" num="26"></Header>
+    <Header-en title="If Statement" num="26"></Header-en>
     <QuadSpace />
     <div>
       <div>

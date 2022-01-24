@@ -26,7 +26,7 @@
 
     <QuadSpace />
 
-    <Header num="Proj: 5" title="Zipping Program"></Header>
+    <Header-en num="Proj: 5" title="Zipping Program"></Header-en>
 
     <QuadSpace />
 

@@ -30,7 +30,7 @@
 
     <QuadSpace />
 
-    <Header num="14" title="Number"></Header>
+    <Header-en num="14" title="Number"></Header-en>
 
     <QuadSpace />
 

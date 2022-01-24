@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <Header num="19" title="List Method 1"></Header>
+    <Header-en num="19" title="List Method 1"></Header-en>
 
     <br /><br />
     <div>

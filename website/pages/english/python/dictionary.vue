@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto; padding: 10px">
+      <div style="margin: auto;">
         <h1>What is dictionary?</h1>
         <p>
           Dictionary is a book that contains a word and an explanation for

@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <Header num="22" title="Dictionary Method"></Header>
+    <Header-en num="22" title="Dictionary Method"></Header-en>
 
     <br /><br />
 

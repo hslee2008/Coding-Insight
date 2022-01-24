@@ -30,7 +30,7 @@
 
     <QuadSpace />
 
-    <Header title="Making a calculator" num="Proj: 3"></Header>
+    <Header-en title="Making a calculator" num="Proj: 3"></Header-en>
 
     <QuadSpace />
 

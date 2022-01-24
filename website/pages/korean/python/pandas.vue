@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto; padding: 10px">
+      <div style="margin: auto;">
         <h1>판다스</h1>
         <p>
           판다스란 파이썬 라이브러리로 데이터를 효율적이고 빠르게 다룰 수 있는

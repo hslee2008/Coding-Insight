@@ -3,22 +3,14 @@
     <br />
 
     <div
-      style="display: flex; padding: 10px; border-radius: 5px"
+      style="display: flex; border-radius: 5px"
       class="img-div"
     >
       <div>
-        <h1>정렬이란?</h1>
+        <h1>정렬 치수란?</h1>
         <p>
-          리스트는 정보를 저장하는 데이터 데이터 형태의 종류입니다.<br /><br />
-
-          정렬도 <mark>정보를 저장하는 데이터 형태</mark>의 종류입니다.<br /><br />
-
-          정렬은 리스트와 비슷하지만 조금 다른 점들이 있습니다.<br /><br />
-
-          1. 정렬은 파이썬에서 자체적으로 사용할 수 없어서 numpy 모듈을 사용해야
-          합니다.<br />
-          2. 정렬은 아주 큰 데이터를 효율적으로 저장할 수 있습니다.<br />
-          3. 정렬은 숫자를 저장하는 데이터 종류로 더 편합니다.
+          정렬의 치수란 <mark>정렬의 깊이</mark>입니다. 조금 더 쉽게 설명하자면,
+          정렬 안에 정렬이 몇 개 있는지의 값이 정렬의 치수라고 합니다.
         </p>
       </div>
       <div class="mx-auto">
@@ -33,52 +25,72 @@
 
     <br /><br />
 
-    <Header num="58" title="정렬"></Header>
+    <Header num="58" title="정렬 종류"></Header>
 
     <QuadSpace />
 
     <div>
-      <div>
-        <h1>정렬 선언</h1>
-        <p>
-          정렬을 파이썬에서 사용하는 방법은 <mark>numpy 모듈</mark>을 이용하는
-          것입니다.<br /><br />
+      <h1>Scalars - 0D</h1>
+      <p>
+        0-D 정렬은 값이 1개입니다. 0-D는 Scalars라고도 합니다.<br /><br />
 
-          아래 예제를 따라하며 정렬을 선언해봅시다.
-        </p>
-      </div>
-      <iframe
-        src="https://trinket.io/embed/python3/396ae27df2"
-        width="100%"
-        height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
-        loading="lazy"
-        style="margin: auto"
-      ></iframe>
+        <code> arr = numpy.array(44) </code>
+      </p>
     </div>
 
     <QuadSpace />
 
     <div>
-      <div>
-        <h1>정렬 숫자 연산</h1>
-        <p>
-          리스트에서는 리스트의 모든 아이템에 어떤 수를 더하고 새로운 리스트에
-          저장하기 위하여 다음과 같은 방법을 사용했습니다.<br /><br />
+      <h1>uni-dimension - 1D</h1>
+      <p>
+        1-D 정렬은 정렬이 1개입니다. 1-D는 uni-dimension이라고도 합니다.<br /><br />
 
-          리스트에서는 아이템을 하나하나 for 반복문을 사용하여 숫자 연산을
-          해야합니다.<br /><br />
+        <code> arr = numpy.array([4, 44, 444]) </code>
+      </p>
+    </div>
 
-          정렬을 사용하면 바로 <mark>그 변수를 연산</mark>하여도 잘 작동이
-          됩니다.
-        </p>
-      </div>
+    <QuadSpace />
+
+    <div>
+      <h1>2-D와 x-D</h1>
+      <p>
+        2-D 정렬은 정렬 안에 또 다른 정렬이 있는 형태입니다.<br /><br />
+
+        정렬의 치수는 무한대로 늘어날 수 있습니다.<br /><br />
+
+        <code> arr = numpy.array([ [4, 44, 444], [3, 3, 444] ]) </code>
+      </p>
+    </div>
+
+    <QuadSpace />
+
+    <h1>ndim</h1>
+    <p>
+      <mark>정렬의 치수</mark>를 알기 위하여 항상 numpy 정렬을 선언한 후
+      ndim이라는 값을 이용할 수 있습니다.<br /><br />
+
+      <code> print(arr.ndim) </code>
+
+      <br /><br />정렬을 만들 때 정렬의 치수를 지정할 수도 있습니다.<br /><br />
+
+      <code> arr = numpy.array([4, 44, 444, 4444], ndmin=1000) </code>
+    </p>
+
+    <QuadSpace />
+
+    <div>
+      <h1>정렬 인덱싱</h1>
+      <h2>1-D</h2>
+      uni-dimension 정렬의 인덱싱은 리스트 인덱싱과 같습니다.<br /><br />
+
+      <h2>2-D</h2>
+      2-D는 정렬 안에 정렬이 있습니다. 그래서 첫 번째 정렬을 선택하고 그 정렬
+      안의 값을 선택하는 것이 가능합니다.<br /><br />
+
+      이와 같이 3-D는 3개의 수, 4-D는 4개의 수...를 입력하면 됩니다.
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/bd22e54547"
+      src="https://trinket.io/embed/python3/4fe0b3d005"
       width="100%"
       height="356"
       frameborder="0"
@@ -89,8 +101,6 @@
       style="margin: auto"
     ></iframe>
 
-    <QuadSpace />
-
     <BeforeNextButton flink="array" slink="array_shape" />
 
     <QuadSpace />
@@ -98,7 +108,7 @@
 </template>
 
 <script>
-  export default {
-    name: "ArrayTypePage"
-  }
+export default {
+  name: 'ArrayTypePage',
+};
 </script>

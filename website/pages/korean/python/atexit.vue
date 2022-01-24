@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto; padding: 10px">
+      <div style="margin: auto;">
         <h1>파이썬 함수 등록</h1>
         <p>
           파이썬에서 어떤 코드가 실행이 끝나면 어떤 함수를 실행하는 것이

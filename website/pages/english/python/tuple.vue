@@ -40,7 +40,7 @@
 
     <br /><br />
 
-    <Header title="Tuple" num="24"></Header>
+    <Header-en title="Tuple" num="24"></Header-en>
 
     <br /><br />
 

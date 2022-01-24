@@ -33,7 +33,7 @@
 
     <QuadSpace />
 
-    <Header num="13" title="Boolean"></Header>
+    <Header-en num="13" title="Boolean"></Header-en>
 
     <QuadSpace />
 

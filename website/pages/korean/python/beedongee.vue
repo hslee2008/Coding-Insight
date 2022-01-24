@@ -1,4 +1,3 @@
-Be
 <template>
   <div>
     <br />

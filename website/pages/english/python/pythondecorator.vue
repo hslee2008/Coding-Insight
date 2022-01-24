@@ -1,0 +1,116 @@
+<template>
+  <div>
+    <br />
+
+    <Header num="68" title="Python Decorator"></Header>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h1>@mydecorator</h1>
+        <p>
+          Let's try making a 'Teacher' class.<br /><br />
+
+          <code>
+            class Teacher:<br />
+            &nbsp;def __init__(self, name, subjectTeaching):<br />
+            &nbsp;&nbsp;self.name = name<br />
+            &nbsp;&nbsp;self.subjectTeaching = subjectTeaching<br /><br />
+
+            &nbsp;def name(self):<br />
+            &nbsp;&nbsp;return self.name
+          </code>
+
+          To access the teacher's name, we have to run the name() function.<br /><br />
+
+          However, if we add @property decorator to the name, the name()
+          function can be used with name(sort of like variable) instead.<br /><br />
+
+          <code>
+            @property<br />
+            &nbsp;def name(self):<br />
+            &nbsp;&nbsp;return self.name
+          </code>
+
+          Furthermore, we can make a function that sets the self value using
+          @selfvariable.setter property.<br /><br />
+
+          <code>
+            @name.setter #set name variable to something new<br />
+            &nbsp;def name(self, val):<br />
+            &nbsp;&nbsp;self.name = val
+          </code>
+
+          Finally, we can make a function that deletes a specific self variable
+          by using @selfvariable.deleter decorator.<br /><br />
+
+          <code>
+            @name.deleter<br />
+            def name(self, val):<br />
+            &nbsp;print('삭제하겠습니다….)<br /><br />
+            &nbsp;del self.name
+          </code>
+        </p>
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h1>@classmethod</h1>
+        <p>
+          A property can also become a class method when surrounded by
+          @classmethod decorator.
+        </p>
+      </div>
+    </div>
+    <iframe
+      class="embed-responsive-item"
+      src="https://trinket.io/embed/python3/9e90d8b9d3"
+      width="100%"
+      height="356"
+      frameborder="0"
+      marginwidth="0"
+      marginheight="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h1>@staticmethod</h1>
+        <p>
+          When @staticmethod decorator is added, the function can only be used
+          inside the class.
+        </p>
+      </div>
+    </div>
+    <iframe
+      class="embed-responsive-item"
+      src="https://trinket.io/embed/python3/d00208b10a"
+      width="100%"
+      height="356"
+      frameborder="0"
+      marginwidth="0"
+      marginheight="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+
+    <QuadSpace />
+
+    <BeforeNextButton flink="mydecorator" slink="newline" />
+
+    <QuadSpace />
+  </div>
+</template>
+
+<script>
+export default {
+  page: 'PythonDecoratorPage',
+};
+</script>

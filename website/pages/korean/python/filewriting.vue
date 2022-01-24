@@ -123,7 +123,9 @@
 
       <QuadSpace />
 
-      <v-btn @click="checkAnswer"> 정답 확인 </v-btn>
+      <v-btn @click="checkAnswer">
+        <v-icon left>mdi-check-decagram</v-icon>정답 확인
+      </v-btn>
     </div>
 
     <QuadSpace />
@@ -136,11 +138,11 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-B').checked) {
-        alert('1 ✔️!')
+        alert('1 ✔️!');
       } else {
-        alert('1 ❌')
+        alert('1 ❌');
       }
     },
   },
-}
+};
 </script>

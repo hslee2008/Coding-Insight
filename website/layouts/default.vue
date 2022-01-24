@@ -357,7 +357,7 @@
 
     <v-footer
       :absolute="false"
-      style="display: flex; justify-content: flex-end; padding: 10px"
+      style="display: flex; justify-content: flex-end"
     >
       <v-row justify="center">
         <v-btn
@@ -392,6 +392,7 @@
 
 <script>
 import PythonLinks from './layout';
+import PythonLinksEN from './layout_en';
 
 export default {
   name: 'DefaultLayout',
@@ -401,6 +402,7 @@ export default {
       fixed: false,
       items: {
         ...PythonLinks,
+        ...PythonLinksEN
       },
       rightDrawer: false,
       title: !this.isEnglish()
@@ -437,7 +439,8 @@ export default {
           window.location = '/app-en';
           break;
         default:
-          window.location = '/english/python' +
+          window.location =
+            '/english/python' +
             ($nuxt.$route.path === '/'
               ? '/python'
               : $nuxt.$route.path.replace('/korean/python', ''));
@@ -453,7 +456,8 @@ export default {
           window.location = '/app';
           break;
         default:
-          window.location = '/korean/python' +
+          window.location =
+            '/korean/python' +
             ($nuxt.$route.path === '/'
               ? '/python'
               : $nuxt.$route.path.replace('/english/python', ''));

@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <Header title="List Method 2" num="20"></Header>
+    <Header-en title="List Method 2" num="20"></Header-en>
 
     <QuadSpace />
 

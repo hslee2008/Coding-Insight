@@ -3,7 +3,7 @@
     <br />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto; padding: 10px">
+      <div style="margin: auto;">
         <h1>딕셔너리란?</h1>
         <p>
           딕셔너리(DICTIONARY)는 한국어로 '사전'을 뜻합니다.<br /><br />
