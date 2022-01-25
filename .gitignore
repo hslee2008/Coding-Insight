@@ -1,6 +1,8 @@
 app/Python-Factory/.expo
 app/Python-Factory/node_modules
 
+app/python-factory-web-search/node_modules
+
 website/.nuxt
 website/node_modules
 

@@ -1,7 +1,7 @@
 tasks:
   - name: 'Nuxt.js (Py KR)'
-    init: cd vue/nuxt && npm install
-    command: cd vue/nuxt && npm run build && npm run generate && npm run dev
+    init: cd vue/nuxt && npm install && npm run generate && npm run build
+    command: cd vue/nuxt && npm run dev
     openMode: split-right
   - name: 'React Native'
     init: npm install -g expo-cli && cd app/Python-Factory && npm install

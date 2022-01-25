@@ -4,19 +4,19 @@
 
     <v-row flex justify="center" style="gap: 10px">
       <v-simple-table>
-        <v-card class="mx-auto" max-width="200">
+        <v-card class="mx-auto" max-width="240">
           <v-img
             src="data:image/png;base64,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"
             height="200px"
           ></v-img>
 
-          <v-card-title>안드로이드 앱</v-card-title>
+          <v-card-title>Android App</v-card-title>
 
           <v-card-subtitle> APK 62.3MB (v2.0.1) </v-card-subtitle>
 
           <v-card-actions>
             <v-btn color="primary" href="./Python_factory_App.apk" download
-              >다운로드</v-btn
+              >Download</v-btn
             >
 
             <v-spacer></v-spacer>
@@ -33,8 +33,7 @@
               <v-divider></v-divider>
 
               <v-card-text
-                >React Native 프레임워크를 사용해서 핸드폰 앱을 만들었습니다.
-                사이트와 Galaxy Store에서 다운로드 받을 수 있습니다.
+                >We used React-Native to publish our phone app to Galaxy Store.
               </v-card-text>
             </div>
           </v-expand-transition>
@@ -47,13 +46,13 @@
             height="200px"
           ></v-img>
 
-          <v-card-title>최적화된 폰 앱 (안드로이드)</v-card-title>
+          <v-card-title>Optimized Android App</v-card-title>
 
           <v-card-subtitle> APK 16.4MB (v1.0.1) </v-card-subtitle>
 
           <v-card-actions>
             <v-btn color="primary" href="./app-release.apk" download
-              >다운로드</v-btn
+              >DOWNLOAD</v-btn
             >
 
             <v-spacer></v-spacer>
@@ -70,8 +69,8 @@
               <v-divider></v-divider>
 
               <v-card-text
-                >Flutter 프레임워크를 사용해서 핸드폰 앱을 만들었습니다. 원래
-                폰앱보다 훨씬 간단하고, 사이즈가 작고, 빠릅니다.
+                >Using Flutter made our Phone App much more faster and
+                optimized. There are some problems with our app, though.
               </v-card-text>
             </div>
           </v-expand-transition>
@@ -84,13 +83,13 @@
             height="200px"
           ></v-img>
 
-          <v-card-title>컴퓨터 앱 (윈도우)</v-card-title>
+          <v-card-title>Windows App</v-card-title>
 
           <v-card-subtitle> EXE 7.53MB (v1.0.2) </v-card-subtitle>
 
           <v-card-actions>
             <v-btn color="primary" href="./Python_Factory.exe" download
-              >다운로드</v-btn
+              >DOWNLOAD</v-btn
             >
 
             <v-spacer></v-spacer>
@@ -107,7 +106,8 @@
               <v-divider></v-divider>
 
               <v-card-text
-                >파이썬을 사용해서 컴퓨터 앱을 만들었습니다.
+                >Using Python, we made our own computer app. We might change
+                them to ElectronJS, though.
               </v-card-text>
             </div>
           </v-expand-transition>
@@ -120,12 +120,12 @@
             height="200px"
           ></v-img>
 
-          <v-card-title>PWA (모든 디바이스)</v-card-title>
+          <v-card-title>PWA</v-card-title>
 
           <v-card-subtitle> APK 2.77KB (v22.1.22) </v-card-subtitle>
 
           <v-card-actions>
-            브라우저 다운로드
+            Browser DOWNLOAD
 
             <v-spacer></v-spacer>
 
@@ -141,8 +141,7 @@
               <v-divider></v-divider>
 
               <v-card-text
-                >모든 디바이스에서 "홈에 추가하기" 버튼을 누르면 바로 앱을
-                실행할 수 있습니다.
+                >Just click the 'Add to homescreen' button.
               </v-card-text>
             </div>
           </v-expand-transition>
@@ -164,7 +163,7 @@
               color="primary"
               target="_blank"
               href="https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search"
-              >다운로드</v-btn
+              >DOWNLOAD</v-btn
             >
 
             <v-spacer></v-spacer>
@@ -180,9 +179,7 @@
             <div v-show="show5">
               <v-divider></v-divider>
 
-              <v-card-text
-                >VSCode에서 쉽게 파이썬 팩토리 사이트로 들어가세요!</v-card-text
-              >
+              <v-card-text>Learn from Coding-Insight from VSCode.</v-card-text>
             </div>
           </v-expand-transition>
         </v-card>
@@ -191,24 +188,18 @@
 
     <QuadSpace />
 
-    <Header title="폰 앱 설치하기" num="가이드 1"></Header>
+    <Header title="Phone App" num="Guide 1"></Header>
 
     <QuadSpace />
 
     <div style="display: flex; gap: 30px" class="img-div">
       <div>
-        <h3>APK 파일 내려받기</h3>
+        <h3>APK Download</h3>
         <p>
-          저희 사이트 또는
-          <a
-            href="https://github.com/HyunseungLee-Travis/Coding-Insight/releases/tag/v1.3.10"
-            target="_blank"
-            style="color: dodgerblue"
-            >깃허브</a
-          >
-          에서 APK 파일을 설치 받습니다.<br /><br />
-
-          APK 파일은 폰에서 앱 파일입니다.<br /><br />
+          click this button ->
+          <v-btn color="primary" href="./Python_factory_App.apk" download
+            >Download</v-btn
+          ><br /><br />
 
           <v-img
             max-width="300px"
@@ -217,9 +208,10 @@
             :src="require('./img/harm.jpg')"
           /><br /><br />
 
-          만일 설치할 것이냐고 물어보면 확인 버튼을 누르세요.<br /><br />
+          Click the OK button<br /><br />
 
-          설치가 올바르게 시작이 되었다면 다음과 같이 폰에서 보여야 합니다.<br /><br />
+          If the installation started correctly, it will look similar like the
+          following.<br /><br />
 
           <v-img
             max-width="300px"
@@ -228,7 +220,7 @@
             :src="require('./img/detail.jpg')"
           /><br /><br />
 
-          조금 뒤 다음과 같이 스크린이 보일 것입니다.<br /><br />
+          Soon, the file will be finished downloading.<br /><br />
 
           <v-img
             max-width="300px"
@@ -237,11 +229,9 @@
             :src="require('./img/open.jpg')"
           /><br /><br />
 
-          오픈 버튼을 누르세요.<br /><br />
+          Click the OPEN button.<br /><br />
 
-          다음과 같이 보일 수 있습니다. 설정을 누르세요.<br /><br />
-
-          만일 다음과 같이 보이지 않고 바로 설치가 시작된다면 넘어가세요.<br /><br />
+          If it looks like the following, click the SETTINGS button.<br /><br />
 
           <v-img
             max-width="300px"
@@ -250,9 +240,7 @@
             :src="require('./img/ask.jpg')"
           /><br /><br />
 
-          그리고 다음과 같이 스크린에서 설정 창이 뜹니다.<br /><br />
-
-          조금 다를 수 있지만 '출처를 알 수 없는 앱 설치 허용'을 허용하세요.<br /><br />
+          Click the "Allow from source" switch button<br /><br />
 
           <v-img
             max-width="300px"
@@ -261,8 +249,7 @@
             :src="require('./img/setting.jpg')"
           /><br /><br />
 
-          백 버튼을 누르면 설치 할 것이냐고 물어볼 것입니다. '설치' 버튼을
-          누르세요.<br /><br />
+          Click the install button.<br /><br />
 
           <v-img
             max-width="300px"
@@ -271,8 +258,7 @@
             :src="require('./img/install.jpg')"
           /><br /><br />
 
-          다음, 'Play Protect에서 찬단했습니다'라고 뜰 수 있습니다. 무시하고
-          설치하기 버튼을 누르세요.<br /><br />
+          Click "Instasll Anyway" button.<br /><br />
 
           <v-img
             max-width="300px"
@@ -281,9 +267,7 @@
             :src="require('./img/playprotect.jpg')"
           /><br /><br />
 
-          파이썬 팩토리 앱이 설치 되었다고 뜰 것입니다.<br /><br />
-
-          OPEN을 누르면 저희 앱을 열 수 있습니다!<br /><br />
+          Click the "OPEN" button.<br /><br />
 
           <v-img
             max-width="300px"
@@ -294,17 +278,18 @@
         </p>
       </div>
       <div>
-        <h3>갤럭시 스토어</h3>
+        <h3>Galaxy Store</h3>
         <p>
-          갤럭시 스토어에서 "Python Factory App"이라고 칩니다.<br /><br />
+          Search for "Python Factory App"<br /><br />
 
-          또는
+          Or go to
           <a
             href="https://galaxy.store/pyfact"
             target="_blank"
             style="color: dodgerblue"
-            >갤럭시 스토어 링크</a
-          >를 클릭하세요<br /><br />
+          >
+            Galaxy Store </a
+          ><br /><br />
 
           <v-img
             max-width="300px"
@@ -314,7 +299,7 @@
             width="300"
           /><br /><br />
 
-          설치 버튼을 누릅니다.<br /><br />
+          Click the install button.<br /><br />
 
           <v-img
             max-width="300px"
@@ -324,7 +309,7 @@
             width="300"
           /><br /><br />
 
-          실행 버튼을 클릭합니다.<br /><br />
+          Click the run button.<br /><br />
 
           <v-img
             max-width="300px"
@@ -332,25 +317,24 @@
             class="img-fluid"
             :src="require('./img/runapp.jpg')"
             width="300"
-          /><br /><br />
-
-          참고로 새로운 버전은 거의 매일 업데이트 되니 가끔 [설정]에서 Update
-          버튼을 눌러주세요!
+          />
         </p>
       </div>
     </div>
 
     <QuadSpace />
 
-    <Header title="컴퓨터 앱 설치" num="가이드 2"></Header>
+    <Header title="Computer App" num="Guide 2"></Header>
 
     <QuadSpace />
 
     <div style="display: flex; justify-content: center">
       <div>
-        <h3>파일 설치</h3>
         <p>
-          위에 있는 링크를 눌러서 EXE 파일을 설치 받습니다.<br /><br />
+          Click this button ->
+          <v-btn color="primary" href="./Python_Factory.exe" download
+            >DOWNLOAD</v-btn
+          ><br /><br />
 
           <v-img
             max-width="300px"
@@ -359,30 +343,16 @@
             :src="require('./img/exe.jpg')"
           /><br /><br />
 
-          박스 안을 클릭하세요.
+          Click the inner box.
         </p>
-        <h3>윈도우 보호</h3>
         <p>
-          다음과 같이 윈도우에서 파일을 막을 수 있습니다.<br /><br />
-
-          <v-img
-            max-width="300px"
-            alt="python-factory-picture"
-            class="img-fluid"
-            :src="require('./img/windowsprotect.jpg')"
-          /><br /><br />
-
-          추가 정보를 누르고 실행 버튼을 클릭하세요.<br /><br />
-
-          <v-img
-            max-width="300px"
-            alt="python-factory-picture"
-            class="img-fluid"
-            :src="require('./img/run.jpg')"
-          />
+          If Windows ask whether you want to install it or not, click "Load more
+          -> Run".
         </p>
       </div>
     </div>
+
+    <QuadSpace />
   </div>
 </template>
 
