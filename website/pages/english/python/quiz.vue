@@ -18,7 +18,7 @@
       <NuxtLink to="./quiz" style="text-decoration: none">
         <v-btn> Restart </v-btn>
       </NuxtLink>
-      <NuxtLink to="https://coding-insight.com/" style="text-decoration: none">
+      <NuxtLink to="/" style="text-decoration: none">
         <v-btn> Homepage </v-btn>
       </NuxtLink>
     </div>

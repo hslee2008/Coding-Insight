@@ -174,6 +174,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+
       <v-list v-else-if="$nuxt.$route.path.includes('korean/rust')">
         <h1 style="text-align: center">Rust 시작</h1>
         <v-divider></v-divider>
@@ -192,10 +193,36 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+
+      <v-list v-else-if="$nuxt.$route.path.includes('korean/c-cpp')">
+        <h1 style="text-align: center">C 시작</h1>
+        <v-divider></v-divider>
+        <v-list-item
+          v-for="(item, i) in items.start_c"
+          :key="i.toString() + 'start_c'"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
     </v-navigation-drawer>
 
     <v-app-bar fixed app collapse-on-scroll rounded>
-      <template v-if="$nuxt.$route.path != '/' && $nuxt.$route.path != '/app'">
+      <template
+        v-if="
+          $nuxt.$route.path != '/index-en' &&
+          $nuxt.$route.path != '/' &&
+          !$nuxt.$route.path != '/app' &&
+          !$nuxt.$route.path != '/app-en'
+        "
+      >
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
         <v-btn icon to="/"><v-icon>mdi-home</v-icon></v-btn>
         <v-toolbar-title v-text="title" />
@@ -313,12 +340,12 @@
           </v-card-text>
 
           <v-card-actions>
-            <a href="https://coding-insight.com/c-cpp/korean/c.html">
+            <a href="/korean/c-cpp/">
               <v-btn class="ma-2" color="primary" dark>
                 <v-icon dark> mdi-language-c </v-icon>
               </v-btn>
             </a>
-            <a href="https://coding-insight.com/c-cpp/korean/cpp.html">
+            <a href="/korean/c-cpp/cpp">
               <v-btn class="ma-2" color="primary" dark>
                 <v-icon dark> mdi-language-cpp </v-icon></v-btn
               >
@@ -402,7 +429,7 @@ export default {
       fixed: false,
       items: {
         ...PythonLinks,
-        ...PythonLinksEN
+        ...PythonLinksEN,
       },
       rightDrawer: false,
       title: !this.isEnglish()

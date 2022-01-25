@@ -104,12 +104,12 @@
         </v-card-text>
 
         <v-card-actions>
-          <a href="https://coding-insight.com/c-cpp/korean/c.html">
+          <a href="/korean/c-cpp/">
             <v-btn class="ma-2" color="primary" dark>
               <v-icon dark right> mdi-language-c </v-icon>
             </v-btn>
           </a>
-          <a href="https://coding-insight.com/c-cpp/korean/cpp.html">
+          <a href="/korean/c-cpp/cpp">
             <v-btn class="ma-2" color="primary" dark>
               <v-icon dark right> mdi-language-cpp </v-icon></v-btn
             >
@@ -136,7 +136,7 @@
         </v-card-text>
 
         <v-card-actions>
-          <a href="https://coding-insight.com/c-cpp/korean/c.html">
+          <a href="/korean/c-cpp/">
             <v-btn class="ma-2" color="primary" dark>
               Rust
               <v-icon dark right> mdi-language-rust </v-icon>

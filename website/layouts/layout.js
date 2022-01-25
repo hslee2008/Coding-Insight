@@ -556,4 +556,18 @@ export default {
       to: '/korean/rust/',
     },
   ],
+
+  //! C Scripts
+  start_c: [
+    {
+      icon: 'mdi-map-marker',
+      title: '시작',
+      to: '/korean/c-cpp/',
+    },
+    {
+      icon: 'mdi-folder-download',
+      title: '설치',
+      to: '/korean/c-cpp/install',
+    },
+  ],
 };

@@ -19,7 +19,7 @@
           하지만 Rust는 코딩을 처음 배우는 사람에게는 매우 어렵고 복잡할 수 있기
           때문에
           <a
-            href="https://coding-insight.com/python/korean/"
+            href="/korean/python/"
             style="color: yellow"
             >파이썬</a
           >을 먼저 배우는 것을 권장합니다.

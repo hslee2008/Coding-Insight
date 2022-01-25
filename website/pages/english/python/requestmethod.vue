@@ -18,7 +18,8 @@
           If 200 is printed, the request is a success.<br /><br />
 
           Note that all the status code can be read on
-          https://www.restapitutorial.com/httpstatuscodes.html<br /><br />
+          <a href="https://www.restapitutorial.com/httpstatuscodes.html">Status Code</a
+          ><br /><br />
 
           To check whether the request succeeded or not, use the 'ok' property
           and check whether it is True or False.<br /><br />

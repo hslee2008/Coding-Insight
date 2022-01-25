@@ -187,5 +187,11 @@ export default {
       pages: true,
       commons: true,
     },
+    html: {
+      minify: {
+        collapseWhitespace: false,
+        removeComments: true,
+      },
+    },
   },
 };
