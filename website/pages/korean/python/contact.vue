@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto;">
         <h1>친구 목록 다루기</h1>
         <p>
@@ -86,11 +86,11 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton
+    <NaviBtn
       flink="listmethod2"
       slink="dictionary"
      />

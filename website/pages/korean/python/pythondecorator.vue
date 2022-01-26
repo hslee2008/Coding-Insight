@@ -85,7 +85,7 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -108,11 +108,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="mydecorator" slink="newline" />
+    <NaviBtn flink="mydecorator" slink="newline" />
 
     <QuadSpace />
   </div>

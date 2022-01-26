@@ -65,14 +65,14 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="filewriting" slink="contextmanager" />
+    <NaviBtn flink="filewriting" slink="contextmanager" />
 
     <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
 
-      <hr />
+      <v-divider />
 
       <br /><br />
 

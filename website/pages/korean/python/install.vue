@@ -353,7 +353,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="/" slink="vscode" />
+    <NaviBtn flink="/" slink="vscode" />
 
     <QuadSpace />
   </div>

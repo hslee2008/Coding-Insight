@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto">
         <h1>Friend Contact List Verison 2</h1>
         <p>
@@ -44,11 +44,11 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="contextmanager" slink="datachange" />
+    <NaviBtn flink="contextmanager" slink="datachange" />
 
     <QuadSpace />
   </div>

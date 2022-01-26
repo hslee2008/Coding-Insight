@@ -113,13 +113,13 @@
           marginwidth="0"
           marginheight="0"
           allowfullscreen
-        ></iframe>
+        />
       </div>
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="variable" slink="datatype" />
+    <NaviBtn flink="variable" slink="datatype" />
 
     <QuadSpace />
   </div>

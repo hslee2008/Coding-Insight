@@ -36,7 +36,7 @@ alt="python-factory-picture" class="img-fluid"
     </div>
     <iframe
 src="https://trinket.io/embed/python3/bbf4c84765" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
     <QuadSpace />
 
@@ -69,7 +69,7 @@ src="https://trinket.io/embed/python3/bbf4c84765" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <BeforeNextButton flink="threadmethod" slink="counter" />
+    <NaviBtn flink="threadmethod" slink="counter" />
 
     <QuadSpace />
   </div>

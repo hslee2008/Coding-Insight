@@ -4,227 +4,95 @@
 
     <v-navigation-drawer v-model="drawer" temporary fixed app width="300">
       <v-list v-if="$nuxt.$route.path.includes('python')">
-        <h1 class="text-center">
-          {{ isEnglish() ? 'Start Python' : '파이썬 시작' }}
-        </h1>
+        <ItemList
+          titleen="Start Python"
+          titlekr="파이썬 시작"
+          json="start_python"
+        />
 
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items[englishValue('start_python')]"
-          :key="englishValue(i.toString() + 'start_python')"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content> </v-list-item
-        ><br /><br />
+        <ItemList
+          titleen="Python Basics"
+          titlekr="파이썬 기본"
+          json="python_basics"
+        />
 
-        <h1 style="text-align: center">
-          {{ isEnglish() ? 'Python Basics' : '파이썬 기본' }}
-        </h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items[englishValue('python_basics')]"
-          :key="i.toString() + englishValue('python_basics')"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content> </v-list-item
-        ><br /><br />
+        <ItemList
+          titleen="Python Beginning"
+          titlekr="파이썬 초급"
+          json="python_beginner"
+        />
 
-        <h1 style="text-align: center">
-          {{ isEnglish() ? 'Python Beginning' : '파이썬 초급' }}
-        </h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items[englishValue('python_beginner')]"
-          :key="i.toString() + englishValue('python_beginner')"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content> </v-list-item
-        ><br /><br />
+        <ItemList
+          titleen="Intermediate Python"
+          titlekr="파이썬 중급"
+          json="intermediate_python"
+        />
 
-        <h1 style="text-align: center">
-          {{ isEnglish() ? 'Intermediate Python' : '파이썬 중급' }}
-        </h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items[englishValue('intermediate_python')]"
-          :key="i.toString() + englishValue('intermediate_python')"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content> </v-list-item
-        ><br /><br />
+        <ItemList
+          titleen="Advanced Python"
+          titlekr="파이썬 고급"
+          json="advanced_python"
+        />
 
-        <h1 style="text-align: center">
-          {{ isEnglish() ? 'Advanced Python' : '파이썬 고급' }}
-        </h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items[englishValue('advanced_python')]"
-          :key="i.toString() + englishValue('advanced_python')"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content> </v-list-item
-        ><br /><br />
+        <ItemList
+          titleen="Python Specialist"
+          titlekr="파이썬 전문가"
+          json="python_specialist"
+        />
 
-        <h1 style="text-align: center">
-          {{ isEnglish() ? 'Python Specialist' : '파이썬 전문가' }}
-        </h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items[englishValue('python_specialist')]"
-          :key="i.toString() + englishValue('python_specialist')"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content> </v-list-item
-        ><br /><br />
+        <ItemList
+          titleen="Master Python"
+          titlekr="파이썬 마스터"
+          json="master_python"
+        />
 
-        <h1 style="text-align: center">
-          {{ isEnglish() ? 'Master Python' : '파이썬 머스터' }}
-        </h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items[englishValue('master_python')]"
-          :key="i.toString() + englishValue('master_python')"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content> </v-list-item
-        ><br /><br />
+        <ItemList titleen="Last Step" titlekr="마지막 단계" json="python_god" />
 
-        <h1 style="text-align: center">
-          {{ isEnglish() ? 'Last Python Step' : '파이썬 마지막 단계' }}
-        </h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items[englishValue('python_god')]"
-          :key="i.toString() + englishValue('python_god')"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content> </v-list-item
-        ><br /><br />
-
-        <h1 style="text-align: center">{{ isEnglish() ? 'Other' : '기타' }}</h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items[englishValue('other')]"
-          :key="i.toString() + englishValue('other')"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
+        <ItemList titleen="Other" titlekr="기타" json="other" />
       </v-list>
 
       <v-list v-else-if="$nuxt.$route.path.includes('korean/rust')">
-        <h1 style="text-align: center">Rust 시작</h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items.start_rust"
-          :key="i.toString() + 'start_rust'"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
+        <ItemList
+          titleen="Rust Start"
+          titlekr="Rust 시작"
+          json="start_python"
+        />
       </v-list>
 
       <v-list v-else-if="$nuxt.$route.path.includes('korean/c-cpp')">
-        <h1 style="text-align: center">C 시작</h1>
-        <v-divider></v-divider>
-        <v-list-item
-          v-for="(item, i) in items.start_c"
-          :key="i.toString() + 'start_c'"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
+        <ItemList
+          titleen="C Programming Start"
+          titlekr="C 언어 시작"
+          json="start_c"
+        />
+        <ItemList
+          titleen="Beginning C Programming"
+          titlekr="C 언어 기본"
+          json="c_basics"
+        />
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar fixed app collapse-on-scroll rounded>
+    <v-app-bar fixed app collapse-on-scroll>
       <template
         v-if="
           $nuxt.$route.path != '/index-en' &&
           $nuxt.$route.path != '/' &&
-          !$nuxt.$route.path != '/app' &&
-          !$nuxt.$route.path != '/app-en'
+          $nuxt.$route.path != '/app' &&
+          $nuxt.$route.path != '/app-en'
         "
       >
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-        <v-btn icon to="/"><v-icon>mdi-home</v-icon></v-btn>
+      </template>
+      <v-btn icon to="/"><v-icon>mdi-home</v-icon></v-btn>
+      <template
+        v-if="
+          $nuxt.$route.path != '/index-en' &&
+          $nuxt.$route.path != '/' &&
+          $nuxt.$route.path != '/app' &&
+          $nuxt.$route.path != '/app-en'
+        "
+      >
         <v-toolbar-title v-text="title" />
       </template>
       <v-spacer />
@@ -304,11 +172,11 @@
             <v-card-actions>
               <v-btn class="ma-2" color="primary" dark to="/korean/python/">
                 Python
-                <v-icon dark right> mdi-language-python </v-icon>
+                <v-icon> mdi-language-python </v-icon>
               </v-btn>
               <v-btn class="ma-2" color="primary" dark to="/korean/python/quiz">
                 Quiz
-                <v-icon dark right> mdi-chat-question </v-icon>
+                <v-icon> mdi-chat-question </v-icon>
               </v-btn>
               <v-btn
                 class="ma-2"
@@ -317,7 +185,7 @@
                 to="/korean/python/video"
               >
                 Video
-                <v-icon dark right> mdi-youtube </v-icon>
+                <v-icon> mdi-youtube </v-icon>
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -343,12 +211,12 @@
             <v-card-actions>
               <a href="/korean/c-cpp/">
                 <v-btn class="ma-2" color="primary" dark>
-                  <v-icon dark right> mdi-language-c </v-icon>
+                  <v-icon> mdi-language-c </v-icon>
                 </v-btn>
               </a>
               <a href="/korean/c-cpp/cpp">
                 <v-btn class="ma-2" color="primary" dark>
-                  <v-icon dark right> mdi-language-cpp </v-icon></v-btn
+                  <v-icon> mdi-language-cpp </v-icon></v-btn
                 >
               </a>
             </v-card-actions>
@@ -376,14 +244,14 @@
               <a href="/korean/c-cpp/">
                 <v-btn class="ma-2" color="primary" dark>
                   Rust
-                  <v-icon dark right> mdi-language-rust </v-icon>
+                  <v-icon> mdi-language-rust </v-icon>
                 </v-btn>
               </a>
             </v-card-actions>
           </v-card>
         </v-row></v-row
       >
-      <v-row v-else="!isEnglish()">
+      <v-row v-else>
         <v-card class="mx-auto" max-width="350">
           <v-img
             class="white--text align-end"
@@ -406,19 +274,19 @@
             <NuxtLink to="/korean/python/">
               <v-btn class="ma-2" color="primary" dark>
                 파이썬
-                <v-icon dark right> mdi-language-python </v-icon>
+                <v-icon> mdi-language-python </v-icon>
               </v-btn>
             </NuxtLink>
             <NuxtLink to="/korean/python/quiz">
               <v-btn class="ma-2" color="primary" dark>
                 퀴즈
-                <v-icon dark right> mdi-chat-question </v-icon>
+                <v-icon> mdi-chat-question </v-icon>
               </v-btn>
             </NuxtLink>
             <NuxtLink to="/korean/python/video">
               <v-btn class="ma-2" color="primary" dark>
                 비디오
-                <v-icon dark right> mdi-youtube </v-icon>
+                <v-icon dark> mdi-youtube </v-icon>
               </v-btn>
             </NuxtLink>
           </v-card-actions>
@@ -477,7 +345,7 @@
             <a href="/korean/rust/">
               <v-btn class="ma-2" color="primary" dark>
                 Rust
-                <v-icon dark right> mdi-language-rust </v-icon>
+                <v-icon dark> mdi-language-rust </v-icon>
               </v-btn>
             </a>
           </v-card-actions>
@@ -487,12 +355,13 @@
 
     <v-footer
       :absolute="false"
-      style="display: flex; justify-content: flex-end"
+      style="display: flex; justify-content: flex-end; padding: 10px"
     >
       <v-row justify="center">
         <v-btn
           rounded
           href="https://github.com/HyunseungLee-Travis/Coding-Insight"
+          target="_blank"
           icon
         >
           <v-icon>mdi-github</v-icon>
@@ -500,13 +369,23 @@
         <v-btn
           rounded
           href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+          target="_blank"
           icon
         >
           <v-icon>mdi-youtube</v-icon>
         </v-btn>
         <v-btn
           rounded
+          href="https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search"
+          target="_blank"
+          icon
+        >
+          <v-icon>mdi-microsoft-visual-studio-code</v-icon>
+        </v-btn>
+        <v-btn
+          rounded
           href="https://docs.google.com/forms/d/e/1FAIpQLSezvUnfD8p2ngwlQHVzAdh6CYk-J-M8VbzSgUJLmKDmvisZGQ/viewform"
+          target="_blank"
           icon
         >
           <v-icon>mdi-file-sign</v-icon>
@@ -568,6 +447,12 @@ export default {
         case '/app':
           window.location = '/app-en';
           break;
+        case '/index-en':
+          window.location = '/index-en';
+          break;
+        case '/app-en':
+          window.location = '/app-en';
+          break;
         default:
           window.location =
             '/english/python' +
@@ -579,6 +464,12 @@ export default {
     },
     toKorean() {
       switch ($nuxt.$route.path) {
+        case '/':
+          window.location = '/';
+          break;
+        case '/app':
+          window.location = '/app';
+          break;
         case '/index-en':
           window.location = '/';
           break;

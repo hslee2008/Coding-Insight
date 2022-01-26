@@ -136,7 +136,7 @@
 
     <QuadSpace />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto">
         <v-img
           alt="python-factory-picture"

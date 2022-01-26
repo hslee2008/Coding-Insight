@@ -27,7 +27,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <br /><br />
@@ -53,7 +53,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
           <br /><br />먼저, 클래스 안에서 def __init__()이라고 선언한 후 안에
           self, name, age, gender 변수를 만들었습니다.<br /><br />
           self는 항상 첫 번째에 있어야 합니다.<br /><br />
@@ -92,7 +92,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -113,7 +113,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="regex" slink="classmethod" />
+    <NaviBtn flink="regex" slink="classmethod" />
 
     <QuadSpace />
   </div>

@@ -77,12 +77,12 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="math" slink="filereading" />
+    <NaviBtn flink="math" slink="filereading" />
 
     <QuadSpace />
   </div>

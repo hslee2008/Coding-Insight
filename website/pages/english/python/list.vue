@@ -44,7 +44,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -64,7 +64,7 @@
         marginheight="0"
         allowfullscreen
         loading="lazy"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -119,7 +119,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="nummethod" slink="listmethod1" />
+    <NaviBtn flink="nummethod" slink="listmethod1" />
 
     <QuadSpace />
   </div>

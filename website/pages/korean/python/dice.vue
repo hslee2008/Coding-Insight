@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto;">
         <h1>주사위</h1>
         <p>주사위를 만드는 프로그램을 만들어 보겠습니다.</p>
@@ -48,11 +48,11 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="random" slink="regex" />
+    <NaviBtn flink="random" slink="regex" />
 
     <QuadSpace />
   </div>

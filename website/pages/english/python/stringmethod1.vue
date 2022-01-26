@@ -30,7 +30,7 @@
         marginheight="0"
         allowfullscreen
         loading="lazy"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -60,7 +60,7 @@
         marginheight="0"
         allowfullscreen
         loading="lazy"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -109,7 +109,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -160,14 +160,14 @@
 
     <br /><br />
 
-    <BeforeNextButton flink="string" slink="stringmethod2" />
+    <NaviBtn flink="string" slink="stringmethod2" />
 
     <br /><br />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
 
-      <hr />
+      <v-divider />
 
       <br /><br />
 

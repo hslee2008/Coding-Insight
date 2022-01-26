@@ -1,6 +1,7 @@
 <template>
   <div>
     <br />
+
     <div>
       <div class="header-div text-white">
         <div>
@@ -35,7 +36,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+        />
       </div>
 
       <br /><br />
@@ -70,7 +71,7 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
 
       <QuadSpace />
@@ -148,19 +149,19 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
 
       <QuadSpace />
 
-      <BeforeNextButton flink="vscode" slink="variable" />
+      <NaviBtn flink="vscode" slink="variable" />
 
       <QuadSpace />
 
       <div class="quiz">
         <h1>퀴즈 풀기!</h1>
 
-        <hr />
+        <v-divider />
 
         <br /><br />
 

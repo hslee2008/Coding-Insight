@@ -53,11 +53,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="atexit" slink="spam" />
+    <NaviBtn flink="atexit" slink="spam" />
 
     <QuadSpace />
   </div>

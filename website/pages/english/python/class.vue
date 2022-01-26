@@ -27,7 +27,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <br /><br />
@@ -132,7 +132,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -170,7 +170,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="regex" slink="classmethod" />
+    <NaviBtn flink="regex" slink="classmethod" />
 
     <QuadSpace />
   </div>

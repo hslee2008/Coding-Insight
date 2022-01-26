@@ -29,7 +29,7 @@ alt="python-factory-picture" class="img-fluid"
 width="80%" height="315" src="https://www.youtube.com/embed/NT0qINEacEo" title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+              allowfullscreen/>
 
       </div>
 
@@ -51,7 +51,7 @@ width="80%" height="315" src="https://www.youtube.com/embed/NT0qINEacEo" title="
 
           <iframe
 src="https://trinket.io/embed/python/7c86f7328a" width="50%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
       </div>
 
@@ -84,7 +84,7 @@ src="https://trinket.io/embed/python/7c86f7328a" width="50%" height="356" frameb
 
           <iframe
 src="https://trinket.io/embed/python/c420acd5f8" width="100%" height="356" frameborder="0"
-          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
       </div>
 
@@ -115,7 +115,7 @@ src="https://trinket.io/embed/python/c420acd5f8" width="100%" height="356" frame
 
           <iframe
 src="https://trinket.io/embed/python3/e1cdc9760f" width="100%" height="356" frameborder="0"
-            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"></iframe>
+            marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:auto;"/>
 
       </div>
 
@@ -135,7 +135,7 @@ src="https://trinket.io/embed/python3/e1cdc9760f" width="100%" height="356" fram
 
           <iframe
 src="https://trinket.io/embed/python/47c742b3bd" width="100%" height="356" frameborder="0"
-          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
       </div>
 
@@ -157,13 +157,13 @@ src="https://trinket.io/embed/python/47c742b3bd" width="100%" height="356" frame
 
           <iframe
 src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frameborder="0"
-          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+          marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
       </div>
 
       <QuadSpace />
 
-      <BeforeNextButton flink="comment" slink="stringmethod1" />
+      <NaviBtn flink="comment" slink="stringmethod1" />
 
       <QuadSpace />
 

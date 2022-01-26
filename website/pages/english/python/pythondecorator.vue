@@ -76,7 +76,7 @@
       marginheight="0"
       allowfullscreen
       loading="lazy"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -99,11 +99,11 @@
       marginheight="0"
       allowfullscreen
       loading="lazy"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="mydecorator" slink="newline" />
+    <NaviBtn flink="mydecorator" slink="newline" />
 
     <QuadSpace />
   </div>

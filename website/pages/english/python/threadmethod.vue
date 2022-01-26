@@ -50,11 +50,11 @@
       marginheight="0"
       allowfullscreen
       loading="lazy"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="complexthread" slink="multiprocessing" />
+    <NaviBtn flink="complexthread" slink="multiprocessing" />
 
     <QuadSpace />
   </div>

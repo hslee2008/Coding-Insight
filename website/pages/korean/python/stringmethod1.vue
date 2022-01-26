@@ -10,7 +10,7 @@
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
+      />
     </div>
 
     <br /><br />
@@ -41,7 +41,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -68,7 +68,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -100,7 +100,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -151,14 +151,14 @@
 
     <br /><br />
 
-    <BeforeNextButton flink="string" slink="stringmethod2" />
+    <NaviBtn flink="string" slink="stringmethod2" />
 
     <br /><br />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
 
-      <hr />
+      <v-divider />
 
       <br /><br />
 

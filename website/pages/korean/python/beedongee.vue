@@ -74,7 +74,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="newline" slink="asyncio" />
+    <NaviBtn flink="newline" slink="asyncio" />
 
     <QuadSpace />
   </div>

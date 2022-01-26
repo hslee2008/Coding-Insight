@@ -66,7 +66,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
 
           <br /><br />만일 thread 1을 실행하고 thread 2를 실행하면 Hello done
           World가 출력됩니다.<br /><br />
@@ -119,11 +119,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="name" slink="complexthread" />
+    <NaviBtn flink="name" slink="complexthread" />
 
     <QuadSpace />
   </div>

@@ -47,7 +47,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -80,7 +80,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -102,7 +102,7 @@
 
     <br /><br />
 
-    <BeforeNextButton flink="hacking" slink="random" />
+    <NaviBtn flink="hacking" slink="random" />
 
     <QuadSpace />
   </div>

@@ -58,7 +58,7 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -80,11 +80,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="etcdundermethod" slink="coroutine" />
+    <NaviBtn flink="etcdundermethod" slink="coroutine" />
 
     <QuadSpace />
   </div>

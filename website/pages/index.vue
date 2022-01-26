@@ -2,23 +2,20 @@
   <div>
     <QuadSpace />
 
-    <v-parallax
-      src="https://miro.medium.com/max/6016/0*ocReqNnxsbtP8OtU"
-      style="border-radius: 5px; height: 100%; width: 100%"
-      ><v-row flex justify="center" class="img-div">
-        <div style="margin: auto">
-          <h1>안녕하세요</h1>
-          <h2>저희는 파이썬 팩토리입니다</h2>
-        </div>
-        <div style="margin: auto">
-          <v-img
-            alt="python-factory-picture"
-            class="img-fluid"
-            src="/favicon.ico"
-            max-width="200px"
-          />
-        </div> </v-row
-    ></v-parallax>
+    <v-row flex justify="center" class="img-div">
+      <div style="margin: auto">
+        <h1>안녕하세요</h1>
+        <h2>저희는 파이썬 팩토리입니다</h2>
+      </div>
+      <div style="margin: auto">
+        <v-img
+          alt="python-factory-picture"
+          class="img-fluid"
+          src="/favicon.ico"
+          max-width="200px"
+        />
+      </div>
+    </v-row>
 
     <QuadSpace />
 
@@ -176,12 +173,6 @@
     <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage',
-};
-</script>
 
 <style>
 .titleDiv {

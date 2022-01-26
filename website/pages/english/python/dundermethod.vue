@@ -92,7 +92,7 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -115,7 +115,7 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -139,11 +139,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="requestmethod" slink="additionaldundermethod" />
+    <NaviBtn flink="requestmethod" slink="additionaldundermethod" />
 
     <QuadSpace />
   </div>

@@ -46,7 +46,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
 
           <br /><br />main.py를 실행하면 HI가 두 번 출력이 됩니다.<br /><br />
 
@@ -60,7 +60,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
 
           <br /><br />위에 있는 예시에 있는 main.py 파일을 실행하면 HI가 한번
           출력됩니다.<br /><br />
@@ -74,7 +74,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="asyncio" slink="thread" />
+    <NaviBtn flink="asyncio" slink="thread" />
 
     <QuadSpace />
   </div>

@@ -156,7 +156,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="mouse" slink="pandas" />
+    <NaviBtn flink="mouse" slink="pandas" />
 
     <QuadSpace />
   </div>

@@ -87,12 +87,12 @@
         marginwidth="0"
         marginheight="0"
         allowfullscreen
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="numtype" slink="nummethod" />
+    <NaviBtn flink="numtype" slink="nummethod" />
 
     <QuadSpace />
   </div>

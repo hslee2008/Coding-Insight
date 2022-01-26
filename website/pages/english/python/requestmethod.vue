@@ -38,7 +38,7 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -61,11 +61,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="request" slink="dundermethod" />
+    <NaviBtn flink="request" slink="dundermethod" />
 
     <QuadSpace />
   </div>

@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto;">
         <h1>My own zipping program</h1>
         <p>
@@ -65,7 +65,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="dictionarymethod" slink="tuple" />
+    <NaviBtn flink="dictionarymethod" slink="tuple" />
 
     <QuadSpace />
   </div>

@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto;">
         <h1>나만의 압축 프로그램</h1>
         <p>
@@ -73,11 +73,11 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton
+    <NaviBtn
       flink="dictionarymethod"
       slink="tuple"
      />

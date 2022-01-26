@@ -118,11 +118,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="name" slink="complexthread" />
+    <NaviBtn flink="name" slink="complexthread" />
 
     <QuadSpace />
   </div>

@@ -114,11 +114,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="additionaldundermethod" slink="atexit" />
+    <NaviBtn flink="additionaldundermethod" slink="atexit" />
 
     <QuadSpace />
   </div>

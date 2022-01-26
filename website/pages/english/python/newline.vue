@@ -46,10 +46,10 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
     <QuadSpace />
 
-    <BeforeNextButton flink="pythondecorator" slink="beedongee" />
+    <NaviBtn flink="pythondecorator" slink="beedongee" />
 
     <QuadSpace />
   </div>

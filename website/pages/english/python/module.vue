@@ -78,7 +78,7 @@
       marginheight="0"
       allowfullscreen
       loading="lazy"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -121,7 +121,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="etcfunction" slink="modulemaster" />
+    <NaviBtn flink="etcfunction" slink="modulemaster" />
 
     <QuadSpace />
   </div>

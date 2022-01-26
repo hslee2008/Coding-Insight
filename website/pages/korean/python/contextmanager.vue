@@ -56,7 +56,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -86,12 +86,12 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <br /><br />
 
-    <BeforeNextButton flink="contact2" slink="datachange" />
+    <NaviBtn flink="contact2" slink="datachange" />
 
     <QuadSpace />
   </div>

@@ -6,7 +6,7 @@
         width="560" height="315" src="https://www.youtube.com/embed/OrWWnx2ydHc" title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+        allowfullscreen/>
     </div>
     <br />
     <Header num="19" title="리스트 메서드 1"></Header>
@@ -21,7 +21,7 @@
       </div>
       <iframe
         src="https://trinket.io/embed/python3/a413df3b12" width="100%" height="356" frameborder="0"
-        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
     </div>
     <QuadSpace />
     <div>
@@ -34,7 +34,7 @@
       </div>
       <iframe
         src="https://trinket.io/embed/python3/d50ab693f8" width="100%" height="356" frameborder="0"
-        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
     </div>
     <QuadSpace />
     <div>
@@ -48,7 +48,7 @@
       </div>
       <iframe
         src="https://trinket.io/embed/python3/8ea821b7b4" width="100%" height="356" frameborder="0"
-        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
     </div>
     <QuadSpace />
     <div>
@@ -66,10 +66,10 @@
       <iframe
         src="https://trinket.io/embed/python3/7fdd2b43c1" width="100%" height="356" frameborder="0"
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy"
-        style="margin: auto;"></iframe>
+        style="margin: auto;"/>
     </div>
     <QuadSpace />
-    <BeforeNextButton flink="list" slink="listmethod2" />
+    <NaviBtn flink="list" slink="listmethod2" />
     <QuadSpace />
   </div>
 </template>

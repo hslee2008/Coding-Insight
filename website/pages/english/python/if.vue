@@ -32,7 +32,7 @@
         width="560" height="315" src="https://www.youtube.com/embed/DzDnLTtrDQk" title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+        allowfullscreen/>
     </div>
     <br /><br />
     <Header-en title="If Statement" num="26"></Header-en>
@@ -71,7 +71,7 @@
       </div>
       <iframe
         src="https://trinket.io/embed/python3/9e178be286" width="100%" height="356" frameborder="0"
-        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
     </div>
     <QuadSpace />
     <div>
@@ -94,10 +94,10 @@
     <iframe
       src="https://trinket.io/embed/python3/4f34d13cdc"
       width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
     <br /><br />
     <QuadSpace />
-    <BeforeNextButton flink="setmethod" slink="ifmaster" />
+    <NaviBtn flink="setmethod" slink="ifmaster" />
     <QuadSpace />
   </div>
 </template>

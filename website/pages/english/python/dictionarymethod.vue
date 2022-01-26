@@ -26,7 +26,7 @@
         marginheight="0"
         allowfullscreen
         loading="lazy"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -61,7 +61,7 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
     </div>
 
@@ -121,7 +121,7 @@
         marginheight="0"
         allowfullscreen
         loading="lazy"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -160,12 +160,12 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="dictionary" slink="zipping" />
+    <NaviBtn flink="dictionary" slink="zipping" />
 
     <QuadSpace />
   </div>

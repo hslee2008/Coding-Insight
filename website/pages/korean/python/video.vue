@@ -12,7 +12,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          />
 
           <v-card-title> 자동으로 줌 열기! </v-card-title>
 
@@ -72,7 +72,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          />
 
           <v-card-title> 나만의 파이썬 게임!(벽돌 게임) </v-card-title>
 
@@ -196,7 +196,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          />
 
           <v-card-title> 파이썬을 이용해서 가족 개인 정보 얻기! </v-card-title>
 
@@ -259,7 +259,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          />
 
           <v-card-title> 햄스터 조종! (머신러닝) </v-card-title>
 
@@ -296,7 +296,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          />
 
           <v-card-title> 엔트리 대신 파이썬! </v-card-title>
 
@@ -331,7 +331,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          />
 
           <v-card-title>파이썬으로 네트워크 스캐닝 도구 만들기! </v-card-title>
 
@@ -379,7 +379,7 @@
     </v-bottom-sheet>
 
     <br />
-    <hr />
+    <v-divider />
     <br />
 
     <div class="text-center">
@@ -393,7 +393,7 @@
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
+      />
     </div>
 
     <br /><br />

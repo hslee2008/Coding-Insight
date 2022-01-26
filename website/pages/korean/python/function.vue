@@ -54,7 +54,7 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
 
       <QuadSpace />
@@ -83,7 +83,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
         </div>
       </div>
 
@@ -131,20 +131,20 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="none" slink="functionhard" />
+    <NaviBtn flink="none" slink="functionhard" />
 
     <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
 
-      <hr />
+      <v-divider />
 
       <br /><br />
 

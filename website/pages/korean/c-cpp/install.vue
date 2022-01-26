@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto">
         <v-img
           alt="python-factory-picture"
@@ -28,7 +28,7 @@
 
     <QuadSpace />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>컴파일러란?</h1>
         <p>
@@ -51,7 +51,7 @@
 
     <QuadSpace />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>C 컴파일러 설치 방법</h1>
         <p>
@@ -101,7 +101,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="/" slink="vscode" />
+    <NaviBtn flink="/" slink="vscode" />
 
     <QuadSpace />
   </div>

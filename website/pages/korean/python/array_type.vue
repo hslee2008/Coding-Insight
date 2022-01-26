@@ -99,9 +99,9 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
-    <BeforeNextButton flink="array" slink="array_shape" />
+    <NaviBtn flink="array" slink="array_shape" />
 
     <QuadSpace />
   </div>

@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto">
         <h1>Login Program</h1>
         <p>
@@ -65,7 +65,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="ifmaster" slink="none" />
+    <NaviBtn flink="ifmaster" slink="none" />
 
     <QuadSpace />
   </div>

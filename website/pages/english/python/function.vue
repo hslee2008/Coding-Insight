@@ -66,7 +66,7 @@
           marginheight="0"
           allowfullscreen
           loading="lazy"
-        ></iframe>
+        />
       </div>
 
       <QuadSpace />
@@ -101,7 +101,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
         </div>
       </div>
 
@@ -158,20 +158,20 @@
           marginheight="0"
           allowfullscreen
           loading="lazy"
-        ></iframe>
+        />
       </div>
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="none" slink="functionhard" />
+    <NaviBtn flink="none" slink="functionhard" />
 
     <QuadSpace />
 
     <div class="quiz">
       <h1>Solve This Quiz!!</h1>
 
-      <hr />
+      <v-divider />
 
       <br /><br />
 

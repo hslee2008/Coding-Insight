@@ -63,11 +63,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="coroutine" slink="autozoom" />
+    <NaviBtn flink="coroutine" slink="autozoom" />
 
     <QuadSpace />
   </div>

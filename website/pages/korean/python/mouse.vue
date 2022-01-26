@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>마우스</h1>
         <p>
@@ -108,7 +108,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="matplotlib" slink="turtle" />
+    <NaviBtn flink="matplotlib" slink="turtle" />
 
     <QuadSpace />
   </div>

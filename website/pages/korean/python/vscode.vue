@@ -556,7 +556,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="install" slink="io" />
+    <NaviBtn flink="install" slink="io" />
 
     <QuadSpace />
   </div>

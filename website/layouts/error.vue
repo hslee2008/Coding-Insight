@@ -1,13 +1,36 @@
 <template>
-  <div style="position: absolute; height: 200px; right: 50%; top: 50%">
-    <h1 v-if="error.statusCode === 404">
-      {{ pageNotFound }}
-    </h1>
-    <h1 v-else>
-      {{ otherError }}
-    </h1>
-    <br />
-    <v-btn to="/"> <v-icon left>mdi-home</v-icon>홈으로 이동</v-btn>
+  <div
+    style="
+      width: 80%;
+      height: 100px;
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      margin: auto;
+    "
+  >
+    <v-card class="mx-auto" max-width="400">
+      <v-alert border="right" colored-border type="error" elevation="2">
+        <h1 v-if="error.statusCode === 404">
+          {{ pageNotFound }}
+        </h1>
+        <h1 v-else>
+          {{ otherError }}
+        </h1>
+      </v-alert>
+
+      <v-card-actions>
+        <v-btn @click="backward">
+          <v-icon left>mdi-chevron-left</v-icon>뒤로 가기</v-btn
+        >
+
+        <v-btn to="/"> <v-icon left>mdi-home</v-icon>홈으로 이동</v-btn>
+      </v-card-actions>
+    </v-card>
   </div>
 </template>
 
@@ -23,8 +46,8 @@ export default {
   },
   data() {
     return {
-      pageNotFound: '404 페이지를 찾지 못했습니다...',
-      otherError: '알 수 없는 에러가 생겼습니다 :(',
+      pageNotFound: '😭 에러 404 😭',
+      otherError: '😢 알 수 없는 에러가 생겼습니다 😢',
     };
   },
   head() {
@@ -33,6 +56,11 @@ export default {
     return {
       title,
     };
+  },
+  methods: {
+    backward() {
+      history.back();
+    },
   },
 };
 </script>

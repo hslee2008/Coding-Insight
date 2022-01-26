@@ -93,7 +93,7 @@ alt="python-factory-picture" class="img-fluid"
     </div>
     <iframe
 src="https://trinket.io/embed/python3/74a9209480" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
     <QuadSpace />
 
@@ -112,7 +112,7 @@ src="https://trinket.io/embed/python3/74a9209480" width="100%" height="356" fram
     </div>
     <iframe
 src="https://trinket.io/embed/python3/50ab5d6ef3" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
     <QuadSpace />
 
@@ -126,11 +126,11 @@ src="https://trinket.io/embed/python3/50ab5d6ef3" width="100%" height="356" fram
     </div>
     <iframe
 src="https://trinket.io/embed/python3/c42b0b500e" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="mapandreduceandfilter" slink="decorator" />
+    <NaviBtn flink="mapandreduceandfilter" slink="decorator" />
 
     <QuadSpace />
   </div>

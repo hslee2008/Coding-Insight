@@ -33,7 +33,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <Br /><br />
@@ -67,11 +67,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="thread" slink="threadmethod" />
+    <NaviBtn flink="thread" slink="threadmethod" />
 
     <QuadSpace />
   </div>

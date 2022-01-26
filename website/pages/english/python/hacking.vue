@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto">
         <h1>Network Sniffing</h1>
         <p>
@@ -76,11 +76,11 @@
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="pythonmodule" slink="date" />
+    <NaviBtn flink="pythonmodule" slink="date" />
 
     <QuadSpace />
   </div>

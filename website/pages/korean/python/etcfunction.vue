@@ -28,7 +28,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -51,12 +51,12 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="oneliner" slink="module" />
+    <NaviBtn flink="oneliner" slink="module" />
 
     <QuadSpace />
   </div>

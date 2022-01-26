@@ -41,7 +41,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -65,13 +65,13 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="while" slink="etcfunction" />
+    <NaviBtn flink="while" slink="etcfunction" />
 
     <QuadSpace />
   </div>

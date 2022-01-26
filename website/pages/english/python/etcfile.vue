@@ -74,14 +74,14 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="filewriting" slink="contextmanager" />
+    <NaviBtn flink="filewriting" slink="contextmanager" />
 
     <QuadSpace />
 
     <div class="quiz">
       <h1>Solve this quiz!!</h1>
 
-      <hr />
+      <v-divider />
 
       <br /><br />
 

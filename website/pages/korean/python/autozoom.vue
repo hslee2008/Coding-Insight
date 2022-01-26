@@ -62,7 +62,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="spam" slink="keyboard" />
+    <NaviBtn flink="spam" slink="keyboard" />
 
     <QuadSpace />
   </div>

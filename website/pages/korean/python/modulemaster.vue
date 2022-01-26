@@ -59,7 +59,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -121,7 +121,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="module" slink="pythonmodule" />
+    <NaviBtn flink="module" slink="pythonmodule" />
 
     <QuadSpace />
   </div>

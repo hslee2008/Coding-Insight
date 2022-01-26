@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto">
         <h1>Dice</h1>
         <p>Let's try making our own dice program that randomly roles a dice.</p>
@@ -48,11 +48,11 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="random" slink="regex" />
+    <NaviBtn flink="random" slink="regex" />
 
     <QuadSpace />
   </div>

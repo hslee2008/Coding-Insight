@@ -42,7 +42,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
 
           <br /><br />If we run the code inside file2.py, "Hi" is printed
           twice.<br /><br />
@@ -60,7 +60,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
 
           <br /><br />Know, if we run the code inside file2.py, the only thing
           we get is one "Hi" instead of two.
@@ -70,7 +70,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="asyncio" slink="thread" />
+    <NaviBtn flink="asyncio" slink="thread" />
 
     <QuadSpace />
   </div>

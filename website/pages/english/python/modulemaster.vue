@@ -48,7 +48,7 @@
       </div>
 
       <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/97e4d4f1d9" width="100%" height="356"
-        frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+        frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"/>
 
     </div>
 
@@ -116,7 +116,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="module" slink="pythonmodule" />
+    <NaviBtn flink="module" slink="pythonmodule" />
 
     <QuadSpace />
   </div>

@@ -31,7 +31,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="password-safe" slink="function" />
+    <NaviBtn flink="password-safe" slink="function" />
 
     <QuadSpace />
   </div>

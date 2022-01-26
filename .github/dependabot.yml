@@ -5,6 +5,10 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "npm"
-    directory: "../vue/nuxt"
+    directory: "../website"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "../app/python-factory-web-search"
     schedule:
       interval: "daily"

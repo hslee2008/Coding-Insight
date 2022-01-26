@@ -100,7 +100,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -121,10 +121,10 @@
             </p>
       </div>
           <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/75087d4767" width="60%"
-            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"></iframe>
+            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"/>
     </div>
 
-    <BeforeNextButton flink="array" slink="array_shape" />
+    <NaviBtn flink="array" slink="array_shape" />
 
     <QuadSpace />
   </div>

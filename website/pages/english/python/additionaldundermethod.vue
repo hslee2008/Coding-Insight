@@ -30,7 +30,7 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -53,7 +53,7 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -92,11 +92,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="dundermethod" slink="etcdundermethod" />
+    <NaviBtn flink="dundermethod" slink="etcdundermethod" />
 
     <QuadSpace />
   </div>

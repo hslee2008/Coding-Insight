@@ -20,7 +20,7 @@
       </div>
       <iframe
 src="https://trinket.io/embed/python3/3e28c18725" width="100%" height="356" frameborder="0"
-        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
     </div>
 
     <br /><br />
@@ -58,7 +58,7 @@ src="https://trinket.io/embed/python3/3e28c18725" width="100%" height="356" fram
     </div>
     <iframe
 src="https://trinket.io/embed/python3/40b5ec6e62" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
     <QuadSpace />
 
@@ -105,7 +105,7 @@ src="https://trinket.io/embed/python3/40b5ec6e62" width="100%" height="356" fram
         </div>
     <iframe
 src="https://trinket.io/embed/python3/6d6b423f37" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
     <QuadSpace />
 
@@ -196,7 +196,7 @@ src="https://trinket.io/embed/python3/6d6b423f37" width="100%" height="356" fram
     </div>
     <iframe
 src="https://trinket.io/embed/python3/c4218ab83d" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
     <QuadSpace />
 
@@ -221,11 +221,11 @@ src="https://trinket.io/embed/python3/c4218ab83d" width="100%" height="356" fram
     </div>
     <iframe
 src="https://trinket.io/embed/python3/074b4c95ef" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"></iframe>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="keyboard" slink="mouse" />
+    <NaviBtn flink="keyboard" slink="mouse" />
 
     <QuadSpace />
   </div>

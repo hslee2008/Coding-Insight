@@ -72,7 +72,7 @@
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -105,12 +105,12 @@
         marginwidth="0"
         marginheight="0"
         allowfullscreen
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="numtype" slink="nummethod" />
+    <NaviBtn flink="numtype" slink="nummethod" />
 
     <QuadSpace />
   </div>

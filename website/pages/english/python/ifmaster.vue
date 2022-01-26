@@ -48,7 +48,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -100,7 +100,7 @@
           marginheight="0"
           allowfullscreen
           loading="lazy"
-        ></iframe>
+        />
       </div>
     </div>
 
@@ -134,7 +134,7 @@
 
     <br /><br /><br />
 
-    <BeforeNextButton flink="if" slink="password-safe" />
+    <NaviBtn flink="if" slink="password-safe" />
 
     <QuadSpace />
   </div>

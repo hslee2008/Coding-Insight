@@ -52,7 +52,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="autozoom" slink="matplotlib" />
+    <NaviBtn flink="autozoom" slink="matplotlib" />
 
     <QuadSpace />
   </div>

@@ -73,7 +73,7 @@
       marginheight="0"
       allowfullscreen
       loading="lazy"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -96,7 +96,7 @@
       marginheight="0"
       allowfullscreen
       loading="lazy"
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -120,11 +120,11 @@
       marginheight="0"
       allowfullscreen
       loading="lazy"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="array_shape" slink="error2" />
+    <NaviBtn flink="array_shape" slink="error2" />
 
     <QuadSpace />
   </div>

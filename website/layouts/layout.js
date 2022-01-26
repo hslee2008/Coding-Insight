@@ -569,5 +569,77 @@ export default {
       title: '설치',
       to: '/korean/c-cpp/install',
     },
+    {
+      icon: 'mdi-microsoft-visual-studio-code',
+      title: 'VSCode',
+      to: '/korean/c-cpp/vscode',
+    },
+    {
+      icon: 'mdi-export',
+      title: '출력',
+      to: '/korean/c-cpp/print',
+    },
+    {
+      icon: 'mdi-application-variable',
+      title: '변수',
+      to: '/korean/c-cpp/variable',
+    },
+    {
+      icon: 'mdi-video-input-component',
+      title: '입력',
+      to: '/korean/c-cpp/input',
+    },
+    {
+      icon: 'mdi-database',
+      title: '기본 데이터 형태',
+      to: '/korean/c-cpp/basicdatatype',
+    },
+    {
+      icon: 'mdi-database-plus',
+      title: '추가 데이터 형태',
+      to: '/korean/c-cpp/otherdatatype',
+    },
+    {
+      icon: 'mdi-database-refresh',
+      title: '데이터 변형',
+      to: '/korean/c-cpp/typecasting',
+    },
+    {
+      icon: 'mdi-plus-minus-variant',
+      title: '연산자',
+      to: '/korean/c-cpp/operator',
+    },
+    {
+      icon: 'mdi-comment-quote',
+      title: '주석',
+      to: '/korean/c-cpp/comment',
+    },
+    {
+      icon: 'mdi-language-c',
+      title: '문법',
+      to: '/korean/c-cpp/grammar',
+    },
+    {
+      icon: 'mdi-exit-run',
+      title: '이스케이프 문자',
+      to: '/korean/c-cpp/escapechar',
+    },
+    {
+      icon: 'mdi-diversify',
+      title: '조건문',
+      to: '/korean/c-cpp/if',
+    },
+    {
+      icon: 'mdi-arrow-decision',
+      title: '조건문 마스터',
+      to: '/korean/python/hardif',
+    },
+    {
+      icon: 'mdi-fast-forward-outline',
+      title: 'For 반복문',
+      to: '/korean/python/for',
+    },
   ],
+
+  c_basics: [],
 };

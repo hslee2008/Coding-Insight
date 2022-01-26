@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <hr />
+    <v-divider />
     <br />
     <v-btn class="ma-2" outlined @click="speak">
       {{ count % 2 == 0 ? 'Read' : 'Stop'
@@ -22,7 +22,7 @@
       {{ num }}
     </h1>
     <br />
-    <hr />
+    <v-divider />
   </div>
 </template>
 

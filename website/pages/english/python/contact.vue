@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto;">
         <h1>Contact List</h1>
         <p>
@@ -74,7 +74,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton
+    <NaviBtn
       flink="listmethod2"
       slink="dictionary"
      />

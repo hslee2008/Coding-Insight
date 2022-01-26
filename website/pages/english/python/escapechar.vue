@@ -31,7 +31,7 @@
         marginheight="0"
         allowfullscreen
         loading="lazy"
-      ></iframe>
+      />
     </div>
 
     <br /><br />
@@ -62,7 +62,7 @@
         allowfullscreen
         loading="lazy"
         style="margin: auto"
-      ></iframe>
+      />
     </div>
 
     <br />
@@ -94,7 +94,7 @@
         marginheight="0"
         allowfullscreen
         loading="lazy"
-      ></iframe>
+      />
     </div>
 
     <QuadSpace />
@@ -135,7 +135,7 @@
           marginheight="0"
           allowfullscreen
           loading="lazy"
-        ></iframe>
+        />
       </div>
 
       <QuadSpace />
@@ -161,19 +161,19 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
 
       <QuadSpace />
 
-      <BeforeNextButton flink="password" slink="ascii" />
+      <NaviBtn flink="password" slink="ascii" />
 
       <QuadSpace />
 
       <div class="quiz">
         <h1>Solve This Quiz!!</h1>
 
-        <hr />
+        <v-divider />
 
         <br /><br />
         <h3>How can we put new lines in ''?</h3>

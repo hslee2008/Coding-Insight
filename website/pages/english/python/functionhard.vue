@@ -50,7 +50,7 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
 
       <QuadSpace />
@@ -88,7 +88,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
         </div>
       </div>
 
@@ -114,7 +114,7 @@
               marginheight="0"
               allowfullscreen
               loading="lazy"
-            ></iframe>
+            />
 
             Note that returning a value will end the function. The code after
             return will be ignored.<br /><br />
@@ -132,7 +132,7 @@
               marginheight="0"
               allowfullscreen
               loading="lazy"
-            ></iframe>
+            />
 
             TIP: use 'return' without any value after to end the function
             immediately.
@@ -160,20 +160,20 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="function" slink="specialvariable" />
+    <NaviBtn flink="function" slink="specialvariable" />
 
     <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
 
-      <hr />
+      <v-divider />
 
       <br /><br />
 

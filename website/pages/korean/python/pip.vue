@@ -97,7 +97,7 @@
 
     <QuadSpace />
 
-    <BeforeNextButton flink="stringascode" slink="json" />
+    <NaviBtn flink="stringascode" slink="json" />
 
     <QuadSpace />
   </div>

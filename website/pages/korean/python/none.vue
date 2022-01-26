@@ -11,7 +11,7 @@
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
+      />
     </div>
 
     <br /><br />
@@ -40,11 +40,11 @@
       allowfullscreen
       loading="lazy"
       style="margin: auto"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="password-safe" slink="function" />
+    <NaviBtn flink="password-safe" slink="function" />
 
     <QuadSpace />
   </div>

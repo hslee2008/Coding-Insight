@@ -105,9 +105,10 @@ export default {
   loading: {
     color: 'skyblue',
     failedColor: 'red',
-    height: '2px',
+    height: '5px',
     continuous: true,
     throttle: 50,
+    css: false,
   },
   loadingIndicator: {
     name: 'pulse',

@@ -21,11 +21,11 @@
       marginheight="0"
       allowfullscreen
       loading="lazy"
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="decorator" slink="pythondecorator" />
+    <NaviBtn flink="decorator" slink="pythondecorator" />
 
     <QuadSpace />
   </div>

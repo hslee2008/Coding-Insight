@@ -85,7 +85,7 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -109,11 +109,11 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div>
         <h1>Clipboard</h1>
         <p>
@@ -164,7 +164,7 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
@@ -217,11 +217,11 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton flink="turtle" slink="gtts" />
+    <NaviBtn flink="turtle" slink="gtts" />
 
     <QuadSpace />
   </div>

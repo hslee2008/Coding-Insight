@@ -34,7 +34,7 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
 
       <QuadSpace />
@@ -63,13 +63,13 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="specialvariable" slink="anonymousfunction" />
+    <NaviBtn flink="specialvariable" slink="anonymousfunction" />
 
     <QuadSpace />
   </div>

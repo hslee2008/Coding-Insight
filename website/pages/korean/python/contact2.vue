@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto;">
         <h1>친구 목록 다루기 2</h1>
         <p>파일을 사용해서 친구 목록을 이번에는 저장까지 해보겠습니다</p>
@@ -42,11 +42,11 @@
       marginwidth="0"
       marginheight="0"
       allowfullscreen
-    ></iframe>
+    />
 
     <QuadSpace />
 
-    <BeforeNextButton
+    <NaviBtn
       flink="contextmanager"
       slink="datachange"
      />

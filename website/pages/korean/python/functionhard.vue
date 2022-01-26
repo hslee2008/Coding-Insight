@@ -34,7 +34,7 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
 
       <QuadSpace />
@@ -61,7 +61,7 @@
             allowfullscreen
             loading="lazy"
             style="margin: auto"
-          ></iframe>
+          />
         </div>
       </div>
 
@@ -90,7 +90,7 @@
               allowfullscreen
               loading="lazy"
               style="margin: auto"
-            ></iframe>
+            />
 
             <br /><br />return 키워드에서 하나 이상 변수를 되돌려주는 방법이
             있습니다. 파이썬에서만 존재하는 기능입니다.<br /><br />
@@ -105,7 +105,7 @@
               allowfullscreen
               loading="lazy"
               style="margin: auto"
-            ></iframe>
+            />
           </p>
         </div>
       </div>
@@ -130,20 +130,20 @@
           allowfullscreen
           loading="lazy"
           style="margin: auto"
-        ></iframe>
+        />
       </div>
     </div>
 
     <QuadSpace />
 
-    <BeforeNextButton flink="function" slink="specialvariable" />
+    <NaviBtn flink="function" slink="specialvariable" />
 
     <QuadSpace />
 
     <div class="quiz">
       <h1>퀴즈 풀기!</h1>
 
-      <hr />
+      <v-divider />
 
       <br /><br />
 
