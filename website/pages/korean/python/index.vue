@@ -6,7 +6,6 @@
       <div style="display: flex; justify-content: center">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           max-width="300px"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"
         />
@@ -80,7 +79,6 @@
       <div class="text-center mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
           max-width="300px"
         />
@@ -136,7 +134,6 @@
       <div class="text-center mx-auto img-div">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDvusEfnc81WXy7PBDME8ZDa7miwprm8Z4Q&usqp=CAU"
           max-width="210.5px"
         />

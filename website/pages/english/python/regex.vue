@@ -24,7 +24,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://cmgcode.com/images/portfolio/regexoff-icon.png"
           width="300px"
         />

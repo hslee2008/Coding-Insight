@@ -1,37 +1,4 @@
-C 언어 기본
-    <a href="while.html">(19) while 반복문</a>
-    <a href="doublefor.html">(20) 이중 반복문</a>
-    <a href="dowhile.html">(21) do - while 반복문</a>
-    <a href="inffor.html">(22) 무한 반복문</a>C 언어 초급
-    <a href="conbregot.html">(23) Continue, Break, Goto 문</a>
-    <a href="array.html">(24) 배열</a>
-    <a href="string.html">(25) 문자열</a>
-    <a href="stringlibrary.html">(26) string 라3메서드;브러리</a>
-    <a href="2darr.html">(27) 2차원 배열</a>
-
-    <a href="function.html">(28) 함수</a>
-    <a href="mainfunction.html">(29) main 함수 </a>
-    <a href="storageclass.html">(30) 스토리지 클래스</a>
-    <a href="typedef.html">(31) typedef</a>
-
-C 언어 중급
-    <a href="struct.html">(32) struct</a>
-    <a href="pointer.html">(33) 포인터</a>
-    <a href="usingpointer.html">(34) 포인터 사용하기</a>
-    <a href="union.html">(35) union</a>
-    <a href="void.html">(36) void</a>
-
-    <a href="include.html">(37) #include</a>
-    <a href="assert.html">(38) assert</a>
-    <a href="macro.html">(39) 매크로</a>
-    <a href="otherif.html">(40) 조건문 - 다른 방법</a>
-    <a href="error.html">(41) #error</a>C 언어 고급
-    <a href="arrow.html">(42) 화살표</a>
-    <a href="random.html">(43) 랜덤</a>
-    <a href="ctype.html">(44) c 타입</a>
-    <a href="stopprogram.html">(45) 프로그램 중단</a>
-    <a href="math.html">(46) math.h 라이브러리</a>
-
+C 언어 고급
     <a href="file.html">(47) 파일 다루기</a>
     <a href="readfile.html">(48) 파일 읽기</a>
     <a href="writefile.html">(49) 파일 쓰기</a>

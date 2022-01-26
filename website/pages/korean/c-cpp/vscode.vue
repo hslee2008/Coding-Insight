@@ -18,42 +18,36 @@
         <p>+ 키보드에 창틀이 있으면 윈도우입니다(없다면 MAC).</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/vscode.jpg')"
           max-width="400px"
         /><br />
         <p>3. 설치가 100%다 되면 그 박스를 클릭하세요.</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/vscodesetup.jpg')"
           max-width="400px"
         /><br />
         <p>4. 동의합니다를 선택하세요.</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/agree.jpg')"
           max-width="400px"
         /><br />
         <p>5. 다음(또는 Next) 버튼을 누르세요.</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/nextvscode.jpg')"
           max-width="400px"
         /><br />
         <p>6. 설치 버튼을 누르세요.</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/installvscode.jpg')"
           max-width="400px"
         /><br />
         <p>7. 끝내기 버튼을 누르세요.</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/vscodefinish.jpg')"
           max-width="400px"
         />
@@ -66,14 +60,12 @@
         </p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/cube.jpg')"
           max-width="400px"
         /><br />
         <p>3. C라고 친 후 기다리세요</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/extinstall.jpg')"
           max-width="400px"
         /><br />
@@ -84,7 +76,6 @@
         </p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/coderunner.jpg')"
           max-width="400px"
         />
@@ -107,7 +98,6 @@
         </p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/file.jpg')"
           max-width="400px"
         />
@@ -115,7 +105,6 @@
         <p>3. "Open Folder" 버튼을 누르고 코드를 저장할 파일을 선택하세요.</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/choose.jpg')"
           max-width="400px"
         />
@@ -126,7 +115,6 @@
         </p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/newfile.jpg')"
           max-width="400px"
         />
@@ -134,7 +122,6 @@
         <p>5. 파이썬 파일 이름을 입력 후 '.c'로 끝내고 엔터를 누르세요.</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/filename.jpg')"
           max-width="400px"
         />
@@ -142,7 +129,6 @@
         <p>6. 파일 안에 C 언어 코드를 입력합니다.</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/firstcode.jpg')"
           max-width="400px"
         />
@@ -154,7 +140,6 @@
         </p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/terminal.jpg')"
           max-width="400px"
         />
@@ -169,7 +154,6 @@
         <p>7. 마지막으로, a.exe(만일 인되면 ./a.exe)를 실행합니다.</p>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/compileandrun.jpg')"
           max-width="400px"
         />
@@ -192,7 +176,6 @@
       <div>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           :src="require('./img/firstcode.jpg')"
           max-width="400px"
         />

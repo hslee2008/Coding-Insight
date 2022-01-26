@@ -1,0 +1,39 @@
+<template>
+  <div>
+    <br />
+
+    <div>
+      <div>
+        <h1>assert.h</h1>
+        <p>
+          assert.h 라이브러리 안에는 딱 하나 유용한 기능이 있습니다.<br /><br />
+
+          바로 assert라는 함수입니다.<br /><br />
+
+          assert 안에 분리언을 넣고 만일 그 분리언이 false라면 에러를
+          만듭니다.<br /><br />
+
+          <code> assert(1 == 1); </code>
+        </p>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <Header title="assert 키워드" num="38" />
+
+    <QuadSpace />
+
+    <iframe
+      src="https://www.jdoodle.com/embed/v0/47Bz"
+      width="100%"
+      height="400"
+    />
+
+    <QuadSpace />
+
+    <NaviBtn flink="include" slink="macro" />
+
+    <QuadSpace />
+  </div>
+</template>

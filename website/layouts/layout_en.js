@@ -1,67 +1,67 @@
 export default {
   start_python_en: [
     {
-      icon: 'mdi-map-marker',
+      icon: 'map-marker',
       title: 'Start',
       to: '/english/python/',
     },
     {
-      icon: 'mdi-folder-download',
+      icon: 'folder-download',
       title: 'Install',
       to: '/english/python/install',
     },
     {
-      icon: 'mdi-microsoft-visual-studio-code',
+      icon: 'microsoft-visual-studio-code',
       title: 'VSCode',
       to: '/english/python/vscode',
     },
     {
-      icon: 'mdi-video-input-component',
+      icon: 'video-input-component',
       title: 'Input & Output',
       to: '/english/python/io',
     },
     {
-      icon: 'mdi-application-variable',
+      icon: 'application-variable',
       title: 'Variable',
       to: '/english/python/variable',
     },
     {
-      icon: 'mdi-emoticon-lol',
+      icon: 'emoticon-lol',
       title: 'Mad-Lips Game',
       to: '/english/python/madlib',
     },
     {
-      icon: 'mdi-database',
+      icon: 'database',
       title: 'Data Type',
       to: '/english/python/datatype',
     },
     {
-      icon: 'mdi-comment-quote',
+      icon: 'comment-quote',
       title: 'Comment',
       to: '/english/python/comment',
     },
     {
-      icon: 'mdi-alphabetical',
+      icon: 'alphabetical',
       title: 'String',
       to: '/english/python/string',
     },
     {
-      icon: 'mdi-sort-alphabetical-ascending',
+      icon: 'sort-alphabetical-ascending',
       title: 'String Method 1',
       to: '/english/python/stringmethod1',
     },
     {
-      icon: 'mdi-sort-alphabetical-descending',
+      icon: 'sort-alphabetical-descending',
       title: 'String Method 2',
       to: '/english/python/stringmethod2',
     },
     {
-      icon: 'mdi-lock-alert',
+      icon: 'lock-alert',
       title: 'Mission: Password',
       to: '/english/python/password',
     },
     {
-      icon: 'mdi-exit-run',
+      icon: 'exit-run',
       title: 'Escape Character',
       to: '/english/python/escapechar',
     },
@@ -69,57 +69,57 @@ export default {
 
   python_basics_en: [
     {
-      icon: 'mdi-book-alphabet',
+      icon: 'book-alphabet',
       title: 'ASCII',
       to: '/english/python/ascii',
     },
     {
-      icon: 'mdi-nintendo-switch',
+      icon: 'nintendo-switch',
       title: 'Boolean',
       to: '/english/python/boolean',
     },
     {
-      icon: 'mdi-numeric',
+      icon: 'numeric',
       title: 'Number',
       to: '/english/python/number',
     },
     {
-      icon: 'mdi-plus-minus-variant',
+      icon: 'plus-minus-variant',
       title: 'Operator',
       to: '/english/python/operator',
     },
     {
-      icon: 'mdi-pi',
+      icon: 'pi',
       title: 'Numer Types',
       to: '/english/python/numtype',
     },
     {
-      icon: 'mdi-calculator',
+      icon: 'calculator',
       title: 'Mission: Basic Calculator',
       to: '/english/python/calc',
     },
     {
-      icon: 'mdi-numeric-9-plus-box-multiple',
+      icon: 'numeric-9-plus-box-multiple',
       title: 'Number Method',
       to: '/english/python/nummethod',
     },
     {
-      icon: 'mdi-filter-variant',
+      icon: 'filter-variant',
       title: 'List',
       to: '/english/python/list',
     },
     {
-      icon: 'mdi-playlist-plus',
+      icon: 'playlist-plus',
       title: 'List Method 1',
       to: '/english/python/listmethod1',
     },
     {
-      icon: 'mdi-playlist-minus',
+      icon: 'playlist-minus',
       title: 'List Method 2',
       to: '/english/python/listmethod2',
     },
     {
-      icon: 'mdi-account-box',
+      icon: 'account-box',
       title: 'Mission: Contact',
       to: '/english/python/contact',
     },
@@ -127,67 +127,67 @@ export default {
 
   python_beginner_en: [
     {
-      icon: 'mdi-notebook-multiple',
+      icon: 'notebook-multiple',
       title: 'Dictionary',
       to: '/english/python/dictionary',
     },
     {
-      icon: 'mdi-notebook-plus',
+      icon: 'notebook-plus',
       title: 'Dictionary Method',
       to: '/english/python/dictionarymethod',
     },
     {
-      icon: 'mdi-folder-zip',
+      icon: 'folder-zip',
       title: 'Mission: Zipping Program',
       to: '/english/python/zipping',
     },
     {
-      icon: 'mdi-view-list',
+      icon: 'view-list',
       title: 'Tuple',
       to: '/english/python/tuple',
     },
     {
-      icon: 'mdi-code-braces',
+      icon: 'code-braces',
       title: 'Set',
       to: '/english/python/set',
     },
     {
-      icon: 'mdi-code-braces-box',
+      icon: 'code-braces-box',
       title: 'Set Method',
       to: '/english/python/setmethod',
     },
     {
-      icon: 'mdi-diversify',
+      icon: 'diversify',
       title: 'If Statement',
       to: '/english/python/if',
     },
     {
-      icon: 'mdi-arrow-decision',
+      icon: 'arrow-decision',
       title: 'If Master',
       to: '/english/python/ifmaster',
     },
     {
-      icon: 'mdi-lock-check',
+      icon: 'lock-check',
       title: 'Mission: Password (More Secure)',
       to: '/english/python/password-safe',
     },
     {
-      icon: 'mdi-border-none-variant',
+      icon: 'border-none-variant',
       title: 'None',
       to: '/english/python/none',
     },
     {
-      icon: 'mdi-function',
+      icon: 'function',
       title: 'Function',
       to: '/english/python/function',
     },
     {
-      icon: 'mdi-function-variant',
+      icon: 'function-variant',
       title: 'Function (Advanced)',
       to: '/english/python/functionhard',
     },
     {
-      icon: 'mdi-application-variable-outline',
+      icon: 'application-variable-outline',
       title: 'Special Variables',
       to: '/english/python/specialvariable',
     },
@@ -195,82 +195,82 @@ export default {
 
   intermediate_python_en: [
     {
-      icon: 'mdi-database-cog',
+      icon: 'database-cog',
       title: 'Type Definition',
       to: '/english/python/type',
     },
     {
-      icon: 'mdi-incognito',
+      icon: 'incognito',
       title: 'Anonymous Function',
       to: '/english/python/anonymousfunction',
     },
     {
-      icon: 'mdi-fast-forward-outline',
+      icon: 'fast-forward-outline',
       title: 'For Loop',
       to: '/english/python/for',
     },
     {
-      icon: 'mdi-skip-forward',
+      icon: 'skip-forward',
       title: 'Iterable Type',
       to: '/english/python/fortype',
     },
     {
-      icon: 'mdi-rewind',
+      icon: 'rewind',
       title: 'Iterable Function',
       to: '/english/python/forfunction',
     },
     {
-      icon: 'mdi-sync',
+      icon: 'sync',
       title: 'While Loop',
       to: '/english/python/while',
     },
     {
-      icon: 'mdi-minus',
+      icon: 'minus',
       title: 'Code in oneline',
       to: '/english/python/oneliner',
     },
     {
-      icon: 'mdi-dots-circle',
+      icon: 'dots-circle',
       title: 'Other Functions',
       to: '/english/python/etcfunction',
     },
     {
-      icon: 'mdi-package-variant-closed',
+      icon: 'package-variant-closed',
       title: 'Module',
       to: '/english/python/module',
     },
     {
-      icon: 'mdi-gift',
+      icon: 'gift',
       title: 'Mastering Module',
       to: '/english/python/modulemaster',
     },
     {
-      icon: 'mdi-package-variant',
+      icon: 'package-variant',
       title: 'Python Modules',
       to: '/english/python/pythonmodule',
     },
     {
-      icon: 'mdi-virus',
+      icon: 'virus',
       title: 'Mission: Network Sniffing',
       to: '/korean/python/hacking',
     },
     {
-      icon: 'mdi-calendar-range',
+      icon: 'calendar-range',
       title: 'Date',
       to: '/english/python/date',
     },
     {
-      icon: 'mdi-dice-multiple',
+      icon: 'dice-multiple',
       title: 'Random',
       to: '/english/python/random',
     },
     {
-      icon: 'mdi-dice-1',
+      icon: 'dice-1',
       title: 'Mission: Dice',
       to: '/english/python/dice',
     },
     {
-      icon: 'mdi-regex',
+      icon: 'regex',
       title: 'Regex',
       to: '/english/python/regex',
     },
@@ -278,67 +278,67 @@ export default {
 
   advanced_python_en: [
     {
-      icon: 'mdi-map',
+      icon: 'map',
       title: 'Class',
       to: '/english/python/class',
     },
     {
-      icon: 'mdi-map-outline',
+      icon: 'map-outline',
       title: 'Class Method',
       to: '/english/python/classmethod',
     },
     {
-      icon: 'mdi-math-integral',
+      icon: 'math-integral',
       title: 'Math (Statistics)',
       to: '/english/python/math',
     },
     {
-      icon: 'mdi-file',
+      icon: 'file',
       title: 'File',
       to: '/english/python/file',
     },
     {
-      icon: 'mdi-file-document',
+      icon: 'file-document',
       title: 'File Reading',
       to: '/english/python/filereading',
     },
     {
-      icon: 'mdi-file-document-edit',
+      icon: 'file-document-edit',
       title: 'File Writing',
       to: '/english/python/filewriting',
     },
     {
-      icon: 'mdi-file-tree',
+      icon: 'file-tree',
       title: 'File making, deleting, encoding',
       to: '/english/python/etcfile',
     },
     {
-      icon: 'mdi-file-sign',
+      icon: 'file-sign',
       title: 'Context Manager',
       to: '/korean/python/contextmanager',
     },
     {
-      icon: 'mdi-account-box-multiple',
+      icon: 'account-box-multiple',
       title: 'Friend List (v2)',
       to: '/english/python/contact2',
     },
     {
-      icon: 'mdi-database-refresh-outline',
+      icon: 'database-refresh-outline',
       title: 'Data Type Change',
       to: '/korean/python/datachange',
     },
     {
-      icon: 'mdi-code-tags',
+      icon: 'code-tags',
       title: 'String as code',
       to: '/english/python/stringascode',
     },
     {
-      icon: 'mdi-text-box-plus',
+      icon: 'text-box-plus',
       title: 'Mission: My own idle',
       to: '/english/python/stringascode/#idlepython',
     },
     {
-      icon: 'mdi-progress-download',
+      icon: 'progress-download',
       title: 'PIP',
       to: '/english/python/pip',
     },
@@ -346,57 +346,57 @@ export default {
 
   python_specialist_en: [
     {
-      icon: 'mdi-code-json',
+      icon: 'code-json',
       title: 'JSON',
       to: '/english/python/json',
     },
     {
-      icon: 'mdi-clipboard',
+      icon: 'clipboard',
       title: 'Array',
       to: '/english/python/array',
     },
     {
-      icon: 'mdi-clipboard-list',
+      icon: 'clipboard-list',
       title: 'Array Type',
       to: '/english/python/array_type',
     },
     {
-      icon: 'mdi-clipboard-pulse',
+      icon: 'clipboard-pulse',
       title: 'Array Shape',
       to: '/english/python/array_shape',
     },
     {
-      icon: 'mdi-alert-circle',
+      icon: 'alert-circle',
       title: 'Handling Error',
       to: '/english/python/error',
     },
     {
-      icon: 'mdi-water-boiler-alert',
+      icon: 'water-boiler-alert',
       title: 'Error',
       to: '/english/python/error2',
     },
     {
-      icon: 'mdi-pulse',
+      icon: 'pulse',
       title: 'Logging',
       to: '/english/python/logging',
     },
     {
-      icon: 'mdi-filter',
+      icon: 'filter',
       title: 'Map, Reduce, Filter',
       to: '/english/python/mapandreduceandfilter',
     },
     {
-      icon: 'mdi-string-lights',
+      icon: 'string-lights',
       title: 'Decorator',
       to: '/english/python/decorator',
     },
     {
-      icon: 'mdi-ornament',
+      icon: 'ornament',
       title: 'My Decorator',
       to: '/english/python/mydecorator',
     },
     {
-      icon: 'mdi-wrench-outline',
+      icon: 'wrench-outline',
       title: 'Python Decorator',
       to: '/english/python/pythondecorator',
     },
@@ -404,82 +404,82 @@ export default {
 
   master_python_en: [
     {
-      icon: 'mdi-view-agenda-outline',
+      icon: 'view-agenda-outline',
       title: 'New Line',
       to: '/english/python/newline',
     },
     {
-      icon: 'mdi-sync-off',
+      icon: 'sync-off',
       title: 'Asynchronous',
       to: '/english/python/beedongee',
     },
     {
-      icon: 'mdi-sync',
+      icon: 'sync',
       title: 'asyncio',
       to: '/english/python/asyncio',
     },
     {
-      icon: 'mdi-form-textbox',
+      icon: 'form-textbox',
       title: '__name__',
       to: '/english/python/name',
     },
     {
-      icon: 'mdi-spider-thread',
+      icon: 'spider-thread',
       title: 'Thread',
       to: '/english/python/thread',
     },
     {
-      icon: 'mdi-spider-web',
+      icon: 'spider-web',
       title: 'Thread (Advanced)',
       to: '/english/python/complexthread',
     },
     {
-      icon: 'mdi-spider',
+      icon: 'spider',
       title: 'Thread Method',
       to: '/english/python/threadmethod',
     },
     {
-      icon: 'mdi-desktop-classic',
+      icon: 'desktop-classic',
       title: 'Multiprocessing',
       to: '/english/python/multiprocessing',
     },
     {
-      icon: 'mdi-account-question',
+      icon: 'account-question',
       title: 'Counter',
       to: '/english/python/counter',
     },
     {
-      icon: 'mdi-hand-wave',
+      icon: 'hand-wave',
       title: 'Request',
       to: '/english/python/request',
     },
     {
-      icon: 'mdi-hand-coin',
+      icon: 'hand-coin',
       title: 'Request Method',
       to: '/english/python/requestmethod',
     },
     {
-      icon: 'mdi-puzzle',
+      icon: 'puzzle',
       title: 'Dunder Method',
       to: '/english/python/dundermethod',
     },
     {
-      icon: 'mdi-puzzle-plus',
+      icon: 'puzzle-plus',
       title: 'Additinoal Dunder Method',
       to: '/english/python/additionaldundermethod',
     },
     {
-      icon: 'mdi-puzzle-star',
+      icon: 'puzzle-star',
       title: 'Other Dundermethods',
       to: '/english/python/etcdundermethod',
     },
     {
-      icon: 'mdi-lan-pending',
+      icon: 'lan-pending',
       title: 'atexit',
       to: '/english/python/atexit',
     },
     {
-      icon: 'mdi-transit-connection-variant',
+      icon: 'transit-connection-variant',
       title: 'Coroutine',
       to: '/english/python/coroutine',
     },
@@ -487,42 +487,42 @@ export default {
 
   python_god_en: [
     {
-      icon: 'mdi-email-alert',
+      icon: 'email-alert',
       title: 'Spam',
       to: '/english/python/spam',
     },
     {
-      icon: 'mdi-video-box',
+      icon: 'video-box',
       title: 'Auto Zoom',
       to: '/english/python/autozoom',
     },
     {
-      icon: 'mdi-keyboard-variant',
+      icon: 'keyboard-variant',
       title: 'Keyboard',
       to: '/english/python/keyboard',
     },
     {
-      icon: 'mdi-chart-bar-stacked',
+      icon: 'chart-bar-stacked',
       title: 'Matplotlib',
       to: '/english/python/matplotlib',
     },
     {
-      icon: 'mdi-mouse-bluetooth',
+      icon: 'mouse-bluetooth',
       title: 'Mouse',
       to: '/english/python/mouse',
     },
     {
-      icon: 'mdi-tortoise',
+      icon: 'tortoise',
       title: 'Turtle',
       to: '/english/python/turtle',
     },
     {
-      icon: 'mdi-panda',
+      icon: 'panda',
       title: 'Pandas',
       to: '/english/python/pandas',
     },
     {
-      icon: 'mdi-monitor-speaker',
+      icon: 'monitor-speaker',
       title: 'gTTS',
       to: '/english/python/gtts',
     },
@@ -530,12 +530,12 @@ export default {
 
   other_en: [
     {
-      icon: 'mdi-head-question',
+      icon: 'head-question',
       title: 'Quiz!',
       to: '/english/python/quiz',
     },
     {
-      icon: 'mdi-checkbox-multiple-marked-circle-outline',
+      icon: 'checkbox-multiple-marked-circle-outline',
       title: 'Finished?',
       to: '/english/python/finished',
     },

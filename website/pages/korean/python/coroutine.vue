@@ -13,7 +13,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://i.pinimg.com/736x/1c/86/84/1c8684b06bc7ad1e1f6b7b0099d87300.jpg"
           max-width="200px"
         />

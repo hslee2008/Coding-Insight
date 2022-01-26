@@ -18,7 +18,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://media.istockphoto.com/vectors/magic-wand-line-icon-vector-id1164851035?k=6&m=1164851035&s=612x612&w=0&h=ihapeRsHBDDFTTa7CxId_I5ExnbGrJug8aQEVOOviW4="
           width="300px"
         />

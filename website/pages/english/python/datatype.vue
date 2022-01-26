@@ -22,7 +22,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
           max-width="300px"
         />

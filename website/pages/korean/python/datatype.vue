@@ -19,7 +19,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
           max-width="300px"
         />
@@ -110,7 +109,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://www.sas.com/en_us/insights/articles/big-data/big-data-privacy/_jcr_content/par02/image_df5.img.jpg/1601048186486.jpg"
           width="342"
           height="300"

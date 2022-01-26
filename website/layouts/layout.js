@@ -2,68 +2,68 @@ export default {
   //! Python Scripts
   start_python: [
     {
-      icon: 'mdi-map-marker',
+      icon: 'map-marker',
       title: '시작',
       to: '/korean/python/',
     },
     {
-      icon: 'mdi-folder-download',
+      icon: 'folder-download',
       title: '설치',
       to: '/korean/python/install',
     },
     {
-      icon: 'mdi-microsoft-visual-studio-code',
+      icon: 'microsoft-visual-studio-code',
       title: 'VSCode',
       to: '/korean/python/vscode',
     },
     {
-      icon: 'mdi-video-input-component',
+      icon: 'video-input-component',
       title: '입출력',
       to: '/korean/python/io',
     },
     {
-      icon: 'mdi-application-variable',
+      icon: 'application-variable',
       title: '변수',
       to: '/korean/python/variable',
     },
     {
-      icon: 'mdi-emoticon-lol',
+      icon: 'emoticon-lol',
       title: '미션: 매드립스',
       to: '/korean/python/madlib',
     },
 
     {
-      icon: 'mdi-database',
+      icon: 'database',
       title: '데이터 형태',
       to: '/korean/python/datatype',
     },
     {
-      icon: 'mdi-comment-quote',
+      icon: 'comment-quote',
       title: '주석',
       to: '/korean/python/comment',
     },
     {
-      icon: 'mdi-alphabetical',
+      icon: 'alphabetical',
       title: '문자',
       to: '/korean/python/string',
     },
     {
-      icon: 'mdi-sort-alphabetical-ascending',
+      icon: 'sort-alphabetical-ascending',
       title: '문자 메서드 1',
       to: '/korean/python/stringmethod1',
     },
     {
-      icon: 'mdi-sort-alphabetical-descending',
+      icon: 'sort-alphabetical-descending',
       title: '문자 메서드 2',
       to: '/korean/python/stringmethod2',
     },
     {
-      icon: 'mdi-lock-alert',
+      icon: 'lock-alert',
       title: '미션: 암호',
       to: '/korean/python/password',
     },
     {
-      icon: 'mdi-exit-run',
+      icon: 'exit-run',
       title: '이스케이프 문자',
       to: '/korean/python/escapechar',
     },
@@ -71,57 +71,57 @@ export default {
 
   python_basics: [
     {
-      icon: 'mdi-book-alphabet',
+      icon: 'book-alphabet',
       title: '아스키',
       to: '/korean/python/ascii',
     },
     {
-      icon: 'mdi-nintendo-switch',
+      icon: 'nintendo-switch',
       title: '분리언',
       to: '/korean/python/boolean',
     },
     {
-      icon: 'mdi-numeric',
+      icon: 'numeric',
       title: '숫자',
       to: '/korean/python/number',
     },
     {
-      icon: 'mdi-plus-minus-variant',
+      icon: 'plus-minus-variant',
       title: '연산자',
       to: '/korean/python/operator',
     },
     {
-      icon: 'mdi-pi',
+      icon: 'pi',
       title: '숫자 종류',
       to: '/korean/python/numtype',
     },
     {
-      icon: 'mdi-calculator',
+      icon: 'calculator',
       title: '미션: 간단한 계산기',
       to: '/korean/python/calc',
     },
     {
-      icon: 'mdi-numeric-9-plus-box-multiple',
+      icon: 'numeric-9-plus-box-multiple',
       title: '숫자 메서드',
       to: '/korean/python/nummethod',
     },
     {
-      icon: 'mdi-filter-variant',
+      icon: 'filter-variant',
       title: '리스트',
       to: '/korean/python/list',
     },
     {
-      icon: 'mdi-playlist-plus',
+      icon: 'playlist-plus',
       title: '리스트 메서드 1',
       to: '/korean/python/listmethod1',
     },
     {
-      icon: 'mdi-playlist-minus',
+      icon: 'playlist-minus',
       title: '리스트 메서드 2',
       to: '/korean/python/listmethod2',
     },
     {
-      icon: 'mdi-account-box',
+      icon: 'account-box',
       title: '미션: 연락 목록',
       to: '/korean/python/contact',
     },
@@ -129,67 +129,67 @@ export default {
 
   python_beginner: [
     {
-      icon: 'mdi-notebook-multiple',
+      icon: 'notebook-multiple',
       title: '딕셔너리',
       to: '/korean/python/dictionary',
     },
     {
-      icon: 'mdi-notebook-plus',
+      icon: 'notebook-plus',
       title: '딕셔너리 메서드',
       to: '/korean/python/dictionarymethod',
     },
     {
-      icon: 'mdi-folder-zip',
+      icon: 'folder-zip',
       title: '미션: 글 압축',
       to: '/korean/python/zipping',
     },
     {
-      icon: 'mdi-view-list',
+      icon: 'view-list',
       title: '튜플',
       to: '/korean/python/tuple',
     },
     {
-      icon: 'mdi-code-braces',
+      icon: 'code-braces',
       title: '집합',
       to: '/korean/python/set',
     },
     {
-      icon: 'mdi-code-braces-box',
+      icon: 'code-braces-box',
       title: '집합 메서드',
       to: '/korean/python/setmethod',
     },
     {
-      icon: 'mdi-diversify',
+      icon: 'diversify',
       title: '조건문',
       to: '/korean/python/if',
     },
     {
-      icon: 'mdi-arrow-decision',
+      icon: 'arrow-decision',
       title: '조건문 마스터',
       to: '/korean/python/ifmaster',
     },
     {
-      icon: 'mdi-lock-check',
+      icon: 'lock-check',
       title: '미션: 암호 (더 안전한)',
       to: '/korean/python/password-safe',
     },
     {
-      icon: 'mdi-border-none-variant',
+      icon: 'border-none-variant',
       title: 'None',
       to: '/korean/python/none',
     },
     {
-      icon: 'mdi-function',
+      icon: 'function',
       title: '함수',
       to: '/korean/python/function',
     },
     {
-      icon: 'mdi-function-variant',
+      icon: 'function-variant',
       title: '함수 (자세히)',
       to: '/korean/python/functionhard',
     },
     {
-      icon: 'mdi-application-variable-outline',
+      icon: 'application-variable-outline',
       title: '특별한 변수',
       to: '/korean/python/specialvariable',
     },
@@ -197,82 +197,82 @@ export default {
 
   intermediate_python: [
     {
-      icon: 'mdi-database-cog',
+      icon: 'database-cog',
       title: '타입 지정',
       to: '/korean/python/type',
     },
     {
-      icon: 'mdi-incognito',
+      icon: 'incognito',
       title: '익명함수',
       to: '/korean/python/anonymousfunction',
     },
     {
-      icon: 'mdi-fast-forward-outline',
+      icon: 'fast-forward-outline',
       title: 'For 반복문',
       to: '/korean/python/for',
     },
     {
-      icon: 'mdi-skip-forward',
+      icon: 'skip-forward',
       title: '반복문 종류',
       to: '/korean/python/fortype',
     },
     {
-      icon: 'mdi-rewind',
+      icon: 'rewind',
       title: '반복문 함수',
       to: '/korean/python/forfunction',
     },
     {
-      icon: 'mdi-sync',
+      icon: 'sync',
       title: 'While 반복문',
       to: '/korean/python/while',
     },
     {
-      icon: 'mdi-minus',
+      icon: 'minus',
       title: '코드를 한 줄에',
       to: '/korean/python/oneliner',
     },
     {
-      icon: 'mdi-dots-circle',
+      icon: 'dots-circle',
       title: '다양한 함수',
       to: '/korean/python/etcfunction',
     },
     {
-      icon: 'mdi-package-variant-closed',
+      icon: 'package-variant-closed',
       title: '모듈',
       to: '/korean/python/module',
     },
     {
-      icon: 'mdi-gift',
+      icon: 'gift',
       title: '모듈 마스터',
       to: '/korean/python/modulemaster',
     },
     {
-      icon: 'mdi-package-variant',
+      icon: 'package-variant',
       title: '파이썬 모듈',
       to: '/korean/python/pythonmodule',
     },
     {
-      icon: 'mdi-virus',
+      icon: 'virus',
       title: '미션: 해킹 (인터넷 감시)',
       to: '/korean/python/hacking',
     },
     {
-      icon: 'mdi-calendar-range',
+      icon: 'calendar-range',
       title: '날짜',
       to: '/korean/python/date',
     },
     {
-      icon: 'mdi-dice-multiple',
+      icon: 'dice-multiple',
       title: '랜덤',
       to: '/korean/python/random',
     },
     {
-      icon: 'mdi-dice-1',
+      icon: 'dice-1',
       title: '미션: 주사위',
       to: '/korean/python/dice',
     },
     {
-      icon: 'mdi-regex',
+      icon: 'regex',
       title: '정규식',
       to: '/korean/python/regex',
     },
@@ -280,67 +280,67 @@ export default {
 
   advanced_python: [
     {
-      icon: 'mdi-map',
+      icon: 'map',
       title: '클래스',
       to: '/korean/python/class',
     },
     {
-      icon: 'mdi-map-outline',
+      icon: 'map-outline',
       title: '클래스 메서드',
       to: '/korean/python/classmethod',
     },
     {
-      icon: 'mdi-math-integral',
+      icon: 'math-integral',
       title: '수학 (통계)',
       to: '/korean/python/math',
     },
     {
-      icon: 'mdi-file',
+      icon: 'file',
       title: '파일',
       to: '/korean/python/file',
     },
     {
-      icon: 'mdi-file-document',
+      icon: 'file-document',
       title: '파일 읽기',
       to: '/korean/python/filereading',
     },
     {
-      icon: 'mdi-file-document-edit',
+      icon: 'file-document-edit',
       title: '파일 쓰기',
       to: '/korean/python/filewriting',
     },
     {
-      icon: 'mdi-file-tree',
+      icon: 'file-tree',
       title: '파일 만들기, 삭제하기, encoding',
       to: '/korean/python/etcfile',
     },
     {
-      icon: 'mdi-file-sign',
+      icon: 'file-sign',
       title: '컨텍스트 매니저',
       to: '/korean/python/contextmanager',
     },
     {
-      icon: 'mdi-account-box-multiple',
+      icon: 'account-box-multiple',
       title: '친구 목록 (v2)',
       to: '/korean/python/contact2',
     },
     {
-      icon: 'mdi-database-refresh-outline',
+      icon: 'database-refresh-outline',
       title: '데이터 형태 바꾸기',
       to: '/korean/python/datachange',
     },
     {
-      icon: 'mdi-code-tags',
+      icon: 'code-tags',
       title: '문자열을 코드로',
       to: '/korean/python/stringascode',
     },
     {
-      icon: 'mdi-text-box-plus',
+      icon: 'text-box-plus',
       title: '프로젝트: 나만의 IDLE',
       to: '/english/python/stringascode/#idlepython',
     },
     {
-      icon: 'mdi-progress-download',
+      icon: 'progress-download',
       title: 'PIP',
       to: '/korean/python/pip',
     },
@@ -348,57 +348,57 @@ export default {
 
   python_specialist: [
     {
-      icon: 'mdi-code-json',
+      icon: 'code-json',
       title: 'JSON',
       to: '/korean/python/json',
     },
     {
-      icon: 'mdi-clipboard',
+      icon: 'clipboard',
       title: '정렬',
       to: '/korean/python/array',
     },
     {
-      icon: 'mdi-clipboard-list',
+      icon: 'clipboard-list',
       title: '정렬 종류',
       to: '/korean/python/array_type',
     },
     {
-      icon: 'mdi-clipboard-pulse',
+      icon: 'clipboard-pulse',
       title: '정렬 모양',
       to: '/korean/python/array_shape',
     },
     {
-      icon: 'mdi-alert-circle',
+      icon: 'alert-circle',
       title: '에러 다루기',
       to: '/korean/python/error',
     },
     {
-      icon: 'mdi-water-boiler-alert',
+      icon: 'water-boiler-alert',
       title: '에러',
       to: '/korean/python/error2',
     },
     {
-      icon: 'mdi-pulse',
+      icon: 'pulse',
       title: '로깅',
       to: '/korean/python/logging',
     },
     {
-      icon: 'mdi-filter',
+      icon: 'filter',
       title: 'Map, Reduce, Filter',
       to: '/korean/python/mapandreduceandfilter',
     },
     {
-      icon: 'mdi-string-lights',
+      icon: 'string-lights',
       title: '데코레이터',
       to: '/korean/python/decorator',
     },
     {
-      icon: 'mdi-ornament',
+      icon: 'ornament',
       title: '나만의 데코레이터',
       to: '/korean/python/mydecorator',
     },
     {
-      icon: 'mdi-wrench-outline',
+      icon: 'wrench-outline',
       title: '파이썬 데코레이터',
       to: '/korean/python/pythondecorator',
     },
@@ -406,82 +406,82 @@ export default {
 
   master_python: [
     {
-      icon: 'mdi-view-agenda-outline',
+      icon: 'view-agenda-outline',
       title: '새로운 줄',
       to: '/korean/python/newline',
     },
     {
-      icon: 'mdi-sync-off',
+      icon: 'sync-off',
       title: '비동기',
       to: '/korean/python/beedongee',
     },
     {
-      icon: 'mdi-sync',
+      icon: 'sync',
       title: 'asyncio',
       to: '/korean/python/asyncio',
     },
     {
-      icon: 'mdi-form-textbox',
+      icon: 'form-textbox',
       title: '__name__',
       to: '/korean/python/name',
     },
     {
-      icon: 'mdi-spider-thread',
+      icon: 'spider-thread',
       title: '스레드',
       to: '/korean/python/thread',
     },
     {
-      icon: 'mdi-spider-web',
+      icon: 'spider-web',
       title: '스레드 (자세히)',
       to: '/korean/python/complexthread',
     },
     {
-      icon: 'mdi-spider',
+      icon: 'spider',
       title: '스레드 메서드',
       to: '/korean/python/threadmethod',
     },
     {
-      icon: 'mdi-desktop-classic',
+      icon: 'desktop-classic',
       title: '멀티프로세싱',
       to: '/korean/python/multiprocessing',
     },
     {
-      icon: 'mdi-account-question',
+      icon: 'account-question',
       title: '카운터',
       to: '/korean/python/counter',
     },
     {
-      icon: 'mdi-hand-wave',
+      icon: 'hand-wave',
       title: '리퀘스트',
       to: '/korean/python/request',
     },
     {
-      icon: 'mdi-hand-coin',
+      icon: 'hand-coin',
       title: '리퀘스트 메서드',
       to: '/korean/python/requestmethod',
     },
     {
-      icon: 'mdi-puzzle',
+      icon: 'puzzle',
       title: '던더메서드',
       to: '/korean/python/dundermethod',
     },
     {
-      icon: 'mdi-puzzle-plus',
+      icon: 'puzzle-plus',
       title: '추가 던더메서드',
       to: '/korean/python/additionaldundermethod',
     },
     {
-      icon: 'mdi-puzzle-star',
+      icon: 'puzzle-star',
       title: '기타 던더메서드',
       to: '/korean/python/etcdundermethod',
     },
     {
-      icon: 'mdi-lan-pending',
+      icon: 'lan-pending',
       title: 'atexit',
       to: '/korean/python/atexit',
     },
     {
-      icon: 'mdi-transit-connection-variant',
+      icon: 'transit-connection-variant',
       title: '코루틴',
       to: '/korean/python/coroutine',
     },
@@ -489,42 +489,42 @@ export default {
 
   python_god: [
     {
-      icon: 'mdi-email-alert',
+      icon: 'email-alert',
       title: '스펨 이메일',
       to: '/korean/python/spam',
     },
     {
-      icon: 'mdi-video-box',
+      icon: 'video-box',
       title: '자동 줌',
       to: '/korean/python/autozoom',
     },
     {
-      icon: 'mdi-keyboard-variant',
+      icon: 'keyboard-variant',
       title: '키보드',
       to: '/korean/python/keyboard',
     },
     {
-      icon: 'mdi-chart-bar-stacked',
+      icon: 'chart-bar-stacked',
       title: 'Matplotlib',
       to: '/korean/python/matplotlib',
     },
     {
-      icon: 'mdi-mouse-bluetooth',
+      icon: 'mouse-bluetooth',
       title: '마우스',
       to: '/korean/python/mouse',
     },
     {
-      icon: 'mdi-tortoise',
+      icon: 'tortoise',
       title: '터틀',
       to: '/korean/python/turtle',
     },
     {
-      icon: 'mdi-panda',
+      icon: 'panda',
       title: '판다스',
       to: '/korean/python/pandas',
     },
     {
-      icon: 'mdi-monitor-speaker',
+      icon: 'monitor-speaker',
       title: 'gTTS',
       to: '/korean/python/gtts',
     },
@@ -532,17 +532,17 @@ export default {
 
   other: [
     {
-      icon: 'mdi-head-question',
+      icon: 'head-question',
       title: '퀴즈!',
       to: '/korean/python/quiz',
     },
     {
-      icon: 'mdi-video-marker',
+      icon: 'video-marker',
       title: '비디오 모음',
       to: '/korean/python/video',
     },
     {
-      icon: 'mdi-checkbox-multiple-marked-circle-outline',
+      icon: 'checkbox-multiple-marked-circle-outline',
       title: '끝?',
       to: '/korean/python/finished',
     },
@@ -551,7 +551,7 @@ export default {
   //! Rust Scripts
   start_rust: [
     {
-      icon: 'mdi-map-marker',
+      icon: 'map-marker',
       title: '시작',
       to: '/korean/rust/',
     },
@@ -560,86 +560,210 @@ export default {
   //! C Scripts
   start_c: [
     {
-      icon: 'mdi-map-marker',
+      icon: 'map-marker',
       title: '시작',
       to: '/korean/c-cpp/',
     },
     {
-      icon: 'mdi-folder-download',
+      icon: 'folder-download',
       title: '설치',
       to: '/korean/c-cpp/install',
     },
     {
-      icon: 'mdi-microsoft-visual-studio-code',
+      icon: 'microsoft-visual-studio-code',
       title: 'VSCode',
       to: '/korean/c-cpp/vscode',
     },
     {
-      icon: 'mdi-export',
+      icon: 'export',
       title: '출력',
       to: '/korean/c-cpp/print',
     },
     {
-      icon: 'mdi-application-variable',
+      icon: 'application-variable',
       title: '변수',
       to: '/korean/c-cpp/variable',
     },
     {
-      icon: 'mdi-video-input-component',
+      icon: 'video-input-component',
       title: '입력',
       to: '/korean/c-cpp/input',
     },
     {
-      icon: 'mdi-database',
+      icon: 'database',
       title: '기본 데이터 형태',
       to: '/korean/c-cpp/basicdatatype',
     },
     {
-      icon: 'mdi-database-plus',
+      icon: 'database-plus',
       title: '추가 데이터 형태',
       to: '/korean/c-cpp/otherdatatype',
     },
     {
-      icon: 'mdi-database-refresh',
+      icon: 'database-refresh',
       title: '데이터 변형',
       to: '/korean/c-cpp/typecasting',
     },
     {
-      icon: 'mdi-plus-minus-variant',
+      icon: 'plus-minus-variant',
       title: '연산자',
       to: '/korean/c-cpp/operator',
     },
     {
-      icon: 'mdi-comment-quote',
+      icon: 'comment-quote',
       title: '주석',
       to: '/korean/c-cpp/comment',
     },
     {
-      icon: 'mdi-language-c',
+      icon: 'language-c',
       title: '문법',
       to: '/korean/c-cpp/grammar',
     },
     {
-      icon: 'mdi-exit-run',
+      icon: 'exit-run',
       title: '이스케이프 문자',
       to: '/korean/c-cpp/escapechar',
     },
+  ],
+
+  c_basics: [
     {
-      icon: 'mdi-diversify',
+      icon: 'diversify',
       title: '조건문',
       to: '/korean/c-cpp/if',
     },
     {
-      icon: 'mdi-arrow-decision',
+      icon: 'arrow-decision',
       title: '조건문 마스터',
       to: '/korean/python/hardif',
     },
     {
-      icon: 'mdi-fast-forward-outline',
+      icon: 'fast-forward-outline',
       title: 'For 반복문',
       to: '/korean/python/for',
     },
+    {
+      icon: 'sync',
+      title: 'While 반복문',
+      to: '/korean/c-cpp/while',
+    },
+    {
+      icon: 'close-circle-multiple',
+      title: '이중 반복문',
+      to: '/korean/c-cpp/while',
+    },
+    {
+      icon: 'source-commit',
+      title: 'Do - While 반복문',
+      to: '/korean/c-cpp/dowhile',
+    },
+    {
+      icon: 'all-inclusive',
+      title: '무한 반복문',
+      to: '/korean/c-cpp/inffor',
+    },
+    {
+      icon: 'alphabetical',
+      title: '문자열',
+      to: '/korean/c-cpp/string',
+    },
+    {
+      icon: 'library',
+      title: '문자열 라이브러리',
+      to: '/korean/c-cpp/stringlibrary',
+    },
+    {
+      icon: 'grid',
+      title: '2차원 배열',
+      to: '/korean/c-cpp/2darr',
+    },
+    {
+      icon: 'function',
+      title: '함수',
+      to: '/korean/c-cpp/function',
+    },
+    {
+      icon: 'image-filter-center-focus',
+      title: 'MAIN 함수',
+      to: '/korean/c-cpp/mainfunction',
+    },
+    {
+      icon: 'database-import',
+      title: '스토리지 클래스',
+      to: '/korean/c-cpp/storageclass',
+    },
+    {
+      icon: 'database-cog',
+      title: 'typedef 키워드',
+      to: '/korean/c-cpp/typedef',
+    },
   ],
 
-  c_basics: [],
+  c_intermediate: [
+    {
+      icon: 'cursor-pointer',
+      title: '포인터',
+      to: '/korean/c-cpp/pointer',
+    },
+    {
+      icon: 'hand-pointing-right',
+      title: '포인터 사용하기',
+      to: '/korean/c-cpp/usingpointer',
+    },
+    {
+      icon: 'vector-union',
+      title: 'UNION',
+      to: '/korean/c-cpp/union',
+    },
+    {
+      icon: 'dots-square',
+      title: 'VOID',
+      to: '/korean/c-cpp/void',
+    },
+    {
+      icon: 'music-accidental-sharp',
+      title: '#include',
+      to: '/korean/c-cpp/void',
+    },
+    {
+      icon: 'checkbox-multiple-blank-outline',
+      title: 'macro',
+      to: '/korean/c-cpp/macro',
+    },
+    {
+      icon: 'numeric-3-circle',
+      title: '삼항 여난자',
+      to: '/korean/c-cpp/otherif',
+    },
+    {
+      icon: 'alert-circle',
+      title: '#error',
+      to: '/korean/c-cpp/error',
+    },
+    {
+      icon: 'arrow-decision-outline',
+      title: '화살표 ->',
+      to: '/korean/c-cpp/arrow',
+    },
+    {
+      icon: 'dice-multiple',
+      title: '랜덤',
+      to: '/korean/c-cpp/random',
+    },
+    {
+      icon: 'format-list-bulleted-type',
+      title: 'ctype.h',
+      to: '/korean/c-cpp/ctype',
+    },
+    {
+      icon: 'stop',
+      title: '프로그램 중단',
+      to: '/korean/c-cpp/stopprogram',
+    },
+    {
+      icon: 'android-studio',
+      title: 'math.h 라이브러리',
+      to: '/korean/c-cpp/math',
+    },
+  ],
 };

@@ -16,7 +16,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXZGVvGnbtF2jLOKPqulX9hEzoHF7BAq69A&usqp=CAU"
           max-width="400px"
         />

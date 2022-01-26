@@ -12,7 +12,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://www.incimages.com/uploaded_files/image/empty-email_463770.gif"
           max-width="300px"
         />

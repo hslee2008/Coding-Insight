@@ -13,7 +13,6 @@
       <div style="margin: auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbPlGs1KONj35lMRnJTnaPaZ-awICYbPhSw&usqp=CAU"
         />
       </div>

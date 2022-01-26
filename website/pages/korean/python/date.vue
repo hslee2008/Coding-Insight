@@ -14,7 +14,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://i.pinimg.com/736x/2e/91/54/2e9154e47f8ee83671518361c96fc1d4.jpg"
           max-width="200px"
         />

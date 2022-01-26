@@ -70,6 +70,11 @@
           titlekr="C 언어 기본"
           json="c_basics"
         />
+        <ItemList
+          titleen="Intermediate C Programming"
+          titlekr="C 언어 중급"
+          json="c_intermediate"
+        />
       </v-list>
     </v-navigation-drawer>
 

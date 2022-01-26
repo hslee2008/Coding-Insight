@@ -21,7 +21,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://blog.shabda.co/wp-content/uploads/2015/10/numbers-truth-morality.png"
           max-width="300px"
         />

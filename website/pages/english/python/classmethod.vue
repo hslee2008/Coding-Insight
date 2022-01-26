@@ -18,7 +18,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://pbs.twimg.com/profile_images/502406972453289985/AKdzcXPi.png"
           width="300px"
         />

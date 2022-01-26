@@ -18,7 +18,6 @@
       <div>
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://mblogthumb-phinf.pstatic.net/20140319_89/leedahee111_1395209827273qETWy_JPEG/lights-cubes-3D--1573013-1920x1080.jpg?type=w2"
           max-width="300px"
         />
@@ -129,7 +128,6 @@
       <div style="margin: auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fI89ddpqwH_V2tcKZx4VijN0SjNXKPIo7Q&usqp=CAU"
           max-width="300px"
         />

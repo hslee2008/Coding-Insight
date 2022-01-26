@@ -150,7 +150,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://t1.daumcdn.net/cfile/tistory/9916724E5D3CD66B19"
           width="300px"
         />

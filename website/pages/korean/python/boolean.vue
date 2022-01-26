@@ -28,7 +28,6 @@
       <div class="mx-auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
           max-width="300px"
         />

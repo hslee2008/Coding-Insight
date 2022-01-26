@@ -42,7 +42,6 @@
       <div style="margin: auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://www.javascripttutorial.net/wp-content/uploads/2020/01/JavaScript-for-Loop.png"
           max-width="400px"
           style="border-radius: 5px"
