@@ -766,4 +766,27 @@ export default {
       to: '/korean/c-cpp/math',
     },
   ],
+
+  c_advanced: [
+    {
+      icon: 'file',
+      title: '파일 다루기',
+      to: '/korean/c-cpp/file',
+    },
+    {
+      icon: 'file-search',
+      title: '파일 읽기',
+      to: '/korean/c-cpp/readfile',
+    },
+    {
+      icon: 'file-edit',
+      title: '파일 쓰기',
+      to: '/korean/c-cpp/writefile',
+    },
+    {
+      icon: 'file-excel-outline',
+      title: '파일 삭제',
+      to: '/korean/c-cpp/deletefile',
+    },
+  ],
 };

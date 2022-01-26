@@ -1,9 +1,3 @@
-C 언어 고급
-    <a href="file.html">(47) 파일 다루기</a>
-    <a href="readfile.html">(48) 파일 읽기</a>
-    <a href="writefile.html">(49) 파일 쓰기</a>
-    <a href="deletefile.html">(50) 파일 삭제하기</a>
-
 C++ 시작
     <a href="cpp.html">(1) C++의 정의 </a>
     <a href="io-cpp.html">(2) 입출력</a>
