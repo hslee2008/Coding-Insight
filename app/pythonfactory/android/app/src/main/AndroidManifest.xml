@@ -3,7 +3,7 @@
   <uses-permission android:name="android.permission.INTERNET"/>
   <application
         android:networkSecurityConfig="@xml/network_security_config"
-        android:label="Python Factory (OPT)"
+        android:label="Python-Factory"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

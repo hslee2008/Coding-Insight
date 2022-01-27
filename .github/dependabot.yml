@@ -1,10 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "../app/Python-Factory"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
     directory: "../website"
     schedule:
       interval: "daily"
