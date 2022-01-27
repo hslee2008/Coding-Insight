@@ -14,7 +14,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="10" title="문자열 메서드 2"></Header>
 

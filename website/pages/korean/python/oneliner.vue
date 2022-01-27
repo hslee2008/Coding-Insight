@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="38" title="코드를 한 줄에"></Header>
 

@@ -34,7 +34,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="64" title="map, reduce, filter"></Header-en>
 
@@ -42,7 +42,6 @@
 
     <div>
       <div>
-        <
         <h1>Using map()</h1>
         <p>
           Let's first look at an example of map().<br /><br />
@@ -97,7 +96,7 @@
 
           <code>
             mainList = [1, 2, 3, -1, -2, 5]<br />
-            newList = filter(lambda number: number < 0, mainList)
+            newList = filter(lambda number: number &lt; 0, mainList)
           </code>
           In the exaple above, each value of mainList will be inected into
           lambda and if lambda returns True, the item is removed.

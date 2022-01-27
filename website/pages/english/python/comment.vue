@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="7" title="Comment"></Header-en>
 

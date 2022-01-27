@@ -34,7 +34,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="11" title="Escacpe Character"></Header-en>
 

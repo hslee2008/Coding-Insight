@@ -38,7 +38,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en title="Tuple" num="24"></Header-en>
 

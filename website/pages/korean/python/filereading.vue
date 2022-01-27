@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="50" title="파일 읽기"></Header>
 

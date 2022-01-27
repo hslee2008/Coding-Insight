@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="56" title="PIP"></Header-en>
 

@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="파일 읽기" num="48" />
 

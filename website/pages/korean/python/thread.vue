@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="73" title="스레드"></Header>
 

@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="Rust" num="1"></Header>
 
@@ -88,7 +88,7 @@
     <div>
       <NuxtLink to="./install" style="text-decoration: none; float: right">
         <v-btn class="ma-2" outlined>
-          Next<v-icon right> mdi-chevron-right </v-icon>
+          Next<v-icon right> mdi-arrow-right-drop-circle </v-icon>
         </v-btn>
       </NuxtLink>
     </div>

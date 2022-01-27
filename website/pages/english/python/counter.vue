@@ -32,7 +32,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="77" title="Counter"></Header-en>
 

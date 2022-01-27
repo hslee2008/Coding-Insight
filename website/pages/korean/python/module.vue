@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="40" title="모듈"></Header>
 

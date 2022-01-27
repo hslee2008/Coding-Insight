@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="12" title="ASCII"></Header-en>
 

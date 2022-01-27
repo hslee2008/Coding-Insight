@@ -14,7 +14,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="27" title="조건문 마스터"></Header>
 

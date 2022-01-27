@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="18" title="List"></Header-en>
 

@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="UNION" num="35" />
 

@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="53" title="Context Manager"></Header-en>
 

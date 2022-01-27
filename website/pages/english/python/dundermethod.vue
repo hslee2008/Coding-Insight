@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="80" title="Dunder Method"></Header-en>
 

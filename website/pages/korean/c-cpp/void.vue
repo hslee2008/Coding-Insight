@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="void" num="36" />
 

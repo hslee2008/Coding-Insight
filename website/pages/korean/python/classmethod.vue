@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="47" title="클래스 메서드"></Header>
 

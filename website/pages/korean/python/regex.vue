@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="45" title="정규식"></Header>
 

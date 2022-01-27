@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="44" title="Random"></Header-en>
 

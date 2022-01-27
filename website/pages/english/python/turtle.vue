@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="90" title="Turtle"></Header-en>
 

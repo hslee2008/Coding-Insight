@@ -1,1 +1,0 @@
-pyinstaller --windowed --onefile --icon=splash.ico Python\ Factory.py

@@ -19,7 +19,7 @@ alt="python-factory-picture" class="img-fluid" max-width="400px"
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="57" title="JSON"></Header>
 

@@ -36,7 +36,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="60" title="Array Shape"></Header-en>
 

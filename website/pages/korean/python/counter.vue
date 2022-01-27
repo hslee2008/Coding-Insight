@@ -29,7 +29,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="77" title="카원터"></Header>
 

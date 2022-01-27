@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="58" title="정렬"></Header>
 

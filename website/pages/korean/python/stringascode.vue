@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="55" title="문자열을 코드로"></Header>
 

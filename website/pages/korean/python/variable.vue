@@ -37,7 +37,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="5" title="변수"></Header>
 

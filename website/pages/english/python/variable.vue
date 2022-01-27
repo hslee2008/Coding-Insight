@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="5" title="Variable"></Header-en>
 

@@ -13,12 +13,11 @@
       </div>
       <div style="display: flex; justify-content: center;">
         <v-img
-alt="python-factory-picture" class="img-fluid"
-          src="https://ih1.redbubble.net/image.455632594.5388/flat,550x550,075,f.u2.jpg" width="300px" />
+alt="python-factory-picture" src="https://ih1.redbubble.net/image.455632594.5388/flat,550x550,075,f.u2.jpg" width="300px" />
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="48" title="수학 (통계)"></Header>
 

@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="80" title="던더메서드"></Header>
 

@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="85" title="Spam Email"></Header-en>
 

@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="66" title="Decorator"></Header-en>
 

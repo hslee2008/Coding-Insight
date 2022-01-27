@@ -36,7 +36,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="25" title="집합 메서드"></Header>
 

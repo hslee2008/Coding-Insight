@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="파일 쓰기" num="49" />
 

@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="61" title="에러 다루기"></Header>
 

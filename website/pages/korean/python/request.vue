@@ -14,12 +14,11 @@
       </div>
       <div style="display: flex; justify-content: center;">
         <v-img
-alt="python-factory-picture" class="img-fluid"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxLF2l2sITXnde-o9OyhTjoPeWHCWLrC2Ry2-FlQVH-aDSQPE1kh02OMA1yT_Yeui3LM&usqp=CAU" />
+alt="python-factory-picture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxLF2l2sITXnde-o9OyhTjoPeWHCWLrC2Ry2-FlQVH-aDSQPE1kh02OMA1yT_Yeui3LM&usqp=CAU" />
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="78" title="리퀘스트"></Header>
 

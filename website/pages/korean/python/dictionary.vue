@@ -45,7 +45,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="21" title="딕셔너리"></Header>
 

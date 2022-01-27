@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="25" title="Set Method"></Header-en>
 

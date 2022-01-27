@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="66" title="데코레이터"></Header>
 
@@ -127,7 +127,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="mapandreduceandfilter" slink="mydecorator" />
+    <NaviBtn flink="zlib" slink="mydecorator" />
 
     <QuadSpace />
   </div>

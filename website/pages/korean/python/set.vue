@@ -44,7 +44,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="24" title="집합"></Header>
 

@@ -1,8 +1,0 @@
-C++ 시작
-    <a href="cpp.html">(1) C++의 정의 </a>
-    <a href="io-cpp.html">(2) 입출력</a>
-    <a href="string-cpp.html">(3) 문자열</a>
-    <a href="vectorbasic.html">(4) Vector</a>
-    <a href="vectormethod.html">(5) Vector 메서드</a>
-    <a href="stack.html">(6) Stack</a>
-    <a href="akkllheader.html">(7) bits/stdc++.h</a>

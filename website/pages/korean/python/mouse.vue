@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="89" title="마우스"></Header>
 

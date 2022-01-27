@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="87" title="Keyboard"></Header-en>
 

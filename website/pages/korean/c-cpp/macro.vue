@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="매크로" num="39" />
 

@@ -30,7 +30,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="46" title="클래스"></Header>
 

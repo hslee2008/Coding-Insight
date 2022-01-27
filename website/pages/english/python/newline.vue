@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="69" title="New Line"></Header>
 

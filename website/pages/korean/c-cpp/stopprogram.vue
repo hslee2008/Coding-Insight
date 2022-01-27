@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="프로그램 중단" num="43" />
 

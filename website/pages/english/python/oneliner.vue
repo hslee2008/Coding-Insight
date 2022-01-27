@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="38" title="Code in oneline"></Header-en>
 

@@ -21,7 +21,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="91" title="Pandas"></Header-en>
 

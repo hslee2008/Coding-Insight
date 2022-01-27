@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="86" title="자동 줌"></Header>
 

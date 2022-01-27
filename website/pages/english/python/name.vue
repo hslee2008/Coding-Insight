@@ -19,7 +19,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="72" title="__name__"></Header-en>
 

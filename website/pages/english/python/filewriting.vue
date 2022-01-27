@@ -25,7 +25,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="51" title="File Writing"></Header-en>
 

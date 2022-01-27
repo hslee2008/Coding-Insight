@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="70" title="Asynchronous"></Header-en>
 

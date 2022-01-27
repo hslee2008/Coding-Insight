@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="assert 키워드" num="38" />
 

@@ -36,7 +36,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="18" title="리스트"></Header>
 

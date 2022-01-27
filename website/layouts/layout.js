@@ -388,6 +388,11 @@ export default {
       to: '/korean/python/mapandreduceandfilter',
     },
     {
+      icon: 'zip-box',
+      title: 'ZLIB',
+      to: '/korean/python/zlib',
+    },
+    {
       icon: 'string-lights',
       title: '데코레이터',
       to: '/korean/python/decorator',
@@ -622,7 +627,7 @@ export default {
     {
       icon: 'exit-run',
       title: '이스케이프 문자',
-      to: '/korean/c-cpp/escapechar',
+      to: '/korean/c-cpp/escapechararacter',
     },
   ],
 
@@ -635,7 +640,7 @@ export default {
     {
       icon: 'arrow-decision',
       title: '조건문 마스터',
-      to: '/korean/python/hardif',
+      to: '/korean/python/ifmaster',
     },
     {
       icon: 'fast-forward-outline',
@@ -787,6 +792,49 @@ export default {
       icon: 'file-excel-outline',
       title: '파일 삭제',
       to: '/korean/c-cpp/deletefile',
+    },
+  ],
+
+  start_cpp: [
+    {
+      icon: 'language-cpp',
+      title: 'C++',
+      to: '/korean/c-cpp/cpp',
+    },
+    {
+      icon: 'audio-input-rca',
+      title: 'IO (Input & Output)',
+      to: '/korean/c-cpp/io-cpp',
+    },
+    {
+      icon: 'view-array',
+      title: '문자열',
+      to: '/korean/c-cpp/string-cpp',
+    },
+    {
+      icon: 'vector-square',
+      title: 'VECTOR',
+      to: '/korean/c-cpp/vectorbasic',
+    },
+    {
+      icon: 'vector-square-edit',
+      title: 'VECTOR 메서드',
+      to: '/korean/c-cpp/vectormethod',
+    },
+    {
+      icon: 'vector-arrange-above',
+      title: 'STACK',
+      to: '/korean/c-cpp/stack',
+    },
+    {
+      icon: 'view-list',
+      title: 'bits/stdc++.h',
+      to: '/korean/c-cpp/allheader',
+    },
+    {
+      icon: 'alert-circle',
+      title: '에러 다루기',
+      to: '/korean/c-cpp/errorhandling',
     },
   ],
 };

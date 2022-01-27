@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="45" title="Regex"></Header-en>
 

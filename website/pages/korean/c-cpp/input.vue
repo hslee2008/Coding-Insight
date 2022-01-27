@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="입력" num="7" />
 

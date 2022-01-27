@@ -386,6 +386,11 @@ export default {
       to: '/english/python/mapandreduceandfilter',
     },
     {
+      icon: 'zip-box',
+      title: 'ZLIB',
+      to: '/english/python/zlib',
+    },
+    {
       icon: 'string-lights',
       title: 'Decorator',
       to: '/english/python/decorator',

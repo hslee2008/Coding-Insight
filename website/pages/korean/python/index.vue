@@ -48,8 +48,7 @@
         <div class="text-center mx-auto">
           <v-img
             alt="python-factory-picture"
-            class="img-fluid"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
             max-width="300px"
           />
         </div>
@@ -176,7 +175,7 @@
     <div>
       <NuxtLink to="./install" style="text-decoration: none; float: right">
         <v-btn class="ma-2" outlined>
-          Next<v-icon right> mdi-chevron-right </v-icon>
+          Next<v-icon right> mdi-arrow-right-drop-circle </v-icon>
         </v-btn>
       </NuxtLink>
     </div>

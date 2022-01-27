@@ -41,7 +41,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="12" title="아스키"></Header>
 

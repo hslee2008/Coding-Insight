@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="파일 삭제" num="50" />
 

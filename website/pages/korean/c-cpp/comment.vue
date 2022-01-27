@@ -13,7 +13,7 @@
       </p>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="주석" num="12" />
 

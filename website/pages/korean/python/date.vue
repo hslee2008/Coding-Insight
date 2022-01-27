@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="43" title="날짜"></Header>
 

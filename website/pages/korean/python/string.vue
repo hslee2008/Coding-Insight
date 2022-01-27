@@ -15,8 +15,7 @@
         </div>
         <div style="display: flex; justify-content: center;">
           <v-img
-alt="python-factory-picture" class="img-fluid"
-            src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
+alt="python-factory-picture"   src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
             max-width="300px" />
         </div>
       </div>

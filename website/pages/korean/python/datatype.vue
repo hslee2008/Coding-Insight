@@ -39,7 +39,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="6" title="데이터 형태"></Header>
 

@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="40" title="Module"></Header-en>
 

@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="상항 연산자" num="40" />
 

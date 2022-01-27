@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="50" title="File Reading"></Header-en>
 

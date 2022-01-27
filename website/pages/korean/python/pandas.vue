@@ -22,7 +22,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="91" title="판다스"></Header>
 

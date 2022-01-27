@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="87" title="키보드"></Header>
 

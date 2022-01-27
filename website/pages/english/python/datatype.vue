@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="6" title="Data Type"></Header-en>
 

@@ -23,7 +23,7 @@ src="https://trinket.io/embed/python3/3e28c18725" width="100%" height="356" fram
         marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="Matplotlib" num="88"></Header>
 

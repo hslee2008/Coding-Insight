@@ -61,7 +61,7 @@
 
       <v-list v-else-if="$nuxt.$route.path.includes('korean/c-cpp')">
         <ItemList
-          titleen="C Programming Start"
+          titleen="Starting C Programming"
           titlekr="C 언어 시작"
           json="start_c"
         />
@@ -79,6 +79,11 @@
           titleen="Advanced C Programming"
           titlekr="C 언어 고급"
           json="c_advanced"
+        />
+        <ItemList
+          titleen="Starting C Programming"
+          titlekr="C++ 언어 시작"
+          json="start_cpp"
         />
       </v-list>
     </v-navigation-drawer>
@@ -140,7 +145,7 @@
       </v-menu>
 
       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
-        <v-icon>mdi-search-web</v-icon>
+        <v-icon>mdi-school</v-icon>
       </v-btn>
     </v-app-bar>
 

@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="문자열 라이브러리" num="26" />
 

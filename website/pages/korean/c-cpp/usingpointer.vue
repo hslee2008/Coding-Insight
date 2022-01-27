@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="포인터 사용하기" num="34" />
 

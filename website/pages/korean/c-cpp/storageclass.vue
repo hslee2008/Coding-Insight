@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="스토리지 클래스" num="30" />
 

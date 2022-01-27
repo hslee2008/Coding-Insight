@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="ctype.h" num="43" />
 

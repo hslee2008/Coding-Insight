@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="85" title="스펨 이메일"></Header>
 

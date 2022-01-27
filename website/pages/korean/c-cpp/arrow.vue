@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="화살표 키워드" num="42" />
 

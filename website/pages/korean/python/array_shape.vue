@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="60" title="정렬 모양"></Header>
 

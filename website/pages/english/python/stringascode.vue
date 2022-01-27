@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="55" title="String as code"></Header-en>
 

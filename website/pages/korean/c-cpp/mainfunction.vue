@@ -18,14 +18,13 @@
       <div style="margin: auto">
         <v-img
           alt="python-factory-picture"
-          class="img-fluid"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVtWFSGRUxMggLLNqG3lCfUkfN02VTaOkHw&usqp=CAU"
           width="400px"
         />
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="MAIN 함수" num="29" />
 

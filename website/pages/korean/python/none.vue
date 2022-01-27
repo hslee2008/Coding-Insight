@@ -14,7 +14,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="None" num="24"></Header>
 

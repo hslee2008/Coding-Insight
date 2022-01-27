@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="47" title="Class Method"></Header-en>
 

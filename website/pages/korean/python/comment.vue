@@ -38,7 +38,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="7" title="주석"></Header>
 

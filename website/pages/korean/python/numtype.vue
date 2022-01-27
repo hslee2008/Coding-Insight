@@ -15,8 +15,7 @@
           <div class="mx-auto">
             <v-img
               alt="python-factory-picture"
-              class="img-fluid"
-              src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
+                  src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
               width="500px"
             />
           </div>

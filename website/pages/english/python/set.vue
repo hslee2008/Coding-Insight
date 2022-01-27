@@ -37,7 +37,7 @@
       />
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="24" title="Set"></Header-en>
 

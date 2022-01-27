@@ -36,7 +36,7 @@ export default {
         options: [
           'print("Hello World")',
           'printf("Hello World")',
-          'cout << "Hello World"',
+          'cout &lt;&lt; "Hello World"',
           'console.log("Hello World")',
         ],
         answer: 0,

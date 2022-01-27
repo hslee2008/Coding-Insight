@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="STRUCT 구조체" num="32" />
 

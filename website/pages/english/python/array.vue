@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="58" title="Array"></Header-en>
 

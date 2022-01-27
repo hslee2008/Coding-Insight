@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en num="73" title="Thread"></Header-en>
 

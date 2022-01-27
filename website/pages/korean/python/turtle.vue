@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header num="90" title="터틀"></Header>
 

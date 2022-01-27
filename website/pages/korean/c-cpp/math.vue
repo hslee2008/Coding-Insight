@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header title="math.h 라이브러리" num="46" />
 

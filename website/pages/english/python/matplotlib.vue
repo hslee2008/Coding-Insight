@@ -26,7 +26,7 @@
         frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
     </div>
 
-    <br /><br />
+    <QuadSpace />
 
     <Header-en title="Matplotlib" num="88"></Header-en>
 
