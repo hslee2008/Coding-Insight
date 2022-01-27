@@ -69,12 +69,6 @@ export default {
         href: '/manifest.json',
       },
     ],
-    script: [
-      {
-        src: 'https://www.googletagmanager.com/gtag/js?id=UA-209775586-1',
-        async: true,
-      },
-    ],
   },
 
   css: ['./assets/css/global.css'],
