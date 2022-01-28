@@ -565,6 +565,11 @@ export default {
       title: '설치',
       to: '/korean/rust/install',
     },
+    {
+      icon: 'ferry',
+      title: '프로젝트 시작',
+      to: '/korean/rust/setup',
+    },
   ],
 
   //! C Scripts
