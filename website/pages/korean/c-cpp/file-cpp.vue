@@ -94,7 +94,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="inheritance" slink="finished" />
+    <NaviBtn bef="inheritance" aft="finished" />
 
     <QuadSpace />
   </div>

@@ -71,7 +71,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="while" slink="etcfunction" />
+    <NaviBtn bef="while" aft="etcfunction" />
 
     <QuadSpace />
   </div>

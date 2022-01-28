@@ -60,7 +60,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="arrow" slink="ctype" />
+    <NaviBtn bef="arrow" aft="ctype" />
 
     <QuadSpace />
   </div>

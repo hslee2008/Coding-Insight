@@ -127,7 +127,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="if" slink="switch" />
+    <NaviBtn bef="if" aft="switch" />
 
     <QuadSpace />
   </div>

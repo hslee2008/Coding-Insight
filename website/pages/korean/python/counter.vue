@@ -130,8 +130,8 @@
     <QuadSpace />
 
     <NaviBtn
-      flink="multiprocessing"
-      slink="request"
+      bef="multiprocessing"
+      aft="request"
      />
 
     <QuadSpace />

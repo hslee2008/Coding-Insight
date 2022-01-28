@@ -101,7 +101,7 @@ src="https://trinket.io/embed/python3/0a8bc90264" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <NaviBtn flink="classmethod" slink="file" />
+    <NaviBtn bef="classmethod" aft="file" />
 
     <QuadSpace />
   </div>

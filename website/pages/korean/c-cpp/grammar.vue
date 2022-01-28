@@ -71,7 +71,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="comment" slink="escapecharacter" />
+    <NaviBtn bef="comment" aft="escapecharacter" />
 
     <QuadSpace />
   </div>

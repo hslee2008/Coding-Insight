@@ -138,7 +138,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="class" slink="math" />
+    <NaviBtn bef="class" aft="math" />
 
     <QuadSpace />
   </div>

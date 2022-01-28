@@ -61,7 +61,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="usingpointer" slink="void" />
+    <NaviBtn bef="usingpointer" aft="void" />
 
     <QuadSpace />
   </div>

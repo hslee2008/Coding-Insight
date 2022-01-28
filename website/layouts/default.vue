@@ -52,11 +52,7 @@
       </v-list>
 
       <v-list v-else-if="$nuxt.$route.path.includes('korean/rust')">
-        <ItemList
-          titleen="Rust Start"
-          titlekr="Rust 시작"
-          json="start_python"
-        />
+        <ItemList titleen="Rust Start" titlekr="Rust 시작" json="start_rust" />
       </v-list>
 
       <v-list v-else-if="$nuxt.$route.path.includes('korean/c-cpp')">
@@ -278,7 +274,7 @@
             height="200px"
             src="https://miro.medium.com/max/6016/0*ocReqNnxsbtP8OtU"
           >
-            <v-card-title>파이썬 프로그래밍 언어</v-card-title>
+            <v-card-title>코딩 인사이트</v-card-title>
           </v-img>
 
           <v-card-subtitle class="pb-0"> Python </v-card-subtitle>
@@ -352,7 +348,7 @@
           </v-card-text>
 
           <v-card-actions>
-            <a href="/korean/c-cpp/">
+            <a href="/korean/rust/">
               <v-btn class="ma-2" color="primary" dark>
                 Rust
                 <v-icon dark right> mdi-language-rust </v-icon>
@@ -425,9 +421,7 @@ export default {
         ...PythonLinksEN,
       },
       rightDrawer: false,
-      title: !this.isEnglish()
-        ? '코딩 인사이트'
-        : 'Coding - Insight',
+      title: !this.isEnglish() ? '코딩 인사이트' : 'Coding - Insight',
     };
   },
   methods: {

@@ -114,7 +114,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="allheader" slink="namespace" />
+    <NaviBtn bef="allheader" aft="namespace" />
 
     <QuadSpace />
   </div>

@@ -164,8 +164,8 @@
     <QuadSpace />
 
     <NaviBtn
-      flink="anonymousfunction"
-      slink="fortype"
+      bef="anonymousfunction"
+      aft="fortype"
      />
 
     <QuadSpace />

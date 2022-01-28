@@ -88,7 +88,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="oneliner" slink="module" />
+    <NaviBtn bef="oneliner" aft="module" />
 
     <QuadSpace />
   </div>

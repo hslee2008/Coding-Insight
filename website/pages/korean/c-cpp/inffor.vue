@@ -80,7 +80,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="dowhile" slink="conbregot" />
+    <NaviBtn bef="dowhile" aft="conbregot" />
 
     <QuadSpace />
   </div>

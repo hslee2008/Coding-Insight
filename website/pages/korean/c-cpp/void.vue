@@ -55,7 +55,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="union" slink="include" />
+    <NaviBtn bef="union" aft="include" />
 
     <QuadSpace />
   </div>

@@ -166,7 +166,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="zipping" slink="set" />
+    <NaviBtn bef="zipping" aft="set" />
 
     <QuadSpace />
 

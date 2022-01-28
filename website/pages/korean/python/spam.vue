@@ -66,7 +66,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="coroutine" slink="autozoom" />
+    <NaviBtn bef="coroutine" aft="autozoom" />
 
     <QuadSpace />
   </div>

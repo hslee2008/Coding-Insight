@@ -53,7 +53,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="autozoom" slink="matplotlib" />
+    <NaviBtn bef="autozoom" aft="matplotlib" />
 
     <QuadSpace />
   </div>

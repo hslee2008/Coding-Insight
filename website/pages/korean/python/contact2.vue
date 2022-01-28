@@ -47,8 +47,8 @@
     <QuadSpace />
 
     <NaviBtn
-      flink="contextmanager"
-      slink="datachange"
+      bef="contextmanager"
+      aft="datachange"
      />
 
     <QuadSpace />

@@ -32,7 +32,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="include" slink="macro" />
+    <NaviBtn bef="include" aft="macro" />
 
     <QuadSpace />
   </div>

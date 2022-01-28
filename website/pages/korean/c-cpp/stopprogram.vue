@@ -86,7 +86,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="ctype" slink="math" />
+    <NaviBtn bef="ctype" aft="math" />
 
     <QuadSpace />
   </div>

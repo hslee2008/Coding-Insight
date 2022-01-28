@@ -91,7 +91,7 @@ src="https://trinket.io/embed/python3/294b66f2c5" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <NaviBtn flink="logging" slink="zlib" />
+    <NaviBtn bef="logging" aft="zlib" />
 
     <QuadSpace />
   </div>

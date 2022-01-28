@@ -168,7 +168,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="random" slink="stopprogram" />
+    <NaviBtn bef="random" aft="stopprogram" />
 
     <QuadSpace />
   </div>

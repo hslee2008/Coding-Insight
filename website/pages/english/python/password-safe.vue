@@ -65,7 +65,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="ifmaster" slink="none" />
+    <NaviBtn bef="ifmaster" aft="none" />
 
     <QuadSpace />
   </div>

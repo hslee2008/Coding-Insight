@@ -187,7 +187,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="io" slink="madlib" />
+    <NaviBtn bef="io" aft="madlib" />
 
     <QuadSpace />
 

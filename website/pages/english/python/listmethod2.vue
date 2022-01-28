@@ -105,7 +105,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="listmethod1" slink="dictionary" />
+    <NaviBtn bef="listmethod1" aft="dictionary" />
 
     <QuadSpace />
 

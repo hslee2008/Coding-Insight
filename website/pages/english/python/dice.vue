@@ -52,7 +52,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="random" slink="regex" />
+    <NaviBtn bef="random" aft="regex" />
 
     <QuadSpace />
   </div>

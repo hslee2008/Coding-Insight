@@ -40,7 +40,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="namespace" slink="class" />
+    <NaviBtn bef="namespace" aft="class" />
 
     <QuadSpace />
   </div>

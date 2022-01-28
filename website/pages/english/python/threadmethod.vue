@@ -54,7 +54,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="complexthread" slink="multiprocessing" />
+    <NaviBtn bef="complexthread" aft="multiprocessing" />
 
     <QuadSpace />
   </div>

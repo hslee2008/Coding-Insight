@@ -100,7 +100,7 @@
       style="margin: auto"
     />
 
-    <NaviBtn flink="array" slink="array_shape" />
+    <NaviBtn bef="array" aft="array_shape" />
 
     <QuadSpace />
   </div>

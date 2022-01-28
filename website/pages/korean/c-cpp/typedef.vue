@@ -73,7 +73,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="storageclass" slink="struct" />
+    <NaviBtn bef="storageclass" aft="struct" />
 
     <QuadSpace />
   </div>

@@ -73,7 +73,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="basicdatatype" slink="typecasting" />
+    <NaviBtn bef="basicdatatype" aft="typecasting" />
 
     <QuadSpace />
   </div>

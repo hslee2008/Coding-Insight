@@ -28,7 +28,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="decorator" slink="pythondecorator" />
+    <NaviBtn bef="decorator" aft="pythondecorator" />
 
     <QuadSpace />
   </div>

@@ -144,7 +144,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="stringmethod1" slink="password" />
+    <NaviBtn bef="stringmethod1" aft="password" />
 
     <QuadSpace />
 

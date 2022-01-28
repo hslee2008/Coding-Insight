@@ -130,7 +130,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="datachange" slink="pip" />
+    <NaviBtn bef="datachange" aft="pip" />
 
     <QuadSpace />
   </div>

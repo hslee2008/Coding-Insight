@@ -139,7 +139,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="switch" slink="while" />
+    <NaviBtn bef="switch" aft="while" />
 
     <QuadSpace />
   </div>

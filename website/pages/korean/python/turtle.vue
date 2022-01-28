@@ -173,7 +173,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="mouse" slink="pandas" />
+    <NaviBtn bef="mouse" aft="pandas" />
 
     <QuadSpace />
 

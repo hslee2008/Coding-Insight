@@ -65,7 +65,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="functionhard" slink="type" />
+    <NaviBtn bef="functionhard" aft="type" />
 
     <QuadSpace />
   </div>

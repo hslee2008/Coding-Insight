@@ -118,7 +118,7 @@
 
     <br /><br />
 
-    <NaviBtn flink="madlib" slink="comment" />
+    <NaviBtn bef="madlib" aft="comment" />
 
     <QuadSpace />
 

@@ -65,7 +65,7 @@
           style="margin:auto;"/>
     </div>
     <QuadSpace />
-    <NaviBtn flink="list" slink="listmethod2" />
+    <NaviBtn bef="list" aft="listmethod2" />
     <QuadSpace />
   </div>
 </template>

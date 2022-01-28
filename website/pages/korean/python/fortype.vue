@@ -106,7 +106,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="for" slink="forfunction" />
+    <NaviBtn bef="for" aft="forfunction" />
 
     <QuadSpace />
   </div>

@@ -71,7 +71,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="thread" slink="threadmethod" />
+    <NaviBtn bef="thread" aft="threadmethod" />
 
     <QuadSpace />
   </div>

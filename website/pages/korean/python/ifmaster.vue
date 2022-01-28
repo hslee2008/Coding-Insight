@@ -108,7 +108,7 @@
 
     <br /><br /><br />
 
-    <NaviBtn flink="if" slink="password-safe" />
+    <NaviBtn bef="if" aft="password-safe" />
 
     <QuadSpace />
   </div>

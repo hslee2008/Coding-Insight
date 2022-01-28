@@ -105,8 +105,8 @@
     <QuadSpace />
 
     <NaviBtn
-      flink="contact"
-      slink="dictionarymethod"
+      bef="contact"
+      aft="dictionarymethod"
      />
 
     <QuadSpace />

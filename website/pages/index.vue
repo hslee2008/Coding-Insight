@@ -132,7 +132,7 @@
         </v-card-text>
 
         <v-card-actions>
-          <a href="/korean/c-cpp/">
+          <a href="/korean/rust/">
             <v-btn class="ma-2" color="primary" dark>
               Rust
               <v-icon dark right> mdi-language-rust </v-icon>

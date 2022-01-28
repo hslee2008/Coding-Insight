@@ -118,7 +118,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="tuple" slink="setmethod" />
+    <NaviBtn bef="tuple" aft="setmethod" />
 
     <QuadSpace />
 

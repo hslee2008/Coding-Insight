@@ -120,7 +120,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="typecasting" slink="comment" />
+    <NaviBtn bef="typecasting" aft="comment" />
 
     <QuadSpace />
   </div>

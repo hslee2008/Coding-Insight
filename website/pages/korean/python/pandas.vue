@@ -220,7 +220,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="turtle" slink="gtts" />
+    <NaviBtn bef="turtle" aft="gtts" />
 
     <QuadSpace />
   </div>

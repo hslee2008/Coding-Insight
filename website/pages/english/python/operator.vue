@@ -109,7 +109,7 @@
       />
     </div>
     <QuadSpace />
-    <NaviBtn flink="number" slink="numtype" />
+    <NaviBtn bef="number" aft="numtype" />
     <QuadSpace />
   </div>
 </template>

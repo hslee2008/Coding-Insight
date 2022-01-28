@@ -136,7 +136,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="vectormethod" slink="allheader" />
+    <NaviBtn bef="vectormethod" aft="allheader" />
 
     <QuadSpace />
   </div>

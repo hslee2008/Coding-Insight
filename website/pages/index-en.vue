@@ -80,65 +80,6 @@
           </v-btn>
         </v-card-actions>
       </v-card>
-
-      <v-card class="mx-auto" min-width="250" max-width="350">
-        <v-img
-          class="white--text align-end"
-          height="200px"
-          src="https://i.stack.imgur.com/mWPIq.png"
-        >
-          <v-card-title>C/C++</v-card-title>
-        </v-img>
-
-        <v-card-subtitle class="pb-0"> C/C++ </v-card-subtitle>
-
-        <v-card-text class="text--primary">
-          <div>
-            Anything can run C/C++ even though there are very limited resources.
-          </div>
-        </v-card-text>
-
-        <v-card-actions>
-          <a href="/korean/c-cpp/">
-            <v-btn class="ma-2" color="primary" dark>
-              <v-icon dark right> mdi-language-c </v-icon>
-            </v-btn>
-          </a>
-          <a href="/korean/c-cpp/cpp">
-            <v-btn class="ma-2" color="primary" dark>
-              <v-icon dark right> mdi-language-cpp </v-icon></v-btn
-            >
-          </a>
-        </v-card-actions>
-      </v-card>
-
-      <v-card class="mx-auto" min-width="250" max-width="350">
-        <v-img
-          class="white--text align-end"
-          height="200px"
-          src="https://i2.wp.com/www.thecoderworld.com/wp-content/uploads/2020/04/Rust-Based-Programming-Language.png?fit=1280%2C720&ssl=1"
-        >
-          <v-card-title>Rust</v-card-title>
-        </v-img>
-
-        <v-card-subtitle class="pb-0"> Rust </v-card-subtitle>
-
-        <v-card-text class="text--primary">
-          <div>
-            Rust is very safe and efficient. Most major companies are using Rust
-            as their secondary or main programmming language.
-          </div>
-        </v-card-text>
-
-        <v-card-actions>
-          <a href="/korean/c-cpp/">
-            <v-btn class="ma-2" color="primary" dark>
-              Rust
-              <v-icon dark right> mdi-language-rust </v-icon>
-            </v-btn>
-          </a>
-        </v-card-actions>
-      </v-card>
     </v-row>
 
     <QuadSpace /><QuadSpace />

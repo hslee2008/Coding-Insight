@@ -148,7 +148,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="ascii" slink="number" />
+    <NaviBtn bef="ascii" aft="number" />
 
     <QuadSpace />
 

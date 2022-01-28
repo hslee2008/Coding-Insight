@@ -82,7 +82,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="math" slink="readfile" />
+    <NaviBtn bef="math" aft="readfile" />
 
     <QuadSpace />
   </div>

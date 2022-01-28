@@ -78,8 +78,8 @@
     <QuadSpace />
 
     <NaviBtn
-      flink="dictionarymethod"
-      slink="tuple"
+      bef="dictionarymethod"
+      aft="tuple"
      />
 
     <QuadSpace />

@@ -65,7 +65,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="dictionarymethod" slink="tuple" />
+    <NaviBtn bef="dictionarymethod" aft="tuple" />
 
     <QuadSpace />
   </div>

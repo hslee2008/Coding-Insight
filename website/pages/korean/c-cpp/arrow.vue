@@ -58,7 +58,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="error" slink="random" />
+    <NaviBtn bef="error" aft="random" />
 
     <QuadSpace />
   </div>

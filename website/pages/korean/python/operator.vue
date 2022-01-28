@@ -92,7 +92,7 @@ src="https://trinket.io/embed/python3/39a09b977e"
 
       <QuadSpace />
 
-      <NaviBtn flink="number" slink="numtype" />
+      <NaviBtn bef="number" aft="numtype" />
 
       <QuadSpace />
    </div>

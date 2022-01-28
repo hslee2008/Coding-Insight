@@ -70,7 +70,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="fortype" slink="while" />
+    <NaviBtn bef="fortype" aft="while" />
 
     <QuadSpace />
   </div>

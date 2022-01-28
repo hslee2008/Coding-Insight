@@ -127,7 +127,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="zlib" slink="mydecorator" />
+    <NaviBtn bef="zlib" aft="mydecorator" />
 
     <QuadSpace />
   </div>

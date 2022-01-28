@@ -58,7 +58,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="spam" slink="keyboard" />
+    <NaviBtn bef="spam" aft="keyboard" />
 
     <QuadSpace />
   </div>

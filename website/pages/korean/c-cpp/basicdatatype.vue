@@ -172,7 +172,7 @@
 
     <br /><br />
 
-    <NaviBtn flink="input" slink="otherdatatype" />
+    <NaviBtn bef="input" aft="otherdatatype" />
 
     <QuadSpace />
   </div>

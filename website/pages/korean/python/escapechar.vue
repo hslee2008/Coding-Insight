@@ -186,7 +186,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="password" slink="ascii" />
+    <NaviBtn bef="password" aft="ascii" />
 
     <QuadSpace />
 

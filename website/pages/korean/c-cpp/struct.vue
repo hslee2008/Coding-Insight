@@ -138,7 +138,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="typedef" slink="pointer" />
+    <NaviBtn bef="typedef" aft="pointer" />
 
     <QuadSpace />
   </div>

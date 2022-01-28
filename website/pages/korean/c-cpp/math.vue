@@ -169,7 +169,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="stopprogram" slink="file" />
+    <NaviBtn bef="stopprogram" aft="file" />
 
     <QuadSpace />
   </div>

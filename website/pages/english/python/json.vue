@@ -120,7 +120,7 @@ src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="200" fram
 
     <QuadSpace />
 
-    <NaviBtn flink="pip" slink="array" />
+    <NaviBtn bef="pip" aft="array" />
 
     <QuadSpace />
   </div>

@@ -158,7 +158,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="io-cpp" slink="vectorbasic" />
+    <NaviBtn bef="io-cpp" aft="vectorbasic" />
 
     <QuadSpace />
   </div>

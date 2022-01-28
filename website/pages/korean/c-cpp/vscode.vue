@@ -210,7 +210,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="install" slink="print" />
+    <NaviBtn bef="install" aft="print" />
 
     <QuadSpace />
   </div>

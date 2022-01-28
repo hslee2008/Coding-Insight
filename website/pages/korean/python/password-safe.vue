@@ -71,8 +71,8 @@
     <QuadSpace />
 
     <NaviBtn
-      flink="ifmaster"
-      slink="none"
+      bef="ifmaster"
+      aft="none"
      />
 
     <QuadSpace />

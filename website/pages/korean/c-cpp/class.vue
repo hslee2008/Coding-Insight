@@ -73,7 +73,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="endl" slink="classmethod" />
+    <NaviBtn bef="endl" aft="classmethod" />
 
     <QuadSpace />
   </div>

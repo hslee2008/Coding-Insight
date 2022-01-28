@@ -123,7 +123,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="datatype" slink="string" />
+    <NaviBtn bef="datatype" aft="string" />
 
     <QuadSpace />
 

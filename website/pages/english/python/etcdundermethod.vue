@@ -118,7 +118,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="additionaldundermethod" slink="atexit" />
+    <NaviBtn bef="additionaldundermethod" aft="atexit" />
 
     <QuadSpace />
   </div>

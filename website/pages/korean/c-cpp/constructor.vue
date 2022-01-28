@@ -100,7 +100,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="classmethod" slink="accessspecifier" />
+    <NaviBtn bef="classmethod" aft="accessspecifier" />
 
     <QuadSpace />
   </div>

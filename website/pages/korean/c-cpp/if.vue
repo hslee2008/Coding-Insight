@@ -142,7 +142,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="escapecharacter" slink="hardif" />
+    <NaviBtn bef="escapecharacter" aft="hardif" />
 
     <QuadSpace />
   </div>

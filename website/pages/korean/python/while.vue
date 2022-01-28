@@ -124,7 +124,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="forfunction" slink="oneliner" />
+    <NaviBtn bef="forfunction" aft="oneliner" />
 
     <QuadSpace />
   </div>

@@ -119,7 +119,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="hardif" slink="for" />
+    <NaviBtn bef="hardif" aft="for" />
 
     <QuadSpace />
   </div>

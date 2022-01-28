@@ -135,7 +135,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="struct" slink="usingpointer" />
+    <NaviBtn bef="struct" aft="usingpointer" />
 
     <QuadSpace />
   </div>

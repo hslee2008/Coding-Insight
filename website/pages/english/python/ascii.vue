@@ -82,7 +82,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="escapechar" slink="boolean" />
+    <NaviBtn bef="escapechar" aft="boolean" />
 
     <QuadSpace />
 

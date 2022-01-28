@@ -40,7 +40,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="calc" slink="list" />
+    <NaviBtn bef="calc" aft="list" />
 
     <QuadSpace />
 

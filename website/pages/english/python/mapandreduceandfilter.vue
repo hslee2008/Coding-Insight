@@ -156,7 +156,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="logging" slink="zlib" />
+    <NaviBtn bef="logging" aft="zlib" />
 
     <QuadSpace />
   </div>

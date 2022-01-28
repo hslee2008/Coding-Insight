@@ -48,7 +48,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="contextmanager" slink="datachange" />
+    <NaviBtn bef="contextmanager" aft="datachange" />
 
     <QuadSpace />
   </div>

@@ -92,7 +92,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="array" slink="stringlibrary" />
+    <NaviBtn bef="array" aft="stringlibrary" />
 
     <QuadSpace />
   </div>

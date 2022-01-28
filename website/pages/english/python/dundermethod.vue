@@ -142,7 +142,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="requestmethod" slink="additionaldundermethod" />
+    <NaviBtn bef="requestmethod" aft="additionaldundermethod" />
 
     <QuadSpace />
   </div>

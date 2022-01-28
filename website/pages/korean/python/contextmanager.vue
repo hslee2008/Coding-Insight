@@ -91,7 +91,7 @@
 
     <br /><br />
 
-    <NaviBtn flink="contact2" slink="datachange" />
+    <NaviBtn bef="contact2" aft="datachange" />
 
     <QuadSpace />
   </div>

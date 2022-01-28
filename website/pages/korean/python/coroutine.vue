@@ -56,7 +56,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="atexit" slink="spam" />
+    <NaviBtn bef="atexit" aft="spam" />
 
     <QuadSpace />
   </div>

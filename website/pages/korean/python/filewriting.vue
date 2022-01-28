@@ -64,7 +64,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="filereading" slink="etcfile" />
+    <NaviBtn bef="filereading" aft="etcfile" />
 
     <QuadSpace />
 

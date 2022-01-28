@@ -143,7 +143,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="stack" slink="errorhandling" />
+    <NaviBtn bef="stack" aft="errorhandling" />
 
     <QuadSpace />
   </div>

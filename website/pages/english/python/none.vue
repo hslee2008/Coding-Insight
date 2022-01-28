@@ -31,7 +31,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="password-safe" slink="function" />
+    <NaviBtn bef="password-safe" aft="function" />
 
     <QuadSpace />
   </div>

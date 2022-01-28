@@ -163,7 +163,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="none" slink="functionhard" />
+    <NaviBtn bef="none" aft="functionhard" />
 
     <QuadSpace />
 

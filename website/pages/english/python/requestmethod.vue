@@ -65,7 +65,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="request" slink="dundermethod" />
+    <NaviBtn bef="request" aft="dundermethod" />
 
     <QuadSpace />
   </div>

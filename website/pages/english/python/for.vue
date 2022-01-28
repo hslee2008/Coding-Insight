@@ -219,7 +219,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="anonymousfunction" slink="fortype" />
+    <NaviBtn bef="anonymousfunction" aft="fortype" />
 
     <QuadSpace />
   </div>

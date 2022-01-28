@@ -100,8 +100,8 @@ src="https://trinket.io/embed/python3/4751110c8f" width="100%" height="356" fram
     <QuadSpace />
 
     <NaviBtn
-      flink="counter"
-      slink="requestmethod"
+      bef="counter"
+      aft="requestmethod"
      />
 
     <QuadSpace />

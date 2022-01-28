@@ -108,7 +108,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="numtype" slink="nummethod" />
+    <NaviBtn bef="numtype" aft="nummethod" />
 
     <QuadSpace />
   </div>

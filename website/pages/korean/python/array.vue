@@ -90,7 +90,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="json" slink="array_type" />
+    <NaviBtn bef="json" aft="array_type" />
 
     <QuadSpace />
   </div>

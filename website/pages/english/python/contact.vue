@@ -75,8 +75,8 @@
     <QuadSpace />
 
     <NaviBtn
-      flink="listmethod2"
-      slink="dictionary"
+      bef="listmethod2"
+      aft="dictionary"
      />
 
     <QuadSpace />

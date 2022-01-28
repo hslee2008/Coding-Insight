@@ -171,7 +171,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="print" slink="variableadvance" />
+    <NaviBtn bef="print" aft="variableadvance" />
 
     <QuadSpace />
 

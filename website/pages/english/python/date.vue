@@ -112,7 +112,7 @@
 
     <br /><br />
 
-    <NaviBtn flink="hacking" slink="random" />
+    <NaviBtn bef="hacking" aft="random" />
 
     <QuadSpace />
   </div>

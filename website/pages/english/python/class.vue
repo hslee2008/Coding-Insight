@@ -170,7 +170,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="regex" slink="classmethod" />
+    <NaviBtn bef="regex" aft="classmethod" />
 
     <QuadSpace />
   </div>

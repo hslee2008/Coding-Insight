@@ -67,7 +67,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="macro" slink="error" />
+    <NaviBtn bef="macro" aft="error" />
 
     <QuadSpace />
   </div>

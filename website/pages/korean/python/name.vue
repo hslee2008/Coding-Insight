@@ -74,7 +74,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="asyncio" slink="thread" />
+    <NaviBtn bef="asyncio" aft="thread" />
 
     <QuadSpace />
   </div>

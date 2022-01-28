@@ -69,7 +69,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="specialvariable" slink="anonymousfunction" />
+    <NaviBtn bef="specialvariable" aft="anonymousfunction" />
 
     <QuadSpace />
   </div>

@@ -159,7 +159,7 @@
 
     <br /><br />
 
-    <NaviBtn flink="string" slink="stringmethod2" />
+    <NaviBtn bef="string" aft="stringmethod2" />
 
     <br /><br />
 

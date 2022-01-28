@@ -77,7 +77,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="doublefor" slink="inffor" />
+    <NaviBtn bef="doublefor" aft="inffor" />
 
     <QuadSpace />
   </div>

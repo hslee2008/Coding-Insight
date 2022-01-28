@@ -145,7 +145,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="cpp" slink="string-cpp" />
+    <NaviBtn bef="cpp" aft="string-cpp" />
 
     <QuadSpace />
   </div>

@@ -96,7 +96,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="dundermethod" slink="etcdundermethod" />
+    <NaviBtn bef="dundermethod" aft="etcdundermethod" />
 
     <QuadSpace />
   </div>

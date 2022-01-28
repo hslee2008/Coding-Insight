@@ -153,7 +153,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="contact2" slink="stringascode" />
+    <NaviBtn bef="contact2" aft="stringascode" />
 
     <QuadSpace />
   </div>

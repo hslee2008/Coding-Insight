@@ -78,7 +78,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="array_type" slink="error" />
+    <NaviBtn bef="array_type" aft="error" />
 
     <QuadSpace />
   </div>

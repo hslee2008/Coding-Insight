@@ -132,7 +132,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="assert" slink="otherif" />
+    <NaviBtn bef="assert" aft="otherif" />
 
     <QuadSpace />
   </div>

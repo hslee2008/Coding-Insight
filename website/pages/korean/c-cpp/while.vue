@@ -109,7 +109,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="for" slink="doublefor" />
+    <NaviBtn bef="for" aft="doublefor" />
 
     <QuadSpace />
   </div>

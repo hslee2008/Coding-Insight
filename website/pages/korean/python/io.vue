@@ -154,7 +154,7 @@
 
       <QuadSpace />
 
-      <NaviBtn flink="vscode" slink="variable" />
+      <NaviBtn bef="vscode" aft="variable" />
 
       <QuadSpace />
 

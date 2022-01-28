@@ -78,7 +78,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="pandas" slink="finished" />
+    <NaviBtn bef="pandas" aft="finished" />
 
     <QuadSpace />
   </div>

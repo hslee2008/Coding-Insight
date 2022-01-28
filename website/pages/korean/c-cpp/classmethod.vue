@@ -94,7 +94,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="class" slink="constructor" />
+    <NaviBtn bef="class" aft="constructor" />
 
     <QuadSpace />
   </div>

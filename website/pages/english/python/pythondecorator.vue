@@ -103,7 +103,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="mydecorator" slink="newline" />
+    <NaviBtn bef="mydecorator" aft="newline" />
 
     <QuadSpace />
   </div>

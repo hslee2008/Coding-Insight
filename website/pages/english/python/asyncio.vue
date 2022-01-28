@@ -134,7 +134,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="beedongee" slink="name" />
+    <NaviBtn bef="beedongee" aft="name" />
 
     <QuadSpace />
   </div>

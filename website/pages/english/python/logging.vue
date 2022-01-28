@@ -122,7 +122,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="error2" slink="mapandreduceandfilter" />
+    <NaviBtn bef="error2" aft="mapandreduceandfilter" />
 
     <QuadSpace />
   </div>

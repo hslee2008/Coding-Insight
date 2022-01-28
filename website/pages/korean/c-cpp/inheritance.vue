@@ -92,7 +92,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="accessspecifier" slink="file-cpp" />
+    <NaviBtn bef="accessspecifier" aft="file-cpp" />
 
     <QuadSpace />
   </div>

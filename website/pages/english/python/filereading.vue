@@ -140,7 +140,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="file" slink="filewriting" />
+    <NaviBtn bef="file" aft="filewriting" />
 
     <QuadSpace />
   </div>

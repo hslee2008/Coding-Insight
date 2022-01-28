@@ -72,7 +72,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="inffor" slink="array" />
+    <NaviBtn bef="inffor" aft="array" />
 
     <QuadSpace />
   </div>

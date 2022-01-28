@@ -166,7 +166,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="function" slink="specialvariable" />
+    <NaviBtn bef="function" aft="specialvariable" />
 
     <QuadSpace />
 

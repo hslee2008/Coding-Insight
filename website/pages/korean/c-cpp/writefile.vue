@@ -73,7 +73,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="readfile" slink="deletefile" />
+    <NaviBtn bef="readfile" aft="deletefile" />
 
     <QuadSpace />
   </div>

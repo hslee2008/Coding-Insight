@@ -117,7 +117,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="variable" slink="datatype" />
+    <NaviBtn bef="variable" aft="datatype" />
 
     <QuadSpace />
   </div>

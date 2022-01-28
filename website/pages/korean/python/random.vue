@@ -100,7 +100,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="date" slink="dice" />
+    <NaviBtn bef="date" aft="dice" />
 
     <QuadSpace />
   </div>

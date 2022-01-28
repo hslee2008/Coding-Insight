@@ -152,7 +152,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="boolean" slink="operator" />
+    <NaviBtn bef="boolean" aft="operator" />
 
     <QuadSpace />
 

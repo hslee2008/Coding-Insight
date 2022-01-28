@@ -116,7 +116,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="vectorbasic" slink="stack" />
+    <NaviBtn bef="vectorbasic" aft="stack" />
 
     <QuadSpace />
   </div>

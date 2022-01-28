@@ -123,7 +123,7 @@
             height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"/>
     </div>
 
-    <NaviBtn flink="array" slink="array_shape" />
+    <NaviBtn bef="array" aft="array_shape" />
 
     <QuadSpace />
   </div>

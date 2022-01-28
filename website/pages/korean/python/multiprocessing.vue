@@ -68,7 +68,7 @@ src="https://trinket.io/embed/python3/bbf4c84765" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <NaviBtn flink="threadmethod" slink="counter" />
+    <NaviBtn bef="threadmethod" aft="counter" />
 
     <QuadSpace />
   </div>

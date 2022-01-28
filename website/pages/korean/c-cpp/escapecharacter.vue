@@ -93,7 +93,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="grammar" slink="if" />
+    <NaviBtn bef="grammar" aft="if" />
 
     <QuadSpace />
   </div>

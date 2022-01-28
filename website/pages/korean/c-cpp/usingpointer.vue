@@ -213,7 +213,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="pointer" slink="union" />
+    <NaviBtn bef="pointer" aft="union" />
 
     <QuadSpace />
   </div>

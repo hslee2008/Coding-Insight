@@ -151,7 +151,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="mapandreduceandfilter" slink="decorator" />
+    <NaviBtn bef="mapandreduceandfilter" aft="decorator" />
 
     <QuadSpace />
   </div>

@@ -73,8 +73,8 @@
     <QuadSpace />
 
     <NaviBtn
-      flink="stringmethod2"
-      slink="escapechar"
+      bef="stringmethod2"
+      aft="escapechar"
      />
 
     <QuadSpace />

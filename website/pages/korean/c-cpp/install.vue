@@ -94,7 +94,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="/" slink="vscode" />
+    <NaviBtn bef="/" aft="vscode" />
 
     <QuadSpace />
   </div>

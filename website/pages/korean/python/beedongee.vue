@@ -73,7 +73,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="newline" slink="asyncio" />
+    <NaviBtn bef="newline" aft="asyncio" />
 
     <QuadSpace />
   </div>

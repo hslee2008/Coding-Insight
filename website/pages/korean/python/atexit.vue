@@ -83,7 +83,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="etcdundermethod" slink="coroutine" />
+    <NaviBtn bef="etcdundermethod" aft="coroutine" />
 
     <QuadSpace />
   </div>

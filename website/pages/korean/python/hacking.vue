@@ -78,7 +78,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="pythonmodule" slink="date" />
+    <NaviBtn bef="pythonmodule" aft="date" />
 
     <QuadSpace />
   </div>

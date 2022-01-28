@@ -100,7 +100,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="operator" slink="calc" />
+    <NaviBtn bef="operator" aft="calc" />
 
     <QuadSpace />
 

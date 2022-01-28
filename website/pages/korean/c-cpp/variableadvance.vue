@@ -97,7 +97,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="variable" slink="input" />
+    <NaviBtn bef="variable" aft="input" />
 
     <QuadSpace />
   </div>

@@ -49,7 +49,7 @@
     />
     <QuadSpace />
 
-    <NaviBtn flink="pythondecorator" slink="beedongee" />
+    <NaviBtn bef="pythondecorator" aft="beedongee" />
 
     <QuadSpace />
   </div>

@@ -60,7 +60,7 @@ src="https://trinket.io/embed/python3/63f69099ff" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <NaviBtn flink="modulemaster" slink="hacking" />
+    <NaviBtn bef="modulemaster" aft="hacking" />
 
     <QuadSpace />
   </div>

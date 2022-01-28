@@ -202,7 +202,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="comment" slink="stringmethod1" />
+    <NaviBtn bef="comment" aft="stringmethod1" />
 
     <QuadSpace />
 

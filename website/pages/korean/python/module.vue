@@ -90,7 +90,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="etcfunction" slink="modulemaster" />
+    <NaviBtn bef="etcfunction" aft="modulemaster" />
 
     <QuadSpace />
   </div>

@@ -69,7 +69,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="while" slink="dowhile" />
+    <NaviBtn bef="while" aft="dowhile" />
 
     <QuadSpace />
   </div>

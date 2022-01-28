@@ -46,7 +46,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="void" slink="assert" />
+    <NaviBtn bef="void" aft="assert" />
 
     <QuadSpace />
   </div>

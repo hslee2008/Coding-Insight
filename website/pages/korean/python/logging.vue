@@ -68,7 +68,7 @@ src="https://trinket.io/embed/python3/f9687df6a4" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <NaviBtn flink="error2" slink="mapandreduceandfilter" />
+    <NaviBtn bef="error2" aft="mapandreduceandfilter" />
 
     <QuadSpace />
   </div>

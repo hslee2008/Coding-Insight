@@ -146,7 +146,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="conbregot" slink="string" />
+    <NaviBtn bef="conbregot" aft="string" />
 
     <QuadSpace />
   </div>

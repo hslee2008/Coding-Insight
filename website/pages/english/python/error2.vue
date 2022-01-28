@@ -104,7 +104,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="error" slink="logging" />
+    <NaviBtn bef="error" aft="logging" />
 
     <QuadSpace />
   </div>

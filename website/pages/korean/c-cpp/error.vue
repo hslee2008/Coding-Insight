@@ -25,7 +25,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="otherif" slink="arrow" />
+    <NaviBtn bef="otherif" aft="arrow" />
 
     <QuadSpace />
   </div>

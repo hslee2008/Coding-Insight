@@ -61,7 +61,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="otherdatatype" slink="operator" />
+    <NaviBtn bef="otherdatatype" aft="operator" />
 
     <QuadSpace />
   </div>

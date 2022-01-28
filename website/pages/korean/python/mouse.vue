@@ -107,7 +107,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="matplotlib" slink="turtle" />
+    <NaviBtn bef="matplotlib" aft="turtle" />
 
     <QuadSpace />
   </div>

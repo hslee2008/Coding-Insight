@@ -91,7 +91,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="errorhandling" slink="endl" />
+    <NaviBtn bef="errorhandling" aft="endl" />
 
     <QuadSpace />
   </div>

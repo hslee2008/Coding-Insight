@@ -90,7 +90,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="operator" slink="grammar" />
+    <NaviBtn bef="operator" aft="grammar" />
 
     <QuadSpace />
   </div>

@@ -122,7 +122,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="name" slink="complexthread" />
+    <NaviBtn bef="name" aft="complexthread" />
 
     <QuadSpace />
   </div>

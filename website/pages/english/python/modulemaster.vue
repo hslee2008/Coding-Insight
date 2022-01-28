@@ -116,7 +116,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="module" slink="pythonmodule" />
+    <NaviBtn bef="module" aft="pythonmodule" />
 
     <QuadSpace />
   </div>

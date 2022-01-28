@@ -86,7 +86,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="writefile" slink="cpp" />
+    <NaviBtn bef="writefile" aft="cpp" />
 
     <QuadSpace />
   </div>

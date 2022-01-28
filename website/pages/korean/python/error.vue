@@ -129,7 +129,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="array_shape" slink="error2" />
+    <NaviBtn bef="array_shape" aft="error2" />
 
     <QuadSpace />
   </div>

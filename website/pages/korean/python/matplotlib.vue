@@ -225,7 +225,7 @@ src="https://trinket.io/embed/python3/074b4c95ef" width="100%" height="356" fram
 
     <QuadSpace />
 
-    <NaviBtn flink="keyboard" slink="mouse" />
+    <NaviBtn bef="keyboard" aft="mouse" />
 
     <QuadSpace />
   </div>

@@ -560,6 +560,11 @@ export default {
       title: '시작',
       to: '/korean/rust/',
     },
+    {
+      icon: 'folder-download',
+      title: '설치',
+      to: '/korean/rust/install',
+    },
   ],
 
   //! C Scripts

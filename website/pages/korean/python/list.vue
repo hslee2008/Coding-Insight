@@ -119,7 +119,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="nummethod" slink="listmethod1" />
+    <NaviBtn bef="nummethod" aft="listmethod1" />
 
     <QuadSpace />
   </div>

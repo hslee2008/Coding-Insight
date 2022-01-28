@@ -165,7 +165,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="dictionary" slink="zipping" />
+    <NaviBtn bef="dictionary" aft="zipping" />
 
     <QuadSpace />
   </div>

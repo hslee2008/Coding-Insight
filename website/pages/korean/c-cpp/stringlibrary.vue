@@ -105,7 +105,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="string" slink="2darr" />
+    <NaviBtn bef="string" aft="2darr" />
 
     <QuadSpace />
   </div>

@@ -134,7 +134,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="multiprocessing" slink="request" />
+    <NaviBtn bef="multiprocessing" aft="request" />
 
     <QuadSpace />
   </div>

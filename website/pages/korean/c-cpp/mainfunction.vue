@@ -78,7 +78,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="function" slink="storageclass" />
+    <NaviBtn bef="function" aft="storageclass" />
 
     <QuadSpace />
   </div>

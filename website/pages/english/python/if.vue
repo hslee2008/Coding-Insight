@@ -96,7 +96,7 @@
       marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
     <br /><br />
     <QuadSpace />
-    <NaviBtn flink="setmethod" slink="ifmaster" />
+    <NaviBtn bef="setmethod" aft="ifmaster" />
     <QuadSpace />
   </div>
 </template>

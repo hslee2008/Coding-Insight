@@ -556,7 +556,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="install" slink="io" />
+    <NaviBtn bef="install" aft="io" />
 
     <QuadSpace />
   </div>

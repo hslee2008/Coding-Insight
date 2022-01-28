@@ -74,7 +74,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="filewriting" slink="contextmanager" />
+    <NaviBtn bef="filewriting" aft="contextmanager" />
 
     <QuadSpace />
 

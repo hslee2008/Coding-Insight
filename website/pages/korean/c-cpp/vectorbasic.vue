@@ -169,7 +169,7 @@
 
     <QuadSpace />
 
-    <NaviBtn flink="string-cpp" slink="vectormethod" />
+    <NaviBtn bef="string-cpp" aft="vectormethod" />
 
     <QuadSpace />
   </div>
