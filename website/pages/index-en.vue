@@ -2,7 +2,7 @@
   <div>
     <QuadSpace />
 
-    <v-row flex justify="center" class="img-div">
+    <v-row flex justify="center" class="img-div" style="margin: 10px">
       <div style="margin: auto">
         <h1>Hello</h1>
         <h2>We are Python-Factory</h2>

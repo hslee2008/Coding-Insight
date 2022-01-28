@@ -112,7 +112,7 @@ export default {
           'A~~ SKY',
           'American Standard Code for Information Interchange',
           'Averything So Crazy In IO',
-          '???',
+          '??',
         ],
         answer: 1,
       },
@@ -134,7 +134,7 @@ export default {
       },
       {
         question: "'tall people' can be a set.",
-        options: ['False!!!', 'True???', 'I-dont-know???', ':('],
+        options: ['False!!!', 'True??', 'I-dont-know??', ':('],
         answer: 0,
       },
       {

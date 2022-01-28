@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>What is variable??</h1>
+        <h1>What is variable?</h1>
         <p>
           A variable in programming language is a place where you can store
           information.<br /><br />

@@ -85,6 +85,11 @@
           titlekr="C++ 언어 시작"
           json="start_cpp"
         />
+        <ItemList
+          titleen="C Programming Basics"
+          titlekr="C++ 언어 기본"
+          json="cpp_basics"
+        />
       </v-list>
     </v-navigation-drawer>
 
@@ -266,8 +271,8 @@
           </v-card>
         </v-row></v-row
       >
-      <v-row v-else>
-        <v-card class="mx-auto" max-width="350">
+      <v-row flex style="gap: 10px">
+        <v-card class="mx-auto" max-width="350" min-width="250">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -286,24 +291,14 @@
           </v-card-text>
 
           <v-card-actions>
-            <NuxtLink to="/korean/python/">
-              <v-btn class="ma-2" color="primary" dark>
-                파이썬
-                <v-icon> mdi-language-python </v-icon>
-              </v-btn>
-            </NuxtLink>
-            <NuxtLink to="/korean/python/quiz">
-              <v-btn class="ma-2" color="primary" dark>
-                퀴즈
-                <v-icon> mdi-chat-question </v-icon>
-              </v-btn>
-            </NuxtLink>
-            <NuxtLink to="/korean/python/video">
-              <v-btn class="ma-2" color="primary" dark>
-                비디오
-                <v-icon dark> mdi-youtube </v-icon>
-              </v-btn>
-            </NuxtLink>
+            <v-btn class="ma-2" color="primary" dark to="/korean/python/">
+              파이썬
+              <v-icon dark right> mdi-language-python </v-icon>
+            </v-btn>
+            <v-btn class="ma-2" color="primary" dark to="/korean/python/quiz">
+              퀴즈
+              <v-icon dark right> mdi-chat-question </v-icon>
+            </v-btn>
           </v-card-actions>
         </v-card>
 
@@ -326,16 +321,16 @@
           </v-card-text>
 
           <v-card-actions>
-            <a href="/korean/c-cpp/">
+            <NuxtLink to="/korean/c-cpp/">
               <v-btn class="ma-2" color="primary" dark>
                 <v-icon dark> mdi-language-c </v-icon>
               </v-btn>
-            </a>
-            <a href="/korean/c-cpp/cpp">
+            </NuxtLink>
+            <NuxtLink to="/korean/c-cpp/cpp">
               <v-btn class="ma-2" color="primary" dark>
                 <v-icon dark> mdi-language-cpp </v-icon></v-btn
               >
-            </a>
+            </NuxtLink>
           </v-card-actions>
         </v-card>
 
@@ -357,10 +352,10 @@
           </v-card-text>
 
           <v-card-actions>
-            <a href="/korean/rust/">
+            <a href="/korean/c-cpp/">
               <v-btn class="ma-2" color="primary" dark>
                 Rust
-                <v-icon dark> mdi-language-rust </v-icon>
+                <v-icon dark right> mdi-language-rust </v-icon>
               </v-btn>
             </a>
           </v-card-actions>
@@ -372,7 +367,7 @@
       :absolute="false"
       style="display: flex; justify-content: flex-end; padding: 10px"
     >
-      <v-row justify="center">
+      <v-row justify="center" style="margin: 5px">
         <v-btn
           rounded
           href="https://github.com/HyunseungLee-Travis/Coding-Insight"
@@ -405,6 +400,7 @@
         >
           <v-icon>mdi-file-sign</v-icon>
         </v-btn>
+        <br />
       </v-row>
       <div>
         Python-Factory &copy; {{ new Date().getFullYear() }} (Hyunseung, Juha,
@@ -430,8 +426,8 @@ export default {
       },
       rightDrawer: false,
       title: !this.isEnglish()
-        ? '파이썬 프로그래밍 언어'
-        : 'Python Programming Language',
+        ? '코딩 인사이트'
+        : 'Coding - Insight',
     };
   },
   methods: {

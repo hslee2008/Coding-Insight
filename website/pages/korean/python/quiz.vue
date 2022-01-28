@@ -105,10 +105,10 @@ export default {
       {
         question: 'ASCII는 무엇의 약자일까요?',
         options: [
-          '흠... 아 - 스키???',
+          '흠... 아 - 스키??',
           'American Standard Code for Information Interchange',
           'Averything So Crazy In IO',
-          '???',
+          '??',
         ],
         answer: 1,
       },
@@ -130,7 +130,7 @@ export default {
       },
       {
         question: "'키가 큰 사람'은 집합이다",
-        options: ['False!!!', 'True???', 'I-dont-know???', 'ㅠㅠ'],
+        options: ['False!!!', 'True??', 'I-dont-know??', 'ㅠㅠ'],
         answer: 0,
       },
       {

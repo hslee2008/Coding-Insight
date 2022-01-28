@@ -2,7 +2,7 @@
   <div>
     <QuadSpace />
 
-    <v-row flex justify="center" class="img-div">
+    <v-row flex justify="center" class="img-div" style="margin: 10px">
       <div style="margin: auto">
         <h1>안녕하세요</h1>
         <h2>저희는 파이썬 팩토리입니다</h2>
@@ -52,7 +52,7 @@
     <QuadSpace /><QuadSpace />
 
     <v-row flex style="gap: 10px">
-      <v-card class="mx-auto" max-width="450" min-width="350">
+      <v-card class="mx-auto" max-width="350" min-width="250">
         <v-img
           class="white--text align-end"
           height="200px"
@@ -78,10 +78,6 @@
           <v-btn class="ma-2" color="primary" dark to="/korean/python/quiz">
             퀴즈
             <v-icon dark right> mdi-chat-question </v-icon>
-          </v-btn>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/video">
-            비디오
-            <v-icon dark right> mdi-youtube </v-icon>
           </v-btn>
         </v-card-actions>
       </v-card>

@@ -4,7 +4,7 @@
     <div>
       <div class="header-div text-white">
         <div>
-          <h1>What is printing??</h1>
+          <h1>What is printing?</h1>
           <p>
             Many people think of 'printing' as showing information on page.
             However, there is a new definition of 'printing' that you might not

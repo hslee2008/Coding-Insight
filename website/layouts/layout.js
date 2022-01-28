@@ -822,7 +822,7 @@ export default {
       to: '/korean/c-cpp/vectormethod',
     },
     {
-      icon: 'vector-arrange-above',
+      icon: 'layers-triple-outline',
       title: 'STACK',
       to: '/korean/c-cpp/stack',
     },
@@ -835,6 +835,44 @@ export default {
       icon: 'alert-circle',
       title: '에러 다루기',
       to: '/korean/c-cpp/errorhandling',
+    },
+    {
+      icon: 'keyboard-space',
+      title: 'NAMESPACE',
+      to: '/korean/c-cpp/namespace',
+    },
+    {
+      icon: 'menu-down-outline',
+      title: 'endl',
+      to: '/korean/c-cpp/endl',
+    },
+  ],
+
+  cpp_basics: [
+    {
+      icon: 'map',
+      title: '클래스',
+      to: '/korean/c-cpp/class',
+    },
+    {
+      icon: 'map-outline',
+      title: '클래스 메서드',
+      to: '/korean/c-cpp/classmethod',
+    },
+    {
+      icon: 'account-hard-hat',
+      title: 'CONSTRUCTOR',
+      to: '/korean/c-cpp/constructor',
+    },
+    {
+      icon: 'microsoft-access',
+      title: 'Access Sepecifier',
+      to: '/korean/c-cpp/accessspecifier',
+    },
+    {
+      icon: 'cash-multiple',
+      title: '계승',
+      to: '/korean/c-cpp/inheritance',
     },
   ],
 };

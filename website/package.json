@@ -1,7 +1,6 @@
 {
-  "name": "nuxt",
-  "version": "1.0.0",
-  "private": true,
+  "name": "python-factory",
+  "version": "22.01.28",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
