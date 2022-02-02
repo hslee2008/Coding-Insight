@@ -274,7 +274,7 @@
             height="200px"
             src="https://miro.medium.com/max/6016/0*ocReqNnxsbtP8OtU"
           >
-            <v-card-title>코딩 인사이트</v-card-title>
+            <v-card-title>파이썬 프로그래밍 언어</v-card-title>
           </v-img>
 
           <v-card-subtitle class="pb-0"> Python </v-card-subtitle>

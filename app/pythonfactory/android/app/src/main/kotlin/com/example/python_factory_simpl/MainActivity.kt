@@ -1,4 +1,4 @@
-package com.example.python_factory_simpl
+package com.example.pythonfactory
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.python_factory_simpl">
+    package="com.example.pythonfactory">
   <uses-permission android:name="android.permission.INTERNET"/>
   <application
         android:networkSecurityConfig="@xml/network_security_config"
