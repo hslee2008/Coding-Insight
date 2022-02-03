@@ -32,19 +32,19 @@ export default {
   mounted() {
     let questions = [
       {
-        question: 'How do we print "Hello World" in Python?',
+        question: 'How do we print "Hello, World!" in Python?',
         options: [
-          'print("Hello World")',
-          'printf("Hello World")',
-          'cout << "Hello World"',
-          'console.log("Hello World")',
+          'print("Hello, World!")',
+          'printf("Hello, World!")',
+          'cout << "Hello, World!"',
+          'console.log("Hello, World!")',
         ],
         answer: 0,
       },
       {
         question:
           "What is printed when running print('Hello', 'World', sep = '&nbsp')?",
-        options: ['Hello World', 'HelloWorld', 'Error Occurs', 'HelloSEPWorld'],
+        options: ['Hello, World!', 'HelloWorld', 'Error Occurs', 'HelloSEPWorld'],
         answer: 0,
       },
       {
@@ -150,7 +150,7 @@ export default {
       {
         question:
           "What is printed when we run print('Hello', end='');print(' World')?",
-        options: ['Error Occurs', 'HellWorld', 'HelloWorld', 'Hello World'],
+        options: ['Error Occurs', 'HellWorld', 'HelloWorld', 'Hello, World!'],
         answer: 0,
       },
       {

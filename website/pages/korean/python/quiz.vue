@@ -32,19 +32,19 @@ export default {
   mounted() {
     const questions = [
       {
-        question: '어떻게 파이썬에서 "Hello World"라고 출력할까요?',
+        question: '어떻게 파이썬에서 "Hello, World!"라고 출력할까요?',
         options: [
-          'print("Hello World")',
-          'printf("Hello World")',
-          'cout &lt;&lt; "Hello World"',
-          'console.log("Hello World")',
+          'print("Hello, World!")',
+          'printf("Hello, World!")',
+          'cout &lt;&lt; "Hello, World!"',
+          'console.log("Hello, World!")',
         ],
         answer: 0,
       },
       {
         question:
           "print('Hello', 'World', sep = '&nbsp')를 실행하면 콘솔에 출력되는 값은?",
-        options: ['Hello World', 'HelloWorld', '에러', 'HelloSEPWorld'],
+        options: ['Hello, World!', 'HelloWorld', '에러', 'HelloSEPWorld'],
         answer: 0,
       },
       {
@@ -145,7 +145,7 @@ export default {
       },
       {
         question: "print('Hello', end='');print(' World')를 실행하면?",
-        options: ['에러', 'HellWorld', 'HelloWorld', 'Hello World'],
+        options: ['에러', 'HellWorld', 'HelloWorld', 'Hello, World!'],
         answer: 0,
       },
       {

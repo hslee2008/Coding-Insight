@@ -85,7 +85,7 @@
           compile() will turn string into binary code and run that.<br /><br />
 
           <code>
-            x = compile("print('Hello World')", None, 'eval')<br /><br />
+            x = compile("print('Hello, World!')", None, 'eval')<br /><br />
 
             exec(x)
           </code>

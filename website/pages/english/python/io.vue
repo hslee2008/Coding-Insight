@@ -18,7 +18,7 @@
           </p>
         </div>
         <code>
-          print("Hello World")<br />
+          print("Hello, World!")<br />
           print("안녕하세요")<br />
           print("5")<br />
           print("!@#$")
@@ -44,10 +44,10 @@
             Somtimes we want two prints to be on the same line. This is an
             example of a situation where we need to use 'end'.<br /><br />
 
-            For example, if we want to print "Hello World"(without "") and then
+            For example, if we want to print "Hello, World!"(without "") and then
             a period, we can use end to store '.'.<br /><br />
 
-            <code> print("Hello World", end=".") </code>
+            <code> print("Hello, World!", end=".") </code>
           </p>
         </div>
 
@@ -71,14 +71,14 @@
           <h1>print() with sep</h1>
           <p></p>
           <p>
-            If we print "Hello World", Python prints "Hello World".<br /><br />
+            If we print "Hello, World!", Python prints "Hello, World!".<br /><br />
 
             Another way of doing this is by putting multiple texts seperated by
             commans inside print(). Python will automatically squish the texts
             with spaces between them.<br /><br />
 
             <code>
-              print("Hello World")<br />
+              print("Hello, World!")<br />
               print("Hello", "World")
             </code>
 

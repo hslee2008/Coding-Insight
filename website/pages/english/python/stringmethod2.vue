@@ -73,7 +73,7 @@
           spaces.<br /><br />
 
           <code>
-            txt = "Hello World 123456789"<br />
+            txt = "Hello, World! 123456789"<br />
             print(txt.isalnum()) #True is output
           </code>
         </p>

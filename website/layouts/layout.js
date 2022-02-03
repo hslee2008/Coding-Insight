@@ -570,6 +570,11 @@ export default {
       title: '프로젝트 시작',
       to: '/korean/rust/setup',
     },
+    {
+      icon: 'export',
+      title: '출력과 main()',
+      to: '/korean/rust/print',
+    },
   ],
 
   //! C Scripts
@@ -637,7 +642,7 @@ export default {
     {
       icon: 'exit-run',
       title: '이스케이프 문자',
-      to: '/korean/c-cpp/escapechararacter',
+      to: '/korean/c-cpp/escapecharacter',
     },
   ],
 

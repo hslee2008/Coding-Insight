@@ -5,50 +5,12 @@
     <v-navigation-drawer v-model="drawer" temporary fixed app width="300">
       <v-list v-if="$nuxt.$route.path.includes('python')">
         <ItemList
-          titleen="Start Python"
-          titlekr="파이썬 시작"
-          json="start_python"
+          v-for="item in python_items"
+          :key="item.titleen"
+          :titleen="item.titleen"
+          :titlekr="item.titlekr"
+          :json="item.json"
         />
-
-        <ItemList
-          titleen="Python Basics"
-          titlekr="파이썬 기본"
-          json="python_basics"
-        />
-
-        <ItemList
-          titleen="Python Beginning"
-          titlekr="파이썬 초급"
-          json="python_beginner"
-        />
-
-        <ItemList
-          titleen="Intermediate Python"
-          titlekr="파이썬 중급"
-          json="intermediate_python"
-        />
-
-        <ItemList
-          titleen="Advanced Python"
-          titlekr="파이썬 고급"
-          json="advanced_python"
-        />
-
-        <ItemList
-          titleen="Python Specialist"
-          titlekr="파이썬 전문가"
-          json="python_specialist"
-        />
-
-        <ItemList
-          titleen="Master Python"
-          titlekr="파이썬 마스터"
-          json="master_python"
-        />
-
-        <ItemList titleen="Last Step" titlekr="마지막 단계" json="python_god" />
-
-        <ItemList titleen="Other" titlekr="기타" json="other" />
       </v-list>
 
       <v-list v-else-if="$nuxt.$route.path.includes('korean/rust')">
@@ -57,34 +19,11 @@
 
       <v-list v-else-if="$nuxt.$route.path.includes('korean/c-cpp')">
         <ItemList
-          titleen="Starting C Programming"
-          titlekr="C 언어 시작"
-          json="start_c"
-        />
-        <ItemList
-          titleen="Beginning C Programming"
-          titlekr="C 언어 기본"
-          json="c_basics"
-        />
-        <ItemList
-          titleen="Intermediate C Programming"
-          titlekr="C 언어 중급"
-          json="c_intermediate"
-        />
-        <ItemList
-          titleen="Advanced C Programming"
-          titlekr="C 언어 고급"
-          json="c_advanced"
-        />
-        <ItemList
-          titleen="Starting C Programming"
-          titlekr="C++ 언어 시작"
-          json="start_cpp"
-        />
-        <ItemList
-          titleen="C Programming Basics"
-          titlekr="C++ 언어 기본"
-          json="cpp_basics"
+          v-for="item in c_items"
+          :key="item.titleen"
+          :titleen="item.titleen"
+          :titlekr="item.titlekr"
+          :json="item.json"
         />
       </v-list>
     </v-navigation-drawer>
@@ -100,7 +39,9 @@
       >
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       </template>
-      <v-btn icon to="/"><v-icon>mdi-home</v-icon></v-btn>
+      <v-btn icon @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark">
+        <v-icon>mdi-theme-light-dark</v-icon>
+      </v-btn>
       <template
         v-if="
           $nuxt.$route.path != '/index-en' &&
@@ -112,10 +53,8 @@
         <v-toolbar-title v-text="title" />
       </template>
       <v-spacer />
-      <v-btn icon @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark">
-        <v-icon>mdi-theme-light-dark</v-icon>
-      </v-btn>
 
+      <v-btn icon to="/"><v-icon>mdi-home</v-icon></v-btn>
       <v-menu
         v-if="
           !$nuxt.$route.path.includes('rust') &&
@@ -267,7 +206,7 @@
           </v-card>
         </v-row></v-row
       >
-      <v-row flex style="gap: 10px">
+      <v-row v-else flex style="gap: 10px">
         <v-card class="mx-auto" max-width="350" min-width="250">
           <v-img
             class="white--text align-end"
@@ -414,6 +353,86 @@ export default {
   name: 'DefaultLayout',
   data() {
     return {
+      python_items: [
+        {
+          titleen: 'Start Python',
+          titlekr: '파이썬 시작',
+          json: 'start_python',
+        },
+        {
+          titleen: 'Python Basics',
+          titlekr: '파이썬 기본',
+          json: 'python_basics',
+        },
+
+        {
+          titleen: 'Python Beginning',
+          titlekr: '파이썬 초급',
+          json: 'python_beginner',
+        },
+        {
+          titleen: 'Intermediate Python',
+          titlekr: '파이썬 중급',
+          json: 'intermediate_python',
+        },
+        {
+          titleen: 'Advanced Python',
+          titlekr: '파이썬 고급',
+          json: 'advanced_python',
+        },
+        {
+          titleen: 'Python Specialist',
+          titlekr: '파이썬 전문가',
+          json: 'python_specialist',
+        },
+        {
+          titleen: 'Master Python',
+          titlekr: '파이썬 마스터',
+          json: 'master_python',
+        },
+        {
+          titleen: 'Last Step',
+          titlekr: '마지막 단계',
+          json: 'python_god',
+        },
+        {
+          titleen: 'Other',
+          titlekr: '기타',
+          json: 'other',
+        },
+      ],
+      c_items: [
+        {
+          titleen: 'Starting C Programming',
+          titlekr: 'C 언어 시작',
+          json: 'start_c',
+        },
+        {
+          titleen: 'Beginning C Programming',
+          titlekr: 'C 언어 기본',
+          json: 'c_basics',
+        },
+        {
+          titleen: 'Intermediate C Programming',
+          titlekr: 'C 언어 중급',
+          json: 'c_intermediate',
+        },
+        {
+          titleen: 'Advanced C Programming',
+          titlekr: 'C 언어 고급',
+          json: 'c_advanced',
+        },
+        {
+          titleen: 'Starting C++ Programming',
+          titlekr: 'C++ 언어 시작',
+          json: 'start_cpp',
+        },
+        {
+          titleen: 'C++ Programming Basics',
+          titlekr: 'C++ 언어 기본',
+          json: 'cpp_basics',
+        },
+      ],
       drawer: false,
       fixed: false,
       items: {

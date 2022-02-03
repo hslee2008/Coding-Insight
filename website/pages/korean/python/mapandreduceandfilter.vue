@@ -80,7 +80,7 @@ src="https://trinket.io/embed/python3/9eb9345774" width="100%" height="356" fram
           예를 들어 문자가 담긴 리스트의 모든 문자를 합한 값을 계산하고 싶다면 for 반복문 대신
           reduce()를 사용하는 방법도 있습니다.<br /><br />
           하지만 reduce()는 아직 파이썬에서 존재하지 않기 때문에 functools라는 모듈에서만 사용할 수 있습니다.<br /><br />
-          옆에 있는 코드를 실행하면 'Hello World.'라고 출력이 됩니다.<br /><br />
+          옆에 있는 코드를 실행하면 'Hello, World!.'라고 출력이 됩니다.<br /><br />
           만일 reduce의 값이 여러 개라면 먼저 하나하나 함수에 집어넣고 돌아오는 값을 저장한 후 모든 값을 한꺼번에 돌려줍니다.
         </p>
       </div>

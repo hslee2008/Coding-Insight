@@ -15,7 +15,7 @@
           <v-card-subtitle> APK 16.5MB (v2.0.1) </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn color="primary" href="./app-release.apk" download
+            <v-btn color="primary" href="/app-release.apk" download
               >DOWNLOAD</v-btn
             >
 
@@ -124,7 +124,7 @@
         <h3>APK Download</h3>
         <p>
           click this button ->
-          <v-btn color="primary" href="./Python_factory_App.apk" download
+          <v-btn color="primary" href="/Python_factory_App.apk" download
             >Download</v-btn
           ><br /><br />
 

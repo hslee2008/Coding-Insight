@@ -121,7 +121,7 @@
           id="question-2-answers-B"
           value="B"
         />
-        <label for="question-2-answers-B">B) "Hello World" </label>
+        <label for="question-2-answers-B">B) "Hello, World!" </label>
       </div>
 
       <div>

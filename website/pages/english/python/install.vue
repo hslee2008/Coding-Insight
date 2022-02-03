@@ -283,7 +283,7 @@
                     <v-card-title style="float: right"
                       ><p style="color: black">
                         After '>>>' type in
-                        <code>print("Hello World")</code> and press Enter.
+                        <code>print("Hello, World!")</code> and press Enter.
                       </p></v-card-title
                     >
                   </v-img>

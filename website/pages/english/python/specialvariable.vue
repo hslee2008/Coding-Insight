@@ -21,7 +21,7 @@
           <code>
             def helloWorld():<br />
             &nbsp;global message<br />
-            &nbsp;message = "Hello World"<br />
+            &nbsp;message = "Hello, World!"<br />
             &nbsp;print(message)<br /><br />
 
             helloWorld()<br /><br />
@@ -56,7 +56,7 @@
             <code>
               def testing():<br />
               &nbsp;nonlocal message<br />
-              &nbsp;message = "Hello World"<br />
+              &nbsp;message = "Hello, World!"<br />
               &nbsp;print(message)<br /><br />
 
               print(message) #error

@@ -48,7 +48,7 @@
 
       <code>
         void testing() {<br />
-        &nbsp;&nbsp;printf("Hello World");<br />
+        &nbsp;&nbsp;printf("Hello, World!");<br />
         }
       </code>
     </div>

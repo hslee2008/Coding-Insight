@@ -168,7 +168,7 @@
           1. #include &lt;stdio.h>는 출력할 수 있는 기능을 가지고 오는
           코드입니다.<br /><br />
           2. int main() {}는 모든 코드를 담는 ]부분입니다.<br /><br />
-          3. printf("Hello World!");는 터미널에 Hello World!라고 출력합니다.<br /><br />
+          3. printf("Hello, World!!");는 터미널에 Hello, World!!라고 출력합니다.<br /><br />
           4. ;는 항상 코드 끝에 붙여야 합니다.<br /><br />
           5. return 0; 코드가 잘 실행할 수 있도록 0을 return 해야 합니다.
         </p>

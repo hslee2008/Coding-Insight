@@ -98,7 +98,7 @@
           name="question-2-answers"
           value="B"
         />
-        <label for="question-2-answers-B">B) "Hello World" </label>
+        <label for="question-2-answers-B">B) "Hello, World!" </label>
       </div>
 
       <div>

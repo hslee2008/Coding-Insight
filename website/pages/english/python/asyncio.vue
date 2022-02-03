@@ -48,7 +48,7 @@
             asyncio.run(main())
           </code>
 
-          The example above, above will print "Hello World Finished" while the
+          The example above, above will print "Hello, World! Finished" while the
           one above prints "Hello Finished World:.<br /><br />
 
           This is because since we created a task using asyncio, the
@@ -74,7 +74,7 @@
             &nbsp;&nbsp;print("Finished")
           </code>
 
-          If we run the code above, "Hello World Finished" is printed.<br /><br />
+          If we run the code above, "Hello, World! Finished" is printed.<br /><br />
 
           This is because Python will wait till secondMain() finishes.<br /><br />
 
@@ -86,7 +86,7 @@
             &nbsp;&nbsp;print("Finished")
           </code>
 
-          If we run the code above, "Hello World" is printed then "Finished"
+          If we run the code above, "Hello, World!" is printed then "Finished"
           appears in the console.
         </p>
       </div>

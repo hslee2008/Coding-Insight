@@ -50,7 +50,7 @@
             asyncio.run(main())
           </code>
 
-          첫 번째는 'Hello World Finished'가 출력이 되지만 두 번째는 'Hello
+          첫 번째는 'Hello, World! Finished'가 출력이 되지만 두 번째는 'Hello
           Finished World'가 출력이 됩니다.<br /><br />
 
           그 이유는 secondMain() 모듈이 실행되는 동안 Finshed가 출력이 되기
@@ -76,7 +76,7 @@
             &nbsp;&nbsp;print("Finished")
           </code>
 
-          위의 함수를 실행하면 Hello World Finished가 출력됩니다<br /><br />
+          위의 함수를 실행하면 Hello, World! Finished가 출력됩니다<br /><br />
 
           그 이유는 오래 걸리는 함수라도 출력이 전부 될 때까지 기다리기
           때문입니다.<br /><br />
@@ -91,7 +91,7 @@
             &nbsp;&nbsp;print("Finished")
           </code>
 
-          위의 코드를 실행하면 Hello World가 출력되고 Finished가 출력이
+          위의 코드를 실행하면 Hello, World!가 출력되고 Finished가 출력이
           됩니다.<br /><br />
 
           그 이유는 create_task() 메서드는 두 개의 다른 코드를 동시에 실행시키는

@@ -43,12 +43,12 @@
 
             <code>
               def sayHelloToWorld():<br />
-              &nbsp;print("Hello World")
+              &nbsp;print("Hello, World!")
             </code>
 
             If we run the code above, nothing happens.<br /><br />
 
-            Print "Hello World" to the console using 'functionname + ()'.<br /><br />
+            Print "Hello, World!" to the console using 'functionname + ()'.<br /><br />
 
             In this case, sayHelloWorld().<br /><br />
 

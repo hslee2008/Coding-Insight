@@ -15,7 +15,7 @@
           <v-card-subtitle> APK 16.5MB (v2.1.0) </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn color="primary" href="./app-release.apk" download
+            <v-btn color="primary" href="/app-release.apk" download
               >다운로드</v-btn
             >
 

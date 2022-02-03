@@ -46,7 +46,7 @@
 
           int main()<br />
           {<br />
-          &nbsp;printf("Hello World");<br />
+          &nbsp;printf("Hello, World!");<br />
           &nbsp;return 0;<br />
           }
         </code>

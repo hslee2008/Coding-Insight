@@ -50,7 +50,7 @@
         <code>
           char str[99];<br /><br />
 
-          strcpy(str, "Hello World");<br /><br />
+          strcpy(str, "Hello, World!");<br /><br />
 
           puts(str);
         </code>

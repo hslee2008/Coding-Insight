@@ -13,12 +13,12 @@
             하지만 프로그래밍 언어에서의 '출력'이라는 용어는 특정한 정보를
             디스플레이 장치에 보여주는 작업입니다.<br /><br />
 
-            파이썬에서 'Hello World'라는 데이터를 출력하는 코드를 작성하고
+            파이썬에서 'Hello, World!'라는 데이터를 출력하는 코드를 작성하고
             실행하면, 콘솔에 그 단어가 똑같이 나타납니다.<br /><br />
           </p>
         </div>
         <code>
-          print("Hello World")<br />
+          print("Hello, World!")<br />
           print("안녕하세요")<br />
           print("5")<br />
           print("!@#$")
@@ -54,8 +54,8 @@
           </p>
 
           <p>
-            예를 들면, print("Hello World")에서 출력된 데이터 끝에 '.'을 붙여서
-            콘솔에 "Hello World."이 나타나게 할 수 있습니다.
+            예를 들면, print("Hello, World!")에서 출력된 데이터 끝에 '.'을 붙여서
+            콘솔에 "Hello, World!."이 나타나게 할 수 있습니다.
           </p>
 
           <p>옆에있는 코드를 바꾸고 삼각형 버튼을 눌러서 코드를 실행하세요!</p>
@@ -80,15 +80,15 @@
         <div>
           <h1>출력 sep</h1>
           <p>
-            print() 안에 'Hello World'를 입력하면 똑같은 값이 콘솔에 출력됩니다.
-            다른 방법은 'Hello'와 'World'를 입력해서 'Hello World'를 나타나게 해
+            print() 안에 'Hello, World!'를 입력하면 똑같은 값이 콘솔에 출력됩니다.
+            다른 방법은 'Hello'와 'World'를 입력해서 'Hello, World!'를 나타나게 해
             볼 수 있습니다.
           </p>
           <br />
 
           <code>
-            print("Hello World")<br />
-            print("Hello", "World") # 'Hello World'가 출력됩니다.
+            print("Hello, World!")<br />
+            print("Hello", "World") # 'Hello, World!'가 출력됩니다.
           </code>
 
           <p>

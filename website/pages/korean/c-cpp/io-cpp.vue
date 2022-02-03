@@ -52,7 +52,7 @@
           그리고 &lt;&lt; 를 붙이고 출력하고 싶은 변수 또는 데이터를
           넣으세요.<br /><br />
 
-          <kbd>cout &lt;&lt; "Hello World" ;</kbd> <br /><br />
+          <kbd>cout &lt;&lt; "Hello, World!" ;</kbd> <br /><br />
 
           <code>
             #include &lt;iostream><br />
@@ -60,7 +60,7 @@
 
             int main()<br />
             {<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; "Hello World" ;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; "Hello, World!" ;<br />
             &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br />
             }
           </code>
@@ -74,7 +74,7 @@
 
             int main()<br />
             {<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; "Hello World" &lt;&lt; 123;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; "Hello, World!" &lt;&lt; 123;<br />
             &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br />
             }
           </code>
@@ -131,7 +131,7 @@
         <p>
           C++에서 새로운 줄을 출력할 때 endl이라는 변수를 사용할 수 있습니다.<br /><br />
 
-          <code> cout &lt;&lt; "Hello World" &lt;&lt; endl; </code>
+          <code> cout &lt;&lt; "Hello, World!" &lt;&lt; endl; </code>
         </p>
       </div>
       <div style="margin: auto">

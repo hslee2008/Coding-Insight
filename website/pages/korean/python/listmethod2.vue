@@ -176,7 +176,7 @@
           name="question-2-answers"
           value="D"
         />
-        <label for="question-2-answers-D">D) "Hello World" </label>
+        <label for="question-2-answers-D">D) "Hello, World!" </label>
       </div>
 
       <QuadSpace />

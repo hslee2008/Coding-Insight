@@ -53,7 +53,7 @@
             <code>
               def testing():<br />
               &nbsp;&nbsp;nonlocal message<br />
-              &nbsp;&nbsp;message = "Hello World"<br />
+              &nbsp;&nbsp;message = "Hello, World!"<br />
               &nbsp;&nbsp;print(message)<br /><br />
 
               print(message)

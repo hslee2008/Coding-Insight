@@ -76,7 +76,7 @@
             b = "HELLO WORLD Ω"<br /><br />
 
             print(a.capitalize()) #Hello world is printed<br />
-            print(a.title()) #Hello World printed<br />
+            print(a.title()) #Hello, World! printed<br />
             print(a.upper()) #HELLO WORLD is printed<br />
             print(b.lower()) #hello world Ω is printed<br />
             print(b.isupper()) #True<br />
@@ -142,14 +142,14 @@
           파이썬에서 센터링이란 문자를 ' '로 둘러싸는 것을 뜻합니다. ' '로
           둘러싸여 있지만 가운데에 있는 것처럼 보입니다.<br /><br />
           <code>
-            txt = "Hello World"<br />
+            txt = "Hello, World!"<br />
             x = txt.center(50)<br />
             print(x)
           </code>
           center에서 첫 번째 숫자는 문자를 센터하는 ' '의 수이고 두 번째는
           문자를 센터할 캐릭터입니다.<br /><br />
           <code>
-            txt = "Hello World"<br />
+            txt = "Hello, World!"<br />
             x = txt.center(50, '|')<br />
             print(x)
           </code>

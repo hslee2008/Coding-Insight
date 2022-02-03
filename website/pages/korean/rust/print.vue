@@ -2,39 +2,49 @@
   <div>
     <br />
 
-    <div>
-      <div>
+    <div style="display: flex" class="img-div">
+      <div style="margin: auto">
         <h1>출력이란?</h1>
         <p>
-          
+          출력이란 개발자 또는 사용자가 어떤 정보를 확인하기 위해 컴퓨터 화면에
+          나타내는 작업을 뜻합니다.<br /><br />
+
+          예를 들면, 1 + 1의 값을 컴퓨터 화면에 출력할 수 있습니다. (2)<br /><br />
+
+          참고로 콘솔이라는 것은 모든 정보를 출력하는 곳을 뜻합니다.
         </p>
+      </div>
+      <div style="margin: auto">
+        <v-img :src="require('./img/code.png')" max-width="300" />
       </div>
     </div>
 
     <QuadSpace />
 
-    <Header title="출력" num="4"></Header>
+    <Header title="출력과 main()" num="4"></Header>
 
     <QuadSpace />
 
     <div>
       <div>
-        <h1></h1>
+        <h1>println!()</h1>
         <p>
-          Rust는 C++ Build Tools가 필요합니다.<br /><br />
+          *참고로 main()에 대해서는 다음 장에서 알아봅니다.<br /><br />
 
-          1.
-          <a
-            href="https://visualstudio.microsoft.com/ko/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15"
-            >Visual Studio 마이크로소프트 15</a
-          >
-          링크로 들어가세요. 2. 파일 다운로드가 시작되면 더블 클릭을 해서 실행을
-          합니다.<br /><br />
-          <img src="./img/vs_buildtools.jpg" /><br /><br />
-          3. "계속" 버튼을 누릅니다.<br /><br />
-          <img src="./img/vs_next.jpg" /><br /><br />
-          4. 조금 뒤 새로운 창이 뜨는데 INSTALL 버튼을 클릭합니다.<br /><br />
-          <img src="./img/vs_install.jpg" />
+          println!()는 컴퓨터 화면에 정보를 출력합니다.<br /><br />
+
+          괄호() 안에 원하는 글자를 넣으면 콘솔에 그 값이 나타납니다.
+        </p>
+      </div>
+      <iframe
+        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=5e5df671d7f6df425d066b52bf832578"
+        width="100%"
+        height="400"
+      />
+      <div>
+        <p>
+          참고로 위에 있는 화면에서 RUN 버튼을 누르면 코드를 실행하고 직접
+          조작할 수도 있습니다.
         </p>
       </div>
     </div>
@@ -43,24 +53,33 @@
 
     <div>
       <div>
-        <h1>C++ Build Tools</h1>
+        <h1>main()이란?</h1>
         <p>
-          1.
-          <a
-            href="https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe"
-            >Rust 공식 웹사이트</a
-          >에서 rust를 다운로드 받습니다.<br /><br />
-          <img src="./img/rust_toolchain.jpg" /><br /><br />
-          2. 새로운 박스를 클릭하고 엔터를 누릅니다.<br /><br />
-          <img src="./img/rust_install.jpg" /><br /><br />
-          3. 다시 엔터를 누릅니다.
+          코딩 언어에서 <IC code="main()" />이라는 것을 "함수"라고 부릅니다.
+          <br /><br />
+
+          함수는 나중에 자세히 알아보겠지만 쉽게 코드를 담는 부분이라고 생각하면
+          됩니다.<br /><br />
+
+          <IC code="main()" /> 함수는 Rust 코드의 대부분을 담을 박스입니다.
+        </p>
+      </div>
+      <iframe
+        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=779e18dc0feb3dce9a4fed6c4e340cae"
+        width="100%"
+        height="400"
+      />
+      <div>
+        <p>
+          이제 위의 코드를 실행하면 에러가 뜹니다. 그 이유는 <IC code="main()" />  함수 안에
+          코드를 넣지 않았기 때문입니다.
         </p>
       </div>
     </div>
 
     <QuadSpace />
 
-    <NaviBtn bef="index" aft="print" />
+    <NaviBtn bef="setup" aft="printfmt" />
 
     <QuadSpace />
   </div>
