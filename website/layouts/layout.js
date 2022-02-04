@@ -575,6 +575,16 @@ export default {
       title: '출력과 main()',
       to: '/korean/rust/print',
     },
+    {
+      icon: 'format-align-bottom',
+      title: '형식된 출력',
+      to: '/korean/rust/printfmt',
+    },
+    {
+      icon: 'comment',
+      title: '주석',
+      to: '/korean/rust/comment',
+    },
   ],
 
   //! C Scripts

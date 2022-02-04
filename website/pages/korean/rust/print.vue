@@ -37,7 +37,7 @@
         </p>
       </div>
       <iframe
-        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=5e5df671d7f6df425d066b52bf832578"
+        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20println!(%22Hello%2C%20world!%22)%3B%0A%7D"
         width="100%"
         height="400"
       />
@@ -65,14 +65,14 @@
         </p>
       </div>
       <iframe
-        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=779e18dc0feb3dce9a4fed6c4e340cae"
+        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=println!(%22Hello%2C%20world!%22)%3B"
         width="100%"
         height="400"
       />
       <div>
         <p>
-          이제 위의 코드를 실행하면 에러가 뜹니다. 그 이유는 <IC code="main()" />  함수 안에
-          코드를 넣지 않았기 때문입니다.
+          이제 위의 코드를 실행하면 에러가 뜹니다. 그 이유는
+          <IC code="main()" /> 함수 안에 코드를 넣지 않았기 때문입니다.
         </p>
       </div>
     </div>

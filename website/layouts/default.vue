@@ -1,7 +1,12 @@
 <template>
   <v-app dark>
     <v-navigation-drawer v-model="drawer" temporary fixed app width="300">
-      <v-list v-if="$nuxt.$route.path.includes('python')">
+      <v-list
+        v-if="
+          $nuxt.$route.path.includes('python') ||
+          $nuxt.$route.path.includes('courses')
+        "
+      >
         <ItemList
           v-for="item in python_items"
           :key="item.titleen"
@@ -11,11 +16,21 @@
         />
       </v-list>
 
-      <v-list v-else-if="$nuxt.$route.path.includes('korean/rust')">
+      <v-list
+        v-else-if="
+          $nuxt.$route.path.includes('korean/rust') ||
+          $nuxt.$route.path.includes('courses')
+        "
+      >
         <ItemList titleen="Rust Start" titlekr="Rust 시작" json="start_rust" />
       </v-list>
 
-      <v-list v-else-if="$nuxt.$route.path.includes('korean/c-cpp')">
+      <v-list
+        v-else-if="
+          $nuxt.$route.path.includes('korean/c-cpp') ||
+          $nuxt.$route.path.includes('courses')
+        "
+      >
         <ItemList
           v-for="item in c_items"
           :key="item.titleen"
@@ -227,6 +242,12 @@ export default {
         case '/app-en':
           window.location = '/app-en';
           break;
+        case '/courses':
+          window.location = '/courses-en';
+          break;
+        case '/courses-en':
+          window.location = '/courses-en';
+          break;
         default:
           window.location =
             '/english/python' +
@@ -249,6 +270,12 @@ export default {
           break;
         case '/app-en':
           window.location = '/app';
+          break;
+        case '/courses':
+          window.location = '/courses';
+          break;
+        case '/courses-en':
+          window.location = '/courses';
           break;
         default:
           window.location =
