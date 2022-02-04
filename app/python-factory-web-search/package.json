@@ -20,6 +20,10 @@
       {
         "command": "python-factory-web-search.searchCodingInsight",
         "title": "파이썬 강좌 리스트 (코딩 인사이트)"
+      },
+      {
+        "command": "python-factory-web-search.searchCodingInsightEN",
+        "title": "Python Tutorial List (Coding-Insight)"
       }
     ]
   },
@@ -77,5 +81,5 @@
     "vscode:prepublish": "npm run compile",
     "watch": "tsc -watch -p ./"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }

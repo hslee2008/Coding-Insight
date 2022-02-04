@@ -8,11 +8,6 @@
 
 <img src="https://www.coding-insight.com/favicon.ico">
 
-# Changelog
-
-1. Update extension lists
-2. Update Readme.md, LICENSE, repository and more
-
 # Links
 
 Website: https://coding-insight.com/
