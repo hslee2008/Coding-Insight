@@ -585,6 +585,21 @@ export default {
       title: '주석',
       to: '/korean/rust/comment',
     },
+    {
+      icon: 'application-variable',
+      title: '변수',
+      to: '/korean/rust/variable',
+    },
+    {
+      icon: 'swap-horizontal',
+      title: 'mut 변수',
+      to: '/korean/rust/mutable',
+    },
+    {
+      icon: 'identifier',
+      title: '식별자',
+      to: '/korean/rust/identifier',
+    },
   ],
 
   //! C Scripts

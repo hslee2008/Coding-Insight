@@ -188,6 +188,15 @@ export default {
         removeComments: true,
       },
     },
+    extend(config, { isClient }) {
+      // Extend only webpack config for client-bundle
+      if (isClient) {
+        config.performance = {
+          maxEntrypointSize: 512000,
+          maxAssetSize: 512000,
+        };
+      }
+    },
   },
 
   server: {
