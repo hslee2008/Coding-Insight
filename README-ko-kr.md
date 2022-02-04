@@ -1,30 +1,32 @@
 
-[한국어](./README-ko-kr.md)
+[Open in ENGLISH](./README.md)
 
 <a href="https://github.com/HyunseungLee-Travis/Coding-Insight/issues"><img alt="python-factory-picture"  src="https://img.shields.io/github/issues/HyunseungLee-Travis/Coding-Insight"></a>
 <a href="https://github.com/HyunseungLee-Travis/Coding-Insight/network"><img alt="python-factory-picture"  src="https://img.shields.io/github/forks/HyunseungLee-Travis/Coding-Insight"></a>
 <a href="https://github.com/HyunseungLee-Travis/Coding-Insight/stargazers"><img alt="python-factory-picture"  src="https://img.shields.io/github/stars/HyunseungLee-Travis/Coding-Insight"></a>
 
-# Developers
+# 개발자
 
-- Hyunseung
-- Juha
-- Gun
+- 이현승
+- 임주하
+- 김건
 
-# Framework
+# 프레임워크
 
-Website: NuxtJS, VueJS, VuetifyJS
-Phone App: Flutter, PWA
-Computer: PWA
+웹사이트: NuxtJS, VueJS, VuetifyJS
+폰 앱: Flutter, PWA
+컴퓨터 앱: PWA
 
-# Links
+# 링크
 
-- YouTube: https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA
+- 유튜브: https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA
 
-- Home Page: http://coding-insight.com/
+- 홈페이지: http://coding-insight.com/
 
-- GitHub: https://github.com/HyunseungLee-Travis/Coding-Insight
+- 깃허브: https://github.com/HyunseungLee-Travis/Coding-Insight
 
-# Other
+- 설문조사: https://forms.gle/46giCXG3Y7spbm21A
+
+# 기타
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://hyunseungleetra-codingin-kgg26mbu8wo.ws-us27.gitpod.io/)

@@ -80,7 +80,12 @@ export default {
   components: true,
 
   // https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify', '@nuxt/image'],
+  buildModules: [
+    '@nuxt/typescript-build',
+    '@nuxtjs/vuetify',
+    '@nuxt/image',
+    '@nuxtjs/google-analytics',
+  ],
 
   vue: {
     config: {
@@ -189,5 +194,10 @@ export default {
     port: 8000,
     host: '0.0.0.0',
     timing: false,
+  },
+
+  //https://google-analytics.nuxtjs.org/setup
+  googleAnalytics: {
+    id: 'UA-160584932-1',
   },
 };
