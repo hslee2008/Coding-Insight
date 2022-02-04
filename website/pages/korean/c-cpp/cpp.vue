@@ -72,7 +72,7 @@
     <div>
       <NuxtLink to="./io-cpp" style="text-decoration: none; float: right">
         <v-btn class="ma-2" outlined>
-          Next<v-icon right> mdi-arrow-right-drop-circle </v-icon>
+          Next<v-icon right> mdi-arrow-right-circle-outline </v-icon>
         </v-btn>
       </NuxtLink>
     </div>

@@ -9,7 +9,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s  (Python-Factory)',
-    title: '파이썬',
+    title: 'Coding-Insight',
     meta: [
       {
         charset: 'UTF-8',
@@ -83,8 +83,17 @@ export default {
   buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify', '@nuxt/image'],
 
   vue: {
-    devtools: true,
-    performance: true,
+    config: {
+      devtools: true,
+      performance: true,
+      productionTip: true,
+      errorHandler: (err, vm, info) => {
+        console.error(`[Vue Error] ${err} ${info} - (found in ${vm})`);
+      },
+      warnHandler: (msg, vm, trace) => {
+        console.warn(`[Vue Error] ${msg} ${trace} - (found in ${vm})`);
+      },
+    },
   },
 
   // https://go.nuxtjs.dev/config-modules
@@ -156,7 +165,7 @@ export default {
   },
 
   vuetify: {
-    optionsPath: './assets/plugins/vuetify.options.js'
+    optionsPath: './assets/plugins/vuetify.setting.js',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -174,5 +183,11 @@ export default {
         removeComments: true,
       },
     },
+  },
+
+  server: {
+    port: 8000,
+    host: '0.0.0.0',
+    timing: false,
   },
 };

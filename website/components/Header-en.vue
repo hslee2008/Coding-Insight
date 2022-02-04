@@ -9,7 +9,7 @@
       >
     </v-btn>
 
-    <v-btn class="ma-2" outlined to="/">
+    <v-btn class="ma-2" outlined to="/index-en">
       Home<v-icon right> mdi-home </v-icon>
     </v-btn>
     <br /><br />

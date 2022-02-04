@@ -1,7 +1,5 @@
 <template>
   <v-app dark>
-    <Fab></Fab>
-
     <v-navigation-drawer v-model="drawer" temporary fixed app width="300">
       <v-list v-if="$nuxt.$route.path.includes('python')">
         <ItemList
@@ -37,24 +35,35 @@
           $nuxt.$route.path != '/app-en'
         "
       >
-        <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+        <v-btn @click.stop="drawer = !drawer" icon
+          ><v-icon>mdi-microsoft-xbox-controller-menu</v-icon></v-btn
+        >
       </template>
       <v-btn icon @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark">
-        <v-icon>mdi-theme-light-dark</v-icon>
+        <v-icon>mdi-brightness-6</v-icon>
       </v-btn>
-      <template
-        v-if="
-          $nuxt.$route.path != '/index-en' &&
-          $nuxt.$route.path != '/' &&
-          $nuxt.$route.path != '/app' &&
-          $nuxt.$route.path != '/app-en'
-        "
+
+      <v-toolbar-title>
+        <v-toolbar-side-icon
+          @click.stop="drawer = !drawer"
+        ></v-toolbar-side-icon>
+        <span class="title">{{
+          $nuxt.$route.path.split('/')[1] == 'korean'
+            ? '한국어'
+            : $nuxt.$route.path.split('/')[1] == 'korean'
+            ? 'English'
+            : 'Coding-Insight'
+        }}</span
+        ><v-icon>mdi-chevron-right</v-icon
+        ><span class="title">{{
+          $nuxt.$route.path.split('/')[2] !== undefined
+            ? $nuxt.$route.path.split('/')[2].toUpperCase()
+            : 'Other'
+        }}</span></v-toolbar-title
       >
-        <v-toolbar-title v-text="title" />
-      </template>
+
       <v-spacer />
 
-      <v-btn icon to="/"><v-icon>mdi-home</v-icon></v-btn>
       <v-menu
         v-if="
           !$nuxt.$route.path.includes('rust') &&
@@ -84,7 +93,7 @@
         </v-list>
       </v-menu>
 
-      <v-btn icon @click.stop="rightDrawer = !rightDrawer">
+      <v-btn icon :to="isEnglish() ? '/courses-en' : '/courses'">
         <v-icon>mdi-school</v-icon>
       </v-btn>
     </v-app-bar>
@@ -95,253 +104,7 @@
       </v-container>
     </v-main>
 
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="true"
-      :bottom="true"
-      width="80%"
-      fixed
-      temporary
-      style="padding: 10px; display: flex"
-    >
-      <v-row v-if="isEnglish()">
-        <v-row flex style="gap: 10px">
-          <v-card class="mx-auto" max-width="450" min-width="350">
-            <v-img
-              class="white--text align-end"
-              height="200px"
-              src="https://miro.medium.com/max/6016/0*ocReqNnxsbtP8OtU"
-            >
-              <v-card-title>Python</v-card-title>
-            </v-img>
-
-            <v-card-subtitle class="pb-0"> Python </v-card-subtitle>
-
-            <v-card-text class="text--primary">
-              <div>
-                Python is a language for beginners! You can learn the basics
-                right now this instant in under 10 minutes.
-              </div>
-            </v-card-text>
-
-            <v-card-actions>
-              <v-btn class="ma-2" color="primary" dark to="/korean/python/">
-                Python
-                <v-icon> mdi-language-python </v-icon>
-              </v-btn>
-              <v-btn class="ma-2" color="primary" dark to="/korean/python/quiz">
-                Quiz
-                <v-icon> mdi-chat-question </v-icon>
-              </v-btn>
-              <v-btn
-                class="ma-2"
-                color="primary"
-                dark
-                to="/korean/python/video"
-              >
-                Video
-                <v-icon> mdi-youtube </v-icon>
-              </v-btn>
-            </v-card-actions>
-          </v-card>
-
-          <v-card class="mx-auto" min-width="250" max-width="350">
-            <v-img
-              class="white--text align-end"
-              height="200px"
-              src="https://i.stack.imgur.com/mWPIq.png"
-            >
-              <v-card-title>C/C++</v-card-title>
-            </v-img>
-
-            <v-card-subtitle class="pb-0"> C/C++ </v-card-subtitle>
-
-            <v-card-text class="text--primary">
-              <div>
-                Anything can run C/C++ even though there are very limited
-                resources.
-              </div>
-            </v-card-text>
-
-            <v-card-actions>
-              <a href="/korean/c-cpp/">
-                <v-btn class="ma-2" color="primary" dark>
-                  <v-icon> mdi-language-c </v-icon>
-                </v-btn>
-              </a>
-              <a href="/korean/c-cpp/cpp">
-                <v-btn class="ma-2" color="primary" dark>
-                  <v-icon> mdi-language-cpp </v-icon></v-btn
-                >
-              </a>
-            </v-card-actions>
-          </v-card>
-
-          <v-card class="mx-auto" min-width="250" max-width="350">
-            <v-img
-              class="white--text align-end"
-              height="200px"
-              src="https://i2.wp.com/www.thecoderworld.com/wp-content/uploads/2020/04/Rust-Based-Programming-Language.png?fit=1280%2C720&ssl=1"
-            >
-              <v-card-title>Rust</v-card-title>
-            </v-img>
-
-            <v-card-subtitle class="pb-0"> Rust </v-card-subtitle>
-
-            <v-card-text class="text--primary">
-              <div>
-                Rust is very safe and efficient. Most major companies are using
-                Rust as their secondary or main programmming language.
-              </div>
-            </v-card-text>
-
-            <v-card-actions>
-              <a href="/korean/c-cpp/">
-                <v-btn class="ma-2" color="primary" dark>
-                  Rust
-                  <v-icon> mdi-language-rust </v-icon>
-                </v-btn>
-              </a>
-            </v-card-actions>
-          </v-card>
-        </v-row></v-row
-      >
-      <v-row v-else flex style="gap: 10px">
-        <v-card class="mx-auto" max-width="350" min-width="250">
-          <v-img
-            class="white--text align-end"
-            height="200px"
-            src="https://miro.medium.com/max/6016/0*ocReqNnxsbtP8OtU"
-          >
-            <v-card-title>파이썬 프로그래밍 언어</v-card-title>
-          </v-img>
-
-          <v-card-subtitle class="pb-0"> Python </v-card-subtitle>
-
-          <v-card-text class="text--primary">
-            <div>
-              파이썬은 대부분 초보자들이 처음으로 배우는 코딩 언어입니다. 매우
-              배우기 쉽습니다!
-            </div>
-          </v-card-text>
-
-          <v-card-actions>
-            <v-btn class="ma-2" color="primary" dark to="/korean/python/">
-              파이썬
-              <v-icon dark right> mdi-language-python </v-icon>
-            </v-btn>
-            <v-btn class="ma-2" color="primary" dark to="/korean/python/quiz">
-              퀴즈
-              <v-icon dark right> mdi-chat-question </v-icon>
-            </v-btn>
-          </v-card-actions>
-        </v-card>
-
-        <v-card class="mx-auto" min-width="250" max-width="350">
-          <v-img
-            class="white--text align-end"
-            height="200px"
-            src="https://i.stack.imgur.com/mWPIq.png"
-          >
-            <v-card-title>C/C++ 프로그래밍 언어</v-card-title>
-          </v-img>
-
-          <v-card-subtitle class="pb-0"> C/C++ </v-card-subtitle>
-
-          <v-card-text class="text--primary">
-            <div>
-              C/C++는 매우 좋지 않는 환경에서도 잘 실행이 될 수 있는 매우 빠른
-              코딩 언어입니다.
-            </div>
-          </v-card-text>
-
-          <v-card-actions>
-            <NuxtLink to="/korean/c-cpp/">
-              <v-btn class="ma-2" color="primary" dark>
-                <v-icon dark> mdi-language-c </v-icon>
-              </v-btn>
-            </NuxtLink>
-            <NuxtLink to="/korean/c-cpp/cpp">
-              <v-btn class="ma-2" color="primary" dark>
-                <v-icon dark> mdi-language-cpp </v-icon></v-btn
-              >
-            </NuxtLink>
-          </v-card-actions>
-        </v-card>
-
-        <v-card class="mx-auto" min-width="250" max-width="350">
-          <v-img
-            class="white--text align-end"
-            height="200px"
-            src="https://i2.wp.com/www.thecoderworld.com/wp-content/uploads/2020/04/Rust-Based-Programming-Language.png?fit=1280%2C720&ssl=1"
-          >
-            <v-card-title>Rust 프로그래밍 언어</v-card-title>
-          </v-img>
-
-          <v-card-subtitle class="pb-0"> Rust </v-card-subtitle>
-
-          <v-card-text class="text--primary">
-            <div>
-              Rust 프로그래밍 언어는 매우 안정적이면서 C 언어처럼 빠릅니다!
-            </div>
-          </v-card-text>
-
-          <v-card-actions>
-            <a href="/korean/rust/">
-              <v-btn class="ma-2" color="primary" dark>
-                Rust
-                <v-icon dark right> mdi-language-rust </v-icon>
-              </v-btn>
-            </a>
-          </v-card-actions>
-        </v-card>
-      </v-row>
-    </v-navigation-drawer>
-
-    <v-footer
-      :absolute="false"
-      style="display: flex; justify-content: flex-end; padding: 10px"
-    >
-      <v-row justify="center" style="margin: 5px">
-        <v-btn
-          rounded
-          href="https://github.com/HyunseungLee-Travis/Coding-Insight"
-          target="_blank"
-          icon
-        >
-          <v-icon>mdi-github</v-icon>
-        </v-btn>
-        <v-btn
-          rounded
-          href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
-          target="_blank"
-          icon
-        >
-          <v-icon>mdi-youtube</v-icon>
-        </v-btn>
-        <v-btn
-          rounded
-          href="https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search"
-          target="_blank"
-          icon
-        >
-          <v-icon>mdi-microsoft-visual-studio-code</v-icon>
-        </v-btn>
-        <v-btn
-          rounded
-          href="https://docs.google.com/forms/d/e/1FAIpQLSezvUnfD8p2ngwlQHVzAdh6CYk-J-M8VbzSgUJLmKDmvisZGQ/viewform"
-          target="_blank"
-          icon
-        >
-          <v-icon>mdi-file-sign</v-icon>
-        </v-btn>
-        <br />
-      </v-row>
-      <div>
-        Python-Factory &copy; {{ new Date().getFullYear() }} (Hyunseung, Juha,
-        Gun)
-      </div>
-    </v-footer>
+    <Footer />
   </v-app>
 </template>
 
@@ -434,13 +197,10 @@ export default {
         },
       ],
       drawer: false,
-      fixed: false,
       items: {
         ...PythonLinks,
         ...PythonLinksEN,
       },
-      rightDrawer: false,
-      title: !this.isEnglish() ? '코딩 인사이트' : 'Coding - Insight',
     };
   },
   methods: {

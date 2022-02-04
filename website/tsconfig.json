@@ -20,5 +20,17 @@
   "parserOptions": {
     "sourceType": "module"
   },
-  "exclude": ["node_modules", ".nuxt", "dist"]
+  "exclude": [
+    "node_modules",
+    ".nuxt",
+    "dist",
+    "public",
+    "static",
+    "nuxt.config.js",
+    "nuxt.config.ts",
+    "package.json",
+    "yarn.lock",
+    "README.md",
+    "LICENSE"
+  ]
 }
