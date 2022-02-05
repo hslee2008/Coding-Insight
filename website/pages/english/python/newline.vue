@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Problem</h1>
+        <h2>Problem</h2>
         <p>
           If we open up Python IDLE and try to type in an if statement, it is
           very hard.<br /><br />
@@ -22,7 +22,7 @@
 
     <div>
       <div>
-        <h1>\</h1>
+        <h2>\</h2>
         <p>
           So, if we put a backslash after boolean statement, the next line
           automatically goes inside the if statement.<br /><br />
@@ -49,7 +49,7 @@
     />
     <QuadSpace />
 
-    <NaviBtn bef="pythondecorator" aft="beedongee" />
+    <NaviBtn bef="pythondecorator" aft="asynchronous" />
 
     <QuadSpace />
   </div>

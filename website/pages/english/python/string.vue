@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>What is string?</h1>
+        <h2>What is string?</h2>
         <p>
           String all symbols that makes human language.<br /><br />
 
@@ -27,7 +27,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Multi - line string</h1>
+        <h2>Multi - line string</h2>
         <p>
           What would you do if there were lots and lots of lines to print?<br /><br />
 
@@ -74,7 +74,7 @@
 
     <div>
       <div>
-        <h1>String indexing</h1>
+        <h2>String indexing</h2>
         <p>
           Indexing is when choosing a specific point in a string.<br /><br />
 
@@ -111,7 +111,7 @@
 
     <div>
       <div>
-        <h1>String start backward</h1>
+        <h2>String start backward</h2>
         <p>
           Using -1 starts from backward.<br /><br />
 
@@ -143,7 +143,7 @@
 
     <div>
       <div>
-        <h1>String print from x to y</h1>
+        <h2>String print from x to y</h2>
         <p>
           To print from range x to y, we can use ':' between index. From index x
           (first number) to y - 1 (not include second number) is returned.<br /><br />
@@ -173,7 +173,7 @@
 
     <div>
       <div>
-        <h1>Reverse string</h1>
+        <h2>Reverse string</h2>
         <p>
           To reverse string, use [::-1].<br /><br />
 
@@ -207,7 +207,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -432,7 +432,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>

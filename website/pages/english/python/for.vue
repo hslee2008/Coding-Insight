@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>What is a for loop?</h1>
+        <h2>What is a for loop?</h2>
         <p>For is a code that you can used with an iterable.</p>
       </div>
       <div class="display: flex; justify-content: center;">
@@ -24,7 +24,7 @@
 
     <div>
       <div>
-        <h1>for 반복문</h1>
+        <h2>for 반복문</h2>
         <p>
           for 반복문은 리스트와 함께 사용할 수 있는 반복문입니다.<br /><br />
 
@@ -55,7 +55,7 @@
     <div>
       <div>
         <div>
-          <h1>For + in</h1>
+          <h2>For + in</h2>
           <p>
             For is a code that you can used with an iterable.<br /><br />
 
@@ -91,7 +91,7 @@
 
     <div>
       <div>
-        <h1>for + range()</h1>
+        <h2>for + range()</h2>
         <p>
           range() function gives us a range data type between two numbers.<br /><br />
 
@@ -120,7 +120,7 @@
     <div>
       <div>
         <div>
-          <h1>for + else</h1>
+          <h2>for + else</h2>
           <p>
             Simlar to else statement in if statements, we can use this with for
             loops.<br /><br />
@@ -154,7 +154,7 @@
     <div>
       <div style="padding: 10px; border-radius: 5px">
         <div>
-          <h1>Another Tip!</h1>
+          <h2>Another Tip!</h2>
           <p>
             Sometimes, for loops can take a long long long time to finish.<br /><br />
 
@@ -183,7 +183,7 @@
     <div>
       <div>
         <div>
-          <h1>Stop looping</h1>
+          <h2>Stop looping</h2>
           <p>
             Using the keyword 'break', we can stop the loop instantly right
             where it is.<br /><br />

@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>Global Variables</h1>
+        <h2>Global Variables</h2>
         <p>
           You might have noticed when using a function that we cannot access the
           variables declared inside a function from outside.<br /><br />
@@ -48,7 +48,7 @@
     <div>
       <div>
         <div>
-          <h1>Nonlocal Variables</h1>
+          <h2>Nonlocal Variables</h2>
           <p>
             Nonlocal is the opposite of global as it sets the variable to be
             only allowed inside a function or statement.<br /><br />

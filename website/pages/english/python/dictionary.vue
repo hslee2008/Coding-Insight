@@ -3,8 +3,8 @@
     <br />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
-        <h1>What is dictionary?</h1>
+      <div style="margin: auto">
+        <h2>What is dictionary?</h2>
         <p>
           Dictionary is a book that contains a word and an explanation for
           it.<br /><br />
@@ -29,7 +29,7 @@
 
     <div>
       <div>
-        <h1>Get the keys</h1>
+        <h2>Get the keys</h2>
         <p>
           To get a list of keys, use the keys() method.<br /><br />
 
@@ -70,7 +70,7 @@
 
     <div>
       <div>
-        <h1>Get the values</h1>
+        <h2>Get the values</h2>
         <p>
           Similar to keys() method, we can also use values() to get all the
           values of dictionary.<br /><br />
@@ -104,15 +104,12 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="contact"
-      aft="dictionarymethod"
-     />
+    <NaviBtn bef="contact" aft="dictionarymethod" />
 
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -165,11 +162,13 @@
 
       <QuadSpace />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

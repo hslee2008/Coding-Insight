@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>친구 목록 다루기 2</h1>
+        <h2>친구 목록 다루기 2</h2>
         <p>파일을 사용해서 친구 목록을 이번에는 저장까지 해보겠습니다</p>
       </div>
 
@@ -24,16 +24,16 @@
     <QuadSpace />
 
     <div>
-      <h1>프로그램 설명</h1>
+      <h2>프로그램 설명</h2>
       <p>
         1. 코드는 저번 코드에 추가할 것이기 때문에
-        <NuxtLink to="./contact">친구 목록</NuxtLink>에서 확인하세요<br /><br />
+        <NuxtLink aria-label="Go to Coding Insight Page" to="./contact">친구 목록</NuxtLink>에서 확인하세요<br /><br />
       </p>
     </div>
 
     <QuadSpace />
 
-    <h1>코드 확인하기</h1>
+    <h2>코드 확인하기</h2>
     <iframe
       src="https://trinket.io/embed/python3/9e26723d8a"
       width="100%"

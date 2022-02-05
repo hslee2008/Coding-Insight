@@ -4,7 +4,7 @@
 
     <div style="display: flex">
       <div>
-        <h1>무한 반복문</h1>
+        <h2>무한 반복문</h2>
         <p>
           무한 반복이란 사용자가 억지로 끝내기 전까지 무한으로 실행이 되는
           반복문을 뜻합니다.<br /><br />
@@ -30,7 +30,7 @@
 
     <div style="display: flex">
       <div style="margin: auto">
-        <h1>무한 반복문 만들기</h1>
+        <h2>무한 반복문 만들기</h2>
         <p>
           무한 반복문을 만들기 위해서 while 반복문 조건을 넣는 곳에 1 (true)를
           입력하면 됩니다.<br /><br />
@@ -52,7 +52,7 @@
 
     <div>
       <div>
-        <h1>예시</h1>
+        <h2>예시</h2>
         <code>
           #include &lt;stdio.h><br /><br />
 

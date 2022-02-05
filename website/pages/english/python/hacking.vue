@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Network Sniffing</h1>
+        <h2>Network Sniffing</h2>
         <p>
           Network sniffing is a form of hacking where you spy on other people's
           device traffic.<br /><br />
@@ -32,7 +32,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Programming Explanation</h1>
+      <h2>Programming Explanation</h2>
       <p>
         Using a module named socket, we can easily look at all the things
         happening to our internet.
@@ -42,7 +42,7 @@
     <QuadSpace />
 
     <div>
-      <h1>code</h1>
+      <h2>code</h2>
       <div>
         import socket, struct, binascii<br /><br />
 

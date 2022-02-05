@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Mastering Thread</h1>
+        <h2>Mastering Thread</h2>
         <p>
           Let's try looking into a much more complex thread.<br /><br />
 
@@ -59,7 +59,7 @@
 
     <div>
       <div>
-        <h1>join() method</h1>
+        <h2>join() method</h2>
         <p>
           Similar to 'await' in asyncio, join() method will wait till that
           thread is finished.<br /><br />

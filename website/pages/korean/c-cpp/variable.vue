@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>변수란?</h1>
+        <h2>변수란?</h2>
         <p>
           상자에 다양한 물건을 담을 수 있습니다.<br /><br />
 
@@ -32,7 +32,7 @@
 
     <div>
       <div>
-        <h1>변수 선언하기</h1>
+        <h2>변수 선언하기</h2>
         <p>
           변수는 다음과 같은 방법으로 선언합니다.<br /><br />
 
@@ -55,7 +55,7 @@
 
     <div>
       <div>
-        <h1>변수 예시</h1>
+        <h2>변수 예시</h2>
         <p>
           예를 들어, 정수 a에 숫자 6을 저장하겠습니다.<br /><br />
 
@@ -77,7 +77,7 @@
 
     <div>
       <div>
-        <h1>변수 사용하기</h1>
+        <h2>변수 사용하기</h2>
         <p>
           변수를 선언한 후 변수의 값은 그 변수의 이름을 사용하여 알 수
           있습니다.<br /><br />
@@ -115,7 +115,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>변수 이름을 만들때 규칙</h1>
+        <h2>변수 이름을 만들때 규칙</h2>
         <p>
           변수를 만들 때 매우 다양한 규칙이 있습니다.<br /><br />
 
@@ -138,7 +138,7 @@
 
     <div>
       <div>
-        <h1>변수 값 바꾸기</h1>
+        <h2>변수 값 바꾸기</h2>
         <p>
           변수에 저장된 값을 바꾸기 위하여 저희는 먼저 변수를 선언하겠습니다.<br /><br />
 
@@ -176,7 +176,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -227,7 +227,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer"
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer"
         ><v-icon left>mdi-check-decagram</v-icon>정답 확인</v-btn
       >
     </div>

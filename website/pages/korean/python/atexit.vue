@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>파이썬 함수 등록</h1>
+        <h2>파이썬 함수 등록</h2>
         <p>
           파이썬에서 어떤 코드가 실행이 끝나면 어떤 함수를 실행하는 것이
           가능합니다.<br /><br />
@@ -33,7 +33,7 @@
 
     <div>
       <div>
-        <h1>register()</h1>
+        <h2>register()</h2>
         <p>
           파이썬을 이용하여 파일 에디터를 만들어보겠습니다.<br /><br />
 
@@ -63,7 +63,7 @@
 
     <div>
       <div>
-        <h1>atexit 데코레이터</h1>
+        <h2>atexit 데코레이터</h2>
         <p>
           데코레이터를 함수에 붙이면 그 함수는 프로그램이 끝날 때 실행이 됩니다.
         </p>

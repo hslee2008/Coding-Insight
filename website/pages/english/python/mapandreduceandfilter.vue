@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Beginner's code</h1>
+        <h2>Beginner's code</h2>
         <p>
           Beginnrs usually makes a code like the following when they are asked
           to create a program that iterates through a list and raise by 2.<br /><br />
@@ -42,7 +42,7 @@
 
     <div>
       <div>
-        <h1>Using map()</h1>
+        <h2>Using map()</h2>
         <p>
           Let's first look at an example of map().<br /><br />
 
@@ -88,7 +88,7 @@
 
     <div>
       <div>
-        <h1>Using filter()</h1>
+        <h2>Using filter()</h2>
         <p>
           Filtering means to remove specific datas that matches a statement.<br /><br />
 
@@ -121,7 +121,7 @@
 
     <div>
       <div>
-        <h1>Using reduce()</h1>
+        <h2>Using reduce()</h2>
         <p>
           If you want to get outcome of every item in list, you can use the
           reduce() method.<br /><br />
@@ -165,5 +165,8 @@
 <script>
 export default {
   page: 'MapAndReduceAndFilterPage',
+  head: () => ({
+    title: 'Map, Reduce, Filter',
+  }),
 };
 </script>

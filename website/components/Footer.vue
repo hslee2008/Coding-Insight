@@ -61,7 +61,7 @@
 
       <v-card-text class="white--text">
         &copy;2021-{{ new Date().getFullYear() }}
-        <strong>Python-Factory</strong> (Hyunseung, Juha, Gun)
+        <strong>Coding-Insight</strong> (Hyunseung, Juha, Gun)
       </v-card-text>
     </v-card>
   </v-footer>

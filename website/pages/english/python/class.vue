@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>What is class?</h1>
+        <h2>What is class?</h2>
         <p>
           Think of a situation where you want to create multiple files with same
           format (e.g. letter writing style format).<br /><br />
@@ -38,7 +38,7 @@
 
     <div>
       <div>
-        <h1>Creating class</h1>
+        <h2>Creating class</h2>
         <p>
           For example, if we are planning on creating multiple dictionaries
           about cars that has same keys, we can make a class instead.<br /><br />
@@ -66,7 +66,7 @@
 
     <div>
       <div>
-        <h1>__init__()</h1>
+        <h2>__init__()</h2>
         <p>
           The example above is very similar to a dictionary.<br /><br />
 
@@ -109,7 +109,7 @@
 
     <div>
       <div>
-        <h1>Functions inside class</h1>
+        <h2>Functions inside class</h2>
         <p>
           The difference from class and dictionaries are not simply __init__()
           functions.<br /><br />
@@ -139,7 +139,7 @@
 
     <div>
       <div>
-        <h1>self</h1>
+        <h2>self</h2>
         <p>
           When creating variables inside class, using self as containers will be
           better for management.<br /><br />
@@ -178,6 +178,6 @@
 
 <script>
 export default {
-  name: 'ClassPage',
+  name: 'ClassPage'
 };
 </script>

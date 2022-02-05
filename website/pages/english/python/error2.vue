@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>Error messge in try - except</h1>
+        <h2>Error messge in try - except</h2>
         <p>
           We can get the error message(what the error is about) in Python using
           the 'as' keyword after 'except'.<br /><br />
@@ -38,7 +38,7 @@
 
     <div>
       <div>
-        <h1>Making your own error</h1>
+        <h2>Making your own error</h2>
         <p>
           In Python, it is very easy to make our own errors.<br /><br />
 
@@ -50,7 +50,7 @@
           <code>
             x = -1<br /><br />
 
-            if x < 0:<br />
+            if x &lt; 0:<br />
             &nbsp;raise Exception("Hmmm... 🐛 exists. X should not be smaller
             than 0.")
           </code>
@@ -76,7 +76,7 @@
 
     <div>
       <div>
-        <h1>Remake errors</h1>
+        <h2>Remake errors</h2>
         <p>
           Simply put 'from variable' after exception which will re-make or
           re-raise the error.<br /><br />

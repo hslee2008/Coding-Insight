@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>What is list?</h1>
+        <h2>What is list?</h2>
         <p>
           List is a menu or listings of items.<br /><br />
 
@@ -29,7 +29,7 @@
 
     <div>
       <div>
-        <h1>Declaring list</h1>
+        <h2>Declaring list</h2>
         <p>In Python, use [] to store items seperated by a comma(,).</p>
       </div>
       <iframe
@@ -50,7 +50,7 @@
 
     <div>
       <div>
-        <h1>List index</h1>
+        <h2>List index</h2>
         <p>Similar to string index, we can access each item by using index.</p>
       </div>
       <iframe
@@ -73,7 +73,7 @@
       class="img-div"
     >
       <div>
-        <h1>Why Python use 0 as first index</h1>
+        <h2>Why Python use 0 as first index</h2>
         <p>
           Humans usually think of first as 1.<br /><br />
 

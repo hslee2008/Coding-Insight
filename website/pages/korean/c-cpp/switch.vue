@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Switch</h1>
+        <h2>Switch</h2>
         <p>
           C 언어에서 switch는 조건문과 비슷하지만 변수와 다른 값을
           비교합니다.<br /><br />
@@ -25,7 +25,7 @@
 
     <div>
       <div>
-        <h1>조건문이 복잡해진다!!!</h1>
+        <h2>조건문이 복잡해진다!!!</h2>
         <p>
           조건문이 매우 복잡해질 때가 있습니다.<br /><br />
 
@@ -75,7 +75,7 @@
 
     <div>
       <div>
-        <h1>switch 문</h1>
+        <h2>switch 문</h2>
         <p>
           1. switch() {}를 선언한 후 괄호() 안에 비교하고 싶은 변수를
           넣습니다.<br /><br />

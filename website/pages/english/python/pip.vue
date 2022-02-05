@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>What is PIP?</h1>
+        <h2>What is PIP?</h2>
         <p>
           PIP is a program that handles files and modules.<br /><br />
 
@@ -27,7 +27,7 @@
 
     <div>
       <div>
-        <h1>Check whether PIP is installed</h1>
+        <h2>Check whether PIP is installed</h2>
         <p>
           First, press 'windows+r'.<br /><br />
 
@@ -46,7 +46,7 @@
     <div>
       <div>
         <div>
-          <h1>How to install PIP</h1>
+          <h2>How to install PIP</h2>
           <p>
             Back to first when we downloaded Python, open the download page
             again.<br /><br />
@@ -69,7 +69,7 @@
     <div>
       <div>
         <div>
-          <h1>PIP install & uninstall</h1>
+          <h2>PIP install & uninstall</h2>
           <p>
             We can easily install any package in the world using PIP.<br /><br />
 
@@ -87,7 +87,7 @@
     <div>
       <div>
         <div>
-          <h1>PIP show</h1>
+          <h2>PIP show</h2>
           <p>
             The 'pip uninstall packagename' will uninstall the pacakge.<br /><br />
 

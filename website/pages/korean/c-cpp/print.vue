@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>출력하기</h1>
+        <h2>출력하기</h2>
         <p>
           출력한다는 것은 정보를 기계 스크린에 보여주는 작업을 뜻합니다.<br /><br />
 
@@ -34,7 +34,7 @@
 
     <div>
       <div>
-        <h1>printf()</h1>
+        <h2>printf()</h2>
         <h2>텍스트 출력하기</h2>
 
         C 언어에서는 printf()를 사용하여 정보를 출력합니다.<br /><br />
@@ -84,7 +84,7 @@
 
     <div>
       <div>
-        <h1>putchar()</h1>
+        <h2>putchar()</h2>
 
         <p>
           char는 조금 뒤에 배우겠습니다. 간단히 말하지만, char는 한
@@ -116,7 +116,7 @@
 
     <div>
       <div>
-        <h1>puts()</h1>
+        <h2>puts()</h2>
 
         <p>
           puts()는 printf()와 비슷하지만 문자와 양의 정수만 출력이 가능하고 항상
@@ -150,7 +150,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -247,7 +247,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

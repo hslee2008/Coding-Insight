@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Definition of Module</h1>
+        <h2>Definition of Module</h2>
         <p>
           Modules are a group of functions, variables, and classes to be used in
           other files.<br /><br />
@@ -23,7 +23,7 @@
 
     <div>
       <div>
-        <h1>import - Import Module</h1>
+        <h2>import - Import Module</h2>
         <p>
           We have to fetch the module to use functions and variables inside
           it.<br /><br />
@@ -43,7 +43,7 @@
 
     <div>
       <div>
-        <h1>dir(module) - Look at all functions and variables</h1>
+        <h2>dir(module) - Look at all functions and variables</h2>
         <p>
           When we use dir(), we can see all the available functions and
           variables.<br /><br />
@@ -84,7 +84,7 @@
 
     <div>
       <div>
-        <h1>'as' keyword</h1>
+        <h2>'as' keyword</h2>
         <p>
           Let's assume there is a file named abcdefgjijklmnopqrstuvwxyz.py.<br /><br />
 

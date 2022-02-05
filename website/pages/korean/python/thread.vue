@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>스레드란?</h1>
+        <h2>스레드란?</h2>
         <p>
           설명할 것이 조금 많습니다.<br /><br />
 
@@ -38,7 +38,7 @@
 
     <div>
       <div>
-        <h1>스레드 여러 개</h1>
+        <h2>스레드 여러 개</h2>
         <p>
           만일 스레드 여러 개가 코어에 달려있다면 어떻게 될까요?<br /><br />
 
@@ -88,7 +88,7 @@
 
     <div>
       <div>
-        <h1>파이썬 threading</h1>
+        <h2>파이썬 threading</h2>
         <p>
           1. 파이썬 모듈 threading을 가지고 옵니다. 다음에, time도 가지고
           옵니다.<br />

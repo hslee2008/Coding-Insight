@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>assert.h</h1>
+        <h2>assert.h</h2>
         <p>
           assert.h 라이브러리 안에는 딱 하나 유용한 기능이 있습니다.<br /><br />
 

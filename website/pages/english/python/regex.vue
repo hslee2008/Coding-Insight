@@ -7,7 +7,7 @@
       class="img-div"
     >
       <div class="mx-auto">
-        <h1>What is RegEx?</h1>
+        <h2>What is RegEx?</h2>
         <p>
           RegEx is short for Regular Expression.<br /><br />
 
@@ -38,7 +38,7 @@
 
     <div>
       <div>
-        <h1>Regex - match()</h1>
+        <h2>Regex - match()</h2>
         <p>
           Using match() method, we can easily find whether a string starts with
           certain patterns.<br /><br />
@@ -74,7 +74,7 @@
     <div>
       <div>
         <div>
-          <h1>Regex - search()</h1>
+          <h2>Regex - search()</h2>
           <p>
             While match() matches the start of a string with substring, search()
             searches globally(every where in string).<br /><br />
@@ -107,7 +107,7 @@
 
     <div>
       <div>
-        <h1>RegEx Character</h1>
+        <h2>RegEx Character</h2>
         <p>
           To actually use regex, use the following regex characters.<br /><br />
 

@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>@mydecorator</h1>
+        <h2>@mydecorator</h2>
         <p>
           Let's try making a 'Teacher' class.<br /><br />
 
@@ -59,7 +59,7 @@
 
     <div>
       <div>
-        <h1>@classmethod</h1>
+        <h2>@classmethod</h2>
         <p>
           A property can also become a class method when surrounded by
           @classmethod decorator.
@@ -82,7 +82,7 @@
 
     <div>
       <div>
-        <h1>@staticmethod</h1>
+        <h2>@staticmethod</h2>
         <p>
           When @staticmethod decorator is added, the function can only be used
           inside the class.

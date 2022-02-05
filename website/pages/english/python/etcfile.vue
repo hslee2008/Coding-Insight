@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>Making Files</h1>
+        <h2>Making Files</h2>
         <p>
           "x" mode will create a file if it does not exist.<br /><br />
 
@@ -27,7 +27,7 @@
     <div>
       <div>
         <div>
-          <h1>Removing Files</h1>
+          <h2>Removing Files</h2>
           <p>
             To remove files, use the 'os' module we learned before.<br /><br />
 
@@ -47,7 +47,7 @@
     <div>
       <div>
         <div>
-          <h1>Encoding</h1>
+          <h2>Encoding</h2>
           <p>
             By default, Python will open files and read them with 'ASCII'.<br /><br />
 
@@ -79,7 +79,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve this quiz!!</h1>
+      <h2>Solve this quiz!!</h2>
 
       <v-divider />
 
@@ -132,7 +132,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon> Check Answer
       </v-btn>
     </div>

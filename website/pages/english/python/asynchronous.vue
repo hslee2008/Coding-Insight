@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>Asynchronous</h1>
+        <h2>Asynchronous</h2>
         <p>
           While eating food, we can use fork and spoon at the same time.<br /><br />
 
@@ -31,7 +31,7 @@
 
     <div>
       <div>
-        <h1>Asynchronous module</h1>
+        <h2>Asynchronous module</h2>
         <p>
           First, we have to fetch the asynchronous module which is named
           'asyncio'.<br /><br />
@@ -45,7 +45,7 @@
 
     <div>
       <div>
-        <h1>Asynchronous</h1>
+        <h2>Asynchronous</h2>
         <p>
           Let's loook at the following code.<br /><br />
 

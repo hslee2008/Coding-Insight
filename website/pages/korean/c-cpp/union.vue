@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>union과 struct</h1>
+        <h2>union과 struct</h2>
         <p>
           struct는 데이터의 모음입니다.<br /><br />
 
@@ -23,7 +23,7 @@
 
     <div>
       <div>
-        <h1>union 선언</h1>
+        <h2>union 선언</h2>
         <p>
           <code>
             union DATA {<br />

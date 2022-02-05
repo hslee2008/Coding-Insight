@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>Mouse</h1>
+        <h2>Mouse</h2>
         <p>
           Python has a module named mouse that can help us control our computer
           mouse!<br /><br />
@@ -36,7 +36,7 @@
 
     <div>
       <div>
-        <h1>Mouse click</h1>
+        <h2>Mouse click</h2>
         <p>
           We can use the click() method to click either left, right, or middle
           of mouse.<br /><br />
@@ -54,7 +54,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Mouse position</h1>
+      <h2>Mouse position</h2>
       <p>
         To get the x and y coordinate of you mouse, use he get_position()
         method.<br /><br />
@@ -66,7 +66,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Dragging</h1>
+      <h2>Dragging</h2>
       <p>
         You can drag by using the drag() method.<br /><br />
 
@@ -85,7 +85,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Moving mouse</h1>
+      <h2>Moving mouse</h2>
       <p>
         Simply use the move() method to move the mouse.<br /><br />
 
@@ -98,7 +98,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Scrolling</h1>
+      <h2>Scrolling</h2>
       <p>
         Use the scroll() method to scroll up and down.<br /><br />
 

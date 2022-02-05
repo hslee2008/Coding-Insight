@@ -4,7 +4,7 @@
 
     <div style="display: flex">
       <div style="margin: auto">
-        <h1>변수</h1>
+        <h2>변수</h2>
         <p>
           변수란 정보를 저장할 수 있는 공간을 뜻합니다.<br /><br />
 
@@ -28,7 +28,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>변수 만드는 방법</h1>
+        <h2>변수 만드는 방법</h2>
         <p>
           Rust에서 변수를 만드는데 총 6가지 부분이 있습니다.<br /><br />
 
@@ -40,7 +40,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img :src="require('./img/code_variable.png')" max-width="450" />
+        <v-img src="https://image-loader-coding-insight.web.app/rust-kr/img/code_variable.png" max-width="450" />
         위의 lang 변수는 문자열("" 안에)이라는 값을 가지고 있습니다.
       </div>
     </div>
@@ -49,7 +49,7 @@
 
     <div>
       <div>
-        <h1>규칙 :(</h1>
+        <h2>규칙 :(</h2>
         <p>
           변수를 만들 때 변수 이름에 특정한 규칙을 따르는 것이 좋습니다.<br /><br />
 
@@ -64,7 +64,7 @@
 
     <div>
       <div>
-        <h1>변수 출력</h1>
+        <h2>변수 출력</h2>
         <p>
           Rust에서 변수를 출력하는 방법을 알아보겠습니다.<br /><br />
 

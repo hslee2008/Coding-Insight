@@ -5,7 +5,7 @@
     <div>
       <div>
         <div>
-          <h1>튜플이란?</h1>
+          <h2>튜플이란?</h2>
           <p>
             튜플이란 리스트와 같지만 안에 있는 값을 바꿀 수 없는 데이터의 형태를
             뜻합니다.<br /><br />
@@ -61,7 +61,7 @@
 
       <div>
         <div>
-          <h1>튜플 풀기</h1>
+          <h2>튜플 풀기</h2>
           <p>CODE1과 같이 튜플을 만들고 상자같이 풀 수 있습니다.</p>
         </div>
         <iframe
@@ -81,7 +81,7 @@
 
       <div>
         <div>
-          <h1>튜플 길이 지정하기</h1>
+          <h2>튜플 길이 지정하기</h2>
           <p>
             파이썬에서는 튜플의 길이를 미리 지정하여 나중에 실수로 값을 더하는
             행위를 막을 수 있습니다.<br /><br />
@@ -110,7 +110,7 @@
 
       <div>
         <div>
-          <h1>zip()</h1>
+          <h2>zip()</h2>
           <p>
             zip이란 우리가 지퍼를 올려서 닫는 것을 뜻합니다.<br /><br />
 
@@ -140,7 +140,7 @@
       <QuadSpace />
 
       <div class="quiz">
-        <h1>퀴즈 풀기!</h1>
+        <h2>퀴즈 풀기!</h2>
 
         <v-divider />
 
@@ -197,7 +197,7 @@
 
         <br /><br />
 
-        <v-btn @click="checkAnswer">
+        <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
         </v-btn>
       </div>

@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Why should we put codes in one line?</h1>
+        <h2>Why should we put codes in one line?</h2>
         <p>
           Some computers are very slow.<br /><br />
 
@@ -21,7 +21,7 @@
 
     <div>
       <div>
-        <h1>; Semicolon</h1>
+        <h2>; Semicolon</h2>
         <p>
           In other programming languages such as JavaScript, there is
           ';'(semicolon) to seperate code.<br /><br />
@@ -58,7 +58,7 @@
     <div>
       <div>
         <div>
-          <h1>More explanation</h1>
+          <h2>More explanation</h2>
           <p>
             In Python, semicolons are purely optional.<br /><br />
 

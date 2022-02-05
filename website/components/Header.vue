@@ -38,6 +38,9 @@ export default {
       count: 0,
     };
   },
+  mounted() {
+    document.title = `${this.title} ${this.num} - Coding-Insight`;
+  },
   methods: {
     speak() {
       if (this.count % 2 === 0) {

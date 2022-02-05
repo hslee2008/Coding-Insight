@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Automatic Zoom</h1>
+        <h2>Automatic Zoom</h2>
         <p>
           We can use Python to automatically open zoom when it is time.<br /><br />
 
@@ -33,7 +33,7 @@
     <QuadSpace />
 
     <div class="text-center">
-      <h1>Code</h1>
+      <h2>Code</h2>
     </div>
     <code>
       import webbrowser, keyboard, time<br /><br />

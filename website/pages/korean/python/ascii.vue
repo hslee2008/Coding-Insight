@@ -3,7 +3,7 @@
     <br />
     <div style="display: flex" class="img-div">
       <div style="padding: 5px; margin: auto">
-        <h1>ASCII란?</h1>
+        <h2>ASCII란?</h2>
         <p>
           ASCII는 한국어로 '아스키'라고 발음합니다.<br /><br />
 
@@ -49,7 +49,7 @@
 
     <div>
       <div>
-        <h1>ord()</h1>
+        <h2>ord()</h2>
         <p>
           어떤 캐릭터의 <mark>ASCII 코드</mark>를 알기 위하여 ord() 함수를
           사용할 수 있습니다.<br /><br />
@@ -78,7 +78,7 @@
 
     <div>
       <div>
-        <h1>chr()</h1>
+        <h2>chr()</h2>
         <p>
           반대로, chr()은 <mark>아스키코드를 알파벳으로</mark> 바꾸는
           함수입니다.
@@ -104,7 +104,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -197,7 +197,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

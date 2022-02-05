@@ -7,7 +7,7 @@
       class="img-div"
     >
       <div class="mx-auto">
-        <h1>Inheritence</h1>
+        <h2>Inheritence</h2>
         <p>
           Inheritence means to pass down something from above.<br /><br />
 
@@ -32,7 +32,7 @@
 
     <div>
       <div>
-        <h1>Python Inheritence</h1>
+        <h2>Python Inheritence</h2>
         <p>
           To get the content of a class, put (classname) after the class
           name.<br /><br />
@@ -59,7 +59,7 @@
     <div>
       <div>
         <div>
-          <h1>Solve the problem</h1>
+          <h2>Solve the problem</h2>
           <p>
             To get the self variables, use Person.__init__(self, name, age,
             gender).
@@ -83,7 +83,7 @@
 
     <div>
       <div>
-        <h1>super()</h1>
+        <h2>super()</h2>
         <p>
           Everything above can be solved with one single line of code:
           super().__init__().
@@ -107,7 +107,7 @@
     <div>
       <div>
         <div>
-          <h1>attribute</h1>
+          <h2>attribute</h2>
           <p>
             Here are ways to make, change, or delete self variabels outside of
             class.<br /><br />

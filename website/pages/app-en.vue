@@ -15,13 +15,21 @@
           <v-card-subtitle> APK 16.5MB (v2.0.1) </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn color="primary" href="/app-release.apk" download
+            <v-btn
+              aria-label="Coding Insight Button"
+              color="primary"
+              href="/app-release.apk"
+              download
               >DOWNLOAD</v-btn
             >
 
             <v-spacer></v-spacer>
 
-            <v-btn icon @click="show2 = !show2">
+            <v-btn
+              aria-label="Coding Insight Button"
+              icon
+              @click="show2 = !show2"
+            >
               <v-icon>{{
                 show2 ? 'mdi-chevron-up' : 'mdi-chevron-down'
               }}</v-icon>
@@ -56,7 +64,11 @@
 
             <v-spacer></v-spacer>
 
-            <v-btn icon @click="show4 = !show4">
+            <v-btn
+              aria-label="Coding Insight Button"
+              icon
+              @click="show4 = !show4"
+            >
               <v-icon>{{
                 show4 ? 'mdi-chevron-up' : 'mdi-chevron-down'
               }}</v-icon>
@@ -87,6 +99,7 @@
 
           <v-card-actions>
             <v-btn
+              aria-label="Coding Insight Button"
               color="primary"
               target="_blank"
               href="https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search"
@@ -95,7 +108,11 @@
 
             <v-spacer></v-spacer>
 
-            <v-btn icon @click="show5 = !show5">
+            <v-btn
+              aria-label="Coding Insight Button"
+              icon
+              @click="show5 = !show5"
+            >
               <v-icon>{{
                 show5 ? 'mdi-chevron-up' : 'mdi-chevron-down'
               }}</v-icon>
@@ -124,14 +141,18 @@
         <h3>APK Download</h3>
         <p>
           click this button ->
-          <v-btn color="primary" href="/Python_factory_App.apk" download
+          <v-btn
+            aria-label="Coding Insight Button"
+            color="primary"
+            href="/Python_factory_App.apk"
+            download
             >Download</v-btn
           ><br /><br />
 
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/harm.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/harm.jpg"
           /><br /><br />
 
           Click the OK button<br /><br />
@@ -142,7 +163,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/detail.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/detail.jpg"
           /><br /><br />
 
           Soon, the file will be finished downloading.<br /><br />
@@ -150,7 +171,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/open.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/open.jpg"
           /><br /><br />
 
           Click the OPEN button.<br /><br />
@@ -160,7 +181,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/ask.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/ask.jpg"
           /><br /><br />
 
           Click the "Allow from source" switch button<br /><br />
@@ -168,7 +189,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/setting.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/setting.jpg"
           /><br /><br />
 
           Click the install button.<br /><br />
@@ -176,7 +197,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/install.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/install.jpg"
           /><br /><br />
 
           Click "Instasll Anyway" button.<br /><br />
@@ -184,7 +205,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/playprotect.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/playprotect.jpg"
           /><br /><br />
 
           Click the "OPEN" button.<br /><br />
@@ -192,7 +213,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/installed.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/installed.jpg"
           />
         </p>
       </div>
@@ -213,7 +234,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/galaxystore.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/galaxystore.jpg"
             width="300"
           /><br /><br />
 
@@ -222,7 +243,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/installgalaxystore.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/installgalaxystore.jpg"
             width="300"
           /><br /><br />
 
@@ -231,7 +252,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/runapp.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/runapp.jpg"
             width="300"
           />
         </p>
@@ -255,5 +276,8 @@ export default {
       show6: false,
     };
   },
+  head: () => ({
+    title: 'App',
+  }),
 };
 </script>

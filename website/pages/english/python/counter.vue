@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Example and Explanation</h1>
+        <h2>Example and Explanation</h2>
         <p>
           Inside collection module, there is a class named Counter() that let's
           us get information about iterables.<br /><br />
@@ -40,7 +40,7 @@
 
     <div>
       <div>
-        <h1>Global Counter</h1>
+        <h2>Global Counter</h2>
         <p>
           We can set the counter as a global variable and update it by using
           update() method every time we want to count a new iterable.<br /><br />
@@ -65,7 +65,7 @@
 
     <div>
       <div>
-        <h1>elements() method</h1>
+        <h2>elements() method</h2>
         <p>
           Every time we update, the counter's elements changes.<br /><br />
 
@@ -90,7 +90,7 @@
 
     <div>
       <div>
-        <h1>most_common() method</h1>
+        <h2>most_common() method</h2>
         <p>
           To get the xth most common element in a counter, use the most_common()
           method and put x inside as a parameter.<br /><br />
@@ -115,7 +115,7 @@
 
     <div>
       <div>
-        <h1>Subtracting</h1>
+        <h2>Subtracting</h2>
         <p>
           We can subtract two counters and get a new one.<br /><br />
 

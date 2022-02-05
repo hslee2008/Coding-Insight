@@ -9,7 +9,7 @@
 
       <div>
         <div>
-          <h1>키워드 매개변수</h1>
+          <h2>키워드 매개변수</h2>
           <p>
             함수를 실행할 때 매개변수의 순서에 따라 각 변수 안에 값을 넣을 수
             있습니다.<br /><br />
@@ -42,7 +42,7 @@
       <div>
         <div>
           <div>
-            <h1>매개변수 기본값 지정하는 방법</h1>
+            <h2>매개변수 기본값 지정하는 방법</h2>
             <p>
               가끔 우리가 프로그래밍에서 함수를 사용할 때 매개변수에 값을
               입력하는 것을 잊어버리기도 합니다.<br /><br />
@@ -69,7 +69,7 @@
 
       <div>
         <div>
-          <h1>return 키워드</h1>
+          <h2>return 키워드</h2>
           <p>
             함수를 실행하면 어떤 값을 반환하기 위해서 'return'이라는 키워드를
             사용할 수 있습니다.<br /><br />
@@ -114,7 +114,7 @@
 
       <div>
         <div>
-          <h1>pass 키워드</h1>
+          <h2>pass 키워드</h2>
           <p>
             만일 아무것도 하지 않은 함수를 만들고 싶다면 'pass'라는 키워드를
             사용할 수 있습니다.
@@ -141,7 +141,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -196,7 +196,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

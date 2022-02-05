@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>판다스</h1>
+        <h2>판다스</h2>
         <p>
           판다스란 파이썬 라이브러리로 데이터를 효율적이고 빠르게 다룰 수 있는
           함수와 메서드를 담고 있습니다.<br /><br />
@@ -30,7 +30,7 @@
 
     <div>
       <div>
-        <h1>Series</h1>
+        <h2>Series</h2>
         <p>
           판다스에서 주어진 이터러블을 사람이 쉽게 보고 이해할 수 있는 형식으로
           바꾸는 Series() 클래스를 사용해 보겠습니다.<br /><br />
@@ -91,7 +91,7 @@
 
     <div>
       <div>
-        <h1>DataFrame()</h1>
+        <h2>DataFrame()</h2>
         <p>
           판다스의 DataFrame() 클래스는 이터러블을 테이블 형식으로 콘솔에 출력할
           수 있습니다.<br /><br />
@@ -115,7 +115,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>Clipboard</h1>
+        <h2>Clipboard</h2>
         <p>
           Clipboard란 컴퓨터에서 복사한 <kbd>ctrl+c</kbd> 모든 데이터를 저장한
           곳입니다.<br /><br />
@@ -169,7 +169,7 @@
 
     <div>
       <div>
-        <h1>CSV</h1>
+        <h2>CSV</h2>
         <p>
           CSV는 Comma-Seperated Values의 약자로 ','(쉼표)로 구분한 값들의
           모음입니다.<br /><br />
@@ -204,7 +204,7 @@
       <v-img
         alt="python-factory-picture"
         class="img-fluid"
-        :src="require('./image/csv.jpg')"
+        src="https://image-loader-coding-insight.web.app/py-kr/img/csv.jpg"
         max-width="500px"
       />
     </div>

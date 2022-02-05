@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>나만의 압축 프로그램</h1>
+        <h2>나만의 압축 프로그램</h2>
         <p>
           사실 윈도우아 맥에는 압축 프로그램이 있습니다.<br /><br />
 
@@ -30,7 +30,7 @@
     <QuadSpace />
 
     <div>
-      <h1>프로그램 설명</h1>
+      <h2>프로그램 설명</h2>
       <p>
         1. 압축의 원리: 자주 반복하는 문자들 대신 더 짧은 문자열을 넣는
         방법입니다.<br />
@@ -41,7 +41,7 @@
     <QuadSpace />
 
     <div>
-      <h1>코드 설명</h1>
+      <h2>코드 설명</h2>
       <div>
         1) 문장 입력<br /><br />
         <code> sent = input("압축할 글: ") </code>
@@ -64,7 +64,7 @@
 
     <QuadSpace />
 
-    <h1>코드 확인하기</h1>
+    <h2>코드 확인하기</h2>
     <iframe
       src="https://trinket.io/embed/python3/836101c4af"
       width="100%"

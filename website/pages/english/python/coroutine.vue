@@ -1,8 +1,10 @@
 <template>
   <div>
+    <br />
+
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>Making Coroutines</h1>
+        <h2>Making Coroutines</h2>
         <p>
           A long time ago, we learned about yield keyword in for loop.<br /><br />
 
@@ -27,7 +29,7 @@
 
     <div>
       <div>
-        <h1>yield - coroutine</h1>
+        <h2>yield - coroutine</h2>
         <p>
           1. First, make a couroutine function.<br />2. Next, making a yield
           variable and do operation on it with another variable named x.<br /><br />

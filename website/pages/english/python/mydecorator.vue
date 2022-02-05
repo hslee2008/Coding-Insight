@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>@mydecorator</h1>
+        <h2>@mydecorator</h2>
         <p>
           We can add additional functions before and after a function using
           decorator.

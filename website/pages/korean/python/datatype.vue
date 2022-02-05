@@ -3,7 +3,7 @@
     <br />
     <div style="display: flex" class="img-div">
       <div>
-        <h1>데이터 형태란?</h1>
+        <h2>데이터 형태란?</h2>
         <p>
           프로그램에서 <mark>다양한 기호</mark>(숫자, 문자 등)를 통틀어
           데이터라고 합니다.<br /><br />
@@ -47,7 +47,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto; padding-right: 5px">
-        <h1>데이터 형태 알기</h1>
+        <h2>데이터 형태 알기</h2>
         <p>
           저희는 파이썬에서 <mark>type() 함수</mark>를 사용하여 변수의 데이터
           형태를 알 수 있습니다.<br /><br />
@@ -75,7 +75,7 @@
 
     <div>
       <div>
-        <h1>데이터 형태 확인</h1>
+        <h2>데이터 형태 확인</h2>
         <p>
           isinstance()는 변수의 데이터 형태를 확인해주는 함수입니다.<br /><br />
 
@@ -123,7 +123,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -260,11 +260,13 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

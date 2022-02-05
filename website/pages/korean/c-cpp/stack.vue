@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>stack 사용하기</h1>
+        <h2>stack 사용하기</h2>
         <p>
           stack은 <kbd>stack&lt;데이터형태></kbd> 형태로 선언하면 됩니다.<br /><br />
 
@@ -40,7 +40,7 @@
 
     <div>
       <div>
-        <h1>pop()와 push()</h1>
+        <h2>pop()와 push()</h2>
         <p>
           pop()를 사용하면 stack의 마지막 아이템을 제거합니다.<br /><br />
 
@@ -73,7 +73,7 @@
 
     <div>
       <div>
-        <h1>size()</h1>
+        <h2>size()</h2>
         <p>
           size()를 사용하면 정수로 stack 안에 있는 아이템의 개수를 알 수
           있습니다.<br /><br />
@@ -105,7 +105,7 @@
 
     <div>
       <div>
-        <h1>top()</h1>
+        <h2>top()</h2>
         <p>
           top()을 사용하면 stack에서 가장 위에 있는 아이템을 찾을 수
           있습니다.<br /><br />

@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>vector이란?</h1>
+        <h2>vector이란?</h2>
         <p>
           vector은 정렬과 매우 비슷한 데이터 형태입니다.<br /><br />
 
@@ -24,7 +24,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>vector 사용하기</h1>
+        <h2>vector 사용하기</h2>
 
         vector을 사용하기 위해서 vector 라이브러리에서 먼저 가지고
         오겠습니다.<br /><br />
@@ -49,7 +49,7 @@
       <div style="margin: auto">
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/vectorcode.png')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vectorcode.png"
           max-width="300"
         />
       </div>
@@ -59,7 +59,7 @@
 
     <div>
       <div>
-        <h1>vector에 아이템 더하기</h1>
+        <h2>vector에 아이템 더하기</h2>
         vector 끝에는 push_back()이라는 메서드를 이용해서 끝에 새로운 값을 더할
         수 있습니다.<br /><br />
 
@@ -115,7 +115,7 @@
 
     <div>
       <div>
-        <h1>vector 아이템 제거하기</h1>
+        <h2>vector 아이템 제거하기</h2>
 
         가장 뒤에 있는 vector 아이템은 pop_back() 메서드를 사용해서 제거할 수
         있습니다.<br /><br />

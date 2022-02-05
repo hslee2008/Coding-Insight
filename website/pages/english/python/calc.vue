@@ -4,15 +4,28 @@
 
     <div style="display: flex; justify-content: center" class="img-div">
       <div class="mx-auto">
-        <h1>Making a simple addition calculator</h1>
+        <h2>Making a simple addition calculator</h2>
         <p>
           Let's try making our own calculator using the methdos we learned in
           the previous page.<br /><br />
 
           Make sure to read
-          <NuxtLink to="number" style="color: dodgerblue">Number</NuxtLink>,
-          <NuxtLink to="operator" style="color: dodgerblue">Operator</NuxtLink>,
-          <NuxtLink to="numtype" style="color: dodgerblue"
+          <NuxtLink
+            aria-label="Go to Coding Insight Page"
+            to="number"
+            style="color: dodgerblue"
+            >Number</NuxtLink
+          >,
+          <NuxtLink
+            aria-label="Go to Coding Insight Page"
+            to="operator"
+            style="color: dodgerblue"
+            >Operator</NuxtLink
+          >,
+          <NuxtLink
+            aria-label="Go to Coding Insight Page"
+            to="numtype"
+            style="color: dodgerblue"
             >Number Types</NuxtLink
           >
           before you move on.
@@ -35,7 +48,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>Explanation</h1>
+        <h2>Explanation</h2>
         <p>
           How do we make a calculator using Python?<br /><br />
 
@@ -58,7 +71,7 @@
 
     <div>
       <div>
-        <h1>Let's make a calculator</h1>
+        <h2>Let's make a calculator</h2>
         <p>
           We will get input from two numbers<br /><br />
 

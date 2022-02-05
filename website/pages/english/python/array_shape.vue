@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Array Shapes</h1>
+        <h2>Array Shapes</h2>
         <p>
           We can use the 'shape' property to find the shape of the given
           array.<br /><br />
@@ -44,7 +44,7 @@
 
     <div>
       <div>
-        <h1>Change Array Shape</h1>
+        <h2>Change Array Shape</h2>
         <p>
           We can also format the array into a new shape using the reshape()
           method.<br /><br />

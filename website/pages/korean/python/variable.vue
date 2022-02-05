@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>변수란?</h1>
+        <h2>변수란?</h2>
         <p>
           프로그래밍에서는 변수라고 하면
           <mark>어떤 정보를 담을 수 있는 장소</mark>를 뜻합니다. <br /><br />
@@ -45,7 +45,7 @@
 
     <div>
       <div>
-        <h1>변수 선언하기</h1>
+        <h2>변수 선언하기</h2>
         <p>
           변수를 만들려면 다음과 같은 방법을 사용할 수 있습니다. <br /><br />
           <code> NAME = DATA </code>
@@ -70,7 +70,7 @@
 
     <div>
       <div>
-        <h1>변수 사용 방법</h1>
+        <h2>변수 사용 방법</h2>
         <p>
           변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이
           출력되지 않고 변수의 값이 출력됩니다.<br /><br />
@@ -88,7 +88,7 @@
 
     <div>
       <div>
-        <h1>변수 이름을 만들때 규칙</h1>
+        <h2>변수 이름을 만들때 규칙</h2>
         <p>
           변수를 만들 때 매우 다양한 규칙이 있습니다.<br /><br />
           1. 영문자 (대문자, 소문자), 숫자, 언더바 (_) 만 사용할 수 있습니다.<br /><br />
@@ -103,7 +103,7 @@
 
     <div>
       <div>
-        <h1>변수 값 바꾸기</h1>
+        <h2>변수 값 바꾸기</h2>
         <p>
           변수에 저장된 값을 바꾸기 위하여 저희는 먼저 변수를 선언하겠습니다.<br /><br />
           변수를 만들었다면 이제 변수의 값을 새로운 데이터로 바꾸어
@@ -135,14 +135,14 @@
         />
       </div>
       <div style="margin: 20px">
-        <h1>변수 삭제하기</h1>
+        <h2>변수 삭제하기</h2>
         <p>
           변수가 더 이상 필요 없고 이 코드가 실행되고 있는 기기에 저장 공간이
           많이 없다면 삭제해도 됩니다.<br /><br />
           삭제는 del 키워드를 사용하고 뒤에 변수 이름을 넣으면 이제 변수를 다시
           사용할 수 없게 됩니다.<QuadSpace />
           <code>
-            name = "Python - Factory"<br /><br />
+            name = "Coding-Insight"<br /><br />
             del name<br /><br />
             print(name)
           </code>
@@ -156,7 +156,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>변수를 한번에 많이 선정하기</h1>
+        <h2>변수를 한번에 많이 선정하기</h2>
         <p>
           처음에는 원하는 변수들의 이름을 다 쉼표로 나누고 '='를 붙입니다.<br /><br />
           '=' 뒤에 각 변수의 값을 순서대로 나열합니다.<br /><br />
@@ -192,7 +192,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -390,11 +390,13 @@
         <label for="question-5-answers-D">D) delete() </label>
       </div>
       <br /><br />
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

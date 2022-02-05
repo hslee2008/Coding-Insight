@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>딕셔너리란?</h1>
+        <h2>딕셔너리란?</h2>
         <p>
           딕셔너리(DICTIONARY)는 한국어로 '사전'을 뜻합니다.<br /><br />
 
@@ -53,7 +53,7 @@
 
     <div>
       <div>
-        <h1>딕셔너리 만드는 방법</h1>
+        <h2>딕셔너리 만드는 방법</h2>
         <p>
           딕셔너리는 Key와 Value로 이루어져 있습니다.<br /><br />
 
@@ -94,7 +94,7 @@
 
     <div>
       <div>
-        <h1>딕셔너리 Key 찾기</h1>
+        <h2>딕셔너리 Key 찾기</h2>
         <p>
           딕셔너리에서 모든 Key의 값을 찾기 위해서 keys()를 사용할 수
           있습니다.<br /><br />
@@ -102,7 +102,7 @@
           keys()를 사용하고 그 정보를 출력하면 dict_keys([keys])의 형태로 출력이
           됩니다.<br /><br />
 
-          keys()는 <NuxtLink to="./for">for 반복문</NuxtLink>에서 더 유용하게
+          keys()는 <NuxtLink aria-label="Go to Coding Insight Page" to="./for">for 반복문</NuxtLink>에서 더 유용하게
           사용할 수 있는 예시를 들겠습니다.
         </p>
       </div>
@@ -123,7 +123,7 @@
 
     <div>
       <div>
-        <h1>딕셔너리 Value 찾기</h1>
+        <h2>딕셔너리 Value 찾기</h2>
         <p>
           Key의 값을 모두 찾는 것처럼 Value의 모든 값을 찾을 수 있습니다.<br /><br />
 
@@ -151,7 +151,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -201,11 +201,13 @@
 
       <QuadSpace />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

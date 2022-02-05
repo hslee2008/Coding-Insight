@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>None</h1>
+        <h2>None</h2>
         <p>
           None means there are 0 amount.<br /><br />
 

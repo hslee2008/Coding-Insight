@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="margin: 5px;">
-        <h1>What is operator?</h1>
+        <h2>What is operator?</h2>
         <p>
           Operators are symbols that does operation on numbers.<br /><br />
 
@@ -27,10 +27,12 @@
     <QuadSpace />
 
     <Header-en num="15" title="Operator"></Header-en>
+
     <QuadSpace />
+
     <div>
       <div>
-        <h1>Arithmetic Operator</h1>
+        <h2>Arithmetic Operator</h2>
         <p>
           +, -, *, / are addition, subtraction, multiplication and division
           operators.<br /><br />
@@ -45,10 +47,12 @@
         </p>
       </div>
     </div>
+
     <QuadSpace />
+
     <div>
       <div>
-        <h1>Assignment Operator</h1>
+        <h2>Assignment Operator</h2>
         <p>
           Assign operators are operators that assign the outcome of
           operation.<br /><br />
@@ -73,10 +77,12 @@
         loading="lazy"
       />
     </div>
+
     <QuadSpace />
+
     <div>
       <div>
-        <h1>Compare Operator</h1>
+        <h2>Compare Operator</h2>
         <p>
           Compare operators compares two values.<br /><br />
 
@@ -91,7 +97,7 @@
           > returns True if left is bigger and False otherwise.<br /><br />
           >= returns True if left is bigger or equal to right and False
           otherwise.<br /><br />
-          < returns True if right is bigger and False otherwise. <=returns True
+          &lt; returns True if right is bigger and False otherwise. &lt;=returns True
           if right is bigger or equal to left and False otherwise. <br /><br />
         </p>
       </div>
@@ -108,9 +114,13 @@
         style="margin: auto"
       />
     </div>
+
     <QuadSpace />
+
     <NaviBtn bef="number" aft="numtype" />
+
     <QuadSpace />
+
   </div>
 </template>
 <script>

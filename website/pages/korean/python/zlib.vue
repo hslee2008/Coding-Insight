@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>파일 압축이란?</h1>
+        <h2>파일 압축이란?</h2>
         파일을 압축하면 파일에 있는
         <mark>내용의 용량이 많이 줄어듭니다</mark>.<br /><br />
         어떻게 파일을 압축할까요?
@@ -19,7 +19,7 @@
 
     <div>
       <div>
-        <h1>파일 압축의 원리</h1>
+        <h2>파일 압축의 원리</h2>
         <p>
           파일에서는 반복되는 단어들이 많이 있습니다.<br /><br />
           <code>
@@ -50,7 +50,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>ZLIB 모듈</h1>
+        <h2>ZLIB 모듈</h2>
         <p>
           파이썬에서는 파일 또는 데이터 형태를 압축할 수 있는 모듈이
           있습니다.<br /><br />
@@ -75,7 +75,7 @@
 
     <div>
       <div>
-        <h1>ZLIB - 문자 압축하기</h1>
+        <h2>ZLIB - 문자 압축하기</h2>
         <p>
           문자를 압축하겠습니다.<br /><br />
           아래 코드에 대한 설명을 하자면<br /><br />
@@ -104,7 +104,7 @@
 
     <div>
       <div>
-        <h1>ZLIB - 문자 압축 level</h1>
+        <h2>ZLIB - 문자 압축 level</h2>
         <p>
           문자 압축을 하는데 다양한 level이 있습니다. zlib에서는 총 10개의 level
           (0~9)이 있습니다.<br /><br />
@@ -133,7 +133,7 @@
 
     <div>
       <div>
-        <h1>ZLIB - 문자 압축 풀기</h1>
+        <h2>ZLIB - 문자 압축 풀기</h2>
         <p>압축을 풀기 위하여 zlib.decompress() 메서드를 사용할 수 있습니다.</p>
       </div>
     </div>

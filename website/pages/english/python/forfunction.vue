@@ -9,7 +9,7 @@
 
       <div>
         <div>
-          <h1>iter() and __next__()</h1>
+          <h2>iter() and __next__()</h2>
           <p>
             Using iter() function, we can make an iteration object.<br /><br />
 
@@ -43,7 +43,7 @@
       <div>
         <div>
           <div>
-            <h1>More about range()</h1>
+            <h2>More about range()</h2>
             <p>
               range() is very useful when used with for loops.<br /><br />
 

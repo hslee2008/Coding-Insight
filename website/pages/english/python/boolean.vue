@@ -1,9 +1,10 @@
 <template>
   <div>
     <br />
+
     <div style="display: flex" class="img-div">
       <div>
-        <h1>What is Boolean?</h1>
+        <h2>What is Boolean?</h2>
         <p>
           Boolean is a type of data that has only True and False.<br /><br />
 
@@ -38,7 +39,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>Something to be careful</h1>
+        <h2>Something to be careful</h2>
         <p>
           In Python, incorrect is False and correct is True.<br /><br />
 
@@ -66,11 +67,10 @@
 
     <div>
       <div>
-        <h1>not keyword</h1>
+        <h2>not keyword</h2>
         <p>Using not, we can switch from true to false and vice versa.</p>
       </div>
       <iframe
-        <iframe
         class="embed-responsive-item"
         src="https://trinket.io/embed/python/5fbbc3204c"
         width="60%"
@@ -88,7 +88,7 @@
 
     <div>
       <div>
-        <h1>assert</h1>
+        <h2>assert</h2>
         <p>
           Let's look at the following example.<br /><br />
 
@@ -125,7 +125,7 @@
 
     <div>
       <div>
-        <h1>all() and any()</h1>
+        <h2>all() and any()</h2>
         <p>
           All means everything. We have not yet learned this yet but if
           everything inside list is True, all() prints True and prints False if
@@ -156,7 +156,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -293,11 +293,13 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

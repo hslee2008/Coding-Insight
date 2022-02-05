@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>Keyboard</h1>
+        <h2>Keyboard</h2>
         <p>
           Let's try controlling keyboard using the keyboard module.<br /><br />
 
@@ -27,7 +27,7 @@
     <QuadSpace />
 
     <div class="text-center">
-      <h1>Write</h1>
+      <h2>Write</h2>
     </div>
     Let's try writing the text 'Python keyboard controll' where the console
     is.<br /><br />
@@ -39,7 +39,7 @@
     </code>
 
     <div class="text-center">
-      <h1>Press keys</h1>
+      <h2>Press keys</h2>
     </div>
     You can press each key by typing in the name of the key.<br /><br />
 

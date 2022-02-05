@@ -3,7 +3,7 @@
     <br />
 
     <div>
-      <h1>What is __name__ variable?</h1>
+      <h2>What is __name__ variable?</h2>
       <p>
         The __name__ variable let's us know whether the specific code is running
         as a module or directly.<br /><br />
@@ -27,7 +27,7 @@
 
     <div>
       <div>
-        <h1>__name__ == __main__</h1>
+        <h2>__name__ == __main__</h2>
         <p>
           Let's look at the following examples.<br /><br />
 

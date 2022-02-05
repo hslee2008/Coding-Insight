@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Pandas</h1>
+        <h2>Pandas</h2>
         <p>
           Pandas is a library that can read and analyze data efficiently.<br /><br />
 
@@ -29,7 +29,7 @@
 
     <div>
       <div>
-        <h1>Series</h1>
+        <h2>Series</h2>
         <p>
           In Pandas, if given an iterable, we can convert that into a table
           humans can easily understand using Series() class.<br /><br />
@@ -90,7 +90,7 @@
 
     <div>
       <div>
-        <h1>DataFrame()</h1>
+        <h2>DataFrame()</h2>
         <p>
           Using Panda's DataFrame() class, we can make a data of iterable into a
           frame of table.<br /><br />
@@ -113,7 +113,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>Clipboard</h1>
+        <h2>Clipboard</h2>
         <p>
           Cliboard is a place where you store all the copied
           <kbd>ctrl + c</kbd> data.<br /><br />
@@ -166,7 +166,7 @@
 
     <div>
       <div>
-        <h1>CSV</h1>
+        <h2>CSV</h2>
         <p>
           CSV is short for Comma-Seperated Value and it contains datas seperated
           by commas.<br /><br />
@@ -201,7 +201,7 @@
       <v-img
         alt="python-factory-picture"
         class="img-fluid"
-        :src="require('./image/csv.jpg')"
+        src="https://image-loader-coding-insight.web.app/py-en/img/csv.jpg"
         max-width="500px"
       />
     </div>

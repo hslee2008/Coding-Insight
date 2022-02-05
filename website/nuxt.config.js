@@ -1,5 +1,3 @@
-import colors from 'vuetify/es5/util/colors';
-
 export default {
   target: 'static',
   generate: {
@@ -8,7 +6,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s  (Python-Factory)',
+    titleTemplate: '%s | Coding-Insight',
     title: 'Coding-Insight',
     meta: [
       {
@@ -32,22 +30,39 @@ export default {
           'python',
           'c',
           'c++',
-          'rust',
+          '파이썬',
           'programming',
+          '프로그래밍',
           'coding',
           'coding-insight',
           'python-factory',
         ],
       },
       {
+        hid: 'Coding-Insight',
+        name: "Let's learn python, c, c++, and rust! 파이썬, c, c++, rust 프로그래밍 언어를 배워보겠습니다!",
+        content:
+          "Let's learn python, c, c++, and rust! 파이썬, c, c++, rust 프로그래밍 언어를 배워보겠습니다!",
+      },
+      {
         name: 'author',
         content: ['Hyunseung', 'Juha', 'Gun'],
       },
       {
-        hid: 'description',
-        name: 'description',
-        content:
-          'Let us teach you about Python, C, C++, and Rust! It is very easy, just come into our site!',
+        name: 'copyright',
+        content: 'Coding-Insight',
+      },
+      {
+        name: 'subtitle',
+        content: 'Learning Programming, Coding, Ethical Hacking',
+      },
+      {
+        name: 'subject',
+        content: 'Programming, Coding, Ethical Hacking',
+      },
+      {
+        name: 'language',
+        content: 'ES, KR',
       },
       {
         name: 'format-detection',
@@ -92,12 +107,6 @@ export default {
       devtools: true,
       performance: true,
       productionTip: true,
-      errorHandler: (err, vm, info) => {
-        console.error(`[Vue Error] ${err} ${info} - (found in ${vm})`);
-      },
-      warnHandler: (msg, vm, trace) => {
-        console.warn(`[Vue Error] ${msg} ${trace} - (found in ${vm})`);
-      },
     },
   },
 
@@ -127,8 +136,8 @@ export default {
   //  https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: '파이썬 (Python-Factory)',
-      short_name: '파이썬 (Python-Factory)',
+      name: '파이썬 (Coding-Insight)',
+      short_name: '파이썬 (Coding-Insight)',
       version: '2022.01.16',
       description: 'Learn Python in Coding-Insight',
       dir: 'rtl',

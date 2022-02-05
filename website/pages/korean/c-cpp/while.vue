@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>while 반복문이란?</h1>
+        <h2>while 반복문이란?</h2>
         <p>
           while 반복문은 for 반복문과 매우 비슷합니다.<br /><br />
 
@@ -31,7 +31,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>while문의 장점 & 단점</h1>
+        <h2>while문의 장점 & 단점</h2>
         <p>
           거의 모든 부분에서 for 반복문은 while 반복문보다 더 문제를 푸는데
           도움이 많이 됩니다.<br /><br />
@@ -55,7 +55,7 @@
 
     <div>
       <div>
-        <h1>while 기본 형태</h1>
+        <h2>while 기본 형태</h2>
         <p>
           1. 먼저 변수를 만듭니다.<br /><br />
           2. 변수의 값은 원할 때 정해도 됩니다. 밖에서도 가능하고 어떤 특별한
@@ -74,7 +74,7 @@
 
     <div>
       <div>
-        <h1>while 반복문 예시</h1>
+        <h2>while 반복문 예시</h2>
         <p>
           위의 예시에서는 a가 f가 아니면 계속 입력과 출력을 합니다.<br /><br />
 

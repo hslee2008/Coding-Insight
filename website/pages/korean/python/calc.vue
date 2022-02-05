@@ -4,7 +4,7 @@
 
     <div style="display: flex; justify-content: center" class="img-div">
       <div class="mx-auto">
-        <h1>덧셈 계산기 만들기</h1>
+        <h2>덧셈 계산기 만들기</h2>
         <p>
           이번 시간에는 저번에 배운 숫자와 연산자를 사용해 간단한 덧셈 계산기를
           만들어보겠습니다.<br /><br />
@@ -12,9 +12,9 @@
           몰래 이 프로그램을 사용해서 덧셈의 왕처럼 보일 수 있습니다.<br /><br />
 
           시작하기 전에
-          <NuxtLink to="number" style="color: dodgerblue">숫자</NuxtLink>,
-          <NuxtLink to="operator" style="color: dodgerblue">연산자</NuxtLink>,
-          <NuxtLink to="numtype" style="color: dodgerblue"
+          <NuxtLink aria-label="Go to Coding Insight Page" to="number" style="color: dodgerblue">숫자</NuxtLink>,
+          <NuxtLink aria-label="Go to Coding Insight Page" to="operator" style="color: dodgerblue">연산자</NuxtLink>,
+          <NuxtLink aria-label="Go to Coding Insight Page" to="numtype" style="color: dodgerblue"
             >숫자의 종류</NuxtLink
           >
           부분을 공부하세요.
@@ -37,7 +37,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>알고리즘</h1>
+        <h2>알고리즘</h2>
         <p>
           어떻게 사칙연산 계산기를 만들지 알아보겠습니다.<br /><br />
 
@@ -77,7 +77,7 @@
 
     <div>
       <div>
-        <h1>계산기 만들기</h1>
+        <h2>계산기 만들기</h2>
         <p>
           두 숫자 안에 입력을 받겠습니다.<br /><br />
 

@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>#include란?</h1>
+        <h2>#include란?</h2>
         <p>
           include를 사용하면 다른 파일에 있는 함수와 변수를 그 파일 안에서
           사용할 수 있습니다.<br /><br />
@@ -29,7 +29,7 @@
     <QuadSpace />
 
     <div>
-      <h1>나만의 라이브러리 만들기</h1>
+      <h2>나만의 라이브러리 만들기</h2>
       <p>
         나만의 라이브러리를 만들고 더하는 함수 add(int a, int b) 함수를 만들어서
         다른 파일에서 add 함수를 실행해 보겠습니다.<br /><br />

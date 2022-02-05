@@ -5,7 +5,7 @@
     <div>
       <div class="header-div text-white">
         <div>
-          <h1>출력이란?</h1>
+          <h2>출력이란?</h2>
           <p>
             대부분의 사람들은 '출력하다'라는 단어를 들으면 '프린트하다'를
             생각합니다.<br /><br />
@@ -47,7 +47,7 @@
 
       <div class="norm-div bg-black text-white">
         <div>
-          <h1>출력 end</h1>
+          <h2>출력 end</h2>
           <p>
             파이썬은 print() 함수로 프린트를 하고 난 후, 괄호 안에 있는 데이터
             값 끝에는 무엇을 추가로 넣을지 정할 수 있습니다.
@@ -78,7 +78,7 @@
 
       <div>
         <div>
-          <h1>출력 sep</h1>
+          <h2>출력 sep</h2>
           <p>
             print() 안에 'Hello, World!'를 입력하면 똑같은 값이 콘솔에 출력됩니다.
             다른 방법은 'Hello'와 'World'를 입력해서 'Hello, World!'를 나타나게 해
@@ -113,7 +113,7 @@
 
       <div>
         <div>
-          <h1>입력</h1>
+          <h2>입력</h2>
           <p>
             프로그래밍에서 정보를 입력한다는 것은 사용자가 특정한 정보를 콘솔에
             넣고 그것을 저장하는 작업을 뜻합니다.
@@ -159,7 +159,7 @@
       <QuadSpace />
 
       <div class="quiz">
-        <h1>퀴즈 풀기!</h1>
+        <h2>퀴즈 풀기!</h2>
 
         <v-divider />
 
@@ -343,7 +343,7 @@
 
         <br /><br />
 
-        <v-btn @click="checkAnswer">
+        <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
         </v-btn>
       </div>

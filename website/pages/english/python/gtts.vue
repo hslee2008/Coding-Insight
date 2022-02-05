@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>What is GTTS?</h1>
+        <h2>What is GTTS?</h2>
         <p>
           GTTS is a module that let's us record an audio file containing the
           words the computer spoke.<br /><br />
@@ -33,7 +33,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>gTTs Command</h1>
+        <h2>gTTs Command</h2>
         <p>
           Open a new terminal and run the following command.<br /><br />
 
@@ -59,7 +59,7 @@
 
     <div>
       <div>
-        <h1>Python</h1>
+        <h2>Python</h2>
         <p>
           Now, let's try making computer speak in Python file.<br /><br />
 

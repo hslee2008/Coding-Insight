@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>Operation Dunder method</h1>
+        <h2>Operation Dunder method</h2>
         <p>
           <code>
             neg__()<br />
@@ -38,7 +38,7 @@
 
     <div>
       <div>
-        <h1>Arithmetic Dunder Method</h1>
+        <h2>Arithmetic Dunder Method</h2>
         <p>
           <code>
             radd__(self, a) # +<br />
@@ -56,7 +56,7 @@
             imod__(self, a) # %=<br />
             ipow__(self, other) # **=<br /><br />
 
-            lt__(self, other) # <= __ge__(self, other) #>=
+            lt__(self, other) # &lt;= __ge__(self, other) #>=
           </code>
         </p>
       </div>
@@ -66,7 +66,7 @@
 
     <div>
       <div>
-        <h1>Other</h1>
+        <h2>Other</h2>
         <p>
           <code>
             contains__(self, ITEM)<br />
@@ -88,7 +88,7 @@
 
     <div>
       <div>
-        <h1>__doc__</h1>
+        <h2>__doc__</h2>
         <p>
           If we make a class or function, we can make an explanation for
           that.<br /><br />

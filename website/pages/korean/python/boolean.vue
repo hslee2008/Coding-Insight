@@ -3,7 +3,7 @@
     <br />
     <div style="display: flex" class="img-div">
       <div>
-        <h1>분리언란?</h1>
+        <h2>분리언란?</h2>
         <p>
           불리언이란 <mark>참 또는 거짓</mark>입니다.<br /><br />
 
@@ -42,7 +42,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>분리언 - 주의할 점</h1>
+        <h2>분리언 - 주의할 점</h2>
         <p>
           파이썬에서는 '옳다면 True라고 출력되고 옳지 않다면 False'라고
           출력됩니다.<br /><br />
@@ -70,7 +70,7 @@
 
     <div>
       <div>
-        <h1>불리언 - not</h1>
+        <h2>불리언 - not</h2>
         <p>
           불리언에서 True를 False로 False를 True로 바꾸기 위하여 not을 변수 앞에
           붙이면 <mark>그 반대</mark>가 출력됩니다.
@@ -93,7 +93,7 @@
 
     <div>
       <div>
-        <h1>불리언 - assert</h1>
+        <h2>불리언 - assert</h2>
         <p>
           다음과 같은 예시를 보겠습니다.<br /><br />
 
@@ -123,7 +123,7 @@
 
     <div>
       <div>
-        <h1>불리언 - all()과 any()</h1>
+        <h2>불리언 - all()과 any()</h2>
         <p>
           all은 모두를 뜻합니다. all() 함수는 리스트(배울 내용)가 주어지면
           그중에 모두 다 True라면 True를 돌려주고 하나라도 True가 아니면 False를
@@ -153,7 +153,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -292,11 +292,13 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

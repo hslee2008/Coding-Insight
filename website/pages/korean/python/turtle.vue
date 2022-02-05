@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>Turtle이란?</h1>
+        <h2>Turtle이란?</h2>
         <p>
           "Turtle이란 영어로 거북이를 뜻합니다."<br /><br />
 
@@ -34,7 +34,7 @@
 
     <div>
       <div>
-        <h1>터틀 시작하기</h1>
+        <h2>터틀 시작하기</h2>
         <p>
           Turtle은 모듈입니다. 이 모듈은 파이썬을 깔 때 설치가 저동적으로
           되어있습니다. 시작하기 위하여 새로운 파일을 만들고 터틀을 가지고
@@ -52,7 +52,7 @@
 
     <div>
       <div>
-        <h1>Turtle 진짜로 시작</h1>
+        <h2>Turtle 진짜로 시작</h2>
         <p>
           터틀에서 우리의 '거북이'가 움직일 창이 필요합니다. 창을 보이게 하기
           위하여 'getscreen()' 메서드를 사용해보겠습니다.<br /><br />
@@ -69,7 +69,7 @@
     <QuadSpace />
 
         <div>
-          <h1>Turtle 움직이기</h1>
+          <h2>Turtle 움직이기</h2>
           <p>
             <h3>앞, 뒤, 옆으로 움직이기</h3>
 

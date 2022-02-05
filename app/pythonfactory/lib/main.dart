@@ -1,8 +1,9 @@
 import 'dart:async';
+
 import 'package:flutter/material.dart';
-import 'package:webview_flutter/webview_flutter.dart';
 import 'package:flutter/services.dart';
 import 'package:share/share.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
 void main() {
   runApp(
@@ -55,7 +56,7 @@ const links = [
   {
     "title": "Fun Videos",
     "description": "Watch fun videos about Python",
-    "link": "https://coding-insight.com/korean/python/video",
+    "link": "https://www.coding-insight.com/korean/python/video",
   },
 ];
 
@@ -132,7 +133,7 @@ class _PythonFactoryAppState extends State<PythonFactoryApp> {
                   IconButton(
                     icon: const Icon(Icons.home),
                     onPressed: () async {
-                      await controller.loadUrl("https://coding-insight.com");
+                      await controller.loadUrl("https://www.coding-insight.com");
                     },
                   ),
                 ],
@@ -173,7 +174,7 @@ class _PythonFactoryAppState extends State<PythonFactoryApp> {
                                           Text(item['description'] ?? 'Error'),
                                       onTap: () {
                                         controller.data!.loadUrl(item['link'] ??
-                                            "https://coding-insight.com/");
+                                            "https://www.coding-insight.com/");
                                         Navigator.pop(context);
                                       },
                                     ),
@@ -188,7 +189,7 @@ class _PythonFactoryAppState extends State<PythonFactoryApp> {
                       break;
                     case _MenuOptions.shareSite:
                       Share.share(
-                          'check out our site! https://coding-insight.com',
+                          'check out our site! https://www.coding-insight.com',
                           subject: "Wanna learn how to code?");
                       break;
                     case _MenuOptions.exitapp:
@@ -276,7 +277,7 @@ class _PythonFactoryAppState extends State<PythonFactoryApp> {
       body: Stack(
         children: [
           WebView(
-            initialUrl: 'https://coding-insight.com/',
+            initialUrl: 'https://www.coding-insight.com/',
             allowsInlineMediaPlayback: true,
             gestureNavigationEnabled: true,
             onWebViewCreated: (webViewController) {

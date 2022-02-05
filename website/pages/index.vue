@@ -71,11 +71,23 @@
         </v-card-text>
 
         <v-card-actions>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/">
+          <v-btn
+            aria-label="Coding Insight Button"
+            class="ma-2"
+            color="primary"
+            dark
+            to="/korean/python/"
+          >
             파이썬
             <v-icon dark right> mdi-language-python </v-icon>
           </v-btn>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/quiz">
+          <v-btn
+            aria-label="Coding Insight Button"
+            class="ma-2"
+            color="primary"
+            dark
+            to="/korean/python/quiz"
+          >
             퀴즈
             <v-icon dark right> mdi-chat-question </v-icon>
           </v-btn>
@@ -101,13 +113,26 @@
         </v-card-text>
 
         <v-card-actions>
-          <NuxtLink to="/korean/c-cpp/">
-            <v-btn class="ma-2" color="primary" dark>
+          <NuxtLink aria-label="Go to Coding Insight Page" to="/korean/c-cpp/">
+            <v-btn
+              aria-label="Coding Insight Button"
+              class="ma-2"
+              color="primary"
+              dark
+            >
               <v-icon dark> mdi-language-c </v-icon>
             </v-btn>
           </NuxtLink>
-          <NuxtLink to="/korean/c-cpp/cpp">
-            <v-btn class="ma-2" color="primary" dark>
+          <NuxtLink
+            aria-label="Go to Coding Insight Page"
+            to="/korean/c-cpp/cpp"
+          >
+            <v-btn
+              aria-label="Coding Insight Button"
+              class="ma-2"
+              color="primary"
+              dark
+            >
               <v-icon dark> mdi-language-cpp </v-icon></v-btn
             >
           </NuxtLink>
@@ -133,7 +158,12 @@
 
         <v-card-actions>
           <a href="/korean/rust/">
-            <v-btn class="ma-2" color="primary" dark>
+            <v-btn
+              aria-label="Coding Insight Button"
+              class="ma-2"
+              color="primary"
+              dark
+            >
               Rust
               <v-icon dark right> mdi-language-rust </v-icon>
             </v-btn>
@@ -152,7 +182,9 @@
 
           파이썬 코딩 언어를 사용해서 컴퓨터 앱도 만들었습니다.<br /><br />
 
-          <v-btn to="/app"><v-icon>mdi-apps</v-icon> 앱 다운로드</v-btn>
+          <v-btn aria-label="Coding Insight Button" to="/app"
+            ><v-icon>mdi-apps</v-icon> 앱 다운로드</v-btn
+          >
         </p>
       </div>
       <div style="margin: auto">
@@ -166,6 +198,16 @@
     <QuadSpace />
   </div>
 </template>
+
+<script>
+export default {
+  name: 'IndexPage',
+
+  head: () => ({
+    title: '홈',
+  }),
+};
+</script>
 
 <style>
 .titleDiv {

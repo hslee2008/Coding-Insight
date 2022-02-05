@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Friend Contact List Verison 2</h1>
+        <h2>Friend Contact List Verison 2</h2>
         <p>
           This time, we will save all our friends inside a .txt file for later.
         </p>
@@ -26,16 +26,18 @@
     <QuadSpace />
 
     <div>
-      <h1>Explanation</h1>
+      <h2>Explanation</h2>
       <p>
         1. We will be improving the
-        <NuxtLink to="./contact">previous verison</NuxtLink><br /><br />
+        <NuxtLink aria-label="Go to Coding Insight Page" to="./contact"
+          >previous verison</NuxtLink
+        ><br /><br />
       </p>
     </div>
 
     <QuadSpace />
 
-    <h1>Check Code</h1>
+    <h2>Check Code</h2>
     <iframe
       src="https://trinket.io/embed/python3/9e26723d8a"
       width="100%"
@@ -56,7 +58,7 @@
 
 <script>
 export default {
-  name: 'PasswordPage',
+  name: 'Contact2Page',
 };
 </script>
 `

@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>What is Anonymous Function?</h1>
+        <h2>What is Anonymous Function?</h2>
         <p>
           Anonymous function is a type of function that does not have a name.<br /><br />
 
@@ -22,7 +22,7 @@
 
     <div>
       <div>
-        <h1>Lambda</h1>
+        <h2>Lambda</h2>
         <p>
           To declare anonymous functions,<br /><br />
 

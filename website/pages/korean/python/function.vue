@@ -7,7 +7,7 @@
         class="img-div"
       >
         <div class="mx-auto">
-          <h1>함수란?</h1>
+          <h2>함수란?</h2>
           <p>
             코딩에서 함수의 정의란 코드의 모음을 뜻합니다. 함수를 사용하면 매우
             길고 실행하는데 오래 걸리는 코드를 한 줄 안에 쉽게 실행할 수 있게
@@ -30,7 +30,7 @@
 
       <div>
         <div>
-          <h1>함수 선언과 실행</h1>
+          <h2>함수 선언과 실행</h2>
           <p>
             함수를 선언하기 위하여 'def' 키워드 다음에 함수 이름과 소괄호()와
             ':'를 넣고 코드를 안에 넣습니다.<br /><br />
@@ -61,7 +61,7 @@
       <div>
         <div>
           <div>
-            <h1>매개변수</h1>
+            <h2>매개변수</h2>
             <p>
               매개변수는 변수인데 '매개변수'의 정의는 무엇일까요?<br /><br />
 
@@ -90,7 +90,7 @@
 
       <div>
         <div>
-          <h1>apply()를 이용한 함수 실행</h1>
+          <h2>apply()를 이용한 함수 실행</h2>
           <p>
             또는 apply() 함수를 이용하여 또 다른 함수를 실행하는 것도
             가능합니다.<br /><br />
@@ -109,7 +109,7 @@
 
       <div>
         <div>
-          <h1>함수의 중요성</h1>
+          <h2>함수의 중요성</h2>
           <p>
             함수는 우리의 코드를 매우 효율적이게 만들 수 있습니다.<br /><br />
 
@@ -141,7 +141,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -191,11 +191,13 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

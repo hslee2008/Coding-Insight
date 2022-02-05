@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>파일 읽기란?</h1>
+        <h2>파일 읽기란?</h2>
         <p>
           'text.txt'라는 파일을 만들어보겠습니다.<br /><br />
 
@@ -37,7 +37,7 @@
 
     <div>
       <div>
-        <h1>read()</h1>
+        <h2>read()</h2>
         <p>
           read()는 그 파일의 내용을 다 출력하는 코드입니다. 첫 번째 매개변수는
           그 파일의 출력할 내용의 길이를 정해줍니다.<br /><br />
@@ -69,7 +69,7 @@
 
     <div>
       <div>
-        <h1>readline()</h1>
+        <h2>readline()</h2>
         <p>
           하나의 줄을 읽으려면 'readline()'을 사용하면 됩니다.<br /><br />
 
@@ -94,7 +94,7 @@
 
     <div>
       <div>
-        <h1>readlines()</h1>
+        <h2>readlines()</h2>
         <p>
           readline()과 readlines()는 비슷해 보이지만 분명한 차이가 있는
           코드입니다.<br /><br />
@@ -120,7 +120,7 @@
 
     <div>
       <div>
-        <h1>readable()</h1>
+        <h2>readable()</h2>
         <p>
           파일의 읽기 가능 여부를 확인할 때 readable()을 사용할 수 있습니다.
           만일 파일을 읽는 것이 가능하면 True를 돌려주고 그렇지 않다면 False를

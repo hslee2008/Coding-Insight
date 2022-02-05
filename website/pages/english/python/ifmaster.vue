@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>Simple If Statement</h1>
+        <h2>Simple If Statement</h2>
         <p>
           Sometimes, with all the if, elif, else and indentation, if statement
           can be a bit confusing.<br /><br />
@@ -56,7 +56,7 @@
     <div>
       <div>
         <div style="padding: 10px">
-          <h1>Switch</h1>
+          <h2>Switch</h2>
           <p>
             Other programming languages such as JavaScript has unique and useful
             syntax called siwtch.<br /><br />
@@ -108,7 +108,7 @@
 
     <div>
       <div>
-        <h1>Indentation</h1>
+        <h2>Indentation</h2>
         <p>
           Indentation is when you make an extra space before the first alphabet
           of the parahraph so that the reader will recognize it is the start.<br /><br />

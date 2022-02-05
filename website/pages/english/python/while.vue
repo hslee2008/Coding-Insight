@@ -9,7 +9,7 @@
 
       <div>
         <div>
-          <h1>What is while loop?</h1>
+          <h2>What is while loop?</h2>
           <p>
             Simply put, while loops is a loop that repeats the code inside if a
             certain statement is true.<br /><br />
@@ -38,7 +38,7 @@
       <div>
         <div>
           <div>
-            <h1>Using While Loop</h1>
+            <h2>Using While Loop</h2>
             <p>
               The following is an example of while loop.<br /><br />
 
@@ -87,7 +87,7 @@
 
       <div>
         <div>
-          <h1>break 문</h1>
+          <h2>break 문</h2>
           <p>
             break statement BREAKS the while or for loop and end it immediately.
           </p>
@@ -109,7 +109,7 @@
 
       <div>
         <div>
-          <h1>for v.s. while</h1>
+          <h2>for v.s. while</h2>
           <p>
             In Python, using <mark>for loops</mark> are better thhat while loops
             in most occasions.<br /><br />

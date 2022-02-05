@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>What is context manager(with 'with')</h1>
+        <h2>What is context manager(with 'with')</h2>
         <p>
           In Python, it is required that you close the file using close() method
           after working with it.<br /><br />
@@ -30,7 +30,7 @@
 
     <div>
       <div>
-        <h1>Context Manager Example</h1>
+        <h2>Context Manager Example</h2>
         <p>
           1. First, type in 'with'.<br />
           2. Then, using the open() function, put in the file data type.<br />
@@ -62,7 +62,7 @@
     <div>
       <div>
         <div>
-          <h1>Making your own context manager</h1>
+          <h2>Making your own context manager</h2>
           <p>
             We learned about classes before.<br /><br />
 

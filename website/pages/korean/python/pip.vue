@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>PIP란?</h1>
+        <h2>PIP란?</h2>
         <p>
           PIP는 파이썬에서 파일 또는 모듈을 다루는 프로그램 이름입니다.<br /><br />
 
@@ -28,7 +28,7 @@
 
     <div>
       <div>
-        <h1>PIP 설치를 했는지 확인하는 방법</h1>
+        <h2>PIP 설치를 했는지 확인하는 방법</h2>
         <p>
           VSCode에서 <kbd>ctrl + `</kbd> 를 눌러 터미널을 열고 pip
           --version이라고 친 후 엔터를 누릅니다.<br /><br />
@@ -45,7 +45,7 @@
     <div>
       <div>
         <div>
-          <h1>PIP 설치 방법</h1>
+          <h2>PIP 설치 방법</h2>
           <p>
             1. 처음 파이썬 마법사를 검색하여 클릭한 후 'MODIFY'를 누르세요.
             다음에 'pip 설치' 옵션을 선택한 후 다시 설치하는 방법도 있습니다.<br /><br />
@@ -60,7 +60,7 @@
     <div>
       <div>
         <div>
-          <h1>PIP install & uninstall</h1>
+          <h2>PIP install & uninstall</h2>
           <p>
             PIP에서 파이썬 모듈을 설치할 수 있습니다. CMD에서 다음과 같은 코드를
             입력 후 엔터를 누르세요.<br /><br />
@@ -81,7 +81,7 @@
     <div>
       <div>
         <div>
-          <h1>PIP show</h1>
+          <h2>PIP show</h2>
           어떤 PIP package에 대한 정보를 보기 위하여 pip show 커맨드를 사용할 수
           있습니다.<br /><br />
 

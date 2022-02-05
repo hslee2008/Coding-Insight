@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>for 반복문이란?</h1>
+        <h2>for 반복문이란?</h2>
         <p>
           for 반복문이란 반복되는 작업을 매우 효율적이게 맡을 수 있는
           반복문입니다.
@@ -27,7 +27,7 @@
 
     <div>
       <div>
-        <h1>for 반복문</h1>
+        <h2>for 반복문</h2>
         <p>
           for 반복문은 리스트와 함께 사용할 수 있는 반복문입니다.<br /><br />
 
@@ -58,7 +58,7 @@
     <div>
       <div>
         <div>
-          <h1>for + range()</h1>
+          <h2>for + range()</h2>
           <p>
             특정한 개수만큼 반복을 시킬 수도 있습니다.<br /><br />
 
@@ -88,7 +88,7 @@
     <div>
       <div>
         <div>
-          <h1>for + else</h1>
+          <h2>for + else</h2>
           <p>
             조건문에서 공부했던 else를 for과 같이 사용하면 for의 range가 끝나면
             else문 안에 있는 파이썬 코드를 실행합니다.
@@ -113,7 +113,7 @@
     <div>
       <div style="padding: 10px; border-radius: 5px">
         <div>
-          <h1>팁!</h1>
+          <h2>팁!</h2>
           <p>
             for 반복문은 하나하나 값을 모두 가지고 와서 for 문 안에 있는 코드를
             실행하는 코드여서 매우 느립니다.<br /><br />
@@ -133,7 +133,7 @@
     <div>
       <div>
         <div>
-          <h1>반복 중단</h1>
+          <h2>반복 중단</h2>
           <p>
             반복을 하다가 중단시킬 수도 있습니다.<br /><br />
 

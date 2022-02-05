@@ -3,7 +3,7 @@
     <br />
     <div>
       <div>
-        <h1>이스케이프 문자란?</h1>
+        <h2>이스케이프 문자란?</h2>
         <p>
           이스케이프는 탈출하다를 뜻합니다. 이스케이프 캐릭터는
           <mark>에러를 피하는 것을 도와줍니다</mark>.<br /><br />
@@ -51,7 +51,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>\'와 \"</h1>
+        <h2>\'와 \"</h2>
         <p>
           \'와 \"는 각각 ', "와 충돌하지 않게 도와주는 문자입니다.<br /><br />
 
@@ -85,7 +85,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>\n</h1>
+        <h2>\n</h2>
         <p>
           영어로 새로운 줄은 newline이라고 합니다. \n는 엔터와 같습니다.<br /><br />
 
@@ -112,7 +112,7 @@
 
     <div>
       <div>
-        <h1>\r</h1>
+        <h2>\r</h2>
         <p>
           return은 "돌려주다"라는 뜻입니다. 다시 말해, \r를 사용하면 \r 전에
           있는 캐릭터가 없어집니다.<br /><br />
@@ -143,7 +143,7 @@
 
     <div>
       <div>
-        <h1>\t</h1>
+        <h2>\t</h2>
         <p>
           탭은 스페이스바를 4번 누른 것과 같습니다. 탭은 우리 자판에서 tab
           버튼을 누르면 됩니다.<br /><br />
@@ -159,7 +159,7 @@
 
     <div>
       <div>
-        <h1>r'문자' 형태</h1>
+        <h2>r'문자' 형태</h2>
         <p>
           파이썬에서 문자인데 이스케이프 문자를 사용하지 않는 문자를 만들고
           싶다면 어떻게 할까요?<br /><br />
@@ -191,7 +191,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -240,11 +240,13 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

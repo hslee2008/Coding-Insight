@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>나만의 namespace</h1>
+        <h2>나만의 namespace</h2>
         <p>
           endl 함수를 실행하면 새로운 줄이 더해집니다.<br /><br />
 

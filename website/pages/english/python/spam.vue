@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>Spam Email</h1>
+        <h2>Spam Email</h2>
         <p>
           This project is for spamming your friends and families with Python.
         </p>
@@ -25,7 +25,7 @@
     <QuadSpace />
 
     <div class="text-center">
-      <h1>Preparation</h1>
+      <h2>Preparation</h2>
     </div>
     <p>
       We first have to download smtplib and ssl module using PIP to use email

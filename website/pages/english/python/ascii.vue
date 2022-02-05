@@ -3,7 +3,7 @@
     <br />
     <div style="display: flex" class="img-div">
       <div style="padding: 5px; margin: auto">
-        <h1>What is ASCII?</h1>
+        <h2>What is ASCII?</h2>
         <p>
           ASCII is short for American Standard Code for Information
           Interchange.<br /><br />
@@ -34,7 +34,7 @@
 
     <div>
       <div>
-        <h1>ord()</h1>
+        <h2>ord()</h2>
         <p>
           Using ord(), we can get the ASCII value of a character.<br /><br />
 
@@ -59,7 +59,7 @@
 
     <div>
       <div>
-        <h1>chr()</h1>
+        <h2>chr()</h2>
         <p>
           On the other hand, chr() prints the character of ASCII code.<br /><br />
 
@@ -87,7 +87,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -180,7 +180,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>

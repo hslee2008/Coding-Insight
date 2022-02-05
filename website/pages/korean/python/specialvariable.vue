@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>Global 변수</h1>
+        <h2>Global 변수</h2>
         <p>
           파이썬에서는 함수 안에 변수를 선언한다면 다른 곳에서 그것을 사용하지
           못합니다.<br /><br />
@@ -40,7 +40,7 @@
     <div>
       <div>
         <div>
-          <h1>Nonlocal 변수</h1>
+          <h2>Nonlocal 변수</h2>
           <p>
             NONLOCAL은 GLOBAL의 반대입니다.<br /><br />
 

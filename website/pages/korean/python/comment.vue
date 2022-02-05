@@ -4,7 +4,7 @@
 
     <div style="display: flex; margin: auto" class="img-div">
       <div style="margin: auto">
-        <h1>주석이란?</h1>
+        <h2>주석이란?</h2>
         <p>
           온라인 수업시간에 '주석 달기'라는 버튼을 사용해 보신적이 있나요?<br /><br />
 
@@ -45,7 +45,7 @@
     <QuadSpace />
 
     <div>
-      <h1>주석을 사용해야 하는 상황</h1>
+      <h2>주석을 사용해야 하는 상황</h2>
       <p>
         1. 팀으로 일할 때 코드의 부분의 기능을 설명할 때<br /><br />
         2. 프린트 코드에서 어떤 값이 출력하는지 알려줄 때<br /><br />
@@ -70,7 +70,7 @@
 
     <div>
       <div>
-        <h1>한 줄 주석</h1>
+        <h2>한 줄 주석</h2>
         <p>
           파이썬에서는 주석을 달기 위하여 '#'를 사용합니다.<br /><br />
 
@@ -99,7 +99,7 @@
 
     <div>
       <div>
-        <h1>한 줄 이상 주석</h1>
+        <h2>한 줄 이상 주석</h2>
         <p>
           주석을 많이 작성하거나 하나 이상 줄을 만들고 싶다면 다음과 같은 방법을
           사용할 수 있습니다.<br /><br />
@@ -128,7 +128,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -221,7 +221,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

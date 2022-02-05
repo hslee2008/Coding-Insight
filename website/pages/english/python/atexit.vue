@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Python Function register</h1>
+        <h2>Python Function register</h2>
         <p>
           Using the atexit module, we can register a function to role when the
           Python program ends.<br /><br />
@@ -28,7 +28,7 @@
 
     <div>
       <div>
-        <h1>register()</h1>
+        <h2>register()</h2>
         <p>
           Let's try making a file editor using Python.<br /><br />
 
@@ -77,7 +77,7 @@
 
     <div>
       <div>
-        <h1>atexit decorator</h1>
+        <h2>atexit decorator</h2>
         <p>
           Or we can use the decorator to decorae a function to run when program
           ends.

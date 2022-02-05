@@ -22,7 +22,7 @@
 
     <div class="header-div bg-black text-white">
       <div>
-        <h1>절댓값</h1>
+        <h2>절댓값</h2>
         <p>
           a의 절댓값은 a와 0의 거리를 뜻합니다.<br /><br />
 
@@ -55,7 +55,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -105,7 +105,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

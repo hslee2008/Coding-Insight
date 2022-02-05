@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>@mydecorator</h1>
+        <h2>@mydecorator</h2>
         <p>데코레이터를 사용하면 나만의 기능을 더 추가할 수 있습니다.</p>
       </div>
     </div>

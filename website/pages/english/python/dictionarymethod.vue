@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>How to add a pair of key and value</h1>
+        <h2>How to add a pair of key and value</h2>
         <p>
           Inside a dictionary variable named 'md', let's try adding 'c' value to
           the '3' key.<br /><br />
@@ -33,7 +33,7 @@
 
     <div>
       <div>
-        <h1>How to delete a pair of key and value</h1>
+        <h2>How to delete a pair of key and value</h2>
         <p>
           Similar to deletig a variable, we can delete a pair of key and
           value.<br /><br />
@@ -69,7 +69,7 @@
 
     <div>
       <div>
-        <h1>How to change value of key</h1>
+        <h2>How to change value of key</h2>
         <p>
           To change the value of key, type in the key name inside [] and new
           value after it.<br /><br />
@@ -128,7 +128,7 @@
 
     <div>
       <div>
-        <h1>Get dictionary key</h1>
+        <h2>Get dictionary key</h2>
         <p>
           To find the value of the key, use the get() method.<br /><br />
 

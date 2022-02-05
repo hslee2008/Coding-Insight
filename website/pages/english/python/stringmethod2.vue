@@ -8,7 +8,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Adding Text</h1>
+        <h2>Adding Text</h2>
         <p>
           Characters can be added using '+'.<br /><br />
 
@@ -51,7 +51,7 @@
 
     <div>
       <div>
-        <h1>Information About Text</h1>
+        <h2>Information About Text</h2>
         <p>
           There is a way in Python to know if a character consists only of
           alphanumeric characters. Just use the 'isalnum()' method.<br /><br />
@@ -96,7 +96,7 @@
 
     <div>
       <div>
-        <h1>Python Character Trim</h1>
+        <h2>Python Character Trim</h2>
         <p>
           I'm going to make a program to filter out bad words.<br /><br />
 
@@ -149,7 +149,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!</h1>
+      <h2>Solve This Quiz!</h2>
 
       <v-divider />
 
@@ -285,7 +285,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

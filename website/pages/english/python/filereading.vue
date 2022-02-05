@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>File Reading</h1>
+        <h2>File Reading</h2>
         <p>
           Let's make a file named text.txt that has 'Python is fantastic'
           message inside.<br /><br />
@@ -34,7 +34,7 @@
 
     <div>
       <div>
-        <h1>read()</h1>
+        <h2>read()</h2>
         <p>
           read() method gives us ALL the text inside that file.<br /><br />
 
@@ -62,7 +62,7 @@
 
     <div>
       <div>
-        <h1>readline()</h1>
+        <h2>readline()</h2>
         <p>
           Readline reads the lines one by one.<br /><br />
 
@@ -92,7 +92,7 @@
 
     <div>
       <div>
-        <h1>readlines()</h1>
+        <h2>readlines()</h2>
         <p>
           readline() is very similar to readlines().<br /><br />
 
@@ -117,7 +117,7 @@
 
     <div>
       <div>
-        <h1>readable()</h1>
+        <h2>readable()</h2>
         <p>
           To check whether our file can be read using Python, we can use
           readable() method.<br /><br />

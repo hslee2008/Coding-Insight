@@ -4,7 +4,7 @@
 
       <div style="display: flex" class="img-div">
         <div>
-          <h1>문자란?</h1>
+          <h2>문자란?</h2>
           <p>
             문자란 언어를 구성하는 기호를 뜻합니다.<br /><br />
 
@@ -40,7 +40,7 @@ width="80%" height="315" src="https://www.youtube.com/embed/NT0qINEacEo" title="
 
       <div style="display: flex" class="img-div">
         <div style="margin: auto;">
-          <h1>파이썬에서 문자 만들기</h1>
+          <h2>파이썬에서 문자 만들기</h2>
           <p>
             문자는 항상 '' 또는 "" 안에 값이 있어야 합니다.<br /><br />
             하지만 ''와 "" 안의 값은 항상 한 줄 안에 있어야 합니다.<br /><br />
@@ -58,7 +58,7 @@ src="https://trinket.io/embed/python/7c86f7328a" width="50%" height="356" frameb
 
       <div >
         <div>
-          <h1>문자 - 여러 줄</h1>
+          <h2>문자 - 여러 줄</h2>
           <p>
             만일 문자와 문자 사이에 많은 줄이 있는 형태로 데이터를 출력하고 싶다면 어떻게 할까요? <br /><br />
 
@@ -91,7 +91,7 @@ src="https://trinket.io/embed/python/c420acd5f8" width="100%" height="356" frame
 
       <div>
         <div>
-          <h1>문자 인덱싱 - x 번째 값 구하기</h1>
+          <h2>문자 인덱싱 - x 번째 값 구하기</h2>
           <p>
             문자에서 선택하고 싶은 한 장소의 정보를 찾아내는 작업을 인덱싱이라고 하고 그 장소를 인덱스라고 합니다.<br /><br />
 
@@ -122,7 +122,7 @@ src="https://trinket.io/embed/python3/e1cdc9760f" width="100%" height="356" fram
 
       <div>
         <div style="margin:20px;">
-          <h1>문자 인덱싱 - x 부터 y까지 값</h1>
+          <h2>문자 인덱싱 - x 부터 y까지 값</h2>
           <p>
             문자에서 어떤 범위의 부분 문자를 구하기 위하여 다음과 같은 방법을 사용할 수 있습니다.<br /><br />
 
@@ -142,7 +142,7 @@ src="https://trinket.io/embed/python/47c742b3bd" width="100%" height="356" frame
 
       <div>
         <div>
-          <h1>거꾸로 문자 뒤집기</h1>
+          <h2>거꾸로 문자 뒤집기</h2>
           <p>
             문자를 거꾸로 바꾸기 위하여 인덱싱을 사용할 수도 있습니다.<br /><br />
 
@@ -167,7 +167,7 @@ src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frame
       <QuadSpace />
 
       <div class="quiz">
-        <h1>퀴즈 풀기!</h1>
+        <h2>퀴즈 풀기!</h2>
 
         <hr>
 
@@ -290,7 +290,7 @@ src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frame
           <label for="question-5-answers-D">D) 0 </label>
         </div> <br /><br />
 
-        <v-btn @click="checkAnswer">
+        <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
         </v-btn>
       </div>

@@ -8,7 +8,7 @@
 
     <div class="header-div bg-black text-white">
       <div>
-        <h1>Absolute Value</h1>
+        <h2>Absolute Value</h2>
         <p>
           The absolute value of a is equal to the distance from a to 0.<br /><br />
 
@@ -45,7 +45,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -95,7 +95,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>

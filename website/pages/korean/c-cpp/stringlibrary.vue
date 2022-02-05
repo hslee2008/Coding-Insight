@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>string.h</h1>
+        <h2>string.h</h2>
         <p>
           string.h는 라이브러리 이름입니다.<br /><br />
 
@@ -36,7 +36,7 @@
 
     <div>
       <div>
-        <h1>문자열 붙이기</h1>
+        <h2>문자열 붙이기</h2>
         <h3>strcat()</h3>
 
         문자열 a에 문자열 b를 붙이기 위해서 strcat() 함수를 사용할 수
@@ -85,7 +85,7 @@
 
     <div>
       <div>
-        <h1>문자열 길이 구하기</h1>
+        <h2>문자열 길이 구하기</h2>
         <p>
           strlen(string) 형태로 string 문자열의 길이를 알 수 있습니다.<br /><br />
 

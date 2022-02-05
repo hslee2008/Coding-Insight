@@ -4,7 +4,7 @@
 
     <div style="display: flex">
       <div style="margin: auto">
-        <h1>식별자란?</h1>
+        <h2>식별자란?</h2>
         <p>
           식별자는 상자의 형태를 나타내는 것으로, 상자를 바꿀 수 있느냐를
           지정합니다.<br /><br />
@@ -18,7 +18,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img :src="require('./img/code_mut_variable.png')" max-width="300" />
+        <v-img src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png" max-width="300" />
       </div>
     </div>
 
@@ -30,7 +30,7 @@
 
     <div>
       <div>
-        <h1>immutable과 const의 차이</h1>
+        <h2>immutable과 const의 차이</h2>
         <p>
           immutable과 const는 매우 비슷합니다.<br /><br />
 

@@ -4,7 +4,7 @@
 
     <div class="d-flex img-div" style="padding: 10px; border-radius: 5px">
       <div>
-        <h1>Can we run string as code?</h1>
+        <h2>Can we run string as code?</h2>
         <p>In Python, we can run a string like a code.</p>
       </div>
       <div class="mx-auto">
@@ -24,7 +24,7 @@
 
     <div>
       <div>
-        <h1>eval()</h1>
+        <h2>eval()</h2>
         <p>
           eval() is short for evaluation.<br /><br />
 
@@ -56,7 +56,7 @@
 
     <div>
       <div>
-        <h1>exec()</h1>
+        <h2>exec()</h2>
         <p>
           exec() is short for execute and it runs a Python code.<br /><br />
 
@@ -80,7 +80,7 @@
 
     <div>
       <div>
-        <h1>compile()</h1>
+        <h2>compile()</h2>
         <p>
           compile() will turn string into binary code and run that.<br /><br />
 
@@ -113,7 +113,7 @@
     <QuadSpace />
 
     <div id="idlepython">
-      <h1>PROJECT (PROJ: 9): My Own Python IDLE</h1>
+      <h2>PROJECT (PROJ: 9): My Own Python IDLE</h2>
       <iframe
         class="embed-responsive-item"
         src="https://trinket.io/embed/python3/fa7de26cef"

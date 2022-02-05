@@ -22,7 +22,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>문자 더하기</h1>
+        <h2>문자 더하기</h2>
         <p>
           문자를 +를 사용하여 더할 수 있습니다.
 
@@ -54,7 +54,7 @@
 
     <div>
       <div>
-        <h1>문자에 대한 정보</h1>
+        <h2>문자에 대한 정보</h2>
         <p>
           파이썬에서 문자가 알파벳과 숫자로만 이루어져 있는지 아는 방법이
           있습니다.<br /><br />
@@ -91,7 +91,7 @@
 
     <div>
       <div>
-        <h1>파이썬 문자 자르기 - 나쁜말 필터기</h1>
+        <h2>파이썬 문자 자르기 - 나쁜말 필터기</h2>
         <p>
           나쁜 단어 필터링하는 프로그램을 만들겠습니다.<br /><br />
 
@@ -125,7 +125,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -261,7 +261,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

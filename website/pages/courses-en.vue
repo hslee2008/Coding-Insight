@@ -24,15 +24,33 @@
         </v-card-text>
 
         <v-card-actions>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/">
+          <v-btn
+            aria-label="Coding Insight Button"
+            class="ma-2"
+            color="primary"
+            dark
+            to="/korean/python/"
+          >
             Python
             <v-icon> mdi-language-python </v-icon>
           </v-btn>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/quiz">
+          <v-btn
+            aria-label="Coding Insight Button"
+            class="ma-2"
+            color="primary"
+            dark
+            to="/korean/python/quiz"
+          >
             Quiz
             <v-icon> mdi-chat-question </v-icon>
           </v-btn>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/video">
+          <v-btn
+            aria-label="Coding Insight Button"
+            class="ma-2"
+            color="primary"
+            dark
+            to="/korean/python/video"
+          >
             Video
             <v-icon> mdi-youtube </v-icon>
           </v-btn>
@@ -58,12 +76,22 @@
 
         <v-card-actions>
           <a href="/korean/c-cpp/">
-            <v-btn class="ma-2" color="primary" dark>
+            <v-btn
+              aria-label="Coding Insight Button"
+              class="ma-2"
+              color="primary"
+              dark
+            >
               <v-icon> mdi-language-c </v-icon>
             </v-btn>
           </a>
           <a href="/korean/c-cpp/cpp">
-            <v-btn class="ma-2" color="primary" dark>
+            <v-btn
+              aria-label="Coding Insight Button"
+              class="ma-2"
+              color="primary"
+              dark
+            >
               <v-icon> mdi-language-cpp </v-icon></v-btn
             >
           </a>
@@ -90,7 +118,12 @@
 
         <v-card-actions>
           <a href="/korean/c-cpp/">
-            <v-btn class="ma-2" color="primary" dark>
+            <v-btn
+              aria-label="Coding Insight Button"
+              class="ma-2"
+              color="primary"
+              dark
+            >
               Rust
               <v-icon> mdi-language-rust </v-icon>
             </v-btn>
@@ -106,5 +139,8 @@
 <script>
 export default {
   name: 'CoursesENPage',
+  head: () => ({
+    title: 'Courses',
+  }),
 };
 </script>

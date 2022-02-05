@@ -9,7 +9,7 @@
 
       <div>
         <div>
-          <h1>Iterable</h1>
+          <h2>Iterable</h2>
           <p>
             for 반복문을 사용하여 리스트에 있는 아이템을 순환하며 하나씩
             선택하여 사용할 수 있습니다.<br /><br />
@@ -47,7 +47,7 @@
       <div>
         <div>
           <div>
-            <h1>Generator</h1>
+            <h2>Generator</h2>
             <p>
               Generator(제너레이터)는 이터러블과 같다고 할 수 있습니다.<br /><br />
 
@@ -75,7 +75,7 @@
       <div>
         <div>
           <div>
-            <h1>YIELD</h1>
+            <h2>YIELD</h2>
             <p>
               Yield는 return과 비슷한 기능을 가지고 있습니다.<br /><br />
 

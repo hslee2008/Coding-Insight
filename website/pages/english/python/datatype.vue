@@ -3,7 +3,7 @@
     <br />
     <div style="display: flex" class="img-div">
       <div>
-        <h1>What is data and data type?</h1>
+        <h2>What is data and data type?</h2>
         <p>
           In programming, symbols such as numbers and alphabets are called
           data.<br /><br />
@@ -36,7 +36,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto; padding-right: 5px">
-        <h1>Know the data type in Python</h1>
+        <h2>Know the data type in Python</h2>
         <p>
           To find the data type of a variable or anything in Python, use the
           type() code.<br /><br />
@@ -70,7 +70,7 @@
 
     <div>
       <div>
-        <h1>Check data type in Python</h1>
+        <h2>Check data type in Python</h2>
         <p>
           To check wether a data is a certain type in Python, use isinstance()
           code.<br /><br />
@@ -98,7 +98,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -237,11 +237,13 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

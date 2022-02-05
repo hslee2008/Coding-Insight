@@ -24,11 +24,23 @@
         </v-card-text>
 
         <v-card-actions>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/">
+          <v-btn
+            aria-label="Coding Insight Button"
+            class="ma-2"
+            color="primary"
+            dark
+            to="/korean/python/"
+          >
             파이썬
             <v-icon dark right> mdi-language-python </v-icon>
           </v-btn>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/quiz">
+          <v-btn
+            aria-label="Coding Insight Button"
+            class="ma-2"
+            color="primary"
+            dark
+            to="/korean/python/quiz"
+          >
             퀴즈
             <v-icon dark right> mdi-chat-question </v-icon>
           </v-btn>
@@ -54,13 +66,26 @@
         </v-card-text>
 
         <v-card-actions>
-          <NuxtLink to="/korean/c-cpp/">
-            <v-btn class="ma-2" color="primary" dark>
+          <NuxtLink aria-label="Go to Coding Insight Page" to="/korean/c-cpp/">
+            <v-btn
+              aria-label="Coding Insight Button"
+              class="ma-2"
+              color="primary"
+              dark
+            >
               <v-icon dark> mdi-language-c </v-icon>
             </v-btn>
           </NuxtLink>
-          <NuxtLink to="/korean/c-cpp/cpp">
-            <v-btn class="ma-2" color="primary" dark>
+          <NuxtLink
+            aria-label="Go to Coding Insight Page"
+            to="/korean/c-cpp/cpp"
+          >
+            <v-btn
+              aria-label="Coding Insight Button"
+              class="ma-2"
+              color="primary"
+              dark
+            >
               <v-icon dark> mdi-language-cpp </v-icon></v-btn
             >
           </NuxtLink>
@@ -86,7 +111,12 @@
 
         <v-card-actions>
           <a href="/korean/rust/">
-            <v-btn class="ma-2" color="primary" dark>
+            <v-btn
+              aria-label="Coding Insight Button"
+              class="ma-2"
+              color="primary"
+              dark
+            >
               Rust
               <v-icon dark right> mdi-language-rust </v-icon>
             </v-btn>
@@ -102,5 +132,8 @@
 <script>
 export default {
   name: 'CoursesPage',
+  head: () => ({
+    title: 'Courses',
+  }),
 };
 </script>

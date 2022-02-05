@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>What is tuple?</h1>
+        <h2>What is tuple?</h2>
         <p>
           Tuple is very similar to lists but we cannot change what is inside
           tuple.<br /><br />
@@ -46,7 +46,7 @@
 
     <div>
       <div>
-        <h1>Tuples hacks & tips - unravel</h1>
+        <h2>Tuples hacks & tips - unravel</h2>
         <p>
           We can use tuples like a box to unravel the contents inside.<br /><br />
 
@@ -96,7 +96,7 @@
 
     <div>
       <div>
-        <h1>Tuple set length</h1>
+        <h2>Tuple set length</h2>
         <p>
           To set the length of the tuple and tell Python not to allow any more
           items, use the additional comma.<br /><br />
@@ -128,7 +128,7 @@
 
     <div>
       <div>
-        <h1>zip()</h1>
+        <h2>zip()</h2>
         <p>
           We usually see two sides of the zipper lign up when we zip.<br /><br />
 
@@ -236,7 +236,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>

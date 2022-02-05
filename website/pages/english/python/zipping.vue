@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>My own zipping program</h1>
+        <h2>My own zipping program</h2>
         <p>
           In actuality, your computer will have a zipping program already
           installed<br /><br />
@@ -31,7 +31,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Programming Explanation</h1>
+      <h2>Programming Explanation</h2>
       <p>
         1. How zipping works: replace large amount of data with short ones to
         manage space<br />
@@ -42,7 +42,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Code Explanation</h1>
+      <h2>Code Explanation</h2>
       <div>
         1) Input Sentence<br /><br />
         <code> sent = input("Sentence to zip: ") </code>

@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>To List</h1>
+        <h2>To List</h2>
         <p>
           To change any kind of data into a list, use the list() function and
           split() method.<br /><br />
@@ -47,7 +47,7 @@
 
     <div>
       <div class="inner-div">
-        <h1>To Tuple</h1>
+        <h2>To Tuple</h2>
         <p>
           Using tuple(), we can change anything to a tuple.<br /><br />
 
@@ -77,7 +77,7 @@
 
     <div>
       <div>
-        <h1>To Number</h1>
+        <h2>To Number</h2>
         <p>
           To convert to each type of number(int, float, complex), use int(),
           float() and complex() method.<br /><br />
@@ -114,7 +114,7 @@
 
     <div>
       <div>
-        <h1>To Boolean</h1>
+        <h2>To Boolean</h2>
         <p>
           The only data type boolean can convert is integer.<br /><br />
 

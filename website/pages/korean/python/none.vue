@@ -22,7 +22,7 @@
 
     <div>
       <div>
-        <h1>None</h1>
+        <h2>None</h2>
         <p>
           None은 값이 없다를 뜻합니다.<br /><br />
 

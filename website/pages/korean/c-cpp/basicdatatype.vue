@@ -3,7 +3,7 @@
     <br />
 
     <div>
-      <h1>데이터 형태란?</h1>
+      <h2>데이터 형태란?</h2>
       <p>
         데이터 형태란 정보의 종류를 뜻합니다.<br /><br />
 
@@ -21,7 +21,7 @@
     <QuadSpace />
 
     <div>
-      <h1>int - 정수</h1>
+      <h2>int - 정수</h2>
       <p>
         int는 integer의 약자이고 정수를 뜻합니다. ..., -3, -2, -1, 0, 1, 2, 3,
         ...을 정수라고 합니다.<br /><br />
@@ -36,7 +36,7 @@
     <QuadSpace />
 
     <div>
-      <h1>float - 소수</h1>
+      <h2>float - 소수</h2>
       <p>
         float은 실수를 뜻합니다. 소수점 뒤에 0이 아닌 수가 있습니다. 예를 들어
         3.14는 .뒤에 14가 있어서 소수입니다.<br /><br />
@@ -52,7 +52,7 @@
 
     <div>
       <div>
-        <h1>bool - 참 또는 거짓</h1>
+        <h2>bool - 참 또는 거짓</h2>
         <p>
           bool은 boolean의 약자로 참 또는 거짓의 값만 가지고 있는 데이터
           형태입니다.<br /><br />
@@ -68,7 +68,7 @@
     <QuadSpace />
 
     <div>
-      <h1>double - 더 긴 소수</h1>
+      <h2>double - 더 긴 소수</h2>
       <p>
         double은 2배가 아닙니다!<br /><br />
 
@@ -88,7 +88,7 @@
     <QuadSpace />
 
     <div>
-      <h1>char - 문자</h1>
+      <h2>char - 문자</h2>
       <p>
         char는 character의 약자로 문자를 뜻합니다.<br /><br />
 
@@ -106,7 +106,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>예시</h1>
+        <h2>예시</h2>
         <p>
           <code>
             #include &lt;stdio.h><br /><br />
@@ -139,7 +139,7 @@
 
     <div>
       <div>
-        <h1>팁!</h1>
+        <h2>팁!</h2>
         <p>
           float이나 double을 x번째 자리까지 자르는 방법 중 하나는 '%f'를 사용할
           때 % 다음에 .x를 붙이면 됩니다.<br /><br />

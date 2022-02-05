@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>How to use datetime module</h1>
+        <h2>How to use datetime module</h2>
         <p>
           Let's fetch datetime module first.<br /><br />
 
@@ -28,7 +28,7 @@
 
     <div>
       <div>
-        <h1>The date and time right now</h1>
+        <h2>The date and time right now</h2>
         <p>
           To get the date and time right now, use the datetime.datetime.now()
           method.<br /><br />
@@ -59,7 +59,7 @@
 
     <div>
       <div>
-        <h1>hour, minute, second and milisecond</h1>
+        <h2>hour, minute, second and milisecond</h2>
         <p>
           To get each of hour, minute, second and milisecond, ues the strftime()
           method.<br /><br />
@@ -99,7 +99,7 @@
 
     <div>
       <div>
-        <h1>Week, date, and year</h1>
+        <h2>Week, date, and year</h2>
         <p>
           To find the name of today, use '%A'.<br /><br />
 

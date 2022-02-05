@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>집합이란?</h1>
+        <h2>집합이란?</h2>
         <p>
           집합이란 어떤 객관적인 조건에 따라 나뉘어진 목록이라고 할 수
           있습니다.<br /><br />
@@ -52,7 +52,7 @@
 
     <div>
       <div>
-        <h1>집합의 특징</h1>
+        <h2>집합의 특징</h2>
         <p>집합에는 순서가 없습니다.</p>
       </div>
     </div>
@@ -62,7 +62,7 @@
     <div>
       <div>
         <div>
-          <h1>집합에 값 더하고 빼기</h1>
+          <h2>집합에 값 더하고 빼기</h2>
           <p>
             집합 끝 부분에 값을 더하기 위하여 우리는 'add'라는 함수를 사용해
             보겠습니다. CODE1 예시를 확인하세요.<br /><br />
@@ -92,7 +92,7 @@
 
     <div>
       <div>
-        <h1>집합 값 제거</h1>
+        <h2>집합 값 제거</h2>
         <p>
           colorSet이라는 집합에 있는 값 중에서 'red'라는 아이템을 remove()를
           사용해서 제거해 보겠습니다.<br /><br />
@@ -123,7 +123,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -178,7 +178,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

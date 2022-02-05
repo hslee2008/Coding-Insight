@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>void 데이터 형태</h1>
+        <h2>void 데이터 형태</h2>
         <p>
           void 데이터 형태란 아무것도 돌려주지 않는다를 뜻합니다.<br /><br />
 
@@ -23,7 +23,7 @@
     <QuadSpace />
 
     <div>
-      <h1>void main() {} 형태</h1>
+      <h2>void main() {} 형태</h2>
 
       지금까지 int 데이터 형태를 이용해서 main 함수를 선언했습니다.<br /><br />
 

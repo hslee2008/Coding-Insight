@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>Error</h1>
+        <h2>Error</h2>
         <p>
           In some instances, we might accidently make an error.<br /><br />
 
@@ -34,7 +34,7 @@
 
     <div>
       <div>
-        <h1>try - except</h1>
+        <h2>try - except</h2>
         <p>
           For example, let's try making a calculator that will divide the number
           2.<br /><br />
@@ -78,7 +78,7 @@
 
     <div>
       <div>
-        <h1>try - except - else</h1>
+        <h2>try - except - else</h2>
         <p>
           If all our code above finishes and no error occured, Python will run
           the code inside 'else' statement.
@@ -101,7 +101,7 @@
 
     <div>
       <div>
-        <h1>try - except - finally</h1>
+        <h2>try - except - finally</h2>
         <p>
           Though 'else' statement does not run when exception occurs, finally
           clause will run no matter.
@@ -132,5 +132,8 @@
 <script>
 export default {
   name: 'ErrorPage',
+  head: () => ({
+    title: 'Error Handling',
+  }),
 };
 </script>

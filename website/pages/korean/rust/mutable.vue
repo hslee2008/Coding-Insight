@@ -4,7 +4,7 @@
 
     <div style="display: flex">
       <div style="margin: auto">
-        <h1>mut 변수란?</h1>
+        <h2>mut 변수란?</h2>
         <p>
           mut란 변수의 값을 바꿀 수 있다는 뜻입니다.<br /><br />
 
@@ -16,7 +16,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img :src="require('./img/code_mut_variable.png')" max-width="300" />
+        <v-img src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png" max-width="300" />
       </div>
     </div>
 
@@ -28,7 +28,7 @@
 
     <div>
       <div>
-        <h1>mut 사용 방법</h1>
+        <h2>mut 사용 방법</h2>
         <p>
           식별자 (예: let) 다음에 mut를 붙이면 mutable 변수로 인식합니다.<br /><br />
 

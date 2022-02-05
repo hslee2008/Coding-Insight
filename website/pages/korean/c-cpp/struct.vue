@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>struct 구조체</h1>
+        <h2>struct 구조체</h2>
         <p>
           구조체란 다양한 데이터를 한 형태로 모은 C 언어에서만 존재하는 특별한
           기능입니다.<br /><br />
@@ -28,7 +28,7 @@
 
     <div>
       <div>
-        <h1>구조체 선언</h1>
+        <h2>구조체 선언</h2>
         <p>
           1. <kbd>struct &lt;struct 이름></kbd> 형태로
           <kbd>&lt;struct 이름></kbd> 대신 구조체 이름을 넣으면 됩니다.<br />
@@ -71,7 +71,7 @@
 
     <div>
       <div>
-        <h1>struct + typedef = (super_struct)</h1>
+        <h2>struct + typedef = (super_struct)</h2>
         <p>
           struct와 typedef를 같이 사용하면 쉽고 간단하게 super struct를 만들 수
           있습니다.<br /><br />
@@ -108,7 +108,7 @@
 
     <div>
       <div>
-        <h1>'.' 사용하기</h1>
+        <h2>'.' 사용하기</h2>
         <p>
           .(점)을 사용하면 strcut의 각 변수의 이름을 사용해서 그것의 값을 찾거나
           변경할 수 있습니다.<br /><br />

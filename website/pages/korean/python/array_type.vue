@@ -7,7 +7,7 @@
       class="img-div"
     >
       <div>
-        <h1>정렬 치수란?</h1>
+        <h2>정렬 치수란?</h2>
         <p>
           정렬의 치수란 <mark>정렬의 깊이</mark>입니다. 조금 더 쉽게 설명하자면,
           정렬 안에 정렬이 몇 개 있는지의 값이 정렬의 치수라고 합니다.
@@ -29,7 +29,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Scalars - 0D</h1>
+      <h2>Scalars - 0D</h2>
       <p>
         0-D 정렬은 값이 1개입니다. 0-D는 Scalars라고도 합니다.<br /><br />
 
@@ -40,7 +40,7 @@
     <QuadSpace />
 
     <div>
-      <h1>uni-dimension - 1D</h1>
+      <h2>uni-dimension - 1D</h2>
       <p>
         1-D 정렬은 정렬이 1개입니다. 1-D는 uni-dimension이라고도 합니다.<br /><br />
 
@@ -51,7 +51,7 @@
     <QuadSpace />
 
     <div>
-      <h1>2-D와 x-D</h1>
+      <h2>2-D와 x-D</h2>
       <p>
         2-D 정렬은 정렬 안에 또 다른 정렬이 있는 형태입니다.<br /><br />
 
@@ -63,7 +63,7 @@
 
     <QuadSpace />
 
-    <h1>ndim</h1>
+    <h2>ndim</h2>
     <p>
       <mark>정렬의 치수</mark>를 알기 위하여 항상 numpy 정렬을 선언한 후
       ndim이라는 값을 이용할 수 있습니다.<br /><br />
@@ -78,7 +78,7 @@
     <QuadSpace />
 
     <div>
-      <h1>정렬 인덱싱</h1>
+      <h2>정렬 인덱싱</h2>
       <h2>1-D</h2>
       uni-dimension 정렬의 인덱싱은 리스트 인덱싱과 같습니다.<br /><br />
 

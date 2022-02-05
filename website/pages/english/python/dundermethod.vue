@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>What is dunder?</h1>
+        <h2>What is dunder?</h2>
         <p>
           In Context Manager, we learned about __exit__() and __enter__()
           method.<br /><br />
@@ -32,7 +32,7 @@
 
     <div>
       <div>
-        <h1>__str__() and __repr__()</h1>
+        <h2>__str__() and __repr__()</h2>
         <p>
           Let's first make a class that does nothing and has nothing.<br /><br />
 
@@ -97,7 +97,7 @@
 
     <div>
       <div>
-        <h1>__del__()</h1>
+        <h2>__del__()</h2>
         <p>
           We can even delete the class by using 'del' keyword and when we do
           that, we can run a specific code.
@@ -120,7 +120,7 @@
 
     <div>
       <div>
-        <h1>__new__()</h1>
+        <h2>__new__()</h2>
         <p>
           When a class is amde, we can run a specific code inside __new__().<br /><br />
 
@@ -150,6 +150,6 @@
 
 <script>
 export default {
-  name: 'DictionaryMethodPage',
+  name: 'DunderMethodPage',
 };
 </script>

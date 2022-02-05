@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>if - else</h1>
+        <h2>if - else</h2>
         <p>
           else는 만일 if 안에 있는 조건이 옳지 않다면 실행할 코드를 담는
           곳입니다.<br /><br />
@@ -48,7 +48,7 @@
 
     <div>
       <div>
-        <h1>else-if</h1>
+        <h2>else-if</h2>
         <p>
           시험 점수에서 또 다른 조건을 넣겠습니다.<br /><br />
 

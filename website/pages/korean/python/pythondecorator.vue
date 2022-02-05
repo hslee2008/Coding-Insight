@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>@mydecorator</h1>
+        <h2>@mydecorator</h2>
         <p>
           다음과 같은 클래스를 만들어 보겠습니다.<br /><br />
 
@@ -67,7 +67,7 @@
 
     <div>
       <div>
-        <h1>@classmethod</h1>
+        <h2>@classmethod</h2>
         <p>
           클래스 값을 메서드로 바꿀 수도 있습니다. 하지만 이 코드 뒤에 나오는
           함수에서 self는 항상 __init__() 밖에 있는 변수들입니다.<br /><br />
@@ -91,7 +91,7 @@
 
     <div>
       <div>
-        <h1>@staticmethod</h1>
+        <h2>@staticmethod</h2>
         <p>
           다음에 나오는 함수는 클래스 안에서만 함수 또는 변수를 사용할 수
           있습니다. 만일 클래스 밖에서 사용했다면 에러가 생길 것입니다.

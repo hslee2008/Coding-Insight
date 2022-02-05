@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>GTTS란?</h1>
+        <h2>GTTS란?</h2>
         <p>
           GTTS는 문자를 컴퓨터가 말하게 만들 수 있는 기능을 가지고 있습니다.<br /><br />
 
@@ -32,7 +32,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>GTTS 커맨드</h1>
+        <h2>GTTS 커맨드</h2>
         <p>
           터미널을 키고 다음 코드를 실행하세요.<br /><br />
 
@@ -57,7 +57,7 @@
 
     <div>
       <div>
-        <h1>파이썬</h1>
+        <h2>파이썬</h2>
         <p>
           파이썬에서 GTTS를 사용하겠습니다.<br /><br />
 

@@ -1,7 +1,7 @@
 <template>
   <div style="display: flex; justify-content: center; align-self: center">
     <div>
-      <h1>C 언어 여행 끝!!!</h1>
+      <h2>C 언어 여행 끝!!!</h2>
       <p>하지만 아직 더 남아 있는 여행이 있습니다!</p>
 
       <v-data-table

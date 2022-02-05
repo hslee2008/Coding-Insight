@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>키보드</h1>
+        <h2>키보드</h2>
         <p>
           키보드를 제어해보겠습니다.<br /><br />
 
@@ -29,7 +29,7 @@
     <QuadSpace />
 
     <div class="text-center">
-      <h1>키보드로 문자 쓰기</h1>
+      <h2>키보드로 문자 쓰기</h2>
     </div>
     키보드를 이용하여 'Python keyboard control'을 써보겠습니다.<br /><br />
 
@@ -40,7 +40,7 @@
     </code>
 
     <div class="text-center">
-      <h1>키보드 누르기</h1>
+      <h2>키보드 누르기</h2>
     </div>
     키보드에서 shift(쉬프트), alt(알트), 그리고 ctrl(컨트롤) 키를 이용하기
     위하여 press_and_release() 메서드를 사용할 수 있습니다.<br /><br />

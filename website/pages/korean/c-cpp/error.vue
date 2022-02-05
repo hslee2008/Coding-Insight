@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>#error</h1>
+        <h2>#error</h2>
         <p>
           #error을 사용하면 나만의 에러도 만들 수 있습니다.<br /><br />
 

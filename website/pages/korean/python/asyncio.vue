@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>asyncio</h1>
+        <h2>asyncio</h2>
         <p>
           먼저 async 함수를 만들겠습니다.<br /><br />
 
@@ -63,7 +63,7 @@
 
     <div>
       <div>
-        <h1>AWAIT</h1>
+        <h2>AWAIT</h2>
         <p>
           하지만, 오래 걸리는 함수가 끝날 때까지 기다리기 위하여 await 키워드를
           사용할 수 있습니다.<br /><br />
@@ -106,7 +106,7 @@
 
     <div>
       <div>
-        <h1>예시</h1>
+        <h2>예시</h2>
         <p>
           <code>
             async def fetchData():<br />
@@ -152,7 +152,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="beedongee" aft="name" />
+    <NaviBtn bef="asynchronous" aft="name" />
 
     <QuadSpace />
   </div>

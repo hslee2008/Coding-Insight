@@ -4,12 +4,12 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>Making a login program</h1>
+        <h2>Making a login program</h2>
         <p>
           Let's make a login program that prompts the user for password!<br /><br />
 
           Note that you need to know about
-          <NuxtLink to="./if">If Statements</NuxtLink> before you move on. It
+          <NuxtLink aria-label="Go to Coding Insight Page" to="./if">If Statements</NuxtLink> before you move on. It
           will all be explained shortly in this page, but use the link for
           future reference.
         </p>
@@ -31,7 +31,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Program Explanation</h1>
+      <h2>Program Explanation</h2>
       <p>
         1. We first ask the users for a password<br />
         2. If the input is a real password, we login and we do not otherwise
@@ -41,7 +41,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Code Explanation</h1>
+      <h2>Code Explanation</h2>
       <div>
         1) We ask for the password.<br /><br />
         <code>guess = input("Password Guess: ")</code>
@@ -59,7 +59,7 @@
 
     <QuadSpace />
 
-    <h1>Check out the program</h1>
+    <h2>Check out the program</h2>
     <iframe
       src="https://trinket.io/embed/python3/78247d771c"
       width="100%"

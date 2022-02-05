@@ -3,15 +3,18 @@
     <br />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
-        <h1>Contact List</h1>
+      <div style="margin: auto">
+        <h2>Contact List</h2>
         <p>
           We can make a contact list of friends using Python.<br /><br />
 
           This is a very simple program.<br /><br />
 
           If you want to make a complex program, go to
-          <NuxtLink to="./contact2">Contact List 2</NuxtLink> page.
+          <NuxtLink aria-label="Go to Coding Insight Page" to="./contact2"
+            >Contact List 2</NuxtLink
+          >
+          page.
         </p>
       </div>
 
@@ -31,7 +34,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Program Explanation</h1>
+      <h2>Program Explanation</h2>
       <p>
         1. Ask mode (a: Add, r: Remove, p: Print All)<br /><br />
         a - Ask for friend name and add to list<br />
@@ -43,7 +46,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Code explanation</h1>
+      <h2>Code explanation</h2>
       <div>
         1) Make a friends list<br /><br />
         <code>friends = []</code>
@@ -74,10 +77,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="listmethod2"
-      aft="dictionary"
-     />
+    <NaviBtn bef="listmethod2" aft="dictionary" />
 
     <QuadSpace />
   </div>
@@ -85,7 +85,7 @@
 
 <script>
 export default {
-  name: 'PasswordPage',
+  name: 'ContactPage',
 };
 </script>
 `

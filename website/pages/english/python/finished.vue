@@ -1,7 +1,7 @@
 <template>
   <div style="display: flex; justify-content: center; align-self: center">
     <div>
-      <h1>The Python Journey has now ended~~~</h1>
+      <h2>The Python Journey has now ended~~~</h2>
       <p>Or did it?</p>
 
       <v-data-table

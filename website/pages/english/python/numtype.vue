@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Python Number Types</h1>
+        <h2>Python Number Types</h2>
         <p>
           There are three types of number in Python.<br /><br />
           - integer<br />
@@ -29,7 +29,7 @@
 
     <div>
       <div>
-        <h1>int</h1>
+        <h2>int</h2>
         <p>
           int is short for integer.<br /><br />
           Integer is number such as -5, -4, -3, -2, -1, 0, 1, 2, 3, and so on.
@@ -57,7 +57,7 @@
 
     <div>
       <div>
-        <h1>float</h1>
+        <h2>float</h2>
         <p>
           Float is a number between two int that has digits after '.'.<br /><br />
 
@@ -88,7 +88,7 @@
 
     <div>
       <div>
-        <h1>complex</h1>
+        <h2>complex</h2>
         <p>
           Complex is a number that might be hard to explain and it is not math
           that we will be learning today.<br /><br />

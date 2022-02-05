@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>__call__() and __mul__()</h1>
+        <h2>__call__() and __mul__()</h2>
         <p>
           Class cannot be ran like a function.<br /><br />
 
@@ -36,7 +36,7 @@
 
     <div>
       <div>
-        <h1>__len__()</h1>
+        <h2>__len__()</h2>
         <p>
           When the len() function runs on a class, we can specify the code to
           run or value to return.
@@ -59,7 +59,7 @@
 
     <div>
       <div>
-        <h1>_ & __ difference</h1>
+        <h2>_ & __ difference</h2>
         <p>
           Let's try making a simple class.<br /><br />
 

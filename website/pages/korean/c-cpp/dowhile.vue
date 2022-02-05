@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>do - while이란?</h1>
+        <h2>do - while이란?</h2>
         <p>
           do - while은 while과 매우 비슷합니다.<br /><br />
 
@@ -33,7 +33,7 @@
 
     <div>
       <div>
-        <h1>do - while 사용</h1>
+        <h2>do - while 사용</h2>
         <p>
           do - while은 while과 비슷하고 while에서도 do - while과 비슷한 기능을
           넣을 수 있기 때문에 많이 사용되지는 않습니다.<br /><br />
@@ -70,7 +70,7 @@
 
     <div>
       <div>
-        <h1>주의 할 점</h1>
+        <h2>주의 할 점</h2>
         <p>while 조건 다음에 꼭 ;를 붙이세요!</p>
       </div>
     </div>

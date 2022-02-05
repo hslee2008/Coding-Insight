@@ -9,7 +9,7 @@
 
       <div>
         <div>
-          <h1>Type Assignment</h1>
+          <h2>Type Assignment</h2>
           <p>
             We can decide what kind of data type the user should use. Put ':'
             and data type name after variable name.<br /><br />
@@ -43,7 +43,7 @@
 
       <div>
         <div>
-          <h1>Is it callable?</h1>
+          <h2>Is it callable?</h2>
           <p>
             Sometimes, we might get confused with variable names and function
             names.<br /><br />

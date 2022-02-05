@@ -4,7 +4,7 @@
 
     <div class="d-flex img-div" style="padding: 10px; border-radius: 5px">
       <div>
-        <h1>문자를 코드처럼 실행할 수 있을까요?</h1>
+        <h2>문자를 코드처럼 실행할 수 있을까요?</h2>
         <p>
           파이썬에서는 문자를 코드처럼 실행하는 것이 가능합니다.<br /><br />
 
@@ -30,7 +30,7 @@
 
     <div>
       <div>
-        <h1>eval()</h1>
+        <h2>eval()</h2>
         <p>
           eval()은 evaluation의 약자로 어떤 코드를 계산하거나 한 줄 코드를
           실행합니다.<br /><br />
@@ -63,7 +63,7 @@
 
     <div>
       <div>
-        <h1>exec()</h1>
+        <h2>exec()</h2>
         <p>
           exec는 execute의 약자로 eval과 비슷하지만 사용자가 입력한 코드를
           실행합니다.
@@ -86,7 +86,7 @@
 
     <div>
       <div>
-        <h1>compile()</h1>
+        <h2>compile()</h2>
         <p>
           compile() 함수는 문자를 코드로 컴파일을 합니다.<br /><br />
 
@@ -115,7 +115,7 @@
     <QuadSpace />
 
     <div>
-      <h1>나만의 파이썬 IDLE</h1>
+      <h2>나만의 파이썬 IDLE</h2>
       <iframe
         src="https://trinket.io/embed/python3/fa7de26cef"
         width="100%"

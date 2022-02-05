@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>What is set?</h1>
+        <h2>What is set?</h2>
         <p>
           Set is a group of items that satisfies one or more than clear
           condition.<br /><br />
@@ -45,7 +45,7 @@
 
     <div>
       <div>
-        <h1>Set</h1>
+        <h2>Set</h2>
         <p>
           There is no order in set. It might get printed differently everytime.
         </p>
@@ -57,7 +57,7 @@
     <div>
       <div>
         <div>
-          <h1>Adding items and merging sets</h1>
+          <h2>Adding items and merging sets</h2>
           <p>
             To add a value to the end of a set, we'll use a function called
             'add'.<br /><br />
@@ -94,7 +94,7 @@
 
     <div>
       <div>
-        <h1>Removing set values</h1>
+        <h2>Removing set values</h2>
         <p>
           Let's remove the item 'red' from the values ​​in the set.<br /><br />
 
@@ -146,7 +146,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -201,7 +201,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>

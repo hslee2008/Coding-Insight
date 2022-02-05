@@ -4,26 +4,32 @@
 
     <div>
       <div>
-        <h1>mathplotlib</h1>
+        <h2>mathplotlib</h2>
         mathplotlib = math + plot + libarary<br /><br />
 
-        In another word, matplotlib is a library that controls mathematical graph.<br /><br />
+        In another word, matplotlib is a library that controls mathematical
+        graph.<br /><br />
 
         Let's first import matplotlib module.<br /><br />
 
-        <code>
-          import matplotlib
-        </code>
+        <code> import matplotlib </code>
 
         To print matplotlib version, use the __version__ property.<br /><br />
 
-        <code>
-          print(matplotlib.__version__)
-        </code>
-        </p>
+        <code> print(matplotlib.__version__) </code>
       </div>
-      <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/3e28c18725" width="60%" height="356"
-        frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
+      <iframe
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python3/3e28c18725"
+        width="60%"
+        height="356"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        loading="lazy"
+        style="margin: auto"
+      />
     </div>
 
     <QuadSpace />
@@ -34,144 +40,155 @@
 
     <div>
       <div>
-        <h1>Drawing Graph</h1>
-          <p>
-            In matplotlib, insert two lists of x and y values in plot() method.<br /><br />
+        <h2>Drawing Graph</h2>
 
-            When you run the Pthon file, a graph will be automatically drawn.<br /><br />
+        In matplotlib, insert two lists of x and y values in plot() method.<br /><br />
 
-            <code>
-              import matplotlib.pyplot as plt<br /><br />
+        When you run the Pthon file, a graph will be automatically drawn.<br /><br />
 
-              plt.plot([1, 10], [1, 10])<br />
-              plt.show()
-            </code>
+        <code>
+          import matplotlib.pyplot as plt<br /><br />
 
-            pyplot is short for python+plot and it is a sub-module of matplotlib module.<br /><br />
+          plt.plot([1, 10], [1, 10])<br />
+          plt.show()
+        </code>
 
-            You have to use show() method to actually draw the graph.
+        pyplot is short for python+plot and it is a sub-module of matplotlib
+        module.<br /><br />
 
-            <h2>List Dimension</h2>
-            linear equation: 2 lists<br />
-            quadratic equation: 3 lists<br />
-            ...<br />
-            nth equation: n+1 list
-          </p>
+        You have to use show() method to actually draw the graph.
+
+        <h2>List Dimension</h2>
+        linear equation: 2 lists<br />
+        quadratic equation: 3 lists<br />
+        ...<br />
+        nth equation: n+1 list
       </div>
     </div>
     <iframe
-src="https://trinket.io/embed/python3/40b5ec6e62" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
-
-    <QuadSpace />
-
-        <div>
-          <h1>Marker</h1>
-          <p>
-            <h2>marker</h2>
-
-            Marker is a character that can be put on a part where the graph bends.<br /><br />
-
-            <code>
-              plt.plot([1, 10, 30], [1, 10, 20], marker="x")
-            </code>
-
-            Put in the character inside marker.<br /><br />
-
-            <h2>string fmt</h2>
-
-            fmt is a group of marker shape, line shape, graph color all combined into one.<br /><br />
-
-            The first character is the marker shape.<br />
-            The second is the graph shape(line shape) : dotted, - solid, --lined, -. line/dot)<br />
-            The color of graph.<br /><br />
-
-            <code>
-              plt.plot([1, 10, 20], [1, 24, 44], 'o:r')
-            </code>
-
-            <h2>marker size</h2>
-
-            To specify your marker size, use the ms parameter and insert an integer.<br /><br />
-
-            <code>
-              plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30)
-            </code>
-
-            <h2>marker border</h2>
-
-            Specify marker boarder color using mec parameter.<br /><br />
-
-            <code>
-              plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r')
-            </code>
-
-            mec is short for marker + edge + color.<br /><br />
-
-            <h2>marker color</h2>
-
-            Marker color can be colored with using mfc parameter.<br /><br />
-
-            <code>
-              plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r', mfc = 'g')
-            </code>
-          </p>
-        </div>
-    <iframe
-src="https://trinket.io/embed/python3/6d6b423f37" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
+      src="https://trinket.io/embed/python3/40b5ec6e62"
+      width="100%"
+      height="356"
+      frameborder="0"
+      marginwidth="0"
+      marginheight="0"
+      allowfullscreen
+      loading="lazy"
+      style="margin: auto"
+    />
 
     <QuadSpace />
 
     <div>
-      <div>
-        <div><h1>Line</h1>
-          <p>
-            <h2>Line style</h2>
+      <h2>Marker</h2>
+      <h2>marker</h2>
 
-            We can set our own line style using the linstyle parameter and typing in the name type.<br /><br />
+      Marker is a character that can be put on a part where the graph bends.<br /><br />
 
-            There are dotted, dotted, dashed, None, dashdot, solid method.<br /><br />
+      <code> plt.plot([1, 10, 30], [1, 10, 20], marker="x") </code>
 
-            You can also use ls which is the same thing as linestyle.<br /><br />
+      Put in the character inside marker.<br /><br />
 
-            <code>
-              plt.plot([1, 10, 20], [1, 24, 44], linestyle = 'dashed')
-            </code>
+      <h2>string fmt</h2>
 
-            <h2>Line width</h2>
+      fmt is a group of marker shape, line shape, graph color all combined into
+      one.<br /><br />
 
-            Line width can be set with linewidth or lw parameter.<br /><br />
+      The first character is the marker shape.<br />
+      The second is the graph shape(line shape) : dotted, - solid, --lined, -.
+      line/dot)<br />
+      The color of graph.<br /><br />
 
-            <code>
-              plt.plot([1, 4, 5], [1, 4, 6], linewidth = 3.14159)
-            </code>
-          </p>
-        </div>
-      </div>
+      <code> plt.plot([1, 10, 20], [1, 24, 44], 'o:r') </code>
+
+      <h2>marker size</h2>
+
+      To specify your marker size, use the ms parameter and insert an
+      integer.<br /><br />
+
+      <code> plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30) </code>
+
+      <h2>marker border</h2>
+
+      Specify marker boarder color using mec parameter.<br /><br />
+
+      <code>
+        plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r')
+      </code>
+
+      mec is short for marker + edge + color.<br /><br />
+
+      <h2>marker color</h2>
+
+      Marker color can be colored with using mfc parameter.<br /><br />
+
+      <code>
+        plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r', mfc
+        = 'g')
+      </code>
     </div>
+    <iframe
+      src="https://trinket.io/embed/python3/6d6b423f37"
+      width="100%"
+      height="356"
+      frameborder="0"
+      marginwidth="0"
+      marginheight="0"
+      allowfullscreen
+      loading="lazy"
+      style="margin: auto"
+    />
 
     <QuadSpace />
 
     <div>
       <div>
         <div>
-           <h1>Label and title</h1>
-          <p>
-            Using the xlabel and yabel method, we can set the label for x and y.<br /><br />
+          <h2>Line</h2>
+          <h2>Line style</h2>
 
-            The label tells the reader what the graph is about and what unit we are using.<br /><br />
+          We can set our own line style using the linstyle parameter and typing
+          in the name type.<br /><br />
+
+          There are dotted, dotted, dashed, None, dashdot, solid method.<br /><br />
+
+          You can also use ls which is the same thing as linestyle.<br /><br />
+
+          <code>
+            plt.plot([1, 10, 20], [1, 24, 44], linestyle = 'dashed')
+          </code>
+
+          <h2>Line width</h2>
+
+          Line width can be set with linewidth or lw parameter.<br /><br />
+
+          <code> plt.plot([1, 4, 5], [1, 4, 6], linewidth = 3.14159) </code>
+        </div>
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <div>
+          <h2>Label and title</h2>
+          <p>
+            Using the xlabel and yabel method, we can set the label for x and
+            y.<br /><br />
+
+            The label tells the reader what the graph is about and what unit we
+            are using.<br /><br />
 
             <code>
               plt.xlabel("Time (h)")<br />
               plt.ylabel("Money (w)")
             </code>
 
-            We can also set the entire title of the graph by using the title() method.<br /><br />
+            We can also set the entire title of the graph by using the title()
+            method.<br /><br />
 
-            <code>
-              plt.title("Money spent")
-            </code>
+            <code> plt.title("Money spent") </code>
 
             Use the fontdict method to insert font style of the title.<br /><br />
 
@@ -194,9 +211,10 @@ src="https://trinket.io/embed/python3/6d6b423f37" width="100%" height="356" fram
     <div>
       <div>
         <div>
-           <h1>scatter</h1>
+          <h2>scatter</h2>
           <p>
-            scatter is basically a group of dots scattered all over the graph.<br /><br />
+            scatter is basically a group of dots scattered all over the
+            graph.<br /><br />
 
             <code>
               plt.scatter([0, 1, 2, 3, 4, 5], [0, 10, 20, 30, 40, 50])<br />
@@ -219,23 +237,29 @@ src="https://trinket.io/embed/python3/6d6b423f37" width="100%" height="356" fram
     <div>
       <div>
         <div>
-<h1>historgrams</h1>
-            <p>
-              You can use the hist() method to draw a histogram.
-            </p>
+          <h2>historgrams</h2>
+          <p>You can use the hist() method to draw a histogram.</p>
         </div>
       </div>
     </div>
     <iframe
-src="https://trinket.io/embed/python3/c4218ab83d" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
+      src="https://trinket.io/embed/python3/c4218ab83d"
+      width="100%"
+      height="356"
+      frameborder="0"
+      marginwidth="0"
+      marginheight="0"
+      allowfullscreen
+      loading="lazy"
+      style="margin: auto"
+    />
 
     <QuadSpace />
 
     <div>
       <div>
         <div>
-           <h1>pie</h1>
+          <h2>pie</h2>
           <p>
             Pie grap is a graph that looks like a pie.<br /><br />
 
@@ -270,8 +294,16 @@ src="https://trinket.io/embed/python3/c4218ab83d" width="100%" height="356" fram
       </div>
     </div>
     <iframe
-src="https://trinket.io/embed/python3/074b4c95ef" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
+      src="https://trinket.io/embed/python3/074b4c95ef"
+      width="100%"
+      height="356"
+      frameborder="0"
+      marginwidth="0"
+      marginheight="0"
+      allowfullscreen
+      loading="lazy"
+      style="margin: auto"
+    />
 
     <QuadSpace />
 
@@ -283,6 +315,6 @@ src="https://trinket.io/embed/python3/074b4c95ef" width="100%" height="356" fram
 
 <script>
 export default {
-  page: 'MatPlotLibPage',
-}
+  page: 'MatPlotLibPage'
+};
 </script>

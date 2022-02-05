@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>Compressing Files</h1>
+        <h2>Compressing Files</h2>
         Compressing a file will decrease the size it.<br /><br />
 
         How is this possible?
@@ -19,7 +19,7 @@
 
     <div>
       <div>
-        <h1>How compressing files work</h1>
+        <h2>How compressing files work</h2>
         <p>
           Sometimes, there are tons of repeating words in sentence.<br /><br />
 
@@ -55,7 +55,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>Zlib Module</h1>
+        <h2>Zlib Module</h2>
         <p>
           Zlib module will compress any data you give it into a shorter version
           using dictionary.<br /><br />
@@ -80,7 +80,7 @@
 
     <div>
       <div>
-        <h1>ZLIB - compress string</h1>
+        <h2>ZLIB - compress string</h2>
         <p>
           Let's try compressing strings.<br /><br />
 
@@ -124,7 +124,7 @@
 
     <div>
       <div>
-        <h1>ZLIB - set level</h1>
+        <h2>ZLIB - set level</h2>
         <p>
           There are 0 to 9 levels in compressing.<br /><br />
 
@@ -151,7 +151,7 @@
 
     <div>
       <div>
-        <h1>ZLIB - decompress</h1>
+        <h2>ZLIB - decompress</h2>
         <p>
           We can use the decompress() method to decompress copressed strings.
         </p>

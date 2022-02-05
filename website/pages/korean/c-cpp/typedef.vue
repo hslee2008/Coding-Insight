@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>typedef</h1>
+        <h2>typedef</h2>
         <p>
           typedef를 사용하면 매우 긴 이름을 가진 const unsigned long long int
           이름을 우리가 원하는 이름으로 대신할 수 있습니다.<br /><br />
@@ -25,7 +25,7 @@
 
     <div>
       <div>
-        <h1>typedef 사용하기</h1>
+        <h2>typedef 사용하기</h2>
         <p>
           abcdefghij라는 데이터 형태가 있다고 가정해 보겠습니다.<br /><br />
 
@@ -62,7 +62,7 @@
 
     <div>
       <div>
-        <h1>장점</h1>
+        <h2>장점</h2>
         <p>
           1. 보시다시피 긴 이름을 사용하지 않아도 됩니다!<br />
           2. 한 번에 매우 많은 변수의 값을 바꿀 때 typedef의 데이터 형태만

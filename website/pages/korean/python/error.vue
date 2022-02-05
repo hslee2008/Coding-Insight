@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>에러</h1>
+        <h2>에러</h2>
         <p>
           가끔 우리가 파이썬 코드를 만들 때 에러가 생길 수 있습니다.<br /><br />
 
@@ -28,7 +28,7 @@
 
     <div>
       <div>
-        <h1>try - except</h1>
+        <h2>try - except</h2>
         <p>
           예를 들어 우리가 파이썬을 이용하여 계산기를 만들고 싶다고 가정을
           해봅시다.<br /><br />
@@ -59,7 +59,7 @@
 
     <div>
       <div>
-        <h1>특정한 에러</h1>
+        <h2>특정한 에러</h2>
         <p>
           특정 에러가 생겼을 때 실행하고 싶은 코드가 있다면 'except' 다음에
           에러의 이름을 넣으면 됩니다.<br /><br />
@@ -86,7 +86,7 @@
 
     <div>
       <div>
-        <h1>try - except - else</h1>
+        <h2>try - except - else</h2>
         <p>
           만일 try 안에 있는 코드에 아무런 문제가 없다면 'else'를 사용하여
           특정한 코드를 실행할 수 있습니다.
@@ -109,7 +109,7 @@
 
     <div>
       <div class="inner-div">
-        <h1>try - except - else - finally</h1>
+        <h2>try - except - else - finally</h2>
         <p>
           else와 비슷한 기능을 하는 'finally'라는 키워드를 사용할 수 있습니다.
         </p>

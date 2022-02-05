@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>What is madlibs?</h1>
+        <h2>What is madlibs?</h2>
         <p>
           Madlibs is a simple game.<br /><br />
 
@@ -33,7 +33,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>How?</h1>
+        <h2>How?</h2>
         <p>
           These are the steps to create madlibs game using python.<br /><br />
 
@@ -55,7 +55,7 @@
 
     <div>
       <div>
-        <h1>Let's make this game</h1>
+        <h2>Let's make this game</h2>
         <div style="display: flex; padding: 5px" class="img-div">
           <div style="margin: 5px">
             <h2>1. Making the parapgraph with blank spaces</h2>
@@ -101,7 +101,7 @@
 
     <div>
       <div>
-        <h1>Check out the code</h1>
+        <h2>Check out the code</h2>
 
         <iframe
           src="https://trinket.io/embed/python3/af48f9c529"

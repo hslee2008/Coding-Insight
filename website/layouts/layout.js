@@ -600,6 +600,11 @@ export default {
       title: '식별자',
       to: '/korean/rust/identifier',
     },
+    {
+      icon: 'box-shadow',
+      title: '변수 범위 및 그림자',
+      to: '/korean/rust/scopeshadowing',
+    },
   ],
 
   //! C Scripts

@@ -1,8 +1,10 @@
 <template>
   <div>
+    <br />
+
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>코루틴 만들기</h1>
+        <h2>코루틴 만들기</h2>
         <p>
           아주 아주 오래전에 for 반복문에서 yield 키워드에 대하여 배웠습니다.<br /><br />
 
@@ -27,7 +29,7 @@
 
     <div>
       <div>
-        <h1>yield - 코루틴</h1>
+        <h2>yield - 코루틴</h2>
         <p>
           코루틴은 먼저 함수를 만듭니다. 다음에, 변수를 만들고 안에 while
           반복문을 사용하여 yield a (a 값 찾기)가 기본 모형입니다.<br /><br />

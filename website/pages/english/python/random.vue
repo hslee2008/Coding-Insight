@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>The definition of random</h1>
+        <h2>The definition of random</h2>
         <p>
           We hear the word 'random' or 'in random' often in our life.<br /><br />
 
@@ -30,7 +30,7 @@
 
     <div>
       <div>
-        <h1>Random module</h1>
+        <h2>Random module</h2>
         <p>
           Let's fetch random module first.<br /><br />
 
@@ -44,7 +44,7 @@
     <div>
       <div>
         <div>
-          <h1>random()</h1>
+          <h2>random()</h2>
           <p>
             To get a random float betweeen 0 and 1(till 15th place), simply use
             the random() function from the module.<br /><br />
@@ -76,7 +76,7 @@
     <div>
       <div>
         <div>
-          <h1>Random natural number between two numebrs</h1>
+          <h2>Random natural number between two numebrs</h2>
           <p>
             To get any natural numbers between 'a' and 'b' randomly, use the
             uniform() function.<br /><br />

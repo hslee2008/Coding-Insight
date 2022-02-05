@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>daemon</h1>
+        <h2>daemon</h2>
         <p>
           Daemon is a thread that runs in the background.<br /><br />
 

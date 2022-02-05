@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>데이터 형태 보너스 - short, long</h1>
+        <h2>데이터 형태 보너스 - short, long</h2>
         <p>
           short를 int 앞에 붙이면 int의 가능한 값은 줄어들고 long을 붙이면
           많아집니다.<br /><br />
@@ -36,7 +36,7 @@
 
     <div>
       <div>
-        <h1>데이터 형태 보너스 - unsigned, signed</h1>
+        <h2>데이터 형태 보너스 - unsigned, signed</h2>
         <p>
           unsigned는 기호가 붙지 않은 수를 뜻합니다. unsinged를 기본 데이터 형태
           붙이면 -값은 불가능하지만 +값은 더 많아집니다.<br /><br />

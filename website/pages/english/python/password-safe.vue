@@ -4,10 +4,10 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Login Program</h1>
+        <h2>Login Program</h2>
         <p>
           In
-          <NuxtLink to="./password">the previous login system page</NuxtLink>,
+          <NuxtLink aria-label="Go to Coding Insight Page" to="./password">the previous login system page</NuxtLink>,
           we made a basic program that logins in if the user gets teh password
           right.<br /><br />
 
@@ -34,7 +34,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Explanation</h1>
+      <h2>Explanation</h2>
       <p>
         We will be adding a new feature: after 3 failed attempt, do not allow
         login
@@ -44,9 +44,9 @@
     <QuadSpace />
 
     <div>
-      <h1>Code explanation</h1>
+      <h2>Code explanation</h2>
       <div>
-        1) Code is in <NuxtLink to="./password">Login Page</NuxtLink> and we
+        1) Code is in <NuxtLink aria-label="Go to Coding Insight Page" to="./password">Login Page</NuxtLink> and we
         will only be adding more to it<br /><br />
 
         2) How many tries? <br /><br />
@@ -59,7 +59,7 @@
 
         5) The code has "while" which is similar to if statement but you repeat
         the code inside forever until the statement is false. To learn more, go
-        to <NuxtLink to="./while">while</NuxtLink> page.
+        to <NuxtLink aria-label="Go to Coding Insight Page" to="./while">while</NuxtLink> page.
       </div>
     </div>
 

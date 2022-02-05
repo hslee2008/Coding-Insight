@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>주사위</h1>
+        <h2>주사위</h2>
         <p>주사위를 만드는 프로그램을 만들어 보겠습니다.</p>
       </div>
 
@@ -24,14 +24,14 @@
     <QuadSpace />
 
     <div>
-      <h1>주사위 프로젝트</h1>
+      <h2>주사위 프로젝트</h2>
       <p>주사위를 무작위로 굴려 출력하는 프로그램을 만들어 보겠습니다.</p>
     </div>
 
     <QuadSpace />
 
     <div>
-      <h1>코드 설명</h1>
+      <h2>코드 설명</h2>
       <div>⚀⚁⚂⚃⚄⚅ 중 하나를 무작위로 선택해서 출력하겠습니다.</div>
       <br />
       <code>

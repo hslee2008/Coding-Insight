@@ -3,7 +3,7 @@
     <br />
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>Declare number variable</h1>
+        <h2>Declare number variable</h2>
         <p>
           We use numbers all the time.<br /><br />
 
@@ -35,7 +35,7 @@
 
     <div>
       <div>
-        <h1>Basic Calculation</h1>
+        <h2>Basic Calculation</h2>
         <p>
           In elementary school, we learned how to add, subtract, multiply, and
           divide.<br /><br />
@@ -63,7 +63,7 @@
 
     <div>
       <div>
-        <h1>The difference between number and 'number'</h1>
+        <h2>The difference between number and 'number'</h2>
         <p>
           There are two ways you can define a number variable.<br /><br />
 
@@ -111,7 +111,7 @@
 
     <div>
       <div>
-        <h1>input() value to number</h1>
+        <h2>input() value to number</h2>
         <p>
           input() always returns string.<br /><br />
 
@@ -157,7 +157,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -252,11 +252,13 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

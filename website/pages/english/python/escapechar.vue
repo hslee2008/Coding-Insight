@@ -1,10 +1,12 @@
 <template>
   <div>
+    <br />
+
     <div>
       <br />
 
       <div>
-        <h1>What is escape character?</h1>
+        <h2>What is escape character?</h2>
         <p>
           Escape characters and characters that escapes conflicts.<br /><br />
 
@@ -42,7 +44,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>\' and \"</h1>
+        <h2>\' and \"</h2>
         <p>
           \' and \" are escape characters.<br /><br />
 
@@ -75,7 +77,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>\n</h1>
+        <h2>\n</h2>
         <p>
           n is short for newline.<br /><br />
 
@@ -101,7 +103,7 @@
 
     <div>
       <div>
-        <h1>\r</h1>
+        <h2>\r</h2>
         <p>
           Though this character is a bit different depending on your system, \r
           is usually similar as pressing backspace.<br /><br />
@@ -114,7 +116,7 @@
 
       <div>
         <div>
-          <h1>\t</h1>
+          <h2>\t</h2>
           <p>
             \t is similar to pressing tab in keyboard. A tab is equal to 4
             spaces ' '.
@@ -142,7 +144,7 @@
 
       <div>
         <div>
-          <h1>r'string' syntax</h1>
+          <h2>r'string' syntax</h2>
           <p>
             Sometimes, we might want to make a string that does not contain any
             raw strings.<br /><br />
@@ -171,7 +173,7 @@
       <QuadSpace />
 
       <div class="quiz">
-        <h1>Solve This Quiz!!</h1>
+        <h2>Solve This Quiz!!</h2>
 
         <v-divider />
 
@@ -219,7 +221,7 @@
 
         <br /><br />
 
-        <v-btn @click="checkAnswer">
+        <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>Check Answer
         </v-btn>
       </div>

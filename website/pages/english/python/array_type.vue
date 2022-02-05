@@ -2,12 +2,9 @@
   <div>
     <br />
 
-    <div
-      style="display: flex; border-radius: 5px"
-      class="img-div"
-    >
+    <div style="display: flex; border-radius: 5px" class="img-div">
       <div>
-        <h1>What is array dimensions?</h1>
+        <h2>What is array dimensions?</h2>
         <p>
           In Python, array dimensions mean the dept of the array.<br /><br />
 
@@ -32,7 +29,7 @@
 
     <div>
       <div>
-        <h1>Scalars - 0D</h1>
+        <h2>Scalars - 0D</h2>
         <p>
           0D is only 1 item.<br /><br />
 
@@ -47,7 +44,7 @@
 
     <div>
       <div>
-        <h1>uni-dimension - 1D</h1>
+        <h2>uni-dimension - 1D</h2>
         <p>
           1D means 1 array and each items inside.<br /><br />
 
@@ -62,7 +59,7 @@
 
     <div>
       <div>
-        <h1>2-D till x-D</h1>
+        <h2>2-D till x-D</h2>
         <p>
           2D means there is an array inside an array.<br /><br />
 
@@ -77,7 +74,7 @@
 
     <div>
       <div>
-        <h1>ndim</h1>
+        <h2>ndim</h2>
         <p>
           To get the dimension of the array, use the 'ndim' property.<br /><br />
 
@@ -106,21 +103,28 @@
 
     <div>
       <div>
-        <h1>Indexing</h1>
-            <p>
-              <h2>1-D</h2>
-              In uni-dimension array, simply select each element by putting an index inside.<br /><br />
+        <h2>Indexing</h2>
+        <h3>1-D</h3>
+        In uni-dimension array, simply select each element by putting an index
+        inside.<br /><br />
 
-              <h2>2-D</h2>
-              2D arrays have arrays inside array so we should have an index of that array and select an item from that
-              array.<br /><br />
+        <h3>2-D</h3>
+        2D arrays have arrays inside array so we should have an index of that
+        array and select an item from that array.<br /><br />
 
-              x-dimension array requires x number of index to access each item.
-
-            </p>
+        x-dimension array requires x number of index to access each item.
       </div>
-          <iframe class="embed-responsive-item" src="https://trinket.io/embed/python3/75087d4767" width="60%"
-            height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen loading="lazy"/>
+      <iframe
+        class="embed-responsive-item"
+        src="https://trinket.io/embed/python3/75087d4767"
+        width="60%"
+        height="356"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        loading="lazy"
+      />
     </div>
 
     <NaviBtn bef="array" aft="array_shape" />

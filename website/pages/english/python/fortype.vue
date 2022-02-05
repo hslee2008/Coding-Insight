@@ -9,7 +9,7 @@
 
       <div>
         <div>
-          <h1>Iterable</h1>
+          <h2>Iterable</h2>
           <p>
             A data type that can be accessed through indexing in loops are
             called iterables.<br /><br />
@@ -44,7 +44,7 @@
       <div>
         <div>
           <div>
-            <h1>Generator</h1>
+            <h2>Generator</h2>
             <p>
               Generators are similar to iterables. The only difference is that
               the datas are deleted after running.<br /><br />
@@ -74,7 +74,7 @@
       <div>
         <div>
           <div>
-            <h1>YIELD</h1>
+            <h2>YIELD</h2>
             <p>
               Yield has the same function as return.<br /><br />
 

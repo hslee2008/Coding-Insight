@@ -15,13 +15,21 @@
           <v-card-subtitle> APK 16.5MB (v2.1.0) </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn color="primary" href="/app-release.apk" download
+            <v-btn
+              aria-label="Coding Insight Button"
+              color="primary"
+              href="/app-release.apk"
+              download
               >다운로드</v-btn
             >
 
             <v-spacer></v-spacer>
 
-            <v-btn icon @click="show2 = !show2">
+            <v-btn
+              aria-label="Coding Insight Button"
+              icon
+              @click="show2 = !show2"
+            >
               <v-icon>{{
                 show2 ? 'mdi-chevron-up' : 'mdi-chevron-down'
               }}</v-icon>
@@ -56,7 +64,11 @@
 
             <v-spacer></v-spacer>
 
-            <v-btn icon @click="show4 = !show4">
+            <v-btn
+              aria-label="Coding Insight Button"
+              icon
+              @click="show4 = !show4"
+            >
               <v-icon>{{
                 show4 ? 'mdi-chevron-up' : 'mdi-chevron-down'
               }}</v-icon>
@@ -88,6 +100,7 @@
 
           <v-card-actions>
             <v-btn
+              aria-label="Coding Insight Button"
               color="primary"
               target="_blank"
               href="https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search"
@@ -96,7 +109,11 @@
 
             <v-spacer></v-spacer>
 
-            <v-btn icon @click="show5 = !show5">
+            <v-btn
+              aria-label="Coding Insight Button"
+              icon
+              @click="show5 = !show5"
+            >
               <v-icon>{{
                 show5 ? 'mdi-chevron-up' : 'mdi-chevron-down'
               }}</v-icon>
@@ -140,7 +157,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/harm.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/harm.jpg"
           /><br /><br />
 
           만일 설치할 것이냐고 물어보면 확인 버튼을 누르세요.<br /><br />
@@ -150,7 +167,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/detail.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/detail.jpg"
           /><br /><br />
 
           조금 뒤 다음과 같이 스크린이 보일 것입니다.<br /><br />
@@ -158,7 +175,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/open.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/open.jpg"
           /><br /><br />
 
           오픈 버튼을 누르세요.<br /><br />
@@ -170,7 +187,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/ask.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/ask.jpg"
           /><br /><br />
 
           그리고 다음과 같이 스크린에서 설정 창이 뜹니다.<br /><br />
@@ -180,7 +197,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/setting.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/setting.jpg"
           /><br /><br />
 
           백 버튼을 누르면 설치 할 것이냐고 물어볼 것입니다. '설치' 버튼을
@@ -189,7 +206,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/install.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/install.jpg"
           /><br /><br />
 
           다음, 'Play Protect에서 찬단했습니다'라고 뜰 수 있습니다. 무시하고
@@ -198,7 +215,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/playprotect.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/playprotect.jpg"
           /><br /><br />
 
           파이썬 팩토리 앱이 설치 되었다고 뜰 것입니다.<br /><br />
@@ -208,7 +225,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/installed.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/installed.jpg"
           />
         </p>
       </div>
@@ -228,7 +245,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/galaxystore.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/galaxystore.jpg"
             width="300"
           /><br /><br />
 
@@ -237,7 +254,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/installgalaxystore.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/installgalaxystore.jpg"
             width="300"
           /><br /><br />
 
@@ -246,7 +263,7 @@
           <v-img
             max-width="300px"
             alt="python-factory-picture"
-            :src="require('./img/runapp.jpg')"
+            src="https://image-loader-coding-insight.web.app/img/runapp.jpg"
             width="300"
           /><br /><br />
 
@@ -273,5 +290,8 @@ export default {
       show6: false,
     };
   },
+  head: () => ({
+    title: '앱',
+  }),
 };
 </script>

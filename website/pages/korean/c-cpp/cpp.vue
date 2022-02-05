@@ -27,7 +27,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>C 다음에는?</h1>
+        <h2>C 다음에는?</h2>
         <p>
           C 언어를 공부했다면 알고리즘을 배우면 좋지만 이를 배우기 전에 C++
           언어를 공부하면 좋습니다.<br /><br />
@@ -52,7 +52,7 @@
 
     <div>
       <div>
-        <h1>C++과 C 언어 중요한 차이</h1>
+        <h2>C++과 C 언어 중요한 차이</h2>
       </div>
       <div>
         <p>
@@ -70,8 +70,8 @@
     <QuadSpace />
 
     <div>
-      <NuxtLink to="./io-cpp" style="text-decoration: none; float: right">
-        <v-btn class="ma-2" outlined>
+      <NuxtLink aria-label="Go to Coding Insight Page" to="./io-cpp" style="text-decoration: none; float: right">
+        <v-btn aria-label="Coding Insight Button" class="ma-2" outlined>
           Next<v-icon right> mdi-arrow-right-circle-outline </v-icon>
         </v-btn>
       </NuxtLink>

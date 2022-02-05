@@ -4,7 +4,7 @@
       <div class="progress--bar"></div>
     </div>
 
-    <h1>Quiz</h1>
+    <h2>Quiz</h2>
 
     <div class="questionArea">
       <div class="question">...</div>
@@ -15,11 +15,11 @@
       <div class="scoreText1">--</div>
       <div class="scorePct">--</div>
       <div class="scoreText2">--</div>
-      <NuxtLink to="./quiz" style="text-decoration: none">
-        <v-btn> Restart </v-btn>
+      <NuxtLink aria-label="Go to Coding Insight Page" to="./quiz" style="text-decoration: none">
+        <v-btn aria-label="Coding Insight Button"> Restart </v-btn>
       </NuxtLink>
-      <NuxtLink to="/" style="text-decoration: none">
-        <v-btn> Homepage </v-btn>
+      <NuxtLink aria-label="Go to Coding Insight Page" to="/" style="text-decoration: none">
+        <v-btn aria-label="Coding Insight Button"> Homepage </v-btn>
       </NuxtLink>
     </div>
   </div>

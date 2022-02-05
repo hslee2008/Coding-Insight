@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Set Operation</h1>
+        <h2>Set Operation</h2>
         <p>
           There are 3 types of main set operation you need to know.<br /><br />
 
@@ -33,7 +33,7 @@
 
     <div>
       <div>
-        <h1>Union</h1>
+        <h2>Union</h2>
         <p>
           Union means 'as one'.<br /><br />
 
@@ -82,7 +82,7 @@
     <div>
       <div>
         <div>
-          <h1>Intersection</h1>
+          <h2>Intersection</h2>
           <p>
             We can use the intersection_update() or intersection() to find the
             intersection of two sets.<br /><br />
@@ -133,7 +133,7 @@
 
     <div>
       <div>
-        <h1>Difference</h1>
+        <h2>Difference</h2>
         <p>
           Using the symmetric_difference_update() method, we can find the items
           that only exists in the first set.<br /><br />

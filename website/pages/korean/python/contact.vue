@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>친구 목록 다루기</h1>
+        <h2>친구 목록 다루기</h2>
         <p>
           파이썬 리스트를 사용해서 친구 목록 다루는 프로그램을 만들어
           보겠습니다!<br /><br />
@@ -32,7 +32,7 @@
     <QuadSpace />
 
     <div>
-      <h1>프로그램 설명</h1>
+      <h2>프로그램 설명</h2>
       <p>
         1. 무엇을 하고 싶은지 물어본다 (a: 친구 추가, r: 친구 삭제, p: 모든 친구
         출력)<br /><br />
@@ -45,7 +45,7 @@
     <QuadSpace />
 
     <div>
-      <h1>코드 설명</h1>
+      <h2>코드 설명</h2>
       <div>
         1) 친구 리스트 변수 만들기<br /><br />
         <code>friends = []</code>
@@ -77,7 +77,7 @@
 
     <QuadSpace />
 
-    <h1>코드 확인하기</h1>
+    <h2>코드 확인하기</h2>
     <iframe
       src="https://trinket.io/embed/python3/270cadb63c"
       width="100%"

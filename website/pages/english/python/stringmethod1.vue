@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>Get length of string</h1>
+        <h2>Get length of string</h2>
         <p>
           To get the length of a certain string, we can use the len() code.<br /><br />
 
@@ -37,7 +37,7 @@
 
     <div>
       <div>
-        <h1>Check whether substring is inside string</h1>
+        <h2>Check whether substring is inside string</h2>
         <p>
           Substring means a part of a string.<br /><br />
 
@@ -67,7 +67,7 @@
 
     <div>
       <div>
-        <h1>Uppercase and Lowercase in string</h1>
+        <h2>Uppercase and Lowercase in string</h2>
         <p>
           Python has lots of useful tools for handling upper and lowercase.<br /><br />
 
@@ -116,7 +116,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>문자에서 문자의 인덱스</h1>
+        <h2>문자에서 문자의 인덱스</h2>
         <p>
           index() 메서드를 사용하여 문자 안에 또 다른 문자가 존재하는지 알 수
           있습니다.<br /><br />
@@ -137,7 +137,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>파이썬 문자 센터링</h1>
+        <h2>파이썬 문자 센터링</h2>
         <p>
           파이썬에서 센터링이란 문자를 ' '로 둘러싸는 것을 뜻합니다. ' '로
           둘러싸여 있지만 가운데에 있는 것처럼 보입니다.<br /><br />
@@ -164,7 +164,7 @@
     <br /><br />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -243,7 +243,7 @@
           name="question-2-answers"
           value="D"
         />
-        <label for="question-2-answers-D">D) &lt </label>
+        <label for="question-2-answers-D">D) &lt; </label>
       </div>
       <br /><br />
       <h3>어떤 값의 인덱스를 찾는 방법은?</h3>
@@ -362,7 +362,7 @@
         <label for="question-5-answers-D">D) toMiddle() </label>
       </div>
       <br /><br />
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

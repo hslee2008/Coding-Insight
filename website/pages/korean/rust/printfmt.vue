@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>println!과 다르게 정보를 출력하는 방법</h1>
+        <h2>println!과 다르게 정보를 출력하는 방법</h2>
         <p>
           Rust에서는 println!, print!, eprint!, 그리고 eprintln!을 사용하여
           정보를 출력할 수 있습니다.<br /><br />
@@ -22,7 +22,7 @@
 
     <div>
       <div>
-        <h1>print!()</h1>
+        <h2>print!()</h2>
         <p>
           <IC code="println!()" />을 사용했을 때는 사실 값을 출력하고 그 다음에
           새로운 줄을 넣습니다.<br /><br />
@@ -51,7 +51,7 @@
 
     <div>
       <div>
-        <h1>eprint!()와 eprintln!()</h1>
+        <h2>eprint!()와 eprintln!()</h2>
         <p>
           <IC code="eprint!()" />와 <IC code="eprintln!()" />은
           <IC code="print!()" />와 같지만 에러를 표시할 때 사용합니다.

@@ -4,7 +4,7 @@
       <div class="progress--bar"></div>
     </div>
 
-    <h1>Quiz</h1>
+    <h2>Quiz</h2>
 
     <div class="questionArea">
       <div class="question">...</div>
@@ -15,11 +15,11 @@
       <div class="scoreText1">--</div>
       <div class="scorePct">--</div>
       <div class="scoreText2">--</div>
-      <NuxtLink to="./quiz" style="text-decoration: none">
-        <v-btn> 다시시작 </v-btn>
+      <NuxtLink aria-label="Go to Coding Insight Page" to="./quiz" style="text-decoration: none">
+        <v-btn aria-label="Coding Insight Button"> 다시시작 </v-btn>
       </NuxtLink>
-      <NuxtLink to="/" style="text-decoration: none">
-        <v-btn> 홈페이지 </v-btn>
+      <NuxtLink aria-label="Go to Coding Insight Page" to="/" style="text-decoration: none">
+        <v-btn aria-label="Coding Insight Button"> 홈페이지 </v-btn>
       </NuxtLink>
     </div>
   </div>
@@ -36,7 +36,7 @@ export default {
         options: [
           'print("Hello, World!")',
           'printf("Hello, World!")',
-          'cout &lt;&lt; "Hello, World!"',
+          'cout << "Hello, World!"',
           'console.log("Hello, World!")',
         ],
         answer: 0,

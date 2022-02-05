@@ -21,7 +21,7 @@
 
     <div>
       <div>
-        <h1>문자의 길이 구하기</h1>
+        <h2>문자의 길이 구하기</h2>
         <p>
           가끔 파이썬에서 문자의 길이를 알아야 할 때가 있습니다.<br /><br />
           예를 들어 사용자가 새로운 암호를 input() 함수 안에 입력하고 있을 때,
@@ -48,7 +48,7 @@
 
     <div>
       <div>
-        <h1>문자 안에 부분문자열이 존재하는지 확인</h1>
+        <h2>문자 안에 부분문자열이 존재하는지 확인</h2>
         <p>
           부분문자열은 문자 안의 문자입니다.<br /><br />
           예를 들어 문자 'abc'에는 부분문자열 'a','b'등이 존재합니다.<br /><br />
@@ -75,7 +75,7 @@
 
     <div class="header-div bg-black text-white">
       <div>
-        <h1>문자의 대소문자</h1>
+        <h2>문자의 대소문자</h2>
         <p>
           파이썬에서 대문자를 소문자로, 소문자를 대문자로 바꿀 수 있는 방법이
           있습니다.<br /><br />
@@ -107,7 +107,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>문자에서 문자의 인덱스</h1>
+        <h2>문자에서 문자의 인덱스</h2>
         <p>
           index() 메서드를 사용하여 문자 안에 또 다른 문자가 존재하는지 알 수
           있습니다.<br /><br />
@@ -128,7 +128,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>파이썬 문자 센터링</h1>
+        <h2>파이썬 문자 센터링</h2>
         <p>
           파이썬에서 센터링이란 문자를 ' '로 둘러싸는 것을 뜻합니다. ' '로
           둘러싸여 있지만 가운데에 있는 것처럼 보입니다.<br /><br />
@@ -155,7 +155,7 @@
     <br /><br />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -234,7 +234,7 @@
           name="question-2-answers"
           value="D"
         />
-        <label for="question-2-answers-D">D) &lt </label>
+        <label for="question-2-answers-D">D) &lt; </label>
       </div>
       <br /><br />
       <h3>어떤 값의 인덱스를 찾는 방법은?</h3>
@@ -353,7 +353,7 @@
         <label for="question-5-answers-D">D) toMiddle() </label>
       </div>
       <br /><br />
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

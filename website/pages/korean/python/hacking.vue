@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>해킹</h1>
+        <h2>해킹</h2>
         <p>
           파이썬을 사용해서 여러분 집의 인터넷에서 일어나는 모든 일을 알 수 있는
           프로그램을 만들어 보겠습니다.<br /><br />
@@ -30,7 +30,7 @@
     <QuadSpace />
 
     <div>
-      <h1>프로그램 설명</h1>
+      <h2>프로그램 설명</h2>
       <p>
         socket이라는 모듈을 사용하면 인터넷에서 어떤 일이 일어나는지 다 확인이
         가능합니다.
@@ -40,7 +40,7 @@
     <QuadSpace />
 
     <div>
-      <h1>코드 설명</h1>
+      <h2>코드 설명</h2>
       <div>
         import socket, struct, binascii<br /><br />
 

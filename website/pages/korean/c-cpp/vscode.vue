@@ -4,7 +4,7 @@
 
     <div style="display: flex; justify-content: space-evenly">
       <div>
-        <h1>VSCode 설치하는 방법</h1>
+        <h2>VSCode 설치하는 방법</h2>
         <p>
           1.
           <a
@@ -18,55 +18,55 @@
         <p>+ 키보드에 창틀이 있으면 윈도우입니다(없다면 MAC).</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/vscode.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vscode.jpg"
           max-width="400px"
         /><br />
         <p>3. 설치가 100%다 되면 그 박스를 클릭하세요.</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/vscodesetup.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vscodesetup.jpg"
           max-width="400px"
         /><br />
         <p>4. 동의합니다를 선택하세요.</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/agree.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/agree.jpg"
           max-width="400px"
         /><br />
         <p>5. 다음(또는 Next) 버튼을 누르세요.</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/nextvscode.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/nextvscode.jpg"
           max-width="400px"
         /><br />
         <p>6. 설치 버튼을 누르세요.</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/installvscode.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/installvscode.jpg"
           max-width="400px"
         /><br />
         <p>7. 끝내기 버튼을 누르세요.</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/vscodefinish.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vscodefinish.jpg"
           max-width="400px"
         />
       </div>
       <div>
-        <h1>C 언어 프로그래밍 준비</h1>
+        <h2>C 언어 프로그래밍 준비</h2>
         <p>
           1. VSCode 왼쪽 바에 4 큐브 모양의 버튼이 있습니다.<br /><br />클릭하세요.
           (CTRL+SHIFT+X)
         </p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/cube.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/cube.jpg"
           max-width="400px"
         /><br />
         <p>3. C라고 친 후 기다리세요</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/extinstall.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/extinstall.jpg"
           max-width="400px"
         /><br />
         <p>4. 처음으로 나타나는 확장 도구을 설치하세요 (install 버튼 누르기)</p>
@@ -76,7 +76,7 @@
         </p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/coderunner.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/coderunner.jpg"
           max-width="400px"
         />
       </div>
@@ -90,7 +90,7 @@
 
     <div>
       <div>
-        <h1>VSCode에서 C 언어 프로그래밍하기</h1>
+        <h2>VSCode에서 C 언어 프로그래밍하기</h2>
         <p>1. 파이썬 코드를 저장하기 위한 폴더가 필요합니다.</p>
         <p>
           2. CTRL+SHIFT+E 또는 왼쪽 바에 있는 파일 버튼(버튼 중 맨 위)을
@@ -98,14 +98,14 @@
         </p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/file.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/file.jpg"
           max-width="400px"
         />
         <br />
         <p>3. "Open Folder" 버튼을 누르고 코드를 저장할 파일을 선택하세요.</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/choose.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/choose.jpg"
           max-width="400px"
         />
         <br />
@@ -115,21 +115,21 @@
         </p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/newfile.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/newfile.jpg"
           max-width="400px"
         />
         <br />
         <p>5. 파이썬 파일 이름을 입력 후 '.c'로 끝내고 엔터를 누르세요.</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/filename.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/filename.jpg"
           max-width="400px"
         />
         <br />
         <p>6. 파일 안에 C 언어 코드를 입력합니다.</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/firstcode.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/firstcode.jpg"
           max-width="400px"
         />
         <br />
@@ -140,7 +140,7 @@
         </p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/terminal.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/terminal.jpg"
           max-width="400px"
         />
         <br />
@@ -154,7 +154,7 @@
         <p>7. 마지막으로, a.exe(만일 인되면 ./a.exe)를 실행합니다.</p>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/compileandrun.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/compileandrun.jpg"
           max-width="400px"
         />
       </div>
@@ -163,7 +163,7 @@
 
     <div>
       <div>
-        <h1>C 언어 코드 살펴보기</h1>
+        <h2>C 언어 코드 살펴보기</h2>
         <p>
           1. #include &lt;stdio.h>는 출력할 수 있는 기능을 가지고 오는
           코드입니다.<br /><br />
@@ -176,7 +176,7 @@
       <div>
         <v-img
           alt="python-factory-picture"
-          :src="require('./img/firstcode.jpg')"
+          src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/firstcode.jpg"
           max-width="400px"
         />
       </div>
@@ -186,7 +186,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>.c란?</h1>
+        <h2>.c란?</h2>
         <p>
           위의 설명에서 항상 파이썬 파일을 만들때 "이름.c" 형태로 정해야한다고
           했습니다.

@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>프로젝트: 자동으로 줌 열기</h1>
+        <h2>프로젝트: 자동으로 줌 열기</h2>
         <p>
           파이썬에서 자동으로 줌을 열 수 있습니다.<br /><br />
 
@@ -37,7 +37,7 @@
     <QuadSpace />
 
     <div class="text-center">
-      <h1>코드</h1>
+      <h2>코드</h2>
     </div>
     <code>
       import webbrowser, keyboard, time<br /><br />

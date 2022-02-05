@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>Dice</h1>
+        <h2>Dice</h2>
         <p>Let's try making our own dice program that randomly roles a dice.</p>
       </div>
 
@@ -24,14 +24,14 @@
     <QuadSpace />
 
     <div>
-      <h1>Dice Program</h1>
+      <h2>Dice Program</h2>
       <p>We randomly choose a dice number and print it to the console.</p>
     </div>
 
     <QuadSpace />
 
     <div>
-      <h1>Code Explanation</h1>
+      <h2>Code Explanation</h2>
       <div>Choose one of ⚀⚁⚂⚃⚄⚅.</div>
       <br />
       <code>
@@ -60,7 +60,7 @@
 
 <script>
 export default {
-  name: 'HackingPage',
+  name: 'DicePage',
 };
 </script>
 `

@@ -4,7 +4,7 @@
 
     <div style="display: flex; margin: auto" class="img-div">
       <div style="margin: auto">
-        <h1>What is a comment?</h1>
+        <h2>What is a comment?</h2>
         <p>
           Below YouTube videos, there are sections in which you can 'comment' on
           the video.<br /><br />
@@ -29,7 +29,7 @@
     <QuadSpace />
 
     <div>
-      <h1>When to use comment?</h1>
+      <h2>When to use comment?</h2>
       <p>
         1. Explaining what a piece of code does<br /><br />
         2. To inform the reader or developer of something<br /><br />
@@ -54,7 +54,7 @@
 
     <div>
       <div>
-        <h1>One - line comment</h1>
+        <h2>One - line comment</h2>
         <p>
           One line comment is mostly use beside a code to tell what it does.<br /><br />
 
@@ -79,7 +79,7 @@
 
     <div>
       <div>
-        <h1>Multi - line comment</h1>
+        <h2>Multi - line comment</h2>
         <p>
           Multi line comments are used to inform readers and developers.<br /><br />
 
@@ -112,7 +112,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -205,7 +205,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>

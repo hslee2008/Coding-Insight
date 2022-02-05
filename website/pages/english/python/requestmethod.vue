@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>Status</h1>
+        <h2>Status</h2>
         <p>
           Using the status_code property, we can figure out the status of our
           request.<br /><br />
@@ -44,7 +44,7 @@
 
     <div>
       <div>
-        <h1>Header</h1>
+        <h2>Header</h2>
         <p>
           Header is explanation for the request. You can make your own header
           during the request.

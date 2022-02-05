@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>장난 이메일</h1>
+        <h2>장난 이메일</h2>
         <p>
           이 프로젝트에서는 친구 또는 가족에게 장난으로 이메일을 보내는 방법을
           알아보겠습니다.
@@ -26,7 +26,7 @@
     <QuadSpace />
 
     <div class="text-center">
-      <h1>준비</h1>
+      <h2>준비</h2>
     </div>
     <p>
       smtplib와 ssl을 설치 해야합니다. 아마도 이미 설치 되어있겠지만 혹시

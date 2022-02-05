@@ -7,7 +7,7 @@
       class="img-div"
     >
       <div>
-        <h1>What is array?</h1>
+        <h2>What is array?</h2>
         <p>
           List is a data type where you can store multiple datas.<br /><br />
 
@@ -36,7 +36,7 @@
 
     <div>
       <div>
-        <h1>Making array</h1>
+        <h2>Making array</h2>
         <p>
           We have to import numpy module to use array in Python.<br /><br />
 
@@ -71,7 +71,7 @@
 
     <div>
       <div>
-        <h1>Array - number operators</h1>
+        <h2>Array - number operators</h2>
         <p>
           In lists, we used for loops to access each item in order to change
           each item.<br /><br />

@@ -9,7 +9,7 @@
 
       <div>
         <div>
-          <h1>While 반복문이란?</h1>
+          <h2>While 반복문이란?</h2>
           <p>
             While 반복문이란 반복문의 일종으로 주어진 불리언 자료형 조건을
             기반으로 코드가 <mark>반복적으로 수행</mark>할 수 있게
@@ -37,7 +37,7 @@
       <div>
         <div>
           <div>
-            <h1>While 반복문 사용법</h1>
+            <h2>While 반복문 사용법</h2>
             <p>
               While 반복문 밑에 있는 CODE1을 확인하세요.<br /><br />
 
@@ -82,7 +82,7 @@
 
       <div>
         <div>
-          <h1>break 문</h1>
+          <h2>break 문</h2>
           <p>
             break 문은 while True 문을 <mark>정지</mark>시킬 때 사용하는
             코드입니다.<br /><br />
@@ -108,7 +108,7 @@
 
       <div>
         <div>
-          <h1>for v.s. while</h1>
+          <h2>for v.s. while</h2>
           <p>
             파이썬에서
             <mark>for을 사용하는 것이 더 좋습니다</mark>.<br /><br />

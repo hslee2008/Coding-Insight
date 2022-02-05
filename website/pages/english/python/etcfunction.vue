@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>quit() and exit()</h1>
+        <h2>quit() and exit()</h2>
         <p>
           We can always quit the Python program whenever we want by using either
           quit() or exit().<br /><br />
@@ -43,7 +43,7 @@
 
     <div>
       <div>
-        <h1>help()</h1>
+        <h2>help()</h2>
         <p>
           In Python, there is an useful program to help developers.<br /><br />
 

@@ -3,7 +3,7 @@
     <br />
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>변수 - 숫자 선언 방법</h1>
+        <h2>변수 - 숫자 선언 방법</h2>
         <p>
           숫자는 우리가 항상 사용하는 것입니다. '사과 2개', '책 3권' 등 다양한
           상황에서 숫자는 중요한 역할을 합니다.<br /><br />
@@ -34,7 +34,7 @@
 
     <div>
       <div>
-        <h1>숫자 - 간단한 계산</h1>
+        <h2>숫자 - 간단한 계산</h2>
         <p>
           숫자를 가지고 계산을 하겠습니다.<br /><br />
 
@@ -64,7 +64,7 @@
 
     <div>
       <div>
-        <h1>숫자와 '숫자'의 차이</h1>
+        <h2>숫자와 '숫자'의 차이</h2>
         <p>
           파이썬에서는 숫자를 2가지 방법으로 선언할 수 있습니다.<br /><br />
 
@@ -99,7 +99,7 @@
 
     <div>
       <div>
-        <h1>input()을 숫자로</h1>
+        <h2>input()을 숫자로</h2>
         <p>
           이제 사용자로부터 숫자 2개를 받아 더하기를 해보겠습니다.<br /><br />
 
@@ -141,7 +141,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -234,11 +234,13 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 

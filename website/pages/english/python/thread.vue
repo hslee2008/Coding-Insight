@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>What is thread?</h1>
+        <h2>What is thread?</h2>
         <p>
           There are lots of things to explainn.<br /><br />
 
@@ -35,7 +35,7 @@
 
     <div>
       <div>
-        <h1>Lots of thread</h1>
+        <h2>Lots of thread</h2>
         <p>
           What will happen when there are a lot of thread attached to the
           core?<br /><br />
@@ -73,7 +73,7 @@
 
     <div>
       <div>
-        <h1>Python threading</h1>
+        <h2>Python threading</h2>
         <p>
           Let's first import threading and time module.<br /><br />
 

@@ -2,7 +2,7 @@
   <div>
     <br />
     <div class="text-center">
-      <h1>프로젝트 수업!</h1>
+      <h2>프로젝트 수업!</h2>
 
       <iframe
         width="80%"
@@ -19,7 +19,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>매드립스란?</h1>
+        <h2>매드립스란?</h2>
         <p>
           매드립스는 빈칸이 있는 곳에 단어들을 넣으며 문장을 만들어 나가는
           게임입니다.<br /><br />
@@ -44,7 +44,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>알고리즘</h1>
+        <h2>알고리즘</h2>
         <p>
           어떻게 매드립스 게임을 만들지 알아보겠습니다.<br /><br />
 
@@ -67,7 +67,7 @@
 
     <div>
       <div>
-        <h1>게임 만들기</h1>
+        <h2>게임 만들기</h2>
         <div style="display: flex; padding: 5px" class="img-div">
           <div style="margin: 5px">
             <h2>1. 빈 칸이 들어 있는 문장 만들기</h2>
@@ -115,7 +115,7 @@
 
     <div style="padding: 30px">
       <div>
-        <h1>코드 확인하기</h1>
+        <h2>코드 확인하기</h2>
 
         <iframe
           src="https://trinket.io/embed/python3/e1d336381d"

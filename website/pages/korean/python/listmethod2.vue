@@ -22,7 +22,7 @@
 
     <div>
       <div>
-        <h1>리스트 정리하기</h1>
+        <h2>리스트 정리하기</h2>
         <p>
           리스트를 알파벳과 숫자 순서로 정리하기 위해서 'sort' 메서드를 사용할
           수 있습니다 (CODE1)<br /><br />
@@ -54,7 +54,7 @@
 
     <div>
       <div>
-        <h1>append()</h1>
+        <h2>append()</h2>
         <p>
           리스트 끝에 새로운 값을 더하기 위하여 우리는 'append()'를 사용해
           보겠습니다.<br /><br />
@@ -79,7 +79,7 @@
 
     <div>
       <div>
-        <h1>리스트 합치기</h1>
+        <h2>리스트 합치기</h2>
         <p>
           두 리스트를 더하여 새로운 리시트를 만들기 위하여 'extend'를 사용할 수
           있습니다.<br /><br />
@@ -105,7 +105,7 @@
 
     <div>
       <div>
-        <h1>리스트 비교하기</h1>
+        <h2>리스트 비교하기</h2>
         <p>
           리스트가 만일 모두 다 숫자로만 이루어져 있다면 가장 큰 수와 가장 작은
           수를 max()와 min()을 사용하여 알 수 있습니다.
@@ -131,7 +131,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -181,7 +181,7 @@
 
       <QuadSpace />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

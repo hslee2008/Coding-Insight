@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>형태 변형이란?</h1>
+        <h2>형태 변형이란?</h2>
         <p>
           형태 변형이란 다양한 정보를 다양한 데이터 형태로 나타나게 하는 작업을
           뜻합니다.
@@ -26,7 +26,7 @@
 
     <div>
       <div>
-        <h1>데이터 형태 변형</h1>
+        <h2>데이터 형태 변형</h2>
         <p>
           데이터 unsigned char 'A'를 char 'A'로 바꾸기 위해<br /><br />
 

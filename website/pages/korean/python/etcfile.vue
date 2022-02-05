@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>파일 만들기</h1>
+        <h2>파일 만들기</h2>
         <p>
           파일을 만들기 위해서는 'x' 모드를 사용할 수 있습니다.<br /><br />
 
@@ -25,7 +25,7 @@
     <div>
       <div>
         <div>
-          <h1>파일 삭제하기</h1>
+          <h2>파일 삭제하기</h2>
           <p>
             파일을 삭제하려면 os라는 모듈을 사용해야 합니다.<br /><br />
 
@@ -45,7 +45,7 @@
     <div>
       <div>
         <div>
-          <h1>인코딩</h1>
+          <h2>인코딩</h2>
           <p>
             키보드에 존재하지 않는 문자나 이모지를 읽기 위해서는 인코딩이라는
             옵션을 사용해야 합니다.<br /><br />
@@ -70,7 +70,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -124,7 +124,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon> 정답 확인
       </v-btn>
     </div>

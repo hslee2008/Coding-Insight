@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>파일에 쓰기</h1>
+        <h2>파일에 쓰기</h2>
         <p>
           파일을 쓰는데는 두 가지 모드가 있습니다.<br /><br />
 
@@ -33,7 +33,7 @@
 
     <div>
       <div>
-        <h1>write()</h1>
+        <h2>write()</h2>
         <p>write() 메서드를 사용하면 파일에 새로운 내용을 쓸 수 있습니다.</p>
       </div>
     </div>
@@ -43,7 +43,7 @@
     <div>
       <div>
         <div>
-          <h1>writelines()</h1>
+          <h2>writelines()</h2>
           <p>
             writelines()는 문자로 구성된 리스트의 값들을 결합하고 파일에 씁니다.
           </p>
@@ -69,7 +69,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기</h1>
+      <h2>퀴즈 풀기</h2>
 
       <v-divider />
 
@@ -123,7 +123,7 @@
 
       <QuadSpace />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>

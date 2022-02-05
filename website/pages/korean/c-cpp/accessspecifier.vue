@@ -4,14 +4,14 @@
 
     <div>
       <div>
-        <h1>Access Specifier</h1>
+        <h2>Access Specifier</h2>
         <p>
           Access Specifier이란 그 안에 있는 정보들이 어디에서 사용 될 수 있는지
           정하는 키워드입니다.<br /><br />
 
           저저번 시간에 public이라는 access specifier을 배웠습니다.<br /><br />
 
-          public 안에 있는 변수들은 박에서도 사용이 될 수 있습니다.
+          public 안에 있는 변수들은 밖에서도 사용이 될 수 있습니다.
         </p>
       </div>
     </div>
@@ -24,9 +24,9 @@
 
     <div>
       <div>
-        <h1>private</h1>
+        <h2>private</h2>
         <p>
-          private 안에 있는 모든 변수들은 박에서 사용이 불가능합니다.<br /><br />
+          private 안에 있는 모든 변수들은 밖에서 사용이 불가능합니다.<br /><br />
 
           <code>
             class person {<br />
@@ -66,9 +66,9 @@
 
     <div>
       <div>
-        <h1>private 변수 사용하기</h1>
+        <h2>private 변수 사용하기</h2>
         <p>
-          private 변수는 그 클래스 안에서만 사용할 수 있기 때문에 박에서는
+          private 변수는 그 클래스 안에서만 사용할 수 있기 때문에 밖에서는
           메서드를 사용해서만 가능합니다.<br /><br />
 
           <code>

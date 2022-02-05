@@ -5,7 +5,7 @@
     <v-row flex justify="center" class="img-div" style="margin: 10px">
       <div style="margin: auto">
         <h1>Hello</h1>
-        <h2>We are Python-Factory</h2>
+        <h2>We are Coding-Insight</h2>
       </div>
       <div style="margin: auto">
         <v-img
@@ -66,15 +66,15 @@
         </v-card-text>
 
         <v-card-actions>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/">
+          <v-btn aria-label="Coding Insight Button" class="ma-2" color="primary" dark to="/korean/python/">
             Python
             <v-icon dark right> mdi-language-python </v-icon>
           </v-btn>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/quiz">
+          <v-btn aria-label="Coding Insight Button" class="ma-2" color="primary" dark to="/korean/python/quiz">
             Quiz
             <v-icon dark right> mdi-chat-question </v-icon>
           </v-btn>
-          <v-btn class="ma-2" color="primary" dark to="/korean/python/video">
+          <v-btn aria-label="Coding Insight Button" class="ma-2" color="primary" dark to="/korean/python/video">
             Video
             <v-icon dark right> mdi-youtube </v-icon>
           </v-btn>
@@ -91,7 +91,7 @@
           There are total 4 apps you can download made by the developers of our
           site in order to help you learn!<br /><br />
 
-          <v-btn to="/app-en"><v-icon>mdi-apps</v-icon> App Download </v-btn>
+          <v-btn aria-label="Coding Insight Button" to="/app-en"><v-icon>mdi-apps</v-icon> App Download </v-btn>
         </p>
       </div>
       <div style="margin: auto">
@@ -109,6 +109,9 @@
 <script>
 export default {
   name: 'IndexENPage',
+  head: () => ({
+    title: 'Home',
+  }),
 };
 </script>
 

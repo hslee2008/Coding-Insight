@@ -4,13 +4,13 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>로그인 프로그램</h1>
+        <h2>로그인 프로그램</h2>
         <p>
           파이썬을 사용해서 암호 로그인 프로그램을 만들어 보겠습니다!<br /><br />
 
           먼저 시작하기 전에 조건문의 개념을 알아야 합니다. 이 페이지에서 간단히
           소개하겠지만 더 자세히 알고 싶으면
-          <NuxtLink to="./if">조건문 페이지</NuxtLink>를 확인하세요!
+          <NuxtLink aria-label="Go to Coding Insight Page" to="./if">조건문 페이지</NuxtLink>를 확인하세요!
         </p>
       </div>
 
@@ -30,7 +30,7 @@
     <QuadSpace />
 
     <div>
-      <h1>프로그램 설명</h1>
+      <h2>프로그램 설명</h2>
       <p>
         1. 사용자에게 암호를 물어본다.<br />
         2. 진짜 암호와 사용자가 입력한 암호와 같다면 로그인
@@ -40,7 +40,7 @@
     <QuadSpace />
 
     <div>
-      <h1>코드 설명</h1>
+      <h2>코드 설명</h2>
       <div>
         1) 사용자에게 암호를 맞추라고 물어봅니다.<br /><br />
         <code>guess = input("로그인하기 위한 암호: ")</code>
@@ -58,7 +58,7 @@
 
     <QuadSpace />
 
-    <h1>코드 확인하기</h1>
+    <h2>코드 확인하기</h2>
     <iframe
       src="https://trinket.io/embed/python3/0b59c71a2d"
       width="100%"

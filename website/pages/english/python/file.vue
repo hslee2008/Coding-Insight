@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>What is File Handling?</h1>
+        <h2>What is File Handling?</h2>
         <p>
           In Python, it is very easy to read, write, append, create and delete
           files.<br /><br />
@@ -32,7 +32,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>File Path</h1>
+        <h2>File Path</h2>
         <p>
           File path is the adress of your file in your computer.<br /><br />
 
@@ -43,7 +43,7 @@
       <v-img
         alt="python-factory-picture"
         class="img-fluid"
-        :src="require('./image/filepath.jpg')"
+        src="https://image-loader-coding-insight.web.app/py-en/img/filepath.jpg"
         max-width="400px"
       />
     </div>
@@ -53,7 +53,7 @@
     <div>
       <div>
         <div>
-          <h1>Opening and Closing Files</h1>
+          <h2>Opening and Closing Files</h2>
           <p>
             We can use open() function to open our files.<br /><br />
 
@@ -90,5 +90,8 @@
 <script>
 export default {
   name: 'FilePage',
+  head: () => ({
+    title: 'File',
+  }),
 };
 </script>

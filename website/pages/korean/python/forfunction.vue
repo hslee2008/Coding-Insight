@@ -9,7 +9,7 @@
 
       <div>
         <div>
-          <h1>iter()와 __next__()</h1>
+          <h2>iter()와 __next__()</h2>
           <p>
             iter() 메서드를 사용하면 for 반복문을 대신할 수 있습니다.<br /><br />
 
@@ -41,7 +41,7 @@
       <div>
         <div>
           <div>
-            <h1>range()</h1>
+            <h2>range()</h2>
             <p>
               range()는 for 반복문을 사용할 때 매우 유용합니다. range() 함수는
               숫자로 구성된 리스트를 돌려주는 함수입니다.<br /><br />

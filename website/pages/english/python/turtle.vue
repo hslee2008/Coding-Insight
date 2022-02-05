@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>What is Turtle?</h1>
+        <h2>What is Turtle?</h2>
         <p>We use Turtle for drawing and making simple games.</p>
       </div>
       <div>
@@ -24,7 +24,7 @@
 
     <div>
       <div>
-        <h1>Preparing Turtle</h1>
+        <h2>Preparing Turtle</h2>
         <p>
           Turtle is a module.<br /><br />
 
@@ -42,7 +42,7 @@
 
     <div>
       <div>
-        <h1>Get started with Turtle</h1>
+        <h2>Get started with Turtle</h2>
         <p>
           Turtle needs to have a screen to move on.<br /><br />
 
@@ -69,7 +69,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Moving turtle</h1>
+      <h2>Moving turtle</h2>
       <div>
         <h2>forward, backward, right, left</h2>
 

@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>Organizing and rearranging your list</h1>
+        <h2>Organizing and rearranging your list</h2>
         <p>
           You can use the 'sort' method to sort the list in alphabetical and
           numeric order.<br /><br />
@@ -40,7 +40,7 @@
 
     <div>
       <div>
-        <h1>append()</h1>
+        <h2>append()</h2>
         <p>
           To append a new value to the end of the list, we'll use 'append()'.
         </p>
@@ -62,7 +62,7 @@
 
     <div>
       <div>
-        <h1>Merging list</h1>
+        <h2>Merging list</h2>
         <p>You can use 'extend' to add two lists to create a new sheet.</p>
       </div>
       <iframe
@@ -83,7 +83,7 @@
 
     <div>
       <div>
-        <h1>Comparing list values</h1>
+        <h2>Comparing list values</h2>
         <p>
           If the list is all numbers, you can find the largest and smallest
           numbers using max() and min().
@@ -110,7 +110,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -150,7 +150,7 @@
 
       <QuadSpace />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>

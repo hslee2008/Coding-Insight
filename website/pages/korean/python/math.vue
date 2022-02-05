@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto;">
-        <h1>통계란?</h1>
+        <h2>통계란?</h2>
         <p>
           통계란 어떤 데이터를 가지고 새로운 정보를 찾아내는 수학 분야 중 하나입니다.<br /><br />
           예를 들어 나의 성적 데이터 [100, 99, 88, 95, 97]를 가지고 평균을 계산할 수 있습니다.<br /><br />
@@ -26,7 +26,7 @@ alt="python-factory-picture" src="https://ih1.redbubble.net/image.455632594.5388
     <div>
       <div>
         <div>
-          <h1>평균</h1>
+          <h2>평균</h2>
           <p>
           <h2>평균의 정의</h2>
           평균이라는 것은 어떤 데이터에서 가운데 값을 뜻합니다.
@@ -54,7 +54,7 @@ src="https://trinket.io/embed/python3/b4ab6a9593" width="100%" height="356" fram
 
     <div>
       <div>
-        <h1>중앙값</h1>
+        <h2>중앙값</h2>
         <p>
         <h2>median()</h2>
         중앙값은 중앙값을 뜻합니다.<br /><br />
@@ -74,7 +74,7 @@ src="https://trinket.io/embed/python3/0a8bc90264" width="100%" height="356" fram
 
     <div>
       <div>
-        <h1>최빈값</h1>
+        <h2>최빈값</h2>
         <p>
           최빈값이란 데이터 중에서 가장 자주 등장하는 데이터의 형태를 뜻합니다.<br /><br />
           평균과 중앙값은 숫자만 입력할 수 있지만 모든 데이터 형태를 사용할 수 있습니다.

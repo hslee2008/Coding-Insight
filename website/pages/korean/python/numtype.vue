@@ -3,7 +3,7 @@
       <br>
         <div style="display: flex" class="img-div">
           <div style="margin: auto;">
-            <h1>숫자 종류</h1>
+            <h2>숫자 종류</h2>
             <p>
               파이썬 숫자에는 3가지 종류가 있습니다.<br /><br />
 
@@ -43,7 +43,7 @@
 
         <div>
           <div>
-            <h1>int (정수)</h1>
+            <h2>int (정수)</h2>
             <p>
               int는 정수입니다.<br /><br />
 
@@ -74,7 +74,7 @@
 
         <div>
           <div>
-            <h1>float (실수)</h1>
+            <h2>float (실수)</h2>
             <p>
               float는 실수입니다.<br /><br />
 
@@ -107,7 +107,7 @@
 
         <div>
           <div>
-            <h1>complex (허수)</h1>
+            <h2>complex (허수)</h2>
             <p>
               허수는 고등학교 1 수학이어서 이 수업에서는 설명을 하지
               않겠습니다.<br /><br />

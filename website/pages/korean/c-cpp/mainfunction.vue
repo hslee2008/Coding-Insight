@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>main() 함수란?</h1>
+        <h2>main() 함수란?</h2>
         <p>
           main() 함수는 C 언어에서 실행할 모든 코드를 담은 곳입니다.<br /><br />
 
@@ -32,7 +32,7 @@
 
     <div>
       <div>
-        <h1>main() 함수의 매개변수</h1>
+        <h2>main() 함수의 매개변수</h2>
         <p>
           main 함수도 매개변수가 있습니다.<br /><br />
 

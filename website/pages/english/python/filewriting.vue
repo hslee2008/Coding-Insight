@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>Writing to files</h1>
+        <h2>Writing to files</h2>
         <p>
           There are two modes in writing files.<br /><br />
 
@@ -33,7 +33,7 @@
 
     <div>
       <div>
-        <h1>write()</h1>
+        <h2>write()</h2>
         <p>
           Using the write() method, we can write to the file.<br /><br />
 
@@ -60,7 +60,7 @@
     <div>
       <div>
         <div>
-          <h1>writelines()</h1>
+          <h2>writelines()</h2>
           <p>
             writelines() will write each items in iterable in one line in a
             file.<br /><br />
@@ -93,7 +93,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -146,7 +146,7 @@
 
       <QuadSpace />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>

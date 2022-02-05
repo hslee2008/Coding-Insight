@@ -9,7 +9,7 @@
 
       <div>
         <div>
-          <h1>Keyword Parameter</h1>
+          <h2>Keyword Parameter</h2>
           <p>
             We can assign values to each parameter(like a variable) by using
             parameter name.<br /><br />
@@ -58,7 +58,7 @@
       <div>
         <div>
           <div>
-            <h1>Assign default value</h1>
+            <h2>Assign default value</h2>
             <p>
               Using the default value, if the user typed in nothing(or the value
               is None), the default value will be assigned the the parameter.<br /><br />
@@ -96,7 +96,7 @@
 
       <div>
         <div>
-          <h1>return keyword</h1>
+          <h2>return keyword</h2>
           <p>
             The return keyword returns a new value.<br /><br />
 
@@ -144,7 +144,7 @@
 
       <div>
         <div>
-          <h1>pass keyword</h1>
+          <h2>pass keyword</h2>
           <p>
             If we do not want to make a function that does nothing, use the
             'pass' keyword.
@@ -171,7 +171,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>퀴즈 풀기!</h1>
+      <h2>퀴즈 풀기!</h2>
 
       <v-divider />
 
@@ -224,7 +224,7 @@
 
       <br /><br />
 
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>

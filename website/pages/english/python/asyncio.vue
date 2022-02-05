@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>asyncio</h1>
+        <h2>asyncio</h2>
         <p>
           <code>
             import asyncio<br /><br />
@@ -62,7 +62,7 @@
 
     <div>
       <div>
-        <h1>AWAIT</h1>
+        <h2>AWAIT</h2>
         <p>
           Using the await keyword, Python will wait till that is finished.<br /><br />
 
@@ -96,7 +96,7 @@
 
     <div>
       <div>
-        <h1>Example</h1>
+        <h2>Example</h2>
         <p>
           <code>
             async def fetchData():<br />
@@ -134,7 +134,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="beedongee" aft="name" />
+    <NaviBtn bef="asynchronous" aft="name" />
 
     <QuadSpace />
   </div>

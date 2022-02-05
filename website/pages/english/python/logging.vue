@@ -1,5 +1,7 @@
 <template>
   <div>
+    <br />
+
     <div style="display: flex" class="img-div">
       <div style="display: flex; justify-content: center">
         <v-img
@@ -8,7 +10,7 @@
         />
       </div>
       <div style="margin: auto; padding: 50px">
-        <h1>What is logging?</h1>
+        <h2>What is logging?</h2>
         <p>
           If there is a problem with a Pyton program and you might want to know
           what is going on.<br /><br />
@@ -38,7 +40,7 @@
 
     <div>
       <div>
-        <h1>INFO</h1>
+        <h2>INFO</h2>
         <p>
           info is short for information.<br /><br />
 
@@ -62,7 +64,7 @@
 
     <div>
       <div style="padding: 10px">
-        <h1>WARNING</h1>
+        <h2>WARNING</h2>
         <p>
           logging.warning() method is for warning the devlopers about something.
         </p>
@@ -84,7 +86,7 @@
 
     <div>
       <div>
-        <h1>ERROR and EXCEPTION</h1>
+        <h2>ERROR and EXCEPTION</h2>
         <p>
           logging.error() is for logging error messages if something went
           wrong.<br /><br />

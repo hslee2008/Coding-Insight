@@ -3,11 +3,11 @@
     <QuadSpace />
 
     <v-row flex justify="center" style="gap: 30px">
-      <v-btn color="primary" dark @click="sheet1 = !sheet1">
+      <v-btn aria-label="Coding Insight Button" color="primary" dark @click="sheet1 = !sheet1">
         VSCode 설치하는 방법
       </v-btn>
 
-      <v-btn color="primary" dark @click="sheet2 = !sheet2">
+      <v-btn aria-label="Coding Insight Button" color="primary" dark @click="sheet2 = !sheet2">
         VSCode에서 파이썬 프로그래밍 작작
       </v-btn>
     </v-row>
@@ -48,7 +48,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/vscode.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/vscode.jpg"
                 >
                   <v-card-title>
                     <p style="color: black">
@@ -62,8 +62,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e6 = 2"> Continue </v-btn
-                  ><v-btn @click="sheet1 = !sheet1">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 2"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -75,7 +75,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/vscodesetup.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/vscodesetup.jpg"
                 >
                   <v-card-title style="color: black">
                     <mark
@@ -87,8 +87,8 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e6 = 3"> Continue </v-btn
-                  ><v-btn @click="sheet1 = !sheet1">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 3"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -100,7 +100,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/agree.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/agree.jpg"
                 >
                   <v-card-title
                     ><p style="color: black">
@@ -109,8 +109,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e6 = 4"> Continue </v-btn
-                  ><v-btn @click="sheet1 = !sheet1">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 4"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -122,7 +122,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/nextvscode.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/nextvscode.jpg"
                 >
                   <v-card-title
                     ><p style="color: black">
@@ -131,8 +131,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e6 = 5"> Continue </v-btn
-                  ><v-btn @click="sheet1 = !sheet1">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 5"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -144,7 +144,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/installvscode.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/installvscode.jpg"
                 >
                   <v-card-title
                     ><p style="color: black">
@@ -153,8 +153,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e6 = 6"> Continue </v-btn
-                  ><v-btn @click="sheet1 = !sheet1">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 6"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -166,15 +166,15 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/vscodefinish.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/vscodefinish.jpg"
                 >
                   <v-card-title
                     ><p style="color: black">끝내기 누르기</p></v-card-title
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e6 = 7"> Continue </v-btn
-                  ><v-btn @click="sheet1 = !sheet1">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 7"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -189,7 +189,7 @@
                   </p></v-card-title
                 >
                 <v-card-actions
-                  ><v-btn color="primary" @click="sheet1 = !sheet1">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="sheet1 = !sheet1">
                     Finish
                   </v-btn></v-card-actions
                 >
@@ -224,7 +224,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/cube.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/cube.jpg"
                 >
                   <v-card-title>
                     <p style="color: black">
@@ -233,8 +233,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e4 = 2"> Continue </v-btn
-                  ><v-btn @click="sheet2 = !sheet2">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e4 = 2"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet2 = !sheet2">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -246,7 +246,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/input.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/input.jpg"
                 >
                   <v-card-title style="color: black">
                     <mark
@@ -257,8 +257,8 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e4 = 3"> Continue </v-btn
-                  ><v-btn @click="sheet2 = !sheet2">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e4 = 3"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet2 = !sheet2">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -270,7 +270,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/extinstall.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/extinstall.jpg"
                 >
                   <v-card-title
                     ><p>
@@ -279,8 +279,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e4 = 4"> Continue </v-btn
-                  ><v-btn @click="sheet2 = !sheet2">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e4 = 4"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet2 = !sheet2">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -292,7 +292,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/coderunner.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/coderunner.jpg"
                 >
                   <v-card-title
                     ><p style="color: black">
@@ -302,8 +302,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="e4 = 5"> Continue </v-btn
-                  ><v-btn @click="sheet2 = !sheet2">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e4 = 5"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet2 = !sheet2">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -320,7 +320,7 @@
 
     <QuadSpace />
 
-    <v-btn color="primary" dark @click="sheet3 = !sheet3">
+    <v-btn aria-label="Coding Insight Button" color="primary" dark @click="sheet3 = !sheet3">
       VSCode에서 파이썬 프로그래밍 작작
     </v-btn>
 
@@ -360,7 +360,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/file.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/file.jpg"
                 >
                   <v-card-title>
                     <p style="color: black">
@@ -369,8 +369,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="et = 2"> Continue </v-btn
-                  ><v-btn @click="sheet3 = !sheet3">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 2"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -382,7 +382,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/choose.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/choose.jpg"
                 >
                   <v-card-title style="color: black">
                     <mark
@@ -393,8 +393,8 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="et = 3"> Continue </v-btn
-                  ><v-btn @click="sheet3 = !sheet3">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 3"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -406,7 +406,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/background.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/background.jpg"
                 >
                   <v-card-title
                     ><p>
@@ -416,8 +416,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="et = 4"> Continue </v-btn
-                  ><v-btn @click="sheet3 = !sheet3">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 4"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -429,7 +429,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/newfile.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/newfile.jpg"
                 >
                   <v-card-title
                     ><p style="color: black">
@@ -438,8 +438,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="et = 5"> Continue </v-btn
-                  ><v-btn @click="sheet3 = !sheet3">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 5"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -451,7 +451,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/filename.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/filename.jpg"
                 >
                   <v-card-title
                     ><p style="color: black">
@@ -463,8 +463,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="et = 6"> Continue </v-btn
-                  ><v-btn @click="sheet3 = !sheet3">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 6"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -476,7 +476,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/tri.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/tri.jpg"
                 >
                   <v-card-title
                     ><p style="color: black">
@@ -489,8 +489,8 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="et = 7"> Continue </v-btn
-                  ><v-btn @click="sheet3 = !sheet3">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 7"> Continue </v-btn
+                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -502,7 +502,7 @@
                 <v-img
                   alt="python-factory-picture"
                   class="white--text align-end"
-                  :src="require('./image/helloworld.jpg')"
+                  src="https://image-loader-coding-insight.web.app/py-kr/img/helloworld.jpg"
                 >
                   <v-card-title
                     ><p style="color: black">
@@ -512,7 +512,7 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn color="primary" @click="sheet3 = !sheet3">
+                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="sheet3 = !sheet3">
                     Finish
                   </v-btn></v-card-actions
                 >
@@ -527,7 +527,7 @@
 
     <div style="display: flex;" class="img-div">
       <div>
-        <h1>.py?</h1>
+        <h2>.py?</h2>
         <p>
           위의 설명에서 항상 파이썬 파일을 만들때 "이름.py" 형태로 정해야한다고
           했습니다.

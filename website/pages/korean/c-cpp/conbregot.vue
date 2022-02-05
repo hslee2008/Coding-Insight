@@ -8,7 +8,7 @@
 
     <div>
       <div style="margin: auto">
-        <h1>break</h1>
+        <h2>break</h2>
         <p>
           break란 반복문에서 빠져 나오는 코드입니다.<br /><br />
 
@@ -32,7 +32,7 @@
 
     <div>
       <div>
-        <h1>continue</h1>
+        <h2>continue</h2>
         <p>
           continue라는 제어문은 다음 값으로 변수를 넘어가게 만듭니다.<br /><br />
 
@@ -52,7 +52,7 @@
 
     <div>
       <div>
-        <h1>goto</h1>
+        <h2>goto</h2>
         <p>
           goto라는 키워드는 어떤 코드를 만들고 반복문에서 바로 그 코드로
           넘어가는 키워드입니다.<br /><br />

@@ -8,7 +8,7 @@
 
     <div>
       <div>
-        <h1>main() 함수</h1>
+        <h2>main() 함수</h2>
         <p>
           1. C 언어에서는 main() {} 안에 모든 코드를 넣습니다.<br /><br />
           2. main() 함수는 항상 0을 return해야 합니다.<br /><br />
@@ -31,7 +31,7 @@
       class="img-div"
     >
       <div style="margin: auto">
-        <h1>;(세미콜론)</h1>
+        <h2>;(세미콜론)</h2>
         <p>
           ;는 세미콜론이라고 하고 항상 C 언어에서 코드 다음에 넣어야 하는
           케릭터입니다.<br /><br />
@@ -57,7 +57,7 @@
 
     <div>
       <div>
-        <h1>#include</h1>
+        <h2>#include</h2>
         <p>
           #include는 어떤 특별한 기능을 추가하겠다고 C 언어에게 알려줍니다.<br /><br />
 

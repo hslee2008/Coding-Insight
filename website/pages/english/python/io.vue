@@ -4,7 +4,7 @@
     <div>
       <div class="header-div text-white">
         <div>
-          <h1>What is printing?</h1>
+          <h2>What is printing?</h2>
           <p>
             Many people think of 'printing' as showing information on page.
             However, there is a new definition of 'printing' that you might not
@@ -33,7 +33,7 @@
 
       <div class="norm-div bg-black text-white">
         <div>
-          <h1>print() but with end</h1>
+          <h2>print() but with end</h2>
           <p>
             We can print a text next to another one by using 'end'.<br /><br />
 
@@ -44,8 +44,8 @@
             Somtimes we want two prints to be on the same line. This is an
             example of a situation where we need to use 'end'.<br /><br />
 
-            For example, if we want to print "Hello, World!"(without "") and then
-            a period, we can use end to store '.'.<br /><br />
+            For example, if we want to print "Hello, World!"(without "") and
+            then a period, we can use end to store '.'.<br /><br />
 
             <code> print("Hello, World!", end=".") </code>
           </p>
@@ -68,7 +68,7 @@
 
       <div>
         <div>
-          <h1>print() with sep</h1>
+          <h2>print() with sep</h2>
           <p></p>
           <p>
             If we print "Hello, World!", Python prints "Hello, World!".<br /><br />
@@ -97,7 +97,7 @@
 
       <div>
         <div>
-          <h1>Input</h1>
+          <h2>Input</h2>
           <p>
             The task of getting information from the user is called 'input'.<br /><br />
 
@@ -143,7 +143,7 @@
       <QuadSpace />
 
       <div class="quiz">
-        <h1>Solve This Quiz!!</h1>
+        <h2>Solve This Quiz!!</h2>
 
         <v-divider />
 
@@ -332,7 +332,7 @@
 
         <br /><br />
 
-        <v-btn @click="checkAnswer">
+        <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>Check Answer
         </v-btn>
       </div>
@@ -348,27 +348,27 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-B').checked) {
-        alert('1is correct!');
+        alert('1 is correct!!');
       } else {
         alert('1 ❌');
       }
       if (document.getElementById('question-2-answers-D').checked) {
-        alert('2is correct');
+        alert('2 is correct!');
       } else {
         alert('2 ❌');
       }
       if (document.getElementById('question-3-answers-A').checked) {
-        alert('3is correct!');
+        alert('3 is correct!!');
       } else {
         alert('3 틀렸습니다');
       }
       if (document.getElementById('question-4-answers-B').checked) {
-        alert('4is correct');
+        alert('4 is correct!');
       } else {
         alert('4 ❌');
       }
       if (document.getElementById('question-5-answers-A').checked) {
-        alert('5is correct :o');
+        alert('5 is correct! :o');
       } else {
         alert('5 ❌');
       }

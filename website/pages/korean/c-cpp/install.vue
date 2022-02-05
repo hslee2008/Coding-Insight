@@ -12,7 +12,7 @@
         />
       </div>
       <div style="margin: auto">
-        <h1>컴파일러 설치</h1>
+        <h2>컴파일러 설치</h2>
         컴파일러는 C 언어를 2진수로 전환해서 컴퓨터가 이해할 수 있게 도와주는
         도구입니다.<br /><br />
         원래는 컴퓨터가 C 언어를 이해할 수 없습니다.<br /><br />
@@ -29,7 +29,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>컴파일러란?</h1>
+        <h2>컴파일러란?</h2>
         <p>
           컴파일러는 C 언어를 2진수로 전환해서 컴퓨터가 이해할 수 있게 도와주는
           도구입니다.<br /><br />
@@ -51,7 +51,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>C 컴파일러 설치 방법</h1>
+        <h2>C 컴파일러 설치 방법</h2>
         <p>
           1. 먼저,
           <a href="https://jmeubank.github.io/tdm-gcc/"
@@ -59,32 +59,32 @@
           >에 들어갑니다.<br /><br />
           <v-img
             alt="python-factory-picture"
-              :src="require('./img/tdm-gcc.jpg')"
+              src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/tdm-gcc.jpg"
             width="700px"
           /><br /><br />
           2. 다음, 가장 위에 있는 링크(Read More...)를 클릭합니다. 3. 첫 번째
           버튼(가장 위에)를 클릭합니다.<br /><br />
           <v-img
             alt="python-factory-picture"
-              :src="require('./img/button.jpg')"
+              src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/button.jpg"
             width="700px"
           /><br /><br />
           4. 설치가 끝날 때까지 기다리고 브라우저 밑에 새로 생긴 버튼을
           클릭합니다.<br /><br />
           <v-img
             alt="python-factory-picture"
-              :src="require('./img/click.jpg')"
+              src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/click.jpg"
             width="700px"
           /><br /><br />
           5. 다음, create 버튼을 클릭합니다.<br /><br />
           <v-img
             alt="python-factory-picture"
-              :src="require('./img/create.jpg')"
+              src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/create.jpg"
           /><br /><br />
           6. 다음, 두 번째 옵션(MinGW-w64)을 선택하고 Next 버튼을 클릭합니다.<br /><br />
           <v-img
             alt="python-factory-picture"
-              :src="require('./img/system.jpg')"
+              src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/system.jpg"
           /><br /><br />
           7. 글을 칠 수 있는 박스 안에 'C:\'라고 타이핑을 합니다.<br /><br />
           8. Install 버튼을 누르고 기다립니다.

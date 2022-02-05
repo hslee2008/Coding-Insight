@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>문제</h1>
+        <h2>문제</h2>
         <p>
           터미널에서 파이썬이라고 치면 IDLE 프로그램이 작동합니다. 하지만
           IDLE에서는 조건문을 사용하기 어렵습니다.<br /><br />
@@ -21,7 +21,7 @@
 
     <div>
       <div>
-        <h1>\</h1>
+        <h2>\</h2>
         <p>
           \를 사용하면 계속 코드를 작성하겠다는 뜻이 됍니다. \를 IDLE에서
           사용하지 않고 VSCode 파이썬에서 사용한다면 들여쓰기를 하지 않아도
@@ -46,7 +46,7 @@
     />
     <QuadSpace />
 
-    <NaviBtn bef="pythondecorator" aft="beedongee" />
+    <NaviBtn bef="pythondecorator" aft="asynchronous" />
 
     <QuadSpace />
   </div>

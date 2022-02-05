@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>파일 처리란?</h1>
+        <h2>파일 처리란?</h2>
         <p>
           파이썬에서는 파일을 만들고, 읽고, 쓰고, 지우는 것이 가능합니다.<br /><br />
 
@@ -29,7 +29,7 @@
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h1>파일 주소</h1>
+        <h2>파일 주소</h2>
         <p>
           파일 주소는 파일을 가지고 오는 데 매우 중요한 변수입니다.<br /><br />
 
@@ -40,7 +40,7 @@
       <v-img
         alt="python-factory-picture"
         class="img-fluid"
-        :src="require('./image/filepath.jpg')"
+        src="https://image-loader-coding-insight.web.app/py-kr/img/filepath.jpg"
         max-width="400px"
       />
     </div>
@@ -50,7 +50,7 @@
     <div>
       <div>
         <div>
-          <h1>파일 열고 닫기</h1>
+          <h2>파일 열고 닫기</h2>
           <p>
             파일 열기는 open() 함수를 이용할 수 있습니다. 첫 번째 매개변수로
             파일의 주소를 적고 두 번째는 모드를 적습니다. 모드는 다음 시간에

@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h1>출력이란?</h1>
+        <h2>출력이란?</h2>
         <p>
           출력이란 개발자 또는 사용자가 어떤 정보를 확인하기 위해 컴퓨터 화면에
           나타내는 작업을 뜻합니다.<br /><br />
@@ -15,7 +15,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img :src="require('./img/code.png')" max-width="300" />
+        <v-img src="https://image-loader-coding-insight.web.app/rust-kr/img/code.png" max-width="300" />
       </div>
     </div>
 
@@ -27,7 +27,7 @@
 
     <div>
       <div>
-        <h1>println!()</h1>
+        <h2>println!()</h2>
         <p>
           *참고로 main()에 대해서는 다음 장에서 알아봅니다.<br /><br />
 
@@ -53,7 +53,7 @@
 
     <div>
       <div>
-        <h1>main()이란?</h1>
+        <h2>main()이란?</h2>
         <p>
           코딩 언어에서 <IC code="main()" />이라는 것을 "함수"라고 부릅니다.
           <br /><br />

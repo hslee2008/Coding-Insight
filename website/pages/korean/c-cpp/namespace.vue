@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>namespace란?</h1>
+        <h2>namespace란?</h2>
         <p>
           namespace는 space의 이름입니다.<br /><br />
 
@@ -23,7 +23,7 @@
 
     <div>
       <div>
-        <h1>나만의 namespace</h1>
+        <h2>나만의 namespace</h2>
         <p>
           나만의 namespace를 만들기도 가능합니다.<br /><br />
 
@@ -62,7 +62,7 @@
 
     <div>
       <div>
-        <h1>using namespace 이름</h1>
+        <h2>using namespace 이름</h2>
         <p>
           using namespace 이름을 넣으면 그 다음 나오는 모든 코드는 namespace가
           그 namespace일 것입니다.<br /><br />

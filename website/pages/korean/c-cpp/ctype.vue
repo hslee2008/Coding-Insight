@@ -4,7 +4,7 @@
 
     <div>
       <div>
-        <h1>ctype.h 라이브러리</h1>
+        <h2>ctype.h 라이브러리</h2>
         <p>
           ctype 라이브러리는 어떤 문자가 숫자로만, 문자로만 등 확인하는 함수를
           가지고 있는 라이브러리 이름입니다.<br /><br />
@@ -25,7 +25,7 @@
 
     <div>
       <div>
-        <h1>islower()와 tolower()</h1>
+        <h2>islower()와 tolower()</h2>
         <p>
           islower()이라는 함수는 문자를 입력하면 영문자가 소문자인지 확인하는
           함수입니다.<br /><br />
@@ -63,7 +63,7 @@
 
     <div>
       <div>
-        <h1>isupper()와 toupper()</h1>
+        <h2>isupper()와 toupper()</h2>
         <p>
           isupper()이라는 함수는 문자를 입력하면 영문자가 대문자인지 확인하는
           함수입니다.<br /><br />
@@ -101,7 +101,7 @@
 
     <div>
       <div>
-        <h1>프린트를 할 수 있는지</h1>
+        <h2>프린트를 할 수 있는지</h2>
         <p>
           ctype.h의 isprint() 함수를 사용하면 그 문자가 터미널에 출력이 될 수
           있는지 확인할 수 있습니다.<br /><br />
@@ -126,7 +126,7 @@
 
     <div>
       <div>
-        <h1>중요 내용 정리하기</h1>
+        <h2>중요 내용 정리하기</h2>
         <table class="table">
           <thead>
             <tr>

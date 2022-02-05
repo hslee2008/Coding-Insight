@@ -10,7 +10,7 @@
         />
       </div>
       <div class="mx-auto">
-        <h1>What is decorator?</h1>
+        <h2>What is decorator?</h2>
         <p>
           In our everyday life, decorator is an object that makes another one
           more beautiful.<br /><br />
@@ -29,7 +29,7 @@
 
     <div>
       <div>
-        <h1>Decorator examples</h1>
+        <h2>Decorator examples</h2>
         <p>
           Let's try making a function that calculates the square root of a
           number.<br /><br />
@@ -105,7 +105,7 @@
 
     <div>
       <div>
-        <h1>Using Decorator</h1>
+        <h2>Using Decorator</h2>
         <p>
           We can use the '@' before a function to attach a decorator.<br /><br />
 
@@ -125,7 +125,7 @@
 
     <div>
       <div>
-        <h1>Using more than 2 decorators</h1>
+        <h2>Using more than 2 decorators</h2>
         <p>
           We can stack @ on top of each other in order to make multiple
           decorators attached to our original function.

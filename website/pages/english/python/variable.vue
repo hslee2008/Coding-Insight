@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>What is variable?</h1>
+        <h2>What is variable?</h2>
         <p>
           A variable in programming language is a place where you can store
           information.<br /><br />
@@ -32,7 +32,7 @@
 
     <div>
       <div>
-        <h1>Declare variable</h1>
+        <h2>Declare variable</h2>
         <p>
           To declare a variable in Python, we can use the following syntax.<br /><br />
 
@@ -59,7 +59,7 @@
 
     <div>
       <div>
-        <h1>Using variable</h1>
+        <h2>Using variable</h2>
         <p>
           You can use the value of the variable by using the name of it without
           "".<br /><br />
@@ -79,7 +79,7 @@
 
     <div>
       <div>
-        <h1>Variable name rules</h1>
+        <h2>Variable name rules</h2>
         <p>
           There are three rules in variable names.<br /><br />
 
@@ -95,7 +95,7 @@
 
     <div>
       <div>
-        <h1>Change variable value</h1>
+        <h2>Change variable value</h2>
         <p>To change the variable's value, simply type in a new value.</p>
       </div>
       <iframe
@@ -122,14 +122,14 @@
         />
       </div>
       <div>
-        <h1>Delete variable</h1>
+        <h2>Delete variable</h2>
         <p>
           We can delete variables to preserve more space.<br /><br />
 
           Simply use del keyword to delete name.<br /><br />
 
           <code>
-            name = "Python - Factory"<br />
+            name = "Coding-Insight"<br />
             del name<br />
             print(name)
           </code>
@@ -145,7 +145,7 @@
 
     <div style="display: flex" class="img-div">
       <div>
-        <h1>Declare multiple variables at once</h1>
+        <h2>Declare multiple variables at once</h2>
         <p>
           To declare mutiple variable and assign multiple values, use commas to
           seperate names and values left and right side of '='.<br /><br />
@@ -176,7 +176,7 @@
     <QuadSpace />
 
     <div class="quiz">
-      <h1>Solve This Quiz!!</h1>
+      <h2>Solve This Quiz!!</h2>
 
       <v-divider />
 
@@ -376,11 +376,13 @@
         <label for="question-5-answers-D">D) delete() </label>
       </div>
       <br /><br />
-      <v-btn @click="checkAnswer">
+      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>
+
     <QuadSpace />
+
   </div>
 </template>
 
