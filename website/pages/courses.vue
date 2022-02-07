@@ -19,7 +19,8 @@
         <v-card-text class="text--primary">
           <div>
             파이썬은 대부분 초보자들이 처음으로 배우는 코딩 언어입니다. 매우
-            배우기 쉽습니다!
+            배우기 쉽습니다! 파이썬으로 대부분 웹사이트를 만들거나 해킹을 주로
+            합니다.
           </div>
         </v-card-text>
 
@@ -106,6 +107,8 @@
         <v-card-text class="text--primary">
           <div>
             Rust 프로그래밍 언어는 매우 안정적이면서 C 언어처럼 빠릅니다!
+            Mcirosoft, 아마존, 구글, 모질라 등 매우 큰 회사들은 다 기본 코딩
+            언어를 C/C++에서 Rust로 전환하고 있습니다.
           </div>
         </v-card-text>
 

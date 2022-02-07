@@ -40,9 +40,9 @@ export default {
       },
       {
         hid: 'Coding-Insight',
-        name: "Let's learn python, c, c++, and rust! 파이썬, c, c++, rust 프로그래밍 언어를 배워보겠습니다!",
+        name: 'description',
         content:
-          "Let's learn python, c, c++, and rust! 파이썬, c, c++, rust 프로그래밍 언어를 배워보겠습니다!",
+          'Learn Programming through learning, practicing, and building in Coding-Insight. Our site includes pages of full course of python, c, c++, and rust for free in both Korean and English programming languages.',
       },
       {
         name: 'author',
@@ -139,7 +139,8 @@ export default {
       name: '파이썬 (Coding-Insight)',
       short_name: '파이썬 (Coding-Insight)',
       version: '2022.01.16',
-      description: 'Learn Python in Coding-Insight',
+      description:
+        'Learn Programming through learning, practicing, and building in Coding-Insight. Our site includes pages of full course of python, c, c++, and rust for free in both Korean and English programming languages.',
       dir: 'rtl',
       id: '/index.html',
       author: ['Hyunseung', 'Juha', 'Gun'],

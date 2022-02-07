@@ -416,7 +416,7 @@ export default {
     {
       icon: 'sync-off',
       title: 'Asynchronous',
-      to: '/english/python/beedongee',
+      to: '/english/python/asynchronous',
     },
     {
       icon: 'sync',

@@ -81,6 +81,6 @@
 
 <script>
 export default {
-  name: 'BeeDongEePage',
+  name: 'asynchronousPage',
 };
 </script>

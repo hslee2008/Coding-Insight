@@ -342,7 +342,7 @@ const layout = {
         {
             description: 'Asynchronous Programming',
             label: '$(settings-sync-view-icon) 비동기',
-            to: '/korean/python/beedongee',
+            to: '/korean/python/asynchronous',
         },
         {
             description: 'Asyncio in Python',
@@ -809,7 +809,7 @@ const layout = {
         {
             description: 'Asynchronous Programming',
             label: '$(settings-sync-view-icon) Asynchronous',
-            to: '/korean/python/beedongee',
+            to: '/korean/python/asynchronous',
         },
         {
             description: 'Asyncio in Python',

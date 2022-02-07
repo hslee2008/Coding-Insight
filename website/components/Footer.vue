@@ -1,60 +1,79 @@
 <template>
   <v-footer :absolute="false" padless>
-    <v-card flat tile width="100%" class="indigo lighten-1 white--text text-center">
+    <v-card
+      flat
+      tile
+      width="100%"
+      class="indigo lighten-1 white--text text-center"
+    >
       <v-card-text>
-        <v-btn class="white--text" icon :to="isEnglish() ? '/app-en' : '/app'"
-          ><v-icon>mdi-apps</v-icon></v-btn
-        >
-        <v-btn
-          class="white--text"
-          icon
-          :to="isEnglish() ? '/courses-en' : '/courses'"
-        >
-          <v-icon>mdi-school</v-icon>
-        </v-btn>
+        <v-row style="gap: 30px" justify="center">
+          <div>
+            <h4>사이트 추가 링크</h4>
+            <v-btn
+              class="white--text"
+              icon
+              :to="isEnglish() ? '/app-en' : '/app'"
+              ><v-icon>mdi-apps</v-icon></v-btn
+            >
+            <v-btn
+              class="white--text"
+              icon
+              :to="isEnglish() ? '/courses-en' : '/courses'"
+            >
+              <v-icon>mdi-school</v-icon>
+            </v-btn>
+          </div>
 
-        <v-divider vertical></v-divider>
-        <v-divider vertical></v-divider>
-        <v-divider vertical></v-divider>
-        <v-divider vertical></v-divider>
-
-        <v-btn
-          icon
-          href="https://github.com/HyunseungLee-Travis/Coding-Insight"
-          target="_blank"
-          class="white--text"
-        >
-          <v-icon size="24px"> mdi-github </v-icon> </v-btn
-        ><v-btn
-          href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
-          target="_blank"
-          icon
-          class="white--text"
-        >
-          <v-icon>mdi-youtube</v-icon>
-        </v-btn>
-        <v-btn
-          href="https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search"
-          target="_blank"
-          icon
-          class="white--text"
-        >
-          <v-icon>mdi-microsoft-visual-studio-code</v-icon>
-        </v-btn>
-        <v-btn
-          href="https://docs.google.com/forms/d/e/1FAIpQLSezvUnfD8p2ngwlQHVzAdh6CYk-J-M8VbzSgUJLmKDmvisZGQ/viewform"
-          target="_blank"
-          icon
-          class="white--text"
-        >
-          <v-icon>mdi-file-sign</v-icon>
-        </v-btn>
+          <div>
+            <h4>코딩 인사이트에 대해 더 알아보기</h4>
+            <v-btn
+              icon
+              href="https://github.com/HyunseungLee-Travis/Coding-Insight"
+              target="_blank"
+              class="white--text"
+            >
+              <v-icon size="24px"> mdi-github </v-icon> </v-btn
+            ><v-btn
+              href="https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+              target="_blank"
+              icon
+              class="white--text"
+            >
+              <v-icon>mdi-youtube</v-icon>
+            </v-btn>
+            <v-btn
+              href="https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search"
+              target="_blank"
+              icon
+              class="white--text"
+            >
+              <v-icon>mdi-microsoft-visual-studio-code</v-icon>
+            </v-btn>
+            <v-btn
+              href="https://ms-my.facebook.com/voiceofcalling/posts/596443565054698"
+              target="_blank"
+              icon
+              class="white--text"
+            >
+              <v-icon>mdi-facebook</v-icon>
+            </v-btn>
+            <v-btn
+              href="https://docs.google.com/forms/d/e/1FAIpQLSezvUnfD8p2ngwlQHVzAdh6CYk-J-M8VbzSgUJLmKDmvisZGQ/viewform"
+              target="_blank"
+              icon
+              class="white--text"
+            >
+              <v-icon>mdi-file-sign</v-icon>
+            </v-btn>
+          </div>
+        </v-row>
       </v-card-text>
 
+      <QuadSpace />
+
       <v-card-text class="white--text pt-0">
-        저희 팀의 목적은 어린이들이 블록코딩을 배우고나서 또는 새로운 코딩
-        언어를 배우고 싶다면 텍스트 기반인 파이썬, C/C++, Rust 코딩 방식 등을
-        독학으로 배울 수 있는 사이트를 개설하고 무료로 운영하는 것입니다.
+        프로그래밍을 배우고, 연습하고, 직접 프로젝트를 만들 수 있는 곳.
       </v-card-text>
 
       <v-divider></v-divider>

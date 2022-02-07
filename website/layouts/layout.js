@@ -418,7 +418,7 @@ export default {
     {
       icon: 'sync-off',
       title: '비동기',
-      to: '/korean/python/beedongee',
+      to: '/korean/python/asynchronous',
     },
     {
       icon: 'sync',

@@ -41,7 +41,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar fixed app collapse-on-scroll>
+    <v-app-bar fixed app>
       <template
         v-if="
           $nuxt.$route.path != '/index-en' &&

@@ -2,7 +2,7 @@
   <div>
     <br />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div>
         <h2>무한 반복문</h2>
         <p>
@@ -28,7 +28,7 @@
 
     <QuadSpace />
 
-    <div style="display: flex">
+    <div style="display: flex" class="img-div">
       <div style="margin: auto">
         <h2>무한 반복문 만들기</h2>
         <p>
