@@ -40,7 +40,10 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img src="https://image-loader-coding-insight.web.app/rust-kr/img/code_variable.png" max-width="450" />
+        <v-img
+          src="https://image-loader-coding-insight.web.app/rust-kr/img/code_variable.png"
+          max-width="450"
+        />
         위의 lang 변수는 문자열("" 안에)이라는 값을 가지고 있습니다.
       </div>
     </div>
@@ -72,11 +75,14 @@
           넣었습니다.<br /><br />
 
           변수를 사용하기 위해서는 <IC code="{}" /> 사이에 변수 이름을 넣으면
-          됩니다.
+          됩니다.<br /><br />
+
+          또는 '' 사이에 먼저 <IC code="{}" />를 넣고 '' 다음에 변수 이름을
+          넣어도 됩니다.
         </p>
       </div>
       <iframe
-        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20language%20%3D%20%22Rust%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7Blanguage%7D%22)%0A%7D"
+        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20language%20%3D%20%22Rust%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7Blanguage%7D%22)%3B%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7B%7D%22%2C%20language)%3B%0A%7D"
         width="100%"
         height="400"
       />

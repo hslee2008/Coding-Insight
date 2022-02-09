@@ -83,7 +83,11 @@
     <QuadSpace />
 
     <div>
-      <NuxtLink aria-label="Go to Coding Insight Page" to="./install" style="text-decoration: none; float: right">
+      <NuxtLink
+        aria-label="Go to Coding Insight Page"
+        to="./install"
+        style="text-decoration: none; float: right"
+      >
         <v-btn aria-label="Coding Insight Button" class="ma-2" outlined>
           Next<v-icon right> mdi-arrow-right-circle-outline </v-icon>
         </v-btn>

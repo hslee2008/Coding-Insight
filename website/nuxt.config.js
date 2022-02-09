@@ -6,11 +6,14 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    htmlAttrs: {
+      lang: 'en,ko-kr',
+    },
     titleTemplate: '%s | Coding-Insight',
     title: 'Coding-Insight',
     meta: [
       {
-        charset: 'UTF-8',
+        charset: 'utf-8',
       },
       {
         http_equiv: 'X-UA-Compatible',
@@ -42,7 +45,7 @@ export default {
         hid: 'Coding-Insight',
         name: 'description',
         content:
-          'Learn Programming through learning, practicing, and building in Coding-Insight. Our site includes pages of full course of python, c, c++, and rust for free in both Korean and English programming languages.',
+          'Learn programming through learning, practicing, and building. Our site includes full courses of python, c, c++, and rust for free in both Korean and English language.',
       },
       {
         name: 'author',
@@ -62,7 +65,7 @@ export default {
       },
       {
         name: 'language',
-        content: 'ES, KR',
+        content: 'ES, KO-KR',
       },
       {
         name: 'format-detection',
@@ -98,8 +101,12 @@ export default {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/vuetify',
-    '@nuxt/image',
-    '@nuxtjs/google-analytics',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-219499611-1',
+      },
+    ],
   ],
 
   vue: {
@@ -136,11 +143,11 @@ export default {
   //  https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: '파이썬 (Coding-Insight)',
-      short_name: '파이썬 (Coding-Insight)',
+      name: 'Coding-Insight',
+      short_name: 'Coding-Insight',
       version: '2022.01.16',
       description:
-        'Learn Programming through learning, practicing, and building in Coding-Insight. Our site includes pages of full course of python, c, c++, and rust for free in both Korean and English programming languages.',
+        'Learn programming through learning, practicing, and building. Our site includes full courses of python, c, c++, and rust for free in both Korean and English language.',
       dir: 'rtl',
       id: '/index.html',
       author: ['Hyunseung', 'Juha', 'Gun'],
@@ -218,5 +225,10 @@ export default {
   //https://google-analytics.nuxtjs.org/setup
   googleAnalytics: {
     id: 'UA-160584932-1',
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID,
+    },
   },
 };

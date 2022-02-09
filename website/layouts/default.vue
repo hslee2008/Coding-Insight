@@ -59,9 +59,6 @@
       </v-btn>
 
       <v-toolbar-title>
-        <v-toolbar-side-icon
-          @click.stop="drawer = !drawer"
-        ></v-toolbar-side-icon>
         <span class="title">{{
           $nuxt.$route.path.split('/')[1] == 'korean'
             ? '한국어'

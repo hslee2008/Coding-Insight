@@ -2,7 +2,7 @@
   "name": "Coding-Insight (Coding-Insight)",
   "short_name": "Coding-Insight (Coding-Insight)",
   "version": "2022.02",
-  "description": "Learn Programming through learning, practicing, and building in Coding-Insight. Our site includes pages of full course of python, c, c++, and rust for free in both Korean and English programming languages.",
+  "description": "Learn programming through learning, practicing, and building. Our site includes full courses of python, c, c++, and rust for free in both Korean and English language.",
   "dir": "rtl",
   "id": "/",
   "author": ["Hyunseung", "Juha", "Gun"],

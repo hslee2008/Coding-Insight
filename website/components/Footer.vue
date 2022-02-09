@@ -9,7 +9,7 @@
       <v-card-text>
         <v-row style="gap: 30px" justify="center">
           <div>
-            <h4>사이트 추가 링크</h4>
+            <h4>{{ isEnglish() ? 'Site Links' : '사이트 추가 링크' }}</h4>
             <v-btn
               class="white--text"
               icon
@@ -26,7 +26,9 @@
           </div>
 
           <div>
-            <h4>코딩 인사이트에 대해 더 알아보기</h4>
+            <h4>
+              {{ isEnglish() ? 'More about us' : '코딩 인사이트에 대해' }}
+            </h4>
             <v-btn
               icon
               href="https://github.com/HyunseungLee-Travis/Coding-Insight"
@@ -59,6 +61,22 @@
               <v-icon>mdi-facebook</v-icon>
             </v-btn>
             <v-btn
+              href="https://www.linkedin.com/groups/12621556/"
+              target="_blank"
+              icon
+              class="white--text"
+            >
+              <v-icon>mdi-linkedin</v-icon>
+            </v-btn>
+            <v-btn
+              href="https://twitter.com/Hyunseu47569550/media"
+              target="_blank"
+              icon
+              class="white--text"
+            >
+              <v-icon>mdi-twitter</v-icon>
+            </v-btn>
+            <v-btn
               href="https://docs.google.com/forms/d/e/1FAIpQLSezvUnfD8p2ngwlQHVzAdh6CYk-J-M8VbzSgUJLmKDmvisZGQ/viewform"
               target="_blank"
               icon
@@ -70,10 +88,14 @@
         </v-row>
       </v-card-text>
 
-      <QuadSpace />
+      <br /><br />
 
       <v-card-text class="white--text pt-0">
-        프로그래밍을 배우고, 연습하고, 직접 프로젝트를 만들 수 있는 곳.
+        {{
+          isEnglish()
+            ? 'Learn, Practice Programming and build a project'
+            : '프로그래밍을 배우고, 연습하고, 직접 프로젝트를 만들 수 있는 곳.'
+        }}
       </v-card-text>
 
       <v-divider></v-divider>

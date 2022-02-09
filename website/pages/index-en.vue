@@ -110,7 +110,7 @@
 export default {
   name: 'IndexENPage',
   head: () => ({
-    title: 'Home',
+    title: 'Homepage',
   }),
 };
 </script>

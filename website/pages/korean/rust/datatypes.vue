@@ -83,7 +83,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="identifier" aft="datatypes" />
+    <NaviBtn bef="scopeshadowing" aft="numeric-int" />
 
     <QuadSpace />
   </div>

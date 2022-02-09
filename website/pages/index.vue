@@ -4,7 +4,7 @@
 
     <v-row flex justify="center" class="img-div" style="margin: 10px">
       <div style="margin: auto">
-        <h1>Coding-Insight</h1>
+        <h1>Welcome to Coding-Insight</h1>
         <h2>프로그래밍을 배우고, 연습하고, 직접 프로젝트를 만들 수 있는 곳.</h2>
         <br />
         <v-btn aria-label="learn now" to="/courses"
@@ -57,7 +57,9 @@
             <v-card-title><h4>파이썬 프로그래밍 언어</h4></v-card-title>
           </v-img>
 
-          <v-card-subtitle class="pb-0"> <h5>Python</h5></v-card-subtitle>
+          <v-card-subtitle class="pb-0">
+            <h5 style="font-size: 15px">Python</h5></v-card-subtitle
+          >
 
           <v-card-text class="text--primary">
             <div>
@@ -75,7 +77,7 @@
               dark
               to="/korean/python/"
             >
-              <h5>파이썬</h5>
+              <h5 style="font-size: 15px">파이썬</h5>
               <v-icon dark right> mdi-language-python </v-icon>
             </v-btn>
             <v-btn
@@ -85,7 +87,7 @@
               dark
               to="/korean/python/quiz"
             >
-              <h5>퀴즈</h5>
+              <h5 style="font-size: 15px">퀴즈</h5>
               <v-icon dark right> mdi-chat-question </v-icon>
             </v-btn>
           </v-card-actions>
@@ -100,7 +102,9 @@
             <v-card-title><h4>C/C++ 프로그래밍 언어</h4></v-card-title>
           </v-img>
 
-          <v-card-subtitle class="pb-0"> <h5>C/C++</h5></v-card-subtitle>
+          <v-card-subtitle class="pb-0">
+            <h5 style="font-size: 15px">C/C++</h5></v-card-subtitle
+          >
 
           <v-card-text class="text--primary">
             <div>
@@ -148,7 +152,9 @@
             <v-card-title><h4>Rust 프로그래밍 언어</h4></v-card-title>
           </v-img>
 
-          <v-card-subtitle class="pb-0"> <h5>Rust</h5></v-card-subtitle>
+          <v-card-subtitle class="pb-0">
+            <h5 style="font-size: 15px">Learn Rust</h5></v-card-subtitle
+          >
 
           <v-card-text class="text--primary">
             <div>
@@ -166,7 +172,7 @@
                 color="primary"
                 dark
               >
-                <h5>Rust</h5>
+                <h5 style="font-size: 15px">Rust</h5>
                 <v-icon dark right> mdi-language-rust </v-icon>
               </v-btn>
             </a>
@@ -206,7 +212,7 @@
 export default {
   name: 'IndexPage',
   head: () => ({
-    title: '홈',
+    title: '홈페이지',
   }),
 };
 </script>

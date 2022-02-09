@@ -553,60 +553,6 @@ export default {
     },
   ],
 
-  //! Rust Scripts
-  start_rust: [
-    {
-      icon: 'map-marker',
-      title: '시작',
-      to: '/korean/rust/',
-    },
-    {
-      icon: 'folder-download',
-      title: '설치',
-      to: '/korean/rust/install',
-    },
-    {
-      icon: 'ferry',
-      title: '프로젝트 시작',
-      to: '/korean/rust/setup',
-    },
-    {
-      icon: 'export',
-      title: '출력과 main()',
-      to: '/korean/rust/print',
-    },
-    {
-      icon: 'format-align-bottom',
-      title: '형식된 출력',
-      to: '/korean/rust/printfmt',
-    },
-    {
-      icon: 'comment',
-      title: '주석',
-      to: '/korean/rust/comment',
-    },
-    {
-      icon: 'application-variable',
-      title: '변수',
-      to: '/korean/rust/variable',
-    },
-    {
-      icon: 'swap-horizontal',
-      title: 'mut 변수',
-      to: '/korean/rust/mutable',
-    },
-    {
-      icon: 'identifier',
-      title: '식별자',
-      to: '/korean/rust/identifier',
-    },
-    {
-      icon: 'box-shadow',
-      title: '변수 범위 및 그림자',
-      to: '/korean/rust/scopeshadowing',
-    },
-  ],
-
   //! C Scripts
   start_c: [
     {
@@ -918,6 +864,70 @@ export default {
       icon: 'cash-multiple',
       title: '계승',
       to: '/korean/c-cpp/inheritance',
+    },
+  ],
+
+  //! Rust Scripts
+  start_rust: [
+    {
+      icon: 'map-marker',
+      title: '시작',
+      to: '/korean/rust/',
+    },
+    {
+      icon: 'folder-download',
+      title: '설치',
+      to: '/korean/rust/install',
+    },
+    {
+      icon: 'ferry',
+      title: '프로젝트 시작',
+      to: '/korean/rust/setup',
+    },
+    {
+      icon: 'export',
+      title: '출력과 main()',
+      to: '/korean/rust/print',
+    },
+    {
+      icon: 'format-align-bottom',
+      title: '형식된 출력',
+      to: '/korean/rust/printfmt',
+    },
+    {
+      icon: 'comment',
+      title: '주석',
+      to: '/korean/rust/comment',
+    },
+    {
+      icon: 'application-variable',
+      title: '변수',
+      to: '/korean/rust/variable',
+    },
+    {
+      icon: 'swap-horizontal',
+      title: 'mut 변수',
+      to: '/korean/rust/mutable',
+    },
+    {
+      icon: 'identifier',
+      title: '식별자',
+      to: '/korean/rust/identifier',
+    },
+    {
+      icon: 'box-shadow',
+      title: '변수 범위 및 그림자',
+      to: '/korean/rust/scopeshadowing',
+    },
+    {
+      icon: 'database',
+      title: '데이터 형태',
+      to: '/korean/rust/datatypes',
+    },
+    {
+      icon: 'numeric-1-box',
+      title: '정수 형태',
+      to: '/korean/rust/numeric-int',
     },
   ],
 };
