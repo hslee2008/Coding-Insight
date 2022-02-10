@@ -4,7 +4,7 @@
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
-        <h2>숫자형 데이터 형태</h2>
+        <h2>정수형 데이터 형태</h2>
         <p>
           숫자형 데이터 형태란 숫자를 저장할 수 있는 변수를 뜻합니다.<br /><br />
 
@@ -21,7 +21,7 @@
 
     <QuadSpace />
 
-    <Header title="숫자형 데이터 형태" num="12"></Header>
+    <Header title="정수형 데이터 형태" num="12"></Header>
 
     <QuadSpace />
 

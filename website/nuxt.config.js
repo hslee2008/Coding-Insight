@@ -6,6 +6,11 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-219499611-1',
+      },
+    ],
     htmlAttrs: {
       lang: 'en,ko-kr',
     },
@@ -92,22 +97,19 @@ export default {
   css: ['./assets/css/global.css'],
 
   // https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '@/plugins/firebase',
+    {
+      src: '@/plugins/analytics',
+      mode: 'client',
+    },
+  ],
 
   // https://go.nuxtjs.dev/config-components
   components: true,
 
   // https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    '@nuxt/typescript-build',
-    '@nuxtjs/vuetify',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-219499611-1',
-      },
-    ],
-  ],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify'],
 
   vue: {
     config: {
@@ -187,7 +189,7 @@ export default {
   },
 
   vuetify: {
-    optionsPath: './assets/plugins/vuetify.setting.js',
+    optionsPath: './plugins/vuetify.js',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -220,15 +222,5 @@ export default {
     port: 8000,
     host: '0.0.0.0',
     timing: false,
-  },
-
-  //https://google-analytics.nuxtjs.org/setup
-  googleAnalytics: {
-    id: 'UA-160584932-1',
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID,
-    },
   },
 };

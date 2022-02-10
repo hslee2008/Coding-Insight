@@ -108,6 +108,11 @@
       <v-btn icon :to="isEnglish() ? '/courses-en' : '/courses'">
         <v-icon>mdi-school</v-icon>
       </v-btn>
+
+      <v-btn :to="login ? '/home' : '/login'" icon
+        ><v-icon>mdi-account-circle</v-icon></v-btn
+      >
+      <v-btn v-if="login" @click="logout">Logout</v-btn>
     </v-app-bar>
 
     <v-main>
@@ -121,101 +126,44 @@
 </template>
 
 <script>
-import PythonLinks from './layout';
-import PythonLinksEN from './layout_en';
+import firebase from '~/plugins/firebase.js';
+import 'firebase/compat/auth';
+import Cookies from 'js-cookie';
+
+import ov_layout from './ov_layout';
 
 export default {
   name: 'DefaultLayout',
+  mounted() {
+    firebase.auth().onAuthStateChanged((user) => {
+      if (user) {
+        this.login = true;
+        firebase
+          .auth()
+          .currentUser.getIdToken(true)
+          .then((token) => {
+            Cookies.set('access_token', token);
+          });
+      } else {
+        this.login = false;
+        Cookies.remove('access_token');
+      }
+    });
+  },
+
   data() {
     return {
-      python_items: [
-        {
-          titleen: 'Start Python',
-          titlekr: '파이썬 시작',
-          json: 'start_python',
-        },
-        {
-          titleen: 'Python Basics',
-          titlekr: '파이썬 기본',
-          json: 'python_basics',
-        },
-
-        {
-          titleen: 'Python Beginning',
-          titlekr: '파이썬 초급',
-          json: 'python_beginner',
-        },
-        {
-          titleen: 'Intermediate Python',
-          titlekr: '파이썬 중급',
-          json: 'intermediate_python',
-        },
-        {
-          titleen: 'Advanced Python',
-          titlekr: '파이썬 고급',
-          json: 'advanced_python',
-        },
-        {
-          titleen: 'Python Specialist',
-          titlekr: '파이썬 전문가',
-          json: 'python_specialist',
-        },
-        {
-          titleen: 'Master Python',
-          titlekr: '파이썬 마스터',
-          json: 'master_python',
-        },
-        {
-          titleen: 'Last Step',
-          titlekr: '마지막 단계',
-          json: 'python_god',
-        },
-        {
-          titleen: 'Other',
-          titlekr: '기타',
-          json: 'other',
-        },
-      ],
-      c_items: [
-        {
-          titleen: 'Starting C Programming',
-          titlekr: 'C 언어 시작',
-          json: 'start_c',
-        },
-        {
-          titleen: 'Beginning C Programming',
-          titlekr: 'C 언어 기본',
-          json: 'c_basics',
-        },
-        {
-          titleen: 'Intermediate C Programming',
-          titlekr: 'C 언어 중급',
-          json: 'c_intermediate',
-        },
-        {
-          titleen: 'Advanced C Programming',
-          titlekr: 'C 언어 고급',
-          json: 'c_advanced',
-        },
-        {
-          titleen: 'Starting C++ Programming',
-          titlekr: 'C++ 언어 시작',
-          json: 'start_cpp',
-        },
-        {
-          titleen: 'C++ Programming Basics',
-          titlekr: 'C++ 언어 기본',
-          json: 'cpp_basics',
-        },
-      ],
+      login: false,
       drawer: false,
-      items: {
-        ...PythonLinks,
-        ...PythonLinksEN,
-      },
+      ...ov_layout,
     };
   },
+
   methods: {
+    logout() {
+      firebase.auth().signOut();
+      this.$router.push('/ ');
+    },
     isEnglish() {
       return (
         this.$nuxt.$route.path.includes('english') ||

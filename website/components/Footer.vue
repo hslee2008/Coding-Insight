@@ -13,6 +13,12 @@
             <v-btn
               class="white--text"
               icon
+              :to="isEnglish() ? '/index-en' : '/'"
+              ><v-icon>mdi-home</v-icon></v-btn
+            >
+            <v-btn
+              class="white--text"
+              icon
               :to="isEnglish() ? '/app-en' : '/app'"
               ><v-icon>mdi-apps</v-icon></v-btn
             >
@@ -51,30 +57,6 @@
               class="white--text"
             >
               <v-icon>mdi-microsoft-visual-studio-code</v-icon>
-            </v-btn>
-            <v-btn
-              href="https://ms-my.facebook.com/voiceofcalling/posts/596443565054698"
-              target="_blank"
-              icon
-              class="white--text"
-            >
-              <v-icon>mdi-facebook</v-icon>
-            </v-btn>
-            <v-btn
-              href="https://www.linkedin.com/groups/12621556/"
-              target="_blank"
-              icon
-              class="white--text"
-            >
-              <v-icon>mdi-linkedin</v-icon>
-            </v-btn>
-            <v-btn
-              href="https://twitter.com/Hyunseu47569550/media"
-              target="_blank"
-              icon
-              class="white--text"
-            >
-              <v-icon>mdi-twitter</v-icon>
             </v-btn>
             <v-btn
               href="https://docs.google.com/forms/d/e/1FAIpQLSezvUnfD8p2ngwlQHVzAdh6CYk-J-M8VbzSgUJLmKDmvisZGQ/viewform"
