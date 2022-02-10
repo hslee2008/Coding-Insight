@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import firebase from '~/plugins/firebase.js';
+import firebase, { auth } from '~/plugins/firebase.js';
 import 'firebase/compat/auth';
 
 export default {
@@ -57,8 +57,7 @@ export default {
   methods: {
     async pressed() {
       if (this.valid)
-        await firebase
-          .auth()
+        await auth
           .signInWithEmailAndPassword(this.email, this.password)
           .then(() => {
             this.$router.push('/');
@@ -68,14 +67,12 @@ export default {
           });
     },
     google() {
-      firebase
-        .auth()
+      auth
         .signInWithPopup(new firebase.auth.GoogleAuthProvider())
         .then(() => this.$router.push('/'));
     },
     github() {
-      firebase
-        .auth()
+      auth
         .signInWithPopup(new firebase.auth.GithubAuthProvider())
         .then(() => this.$router.push('/'));
     },

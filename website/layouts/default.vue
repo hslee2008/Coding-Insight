@@ -109,10 +109,31 @@
         <v-icon>mdi-school</v-icon>
       </v-btn>
 
-      <v-btn :to="login ? '/home' : '/login'" icon
-        ><v-icon>mdi-account-circle</v-icon></v-btn
-      >
-      <v-btn v-if="login" @click="logout">Logout</v-btn>
+      <v-menu v-if="login" bottom min-width="200px" rounded offset-y>
+        <template v-slot:activator="{ on }">
+          <v-btn icon x-large v-on="on">
+            <v-avatar>
+              <img :src="photo" width="10" height="10" />
+            </v-avatar>
+          </v-btn>
+        </template>
+        <v-card>
+          <v-list-item-content class="justify-center">
+            <div class="mx-auto text-center">
+              <v-avatar>
+                <img :src="photo" width="10" height="10" />
+              </v-avatar>
+              <h3>{{ name }}</h3>
+              <p class="text-caption mt-1">
+                {{ email }}
+              </p>
+              <v-divider class="my-3"></v-divider>
+              <v-btn depressed rounded text @click="logout"> logout </v-btn>
+            </div>
+          </v-list-item-content>
+        </v-card>
+      </v-menu>
+      <v-btn to="login" icon v-else><v-icon>mdi-account-circle</v-icon></v-btn>
     </v-app-bar>
 
     <v-main>
@@ -138,6 +159,10 @@ export default {
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {
         this.login = true;
+        this.email = user.email;
+        this.name = user.displayName;
+        this.photo = user.photoURL;
+
         firebase
           .auth()
           .currentUser.getIdToken(true)
@@ -155,6 +180,9 @@ export default {
     return {
       login: false,
       drawer: false,
+      email: '',
+      name: '',
+      photo: '',
       ...ov_layout,
     };
   },
@@ -162,7 +190,6 @@ export default {
   methods: {
     logout() {
       firebase.auth().signOut();
-      this.$router.push('/ ');
     },
     isEnglish() {
       return (

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-center">
-      {{ isEnglish() ? titleen : titlekr }}
+      {{ title }}
     </h1>
     <v-divider></v-divider>
     <v-list-item
@@ -33,6 +33,7 @@ export default {
         ...PythonLinks,
         ...PythonLinksEN,
       },
+      title: this.isEnglish() ? this.titleen : this.titlekr,
     };
   },
   methods: {

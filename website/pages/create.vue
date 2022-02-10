@@ -26,7 +26,6 @@
 </template>
 
 <script>
-import firebase from '~/plugins/firebase.js';
 import 'firebase/compat/auth';
 
 export default {
@@ -49,14 +48,12 @@ export default {
   methods: {
     async pressed() {
       if (this.valid) {
-        await firebase
-          .auth()
+        await auth
           .createUserWithEmailAndPassword(this.email, this.password)
           .catch((error) => {
             this.error = error;
           });
-        firebase
-          .auth()
+        auth
           .signInWithEmailAndPassword(this.email, this.password)
           .then(() => {
             this.$router.push('/');

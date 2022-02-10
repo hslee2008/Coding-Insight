@@ -5,5 +5,7 @@ app/python-factory-web-search/node_modules
 
 website/.nuxt
 website/node_modules
+website/static/sw.js
+website/plugins/apikey.js
 
 public_html/
