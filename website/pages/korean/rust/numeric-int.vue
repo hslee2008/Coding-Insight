@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -8,9 +8,9 @@
         <p>
           숫자형 데이터 형태란 숫자를 저장할 수 있는 변수를 뜻합니다.<br /><br />
 
-          숫자형 데이터에는 정수와 실수를 저장가 있습니다.<br /><br />
+          숫자형 데이터에는 정수와 소수를 저장가 있습니다.<br /><br />
 
-          정수란 -2, -1, 0, 1, 2 등의 숫자이고 실수는 1/2, 3/4 등 '.'이 포함된
+          정수란 -2, -1, 0, 1, 2 등의 숫자이고 소수는 1/2, 3/4 등 '.'이 포함된
           숫자입니다.<br /><br />
         </p>
       </div>
@@ -21,7 +21,7 @@
 
     <QuadSpace />
 
-    <Header title="정수형 데이터 형태" num="12"></Header>
+    <Header type="Rust" title="정수형 데이터 형태" num="12" />
 
     <QuadSpace />
 

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="41" title="모듈 마스터하기"></Header-en>
+    <Header-en type="Python" num="41" title="모듈 마스터하기"></Header-en>
 
     <QuadSpace />
 

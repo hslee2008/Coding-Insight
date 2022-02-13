@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex; justify-content: space-evenly">
       <div>
@@ -17,36 +17,42 @@
         <p>2. 알맞은 컴퓨터 소프트웨어를 선택합니다.</p>
         <p>+ 키보드에 창틀이 있으면 윈도우입니다(없다면 MAC).</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vscode.jpg"
           max-width="400px"
         /><br />
         <p>3. 설치가 100%다 되면 그 박스를 클릭하세요.</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vscodesetup.jpg"
           max-width="400px"
         /><br />
         <p>4. 동의합니다를 선택하세요.</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/agree.jpg"
           max-width="400px"
         /><br />
         <p>5. 다음(또는 Next) 버튼을 누르세요.</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/nextvscode.jpg"
           max-width="400px"
         /><br />
         <p>6. 설치 버튼을 누르세요.</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/installvscode.jpg"
           max-width="400px"
         /><br />
         <p>7. 끝내기 버튼을 누르세요.</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vscodefinish.jpg"
           max-width="400px"
@@ -59,12 +65,14 @@
           (CTRL+SHIFT+X)
         </p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/cube.jpg"
           max-width="400px"
         /><br />
         <p>3. C라고 친 후 기다리세요</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/extinstall.jpg"
           max-width="400px"
@@ -75,6 +83,7 @@
           (install)
         </p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/coderunner.jpg"
           max-width="400px"
@@ -84,7 +93,7 @@
 
     <QuadSpace />
 
-    <Header title="VSCode 설치" num="3" />
+    <Header type="C/C++" title="VSCode 설치" num="3" />
 
     <QuadSpace />
 
@@ -97,6 +106,7 @@
           누르세요.
         </p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/file.jpg"
           max-width="400px"
@@ -104,6 +114,7 @@
         <br />
         <p>3. "Open Folder" 버튼을 누르고 코드를 저장할 파일을 선택하세요.</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/choose.jpg"
           max-width="400px"
@@ -114,6 +125,7 @@
           클릭하세요.
         </p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/newfile.jpg"
           max-width="400px"
@@ -121,6 +133,7 @@
         <br />
         <p>5. 파이썬 파일 이름을 입력 후 '.c'로 끝내고 엔터를 누르세요.</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/filename.jpg"
           max-width="400px"
@@ -128,6 +141,7 @@
         <br />
         <p>6. 파일 안에 C 언어 코드를 입력합니다.</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/firstcode.jpg"
           max-width="400px"
@@ -139,6 +153,7 @@
           + 터미널이란 컴퓨터를 제어할 수 있는 공간을 뜻합니다.
         </p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/terminal.jpg"
           max-width="400px"
@@ -153,13 +168,14 @@
 
         <p>7. 마지막으로, a.exe(만일 인되면 ./a.exe)를 실행합니다.</p>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/compileandrun.jpg"
           max-width="400px"
         />
       </div>
     </div>
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>
@@ -175,6 +191,7 @@
       </div>
       <div>
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/firstcode.jpg"
           max-width="400px"
@@ -200,6 +217,7 @@
         <p>.c는 컴퓨터에게 우리가 만든 파일이 C 언어 파일이라고 알려줍니다.</p>
       </div>
       <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
         alt="python-factory-picture"
         class="img-fluid"
         style="border-radius: 30px"

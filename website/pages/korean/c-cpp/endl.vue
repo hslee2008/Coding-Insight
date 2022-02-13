@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header title="endl" num="10" />
+    <Header type="C/C++" title="endl" num="10" />
 
     <QuadSpace />
 

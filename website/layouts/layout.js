@@ -919,6 +919,8 @@ export default {
       title: '변수 범위 및 그림자',
       to: '/korean/rust/scopeshadowing',
     },
+  ],
+  rust_datatypes: [
     {
       icon: 'database',
       title: '데이터 형태',
@@ -928,6 +930,31 @@ export default {
       icon: 'numeric-1-box',
       title: '정수 형태',
       to: '/korean/rust/numeric-int',
+    },
+    {
+      icon: 'math-log',
+      title: '소수 형태',
+      to: '/korean/rust/numeric-float',
+    },
+    {
+      icon: 'android-studio',
+      title: '숫자 메서드',
+      to: '/korean/rust/math',
+    },
+    {
+      icon: 'nintendo-switch',
+      title: '분리언',
+      to: '/korean/rust/boolean',
+    },
+    {
+      icon: 'compare',
+      title: '비교 연산자',
+      to: '/korean/rust/cmp-operator',
+    },
+    {
+      icon: 'gate-and',
+      title: '불리언 연산자',
+      to: '/korean/rust/boolean-operator',
     },
   ],
 };

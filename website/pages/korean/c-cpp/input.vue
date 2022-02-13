@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div
       style="
@@ -12,6 +12,7 @@
     >
       <div style="margin: auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbPlGs1KONj35lMRnJTnaPaZ-awICYbPhSw&usqp=CAU"
         />
@@ -29,7 +30,7 @@
 
     <QuadSpace />
 
-    <Header title="입력" num="7" />
+    <Header type="C/C++" title="입력" num="7" />
 
     <QuadSpace />
 

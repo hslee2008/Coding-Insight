@@ -79,4 +79,16 @@ export default {
       json: 'cpp_basics',
     },
   ],
+  rust_items: [
+    {
+      titleen: 'Rust Start',
+      titlekr: 'Rust 시작',
+      json: 'start_rust',
+    },
+    {
+      titleen: 'Rust DataTypes',
+      titlekr: 'Rust 데이터 형태',
+      json: 'rust_datatypes',
+    }
+  ]
 };

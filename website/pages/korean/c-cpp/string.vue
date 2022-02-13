@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -13,6 +13,7 @@
       </div>
       <div style="margin: auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfACCcn3fn-YXylQf1-S3a2wrIXJ51Z6_LzA&usqp=CAU"
           width="300px"
@@ -22,7 +23,7 @@
 
     <QuadSpace />
 
-    <Header title="문자열" num="25" />
+    <Header type="C/C++" title="문자열" num="25" />
 
     <QuadSpace />
 

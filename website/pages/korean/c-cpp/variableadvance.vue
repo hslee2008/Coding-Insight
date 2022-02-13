@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header title="변수 - 고급" num="6" />
+    <Header type="C/C++" title="변수 - 고급" num="6" />
 
     <QuadSpace />
 
@@ -23,6 +23,7 @@
       </div>
       <div style="margin: auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUanGdzUImXThB9bVOyNzTTtTKrN_6zaP1Rw&usqp=CAU"
         />

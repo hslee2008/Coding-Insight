@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -29,7 +29,7 @@
 
     <QuadSpace />
 
-    <Header num="53" title="컨텍스트 매니저"></Header>
+    <Header type="파이썬" num="53" title="컨텍스트 매니저" />
 
     <QuadSpace />
 
@@ -89,7 +89,7 @@
       />
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <NaviBtn bef="contact2" aft="datachange" />
 

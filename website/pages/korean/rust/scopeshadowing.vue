@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -18,6 +18,7 @@
       </div>
       <div style="margin: auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy1JR0zWx1nJyis2cLni6s3IuftL-qTu4aYQ&usqp=CAU"
           max-width="300"
         />
@@ -26,7 +27,7 @@
 
     <QuadSpace />
 
-    <Header title="변수 범위 및 그림자" num="10"></Header>
+    <Header type="Rust" title="변수 범위 및 그림자" num="10" />
 
     <QuadSpace />
 

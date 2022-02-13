@@ -1,10 +1,10 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="22" title="Dictionary Method"></Header-en>
+    <Header-en type="Python" num="22" title="Dictionary Method"></Header-en>
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>
@@ -19,7 +19,7 @@
       <iframe
         class="embed-responsive-item"
         src="https://trinket.io/embed/python3/32e3c5c425"
-        width="50%"
+        width="100%"
         height="356"
         frameborder="0"
         marginwidth="0"

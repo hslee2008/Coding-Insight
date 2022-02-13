@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <h2>이스케이프 문자란?</h2>
@@ -12,7 +12,7 @@
 
     <QuadSpace />
 
-    <Header title="이스케이프 문자" num="14" />
+    <Header type="C/C++" title="이스케이프 문자" num="14" />
 
     <QuadSpace />
 

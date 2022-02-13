@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="62" title="에러"></Header>
+    <Header type="파이썬" num="62" title="에러" />
 
     <QuadSpace />
 

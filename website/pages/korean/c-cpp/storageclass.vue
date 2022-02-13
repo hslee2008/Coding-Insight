@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -19,7 +19,7 @@
 
     <QuadSpace />
 
-    <Header title="스토리지 클래스" num="30" />
+    <Header type="C/C++" title="스토리지 클래스" num="30" />
 
     <QuadSpace />
 

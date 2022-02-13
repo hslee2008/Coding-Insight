@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -32,7 +32,7 @@
 
     <QuadSpace />
 
-    <Header num="46" title="클래스"></Header>
+    <Header type="파이썬" num="46" title="클래스" />
 
     <QuadSpace />
 

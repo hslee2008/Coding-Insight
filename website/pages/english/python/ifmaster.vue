@@ -1,10 +1,10 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="27" title="If Master"></Header-en>
+    <Header-en type="Python" num="27" title="If Master"></Header-en>
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>

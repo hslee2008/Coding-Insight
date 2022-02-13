@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="42" title="파이썬 모듈"></Header>
+    <Header type="파이썬" num="42" title="파이썬 모듈" />
 
     <QuadSpace />
 

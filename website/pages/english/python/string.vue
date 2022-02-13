@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -21,7 +21,7 @@
 
     <QuadSpace />
 
-    <Header-en num="8" title="String"></Header-en>
+    <Header-en type="Python" num="8" title="String"></Header-en>
 
     <QuadSpace />
 

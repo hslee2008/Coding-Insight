@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="81" title="추가 던더메서드"></Header>
+    <Header type="파이썬" num="81" title="추가 던더메서드" />
 
     <QuadSpace />
 

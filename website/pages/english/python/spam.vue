@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -11,6 +11,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://www.incimages.com/uploaded_files/image/empty-email_463770.gif"
           max-width="300px"
@@ -20,7 +21,7 @@
 
     <QuadSpace />
 
-    <Header-en num="85" title="Spam Email"></Header-en>
+    <Header-en type="Python" num="85" title="Spam Email"></Header-en>
 
     <QuadSpace />
 
@@ -49,7 +50,7 @@
       Make sure you are not using not underage account.
     </p>
 
-    <br /><br />
+<QuadSpace />
 
     <iframe
       class="embed-responsive-item"

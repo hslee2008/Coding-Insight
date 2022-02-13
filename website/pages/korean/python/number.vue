@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
         <h2>변수 - 숫자 선언 방법</h2>
@@ -19,6 +19,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://blog.shabda.co/wp-content/uploads/2015/10/numbers-truth-morality.png"
           max-width="300px"
@@ -28,7 +29,7 @@
 
     <QuadSpace />
 
-    <Header num="14" title="숫자"></Header>
+    <Header type="파이썬" num="14" title="숫자" />
 
     <QuadSpace />
 

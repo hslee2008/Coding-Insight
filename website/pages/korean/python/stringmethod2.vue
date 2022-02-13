@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -16,7 +16,7 @@
 
     <QuadSpace />
 
-    <Header num="10" title="문자열 메서드 2"></Header>
+    <Header type="파이썬" num="10" title="문자열 메서드 2" />
 
     <QuadSpace />
 
@@ -39,7 +39,7 @@
       </div>
       <iframe
         src="https://trinket.io/embed/python/54f740c487"
-        width="50%"
+        width="100%"
         height="356"
         frameborder="0"
         marginwidth="0"

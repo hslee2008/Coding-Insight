@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>
@@ -40,9 +40,9 @@
 
     <QuadSpace />
 
-    <Header-en title="Tuple" num="24"></Header-en>
+    <Header-en type="Python" title="Tuple" num="24"></Header-en>
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>

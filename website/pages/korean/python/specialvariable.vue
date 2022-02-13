@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="31" title="특별한 변수"></Header>
+    <Header type="파이썬" num="31" title="특별한 변수" />
 
     <QuadSpace />
 

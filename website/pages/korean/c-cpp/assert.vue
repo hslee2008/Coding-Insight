@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -20,7 +20,7 @@
 
     <QuadSpace />
 
-    <Header title="assert 키워드" num="38" />
+    <Header type="C/C++" title="assert 키워드" num="38" />
 
     <QuadSpace />
 

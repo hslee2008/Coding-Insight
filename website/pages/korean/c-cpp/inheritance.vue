@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -39,7 +39,7 @@
 
     <QuadSpace />
 
-    <Header title="계승" num="15" />
+    <Header type="C/C++" title="계승" num="15" />
 
     <QuadSpace />
 

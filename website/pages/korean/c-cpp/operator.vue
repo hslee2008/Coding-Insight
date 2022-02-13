@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header title="연산자" num="11" />
+    <Header type="C/C++" title="연산자" num="11" />
 
     <QuadSpace />
 

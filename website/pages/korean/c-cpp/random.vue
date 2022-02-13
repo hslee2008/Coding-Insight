@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -23,7 +23,7 @@
 
     <QuadSpace />
 
-    <Header title="랜덤" num="43" />
+    <Header type="C/C++" title="랜덤" num="43" />
 
     <QuadSpace />
 

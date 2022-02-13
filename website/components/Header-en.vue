@@ -9,10 +9,8 @@
       >
     </v-btn>
 
-    <v-btn class="ma-2" outlined to="/index-en">
-      Home<v-icon right> mdi-home </v-icon>
-    </v-btn>
     <br /><br />
+
     <h1 class="display-6">
       <span>{{ title }}</span
       ><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
@@ -32,6 +30,7 @@ export default {
   props: {
     title: { type: String, required: true },
     num: { type: String, required: true },
+    type: { type: String, required: true },
   },
   data() {
     return {
@@ -39,7 +38,7 @@ export default {
     };
   },
   mounted() {
-    document.title = `${this.title} ${this.num} - Coding-Insight`;
+    document.title = `${this.type} ${this.title} - Coding-Insight`;
   },
   methods: {
     speak() {

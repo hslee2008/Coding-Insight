@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -19,7 +19,7 @@
 
     <QuadSpace />
 
-    <Header title="ctype.h" num="43" />
+    <Header type="C/C++" title="ctype.h" num="43" />
 
     <QuadSpace />
 

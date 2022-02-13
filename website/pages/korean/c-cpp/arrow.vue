@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -26,7 +26,7 @@
 
     <QuadSpace />
 
-    <Header title="화살표 키워드" num="42" />
+    <Header type="C/C++" title="화살표 키워드" num="42" />
 
     <QuadSpace />
 

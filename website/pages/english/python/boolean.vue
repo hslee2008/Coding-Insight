@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -24,6 +24,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
           max-width="300px"
@@ -33,11 +34,11 @@
 
     <QuadSpace />
 
-    <Header-en num="13" title="Boolean"></Header-en>
+    <Header-en type="Python" num="13" title="Boolean"></Header-en>
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div class="mx-auto">
         <h2>Something to be careful</h2>
         <p>
@@ -52,7 +53,7 @@
       <iframe
         class="embed-responsive-item"
         src="https://trinket.io/embed/python/8500bba20b"
-        width="50%"
+        width="100%"
         height="356"
         frameborder="0"
         marginwidth="0"

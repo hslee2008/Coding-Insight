@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="68" title="Python Decorator"></Header>
+    <Header num="68" title="Python Decorator" />
 
     <QuadSpace />
 

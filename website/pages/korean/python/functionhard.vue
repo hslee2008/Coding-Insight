@@ -1,9 +1,9 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
-      <Header num="30" title="함수 (자세히)"></Header>
+      <Header type="파이썬" num="30" title="함수 (자세히)" />
 
       <QuadSpace />
 

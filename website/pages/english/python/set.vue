@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -39,7 +39,7 @@
 
     <QuadSpace />
 
-    <Header-en num="24" title="Set"></Header-en>
+    <Header-en type="Python" num="24" title="Set"></Header-en>
 
     <QuadSpace />
 
@@ -79,7 +79,7 @@
         <iframe
           class="embed-responsive-item"
           src="https://trinket.io/embed/python3/9be0ca57a7"
-          width="50%"
+          width="100%"
           height="356"
           frameborder="0"
           marginwidth="0"

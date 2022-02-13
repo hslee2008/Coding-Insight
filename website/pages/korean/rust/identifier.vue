@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -18,13 +18,14 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png" max-width="300" />
+        <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif" src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png" max-width="300" />
       </div>
     </div>
 
     <QuadSpace />
 
-    <Header title="식별자" num="9"></Header>
+    <Header type="Rust" title="식별자" num="9" />
 
     <QuadSpace />
 

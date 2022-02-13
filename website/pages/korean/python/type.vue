@@ -1,9 +1,9 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
-      <Header num="32" title="타입 지정"></Header>
+      <Header type="파이썬" num="32" title="타입 지정" />
 
       <QuadSpace />
 
@@ -18,7 +18,7 @@
             <code
               >def wowAnd(nextToWow):<br />&nbsp;&nbsp;return "wow " +
               nextToWow</code
-            >에서 사용자가 실수로 nextToWow 매개변수의 값을 숫자로 입력할 수
+            >에서 사용자가 소수로 nextToWow 매개변수의 값을 숫자로 입력할 수
             있습니다.<br /><br />
 
             이를 방지하기 위하여 다음과 같은 방법이 있습니다.

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="9" title="String Method 1"></Header-en>
+    <Header-en type="Python" num="9" title="String Method 1"></Header-en>
 
     <QuadSpace />
 
@@ -126,6 +126,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://cdn.shopify.com/s/files/1/0952/3604/products/indexbk2_9f2cbceb-31fb-4c4f-968b-2b9b7679152a.jpg?v=1593185298"
           max-width="300px"
@@ -157,11 +158,11 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <NaviBtn bef="string" aft="stringmethod2" />
 
-    <br /><br />
+<QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>
@@ -366,7 +367,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <br /><br />
+<QuadSpace />
   </div>
 </template>
 

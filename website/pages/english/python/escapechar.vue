@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <br />
@@ -38,7 +38,7 @@
 
     <QuadSpace />
 
-    <Header-en num="11" title="Escacpe Character"></Header-en>
+    <Header-en type="Python" num="11" title="Escacpe Character"></Header-en>
 
     <QuadSpace />
 

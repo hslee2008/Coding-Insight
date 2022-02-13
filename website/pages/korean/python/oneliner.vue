@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -14,7 +14,7 @@
 
     <QuadSpace />
 
-    <Header num="38" title="코드를 한 줄에"></Header>
+    <Header type="파이썬" num="38" title="코드를 한 줄에" />
 
     <QuadSpace />
 

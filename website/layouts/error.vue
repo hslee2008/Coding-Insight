@@ -3,13 +3,11 @@
     style="
       width: 80%;
       height: 100px;
-
       position: absolute;
       top: 0;
       bottom: 0;
       left: 0;
       right: 0;
-
       margin: auto;
     "
   >
@@ -24,6 +22,7 @@
       </v-alert>
 
       <v-card-actions>
+        <v-btn @click="refresh"> <v-icon>mdi-refresh</v-icon></v-btn>
         <v-btn @click="backward">
           <v-icon left>mdi-chevron-left</v-icon>뒤로 가기</v-btn
         >
@@ -60,6 +59,9 @@ export default {
   methods: {
     backward() {
       history.back();
+    },
+    refresh() {
+      location.reload();
     },
   },
 };

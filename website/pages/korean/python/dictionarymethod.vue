@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -16,9 +16,9 @@
 
     <br />
 
-    <Header num="22" title="딕셔너리 메서드"></Header>
+    <Header type="파이썬" num="22" title="딕셔너리 메서드" />
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>

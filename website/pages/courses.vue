@@ -7,6 +7,7 @@
     <v-row flex style="gap: 10px">
       <v-card class="mx-auto" max-width="350" min-width="250">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           class="white--text align-end"
           height="200px"
           src="https://miro.medium.com/max/6016/0*ocReqNnxsbtP8OtU"
@@ -50,6 +51,7 @@
 
       <v-card class="mx-auto" min-width="250" max-width="350">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           class="white--text align-end"
           height="200px"
           src="https://i.stack.imgur.com/mWPIq.png"
@@ -95,6 +97,7 @@
 
       <v-card class="mx-auto" min-width="250" max-width="350">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           class="white--text align-end"
           height="200px"
           src="https://i2.wp.com/www.thecoderworld.com/wp-content/uploads/2020/04/Rust-Based-Programming-Language.png?fit=1280%2C720&ssl=1"

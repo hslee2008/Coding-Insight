@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -15,7 +15,7 @@
 
     <QuadSpace />
 
-    <Header title="파일 삭제" num="50" />
+    <Header type="C/C++" title="파일 삭제" num="50" />
 
     <QuadSpace />
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -51,9 +51,9 @@
       />
     </div>
 
-    <Br /><br />
+<QuadSpace />
 
-    <Header-en num="74" title="Thread (Advanced)"></Header-en>
+    <Header-en type="Python" num="74" title="Thread (Advanced)"></Header-en>
 
     <QuadSpace />
 

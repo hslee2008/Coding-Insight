@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -14,6 +14,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXZGVvGnbtF2jLOKPqulX9hEzoHF7BAq69A&usqp=CAU"
           max-width="400px"
@@ -23,7 +24,7 @@
 
     <QuadSpace />
 
-    <Header num="44" title="랜덤"></Header>
+    <Header type="파이썬" num="44" title="랜덤" />
 
     <QuadSpace />
 

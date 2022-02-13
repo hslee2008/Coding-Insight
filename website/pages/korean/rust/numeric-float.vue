@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -20,7 +20,7 @@
 
     <QuadSpace />
 
-    <Header title="소수형 데이터 형태" num="13"></Header>
+    <Header type="Rust" title="소수형 데이터 형태" num="13" />
 
     <QuadSpace />
 

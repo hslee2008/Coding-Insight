@@ -1,9 +1,9 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
-      <Header-en num="36" title="Iterable Function"></Header-en>
+      <Header-en type="Python" num="36" title="Iterable Function"></Header-en>
 
       <QuadSpace />
 

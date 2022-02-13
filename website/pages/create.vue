@@ -1,29 +1,53 @@
 <template>
-  <div class="login">
+  <div class="create">
+    <NuxtLink to="/login">Login</NuxtLink>
     <h1>Create Account</h1>
+    <v-divider></v-divider>
+    <br />
     <v-form v-model="valid">
       <v-text-field
         label="Email"
         placeholder="Email"
         filled
         required
+        clearable
+        dense
+        solo
+        validate-on-blur
         v-model="email"
         :rules="emailRules"
+        prepend-inner-icon="mdi-email"
       ></v-text-field>
       <v-text-field
         label="Password"
         placeholder="Password"
         filled
         required
+        clearable
+        dense
+        solo
+        validate-on-blur
         v-model="password"
         :rules="passwordRules"
+        prepend-inner-icon="mdi-key"
       ></v-text-field>
-      <v-btn @click="pressed">Create Account</v-btn>
+      <v-btn @click="pressed" color="primary"
+        ><v-icon left>mdi-account</v-icon>Create and Login</v-btn
+      >
+      <div class="error" v-if="error">{{ error.message }}</div>
     </v-form>
-    <div class="error" v-if="error">{{ error.message }}</div>
-    <Nuxt-Link to="/login">Login</Nuxt-Link>
   </div>
 </template>
+
+<style scoped>
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 88px);
+}
+</style>
 
 <script>
 import 'firebase/compat/auth';

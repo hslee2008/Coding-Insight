@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <h2>데이터 형태란?</h2>
@@ -16,7 +16,7 @@
 
     <QuadSpace />
 
-    <Header title="데이터 형태" num="7" />
+    <Header type="C/C++" title="데이터 형태" num="7" />
 
     <QuadSpace />
 
@@ -38,7 +38,7 @@
     <div>
       <h2>float - 소수</h2>
       <p>
-        float은 실수를 뜻합니다. 소수점 뒤에 0이 아닌 수가 있습니다. 예를 들어
+        float은 소수를 뜻합니다. 소수점 뒤에 0이 아닌 수가 있습니다. 예를 들어
         3.14는 .뒤에 14가 있어서 소수입니다.<br /><br />
 
         소수는 '%f'를 사용하고 f는 float의 약자입니다.<br /><br />
@@ -170,7 +170,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <NaviBtn bef="input" aft="otherdatatype" />
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -23,7 +23,7 @@
 
     <QuadSpace />
 
-    <Header title="파일 읽기" num="48" />
+    <Header type="C/C++" title="파일 읽기" num="48" />
 
     <QuadSpace />
 

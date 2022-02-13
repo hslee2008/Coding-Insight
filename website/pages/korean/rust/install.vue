@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header title="Rust 설치" num="2"></Header>
+    <Header type="Rust" title="Rust 설치" num="2" />
 
     <QuadSpace />
 
@@ -49,7 +49,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="index" aft="print" />
+    <NaviBtn bef="/korean/rust/" aft="print" />
 
     <QuadSpace />
   </div>

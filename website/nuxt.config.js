@@ -6,11 +6,6 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    script: [
-      {
-        src: 'https://www.googletagmanager.com/gtag/js?id=UA-219499611-1',
-      },
-    ],
     htmlAttrs: {
       lang: 'en,ko-kr',
     },
@@ -97,13 +92,7 @@ export default {
   css: ['./assets/css/global.css'],
 
   // https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    '@/plugins/firebase',
-    {
-      src: '@/plugins/analytics',
-      mode: 'client',
-    },
-  ],
+  plugins: ['@/plugins/firebase'],
 
   // https://go.nuxtjs.dev/config-components
   components: true,
@@ -179,9 +168,6 @@ export default {
         },
       ],
     },
-    workbox: {
-      offlinePage: '/offline.html',
-    },
   },
 
   router: {
@@ -216,11 +202,5 @@ export default {
         };
       }
     },
-  },
-
-  server: {
-    port: 8000,
-    host: '0.0.0.0',
-    timing: false,
   },
 };

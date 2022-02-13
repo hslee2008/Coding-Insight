@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -20,7 +20,7 @@
 
     <QuadSpace />
 
-    <Header title="math.h 라이브러리" num="46" />
+    <Header type="C/C++" title="math.h 라이브러리" num="46" />
 
     <QuadSpace />
 

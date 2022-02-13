@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -18,7 +18,7 @@
 
     <QuadSpace />
 
-    <Header title="Access Specifier" num="14" />
+    <Header type="C/C++" title="Access Specifier" num="14" />
 
     <QuadSpace />
 

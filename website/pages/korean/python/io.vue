@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div class="header-div text-white">
@@ -41,7 +41,7 @@
 
       <br /><br />
 
-      <Header num="4" title="입출력"></Header>
+      <Header type="파이썬" num="4" title="입출력" />
 
       <QuadSpace />
 

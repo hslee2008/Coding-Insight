@@ -48,3 +48,25 @@ code {
     display: none;
   }
 }
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s ease-in-out;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.to-show {
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  .to-hide {
+    display: none;
+  }
+  .to-show {
+    display: block;
+  }
+}

@@ -22,7 +22,13 @@
           $nuxt.$route.path.includes('courses')
         "
       >
-        <ItemList titleen="Rust Start" titlekr="Rust 시작" json="start_rust" />
+        <ItemList
+          v-for="item in rust_items"
+          :key="item.titleen"
+          :titleen="item.titleen"
+          :titlekr="item.titlekr"
+          :json="item.json"
+        />
       </v-list>
 
       <v-list
@@ -49,30 +55,103 @@
           $nuxt.$route.path != '/app' &&
           $nuxt.$route.path != '/app-en'
         "
+        class="to-hide"
       >
         <v-btn @click.stop="drawer = !drawer" icon
           ><v-icon>mdi-microsoft-xbox-controller-menu</v-icon></v-btn
         >
       </template>
-      <v-btn icon @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark">
+      <v-btn
+        icon
+        @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark"
+        class="to-hide"
+      >
         <v-icon>mdi-brightness-6</v-icon>
       </v-btn>
 
-      <v-toolbar-title>
-        <span class="title">{{
-          $nuxt.$route.path.split('/')[1] == 'korean'
-            ? '한국어'
-            : $nuxt.$route.path.split('/')[1] == 'korean'
-            ? 'English'
-            : 'Coding-Insight'
-        }}</span
-        ><v-icon>mdi-chevron-right</v-icon
-        ><span class="title">{{
-          $nuxt.$route.path.split('/')[2] !== undefined
-            ? $nuxt.$route.path.split('/')[2].toUpperCase()
-            : 'Other'
-        }}</span></v-toolbar-title
-      >
+      <v-bottom-sheet v-model="sheet">
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            elevation="0"
+            dark
+            v-bind="attrs"
+            v-on="on"
+            icon
+            class="to-show"
+          >
+            <v-icon>mdi-menu</v-icon>
+          </v-btn>
+        </template>
+        <v-list>
+          <div style="padding: 10px">
+            <v-menu
+              v-if="
+                !$nuxt.$route.path.includes('rust') &&
+                !$nuxt.$route.path.includes('c-cpp')
+              "
+              open-on-hover
+              top
+              offset-y
+              auto
+              close-on-click
+              rounded
+              transition="slide-y-transition"
+            >
+              <template #activator="{ on, attrs }">
+                <v-btn icon v-bind="attrs" v-on="on">
+                  <v-icon>mdi-translate</v-icon>
+                </v-btn>
+              </template>
+
+              <v-list>
+                <v-list-item @click.stop="toKorean">
+                  <v-list-item-title>한국어</v-list-item-title>
+                </v-list-item>
+                <v-list-item @click.stop="toEnglish">
+                  <v-list-item-title>English</v-list-item-title>
+                </v-list-item>
+              </v-list>
+            </v-menu>
+            <template
+              v-if="
+                $nuxt.$route.path != '/index-en' &&
+                $nuxt.$route.path != '/' &&
+                $nuxt.$route.path != '/app' &&
+                $nuxt.$route.path != '/app-en'
+              "
+            >
+              <v-btn @click.stop="drawer = !drawer" icon
+                ><v-icon>mdi-microsoft-xbox-controller-menu</v-icon></v-btn
+              >
+            </template>
+            <v-btn
+              icon
+              @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark"
+            >
+              <v-icon>mdi-brightness-6</v-icon>
+            </v-btn>
+            <v-btn to="login" icon><v-icon>mdi-account-circle</v-icon></v-btn>
+          </div>
+          <v-subheader>Menu</v-subheader>
+          <v-list-item
+            v-for="tile in tiles"
+            :key="tile.title"
+            @click="
+              sheet = false;
+              $nuxt.$router.push(tile.url);
+            "
+          >
+            <v-list-item-avatar>
+              <v-avatar size="32px" tile>
+                <v-icon>{{ 'mdi-' + tile.img }}</v-icon>
+              </v-avatar>
+            </v-list-item-avatar>
+            <v-list-item-title>{{ tile.title }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-bottom-sheet>
+
+      <v-toolbar-title>Coding-Insight</v-toolbar-title>
 
       <v-spacer />
 
@@ -90,7 +169,7 @@
         transition="slide-y-transition"
       >
         <template #activator="{ on, attrs }">
-          <v-btn icon v-bind="attrs" v-on="on">
+          <v-btn icon v-bind="attrs" v-on="on" class="to-hide">
             <v-icon>mdi-translate</v-icon>
           </v-btn>
         </template>
@@ -105,7 +184,14 @@
         </v-list>
       </v-menu>
 
-      <v-btn icon :to="isEnglish() ? '/courses-en' : '/courses'">
+      <v-btn icon :to="isEnglish() ? '/index-en' : '/'" class="to-hide">
+        <v-icon>mdi-home</v-icon>
+      </v-btn>
+      <v-btn
+        icon
+        :to="isEnglish() ? '/courses-en' : '/courses'"
+        class="to-hide"
+      >
         <v-icon>mdi-school</v-icon>
       </v-btn>
 
@@ -128,12 +214,16 @@
                 {{ email }}
               </p>
               <v-divider class="my-3"></v-divider>
-              <v-btn depressed rounded text @click="logout"> logout </v-btn>
+              <v-btn depressed rounded text to="/account"> Edit Account </v-btn>
+              <v-divider class="my-3"></v-divider>
+              <v-btn depressed rounded text @click="logout"> Logout </v-btn>
             </div>
           </v-list-item-content>
         </v-card>
       </v-menu>
-      <v-btn to="login" icon v-else><v-icon>mdi-account-circle</v-icon></v-btn>
+      <v-btn to="login" icon v-else class="to-hide"
+        ><v-icon>mdi-account-circle</v-icon></v-btn
+      >
     </v-app-bar>
 
     <v-main>
@@ -150,9 +240,7 @@
 import firebase from '~/plugins/firebase.js';
 import 'firebase/compat/auth';
 import Cookies from 'js-cookie';
-
 import ov_layout from './ov_layout';
-
 export default {
   name: 'DefaultLayout',
   mounted() {
@@ -162,7 +250,6 @@ export default {
         this.email = user.email;
         this.name = user.displayName;
         this.photo = user.photoURL;
-
         firebase
           .auth()
           .currentUser.getIdToken(true)
@@ -175,18 +262,21 @@ export default {
       }
     });
   },
-
   data() {
     return {
       login: false,
       drawer: false,
+      sheet: false,
       email: '',
       name: '',
       photo: '',
+      tiles: [
+        { img: 'home', title: 'Home', url: '/' },
+        { img: 'school', title: 'Courses', url: '/courses' },
+      ],
       ...ov_layout,
     };
   },
-
   methods: {
     logout() {
       firebase.auth().signOut();
@@ -261,3 +351,18 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.to-show {
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  .to-hide {
+    display: none;
+  }
+  .to-show {
+    display: block;
+  }
+}
+</style>

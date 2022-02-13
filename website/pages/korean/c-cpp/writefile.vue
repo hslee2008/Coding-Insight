@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -21,7 +21,7 @@
 
     <QuadSpace />
 
-    <Header title="파일 쓰기" num="49" />
+    <Header type="C/C++" title="파일 쓰기" num="49" />
 
     <QuadSpace />
 

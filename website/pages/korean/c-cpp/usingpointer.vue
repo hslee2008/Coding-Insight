@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -34,7 +34,7 @@
 
     <QuadSpace />
 
-    <Header title="포인터 사용하기" num="34" />
+    <Header type="C/C++" title="포인터 사용하기" num="34" />
 
     <QuadSpace />
 

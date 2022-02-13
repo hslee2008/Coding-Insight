@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -31,7 +31,7 @@
 
     <QuadSpace />
 
-    <Header num="77" title="카원터"></Header>
+    <Header type="파이썬" num="77" title="카원터" />
 
     <QuadSpace />
 

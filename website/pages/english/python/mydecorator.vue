@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="67" title="My Decorator"></Header>
+    <Header num="67" title="My Decorator" />
 
     <QuadSpace />
 

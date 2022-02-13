@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -38,7 +38,7 @@
 
     <QuadSpace />
 
-    <Header num="25" title="집합 메서드"></Header>
+    <Header type="파이썬" num="25" title="집합 메서드" />
 
     <QuadSpace />
 

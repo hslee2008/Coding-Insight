@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -27,7 +27,7 @@
 
     <QuadSpace />
 
-    <Header num="51" title="파일 쓰기"></Header>
+    <Header type="파이썬" num="51" title="파일 쓰기" />
 
     <QuadSpace />
 

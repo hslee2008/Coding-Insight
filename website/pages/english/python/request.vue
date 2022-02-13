@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -16,6 +16,7 @@
       </div>
       <div style="display: flex; justify-content: center">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxLF2l2sITXnde-o9OyhTjoPeWHCWLrC2Ry2-FlQVH-aDSQPE1kh02OMA1yT_Yeui3LM&usqp=CAU"
         />
@@ -24,7 +25,7 @@
 
     <QuadSpace />
 
-    <Header-en num="78" title="Request"></Header-en>
+    <Header-en type="Python" num="78" title="Request"></Header-en>
 
     <QuadSpace />
 

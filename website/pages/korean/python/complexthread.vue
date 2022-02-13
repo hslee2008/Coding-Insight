@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -36,9 +36,9 @@
       />
     </div>
 
-    <Br /><br />
+<QuadSpace />
 
-    <Header num="74" title="스레드 (자세히)"></Header>
+    <Header type="파이썬" num="74" title="스레드 (자세히)" />
 
     <QuadSpace />
 

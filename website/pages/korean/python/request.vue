@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div
       style="display: flex; padding: 10px; border-radius: 5px"
@@ -19,6 +19,7 @@
       </div>
       <div style="display: flex; justify-content: center">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxLF2l2sITXnde-o9OyhTjoPeWHCWLrC2Ry2-FlQVH-aDSQPE1kh02OMA1yT_Yeui3LM&usqp=CAU"
         />
@@ -27,7 +28,7 @@
 
     <QuadSpace />
 
-    <Header num="78" title="리퀘스트"></Header>
+    <Header type="파이썬" num="78" title="리퀘스트" />
 
     <QuadSpace />
 

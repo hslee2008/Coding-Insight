@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -39,7 +39,7 @@
 
     <QuadSpace />
 
-    <Header title="출력 (C++)" num="2" />
+    <Header type="C/C++" title="출력 (C++)" num="2" />
 
     <QuadSpace />
 

@@ -1,10 +1,10 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="19" title="List Method 1"></Header-en>
+    <Header-en type="Python" num="19" title="List Method 1"></Header-en>
 
-    <br /><br />
+<QuadSpace />
     <div>
       <div>
         <h2>List - Indexing</h2>

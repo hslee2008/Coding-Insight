@@ -1,10 +1,11 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="display: flex; justify-content: center">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           max-width="300px"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"
@@ -21,7 +22,7 @@
 
     <QuadSpace />
 
-    <Header num="1" title="파이썬의 정의"></Header>
+    <Header type="파이썬" num="1" title="파이썬의 정의" />
 
     <QuadSpace />
 
@@ -47,6 +48,7 @@
         </div>
         <div class="text-center mx-auto">
           <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
             alt="python-factory-picture"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
             max-width="300px"
@@ -77,6 +79,7 @@
       </div>
       <div class="text-center mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
           max-width="300px"
@@ -84,7 +87,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <h1>파이썬으로 할 수 있는 것들</h1>
@@ -109,7 +112,7 @@
       </p>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -132,6 +135,7 @@
       </div>
       <div class="text-center mx-auto img-div">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDvusEfnc81WXy7PBDME8ZDa7miwprm8Z4Q&usqp=CAU"
           max-width="210.5px"
@@ -139,7 +143,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <h1>파이썬의 장점</h1>
@@ -154,7 +158,7 @@
       </p>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div class="text-center" style="padding: 10px">
       <h1>파이썬 강좌 모음</h1>
@@ -170,7 +174,7 @@
       />
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <NuxtLink aria-label="Go to Coding Insight Page" to="./install" style="text-decoration: none; float: right">

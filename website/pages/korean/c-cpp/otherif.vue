@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -33,7 +33,7 @@
 
     <QuadSpace />
 
-    <Header title="상항 연산자" num="40" />
+    <Header type="C/C++" title="상항 연산자" num="40" />
 
     <QuadSpace />
 

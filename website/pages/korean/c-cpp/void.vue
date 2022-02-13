@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -18,7 +18,7 @@
 
     <QuadSpace />
 
-    <Header title="void" num="36" />
+    <Header type="C/C++" title="void" num="36" />
 
     <QuadSpace />
 

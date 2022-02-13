@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -12,6 +12,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://www.incimages.com/uploaded_files/image/empty-email_463770.gif"
           max-width="300px"
@@ -21,7 +22,7 @@
 
     <QuadSpace />
 
-    <Header num="85" title="스펨 이메일"></Header>
+    <Header type="파이썬" num="85" title="스펨 이메일" />
 
     <QuadSpace />
 
@@ -50,7 +51,7 @@
       계정과 밑에 있는 코드의 계정 이메일이 일치해야합니다.
     </p>
 
-    <br /><br />
+<QuadSpace />
 
     <iframe
       src="https://trinket.io/embed/python3/db9f325b98"

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="75" title="스레드 메서드"></Header>
+    <Header num="75" title="스레드 메서드" />
 
     <QuadSpace />
 

@@ -70,21 +70,11 @@
         </v-row>
       </v-card-text>
 
-      <br /><br />
-
-      <v-card-text class="white--text pt-0">
-        {{
-          isEnglish()
-            ? 'Learn, Practice Programming and build a project'
-            : '프로그래밍을 배우고, 연습하고, 직접 프로젝트를 만들 수 있는 곳.'
-        }}
-      </v-card-text>
-
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        &copy;2021-{{ new Date().getFullYear() }}
-        <strong>Coding-Insight</strong> (Hyunseung, Juha, Gun)
+        &copy; {{ new Date().getFullYear() }}
+        <strong>Coding-Insight</strong><br /> (Hyunseung, Juha, Gun)
       </v-card-text>
     </v-card>
   </v-footer>

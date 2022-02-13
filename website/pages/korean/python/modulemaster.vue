@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="41" title="모듈 마스터하기"></Header>
+    <Header type="파이썬" num="41" title="모듈 마스터하기" />
 
     <QuadSpace />
 

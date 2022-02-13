@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -16,7 +16,7 @@
 
     <QuadSpace />
 
-    <Header num="69" title="New Line"></Header>
+    <Header num="69" title="New Line" />
 
     <QuadSpace />
 

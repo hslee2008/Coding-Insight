@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -32,7 +32,7 @@
 
     <QuadSpace />
 
-    <Header num="86" title="자동 줌"></Header>
+    <Header type="파이썬" num="86" title="자동 줌" />
 
     <QuadSpace />
 

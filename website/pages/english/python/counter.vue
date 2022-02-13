@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -34,7 +34,7 @@
 
     <QuadSpace />
 
-    <Header-en num="77" title="Counter"></Header-en>
+    <Header-en type="Python" num="77" title="Counter"></Header-en>
 
     <QuadSpace />
 

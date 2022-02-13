@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
     <div style="display: flex" class="img-div">
       <div>
         <h2>분리언란?</h2>
@@ -27,6 +27,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
           max-width="300px"
@@ -36,7 +37,7 @@
 
     <QuadSpace />
 
-    <Header num="13" title="분리언"></Header>
+    <Header type="파이썬" num="13" title="분리언" />
 
     <QuadSpace />
 
@@ -50,12 +51,12 @@
           기억하세요! True와 False의 앞은
           <strong>대문자</strong>입니다!<br /><br />
 
-          실수로 소문자로 사용하면 다음과 같은 에러가 생깁니다.
+          소수로 소문자로 사용하면 다음과 같은 에러가 생깁니다.
         </p>
       </div>
       <iframe
         src="https://trinket.io/embed/python/8500bba20b"
-        width="50%"
+        width="100%"
         height="356"
         frameborder="0"
         marginwidth="0"

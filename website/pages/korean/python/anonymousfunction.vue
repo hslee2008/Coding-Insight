@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="33" title="익명함수"></Header>
+    <Header type="파이썬" num="33" title="익명함수" />
 
     <QuadSpace />
 

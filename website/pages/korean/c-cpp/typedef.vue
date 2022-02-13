@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -19,7 +19,7 @@
 
     <QuadSpace />
 
-    <Header title="typedef" num="31" />
+    <Header type="C/C++" title="typedef" num="31" />
 
     <QuadSpace />
 

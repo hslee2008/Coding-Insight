@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -13,12 +13,12 @@
       </div>
       <iframe
 src="https://trinket.io/embed/python3/0be5e6efb5" width="100%" height="356" frameborder="0"
-        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
+        marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;" />
     </div>
 
     <QuadSpace />
 
-    <Header num="64" title="map, reduce, filter"></Header>
+    <Header type="파이썬" num="64" title="map, reduce, filter" />
 
     <QuadSpace />
 
@@ -31,7 +31,7 @@ src="https://trinket.io/embed/python3/0be5e6efb5" width="100%" height="356" fram
           <iframe
 src="https://trinket.io/embed/python3/373f6daa17" width="100%" height="356" frameborder="0"
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:
-            auto;"/><br /><br />
+            auto;" /><br /><br />
           1. 먼저, map() 함수의 첫 번째 매개변수에는 함수의 이름을 넣습니다.<br />
           2. 만일 어떤 계산을 하는 함수 (예: x에 2를 곱하는 함수)가 존재하지 않는다면 그 함수를 만드세요.<br />
           3. 그리고 두 번째에는 리스트 변수 이름을 넣습니다.<br />
@@ -39,7 +39,7 @@ src="https://trinket.io/embed/python3/373f6daa17" width="100%" height="356" fram
           map() 함수에서 나만의 함수를 넣으려면 lambda(익명 함수)를 이용할 수 있습니다.<br /><br /> <iframe
             src="https://trinket.io/embed/python3/22c2bc5172" width="100%" height="356" frameborder="0"
             marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin:
-            auto;"/><br /><br />
+            auto;" /><br /><br />
           lambda를 이용할 때 첫 번째 매개변수가 들어오는 값(mainList에 있는 숫자의 값)이기 때문에 매개변수의 이름은 우리가 정할 수 있습니다.<br /><br />
           n이 될 수 있고 number 또는 num이 될 수 있지만 존재해야 하고 돌아오는 값이 있어야 합니다.<br /><br />
           만일 어떤 함수가 x개 매개변수가 필요하다면 x개 리스트를 입력하면 됩니다. 그리고 lambda에서는 x개 매개변수를 만들면 됩니다.<br /><br />
@@ -68,7 +68,7 @@ src="https://trinket.io/embed/python3/373f6daa17" width="100%" height="356" fram
     </div>
     <iframe
 src="https://trinket.io/embed/python3/9eb9345774" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;" />
 
     <QuadSpace />
 
@@ -87,7 +87,7 @@ src="https://trinket.io/embed/python3/9eb9345774" width="100%" height="356" fram
     </div>
     <iframe
 src="https://trinket.io/embed/python3/294b66f2c5" width="100%" height="356" frameborder="0"
-      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;"/>
+      marginwidth="0" marginheight="0" allowfullscreen loading="lazy" style="margin: auto;" />
 
     <QuadSpace />
 

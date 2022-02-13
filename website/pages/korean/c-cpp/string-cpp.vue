@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -20,7 +20,7 @@
 
     <QuadSpace />
 
-    <Header title="문자열 (C++)" num="3" />
+    <Header type="C/C++" title="문자열 (C++)" num="3" />
 
     <QuadSpace />
 

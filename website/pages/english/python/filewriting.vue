@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -27,7 +27,7 @@
 
     <QuadSpace />
 
-    <Header-en num="51" title="File Writing"></Header-en>
+    <Header-en type="Python" num="51" title="File Writing"></Header-en>
 
     <QuadSpace />
 

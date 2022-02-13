@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -36,7 +36,7 @@
 
     <QuadSpace />
 
-    <Header-en num="64" title="map, reduce, filter"></Header-en>
+    <Header-en type="Python" num="64" title="map, reduce, filter"></Header-en>
 
     <QuadSpace />
 

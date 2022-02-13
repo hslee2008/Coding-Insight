@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header title="VECTOR 메서드" num="5" />
+    <Header type="C/C++" title="VECTOR 메서드" num="5" />
 
     <QuadSpace />
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -19,7 +19,7 @@
 
     <QuadSpace />
 
-    <Header title="Switch문" num="17" />
+    <Header type="C/C++" title="Switch문" num="17" />
 
     <QuadSpace />
 

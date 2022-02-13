@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -16,9 +16,9 @@
 
     <QuadSpace />
 
-    <Header num="27" title="조건문 마스터"></Header>
+    <Header type="파이썬" num="27" title="조건문 마스터" />
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>

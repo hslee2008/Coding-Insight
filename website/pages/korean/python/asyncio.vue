@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="71" title="asyncio"></Header>
+    <Header type="파이썬" num="71" title="asyncio" />
 
     <QuadSpace />
 

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="82" title="Other Dunder Method"></Header-en>
+    <Header-en type="Python" num="82" title="Other Dunder Method"></Header-en>
 
     <QuadSpace />
 

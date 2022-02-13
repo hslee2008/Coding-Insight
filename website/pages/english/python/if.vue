@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
     <div
       style="display: flex; padding: 30px; border-radius: 5px"
       class="img-div"
@@ -29,12 +29,13 @@
       </div>
       <div style="margin: auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3wpiBBpzSMnlDX8KrxleWQf5wKSf2lGHbtw&usqp=CAU"
         />
       </div>
     </div>
-    <br /><br />
+<QuadSpace />
     <div class="text-center">
       <iframe
         width="560"
@@ -46,8 +47,8 @@
         allowfullscreen
       />
     </div>
-    <br /><br />
-    <Header-en title="If Statement" num="26"></Header-en>
+<QuadSpace />
+    <Header-en type="Python" title="If Statement" num="26"></Header-en>
 
     <QuadSpace />
 
@@ -130,7 +131,7 @@
       loading="lazy"
       style="margin: auto"
     />
-    <br /><br />
+<QuadSpace />
 
     <QuadSpace />
 

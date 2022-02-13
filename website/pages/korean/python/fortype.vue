@@ -1,9 +1,9 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
-      <Header num="35" title="반복문 종류"></Header>
+      <Header type="파이썬" num="35" title="반복문 종류" />
 
       <QuadSpace />
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -17,7 +17,7 @@
 
     <QuadSpace />
 
-    <Header title="UNION" num="35" />
+    <Header type="C/C++" title="UNION" num="35" />
 
     <QuadSpace />
 

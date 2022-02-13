@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
     <div>
       <div class="header-div text-white">
         <div>
@@ -27,7 +27,7 @@
 
       <br /><br />
 
-      <Header-en num="4" title="Input & Output"></Header-en>
+      <Header-en type="Python" num="4" title="Input & Output"></Header-en>
 
       <QuadSpace />
 

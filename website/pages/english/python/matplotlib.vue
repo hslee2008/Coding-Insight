@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -34,7 +34,7 @@
 
     <QuadSpace />
 
-    <Header-en title="Matplotlib" num="88"></Header-en>
+    <Header-en type="Python" title="Matplotlib" num="88"></Header-en>
 
     <QuadSpace />
 

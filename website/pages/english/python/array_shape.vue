@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -38,7 +38,7 @@
 
     <QuadSpace />
 
-    <Header-en num="60" title="Array Shape"></Header-en>
+    <Header-en type="Python" num="60" title="Array Shape"></Header-en>
 
     <QuadSpace />
 

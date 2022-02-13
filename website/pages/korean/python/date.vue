@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -13,6 +13,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://i.pinimg.com/736x/2e/91/54/2e9154e47f8ee83671518361c96fc1d4.jpg"
           max-width="200px"
@@ -22,7 +23,7 @@
 
     <QuadSpace />
 
-    <Header num="43" title="날짜"></Header>
+    <Header type="파이썬" num="43" title="날짜" />
 
     <QuadSpace />
 
@@ -99,7 +100,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <NaviBtn bef="hacking" aft="random" />
 

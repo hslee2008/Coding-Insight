@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="79" title="Request Method"></Header-en>
+    <Header-en type="Python" num="79" title="Request Method"></Header-en>
 
     <QuadSpace />
 

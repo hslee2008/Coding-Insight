@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="54" title="Data Type Change"></Header-en>
+    <Header-en type="Python" num="54" title="Data Type Change"></Header-en>
 
     <QuadSpace />
 

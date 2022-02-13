@@ -1,9 +1,9 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+    <div>
+      <div>
         <h2>딕셔너리란?</h2>
         <p>
           딕셔너리(DICTIONARY)는 한국어로 '사전'을 뜻합니다.<br /><br />
@@ -20,7 +20,7 @@
       </div>
       <iframe
         src="https://trinket.io/embed/python3/ba9dc3b4ac"
-        width="50%"
+        width="100%"
         height="356"
         frameborder="0"
         marginwidth="0"
@@ -31,7 +31,7 @@
       />
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -47,7 +47,7 @@
 
     <QuadSpace />
 
-    <Header num="21" title="딕셔너리"></Header>
+    <Header type="파이썬" num="21" title="딕셔너리" />
 
     <QuadSpace />
 

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="39" title="다양한 함수"></Header>
+    <Header type="파이썬" num="39" title="다양한 함수" />
 
     <QuadSpace />
 

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
-      <Header-en num="35" title="For Loop Type"></Header-en>
+      <Header-en type="Python" num="35" title="For Loop Type"></Header-en>
 
       <QuadSpace />
 

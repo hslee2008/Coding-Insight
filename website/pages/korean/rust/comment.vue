@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -19,7 +19,7 @@
 
     <QuadSpace />
 
-    <Header title="주석" num="6"></Header>
+    <Header type="Rust" title="주석" num="6" />
 
     <QuadSpace />
 

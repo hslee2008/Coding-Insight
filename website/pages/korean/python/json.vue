@@ -1,10 +1,11 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="display: flex; justify-content: center">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           class="img-fluid"
           max-width="400px"
@@ -29,7 +30,7 @@
 
     <QuadSpace />
 
-    <Header num="57" title="JSON"></Header>
+    <Header type="파이썬" num="57" title="JSON" />
 
     <QuadSpace />
 

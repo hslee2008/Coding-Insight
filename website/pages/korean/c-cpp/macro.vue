@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -19,7 +19,7 @@
 
     <QuadSpace />
 
-    <Header title="매크로" num="39" />
+    <Header type="C/C++" title="매크로" num="39" />
 
     <QuadSpace />
 

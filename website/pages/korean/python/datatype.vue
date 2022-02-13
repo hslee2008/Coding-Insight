@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
     <div style="display: flex" class="img-div">
       <div>
         <h2>데이터 형태란?</h2>
@@ -18,6 +18,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
           max-width="300px"
@@ -25,7 +26,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -41,7 +42,7 @@
 
     <QuadSpace />
 
-    <Header num="6" title="데이터 형태"></Header>
+    <Header type="파이썬" num="6" title="데이터 형태" />
 
     <QuadSpace />
 
@@ -108,6 +109,7 @@
 
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://www.sas.com/en_us/insights/articles/big-data/big-data-privacy/_jcr_content/par02/image_df5.img.jpg/1601048186486.jpg"
           width="342"
@@ -116,7 +118,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <NaviBtn bef="madlib" aft="comment" />
 

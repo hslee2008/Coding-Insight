@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header title="#error" num="41" />
+    <Header type="C/C++" title="#error" num="41" />
 
     <QuadSpace />
 

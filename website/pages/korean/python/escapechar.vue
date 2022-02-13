@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
     <div>
       <div>
         <h2>이스케이프 문자란?</h2>
@@ -29,7 +29,7 @@
       />
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -45,7 +45,7 @@
 
     <QuadSpace />
 
-    <Header num="11" title="이스케이프 문자"></Header>
+    <Header type="파이썬" num="11" title="이스케이프 문자" />
 
     <QuadSpace />
 

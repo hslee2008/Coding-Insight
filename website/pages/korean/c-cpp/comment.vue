@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <h2>주석이란?</h2>
@@ -15,7 +15,7 @@
 
     <QuadSpace />
 
-    <Header title="주석" num="12" />
+    <Header type="C/C++" title="주석" num="12" />
 
     <QuadSpace />
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -15,7 +15,7 @@
 
     <QuadSpace />
 
-    <Header title="클래스 메서드" num="12" />
+    <Header type="C/C++" title="클래스 메서드" num="12" />
 
     <QuadSpace />
 

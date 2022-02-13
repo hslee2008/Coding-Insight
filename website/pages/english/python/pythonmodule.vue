@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="42" title="Python Module"></Header-en>
+    <Header-en type="Python" num="42" title="Python Module"></Header-en>
 
     <QuadSpace />
 

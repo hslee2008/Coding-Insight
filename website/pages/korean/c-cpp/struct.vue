@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -22,7 +22,7 @@
 
     <QuadSpace />
 
-    <Header title="STRUCT 구조체" num="32" />
+    <Header type="C/C++" title="STRUCT 구조체" num="32" />
 
     <QuadSpace />
 
@@ -67,7 +67,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>
@@ -104,7 +104,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>

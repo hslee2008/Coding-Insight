@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="79" title="리퀘스트 메서드"></Header>
+    <Header type="파이썬" num="79" title="리퀘스트 메서드" />
 
     <QuadSpace />
 

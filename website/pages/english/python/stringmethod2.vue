@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header-en num="10" title="String Method 2"></Header-en>
+    <Header-en type="Python" num="10" title="String Method 2"></Header-en>
 
     <QuadSpace />
 

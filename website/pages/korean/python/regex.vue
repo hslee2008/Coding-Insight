@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div
       style="display: flex; border-radius: 5px"
@@ -20,6 +20,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://cmgcode.com/images/portfolio/regexoff-icon.png"
           width="300px"
@@ -29,7 +30,7 @@
 
     <QuadSpace />
 
-    <Header num="45" title="정규식"></Header>
+    <Header type="파이썬" num="45" title="정규식" />
 
     <QuadSpace />
 

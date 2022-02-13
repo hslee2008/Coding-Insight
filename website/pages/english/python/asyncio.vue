@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header num="71" title="asyncio"></Header>
+    <Header num="71" title="asyncio" />
 
     <QuadSpace />
 

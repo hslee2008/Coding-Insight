@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div
       style="display: flex; border-radius: 5px"
@@ -16,6 +16,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://pbs.twimg.com/profile_images/502406972453289985/AKdzcXPi.png"
           width="300px"
@@ -25,7 +26,7 @@
 
     <QuadSpace />
 
-    <Header num="47" title="클래스 메서드"></Header>
+    <Header type="파이썬" num="47" title="클래스 메서드" />
 
     <QuadSpace />
 

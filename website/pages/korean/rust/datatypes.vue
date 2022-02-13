@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -22,7 +22,7 @@
 
     <QuadSpace />
 
-    <Header title="데이터 형태" num="11"></Header>
+    <Header type="Rust" title="데이터 형태" num="11" />
 
     <QuadSpace />
 

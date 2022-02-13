@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -16,7 +16,7 @@
 
     <br />
 
-    <Header title="숫자 메서드" num="17"></Header>
+    <Header type="파이썬" title="숫자 메서드" num="17" />
 
 <QuadSpace />
 

@@ -396,7 +396,7 @@
       />
     </div>
 
-    <br /><br />
+<QuadSpace />
   </div>
 </template>
 

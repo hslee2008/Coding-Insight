@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="margin: 5px;">
@@ -14,13 +14,14 @@
       </div>
       <div style="display: flex; justify-content: center">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAEJ9fzr3QpW7a9Ase_cE279O1pTyY4GZ2T4cXc7rXrugIqPf_586nsM-Ajo_Q0Qxuyxk&usqp=CAU"
           max-width="300px"
         />
       </div>
     </div>
-    <br /><br />
+<QuadSpace />
     <div class="text-center">
       <iframe
         width="80%"
@@ -33,9 +34,9 @@
       />
     </div>
 
-    <br /><br />
+<QuadSpace />
 
-    <Header num="15" title="연산자"></Header>
+    <Header type="파이썬" num="15" title="연산자" />
 
     <QuadSpace />
 

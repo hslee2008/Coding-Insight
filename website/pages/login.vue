@@ -1,37 +1,81 @@
 <template>
   <div class="login">
+    <NuxtLink to="/create">Make an Account</NuxtLink>
     <h1>Login</h1>
+    <v-divider></v-divider>
+    <br />
     <v-form v-model="valid">
       <v-text-field
         label="Email"
         placeholder="Email"
         filled
         required
+        clearable
+        dense
+        solo
+        validate-on-blur
         v-model="email"
         :rules="emailRules"
+        prepend-inner-icon="mdi-email"
       ></v-text-field>
       <v-text-field
         label="Password"
         placeholder="Password"
         filled
         required
+        clearable
+        dense
+        solo
+        validate-on-blur
         v-model="password"
         :rules="passwordRules"
+        prepend-inner-icon="mdi-key"
       ></v-text-field>
-      <v-btn @click="pressed">Login</v-btn>
+      <v-btn @click="pressed" color="primary"
+        ><v-icon left>mdi-account</v-icon>Login</v-btn
+      >
       <div class="error" v-if="error">{{ error.message }}</div>
+
+      <br /><br />
+
+      <v-divider></v-divider>
+
+      <br />
+
+      <div style="display: flex; gap: 10px; justify-content: center">
+        <v-btn
+          style="color: rgb(219, 69, 54)"
+          @click="google"
+          outlined
+          dense
+          ripple
+          small
+        >
+          <v-icon left>mdi-google</v-icon>
+          Google
+        </v-btn>
+        <v-btn @click="github" outlined dense ripple small>
+          <v-icon left>mdi-github</v-icon>
+          GitHub
+        </v-btn>
+        <v-btn @click="anonymous" outlined dense ripple small>
+          <v-icon left>mdi-account-circle</v-icon>
+          Anonymous
+        </v-btn>
+      </div>
     </v-form>
-
-    <v-row justify="center" style="margin: 20px">
-      <Nuxt-Link to="/create">Create an account</Nuxt-Link>
-    </v-row>
-
-    <v-row style="gap: 10px">
-      <v-btn @click="google"><v-icon left>mdi-google</v-icon>Google</v-btn>
-      <v-btn @click="github"><v-icon left>mdi-github</v-icon>GitHub</v-btn>
-    </v-row>
   </div>
 </template>
+
+<style scoped>
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 88px);
+}
+</style>
 
 <script>
 import firebase, { auth } from '~/plugins/firebase.js';
@@ -75,6 +119,15 @@ export default {
       auth
         .signInWithPopup(new firebase.auth.GithubAuthProvider())
         .then(() => this.$router.push('/'));
+    },
+    anonymous() {
+      signInAnonymously(auth)
+        .then(() => {
+          this.$router.push('/');
+        })
+        .catch((error) => {
+          this.error = error.message;
+        });
     },
   },
 };

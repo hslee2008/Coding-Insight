@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -16,9 +16,9 @@
 
     <QuadSpace />
 
-    <Header title="None" num="24"></Header>
+    <Header type="파이썬" title="None" num="24" />
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>

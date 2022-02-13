@@ -1,9 +1,9 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
-      <Header-en num="37" title="While Loop"></Header-en>
+      <Header-en type="Python" num="37" title="While Loop"></Header-en>
 
       <QuadSpace />
 
@@ -73,7 +73,7 @@
         <iframe
           class="embed-responsive-item"
           src="https://trinket.io/embed/python3/9aef21b34d"
-          width="50%"
+          width="100%"
           height="500"
           frameborder="0"
           marginwidth="0"

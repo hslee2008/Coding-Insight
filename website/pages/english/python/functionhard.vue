@@ -1,9 +1,9 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
-      <Header-en num="30" title="Function (Advanced)"></Header-en>
+      <Header-en type="Python" num="30" title="Function (Advanced)"></Header-en>
 
       <QuadSpace />
 

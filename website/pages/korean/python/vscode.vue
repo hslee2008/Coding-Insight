@@ -3,11 +3,21 @@
     <QuadSpace />
 
     <v-row flex justify="center" style="gap: 30px">
-      <v-btn aria-label="Coding Insight Button" color="primary" dark @click="sheet1 = !sheet1">
+      <v-btn
+        aria-label="Coding Insight Button"
+        color="primary"
+        dark
+        @click="sheet1 = !sheet1"
+      >
         VSCode 설치하는 방법
       </v-btn>
 
-      <v-btn aria-label="Coding Insight Button" color="primary" dark @click="sheet2 = !sheet2">
+      <v-btn
+        aria-label="Coding Insight Button"
+        color="primary"
+        dark
+        @click="sheet2 = !sheet2"
+      >
         VSCode에서 파이썬 프로그래밍 작작
       </v-btn>
     </v-row>
@@ -46,6 +56,7 @@
             <v-stepper-content step="1">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/vscode.jpg"
@@ -62,8 +73,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 2"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e6 = 2"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet1 = !sheet1"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -73,6 +92,7 @@
             <v-stepper-content step="2">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/vscodesetup.jpg"
@@ -87,8 +107,16 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 3"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e6 = 3"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet1 = !sheet1"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -98,6 +126,7 @@
             <v-stepper-content step="3">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/agree.jpg"
@@ -109,8 +138,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 4"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e6 = 4"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet1 = !sheet1"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -120,6 +157,7 @@
             <v-stepper-content step="4">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/nextvscode.jpg"
@@ -131,8 +169,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 5"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e6 = 5"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet1 = !sheet1"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -142,6 +188,7 @@
             <v-stepper-content step="5">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/installvscode.jpg"
@@ -153,8 +200,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 6"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e6 = 6"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet1 = !sheet1"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -164,6 +219,7 @@
             <v-stepper-content step="6">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/vscodefinish.jpg"
@@ -173,8 +229,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e6 = 7"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet1 = !sheet1">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e6 = 7"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet1 = !sheet1"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -189,7 +253,11 @@
                   </p></v-card-title
                 >
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="sheet1 = !sheet1">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="sheet1 = !sheet1"
+                  >
                     Finish
                   </v-btn></v-card-actions
                 >
@@ -222,6 +290,7 @@
             <v-stepper-content step="1">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/cube.jpg"
@@ -233,8 +302,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e4 = 2"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet2 = !sheet2">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e4 = 2"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet2 = !sheet2"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -244,6 +321,7 @@
             <v-stepper-content step="2">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/input.jpg"
@@ -257,8 +335,16 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e4 = 3"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet2 = !sheet2">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e4 = 3"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet2 = !sheet2"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -268,6 +354,7 @@
             <v-stepper-content step="3">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/extinstall.jpg"
@@ -279,8 +366,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e4 = 4"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet2 = !sheet2">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e4 = 4"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet2 = !sheet2"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -290,6 +385,7 @@
             <v-stepper-content step="4">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/coderunner.jpg"
@@ -302,8 +398,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="e4 = 5"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet2 = !sheet2">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="e4 = 5"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet2 = !sheet2"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -316,11 +420,16 @@
 
     <QuadSpace />
 
-    <Header num="3" title="VSCode 설치"></Header>
+    <Header type="파이썬" num="3" title="VSCode 설치" />
 
     <QuadSpace />
 
-    <v-btn aria-label="Coding Insight Button" color="primary" dark @click="sheet3 = !sheet3">
+    <v-btn
+      aria-label="Coding Insight Button"
+      color="primary"
+      dark
+      @click="sheet3 = !sheet3"
+    >
       VSCode에서 파이썬 프로그래밍 작작
     </v-btn>
 
@@ -358,6 +467,7 @@
             <v-stepper-content step="1">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/file.jpg"
@@ -369,8 +479,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 2"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="et = 2"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet3 = !sheet3"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -380,6 +498,7 @@
             <v-stepper-content step="2">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/choose.jpg"
@@ -393,8 +512,16 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 3"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="et = 3"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet3 = !sheet3"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -404,6 +531,7 @@
             <v-stepper-content step="3">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/background.jpg"
@@ -416,8 +544,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 4"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="et = 4"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet3 = !sheet3"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -427,6 +563,7 @@
             <v-stepper-content step="4">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/newfile.jpg"
@@ -438,8 +575,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 5"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="et = 5"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet3 = !sheet3"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -449,6 +594,7 @@
             <v-stepper-content step="5">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/filename.jpg"
@@ -463,8 +609,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 6"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="et = 6"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet3 = !sheet3"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -474,6 +628,7 @@
             <v-stepper-content step="6">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/tri.jpg"
@@ -489,8 +644,16 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="et = 7"> Continue </v-btn
-                  ><v-btn aria-label="Coding Insight Button" @click="sheet3 = !sheet3">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="et = 7"
+                  >
+                    Continue </v-btn
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    @click="sheet3 = !sheet3"
+                  >
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -500,6 +663,7 @@
             <v-stepper-content step="7">
               <v-card>
                 <v-img
+                  lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/helloworld.jpg"
@@ -512,7 +676,11 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn aria-label="Coding Insight Button" color="primary" @click="sheet3 = !sheet3">
+                  ><v-btn
+                    aria-label="Coding Insight Button"
+                    color="primary"
+                    @click="sheet3 = !sheet3"
+                  >
                     Finish
                   </v-btn></v-card-actions
                 >
@@ -523,9 +691,7 @@
       </div>
     </v-bottom-sheet>
 
-
-
-    <div style="display: flex;" class="img-div">
+    <div style="display: flex" class="img-div">
       <div>
         <h2>.py?</h2>
         <p>
@@ -545,6 +711,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+          lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           class="v-img-fluid"
           style="display: block"

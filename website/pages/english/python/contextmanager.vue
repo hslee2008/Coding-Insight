@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -24,7 +24,7 @@
 
     <QuadSpace />
 
-    <Header-en num="53" title="Context Manager"></Header-en>
+    <Header-en type="Python" num="53" title="Context Manager"></Header-en>
 
     <QuadSpace />
 
@@ -96,7 +96,7 @@
       />
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <NaviBtn bef="contact2" aft="datachange" />
 

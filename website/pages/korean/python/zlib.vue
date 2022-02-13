@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -13,7 +13,7 @@
 
     <QuadSpace />
 
-    <Header num="65" title="zlib"></Header>
+    <Header type="파이썬" num="65" title="zlib" />
 
     <QuadSpace />
 
@@ -64,6 +64,7 @@
       </div>
       <div style="display: flex; justify-content: center">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://en.terminalroot.com.br/assets/img/cppdaily/zlib.png"
           width="400px"

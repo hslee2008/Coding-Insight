@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -15,7 +15,7 @@
 
     <QuadSpace />
 
-    <Header title="프로그램 중단" num="43" />
+    <Header type="C/C++" title="프로그램 중단" num="43" />
 
     <QuadSpace />
 
@@ -50,7 +50,7 @@
       </div>
     </div>
 
-    <br /><br />
+<QuadSpace />
 
     <div>
       <div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -24,7 +24,7 @@
 
     <QuadSpace />
 
-    <Header title="예외 처리" num="8" />
+    <Header type="C/C++" title="예외 처리" num="8" />
 
     <QuadSpace />
 

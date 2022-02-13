@@ -1,8 +1,8 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
-    <Header title="Continue, Break, Goto" num="23" />
+    <Header type="C/C++" title="Continue, Break, Goto" num="23" />
 
     <QuadSpace />
 

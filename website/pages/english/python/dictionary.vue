@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -23,7 +23,7 @@
 
     <QuadSpace />
 
-    <Header-en num="21" title="Dictionary"></Header-en>
+    <Header-en type="Python" num="21" title="Dictionary"></Header-en>
 
     <QuadSpace />
 
@@ -55,7 +55,7 @@
       <iframe
         class="embed-responsive-item"
         src="https://trinket.io/embed/python3/1e671b6947"
-        width="50%"
+        width="100%"
         height="356"
         frameborder="0"
         marginwidth="0"

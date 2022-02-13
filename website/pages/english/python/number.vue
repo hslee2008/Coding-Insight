@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
         <h2>Declare number variable</h2>
@@ -20,6 +20,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://blog.shabda.co/wp-content/uploads/2015/10/numbers-truth-morality.png"
           max-width="300px"
@@ -29,7 +30,7 @@
 
     <QuadSpace />
 
-    <Header-en num="14" title="Number"></Header-en>
+    <Header-en type="Python" num="14" title="Number"></Header-en>
 
     <QuadSpace />
 
@@ -139,7 +140,7 @@
       <iframe
         class="embed-responsive-item"
         src="https://trinket.io/embed/python3/4b9cfba68b"
-        width="50%"
+        width="100%"
         height="356"
         frameborder="0"
         marginwidth="0"

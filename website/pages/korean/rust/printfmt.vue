@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -16,7 +16,7 @@
 
     <QuadSpace />
 
-    <Header title="형식화된 출력" num="5"></Header>
+    <Header type="Rust" title="형식화된 출력" num="5" />
 
     <QuadSpace />
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -32,7 +32,7 @@
 
     <QuadSpace />
 
-    <Header-en num="46" title="Class"></Header-en>
+    <Header-en type="Python" num="46" title="Class"></Header-en>
 
     <QuadSpace />
 

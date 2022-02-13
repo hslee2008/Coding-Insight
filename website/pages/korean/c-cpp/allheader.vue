@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div>
       <div>
@@ -16,7 +16,7 @@
 
     <QuadSpace />
 
-    <Header title="bits/stdc++.h" num="7" />
+    <Header type="C/C++" title="bits/stdc++.h" num="7" />
 
     <QuadSpace />
 

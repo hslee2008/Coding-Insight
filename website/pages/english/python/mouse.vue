@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -22,6 +22,7 @@
       </div>
       <div class="mx-auto">
         <v-img
+            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbvHLIkf7p2IzoQ91r5W7ki5KJoiD4t0oIQQ&usqp=CAU"
         />
@@ -30,7 +31,7 @@
 
     <QuadSpace />
 
-    <Header-en num="89" title="Mouse"></Header-en>
+    <Header-en type="Python" num="89" title="Mouse"></Header-en>
 
     <QuadSpace />
 
