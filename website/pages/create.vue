@@ -50,8 +50,6 @@
 </style>
 
 <script>
-import 'firebase/compat/auth';
-
 export default {
   data() {
     return {

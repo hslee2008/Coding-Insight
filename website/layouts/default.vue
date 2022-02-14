@@ -184,14 +184,10 @@
         </v-list>
       </v-menu>
 
-      <v-btn icon :to="isEnglish() ? '/index-en' : '/'" class="to-hide">
+      <v-btn icon @click="gotoEnglish" class="to-hide">
         <v-icon>mdi-home</v-icon>
       </v-btn>
-      <v-btn
-        icon
-        :to="isEnglish() ? '/courses-en' : '/courses'"
-        class="to-hide"
-      >
+      <v-btn icon @click="gotoCourses" class="to-hide">
         <v-icon>mdi-school</v-icon>
       </v-btn>
 
@@ -237,25 +233,21 @@
 </template>
 
 <script>
-import firebase from '~/plugins/firebase.js';
-import 'firebase/compat/auth';
 import Cookies from 'js-cookie';
 import ov_layout from './ov_layout';
+
 export default {
   name: 'DefaultLayout',
   mounted() {
-    firebase.auth().onAuthStateChanged((user) => {
+    this.$fire.auth.onAuthStateChanged((user) => {
       if (user) {
         this.login = true;
         this.email = user.email;
         this.name = user.displayName;
         this.photo = user.photoURL;
-        firebase
-          .auth()
-          .currentUser.getIdToken(true)
-          .then((token) => {
-            Cookies.set('access_token', token);
-          });
+        this.$fire.auth.currentUser.getIdToken(true).then((token) => {
+          Cookies.set('access_token', token);
+        });
       } else {
         this.login = false;
         Cookies.remove('access_token');
@@ -279,7 +271,7 @@ export default {
   },
   methods: {
     logout() {
-      firebase.auth().signOut();
+      this.$fire.auth.signOut();
     },
     isEnglish() {
       return (
@@ -289,6 +281,12 @@ export default {
     },
     englishValue(a) {
       return this.isEnglish() ? a + '_en' : a;
+    },
+    gotoEnglish() {
+      this.$router.push(this.isEnglish() ? '/index-en' : '/');
+    },
+    gotoCourses() {
+      this.$router.push(this.isEnglish() ? '/courses-en' : '/courses');
     },
     toEnglish() {
       switch ($nuxt.$route.path) {

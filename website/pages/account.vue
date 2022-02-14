@@ -102,15 +102,6 @@
 </style>
 
 <script>
-import { auth } from '~/plugins/firebase.js';
-import 'firebase/compat/auth';
-import {
-  getAuth,
-  updateProfile,
-  deleteUser,
-  sendEmailVerification,
-} from 'firebase/auth';
-
 export default {
   data() {
     return {
@@ -141,7 +132,7 @@ export default {
     title: 'Account',
   }),
   mounted() {
-    auth.onAuthStateChanged((user) => {
+    this.$fire.auth.onAuthStateChanged((user) => {
       if (user) {
         this.name = user.displayName;
         this.photo = user.photoURL;
@@ -152,11 +143,11 @@ export default {
   },
   methods: {
     async update() {
-      const auth = getAuth();
-      await updateProfile(auth.currentUser, {
-        displayName: this.name,
-        photoURL: this.photo,
-      })
+      await this.$fire.auth.currentUser
+        .updateProfile(this.$fire.auth.currentUser, {
+          displayName: this.name,
+          photoURL: this.photo,
+        })
         .then(() => {
           this.$router.push('/');
         })
@@ -167,17 +158,17 @@ export default {
       this.$forceUpdate();
     },
     email() {
-      sendEmailVerification(auth.currentUser);
-      auth.currentUser.reload();
+      this.$fire.auth.sendEmailVerification(this.$fire.auth.currentUser);
+      this.$fire.auth.currentUser.reload();
 
-      auth.onAuthStateChanged((user) => {
+      this.$fire.auth.onAuthStateChanged((user) => {
         if (user) {
           this.verified = user.emailVerified;
         }
       });
     },
     delete_danger() {
-      auth.onAuthStateChanged((user) => {
+      this.$fire.auth.onAuthStateChanged((user) => {
         if (user) {
           deleteUser(user);
           this.$router.push('/');

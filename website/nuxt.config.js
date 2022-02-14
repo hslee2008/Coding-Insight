@@ -89,10 +89,10 @@ export default {
     ],
   },
 
-  css: ['./assets/css/global.css'],
+  css: ['./assets/css/global.css', './assets/css/transition.css'],
 
   // https://go.nuxtjs.dev/config-plugins
-  plugins: ['@/plugins/firebase'],
+  plugins: [],
 
   // https://go.nuxtjs.dev/config-components
   components: true,
@@ -108,8 +108,100 @@ export default {
     },
   },
 
+  humansTxt: {
+    enabled: true,
+    hideGenericMessagesInConsole: false,
+    hideErrorsInConsole: false,
+    fileName: 'humans.txt',
+    fileEncoding: 'utf8',
+    link: {
+      rel: 'author',
+      href: '',
+      hid: 'humans-txt',
+    },
+    keepDevelopersInformations: true,
+    thanksTo: ['Hyunseung', 'Juha', 'Gun'],
+    site: [
+      'https://www.coding-insight.com/',
+      {
+        key: 'Last update',
+        value: new Date().toLocaleDateString('en-US', {
+          month: '2-digit',
+          day: '2-digit',
+          year: 'numeric',
+        }),
+      },
+      {
+        key: 'Standards',
+        value: ['HTML5', 'CSS3', 'Javascript'],
+      },
+      {
+        key: 'Components',
+        value: 'VueJs',
+      },
+      {
+        key: 'Software',
+        value: 'NuxtJs',
+      },
+      {
+        key: 'Language',
+        value: 'English',
+      },
+      {
+        key: 'Doctype',
+        value: 'HTML5',
+      },
+    ],
+  },
+
   // https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: 'AIzaSyCNf5AqNPVttC9agA5rUNhi9VZ1MweswnU',
+          authDomain: 'coding-insight-login.firebaseapp.com',
+          projectId: 'coding-insight-login',
+          storageBucket: 'coding-insight-login.appspot.com',
+          messagingSenderId: '769560282450',
+          appId: '1:769560282450:web:2ebdd581d37bde337e668b',
+          measurementId: 'G-ZG401L45EQ',
+        },
+        services: {
+          auth: true,
+          database: true,
+        },
+      },
+    ],
+  ],
+
+  sitemap: {
+    hostname: 'https://www.coding-insight.com',
+    gzip: true,
+    exclude: ['/.nuxt', '/404', '/500'],
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date(),
+    },
+  },
+
+  robots: [
+    {
+      UserAgent: '*',
+      Allow: '/',
+      Sitemap: 'https://www.coding-insight.com/sitemap.xml',
+    },
+    {
+      userAgent: 'Googlebot-image',
+      Disallow: '/',
+    },
+  ],
 
   // https://go.nuxtjs.dev/config-axios
   axios: {
@@ -136,7 +228,7 @@ export default {
     manifest: {
       name: 'Coding-Insight',
       short_name: 'Coding-Insight',
-      version: '2022.01.16',
+      version: '2022.02',
       description:
         'Learn programming through learning, practicing, and building. Our site includes full courses of python, c, c++, and rust for free in both Korean and English language.',
       dir: 'rtl',

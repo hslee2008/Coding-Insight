@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en title="Courses" num="Complete List" />
+    <Header-en type="" title="Courses" num="Complete List" />
 
     <QuadSpace />
 

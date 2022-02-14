@@ -25,8 +25,6 @@
 </template>
 
 <script>
-import 'firebase/auth';
-
 export default {
   name: 'NaviBtn',
   props: ['bef', 'aft'],

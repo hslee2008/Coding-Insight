@@ -135,7 +135,7 @@
 
     <QuadSpace />
 
-    <Header title="Phone App" num="Guide 1" />
+    <Header-en type="" title="Phone App" num="Guide 1" />
 
     <QuadSpace />
 

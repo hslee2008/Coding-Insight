@@ -17,6 +17,7 @@
         v-model="email"
         :rules="emailRules"
         prepend-inner-icon="mdi-email"
+        v-on:keyup.enter="pressed"
       ></v-text-field>
       <v-text-field
         label="Password"
@@ -30,6 +31,7 @@
         v-model="password"
         :rules="passwordRules"
         prepend-inner-icon="mdi-key"
+        v-on:keyup.enter="pressed"
       ></v-text-field>
       <v-btn @click="pressed" color="primary"
         ><v-icon left>mdi-account</v-icon>Login</v-btn
@@ -54,10 +56,6 @@
           <v-icon left>mdi-google</v-icon>
           Google
         </v-btn>
-        <v-btn @click="github" outlined dense ripple small>
-          <v-icon left>mdi-github</v-icon>
-          GitHub
-        </v-btn>
         <v-btn @click="anonymous" outlined dense ripple small>
           <v-icon left>mdi-account-circle</v-icon>
           Anonymous
@@ -78,9 +76,6 @@
 </style>
 
 <script>
-import firebase, { auth } from '~/plugins/firebase.js';
-import 'firebase/compat/auth';
-
 export default {
   data() {
     return {
@@ -101,7 +96,7 @@ export default {
   methods: {
     async pressed() {
       if (this.valid)
-        await auth
+        await this.$fire.auth
           .signInWithEmailAndPassword(this.email, this.password)
           .then(() => {
             this.$router.push('/');
@@ -111,17 +106,13 @@ export default {
           });
     },
     google() {
-      auth
-        .signInWithPopup(new firebase.auth.GoogleAuthProvider())
-        .then(() => this.$router.push('/'));
-    },
-    github() {
-      auth
-        .signInWithPopup(new firebase.auth.GithubAuthProvider())
+      this.$fire.auth
+        .signInWithPopup(new this.$fireModule.auth.GoogleAuthProvider())
         .then(() => this.$router.push('/'));
     },
     anonymous() {
-      signInAnonymously(auth)
+      this.$fire.auth
+        .signInAnonymously(this.$fire.auth)
         .then(() => {
           this.$router.push('/');
         })

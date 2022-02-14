@@ -138,7 +138,7 @@
 
     <QuadSpace />
 
-    <Header title="폰 앱 설치하기" num="가이드 1" />
+    <Header type="" title="폰 앱 설치하기" num="가이드 1" />
 
     <QuadSpace />
 
