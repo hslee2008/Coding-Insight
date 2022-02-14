@@ -30,7 +30,7 @@
             class="ma-2"
             color="primary"
             dark
-            to="/korean/python/"
+            to="/english/python/"
           >
             Python
             <v-icon> mdi-language-python </v-icon>
@@ -40,7 +40,7 @@
             class="ma-2"
             color="primary"
             dark
-            to="/korean/python/quiz"
+            to="/english/python/quiz"
           >
             Quiz
             <v-icon> mdi-chat-question </v-icon>
@@ -50,7 +50,7 @@
             class="ma-2"
             color="primary"
             dark
-            to="/korean/python/video"
+            to="/english/python/video"
           >
             Video
             <v-icon> mdi-youtube </v-icon>

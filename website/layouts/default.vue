@@ -17,6 +17,21 @@
       </v-list>
 
       <v-list
+        v-if="
+          $nuxt.$route.path.includes('english/python') ||
+          $nuxt.$route.path.includes('courses-en')
+        "
+      >
+        <ItemList
+          v-for="item in python_items"
+          :key="item.titleen"
+          :titleen="item.titleen"
+          :titlekr="item.titlekr"
+          :json="item.json"
+        />
+      </v-list>
+
+      <v-list
         v-else-if="
           $nuxt.$route.path.includes('korean/rust') ||
           $nuxt.$route.path.includes('courses')
@@ -58,16 +73,23 @@
         class="to-hide"
       >
         <v-btn @click.stop="drawer = !drawer" icon
-          ><v-icon>mdi-microsoft-xbox-controller-menu</v-icon></v-btn
+          ><v-icon>mdi-menu</v-icon></v-btn
         >
       </template>
-      <v-btn
-        icon
-        @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark"
-        class="to-hide"
-      >
-        <v-icon>mdi-brightness-6</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            icon
+            v-bind="attrs"
+            v-on="on"
+            @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark"
+            class="to-hide"
+          >
+            <v-icon>mdi-brightness-6</v-icon>
+          </v-btn>
+        </template>
+        <span>Light / Dark Mode</span>
+      </v-tooltip>
 
       <v-bottom-sheet v-model="sheet">
         <template v-slot:activator="{ on, attrs }">
@@ -79,7 +101,7 @@
             icon
             class="to-show"
           >
-            <v-icon>mdi-menu</v-icon>
+            <v-icon>mdi-dots-vertical</v-icon>
           </v-btn>
         </template>
         <v-list>
@@ -121,7 +143,7 @@
               "
             >
               <v-btn @click.stop="drawer = !drawer" icon
-                ><v-icon>mdi-microsoft-xbox-controller-menu</v-icon></v-btn
+                ><v-icon>mdi-menu</v-icon></v-btn
               >
             </template>
             <v-btn
@@ -184,12 +206,34 @@
         </v-list>
       </v-menu>
 
-      <v-btn icon @click="gotoEnglish" class="to-hide">
-        <v-icon>mdi-home</v-icon>
-      </v-btn>
-      <v-btn icon @click="gotoCourses" class="to-hide">
-        <v-icon>mdi-school</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            icon
+            @click="gotoEnglish"
+            class="to-hide"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon>mdi-home</v-icon>
+          </v-btn>
+        </template>
+        <span>Home</span>
+      </v-tooltip>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            icon
+            @click="gotoCourses"
+            class="to-hide"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon>mdi-school</v-icon>
+          </v-btn>
+        </template>
+        <span>Courses</span>
+      </v-tooltip>
 
       <v-menu v-if="login" bottom min-width="200px" rounded offset-y>
         <template v-slot:activator="{ on }">

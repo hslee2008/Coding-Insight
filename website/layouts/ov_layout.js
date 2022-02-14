@@ -89,6 +89,6 @@ export default {
       titleen: 'Rust DataTypes',
       titlekr: 'Rust 데이터 형태',
       json: 'rust_datatypes',
-    }
-  ]
+    },
+  ],
 };
