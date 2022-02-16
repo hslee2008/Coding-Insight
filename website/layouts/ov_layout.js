@@ -90,5 +90,10 @@ export default {
       titlekr: 'Rust 데이터 형태',
       json: 'rust_datatypes',
     },
+    {
+      titleen: 'Rust Flow Control',
+      titlekr: 'Rust 제어문',
+      json: 'rust_flow_control',
+    },
   ],
 };

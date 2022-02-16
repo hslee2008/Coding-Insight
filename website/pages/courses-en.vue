@@ -45,16 +45,6 @@
             Quiz
             <v-icon> mdi-chat-question </v-icon>
           </v-btn>
-          <v-btn
-            aria-label="Coding Insight Button"
-            class="ma-2"
-            color="primary"
-            dark
-            to="/english/python/video"
-          >
-            Video
-            <v-icon> mdi-youtube </v-icon>
-          </v-btn>
         </v-card-actions>
       </v-card>
 

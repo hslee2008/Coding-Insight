@@ -152,11 +152,27 @@
             >
               <v-icon>mdi-brightness-6</v-icon>
             </v-btn>
-            <v-btn to="login" icon><v-icon>mdi-account-circle</v-icon></v-btn>
+            <v-btn to="/login" icon><v-icon>mdi-account-circle</v-icon></v-btn>
           </div>
           <v-subheader>Menu</v-subheader>
           <v-list-item
             v-for="tile in tiles"
+            :key="tile.title"
+            @click="
+              sheet = false;
+              $nuxt.$router.push(tile.url);
+            "
+          >
+            <v-list-item-avatar>
+              <v-avatar size="32px" tile>
+                <v-icon>{{ 'mdi-' + tile.img }}</v-icon>
+              </v-avatar>
+            </v-list-item-avatar>
+            <v-list-item-title>{{ tile.title }}</v-list-item-title>
+          </v-list-item>
+          <v-subheader>Courses</v-subheader>
+          <v-list-item
+            v-for="tile in ctiles"
             :key="tile.title"
             @click="
               sheet = false;
@@ -261,7 +277,7 @@
           </v-list-item-content>
         </v-card>
       </v-menu>
-      <v-btn to="login" icon v-else class="to-hide"
+      <v-btn to="/login" icon v-else class="to-hide"
         ><v-icon>mdi-account-circle</v-icon></v-btn
       >
     </v-app-bar>
@@ -309,6 +325,11 @@ export default {
       tiles: [
         { img: 'home', title: 'Home', url: '/' },
         { img: 'school', title: 'Courses', url: '/courses' },
+      ],
+      ctiles: [
+        { img: 'language-python', title: 'Python', url: '/korean/python' },
+        { img: 'language-c', title: 'C/C++', url: '/korean/c-cpp' },
+        { img: 'language-rust', title: 'Rust', url: '/korean/rust' },
       ],
       ...ov_layout,
     };

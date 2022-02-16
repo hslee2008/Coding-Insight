@@ -1524,5 +1524,27 @@ export default {
       title: '배열',
       to: '/korean/rust/array',
     },
+    {
+      icon: 'clipboard-edit',
+      title: '배열 메서드',
+      to: '/korean/rust/array-method',
+    },
+    {
+      icon: 'database-refresh',
+      title: '타입 바꾸기',
+      to: '/korean/rust/type-casting',
+    },
+    {
+      icon: 'account-arrow-left',
+      title: '빌리고 역참조',
+      to: '/korean/rust/borrow-dereference',
+    },
   ],
+  rust_flow_control: [
+    {
+      icon: 'diversify',
+      title: 'if 조건문',
+      to: '/korean/rust/if',
+    },
+  ]
 };
