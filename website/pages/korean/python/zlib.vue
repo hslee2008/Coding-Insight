@@ -63,8 +63,7 @@
         </p>
       </div>
       <div style="display: flex; justify-content: center">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://en.terminalroot.com.br/assets/img/cppdaily/zlib.png"
           width="400px"

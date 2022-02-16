@@ -16,8 +16,7 @@
         </p>
       </div>
       <div>
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://mblogthumb-phinf.pstatic.net/20140319_89/leedahee111_1395209827273qETWy_JPEG/lights-cubes-3D--1573013-1920x1080.jpg?type=w2"
           max-width="300px"
@@ -127,8 +126,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fI89ddpqwH_V2tcKZx4VijN0SjNXKPIo7Q&usqp=CAU"
           max-width="300px"

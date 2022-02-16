@@ -14,8 +14,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://images.immediate.co.uk/production/volatile/sites/4/2018/09/GettyImages-483485536-db0b238.jpg?quality=90&crop=13px%2C56px%2C1175px%2C505px&resize=960%2C408"
           width="400px"
@@ -41,8 +40,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://res.cloudinary.com/teepublic/image/private/s--nFk9ZVTf--/c_scale,h_704/c_lpad,g_north_west,h_801,w_1802,x_168,y_48/c_crop,h_801,w_691,x_125/c_mfit,g_north_west,u_misc:Mug%20Effect%20Coffee3%20Left/e_displace,fl_layer_apply,x_14,y_-2/c_mfit,g_north_east,u_misc:Mug%20Effect%20Coffee3%20Right/e_displace,fl_layer_apply,x_-14,y_-2/c_crop,h_801,w_656/g_north_west,l_upload:v1466696262:production:blanks:w00xdkhjelyrnp8i8wxr,x_-410,y_-235/b_rgb:262c3a/c_limit,f_auto,h_630,q_90,w_630/v1496757724/production/designs/1649527_1.jpg"
           width="200px"

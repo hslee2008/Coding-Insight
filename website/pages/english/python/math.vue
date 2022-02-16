@@ -16,8 +16,7 @@
         </p>
       </div>
       <div style="display: flex; justify-content: center">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://ih1.redbubble.net/image.455632594.5388/flat,550x550,075,f.u2.jpg"
           width="300px"

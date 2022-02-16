@@ -46,7 +46,6 @@
             <v-stepper-content step="1">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/vscode.jpg"
@@ -74,7 +73,6 @@
             <v-stepper-content step="2">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/vscodesetup.jpg"
@@ -100,7 +98,6 @@
             <v-stepper-content step="3">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/agree.jpg"
@@ -123,7 +120,6 @@
             <v-stepper-content step="4">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/nextvscode.jpg"
@@ -146,7 +142,6 @@
             <v-stepper-content step="5">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/installvscode.jpg"
@@ -169,7 +164,6 @@
             <v-stepper-content step="6">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/vscodefinish.jpg"
@@ -228,7 +222,6 @@
             <v-stepper-content step="1">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/cube.jpg"
@@ -251,7 +244,6 @@
             <v-stepper-content step="2">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/input.jpg"
@@ -274,7 +266,6 @@
             <v-stepper-content step="3">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/extinstall.jpg"
@@ -341,7 +332,6 @@
             <v-stepper-content step="1">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/file.jpg"
@@ -364,7 +354,6 @@
             <v-stepper-content step="2">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/choose.jpg"
@@ -389,7 +378,6 @@
             <v-stepper-content step="3">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/background.jpg"
@@ -413,7 +401,6 @@
             <v-stepper-content step="5">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/filename.jpg"
@@ -439,7 +426,6 @@
             <v-stepper-content step="6">
               <v-card>
                 <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
                   alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/tri.jpg"
@@ -479,7 +465,6 @@
       </div>
       <div class="mx-auto">
         <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
           alt="python-factory-picture"
           class="v-img-fluid"
           style="display: block"

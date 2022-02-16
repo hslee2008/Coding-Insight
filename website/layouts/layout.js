@@ -1546,5 +1546,10 @@ export default {
       title: 'if 조건문',
       to: '/korean/rust/if',
     },
-  ]
+    {
+      icon: 'all-inclusive',
+      title: 'loop 반복문',
+      to: '/korean/rust/loop',
+    },
+  ],
 };

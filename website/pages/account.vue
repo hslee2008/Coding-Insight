@@ -49,8 +49,7 @@
           prepend-inner-icon="mdi-camera"
         ></v-text-field>
         <v-card-text style="display: flex; justify-content: center">
-          <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+          <CIImage
             :src="photo"
             max-width="100"
           />

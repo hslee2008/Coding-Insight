@@ -15,8 +15,7 @@
         </p>
       </div>
       <div style="display: flex; justify-content: center">
-        <v-img
-          lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
           max-width="300px"

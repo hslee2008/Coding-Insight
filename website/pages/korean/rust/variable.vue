@@ -13,8 +13,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           src="https://miro.medium.com/max/1838/1*QT3V91g69EUI7Uv0GY1nsg.png"
           max-width="300"
         />
@@ -41,8 +40,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           src="https://image-loader-coding-insight.web.app/rust-kr/img/code_variable.png"
           max-width="450"
         />

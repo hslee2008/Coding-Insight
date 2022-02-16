@@ -40,8 +40,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://www.javascripttutorial.net/wp-content/uploads/2020/01/JavaScript-for-Loop.png"
           max-width="400px"

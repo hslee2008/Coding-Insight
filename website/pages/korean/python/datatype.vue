@@ -17,8 +17,7 @@
         </p>
       </div>
       <div class="mx-auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
           max-width="300px"
@@ -55,7 +54,7 @@
 
           <code> print(type("안녕")) </code>
 
-          <code>&ltclass 'str'></code>은 "안녕"이 str 데이터 변수(str은
+          <code>&lt;class 'str'></code>은 "안녕"이 str 데이터 변수(str은
           문자입니다)라는 것을 알려줍니다.
         </p>
       </div>
@@ -108,8 +107,7 @@
       </div>
 
       <div class="mx-auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://www.sas.com/en_us/insights/articles/big-data/big-data-privacy/_jcr_content/par02/image_df5.img.jpg/1601048186486.jpg"
           width="342"

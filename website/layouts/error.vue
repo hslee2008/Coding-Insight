@@ -23,11 +23,9 @@
 
       <v-card-actions>
         <v-btn @click="refresh"> <v-icon>mdi-refresh</v-icon></v-btn>
-        <v-btn @click="backward">
-          <v-icon left>mdi-chevron-left</v-icon>뒤로 가기</v-btn
-        >
+        <v-btn @click="backward"> <v-icon>mdi-chevron-left</v-icon></v-btn>
 
-        <v-btn to="/"> <v-icon left>mdi-home</v-icon>홈으로 이동</v-btn>
+        <v-btn to="/"> <v-icon left>mdi-home</v-icon></v-btn>
       </v-card-actions>
     </v-card>
   </div>
@@ -45,8 +43,8 @@ export default {
   },
   data() {
     return {
-      pageNotFound: '😭 에러 404 😭',
-      otherError: '😢 알 수 없는 에러가 생겼습니다 😢',
+      pageNotFound: '😭 Error 404 😭',
+      otherError: '😢 Unknown Error 😢',
     };
   },
   head() {

@@ -15,8 +15,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="data:image/png;base64,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"
           max-width="300px"
@@ -44,8 +43,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <v-img
-            lazy-src="https://i.pinimg.com/originals/6b/67/cb/6b67cb8a166c0571c1290f205c513321.gif"
+        <CIImage
           alt="python-factory-picture"
           src="https://static.javatpoint.com/core/images/java-while-loop.png"
           width="400px"
