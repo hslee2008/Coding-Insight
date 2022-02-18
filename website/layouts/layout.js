@@ -1551,5 +1551,37 @@ export default {
       title: 'loop 반복문',
       to: '/korean/rust/loop',
     },
+    {
+      icon: 'sync',
+      title: 'while 반복문',
+      to: '/korean/rust/while',
+    },
+    {
+      icon: 'fast-forward-outline',
+      title: 'for 반복문',
+      to: '/korean/rust/for',
+    },
+    {
+      icon: 'arrow-expand-all',
+      title: 'match 문',
+      to: '/korean/rust/match',
+    },
+    {
+      icon: 'clipboard-check',
+      title: 'if-let 문',
+      to: '/korean/rust/if-let',
+    },
+  ],
+  rust_functions: [
+    {
+      icon: 'function-variant',
+      title: '함수',
+      to: '/korean/rust/function',
+    },
+    {
+      icon: 'pipe',
+      title: '클로져',
+      to: '/korean/rust/closure',
+    },
   ],
 };

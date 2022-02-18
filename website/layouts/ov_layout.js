@@ -95,5 +95,10 @@ export default {
       titlekr: 'Rust 제어문',
       json: 'rust_flow_control',
     },
+    {
+      titleen: 'Rust Functions',
+      titlekr: 'Rust 함수',
+      json: 'rust_functions',
+    },
   ],
 };

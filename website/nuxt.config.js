@@ -92,7 +92,7 @@ export default {
   css: ['./assets/css/global.css', './assets/css/transition.css'],
 
   // https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['./plugins/firebase_database.js'],
 
   // https://go.nuxtjs.dev/config-components
   components: true,

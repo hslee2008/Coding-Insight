@@ -11,11 +11,12 @@
           <div>
             <h4>{{ isEnglish() ? 'Site Links' : '사이트 추가 링크' }}</h4>
             <v-btn
-              class="white--text"
               icon
-              :to="isEnglish() ? '/index-en' : '/'"
-              ><v-icon>mdi-home</v-icon></v-btn
+              @click="this.$router.push(this.isEnglish() ? '/index-en' : '/')"
+              class="to-hide"
             >
+              <v-icon>mdi-home</v-icon>
+            </v-btn>
             <v-btn
               class="white--text"
               icon
@@ -73,8 +74,9 @@
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        &copy; {{ new Date().getFullYear() }}
-        <strong>Coding-Insight</strong><br /> (Hyunseung, Juha, Gun)
+        &copy; {{ new Date().getFullYear() }} <strong>Coding-Insight</strong
+        ><br />
+        (Hyunseung, Juha, Gun)
       </v-card-text>
     </v-card>
   </v-footer>

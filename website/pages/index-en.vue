@@ -4,15 +4,18 @@
 
     <v-row flex justify="center" class="img-div" style="margin: 10px">
       <div style="margin: auto">
-        <h1>Hello</h1>
-        <h2>We are Coding-Insight</h2>
-      </div>
-      <div style="margin: auto">
-        <CIImage
-          alt="python-factory-picture"
-          src="/favicon.ico"
-          max-width="200px"
-        />
+        <h1>
+          Welcome to<br />
+          <span class="titleforcodinginsight">Coding-Insight</span>
+        </h1>
+        <h2 style="color: grey">Learn, Practice, Build and Deploy</h2>
+        <br />
+        <v-btn to="/courses" color="rgb(0, 232, 219)" class="to-hide"
+          >Learn Now <v-icon right>mdi-arrow-right-thin</v-icon></v-btn
+        >
+        <v-btn to="/" class="to-hide"
+          >한국어로 <v-icon right>mdi-book-alphabet</v-icon></v-btn
+        >
       </div>
     </v-row>
 
@@ -147,5 +150,38 @@ export default {
   height: 800px;
   display: flex;
   align-content: center;
+}
+
+.titleforcodinginsight {
+  background: linear-gradient(45deg, #009dbf, #f8b622);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: no-wrap;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 451px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 313px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 285px) {
+  p,
+  div {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 247px) {
+  h1 {
+    font-size: 20px;
+  }
 }
 </style>

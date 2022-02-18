@@ -4,21 +4,18 @@
 
     <v-row flex justify="center" class="img-div" style="margin: 10px">
       <div style="margin: auto">
-        <h1>Welcome to Coding-Insight</h1>
-        <h2 style="font-size: 15px">
-          프로그래밍을 배우고, 연습하고, 직접 프로젝트를 만들 수 있는 곳.
-        </h2>
+        <h1>
+          Welcome to<br />
+          <span class="titleforcodinginsight">Coding-Insight</span>
+        </h1>
+        <h2 style="color: grey">Learn, Practice, Build and Deploy</h2>
         <br />
-        <v-btn aria-label="learn now" to="/courses" class="to-hide"
-          >지금 프로그래밍 배우기</v-btn
+        <v-btn to="/courses" color="rgb(0, 232, 219)" class="to-hide"
+          >지금 배우기 <v-icon right>mdi-arrow-right-thin</v-icon></v-btn
         >
-      </div>
-      <div style="margin: auto">
-        <CIImage
-          alt="python-factory-picture"
-          src="/favicon.ico"
-          max-width="200px"
-        />
+        <v-btn to="/index-en" class="to-hide"
+          >In English<v-icon right>mdi-book-alphabet</v-icon></v-btn
+        >
       </div>
     </v-row>
 
@@ -32,15 +29,18 @@
       <div>
         <h3>블록코딩을 넘어서 파이썬으로!</h3>
 
-        엔트리라고 들어보신적 있으신가요? 엔트리는 블록코딩의 한 종류입니다.<br /><br />
+        <p>
+          엔트리라고 들어보신적 있으신가요? 엔트리는 블록코딩의 한
+          종류입니다.<br /><br />
 
-        블록코딩이란 처음으로 코딩을 배우고 있는 학생들을 위해서 블록 형식으로
-        구성된 코딩 종류를 뜻합니다.<br /><br />
+          블록코딩이란 처음으로 코딩을 배우고 있는 학생들을 위해서 블록 형식으로
+          구성된 코딩 종류를 뜻합니다.<br /><br />
 
-        사실 블록코딩으로는 직업을 가질 수 없고 이로 만들 수 있는 것은 매우
-        재한적이기 때문에 텍스트 기반 프로그래밍 언어를 꼭 배워야 합니다.<br /><br />
+          사실 블록코딩으로는 직업을 가질 수 없고 이로 만들 수 있는 것은 매우
+          재한적이기 때문에 텍스트 기반 프로그래밍 언어를 꼭 배워야 합니다.<br /><br />
 
-        저희 사이트에는 파이썬, C, C++, 그리고 Rust 내용이 있습니다.
+          저희 사이트에는 파이썬, C, C++, 그리고 Rust 내용이 있습니다.
+        </p>
       </div>
     </div>
 
@@ -184,32 +184,6 @@
     </v-container>
 
     <QuadSpace />
-
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
-        <h2>폰과 컴퓨터 앱 설치</h2>
-
-        Coding-Insight 웹사이트를 오피라인에서도 활용하고 더 많이 배우기 위해서
-        폰앱과 컴퓨터앱을 다운로드 받으세요!<br /><br />
-
-        폰앱은 Flutter로 컴퓨터앱은 Progressive Web App으로 만들었습니다.<br /><br />
-
-        <v-btn aria-label="Coding Insight Button" to="/app"
-          ><v-icon>mdi-apps</v-icon> 앱 다운로드</v-btn
-        >
-
-        <br />
-        <br />
-      </div>
-      <div style="margin: auto">
-        <CIImage
-          alt="python-factory-picture"
-          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAABR1BMVEV0uOf82bNjanr/yk7///9QV2f5z51MVF/ovo7vv4/k5OT/xz5OU2B1u+tysd77oVf/zU1DT2jNqVaiaGNIVmf/8tJghaRGUWT/+N74fV7sxpn/9N1iZnT9fl5tmLr/0ExiYWWSgnbu7u74gWNCSlz6saHNztL/269Vyu2JvN7/xzyB1/FhWmX+0Jlrtur/26776sjIcWDqcVWxnovUXEVVYXb/+ez/5rL/68H/4J7/0GX0v4r84Lzk073Ozcf4jHH/1nn/5rOewdn/2or/zVnNtpy3x9DnyqpbeZNnmLyLY2PieF/5rZtufIiMl6GqrrPLi1zv+v2c3vTO7/r/03S96vhycHP9043Qx7aTxubP4eL0w3mhzea6vLrcyq+ou8fivZf24Mnp1LqEeHLEooG4pZLZsYmTgHC/n4GulH2UjYq8qZOJhoZlZsnYAAAKQklEQVR4nO2d+1Pb2BWALVuWoyimTovXxiJZyLoIlLWsLbWwsciCH5jdNkkfXkraEgIsSWHz///c+9DjSpZsyTNYM/febyaQCMYTfXPO0Tn3XkMux+FwOBwOh8PhcDgcDofD4XASUM6tpaBczvr/myHltbPisxR0fmLXVvmnZ8+KUax/H3m5WHx2xqyttWhVxfWfX/xlPcbWN4zaKp/Fy/ohRlbx2VrW/+1sKCMxkcRdBrIYLVswC9d//kMKGM5DJOuHFyn4nnlZGwFiRcGvcVkbG3/GQFc//jGO77isUGS9+KsYxd/fvhN/5LKQrD95kRUj6/3Ou6dcliMLEy/rXfEtj6ykst6DP1xWOA03Nr6Lgz8NZ1uHebAuq/a336WAcVnPf/9tJTHfbrEuq1JIDJfFZSWCy0oBl5UCLisFMbIURRmNRgVd4bIIImXphwcqGnEsc6goXJZLhCz9GJlSVdWCnw+UCpeFmZFVKVSBqF5B1xVF14+7QNdQ57IQYVnKFCTfFNaqCkpApXAiil2dy4KEZCnHIO90WOCnw15vOIJ/nVqiqXBZuRlZhyjplFHXWcRSYQpWLLGrcFlhWYol9pSC3iPW/NQCsjWscFlBWcqJaOoF3QwukR6igOOyQrJG0InSFUOMoMUThcsiZSkHoKkqDPHGF5mJoG6JIpcVlGWJ6APk9T8IW0MYbkMui5R1CGPoGPt5vbv7TzK0jt32gctCspQeyEK3YgFZu6+9XARfFC2dyyJknYBU0y1f1u7uL14egus8skhZXXFa0EVSlpuLvYKiirxmLZL1GstSgKwRlxVIw+NQGrpFnqchIljgQbpVCVluyQJNPIi4cIE3coMB+MAQZOtwDOZlpefJ8h+G4EEI2opAZBnG4EIDvGHJVmDcES0F9upYlt9mwY4CthWkrNMbTRMATNkKdPBV2KufID+/iAQKLFkj92lYe34+xqYg7b2sb2F1BCLrGPbqzrxDTjuKMhSruivrYWILPu1LdkIruESjAjFw7SEAyD8gcIq/Y/QvgaQhyzLdsgzD8D4GF/8O4XpMYRSILbgaaOKl0spUAoJsm1Ql9wdZ389jsncxkQCNj6fgwR9aKe2JFv7kUj0Erg5EC30HUlWtVpEtTcZQLetDXcK0Wq2L8Bq83hUtoAcUqa5qqdUDuGMBrqHqXmkJtlmFmE5QYVlZ39BjslevtyXP12UtuBUGzfTgJpii6Ar6fKiKFnoSjgSsCuCrkvsXNNcso153YwsmY0gW2q2wevCwA9w51Kcm3rMATF1ZZlXwXY2zvp9Hxfh3vW7GywIPPDjxqAe94bDXBaXecjekp6heVU2Ip2pAc1xB6kQizsqCmdf1nocqcTJEELAq8BGIamiaRL2qYGhFyQK69NGwB2JrqhOnQir/kYUqVGWDktXAHekp9bZyql+1omUhYeHDRoWRLMMnodyX/WGH5r4B8yGJrFlAaDW8oHI4oj60jP8uSMN4W35Q4R6+T/8cbZy2lpFVmLbDk2GfgTna+NgiZcH+cyEFNEObVWc0dMadMf2ycjlCVvOiriYAJCAed7wZGnVaDMgyLlu+rJ3wClYUKu5J4RytEdPOFRN7F1JKWZ6rqk24mjAQWCC03rTSydIEZzI0q56q/kXWt7Ei9lLKstEcjcYdZ47+dMnMTpgxCcl65RP+N0Rta85kiNKwoQlHV6y4ckq8L+vVU49XoX9jZBmFFgor3MVrR1nfxMrYWyArzE1fQDM00cVrO6zEliHNlTVLo9+XQ6OhkPVNrApUtNLIEq8bM6PhVdZ3sSKMi1aqmvX0qWUHVYE4Y6PPcip8ClnXeDQ0A6Phk6zvYkWgpYfkaXitRYyG8icmph0g6yqNLEtzxx1TIsYdBlZoEPNkWdcCCKRronG4FtzR0Oz7rj5lfROrYk4aWu5Dz79m+6Ohu2vIzmg4U+DJLtRZugIPPyKybGfP0Fl16D9hZzScaR3IWi7YdYQt+AdqpIZJjIay9JH+TUMC42PcqoMgqFiWKdhE/257oyFq4zWB/s0KDyN2iUYQ6g6C4D8O+w0Tj4buwKPdsBNbnqza+50goPd0ZNnakXd1jEZDcjZk6DypJ6tYawa5c2sWyMOJd7V2++vnwBTdoPu4UQBfVphN281D8Dy89b6jtj/xD0niHp7LKj6f4NBCW4Rj7zsmGlpZtolxh8sq1h5gn+UuMbgXx+4hSW8wZCkNG3GyikWyND3gb6l5pyQ9V6wsOeSIxb+I0BoTsiZNR6AdGHf68mXWd7BCvA4+QtYtscxnbzkCNaeF1+BYOL4ymMnBnLPNGpOGNTIP72pYYF9wWngQVHssmcq5545iZN2RtnAe1j7LqIXvf/7yDWOqAAMgq7UVKat4Triyz7HRc5B9ffl/57Umg7/ww4CR9evzSFmg1fLxWq0v99tF8PcOe67wskPrNtJWbZ/MQ+9qDWpj8tfuoHVlSbqvRRFqtQg21xgMrJxzRqvVuN+e5ZbMw4l//cvnAXaF3oJnGAYrHYR7/E96EkFggcG/LI+NvT0gaXD65nSQO704OtphpY1oSPG2Aqsx/uUbra21j27amqa123BjQ2PhfRYAY9CKtxUKrQaWJkTAwPssIP6B+EWhFSXJg/73WSCcJ2Kkrrl+AmhZ38aKMAZSXHDNj6aALDaqFvyRMhdxtpKHls2IrDllXltsyQ0tdvZ59mLqVoo8ZOdH0viyQrqS56HApCxpydBio9XKhWRJy4UWI61WWJa0lCxWWq2wLGmpPDzN+i5WRFiWtExosXKkZkaWrytFHjLSakXIktLnISOtVpQsKXVoMfI+nkhZEm+1IomWJaUMLY32VquM8GX5o3Pb1ZV8mm5nfTePy9pLzD4msGcvaJ/uvwDuk4cW1ata5ZebmA7mTqvW66p/gGby0GyWmpM5foJQ3WoBWXmCzhifu60S97/dbO7HypkJLZpbrZCs/INzSJmwZU+2msll0fyW6bCsztj0DikTwfVbYls0Pw/DsvL5SdU5/k6SvGjR3JfOynJiy16sJRKa+9JZWfnOA3GoO70siotWhKx8Jz9O3obOQHHRipIFdH1NUaRC2Fnf0uMRLQvm4rK6KF5cjpO1vC6K29J4WajSLyOL3sfhPFn5/HryOYfL2myWkvfurix6f5DPAlmlUvM8ZeliWRbQlS4X2U3DErJ1vlgRl+XIKjW30siidz8skaxSaStF4aK3K00oq1RKboveCp9YVvO3xAsR1I7SiWWVmrdJZVG7H5ZcVqlZGi8WhfKQ1v2wFLJgcE0S5SKtp7xTyYK6kqwLah/wa5cpewtnSlkwGbcXZiNstYCpl2ebL6l6E2dqWUBXs7lQFzCV3wSvvElVbC0hC/qab2v8gEzBF6Dq100vJ6tUmmuqQ7wCTaG1pKzmXZQnWxh/JU3RFlrLRlbEaD25+9rpzL4ERaG1rKzwKaTJ3XmEKfgSZ/SE1tKyyDyc7L+NNkVZaC0rq7QdXdAjoCe0lpZ1nswUfJFH+Rk//wcorx1kkznaqgAAAABJRU5ErkJggg=="
-        />
-      </div>
-    </div>
-
-    <QuadSpace />
   </div>
 </template>
 
@@ -222,7 +196,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .titleDiv {
   background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHl0aG9uJTIwY29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
   margin: 0 !important;
@@ -239,6 +213,39 @@ export default {
 @media screen and (max-width: 390px) {
   .to-hide {
     display: none;
+  }
+}
+
+.titleforcodinginsight {
+  background: linear-gradient(45deg, #009dbf, #f8b622);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: no-wrap;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 451px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 313px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 285px) {
+  p,
+  div {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 247px) {
+  h1 {
+    font-size: 20px;
   }
 }
 </style>
