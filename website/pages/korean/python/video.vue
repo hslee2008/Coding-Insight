@@ -22,14 +22,26 @@
           </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn aria-label="Coding Insight Button" color="orange" dark v-bind="attrs" v-on="on">
+            <v-btn
+              aria-label="Coding Insight Button"
+              color="orange"
+              dark
+              v-bind="attrs"
+              v-on="on"
+            >
               코드 보기
             </v-btn>
           </v-card-actions>
         </v-card>
       </template>
       <v-sheet height="100%" width="100%">
-        <v-btn aria-label="Coding Insight Button" class="mt-6" text color="error" @click="sheet = !sheet">
+        <v-btn
+          aria-label="Coding Insight Button"
+          class="mt-6"
+          text
+          color="error"
+          @click="sheet = !sheet"
+        >
           닫기
         </v-btn>
         <div class="my-3">
@@ -81,14 +93,26 @@
           </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn aria-label="Coding Insight Button" color="orange" dark v-bind="attrs" v-on="on">
+            <v-btn
+              aria-label="Coding Insight Button"
+              color="orange"
+              dark
+              v-bind="attrs"
+              v-on="on"
+            >
               코드 보기
             </v-btn>
           </v-card-actions>
         </v-card>
       </template>
       <v-sheet height="100%" width="100%">
-        <v-btn aria-label="Coding Insight Button" class="mt-6" text color="error" @click="sheet_1 = !sheet_1">
+        <v-btn
+          aria-label="Coding Insight Button"
+          class="mt-6"
+          text
+          color="error"
+          @click="sheet_1 = !sheet_1"
+        >
           닫기
         </v-btn>
         <div class="my-3">
@@ -206,14 +230,26 @@
           </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn aria-label="Coding Insight Button" color="orange" dark v-bind="attrs" v-on="on">
+            <v-btn
+              aria-label="Coding Insight Button"
+              color="orange"
+              dark
+              v-bind="attrs"
+              v-on="on"
+            >
               코드 보기
             </v-btn>
           </v-card-actions>
         </v-card>
       </template>
       <v-sheet height="100%" width="100%">
-        <v-btn aria-label="Coding Insight Button" class="mt-6" text color="error" @click="sheet_2 = !sheet_2">
+        <v-btn
+          aria-label="Coding Insight Button"
+          class="mt-6"
+          text
+          color="error"
+          @click="sheet_2 = !sheet_2"
+        >
           닫기
         </v-btn>
         <div class="my-3">
@@ -268,14 +304,26 @@
           </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn aria-label="Coding Insight Button" color="orange" dark v-bind="attrs" v-on="on">
+            <v-btn
+              aria-label="Coding Insight Button"
+              color="orange"
+              dark
+              v-bind="attrs"
+              v-on="on"
+            >
               코드 보기
             </v-btn>
           </v-card-actions>
         </v-card>
       </template>
       <v-sheet height="100%" width="100%">
-        <v-btn aria-label="Coding Insight Button" class="mt-6" text color="error" @click="sheet_3 = !sheet_3">
+        <v-btn
+          aria-label="Coding Insight Button"
+          class="mt-6"
+          text
+          color="error"
+          @click="sheet_3 = !sheet_3"
+        >
           닫기
         </v-btn>
         <div class="my-3">코드 없음</div>
@@ -303,14 +351,26 @@
           <v-card-subtitle> 파이썬으로 엔트리 조종하기! </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn aria-label="Coding Insight Button" color="orange" dark v-bind="attrs" v-on="on">
+            <v-btn
+              aria-label="Coding Insight Button"
+              color="orange"
+              dark
+              v-bind="attrs"
+              v-on="on"
+            >
               코드 보기
             </v-btn>
           </v-card-actions>
         </v-card>
       </template>
       <v-sheet height="100%" width="100%">
-        <v-btn aria-label="Coding Insight Button" class="mt-6" text color="error" @click="sheet_4 = !sheet_4">
+        <v-btn
+          aria-label="Coding Insight Button"
+          class="mt-6"
+          text
+          color="error"
+          @click="sheet_4 = !sheet_4"
+        >
           닫기
         </v-btn>
         <div class="my-3">코드 없음</div>
@@ -340,14 +400,26 @@
           </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn aria-label="Coding Insight Button" color="orange" dark v-bind="attrs" v-on="on">
+            <v-btn
+              aria-label="Coding Insight Button"
+              color="orange"
+              dark
+              v-bind="attrs"
+              v-on="on"
+            >
               코드 보기
             </v-btn>
           </v-card-actions>
         </v-card>
       </template>
       <v-sheet height="100%" width="100%">
-        <v-btn aria-label="Coding Insight Button" class="mt-6" text color="error" @click="sheet_5 = !sheet_5">
+        <v-btn
+          aria-label="Coding Insight Button"
+          class="mt-6"
+          text
+          color="error"
+          @click="sheet_5 = !sheet_5"
+        >
           닫기
         </v-btn>
         <div class="my-3">
@@ -396,7 +468,7 @@
       />
     </div>
 
-<QuadSpace />
+    <QuadSpace />
   </div>
 </template>
 

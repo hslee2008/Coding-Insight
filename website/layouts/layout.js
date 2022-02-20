@@ -620,7 +620,7 @@ export default {
     },
     {
       icon: 'nintendo-switch',
-      title: '분리언',
+      title: '불리언',
       to: '/korean/python/boolean',
     },
     {
@@ -1076,6 +1076,11 @@ export default {
       title: 'gTTS',
       to: '/korean/python/gtts',
     },
+    {
+      icon: 'robot',
+      title: '머신 러닝',
+      to: '/korean/python/machinelearning',
+    },
   ],
 
   other: [
@@ -1486,7 +1491,7 @@ export default {
     },
     {
       icon: 'nintendo-switch',
-      title: '분리언',
+      title: '불리언',
       to: '/korean/rust/boolean',
     },
     {

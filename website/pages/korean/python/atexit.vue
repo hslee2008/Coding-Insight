@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>파이썬 함수 등록</h2>
         <p>
           파이썬에서 어떤 코드가 실행이 끝나면 어떤 함수를 실행하는 것이
@@ -90,7 +90,7 @@
 </template>
 
 <script>
-  export default {
-    name: "AtexitPage"
-  }
+export default {
+  name: 'AtexitPage',
+};
 </script>

@@ -221,7 +221,6 @@
     </div>
 
     <QuadSpace />
-
   </div>
 </template>
 

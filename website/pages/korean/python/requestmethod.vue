@@ -70,6 +70,6 @@
 
 <script>
 export default {
-  page: "RequestMethodPage"
-}
+  page: 'RequestMethodPage',
+};
 </script>

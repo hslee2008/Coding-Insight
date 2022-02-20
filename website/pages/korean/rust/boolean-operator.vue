@@ -15,7 +15,7 @@
 
     <QuadSpace />
 
-    <Header type="Rust" title="분리언 연산자" num="17" />
+    <Header type="Rust" title="불리언 연산자" num="17" />
 
     <QuadSpace />
 

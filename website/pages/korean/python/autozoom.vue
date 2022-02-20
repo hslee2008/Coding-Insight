@@ -69,7 +69,7 @@
 </template>
 
 <script>
-  export default {
-    name: "AutoZoomPage"
-  }
+export default {
+  name: 'AutoZoomPage',
+};
 </script>

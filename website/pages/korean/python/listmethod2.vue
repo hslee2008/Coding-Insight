@@ -18,7 +18,7 @@
 
     <Header type="파이썬" title="리스트 메서드 2" num="20" />
 
-<QuadSpace />
+    <QuadSpace />
 
     <div>
       <div>
@@ -196,11 +196,11 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-B').checked) {
-        alert('1 ✔️!')
+        alert('1 ✔️!');
       } else {
-        alert('1 ❌')
+        alert('1 ❌');
       }
     },
   },
-}
+};
 </script>

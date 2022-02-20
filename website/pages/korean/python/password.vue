@@ -3,14 +3,16 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>로그인 프로그램</h2>
         <p>
           파이썬을 사용해서 암호 로그인 프로그램을 만들어 보겠습니다!<br /><br />
 
           먼저 시작하기 전에 조건문의 개념을 알아야 합니다. 이 페이지에서 간단히
           소개하겠지만 더 자세히 알고 싶으면
-          <NuxtLink aria-label="Go to Coding Insight Page" to="./if">조건문 페이지</NuxtLink>를 확인하세요!
+          <NuxtLink aria-label="Go to Coding Insight Page" to="./if"
+            >조건문 페이지</NuxtLink
+          >를 확인하세요!
         </p>
       </div>
 
@@ -71,10 +73,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="stringmethod2"
-      aft="escapechar"
-     />
+    <NaviBtn bef="stringmethod2" aft="escapechar" />
 
     <QuadSpace />
   </div>

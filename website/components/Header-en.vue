@@ -2,7 +2,12 @@
   <div class="text-center">
     <v-divider />
     <br />
-    <v-btn class="ma-2" outlined @click="speak">
+    <v-btn
+      aria-label="Coding Insight Button"
+      class="ma-2"
+      outlined
+      @click="speak"
+    >
       {{ count % 2 == 0 ? 'Read' : 'Stop'
       }}<v-icon right>
         {{ count % 2 == 0 ? 'mdi-bullhorn' : 'mdi-pause-octagon' }}</v-icon

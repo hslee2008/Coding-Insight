@@ -18,7 +18,10 @@
         </p>
       </div>
       <div style="margin: auto">
-        <CIImage src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png" max-width="300" />
+        <CIImage
+          src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png"
+          max-width="300"
+        />
       </div>
     </div>
 
@@ -34,9 +37,11 @@
         <p>
           immutable과 const는 매우 비슷합니다.<br /><br />
 
-          하지만 const는 미리 지정된 "값"을 위한 것이고 immutable은 나중에 바꿀 수 있는 "변수 값"을 뜻합니다.<br /><br />
+          하지만 const는 미리 지정된 "값"을 위한 것이고 immutable은 나중에 바꿀
+          수 있는 "변수 값"을 뜻합니다.<br /><br />
 
-          그래서 어떤 변수의 값을 다른 변수에 저장하고 싶다면 immutable을 사용하고 아니면 값만 저장하고 싶다면 const를 사용하세요.
+          그래서 어떤 변수의 값을 다른 변수에 저장하고 싶다면 immutable을
+          사용하고 아니면 값만 저장하고 싶다면 const를 사용하세요.
         </p>
       </div>
       <div>

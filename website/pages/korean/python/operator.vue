@@ -20,7 +20,7 @@
         />
       </div>
     </div>
-<QuadSpace />
+    <QuadSpace />
     <div class="text-center">
       <iframe
         width="80%"
@@ -33,7 +33,7 @@
       />
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <Header type="파이썬" num="15" title="연산자" />
 
@@ -43,8 +43,10 @@
       <div>
         <h2>산수 연산자</h2>
         <p>
-          산수 연산자는 <NuxtLink aria-label="Go to Coding Insight Page" to="./number">숫자</NuxtLink>에서
-          배웠습니다.<br /><br />
+          산수 연산자는
+          <NuxtLink aria-label="Go to Coding Insight Page" to="./number"
+            >숫자</NuxtLink
+          >에서 배웠습니다.<br /><br />
           기억이 나지 않는다면 다시 한번 확인하세요.
         </p>
       </div>

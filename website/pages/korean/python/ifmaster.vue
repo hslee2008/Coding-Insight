@@ -18,7 +18,7 @@
 
     <Header type="파이썬" num="27" title="조건문 마스터" />
 
-<QuadSpace />
+    <QuadSpace />
 
     <div>
       <div>
@@ -117,5 +117,5 @@
 <script>
 export default {
   page: 'IfMasterPage',
-}
+};
 </script>

@@ -103,7 +103,6 @@
     <NaviBtn bef="operator" aft="calc" />
 
     <QuadSpace />
-
   </div>
 </template>
 <script>

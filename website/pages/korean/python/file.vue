@@ -89,5 +89,5 @@
 <script>
 export default {
   name: 'FilePage',
-}
+};
 </script>

@@ -168,7 +168,6 @@
     </div>
 
     <QuadSpace />
-
   </div>
 </template>
 

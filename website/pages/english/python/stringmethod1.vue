@@ -157,11 +157,11 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <NaviBtn bef="string" aft="stringmethod2" />
 
-<QuadSpace />
+    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>
@@ -366,7 +366,7 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-<QuadSpace />
+    <QuadSpace />
   </div>
 </template>
 

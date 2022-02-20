@@ -2,10 +2,7 @@
   <div>
     <QuadSpace />
 
-    <div
-      style="display: flex; border-radius: 5px"
-      class="img-div"
-    >
+    <div style="display: flex; border-radius: 5px" class="img-div">
       <div class="mx-auto">
         <h2>정규식이란</h2>
         <p>
@@ -108,6 +105,6 @@
 
 <script>
 export default {
-  page: "RegexPage"
-}
+  page: 'RegexPage',
+};
 </script>

@@ -74,7 +74,8 @@
 
             int main()<br />
             {<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; "Hello, World!" &lt;&lt; 123;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; "Hello, World!" &lt;&lt;
+            123;<br />
             &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br />
             }
           </code>

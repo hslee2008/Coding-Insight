@@ -99,5 +99,5 @@
 <script>
 export default {
   page: 'ModulePage',
-}
+};
 </script>

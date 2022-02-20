@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>주사위</h2>
         <p>주사위를 만드는 프로그램을 만들어 보겠습니다.</p>
       </div>
@@ -39,7 +39,7 @@
         random.choice(["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"])
       </code>
     </div>
-<QuadSpace />
+    <QuadSpace />
     <iframe
       src="https://trinket.io/embed/python3/740f66be1f"
       width="100%"

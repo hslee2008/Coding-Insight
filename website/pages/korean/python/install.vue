@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="display: flex; justify-content: center; margin: 5px;">
+      <div style="display: flex; justify-content: center; margin: 5px">
         <CIImage
           lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
           alt="python-factory-picture"

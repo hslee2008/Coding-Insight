@@ -67,5 +67,5 @@
 <script>
 export default {
   name: 'CoroutinePage',
-}
+};
 </script>

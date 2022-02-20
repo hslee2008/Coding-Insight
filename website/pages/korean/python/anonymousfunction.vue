@@ -69,7 +69,7 @@
 </template>
 
 <script>
-  export default {
-    name: "AnonymousFunctionPage"
-  }
+export default {
+  name: 'AnonymousFunctionPage',
+};
 </script>

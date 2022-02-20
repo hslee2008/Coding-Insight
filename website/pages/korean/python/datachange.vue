@@ -159,7 +159,7 @@ export default {
           example: 'int(a)',
         },
         {
-          name: '분리언',
+          name: '불리언',
           how: 'bool()',
           example: 'bool(a)',
         },
@@ -169,7 +169,7 @@ export default {
           example: 'str(a)',
         },
       ],
-    }
+    };
   },
-}
+};
 </script>

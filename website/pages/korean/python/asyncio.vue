@@ -159,7 +159,7 @@
 </template>
 
 <script>
-  export default {
-    name: "AsyncioPage"
-  }
+export default {
+  name: 'AsyncioPage',
+};
 </script>

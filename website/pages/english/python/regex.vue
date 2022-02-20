@@ -2,10 +2,7 @@
   <div>
     <QuadSpace />
 
-    <div
-      style="display: flex; border-radius: 5px"
-      class="img-div"
-    >
+    <div style="display: flex; border-radius: 5px" class="img-div">
       <div class="mx-auto">
         <h2>What is RegEx?</h2>
         <p>

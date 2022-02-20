@@ -22,7 +22,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -145,6 +145,6 @@
 
 <script>
 export default {
-  page: "SetMethodPage"
-}
+  page: 'SetMethodPage',
+};
 </script>

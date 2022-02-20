@@ -54,7 +54,9 @@
 
         사실 x 인덱스는 x + 1 번째 문자입니다.<br /><br />
 
-        문자열의 인덱스는 &str에서 chars()로 바꾸고 nth()를 사용해서 n번째 인덱스를 찾을 수 있습니다. 참고로 nth()는 사실 <IC code='Some("")' />를 반환하기 때문에 Some()을 없에기 위해서 unwrap()를 사용합니다.<br /><br />
+        문자열의 인덱스는 &str에서 chars()로 바꾸고 nth()를 사용해서 n번째
+        인덱스를 찾을 수 있습니다. 참고로 nth()는 사실 <IC code='Some("")' />를
+        반환하기 때문에 Some()을 없에기 위해서 unwrap()를 사용합니다.<br /><br />
 
         <iframe
           src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a:%20&str%20=%20%22Hello,%20World!%22;%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B:%253F%7D%22,%20a.as_bytes());%0A%7D"

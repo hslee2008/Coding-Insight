@@ -18,7 +18,7 @@
 
     <Header type="파이썬" num="22" title="딕셔너리 메서드" />
 
-<QuadSpace />
+    <QuadSpace />
 
     <div>
       <div>
@@ -132,5 +132,5 @@
 <script>
 export default {
   name: 'DictionaryMethodPage',
-}
+};
 </script>

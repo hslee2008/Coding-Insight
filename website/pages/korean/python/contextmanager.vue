@@ -89,7 +89,7 @@
       />
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <NaviBtn bef="contact2" aft="datachange" />
 
@@ -100,5 +100,5 @@
 <script>
 export default {
   name: 'ContextManagerPage',
-}
+};
 </script>

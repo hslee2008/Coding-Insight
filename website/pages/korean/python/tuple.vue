@@ -1,6 +1,6 @@
 <template>
   <div>
-<QuadSpace />
+    <QuadSpace />
 
     <div>
       <div>

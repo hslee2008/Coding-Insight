@@ -65,6 +65,7 @@
       <v-bottom-sheet v-model="sheet">
         <template v-slot:activator="{ on, attrs }">
           <v-btn
+            aria-label="Coding Insight Button"
             elevation="0"
             dark
             v-bind="attrs"
@@ -91,7 +92,12 @@
               transition="slide-y-transition"
             >
               <template #activator="{ on, attrs }">
-                <v-btn icon v-bind="attrs" v-on="on">
+                <v-btn
+                  aria-label="Coding Insight Button"
+                  icon
+                  v-bind="attrs"
+                  v-on="on"
+                >
                   <v-icon>mdi-translate</v-icon>
                 </v-btn>
               </template>
@@ -105,7 +111,6 @@
                 </v-list-item>
               </v-list>
             </v-menu>
-
             <template
               v-if="
                 $nuxt.$route.path != '/index-en' &&
@@ -114,103 +119,62 @@
                 $nuxt.$route.path != '/app-en'
               "
             >
-              <v-btn @click.stop="drawer = !drawer" icon
+              <v-btn
+                aria-label="Coding Insight Button"
+                @click.stop="drawer = !drawer"
+                icon
                 ><v-icon>mdi-menu</v-icon></v-btn
               >
             </template>
             <v-btn
+              aria-label="Coding Insight Button"
               icon
               @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark"
             >
               <v-icon>mdi-brightness-6</v-icon>
             </v-btn>
-            <v-btn icon @click="gotoHome">
-              <v-icon>mdi-home</v-icon>
-            </v-btn>
-            <v-btn to="/login" icon><v-icon>mdi-account-circle</v-icon></v-btn>
+            <v-btn aria-label="Coding Insight Button" @click="gotoHome" icon
+              ><v-icon>mdi-home</v-icon></v-btn
+            >
+            <v-btn aria-label="Coding Insight Button" @click="gotoCourses" icon
+              ><v-icon>mdi-school</v-icon></v-btn
+            >
+            <v-btn aria-label="Coding Insight Button" to="/login" icon
+              ><v-icon>mdi-account-circle</v-icon></v-btn
+            >
           </div>
-          <v-subheader>Menu</v-subheader>
-          <v-list-item style="gap: 10px"
-            ><v-menu open-on-hover bottom offset-y>
-              <template v-slot:activator="{ on, attrs }">
-                <v-btn v-bind="attrs" v-on="on" elevation="0">
-                  Courses <v-icon right>mdi-school</v-icon>
-                </v-btn>
-              </template>
-
-              <v-list>
-                <v-list-item style="gap: 10px">
-                  <v-list-item-title
-                    ><v-btn to="/korean/python"
-                      ><v-icon left>mdi-language-python</v-icon>Python</v-btn
-                    ></v-list-item-title
-                  >
-                  <v-divider vertical></v-divider>
-                  <v-list-item-title
-                    ><v-btn to="/korean/c-cpp"
-                      ><v-icon left>mdi-language-c</v-icon>C/C++</v-btn
-                    ></v-list-item-title
-                  >
-                  <v-divider vertical></v-divider>
-                  <v-list-item-title
-                    ><v-btn to="/korean/rust"
-                      ><v-icon left>mdi-language-rust</v-icon>Rust</v-btn
-                    ></v-list-item-title
-                  >
-                </v-list-item>
-              </v-list>
-            </v-menu>
-
-            <v-menu open-on-hover bottom offset-y>
-              <template v-slot:activator="{ on, attrs }">
-                <v-btn v-bind="attrs" v-on="on" elevation="0">
-                  Question <v-icon right>mdi-head-question</v-icon>
-                </v-btn>
-              </template>
-
-              <v-list>
-                <v-list-item style="gap: 10px">
-                  <v-list-item-title
-                    ><v-btn to="/query/post"
-                      ><v-icon left>mdi-crosshairs-question</v-icon>Ask</v-btn
-                    ></v-list-item-title
-                  >
-                  <v-divider vertical></v-divider>
-                  <v-list-item-title
-                    ><v-btn to="/query/list"
-                      ><v-icon left>mdi-forum</v-icon>Forum</v-btn
-                    ></v-list-item-title
-                  >
-                </v-list-item>
-              </v-list>
-            </v-menu>
-
-            <v-menu open-on-hover bottom offset-y>
-              <template v-slot:activator="{ on, attrs }">
-                <v-btn v-bind="attrs" v-on="on" elevation="0">
-                  About <v-icon right>mdi-information</v-icon>
-                </v-btn>
-              </template>
-
-              <v-list>
-                <v-list-item style="gap: 10px">
-                  <v-list-item-title
-                    ><v-btn to="/about"
-                      ><v-icon left>mdi-microsoft-teams</v-icon>Team</v-btn
-                    ></v-list-item-title
-                  >
-                  <v-divider vertical></v-divider>
-                  <v-list-item-title
-                    ><v-btn
-                      href="https://www.youtube.com/watch?v=ya7Ud1tTpag"
-                      target="_blank"
-                      ><v-icon left>mdi-video</v-icon>Intro</v-btn
-                    ></v-list-item-title
-                  >
-                </v-list-item>
-              </v-list>
-            </v-menu></v-list-item
+          <v-subheader>Team</v-subheader>
+          <v-list-item
+            v-for="tile in ttiles"
+            :key="tile.title"
+            @click="
+              sheet = false;
+              $nuxt.$router.push(tile.url);
+            "
           >
+            <v-list-item-avatar>
+              <v-avatar size="32px" tile>
+                <v-icon>{{ 'mdi-' + tile.img }}</v-icon>
+              </v-avatar>
+            </v-list-item-avatar>
+            <v-list-item-title>{{ tile.title }}</v-list-item-title>
+          </v-list-item>
+          <v-subheader>Query</v-subheader>
+          <v-list-item
+            v-for="tile in qtiles"
+            :key="tile.title"
+            @click="
+              sheet = false;
+              $nuxt.$router.push(tile.url);
+            "
+          >
+            <v-list-item-avatar>
+              <v-avatar size="32px" tile>
+                <v-icon>{{ 'mdi-' + tile.img }}</v-icon>
+              </v-avatar>
+            </v-list-item-avatar>
+            <v-list-item-title>{{ tile.title }}</v-list-item-title>
+          </v-list-item>
         </v-list>
       </v-bottom-sheet>
 
@@ -222,7 +186,10 @@
           $nuxt.$route.path != '/app-en'
         "
       >
-        <v-btn @click.stop="drawer = !drawer" icon class="to-hide"
+        <v-btn
+          aria-label="Coding Insight Button"
+          @click.stop="drawer = !drawer"
+          icon
           ><v-icon>mdi-menu</v-icon></v-btn
         >
       </template>
@@ -231,6 +198,7 @@
         ><v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
             <v-btn
+              aria-label="Coding Insight Button"
               style="display: flex; text-align: center"
               @click="$router.push('/')"
               v-bind="attrs"
@@ -277,7 +245,13 @@
 
       <v-menu open-on-hover bottom offset-y>
         <template v-slot:activator="{ on, attrs }">
-          <v-btn v-bind="attrs" v-on="on" elevation="0">
+          <v-btn
+            aria-label="Coding Insight Button"
+            v-bind="attrs"
+            v-on="on"
+            elevation="0"
+            class="to-hide"
+          >
             Courses <v-icon right>mdi-school</v-icon>
           </v-btn>
         </template>
@@ -285,19 +259,19 @@
         <v-list>
           <v-list-item style="gap: 10px">
             <v-list-item-title
-              ><v-btn to="/korean/python"
+              ><v-btn aria-label="Coding Insight Button" to="/korean/python"
                 ><v-icon left>mdi-language-python</v-icon>Python</v-btn
               ></v-list-item-title
             >
             <v-divider vertical></v-divider>
             <v-list-item-title
-              ><v-btn to="/korean/c-cpp"
+              ><v-btn aria-label="Coding Insight Button" to="/korean/c-cpp"
                 ><v-icon left>mdi-language-c</v-icon>C/C++</v-btn
               ></v-list-item-title
             >
             <v-divider vertical></v-divider>
             <v-list-item-title
-              ><v-btn to="/korean/rust"
+              ><v-btn aria-label="Coding Insight Button" to="/korean/rust"
                 ><v-icon left>mdi-language-rust</v-icon>Rust</v-btn
               ></v-list-item-title
             >
@@ -308,6 +282,7 @@
       <v-menu open-on-hover wbottom offset-y>
         <template v-slot:activator="{ on, attrs }">
           <v-btn
+            aria-label="Coding Insight Button"
             @click="gotoQuery"
             class="to-hide"
             v-bind="attrs"
@@ -321,13 +296,13 @@
         <v-list>
           <v-list-item style="gap: 10px">
             <v-list-item-title
-              ><v-btn to="/query/post"
+              ><v-btn aria-label="Coding Insight Button" to="/query/post"
                 ><v-icon left>mdi-crosshairs-question</v-icon>Ask</v-btn
               ></v-list-item-title
             >
             <v-divider vertical></v-divider>
             <v-list-item-title
-              ><v-btn to="/query/list"
+              ><v-btn aria-label="Coding Insight Button" to="/query/list"
                 ><v-icon left>mdi-forum</v-icon>Forum</v-btn
               ></v-list-item-title
             >
@@ -338,6 +313,7 @@
       <v-menu open-on-hover bottom offset-y>
         <template v-slot:activator="{ on, attrs }">
           <v-btn
+            aria-label="Coding Insight Button"
             @click="gotoQuery"
             class="to-hide"
             v-bind="attrs"
@@ -351,13 +327,14 @@
         <v-list>
           <v-list-item style="gap: 10px">
             <v-list-item-title
-              ><v-btn to="/about"
+              ><v-btn aria-label="Coding Insight Button" to="/about"
                 ><v-icon left>mdi-microsoft-teams</v-icon>Team</v-btn
               ></v-list-item-title
             >
             <v-divider vertical></v-divider>
             <v-list-item-title
               ><v-btn
+                aria-label="Coding Insight Button"
                 href="https://www.youtube.com/watch?v=ya7Ud1tTpag"
                 target="_blank"
                 ><v-icon left>mdi-video</v-icon>Intro</v-btn
@@ -372,6 +349,7 @@
       <v-tooltip bottom>
         <template v-slot:activator="{ on, attrs }">
           <v-btn
+            aria-label="Coding Insight Button"
             icon
             v-bind="attrs"
             v-on="on"
@@ -398,7 +376,13 @@
         transition="slide-y-transition"
       >
         <template #activator="{ on, attrs }">
-          <v-btn icon v-bind="attrs" v-on="on" class="to-hide">
+          <v-btn
+            aria-label="Coding Insight Button"
+            icon
+            v-bind="attrs"
+            v-on="on"
+            class="to-hide"
+          >
             <v-icon>mdi-translate</v-icon>
           </v-btn>
         </template>
@@ -415,9 +399,9 @@
 
       <v-menu v-if="login" bottom min-width="200px" rounded offset-y>
         <template v-slot:activator="{ on }">
-          <v-btn icon x-large v-on="on">
+          <v-btn aria-label="Coding Insight Button" icon x-large v-on="on">
             <v-avatar>
-              <img :src="photo" width="10" height="10" />
+              <img :src="photo" width="10" height="10" alt="account-logo" />
             </v-avatar>
           </v-btn>
         </template>
@@ -432,14 +416,35 @@
                 {{ email }}
               </p>
               <v-divider class="my-3"></v-divider>
-              <v-btn depressed rounded text to="/account"> Edit Account </v-btn>
+              <v-btn
+                aria-label="Coding Insight Button"
+                depressed
+                rounded
+                text
+                to="/account"
+              >
+                Edit Account
+              </v-btn>
               <v-divider class="my-3"></v-divider>
-              <v-btn depressed rounded text @click="logout"> Logout </v-btn>
+              <v-btn
+                aria-label="Coding Insight Button"
+                depressed
+                rounded
+                text
+                @click="logout"
+              >
+                Logout
+              </v-btn>
             </div>
           </v-list-item-content>
         </v-card>
       </v-menu>
-      <v-btn to="/login" icon v-else class="to-hide"
+      <v-btn
+        aria-label="Coding Insight Button"
+        to="/login"
+        icon
+        v-else
+        class="to-hide"
         ><v-icon>mdi-account-circle</v-icon></v-btn
       >
     </v-app-bar>
@@ -472,6 +477,18 @@ export default {
       tiles: [
         { img: 'home', title: 'Home', url: '/' },
         { img: 'school', title: 'Courses', url: '/courses' },
+      ],
+      ttiles: [
+        { img: 'microsoft-teams', title: 'Team', url: '/about' },
+        {
+          img: 'video',
+          title: 'Intro Video',
+          url: 'https://www.youtube.com/watch?v=ya7Ud1tTpag',
+        },
+      ],
+      qtiles: [
+        { img: 'forum', title: 'Forum', url: '/query/list' },
+        { img: 'crosshairs-question', title: 'Post', url: '/query/post' },
       ],
       ...ov_layout,
     };

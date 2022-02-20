@@ -24,7 +24,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe

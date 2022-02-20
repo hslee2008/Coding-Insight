@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>My own zipping program</h2>
         <p>
           In actuality, your computer will have a zipping program already

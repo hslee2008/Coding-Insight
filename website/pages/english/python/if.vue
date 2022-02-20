@@ -34,7 +34,7 @@
         />
       </div>
     </div>
-<QuadSpace />
+    <QuadSpace />
     <div class="text-center">
       <iframe
         width="560"
@@ -46,7 +46,7 @@
         allowfullscreen
       />
     </div>
-<QuadSpace />
+    <QuadSpace />
     <Header-en type="Python" title="If Statement" num="26"></Header-en>
 
     <QuadSpace />
@@ -130,14 +130,13 @@
       loading="lazy"
       style="margin: auto"
     />
-<QuadSpace />
+    <QuadSpace />
 
     <QuadSpace />
 
     <NaviBtn bef="setmethod" aft="ifmaster" />
 
     <QuadSpace />
-
   </div>
 </template>
 <script>

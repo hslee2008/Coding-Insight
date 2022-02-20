@@ -170,7 +170,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <NaviBtn bef="input" aft="otherdatatype" />
 

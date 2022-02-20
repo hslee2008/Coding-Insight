@@ -50,7 +50,7 @@
       계정과 밑에 있는 코드의 계정 이메일이 일치해야합니다.
     </p>
 
-<QuadSpace />
+    <QuadSpace />
 
     <iframe
       src="https://trinket.io/embed/python3/db9f325b98"
@@ -74,6 +74,6 @@
 
 <script>
 export default {
-  page: "SpamPage"
-}
+  page: 'SpamPage',
+};
 </script>

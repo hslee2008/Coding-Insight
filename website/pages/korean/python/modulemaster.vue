@@ -130,5 +130,5 @@
 <script>
 export default {
   page: 'ModuleMasterPage',
-}
+};
 </script>

@@ -23,7 +23,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -396,7 +396,6 @@
     </div>
 
     <QuadSpace />
-
   </div>
 </template>
 
@@ -406,31 +405,31 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-A').checked) {
-        alert('1 ✔️!')
+        alert('1 ✔️!');
       } else {
-        alert('1 ❌')
+        alert('1 ❌');
       }
       if (document.getElementById('question-2-answers-D').checked) {
-        alert('2 ✔️')
+        alert('2 ✔️');
       } else {
-        alert('2 ❌')
+        alert('2 ❌');
       }
       if (document.getElementById('question-3-answers-B').checked) {
-        alert('3 ✔️!')
+        alert('3 ✔️!');
       } else {
-        alert('3 ❌')
+        alert('3 ❌');
       }
       if (document.getElementById('question-4-answers-A').checked) {
-        alert('4 ✔️')
+        alert('4 ✔️');
       } else {
-        alert('4 ❌')
+        alert('4 ❌');
       }
       if (document.getElementById('question-5-answers-A').checked) {
-        alert('5 ✔️ :o')
+        alert('5 ✔️ :o');
       } else {
-        alert('5 ❌')
+        alert('5 ❌');
       }
     },
   },
-}
+};
 </script>

@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>PIP란?</h2>
         <p>
           PIP는 파이썬에서 파일 또는 모듈을 다루는 프로그램 이름입니다.<br /><br />
@@ -105,5 +105,5 @@
 <script>
 export default {
   page: 'PipPage',
-}
+};
 </script>

@@ -86,5 +86,5 @@
 <script>
 export default {
   name: 'Error2Page',
-}
+};
 </script>

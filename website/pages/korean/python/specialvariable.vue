@@ -73,6 +73,6 @@
 
 <script>
 export default {
-  page: "SpecialVariablePage"
-}
+  page: 'SpecialVariablePage',
+};
 </script>

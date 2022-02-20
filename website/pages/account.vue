@@ -49,24 +49,25 @@
           prepend-inner-icon="mdi-camera"
         ></v-text-field>
         <v-card-text style="display: flex; justify-content: center">
-          <CIImage
-            :src="photo"
-            max-width="100"
-          />
+          <CIImage :src="photo" max-width="100" />
         </v-card-text>
       </v-card>
 
       <br />
 
-      <v-btn @click="update" color="primary"
+      <v-btn aria-label="Coding Insight Button" @click="update" color="primary"
         ><v-icon left>mdi-account</v-icon>Update</v-btn
       >
-      <v-btn @click="email" v-if="!verified"
+      <v-btn aria-label="Coding Insight Button" @click="email" v-if="!verified"
         ><v-icon left>mdi-email</v-icon>Verify Email</v-btn
       >
       <v-dialog width="500">
         <template v-slot:activator="{ on, attrs }">
-          <v-btn color="error" v-bind="attrs" v-on="on"
+          <v-btn
+            aria-label="Coding Insight Button"
+            color="error"
+            v-bind="attrs"
+            v-on="on"
             ><v-icon left>mdi-alert-rhombus</v-icon>Delete Account</v-btn
           >
         </template>
@@ -80,7 +81,12 @@
 
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn color="primary" text @click="delete_danger">
+            <v-btn
+              aria-label="Coding Insight Button"
+              color="primary"
+              text
+              @click="delete_danger"
+            >
               Whatever
             </v-btn>
           </v-card-actions>

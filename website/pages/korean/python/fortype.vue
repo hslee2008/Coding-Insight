@@ -115,5 +115,5 @@
 <script>
 export default {
   name: 'ForTypePage',
-}
+};
 </script>

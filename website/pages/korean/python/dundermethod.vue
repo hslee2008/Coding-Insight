@@ -107,10 +107,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="requestmethod"
-      aft="additionaldundermethod"
-     />
+    <NaviBtn bef="requestmethod" aft="additionaldundermethod" />
 
     <QuadSpace />
   </div>
@@ -119,5 +116,5 @@
 <script>
 export default {
   name: 'DictionaryMethodPage',
-}
+};
 </script>

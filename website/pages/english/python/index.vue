@@ -61,7 +61,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div>
       <h1>What can you do with Python?</h1>
@@ -84,7 +84,7 @@
       </p>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>

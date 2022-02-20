@@ -67,7 +67,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div>
       <div>
@@ -104,7 +104,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div>
       <div>

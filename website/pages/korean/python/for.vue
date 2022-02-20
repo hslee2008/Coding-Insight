@@ -163,10 +163,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="anonymousfunction"
-      aft="fortype"
-     />
+    <NaviBtn bef="anonymousfunction" aft="fortype" />
 
     <QuadSpace />
   </div>
@@ -175,5 +172,5 @@
 <script>
 export default {
   name: 'ForPage',
-}
+};
 </script>

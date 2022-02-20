@@ -151,5 +151,5 @@
 <script>
 export default {
   name: 'FileReading',
-}
+};
 </script>

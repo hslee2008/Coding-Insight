@@ -1,4 +1,3 @@
-
 [한국어](./README-ko-kr.md)
 
 <a href="https://github.com/HyunseungLee-Travis/Coding-Insight/issues"><img alt="python-factory-picture"  src="https://img.shields.io/github/issues/HyunseungLee-Travis/Coding-Insight"></a>

@@ -10,7 +10,7 @@
 
           바로 assert라는 함수입니다.<br /><br />
 
-          assert 안에 분리언을 넣고 만일 그 분리언이 false라면 에러를
+          assert 안에 불리언을 넣고 만일 그 불리언이 false라면 에러를
           만듭니다.<br /><br />
 
           <code> assert(1 == 1); </code>

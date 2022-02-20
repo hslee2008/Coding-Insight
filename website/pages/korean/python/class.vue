@@ -120,7 +120,7 @@
 </template>
 
 <script>
-  export default {
-    name: "ClassPage"
-  }
+export default {
+  name: 'ClassPage',
+};
 </script>

@@ -31,7 +31,7 @@
         :rules="passwordRules"
         prepend-inner-icon="mdi-key"
       ></v-text-field>
-      <v-btn @click="pressed" color="primary"
+      <v-btn aria-label="Coding Insight Button" @click="pressed" color="primary"
         ><v-icon left>mdi-account</v-icon>Create and Login</v-btn
       >
       <div class="error" v-if="error">{{ error.message }}</div>

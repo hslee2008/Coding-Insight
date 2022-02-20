@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>친구 목록 다루기 2</h2>
         <p>파일을 사용해서 친구 목록을 이번에는 저장까지 해보겠습니다</p>
       </div>
@@ -27,7 +27,9 @@
       <h2>프로그램 설명</h2>
       <p>
         1. 코드는 저번 코드에 추가할 것이기 때문에
-        <NuxtLink aria-label="Go to Coding Insight Page" to="./contact">친구 목록</NuxtLink>에서 확인하세요<br /><br />
+        <NuxtLink aria-label="Go to Coding Insight Page" to="./contact"
+          >친구 목록</NuxtLink
+        >에서 확인하세요<br /><br />
       </p>
     </div>
 
@@ -46,10 +48,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="contextmanager"
-      aft="datachange"
-     />
+    <NaviBtn bef="contextmanager" aft="datachange" />
 
     <QuadSpace />
   </div>

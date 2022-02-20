@@ -49,7 +49,7 @@
       Make sure you are not using not underage account.
     </p>
 
-<QuadSpace />
+    <QuadSpace />
 
     <iframe
       class="embed-responsive-item"

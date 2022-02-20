@@ -39,7 +39,7 @@
         random.choice(["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"])
       </code>
     </div>
-<QuadSpace />
+    <QuadSpace />
     <iframe
       src="https://trinket.io/embed/python3/740f66be1f"
       width="100%"

@@ -5,7 +5,7 @@
       :to="!bef.startsWith('/') ? './' + bef : bef"
       style="text-decoration: none; float: left"
     >
-      <v-btn class="ma-2" outlined ripple>
+      <v-btn aria-label="Coding Insight Button" class="ma-2" outlined ripple>
         <v-icon left> mdi-arrow-left-circle-outline </v-icon>Back
       </v-btn>
     </NuxtLink>
@@ -15,7 +15,7 @@
       :to="aft"
       style="text-decoration: none; float: right"
     >
-      <v-btn class="ma-2" outlined ripple>
+      <v-btn aria-label="Coding Insight Button" class="ma-2" outlined ripple>
         Next<v-icon right> mdi-arrow-right-circle-outline</v-icon>
       </v-btn>
     </NuxtLink>

@@ -29,7 +29,7 @@
       />
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -246,7 +246,6 @@
     </div>
 
     <QuadSpace />
-
   </div>
 </template>
 
@@ -256,11 +255,11 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-A').checked) {
-        alert('1 ✔️!')
+        alert('1 ✔️!');
       } else {
-        alert('1 ❌')
+        alert('1 ❌');
       }
     },
   },
-}
+};
 </script>

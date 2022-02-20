@@ -31,7 +31,7 @@
       />
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -102,8 +102,10 @@
           keys()를 사용하고 그 정보를 출력하면 dict_keys([keys])의 형태로 출력이
           됩니다.<br /><br />
 
-          keys()는 <NuxtLink aria-label="Go to Coding Insight Page" to="./for">for 반복문</NuxtLink>에서 더 유용하게
-          사용할 수 있는 예시를 들겠습니다.
+          keys()는
+          <NuxtLink aria-label="Go to Coding Insight Page" to="./for"
+            >for 반복문</NuxtLink
+          >에서 더 유용하게 사용할 수 있는 예시를 들겠습니다.
         </p>
       </div>
       <iframe
@@ -207,7 +209,6 @@
     </div>
 
     <QuadSpace />
-
   </div>
 </template>
 
@@ -217,11 +218,11 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-B').checked) {
-        alert('1 ✔️!')
+        alert('1 ✔️!');
       } else {
-        alert('1 ❌')
+        alert('1 ❌');
       }
     },
   },
-}
+};
 </script>

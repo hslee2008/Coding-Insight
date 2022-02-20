@@ -3,7 +3,7 @@
     <h1 v-if="loading">로딩 중...</h1>
     <ul>
       <li v-for="(item, index) in listev" :key="index">
-        {{ item['username'] }}의 질문: 
+        {{ item['username'] }}의 질문:
         <NuxtLink
           :to="
             '/query/posts/' +

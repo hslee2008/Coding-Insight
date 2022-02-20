@@ -89,7 +89,11 @@ export default {
     ],
   },
 
-  css: ['./assets/css/global.css', './assets/css/transition.css'],
+  css: [
+    './assets/css/global.css',
+    './assets/css/transition.css',
+    './assets/css/media.css',
+  ],
 
   // https://go.nuxtjs.dev/config-plugins
   plugins: ['./plugins/firebase_database.js'],
@@ -106,52 +110,6 @@ export default {
       performance: true,
       productionTip: true,
     },
-  },
-
-  humansTxt: {
-    enabled: true,
-    hideGenericMessagesInConsole: false,
-    hideErrorsInConsole: false,
-    fileName: 'humans.txt',
-    fileEncoding: 'utf8',
-    link: {
-      rel: 'author',
-      href: '',
-      hid: 'humans-txt',
-    },
-    keepDevelopersInformations: true,
-    thanksTo: ['Hyunseung', 'Juha', 'Gun'],
-    site: [
-      'https://www.coding-insight.com/',
-      {
-        key: 'Last update',
-        value: new Date().toLocaleDateString('en-US', {
-          month: '2-digit',
-          day: '2-digit',
-          year: 'numeric',
-        }),
-      },
-      {
-        key: 'Standards',
-        value: ['HTML5', 'CSS3', 'Javascript'],
-      },
-      {
-        key: 'Components',
-        value: 'VueJs',
-      },
-      {
-        key: 'Software',
-        value: 'NuxtJs',
-      },
-      {
-        key: 'Language',
-        value: 'English',
-      },
-      {
-        key: 'Doctype',
-        value: 'HTML5',
-      },
-    ],
   },
 
   // https://go.nuxtjs.dev/config-modules

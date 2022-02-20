@@ -2,10 +2,7 @@
   <div>
     <QuadSpace />
 
-    <div
-      style="display: flex; border-radius: 5px"
-      class="img-div"
-    >
+    <div style="display: flex; border-radius: 5px" class="img-div">
       <div>
         <h2>정렬이란?</h2>
         <p>
@@ -97,7 +94,7 @@
 </template>
 
 <script>
-  export default {
-    name: "ArrayPage"
-  }
+export default {
+  name: 'ArrayPage',
+};
 </script>

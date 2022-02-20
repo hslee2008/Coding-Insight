@@ -24,6 +24,6 @@ github:
     addBadge: true
 
 gitConfig:
-  user.email: "hyunseunglee2008@gmail.com"
-  user.name: "HyunseungLee-Travis"
-  alias.acp: "!f() { git pull && git add -all && git commit -a -m \"$@\" && git push; };"
+  user.email: 'hyunseunglee2008@gmail.com'
+  user.name: 'HyunseungLee-Travis'
+  alias.acp: '!f() { git pull && git add -all && git commit -a -m "$@" && git push; };'

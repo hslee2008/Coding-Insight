@@ -97,8 +97,9 @@
           > returns True if left is bigger and False otherwise.<br /><br />
           >= returns True if left is bigger or equal to right and False
           otherwise.<br /><br />
-          &lt; returns True if right is bigger and False otherwise. &lt;=returns True
-          if right is bigger or equal to left and False otherwise. <br /><br />
+          &lt; returns True if right is bigger and False otherwise. &lt;=returns
+          True if right is bigger or equal to left and False otherwise.
+          <br /><br />
         </p>
       </div>
       <iframe
@@ -120,7 +121,6 @@
     <NaviBtn bef="number" aft="numtype" />
 
     <QuadSpace />
-
   </div>
 </template>
 <script>

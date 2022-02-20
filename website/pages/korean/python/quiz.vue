@@ -15,10 +15,18 @@
       <div class="scoreText1">--</div>
       <div class="scorePct">--</div>
       <div class="scoreText2">--</div>
-      <NuxtLink aria-label="Go to Coding Insight Page" to="./quiz" style="text-decoration: none">
+      <NuxtLink
+        aria-label="Go to Coding Insight Page"
+        to="./quiz"
+        style="text-decoration: none"
+      >
         <v-btn aria-label="Coding Insight Button"> 다시시작 </v-btn>
       </NuxtLink>
-      <NuxtLink aria-label="Go to Coding Insight Page" to="/" style="text-decoration: none">
+      <NuxtLink
+        aria-label="Go to Coding Insight Page"
+        to="/"
+        style="text-decoration: none"
+      >
         <v-btn aria-label="Coding Insight Button"> 홈페이지 </v-btn>
       </NuxtLink>
     </div>
@@ -113,7 +121,7 @@ export default {
         answer: 1,
       },
       {
-        question: '분리언의 값으로 옳지 않은 것은?',
+        question: '불리언의 값으로 옳지 않은 것은?',
         options: ['True', 'False', 'true'],
         answer: 2,
       },
@@ -422,7 +430,6 @@ h1 {
 
 .scoreArea {
   background-color: rgba(255, 255, 255, 0.5);
- ;
   border-radius: 20px;
   margin: 10px;
   text-align: center;

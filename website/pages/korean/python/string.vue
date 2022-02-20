@@ -23,7 +23,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -37,7 +37,7 @@
       />
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <Header type="파이썬" num="8" title="문자열" />
 

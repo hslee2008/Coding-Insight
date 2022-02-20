@@ -2,10 +2,7 @@
   <div>
     <QuadSpace />
 
-    <div
-      style="display: flex; border-radius: 5px"
-      class="img-div"
-    >
+    <div style="display: flex; border-radius: 5px" class="img-div">
       <div>
         <h2>정렬 치수란?</h2>
         <p>

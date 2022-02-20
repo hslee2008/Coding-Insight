@@ -42,7 +42,11 @@
 
     <QuadSpace />
 
-    <Header-en type="Python" title="Making a calculator" num="Proj: 3"></Header-en>
+    <Header-en
+      type="Python"
+      title="Making a calculator"
+      num="Proj: 3"
+    ></Header-en>
 
     <QuadSpace />
 

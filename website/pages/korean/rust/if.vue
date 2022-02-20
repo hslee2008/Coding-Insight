@@ -93,7 +93,8 @@
     <div>
       <div>
         <h2>if-else if-else 조건문 사용</h2>
-        else if는 첫 번째 if 조건문이 틀리고 두 번째 불리언이 맞다면 실행합니다.<br /><br />
+        else if는 첫 번째 if 조건문이 틀리고 두 번째 불리언이 맞다면
+        실행합니다.<br /><br />
 
         즉, if {} else {}에서 else 안의 if {}가 있는 거나 마찬가지입니다.<br /><br />
 

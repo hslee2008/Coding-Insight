@@ -2,10 +2,7 @@
   <div>
     <QuadSpace />
 
-    <div
-      style="display: flex; border-radius: 5px"
-      class="img-div"
-    >
+    <div style="display: flex; border-radius: 5px" class="img-div">
       <div class="mx-auto">
         <h2>계승이란?</h2>
         <p>
@@ -145,7 +142,7 @@
 </template>
 
 <script>
-  export default {
-    name: "ClassMethodPage"
-  }
+export default {
+  name: 'ClassMethodPage',
+};
 </script>

@@ -116,5 +116,5 @@
 <script>
 export default {
   page: 'MousePage',
-}
+};
 </script>

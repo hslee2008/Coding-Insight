@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>판다스</h2>
         <p>
           판다스란 파이썬 라이브러리로 데이터를 효율적이고 빠르게 다룰 수 있는
@@ -229,5 +229,5 @@
 <script>
 export default {
   page: 'PandasPage',
-}
+};
 </script>

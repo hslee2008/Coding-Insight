@@ -110,10 +110,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="additionaldundermethod"
-      aft="atexit"
-     />
+    <NaviBtn bef="additionaldundermethod" aft="atexit" />
 
     <QuadSpace />
   </div>

@@ -121,5 +121,5 @@
 <script>
 export default {
   page: 'PythonDecoratorPage',
-}
+};
 </script>

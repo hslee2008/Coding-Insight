@@ -139,6 +139,6 @@
 
 <script>
 export default {
-  page: "StringAsCodePage"
-}
+  page: 'StringAsCodePage',
+};
 </script>

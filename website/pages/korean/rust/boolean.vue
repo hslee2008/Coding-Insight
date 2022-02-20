@@ -10,22 +10,22 @@
 
           0 또는 1, 즉 false 또는 true를 의미합니다.<br /><br />
 
-          Rust에서 분리언은 bool을 통해 선언합니다.
+          Rust에서 불리언은 bool을 통해 선언합니다.
         </p>
       </div>
     </div>
 
     <QuadSpace />
 
-    <Header type="Rust" title="분리언" num="15" />
+    <Header type="Rust" title="불리언" num="15" />
 
     <QuadSpace />
 
     <div>
       <div>
-        <h2>분리언 변수 선언</h2>
+        <h2>불리언 변수 선언</h2>
 
-        분리언 변수는 다음과 같이 선언합니다.<br /><br />
+        불리언 변수는 다음과 같이 선언합니다.<br /><br />
 
         <IC code="let is_true: bool = true;" /><br /><br />
 
@@ -44,7 +44,7 @@
     <div>
       <div>
         <h2>! 느낀표</h2>
-        ! 느낀표를 사용하면 분리언 값의 반대를 얻을 수 있습니다.<br /><br />
+        ! 느낀표를 사용하면 불리언 값의 반대를 얻을 수 있습니다.<br /><br />
 
         !true는 false를 반환하고, !false는 true를 반환합니다.<br /><br />
 
@@ -63,7 +63,7 @@
     <div>
       <div>
         <h2>assert!()와 assert_eq!()와 assert_ne!()</h2>
-        assert!()는 분리언 값이 참이어야 하는 경우에만 실행되고, 거짓이면 에러를
+        assert!()는 불리언 값이 참이어야 하는 경우에만 실행되고, 거짓이면 에러를
         발생시킵니다.<br /><br />
 
         예: assert!(true);는 아무것도 않하고 assert!(false)는 에러가

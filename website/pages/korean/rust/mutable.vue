@@ -16,7 +16,10 @@
         </p>
       </div>
       <div style="margin: auto">
-        <CIImage src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png" max-width="300" />
+        <CIImage
+          src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png"
+          max-width="300"
+        />
       </div>
     </div>
 

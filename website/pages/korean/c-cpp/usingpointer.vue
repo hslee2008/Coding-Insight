@@ -197,10 +197,10 @@
     <div>
       <div>
         <h2>중요 내용 정리하기</h2>
-        <p>malloc() ? 다른 배열 변수의 크기를 지정한다.</p>
+        <p>malloc() ? 다른 배열 변수의 크기를 지정합니다.</p>
         <kbd>(int*)malloc(n * sizeof(int));</kbd>
         <br /><br />
-        <p>calloc() ? 다른 배열 변수의 크기를 지정한다.</p>
+        <p>calloc() ? 다른 배열 변수의 크기를 지정합니다.</p>
         <kbd>(int*)malloc(n, sizeof(int));</kbd>
         <br /><br />
         <p>realloc() ? 다시 저장</p>

@@ -315,6 +315,6 @@
 
 <script>
 export default {
-  page: 'MatPlotLibPage'
+  page: 'MatPlotLibPage',
 };
 </script>

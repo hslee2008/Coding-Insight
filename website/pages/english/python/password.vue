@@ -3,15 +3,17 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>Making a login program</h2>
         <p>
           Let's make a login program that prompts the user for password!<br /><br />
 
           Note that you need to know about
-          <NuxtLink aria-label="Go to Coding Insight Page" to="./if">If Statements</NuxtLink> before you move on. It
-          will all be explained shortly in this page, but use the link for
-          future reference.
+          <NuxtLink aria-label="Go to Coding Insight Page" to="./if"
+            >If Statements</NuxtLink
+          >
+          before you move on. It will all be explained shortly in this page, but
+          use the link for future reference.
         </p>
       </div>
 
@@ -72,10 +74,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="stringmethod2"
-      aft="escapechar"
-     />
+    <NaviBtn bef="stringmethod2" aft="escapechar" />
 
     <QuadSpace />
   </div>

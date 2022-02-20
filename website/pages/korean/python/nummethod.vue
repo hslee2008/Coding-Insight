@@ -18,7 +18,7 @@
 
     <Header type="파이썬" title="숫자 메서드" num="17" />
 
-<QuadSpace />
+    <QuadSpace />
 
     <div class="header-div bg-black text-white">
       <div>
@@ -120,11 +120,11 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-B').checked) {
-        alert('1 ✔️!')
+        alert('1 ✔️!');
       } else {
-        alert('1 ❌')
+        alert('1 ❌');
       }
     },
   },
-}
+};
 </script>

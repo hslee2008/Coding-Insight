@@ -25,7 +25,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <div class="text-center">
       <iframe
@@ -39,7 +39,7 @@
       />
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <Header type="파이썬" title="조거문" num="26" />
 
@@ -119,7 +119,7 @@
       style="margin: auto"
     />
 
-<QuadSpace />
+    <QuadSpace />
 
     <QuadSpace />
 

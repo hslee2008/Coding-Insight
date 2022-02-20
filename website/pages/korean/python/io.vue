@@ -54,8 +54,8 @@
           </p>
 
           <p>
-            예를 들면, print("Hello, World!")에서 출력된 데이터 끝에 '.'을 붙여서
-            콘솔에 "Hello, World!."이 나타나게 할 수 있습니다.
+            예를 들면, print("Hello, World!")에서 출력된 데이터 끝에 '.'을
+            붙여서 콘솔에 "Hello, World!."이 나타나게 할 수 있습니다.
           </p>
 
           <p>옆에있는 코드를 바꾸고 삼각형 버튼을 눌러서 코드를 실행하세요!</p>
@@ -80,9 +80,9 @@
         <div>
           <h2>출력 sep</h2>
           <p>
-            print() 안에 'Hello, World!'를 입력하면 똑같은 값이 콘솔에 출력됩니다.
-            다른 방법은 'Hello'와 'World'를 입력해서 'Hello, World!'를 나타나게 해
-            볼 수 있습니다.
+            print() 안에 'Hello, World!'를 입력하면 똑같은 값이 콘솔에
+            출력됩니다. 다른 방법은 'Hello'와 'World'를 입력해서 'Hello,
+            World!'를 나타나게 해 볼 수 있습니다.
           </p>
           <br />
 
@@ -359,31 +359,31 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-1-answers-B').checked) {
-        alert('1 ✔️!')
+        alert('1 ✔️!');
       } else {
-        alert('1 ❌')
+        alert('1 ❌');
       }
       if (document.getElementById('question-2-answers-D').checked) {
-        alert('2 ✔️')
+        alert('2 ✔️');
       } else {
-        alert('2 ❌')
+        alert('2 ❌');
       }
       if (document.getElementById('question-3-answers-A').checked) {
-        alert('3 ✔️!')
+        alert('3 ✔️!');
       } else {
-        alert('3 틀렸습니다')
+        alert('3 틀렸습니다');
       }
       if (document.getElementById('question-4-answers-B').checked) {
-        alert('4 ✔️')
+        alert('4 ✔️');
       } else {
-        alert('4 ❌')
+        alert('4 ❌');
       }
       if (document.getElementById('question-5-answers-A').checked) {
-        alert('5 ✔️ :o')
+        alert('5 ✔️ :o');
       } else {
-        alert('5 ❌')
+        alert('5 ❌');
       }
     },
   },
-}
+};
 </script>

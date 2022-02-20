@@ -137,9 +137,8 @@
   </div>
 </template>
 
-
 <script>
 export default {
   page: 'MadLibPage',
-}
+};
 </script>

@@ -33,7 +33,7 @@
         prepend-inner-icon="mdi-key"
         v-on:keyup.enter="pressed"
       ></v-text-field>
-      <v-btn @click="pressed" color="primary"
+      <v-btn aria-label="Coding Insight Button" @click="pressed" color="primary"
         ><v-icon left>mdi-account</v-icon>Login</v-btn
       >
       <div class="error" v-if="error">{{ error.message }}</div>
@@ -46,6 +46,7 @@
 
       <div style="display: flex; gap: 10px; justify-content: center">
         <v-btn
+          aria-label="Coding Insight Button"
           style="color: rgb(219, 69, 54)"
           @click="google"
           outlined
@@ -56,7 +57,14 @@
           <v-icon left>mdi-google</v-icon>
           Google
         </v-btn>
-        <v-btn @click="anonymous" outlined dense ripple small>
+        <v-btn
+          aria-label="Coding Insight Button"
+          @click="anonymous"
+          outlined
+          dense
+          ripple
+          small
+        >
           <v-icon left>mdi-account-circle</v-icon>
           Anonymous
         </v-btn>

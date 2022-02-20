@@ -96,7 +96,7 @@
       />
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <NaviBtn bef="contact2" aft="datachange" />
 

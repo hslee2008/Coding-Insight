@@ -80,7 +80,7 @@
 </template>
 
 <script>
-  export default {
-    name: "ArrayShapePage"
-  }
+export default {
+  name: 'ArrayShapePage',
+};
 </script>

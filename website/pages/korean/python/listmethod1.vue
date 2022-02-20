@@ -14,7 +14,7 @@
     </div>
     <br />
     <Header type="파이썬" num="19" title="리스트 메서드 1" />
-<QuadSpace />
+    <QuadSpace />
     <div>
       <div>
         <h2>리스트 - 인덱싱</h2>
@@ -124,7 +124,6 @@
     <NaviBtn bef="list" aft="listmethod2" />
 
     <QuadSpace />
-
   </div>
 </template>
 <script>

@@ -18,7 +18,7 @@
 
     <Header type="파이썬" title="None" num="24" />
 
-<QuadSpace />
+    <QuadSpace />
 
     <div>
       <div>
@@ -53,5 +53,5 @@
 <script>
 export default {
   page: 'NonePage',
-}
+};
 </script>

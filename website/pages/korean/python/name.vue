@@ -83,5 +83,5 @@
 <script>
 export default {
   name: 'NamePage',
-}
+};
 </script>

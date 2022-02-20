@@ -77,6 +77,6 @@
 
 <script>
 export default {
-  page: "TypePage"
-}
+  page: 'TypePage',
+};
 </script>

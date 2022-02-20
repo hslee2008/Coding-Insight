@@ -99,7 +99,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <NaviBtn bef="hacking" aft="random" />
 
@@ -110,5 +110,5 @@
 <script>
 export default {
   name: 'DatePage',
-}
+};
 </script>

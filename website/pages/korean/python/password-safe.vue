@@ -3,11 +3,14 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>로그인 프로그램</h2>
         <p>
-          <NuxtLink aria-label="Go to Coding Insight Page" to="./password">암호 로그인 시스템</NuxtLink> 페이지에서
-          간단하게 암호 로그인 시스템을 만드는 방법을 알아보았습니다.<br /><br />
+          <NuxtLink aria-label="Go to Coding Insight Page" to="./password"
+            >암호 로그인 시스템</NuxtLink
+          >
+          페이지에서 간단하게 암호 로그인 시스템을 만드는 방법을
+          알아보았습니다.<br /><br />
 
           이제 더 안전한 시스템을 만들겠습니다.<br /><br />
 
@@ -40,8 +43,10 @@
     <div>
       <h2>코드 설명</h2>
       <div>
-        1) 코드는 <NuxtLink aria-label="Go to Coding Insight Page" to="./password">암호 로그인 페이지</NuxtLink>에서
-        확인하세요. 추가로 몇 줄만 더 더할 것입니다.<br /><br />
+        1) 코드는
+        <NuxtLink aria-label="Go to Coding Insight Page" to="./password"
+          >암호 로그인 페이지</NuxtLink
+        >에서 확인하세요. 추가로 몇 줄만 더 더할 것입니다.<br /><br />
 
         2) 몇 번 시도했는지 <br /><br />
         <code> guess_try = 0 </code>
@@ -51,7 +56,12 @@
 
         4) guess_try가 3번 이상이면 로그인 거절<br /><br />
 
-        5) 참고로 while이라는 것은 밑 코드에서 guess가 passsword 아닐때만 그 안의 코드를 계속 실행합니다. 더 자세한 내용은 <NuxtLink aria-label="Go to Coding Insight Page" to="./while">while 반복문</NuxtLink> 페이지에서 확인하세요.
+        5) 참고로 while이라는 것은 밑 코드에서 guess가 passsword 아닐때만 그
+        안의 코드를 계속 실행합니다. 더 자세한 내용은
+        <NuxtLink aria-label="Go to Coding Insight Page" to="./while"
+          >while 반복문</NuxtLink
+        >
+        페이지에서 확인하세요.
       </div>
     </div>
 
@@ -70,10 +80,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="ifmaster"
-      aft="none"
-     />
+    <NaviBtn bef="ifmaster" aft="none" />
 
     <QuadSpace />
   </div>

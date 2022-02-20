@@ -93,17 +93,14 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="dundermethod"
-      aft="etcdundermethod"
-     />
+    <NaviBtn bef="dundermethod" aft="etcdundermethod" />
 
     <QuadSpace />
   </div>
 </template>
 
 <script>
-  export default {
-    name: "AdditionaDunderMethodPage"
-  }
+export default {
+  name: 'AdditionaDunderMethodPage',
+};
 </script>

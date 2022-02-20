@@ -62,5 +62,5 @@
 <script>
 export default {
   page: 'KeyboardPage',
-}
+};
 </script>

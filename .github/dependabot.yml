@@ -1,14 +1,14 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "../website"
+  - package-ecosystem: 'npm'
+    directory: '../website'
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "../app/python-factory-web-search"
+      interval: 'daily'
+  - package-ecosystem: 'npm'
+    directory: '../app/python-factory-web-search'
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "../app/pythonfactory"
+      interval: 'daily'
+  - package-ecosystem: 'npm'
+    directory: '../app/pythonfactory'
     schedule:
-      interval: "daily"
+      interval: 'daily'

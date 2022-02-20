@@ -36,7 +36,7 @@
       />
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <Header type="파이썬" num="74" title="스레드 (자세히)" />
 
@@ -80,5 +80,5 @@
 <script>
 export default {
   name: 'ComplexThreadPage',
-}
+};
 </script>

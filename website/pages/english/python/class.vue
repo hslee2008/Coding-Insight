@@ -178,6 +178,6 @@
 
 <script>
 export default {
-  name: 'ClassPage'
+  name: 'ClassPage',
 };
 </script>

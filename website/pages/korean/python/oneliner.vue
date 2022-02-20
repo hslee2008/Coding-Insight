@@ -80,5 +80,5 @@
 <script>
 export default {
   page: 'OnelinerPage',
-}
+};
 </script>

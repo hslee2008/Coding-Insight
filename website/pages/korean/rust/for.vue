@@ -53,7 +53,9 @@
     <QuadSpace />
 
     <v-alert dense text type="info" dismissible>
-      참고로 for 반복문과 while 반복문에도 이름을 붙일 수 있습니다. 더 자세한 내용은 <NuxtLink to="/korean/rust/loop#label">for 반복문</NuxtLink>에서 확인하세요.
+      참고로 for 반복문과 while 반복문에도 이름을 붙일 수 있습니다. 더 자세한
+      내용은 <NuxtLink to="/korean/rust/loop#label">for 반복문</NuxtLink>에서
+      확인하세요.
     </v-alert>
 
     <QuadSpace />

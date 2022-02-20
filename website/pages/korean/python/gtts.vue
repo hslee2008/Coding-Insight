@@ -87,5 +87,5 @@
 <script>
 export default {
   name: 'GttsPage',
-}
+};
 </script>

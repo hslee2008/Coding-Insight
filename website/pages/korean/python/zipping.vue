@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>나만의 압축 프로그램</h2>
         <p>
           사실 윈도우아 맥에는 압축 프로그램이 있습니다.<br /><br />
@@ -77,10 +77,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="dictionarymethod"
-      aft="tuple"
-     />
+    <NaviBtn bef="dictionarymethod" aft="tuple" />
 
     <QuadSpace />
   </div>

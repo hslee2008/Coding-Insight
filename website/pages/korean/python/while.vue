@@ -132,6 +132,6 @@
 
 <script>
 export default {
-  page: "WhilePage"
-}
+  page: 'WhilePage',
+};
 </script>

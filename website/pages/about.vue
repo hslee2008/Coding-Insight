@@ -39,6 +39,7 @@
 
           <v-card-actions>
             <v-btn
+              aria-label="Coding Insight Button"
               rounded
               text
               href="https://github.com/HyunseungLee-Travis"
@@ -73,6 +74,7 @@
 
           <v-card-actions>
             <v-btn
+              aria-label="Coding Insight Button"
               rounded
               text
               href="https://github.com/GMTT902"
@@ -107,6 +109,7 @@
 
           <v-card-actions>
             <v-btn
+              aria-label="Coding Insight Button"
               rounded
               text
               href="https://github.com/kimgun1217"

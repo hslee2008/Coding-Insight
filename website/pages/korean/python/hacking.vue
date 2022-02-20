@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>해킹</h2>
         <p>
           파이썬을 사용해서 여러분 집의 인터넷에서 일어나는 모든 일을 알 수 있는
@@ -64,7 +64,7 @@
         &nbsp;&nbsp;print(data[0].decode("ISO-8859-1"))
       </div>
     </div>
-<QuadSpace />
+    <QuadSpace />
     <iframe
       width="100%"
       class="card-img-top"

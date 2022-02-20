@@ -61,6 +61,6 @@
 
 <script>
 export default {
-  page: "ThreadMethodPage"
-}
+  page: 'ThreadMethodPage',
+};
 </script>

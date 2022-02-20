@@ -22,10 +22,16 @@
       </v-alert>
 
       <v-card-actions>
-        <v-btn @click="refresh"> <v-icon>mdi-refresh</v-icon></v-btn>
-        <v-btn @click="backward"> <v-icon>mdi-chevron-left</v-icon></v-btn>
+        <v-btn aria-label="Coding Insight Button" @click="refresh">
+          <v-icon>mdi-refresh</v-icon></v-btn
+        >
+        <v-btn aria-label="Coding Insight Button" @click="backward">
+          <v-icon>mdi-chevron-left</v-icon></v-btn
+        >
 
-        <v-btn to="/"> <v-icon left>mdi-home</v-icon></v-btn>
+        <v-btn aria-label="Coding Insight Button" to="/">
+          <v-icon left>mdi-home</v-icon></v-btn
+        >
       </v-card-actions>
     </v-card>
   </div>

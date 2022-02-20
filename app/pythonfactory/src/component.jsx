@@ -91,8 +91,10 @@ const Bar = memo((props) => {
             <IconButton
               icon="menu"
               color="white"
-              onPress={openMenu}></IconButton>
-          }>
+              onPress={openMenu}
+            ></IconButton>
+          }
+        >
           <Menu.Item
             onPress={() => {
               props.setVisible((p) => !p);
@@ -142,7 +144,8 @@ function SnackBarsForErrors(props) {
         action={{
           label: 'OK',
           onPress: props.goback,
-        }}>
+        }}
+      >
         HTTP Error: This page does not exist
       </Snackbar>
 
@@ -153,7 +156,8 @@ function SnackBarsForErrors(props) {
         action={{
           label: 'Update',
           onPress: reloadAsync,
-        }}>
+        }}
+      >
         NetworkError: Please connect to the network
       </Snackbar>
 
@@ -164,7 +168,8 @@ function SnackBarsForErrors(props) {
         action={{
           label: 'OK',
           onPress: props.onDismissProcess,
-        }}>
+        }}
+      >
         Process Gone! Something went wrong
       </Snackbar>
 
@@ -175,7 +180,8 @@ function SnackBarsForErrors(props) {
         action={{
           label: 'Reload Again',
           onPress: props.reload,
-        }}>
+        }}
+      >
         Reloading stopped.
       </Snackbar>
     </>

@@ -16,7 +16,9 @@
         v-model="post.content"
       ></v-textarea>
     </div>
-    <v-btn @click="postcontent"> 올리기 </v-btn>
+    <v-btn aria-label="Coding Insight Button" @click="postcontent">
+      올리기
+    </v-btn>
 
     <br /><br />
   </div>

@@ -65,5 +65,5 @@
 <script>
 export default {
   name: 'EtcFunctionPage',
-}
+};
 </script>

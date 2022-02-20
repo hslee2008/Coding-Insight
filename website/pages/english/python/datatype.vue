@@ -91,7 +91,7 @@
       </div>
     </div>
 
-<QuadSpace />
+    <QuadSpace />
 
     <NaviBtn bef="madlib" aft="comment" />
 
@@ -243,7 +243,6 @@
     </div>
 
     <QuadSpace />
-
   </div>
 </template>
 

@@ -66,7 +66,7 @@
         &nbsp;&nbsp;print(data[0].decode("ISO-8859-1"))
       </div>
     </div>
-<QuadSpace />
+    <QuadSpace />
     <iframe
       width="100%"
       class="card-img-top"

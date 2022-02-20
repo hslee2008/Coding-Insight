@@ -83,7 +83,8 @@
     <div>
       <div>
         <h2>startswith() 메서드</h2>
-        startswith()을 사용하면 어떤 문자열이 어떤 값으로 시작하는지 확인합니다.<br /><br />
+        startswith()을 사용하면 어떤 문자열이 어떤 값으로 시작하는지
+        확인합니다.<br /><br />
 
         <iframe
           src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=fn%20main()%20%7B%0A%20%20%20%20let%20s%20%3D%20%22L%C3%B6we%20%E8%80%81%E8%99%8E%20L%C3%A9opard%20Gepardi%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.starts_with(%22L%22))%3B%0A%7D"

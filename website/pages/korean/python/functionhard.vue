@@ -211,11 +211,11 @@ export default {
   methods: {
     checkAnswer() {
       if (document.getElementById('question-2-answers-C').checked) {
-        alert('1 ✔️!')
+        alert('1 ✔️!');
       } else {
-        alert('1 ❌')
+        alert('1 ❌');
       }
     },
   },
-}
+};
 </script>

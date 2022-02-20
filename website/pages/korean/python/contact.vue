@@ -3,7 +3,7 @@
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
-      <div style="margin: auto;">
+      <div style="margin: auto">
         <h2>친구 목록 다루기</h2>
         <p>
           파이썬 리스트를 사용해서 친구 목록 다루는 프로그램을 만들어
@@ -36,7 +36,7 @@
       <p>
         1. 무엇을 하고 싶은지 물어본다 (a: 친구 추가, r: 친구 삭제, p: 모든 친구
         출력)<br /><br />
-        a - 친구 정보를 물어보고 리스트 안에 추가한다.<br />
+        a - 친구 정보를 물어보고 리스트 안에 추가합니다.<br />
         r - 몇 번째인지 물어보고 삭제한다<br />
         p - 모든 친구를 출력한다
       </p>
@@ -90,10 +90,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="listmethod2"
-      aft="dictionary"
-     />
+    <NaviBtn bef="listmethod2" aft="dictionary" />
 
     <QuadSpace />
   </div>

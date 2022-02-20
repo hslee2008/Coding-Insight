@@ -4,7 +4,7 @@
 
     <Header-en type="Python" num="19" title="List Method 1"></Header-en>
 
-<QuadSpace />
+    <QuadSpace />
     <div>
       <div>
         <h2>List - Indexing</h2>

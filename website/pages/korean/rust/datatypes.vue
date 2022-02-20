@@ -123,7 +123,7 @@ export default {
                 },
                 {
                   id: 125,
-                  name: '분리언 (true, false)',
+                  name: '불리언 (true, false)',
                 },
                 {
                   id: 643,
@@ -151,3 +151,4 @@ export default {
     };
   },
 };
+</script>

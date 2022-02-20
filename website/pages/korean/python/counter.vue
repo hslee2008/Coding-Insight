@@ -129,10 +129,7 @@
 
     <QuadSpace />
 
-    <NaviBtn
-      bef="multiprocessing"
-      aft="request"
-     />
+    <NaviBtn bef="multiprocessing" aft="request" />
 
     <QuadSpace />
   </div>
@@ -141,5 +138,5 @@
 <script>
 export default {
   name: 'CounterPage',
-}
+};
 </script>

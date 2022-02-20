@@ -3,7 +3,7 @@
     <QuadSpace />
     <div style="display: flex" class="img-div">
       <div>
-        <h2>분리언란?</h2>
+        <h2>불리언란?</h2>
         <p>
           불리언이란 <mark>참 또는 거짓</mark>입니다.<br /><br />
 
@@ -36,13 +36,13 @@
 
     <QuadSpace />
 
-    <Header type="파이썬" num="13" title="분리언" />
+    <Header type="파이썬" num="13" title="불리언" />
 
     <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
-        <h2>분리언 - 주의할 점</h2>
+        <h2>불리언 - 주의할 점</h2>
         <p>
           파이썬에서는 '옳다면 True라고 출력되고 옳지 않다면 False'라고
           출력됩니다.<br /><br />
@@ -101,8 +101,8 @@
           다음에 나오는 불리언이 거짓이라면 에러가 생깁니다.<br /><br />
 
           에러가 생기는 예시를 관찰하겠습니다. CODE2는 2가 1보다 크지 않기
-          때문에 에러가 생깁니다. 파이썬에서 assert의 분리언이 False라면 assert
-          에러가 생깁니다. 파이썬 프로그램에서 나만의 메시지를 만들려면 분리언
+          때문에 에러가 생깁니다. 파이썬에서 assert의 불리언이 False라면 assert
+          에러가 생깁니다. 파이썬 프로그램에서 나만의 메시지를 만들려면 불리언
           뒤에 메시지를 넣으면 됩니다. (CODE3를 확인하세요)
         </p>
       </div>
@@ -159,7 +159,7 @@
 
       <br /><br />
 
-      <h3>분리언의 값으로 가능한 것들은?</h3>
+      <h3>불리언의 값으로 가능한 것들은?</h3>
       <div>
         <input
           id="question-1-answers-A"
@@ -203,7 +203,7 @@
       <br /><br />
 
       <h3>
-        분리언 not (not (not (not (not (not (False))))))의 값과 같은 것은?
+        불리언 not (not (not (not (not (not (False))))))의 값과 같은 것은?
       </h3>
 
       <div>
@@ -298,7 +298,6 @@
     </div>
 
     <QuadSpace />
-
   </div>
 </template>
 

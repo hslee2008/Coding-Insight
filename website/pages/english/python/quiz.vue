@@ -15,10 +15,18 @@
       <div class="scoreText1">--</div>
       <div class="scorePct">--</div>
       <div class="scoreText2">--</div>
-      <NuxtLink aria-label="Go to Coding Insight Page" to="./quiz" style="text-decoration: none">
+      <NuxtLink
+        aria-label="Go to Coding Insight Page"
+        to="./quiz"
+        style="text-decoration: none"
+      >
         <v-btn aria-label="Coding Insight Button"> Restart </v-btn>
       </NuxtLink>
-      <NuxtLink aria-label="Go to Coding Insight Page" to="/" style="text-decoration: none">
+      <NuxtLink
+        aria-label="Go to Coding Insight Page"
+        to="/"
+        style="text-decoration: none"
+      >
         <v-btn aria-label="Coding Insight Button"> Homepage </v-btn>
       </NuxtLink>
     </div>
@@ -44,7 +52,12 @@ export default {
       {
         question:
           "What is printed when running print('Hello', 'World', sep = '&nbsp')?",
-        options: ['Hello, World!', 'HelloWorld', 'Error Occurs', 'HelloSEPWorld'],
+        options: [
+          'Hello, World!',
+          'HelloWorld',
+          'Error Occurs',
+          'HelloSEPWorld',
+        ],
         answer: 0,
       },
       {

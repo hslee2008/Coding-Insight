@@ -130,6 +130,6 @@
 
 <script>
 export default {
-  page: "ThreadPage"
-}
+  page: 'ThreadPage',
+};
 </script>

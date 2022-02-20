@@ -12,9 +12,22 @@
           몰래 이 프로그램을 사용해서 덧셈의 왕처럼 보일 수 있습니다.<br /><br />
 
           시작하기 전에
-          <NuxtLink aria-label="Go to Coding Insight Page" to="number" style="color: dodgerblue">숫자</NuxtLink>,
-          <NuxtLink aria-label="Go to Coding Insight Page" to="operator" style="color: dodgerblue">연산자</NuxtLink>,
-          <NuxtLink aria-label="Go to Coding Insight Page" to="numtype" style="color: dodgerblue"
+          <NuxtLink
+            aria-label="Go to Coding Insight Page"
+            to="number"
+            style="color: dodgerblue"
+            >숫자</NuxtLink
+          >,
+          <NuxtLink
+            aria-label="Go to Coding Insight Page"
+            to="operator"
+            style="color: dodgerblue"
+            >연산자</NuxtLink
+          >,
+          <NuxtLink
+            aria-label="Go to Coding Insight Page"
+            to="numtype"
+            style="color: dodgerblue"
             >숫자의 종류</NuxtLink
           >
           부분을 공부하세요.

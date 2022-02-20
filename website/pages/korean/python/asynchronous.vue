@@ -80,7 +80,7 @@
 </template>
 
 <script>
-  export default {
-    name: "asynchronousPage"
-  }
+export default {
+  name: 'asynchronousPage',
+};
 </script>

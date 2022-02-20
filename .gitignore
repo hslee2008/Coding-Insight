@@ -8,5 +8,6 @@ website/.nuxt
 website/node_modules
 website/static/sw.js
 website/plugins/apikey.js
+website/todo.md
 
 public_html/
