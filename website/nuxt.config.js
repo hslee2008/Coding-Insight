@@ -192,31 +192,75 @@ export default {
       dir: 'rtl',
       id: '/index.html',
       author: ['Hyunseung', 'Juha', 'Gun'],
-      categories: ['python', 'programming', 'coding-insight', 'python-factory'],
+      categories: ['python', 'c', 'c++', 'rust', 'programming', 'coding-insight', 'python-factory'],
       theme_color: '#20232a',
       background_color: '#20232a',
       display: 'minimal-ui',
       scope: './',
       start_url: '/',
       prefer_related_applications: false,
+      related_applications: [
+        {
+          platform: "webapp",
+          url: "https://www.coding-insight.com",
+          id: "com.Coding-Insight.app"
+        }
+      ],
       orientation: 'portrait',
       icons: [
         {
-          src: '/favicon.ico',
+          src: '/pwa/256x256.png',
           sizes: '256x256',
+          type: "image/png",
           purpose: 'any',
         },
         {
-          src: '/favicon.ico',
+          src: '/pwa/192x192.png',
           sizes: '192x192',
+          type: "image/png",
           purpose: 'any',
         },
         {
-          src: './icon.png',
+          src: '/icon.png',
           sizes: '512x512',
+          type: "image/png",
           purpose: 'any maskable',
         },
       ],
+      screenshots: [
+        {
+          src: "/pwa/screenshot-home.png",
+          sizes: "1280x800",
+          type: "image/png",
+        },
+        {
+          src: "/pwa/screenshot-mobile-home.png",
+          sizes: "750x1334",
+          type: "image/png",
+        }
+      ],
+      shortcuts : [
+        {
+          name: "파이썬",
+          url: "/korean/python",
+          description: "파이썬 프로그래밍 언어 배우기"
+        },
+        {
+          name: "Python",
+          url: "/english/python",
+          description: "Learn Python Programming Language"
+        },
+        {
+          name: "C/C++",
+          url: "/korean/c-cpp",
+          description: "Learn C/C++ Programming Language"
+        },
+        {
+          name: "Rust",
+          url: "/korean/rust",
+          description: "Rust 프로그래밍 언어 배우기"
+        }
+      ]
     },
   },
 
