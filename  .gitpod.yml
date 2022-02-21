@@ -1,17 +1,55 @@
 tasks:
-  - name: 'Nuxt.js (Py KR)'
-    init: cd vue/nuxt && npm install && npm run generate && npm run build
-    command: cd vue/nuxt && npm run dev
+  - name: 'Nuxt.js'
+    init: cd website && npm install && npm run generate:modern
+    command: cd website && npm run dev
     openMode: split-right
   - name: 'React Native'
-    init: npm install -g expo-cli && cd app/Python-Factory && npm install
-    command: cd app/Python-Factory && npm run start
+    init: cd app/pythonfactory && npm install -g expo-cli && npm install
+    command: cd app/pythonfactory && npm run start
+  - name: 'VSCode Extension'
+    init: cd app/python-factory-web-search && npm install
 ports:
   - port: 8000
     onOpen: open-preview
 
 vscode:
   - extensions:
+      - HyunseungLee.python-factory-web-search
+      - CoderCoder.codercoder-dark-theme
+      - jcbuisson.vue
+      - HookyQR.beautify
+      - aaron-bond.better-comments
+      - bungcip.better-toml
+      - rubenverg.bootstrap-product-icons
+      - formulahendry.code-runner
+      - adpyke.codesnap
+      - serayuzgur.crates
+      - Dart-Code.dart-code
+      - EditorConfig.EditorConfig
+      - usernamehw.errorlens
+      - dbaeumer.vscode-eslint
+      - Dart-Code.flutter
+      - GitHub.copilot
+      - eamodio.gitlens
+      - sidthesloth.html5-boilerplate
+      - oderwat.indent-rainbow
+      - 1natsu.insert-br-tag
+      - ritwickdey.LiveServer
+      - ms-vsliveshare.vsliveshare
+      - PKief.material-icon-theme
+      - ms-toolsai.jupyter
+      - ms-toolsai.jupyter-renderers
+      - ms-python.vscode-pylance
+      - ms-python.python
+      - vuetifyjs.vuetify-vscode
+      - jcbuisson.vue
+      - VisualStudioExptTeam.vscodeintellicode
+      - svelte.svelte-vscode
+      - adrianwilczynski.terminal-commands
+      - ms-vscode-remote.remote-wsl
+      - ms-vscode-remote.remote-ssh
+      - esbenp.prettier-vscode
+      - techer.open-in-browser
 
 github:
   prebuild:

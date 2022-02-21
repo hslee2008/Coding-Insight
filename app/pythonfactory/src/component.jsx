@@ -95,14 +95,6 @@ const Bar = memo((props) => {
             ></IconButton>
           }
         >
-          <Menu.Item
-            onPress={() => {
-              props.setVisible((p) => !p);
-              closeMenu();
-            }}
-            title="📂 Learn More"
-          />
-          <Menu.Item onPress={() => reloadAsync()} title="⏳ Update App" />
           <ListBottom
             setVisible={setVisible}
             closeMenu={closeMenu}
