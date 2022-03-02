@@ -17,7 +17,7 @@
           class="to-hide"
           >Learn Now <v-icon right>mdi-arrow-right-thin</v-icon></v-btn
         >
-        <v-btn aria-label="Coding Insight Button" to="/" class="to-hide"
+        <v-btn aria-label="Coding Insight Button" to="/"
           >한국어로 <v-icon right>mdi-book-alphabet</v-icon></v-btn
         >
       </div>

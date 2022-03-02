@@ -401,7 +401,7 @@
         <template v-slot:activator="{ on }">
           <v-btn aria-label="Coding Insight Button" icon x-large v-on="on">
             <v-avatar>
-              <img :src="photo" width="10" height="10" alt="account-logo" />
+              <img :src="photo" width="9" height="9" alt="account-logo" />
             </v-avatar>
           </v-btn>
         </template>
@@ -409,7 +409,7 @@
           <v-list-item-content class="justify-center">
             <div class="mx-auto text-center">
               <v-avatar>
-                <img :src="photo" width="10" height="10" />
+                <img :src="photo" width="9" height="9" />
               </v-avatar>
               <h3>{{ name }}</h3>
               <p class="text-caption mt-1">
