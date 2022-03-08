@@ -4,8 +4,6 @@
 
     <Header num="71" title="asyncio" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>asyncio</h2>
@@ -135,13 +133,5 @@
     <QuadSpace />
 
     <NaviBtn bef="asynchronous" aft="name" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'AsyncioPage',
-};
-</script>

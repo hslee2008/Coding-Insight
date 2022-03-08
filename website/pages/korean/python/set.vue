@@ -44,11 +44,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="24" title="집합" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -119,8 +115,6 @@
     <QuadSpace />
 
     <NaviBtn bef="tuple" aft="setmethod" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

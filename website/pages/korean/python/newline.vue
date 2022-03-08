@@ -8,16 +8,12 @@
         <p>
           터미널에서 파이썬이라고 치면 IDLE 프로그램이 작동합니다. 하지만
           IDLE에서는 조건문을 사용하기 어렵습니다.<br /><br />
-          이 상황에서는 \라는 캐릭터를 사용할 수 있습니다.
+          이 상황에서는 \라는 문자를 사용할 수 있습니다.
         </p>
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="69" title="새로운 줄" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -47,8 +43,6 @@
     <QuadSpace />
 
     <NaviBtn bef="pythondecorator" aft="asynchronous" />
-
-    <QuadSpace />
   </div>
 </template>
 

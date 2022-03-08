@@ -19,11 +19,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="Rust" title="Rust" num="1" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -93,9 +89,3 @@
     <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'RustIndexPage',
-};
-</script>

@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="31" title="특별한 변수" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>Global 변수</h2>
@@ -66,8 +64,6 @@
     <QuadSpace />
 
     <NaviBtn bef="functionhard" aft="type" />
-
-    <QuadSpace />
   </div>
 </template>
 

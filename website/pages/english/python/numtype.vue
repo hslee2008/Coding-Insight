@@ -21,8 +21,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="16" title="Numer Types"></Header-en>
 
     <QuadSpace />
@@ -101,8 +99,6 @@
     <QuadSpace />
 
     <NaviBtn bef="operator" aft="calc" />
-
-    <QuadSpace />
   </div>
 </template>
 <script>

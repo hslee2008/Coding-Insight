@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="84" title="코루틴" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -59,13 +55,5 @@
     <QuadSpace />
 
     <NaviBtn bef="atexit" aft="spam" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'CoroutinePage',
-};
-</script>

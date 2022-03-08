@@ -16,8 +16,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="90" title="Turtle"></Header-en>
 
     <QuadSpace />
@@ -156,8 +154,6 @@
     <QuadSpace />
 
     <NaviBtn bef="mouse" aft="pandas" />
-
-    <QuadSpace />
   </div>
 </template>
 

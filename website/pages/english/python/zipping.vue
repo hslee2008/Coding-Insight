@@ -24,8 +24,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="Proj: 5" title="Zipping Program"></Header-en>
 
     <QuadSpace />
@@ -66,14 +64,7 @@
     <QuadSpace />
 
     <NaviBtn bef="dictionarymethod" aft="tuple" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'PasswordPage',
-};
-</script>
 `

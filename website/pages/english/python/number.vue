@@ -27,8 +27,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="14" title="Number"></Header-en>
 
     <QuadSpace />
@@ -153,8 +151,6 @@
     <QuadSpace />
 
     <NaviBtn bef="boolean" aft="operator" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>Solve This Quiz!!</h2>

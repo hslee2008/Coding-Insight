@@ -30,8 +30,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="46" title="Class"></Header-en>
 
     <QuadSpace />
@@ -171,13 +169,5 @@
     <QuadSpace />
 
     <NaviBtn bef="regex" aft="classmethod" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ClassPage',
-};
-</script>

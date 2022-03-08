@@ -32,8 +32,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" title="Matplotlib" num="88"></Header-en>
 
     <QuadSpace />
@@ -308,8 +306,6 @@
     <QuadSpace />
 
     <NaviBtn bef="keyboard" aft="mouse" />
-
-    <QuadSpace />
   </div>
 </template>
 

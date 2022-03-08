@@ -2,8 +2,6 @@
   <div>
     <Header-en type="" title="Courses" num="Complete List" />
 
-    <QuadSpace />
-
     <v-row flex style="gap: 10px">
       <v-card class="mx-auto" max-width="450" min-width="350">
         <v-img

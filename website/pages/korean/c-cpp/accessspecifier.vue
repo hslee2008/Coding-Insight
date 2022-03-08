@@ -16,11 +16,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="Access Specifier" num="14" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -105,7 +101,5 @@
     <QuadSpace />
 
     <NaviBtn bef="constructor" aft="inheritance" />
-
-    <QuadSpace />
   </div>
 </template>

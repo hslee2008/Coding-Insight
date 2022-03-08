@@ -20,40 +20,18 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="Rust" title="타입 바꾸기" num="24" />
 
-    <QuadSpace />
-
-    <div>
-      <div>
-        <h2>as 키워드</h2>
-        as 키워드를 사용하는 예시를 확인하겠습니다.<br /><br />
-
-        참고로 i와 u 형태는 f로 바꿀 수 있고 그 반대도 가능합니다.<br /><br />
-
-        또한, i, u, f가 String 형태로 바꿀 수 있지만 사실 &str는 i와 f로 바꿀 수
-        없고 키랙터를 String으로 바꿀 수 없습니다 (그 반대도 불가능).<br /><br />
-
-        <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%20%3D%2010%3B%0D%0A%20%20%20%20let%20b%20%3D%20(a%20as%20f64)%20%2F%202.0%3B%20%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22a%3A%20%7B%7D%22%2C%20a)%3B%0D%0A%20%20%20%20println!(%22b%3A%20%7B%7D%22%2C%20b)%3B%0D%0A%7D"
-          width="100%"
-          height="300"
-        />
-      </div>
-    </div>
-
-    <QuadSpace />
+    <BasicExpDivWithOneIframe
+      heading="as 키워드"
+      :contents="[
+        'as 키워드를 사용하는 예시를 확인하겠습니다.',
+        '참고로 i와 u 형태는 f로 바꿀 수 있고 그 반대도 가능합니다.',
+        '또한, i, u, f가 String 형태로 바꿀 수 있지만 사실 &str는 i와 f로 바꿀 수 없고 키랙터를 String으로 바꿀 수 없습니다 (그 반대도 불가능).',
+      ]"
+      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%20%3D%2010%3B%0D%0A%20%20%20%20let%20b%20%3D%20(a%20as%20f64)%20%2F%202.0%3B%20%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22a%3A%20%7B%7D%22%2C%20a)%3B%0D%0A%20%20%20%20println!(%22b%3A%20%7B%7D%22%2C%20b)%3B%0D%0A%7D"
+    />
 
     <NaviBtn bef="array-method" aft="borrow-dereference" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'TypeCastingPage',
-};
-</script>

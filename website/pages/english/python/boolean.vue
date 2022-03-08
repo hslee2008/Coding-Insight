@@ -31,8 +31,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="13" title="Boolean"></Header-en>
 
     <QuadSpace />
@@ -152,8 +150,6 @@
     <QuadSpace />
 
     <NaviBtn bef="ascii" aft="number" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>Solve This Quiz!!</h2>

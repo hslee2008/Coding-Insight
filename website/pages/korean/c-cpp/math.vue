@@ -18,11 +18,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="math.h 라이브러리" num="46" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -170,7 +166,5 @@
     <QuadSpace />
 
     <NaviBtn bef="stopprogram" aft="file" />
-
-    <QuadSpace />
   </div>
 </template>

@@ -135,8 +135,6 @@
 
     <NaviBtn bef="none" aft="functionhard" />
 
-    <QuadSpace />
-
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>
 

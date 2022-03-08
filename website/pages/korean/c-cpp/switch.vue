@@ -17,11 +17,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="Switch문" num="17" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -120,8 +116,6 @@
     <QuadSpace />
 
     <NaviBtn bef="hardif" aft="for" />
-
-    <QuadSpace />
   </div>
 </template>
 

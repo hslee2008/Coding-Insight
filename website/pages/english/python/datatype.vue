@@ -28,8 +28,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="6" title="Data Type"></Header-en>
 
     <QuadSpace />
@@ -94,8 +92,6 @@
     <QuadSpace />
 
     <NaviBtn bef="madlib" aft="comment" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

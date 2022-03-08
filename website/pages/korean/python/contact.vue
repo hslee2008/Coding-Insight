@@ -25,11 +25,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="Proj: 4" title="연락 목록 다루는 프로그램" />
-
-    <QuadSpace />
 
     <div>
       <h2>프로그램 설명</h2>
@@ -91,14 +87,7 @@
     <QuadSpace />
 
     <NaviBtn bef="listmethod2" aft="dictionary" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'PasswordPage',
-};
-</script>
 `

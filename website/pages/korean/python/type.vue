@@ -70,8 +70,6 @@
     <QuadSpace />
 
     <NaviBtn bef="specialvariable" aft="anonymousfunction" />
-
-    <QuadSpace />
   </div>
 </template>
 

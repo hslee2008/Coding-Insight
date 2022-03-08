@@ -11,7 +11,7 @@
           약자입니다. 한국어로는 "정보 교환을 위한 미국 표준 암호"를
           뜻합니다.<br /><br />
 
-          ASCII는 알파벳의 모든 캐릭터를 0에서 127(자연수)로 나타낸 코드입니다.
+          ASCII는 알파벳의 모든 문자를 0에서 127(자연수)로 나타낸 코드입니다.
           예를 들면, 아무것도 없는 ' '는 0입니다.<br /><br />
 
           퀴즈! 알파벳을 ASCII로 나타낼 때 a가 클까요? 아니면 A가 클까요? A라고
@@ -41,20 +41,16 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="12" title="아스키" />
-
-    <QuadSpace />
 
     <div>
       <div>
         <h2>ord()</h2>
         <p>
-          어떤 캐릭터의 <mark>ASCII 코드</mark>를 알기 위하여 ord() 함수를
-          사용할 수 있습니다.<br /><br />
+          어떤 문자의 <mark>ASCII 코드</mark>를 알기 위하여 ord() 함수를 사용할
+          수 있습니다.<br /><br />
 
-          단, 꼭 <strong>캐릭터</strong>여야 합니다. 알파벳 하나하나만 입력할 수
+          단, 꼭 <strong>문자</strong>여야 합니다. 알파벳 하나하나만 입력할 수
           있습니다.<br /><br />
 
           여러 개의 아스키를 찾고 싶으면 for 반복문을 사용해야 하지만 이 내용은
@@ -100,8 +96,6 @@
     <QuadSpace />
 
     <NaviBtn bef="escapechar" aft="boolean" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

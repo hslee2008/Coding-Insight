@@ -4,8 +4,6 @@
 
     <Header type="C/C++" title="연산자" num="11" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>기본 연산자</h2>
@@ -121,7 +119,5 @@
     <QuadSpace />
 
     <NaviBtn bef="typecasting" aft="comment" />
-
-    <QuadSpace />
   </div>
 </template>

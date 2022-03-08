@@ -13,11 +13,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="파일 삭제" num="50" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -87,7 +83,5 @@
     <QuadSpace />
 
     <NaviBtn bef="writefile" aft="cpp" />
-
-    <QuadSpace />
   </div>
 </template>

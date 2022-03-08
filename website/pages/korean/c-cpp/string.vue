@@ -20,11 +20,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="문자열" num="25" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -93,7 +89,5 @@
     <QuadSpace />
 
     <NaviBtn bef="array" aft="stringlibrary" />
-
-    <QuadSpace />
   </div>
 </template>

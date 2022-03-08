@@ -22,11 +22,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="72" title="__name__" />
-
-    <QuadSpace />
 
     <QuadSpace />
 
@@ -75,13 +71,5 @@
     <QuadSpace />
 
     <NaviBtn bef="asyncio" aft="thread" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'NamePage',
-};
-</script>

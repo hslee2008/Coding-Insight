@@ -14,11 +14,7 @@
       </p>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="데이터 형태" num="7" />
-
-    <QuadSpace />
 
     <div>
       <h2>int - 정수</h2>
@@ -173,7 +169,5 @@
     <QuadSpace />
 
     <NaviBtn bef="input" aft="otherdatatype" />
-
-    <QuadSpace />
   </div>
 </template>

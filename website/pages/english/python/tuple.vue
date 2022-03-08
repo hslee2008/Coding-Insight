@@ -38,8 +38,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" title="Tuple" num="24"></Header-en>
 
     <QuadSpace />
@@ -167,8 +165,6 @@
     <QuadSpace />
 
     <NaviBtn bef="zipping" aft="set" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h3>

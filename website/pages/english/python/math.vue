@@ -24,8 +24,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="48" title="Math (Statistics)"></Header-en>
 
     <QuadSpace />
@@ -130,8 +128,6 @@
     <QuadSpace />
 
     <NaviBtn bef="classmethod" aft="file" />
-
-    <QuadSpace />
   </div>
 </template>
 

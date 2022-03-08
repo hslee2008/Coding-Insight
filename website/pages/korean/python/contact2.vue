@@ -17,11 +17,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="Proj: 8" title="친구 목록 2" />
-
-    <QuadSpace />
 
     <div>
       <h2>프로그램 설명</h2>
@@ -49,14 +45,7 @@
     <QuadSpace />
 
     <NaviBtn bef="contextmanager" aft="datachange" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'PasswordPage',
-};
-</script>
 `

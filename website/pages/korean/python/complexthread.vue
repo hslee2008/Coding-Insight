@@ -36,11 +36,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="74" title="스레드 (자세히)" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -72,13 +68,5 @@
     <QuadSpace />
 
     <NaviBtn bef="thread" aft="threadmethod" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ComplexThreadPage',
-};
-</script>

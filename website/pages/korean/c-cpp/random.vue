@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="랜덤" num="43" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -61,7 +57,5 @@
     <QuadSpace />
 
     <NaviBtn bef="arrow" aft="ctype" />
-
-    <QuadSpace />
   </div>
 </template>

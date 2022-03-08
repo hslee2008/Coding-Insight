@@ -28,8 +28,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en
       type="Python"
       num="Proj: 6"
@@ -78,14 +76,7 @@
     <QuadSpace />
 
     <NaviBtn bef="ifmaster" aft="none" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'PasswordPage',
-};
-</script>
 `

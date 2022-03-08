@@ -26,8 +26,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="50" title="File Reading"></Header-en>
 
     <QuadSpace />
@@ -141,13 +139,5 @@
     <QuadSpace />
 
     <NaviBtn bef="file" aft="filewriting" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'FileReading',
-};
-</script>

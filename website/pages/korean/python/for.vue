@@ -19,11 +19,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="34" title="For 반복문" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -164,13 +160,5 @@
     <QuadSpace />
 
     <NaviBtn bef="anonymousfunction" aft="fortype" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ForPage',
-};
-</script>

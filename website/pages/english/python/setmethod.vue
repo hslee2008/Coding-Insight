@@ -25,8 +25,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="25" title="Set Method"></Header-en>
 
     <QuadSpace />
@@ -175,8 +173,6 @@
     <QuadSpace />
 
     <NaviBtn bef="set" aft="if" />
-
-    <QuadSpace />
   </div>
 </template>
 

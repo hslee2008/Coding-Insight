@@ -24,11 +24,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="변수 - 기본" num="5" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -83,7 +79,7 @@
           있습니다.<br /><br />
 
           하지만 출력을 할 떄에는 '%'를 사용해야 합니다. 출력에서 배운 '%d'는
-          정수(integer)을 출력하고 싶을 때 사용해야 하는 케릭터입니다.<br /><br />
+          정수(integer)을 출력하고 싶을 때 사용해야 하는 문자입니다.<br /><br />
 
           <mark
             >참고로 변수의 이름은 "" 없이 사용해야 합니다. 그렇지 않으면 변수의
@@ -172,8 +168,6 @@
     <QuadSpace />
 
     <NaviBtn bef="print" aft="variableadvance" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

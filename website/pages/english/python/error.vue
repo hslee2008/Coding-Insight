@@ -26,8 +26,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="61" title="Error Handling"></Header-en>
 
     <QuadSpace />
@@ -124,8 +122,6 @@
     <QuadSpace />
 
     <NaviBtn bef="array_shape" aft="error2" />
-
-    <QuadSpace />
   </div>
 </template>
 

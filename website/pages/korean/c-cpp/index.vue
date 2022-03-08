@@ -28,11 +28,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="C 언어 정의" num="1" />
-
-    <QuadSpace />
 
     <div>
       <div>

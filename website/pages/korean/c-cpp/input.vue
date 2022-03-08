@@ -27,11 +27,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="입력" num="7" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -123,7 +119,5 @@
     <QuadSpace />
 
     <NaviBtn bef="variableadvance" aft="basicdatatype" />
-
-    <QuadSpace />
   </div>
 </template>

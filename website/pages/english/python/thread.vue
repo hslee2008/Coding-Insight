@@ -27,8 +27,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="73" title="Thread"></Header-en>
 
     <QuadSpace />
@@ -122,8 +120,6 @@
     <QuadSpace />
 
     <NaviBtn bef="name" aft="complexthread" />
-
-    <QuadSpace />
   </div>
 </template>
 

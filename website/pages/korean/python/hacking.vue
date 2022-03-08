@@ -23,11 +23,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="Proj: 7" title="해킹: 가족 감시" />
-
-    <QuadSpace />
 
     <div>
       <h2>프로그램 설명</h2>
@@ -79,14 +75,7 @@
     <QuadSpace />
 
     <NaviBtn bef="pythonmodule" aft="date" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'HackingPage',
-};
-</script>
 `

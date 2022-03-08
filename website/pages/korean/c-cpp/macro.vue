@@ -17,11 +17,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="매크로" num="39" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -133,7 +129,5 @@
     <QuadSpace />
 
     <NaviBtn bef="assert" aft="otherif" />
-
-    <QuadSpace />
   </div>
 </template>

@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="Constructor" num="13" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -101,7 +97,5 @@
     <QuadSpace />
 
     <NaviBtn bef="classmethod" aft="accessspecifier" />
-
-    <QuadSpace />
   </div>
 </template>

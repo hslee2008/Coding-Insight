@@ -13,11 +13,7 @@
       </p>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="주석" num="12" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -91,7 +87,5 @@
     <QuadSpace />
 
     <NaviBtn bef="operator" aft="grammar" />
-
-    <QuadSpace />
   </div>
 </template>

@@ -14,11 +14,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header num="69" title="New Line" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -50,8 +46,6 @@
     <QuadSpace />
 
     <NaviBtn bef="pythondecorator" aft="asynchronous" />
-
-    <QuadSpace />
   </div>
 </template>
 

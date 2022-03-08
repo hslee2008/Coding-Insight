@@ -31,11 +31,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="상항 연산자" num="40" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -68,7 +64,5 @@
     <QuadSpace />
 
     <NaviBtn bef="macro" aft="error" />
-
-    <QuadSpace />
   </div>
 </template>

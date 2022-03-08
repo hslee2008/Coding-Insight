@@ -16,11 +16,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="Vector" num="4" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -170,7 +166,5 @@
     <QuadSpace />
 
     <NaviBtn bef="string-cpp" aft="vectormethod" />
-
-    <QuadSpace />
   </div>
 </template>

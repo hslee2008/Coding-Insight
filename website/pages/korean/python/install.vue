@@ -18,11 +18,7 @@
       </p>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="2" title="설치 & 첫 프로그램" />
-
-    <QuadSpace />
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn
@@ -455,8 +451,6 @@
     <QuadSpace />
 
     <NaviBtn bef="/korean/python/" aft="vscode" />
-
-    <QuadSpace />
   </div>
 </template>
 

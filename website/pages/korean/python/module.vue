@@ -14,11 +14,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="40" title="모듈" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -91,8 +87,6 @@
     <QuadSpace />
 
     <NaviBtn bef="etcfunction" aft="modulemaster" />
-
-    <QuadSpace />
   </div>
 </template>
 

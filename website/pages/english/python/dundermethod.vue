@@ -24,8 +24,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="80" title="Dunder Method"></Header-en>
 
     <QuadSpace />
@@ -143,13 +141,5 @@
     <QuadSpace />
 
     <NaviBtn bef="requestmethod" aft="additionaldundermethod" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'DunderMethodPage',
-};
-</script>

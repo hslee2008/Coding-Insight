@@ -40,8 +40,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en
       type="Python"
       title="Making a calculator"
@@ -108,13 +106,5 @@
     <QuadSpace />
 
     <NaviBtn bef="numtype" aft="nummethod" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'CalcPage',
-};
-</script>

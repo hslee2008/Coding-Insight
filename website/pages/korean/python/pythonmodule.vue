@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="42" title="파이썬 모듈" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>TIME 모듈 - sleep()</h2>
@@ -60,8 +58,6 @@
     <QuadSpace />
 
     <NaviBtn bef="modulemaster" aft="hacking" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -17,11 +17,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="ctype.h" num="43" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -169,7 +165,5 @@
     <QuadSpace />
 
     <NaviBtn bef="random" aft="stopprogram" />
-
-    <QuadSpace />
   </div>
 </template>

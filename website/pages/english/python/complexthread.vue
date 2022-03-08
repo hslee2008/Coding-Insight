@@ -51,8 +51,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="74" title="Thread (Advanced)"></Header-en>
 
     <QuadSpace />
@@ -110,13 +108,5 @@
     <QuadSpace />
 
     <NaviBtn bef="thread" aft="threadmethod" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ComplexThreadPage',
-};
-</script>

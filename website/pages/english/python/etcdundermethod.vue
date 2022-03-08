@@ -119,13 +119,5 @@
     <QuadSpace />
 
     <NaviBtn bef="additionaldundermethod" aft="atexit" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'EtcDunderMethodPage',
-};
-</script>

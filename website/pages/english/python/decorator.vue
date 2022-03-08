@@ -21,8 +21,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="66" title="Decorator"></Header-en>
 
     <QuadSpace />
@@ -147,13 +145,5 @@
     <QuadSpace />
 
     <NaviBtn bef="mapandreduceandfilter" aft="mydecorator" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'DecoratorPage',
-};
-</script>

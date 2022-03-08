@@ -123,8 +123,6 @@
     <QuadSpace />
 
     <NaviBtn bef="forfunction" aft="oneliner" />
-
-    <QuadSpace />
   </div>
 </template>
 

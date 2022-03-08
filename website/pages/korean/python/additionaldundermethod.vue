@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="81" title="추가 던더메서드" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>__call__()</h2>
@@ -94,13 +92,5 @@
     <QuadSpace />
 
     <NaviBtn bef="dundermethod" aft="etcdundermethod" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'AdditionaDunderMethodPage',
-};
-</script>

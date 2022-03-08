@@ -25,11 +25,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="Do - While문" num="21" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -78,7 +74,5 @@
     <QuadSpace />
 
     <NaviBtn bef="doublefor" aft="inffor" />
-
-    <QuadSpace />
   </div>
 </template>

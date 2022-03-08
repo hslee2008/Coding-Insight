@@ -418,11 +418,7 @@
       </div>
     </v-bottom-sheet>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="3" title="VSCode 설치" />
-
-    <QuadSpace />
 
     <v-btn
       aria-label="Coding Insight Button"
@@ -723,8 +719,6 @@
     <QuadSpace />
 
     <NaviBtn bef="install" aft="io" />
-
-    <QuadSpace />
   </div>
 </template>
 

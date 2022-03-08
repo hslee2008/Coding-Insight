@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="49" title="파일" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -81,13 +77,5 @@
     <QuadSpace />
 
     <NaviBtn bef="math" aft="filereading" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'FilePage',
-};
-</script>

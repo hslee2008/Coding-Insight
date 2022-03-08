@@ -13,8 +13,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="38" title="Code in oneline"></Header-en>
 
     <QuadSpace />
@@ -86,8 +84,6 @@
     <QuadSpace />
 
     <NaviBtn bef="while" aft="etcfunction" />
-
-    <QuadSpace />
   </div>
 </template>
 

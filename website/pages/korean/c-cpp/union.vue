@@ -15,11 +15,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="UNION" num="35" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -62,7 +58,5 @@
     <QuadSpace />
 
     <NaviBtn bef="usingpointer" aft="void" />
-
-    <QuadSpace />
   </div>
 </template>

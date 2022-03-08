@@ -21,8 +21,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="18" title="List"></Header-en>
 
     <QuadSpace />
@@ -118,8 +116,6 @@
     <QuadSpace />
 
     <NaviBtn bef="nummethod" aft="listmethod1" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -18,8 +18,6 @@
 
     <Header type="파이썬" num="22" title="딕셔너리 메서드" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>딕셔너리 쌍 추가하기</h2>
@@ -124,13 +122,5 @@
     <QuadSpace />
 
     <NaviBtn bef="dictionary" aft="zipping" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'DictionaryMethodPage',
-};
-</script>

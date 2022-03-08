@@ -22,11 +22,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="48" title="수학 (통계)" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -123,8 +119,6 @@
     <QuadSpace />
 
     <NaviBtn bef="classmethod" aft="file" />
-
-    <QuadSpace />
   </div>
 </template>
 

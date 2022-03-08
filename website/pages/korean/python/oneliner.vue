@@ -12,11 +12,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="38" title="코드를 한 줄에" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -72,8 +68,6 @@
     <QuadSpace />
 
     <NaviBtn bef="while" aft="etcfunction" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -26,11 +26,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="포인터 기본" num="33" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -136,7 +132,5 @@
     <QuadSpace />
 
     <NaviBtn bef="struct" aft="usingpointer" />
-
-    <QuadSpace />
   </div>
 </template>

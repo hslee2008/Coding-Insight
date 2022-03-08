@@ -27,11 +27,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="58" title="정렬" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -88,13 +84,5 @@
     <QuadSpace />
 
     <NaviBtn bef="json" aft="array_type" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ArrayPage',
-};
-</script>

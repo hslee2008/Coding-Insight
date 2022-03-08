@@ -14,11 +14,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="10" title="문자열 메서드 2" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -121,8 +117,6 @@
     <QuadSpace />
 
     <NaviBtn bef="stringmethod1" aft="password" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

@@ -39,11 +39,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" title="조거문" num="26" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -124,13 +120,5 @@
     <QuadSpace />
 
     <NaviBtn bef="setmethod" aft="ifmaster" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'IfPage',
-};
-</script>

@@ -15,11 +15,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="NAMESPACE" num="9" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -92,7 +88,5 @@
     <QuadSpace />
 
     <NaviBtn bef="errorhandling" aft="endl" />
-
-    <QuadSpace />
   </div>
 </template>

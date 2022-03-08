@@ -147,7 +147,7 @@
             print(x)
           </code>
           center에서 첫 번째 숫자는 문자를 센터하는 ' '의 수이고 두 번째는
-          문자를 센터할 캐릭터입니다.<br /><br />
+          문자를 센터할 문자입니다.<br /><br />
           <code>
             txt = "Hello, World!"<br />
             x = txt.center(50, '|')<br />
@@ -160,8 +160,6 @@
     <QuadSpace />
 
     <NaviBtn bef="string" aft="stringmethod2" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

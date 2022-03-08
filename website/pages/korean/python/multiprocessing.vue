@@ -20,11 +20,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="76" title="멀티프로세싱" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -77,8 +73,6 @@
     <QuadSpace />
 
     <NaviBtn bef="threadmethod" aft="counter" />
-
-    <QuadSpace />
   </div>
 </template>
 

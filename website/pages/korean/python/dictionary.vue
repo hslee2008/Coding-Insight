@@ -45,11 +45,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="21" title="딕셔너리" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -149,8 +145,6 @@
     <QuadSpace />
 
     <NaviBtn bef="listmethod2" aft="dictionarymethod" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

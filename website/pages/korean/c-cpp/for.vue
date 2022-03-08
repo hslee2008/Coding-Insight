@@ -20,11 +20,7 @@
       </p>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="FOR 반복문" num="18" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -140,7 +136,5 @@
     <QuadSpace />
 
     <NaviBtn bef="switch" aft="while" />
-
-    <QuadSpace />
   </div>
 </template>

@@ -20,11 +20,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="61" title="에러 다루기" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -130,13 +126,5 @@
     <QuadSpace />
 
     <NaviBtn bef="array_shape" aft="error2" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ErrorPage',
-};
-</script>

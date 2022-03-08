@@ -37,11 +37,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="8" title="문자열" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -213,8 +209,6 @@
     <QuadSpace />
 
     <NaviBtn bef="comment" aft="stringmethod1" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

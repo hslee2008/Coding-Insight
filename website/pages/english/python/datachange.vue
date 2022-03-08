@@ -154,8 +154,6 @@
     <QuadSpace />
 
     <NaviBtn bef="contact2" aft="stringascode" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -4,8 +4,6 @@
 
     <Header type="C/C++" title="#error" num="41" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>#error</h2>
@@ -26,7 +24,5 @@
     <QuadSpace />
 
     <NaviBtn bef="otherif" aft="arrow" />
-
-    <QuadSpace />
   </div>
 </template>

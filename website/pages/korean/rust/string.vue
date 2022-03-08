@@ -139,16 +139,11 @@
       </svg>
     </div>
 
-    <QuadSpace />
-
     <Header type="Rust" title="str 데이터 형태" num="19" />
 
-    <QuadSpace />
-
-    <div>
-      <div>
-        <h2>str 데이터 형태</h2>
-        str 변수를 선언할 때 str을 사용하는 것이 아니라 '&str'를 대신 사용해야
+    <BasicCard
+      heading="str 데이터 형태"
+      :contents="` str 변수를 선언할 때 str을 사용하는 것이 아니라 '&str'를 대신 사용해야
         합니다.<br /><br />
 
         사실 Rust에는 str과 String 데이터 형태가 있는데 str은 ASCII를 사용하고
@@ -156,47 +151,28 @@
 
         UTF-8이란 ASCII보다 훨씬 더 많은 문자를 가지고 있습니다.<br /><br />
 
-        str은 binary (0과 1), stack ( 데이터가 끝에 들어가고 가장 위는 나가는
-        형식), heap (프로그래머가 코딩할 때 저장하는 모든 변수, 코드 등이
+        str: binary (0과 1)<br />
+        stack (데이터가 끝에 들어가고 가장 위는 나가는 형식)<br />
+        heap (프로그래머가 코딩할 때 저장하는 모든 변수, 코드 등이
         들어있는 메모리)이라는 저장소에 다 저장할 수 있어서 정확한 사이즈를
         몰라서 항상 '&'를 붙여야 합니다.<br /><br />
 
-        String은 heap에만 저장할 수 있습니다.
-      </div>
-    </div>
+        String은 heap에만 저장할 수 있습니다.`"
+    />
 
-    <QuadSpace />
-
-    <div>
-      <div>
-        <h2>&str과 String</h2>
-
-        &str은 <IC code='let vari: &str = ""' /> 형태로 변수를 선언하면 되고
-        String은 <IC code='let vari = String::from("")' />과 같이 선언하면
-        됩니다.<br /><br />
-
-        참고로 String에 &를 붙이면 &str로 변합니다.<br /><br />
-
-        &에 대해서는 나중에 더 자세히 배우겠습니다.<br /><br />
-
-        <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%26str%20%3D%20%22Hello%2C%20World!%22%3B%0D%0A%20%20%20%20let%20val2%20%3D%20String%3A%3Afrom(%22%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%20Rust%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%96%B8%EC%96%B4%20%EB%A1%9C%EA%B3%A0%EA%B0%80%20%EA%B2%8C%EC%9D%B8%EA%B1%B0%20%EC%95%8C%EC%95%98%EB%82%98%EC%9A%94%3F%3F%3F%20%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bval1%7D%22)%3B%0D%0A%20%20%20%20println!(%22%7Bval2%7D%22)%3B%0D%0A%7D"
-          width="100%"
-          height="400"
-        />
-      </div>
-    </div>
-
-    <QuadSpace />
+    <BasicExpDivWithOneIframe
+      heading="&str과 String"
+      :contents="[
+        'CODE:let vari: &str = \'\'',
+        '를 실행하면 &str 변수를 선언할 수 있습니다.',
+        'CODE:let vari = String::from(\'\')',
+        '는 String 변수를 만듭니다',
+        '참고로 String에 &를 붙이면 &str로 변합니다.',
+        '&에 대해서는 나중에 더 자세히 배우겠습니다.',
+      ]"
+      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%26str%20%3D%20%22Hello%2C%20World!%22%3B%0D%0A%20%20%20%20let%20val2%20%3D%20String%3A%3Afrom(%22%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%20Rust%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%96%B8%EC%96%B4%20%EB%A1%9C%EA%B3%A0%EA%B0%80%20%EA%B2%8C%EC%9D%B8%EA%B1%B0%20%EC%95%8C%EC%95%98%EB%82%98%EC%9A%94%3F%3F%3F%20%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bval1%7D%22)%3B%0D%0A%20%20%20%20println!(%22%7Bval2%7D%22)%3B%0D%0A%7D"
+    />
 
     <NaviBtn bef="char" aft="str-method" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'string',
-};
-</script>

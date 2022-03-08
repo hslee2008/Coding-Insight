@@ -17,11 +17,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="스토리지 클래스" num="30" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -142,7 +138,5 @@
     <QuadSpace />
 
     <NaviBtn bef="mainfunction" aft="typedef" />
-
-    <QuadSpace />
   </div>
 </template>

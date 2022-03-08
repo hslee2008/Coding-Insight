@@ -24,11 +24,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="45" title="정규식" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -80,9 +76,9 @@
 
     <div>
       <div>
-        <h2>정규식 캐릭터</h2>
+        <h2>정규식 문자</h2>
         <p>
-          정규식을 <b>진짜로</b> 사용하기 위해서는 다음과 같은 캐릭터를 이용해야
+          정규식을 <b>진짜로</b> 사용하기 위해서는 다음과 같은 문자를 이용해야
           합니다. 1. [a-b]<br />
           2. [abc]: a, b, 또는 c<br />
           3. [^abc]: a, b, c 제외<br />
@@ -98,8 +94,6 @@
     <QuadSpace />
 
     <NaviBtn bef="dice" aft="class" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -67,8 +67,6 @@
     <QuadSpace />
 
     <NaviBtn bef="request" aft="dundermethod" />
-
-    <QuadSpace />
   </div>
 </template>
 

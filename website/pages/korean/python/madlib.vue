@@ -36,11 +36,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="Proj - 1" title="매드립스 게임 만들기" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -132,8 +128,6 @@
     <QuadSpace />
 
     <NaviBtn bef="variable" aft="datatype" />
-
-    <QuadSpace />
   </div>
 </template>
 

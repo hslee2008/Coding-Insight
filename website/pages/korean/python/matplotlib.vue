@@ -28,11 +28,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" title="Matplotlib" num="88" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -269,8 +265,6 @@
     <QuadSpace />
 
     <NaviBtn bef="keyboard" aft="mouse" />
-
-    <QuadSpace />
   </div>
 </template>
 

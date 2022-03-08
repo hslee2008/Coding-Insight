@@ -97,8 +97,8 @@ export default {
     },
     {
       titleen: 'Rust Functions',
-      titlekr: 'Rust 함수',
-      json: 'rust_functions',
+      titlekr: 'Rust 함수와 모듈',
+      json: 'rust_funcymod',
     },
   ],
 };

@@ -89,13 +89,5 @@
     <QuadSpace />
 
     <NaviBtn bef="oneliner" aft="module" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'EtcFunctionPage',
-};
-</script>

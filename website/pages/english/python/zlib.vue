@@ -11,8 +11,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="65" title="zlib"></Header-en>
 
     <QuadSpace />
@@ -172,8 +170,6 @@
     <QuadSpace />
 
     <NaviBtn bef="mapandreduceandfilter" aft="decorator" />
-
-    <QuadSpace />
   </div>
 </template>
 

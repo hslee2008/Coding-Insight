@@ -17,11 +17,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="typedef" num="31" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -74,7 +70,5 @@
     <QuadSpace />
 
     <NaviBtn bef="storageclass" aft="struct" />
-
-    <QuadSpace />
   </div>
 </template>

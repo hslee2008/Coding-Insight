@@ -30,11 +30,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="86" title="자동 줌" />
-
-    <QuadSpace />
 
     <div class="text-center">
       <h2>코드</h2>
@@ -63,13 +59,5 @@
     <QuadSpace />
 
     <NaviBtn bef="spam" aft="keyboard" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'AutoZoomPage',
-};
-</script>

@@ -16,11 +16,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="void" num="36" />
-
-    <QuadSpace />
 
     <div>
       <h2>void main() {} 형태</h2>
@@ -56,7 +52,5 @@
     <QuadSpace />
 
     <NaviBtn bef="union" aft="include" />
-
-    <QuadSpace />
   </div>
 </template>

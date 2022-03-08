@@ -4,8 +4,6 @@
 
     <Header type="C/C++" title="VECTOR 메서드" num="5" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>마지막과 첫 번째 아이템</h2>
@@ -117,7 +115,5 @@
     <QuadSpace />
 
     <NaviBtn bef="vectorbasic" aft="stack" />
-
-    <QuadSpace />
   </div>
 </template>

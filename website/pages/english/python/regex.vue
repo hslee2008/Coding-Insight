@@ -27,8 +27,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="45" title="Regex"></Header-en>
 
     <QuadSpace />
@@ -123,8 +121,6 @@
     <QuadSpace />
 
     <NaviBtn bef="dice" aft="class" />
-
-    <QuadSpace />
   </div>
 </template>
 

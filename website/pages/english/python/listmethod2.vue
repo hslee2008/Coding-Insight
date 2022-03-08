@@ -107,8 +107,6 @@
 
     <NaviBtn bef="listmethod1" aft="dictionary" />
 
-    <QuadSpace />
-
     <div class="quiz">
       <h2>Solve This Quiz!!</h2>
 

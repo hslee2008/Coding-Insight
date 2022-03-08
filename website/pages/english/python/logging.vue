@@ -125,8 +125,6 @@
     <QuadSpace />
 
     <NaviBtn bef="error2" aft="mapandreduceandfilter" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="80" title="던더메서드" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -108,13 +104,5 @@
     <QuadSpace />
 
     <NaviBtn bef="requestmethod" aft="additionaldundermethod" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'DictionaryMethodPage',
-};
-</script>

@@ -166,13 +166,5 @@
     <QuadSpace />
 
     <NaviBtn bef="dictionary" aft="zipping" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'DictionaryMethodPage',
-};
-</script>

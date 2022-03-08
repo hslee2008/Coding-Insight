@@ -4,8 +4,6 @@
 
     <Header type="C/C++" title="기본 문법" num="13" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>main() 함수</h2>
@@ -34,7 +32,7 @@
         <h2>;(세미콜론)</h2>
         <p>
           ;는 세미콜론이라고 하고 항상 C 언어에서 코드 다음에 넣어야 하는
-          케릭터입니다.<br /><br />
+          문자입니다.<br /><br />
 
           세미콜론은 C 언어에게 어디에서 코드가 끝나는지 알려줍니다.<br /><br />
 
@@ -72,7 +70,5 @@
     <QuadSpace />
 
     <NaviBtn bef="comment" aft="escapecharacter" />
-
-    <QuadSpace />
   </div>
 </template>

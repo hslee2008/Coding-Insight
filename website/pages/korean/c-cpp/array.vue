@@ -24,11 +24,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="배열" num="24" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -147,7 +143,5 @@
     <QuadSpace />
 
     <NaviBtn bef="conbregot" aft="string" />
-
-    <QuadSpace />
   </div>
 </template>

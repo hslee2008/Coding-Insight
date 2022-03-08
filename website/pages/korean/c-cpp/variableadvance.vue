@@ -4,8 +4,6 @@
 
     <Header type="C/C++" title="변수 - 고급" num="6" />
 
-    <QuadSpace />
-
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
         <h2>많은 변수를 동시에 선언하는 방법</h2>
@@ -98,7 +96,5 @@
     <QuadSpace />
 
     <NaviBtn bef="variable" aft="input" />
-
-    <QuadSpace />
   </div>
 </template>

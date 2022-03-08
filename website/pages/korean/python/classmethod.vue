@@ -20,11 +20,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="47" title="클래스 메서드" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -136,13 +132,5 @@
     <QuadSpace />
 
     <NaviBtn bef="class" aft="math" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ClassMethodPage',
-};
-</script>

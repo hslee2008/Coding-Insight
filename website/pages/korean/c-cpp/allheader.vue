@@ -14,11 +14,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="bits/stdc++.h" num="7" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -144,7 +140,5 @@
     <QuadSpace />
 
     <NaviBtn bef="stack" aft="errorhandling" />
-
-    <QuadSpace />
   </div>
 </template>

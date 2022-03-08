@@ -1,25 +1,28 @@
 <template>
-  <div>
-    <NuxtLink
-      aria-label="BeforeButton"
-      :to="!bef.startsWith('/') ? './' + bef : bef"
-      style="text-decoration: none; float: left"
-    >
-      <v-btn aria-label="Coding Insight Button" class="ma-2" outlined ripple>
-        <v-icon left> mdi-arrow-left-circle-outline </v-icon>Back
-      </v-btn>
-    </NuxtLink>
+  <v-card style="background-color: rgb(0, 0, 0, 0); margin-bottom: 50px">
+    <v-card-contents>
+      <v-card-text>
+        <v-btn
+          aria-label="Coding Insight Button"
+          :to="!bef.startsWith('/') ? './' + bef : bef"
+          outlined
+          ripple
+        >
+          <v-icon left> mdi-menu-left </v-icon>Back
+        </v-btn>
 
-    <NuxtLink
-      aria-label="NextButton"
-      :to="aft"
-      style="text-decoration: none; float: right"
-    >
-      <v-btn aria-label="Coding Insight Button" class="ma-2" outlined ripple>
-        Next<v-icon right> mdi-arrow-right-circle-outline</v-icon>
-      </v-btn>
-    </NuxtLink>
-  </div>
+        <v-btn
+          aria-label="Coding Insight Button"
+          :to="aft"
+          outlined
+          ripple
+          style="float: right"
+        >
+          Next<v-icon right> mdi-menu-right</v-icon>
+        </v-btn>
+      </v-card-text>
+    </v-card-contents>
+  </v-card>
 </template>
 
 <script>

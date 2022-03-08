@@ -19,8 +19,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="Proj: 8" title="Friend List v2"></Header-en>
 
     <QuadSpace />
@@ -51,14 +49,7 @@
     <QuadSpace />
 
     <NaviBtn bef="contextmanager" aft="datachange" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Contact2Page',
-};
-</script>
 `

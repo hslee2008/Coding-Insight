@@ -4,8 +4,6 @@
 
     <Header type="C/C++" title="endl" num="10" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>나만의 namespace</h2>
@@ -41,7 +39,5 @@
     <QuadSpace />
 
     <NaviBtn bef="namespace" aft="class" />
-
-    <QuadSpace />
   </div>
 </template>

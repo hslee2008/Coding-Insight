@@ -25,8 +25,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="51" title="File Writing"></Header-en>
 
     <QuadSpace />
@@ -89,8 +87,6 @@
     <QuadSpace />
 
     <NaviBtn bef="filereading" aft="etcfile" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>Solve This Quiz!!</h2>

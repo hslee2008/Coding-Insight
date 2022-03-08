@@ -26,11 +26,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="14" title="숫자" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -137,8 +133,6 @@
     <QuadSpace />
 
     <NaviBtn bef="boolean" aft="operator" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

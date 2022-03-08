@@ -69,13 +69,5 @@
     <QuadSpace />
 
     <NaviBtn bef="type" aft="for" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'AnonymousFunctionPage',
-};
-</script>

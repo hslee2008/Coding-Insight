@@ -28,11 +28,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="함수" num="28" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -179,7 +175,5 @@
     <QuadSpace />
 
     <NaviBtn bef="2darr" aft="mainfunction" />
-
-    <QuadSpace />
   </div>
 </template>

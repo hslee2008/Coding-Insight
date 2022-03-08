@@ -22,11 +22,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="2차원 배열" num="27" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -85,7 +81,5 @@
     <QuadSpace />
 
     <NaviBtn bef="stringlibrary" aft="function" />
-
-    <QuadSpace />
   </div>
 </template>

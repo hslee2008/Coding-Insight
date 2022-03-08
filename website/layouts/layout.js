@@ -1541,7 +1541,7 @@ export default {
     },
     {
       icon: 'account-arrow-left',
-      title: '빌리고 역참조',
+      title: '빌리기와 역참조',
       to: '/korean/rust/borrow-dereference',
     },
   ],
@@ -1577,7 +1577,7 @@ export default {
       to: '/korean/rust/if-let',
     },
   ],
-  rust_functions: [
+  rust_funcymod: [
     {
       icon: 'function-variant',
       title: '함수',

@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="79" title="리퀘스트 메서드" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>상태</h2>
@@ -63,8 +61,6 @@
     <QuadSpace />
 
     <NaviBtn bef="request" aft="dundermethod" />
-
-    <QuadSpace />
   </div>
 </template>
 

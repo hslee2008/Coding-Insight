@@ -26,11 +26,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="89" title="마우스" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -108,8 +104,6 @@
     <QuadSpace />
 
     <NaviBtn bef="matplotlib" aft="turtle" />
-
-    <QuadSpace />
   </div>
 </template>
 

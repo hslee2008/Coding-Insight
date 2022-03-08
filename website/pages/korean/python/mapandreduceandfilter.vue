@@ -26,11 +26,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="64" title="map, reduce, filter" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -148,8 +144,6 @@
     <QuadSpace />
 
     <NaviBtn bef="logging" aft="zlib" />
-
-    <QuadSpace />
   </div>
 </template>
 

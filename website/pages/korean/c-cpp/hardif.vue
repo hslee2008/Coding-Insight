@@ -4,8 +4,6 @@
 
     <Header type="C/C++" title="조건문 (자세히)" num="16" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>if - else</h2>
@@ -128,7 +126,5 @@
     <QuadSpace />
 
     <NaviBtn bef="if" aft="switch" />
-
-    <QuadSpace />
   </div>
 </template>

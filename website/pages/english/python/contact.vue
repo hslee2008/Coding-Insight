@@ -27,8 +27,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="Proj: 4" title="Contact List"></Header-en>
 
     <QuadSpace />
@@ -78,14 +76,7 @@
     <QuadSpace />
 
     <NaviBtn bef="listmethod2" aft="dictionary" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'ContactPage',
-};
-</script>
 `

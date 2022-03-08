@@ -24,8 +24,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="15" title="Operator"></Header-en>
 
     <QuadSpace />
@@ -119,8 +117,6 @@
     <QuadSpace />
 
     <NaviBtn bef="number" aft="numtype" />
-
-    <QuadSpace />
   </div>
 </template>
 <script>

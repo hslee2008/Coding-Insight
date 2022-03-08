@@ -36,11 +36,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="25" title="집합 메서드" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -138,8 +134,6 @@
     <QuadSpace />
 
     <NaviBtn bef="set" aft="if" />
-
-    <QuadSpace />
   </div>
 </template>
 

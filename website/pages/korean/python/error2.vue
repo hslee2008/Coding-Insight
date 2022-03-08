@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="62" title="에러" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>에러 메시지</h2>
@@ -78,13 +76,5 @@
     <QuadSpace />
 
     <NaviBtn bef="error" aft="logging" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'Error2Page',
-};
-</script>

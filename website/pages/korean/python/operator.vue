@@ -33,11 +33,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="15" title="연산자" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -117,8 +113,6 @@
     <QuadSpace />
 
     <NaviBtn bef="number" aft="numtype" />
-
-    <QuadSpace />
   </div>
 </template>
 

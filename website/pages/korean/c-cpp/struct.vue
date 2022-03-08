@@ -20,11 +20,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="STRUCT 구조체" num="32" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -139,7 +135,5 @@
     <QuadSpace />
 
     <NaviBtn bef="typedef" aft="pointer" />
-
-    <QuadSpace />
   </div>
 </template>

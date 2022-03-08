@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="66" title="데코레이터" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -128,13 +124,5 @@
     <QuadSpace />
 
     <NaviBtn bef="zlib" aft="mydecorator" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'DecoratorPage',
-};
-</script>

@@ -21,8 +21,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="84" title="Coroutine"></Header-en>
 
     <QuadSpace />
@@ -58,13 +56,5 @@
     <QuadSpace />
 
     <NaviBtn bef="atexit" aft="spam" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'CoroutinePage',
-};
-</script>

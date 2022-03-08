@@ -23,11 +23,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="while문" num="19" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -110,7 +106,5 @@
     <QuadSpace />
 
     <NaviBtn bef="for" aft="doublefor" />
-
-    <QuadSpace />
   </div>
 </template>

@@ -24,11 +24,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="MAIN 함수" num="29" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -79,7 +75,5 @@
     <QuadSpace />
 
     <NaviBtn bef="function" aft="storageclass" />
-
-    <QuadSpace />
   </div>
 </template>

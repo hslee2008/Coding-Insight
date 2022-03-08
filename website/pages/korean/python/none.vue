@@ -14,11 +14,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" title="None" num="24" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -45,8 +41,6 @@
     <QuadSpace />
 
     <NaviBtn bef="password-safe" aft="function" />
-
-    <QuadSpace />
   </div>
 </template>
 

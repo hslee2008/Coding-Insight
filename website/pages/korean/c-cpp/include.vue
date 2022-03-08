@@ -22,11 +22,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="#include" num="37" />
-
-    <QuadSpace />
 
     <div>
       <h2>나만의 라이브러리 만들기</h2>
@@ -47,7 +43,5 @@
     <QuadSpace />
 
     <NaviBtn bef="void" aft="assert" />
-
-    <QuadSpace />
   </div>
 </template>

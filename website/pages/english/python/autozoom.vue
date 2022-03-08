@@ -26,8 +26,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="86" title="Auto Zoom"></Header-en>
 
     <QuadSpace />
@@ -59,13 +57,5 @@
     <QuadSpace />
 
     <NaviBtn bef="spam" aft="keyboard" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'AutoZoomPage',
-};
-</script>

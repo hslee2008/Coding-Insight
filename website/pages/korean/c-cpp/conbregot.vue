@@ -4,8 +4,6 @@
 
     <Header type="C/C++" title="Continue, Break, Goto" num="23" />
 
-    <QuadSpace />
-
     <div>
       <div style="margin: auto">
         <h2>break</h2>
@@ -73,7 +71,5 @@
     <QuadSpace />
 
     <NaviBtn bef="inffor" aft="array" />
-
-    <QuadSpace />
   </div>
 </template>

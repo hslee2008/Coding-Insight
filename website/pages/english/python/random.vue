@@ -22,8 +22,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="44" title="Random"></Header-en>
 
     <QuadSpace />
@@ -136,8 +134,6 @@
     <QuadSpace />
 
     <NaviBtn bef="date" aft="dice" />
-
-    <QuadSpace />
   </div>
 </template>
 

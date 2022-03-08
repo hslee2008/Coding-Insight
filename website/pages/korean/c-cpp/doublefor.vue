@@ -18,11 +18,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="이중 반복문" num="20" />
-
-    <QuadSpace />
 
     <div>
       <h2>예시 - 구구단 출력하기</h2>
@@ -70,7 +66,5 @@
     <QuadSpace />
 
     <NaviBtn bef="while" aft="dowhile" />
-
-    <QuadSpace />
   </div>
 </template>

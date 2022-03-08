@@ -22,11 +22,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="무한 반복문" num="22" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -81,7 +77,5 @@
     <QuadSpace />
 
     <NaviBtn bef="dowhile" aft="conbregot" />
-
-    <QuadSpace />
   </div>
 </template>

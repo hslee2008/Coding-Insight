@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="44" title="랜덤" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -99,8 +95,6 @@
     <QuadSpace />
 
     <NaviBtn bef="date" aft="dice" />
-
-    <QuadSpace />
   </div>
 </template>
 

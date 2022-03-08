@@ -18,11 +18,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="형태 변형" num="10" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -62,7 +58,5 @@
     <QuadSpace />
 
     <NaviBtn bef="otherdatatype" aft="operator" />
-
-    <QuadSpace />
   </div>
 </template>

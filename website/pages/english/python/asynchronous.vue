@@ -23,8 +23,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="70" title="Asynchronous"></Header-en>
 
     <QuadSpace />
@@ -74,13 +72,5 @@
     <QuadSpace />
 
     <NaviBtn bef="newline" aft="asyncio" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'asynchronousPage',
-};
-</script>

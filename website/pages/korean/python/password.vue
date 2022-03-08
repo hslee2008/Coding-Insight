@@ -25,11 +25,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="Proj: 2" title="암호 프로그램" />
-
-    <QuadSpace />
 
     <div>
       <h2>프로그램 설명</h2>
@@ -74,14 +70,7 @@
     <QuadSpace />
 
     <NaviBtn bef="stringmethod2" aft="escapechar" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'PasswordPage',
-};
-</script>
 `

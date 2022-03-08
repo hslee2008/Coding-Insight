@@ -4,8 +4,6 @@
 
     <Header type="Rust" title="Rust 설치" num="2" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>C++ Build Tools</h2>
@@ -60,13 +58,5 @@
     <QuadSpace />
 
     <NaviBtn bef="/korean/rust/" aft="print" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'RustIndexPage',
-};
-</script>

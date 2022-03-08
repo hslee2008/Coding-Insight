@@ -19,11 +19,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="파일 다루기" num="47" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -83,7 +79,5 @@
     <QuadSpace />
 
     <NaviBtn bef="math" aft="readfile" />
-
-    <QuadSpace />
   </div>
 </template>

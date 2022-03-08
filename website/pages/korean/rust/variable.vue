@@ -20,11 +20,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="Rust" title="변수" num="7" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">
@@ -50,54 +46,27 @@
 
     <QuadSpace />
 
-    <div>
-      <div>
-        <h2>규칙 :(</h2>
-        <p>
-          변수를 만들 때 변수 이름에 특정한 규칙을 따르는 것이 좋습니다.<br /><br />
+    <BasicCard
+      heading="변수 이름 규칙"
+      :contents="`변수를 만들 때 변수 이름에 특정한 규칙을 따르는 것이 좋습니다.<br /><br />
 
           1. 영어, 한국어, 숫자만 사용할 수 있습니다.<br />
           2. 영어로 시작해야 합니다.<br />
-          3. _도 사용 가능합니다.
-        </p>
-      </div>
-    </div>
+          3. _도 사용 가능합니다.`"
+    />
 
-    <QuadSpace />
-
-    <div>
-      <div>
-        <h2>변수 출력</h2>
-        <p>
-          Rust에서 변수를 출력하는 방법을 알아보겠습니다.<br /><br />
-
-          원래 쉽게 출력하기 위해서 <IC code="println!()" /> 사이에
-          넣었습니다.<br /><br />
-
-          변수를 사용하기 위해서는 <IC code="{}" /> 사이에 변수 이름을 넣으면
-          됩니다.<br /><br />
-
-          또는 '' 사이에 먼저 <IC code="{}" />를 넣고 '' 다음에 변수 이름을
-          넣어도 됩니다.
-        </p>
-      </div>
-      <iframe
-        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20language%20%3D%20%22Rust%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7Blanguage%7D%22)%3B%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7B%7D%22%2C%20language)%3B%0A%7D"
-        width="100%"
-        height="400"
-      />
-    </div>
-
-    <QuadSpace />
+    <BasicExpDivWithOneIframe
+      heading="변수 출력"
+      :contents="[
+        'Rust에서 변수를 출력하는 방법을 알아보겠습니다.',
+        'CODE:println!()',
+        '안에서 쉽게 출력하기 위해 괄호 사이에 넣었습니다.',
+        '변수를 사용하기 위해서는 {} 사이에 변수 이름을 넣으면 됩니다.',
+        '또는 \'\' 사이에 먼저 {}를 넣고 \'\' 다음에 변수 이름을 넣어도 됩니다.',
+      ]"
+      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20language%20%3D%20%22Rust%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7Blanguage%7D%22)%3B%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7B%7D%22%2C%20language)%3B%0A%7D"
+    />
 
     <NaviBtn bef="comment" aft="mutable" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'RustVariablePage',
-};
-</script>

@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="파일 읽기" num="48" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -60,7 +56,5 @@
     <QuadSpace />
 
     <NaviBtn bef="file" aft="writefile" />
-
-    <QuadSpace />
   </div>
 </template>

@@ -80,8 +80,6 @@
 
     <NaviBtn bef="filewriting" aft="contextmanager" />
 
-    <QuadSpace />
-
     <div class="quiz">
       <h2>Solve this quiz!!</h2>
 

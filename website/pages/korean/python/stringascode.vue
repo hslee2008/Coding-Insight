@@ -22,11 +22,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="55" title="문자열을 코드로" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -132,8 +128,6 @@
     <QuadSpace />
 
     <NaviBtn bef="datachange" aft="pip" />
-
-    <QuadSpace />
   </div>
 </template>
 

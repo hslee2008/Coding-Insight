@@ -10,11 +10,7 @@
       </p>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="이스케이프 문자" num="14" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -94,7 +90,5 @@
     <QuadSpace />
 
     <NaviBtn bef="grammar" aft="if" />
-
-    <QuadSpace />
   </div>
 </template>

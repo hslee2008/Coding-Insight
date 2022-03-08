@@ -4,8 +4,6 @@
 
     <Header num="75" title="스레드 메서드" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>daemon</h2>
@@ -55,8 +53,6 @@
     <QuadSpace />
 
     <NaviBtn bef="complexthread" aft="multiprocessing" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -16,8 +16,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="55" title="String as code"></Header-en>
 
     <QuadSpace />
@@ -131,8 +129,6 @@
     <QuadSpace />
 
     <NaviBtn bef="datachange" aft="pip" />
-
-    <QuadSpace />
   </div>
 </template>
 

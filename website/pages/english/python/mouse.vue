@@ -28,8 +28,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="89" title="Mouse"></Header-en>
 
     <QuadSpace />
@@ -112,8 +110,6 @@
     <QuadSpace />
 
     <NaviBtn bef="matplotlib" aft="turtle" />
-
-    <QuadSpace />
   </div>
 </template>
 

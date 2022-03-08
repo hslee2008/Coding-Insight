@@ -18,8 +18,6 @@
 
     <Header type="파이썬" title="리스트 메서드 2" num="20" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>리스트 정리하기</h2>
@@ -127,8 +125,6 @@
     <QuadSpace />
 
     <NaviBtn bef="listmethod1" aft="dictionary" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

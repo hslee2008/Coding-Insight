@@ -27,11 +27,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="Proj: 6" title="암호 프로그램 (더 안전한)" />
-
-    <QuadSpace />
 
     <div>
       <h2>프로그램 설명</h2>
@@ -81,14 +77,7 @@
     <QuadSpace />
 
     <NaviBtn bef="ifmaster" aft="none" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'PasswordPage',
-};
-</script>
 `

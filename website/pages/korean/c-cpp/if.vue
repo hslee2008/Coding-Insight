@@ -29,11 +29,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="조건문" num="15" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -143,7 +139,5 @@
     <QuadSpace />
 
     <NaviBtn bef="escapecharacter" aft="hardif" />
-
-    <QuadSpace />
   </div>
 </template>

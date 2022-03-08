@@ -19,8 +19,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="72" title="__name__"></Header-en>
 
     <QuadSpace />
@@ -71,13 +69,5 @@
     <QuadSpace />
 
     <NaviBtn bef="asyncio" aft="thread" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'NamePage',
-};
-</script>

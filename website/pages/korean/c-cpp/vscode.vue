@@ -82,11 +82,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="VSCode 설치" num="3" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -212,7 +208,5 @@
     <QuadSpace />
 
     <NaviBtn bef="install" aft="print" />
-
-    <QuadSpace />
   </div>
 </template>

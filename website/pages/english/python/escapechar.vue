@@ -36,8 +36,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="11" title="Escacpe Character"></Header-en>
 
     <QuadSpace />

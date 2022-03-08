@@ -137,7 +137,5 @@
     <QuadSpace />
 
     <NaviBtn bef="vectormethod" aft="allheader" />
-
-    <QuadSpace />
   </div>
 </template>

@@ -1,5 +1,7 @@
 <template>
   <div class="text-center">
+    <QuadSpace />
+
     <v-divider />
     <br />
     <v-btn
@@ -26,6 +28,8 @@
     </h1>
     <br />
     <v-divider />
+
+    <QuadSpace />
   </div>
 </template>
 

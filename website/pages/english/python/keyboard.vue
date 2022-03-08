@@ -20,8 +20,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="87" title="Keyboard"></Header-en>
 
     <QuadSpace />
@@ -52,8 +50,6 @@
     <QuadSpace />
 
     <NaviBtn bef="autozoom" aft="matplotlib" />
-
-    <QuadSpace />
   </div>
 </template>
 

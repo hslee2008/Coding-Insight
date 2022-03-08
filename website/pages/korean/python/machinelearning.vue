@@ -26,11 +26,7 @@
       </v-card-text>
     </v-card>
 
-    <QuadSpace />
-
     <Header type="Python" title="머신 러닝" num="Special Class 1" />
-
-    <QuadSpace />
 
     <v-alert
       dismissible

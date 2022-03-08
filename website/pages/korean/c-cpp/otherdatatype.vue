@@ -48,9 +48,8 @@
           unsigned long int와 unsigned long long int는 각 0부터 4294967295,
           0부터 18446744073709551615까지 '%lu'와 '%llu'를 사용합니다.<br /><br />
 
-          signed char은 조금 더 긴 char를 뜻합니다. 케릭터 하나는 0부터
-          255까지의 값을 가질 수 있지만 signed char는 -128부터 127까지
-          가능합니다.<br /><br />
+          signed char은 조금 더 긴 char를 뜻합니다. 문자 하나는 0부터 255까지의
+          값을 가질 수 있지만 signed char는 -128부터 127까지 가능합니다.<br /><br />
 
           <code>
             #include &lt;stdio.h><br /><br />
@@ -74,7 +73,5 @@
     <QuadSpace />
 
     <NaviBtn bef="basicdatatype" aft="typecasting" />
-
-    <QuadSpace />
   </div>
 </template>

@@ -34,8 +34,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="64" title="map, reduce, filter"></Header-en>
 
     <QuadSpace />
@@ -157,8 +155,6 @@
     <QuadSpace />
 
     <NaviBtn bef="logging" aft="zlib" />
-
-    <QuadSpace />
   </div>
 </template>
 

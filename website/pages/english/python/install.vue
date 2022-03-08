@@ -19,8 +19,6 @@
       </p>
     </div>
 
-    <QuadSpace />
-
     <Header-en
       type="Python"
       num="2"
@@ -455,8 +453,6 @@
     <QuadSpace />
 
     <NaviBtn bef="/english/python/" aft="vscode" />
-
-    <QuadSpace />
   </div>
 </template>
 

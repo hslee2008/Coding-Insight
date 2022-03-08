@@ -15,8 +15,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="40" title="Module"></Header-en>
 
     <QuadSpace />
@@ -122,8 +120,6 @@
     <QuadSpace />
 
     <NaviBtn bef="etcfunction" aft="modulemaster" />
-
-    <QuadSpace />
   </div>
 </template>
 

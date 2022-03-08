@@ -17,11 +17,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="Proj: 8" title="주사위" />
-
-    <QuadSpace />
 
     <div>
       <h2>주사위 프로젝트</h2>
@@ -53,14 +49,7 @@
     <QuadSpace />
 
     <NaviBtn bef="random" aft="regex" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'HackingPage',
-};
-</script>
 `

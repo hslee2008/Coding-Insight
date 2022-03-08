@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="41" title="모듈 마스터하기" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>나만의 모듈 만들기</h2>
@@ -122,8 +120,6 @@
     <QuadSpace />
 
     <NaviBtn bef="module" aft="pythonmodule" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -24,11 +24,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="화살표 키워드" num="42" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -59,7 +55,5 @@
     <QuadSpace />
 
     <NaviBtn bef="error" aft="random" />
-
-    <QuadSpace />
   </div>
 </template>

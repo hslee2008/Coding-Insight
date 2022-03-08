@@ -71,13 +71,5 @@
     <QuadSpace />
 
     <NaviBtn bef="fortype" aft="while" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ForFunctionPage',
-};
-</script>

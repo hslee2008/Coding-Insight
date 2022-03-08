@@ -36,8 +36,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="60" title="Array Shape"></Header-en>
 
     <QuadSpace />
@@ -79,13 +77,5 @@
     <QuadSpace />
 
     <NaviBtn bef="array_type" aft="error" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ArrayShapePage',
-};
-</script>

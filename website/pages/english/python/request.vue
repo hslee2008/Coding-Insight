@@ -22,8 +22,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="78" title="Request"></Header-en>
 
     <QuadSpace />
@@ -127,8 +125,6 @@
     <QuadSpace />
 
     <NaviBtn bef="counter" aft="requestmethod" />
-
-    <QuadSpace />
   </div>
 </template>
 

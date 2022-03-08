@@ -135,8 +135,6 @@
     <br /><br /><br />
 
     <NaviBtn bef="if" aft="password-safe" />
-
-    <QuadSpace />
   </div>
 </template>
 

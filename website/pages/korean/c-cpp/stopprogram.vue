@@ -13,11 +13,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="프로그램 중단" num="43" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -87,7 +83,5 @@
     <QuadSpace />
 
     <NaviBtn bef="ctype" aft="math" />
-
-    <QuadSpace />
   </div>
 </template>

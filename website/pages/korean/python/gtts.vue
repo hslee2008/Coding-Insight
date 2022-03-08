@@ -24,11 +24,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="92" title="gTTS" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -79,13 +75,5 @@
     <QuadSpace />
 
     <NaviBtn bef="pandas" aft="finished" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'GttsPage',
-};
-</script>

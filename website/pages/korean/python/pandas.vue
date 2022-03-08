@@ -22,11 +22,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="91" title="판다스" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -221,8 +217,6 @@
     <QuadSpace />
 
     <NaviBtn bef="turtle" aft="gtts" />
-
-    <QuadSpace />
   </div>
 </template>
 

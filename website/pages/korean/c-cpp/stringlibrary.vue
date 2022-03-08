@@ -28,11 +28,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="문자열 라이브러리" num="26" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -106,7 +102,5 @@
     <QuadSpace />
 
     <NaviBtn bef="string" aft="2darr" />
-
-    <QuadSpace />
   </div>
 </template>

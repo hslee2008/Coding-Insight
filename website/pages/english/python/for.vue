@@ -16,8 +16,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="34" title="For Loop"></Header-en>
 
     <QuadSpace />
@@ -220,13 +218,5 @@
     <QuadSpace />
 
     <NaviBtn bef="anonymousfunction" aft="fortype" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ForPage',
-};
-</script>

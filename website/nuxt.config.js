@@ -82,10 +82,6 @@ export default {
         rel: 'apple-touch-icon',
         href: '/favicon.ico',
       },
-      {
-        rel: 'manifest',
-        href: '/manifest.json',
-      },
     ],
   },
 
@@ -96,13 +92,17 @@ export default {
   ],
 
   // https://go.nuxtjs.dev/config-plugins
-  plugins: ['./plugins/firebase_database.js'],
+  plugins: [],
 
   // https://go.nuxtjs.dev/config-components
   components: true,
 
+  components: {
+    dirs: ['~/components', '~/components/content/'],
+  },
+
   // https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify'],
+  buildModules: ['@nuxtjs/vuetify'],
 
   vue: {
     config: {
@@ -192,7 +192,15 @@ export default {
       dir: 'rtl',
       id: '/index.html',
       author: ['Hyunseung', 'Juha', 'Gun'],
-      categories: ['python', 'c', 'c++', 'rust', 'programming', 'coding-insight', 'python-factory'],
+      categories: [
+        'python',
+        'c',
+        'c++',
+        'rust',
+        'programming',
+        'coding-insight',
+        'python-factory',
+      ],
       theme_color: '#20232a',
       background_color: '#20232a',
       display: 'minimal-ui',
@@ -201,66 +209,66 @@ export default {
       prefer_related_applications: false,
       related_applications: [
         {
-          platform: "webapp",
-          url: "https://www.coding-insight.com",
-          id: "com.Coding-Insight.app"
-        }
+          platform: 'webapp',
+          url: 'https://www.coding-insight.com',
+          id: 'com.Coding-Insight.app',
+        },
       ],
       orientation: 'portrait',
       icons: [
         {
           src: '/pwa/256x256.png',
           sizes: '256x256',
-          type: "image/png",
+          type: 'image/png',
           purpose: 'any',
         },
         {
           src: '/pwa/192x192.png',
           sizes: '192x192',
-          type: "image/png",
+          type: 'image/png',
           purpose: 'any',
         },
         {
           src: '/icon.png',
           sizes: '512x512',
-          type: "image/png",
+          type: 'image/png',
           purpose: 'any maskable',
         },
       ],
       screenshots: [
         {
-          src: "/pwa/screenshot-home.png",
-          sizes: "1280x800",
-          type: "image/png",
+          src: '/pwa/screenshot-home.png',
+          sizes: '1280x800',
+          type: 'image/png',
         },
         {
-          src: "/pwa/screenshot-mobile-home.png",
-          sizes: "750x1334",
-          type: "image/png",
-        }
+          src: '/pwa/screenshot-mobile-home.png',
+          sizes: '750x1334',
+          type: 'image/png',
+        },
       ],
-      shortcuts : [
+      shortcuts: [
         {
-          name: "파이썬",
-          url: "/korean/python",
-          description: "파이썬 프로그래밍 언어 배우기"
+          name: '파이썬',
+          url: '/korean/python',
+          description: '파이썬 프로그래밍 언어 배우기',
         },
         {
-          name: "Python",
-          url: "/english/python",
-          description: "Learn Python Programming Language"
+          name: 'Python',
+          url: '/english/python',
+          description: 'Learn Python Programming Language',
         },
         {
-          name: "C/C++",
-          url: "/korean/c-cpp",
-          description: "Learn C/C++ Programming Language"
+          name: 'C/C++',
+          url: '/korean/c-cpp',
+          description: 'Learn C/C++ Programming Language',
         },
         {
-          name: "Rust",
-          url: "/korean/rust",
-          description: "Rust 프로그래밍 언어 배우기"
-        }
-      ]
+          name: 'Rust',
+          url: '/korean/rust',
+          description: 'Rust 프로그래밍 언어 배우기',
+        },
+      ],
     },
   },
 

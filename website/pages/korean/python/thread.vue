@@ -30,11 +30,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="73" title="스레드" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -123,8 +119,6 @@
     <QuadSpace />
 
     <NaviBtn bef="name" aft="complexthread" />
-
-    <QuadSpace />
   </div>
 </template>
 

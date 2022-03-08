@@ -37,11 +37,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="계승" num="15" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -93,7 +89,5 @@
     <QuadSpace />
 
     <NaviBtn bef="accessspecifier" aft="file-cpp" />
-
-    <QuadSpace />
   </div>
 </template>

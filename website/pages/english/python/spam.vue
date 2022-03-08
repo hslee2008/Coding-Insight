@@ -18,8 +18,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="85" title="Spam Email"></Header-en>
 
     <QuadSpace />
@@ -65,8 +63,6 @@
     <QuadSpace />
 
     <NaviBtn bef="coroutine" aft="autozoom" />
-
-    <QuadSpace />
   </div>
 </template>
 

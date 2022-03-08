@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="39" title="다양한 함수" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>quit()과 exit()</h2>
@@ -57,13 +55,5 @@
     <QuadSpace />
 
     <NaviBtn bef="oneliner" aft="module" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'EtcFunctionPage',
-};
-</script>

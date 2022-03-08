@@ -37,11 +37,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="출력 (C++)" num="2" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -147,7 +143,5 @@
     <QuadSpace />
 
     <NaviBtn bef="cpp" aft="string-cpp" />
-
-    <QuadSpace />
   </div>
 </template>

@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="52" title="파일 만들기, 삭제하기, encoding" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>파일 만들기</h2>
@@ -66,8 +64,6 @@
     <QuadSpace />
 
     <NaviBtn bef="filewriting" aft="contextmanager" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

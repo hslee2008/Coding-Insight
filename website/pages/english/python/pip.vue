@@ -19,8 +19,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="56" title="PIP"></Header-en>
 
     <QuadSpace />
@@ -100,8 +98,6 @@
     <QuadSpace />
 
     <NaviBtn bef="stringascode" aft="json" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -27,8 +27,6 @@
 
     <Header type="파이썬" num="63" title="로깅" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>INFO</h2>
@@ -97,8 +95,6 @@
     <QuadSpace />
 
     <NaviBtn bef="error2" aft="mapandreduceandfilter" />
-
-    <QuadSpace />
   </div>
 </template>
 

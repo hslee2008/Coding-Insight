@@ -135,12 +135,5 @@
     <QuadSpace />
 
     <NaviBtn bef="setmethod" aft="ifmaster" />
-
-    <QuadSpace />
   </div>
 </template>
-<script>
-export default {
-  name: 'IfPage',
-};
-</script>

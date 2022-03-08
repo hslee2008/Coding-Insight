@@ -19,11 +19,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="파일 쓰기" num="49" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -74,7 +70,5 @@
     <QuadSpace />
 
     <NaviBtn bef="readfile" aft="deletefile" />
-
-    <QuadSpace />
   </div>
 </template>

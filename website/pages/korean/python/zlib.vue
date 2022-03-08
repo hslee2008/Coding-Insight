@@ -11,11 +11,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="65" title="zlib" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -152,8 +148,6 @@
     <QuadSpace />
 
     <NaviBtn bef="mapandreduceandfilter" aft="decorator" />
-
-    <QuadSpace />
   </div>
 </template>
 

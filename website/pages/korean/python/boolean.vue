@@ -34,11 +34,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="13" title="불리언" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div class="mx-auto">
@@ -149,8 +145,6 @@
     <QuadSpace />
 
     <NaviBtn bef="ascii" aft="number" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

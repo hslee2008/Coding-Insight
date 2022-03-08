@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="33" title="익명함수" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>익명 함수란?</h2>
@@ -63,13 +61,5 @@
     <QuadSpace />
 
     <NaviBtn bef="type" aft="for" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'AnonymousFunctionPage',
-};
-</script>

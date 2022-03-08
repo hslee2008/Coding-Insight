@@ -20,8 +20,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="76" title="Multiprocessing"></Header-en>
 
     <QuadSpace />
@@ -80,8 +78,6 @@
     <QuadSpace />
 
     <NaviBtn bef="threadmethod" aft="counter" />
-
-    <QuadSpace />
   </div>
 </template>
 

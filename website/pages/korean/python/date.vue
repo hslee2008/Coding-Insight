@@ -20,11 +20,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="43" title="날짜" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -102,13 +98,5 @@
     <QuadSpace />
 
     <NaviBtn bef="hacking" aft="random" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'DatePage',
-};
-</script>

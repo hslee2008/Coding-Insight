@@ -36,11 +36,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="18" title="리스트" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -120,8 +116,6 @@
     <QuadSpace />
 
     <NaviBtn bef="nummethod" aft="listmethod1" />
-
-    <QuadSpace />
   </div>
 </template>
 

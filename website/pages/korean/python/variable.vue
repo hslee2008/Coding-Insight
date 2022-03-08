@@ -37,11 +37,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="5" title="변수" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -188,8 +184,6 @@
     <QuadSpace />
 
     <NaviBtn bef="io" aft="madlib" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

@@ -25,8 +25,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="92" title="gTTS"></Header-en>
 
     <QuadSpace />
@@ -79,13 +77,5 @@
     <QuadSpace />
 
     <NaviBtn bef="pandas" aft="finished" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'GttsPage',
-};
-</script>

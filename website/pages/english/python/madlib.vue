@@ -25,8 +25,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="Proj - 1" title="Madlibs Game"></Header-en>
 
     <QuadSpace />
@@ -118,8 +116,6 @@
     <QuadSpace />
 
     <NaviBtn bef="variable" aft="datatype" />
-
-    <QuadSpace />
   </div>
 </template>
 

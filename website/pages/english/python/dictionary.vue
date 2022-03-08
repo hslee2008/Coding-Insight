@@ -21,8 +21,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="21" title="Dictionary"></Header-en>
 
     <QuadSpace />
@@ -105,8 +103,6 @@
     <QuadSpace />
 
     <NaviBtn bef="contact" aft="dictionarymethod" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>Solve This Quiz!!</h2>

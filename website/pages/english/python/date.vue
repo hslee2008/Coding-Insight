@@ -20,8 +20,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="43" title="Date"></Header-en>
 
     <QuadSpace />
@@ -113,13 +111,5 @@
     <QuadSpace />
 
     <NaviBtn bef="hacking" aft="random" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'DatePage',
-};
-</script>

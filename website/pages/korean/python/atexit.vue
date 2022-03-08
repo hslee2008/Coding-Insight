@@ -29,8 +29,6 @@
 
     <Header type="파이썬" num="83" title="atexit" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>register()</h2>
@@ -84,13 +82,5 @@
     <QuadSpace />
 
     <NaviBtn bef="etcdundermethod" aft="coroutine" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'AtexitPage',
-};
-</script>

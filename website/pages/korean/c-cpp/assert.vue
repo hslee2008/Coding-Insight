@@ -18,11 +18,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="assert 키워드" num="38" />
-
-    <QuadSpace />
 
     <iframe
       src="https://www.jdoodle.com/embed/v0/47Bz"
@@ -33,7 +29,5 @@
     <QuadSpace />
 
     <NaviBtn bef="include" aft="macro" />
-
-    <QuadSpace />
   </div>
 </template>

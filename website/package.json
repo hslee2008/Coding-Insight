@@ -2,38 +2,27 @@
   "name": "python-factory-default",
   "version": "22.2",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "generate:modern": "nuxt generate --modern=server",
-    "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
-    "lint": "npm run lint:js && npm run lint:prettier",
-    "lint:prettier": "npx prettier --write ."
+    "dev": "npx prettier --write . && nuxt",
+    "build": "npx prettier --write . && nuxt build",
+    "start": "npx prettier --write . && nuxt start",
+    "generate": "npx prettier --write . && nuxt generate --modern=server && git add --all",
+    "clean": "npx prettier --write ."
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/firebase": "^8.2.2",
-    "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/sitemap": "^2.4.0",
-    "cookieparser": "^0.1.0",
     "core-js": "^3.21.0",
     "firebase": "^9.6.6",
-    "js-cookie": "^3.0.1",
-    "jwt-decode": "^3.1.2",
     "nuxt": "^2.15.8",
-    "prettier": "^2.5.1",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vuetify": "^2.6.3",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/eslint-config-typescript": "^8.0.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/firebase": "^8.2.2",
+    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^2.5.0",
-    "@nuxtjs/vuetify": "^1.12.3",
-    "eslint": "^8.9.0",
-    "eslint-config-prettier": "^8.3.0"
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/vuetify": "^1.12.3"
   }
 }

@@ -39,11 +39,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="6" title="데이터 형태" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto; padding-right: 5px">
@@ -119,8 +115,6 @@
     <QuadSpace />
 
     <NaviBtn bef="madlib" aft="comment" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

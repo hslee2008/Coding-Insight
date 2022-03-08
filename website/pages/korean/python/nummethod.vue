@@ -18,8 +18,6 @@
 
     <Header type="파이썬" title="숫자 메서드" num="17" />
 
-    <QuadSpace />
-
     <div class="header-div bg-black text-white">
       <div>
         <h2>절댓값</h2>
@@ -51,8 +49,6 @@
     <QuadSpace />
 
     <NaviBtn bef="calc" aft="list" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

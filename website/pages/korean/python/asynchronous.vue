@@ -24,11 +24,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="70" title="비동기" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -74,13 +70,5 @@
     <QuadSpace />
 
     <NaviBtn bef="newline" aft="asyncio" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'asynchronousPage',
-};
-</script>

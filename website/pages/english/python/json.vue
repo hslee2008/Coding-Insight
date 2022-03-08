@@ -36,8 +36,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="57" title="JSON"></Header-en>
 
     <QuadSpace />
@@ -144,8 +142,6 @@
     <QuadSpace />
 
     <NaviBtn bef="pip" aft="array" />
-
-    <QuadSpace />
   </div>
 </template>
 

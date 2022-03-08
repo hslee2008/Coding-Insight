@@ -22,8 +22,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="1" title="Definition of Python"></Header-en>
 
     <QuadSpace />
@@ -131,9 +129,3 @@
     <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage',
-};
-</script>

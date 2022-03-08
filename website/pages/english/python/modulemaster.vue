@@ -123,8 +123,6 @@
     <QuadSpace />
 
     <NaviBtn bef="module" aft="pythonmodule" />
-
-    <QuadSpace />
   </div>
 </template>
 

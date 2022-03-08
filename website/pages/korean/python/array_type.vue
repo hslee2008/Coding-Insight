@@ -19,11 +19,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="58" title="정렬 종류" />
-
-    <QuadSpace />
 
     <div>
       <h2>Scalars - 0D</h2>
@@ -98,13 +94,5 @@
     />
 
     <NaviBtn bef="array" aft="array_shape" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ArrayTypePage',
-};
-</script>

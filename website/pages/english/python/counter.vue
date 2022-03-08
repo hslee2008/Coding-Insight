@@ -32,8 +32,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="77" title="Counter"></Header-en>
 
     <QuadSpace />
@@ -135,13 +133,5 @@
     <QuadSpace />
 
     <NaviBtn bef="multiprocessing" aft="request" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'CounterPage',
-};
-</script>

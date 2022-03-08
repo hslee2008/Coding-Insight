@@ -13,11 +13,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="클래스 메서드" num="12" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -95,7 +91,5 @@
     <QuadSpace />
 
     <NaviBtn bef="class" aft="constructor" />
-
-    <QuadSpace />
   </div>
 </template>

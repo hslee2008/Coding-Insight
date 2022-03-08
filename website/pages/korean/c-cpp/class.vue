@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="클래스" num="11" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -74,7 +70,5 @@
     <QuadSpace />
 
     <NaviBtn bef="endl" aft="classmethod" />
-
-    <QuadSpace />
   </div>
 </template>

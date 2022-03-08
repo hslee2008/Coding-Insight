@@ -107,13 +107,5 @@
     <QuadSpace />
 
     <NaviBtn bef="for" aft="forfunction" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ForTypePage',
-};
-</script>

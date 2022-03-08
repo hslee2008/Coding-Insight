@@ -18,11 +18,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="문자열 (C++)" num="3" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -159,7 +155,5 @@
     <QuadSpace />
 
     <NaviBtn bef="io-cpp" aft="vectorbasic" />
-
-    <QuadSpace />
   </div>
 </template>

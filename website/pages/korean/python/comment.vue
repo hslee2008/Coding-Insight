@@ -38,11 +38,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="7" title="주석" />
-
-    <QuadSpace />
 
     <div>
       <h2>주석을 사용해야 하는 상황</h2>
@@ -124,8 +120,6 @@
     <QuadSpace />
 
     <NaviBtn bef="datatype" aft="string" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

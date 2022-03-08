@@ -19,8 +19,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="8" title="String"></Header-en>
 
     <QuadSpace />
@@ -203,8 +201,6 @@
     <QuadSpace />
 
     <NaviBtn bef="comment" aft="stringmethod1" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>Solve This Quiz!!</h2>

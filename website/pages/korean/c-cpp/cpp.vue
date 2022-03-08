@@ -19,11 +19,7 @@
       </p>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="C++" num="1" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div style="margin: auto">

@@ -25,11 +25,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="78" title="리퀘스트" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -94,7 +90,7 @@
         <h2>TEXT</h2>
         문자로 전환은 text 키를 이용하여 새로운 변수 안에 저장할 수 있습니다.
         <h2>ENCODING</h2>
-        데이터를 가지고 오며 ASCII에 존재하지 않는 캐릭터가 있어서 문제가 발생할
+        데이터를 가지고 오며 ASCII에 존재하지 않는 문자가 있어서 문제가 발생할
         수 있습니다.<br /><br />
         반응.encoding의 형태로 encoding의 값을 알 수 있고 지정하는 것이
         가능합니다.
@@ -133,8 +129,6 @@
     <QuadSpace />
 
     <NaviBtn bef="counter" aft="requestmethod" />
-
-    <QuadSpace />
   </div>
 </template>
 

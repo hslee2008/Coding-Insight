@@ -29,11 +29,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="50" title="파일 읽기" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -44,11 +40,11 @@
 
           참고로 문자열 앞에 r이 붙으면 raw 문자열이 됩니다.<br /><br />
 
-          raw 문자열이란 이스케이프 캐릭터를 동작시키지 않고 그대로 사용하는
+          raw 문자열이란 이스케이프 문자를 동작시키지 않고 그대로 사용하는
           문자열을 말합니다.<br /><br />
 
-          이스케이프 캐릭터를 선언하는 코드 "`\`(역슬래시)"는 파일의 주소에도
-          있으므로 이스케이프 캐릭터를 사용하지 않겠다고 raw 문자열을 사용하여
+          이스케이프 문자를 선언하는 코드 "`\`(역슬래시)"는 파일의 주소에도
+          있으므로 이스케이프 문자를 사용하지 않겠다고 raw 문자열을 사용하여
           파이썬에게 알려주어야 합니다.
         </p>
       </div>
@@ -143,13 +139,5 @@
     <QuadSpace />
 
     <NaviBtn bef="file" aft="filewriting" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'FileReading',
-};
-</script>

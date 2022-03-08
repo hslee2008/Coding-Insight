@@ -22,8 +22,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="7" title="Comment"></Header-en>
 
     <QuadSpace />
@@ -108,8 +106,6 @@
     <QuadSpace />
 
     <NaviBtn bef="datatype" aft="string" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>Solve This Quiz!!</h2>

@@ -21,8 +21,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="47" title="Class Method"></Header-en>
 
     <QuadSpace />
@@ -135,13 +133,5 @@
     <QuadSpace />
 
     <NaviBtn bef="class" aft="math" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ClassMethodPage',
-};
-</script>

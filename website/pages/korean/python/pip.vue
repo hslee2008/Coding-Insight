@@ -20,11 +20,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="56" title="PIP" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -97,8 +93,6 @@
     <QuadSpace />
 
     <NaviBtn bef="stringascode" aft="json" />
-
-    <QuadSpace />
   </div>
 </template>
 

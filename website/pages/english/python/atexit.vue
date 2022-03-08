@@ -99,13 +99,5 @@
     <QuadSpace />
 
     <NaviBtn bef="etcdundermethod" aft="coroutine" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'AtexitPage',
-};
-</script>

@@ -162,8 +162,6 @@
 
     <NaviBtn bef="none" aft="functionhard" />
 
-    <QuadSpace />
-
     <div class="quiz">
       <h2>Solve This Quiz!!</h2>
 

@@ -24,8 +24,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="5" title="Variable"></Header-en>
 
     <QuadSpace />
@@ -172,8 +170,6 @@
     <QuadSpace />
 
     <NaviBtn bef="io" aft="madlib" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>Solve This Quiz!!</h2>

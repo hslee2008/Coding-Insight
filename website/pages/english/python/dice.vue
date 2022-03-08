@@ -17,8 +17,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="Proj: 8" title="Dice"></Header-en>
 
     <QuadSpace />
@@ -53,14 +51,7 @@
     <QuadSpace />
 
     <NaviBtn bef="random" aft="regex" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'DicePage',
-};
-</script>
 `

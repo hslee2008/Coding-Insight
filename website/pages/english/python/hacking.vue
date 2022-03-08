@@ -25,8 +25,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="Proj: 7" title="Network Sniffing"></Header-en>
 
     <QuadSpace />
@@ -81,14 +79,7 @@
     <QuadSpace />
 
     <NaviBtn bef="pythonmodule" aft="date" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'HackingPage',
-};
-</script>
 `

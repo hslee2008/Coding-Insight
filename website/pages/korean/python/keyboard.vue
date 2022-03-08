@@ -22,11 +22,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="87" title="키보드" />
-
-    <QuadSpace />
 
     <div class="text-center">
       <h2>키보드로 문자 쓰기</h2>
@@ -54,8 +50,6 @@
     <QuadSpace />
 
     <NaviBtn bef="autozoom" aft="matplotlib" />
-
-    <QuadSpace />
   </div>
 </template>
 

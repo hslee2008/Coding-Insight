@@ -4,8 +4,6 @@
 
     <Header type="파이썬" num="68" title="파이썬 데코레이터" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>@mydecorator</h2>
@@ -113,8 +111,6 @@
     <QuadSpace />
 
     <NaviBtn bef="mydecorator" aft="newline" />
-
-    <QuadSpace />
   </div>
 </template>
 

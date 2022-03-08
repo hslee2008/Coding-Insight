@@ -27,11 +27,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="53" title="컨텍스트 매니저" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -92,13 +88,5 @@
     <QuadSpace />
 
     <NaviBtn bef="contact2" aft="datachange" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ContextManagerPage',
-};
-</script>

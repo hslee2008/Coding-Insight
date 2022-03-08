@@ -26,8 +26,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="Proj: 2" title="Password Program"></Header-en>
 
     <QuadSpace />
@@ -75,14 +73,7 @@
     <QuadSpace />
 
     <NaviBtn bef="stringmethod2" aft="escapechar" />
-
-    <QuadSpace />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'PasswordPage',
-};
-</script>
 `

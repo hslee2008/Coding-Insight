@@ -21,8 +21,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="91" title="Pandas"></Header-en>
 
     <QuadSpace />
@@ -220,8 +218,6 @@
     <QuadSpace />
 
     <NaviBtn bef="turtle" aft="gtts" />
-
-    <QuadSpace />
   </div>
 </template>
 

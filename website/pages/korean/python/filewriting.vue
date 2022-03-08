@@ -25,11 +25,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="51" title="파일 쓰기" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -65,8 +61,6 @@
     <QuadSpace />
 
     <NaviBtn bef="filereading" aft="etcfile" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기</h2>

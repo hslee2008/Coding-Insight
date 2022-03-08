@@ -27,11 +27,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="57" title="JSON" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -113,8 +109,6 @@
     <QuadSpace />
 
     <NaviBtn bef="pip" aft="array" />
-
-    <QuadSpace />
   </div>
 </template>
 

@@ -22,8 +22,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="53" title="Context Manager"></Header-en>
 
     <QuadSpace />
@@ -99,13 +97,5 @@
     <QuadSpace />
 
     <NaviBtn bef="contact2" aft="datachange" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ContextManagerPage',
-};
-</script>

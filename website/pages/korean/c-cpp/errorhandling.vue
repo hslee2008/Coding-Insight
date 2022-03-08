@@ -22,11 +22,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="예외 처리" num="8" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -115,7 +111,5 @@
     <QuadSpace />
 
     <NaviBtn bef="allheader" aft="namespace" />
-
-    <QuadSpace />
   </div>
 </template>

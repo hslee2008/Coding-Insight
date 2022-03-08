@@ -4,8 +4,6 @@
 
     <Header num="68" title="Python Decorator" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>@mydecorator</h2>
@@ -104,8 +102,6 @@
     <QuadSpace />
 
     <NaviBtn bef="mydecorator" aft="newline" />
-
-    <QuadSpace />
   </div>
 </template>
 

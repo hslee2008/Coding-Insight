@@ -42,11 +42,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" title="간단한 계산기 만들기" num="Proj: 3" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -122,13 +118,5 @@
     <QuadSpace />
 
     <NaviBtn bef="numtype" aft="nummethod" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'CalcPage',
-};
-</script>

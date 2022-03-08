@@ -414,8 +414,6 @@
       </div>
     </v-bottom-sheet>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="3" title="VSCode Installation"></Header-en>
 
     <QuadSpace />
@@ -707,8 +705,6 @@
     <QuadSpace />
 
     <NaviBtn bef="install" aft="io" />
-
-    <QuadSpace />
   </div>
 </template>
 

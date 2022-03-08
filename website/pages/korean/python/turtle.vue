@@ -26,11 +26,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="90" title="터틀" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -61,7 +57,7 @@
           우리가 그 터틀을 기준으로 그림을 그리거나 게임을 만듭니다.<br /><br />
 
           이 웹사이트에서 '터틀'이라고 하면 파이썬의 모듈 또는 파이썬 모듈의
-          주인공 캐릭터를 뜻합니다.
+          주인공 문자를 뜻합니다.
         </p>
       </div>
     </div>
@@ -151,7 +147,7 @@
       <h3>터틀 방향</h3>
 
       <p>
-        터틀의 방향은 right()와 left()를 이용할 수 있지만 지금 캐릭터의 방향을
+        터틀의 방향은 right()와 left()를 이용할 수 있지만 지금 문자의 방향을
         기준으로 x 만큼 터틀이 돌아갑니다.
       </p>
 
@@ -171,8 +167,6 @@
     <QuadSpace />
 
     <NaviBtn bef="mouse" aft="pandas" />
-
-    <QuadSpace />
   </div>
 </template>
 

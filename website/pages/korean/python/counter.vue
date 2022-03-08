@@ -29,11 +29,7 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="77" title="카원터" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -130,13 +126,5 @@
     <QuadSpace />
 
     <NaviBtn bef="multiprocessing" aft="request" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'CounterPage',
-};
-</script>

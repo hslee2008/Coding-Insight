@@ -75,8 +75,6 @@
     <QuadSpace />
 
     <NaviBtn bef="modulemaster" aft="hacking" />
-
-    <QuadSpace />
   </div>
 </template>
 

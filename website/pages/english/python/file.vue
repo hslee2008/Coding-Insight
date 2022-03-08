@@ -24,8 +24,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header-en type="Python" num="49" title="File"></Header-en>
 
     <QuadSpace />
@@ -82,8 +80,6 @@
     <QuadSpace />
 
     <NaviBtn bef="math" aft="filereading" />
-
-    <QuadSpace />
   </div>
 </template>
 

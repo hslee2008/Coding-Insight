@@ -4,8 +4,6 @@
 
     <Header num="62" title="Error" />
 
-    <QuadSpace />
-
     <div>
       <div>
         <h2>Error messge in try - except</h2>
@@ -105,13 +103,5 @@
     <QuadSpace />
 
     <NaviBtn bef="error" aft="logging" />
-
-    <QuadSpace />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'Error2Page',
-};
-</script>

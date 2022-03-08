@@ -19,11 +19,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="파이썬" num="85" title="스펨 이메일" />
-
-    <QuadSpace />
 
     <div class="text-center">
       <h2>준비</h2>
@@ -67,8 +63,6 @@
     <QuadSpace />
 
     <NaviBtn bef="coroutine" aft="autozoom" />
-
-    <QuadSpace />
   </div>
 </template>
 

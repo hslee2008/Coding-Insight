@@ -26,11 +26,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="출력" num="4" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -146,8 +142,6 @@
     <QuadSpace />
 
     <NaviBtn bef="vscode" aft="variable" />
-
-    <QuadSpace />
 
     <div class="quiz">
       <h2>퀴즈 풀기!</h2>

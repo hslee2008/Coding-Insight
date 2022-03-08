@@ -25,11 +25,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="C++ 파일 다루기" num="16" />
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -95,7 +91,5 @@
     <QuadSpace />
 
     <NaviBtn bef="inheritance" aft="finished" />
-
-    <QuadSpace />
   </div>
 </template>

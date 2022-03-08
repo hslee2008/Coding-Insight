@@ -21,11 +21,7 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Header type="C/C++" title="컴파일러 설치" num="2" />
-
-    <QuadSpace />
 
     <div style="display: flex" class="img-div">
       <div>
@@ -95,7 +91,5 @@
     <QuadSpace />
 
     <NaviBtn bef="/korean/c-cpp/" aft="vscode" />
-
-    <QuadSpace />
   </div>
 </template>
