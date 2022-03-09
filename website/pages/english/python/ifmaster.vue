@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header-en type="Python" num="27" title="If Master"></Header-en>
 
     <QuadSpace />

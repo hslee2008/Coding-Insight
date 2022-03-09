@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="C/C++" title="조건문 (자세히)" num="16" />
 
     <div>

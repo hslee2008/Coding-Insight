@@ -35,7 +35,7 @@
         <p>
           These are the steps to create madlibs game using python.<br /><br />
 
-          1. Make a paragraph with few blank spaces (ex. Roses are ___)<br />>
+          1. Make a paragraph with few blank spaces (ex. Roses are ___)<br />
           2. Using input() we will get the word user chooses<br />
           3. Next, we will insert the new words into the sentence.
         </p>

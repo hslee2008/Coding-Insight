@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="C/C++" title="#error" num="41" />
 
     <div>

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="C/C++" title="기본 문법" num="13" />
 
     <div>

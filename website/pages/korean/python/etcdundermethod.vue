@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="파이썬" num="82" title="기타 던더메서드" />
 
     <div>

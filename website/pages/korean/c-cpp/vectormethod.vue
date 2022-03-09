@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="C/C++" title="VECTOR 메서드" num="5" />
 
     <div>

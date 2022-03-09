@@ -5,8 +5,7 @@
     <div style="display: flex" class="img-div">
       <div>
         <h2>파일 압축이란?</h2>
-        파일을 압축하면 파일에 있는
-        <mark>내용의 용량이 많이 줄어듭니다</mark>.<br /><br />
+        파일을 압축하면 파일에 있는 내용의 용량이 많이 줄어듭니다.<br /><br />
         어떻게 파일을 압축할까요?
       </div>
     </div>

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="파이썬" num="75" title="스레드 메서드" />
 
     <div>

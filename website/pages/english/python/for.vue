@@ -217,6 +217,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="anonymousfunction" aft="fortype" />
+    <NaviBtn bef="lambda" aft="fortype" />
   </div>
 </template>

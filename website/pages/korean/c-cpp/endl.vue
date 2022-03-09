@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="C/C++" title="endl" num="10" />
 
     <div>

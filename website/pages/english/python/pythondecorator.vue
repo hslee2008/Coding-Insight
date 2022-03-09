@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header num="68" title="Python Decorator" />
 
     <div>

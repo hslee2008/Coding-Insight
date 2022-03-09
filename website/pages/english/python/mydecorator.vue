@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header num="67" title="My Decorator" />
 
     <div>

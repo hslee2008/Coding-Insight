@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="파이썬" num="54" title="데이터 형태 바꾸기" />
 
     <div>

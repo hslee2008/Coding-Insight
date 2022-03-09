@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="C/C++" title="변수 - 고급" num="6" />
 
     <div style="display: flex" class="img-div">

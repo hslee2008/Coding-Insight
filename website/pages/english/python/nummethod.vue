@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header-en type="Python" title="Number Method" num="17"></Header-en>
 
     <QuadSpace />

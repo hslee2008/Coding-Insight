@@ -296,7 +296,8 @@
                 >
                   <v-card-title>
                     <p style="color: black">
-                      Press on CTRL + SHIFT + X or press the cube button
+                      Press on <kbd>CTRL + SHIFT + X</kbd> or press the cube
+                      button
                     </p></v-card-title
                   >
                 </v-img>
@@ -358,7 +359,7 @@
                 >
                   <v-card-title
                     ><p>
-                      <mark>Click on the green installation button.</mark>
+                      Click on the green installation button.
                     </p></v-card-title
                   >
                 </v-img>
@@ -468,8 +469,9 @@
                 >
                   <v-card-title>
                     <p style="color: black">
-                      <mark>
-                        Press CTRL + SHIFT + E or click on the file icon</mark
+                      <mark
+                        >Press <kbd>CTRL + SHIFT + E</kbd> or click on the file
+                        icon</mark
                       >
                     </p></v-card-title
                   >
@@ -566,7 +568,7 @@
                 >
                   <v-card-title
                     ><p style="color: black">
-                      <mark>Click on the 'new file' button</mark>
+                      Click on the 'new file' button
                     </p></v-card-title
                   >
                 </v-img>
@@ -597,7 +599,7 @@
                 >
                   <v-card-title
                     ><p style="color: black">
-                      <mark>Set you file name ending with '.py'</mark>
+                      Set you file name ending with '.py'
                     </p></v-card-title
                   >
                 </v-img>
@@ -662,8 +664,7 @@
                 >
                   <v-card-title
                     ><p style="color: black">
-                      <mark>Check out your first program</mark>
-                      기
+                      Check out your first program 기
                     </p></v-card-title
                   >
                 </v-img>

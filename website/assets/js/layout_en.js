@@ -201,8 +201,8 @@ export default {
     },
     {
       icon: 'incognito',
-      title: 'Anonymous Function',
-      to: '/english/python/anonymousfunction',
+      title: 'Anonymous Function (Lambda)',
+      to: '/english/python/lambda',
     },
     {
       icon: 'fast-forward-outline',

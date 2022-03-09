@@ -47,8 +47,8 @@
       <div>
         <h2>ord()</h2>
         <p>
-          어떤 문자의 <mark>ASCII 코드</mark>를 알기 위하여 ord() 함수를 사용할
-          수 있습니다.<br /><br />
+          어떤 문자의 ASCII 코드를 알기 위하여 ord() 함수를 사용할 수
+          있습니다.<br /><br />
 
           단, 꼭 <strong>문자</strong>여야 합니다. 알파벳 하나하나만 입력할 수
           있습니다.<br /><br />
@@ -75,10 +75,7 @@
     <div>
       <div>
         <h2>chr()</h2>
-        <p>
-          반대로, chr()은 <mark>아스키코드를 알파벳으로</mark> 바꾸는
-          함수입니다.
-        </p>
+        <p>반대로, chr()은 아스키코드를 알파벳으로 바꾸는 함수입니다.</p>
       </div>
       <iframe
         src="https://trinket.io/embed/python3/2f04cf1944"

@@ -66,10 +66,8 @@
         </code>
       </div>
       <div style="margin: auto">
-        <mark>
-          "Interactive Mode"를 키고 "Result"(검은색 박스) 안에 숫자를
-          입력하세요.<br /><br />
-        </mark>
+        "Interactive Mode"를 키고 "Result"(검은색 박스) 안에 숫자를
+        입력하세요.<br /><br />
 
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VZe"
@@ -106,7 +104,7 @@
         </p>
       </div>
       <div style="margin: auto">
-        <mark> 여기도 "Interactive Mode"를 켜야 합니다.<br /><br /> </mark>
+        여기도 "Interactive Mode"를 켜야 합니다.<br /><br />
 
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VZj"

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="파이썬" num="52" title="파일 만들기, 삭제하기, encoding" />
 
     <div>

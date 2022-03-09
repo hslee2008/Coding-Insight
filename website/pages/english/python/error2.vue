@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header num="62" title="Error" />
 
     <div>

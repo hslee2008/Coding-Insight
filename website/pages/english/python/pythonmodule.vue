@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header-en type="Python" num="42" title="Python Module"></Header-en>
 
     <QuadSpace />

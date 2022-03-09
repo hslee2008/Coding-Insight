@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header-en type="Python" num="19" title="List Method 1"></Header-en>
 
     <QuadSpace />

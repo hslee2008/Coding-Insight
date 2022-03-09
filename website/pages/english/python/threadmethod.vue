@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header num="75" title="스레드 메서드" />
 
     <div>

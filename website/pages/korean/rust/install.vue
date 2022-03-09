@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="Rust" title="Rust 설치" num="2" />
 
     <div>

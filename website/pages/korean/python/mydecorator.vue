@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="파이썬" num="67" title="나만의 데코레이터" />
 
     <div>

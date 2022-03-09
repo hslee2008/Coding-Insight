@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import PythonLinks from '../layouts/layout';
-import PythonLinksEN from '../layouts/layout_en';
+import PythonLinks from '~/assets/js/layout';
+import PythonLinksEN from '~/assets/js/layout_en';
 
 export default {
   props: ['itemprops', 'titleen', 'titlekr', 'json'],

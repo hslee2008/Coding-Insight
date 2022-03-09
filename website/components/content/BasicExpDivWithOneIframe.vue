@@ -13,9 +13,16 @@
 
         <iframe
           :src="iframe"
-          width="100%"
           :height="abitwider ? 370 : alotwider ? 550 : 300"
           style="border-radius: 10px"
+          allowfullscreen
+          width="100%"
+          frameborder="0"
+          marginwidth="0"
+          marginheight="0"
+          loading="lazy"
+          title="Code Iframe"
+          name="Code Iframe"
         />
       </v-card-text>
     </v-card-contents>

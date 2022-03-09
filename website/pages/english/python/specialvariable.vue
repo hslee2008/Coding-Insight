@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header-en type="Python" num="31" title="Special Variable"></Header-en>
 
     <QuadSpace />

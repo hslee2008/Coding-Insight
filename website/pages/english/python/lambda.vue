@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header-en type="Python" num="33" title="Anonymous Function"></Header-en>
 
     <QuadSpace />

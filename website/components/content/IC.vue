@@ -1,25 +1,19 @@
 <template>
   <span
-    style="
-      background-color: #4d4c5d;
-      padding: 5px;
-      font-family: Menlo, Monaco, Consolas, Courier New, monospace;
-      border-radius: 5px;
-      margin: 1px;
-    "
     v-if="$vuetify.theme.dark"
-    >{{ code }}</span
+    class="grey darken-2 pa-md-1 mr-1 rounded-lg"
+    style="font-family: Menlo, Monaco, Consolas, Courier New, monospace"
   >
+    {{ code }}
+  </span>
+
   <span
     v-else
-    style="
-      color: red;
-      background-color: whitesmoke;
-      font-family: Menlo, Monaco, Consolas, Courier New, monospace;
-      border-radius: 5px;
-    "
-    >{{ code }}</span
+    class="blue-grey red--text lighten-4 pa-md-1 mrw-1 rounded-lg"
+    style="font-family: Menlo, Monaco, Consolas, Courier New, monospace"
   >
+    {{ code }}
+  </span>
 </template>
 
 <script>

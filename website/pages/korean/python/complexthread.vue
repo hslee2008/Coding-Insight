@@ -45,8 +45,8 @@
           asyncio에서 배웠듯이 await 키워드는 async 함수가 끝날 때까지
           기다립니다.<br /><br />
 
-          비슷하게 스레드에서도. join() 메서드를 사용하면
-          <mark>스레드에 있는 코드가 끝날 때까지 기다립니다</mark>.<br /><br />
+          비슷하게 스레드에서도. join() 메서드를 사용하면 스레드에 있는 코드가
+          끝날 때까지 기다립니다.<br /><br />
 
           밑의 코드는 5 스텝까지 같지만 mainThread.join() 메서드가 있어 Done! 과
           Now It is Really Done! 이 먼저 출력이 되고 Finally! 가 출력이 됩니다.

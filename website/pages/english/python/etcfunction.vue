@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header-en type="Python" num="39" title="다양한 함수"></Header-en>
 
     <QuadSpace />

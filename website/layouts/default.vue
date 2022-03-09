@@ -113,10 +113,7 @@
             </v-menu>
             <template
               v-if="
-                $nuxt.$route.path != '/index-en' &&
-                $nuxt.$route.path != '/' &&
-                $nuxt.$route.path != '/app' &&
-                $nuxt.$route.path != '/app-en'
+                $nuxt.$route.path != '/index-en' && $nuxt.$route.path != '/'
               "
             >
               <v-btn
@@ -160,12 +157,7 @@
       </v-bottom-sheet>
 
       <template
-        v-if="
-          $nuxt.$route.path != '/index-en' &&
-          $nuxt.$route.path != '/' &&
-          $nuxt.$route.path != '/app' &&
-          $nuxt.$route.path != '/app-en'
-        "
+        v-if="$nuxt.$route.path != '/index-en' && $nuxt.$route.path != '/'"
       >
         <v-btn
           aria-label="Coding Insight Button"
@@ -185,7 +177,7 @@
               v-bind="attrs"
               v-on="on"
             >
-              <img src="logo.svg" />
+              <img src="~/assets/img/logo.svg" alt="SVG Logo" />
             </v-btn>
           </template>
           <span>Coding-Insight (Home)</span>
@@ -376,14 +368,8 @@ export default {
         case '/':
           window.location = '/index-en';
           break;
-        case '/app':
-          window.location = '/app-en';
-          break;
         case '/index-en':
           window.location = '/index-en';
-          break;
-        case '/app-en':
-          window.location = '/app-en';
           break;
         case '/courses':
           window.location = '/courses-en';
@@ -405,14 +391,8 @@ export default {
         case '/':
           window.location = '/';
           break;
-        case '/app':
-          window.location = '/app';
-          break;
         case '/index-en':
           window.location = '/';
-          break;
-        case '/app-en':
-          window.location = '/app';
           break;
         case '/courses':
           window.location = '/courses';

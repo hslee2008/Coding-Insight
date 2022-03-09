@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header type="C/C++" title="Continue, Break, Goto" num="23" />
 
     <div>

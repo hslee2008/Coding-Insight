@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header num="71" title="asyncio" />
 
     <div>

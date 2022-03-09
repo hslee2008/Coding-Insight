@@ -98,7 +98,11 @@ export default {
   components: true,
 
   components: {
-    dirs: ['~/components', '~/components/content/'],
+    dirs: [
+      '~/components/local/',
+      '~/components/global/',
+      '~/components/content/',
+    ],
   },
 
   // https://go.nuxtjs.dev/config-modules
@@ -118,24 +122,6 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
-    [
-      '@nuxtjs/firebase',
-      {
-        config: {
-          apiKey: 'AIzaSyCNf5AqNPVttC9agA5rUNhi9VZ1MweswnU',
-          authDomain: 'coding-insight-login.firebaseapp.com',
-          projectId: 'coding-insight-login',
-          storageBucket: 'coding-insight-login.appspot.com',
-          messagingSenderId: '769560282450',
-          appId: '1:769560282450:web:2ebdd581d37bde337e668b',
-          measurementId: 'G-ZG401L45EQ',
-        },
-        services: {
-          auth: true,
-          database: true,
-        },
-      },
-    ],
   ],
 
   sitemap: {
@@ -277,7 +263,12 @@ export default {
   },
 
   vuetify: {
-    optionsPath: './plugins/vuetify.js',
+    theme: {
+      dark: true,
+    },
+    icons: {
+      iconfont: 'mdi',
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

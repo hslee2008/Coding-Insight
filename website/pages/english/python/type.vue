@@ -92,7 +92,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="specialvariable" aft="anonymousfunction" />
+    <NaviBtn bef="specialvariable" aft="lambda" />
   </div>
 </template>
 

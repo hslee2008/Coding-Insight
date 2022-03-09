@@ -1,7 +1,5 @@
 <template>
   <div>
-    <QuadSpace />
-
     <Header-en type="Python" num="22" title="Dictionary Method"></Header-en>
 
     <QuadSpace />

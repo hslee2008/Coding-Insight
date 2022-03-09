@@ -65,11 +65,8 @@
       />
     </div>
 
-    <br />
-    <mark
-      >Note that depending on your computer, it might look like a big W or a
-      slash.</mark
-    >
+    <br />Note that depending on your computer, it might look like a big W or a
+    slash.
 
     <QuadSpace />
 

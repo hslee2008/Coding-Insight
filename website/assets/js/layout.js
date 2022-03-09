@@ -204,7 +204,7 @@ export default {
     {
       icon: 'incognito',
       title: 'Anonymous Function',
-      to: '/english/python/anonymousfunction',
+      to: '/english/python/lambda',
     },
     {
       icon: 'fast-forward-outline',
@@ -746,8 +746,8 @@ export default {
     },
     {
       icon: 'incognito',
-      title: '익명함수',
-      to: '/korean/python/anonymousfunction',
+      title: '익명 함수 (Lambda)',
+      to: '/korean/python/lambda',
     },
     {
       icon: 'fast-forward-outline',

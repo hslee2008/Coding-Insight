@@ -360,9 +360,7 @@
                   src="https://image-loader-coding-insight.web.app/py-kr/img/extinstall.jpg"
                 >
                   <v-card-title
-                    ><p>
-                      <mark>초록색 install 버튼을 누르세요.</mark>
-                    </p></v-card-title
+                    ><p>초록색 install 버튼을 누르세요.</p></v-card-title
                   >
                 </v-img>
                 <v-card-actions
@@ -470,7 +468,7 @@
                 >
                   <v-card-title>
                     <p style="color: black">
-                      <mark> CTRL + SHIFT + E 누르거나 "파일" 버튼 누르기</mark>
+                      CTRL + SHIFT + E 누르거나 "파일" 버튼 누르기
                     </p></v-card-title
                   >
                 </v-img>
@@ -566,7 +564,7 @@
                 >
                   <v-card-title
                     ><p style="color: black">
-                      <mark>파일 새로 만들기 버튼을 누르세요.</mark>
+                      파일 새로 만들기 버튼을 누르세요.
                     </p></v-card-title
                   >
                 </v-img>
@@ -665,10 +663,7 @@
                   src="https://image-loader-coding-insight.web.app/py-kr/img/helloworld.jpg"
                 >
                   <v-card-title
-                    ><p style="color: black">
-                      <mark>결과 확인하기</mark>
-                      기
-                    </p></v-card-title
+                    ><p style="color: black">결과 확인하기 기</p></v-card-title
                   >
                 </v-img>
                 <v-card-actions

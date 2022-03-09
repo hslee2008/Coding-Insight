@@ -111,8 +111,8 @@
         <div>
           <h2>for v.s. while</h2>
           <p>
-            In Python, using <mark>for loops</mark> are better thhat while loops
-            in most occasions.<br /><br />
+            In Python, using for loops are better thhat while loops in most
+            occasions.<br /><br />
 
             1. Only use while loops if you don't know when to end the loop.
           </p>
