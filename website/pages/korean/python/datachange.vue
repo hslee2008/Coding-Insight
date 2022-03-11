@@ -31,7 +31,7 @@
     <QuadSpace />
 
     <div>
-      <div class="inner-div">
+      <div>
         <h2>튜플로 바꾸기</h2>
         <p>
           튜플로 바꾸기 위하여 문자를 먼저 리스트로 바꾸고 tuple() 메서드를

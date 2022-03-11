@@ -224,12 +224,12 @@ export default {
       screenshots: [
         {
           src: '/pwa/screenshot-home.png',
-          sizes: '1280x800',
+          sizes: '1920x897',
           type: 'image/png',
         },
         {
           src: '/pwa/screenshot-mobile-home.png',
-          sizes: '750x1334',
+          sizes: '547x791',
           type: 'image/png',
         },
       ],
@@ -238,21 +238,49 @@ export default {
           name: '파이썬',
           url: '/korean/python',
           description: '파이썬 프로그래밍 언어 배우기',
+          icons: [
+            {
+              src: '/pwa/python.png',
+              type: 'image/png',
+              purpose: 'any',
+            },
+          ],
         },
         {
           name: 'Python',
           url: '/english/python',
           description: 'Learn Python Programming Language',
+          icons: [
+            {
+              src: '/pwa/python.png',
+              type: 'image/png',
+              purpose: 'any',
+            },
+          ],
         },
         {
           name: 'C/C++',
           url: '/korean/c-cpp',
           description: 'Learn C/C++ Programming Language',
+          icons: [
+            {
+              src: '/pwa/c cpp.png',
+              type: 'image/png',
+              purpose: 'any',
+            },
+          ],
         },
         {
           name: 'Rust',
           url: '/korean/rust',
           description: 'Rust 프로그래밍 언어 배우기',
+          icons: [
+            {
+              src: '/pwa/rust.png',
+              type: 'image/png',
+              purpose: 'any',
+            },
+          ],
         },
       ],
     },

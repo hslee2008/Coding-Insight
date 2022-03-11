@@ -1414,8 +1414,7 @@ export default {
       to: '/korean/c-cpp/inheritance',
     },
   ],
-
-  //! Rust Scripts
+  
   start_rust: [
     {
       icon: 'map-marker',

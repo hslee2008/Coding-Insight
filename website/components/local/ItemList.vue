@@ -1,12 +1,14 @@
 <template>
   <div>
-    <h1 class="text-center">
+    <h1 class="text-center" style="font-size: 30px">
       {{ title }}
     </h1>
-    <v-divider></v-divider>
+
+    <v-divider class="mb-3 mx-3"></v-divider>
+
     <v-list-item
-      v-for="(item, i) in items[englishValue(json)]"
-      :key="englishValue(i.toString() + json)"
+      v-for="(item, i) in items[json]"
+      :key="json + i.toString()"
       :to="item.to"
       router
       exact
@@ -16,8 +18,10 @@
       </v-list-item-action>
       <v-list-item-content>
         <v-list-item-title v-text="item.title" />
-      </v-list-item-content> </v-list-item
-    ><br /><br />
+      </v-list-item-content>
+    </v-list-item>
+
+    <br /><br />
   </div>
 </template>
 
@@ -42,9 +46,6 @@ export default {
         this.$nuxt.$route.path.includes('english') ||
         this.$nuxt.$route.path.includes('-en')
       );
-    },
-    englishValue(a) {
-      return this.isEnglish() ? a + '_en' : a;
     },
   },
 };

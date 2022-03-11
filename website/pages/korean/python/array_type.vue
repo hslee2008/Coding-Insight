@@ -3,11 +3,13 @@
     <QuadSpace />
 
     <div style="display: flex; border-radius: 5px" class="img-div">
-      <div>
+      <div class="my-auto mx-auto">
         <h2>정렬 치수란?</h2>
         <p>
-          정렬의 치수란 정렬의 깊이입니다. 조금 더 쉽게 설명하자면, 정렬 안에
-          정렬이 몇 개 있는지의 값이 정렬의 치수라고 합니다.
+          정렬의 치수란 정렬의 깊이입니다.<br /><br />
+
+          조금 더 쉽게 설명하자면, 정렬 안에 정렬이 몇 개 있는지의 값이 정렬의
+          치수라고 합니다.
         </p>
       </div>
       <div class="mx-auto">
@@ -21,76 +23,70 @@
 
     <Header type="파이썬" num="58" title="정렬 종류" />
 
-    <div>
-      <h2>Scalars - 0D</h2>
-      <p>
-        0-D 정렬은 값이 1개입니다. 0-D는 Scalars라고도 합니다.<br /><br />
+    <v-card style="background-color: rgb(0, 0, 0, 0)">
+      <v-card-title>Scalars - 0D</v-card-title>
 
-        <code> arr = numpy.array(44) </code>
-      </p>
-    </div>
+      <v-card-text class="text--primary">
+        0-D 정렬은 값이 1개입니다.<br />
+        0-D는 Scalars라고도 합니다.<br /><br />
 
-    <QuadSpace />
+        <IC code="arr = numpy.array(44)"> </IC>
+      </v-card-text>
+    </v-card>
 
-    <div>
-      <h2>uni-dimension - 1D</h2>
-      <p>
+    <br /><br />
+
+    <v-card style="background-color: rgb(0, 0, 0, 0)">
+      <v-card-title>uni-dimension - 1D</v-card-title>
+
+      <v-card-text class="text--primary">
         1-D 정렬은 정렬이 1개입니다. 1-D는 uni-dimension이라고도 합니다.<br /><br />
 
-        <code> arr = numpy.array([4, 44, 444]) </code>
-      </p>
-    </div>
+        <IC code="arr = numpy.array([4, 44, 444])" />
+      </v-card-text>
+    </v-card>
 
-    <QuadSpace />
+    <br /><br />
 
-    <div>
-      <h2>2-D와 x-D</h2>
-      <p>
+    <v-card style="background-color: rgb(0, 0, 0, 0)">
+      <v-card-title>2-D와 x-D</v-card-title>
+
+      <v-card-text class="text--primary">
         2-D 정렬은 정렬 안에 또 다른 정렬이 있는 형태입니다.<br /><br />
 
         정렬의 치수는 무한대로 늘어날 수 있습니다.<br /><br />
 
-        <code> arr = numpy.array([ [4, 44, 444], [3, 3, 444] ]) </code>
-      </p>
-    </div>
+        <IC code="arr = numpy.array([ [4, 44, 444], [3, 3, 444] ])" />
+      </v-card-text>
+    </v-card>
+
+    <br /><br />
+
+    <v-card style="background-color: rgb(0, 0, 0, 0)">
+      <v-card-title>ndim</v-card-title>
+
+      <v-card-text class="text--primary">
+        정렬의 치수를 알기 위하여 항상 numpy 정렬을 선언한 후 ndim이라는 값을
+        이용할 수 있습니다.<br /><br />
+
+        <IC code="print(arr.ndim)" />
+
+        <br /><br />정렬을 만들 때 정렬의 치수를 지정할 수도 있습니다.<br /><br />
+
+        <IC code="arr = numpy.array([4, 44, 444, 4444], ndmin=1000)" />
+      </v-card-text>
+    </v-card>
 
     <QuadSpace />
 
-    <h2>ndim</h2>
-    <p>
-      정렬의 치수를 알기 위하여 항상 numpy 정렬을 선언한 후 ndim이라는 값을
-      이용할 수 있습니다.<br /><br />
-
-      <code> print(arr.ndim) </code>
-
-      <br /><br />정렬을 만들 때 정렬의 치수를 지정할 수도 있습니다.<br /><br />
-
-      <code> arr = numpy.array([4, 44, 444, 4444], ndmin=1000) </code>
-    </p>
-
-    <QuadSpace />
-
-    <div>
-      <h2>정렬 인덱싱</h2>
-      <h2>1-D</h2>
-      uni-dimension 정렬의 인덱싱은 리스트 인덱싱과 같습니다.<br /><br />
-
-      <h2>2-D</h2>
-      2-D는 정렬 안에 정렬이 있습니다. 그래서 첫 번째 정렬을 선택하고 그 정렬
-      안의 값을 선택하는 것이 가능합니다.<br /><br />
-
-      이와 같이 3-D는 3개의 수, 4-D는 4개의 수...를 입력하면 됩니다.
-    </div>
-    <iframe
-      src="https://trinket.io/embed/python3/4fe0b3d005"
-      width="100%"
-      height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
-      loading="lazy"
-      style="margin: auto"
+    <BasicExpDivWithOneIframe
+      heading="정렬 인덱싱"
+      :contents="[
+        '1-D 정렬의 인덱싱은 리스트 인덱싱과 같습니다.',
+        '2-D는 정렬 안에 정렬이 있습니다. 그래서 첫 번째 정렬을 선택하고 그 정렬 안의 값을 선택하는 것이 가능합니다.',
+        '이와 같이 3-D는 3개의 수, 4-D는 4개의 수...를 입력하면 됩니다.',
+      ]"
+      iframe="https://trinket.io/embed/python3/4fe0b3d005"
     />
 
     <NaviBtn bef="array" aft="array_shape" />

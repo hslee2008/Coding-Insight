@@ -104,7 +104,7 @@
     <QuadSpace />
 
     <div>
-      <div class="inner-div">
+      <div>
         <h2>try - except - else - finally</h2>
         <p>
           else와 비슷한 기능을 하는 'finally'라는 키워드를 사용할 수 있습니다.

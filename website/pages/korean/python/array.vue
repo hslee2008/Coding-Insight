@@ -2,14 +2,12 @@
   <div>
     <QuadSpace />
 
-    <div style="display: flex; border-radius: 5px" class="img-div">
-      <div>
+    <div style="display: flex">
+      <div class="mx-auto my-auto">
         <h2>정렬이란?</h2>
         <p>
-          리스트는 정보를 저장하는 데이터 데이터 형태의 종류입니다.<br /><br />
-
-          정렬도 정보를 저장하는 데이터 형태의 종류입니다.<br /><br />
-
+          리스트는 정보를 저장하는 데이터 데이터 형태의 종류입니다.<br />
+          정렬도 정보를 저장하는 데이터 형태의 종류입니다.<br />
           정렬은 리스트와 비슷하지만 조금 다른 점들이 있습니다.<br /><br />
 
           1. 정렬은 파이썬에서 자체적으로 사용할 수 없어서 numpy 모듈을 사용해야
@@ -18,6 +16,7 @@
           3. 정렬은 숫자를 저장하는 데이터 종류로 더 편합니다.
         </p>
       </div>
+
       <div class="mx-auto">
         <CIImage
           alt="python-factory-picture"
@@ -29,57 +28,24 @@
 
     <Header type="파이썬" num="58" title="정렬" />
 
-    <div>
-      <div>
-        <h2>정렬 선언</h2>
-        <p>
-          정렬을 파이썬에서 사용하는 방법은 numpy 모듈을 이용하는 것입니다.<br /><br />
-
-          아래 예제를 따라하며 정렬을 선언해봅시다.
-        </p>
-      </div>
-      <iframe
-        src="https://trinket.io/embed/python3/396ae27df2"
-        width="100%"
-        height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
-        loading="lazy"
-        style="margin: auto"
-      />
-    </div>
-
-    <QuadSpace />
-
-    <div>
-      <div>
-        <h2>정렬 숫자 연산</h2>
-        <p>
-          리스트에서는 리스트의 모든 아이템에 어떤 수를 더하고 새로운 리스트에
-          저장하기 위하여 다음과 같은 방법을 사용했습니다.<br /><br />
-
-          리스트에서는 아이템을 하나하나 for 반복문을 사용하여 숫자 연산을
-          해야합니다.<br /><br />
-
-          정렬을 사용하면 바로 그 변수를 연산하여도 잘 작동이 됩니다.
-        </p>
-      </div>
-    </div>
-    <iframe
-      src="https://trinket.io/embed/python3/bd22e54547"
-      width="100%"
-      height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
-      loading="lazy"
-      style="margin: auto"
+    <BasicExpDivWithOneIframe
+      heading="정렬 선언"
+      :contents="[
+        '정렬을 파이썬에서 사용하는 방법은 numpy 모듈을 이용하는 것입니다.',
+        '아래 예제를 따라하며 정렬을 선언해봅시다.',
+      ]"
+      iframe="https://trinket.io/embed/python3/396ae27df2"
     />
 
-    <QuadSpace />
+    <BasicExpDivWithOneIframe
+      heading="정렬 선언"
+      :contents="[
+        '리스트에서는 리스트의 모든 아이템에 어떤 수를 더하고 새로운 리스트에 저장하기 위하여 다음과 같은 방법을 사용했습니다.',
+        '리스트에서는 아이템을 하나하나 for 반복문을 사용하여 숫자 연산을 해야합니다.',
+        '정렬을 사용하면 바로 그 변수를 연산하여도 잘 작동이 됩니다.',
+      ]"
+      iframe="https://trinket.io/embed/python3/bd22e54547"
+    />
 
     <NaviBtn bef="json" aft="array_type" />
   </div>

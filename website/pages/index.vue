@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <QuadSpace />
 
     <v-row flex justify="center" class="img-div" style="margin: 10px">
@@ -13,13 +14,13 @@
         <v-btn
           aria-label="Coding Insight Button"
           to="/courses"
-          color="rgb(0, 138, 130)"
-          class="to-hide"
+          color="rgb(2, 115, 108)"
+          class="my-3"
           >지금 배우기 <v-icon right>mdi-arrow-right-thin</v-icon></v-btn
         >
-        <v-btn aria-label="Coding Insight Button" to="/index-en"
-          >In English<v-icon right>mdi-book-alphabet</v-icon></v-btn
-        >
+        <v-btn aria-label="Coding Insight Button" to="/index-en" class="my-3">
+          In English<v-icon right>mdi-book-alphabet</v-icon>
+        </v-btn>
       </div>
     </v-row>
 
@@ -114,8 +115,7 @@
           <v-btn
             aria-label="Coding Insight Button"
             class="ma-2"
-            color="primary"
-            dark
+            outlined
             to="/korean/python/"
           >
             <h5 style="font-size: 15px">파이썬</h5>
@@ -124,8 +124,7 @@
           <v-btn
             aria-label="Coding Insight Button"
             class="ma-2 to-hide"
-            color="primary"
-            dark
+            outlined
             to="/korean/python/quiz"
           >
             <h5 style="font-size: 15px">퀴즈</h5>
@@ -155,29 +154,22 @@
         </v-card-text>
 
         <v-card-actions>
-          <NuxtLink aria-label="Go to Coding Insight Page" to="/korean/c-cpp/">
-            <v-btn
-              aria-label="Coding Insight Button"
-              class="ma-2"
-              color="primary"
-              dark
-            >
-              <v-icon dark> mdi-language-c </v-icon>
-            </v-btn>
-          </NuxtLink>
-          <NuxtLink
-            aria-label="Go to Coding Insight Page"
-            to="/korean/c-cpp/cpp"
+          <v-btn
+            aria-label="Coding Insight Button"
+            to="/korean/c-cpp/"
+            class="ma-2"
+            outlined
           >
-            <v-btn
-              aria-label="Coding Insight Button"
-              class="ma-2"
-              color="primary"
-              dark
-            >
-              <v-icon dark> mdi-language-cpp </v-icon></v-btn
-            >
-          </NuxtLink>
+            <v-icon dark> mdi-language-c </v-icon>
+          </v-btn>
+          <v-btn
+            aria-label="Coding Insight Button"
+            to="/korean/c-cpp/cpp"
+            class="ma-2"
+            outlined
+          >
+            <v-icon dark> mdi-language-cpp </v-icon></v-btn
+          >
         </v-card-actions>
       </v-card>
 
@@ -203,17 +195,15 @@
         </v-card-text>
 
         <v-card-actions>
-          <a href="/korean/rust/">
-            <v-btn
-              aria-label="Coding Insight Button"
-              class="ma-2"
-              color="primary"
-              dark
-            >
-              <h5 style="font-size: 15px">Rust</h5>
-              <v-icon dark right> mdi-language-rust </v-icon>
-            </v-btn>
-          </a>
+          <v-btn
+            aria-label="Coding Insight Button"
+            to="/korean/rust/"
+            class="ma-2"
+            outlined
+          >
+            <h5 style="font-size: 15px">Rust</h5>
+            <v-icon dark right> mdi-language-rust </v-icon>
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-row>
@@ -225,6 +215,7 @@
       height="400"
       hide-delimiter-background
       show-arrows-on-hover
+      style="border-radius: 10px"
     >
       <v-carousel-item v-for="(slide, i) in slides" :key="i">
         <v-sheet height="100%">

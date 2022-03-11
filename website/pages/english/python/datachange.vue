@@ -44,7 +44,7 @@
     <QuadSpace />
 
     <div>
-      <div class="inner-div">
+      <div>
         <h2>To Tuple</h2>
         <p>
           Using tuple(), we can change anything to a tuple.<br /><br />
