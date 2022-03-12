@@ -879,7 +879,7 @@ export default {
     },
     {
       icon: 'text-box-plus',
-      title: '프로젝트: 나만의 IDLE',
+      title: '미션: 나만의 IDLE',
       to: '/korean/python/stringascode/#idlepython',
     },
     {
@@ -1414,7 +1414,6 @@ export default {
       to: '/korean/c-cpp/inheritance',
     },
   ],
-  
   start_rust: [
     {
       icon: 'map-marker',

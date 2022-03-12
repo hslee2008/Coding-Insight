@@ -682,6 +682,8 @@
       </div>
     </v-bottom-sheet>
 
+    <QuadSpace />
+
     <div style="display: flex" class="img-div">
       <div>
         <h2>.py?</h2>

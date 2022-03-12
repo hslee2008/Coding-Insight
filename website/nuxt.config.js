@@ -89,10 +89,11 @@ export default {
     './assets/css/global.css',
     './assets/css/transition.css',
     './assets/css/media.css',
+    './assets/css/scrollbar.css',
   ],
 
   // https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/vuetify.js'],
 
   // https://go.nuxtjs.dev/config-components
   components: true,
@@ -291,12 +292,8 @@ export default {
   },
 
   vuetify: {
-    theme: {
-      dark: true,
-    },
-    icons: {
-      iconfont: 'mdi',
-    },
+    customVariables: ['~/assets/sass/variables.scss'],
+    treeShake: true,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

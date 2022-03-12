@@ -23,6 +23,7 @@
           print("5")<br />
           print("!@#$")
         </code>
+        <highlightjs autodetect code="print('Hello, World!')" />
       </div>
 
       <br />

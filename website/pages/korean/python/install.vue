@@ -284,7 +284,7 @@
 
       <v-bottom-sheet v-model="sheet2" scrollable>
         <div>
-          <v-stepper v-model="e6" non-linear>
+          <v-stepper v-model="e5" non-linear>
             <v-stepper-header>
               <v-stepper-step editable step="1"> </v-stepper-step>
 
@@ -300,6 +300,7 @@
 
               <v-stepper-step editable step="4"> </v-stepper-step>
             </v-stepper-header>
+
             <v-stepper-items>
               <v-stepper-content step="1">
                 <v-card>
@@ -312,7 +313,7 @@
                     ><v-btn
                       aria-label="Coding Insight Button"
                       color="primary"
-                      @click="e6 = 2"
+                      @click="e5 = 2"
                     >
                       Continue </v-btn
                     ><v-btn
@@ -345,7 +346,7 @@
                     ><v-btn
                       aria-label="Coding Insight Button"
                       color="primary"
-                      @click="e6 = 3"
+                      @click="e5 = 3"
                     >
                       Continue </v-btn
                     ><v-btn
@@ -377,7 +378,7 @@
                     ><v-btn
                       aria-label="Coding Insight Button"
                       color="primary"
-                      @click="e6 = 4"
+                      @click="e5 = 4"
                     >
                       Continue </v-btn
                     ><v-btn

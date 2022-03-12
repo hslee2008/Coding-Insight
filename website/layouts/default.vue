@@ -1,13 +1,14 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer v-model="drawer" temporary fixed app width="300">
-      <v-card-actions class="mx-3 mb-10">
-        <v-btn icon @click="drawer = false">
-          <v-icon>mdi-close</v-icon>
-        </v-btn>
-
-        <v-spacer />
-
+    <v-navigation-drawer
+      v-model="drawer"
+      fixed
+      clipped
+      app
+      width="300"
+      style="background-color: rgb(0, 0, 0, 0)"
+    >
+      <v-card-actions class="mx-3 mt-15 mb-10">
         <v-btn
           aria-label="Coding Insight Button"
           icon
@@ -53,35 +54,13 @@
         </v-menu>
       </v-card-actions>
 
-      <v-expansion-panels
-        v-model="panel"
-        accordion
-        flat
-        tile
-        style="background-color: rgb(0, 0, 0, 0)"
-      >
+      <v-expansion-panels accordion flat tile dark>
         <v-expansion-panel>
-          <v-expansion-panel-header expand-icon="mdi-language-python" ripple
-            >파이썬</v-expansion-panel-header
-          >
-          <v-expansion-panel-content>
-            <v-list>
-              <ItemList
-                v-for="item in python_items"
-                :key="item.titleen"
-                :titleen="item.titleen"
-                :titlekr="item.titlekr"
-                :json="item.json"
-              />
-            </v-list>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <v-expansion-panel>
-          <v-expansion-panel-header expand-icon="mdi-language-python" ripple
-            >Python</v-expansion-panel-header
-          >
-          <v-expansion-panel-content>
-            <v-list>
+          <v-expansion-panel-header ripple color="rgba(18, 18, 18)">
+            Python
+          </v-expansion-panel-header>
+          <v-expansion-panel-content color="rgba(18, 18, 18)">
+            <v-list nav>
               <ItemList
                 v-for="item in python_items"
                 :key="item.titleen"
@@ -94,11 +73,11 @@
         </v-expansion-panel>
 
         <v-expansion-panel>
-          <v-expansion-panel-header expand-icon="mdi-language-rust" ripple
-            >Rust</v-expansion-panel-header
-          >
-          <v-expansion-panel-content>
-            <v-list>
+          <v-expansion-panel-header ripple color="rgba(18, 18, 18)">
+            Rust
+          </v-expansion-panel-header>
+          <v-expansion-panel-content color="rgba(18, 18, 18)">
+            <v-list nav>
               <ItemList
                 v-for="item in rust_items"
                 :key="item.titleen"
@@ -111,11 +90,11 @@
         </v-expansion-panel>
 
         <v-expansion-panel>
-          <v-expansion-panel-header expand-icon="mdi-language-cpp" ripple
-            >C/C++</v-expansion-panel-header
-          >
-          <v-expansion-panel-content>
-            <v-list>
+          <v-expansion-panel-header ripple color="rgba(18, 18, 18)">
+            C/C++
+          </v-expansion-panel-header>
+          <v-expansion-panel-content color="rgba(18, 18, 18)">
+            <v-list nav>
               <ItemList
                 v-for="item in c_items"
                 :key="item.titleen"
@@ -163,8 +142,6 @@ export default {
   data() {
     return {
       drawer: false,
-      panel: [],
-
       ...courses,
     };
   },
