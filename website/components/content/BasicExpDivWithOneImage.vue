@@ -5,9 +5,9 @@
   >
     <v-row>
       <div>
-        <v-card-title class="text-h4 text--primary">{{ heading }}</v-card-title>
+        <h2>{{ heading }}</h2>
 
-        <v-card-tex class="text--primary" t v-html="contents"></v-card-tex>
+        <div v-html="contents"></div>
       </div>
 
       <div class="mx-auto my-auto">

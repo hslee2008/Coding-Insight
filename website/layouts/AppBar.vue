@@ -1,14 +1,5 @@
 <template>
-  <v-app-bar
-    fixed
-    dense
-    clipped-left
-    app
-    rounded
-    class="mx-2 my-1"
-    hide-on-scroll
-    :extension-height="60"
-  >
+  <v-app-bar fixed dense clipped-left app rounded class="mx-2 my-1">
     <v-btn
       v-if="$vuetify.breakpoint.mobile"
       aria-label="Coding Insight Button"
@@ -17,6 +8,52 @@
     >
       <v-icon>mdi-menu</v-icon>
     </v-btn>
+
+    <template v-if="!$vuetify.breakpoint.mobile">
+      <v-btn
+        aria-label="Coding Insight Button"
+        icon
+        fab
+        small
+        @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark"
+      >
+        <v-icon>mdi-theme-light-dark</v-icon>
+      </v-btn>
+
+      <v-menu
+        v-if="
+          !$nuxt.$route.path.includes('rust') &&
+          !$nuxt.$route.path.includes('c-cpp')
+        "
+        open-on-hover
+        top
+        offset-y
+        auto
+        close-on-click
+        rounded
+        transition="slide-y-transition"
+      >
+        <template #activator="{ on, attrs }">
+          <v-btn
+            aria-label="Coding Insight Button"
+            icon
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon>mdi-translate</v-icon>
+          </v-btn>
+        </template>
+
+        <v-list>
+          <v-list-item @click.stop="toKorean">
+            <v-list-item-title>한국어</v-list-item-title>
+          </v-list-item>
+          <v-list-item @click.stop="toEnglish">
+            <v-list-item-title>English</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
+    </template>
 
     <v-spacer />
 
@@ -117,6 +154,52 @@
         </v-list-item>
       </v-list>
     </v-menu>
+
+    <template v-if="$vuetify.breakpoint.mobile">
+      <v-btn
+        aria-label="Coding Insight Button"
+        icon
+        fab
+        small
+        @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark"
+      >
+        <v-icon>mdi-theme-light-dark</v-icon>
+      </v-btn>
+
+      <v-menu
+        v-if="
+          !$nuxt.$route.path.includes('rust') &&
+          !$nuxt.$route.path.includes('c-cpp')
+        "
+        open-on-hover
+        top
+        offset-y
+        auto
+        close-on-click
+        rounded
+        transition="slide-y-transition"
+      >
+        <template #activator="{ on, attrs }">
+          <v-btn
+            aria-label="Coding Insight Button"
+            icon
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon>mdi-translate</v-icon>
+          </v-btn>
+        </template>
+
+        <v-list>
+          <v-list-item @click.stop="toKorean">
+            <v-list-item-title>한국어</v-list-item-title>
+          </v-list-item>
+          <v-list-item @click.stop="toEnglish">
+            <v-list-item-title>English</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
+    </template>
   </v-app-bar>
 </template>
 

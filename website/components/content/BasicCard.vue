@@ -3,9 +3,9 @@
     style="background-color: rgb(0, 0, 0, 0); margin-bottom: 75px"
     elevation="0"
   >
-    <v-card-title class="text-h4 text--primary">{{ heading }}</v-card-title>
+    <h2>{{ heading }}</h2>
 
-    <v-card-text class="text--primary" v-html="contents"> </v-card-text>
+    <div v-html="contents"></div>
   </v-card>
 </template>
 

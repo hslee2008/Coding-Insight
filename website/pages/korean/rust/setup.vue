@@ -290,7 +290,7 @@
                 >
                   <v-card-title>
                     <p style="color: black">
-                      CTRL + SHIFT + X 누르거나 큐브 버튼 누르기
+                      <kbd>CTRL + SHIFT + X</kbd> 누르거나 큐브 버튼 누르기
                     </p></v-card-title
                   >
                 </v-img>
@@ -419,7 +419,7 @@
                 >
                   <v-card-title>
                     <p style="color: black">
-                      CTRL + SHIFT + E 누르거나 "파일" 버튼 누르기
+                      <kbd>CTRL + SHIFT + E</kbd> 누르거나 "파일" 버튼 누르기
                     </p></v-card-title
                   >
                 </v-img>

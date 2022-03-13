@@ -1,111 +1,55 @@
 <template>
-  <v-app dark>
+  <v-app
+    dark
+    :style="'background-color: ' + $vuetify.theme.dark ? '#23262e' : 'white'"
+  >
     <v-navigation-drawer
       v-model="drawer"
       fixed
       clipped
       app
-      width="300"
+      :width="$vuetify.breakpoint.mobile ? '90%' : 300"
       style="background-color: rgb(0, 0, 0, 0)"
+      class="mx-2 my-5 rounded-lg"
     >
-      <v-card-actions class="mx-3 mt-15 mb-10">
-        <v-btn
-          aria-label="Coding Insight Button"
-          icon
-          fab
-          small
-          @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark"
-        >
-          <v-icon>mdi-theme-light-dark</v-icon>
-        </v-btn>
+      <v-tabs
+        v-model="tab"
+        :vertical="$vuetify.breakpoint.mobile && !$vuetify.breakpoint.xs"
+      >
+        <v-tab>Python</v-tab>
+        <v-tab>C/C++</v-tab>
+        <v-tab>Rust</v-tab>
 
-        <v-menu
-          v-if="
-            !$nuxt.$route.path.includes('rust') &&
-            !$nuxt.$route.path.includes('c-cpp')
-          "
-          open-on-hover
-          top
-          offset-y
-          auto
-          close-on-click
-          rounded
-          transition="slide-y-transition"
-        >
-          <template #activator="{ on, attrs }">
-            <v-btn
-              aria-label="Coding Insight Button"
-              icon
-              v-bind="attrs"
-              v-on="on"
-            >
-              <v-icon>mdi-translate</v-icon>
-            </v-btn>
-          </template>
-
-          <v-list>
-            <v-list-item @click.stop="toKorean">
-              <v-list-item-title>한국어</v-list-item-title>
-            </v-list-item>
-            <v-list-item @click.stop="toEnglish">
-              <v-list-item-title>English</v-list-item-title>
-            </v-list-item>
-          </v-list>
-        </v-menu>
-      </v-card-actions>
-
-      <v-expansion-panels accordion flat tile dark>
-        <v-expansion-panel>
-          <v-expansion-panel-header ripple color="rgba(18, 18, 18)">
-            Python
-          </v-expansion-panel-header>
-          <v-expansion-panel-content color="rgba(18, 18, 18)">
-            <v-list nav>
-              <ItemList
-                v-for="item in python_items"
-                :key="item.titleen"
-                :titleen="item.titleen"
-                :titlekr="item.titlekr"
-                :json="item.json"
-              />
-            </v-list>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-
-        <v-expansion-panel>
-          <v-expansion-panel-header ripple color="rgba(18, 18, 18)">
-            Rust
-          </v-expansion-panel-header>
-          <v-expansion-panel-content color="rgba(18, 18, 18)">
-            <v-list nav>
-              <ItemList
-                v-for="item in rust_items"
-                :key="item.titleen"
-                :titleen="item.titleen"
-                :titlekr="item.titlekr"
-                :json="item.json"
-              />
-            </v-list>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-
-        <v-expansion-panel>
-          <v-expansion-panel-header ripple color="rgba(18, 18, 18)">
-            C/C++
-          </v-expansion-panel-header>
-          <v-expansion-panel-content color="rgba(18, 18, 18)">
-            <v-list nav>
-              <ItemList
-                v-for="item in c_items"
-                :key="item.titleen"
-                :titleen="item.titleen"
-                :titlekr="item.titlekr"
-                :json="item.json"
-              />
-            </v-list>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-      </v-expansion-panels>
+        <v-tabs-items v-model="tab" class="py-3">
+          <v-tab-item>
+            <ItemList
+              v-for="item in python_items"
+              :key="item.titleen"
+              :titleen="item.titleen"
+              :titlekr="item.titlekr"
+              :json="item.json"
+            />
+          </v-tab-item>
+          <v-tab-item>
+            <ItemList
+              v-for="item in c_items"
+              :key="item.titleen"
+              :titleen="item.titleen"
+              :titlekr="item.titlekr"
+              :json="item.json"
+            />
+          </v-tab-item>
+          <v-tab-item>
+            <ItemList
+              v-for="item in rust_items"
+              :key="item.titleen"
+              :titleen="item.titleen"
+              :titlekr="item.titlekr"
+              :json="item.json"
+            />
+          </v-tab-item>
+        </v-tabs-items>
+      </v-tabs>
     </v-navigation-drawer>
 
     <AppBar :changeDrawer="changeDrawer" />
@@ -142,46 +86,14 @@ export default {
   data() {
     return {
       drawer: false,
+      tab: null,
+
       ...courses,
     };
   },
   methods: {
     changeDrawer() {
       this.drawer = !this.drawer;
-    },
-    toEnglish() {
-      switch ($nuxt.$route.path) {
-        case '/':
-          window.location = '/index-en';
-          break;
-        case '/index-en':
-          window.location = '/index-en';
-          break;
-        default:
-          window.location =
-            '/english/python' +
-            ($nuxt.$route.path === '/'
-              ? '/python'
-              : $nuxt.$route.path.replace('/korean/python', ''));
-          break;
-      }
-    },
-    toKorean() {
-      switch ($nuxt.$route.path) {
-        case '/':
-          window.location = '/';
-          break;
-        case '/index-en':
-          window.location = '/';
-          break;
-        default:
-          window.location =
-            '/korean/python' +
-            ($nuxt.$route.path === '/'
-              ? '/python'
-              : $nuxt.$route.path.replace('/english/python', ''));
-          break;
-      }
     },
   },
 };

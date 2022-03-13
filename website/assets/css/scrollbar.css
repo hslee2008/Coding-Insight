@@ -1,16 +1,9 @@
 ::-webkit-scrollbar {
   width: 10px;
-  height: 5px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-  margin: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #087ea4;
-  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
