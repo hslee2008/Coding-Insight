@@ -25,7 +25,7 @@ export default {
       },
       {
         name: 'theme-color',
-        content: '#20232a',
+        content: '#23272F',
       },
       {
         name: 'keywords',
@@ -188,8 +188,8 @@ export default {
         'coding-insight',
         'python-factory',
       ],
-      theme_color: '#20232a',
-      background_color: '#20232a',
+      theme_color: '#23272F',
+      background_color: '#23272F',
       display: 'minimal-ui',
       scope: './',
       start_url: '/',
@@ -230,13 +230,14 @@ export default {
         },
         {
           src: '/pwa/screenshot-mobile-home.png',
-          sizes: '547x791',
+          sizes: '460x788',
           type: 'image/png',
         },
       ],
       shortcuts: [
         {
           name: '파이썬',
+          short_name: '파이썬',
           url: '/korean/python',
           description: '파이썬 프로그래밍 언어 배우기',
           icons: [
@@ -249,6 +250,7 @@ export default {
         },
         {
           name: 'Python',
+          short_name: 'Python',
           url: '/english/python',
           description: 'Learn Python Programming Language',
           icons: [
@@ -261,6 +263,7 @@ export default {
         },
         {
           name: 'C/C++',
+          short_name: 'C/C++',
           url: '/korean/c-cpp',
           description: 'Learn C/C++ Programming Language',
           icons: [
@@ -273,6 +276,7 @@ export default {
         },
         {
           name: 'Rust',
+          short_name: 'Rust',
           url: '/korean/rust',
           description: 'Rust 프로그래밍 언어 배우기',
           icons: [

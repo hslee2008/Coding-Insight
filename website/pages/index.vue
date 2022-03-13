@@ -29,27 +29,6 @@
 
     <QuadSpace />
 
-    <v-alert
-      dismissible
-      color="blue"
-      border="left"
-      elevation="2"
-      colored-border
-      icon="mdi-information"
-    >
-      <NuxtLink to="/korean/python/machinelearning">머신 러닝 페이지</NuxtLink>
-      확인하기!
-      <v-btn
-        aria-label="Coding Insight Button"
-        to="/korean/python/machinelearning"
-        icon
-        x-small
-        ><v-icon>mdi-robot</v-icon></v-btn
-      >
-    </v-alert>
-
-    <QuadSpace />
-
     <v-card class="mx-auto">
       <v-card-text>
         <h3>블록코딩을 넘어서 파이썬으로!</h3>
@@ -84,6 +63,94 @@
       </v-card-actions>
     </v-card>
 
+    <QuadSpace />
+    <QuadSpace />
+
+    <v-card-title>Coding-Insight에서 배우기</v-card-title>
+    <v-row style="gap: 50px" class="mx-auto my-auto">
+      <div style="width: 290px" class="d-flex">
+        <img src="~/assets/img/learn.svg" alt="learn" style="margin: auto" />
+
+        <div>
+          <v-card-title>배우기</v-card-title>
+          <v-card-text>
+            쉽고 재미있는 설명으로<br />
+            코딩을 배우세요!
+          </v-card-text>
+        </div>
+      </div>
+
+      <div style="width: 290px" class="d-flex">
+        <img
+          src="~/assets/img/zeroconfig.svg"
+          alt="zeroconfig"
+          style="margin: auto"
+        />
+
+        <div>
+          <v-card-title>바로 시작하기</v-card-title>
+          <v-card-text>
+            설치 필요 없이<br />
+            사이트에서 바로 시작!
+          </v-card-text>
+        </div>
+      </div>
+
+      <div style="width: 290px" class="d-flex">
+        <img
+          src="~/assets/img/diverse.svg"
+          alt="diverse"
+          style="margin: auto"
+        />
+
+        <div>
+          <v-card-title>3개의 언어</v-card-title>
+          <v-card-text>
+            파이썬, C/C++, Rust<br />
+            프로그래밍 언어
+          </v-card-text>
+        </div>
+      </div>
+
+      <div style="width: 290px" class="d-flex">
+        <img
+          src="~/assets/img/project.svg"
+          alt="project"
+          style="margin: auto"
+        />
+
+        <div>
+          <v-card-title>프로젝트로</v-card-title>
+          <v-card-text>
+            다양한 프로젝트를 만들며<br />
+            배우고 실행하세요!
+          </v-card-text>
+        </div>
+      </div>
+
+      <div style="width: 290px" class="d-flex">
+        <img src="~/assets/img/inf.svg" alt="inf" style="margin: auto" />
+
+        <div>
+          <v-card-title>0부터 무한까지</v-card-title>
+          <v-card-text>
+            Coding-Insight에서 시작해서<br />
+            무한대의 코딩을 배우세요!
+          </v-card-text>
+        </div>
+      </div>
+
+      <div style="width: 290px" class="d-flex">
+        <img src="~/assets/img/eng.svg" alt="eng" style="margin: auto" />
+
+        <div>
+          <v-card-title>영어로까지!</v-card-title>
+          <v-card-text> 영어로까지 배우기<br /> </v-card-text>
+        </div>
+      </div>
+    </v-row>
+
+    <QuadSpace />
     <QuadSpace />
 
     <h3>모든 강좌 확인하기</h3>
@@ -207,57 +274,6 @@
     </v-row>
 
     <QuadSpace />
-
-    <v-carousel
-      cycle
-      height="400"
-      hide-delimiter-background
-      show-arrows-on-hover
-      style="border-radius: 10px"
-    >
-      <v-carousel-item v-for="(slide, i) in slides" :key="i">
-        <v-sheet height="100%">
-          <v-img :src="slide.img" height="100%" width="100%">
-            <v-card
-              class="mx-auto mb-10 mt-10"
-              style="padding: 10px"
-              max-width="500"
-              height="75%"
-            >
-              <div class="text-overline mb-4"></div>
-              <h2 class="mb-1">
-                {{ slide.text }}
-              </h2>
-              <p>{{ slide.quote }}</p>
-
-              <v-avatar size="80" color="grey">
-                <v-img :src="slide.logo"></v-img
-              ></v-avatar> </v-card
-          ></v-img>
-        </v-sheet>
-      </v-carousel-item>
-    </v-carousel>
-
-    <QuadSpace />
-
-    <v-alert
-      dismissible
-      color="red"
-      border="left"
-      elevation="2"
-      colored-border
-      icon="mdi-youtube"
-    >
-      코딩 인사이트 소개 동영상 확인하기
-      <v-btn
-        aria-label="Coding Insight Button"
-        href="https://www.youtube.com/watch?v=ya7Ud1tTpag"
-        icon
-        x-small
-        ><v-icon>mdi-open-in-new</v-icon></v-btn
-      >
-    </v-alert>
-
     <QuadSpace />
   </div>
 </template>

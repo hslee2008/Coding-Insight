@@ -1,8 +1,5 @@
 <template>
-  <v-app
-    dark
-    :style="'background-color: ' + $vuetify.theme.dark ? '#23262e' : 'white'"
-  >
+  <v-app>
     <v-navigation-drawer
       v-model="drawer"
       fixed
@@ -13,6 +10,7 @@
       class="mx-2 my-5 rounded-lg"
     >
       <v-tabs
+        center-active
         v-model="tab"
         :vertical="$vuetify.breakpoint.mobile && !$vuetify.breakpoint.xs"
       >

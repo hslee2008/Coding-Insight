@@ -1,3 +1,5 @@
+/*HTML style*/
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,4 +29,14 @@ iframe {
   background-color: rgb(101, 100, 100);
   padding: 10px;
   border-radius: 5px;
+}
+
+/*Theme*/
+
+.theme--dark.v-application {
+  background-color: var(--v-background-base, #23272f) !important;
+}
+
+.theme--light.v-application {
+  background-color: var(--v-background-base, rgb(243, 243, 243)) !important;
 }

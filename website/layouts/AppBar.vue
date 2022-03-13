@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar fixed dense clipped-left app rounded class="mx-2 my-1">
+  <v-app-bar fixed dense clipped-left app rounded class="mx-2 my-2">
     <v-btn
       v-if="$vuetify.breakpoint.mobile"
       aria-label="Coding Insight Button"
@@ -39,6 +39,7 @@
             icon
             v-bind="attrs"
             v-on="on"
+            v-if="!$vuetify.breakpoint.mobile"
           >
             <v-icon>mdi-translate</v-icon>
           </v-btn>
