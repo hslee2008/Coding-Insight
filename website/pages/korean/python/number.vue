@@ -1,8 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <br /><br />
+
+    <div>
+      <div class="mx-auto my-auto">
         <h2>변수 - 숫자 선언 방법</h2>
         <p>
           숫자는 우리가 항상 사용하는 것입니다. '사과 2개', '책 3권' 등 다양한
@@ -17,7 +18,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://blog.shabda.co/wp-content/uploads/2015/10/numbers-truth-morality.png"
@@ -47,12 +48,8 @@
         src="https://trinket.io/embed/python3/e6f77e0d9a"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -82,12 +79,8 @@
         src="https://trinket.io/embed/python3/81191f5590"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -121,12 +114,8 @@
         src="https://trinket.io/embed/python3/4b9cfba68b"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -233,7 +222,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

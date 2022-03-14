@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <Header type="파이썬" num="37" title="While 반복문" />
@@ -22,12 +22,8 @@
           src="https://trinket.io/embed/python3/496fc82d74"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 
@@ -68,12 +64,8 @@
           src="https://trinket.io/embed/python3/3f6d66c42e"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 
@@ -93,12 +85,8 @@
           src="https://trinket.io/embed/python3/d35c515f41"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 

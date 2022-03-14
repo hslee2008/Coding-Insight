@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>main() 함수란?</h2>
         <p>
           main() 함수는 C 언어에서 실행할 모든 코드를 담은 곳입니다.<br /><br />
@@ -15,7 +15,7 @@
           3. return이 숫자이니 main의 데이터 형태도 int이어야 합니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVtWFSGRUxMggLLNqG3lCfUkfN02VTaOkHw&usqp=CAU"
@@ -63,7 +63,7 @@
           열고(<kbd>ctrl+shift+e</kbd>) exe로 끝나는 파일을 찾습니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/44gu"
           width="100%"

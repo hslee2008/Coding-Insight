@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>변수란?</h2>
         <p>
@@ -109,8 +109,8 @@
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>변수 이름을 만들때 규칙</h2>
         <p>
           변수를 만들 때 매우 다양한 규칙이 있습니다.<br /><br />
@@ -121,7 +121,7 @@
           더 자세한 내용은 조금 뒤에 배우겠습니다)<br /><br />
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fI89ddpqwH_V2tcKZx4VijN0SjNXKPIo7Q&usqp=CAU"
@@ -226,7 +226,6 @@
       >
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

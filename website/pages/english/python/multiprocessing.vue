@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div style="display: flex; justify-content: center">
         <CIImage
           alt="python-factory-picture"
@@ -10,7 +10,7 @@
           max-width="200px"
         />
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <h2>Multiprocessing</h2>
         <p>
           Multiprocessing module helps us run two functions at once.<br /><br />
@@ -22,7 +22,6 @@
 
     <Header-en type="Python" num="76" title="Multiprocessing"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -37,12 +36,8 @@
       src="https://trinket.io/embed/python3/bbf4c84765"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

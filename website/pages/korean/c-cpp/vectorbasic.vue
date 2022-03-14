@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -18,8 +18,8 @@
 
     <Header type="C/C++" title="Vector" num="4" />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>vector 사용하기</h2>
 
         vector을 사용하기 위해서 vector 라이브러리에서 먼저 가지고
@@ -42,7 +42,7 @@
           }
         </code>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vectorcode.png"

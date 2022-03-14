@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>What is File Handling?</h2>
         <p>
           In Python, it is very easy to read, write, append, create and delete
@@ -15,7 +15,7 @@
           However, there are much more to it than simply writing to files.
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
@@ -26,10 +26,9 @@
 
     <Header-en type="Python" num="49" title="File"></Header-en>
 
-    <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>File Path</h2>
         <p>
           File path is the adress of your file in your computer.<br /><br />
@@ -68,12 +67,8 @@
         src="https://trinket.io/embed/python3/5755f85207"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

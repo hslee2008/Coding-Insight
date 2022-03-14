@@ -1,7 +1,7 @@
 <template>
   <div>
-    <QuadSpace />
-    <div style="display: flex" class="img-div">
+    <br /><br />
+    <div>
       <div>
         <h2>불리언란?</h2>
         <p>
@@ -25,7 +25,7 @@
           <code> a = 5 > 6 </code>
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
@@ -36,8 +36,8 @@
 
     <Header type="파이썬" num="13" title="불리언" />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>불리언 - 주의할 점</h2>
         <p>
           파이썬에서는 '옳다면 True라고 출력되고 옳지 않다면 False'라고
@@ -53,12 +53,8 @@
         src="https://trinket.io/embed/python/8500bba20b"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -76,12 +72,8 @@
         src="https://trinket.io/embed/python/5fbbc3204c"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -106,12 +98,8 @@
         src="https://trinket.io/embed/python3/b23c21c043"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -133,12 +121,8 @@
         src="https://trinket.io/embed/python/6d4ae0d672"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -291,7 +275,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

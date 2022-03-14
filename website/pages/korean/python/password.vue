@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>로그인 프로그램</h2>
         <p>
           파이썬을 사용해서 암호 로그인 프로그램을 만들어 보겠습니다!<br /><br />
@@ -16,7 +16,7 @@
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="100px"
@@ -61,10 +61,6 @@
       src="https://trinket.io/embed/python3/0b59c71a2d"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />

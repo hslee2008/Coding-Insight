@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
     <div>
       <div>
         <h2>이스케이프 문자란?</h2>
@@ -20,12 +20,8 @@
         src="https://trinket.io/embed/python/cb2f50d77b"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -36,8 +32,6 @@
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/X3D4VTMiLL4"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -45,8 +39,8 @@
 
     <Header type="파이썬" num="11" title="이스케이프 문자" />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>\'와 \"</h2>
         <p>
           \'와 \"는 각각 ', "와 충돌하지 않게 도와주는 문자입니다.<br /><br />
@@ -62,12 +56,8 @@
         src="https://trinket.io/embed/python/5d4e5680b4"
         width="60%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -76,8 +66,8 @@
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>\n</h2>
         <p>
           영어로 새로운 줄은 newline이라고 합니다. \n는 엔터와 같습니다.<br /><br />
@@ -92,12 +82,8 @@
         src="https://trinket.io/embed/python/c420acd5f8"
         width="60%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -123,12 +109,8 @@
         src="https://trinket.io/embed/python/e24eef8879"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -168,12 +150,8 @@
         src="https://trinket.io/embed/python/6366397170"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -236,7 +214,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

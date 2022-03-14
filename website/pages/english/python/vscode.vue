@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn
@@ -417,7 +417,6 @@
 
     <Header-en type="Python" num="3" title="VSCode Installation"></Header-en>
 
-    <QuadSpace />
 
     <v-btn
       aria-label="Coding Insight Button"
@@ -684,7 +683,7 @@
       </div>
     </v-bottom-sheet>
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>.py?</h2>
         <p>
@@ -692,7 +691,7 @@
           computer that this file is for Python only.
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           class="v-img-fluid"

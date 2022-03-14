@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -31,12 +31,8 @@
         src="https://trinket.io/embed/python3/724bf9a522"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -55,12 +51,8 @@
           src="https://trinket.io/embed/python3/ca6f756679"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>

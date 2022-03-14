@@ -1,7 +1,7 @@
 <template>
   <div>
-    <QuadSpace />
-    <div style="display: flex" class="img-div">
+    <br /><br />
+    <div>
       <div>
         <h2>What is data and data type?</h2>
         <p>
@@ -19,7 +19,7 @@
           <code> weather = "a bit rainy" </code>
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
@@ -30,9 +30,8 @@
 
     <Header-en type="Python" num="6" title="Data Type"></Header-en>
 
-    <QuadSpace />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div style="margin: auto; padding-right: 5px">
         <h2>Know the data type in Python</h2>
         <p>
@@ -51,16 +50,11 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/109be31855"
         width="70%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -238,7 +232,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

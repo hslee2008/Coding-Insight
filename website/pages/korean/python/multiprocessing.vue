@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div style="display: flex; justify-content: center">
         <CIImage
           alt="python-factory-picture"
@@ -10,7 +10,7 @@
           max-width="200px"
         />
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <h2>멀티프로세싱이란?</h2>
         <p>
           멀티프로세싱이라는 것은 어떤 함수를 동시에 실행할 수 있는 모듈
@@ -35,12 +35,8 @@
       src="https://trinket.io/embed/python3/bbf4c84765"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

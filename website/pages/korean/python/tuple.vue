@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -30,12 +30,8 @@
           src="https://trinket.io/embed/python3/069924886e"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 
@@ -46,10 +42,7 @@
           width="560"
           height="315"
           src="https://www.youtube.com/embed/iIUhChzGajA"
-          title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
         />
       </div>
 
@@ -68,12 +61,8 @@
           src="https://trinket.io/embed/python3/8c81ff1498"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 
@@ -98,10 +87,6 @@
             src="https://trinket.io/embed/python3/0cc2f9e56d"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
           />
         </div>
       </div>
@@ -124,12 +109,8 @@
           src="https://trinket.io/embed/python3/1af130ab47"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 

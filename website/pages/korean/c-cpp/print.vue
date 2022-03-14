@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -17,7 +17,7 @@
           합니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VrZ"
           height="300px"
@@ -246,7 +246,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

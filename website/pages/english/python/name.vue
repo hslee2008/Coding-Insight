@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <h2>What is __name__ variable?</h2>
@@ -21,7 +21,6 @@
 
     <Header-en type="Python" num="72" title="__name__"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -30,16 +29,11 @@
           Let's look at the following examples.<br /><br />
 
           <iframe
-            class="embed-responsive-item"
             src="https://trinket.io/embed/python3/c6d50081cf"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           />
 
           <br /><br />If we run the code inside file2.py, "Hi" is printed
@@ -48,16 +42,11 @@
           Let's try changing the contents inside file1.py.<br /><br />
 
           <iframe
-            class="embed-responsive-item"
             src="https://trinket.io/embed/python3/b01563dd19"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           />
 
           <br /><br />Know, if we run the code inside file2.py, the only thing

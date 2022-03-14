@@ -1,16 +1,16 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>장난 이메일</h2>
         <p>
           이 프로젝트에서는 친구 또는 가족에게 장난으로 이메일을 보내는 방법을
           알아보겠습니다.
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://www.incimages.com/uploaded_files/image/empty-email_463770.gif"
@@ -52,12 +52,8 @@
       src="https://trinket.io/embed/python3/db9f325b98"
       width="100%"
       height="500vh"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>loop 문</h2>
         <p>
           loop 문이란 {} 안에 들어있는 코드를 무한이 반복하는 형식입니다.<br /><br />
@@ -12,7 +12,8 @@
           합니다.
         </p>
       </div>
-      <div style="margin: auto">
+
+      <div class="mx-auto my-auto">
         <svg
           width="158"
           height="213"
@@ -52,37 +53,61 @@
 
     <Header type="Rust" title="loop 반복문" num="27" />
 
-    <BasicExpDivWithOneIframe
-      heading="loop {} 사용"
-      :contents="[
-        'loop {} 사용하면 {} 안에 있는 코드를 무한으로 반복할 수 있습니다.',
-        '그리고 if문을 사용해서 어떤 조건을 만족하면 멈추는 방법도 있습니다.',
-        'break를 사용하면 loop을 멈출 수 있습니다.',
-      ]"
-      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22%F0%9F%A4%B1%22%3B%0D%0A%20%20%20%20let%20mut%20count%3A%20i32%20%3D%200%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20loop%20%7B%0D%0A%20%20%20%20%20%20%20%20if%20count%20%3E%3D%205%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20break%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20println!(%22Hello%2C%20Mom!%20%7Ba%7D%22)%3B%0D%0A%20%20%20%20%20%20%20%20count%20%2B%3D%201%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
-    />
+    <div>
+      <div>
+        <h2>loop {} 사용</h2>
+        loop {} 사용하면 {} 안에 있는 코드를 무한으로 반복할 수 있습니다.<br /><br />
 
-    <BasicExpDivWithOneIframe
-      heading="loop 안의 loop 안의 loop..."
-      :contents="[
-        'loop이 여렇게가 안에 있으면 break를 사용할 때 복잡해 지기 때문에 loop에 이름을 붙여서 사용할 수 있습니다.',
-        'CODE:\'이름:loop {}',
-        '을 실행하면 loop에 이름을 지을 수 있습니다.',
-        'CODE:break \'이름',
-        '는 그 loop을 멈추게 합니다.',
-      ]"
-      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20mut%20inner_count%3A%20i32%20%3D%200%3B%0A%20%20%20%20%0A%20%20%20%20%27outer%3A%20loop%20%7B%0A%20%20%20%20%20%20%20%20println!(%22Entered%20the%20outer%20loop%22)%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20inner_count%20%2B%3D%201%3B%0A%0A%20%20%20%20%20%20%20%20%27inner%3A%20loop%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20println!(%22Entered%20the%20inner%20loop%22)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20inner_count%20%2B%3D%201%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20inner_count%20%3E%3D%203%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20break%20%27inner%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20if%20inner_count%20%3E%3D%205%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20break%20%27outer%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%0A%20%20%20%20println!(%22Exited%20the%20outer%20loop%22)%3B%0A%7D%0A"
-      :alotwider="true"
-    />
+        그리고 if문을 사용해서 어떤 조건을 만족하면 멈추는 방법도 있습니다.<br /><br />
 
-    <BasicExpDivWithOneIframe
-      heading="loop의 결과"
-      :contents="[
-        'loop {}의 실행하고 break를 사용할 때 값을 돌려주어서 변수에 저장할 수 있습니다.',
-      ]"
-      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20mut%20string%20%3D%20String%3A%3Afrom(%22%22)%3B%0D%0A%20%20%20%20let%20mut%20count%3A%20i32%20%3D%200%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20let%20result%3A%20String%20%3D%20loop%20%7B%0D%0A%20%20%20%20%20%20%20%20string%20%2B%3D%20%22*%22%3B%0D%0A%20%20%20%20%20%20%20%20count%20%2B%3D%201%3B%0D%0A%20%20%20%20%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20if%20count%20%3E%3D%2010%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20break%20string%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%7D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bresult%7D%22)%3B%0D%0A%7D"
-      :abitwider="true"
-    />
+        break를 사용하면 loop을 멈출 수 있습니다.<br /><br />
+
+        <iframe
+          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22%F0%9F%A4%B1%22%3B%0D%0A%20%20%20%20let%20mut%20count%3A%20i32%20%3D%200%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20loop%20%7B%0D%0A%20%20%20%20%20%20%20%20if%20count%20%3E%3D%205%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20break%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20println!(%22Hello%2C%20Mom!%20%7Ba%7D%22)%3B%0D%0A%20%20%20%20%20%20%20%20count%20%2B%3D%201%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
+          width="100%"
+          height="400"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div id="label">
+      <div>
+        <h2>loop 안의 loop 안의 loop...</h2>
+        loop이 여렇게가 안에 있으면 break를 사용할 때 복잡해 지기 때문에 loop에
+        이름을 붙여서 사용할 수 있습니다.<br /><br />
+
+        <IC code="'이름:loop {}" />을 실행하면 loop에 이름을 지을 수
+        있습니다.<br /><br />
+
+        그리고 <IC code="break '이름" />는 그 loop을 멈추게 합니다.<br /><br />
+
+        <iframe
+          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20mut%20inner_count%3A%20i32%20%3D%200%3B%0A%20%20%20%20%0A%20%20%20%20%27outer%3A%20loop%20%7B%0A%20%20%20%20%20%20%20%20println!(%22Entered%20the%20outer%20loop%22)%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20inner_count%20%2B%3D%201%3B%0A%0A%20%20%20%20%20%20%20%20%27inner%3A%20loop%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20println!(%22Entered%20the%20inner%20loop%22)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20inner_count%20%2B%3D%201%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20inner_count%20%3E%3D%203%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20break%20%27inner%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20if%20inner_count%20%3E%3D%205%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20break%20%27outer%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%0A%20%20%20%20println!(%22Exited%20the%20outer%20loop%22)%3B%0A%7D%0A"
+          width="100%"
+          height="550"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>loop의 결과</h2>
+        loop {}의 실행하고 break를 사용할 때 값을 돌려주어서 변수에 저장할 수
+        있습니다.<br /><br />
+
+        <iframe
+          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20mut%20string%20%3D%20String%3A%3Afrom(%22%22)%3B%0D%0A%20%20%20%20let%20mut%20count%3A%20i32%20%3D%200%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20let%20result%3A%20String%20%3D%20loop%20%7B%0D%0A%20%20%20%20%20%20%20%20string%20%2B%3D%20%22*%22%3B%0D%0A%20%20%20%20%20%20%20%20count%20%2B%3D%201%3B%0D%0A%20%20%20%20%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20if%20count%20%3E%3D%2010%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20break%20string%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%7D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bresult%7D%22)%3B%0D%0A%7D"
+          width="100%"
+          height="400"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
 
     <NaviBtn bef="if" aft="while" />
   </div>

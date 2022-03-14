@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>Making a login program</h2>
         <p>
           Let's make a login program that prompts the user for password!<br /><br />
@@ -17,7 +17,7 @@
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="100px"
@@ -28,7 +28,6 @@
 
     <Header-en type="Python" num="Proj: 2" title="Password Program"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <h2>Program Explanation</h2>
@@ -64,10 +63,6 @@
       src="https://trinket.io/embed/python3/78247d771c"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />

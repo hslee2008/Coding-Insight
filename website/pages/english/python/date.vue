@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>How to use datetime module</h2>
         <p>
           Let's fetch datetime module first.<br /><br />
@@ -11,7 +11,7 @@
           <code> import datetime </code>
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://i.pinimg.com/736x/2e/91/54/2e9154e47f8ee83671518361c96fc1d4.jpg"
@@ -22,7 +22,6 @@
 
     <Header-en type="Python" num="43" title="Date"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -44,12 +43,8 @@
         src="https://trinket.io/embed/python3/437df64da8"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -81,14 +76,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/d0f4e3cc48"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>

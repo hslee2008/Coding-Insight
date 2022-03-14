@@ -1,7 +1,7 @@
 <template>
   <div>
-    <QuadSpace />
-    <div style="display: flex" class="img-div">
+    <br /><br />
+    <div>
       <div>
         <h2>데이터 형태란?</h2>
         <p>
@@ -15,7 +15,7 @@
           <code> weather = "대체로 흐림" </code>
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
@@ -31,8 +31,6 @@
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/DDrOcpflWDc"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -40,31 +38,25 @@
 
     <Header type="파이썬" num="6" title="데이터 형태" />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto; padding-right: 5px">
-        <h2>데이터 형태 알기</h2>
-        <p>
-          저희는 파이썬에서 type() 함수를 사용하여 변수의 데이터 형태를 알 수
-          있습니다.<br /><br />
+    <div>
+      <h2>데이터 형태 알기</h2>
+      <p>
+        저희는 파이썬에서 type() 함수를 사용하여 변수의 데이터 형태를 알 수
+        있습니다.<br /><br />
 
-          <code> print(type("안녕")) </code>
+        <code> print(type("안녕")) </code>
 
-          <code>&lt;class 'str'></code>은 "안녕"이 str 데이터 변수(str은
-          문자입니다)라는 것을 알려줍니다.
-        </p>
-      </div>
-      <iframe
-        src="https://trinket.io/embed/python/1068ac5668"
-        width="100%"
-        height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
-        loading="lazy"
-        style="margin: auto"
-      />
+        <code>&lt;class 'str'></code>은 "안녕"이 str 데이터 변수(str은
+        문자입니다)라는 것을 알려줍니다.
+      </p>
     </div>
+    <iframe
+      src="https://trinket.io/embed/python/1068ac5668"
+      width="100%"
+      height="356"
+      loading="lazy"
+      class="mx-auto my-auto"
+    />
 
     <QuadSpace />
 
@@ -81,12 +73,8 @@
             src="https://trinket.io/embed/python/437398710e"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           />
 
           <br />
@@ -101,7 +89,7 @@
         </p>
       </div>
 
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://www.sas.com/en_us/insights/articles/big-data/big-data-privacy/_jcr_content/par02/image_df5.img.jpg/1601048186486.jpg"
@@ -258,7 +246,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

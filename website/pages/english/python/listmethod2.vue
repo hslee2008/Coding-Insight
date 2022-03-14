@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" title="List Method 2" num="20"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -25,12 +24,8 @@
         src="https://trinket.io/embed/python3/44f3241dca"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -47,12 +42,8 @@
         src="https://trinket.io/embed/python3/12cc090a48"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -64,16 +55,11 @@
         <p>You can use 'extend' to add two lists to create a new sheet.</p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/7e53c5b5a9"
         width="70%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -88,16 +74,11 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/94a4a72417"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -151,7 +132,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

@@ -1530,7 +1530,7 @@ export default {
     {
       icon: 'clipboard-edit',
       title: '배열 메서드',
-      to: '/korean/rust/array-method',
+      to: '/korean/rust/array_method',
     },
     {
       icon: 'database-refresh',

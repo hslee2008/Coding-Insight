@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -20,12 +20,8 @@
         src="https://trinket.io/embed/python3/725e856cf1"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -42,12 +38,8 @@
             src="https://trinket.io/embed/python3/1b58b7cdc3"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           />
           <br /><br />먼저, 클래스 안에서 def __init__()이라고 선언한 후 안에
           self, name, age, gender 변수를 만들었습니다.<br /><br />
@@ -81,12 +73,8 @@
         src="https://trinket.io/embed/python3/a1a4151531"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

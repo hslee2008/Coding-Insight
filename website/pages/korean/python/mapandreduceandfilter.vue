@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -17,12 +17,8 @@
         src="https://trinket.io/embed/python3/0be5e6efb5"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -38,12 +34,8 @@
             src="https://trinket.io/embed/python3/373f6daa17"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           /><br /><br />
           1. 먼저, map() 함수의 첫 번째 매개변수에는 함수의 이름을 넣습니다.<br />
           2. 만일 어떤 계산을 하는 함수 (예: x에 2를 곱하는 함수)가 존재하지
@@ -57,12 +49,8 @@
             src="https://trinket.io/embed/python3/22c2bc5172"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           /><br /><br />
           lambda를 이용할 때 첫 번째 매개변수가 들어오는 값(mainList에 있는
           숫자의 값)이기 때문에 매개변수의 이름은 우리가 정할 수 있습니다.<br /><br />
@@ -103,12 +91,8 @@
       src="https://trinket.io/embed/python3/9eb9345774"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />
@@ -133,12 +117,8 @@
       src="https://trinket.io/embed/python3/294b66f2c5"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

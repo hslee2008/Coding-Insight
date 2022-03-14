@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <Header type="파이썬" num="30" title="함수 (자세히)" />
@@ -28,12 +28,8 @@
           src="https://trinket.io/embed/python3/901f63378a"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 
@@ -55,12 +51,8 @@
             src="https://trinket.io/embed/python3/095fe5cab9"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           />
         </div>
       </div>
@@ -84,12 +76,8 @@
               src="https://trinket.io/embed/python3/981bc3174e"
               width="100%"
               height="356"
-              frameborder="0"
-              marginwidth="0"
-              marginheight="0"
-              allowfullscreen
               loading="lazy"
-              style="margin: auto"
+              class="mx-auto my-auto"
             />
 
             <br /><br />return 키워드에서 하나 이상 변수를 되돌려주는 방법이
@@ -99,12 +87,8 @@
               src="https://trinket.io/embed/python3/aa6a155d5a"
               width="100%"
               height="356"
-              frameborder="0"
-              marginwidth="0"
-              marginheight="0"
-              allowfullscreen
               loading="lazy"
-              style="margin: auto"
+              class="mx-auto my-auto"
             />
           </p>
         </div>
@@ -124,12 +108,8 @@
           src="https://trinket.io/embed/python3/80ed8ae473"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>
@@ -198,8 +178,6 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-
-    <QuadSpace />
   </div>
 </template>
 

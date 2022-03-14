@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>What is statistics?</h2>
         <p>
           Statistics is an operation where you get information from datas.<br /><br />
@@ -26,7 +26,6 @@
 
     <Header-en type="Python" num="48" title="Math (Statistics)"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -65,16 +64,11 @@
         </div>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/b4ab6a9593"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -96,12 +90,8 @@
         src="https://trinket.io/embed/python3/0a8bc90264"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -117,12 +107,8 @@
       src="https://trinket.io/embed/python3/0a8bc90264"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

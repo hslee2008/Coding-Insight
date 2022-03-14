@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>변수란?</h2>
         <p>
@@ -14,7 +14,7 @@
           있습니다.<br /><br />
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://mblogthumb-phinf.pstatic.net/20140319_89/leedahee111_1395209827273qETWy_JPEG/lights-cubes-3D--1573013-1920x1080.jpg?type=w2"
@@ -30,8 +30,6 @@
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/Qu5_eBK6OkI"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -53,12 +51,8 @@
         src="https://trinket.io/embed/python/a5d980683b"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -111,46 +105,36 @@
         src="https://trinket.io/embed/python/4745a3ecb9"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
-        <CIImage
-          alt="python-factory-picture"
-          src="https://wallpaperaccess.com/full/3279871.jpg"
-          max-width="300px"
-        />
-      </div>
-      <div style="margin: 20px">
-        <h2>변수 삭제하기</h2>
-        <p>
-          변수가 더 이상 필요 없고 이 코드가 실행되고 있는 기기에 저장 공간이
-          많이 없다면 삭제해도 됩니다.<br /><br />
-          삭제는 del 키워드를 사용하고 뒤에 변수 이름을 넣으면 이제 변수를 다시
-          사용할 수 없게 됩니다.<QuadSpace />
-          <code>
-            name = "Coding-Insight"<br /><br />
-            del name<br /><br />
-            print(name)
-          </code>
-          이 코드를 실행하면 에러가 생깁니다.<br /><br />
-          그 이유는 name이라는 변수가 삭제되어 존재하지 않기 때문입니다.<br /><br />
-        </p>
-      </div>
-    </div>
+    <CIImage
+      alt="python-factory-picture"
+      src="https://wallpaperaccess.com/full/3279871.jpg"
+      max-width="300px"
+    />
+    <h2>변수 삭제하기</h2>
+    <p>
+      변수가 더 이상 필요 없고 이 코드가 실행되고 있는 기기에 저장 공간이 많이
+      없다면 삭제해도 됩니다.<br /><br />
+      삭제는 del 키워드를 사용하고 뒤에 변수 이름을 넣으면 이제 변수를 다시
+      사용할 수 없게 됩니다.<QuadSpace />
+      <code>
+        name = "Coding-Insight"<br /><br />
+        del name<br /><br />
+        print(name)
+      </code>
+      이 코드를 실행하면 에러가 생깁니다.<br /><br />
+      그 이유는 name이라는 변수가 삭제되어 존재하지 않기 때문입니다.<br /><br />
+    </p>
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>변수를 한번에 많이 선정하기</h2>
         <p>
@@ -389,7 +373,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

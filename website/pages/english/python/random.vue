@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>The definition of random</h2>
         <p>
           We hear the word 'random' or 'in random' often in our life.<br /><br />
@@ -13,7 +13,7 @@
           Using a module named random, we can do operations randomly.
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXZGVvGnbtF2jLOKPqulX9hEzoHF7BAq69A&usqp=CAU"
@@ -24,7 +24,6 @@
 
     <Header-en type="Python" num="44" title="Random"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -55,16 +54,11 @@
           </p>
         </div>
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python3/71d6fef8dc"
           width="60%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>
@@ -119,14 +113,9 @@
         </div>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/6af330fe9a"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>

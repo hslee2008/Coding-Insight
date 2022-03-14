@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <br />
@@ -24,24 +24,18 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/9219317e00"
         width="60%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
 
     <Header-en type="Python" num="11" title="Escacpe Character"></Header-en>
 
-    <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>\' and \"</h2>
         <p>
           \' and \" are escape characters.<br /><br />
@@ -52,16 +46,11 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python/5d4e5680b4"
         width="60%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -70,8 +59,8 @@
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>\n</h2>
         <p>
           n is short for newline.<br /><br />
@@ -82,14 +71,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/9c8ca944b5"
         width="60%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -123,14 +107,9 @@
           </p>
         </div>
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python3/82e2765c4e"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
         />
       </div>
@@ -148,16 +127,11 @@
           </p>
         </div>
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python/6366397170"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 

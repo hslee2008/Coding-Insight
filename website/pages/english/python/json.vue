@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div style="display: flex; justify-content: center">
         <CIImage
           alt="python-factory-picture"
@@ -11,7 +11,7 @@
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU78Hj6DPZq_rVh1dyNTc4Lwt_Z05Vr-SRA&usqp=CAU"
         />
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <h2>JSON</h2>
         <p>
           JSON is short for JavaScript Object Notation and it is a type of
@@ -38,7 +38,6 @@
 
     <Header-en type="Python" num="57" title="JSON"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -57,14 +56,9 @@
           </code>
         </p>
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python3/3500e49e2c"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
         />
       </div>
@@ -81,12 +75,8 @@
         src="https://trinket.io/embed/python3/efb76f8dd2"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -130,12 +120,8 @@
         src="https://trinket.io/embed/python3/efb76f8dd2"
         width="100%"
         height="200"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

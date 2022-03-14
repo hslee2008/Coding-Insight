@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="79" title="Request Method"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -31,12 +30,8 @@
       src="https://trinket.io/embed/python3/ae32425775"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />
@@ -54,12 +49,8 @@
       src="https://trinket.io/embed/python3/30fb5ba090"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

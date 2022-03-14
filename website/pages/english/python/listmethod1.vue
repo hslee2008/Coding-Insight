@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="19" title="List Method 1"></Header-en>
 
-    <QuadSpace />
     <div>
       <div>
         <h2>List - Indexing</h2>
@@ -15,12 +14,8 @@
         src="https://trinket.io/embed/python3/a413df3b12"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -38,12 +33,8 @@
         src="https://trinket.io/embed/python3/d50ab693f8"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -67,12 +58,8 @@
         src="https://trinket.io/embed/python3/8ea821b7b4"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -94,16 +81,11 @@
         - Code3
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/7fdd2b43c1"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

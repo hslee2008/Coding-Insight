@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div style="display: flex; margin: auto" class="img-div">
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <h2>What is a comment?</h2>
         <p>
           Below YouTube videos, there are sections in which you can 'comment' on
@@ -24,7 +24,6 @@
 
     <Header-en type="Python" num="7" title="Comment"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <h2>When to use comment?</h2>
@@ -36,16 +35,11 @@
       </p>
     </div>
     <iframe
-      class="embed-responsive-item"
       src="https://trinket.io/embed/python/450cb9ddc1"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />
@@ -64,12 +58,8 @@
         src="https://trinket.io/embed/python/5f18131ec9"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -94,12 +84,8 @@
         src="https://trinket.io/embed/python/ab2de5f9f6"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -206,7 +192,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

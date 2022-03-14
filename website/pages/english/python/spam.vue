@@ -1,15 +1,15 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>Spam Email</h2>
         <p>
           This project is for spamming your friends and families with Python.
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://www.incimages.com/uploaded_files/image/empty-email_463770.gif"
@@ -20,7 +20,6 @@
 
     <Header-en type="Python" num="85" title="Spam Email"></Header-en>
 
-    <QuadSpace />
 
     <div class="text-center">
       <h2>Preparation</h2>
@@ -50,14 +49,9 @@
     <QuadSpace />
 
     <iframe
-      class="embed-responsive-item"
       src="https://trinket.io/embed/python3/7747ffbfd7"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />

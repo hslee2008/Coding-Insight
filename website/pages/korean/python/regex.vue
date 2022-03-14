@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex; border-radius: 5px" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>정규식이란</h2>
         <p>
           정규식은 프로그래밍에서 특정한 규칙을 가진 문자열의 집합을
@@ -15,7 +15,7 @@
           <code> import re #영어로 Regular Expression입니다. (re) </code>
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://cmgcode.com/images/portfolio/regexoff-icon.png"
@@ -39,12 +39,8 @@
       src="https://trinket.io/embed/python3/6b78aaf023"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />
@@ -63,12 +59,8 @@
         src="https://trinket.io/embed/python3/6d2e182407"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

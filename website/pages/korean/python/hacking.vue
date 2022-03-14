@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>해킹</h2>
         <p>
           파이썬을 사용해서 여러분 집의 인터넷에서 일어나는 모든 일을 알 수 있는
@@ -14,7 +14,7 @@
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="100px"
@@ -67,9 +67,7 @@
       height="200px"
       src="https://www.youtube.com/embed/RZSzjcp_DII"
       title="YouTube video player"
-      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
     />
 
     <QuadSpace />

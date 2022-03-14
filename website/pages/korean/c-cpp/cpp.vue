@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <p>
@@ -21,8 +21,8 @@
 
     <Header type="C/C++" title="C++" num="1" />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>C 다음에는?</h2>
         <p>
           C 언어를 공부했다면 알고리즘을 배우면 좋지만 이를 배우기 전에 C++
@@ -35,7 +35,7 @@
           이를 차근차근 알아보겠습니다!
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://img.icons8.com/ios/452/c-plus-plus-logo.png"
@@ -77,6 +77,5 @@
       </NuxtLink>
     </div>
 
-    <QuadSpace />
   </div>
 </template>

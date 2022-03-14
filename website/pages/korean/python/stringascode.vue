@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div class="d-flex img-div" style="padding: 10px; border-radius: 5px">
       <div>
@@ -13,7 +13,7 @@
           예를 들면, 사용자가 터미널에 입력한 문자를 코드처럼 실행이 가능합니다.
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="400px"
@@ -46,12 +46,8 @@
         src="https://trinket.io/embed/python3/9025f99628"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -69,12 +65,8 @@
         src="https://trinket.io/embed/python3/9ca04d8e1f"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -99,12 +91,8 @@
         src="https://trinket.io/embed/python3/4b5e8cc791"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -116,12 +104,8 @@
         src="https://trinket.io/embed/python3/fa7de26cef"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -25,18 +25,12 @@
         src="https://trinket.io/embed/python3/0be5e6efb5"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
     <Header-en type="Python" num="64" title="map, reduce, filter"></Header-en>
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -70,14 +64,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/0b62993bad"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -102,16 +91,11 @@
       </div>
     </div>
     <iframe
-      class="embed-responsive-item"
       src="https://trinket.io/embed/python3/9eb9345774"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     >
     </iframe>
 
@@ -144,12 +128,8 @@
       src="https://trinket.io/embed/python3/294b66f2c5"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <h2>__name__이란?</h2>
@@ -35,12 +35,8 @@
             src="https://trinket.io/embed/python3/c6d50081cf"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           />
 
           <br /><br />main.py를 실행하면 HI가 두 번 출력이 됩니다.<br /><br />
@@ -49,12 +45,8 @@
             src="https://trinket.io/embed/python3/b01563dd19"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           />
 
           <br /><br />위에 있는 예시에 있는 main.py 파일을 실행하면 HI가 한번

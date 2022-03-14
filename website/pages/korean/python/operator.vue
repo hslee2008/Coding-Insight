@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div class="margin: 5px;">
         <h2>연산자란?</h2>
         <p>
@@ -26,8 +26,6 @@
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/sGZLq4VZW58"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -71,12 +69,8 @@
         src="https://trinket.io/embed/python3/fd203a6323"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -101,12 +95,8 @@
         src="https://trinket.io/embed/python3/39a09b977e"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -25,21 +25,15 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/08504670a3"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
 
     <Header-en type="Python" num="24" title="Set"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -75,14 +69,9 @@
           </p>
         </div>
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python3/9be0ca57a7"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
         />
       </div>
@@ -128,12 +117,8 @@
         src="https://trinket.io/embed/python3/62528e1b44"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -202,7 +187,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

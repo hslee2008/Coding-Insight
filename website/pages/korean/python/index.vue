@@ -1,29 +1,32 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="display: flex; justify-content: center">
-        <CIImage
-          alt="python-factory-picture"
-          max-width="300px"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"
-        />
-      </div>
-      <div style="margin: auto; padding: 50px">
-        <p>
-          파이썬이라는 단어를 들어보신 적이 있나요?<br /><br />
-          만일 뱀의 종류 중 하나인 파이썬을 생각하셨다면 틀렸습니다!
-          파이썬이라는 뱀도 있지만 오늘 배울 것은 뱀이 아니라 코딩 언어입니다.
-        </p>
-      </div>
-    </div>
+    <v-row>
+      <p class="mx-auto my-auto">
+        파이썬이라는 단어를 들어보신 적이 있나요?<br /><br />
+
+        만일 뱀의 종류 중 하나인 파이썬을 생각하셨다면 틀렸습니다!<br /><br />
+
+        파이썬이라는 뱀도 있지만 오늘 배울 것은 뱀이 아니라 코딩 언어입니다.
+      </p>
+
+      <CIImage
+        alt="python-factory-picture"
+        max-width="200px"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"
+        class="mx-auto my-auto"
+      />
+    </v-row>
 
     <Header type="파이썬" num="1" title="파이썬의 정의" />
 
-    <BasicExpDivWithOneImage
-      heading="블록 코딩과 텍스트 기반 코딩"
-      :contents="`
+    <v-card class="transparent">
+      <v-row>
+        <div>
+          <h2>블록 코딩과 텍스트 기반 코딩</h2>
+
+          <p>
             아마도 여러분은 블록코딩에 대해서 많이 알고 있을 것입니다.<br /><br />
 
             초등학교에서는 엔트리라는 블록코딩을 공부합니다.<br /><br />
@@ -34,77 +37,114 @@
             이 사이트에서 배울 프로그래밍 언어인 파이썬은 엔트리와 달리 코드를
             모두 손으로 입력해야 합니다.<br /><br />
 
-            하지만 파이썬을 배우면 나만의 앱,
-            시스템, 코드, 해킹 도구 등 다양한 분야에서 다양하게 사용이 될 수
-            있습니다.`"
-      image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
-    />
+            하지만 파이썬을 배우면 나만의 앱, 시스템, 코드, 해킹 도구 등 다양한
+            분야에서 다양하게 사용이 될 수 있습니다.
+          </p>
+        </div>
+
+        <div class="mx-auto my-auto">
+          <CIImage
+            alt="python-factory-picture"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
+            max-width="210.5px"
+          />
+        </div>
+      </v-row>
+    </v-card>
 
     <QuadSpace />
 
-    <BasicExpDivWithOneImage
-      heading="프로그래밍 언어란?"
-      :contents="`
+    <v-card class="transparent">
+      <v-row>
+        <div>
+          <h2>프로그래밍 언어란?</h2>
+
+          <p>
             프로그래밍 언어란 사람들과 기계가 소통하기 위하여 만든
             언어입니다.<br /><br />
 
             한국 사람들은 한국어를 사용하듯이 컴퓨터는 프로그래밍 언어를
             사용합니다.<br /><br />
 
-            기계는 2진수 (0과 1)만 이해할 수 있어서 인간과의 대화가
-            매우 어렵습니다.<br /><br />
+            기계는 2진수 (0과 1)만 이해할 수 있어서 인간과의 대화가 매우
+            어렵습니다.<br /><br />
 
-            하지만 코딩 언어를 사용한다면 코딩 언어를 2진수로 변환할 수 있으므로
-            사람들이 어려운 2진수를 배우지 않고도 컴퓨터에게 명령을 할 수
-            있습니다.`"
-      image="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
-    />
+            코딩 언어를 사용한다면 코딩 언어를 2진수로 자동으로 바꿀 수 있으므로
+            사람들이 어려운 2진수를 배우지 않고도<br />
+            컴퓨터에게 명령을 할 수 있습니다.
+          </p>
+        </div>
+
+        <div class="mx-auto my-auto">
+          <CIImage
+            alt="python-factory-picture"
+            src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
+            max-width="210.5px"
+          />
+        </div>
+      </v-row>
+    </v-card>
 
     <QuadSpace />
 
     <div>
-      <h1>파이썬으로 할 수 있는 것들</h1>
-    </div>
-    <div>
-      <p>
-        그렇다면 파이썬으로 무엇을 할 수 있을까요?<br /><br />
+      <div>
+        <h1>파이썬으로 할 수 있는 것들</h1>
+      </div>
+      <div>
+        <p>
+          그렇다면 파이썬으로 무엇을 할 수 있을까요?<br /><br />
 
-        먼저 파이썬은 데이터 관리를 쉽고 빠르게 할 수 있는 기능이 있습니다. 요즘
-        시대는 매우 큰 데이터를 빠르고 효율적으로 처리하는 것이 매우
-        중요해졌습니다. 파이썬은 데이터 처리 속도가 빠르고 확장 도구들이 많기
-        때문에 데이터를 관리하기 쉽습니다.<br /><br />
+          먼저 파이썬은 데이터 관리를 쉽고 빠르게 할 수 있는 기능이 있습니다.
+          요즘 시대는 매우 큰 데이터를 빠르고 효율적으로 처리하는 것이 매우
+          중요해졌습니다. 파이썬은 데이터 처리 속도가 빠르고 확장 도구들이 많기
+          때문에 데이터를 관리하기 쉽습니다.<br /><br />
 
-        또한, 파이썬은 웹사이트를 개발할 때 자바스크립트와 함께 사용되는 언어로
-        매우 유용합니다.<br /><br />
+          또한, 파이썬은 웹사이트를 개발할 때 자바스크립트와 함께 사용되는
+          언어로 매우 유용합니다.<br /><br />
 
-        위의 예시처럼 전문가들이 사용하기도 적합하지만 어린이들이 처음으로
-        코딩을 배울때 많은 사람들은 파이썬부터 배우기 시작합니다.<br /><br />
+          위의 예시처럼 전문가들이 사용하기도 적합하지만 어린이들이 처음으로
+          코딩을 배울때 많은 사람들은 파이썬부터 배우기 시작합니다.<br /><br />
 
-        그 이유는 파이썬은 배우기도 쉽고 간단해서입니다. 그래서 저희도 오늘
-        파이썬부터 시작하겠습니다.<br /><br />
-      </p>
+          그 이유는 파이썬은 배우기도 쉽고 간단해서입니다. 그래서 저희도 오늘
+          파이썬부터 시작하겠습니다.<br /><br />
+        </p>
+      </div>
     </div>
 
     <QuadSpace />
 
-    <BasicExpDivWithOneImage
-      heading="파이썬의 이름은 어디에서 유래했을까요?"
-      :contents="`
-          파이썬은 '귀도 반 로섬'이라는 발명가가 만들었습니다.<br /><br />
+    <v-card class="transparent">
+      <v-row>
+        <div>
+          <h2>파이썬의 이름은 어디에서 유래했을까요?</h2>
 
-          그가 새로 만든 코딩 언어의 이름을 무엇으로 지을지 생각하고 있을 때
-          그는 영국의 코미디언 몬티 파이썬의 쇼를 보고 있었습니다.<br /><br />
+          <p>
+            파이썬은 '귀도 반 로섬'이라는 발명가가 만들었습니다.<br /><br />
 
-          우연히 그는 코미디언의 마지막 이름 '파이썬'을 따라 새로운 코딩 언어의
-          이름을 지었습니다.<br /><br />
+            그가 새로 만든 코딩 언어의 이름을 무엇으로 지을지 생각하고 있을 때
+            그는 영국의 코미디언 몬티 파이썬의 쇼를 보고 있었습니다.<br /><br />
 
-          파이썬 코딩 언어는 뱀 파이썬 이름을 따라서 붙인
-          것이 아니라 코미디언 쇼 팀 이름입니다.<br /><br />
+            우연히 그는 코미디언의 마지막 이름 '파이썬'을 따라 새로운 코딩
+            언어의 이름을 지었습니다.<br /><br />
 
-          여러분은 새로운 코딩 언어를 만들었다면 이름을 무엇으로 정했을 것
-          같나요?<br /><br />`"
-      image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDvusEfnc81WXy7PBDME8ZDa7miwprm8Z4Q&usqp=CAU"
-    />
+            파이썬 코딩 언어는 뱀 파이썬 이름을 따라서 붙인 것이 아니라 코미디언
+            쇼 팀 이름입니다.<br /><br />
+
+            여러분은 새로운 코딩 언어를 만들었다면 이름을 무엇으로 정했을 것
+            같나요?<br /><br />
+          </p>
+        </div>
+
+        <div class="mx-auto my-auto">
+          <CIImage
+            alt="python-factory-picture"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDvusEfnc81WXy7PBDME8ZDa7miwprm8Z4Q&usqp=CAU"
+            max-width="210.5px"
+          />
+        </div>
+      </v-row>
+    </v-card>
 
     <QuadSpace />
 
@@ -130,8 +170,6 @@
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/videoseries?list=PLhHi1BeBom9e62FpDsAnpP-tJUULibSPE"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
         style="border-radius: 10px"
@@ -152,6 +190,5 @@
       </NuxtLink>
     </div>
 
-    <QuadSpace />
   </div>
 </template>

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>do - while이란?</h2>
         <p>
@@ -16,7 +16,7 @@
           맞다면 바로 끝냅니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://www.tutorialspoint.com/cprogramming/images/cpp_do_while_loop.jpg"
@@ -53,7 +53,7 @@
           }
         </code>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3YM3"
           width="100%"

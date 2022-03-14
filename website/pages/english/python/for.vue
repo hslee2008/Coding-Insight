@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>What is a for loop?</h2>
         <p>For is a code that you can used with an iterable.</p>
       </div>
@@ -18,7 +18,6 @@
 
     <Header-en type="Python" num="34" title="For Loop"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -39,12 +38,8 @@
         src="https://trinket.io/embed/python3/b3dec1798f"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -71,16 +66,11 @@
           </p>
         </div>
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python3/b3dec1798f"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>
@@ -100,16 +90,11 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/4712475b5d"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -137,12 +122,8 @@
           src="https://trinket.io/embed/python3/4712475b5d"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>
@@ -205,12 +186,8 @@
           src="https://trinket.io/embed/python3/9f190d6a4f"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>

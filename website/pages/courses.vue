@@ -3,7 +3,7 @@
     <Header type="" title="Courses" num="Complete List" />
 
     <v-row flex style="gap: 20px">
-      <v-card class="mx-auto" max-width="350" min-width="100">
+      <v-card class="mx-auto my-auto" max-width="350" min-width="100">
         <v-img
           class="white--text align-end"
           height="200"
@@ -27,8 +27,8 @@
         <v-card-actions>
           <v-btn
             aria-label="Coding Insight Button"
-            class="ma-2"
-            outlined
+            color="primary"
+            class="ml-2"
             to="/korean/python/"
           >
             <h5 style="font-size: 15px">파이썬</h5>
@@ -36,8 +36,8 @@
           </v-btn>
           <v-btn
             aria-label="Coding Insight Button"
-            class="ma-2 to-hide"
-            outlined
+            color="primary"
+            class="ml-2 to-hide"
             to="/korean/python/quiz"
           >
             <h5 style="font-size: 15px">퀴즈</h5>
@@ -46,7 +46,7 @@
         </v-card-actions>
       </v-card>
 
-      <v-card class="mx-auto" min-width="100" max-width="350">
+      <v-card class="mx-auto my-auto" min-width="100" max-width="350">
         <v-img
           class="white--text align-end"
           height="200"
@@ -69,24 +69,24 @@
         <v-card-actions>
           <v-btn
             aria-label="Coding Insight Button"
+            color="primary"
             to="/korean/c-cpp/"
-            class="ma-2"
-            outlined
+            class="ml-2"
           >
             <v-icon dark> mdi-language-c </v-icon>
           </v-btn>
           <v-btn
             aria-label="Coding Insight Button"
+            color="primary"
             to="/korean/c-cpp/cpp"
-            class="ma-2"
-            outlined
+            class="ml-2"
           >
             <v-icon dark> mdi-language-cpp </v-icon></v-btn
           >
         </v-card-actions>
       </v-card>
 
-      <v-card class="mx-auto" min-width="100" max-width="350">
+      <v-card class="mx-auto my-auto" min-width="100" max-width="350">
         <v-img
           class="white--text align-end"
           height="200"
@@ -102,17 +102,16 @@
         <v-card-text class="text--primary">
           <div>
             Rust 프로그래밍 언어는 매우 안정적이면서 C 언어처럼 빠릅니다!
-            Mcirosoft, 아마존, 구글, 모질라 등 매우 큰 회사들은 다 기본 코딩
-            언어를 C/C++에서 Rust로 전환하고 있습니다.
+            Mcirosoft, 아마존, 구글, 모질라 등 모두 Rust를 사용합니다.
           </div>
         </v-card-text>
 
         <v-card-actions>
           <v-btn
             aria-label="Coding Insight Button"
+            color="primary"
             to="/korean/rust/"
-            class="ma-2"
-            outlined
+            class="ml-2"
           >
             <h5 style="font-size: 15px">Rust</h5>
             <v-icon dark right> mdi-language-rust </v-icon>
@@ -121,7 +120,6 @@
       </v-card>
     </v-row>
 
-    <QuadSpace />
   </div>
 </template>
 

@@ -1,8 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <br /><br />
+
+    <div>
+      <div class="mx-auto my-auto">
         <h2>Declare number variable</h2>
         <p>
           We use numbers all the time.<br /><br />
@@ -18,7 +19,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://blog.shabda.co/wp-content/uploads/2015/10/numbers-truth-morality.png"
@@ -29,7 +30,6 @@
 
     <Header-en type="Python" num="14" title="Number"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -45,14 +45,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/75d1cbc8dd"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -92,16 +87,11 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/81191f5590"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -135,16 +125,11 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/4b9cfba68b"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -253,7 +238,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

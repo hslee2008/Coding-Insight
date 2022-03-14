@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -24,7 +24,6 @@
 
     <Header-en type="Python" num="53" title="Context Manager"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -46,12 +45,8 @@
         src="https://trinket.io/embed/python3/f10313f544"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -85,12 +80,8 @@
         src="https://trinket.io/embed/python3/adcdf0d2c3"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

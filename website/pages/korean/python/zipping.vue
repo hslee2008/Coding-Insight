@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>나만의 압축 프로그램</h2>
         <p>
           사실 윈도우아 맥에는 압축 프로그램이 있습니다.<br /><br />
@@ -14,7 +14,7 @@
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="200px"
@@ -65,10 +65,6 @@
       src="https://trinket.io/embed/python3/836101c4af"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />

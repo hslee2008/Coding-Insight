@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>문자란?</h2>
         <p>
@@ -30,8 +30,6 @@
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/NT0qINEacEo"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -39,8 +37,8 @@
 
     <Header type="파이썬" num="8" title="문자열" />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>파이썬에서 문자 만들기</h2>
         <p>
           문자는 항상 '' 또는 "" 안에 값이 있어야 합니다.<br /><br />
@@ -54,12 +52,8 @@
         src="https://trinket.io/embed/python/7c86f7328a"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -96,12 +90,8 @@
         src="https://trinket.io/embed/python/c420acd5f8"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -138,12 +128,8 @@
         src="https://trinket.io/embed/python3/e1cdc9760f"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -167,12 +153,8 @@
         src="https://trinket.io/embed/python/47c742b3bd"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -197,12 +179,8 @@
         src="https://trinket.io/embed/python/4e95210044"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -440,7 +418,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" title="Number Method" num="17"></Header-en>
 
-    <QuadSpace />
 
     <div class="header-div bg-black text-white">
       <div>
@@ -24,14 +23,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/f74cbaa5c3"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -96,7 +90,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

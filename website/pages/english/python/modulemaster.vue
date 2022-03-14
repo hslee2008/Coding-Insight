@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="41" title="모듈 마스터하기"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -46,14 +45,9 @@
       </div>
 
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/97e4d4f1d9"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>

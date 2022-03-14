@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>판다스</h2>
         <p>
           판다스란 파이썬 라이브러리로 데이터를 효율적이고 빠르게 다룰 수 있는
@@ -77,10 +77,6 @@
       src="https://trinket.io/embed/python3/ad2ac39772"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />
@@ -101,15 +97,11 @@
       src="https://trinket.io/embed/python3/f3002f6946"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
+    <v-row>
       <div>
         <h2>Clipboard</h2>
         <p>
@@ -143,22 +135,18 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://t1.daumcdn.net/cfile/tistory/9916724E5D3CD66B19"
           width="300px"
         />
       </div>
-    </div>
+    </v-row>
     <iframe
       src="https://trinket.io/embed/python3/f3002f6946"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />
@@ -208,10 +196,6 @@
       src="https://trinket.io/embed/python3/9b4294ecdb"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />

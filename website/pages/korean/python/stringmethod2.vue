@@ -1,14 +1,12 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div class="text-center">
       <iframe
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/D4xUOyss96k"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -16,8 +14,8 @@
 
     <Header type="파이썬" num="10" title="문자열 메서드 2" />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>문자 더하기</h2>
         <p>
           문자를 +를 사용하여 더할 수 있습니다.
@@ -37,12 +35,8 @@
         src="https://trinket.io/embed/python/54f740c487"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -74,12 +68,8 @@
         src="https://trinket.io/embed/python/9da1796e91"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -106,10 +96,6 @@
         src="https://trinket.io/embed/python/d278186aad"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -260,7 +246,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

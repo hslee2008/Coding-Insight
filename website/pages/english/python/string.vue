@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>What is string?</h2>
         <p>
@@ -21,10 +21,9 @@
 
     <Header-en type="Python" num="8" title="String"></Header-en>
 
-    <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>Multi - line string</h2>
         <p>
           What would you do if there were lots and lots of lines to print?<br /><br />
@@ -55,16 +54,11 @@
       </div>
 
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python/7c86f7328a"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -80,16 +74,11 @@
           of 'Hello'.<br /><br />
 
           <iframe
-            class="embed-responsive-item"
             src="https://trinket.io/embed/python3/c826f990bd"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           ></iframe
           ><br /><br />
 
@@ -125,14 +114,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/048c09e858"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -153,16 +137,11 @@
         </p>
 
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python3/e1cdc9760f"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>
@@ -186,14 +165,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/751018529e"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -433,7 +407,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

@@ -27,7 +27,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/4ePU"
           width="100%"
@@ -62,7 +62,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/4ePV"
           width="100%"
@@ -101,7 +101,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/4ePX"
           width="100%"

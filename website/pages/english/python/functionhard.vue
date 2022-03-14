@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <Header-en type="Python" num="30" title="Function (Advanced)"></Header-en>
@@ -44,12 +44,8 @@
           src="https://trinket.io/embed/python3/901f63378a"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 
@@ -82,12 +78,8 @@
             src="https://trinket.io/embed/python3/095fe5cab9"
             width="100%"
             height="356"
-            frameborder="0"
-            marginwidth="0"
-            marginheight="0"
-            allowfullscreen
             loading="lazy"
-            style="margin: auto"
+            class="mx-auto my-auto"
           />
         </div>
       </div>
@@ -105,14 +97,9 @@
             Treat a function that returns value as data type itself.<br /><br />
 
             <iframe
-              class="embed-responsive-item"
               src="https://trinket.io/embed/python3/e07973bfc0"
               width="100%"
               height="356"
-              frameborder="0"
-              marginwidth="0"
-              marginheight="0"
-              allowfullscreen
               loading="lazy"
             />
 
@@ -123,14 +110,9 @@
             Python.<br /><br />
 
             <iframe
-              class="embed-responsive-item"
               src="https://trinket.io/embed/python3/6a2291c952"
               width="100%"
               height="356"
-              frameborder="0"
-              marginwidth="0"
-              marginheight="0"
-              allowfullscreen
               loading="lazy"
             />
 
@@ -154,12 +136,8 @@
           src="https://trinket.io/embed/python3/80ed8ae473"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>
@@ -227,7 +205,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

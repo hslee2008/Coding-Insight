@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <v-row flex justify="center" class="img-div" style="margin: 10px">
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <h1>
           Welcome to<br />
           <span class="titleforcodinginsight">Coding-Insight</span>
@@ -29,7 +29,7 @@
 
     <QuadSpace />
 
-    <v-card class="mx-auto">
+    <v-card class="mx-auto my-auto">
       <v-card-text>
         <h3>After block programming...</h3>
         <v-row style="margin: 1px">
@@ -65,7 +65,7 @@
     <QuadSpace /><QuadSpace />
 
     <v-row flex style="gap: 10px">
-      <v-card class="mx-auto" max-width="450" min-width="350">
+      <v-card class="mx-auto my-auto" max-width="450" min-width="350">
         <v-img
           class="white--text align-end"
           height="200px"
@@ -86,8 +86,8 @@
         <v-card-actions>
           <v-btn
             aria-label="Coding Insight Button"
-            class="ma-2"
             color="primary"
+            class="ma-2"
             dark
             to="/korean/python/"
           >
@@ -96,8 +96,8 @@
           </v-btn>
           <v-btn
             aria-label="Coding Insight Button"
-            class="ma-2"
             color="primary"
+            class="ma-2"
             dark
             to="/korean/python/quiz"
           >
@@ -106,8 +106,8 @@
           </v-btn>
           <v-btn
             aria-label="Coding Insight Button"
-            class="ma-2"
             color="primary"
+            class="ma-2"
             dark
             to="/korean/python/video"
           >
@@ -118,7 +118,6 @@
       </v-card>
     </v-row>
 
-    <QuadSpace />
   </div>
 </template>
 

@@ -1,13 +1,13 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div class="d-flex img-div" style="padding: 10px; border-radius: 5px">
       <div>
         <h2>Can we run string as code?</h2>
         <p>In Python, we can run a string like a code.</p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="400px"
@@ -18,7 +18,6 @@
 
     <Header-en type="Python" num="55" title="String as code"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -38,14 +37,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/c09ee5878e"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -62,14 +56,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/91ca5b24b6"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -99,12 +88,8 @@
         src="https://trinket.io/embed/python3/4b5e8cc791"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -113,16 +98,11 @@
     <div id="idlepython">
       <h2>PROJECT (PROJ: 9): My Own Python IDLE</h2>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/fa7de26cef"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

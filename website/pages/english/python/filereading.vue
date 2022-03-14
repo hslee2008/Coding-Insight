@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>File Reading</h2>
         <p>
@@ -17,7 +17,7 @@
           The mode should be 'r' which is short for 'reading'.
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
@@ -28,7 +28,6 @@
 
     <Header-en type="Python" num="50" title="File Reading"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -45,14 +44,9 @@
       </div>
     </div>
     <iframe
-      class="embed-responsive-item"
       src="https://trinket.io/embed/python3/3504e68139"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
     />
 
@@ -75,14 +69,9 @@
       </div>
     </div>
     <iframe
-      class="embed-responsive-item"
       src="https://trinket.io/embed/python3/bf9f60d731"
       width="60%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
     />
 
@@ -103,12 +92,8 @@
       src="https://trinket.io/embed/python3/8d79bcebaa"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />
@@ -128,12 +113,8 @@
       src="https://trinket.io/embed/python3/a301fbf34c"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

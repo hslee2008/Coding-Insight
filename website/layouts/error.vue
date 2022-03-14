@@ -11,7 +11,7 @@
       margin: auto;
     "
   >
-    <v-card class="mx-auto" max-width="400">
+    <v-card class="mx-auto my-auto" max-width="400">
       <v-alert border="right" colored-border type="error" elevation="2">
         <h1 v-if="error.statusCode === 404">
           {{ pageNotFound }}

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>Login Program</h2>
         <p>
           In
@@ -19,7 +19,7 @@
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="100px"
@@ -34,7 +34,6 @@
       title="Password (More Secure)"
     ></Header-en>
 
-    <QuadSpace />
 
     <div>
       <h2>Explanation</h2>

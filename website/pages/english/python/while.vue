@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <Header-en type="Python" num="37" title="While Loop"></Header-en>
@@ -24,12 +24,8 @@
           src="https://trinket.io/embed/python3/496fc82d74"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 
@@ -71,14 +67,9 @@
         </div>
 
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python3/9aef21b34d"
           width="100%"
           height="500"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
         />
       </div>
@@ -96,12 +87,8 @@
           src="https://trinket.io/embed/python3/d35c515f41"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
 

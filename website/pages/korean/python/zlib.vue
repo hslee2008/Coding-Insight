@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>파일 압축이란?</h2>
         파일을 압축하면 파일에 있는 내용의 용량이 많이 줄어듭니다.<br /><br />
@@ -43,7 +43,7 @@
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>ZLIB 모듈</h2>
         <p>
@@ -87,12 +87,8 @@
       src="https://trinket.io/embed/python3/74a9209480"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />
@@ -116,12 +112,8 @@
       src="https://trinket.io/embed/python3/50ab5d6ef3"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />
@@ -136,12 +128,8 @@
       src="https://trinket.io/embed/python3/c42b0b500e"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

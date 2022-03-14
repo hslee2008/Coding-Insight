@@ -99,11 +99,7 @@ export default {
   components: true,
 
   components: {
-    dirs: [
-      '~/components/local/',
-      '~/components/global/',
-      '~/components/content/',
-    ],
+    dirs: ['~/components/global/', '~/components/layout/'],
   },
 
   // https://go.nuxtjs.dev/config-modules
@@ -243,6 +239,7 @@ export default {
           icons: [
             {
               src: '/pwa/python.png',
+              sizes: '514x512',
               type: 'image/png',
               purpose: 'any',
             },

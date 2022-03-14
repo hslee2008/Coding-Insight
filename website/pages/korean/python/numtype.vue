@@ -1,8 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <br /><br />
+
+    <div>
+      <div class="mx-auto my-auto">
         <h2>숫자 종류</h2>
         <p>
           파이썬 숫자에는 3가지 종류가 있습니다.<br /><br />
@@ -12,7 +13,7 @@
           - complex(허수)<br />
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
@@ -28,8 +29,6 @@
         width="560"
         height="315"
         src="https://www.youtube.com/embed/NhzBkfhAb3g"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -57,12 +56,8 @@
         src="https://trinket.io/embed/python3/0856d3ad88"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -89,12 +84,8 @@
         src="https://trinket.io/embed/python3/e726e404fa"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div style="display: flex; justify-content: center">
         <CIImage
           alt="python-factory-picture"
@@ -24,7 +24,6 @@
 
     <Header-en type="Python" num="1" title="Definition of Python"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -84,7 +83,7 @@
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <div>
           <h1>Where did the name 'Python' come from?</h1>
@@ -126,6 +125,5 @@
       </NuxtLink>
     </div>
 
-    <QuadSpace />
   </div>
 </template>

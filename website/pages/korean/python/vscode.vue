@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn
@@ -684,7 +684,7 @@
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>.py?</h2>
         <p>
@@ -702,7 +702,7 @@
           알려줍니다.
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <v-img
           alt="python-factory-picture"
           class="v-img-fluid"

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>My own zipping program</h2>
         <p>
           In actuality, your computer will have a zipping program already
@@ -15,7 +15,7 @@
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="200px"
@@ -26,7 +26,6 @@
 
     <Header-en type="Python" num="Proj: 5" title="Zipping Program"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <h2>Programming Explanation</h2>

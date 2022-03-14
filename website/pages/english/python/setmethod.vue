@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -27,7 +27,6 @@
 
     <Header-en type="Python" num="25" title="Set Method"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -66,12 +65,8 @@
         src="https://trinket.io/embed/python3/f16d8554a4"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -117,12 +112,8 @@
           src="https://trinket.io/embed/python3/bdb3068e9e"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>
@@ -161,12 +152,8 @@
         src="https://trinket.io/embed/python3/a69bea0190"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

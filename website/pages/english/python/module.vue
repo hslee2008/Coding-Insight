@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -17,7 +17,6 @@
 
     <Header-en type="Python" num="40" title="Module"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -67,14 +66,9 @@
       </div>
     </div>
     <iframe
-      class="embed-responsive-item"
       src="https://trinket.io/embed/python3/170c0ea7f7"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
     />
 

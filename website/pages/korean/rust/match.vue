@@ -2,39 +2,78 @@
   <div>
     <br /><br />
 
-    <BasicExpDivWithOneIframe
-      heading="match 문"
-      :contents="[
-        'if는 단점이 있습니다. 반복되는 조건이라면 코드가 매우 길어질 수 있습니다.',
-        '에를 들면, a라는 값이 1부터 9까지 값을 가질 수 있는데...',
-        'CODE:if a == 1 {...} else if a == 2 {...} else if a == 3 {...} else if a == 4 {...} else if a == 5 {...} else if a == 6 {...} else if a == 7 {...} else if a == 8 {...} else if a == 9 {...} else {...}',
-        '이렇게 작성하면 코드가 매우 길어집니다.',
-        '그래서 a라는 값이 1부터 9까지 값을 가질 수 있는데',
-        'CODE:match a { 1 => {...} 2 => {...} 3 => {...} 4 => {...} 5 => {...} 6 => {...} 7 => {...} 8 => {...} 9 => {...} _ => {...}',
-        '이렇게 작성하면 코드가 줄어들어요.',
-        '참고로 match는 어떤 변수가 어떤 값과 같은지만 비교합니다.',
-      ]"
-      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20number%20%3D%2013%3B%20%2F%2F%EC%88%AB%EC%9E%90%EB%A5%BC%20%EB%B0%94%EA%BE%B8%EC%96%B4%20%EB%B3%B4%EC%84%B8%EC%9A%94...%0A%0A%20%20%20%20match%20number%20%7B%0A%20%20%20%20%20%20%20%201%20%3D%3E%20println!(%22One!%22)%2C%0A%20%20%20%20%20%20%20%202%20%7C%203%20%7C%205%20%7C%207%20%7C%2011%20%3D%3E%20println!(%22%EC%86%8C%EC%88%98%22)%2C%0A%20%20%20%20%20%20%20%2013..%3D19%20%3D%3E%20println!(%22%EC%B2%AD%EC%86%8C%EB%85%84%22)%2C%0A%20%20%20%20%20%20%20%20_%20%3D%3E%20println!(%22%EB%8B%A4%EB%A5%B8%20%EC%88%AB%EC%9E%90%22)%2C%0A%20%20%20%20%7D%0A%7D"
-    />
+    <div>
+      <h2>숫자 메서드</h2>
+      <p>
+        Rust의 다양한 숫자 메서드를 알아보겠습니다.<br /><br />
 
-    <Header type="Rust" title="match 문" num="30" />
+        숫자 메서드를 알면 숫자 데이터를 더 쉽게 처리할 수 있습니다.
+      </p>
+    </div>
 
-    <v-card style="background-color: rgb(0, 0, 0, 0); margin-bottom: 75px">
-      <v-card-title class="text-h4 text--primary">match 문 사용</v-card-title>
+    <Header type="Rust" title="숫자 메서드" num="14" />
 
-      <v-card-contents>
-        <v-card-text>
-          1. <IC code="&lt;val> => {...}" /> 이렇게 작성하면 됩니다.<br /><br />
-          2. <IC code="&lt;val> | &lt;val> => {...}" /> 이렇게 작성하면 val의 갑
-          중 하나만 값이 같다면 코드를 실행합니다.<br /><br />
-          3. <IC code="&lt;val>..=&lt;val> => {...}" /> 이렇게 작성하면 두 val
-          사이에 값이 있다면 코드를 실행합니다.<br /><br />
-          4. <IC code="_ => {...}" /> 이렇게 작성하면 모든 조건이 다 만족하지
-          않으면 실행합니다.
-        </v-card-text>
-      </v-card-contents>
-    </v-card>
+    <div>
+      <div>
+        <h2>pow(), powf(), sqrt()</h2>
 
-    <NaviBtn bef="for" aft="if-let" />
+        숫자에 pow(x) 메서드를 실행하면 x만큼 그 값을 곱하게 됩니다.<br /><br />
+
+        참고로 x의 값은 소수가 되면 루트의 값도 찾을 수 있습니다. 소수를 넣고
+        싶으면 powf()를 사용하세요.<br /><br />
+
+        루트(a를 두번 곱했하면 b일 때 b의 루트는 a)를 찾고 싶으면 sqrt()를
+        사용하세요.<br /><br />
+
+        <iframe
+          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20test_integer%3A%20i32%20%3D%204%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.pow(2))%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20let%20test_integer2%3A%20f32%20%3D%204.0%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer2.powf(0.5))%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer2.sqrt())%3B%0D%0A%7D"
+          width="100%"
+          height="300"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>abs()</h2>
+
+        abs()를 실행하면 -는 없어져서 항상 그 값의 +를 찾습니다.<br /><br />
+
+        -1은 1, -2는 2, -3은 3... 이런 식으로 찾습니다.<br /><br />
+
+        근데 1은 1, 2는 2, 3은 3... 이런 식으로 찾습니다.<br /><br />
+
+        <iframe
+          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20test_integer%3A%20i32%20%3D%20-4%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.abs())%3B%0D%0A%7D"
+          width="100%"
+          height="300"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>연산자</h2>
+
+        +, -, *, /는 더하고 빼고 곱하고 나누는 연산자입니다.<br /><br />
+
+        +=, -=, *=, /=는 더하고 빼고 곱하고 나누는 연산자인데 결과 값을 변수에
+        다시 저장합니다.<br /><br />
+
+        <iframe
+          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%3A%20i32%20%3D%203%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22a%20%2B%201%20%3D%20%7B%7D%22%2C%20a%20%2B%201)%3B%0D%0A%20%20%20%20println!(%22a%20-%201%20%3D%20%7B%7D%22%2C%20a%20-%201)%3B%0D%0A%20%20%20%20println!(%22a%20*%201%20%3D%20%7B%7D%22%2C%20a%20*%201)%3B%0D%0A%20%20%20%20println!(%22a%20%2F%201%20%3D%20%7B%7D%22%2C%20a%20%2F%201)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20a%20%2B%3D%201%3B%20%2F%2F%20a%20%3D%20a%20%2B%201%3B%20a%EB%A5%BC%201%20%EB%8D%94%ED%95%98%EA%B3%A0%20%EB%8B%A4%EC%8B%9C%20a%EB%A5%BC%20%EC%A0%80%EC%9E%A5%ED%95%A9%EB%8B%88%EB%8B%A4...%0D%0A%20%20%20%20a%20-%3D%201%3B%0D%0A%20%20%20%20a%20*%3D%201%3B%0D%0A%20%20%20%20a%20%2F%3D%201%3B%0D%0A%7D"
+          width="100%"
+          height="400"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <NaviBtn bef="numeric-float" aft="boolean" />
   </div>
 </template>

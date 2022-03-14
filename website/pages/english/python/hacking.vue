@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>Network Sniffing</h2>
         <p>
           Network sniffing is a form of hacking where you spy on other people's
@@ -16,7 +16,7 @@
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="100px"
@@ -27,7 +27,6 @@
 
     <Header-en type="Python" num="Proj: 7" title="Network Sniffing"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <h2>Programming Explanation</h2>
@@ -71,9 +70,7 @@
       height="200px"
       src="https://www.youtube.com/embed/RZSzjcp_DII"
       title="YouTube video player"
-      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
     />
 
     <QuadSpace />

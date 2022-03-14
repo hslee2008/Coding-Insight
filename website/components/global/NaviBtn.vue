@@ -1,8 +1,5 @@
 <template>
-  <v-card
-    style="background-color: rgb(0, 0, 0, 0); margin-bottom: 50px"
-    elevation="0"
-  >
+  <v-card class="transparent" style="margin-bottom: 60px">
     <v-card-text>
       <v-btn
         aria-label="Coding Insight Button"

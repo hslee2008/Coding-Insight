@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -23,22 +23,16 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/20b4a15af9"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
     <Header-en type="Python" num="60" title="Array Shape"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -62,16 +56,11 @@
       </div>
     </div>
     <iframe
-      class="embed-responsive-item"
       src="https://trinket.io/embed/python3/2143d07d6a"
       width="60%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

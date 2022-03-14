@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div
       style="
@@ -10,7 +10,7 @@
         color: black;
       "
     >
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbPlGs1KONj35lMRnJTnaPaZ-awICYbPhSw&usqp=CAU"
@@ -65,7 +65,7 @@
           }
         </code>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         "Interactive Mode"를 키고 "Result"(검은색 박스) 안에 숫자를
         입력하세요.<br /><br />
 
@@ -103,7 +103,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         여기도 "Interactive Mode"를 켜야 합니다.<br /><br />
 
         <iframe

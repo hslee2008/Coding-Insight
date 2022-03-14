@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -26,21 +26,14 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/3b0dada577"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
 
     <Header-en type="Python" title="Tuple" num="24"></Header-en>
-
-    <QuadSpace />
 
     <div>
       <div>
@@ -78,14 +71,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/76cd83a2ae"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -108,16 +96,11 @@
           </code>
         </p>
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python3/1a3ca85630"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>
@@ -150,14 +133,9 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/c70ec1ecfe"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
       />
     </div>
@@ -236,8 +214,6 @@
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>
-
-    <QuadSpace />
   </div>
 </template>
 

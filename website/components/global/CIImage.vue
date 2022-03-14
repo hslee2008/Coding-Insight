@@ -2,8 +2,8 @@
   <v-img
     :src="src"
     :max-width="maxWidth"
-    alt="Python Factory Image"
-    style="border-radius: 10px"
+    alt="Coding-Insight Image"
+    :class="(!noMargin ? 'mx-3 my-3 ' : '') + 'rounded-lg'"
   >
     <template v-slot:placeholder>
       <v-row class="fill-height ma-0" align="center" justify="center">
@@ -16,6 +16,6 @@
 <script>
 export default {
   name: 'CIImage',
-  props: ['src', 'maxWidth'],
+  props: ['src', 'maxWidth', 'noMargin'],
 };
 </script>

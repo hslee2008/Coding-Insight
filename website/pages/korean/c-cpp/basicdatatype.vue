@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <h2>데이터 형태란?</h2>
@@ -100,8 +100,8 @@
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>예시</h2>
         <p>
           <code>
@@ -122,7 +122,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VZp"
           width="600px"
@@ -157,7 +157,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VZs"
           width="100%"

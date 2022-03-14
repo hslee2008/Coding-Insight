@@ -123,7 +123,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

@@ -2,8 +2,8 @@
   <div>
     <Header type="C/C++" title="변수 - 고급" num="6" />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>많은 변수를 동시에 선언하는 방법</h2>
         <p>
           C 언어는 변수를 선언할 때 데이터 형태를 앞에 붙여야 합니다.<br /><br />
@@ -17,7 +17,7 @@
           <code> int a = 1, b = 2, c = 3; </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUanGdzUImXThB9bVOyNzTTtTKrN_6zaP1Rw&usqp=CAU"
@@ -82,7 +82,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VTI"
           width="100%"

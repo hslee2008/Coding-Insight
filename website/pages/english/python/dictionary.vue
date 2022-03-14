@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>What is dictionary?</h2>
         <p>
           Dictionary is a book that contains a word and an explanation for
@@ -23,7 +23,6 @@
 
     <Header-en type="Python" num="21" title="Dictionary"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -51,16 +50,11 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/1e671b6947"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -91,12 +85,8 @@
         src="https://trinket.io/embed/python3/1e671b6947"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -163,7 +153,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

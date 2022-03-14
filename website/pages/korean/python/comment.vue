@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div style="display: flex; margin: auto" class="img-div">
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <h2>주석이란?</h2>
         <p>
           온라인 수업시간에 '주석 달기'라는 버튼을 사용해 보신적이 있나요?<br /><br />
@@ -30,8 +30,6 @@
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/nJg2uCjwKa4"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -53,12 +51,8 @@
       src="https://trinket.io/embed/python/450cb9ddc1"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />
@@ -80,12 +74,8 @@
         src="https://trinket.io/embed/python/5f18131ec9"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -106,12 +96,8 @@
         src="https://trinket.io/embed/python/ab2de5f9f6"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -218,7 +204,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

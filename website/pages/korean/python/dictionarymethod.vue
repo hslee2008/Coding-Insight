@@ -1,14 +1,12 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div class="text-center">
       <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/SaJzwva53zo"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -30,12 +28,8 @@
         src="https://trinket.io/embed/python3/bb91a39a67"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -53,12 +47,8 @@
           src="https://trinket.io/embed/python3/1a3ca85630"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
-          style="margin: auto"
+          class="mx-auto my-auto"
         />
       </div>
     </div>
@@ -84,12 +74,8 @@
         src="https://trinket.io/embed/python3/c093c433f6"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -110,12 +96,8 @@
         src="https://trinket.io/embed/python3/c250d6c262"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 

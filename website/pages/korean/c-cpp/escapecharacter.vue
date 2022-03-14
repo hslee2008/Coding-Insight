@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <h2>이스케이프 문자란?</h2>
@@ -31,7 +31,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VZC"
           width="100%"
@@ -78,7 +78,7 @@
           }
         </code>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VZG"
           width="100%"

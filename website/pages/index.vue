@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <v-row flex justify="center" class="img-div" style="margin: 10px">
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <h1>
           Welcome to<br />
           <span class="titleforcodinginsight">Coding-Insight</span>
@@ -29,7 +29,7 @@
 
     <QuadSpace />
 
-    <v-card class="mx-auto">
+    <v-card class="mx-auto my-auto">
       <v-card-text>
         <h3>블록코딩을 넘어서 파이썬으로!</h3>
         <v-row style="margin: 1px">
@@ -122,7 +122,7 @@
         <div>
           <v-card-title>프로젝트로</v-card-title>
           <v-card-text>
-            다양한 프로젝트를 만들며<br />
+            프로젝트를 만들며<br />
             배우고 실행하세요!
           </v-card-text>
         </div>
@@ -134,8 +134,8 @@
         <div>
           <v-card-title>0부터 무한까지</v-card-title>
           <v-card-text>
-            Coding-Insight에서 시작해서<br />
-            무한대의 코딩을 배우세요!
+            사이트에서 시작해서<br />
+            무한대의 코딩 배우기
           </v-card-text>
         </div>
       </div>
@@ -156,7 +156,7 @@
     <h3>모든 강좌 확인하기</h3>
     <br />
     <v-row flex style="gap: 20px">
-      <v-card class="mx-auto" max-width="350" min-width="100">
+      <v-card class="mx-auto my-auto" max-width="350" min-width="100">
         <v-img
           class="white--text align-end"
           height="200"
@@ -199,7 +199,7 @@
         </v-card-actions>
       </v-card>
 
-      <v-card class="mx-auto" min-width="100" max-width="350">
+      <v-card class="mx-auto my-auto" min-width="100" max-width="350">
         <v-img
           class="white--text align-end"
           height="200"
@@ -222,16 +222,16 @@
         <v-card-actions>
           <v-btn
             aria-label="Coding Insight Button"
-            to="/korean/c-cpp/"
             color="primary"
+            to="/korean/c-cpp/"
             class="ml-2"
           >
             <v-icon dark> mdi-language-c </v-icon>
           </v-btn>
           <v-btn
             aria-label="Coding Insight Button"
-            to="/korean/c-cpp/cpp"
             color="primary"
+            to="/korean/c-cpp/cpp"
             class="ml-2"
           >
             <v-icon dark> mdi-language-cpp </v-icon></v-btn
@@ -239,7 +239,7 @@
         </v-card-actions>
       </v-card>
 
-      <v-card class="mx-auto" min-width="100" max-width="350">
+      <v-card class="mx-auto my-auto" min-width="100" max-width="350">
         <v-img
           class="white--text align-end"
           height="200"
@@ -262,8 +262,8 @@
         <v-card-actions>
           <v-btn
             aria-label="Coding Insight Button"
-            to="/korean/rust/"
             color="primary"
+            to="/korean/rust/"
             class="ml-2"
           >
             <h5 style="font-size: 15px">Rust</h5>
@@ -273,8 +273,6 @@
       </v-card>
     </v-row>
 
-    <QuadSpace />
-    <QuadSpace />
   </div>
 </template>
 

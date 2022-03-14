@@ -1,14 +1,14 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>Dice</h2>
         <p>Let's try making our own dice program that randomly roles a dice.</p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="100px"
@@ -19,7 +19,6 @@
 
     <Header-en type="Python" num="Proj: 8" title="Dice"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <h2>Dice Program</h2>
@@ -42,10 +41,6 @@
       src="https://trinket.io/embed/python3/740f66be1f"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />

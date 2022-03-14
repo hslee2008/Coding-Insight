@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div style="display: flex; justify-content: center">
         <CIImage
           alt="python-factory-picture"
@@ -36,7 +36,6 @@
 
     <Header-en type="Python" num="63" title="Logging"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -52,12 +51,8 @@
       src="https://trinket.io/embed/python3/9d4fc4880a"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />
@@ -71,14 +66,9 @@
       </div>
     </div>
     <iframe
-      class="embed-responsive-item"
       src="https://trinket.io/embed/python3/6c1c71f7fd"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
     />
 
@@ -114,12 +104,8 @@
       src="https://trinket.io/embed/python3/f9687df6a4"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
       loading="lazy"
-      style="margin: auto"
+      class="mx-auto my-auto"
     />
 
     <QuadSpace />

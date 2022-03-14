@@ -1,12 +1,12 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <v-icon x-large>mdi-language-rust</v-icon>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <p>
           Rust는 다른 프로그래밍 언어와 달리 매우 "안전하고, 효율적이고, 유용한"
           프로그래밍 언어입니다.<br /><br />
@@ -21,7 +21,7 @@
 
     <Header type="Rust" title="Rust" num="1" />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <div>
           <h1>Rust의 특징</h1>
@@ -39,7 +39,7 @@
           마지막으로 Rust는 모든 코딩 분야에서 사용할 수 있어서 유용합니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="300px"
@@ -86,6 +86,5 @@
       </NuxtLink>
     </div>
 
-    <QuadSpace />
   </div>
 </template>

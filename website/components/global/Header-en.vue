@@ -3,30 +3,35 @@
     <QuadSpace />
 
     <v-divider />
-    <br />
-    <v-btn
-      aria-label="Coding Insight Button"
-      class="ma-2"
-      outlined
-      @click="speak"
-    >
-      {{ count % 2 == 0 ? 'Read' : 'Stop'
-      }}<v-icon right>
-        {{ count % 2 == 0 ? 'mdi-bullhorn' : 'mdi-pause-octagon' }}</v-icon
-      >
-    </v-btn>
 
-    <br /><br />
-
-    <h1 class="display-6">
-      <span>{{ title }}</span
-      ><br id="lbbr" /><span id="txt">Computer Science Lab (</span>CSL<span
-        id="txt"
-        >)</span
+    <div class="my-5">
+      <v-btn
+        aria-label="Coding Insight Button"
+        class="ma-2"
+        outlined
+        @click="speak"
       >
-      {{ num }}
-    </h1>
-    <br />
+        {{ count % 2 == 0 ? 'Read' : 'Stop' }}
+
+        <v-icon right>
+          {{ count % 2 == 0 ? 'mdi-bullhorn' : 'mdi-pause-octagon' }}
+        </v-icon>
+      </v-btn>
+
+      <br /><br />
+
+      <h1>
+        {{ title }}
+      </h1>
+      <h2>
+        <span id="txt">EN Computer Science Lab (</span>CSL<span id="txt"
+          >)</span
+        >
+
+        {{ num }}
+      </h2>
+    </div>
+
     <v-divider />
 
     <QuadSpace />

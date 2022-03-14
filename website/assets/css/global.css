@@ -8,21 +8,27 @@ code {
   background: #455a64;
   border-left: 2px solid #087ea4;
   color: black;
-  page-break-inside: avoid;
   font-family: Menlo, Monaco, Consolas, Courier New, monospace;
   font-size: 15px;
   line-height: 1.6;
   margin-bottom: 1.6em;
-  max-width: 100%;
-  overflow: auto;
   padding: 15px;
   display: block;
-  word-wrap: break-word;
+}
+
+.inline-code {
+  display: initial !important;
 }
 
 iframe {
   border: 0;
+  outline: 0;
   border-radius: 10px;
+  opacity: 0.8;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.6em;
 }
 
 .quiz {

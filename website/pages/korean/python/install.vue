@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div style="display: flex; justify-content: center; margin: 5px">
         <CIImage
           lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
@@ -434,7 +434,7 @@
           max-width="200px"
         />
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <h2>VSCode란?</h2>
         <p>
           VSCode를 사용해보겠습니다.<br /><br />

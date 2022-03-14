@@ -1,13 +1,11 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
     <div class="text-center">
       <iframe
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/4_uGNu9IlCU"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -31,12 +29,8 @@
         src="https://trinket.io/embed/python/41e9ea9617"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -58,12 +52,8 @@
         src="https://trinket.io/embed/python/a26965d6fd"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -90,19 +80,15 @@
         src="https://trinket.io/embed/python3/75c4671dd7"
         width="100%"
         height="300"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>문자에서 문자의 인덱스</h2>
         <p>
           index() 메서드를 사용하여 문자 안에 또 다른 문자가 존재하는지 알 수
@@ -111,7 +97,7 @@
           만일 문자열이 문자 안에 없다면 에러가 생깁니다.
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://cdn.shopify.com/s/files/1/0952/3604/products/indexbk2_9f2cbceb-31fb-4c4f-968b-2b9b7679152a.jpg?v=1593185298"
@@ -122,8 +108,8 @@
 
     <QuadSpace />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>파이썬 문자 센터링</h2>
         <p>
           파이썬에서 센터링이란 문자를 ' '로 둘러싸는 것을 뜻합니다. ' '로
@@ -351,7 +337,6 @@
         <v-icon left>mdi-check-decagram</v-icon>정답 확인
       </v-btn>
     </div>
-    <QuadSpace />
   </div>
 </template>
 

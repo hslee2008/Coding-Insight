@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div style="display: flex; justify-content: center">
         <CIImage
           alt="python-factory-picture"
@@ -25,7 +25,6 @@
       title="Installation & First program"
     ></Header-en>
 
-    <QuadSpace />
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn
@@ -438,7 +437,7 @@
           max-width="200px"
         />
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <h2>What is VSCode?</h2>
         <p>
           We learned how to use IDLE. However, we will be using VSCode instead

@@ -6,7 +6,6 @@
       title="File making, deleting, encoding"
     ></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -137,7 +136,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

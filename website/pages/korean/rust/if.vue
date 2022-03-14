@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>if문</h2>
         <p>
           불리언이 맞다면 실행하고, 거짓이면 실행하지 않는 형식이
@@ -12,7 +12,8 @@
           조건문은 조건이 맞으면 실행하고, 거짓이면 실행하지 않는 형식입니다.
         </p>
       </div>
-      <div style="margin: auto">
+
+      <div class="mx-auto my-auto">
         <svg
           width="375"
           height="154"
@@ -49,32 +50,60 @@
 
     <Header type="Rust" title="if 조건문" num="26" />
 
-    <BasicExpDivWithOneIframe
-      heading="if 조건문 사용"
-      :contents="[
-        'if 다음에 불리언을 넣고 { } 안에 코드를 넣으면 됩니다.',
-        '이제 a의 값이 true이면 {} 안에 있는 코드 println!()을 실행하고 false이면 아무것도 하지 않습니다.',
-      ]"
-      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%20%3D%2010%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20if%20a%20%3D%3D%2010%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22%7Ba%7D%22)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
-    />
+    <div>
+      <div>
+        <h2>if 조건문 사용</h2>
+        if 다음에 불리언을 넣고 { } 안에 코드를 넣으면 됩니다.<br /><br />
 
-    <BasicExpDivWithOneIframe
-      heading="if-else 조건문 사용"
-      :contents="[
-        'if {} 형태 코드는 불리언이 맞으면 실행하고 아니면 아무것도 하지 않습니다.',
-        '하지만 if-else 형태 코드는 불리언이 맞으면 실행하고 아니면 다른 코드를 또 실행합니다.',
-      ]"
-      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%20%3D%203%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20if%20a%20%3D%3D%2010%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%EB%8A%94%2010%EC%9E%85%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%20else%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%20%EB%8A%94%2010%20%EC%95%84%EB%8B%99%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
-    />
+        이제 a의 값이 true이면 {} 안에 있는 코드 println!()을 실행하고 false이면
+        아무것도 하지 않습니다.<br /><br />
 
-    <BasicExpDivWithOneIframe
-      heading="if-else if-else 조건문 사용"
-      :contents="[
-        'else if는 첫 번째 if 조건문이 틀리고 두 번째 불리언이 맞다면 실행합니다.',
-        '즉, if {} else {}에서 else 안의 if {}가 있는 거나 마찬가지입니다.',
-      ]"
-      iframe="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%20%3D%203%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20if%20a%20%3D%3D%2010%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%EB%8A%94%2010%EC%9E%85%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%20else%20if%20a%20%3D%3D%203%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%EB%8A%94%203%EC%9E%85%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%20else%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%20%EB%8A%94%2010%EA%B3%BC%203%EC%9D%B4%20%EC%95%84%EB%8B%99%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
-    />
+        <iframe
+          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%20%3D%2010%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20if%20a%20%3D%3D%2010%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22%7Ba%7D%22)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
+          width="100%"
+          height="300"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>if-else 조건문 사용</h2>
+        if {} 형태 코드는 불리언이 맞으면 실행하고 아니면 아무것도 하지
+        않습니다.<br /><br />
+
+        하지만 if-else 형태 코드는 불리언이 맞으면 실행하고 아니면 다른 코드를
+        또 실행합니다.<br /><br />
+
+        <iframe
+          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%20%3D%203%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20if%20a%20%3D%3D%2010%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%EB%8A%94%2010%EC%9E%85%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%20else%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%20%EB%8A%94%2010%20%EC%95%84%EB%8B%99%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
+          width="100%"
+          height="300"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>if-else if-else 조건문 사용</h2>
+        else if는 첫 번째 if 조건문이 틀리고 두 번째 불리언이 맞다면
+        실행합니다.<br /><br />
+
+        즉, if {} else {}에서 else 안의 if {}가 있는 거나 마찬가지입니다.<br /><br />
+
+        <iframe
+          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%20%3D%203%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20if%20a%20%3D%3D%2010%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%EB%8A%94%2010%EC%9E%85%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%20else%20if%20a%20%3D%3D%203%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%EB%8A%94%203%EC%9E%85%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%20else%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22a%20%EB%8A%94%2010%EA%B3%BC%203%EC%9D%B4%20%EC%95%84%EB%8B%99%EB%8B%88%EB%8B%A4.%22)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
+          width="100%"
+          height="300"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
 
     <NaviBtn bef="borrow-dereference" aft="loop" />
   </div>

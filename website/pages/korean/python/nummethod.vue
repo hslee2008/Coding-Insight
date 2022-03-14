@@ -1,14 +1,12 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div class="text-center">
       <iframe
         width="80%"
         height="315"
         src="https://www.youtube.com/embed/BO5mVol4FOY"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
@@ -37,12 +35,8 @@
         src="https://trinket.io/embed/python3/db269c0e84"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -106,7 +100,6 @@
       </v-btn>
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

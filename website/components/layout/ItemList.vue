@@ -7,13 +7,14 @@
     <v-divider class="mb-3 mx-3"></v-divider>
 
     <v-list-item
-      v-for="(item, i) in items[json]"
+      v-for="(item, i) in items[isEnglish() ? json + '_en' : json]"
       :key="json + i.toString()"
       :to="item.to"
       router
       exact
       dense
       color="primary"
+      active-class="activeList"
     >
       <v-list-item-icon>
         <v-icon>{{ 'mdi-' + item.icon }}</v-icon>
@@ -52,3 +53,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.activeList {
+  background-color: #23272f;
+}
+</style>

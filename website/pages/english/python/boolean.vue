@@ -1,8 +1,8 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
+    <div>
       <div>
         <h2>What is Boolean?</h2>
         <p>
@@ -22,7 +22,7 @@
           <code> a = 5 > 6 </code>
         </p>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
@@ -33,10 +33,8 @@
 
     <Header-en type="Python" num="13" title="Boolean"></Header-en>
 
-    <QuadSpace />
-
     <div>
-      <div class="mx-auto">
+      <div class="mx-auto my-auto">
         <h2>Something to be careful</h2>
         <p>
           In Python, incorrect is False and correct is True.<br /><br />
@@ -48,16 +46,11 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python/8500bba20b"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -69,16 +62,11 @@
         <p>Using not, we can switch from true to false and vice versa.</p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python/5fbbc3204c"
         width="60%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -106,16 +94,11 @@
       </div>
 
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python3/b23c21c043"
         width="60%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -134,16 +117,11 @@
         </p>
       </div>
       <iframe
-        class="embed-responsive-item"
         src="https://trinket.io/embed/python/6d4ae0d672"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -293,8 +271,6 @@
         <v-icon left>mdi-check-decagram</v-icon>Check Answer
       </v-btn>
     </div>
-
-    <QuadSpace />
   </div>
 </template>
 

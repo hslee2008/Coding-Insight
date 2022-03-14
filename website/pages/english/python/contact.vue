@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>Contact List</h2>
         <p>
           We can make a contact list of friends using Python.<br /><br />
@@ -18,7 +18,7 @@
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="200px"
@@ -29,7 +29,6 @@
 
     <Header-en type="Python" num="Proj: 4" title="Contact List"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <h2>Program Explanation</h2>

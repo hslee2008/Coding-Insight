@@ -2,14 +2,12 @@
   <div style="display: flex; flex-wrap: wrap" class="divy">
     <v-bottom-sheet v-model="sheet" inset>
       <template #activator="{ on, attrs }">
-        <v-card class="mx-auto" height="400px">
+        <v-card class="mx-auto my-auto" height="400px">
           <iframe
             width="100%"
             class="card-img-top"
             height="200px"
             src="https://www.youtube.com/embed/0bwQtUOqW_g"
-            title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
@@ -74,14 +72,12 @@
 
     <v-bottom-sheet v-model="sheet_1" inset>
       <template #activator="{ on, attrs }">
-        <v-card class="mx-auto" height="400px">
+        <v-card class="mx-auto my-auto" height="400px">
           <iframe
             width="100%"
             class="card-img-top"
             height="200px"
             src="https://www.youtube.com/embed/5G1PBdmfcqc"
-            title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
@@ -210,14 +206,12 @@
 
     <v-bottom-sheet v-model="sheet_2" inset>
       <template #activator="{ on, attrs }">
-        <v-card class="mx-auto" height="400px">
+        <v-card class="mx-auto my-auto" height="400px">
           <iframe
             width="100%"
             class="card-img-top"
             height="200px"
             src="https://www.youtube.com/embed/RZSzjcp_DII"
-            title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
@@ -286,13 +280,12 @@
 
     <v-bottom-sheet v-model="sheet_3" inset>
       <template #activator="{ on, attrs }">
-        <v-card class="mx-auto" height="400px">
+        <v-card class="mx-auto my-auto" height="400px">
           <iframe
             width="100%"
             class="card-img-top"
             height="200px"
             src="https://www.youtube.com/embed/ePuu9qYlQVY"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
@@ -334,14 +327,12 @@
 
     <v-bottom-sheet v-model="sheet_4" inset>
       <template #activator="{ on, attrs }">
-        <v-card class="mx-auto" height="400px">
+        <v-card class="mx-auto my-auto" height="400px">
           <iframe
             width="100%"
             class="card-img-top"
             height="200px"
             src="https://www.youtube.com/embed/3Hkbj5CH8oY"
-            title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
@@ -381,14 +372,12 @@
 
     <v-bottom-sheet v-model="sheet_5" inset>
       <template #activator="{ on, attrs }">
-        <v-card class="mx-auto" height="400px">
+        <v-card class="mx-auto my-auto" height="400px">
           <iframe
             width="100%"
             class="card-img-top"
             height="200px"
             src="https://www.youtube.com/embed/qYMiwwFynco"
-            title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
@@ -461,14 +450,11 @@
         width="560"
         height="315"
         src="https://www.youtube.com/embed/videoseries?list=PLhHi1BeBom9e62FpDsAnpP-tJUULibSPE"
-        title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
     </div>
 
-    <QuadSpace />
   </div>
 </template>
 

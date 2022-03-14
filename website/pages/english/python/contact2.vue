@@ -1,16 +1,16 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>Friend Contact List Verison 2</h2>
         <p>
           This time, we will save all our friends inside a .txt file for later.
         </p>
       </div>
 
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           max-width="200px"
@@ -21,7 +21,6 @@
 
     <Header-en type="Python" num="Proj: 8" title="Friend List v2"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <h2>Explanation</h2>
@@ -40,10 +39,6 @@
       src="https://trinket.io/embed/python3/9e26723d8a"
       width="100%"
       height="356"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      allowfullscreen
     />
 
     <QuadSpace />

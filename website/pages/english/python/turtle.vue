@@ -1,9 +1,9 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
-    <div style="display: flex" class="img-div">
-      <div class="mx-auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>What is Turtle?</h2>
         <p>We use Turtle for drawing and making simple games.</p>
       </div>
@@ -18,7 +18,6 @@
 
     <Header-en type="Python" num="90" title="Turtle"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>

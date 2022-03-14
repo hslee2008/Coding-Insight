@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <div>
@@ -28,7 +28,6 @@
 
     <Header-en type="Python" num="86" title="Auto Zoom"></Header-en>
 
-    <QuadSpace />
 
     <div class="text-center">
       <h2>Code</h2>

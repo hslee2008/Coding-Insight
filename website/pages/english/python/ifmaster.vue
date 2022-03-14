@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="27" title="If Master"></Header-en>
 
-    <QuadSpace />
 
     <div>
       <div>
@@ -40,12 +39,8 @@
         src="https://trinket.io/embed/python3/73c3356df0"
         width="100%"
         height="356"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        allowfullscreen
         loading="lazy"
-        style="margin: auto"
+        class="mx-auto my-auto"
       />
     </div>
 
@@ -89,14 +84,9 @@
           </p>
         </div>
         <iframe
-          class="embed-responsive-item"
           src="https://trinket.io/embed/python3/42bf09e347"
           width="100%"
           height="356"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
           loading="lazy"
         />
       </div>

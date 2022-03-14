@@ -1,6 +1,6 @@
 <template>
   <div>
-    <QuadSpace />
+    <br /><br />
 
     <div>
       <h2>반복문</h2>
@@ -22,8 +22,8 @@
 
     <Header type="C/C++" title="FOR 반복문" num="18" />
 
-    <div style="display: flex" class="img-div">
-      <div style="margin: auto">
+    <div>
+      <div class="mx-auto my-auto">
         <h2>for 반복문의 원리</h2>
         <p>
           1. 변수를 만든다.<br /><br />
@@ -35,7 +35,7 @@
           5. (1)로 돌아가고 작업을 계속 반복합니다.
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <CIImage
           alt="python-factory-picture"
           src="https://www.javascripttutorial.net/wp-content/uploads/2020/01/JavaScript-for-Loop.png"
@@ -124,7 +124,7 @@
           </code>
         </p>
       </div>
-      <div style="margin: auto">
+      <div class="mx-auto my-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3YLS"
           width="100%"
