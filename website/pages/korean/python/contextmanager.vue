@@ -79,6 +79,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="contact2" aft="datachange" />
+    <Navigation bef="contact2" aft="datachange" />
   </div>
 </template>

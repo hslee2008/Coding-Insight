@@ -36,7 +36,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://img.icons8.com/ios/452/c-plus-plus-logo.png"
           max-width="250px"
@@ -76,6 +76,5 @@
         </v-btn>
       </NuxtLink>
     </div>
-
   </div>
 </template>

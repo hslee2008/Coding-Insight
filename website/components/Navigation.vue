@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'NaviBtn',
+  name: 'Navigation',
   props: ['bef', 'aft'],
 };
 </script>

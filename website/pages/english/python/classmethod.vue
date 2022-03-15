@@ -13,7 +13,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://pbs.twimg.com/profile_images/502406972453289985/AKdzcXPi.png"
           width="300px"
@@ -22,7 +22,6 @@
     </div>
 
     <Header-en type="Python" num="47" title="Class Method"></Header-en>
-
 
     <div>
       <div>
@@ -115,6 +114,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="class" aft="math" />
+    <Navigation bef="class" aft="math" />
   </div>
 </template>

@@ -134,6 +134,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="typedef" aft="pointer" />
+    <Navigation bef="typedef" aft="pointer" />
   </div>
 </template>

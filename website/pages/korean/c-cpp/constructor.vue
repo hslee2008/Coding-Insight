@@ -96,6 +96,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="classmethod" aft="accessspecifier" />
+    <Navigation bef="classmethod" aft="accessspecifier" />
   </div>
 </template>

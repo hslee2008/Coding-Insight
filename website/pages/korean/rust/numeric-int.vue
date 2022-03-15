@@ -104,7 +104,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="datatypes" aft="numeric-float" />
+    <Navigation bef="datatypes" aft="numeric-float" />
   </div>
 </template>
 

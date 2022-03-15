@@ -16,7 +16,7 @@
       </div>
 
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           src="https://image-loader-coding-insight.web.app/rust-kr/img/code.png"
           max-width="300"
         />
@@ -79,6 +79,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="setup" aft="printfmt" />
+    <Navigation bef="setup" aft="printfmt" />
   </div>
 </template>

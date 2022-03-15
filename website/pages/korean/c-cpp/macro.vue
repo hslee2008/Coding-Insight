@@ -128,6 +128,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="assert" aft="otherif" />
+    <Navigation bef="assert" aft="otherif" />
   </div>
 </template>

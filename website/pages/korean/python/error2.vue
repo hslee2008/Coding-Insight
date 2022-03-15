@@ -61,6 +61,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="error" aft="logging" />
+    <Navigation bef="error" aft="logging" />
   </div>
 </template>

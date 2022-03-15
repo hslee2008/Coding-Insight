@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="22" title="Dictionary Method"></Header-en>
 
-
     <div>
       <div>
         <h2>How to add a pair of key and value</h2>
@@ -144,6 +143,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="dictionary" aft="zipping" />
+    <Navigation bef="dictionary" aft="zipping" />
   </div>
 </template>

@@ -13,7 +13,6 @@
 
     <Header-en type="Python" num="65" title="zlib"></Header-en>
 
-
     <div>
       <div>
         <h2>How compressing files work</h2>
@@ -65,7 +64,7 @@
         </p>
       </div>
       <div style="display: flex; justify-content: center">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://en.terminalroot.com.br/assets/img/cppdaily/zlib.png"
           width="400px"
@@ -156,7 +155,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="mapandreduceandfilter" aft="decorator" />
+    <Navigation bef="mapandreduceandfilter" aft="decorator" />
   </div>
 </template>
 

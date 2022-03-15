@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="27" title="If Master"></Header-en>
 
-
     <div>
       <div>
         <h2>Simple If Statement</h2>
@@ -122,7 +121,7 @@
 
     <br /><br /><br />
 
-    <NaviBtn bef="if" aft="password-safe" />
+    <Navigation bef="if" aft="password-safe" />
   </div>
 </template>
 

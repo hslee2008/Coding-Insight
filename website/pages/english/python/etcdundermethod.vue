@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="82" title="Other Dunder Method"></Header-en>
 
-
     <div>
       <div>
         <h2>Operation Dunder method</h2>
@@ -111,6 +110,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="additionaldundermethod" aft="atexit" />
+    <Navigation bef="additionaldundermethod" aft="atexit" />
   </div>
 </template>

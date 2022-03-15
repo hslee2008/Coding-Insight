@@ -109,6 +109,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="if" aft="while" />
+    <Navigation bef="if" aft="while" />
   </div>
 </template>

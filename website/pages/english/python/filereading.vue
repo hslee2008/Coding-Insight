@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
           width="300px"
@@ -27,7 +27,6 @@
     </div>
 
     <Header-en type="Python" num="50" title="File Reading"></Header-en>
-
 
     <div>
       <div>
@@ -119,6 +118,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="file" aft="filewriting" />
+    <Navigation bef="file" aft="filewriting" />
   </div>
 </template>

@@ -148,6 +148,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="asynchronous" aft="name" />
+    <Navigation bef="asynchronous" aft="name" />
   </div>
 </template>

@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="54" title="Data Type Change"></Header-en>
 
-
     <div>
       <div>
         <h2>To List</h2>
@@ -134,7 +133,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="contact2" aft="stringascode" />
+    <Navigation bef="contact2" aft="stringascode" />
   </div>
 </template>
 

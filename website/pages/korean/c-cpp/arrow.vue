@@ -54,6 +54,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="error" aft="random" />
+    <Navigation bef="error" aft="random" />
   </div>
 </template>

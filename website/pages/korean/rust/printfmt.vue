@@ -68,6 +68,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="print" aft="comment" />
+    <Navigation bef="print" aft="comment" />
   </div>
 </template>

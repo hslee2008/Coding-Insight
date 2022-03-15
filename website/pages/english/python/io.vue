@@ -130,206 +130,197 @@
 
       <QuadSpace />
 
-      <NaviBtn bef="vscode" aft="variable" />
+      <Navigation bef="vscode" aft="variable" />
 
       <QuadSpace />
 
-      <div class="quiz">
-        <h2>Solve This Quiz!!</h2>
+      <v-card>
+        <v-card-title>Solve This Quiz!</v-card-title>
 
-        <v-divider />
+        <v-card-text
+          ><v-divider />
 
-        <br /><br />
+          <br /><br />
 
-        <h3>What is printing in programming?</h3>
-        <div>
-          <input
-            id="question-1-answers-A"
-            type="radio"
-            name="question-1-answers"
-            value="A"
-          />
-          <label for="question-1-answers-A"
-            >A) Show information in paper
-          </label>
-        </div>
+          <h3>What is printing in programming?</h3>
+          <div>
+            <input
+              id="question-1-answers-A"
+              type="radio"
+              name="question-1-answers"
+            />
+            <label for="question-1-answers-A"
+              >A) Show information in paper
+            </label>
+          </div>
 
-        <div>
-          <input
-            id="question-1-answers-B"
-            type="radio"
-            name="question-1-answers"
-            value="B"
-          />
-          <label for="question-1-answers-B"
-            >B) Store given information in variable
-          </label>
-        </div>
+          <div>
+            <input
+              id="question-1-answers-B"
+              type="radio"
+              name="question-1-answers"
+              value="B"
+            />
+            <label for="question-1-answers-B"
+              >Store given information in variable
+            </label>
+          </div>
 
-        <div>
-          <input
-            id="question-1-answers-C"
-            type="radio"
-            name="question-1-answers"
-            value="C"
-          />
-          <label for="question-1-answers-C"
-            >C) Store given information in variable
-          </label>
-        </div>
+          <div>
+            <input
+              id="question-1-answers-C"
+              type="radio"
+              name="question-1-answers"
+            />
+            <label for="question-1-answers-C"
+              >C) Store given information in variable
+            </label>
+          </div>
 
-        <div>
-          <input
-            id="question-1-answers-D"
-            type="radio"
-            name="question-1-answers"
-            value="D"
-          />
-          <label for="question-1-answers-D">D) None of the above </label>
-        </div>
+          <div>
+            <input
+              id="question-1-answers-D"
+              type="radio"
+              name="question-1-answers"
+            />
+            <label for="question-1-answers-D"> None of the above </label>
+          </div>
 
-        <br /><br />
+          <br /><br />
 
-        <h3>How do we print information in Python?</h3>
+          <h3>How do we print information in Python?</h3>
 
-        <div>
-          <input
-            id="question-2-answers-A"
-            type="radio"
-            name="question-2-answers"
-            value="A"
-          />
-          <label for="question-2-answers-A">A) print "info" </label>
-        </div>
+          <div>
+            <input
+              id="question-2-answers-A"
+              type="radio"
+              name="question-2-answers"
+            />
+            <label for="question-2-answers-A"> print "info" </label>
+          </div>
 
-        <div>
-          <input
-            id="question-2-answers-B"
-            type="radio"
-            name="question-2-answers"
-            value="B"
-          />
-          <label for="question-2-answers-B">B) puts("info") </label>
-        </div>
+          <div>
+            <input
+              id="question-2-answers-B"
+              type="radio"
+              name="question-2-answers"
+              value="B"
+            />
+            <label for="question-2-answers-B"> puts("info") </label>
+          </div>
 
-        <div>
-          <input
-            id="question-2-answers-C"
-            type="radio"
-            name="question-2-answers"
-            value="C"
-          />
-          <label for="question-2-answers-C">C) console.log("info") </label>
-        </div>
+          <div>
+            <input
+              id="question-2-answers-C"
+              type="radio"
+              name="question-2-answers"
+            />
+            <label for="question-2-answers-C"> console.log("info") </label>
+          </div>
 
-        <div>
-          <input
-            id="question-2-answers-D"
-            type="radio"
-            name="question-2-answers"
-            value="D"
-          />
-          <label for="question-2-answers-D">D) print("info") </label>
-        </div>
+          <div>
+            <input
+              id="question-2-answers-D"
+              type="radio"
+              name="question-2-answers"
+            />
+            <label for="question-2-answers-D"> print("info") </label>
+          </div>
 
-        <br /><br />
+          <br /><br />
 
-        <h3>
-          How do we put extra characters at the end of information using print()
-          and end?
-        </h3>
+          <h3>
+            How do we put extra characters at the end of information using
+            print() and end?
+          </h3>
 
-        <div>
-          <input
-            id="question-3-answers-A"
-            type="radio"
-            name="question-3-answers"
-            value="A"
-          />
-          <label for="question-3-answers-A">A) print("info", end="") </label>
-        </div>
+          <div>
+            <input
+              id="question-3-answers-A"
+              type="radio"
+              name="question-3-answers"
+            />
+            <label for="question-3-answers-A"> print("info", end="") </label>
+          </div>
 
-        <div>
-          <input
-            id="question-3-answers-B"
-            type="radio"
-            name="question-3-answers"
-            value="B"
-          />
-          <label for="question-3-answers-B">B) puts("info", end="") </label>
-        </div>
+          <div>
+            <input
+              id="question-3-answers-B"
+              type="radio"
+              name="question-3-answers"
+              value="B"
+            />
+            <label for="question-3-answers-B"> puts("info", end="") </label>
+          </div>
 
-        <div>
-          <input
-            id="question-3-answers-C"
-            type="radio"
-            name="question-3-answers"
-            value="C"
-          />
-          <label for="question-3-answers-C">C) print("info", end="") </label>
-        </div>
-        <div>
-          <input
-            id="question-3-answers-D"
-            type="radio"
-            name="question-3-answers"
-            value="D"
-          />
-          <label for="question-3-answers-D">D) print("info", theEnd="") </label>
-        </div>
+          <div>
+            <input
+              id="question-3-answers-C"
+              type="radio"
+              name="question-3-answers"
+            />
+            <label for="question-3-answers-C"> print("info", end="") </label>
+          </div>
+          <div>
+            <input
+              id="question-3-answers-D"
+              type="radio"
+              name="question-3-answers"
+            />
+            <label for="question-3-answers-D"> print("info", theEnd="") </label>
+          </div>
 
-        <br /><br />
+          <br /><br />
 
-        <h3>How do we get user input?</h3>
+          <h3>How do we get user input?</h3>
 
-        <div>
-          <input
-            id="question-5-answers-A"
-            type="radio"
-            name="question-5-answers"
-            value="A"
-          />
-          <label for="question-5-answers-A">A) input() </label>
-        </div>
+          <div>
+            <input
+              id="question-5-answers-A"
+              type="radio"
+              name="question-5-answers"
+            />
+            <label for="question-5-answers-A"> input() </label>
+          </div>
 
-        <div>
-          <input
-            id="question-5-answers-B"
-            type="radio"
-            name="question-5-answers"
-            value="B"
-          />
-          <label for="question-5-answers-B">B) print() </label>
-        </div>
+          <div>
+            <input
+              id="question-5-answers-B"
+              type="radio"
+              name="question-5-answers"
+              value="B"
+            />
+            <label for="question-5-answers-B"> print() </label>
+          </div>
 
-        <div>
-          <input
-            id="question-5-answers-C"
-            type="radio"
-            name="question-5-answers"
-            value="C"
-          />
-          <label for="question-5-answers-C">C) end() </label>
-        </div>
+          <div>
+            <input
+              id="question-5-answers-C"
+              type="radio"
+              name="question-5-answers"
+            />
+            <label for="question-5-answers-C"> end() </label>
+          </div>
 
-        <div>
-          <input
-            id="question-5-answers-D"
-            type="radio"
-            name="question-5-answers"
-            value="D"
-          />
-          <label for="question-5-answers-D">D) in() </label>
-        </div>
+          <div>
+            <input
+              id="question-5-answers-D"
+              type="radio"
+              name="question-5-answers"
+            />
+            <label for="question-5-answers-D"> in() </label>
+          </div>
 
-        <br /><br />
+          <br /><br />
+        </v-card-text>
 
-        <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-          <v-icon left>mdi-check-decagram</v-icon>Check Answer
-        </v-btn>
-      </div>
+        <v-card-actions>
+          <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+            <v-icon left>mdi-check-decagram</v-icon>Check Answer
+          </v-btn>
+        </v-card-actions>
+      </v-card>
     </div>
-
   </div>
 </template>
 

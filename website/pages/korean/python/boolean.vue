@@ -26,7 +26,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
           max-width="300px"
@@ -128,153 +128,147 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="ascii" aft="number" />
+    <Navigation bef="ascii" aft="number" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기!</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>불리언의 값으로 가능한 것들은?</h3>
-      <div>
-        <input
-          id="question-1-answers-A"
-          type="radio"
-          name="question-1-answers"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) true, false </label>
-      </div>
+        <h3>불리언의 값으로 가능한 것들은?</h3>
+        <div>
+          <input
+            id="question-1-answers-A"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-A"> true, false </label>
+        </div>
 
-      <div>
-        <input
-          id="question-1-answers-B"
-          type="radio"
-          name="question-1-answers"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) True, false </label>
-      </div>
+        <div>
+          <input
+            id="question-1-answers-B"
+            type="radio"
+            name="question-1-answers"
+            value="B"
+          />
+          <label for="question-1-answers-B"> True, false </label>
+        </div>
 
-      <div>
-        <input
-          id="question-1-answers-C"
-          type="radio"
-          name="question-1-answers"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) true, False </label>
-      </div>
+        <div>
+          <input
+            id="question-1-answers-C"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-C"> true, False </label>
+        </div>
 
-      <div>
-        <input
-          id="question-1-answers-D"
-          type="radio"
-          name="question-1-answers"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) True, False </label>
-      </div>
+        <div>
+          <input
+            id="question-1-answers-D"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-D"> True, False </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>
-        불리언 not (not (not (not (not (not (False))))))의 값과 같은 것은?
-      </h3>
+        <h3>
+          불리언 not (not (not (not (not (not (False))))))의 값과 같은 것은?
+        </h3>
 
-      <div>
-        <input
-          id="question-2-answers-A"
-          type="radio"
-          name="question-2-answers"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) False </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-A"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> False </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-B"
-          type="radio"
-          name="question-2-answers"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) True </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-B"
+            type="radio"
+            name="question-2-answers"
+            value="B"
+          />
+          <label for="question-2-answers-B"> True </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-C"
-          type="radio"
-          name="question-2-answers"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) Null </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-C"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"> Null </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-D"
-          type="radio"
-          name="question-2-answers"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) None </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-D"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> None </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>any([True, False, False, False, False])의 값은?</h3>
+        <h3>any([True, False, False, False, False])의 값은?</h3>
 
-      <div>
-        <input
-          id="question-3-answers-A"
-          type="radio"
-          name="question-3-answers"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) False </label>
-      </div>
+        <div>
+          <input
+            id="question-3-answers-A"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-A"> False </label>
+        </div>
 
-      <div>
-        <input
-          id="question-3-answers-B"
-          type="radio"
-          name="question-3-answers"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) True </label>
-      </div>
+        <div>
+          <input
+            id="question-3-answers-B"
+            type="radio"
+            name="question-3-answers"
+            value="B"
+          />
+          <label for="question-3-answers-B"> True </label>
+        </div>
 
-      <div>
-        <input
-          id="question-3-answers-C"
-          type="radio"
-          name="question-3-answers"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) Null </label>
-      </div>
+        <div>
+          <input
+            id="question-3-answers-C"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-C"> Null </label>
+        </div>
 
-      <div>
-        <input
-          id="question-3-answers-D"
-          type="radio"
-          name="question-3-answers"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) None </label>
-      </div>
+        <div>
+          <input
+            id="question-3-answers-D"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-D"> None </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

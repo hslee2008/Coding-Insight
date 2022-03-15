@@ -165,6 +165,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="str-method-specific" aft="array_method" />
+    <Navigation bef="str-method-specific" aft="array_method" />
   </div>
 </template>

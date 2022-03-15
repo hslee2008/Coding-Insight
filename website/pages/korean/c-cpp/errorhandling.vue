@@ -110,6 +110,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="allheader" aft="namespace" />
+    <Navigation bef="allheader" aft="namespace" />
   </div>
 </template>

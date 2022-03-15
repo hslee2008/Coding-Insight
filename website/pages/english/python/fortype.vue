@@ -90,6 +90,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="for" aft="forfunction" />
+    <Navigation bef="for" aft="forfunction" />
   </div>
 </template>

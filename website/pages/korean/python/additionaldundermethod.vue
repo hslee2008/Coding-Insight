@@ -77,6 +77,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="dundermethod" aft="etcdundermethod" />
+    <Navigation bef="dundermethod" aft="etcdundermethod" />
   </div>
 </template>

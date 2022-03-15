@@ -6,7 +6,6 @@
       title="Additional Dunder Method"
     ></Header-en>
 
-
     <div>
       <div>
         <h2>__call__() and __mul__()</h2>
@@ -85,6 +84,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="dundermethod" aft="etcdundermethod" />
+    <Navigation bef="dundermethod" aft="etcdundermethod" />
   </div>
 </template>

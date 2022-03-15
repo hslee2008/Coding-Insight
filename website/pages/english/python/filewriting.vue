@@ -23,7 +23,6 @@
 
     <Header-en type="Python" num="51" title="File Writing"></Header-en>
 
-
     <div>
       <div>
         <h2>write()</h2>
@@ -77,67 +76,67 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="filereading" aft="etcfile" />
+    <Navigation bef="filereading" aft="etcfile" />
 
-    <div class="quiz">
-      <h2>Solve This Quiz!!</h2>
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>
-        There is 'Hello' in example.txt. What is the content of the file going
-        to be when we use write() method to write ' World' with 'a' mode?
-      </h3>
+        <h3>
+          There is 'Hello' in example.txt. What is the content of the file going
+          to be when we use write() method to write ' World' with 'a' mode?
+        </h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-A"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) "HelloWorld" </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+          />
+          <label for="question-2-answers-A"> "HelloWorld" </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-B"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) "Hello, World!" </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-B"
+            value="B"
+          />
+          <label for="question-2-answers-B"> "Hello, World!" </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-C"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) "World" </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-C"
+          />
+          <label for="question-2-answers-C"> "World" </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-D"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) " World" </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-D"
+          />
+          <label for="question-2-answers-D"> " World" </label>
+        </div>
 
-      <QuadSpace />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>Check Answer
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

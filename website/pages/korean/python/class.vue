@@ -95,6 +95,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="regex" aft="classmethod" />
+    <Navigation bef="regex" aft="classmethod" />
   </div>
 </template>

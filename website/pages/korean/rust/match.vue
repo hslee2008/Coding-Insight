@@ -74,6 +74,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="numeric-float" aft="boolean" />
+    <Navigation bef="numeric-float" aft="boolean" />
   </div>
 </template>

@@ -13,7 +13,7 @@
         </p>
       </div>
       <div style="display: flex; justify-content: center">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAEJ9fzr3QpW7a9Ase_cE279O1pTyY4GZ2T4cXc7rXrugIqPf_586nsM-Ajo_Q0Qxuyxk&usqp=CAU"
           max-width="300px"
@@ -102,7 +102,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="number" aft="numtype" />
+    <Navigation bef="number" aft="numtype" />
   </div>
 </template>
 

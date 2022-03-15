@@ -82,6 +82,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="writefile" aft="cpp" />
+    <Navigation bef="writefile" aft="cpp" />
   </div>
 </template>

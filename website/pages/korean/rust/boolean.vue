@@ -82,6 +82,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="math" aft="cmp-operator" />
+    <Navigation bef="math" aft="cmp-operator" />
   </div>
 </template>

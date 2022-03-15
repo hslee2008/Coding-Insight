@@ -119,7 +119,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="set" aft="if" />
+    <Navigation bef="set" aft="if" />
   </div>
 </template>
 

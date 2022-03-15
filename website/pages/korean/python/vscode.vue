@@ -28,27 +28,27 @@
           <v-stepper-header non-linear-header>
             <v-stepper-step editable step="1"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="2"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="3"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="4"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="5"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="6"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="7"> </v-stepper-step>
           </v-stepper-header>
@@ -72,14 +72,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e6 = 2"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet1 = !sheet1"
                   >
@@ -106,14 +107,15 @@
                     >
                   </v-card-title>
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e6 = 3"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet1 = !sheet1"
                   >
@@ -137,14 +139,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e6 = 4"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet1 = !sheet1"
                   >
@@ -168,14 +171,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e6 = 5"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet1 = !sheet1"
                   >
@@ -199,14 +203,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e6 = 6"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet1 = !sheet1"
                   >
@@ -228,14 +233,15 @@
                     ><p style="color: black">끝내기 누르기</p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e6 = 7"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet1 = !sheet1"
                   >
@@ -252,8 +258,8 @@
                     컴퓨터 다시 시작하기
                   </p></v-card-title
                 >
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="sheet1 = !sheet1"
@@ -274,15 +280,15 @@
           <v-stepper-header non-linear-header>
             <v-stepper-step editable step="1"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="2"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="3"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="4"> </v-stepper-step>
           </v-stepper-header>
@@ -301,14 +307,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e4 = 2"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet2 = !sheet2"
                   >
@@ -334,14 +341,15 @@
                     >
                   </v-card-title>
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e4 = 3"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet2 = !sheet2"
                   >
@@ -363,14 +371,15 @@
                     ><p>초록색 install 버튼을 누르세요.</p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e4 = 4"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet2 = !sheet2"
                   >
@@ -395,14 +404,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="e4 = 5"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet2 = !sheet2"
                   >
@@ -433,27 +443,27 @@
           <v-stepper-header non-linear-header>
             <v-stepper-step editable step="1"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="2"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="3"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="4"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="5"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="6"> </v-stepper-step>
 
-            <v-divider></v-divider>
+            <v-divider />
 
             <v-stepper-step editable step="7"> </v-stepper-step>
           </v-stepper-header>
@@ -472,14 +482,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="et = 2"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet3 = !sheet3"
                   >
@@ -505,14 +516,15 @@
                     >
                   </v-card-title>
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="et = 3"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet3 = !sheet3"
                   >
@@ -537,14 +549,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="et = 4"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet3 = !sheet3"
                   >
@@ -568,14 +581,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="et = 5"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet3 = !sheet3"
                   >
@@ -602,14 +616,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="et = 6"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet3 = !sheet3"
                   >
@@ -637,14 +652,15 @@
                     </p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="et = 7"
                   >
-                    Continue </v-btn
-                  ><v-btn
+                    Continue
+                  </v-btn>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     @click="sheet3 = !sheet3"
                   >
@@ -666,8 +682,8 @@
                     ><p style="color: black">결과 확인하기 기</p></v-card-title
                   >
                 </v-img>
-                <v-card-actions
-                  ><v-btn
+                <v-card-actions>
+                  <v-btn
                     aria-label="Coding Insight Button"
                     color="primary"
                     @click="sheet3 = !sheet3"
@@ -715,7 +731,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="install" aft="io" />
+    <Navigation bef="install" aft="io" />
   </div>
 </template>
 

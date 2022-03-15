@@ -164,6 +164,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="random" aft="stopprogram" />
+    <Navigation bef="random" aft="stopprogram" />
   </div>
 </template>

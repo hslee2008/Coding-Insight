@@ -100,6 +100,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="constructor" aft="inheritance" />
+    <Navigation bef="constructor" aft="inheritance" />
   </div>
 </template>

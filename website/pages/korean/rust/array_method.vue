@@ -79,7 +79,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="array" aft="type-casting" />
-
+    <Navigation bef="array" aft="type-casting" />
   </div>
 </template>

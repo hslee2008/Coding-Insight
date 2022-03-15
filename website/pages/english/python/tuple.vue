@@ -142,78 +142,79 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="zipping" aft="set" />
+    <Navigation bef="zipping" aft="set" />
 
-    <div class="quiz">
-      <h3>
-        what is printed when running: print( zip( (1, 2, 3), ("1", "2", "3") ) )
-        ?
-      </h3>
+    <v-card>
+      <v-card-text
+        ><h3>
+          what is printed when running: print( zip( (1, 2, 3), ("1", "2", "3") )
+          ) ?
+        </h3>
 
-      <v-divider />
+        <v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>
-        print( zip( (1, 2, 3), ("1", "2", "3") ) ) 코드를 실행하면 출력되는
-        값은?
-      </h3>
+        <h3>
+          print( zip( (1, 2, 3), ("1", "2", "3") ) ) 코드를 실행하면 출력되는
+          값은?
+        </h3>
 
-      <h3>
-        what is printed when running: print( zip( (1, 2, 3), ("1", "2", "3") ) )
-        ?
-      </h3>
+        <h3>
+          what is printed when running: print( zip( (1, 2, 3), ("1", "2", "3") )
+          ) ?
+        </h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-A"
-          value="A"
-        />
-        <label for="question-2-answers-A"
-          >A) ((1, '1'), (2, '2'), (3, '3'))
-        </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+          />
+          <label for="question-2-answers-A"
+            >A) ((1, '1'), (2, '2'), (3, '3'))
+          </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-B"
-          value="B"
-        />
-        <label for="question-2-answers-B"
-          >B) (('1', 1), ('2', 2), ('3', 3))
-        </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-B"
+            value="B"
+          />
+          <label for="question-2-answers-B"
+            >(('1', 1), ('2', 2), ('3', 3))
+          </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-C"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) None </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-C"
+          />
+          <label for="question-2-answers-C"> None </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-D"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) Other </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-D"
+          />
+          <label for="question-2-answers-D"> Other </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>Check Answer
-      </v-btn>
-    </div>
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn>
+      </v-card-actions>
+    </v-card>
   </div>
 </template>
 

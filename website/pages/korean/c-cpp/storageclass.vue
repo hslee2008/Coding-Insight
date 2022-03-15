@@ -137,6 +137,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="mainfunction" aft="typedef" />
+    <Navigation bef="mainfunction" aft="typedef" />
   </div>
 </template>

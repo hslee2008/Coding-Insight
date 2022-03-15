@@ -63,6 +63,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="macro" aft="error" />
+    <Navigation bef="macro" aft="error" />
   </div>
 </template>

@@ -18,7 +18,7 @@
       </div>
 
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy1JR0zWx1nJyis2cLni6s3IuftL-qTu4aYQ&usqp=CAU"
           max-width="300"
         />
@@ -72,6 +72,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="identifier" aft="datatypes" />
+    <Navigation bef="identifier" aft="datatypes" />
   </div>
 </template>

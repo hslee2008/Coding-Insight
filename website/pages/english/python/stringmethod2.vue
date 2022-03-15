@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="10" title="String Method 2"></Header-en>
 
-
     <div>
       <div class="mx-auto my-auto">
         <h2>Adding Text</h2>
@@ -126,150 +125,144 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="stringmethod1" aft="password" />
+    <Navigation bef="stringmethod1" aft="password" />
 
-    <div class="quiz">
-      <h2>Solve This Quiz!</h2>
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>How do we add two strings together in Python?</h3>
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-A"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) + </label>
-      </div>
+        <h3>How do we add two strings together in Python?</h3>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-A"
+          />
+          <label for="question-1-answers-A"> + </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-B"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) - </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-B"
+            value="B"
+          />
+          <label for="question-1-answers-B"> - </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-C"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) ++ </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-C"
+          />
+          <label for="question-1-answers-C"> ++ </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-D"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) == </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-D"
+          />
+          <label for="question-1-answers-D"> == </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>How do we get x times of a string?</h3>
+        <h3>How do we get x times of a string?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-A"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) a = "string" * x </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+          />
+          <label for="question-2-answers-A"> a = "string" * x </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-B"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) a = "string" - x </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-B"
+            value="B"
+          />
+          <label for="question-2-answers-B"> a = "string" - x </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-C"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) a = "string" $ x </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-C"
+          />
+          <label for="question-2-answers-C"> a = "string" $ x </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-D"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) a = "string" @ x </label>
-      </div>
-      <br /><br />
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-D"
+          />
+          <label for="question-2-answers-D"> a = "string" @ x </label>
+        </div>
+        <br /><br />
 
-      <h3>How do we cut string in Python?</h3>
+        <h3>How do we cut string in Python?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-A"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) "string".partition("") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-A"
+          />
+          <label for="question-3-answers-A"> "string".partition("") </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-B"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) "string".cut("") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-B"
+            value="B"
+          />
+          <label for="question-3-answers-B"> "string".cut("") </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-C"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) "string".apply("") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-C"
+          />
+          <label for="question-3-answers-C"> "string".apply("") </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-D"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) "string" / "string" </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-D"
+          />
+          <label for="question-3-answers-D"> "string" / "string" </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

@@ -78,7 +78,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="scopeshadowing" aft="numeric-int" />
+    <Navigation bef="scopeshadowing" aft="numeric-int" />
   </div>
 </template>
 

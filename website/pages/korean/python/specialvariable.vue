@@ -57,7 +57,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="functionhard" aft="type" />
+    <Navigation bef="functionhard" aft="type" />
   </div>
 </template>
 

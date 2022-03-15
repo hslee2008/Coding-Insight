@@ -84,7 +84,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="boolean-operator" aft="string" />
-
+    <Navigation bef="boolean-operator" aft="string" />
   </div>
 </template>

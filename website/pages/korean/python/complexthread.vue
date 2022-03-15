@@ -59,6 +59,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="thread" aft="threadmethod" />
+    <Navigation bef="thread" aft="threadmethod" />
   </div>
 </template>

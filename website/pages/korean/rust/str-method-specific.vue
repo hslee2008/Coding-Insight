@@ -92,6 +92,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="str-method" aft="array" />
+    <Navigation bef="str-method" aft="array" />
   </div>
 </template>

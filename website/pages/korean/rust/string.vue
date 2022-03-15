@@ -167,8 +167,8 @@
       <div>
         <h2>&str과 String</h2>
 
-        &str은 <code class="inline-code">let vari: &str = ""</code> 형태로 변수를
-        선언하면 되고 String은
+        &str은 <code class="inline-code">let vari: &str = ""</code> 형태로
+        변수를 선언하면 되고 String은
         <code class="inline-code">let vari = String::from("")</code>과 같이
         선언하면 됩니다.<br /><br />
 
@@ -186,7 +186,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="char" aft="str-method" />
-
+    <Navigation bef="char" aft="str-method" />
   </div>
 </template>

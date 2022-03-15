@@ -52,68 +52,68 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="filereading" aft="etcfile" />
+    <Navigation bef="filereading" aft="etcfile" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>
-        파일 example.txt에는 'Hello'라는 내용이 있습니다. 만일 파일
-        example.txt에 ' World'라고 a모드를 사용하여 쓰면 코드 실행 후 파일의
-        내용은?
-      </h3>
+        <h3>
+          파일 example.txt에는 'Hello'라는 내용이 있습니다. 만일 파일
+          example.txt에 ' World'라고 a모드를 사용하여 쓰면 코드 실행 후 파일의
+          내용은?
+        </h3>
 
-      <div>
-        <input
-          id="question-2-answers-A"
-          type="radio"
-          name="question-2-answers"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) "HelloWorld" </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-A"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> "HelloWorld" </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-B"
-          type="radio"
-          name="question-2-answers"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) "Hello, World!" </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-B"
+            type="radio"
+            name="question-2-answers"
+            value="B"
+          />
+          <label for="question-2-answers-B"> "Hello, World!" </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-C"
-          type="radio"
-          name="question-2-answers"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) "World" </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-C"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"> "World" </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-D"
-          type="radio"
-          name="question-2-answers"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) " World" </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-D"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> " World" </label>
+        </div>
 
-      <QuadSpace />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

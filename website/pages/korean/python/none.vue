@@ -34,7 +34,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="password-safe" aft="function" />
+    <Navigation bef="password-safe" aft="function" />
   </div>
 </template>
 

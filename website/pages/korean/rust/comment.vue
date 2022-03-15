@@ -84,6 +84,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="printfmt" aft="variable" />
+    <Navigation bef="printfmt" aft="variable" />
   </div>
 </template>

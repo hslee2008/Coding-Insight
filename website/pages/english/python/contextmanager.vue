@@ -24,7 +24,6 @@
 
     <Header-en type="Python" num="53" title="Context Manager"></Header-en>
 
-
     <div>
       <div>
         <h2>Context Manager Example</h2>
@@ -87,6 +86,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="contact2" aft="datachange" />
+    <Navigation bef="contact2" aft="datachange" />
   </div>
 </template>

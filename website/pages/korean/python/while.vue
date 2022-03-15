@@ -41,7 +41,7 @@
 
               while 문에서는 무한 반복문을 조심해야 합니다. 무한 반복문이란 말
               그대로 무한으로 코드를 실행하는 것으로 소수로 코드를 잘못 작성해서
-              코드가 계속 실행될 수 있습니다.<QuadSpace />
+              코드가 계속 실행될 수 있습니다.<br /><br /><br />
 
               밑에 있는 CODE2 에시를 살펴보겠습니다.<br /><br />
 
@@ -109,7 +109,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="forfunction" aft="oneliner" />
+    <Navigation bef="forfunction" aft="oneliner" />
   </div>
 </template>
 

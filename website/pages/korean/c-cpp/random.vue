@@ -56,6 +56,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="arrow" aft="ctype" />
+    <Navigation bef="arrow" aft="ctype" />
   </div>
 </template>

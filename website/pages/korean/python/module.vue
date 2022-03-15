@@ -82,7 +82,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="etcfunction" aft="modulemaster" />
+    <Navigation bef="etcfunction" aft="modulemaster" />
   </div>
 </template>
 

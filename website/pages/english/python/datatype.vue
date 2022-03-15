@@ -20,7 +20,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
           max-width="300px"
@@ -29,7 +29,6 @@
     </div>
 
     <Header-en type="Python" num="6" title="Data Type"></Header-en>
-
 
     <div>
       <div style="margin: auto; padding-right: 5px">
@@ -85,153 +84,147 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="madlib" aft="comment" />
+    <Navigation bef="madlib" aft="comment" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기!</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What is data type?</h3>
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-A"
-          value="A"
-        />
-        <label for="question-1-answers-A"
-          >A) A place where you can store data
-        </label>
-      </div>
+        <h3>What is data type?</h3>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-A"
+          />
+          <label for="question-1-answers-A"
+            >A) A place where you can store data
+          </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-B"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) Types of data </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-B"
+            value="B"
+          />
+          <label for="question-1-answers-B"> Types of data </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-C"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) Various symbols </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-C"
+          />
+          <label for="question-1-answers-C"> Various symbols </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-D"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) Other </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-D"
+          />
+          <label for="question-1-answers-D"> Other </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What is the correct code to find data type?</h3>
+        <h3>What is the correct code to find data type?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-A"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) type() </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+          />
+          <label for="question-2-answers-A"> type() </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-B"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) typeof() </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-B"
+            value="B"
+          />
+          <label for="question-2-answers-B"> typeof() </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-C"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) type </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-C"
+          />
+          <label for="question-2-answers-C"> type </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-D"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) typeof </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-D"
+          />
+          <label for="question-2-answers-D"> typeof </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>How can we check whether the data's type match given data?</h3>
+        <h3>How can we check whether the data's type match given data?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-A"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) isinstance() </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-A"
+          />
+          <label for="question-3-answers-A"> isinstance() </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-B"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) instance() </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-B"
+            value="B"
+          />
+          <label for="question-3-answers-B"> instance() </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-C"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) is() </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-C"
+          />
+          <label for="question-3-answers-C"> is() </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-D"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) isdata() </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-D"
+          />
+          <label for="question-3-answers-D"> isdata() </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

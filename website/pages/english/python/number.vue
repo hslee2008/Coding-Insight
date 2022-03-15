@@ -20,7 +20,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://blog.shabda.co/wp-content/uploads/2015/10/numbers-truth-morality.png"
           max-width="300px"
@@ -29,7 +29,6 @@
     </div>
 
     <Header-en type="Python" num="14" title="Number"></Header-en>
-
 
     <div>
       <div>
@@ -135,109 +134,106 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="boolean" aft="operator" />
+    <Navigation bef="boolean" aft="operator" />
 
-    <div class="quiz">
-      <h2>Solve This Quiz!!</h2>
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>
-        What is printed when running the following code?: print(type('1'))
-      </h3>
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-A"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) &lt;class 'str'> </label>
-      </div>
+        <h3>
+          What is printed when running the following code?: print(type('1'))
+        </h3>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-A"
+          />
+          <label for="question-1-answers-A"> &lt;class 'str'> </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-B"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) &lt;class 'int'> </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-B"
+            value="B"
+          />
+          <label for="question-1-answers-B"> &lt;class 'int'> </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-C"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) None </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-C"
+          />
+          <label for="question-1-answers-C"> None </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-D"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) Error occurs. </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-D"
+          />
+          <label for="question-1-answers-D"> Error occurs. </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>How do we change '1'(str) to 1(int)?</h3>
+        <h3>How do we change '1'(str) to 1(int)?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-A"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) int("1") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+          />
+          <label for="question-2-answers-A"> int("1") </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-B"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) toInt("1") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-B"
+            value="B"
+          />
+          <label for="question-2-answers-B"> toInt("1") </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-C"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) toInteger("1") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-C"
+          />
+          <label for="question-2-answers-C"> toInteger("1") </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-D"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) integer("1") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-D"
+          />
+          <label for="question-2-answers-D"> integer("1") </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>Check Answer
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

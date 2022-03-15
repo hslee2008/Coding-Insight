@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="31" title="Special Variable"></Header-en>
 
-
     <div>
       <div>
         <h2>Global Variables</h2>
@@ -61,7 +60,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="functionhard" aft="type" />
+    <Navigation bef="functionhard" aft="type" />
   </div>
 </template>
 

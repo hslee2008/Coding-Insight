@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" title="List Method 2" num="20"></Header-en>
 
-
     <div>
       <div>
         <h2>Organizing and rearranging your list</h2>
@@ -84,54 +83,56 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="listmethod1" aft="dictionary" />
+    <Navigation bef="listmethod1" aft="dictionary" />
 
-    <div class="quiz">
-      <h2>Solve This Quiz!!</h2>
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What is equal to ["Hello", "World"].reverse()?</h3>
+        <h3>What is equal to ["Hello", "World"].reverse()?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          value="A"
-          id="question-2-answers-A"
-        />
-        <label for="question-2-answers-A">A) ["Hello", "World"] </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+          />
+          <label for="question-2-answers-A"> ["Hello", "World"] </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          value="B"
-          id="question-2-answers-B"
-        />
-        <label for="question-2-answers-B">B) ["World", "Hello"] </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            value="B"
+            id="question-2-answers-B"
+          />
+          <label for="question-2-answers-B"> ["World", "Hello"] </label>
+        </div>
 
-      <div>
-        <input type="radio" name="question-2-answers" value="C" />
-        <label for="question-2-answers-C">C) None </label>
-      </div>
+        <div>
+          <input type="radio" name="question-2-answers" />
+          <label for="question-2-answers-C"> None </label>
+        </div>
 
-      <div>
-        <input type="radio" name="question-2-answers" value="D" />
-        <label for="question-2-answers-D">D) "Hello, World!" </label>
-      </div>
+        <div>
+          <input type="radio" name="question-2-answers" />
+          <label for="question-2-answers-D"> "Hello, World!" </label>
+        </div>
 
-      <QuadSpace />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>Check Answer
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

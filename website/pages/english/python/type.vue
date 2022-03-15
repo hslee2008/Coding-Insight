@@ -84,7 +84,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="specialvariable" aft="lambda" />
+    <Navigation bef="specialvariable" aft="lambda" />
   </div>
 </template>
 

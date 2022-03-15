@@ -98,10 +98,6 @@ export default {
   // https://go.nuxtjs.dev/config-components
   components: true,
 
-  components: {
-    dirs: ['~/components/global/', '~/components/layout/'],
-  },
-
   // https://go.nuxtjs.dev/config-modules
   buildModules: ['@nuxtjs/vuetify'],
 

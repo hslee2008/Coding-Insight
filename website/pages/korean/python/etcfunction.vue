@@ -44,6 +44,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="oneliner" aft="module" />
+    <Navigation bef="oneliner" aft="module" />
   </div>
 </template>

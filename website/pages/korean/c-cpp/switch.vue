@@ -115,7 +115,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="hardif" aft="for" />
+    <Navigation bef="hardif" aft="for" />
   </div>
 </template>
 

@@ -66,7 +66,8 @@
       <h1>준비</h1>
       <p>
         1. <code class="inline-code">pip install pandas</code>와
-        <code class="inline-code">pip install -U scikit-learn</code> 터미널에서 실행하기<br />
+        <code class="inline-code">pip install -U scikit-learn</code> 터미널에서
+        실행하기<br />
         2. <NuxtLink download to="data/music.csv">music.csv</NuxtLink> 파일
         다운로드 받기 (꼭 파이썬 파일과 똑같은 폴더 안에 넣기)<br />
         3. 코드 짜기!
@@ -78,10 +79,13 @@
     <div>
       <h1>코드</h1>
       <p>
-        1. <code class="inline-code">import pandas as pd</code> (판다스 가지고 오기)<br />
+        1. <code class="inline-code">import pandas as pd</code> (판다스 가지고
+        오기)<br />
         2.
-        <code class="inline-code">from sklearn.tree import DecisionTreeClassifier</code> (sklearn
-        가지고 오기)<br />
+        <code class="inline-code"
+          >from sklearn.tree import DecisionTreeClassifier</code
+        >
+        (sklearn 가지고 오기)<br />
 
         <br />
         지금까지 파이썬에서 필요한 라이브러리를 가지고 왔습니다.<br />
@@ -89,11 +93,16 @@
         결과 예측을 얻기 위한 도구입니다.
         <br /><br />
 
-        3. <code class="inline-code">data_mus = pd.read_csv('music.csv')</code> (판다스로 뮤직
-        데이터 불러오기)<br />
-        4. <code class="inline-code">no_genre = data_mus.drop(columns=['genre'])</code> (genre
-        삭제)<br />
-        5. <code class="inline-code">genre = data_mus['genre']</code> (genre 저장)<br />
+        3.
+        <code class="inline-code">data_mus = pd.read_csv('music.csv')</code>
+        (판다스로 뮤직 데이터 불러오기)<br />
+        4.
+        <code class="inline-code"
+          >no_genre = data_mus.drop(columns=['genre'])</code
+        >
+        (genre 삭제)<br />
+        5. <code class="inline-code">genre = data_mus['genre']</code> (genre
+        저장)<br />
 
         <br />
         저흐는 총 2개의 데이터 변수 (no_genre, genre)를 사용해서 어떤 나이의
@@ -102,9 +111,16 @@
         분리해서 사용합니다.
         <br /><br />
 
-        6. <code class="inline-code">model = DecisionTreeClassifier()</code> (모델 생성)<br />
-        7. <code class="inline-code">model.fit(no_genre, genre)</code> (모델 학습)<br />
-        8. <code class="inline-code">pred = model.predict([[21, 1], [22, 0]])</code> (모델 )<br />
+        6.
+        <code class="inline-code">model = DecisionTreeClassifier()</code> (모델
+        생성)<br />
+        7. <code class="inline-code">model.fit(no_genre, genre)</code> (모델
+        학습)<br />
+        8.
+        <code class="inline-code"
+          >pred = model.predict([[21, 1], [22, 0]])</code
+        >
+        (모델 )<br />
 
         <br />
         참고로 predict() 메서드는 21세 남성, 22세 여성이 좋아하는 음악 genre를
@@ -127,9 +143,13 @@
       <h1>추가로 정확도 측정하기</h1>
       <p>
         1. sklearn을 가지고 온 후 또 다른 train_test_split 함수를 가지고 온다.
-        <code class="inline-code">from sklearn.model_selection import train_test_split</code><br />
+        <code class="inline-code"
+          >from sklearn.model_selection import train_test_split</code
+        ><br />
         2. 정확도 측정을 위해 다음 코드를 입력합니다.
-        <code class="inline-code">from sklearn.metrics import accuracy_score</code><br />
+        <code class="inline-code"
+          >from sklearn.metrics import accuracy_score</code
+        ><br />
         3. genre와, no_genre 선언 후 데이터 분리 합니다.
         <IC
           code="X_train, X_test, y_train, y_test = train_test_split(no_genre, genre, test_size=0.2)"
@@ -141,7 +161,9 @@
         <br /><br />
 
         4. 모델 학습 합니다. 참고로 genre, no_genre를 학습하지 않고 X_train과
-        Y_train을 사용합니다.<code class="inline-code">model.fit(X_train, y_train)</code><br />
+        Y_train을 사용합니다.<code class="inline-code"
+          >model.fit(X_train, y_train)</code
+        ><br />
         5. 모델 평가합니다. 참고로 X_test, y_test를 사용합니다.<IC
           code="pred = model.predict(X_test)"
         /><br />
@@ -170,6 +192,5 @@
         </v-alert>
       </p>
     </div>
-
   </div>
 </template>

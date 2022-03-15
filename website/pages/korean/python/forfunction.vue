@@ -62,6 +62,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="fortype" aft="while" />
+    <Navigation bef="fortype" aft="while" />
   </div>
 </template>

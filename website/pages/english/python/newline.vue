@@ -41,7 +41,7 @@
     />
     <QuadSpace />
 
-    <NaviBtn bef="pythondecorator" aft="asynchronous" />
+    <Navigation bef="pythondecorator" aft="asynchronous" />
   </div>
 </template>
 

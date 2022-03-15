@@ -40,6 +40,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="loop" aft="for" />
+    <Navigation bef="loop" aft="for" />
   </div>
 </template>

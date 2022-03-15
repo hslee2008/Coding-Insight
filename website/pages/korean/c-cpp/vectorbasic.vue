@@ -43,7 +43,7 @@
         </code>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vectorcode.png"
           max-width="300"
@@ -165,6 +165,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="string-cpp" aft="vectormethod" />
+    <Navigation bef="string-cpp" aft="vectormethod" />
   </div>
 </template>

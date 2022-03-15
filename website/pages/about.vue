@@ -3,7 +3,7 @@
     <br /><br />
 
     <v-row>
-      <CIImage src="favicon.ico" max-width="150" class="my-auto mx-auto" />
+      <GlobalImage src="favicon.ico" max-width="150" class="my-auto mx-auto" />
 
       <div class="my-auto mx-auto">
         <v-card-title>Meet the Coding-Insight Core Team</v-card-title>
@@ -58,7 +58,7 @@
         rounded
         class="mx-auto my-auto"
       >
-        <CIImage
+        <GlobalImage
           src="https://avatars.githubusercontent.com/u/78584173?s=96&v=4"
         />
       </v-list-item-avatar>
@@ -93,7 +93,7 @@
         rounded
         class="mx-auto my-auto"
       >
-        <CIImage src="https://avatars.githubusercontent.com/u/87412592?v=4" />
+        <GlobalImage src="https://avatars.githubusercontent.com/u/87412592?v=4" />
       </v-list-item-avatar>
     </v-list-item>
 
@@ -126,7 +126,7 @@
         rounded
         class="mx-auto my-auto"
       >
-        <CIImage src="https://avatars.githubusercontent.com/u/87595094?v=4" />
+        <GlobalImage src="https://avatars.githubusercontent.com/u/87595094?v=4" />
       </v-list-item-avatar>
     </v-list-item>
 

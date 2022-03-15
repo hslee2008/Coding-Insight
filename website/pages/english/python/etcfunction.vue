@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="39" title="다양한 함수"></Header-en>
 
-
     <div>
       <div>
         <h2>quit() and exit()</h2>
@@ -77,6 +76,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="oneliner" aft="module" />
+    <Navigation bef="oneliner" aft="module" />
   </div>
 </template>

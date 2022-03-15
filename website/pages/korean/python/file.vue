@@ -13,7 +13,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
           width="300px"
@@ -33,7 +33,7 @@
           전체 파일 주소가 복사됩니다.
         </p>
       </div>
-      <CIImage
+      <GlobalImage
         alt="python-factory-picture"
         class="img-fluid"
         src="https://image-loader-coding-insight.web.app/py-kr/img/filepath.jpg"
@@ -72,6 +72,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="math" aft="filereading" />
+    <Navigation bef="math" aft="filereading" />
   </div>
 </template>

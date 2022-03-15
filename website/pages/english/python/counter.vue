@@ -114,6 +114,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="multiprocessing" aft="request" />
+    <Navigation bef="multiprocessing" aft="request" />
   </div>
 </template>

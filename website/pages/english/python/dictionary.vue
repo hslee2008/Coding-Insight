@@ -23,7 +23,6 @@
 
     <Header-en type="Python" num="21" title="Dictionary"></Header-en>
 
-
     <div>
       <div>
         <h2>Get the keys</h2>
@@ -92,67 +91,67 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="contact" aft="dictionarymethod" />
+    <Navigation bef="contact" aft="dictionarymethod" />
 
-    <div class="quiz">
-      <h2>Solve This Quiz!!</h2>
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>
-        What is printed to the console when running: print({"1": "a", "2":
-        "b"}.keys())
-      </h3>
+        <h3>
+          What is printed to the console when running: print({"1": "a", "2":
+          "b"}.keys())
+        </h3>
 
-      <div>
-        <input
-          type="radio"
-          value="A"
-          id="question-2-answers-A"
-          name="question-2-answers"
-        />
-        <label for="question-2-answers-A">A) ["a", "b"] </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            id="question-2-answers-A"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> ["a", "b"] </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          value="B"
-          id="question-2-answers-B"
-          name="question-2-answers"
-        />
-        <label for="question-2-answers-B">B) dict_keys(["a", "b"]) </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            value="B"
+            id="question-2-answers-B"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-B"> dict_keys(["a", "b"]) </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          value="C"
-          id="question-2-answers-C"
-          name="question-2-answers"
-        />
-        <label for="question-2-answers-C">C) keys(["a", "b"]) </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            id="question-2-answers-C"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"> keys(["a", "b"]) </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          value="D"
-          id="question-2-answers-D"
-          name="question-2-answers"
-        />
-        <label for="question-2-answers-D">D) ["b", "a"] </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            id="question-2-answers-D"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> ["b", "a"] </label>
+        </div>
 
-      <QuadSpace />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>Check Answer
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

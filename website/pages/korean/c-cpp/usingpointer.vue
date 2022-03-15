@@ -209,6 +209,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="pointer" aft="union" />
+    <Navigation bef="pointer" aft="union" />
   </div>
 </template>

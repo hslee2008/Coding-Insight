@@ -21,6 +21,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="otherif" aft="arrow" />
+    <Navigation bef="otherif" aft="arrow" />
   </div>
 </template>

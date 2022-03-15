@@ -82,6 +82,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="ctype" aft="math" />
+    <Navigation bef="ctype" aft="math" />
   </div>
 </template>

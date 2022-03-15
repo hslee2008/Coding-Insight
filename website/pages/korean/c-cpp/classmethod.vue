@@ -90,6 +90,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="class" aft="constructor" />
+    <Navigation bef="class" aft="constructor" />
   </div>
 </template>

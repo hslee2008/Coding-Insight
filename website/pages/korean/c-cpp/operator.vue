@@ -116,6 +116,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="typecasting" aft="comment" />
+    <Navigation bef="typecasting" aft="comment" />
   </div>
 </template>

@@ -154,6 +154,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="io-cpp" aft="vectorbasic" />
+    <Navigation bef="io-cpp" aft="vectorbasic" />
   </div>
 </template>

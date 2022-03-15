@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="42" title="Python Module"></Header-en>
 
-
     <div>
       <div>
         <h2>TIME</h2>
@@ -63,7 +62,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="modulemaster" aft="hacking" />
+    <Navigation bef="modulemaster" aft="hacking" />
   </div>
 </template>
 

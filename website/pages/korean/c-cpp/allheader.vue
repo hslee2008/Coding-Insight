@@ -139,6 +139,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="stack" aft="errorhandling" />
+    <Navigation bef="stack" aft="errorhandling" />
   </div>
 </template>

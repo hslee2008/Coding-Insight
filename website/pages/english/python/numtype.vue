@@ -13,7 +13,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
           width="500px"
@@ -22,7 +22,6 @@
     </div>
 
     <Header-en type="Python" num="16" title="Numer Types"></Header-en>
-
 
     <div>
       <div>
@@ -87,7 +86,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="operator" aft="calc" />
+    <Navigation bef="operator" aft="calc" />
   </div>
 </template>
 <script>

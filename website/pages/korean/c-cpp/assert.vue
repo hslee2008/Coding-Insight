@@ -28,6 +28,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="include" aft="macro" />
+    <Navigation bef="include" aft="macro" />
   </div>
 </template>

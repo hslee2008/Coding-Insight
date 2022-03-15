@@ -142,6 +142,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="cpp" aft="string-cpp" />
+    <Navigation bef="cpp" aft="string-cpp" />
   </div>
 </template>

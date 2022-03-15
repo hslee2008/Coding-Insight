@@ -101,7 +101,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="contact2" aft="stringascode" />
+    <Navigation bef="contact2" aft="stringascode" />
   </div>
 </template>
 

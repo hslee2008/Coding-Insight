@@ -51,6 +51,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="union" aft="include" />
+    <Navigation bef="union" aft="include" />
   </div>
 </template>

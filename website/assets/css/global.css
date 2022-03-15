@@ -5,9 +5,7 @@ html {
 }
 
 code {
-  background: #455a64;
   border-left: 2px solid #087ea4;
-  color: black;
   font-family: Menlo, Monaco, Consolas, Courier New, monospace;
   font-size: 15px;
   line-height: 1.6;

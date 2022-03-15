@@ -5,7 +5,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "clean": "npx prettier --write ."
+    "clean": "npx prettier --write . && git add --all"
   },
   "dependencies": {
     "core-js": "^3.21.0",

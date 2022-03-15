@@ -88,6 +88,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="accessspecifier" aft="file-cpp" />
+    <Navigation bef="accessspecifier" aft="file-cpp" />
   </div>
 </template>

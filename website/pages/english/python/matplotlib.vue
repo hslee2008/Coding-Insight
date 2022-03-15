@@ -29,7 +29,6 @@
 
     <Header-en type="Python" title="Matplotlib" num="88"></Header-en>
 
-
     <div>
       <div>
         <h2>Drawing Graph</h2>
@@ -283,7 +282,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="keyboard" aft="mouse" />
+    <Navigation bef="keyboard" aft="mouse" />
   </div>
 </template>
 

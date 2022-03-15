@@ -116,68 +116,69 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="function" aft="specialvariable" />
+    <Navigation bef="function" aft="specialvariable" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기!</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>
-        doThis() 함수 안에 pass라는 코드가 있다고 가정을 해보겠습니다.
-        doThis()를 100번 실행하면 출력되는 값은?
-      </h3>
+        <h3>
+          doThis() 함수 안에 pass라는 코드가 있다고 가정을 해보겠습니다.
+          doThis()를 100번 실행하면 출력되는 값은?
+        </h3>
 
-      <div>
-        <input
-          id="question-2-answers-A"
-          type="radio"
-          name="question-2-answers"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) pass가 100번 출력된다 </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-A"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> pass가 100번 출력된다 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-B"
-          type="radio"
-          name="question-2-answers"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) pass가 50번 출력된다 </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-B"
+            type="radio"
+            name="question-2-answers"
+            value="B"
+          />
+          <label for="question-2-answers-B"> pass가 50번 출력된다 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-C"
-          type="radio"
-          name="question-2-answers"
-          value="C"
-        />
-        <label for="question-2-answers-C"
-          >C) 아무것도 출력이 되지 않는다
-        </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-C"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"
+            >C) 아무것도 출력이 되지 않는다
+          </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-D"
-          type="radio"
-          name="question-2-answers"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) 에러가 발생한다 </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-D"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> 에러가 발생한다 </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

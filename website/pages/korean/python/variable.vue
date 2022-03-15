@@ -15,7 +15,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://mblogthumb-phinf.pstatic.net/20140319_89/leedahee111_1395209827273qETWy_JPEG/lights-cubes-3D--1573013-1920x1080.jpg?type=w2"
           max-width="300px"
@@ -112,7 +112,7 @@
 
     <QuadSpace />
 
-    <CIImage
+    <GlobalImage
       alt="python-factory-picture"
       src="https://wallpaperaccess.com/full/3279871.jpg"
       max-width="300px"
@@ -122,7 +122,7 @@
       변수가 더 이상 필요 없고 이 코드가 실행되고 있는 기기에 저장 공간이 많이
       없다면 삭제해도 됩니다.<br /><br />
       삭제는 del 키워드를 사용하고 뒤에 변수 이름을 넣으면 이제 변수를 다시
-      사용할 수 없게 됩니다.<QuadSpace />
+      사용할 수 없게 됩니다.<br /><br /><br />
       <code>
         name = "Coding-Insight"<br /><br />
         del name<br /><br />
@@ -167,212 +167,196 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="io" aft="madlib" />
+    <Navigation bef="io" aft="madlib" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기!</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>변수란?</h3>
-      <div>
-        <input
-          id="question-1-answers-A"
-          type="radio"
-          name="question-1-answers"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) 데이터를 저장할 수 있는 곳 </label>
-      </div>
-      <div>
-        <input
-          id="question-1-answers-B"
-          type="radio"
-          name="question-1-answers"
-          value="B"
-        />
-        <label for="question-1-answers-B"
-          >B) 출력과 입력을 통틀어서 변수라고 합니다
-        </label>
-      </div>
-      <div>
-        <input
-          id="question-1-answers-C"
-          type="radio"
-          name="question-1-answers"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) 변하는 수 </label>
-      </div>
-      <div>
-        <input
-          id="question-1-answers-D"
-          type="radio"
-          name="question-1-answers"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) 다른 정답 </label>
-      </div>
-      <br /><br />
-      <h3>파이썬에서 변수 선언 방법은?</h3>
-      <div>
-        <input
-          id="question-2-answers-A"
-          type="radio"
-          name="question-2-answers"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) 값 = 이름 </label>
-      </div>
-      <div>
-        <input
-          id="question-2-answers-B"
-          type="radio"
-          name="question-2-answers"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) 값 == 이름 </label>
-      </div>
-      <div>
-        <input
-          id="question-2-answers-C"
-          type="radio"
-          name="question-2-answers"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) 이름 == 값 </label>
-      </div>
-      <div>
-        <input
-          id="question-2-answers-D"
-          type="radio"
-          name="question-2-answers"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) 이름 = 값 </label>
-      </div>
-      <br /><br />
-      <h3>다음 중 변수의 이름이 될 수 없는 것은?</h3>
-      <div>
-        <input
-          id="question-3-answers-A"
-          type="radio"
-          name="question-3-answers"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) hello </label>
-      </div>
-      <div>
-        <input
-          id="question-3-answers-B"
-          type="radio"
-          name="question-3-answers"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) hello! </label>
-      </div>
-      <div>
-        <input
-          id="question-3-answers-C"
-          type="radio"
-          name="question-3-answers"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) hello_world </label>
-      </div>
-      <div>
-        <input
-          id="question-3-answers-D"
-          type="radio"
-          name="question-3-answers"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) hello123 </label>
-      </div>
-      <br /><br />
-      <h3>변수의 값을 바꾸는 방법은?</h3>
-      <div>
-        <input
-          id="question-4-answers-A"
-          type="radio"
-          name="question-4-answers"
-          value="A"
-        />
-        <label for="question-4-answers-A">A) 이름 = 값 </label>
-      </div>
-      <div>
-        <input
-          id="question-4-answers-B"
-          type="radio"
-          name="question-4-answers"
-          value="B"
-        />
-        <label for="question-4-answers-B">B) 이름 == 값 </label>
-      </div>
-      <div>
-        <input
-          id="question-4-answers-C"
-          type="radio"
-          name="question-4-answers"
-          value="C"
-        />
-        <label for="question-4-answers-C">C) 값 = 이름 </label>
-      </div>
-      <div>
-        <input
-          id="question-4-answers-D"
-          type="radio"
-          name="question-4-answers"
-          value="D"
-        />
-        <label for="question-4-answers-D">D) 값 == 이름 </label>
-      </div>
-      <br /><br />
-      <h3>변수를 삭제하는 방법은?</h3>
-      <div>
-        <input
-          id="question-5-answers-A"
-          type="radio"
-          name="question-5-answers"
-          value="A"
-        />
-        <label for="question-5-answers-A">A) del </label>
-      </div>
-      <div>
-        <input
-          id="question-5-answers-B"
-          type="radio"
-          name="question-5-answers"
-          value="B"
-        />
-        <label for="question-5-answers-B">B) del() </label>
-      </div>
-      <div>
-        <input
-          id="question-5-answers-C"
-          type="radio"
-          name="question-5-answers"
-          value="C"
-        />
-        <label for="question-5-answers-C">C) delete </label>
-      </div>
-      <div>
-        <input
-          id="question-5-answers-D"
-          type="radio"
-          name="question-5-answers"
-          value="D"
-        />
-        <label for="question-5-answers-D">D) delete() </label>
-      </div>
-      <br /><br />
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
+        <h3>변수란?</h3>
+        <div>
+          <input
+            id="question-1-answers-A"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-A"> 데이터를 저장할 수 있는 곳 </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-B"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-B">
+            출력과 입력을 통틀어서 변수라고 합니다
+          </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-C"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-C"> 변하는 수 </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-D"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-D"> 다른 정답 </label>
+        </div>
+        <br /><br />
+        <h3>파이썬에서 변수 선언 방법은?</h3>
+        <div>
+          <input
+            id="question-2-answers-A"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> 값 = 이름 </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-B"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-B"> 값 == 이름 </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-C"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"> 이름 == 값 </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-D"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> 이름 = 값 </label>
+        </div>
+        <br /><br />
+        <h3>다음 중 변수의 이름이 될 수 없는 것은?</h3>
+        <div>
+          <input
+            id="question-3-answers-A"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-A"> hello </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-B"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-B"> hello! </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-C"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-C"> hello_world </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-D"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-D"> hello123 </label>
+        </div>
+        <br /><br />
+        <h3>변수의 값을 바꾸는 방법은?</h3>
+        <div>
+          <input
+            id="question-4-answers-A"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-A"> 이름 = 값 </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-B"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-B"> 이름 == 값 </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-C"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-C"> 값 = 이름 </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-D"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-D"> 값 == 이름 </label>
+        </div>
+        <br /><br />
+        <h3>변수를 삭제하는 방법은?</h3>
+        <div>
+          <input
+            id="question-5-answers-A"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-A"> del </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-B"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-B"> del() </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-C"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-C"> delete </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-D"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-D"> delete() </label>
+        </div>
+        <QuadSpace
+      /></v-card-text>
 
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

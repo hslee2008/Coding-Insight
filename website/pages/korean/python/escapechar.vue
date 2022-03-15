@@ -157,63 +157,63 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="password" aft="ascii" />
+    <Navigation bef="password" aft="ascii" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기!</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>새로운 줄을 ""와 ''에 넣을 수 있는 방법은?</h3>
-      <div>
-        <input
-          id="question-1-answers-A"
-          type="radio"
-          name="question-1-answers"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) \n </label>
-      </div>
+        <h3>새로운 줄을 ""와 ''에 넣을 수 있는 방법은?</h3>
+        <div>
+          <input
+            id="question-1-answers-A"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-A"> \n </label>
+        </div>
 
-      <div>
-        <input
-          id="question-1-answers-B"
-          type="radio"
-          name="question-1-answers"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) \a </label>
-      </div>
+        <div>
+          <input
+            id="question-1-answers-B"
+            type="radio"
+            name="question-1-answers"
+            value="B"
+          />
+          <label for="question-1-answers-B"> \a </label>
+        </div>
 
-      <div>
-        <input
-          id="question-1-answers-C"
-          type="radio"
-          name="question-1-answers"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) \r </label>
-      </div>
+        <div>
+          <input
+            id="question-1-answers-C"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-C"> \r </label>
+        </div>
 
-      <div>
-        <input
-          id="question-1-answers-D"
-          type="radio"
-          name="question-1-answers"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) \t </label>
-      </div>
+        <div>
+          <input
+            id="question-1-answers-D"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-D"> \t </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

@@ -90,6 +90,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="inheritance" aft="finished" />
+    <Navigation bef="inheritance" aft="finished" />
   </div>
 </template>

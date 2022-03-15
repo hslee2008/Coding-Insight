@@ -141,111 +141,108 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="vscode" aft="variable" />
+    <Navigation bef="vscode" aft="variable" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기!</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>출력이란?</h3>
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-A"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) 종이에 프린트하기 </label>
-      </div>
+        <h3>출력이란?</h3>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-A"
+          />
+          <label for="question-1-answers-A"> 종이에 프린트하기 </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-B"
-          value="B"
-        />
-        <label for="question-1-answers-B"
-          >B) 정보를 콘솔에 나타나게 만들기
-        </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-B"
+            value="B"
+          />
+          <label for="question-1-answers-B"
+            >정보를 콘솔에 나타나게 만들기
+          </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-C"
-          value="C"
-        />
-        <label for="question-1-answers-C"
-          >C) 사용자가 정보를 입력하면 변수에 저장하기
-        </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-C"
+          />
+          <label for="question-1-answers-C"
+            >C) 사용자가 정보를 입력하면 변수에 저장하기
+          </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-D"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) 다른 정답 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-D"
+          />
+          <label for="question-1-answers-D"> 다른 정답 </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>C 언어에서 프린트를 어떻게 할까요?</h3>
+        <h3>C 언어에서 프린트를 어떻게 할까요?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-A"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) print "정보" </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+          />
+          <label for="question-2-answers-A"> print "정보" </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-B"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) puts("정보") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-B"
+            value="B"
+          />
+          <label for="question-2-answers-B"> puts("정보") </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-C"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) print("정보") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-C"
+          />
+          <label for="question-2-answers-C"> print("정보") </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-D"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) printf("정보") </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-D"
+          />
+          <label for="question-2-answers-D"> printf("정보") </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

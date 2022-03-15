@@ -27,7 +27,6 @@
 
     <Header-en type="Python" num="25" title="Set Method"></Header-en>
 
-
     <div>
       <div>
         <h2>Union</h2>
@@ -159,7 +158,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="set" aft="if" />
+    <Navigation bef="set" aft="if" />
   </div>
 </template>
 

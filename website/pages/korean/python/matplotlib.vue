@@ -244,7 +244,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="keyboard" aft="mouse" />
+    <Navigation bef="keyboard" aft="mouse" />
   </div>
 </template>
 

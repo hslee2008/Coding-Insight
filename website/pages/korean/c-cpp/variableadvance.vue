@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUanGdzUImXThB9bVOyNzTTtTKrN_6zaP1Rw&usqp=CAU"
         />
@@ -93,6 +93,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="variable" aft="input" />
+    <Navigation bef="variable" aft="input" />
   </div>
 </template>

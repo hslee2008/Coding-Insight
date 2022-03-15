@@ -68,6 +68,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="inffor" aft="array" />
+    <Navigation bef="inffor" aft="array" />
   </div>
 </template>

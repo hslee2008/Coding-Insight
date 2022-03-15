@@ -59,7 +59,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="numeric-int" aft="math" />
+    <Navigation bef="numeric-int" aft="math" />
   </div>
 </template>
 

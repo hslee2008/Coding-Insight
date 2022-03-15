@@ -21,7 +21,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbvHLIkf7p2IzoQ91r5W7ki5KJoiD4t0oIQQ&usqp=CAU"
         />
@@ -29,7 +29,6 @@
     </div>
 
     <Header-en type="Python" num="89" title="Mouse"></Header-en>
-
 
     <div>
       <div>
@@ -108,7 +107,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="matplotlib" aft="turtle" />
+    <Navigation bef="matplotlib" aft="turtle" />
   </div>
 </template>
 

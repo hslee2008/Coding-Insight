@@ -123,6 +123,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="if" aft="switch" />
+    <Navigation bef="if" aft="switch" />
   </div>
 </template>

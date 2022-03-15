@@ -45,7 +45,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="complexthread" aft="multiprocessing" />
+    <Navigation bef="complexthread" aft="multiprocessing" />
   </div>
 </template>
 

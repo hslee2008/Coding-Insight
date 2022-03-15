@@ -94,7 +94,7 @@
 
     <br /><br /><br />
 
-    <NaviBtn bef="if" aft="password-safe" />
+    <Navigation bef="if" aft="password-safe" />
   </div>
 </template>
 

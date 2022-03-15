@@ -58,6 +58,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="spam" aft="keyboard" />
+    <Navigation bef="spam" aft="keyboard" />
   </div>
 </template>

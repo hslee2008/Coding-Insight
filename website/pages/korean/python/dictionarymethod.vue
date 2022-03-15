@@ -103,6 +103,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="dictionary" aft="zipping" />
+    <Navigation bef="dictionary" aft="zipping" />
   </div>
 </template>

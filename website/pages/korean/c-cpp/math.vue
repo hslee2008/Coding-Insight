@@ -165,6 +165,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="stopprogram" aft="file" />
+    <Navigation bef="stopprogram" aft="file" />
   </div>
 </template>

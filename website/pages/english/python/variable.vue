@@ -16,7 +16,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://mblogthumb-phinf.pstatic.net/20140319_89/leedahee111_1395209827273qETWy_JPEG/lights-cubes-3D--1573013-1920x1080.jpg?type=w2"
           max-width="300px"
@@ -25,7 +25,6 @@
     </div>
 
     <Header-en type="Python" num="5" title="Variable"></Header-en>
-
 
     <div>
       <div>
@@ -104,7 +103,7 @@
 
     <div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://wallpaperaccess.com/full/3279871.jpg"
           max-width="300px"
@@ -160,214 +159,203 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="io" aft="madlib" />
+    <Navigation bef="io" aft="madlib" />
 
-    <div class="quiz">
-      <h2>Solve This Quiz!!</h2>
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What is variable?</h3>
-      <div>
-        <input
-          id="question-1-answers-A"
-          type="radio"
-          name="question-1-answers"
-          value="A"
-        />
-        <label for="question-1-answers-A"
-          >A) A) A place where you can store data
-        </label>
-      </div>
-      <div>
-        <input
-          id="question-1-answers-B"
-          type="radio"
-          name="question-1-answers"
-          value="B"
-        />
-        <label for="question-1-answers-B"
-          >B) Input and Output combined is called a variable
-        </label>
-      </div>
-      <div>
-        <input
-          id="question-1-answers-C"
-          type="radio"
-          name="question-1-answers"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) Changing number </label>
-      </div>
-      <div>
-        <input
-          id="question-1-answers-D"
-          type="radio"
-          name="question-1-answers"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) Other </label>
-      </div>
-      <br /><br />
-      <h3>How do we declare variable in Python?</h3>
-      <div>
-        <input
-          id="question-2-answers-A"
-          type="radio"
-          name="question-2-answers"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) value = variable name </label>
-      </div>
-      <div>
-        <input
-          id="question-2-answers-B"
-          type="radio"
-          name="question-2-answers"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) value == variable name </label>
-      </div>
-      <div>
-        <input
-          id="question-2-answers-C"
-          type="radio"
-          name="question-2-answers"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) variable name == value </label>
-      </div>
-      <div>
-        <input
-          id="question-2-answers-D"
-          type="radio"
-          name="question-2-answers"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) variable name = value </label>
-      </div>
-      <br /><br />
-      <h3>Which one goes against the rule of variable names in Python?</h3>
-      <div>
-        <input
-          id="question-3-answers-A"
-          type="radio"
-          name="question-3-answers"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) hello </label>
-      </div>
-      <div>
-        <input
-          id="question-3-answers-B"
-          type="radio"
-          name="question-3-answers"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) hello! </label>
-      </div>
-      <div>
-        <input
-          id="question-3-answers-C"
-          type="radio"
-          name="question-3-answers"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) hello_world </label>
-      </div>
-      <div>
-        <input
-          id="question-3-answers-D"
-          type="radio"
-          name="question-3-answers"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) hello123 </label>
-      </div>
-      <br /><br />
-      <h3>How do we change variable's value in Python?</h3>
-      <div>
-        <input
-          id="question-4-answers-A"
-          type="radio"
-          name="question-4-answers"
-          value="A"
-        />
-        <label for="question-4-answers-A">A) variable name = value </label>
-      </div>
-      <div>
-        <input
-          id="question-4-answers-B"
-          type="radio"
-          name="question-4-answers"
-          value="B"
-        />
-        <label for="question-4-answers-B">B) variable name == value </label>
-      </div>
-      <div>
-        <input
-          id="question-4-answers-C"
-          type="radio"
-          name="question-4-answers"
-          value="C"
-        />
-        <label for="question-4-answers-C">C) value = variable name </label>
-      </div>
-      <div>
-        <input
-          id="question-4-answers-D"
-          type="radio"
-          name="question-4-answers"
-          value="D"
-        />
-        <label for="question-4-answers-D">D) value == variable name </label>
-      </div>
-      <br /><br />
-      <h3>How do we delete variables?</h3>
-      <div>
-        <input
-          id="question-5-answers-A"
-          type="radio"
-          name="question-5-answers"
-          value="A"
-        />
-        <label for="question-5-answers-A">A) del </label>
-      </div>
-      <div>
-        <input
-          id="question-5-answers-B"
-          type="radio"
-          name="question-5-answers"
-          value="B"
-        />
-        <label for="question-5-answers-B">B) del() </label>
-      </div>
-      <div>
-        <input
-          id="question-5-answers-C"
-          type="radio"
-          name="question-5-answers"
-          value="C"
-        />
-        <label for="question-5-answers-C">C) delete </label>
-      </div>
-      <div>
-        <input
-          id="question-5-answers-D"
-          type="radio"
-          name="question-5-answers"
-          value="D"
-        />
-        <label for="question-5-answers-D">D) delete() </label>
-      </div>
-      <br /><br />
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>Check Answer
-      </v-btn>
-    </div>
+        <h3>What is variable?</h3>
+        <div>
+          <input
+            id="question-1-answers-A"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-A"
+            >A) A) A place where you can store data
+          </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-B"
+            type="radio"
+            name="question-1-answers"
+            value="B"
+          />
+          <label for="question-1-answers-B"
+            >Input and Output combined is called a variable
+          </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-C"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-C"> Changing number </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-D"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-D"> Other </label>
+        </div>
+        <br /><br />
+        <h3>How do we declare variable in Python?</h3>
+        <div>
+          <input
+            id="question-2-answers-A"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> value = variable name </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-B"
+            type="radio"
+            name="question-2-answers"
+            value="B"
+          />
+          <label for="question-2-answers-B"> value == variable name </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-C"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"> variable name == value </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-D"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> variable name = value </label>
+        </div>
+        <br /><br />
+        <h3>Which one goes against the rule of variable names in Python?</h3>
+        <div>
+          <input
+            id="question-3-answers-A"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-A"> hello </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-B"
+            type="radio"
+            name="question-3-answers"
+            value="B"
+          />
+          <label for="question-3-answers-B"> hello! </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-C"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-C"> hello_world </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-D"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-D"> hello123 </label>
+        </div>
+        <br /><br />
+        <h3>How do we change variable's value in Python?</h3>
+        <div>
+          <input
+            id="question-4-answers-A"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-A"> variable name = value </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-B"
+            type="radio"
+            name="question-4-answers"
+            value="B"
+          />
+          <label for="question-4-answers-B"> variable name == value </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-C"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-C"> value = variable name </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-D"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-D"> value == variable name </label>
+        </div>
+        <br /><br />
+        <h3>How do we delete variables?</h3>
+        <div>
+          <input
+            id="question-5-answers-A"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-A"> del </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-B"
+            type="radio"
+            name="question-5-answers"
+            value="B"
+          />
+          <label for="question-5-answers-B"> del() </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-C"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-C"> delete </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-D"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-D"> delete() </label>
+        </div>
+        <QuadSpace
+      /></v-card-text>
 
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

@@ -18,7 +18,7 @@
         </p>
       </div>
       <div style="display: flex; justify-content: center">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxLF2l2sITXnde-o9OyhTjoPeWHCWLrC2Ry2-FlQVH-aDSQPE1kh02OMA1yT_Yeui3LM&usqp=CAU"
         />
@@ -116,7 +116,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="counter" aft="requestmethod" />
+    <Navigation bef="counter" aft="requestmethod" />
   </div>
 </template>
 

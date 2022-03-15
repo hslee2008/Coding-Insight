@@ -14,7 +14,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXZGVvGnbtF2jLOKPqulX9hEzoHF7BAq69A&usqp=CAU"
           max-width="400px"
@@ -23,7 +23,6 @@
     </div>
 
     <Header-en type="Python" num="44" title="Random"></Header-en>
-
 
     <div>
       <div>
@@ -122,7 +121,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="date" aft="dice" />
+    <Navigation bef="date" aft="dice" />
   </div>
 </template>
 

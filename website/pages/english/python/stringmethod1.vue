@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="9" title="String Method 1"></Header-en>
 
-
     <div>
       <div>
         <h2>Get length of string</h2>
@@ -108,7 +107,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://cdn.shopify.com/s/files/1/0952/3604/products/indexbk2_9f2cbceb-31fb-4c4f-968b-2b9b7679152a.jpg?v=1593185298"
           max-width="300px"
@@ -142,211 +141,201 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="string" aft="stringmethod2" />
+    <Navigation bef="string" aft="stringmethod2" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기!</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>파이썬에서 문자의 길이를 찾는 방법은?</h3>
-      <div>
-        <input
-          id="question-1-answers-A"
-          type="radio"
-          name="question-1-answers"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) len </label>
-      </div>
-      <div>
-        <input
-          id="question-1-answers-B"
-          type="radio"
-          name="question-1-answers"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) len() </label>
-      </div>
-      <div>
-        <input
-          id="question-1-answers-C"
-          type="radio"
-          name="question-1-answers"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) length </label>
-      </div>
-      <div>
-        <input
-          id="question-1-answers-D"
-          type="radio"
-          name="question-1-answers"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) length() </label>
-      </div>
-      <br /><br />
-      <h3>문자 안에 부분문자열이 존재하는지 확인하는 방법은?</h3>
-      <div>
-        <input
-          id="question-2-answers-A"
-          type="radio"
-          name="question-2-answers"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) == </label>
-      </div>
-      <div>
-        <input
-          id="question-2-answers-B"
-          type="radio"
-          name="question-2-answers"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) += </label>
-      </div>
-      <div>
-        <input
-          id="question-2-answers-C"
-          type="radio"
-          name="question-2-answers"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) in </label>
-      </div>
-      <div>
-        <input
-          id="question-2-answers-D"
-          type="radio"
-          name="question-2-answers"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) &lt; </label>
-      </div>
-      <br /><br />
-      <h3>어떤 값의 인덱스를 찾는 방법은?</h3>
-      <div>
-        <input
-          id="question-3-answers-A"
-          type="radio"
-          name="question-3-answers"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) in </label>
-      </div>
-      <div>
-        <input
-          id="question-3-answers-B"
-          type="radio"
-          name="question-3-answers"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) in() </label>
-      </div>
-      <div>
-        <input
-          id="question-3-answers-C"
-          type="radio"
-          name="question-3-answers"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) index() </label>
-      </div>
-      <div>
-        <input
-          id="question-3-answers-D"
-          type="radio"
-          name="question-3-answers"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) index </label>
-      </div>
-      <br /><br />
-      <h3>문자를 대문자로 전환하는 방법과 소문자로 전환하는 방법은?</h3>
-      <div>
-        <input
-          id="question-4-answers-A"
-          type="radio"
-          name="question-4-answers"
-          value="A"
-        />
-        <label for="question-4-answers-A">A) upper(), lower() </label>
-      </div>
-      <div>
-        <input
-          id="question-4-answers-B"
-          type="radio"
-          name="question-4-answers"
-          value="B"
-        />
-        <label for="question-4-answers-B"
-          >B) toUpperCase(), toLowerCase()
-        </label>
-      </div>
-      <div>
-        <input
-          id="question-4-answers-C"
-          type="radio"
-          name="question-4-answers"
-          value="C"
-        />
-        <label for="question-4-answers-C">C) toU(), toL() </label>
-      </div>
-      <div>
-        <input
-          id="question-4-answers-D"
-          type="radio"
-          name="question-4-answers"
-          value="D"
-        />
-        <label for="question-4-answers-D">D) u(), l() </label>
-      </div>
-      <br /><br />
-      <h3>파이썬 문자 센터링하는 방법은?</h3>
-      <div>
-        <input
-          id="question-5-answers-A"
-          type="radio"
-          name="question-5-answers"
-          value="A"
-        />
-        <label for="question-5-answers-A">A) center() </label>
-      </div>
-      <div>
-        <input
-          id="question-5-answers-B"
-          type="radio"
-          name="question-5-answers"
-          value="B"
-        />
-        <label for="question-5-answers-B">B) middle() </label>
-      </div>
-      <div>
-        <input
-          id="question-5-answers-C"
-          type="radio"
-          name="question-5-answers"
-          value="C"
-        />
-        <label for="question-5-answers-C">C) toCenter() </label>
-      </div>
-      <div>
-        <input
-          id="question-5-answers-D"
-          type="radio"
-          name="question-5-answers"
-          value="D"
-        />
-        <label for="question-5-answers-D">D) toMiddle() </label>
-      </div>
-      <br /><br />
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
+        <h3>파이썬에서 문자의 길이를 찾는 방법은?</h3>
+        <div>
+          <input
+            id="question-1-answers-A"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-A"> len </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-B"
+            type="radio"
+            name="question-1-answers"
+            value="B"
+          />
+          <label for="question-1-answers-B"> len() </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-C"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-C"> length </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-D"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-D"> length() </label>
+        </div>
+        <br /><br />
+        <h3>문자 안에 부분문자열이 존재하는지 확인하는 방법은?</h3>
+        <div>
+          <input
+            id="question-2-answers-A"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> == </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-B"
+            type="radio"
+            name="question-2-answers"
+            value="B"
+          />
+          <label for="question-2-answers-B"> += </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-C"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"> in </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-D"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> &lt; </label>
+        </div>
+        <br /><br />
+        <h3>어떤 값의 인덱스를 찾는 방법은?</h3>
+        <div>
+          <input
+            id="question-3-answers-A"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-A"> in </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-B"
+            type="radio"
+            name="question-3-answers"
+            value="B"
+          />
+          <label for="question-3-answers-B"> in() </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-C"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-C"> index() </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-D"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-D"> index </label>
+        </div>
+        <br /><br />
+        <h3>문자를 대문자로 전환하는 방법과 소문자로 전환하는 방법은?</h3>
+        <div>
+          <input
+            id="question-4-answers-A"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-A"> upper(), lower() </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-B"
+            type="radio"
+            name="question-4-answers"
+            value="B"
+          />
+          <label for="question-4-answers-B"
+            >toUpperCase(), toLowerCase()
+          </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-C"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-C"> toU(), toL() </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-D"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-D"> u(), l() </label>
+        </div>
+        <br /><br />
+        <h3>파이썬 문자 센터링하는 방법은?</h3>
+        <div>
+          <input
+            id="question-5-answers-A"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-A"> center() </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-B"
+            type="radio"
+            name="question-5-answers"
+            value="B"
+          />
+          <label for="question-5-answers-B"> middle() </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-C"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-C"> toCenter() </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-D"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-D"> toMiddle() </label>
+        </div>
+        <QuadSpace
+      /></v-card-text>
+
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

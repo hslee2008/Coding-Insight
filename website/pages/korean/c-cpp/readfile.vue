@@ -55,6 +55,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="file" aft="writefile" />
+    <Navigation bef="file" aft="writefile" />
   </div>
 </template>

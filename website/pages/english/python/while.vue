@@ -109,7 +109,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="forfunction" aft="oneliner" />
+    <Navigation bef="forfunction" aft="oneliner" />
   </div>
 </template>
 

@@ -79,7 +79,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="string" aft="str-method-specific" />
-
+    <Navigation bef="string" aft="str-method-specific" />
   </div>
 </template>

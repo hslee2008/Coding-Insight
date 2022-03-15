@@ -15,7 +15,7 @@
         </p>
       </div>
       <div style="display: flex; justify-content: center">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
           max-width="300px"
@@ -186,238 +186,227 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="comment" aft="stringmethod1" />
+    <Navigation bef="comment" aft="stringmethod1" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기!</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <hr />
+      <v-card-text>
+        <hr />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>문자를 만들 수 있는데 사용하는 것은?</h3>
-      <div>
-        <input
-          id="question-1-answers-A"
-          type="radio"
-          name="question-1-answers"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) !문자! </label>
-      </div>
+        <h3>문자를 만들 수 있는데 사용하는 것은?</h3>
+        <div>
+          <input
+            id="question-1-answers-A"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-A"> !문자! </label>
+        </div>
 
-      <div>
-        <input
-          id="question-1-answers-B"
-          type="radio"
-          name="question-1-answers"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) "문자" </label>
-      </div>
+        <div>
+          <input
+            id="question-1-answers-B"
+            type="radio"
+            name="question-1-answers"
+            value="B"
+          />
+          <label for="question-1-answers-B"> "문자" </label>
+        </div>
 
-      <div>
-        <input
-          id="question-1-answers-C"
-          type="radio"
-          name="question-1-answers"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) [문자] </label>
-      </div>
+        <div>
+          <input
+            id="question-1-answers-C"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-C"> [문자] </label>
+        </div>
 
-      <div>
-        <input
-          id="question-1-answers-D"
-          type="radio"
-          name="question-1-answers"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) 다른 정답 </label>
-      </div>
+        <div>
+          <input
+            id="question-1-answers-D"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-D"> 다른 정답 </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>한 개 이상 줄을 문자 안에 넣을 수 있는 방법은?</h3>
+        <h3>한 개 이상 줄을 문자 안에 넣을 수 있는 방법은?</h3>
 
-      <div>
-        <input
-          id="question-2-answers-A"
-          type="radio"
-          name="question-2-answers"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) ?문자? 사용 </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-A"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> ?문자? 사용 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-B"
-          type="radio"
-          name="question-2-answers"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) #문자 사용 </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-B"
+            type="radio"
+            name="question-2-answers"
+            value="B"
+          />
+          <label for="question-2-answers-B"> #문자 사용 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-C"
-          type="radio"
-          name="question-2-answers"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) """ 문자 """ 사용 </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-C"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"> """ 문자 """ 사용 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-2-answers-D"
-          type="radio"
-          name="question-2-answers"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) (문자) 사용 </label>
-      </div>
+        <div>
+          <input
+            id="question-2-answers-D"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> (문자) 사용 </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>문자에서 3 번째 인덱스를 찾아내는데 사용할 숫자로 알맞은 것은?</h3>
+        <h3>문자에서 3 번째 인덱스를 찾아내는데 사용할 숫자로 알맞은 것은?</h3>
 
-      <div>
-        <input
-          id="question-3-answers-A"
-          type="radio"
-          name="question-3-answers"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) 0 </label>
-      </div>
+        <div>
+          <input
+            id="question-3-answers-A"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-A"> 0 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-3-answers-B"
-          type="radio"
-          name="question-3-answers"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) 1 </label>
-      </div>
+        <div>
+          <input
+            id="question-3-answers-B"
+            type="radio"
+            name="question-3-answers"
+            value="B"
+          />
+          <label for="question-3-answers-B"> 1 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-3-answers-C"
-          type="radio"
-          name="question-3-answers"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) 2 </label>
-      </div>
+        <div>
+          <input
+            id="question-3-answers-C"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-C"> 2 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-3-answers-D"
-          type="radio"
-          name="question-3-answers"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) 3 </label>
-      </div>
+        <div>
+          <input
+            id="question-3-answers-D"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-D"> 3 </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>다음 중 형태가 틀린 것은?</h3>
+        <h3>다음 중 형태가 틀린 것은?</h3>
 
-      <div>
-        <input
-          id="question-4-answers-A"
-          type="radio"
-          name="question-4-answers"
-          value="A"
-        />
-        <label for="question-4-answers-A">A) a[1:3] </label>
-      </div>
+        <div>
+          <input
+            id="question-4-answers-A"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-A"> a[1:3] </label>
+        </div>
 
-      <div>
-        <input
-          id="question-4-answers-B"
-          type="radio"
-          name="question-4-answers"
-          value="B"
-        />
-        <label for="question-4-answers-B">B) a[:4] </label>
-      </div>
+        <div>
+          <input
+            id="question-4-answers-B"
+            type="radio"
+            name="question-4-answers"
+            value="B"
+          />
+          <label for="question-4-answers-B"> a[:4] </label>
+        </div>
 
-      <div>
-        <input
-          id="question-4-answers-C"
-          type="radio"
-          name="question-4-answers"
-          value="C"
-        />
-        <label for="question-4-answers-C">C) a[:] </label>
-      </div>
+        <div>
+          <input
+            id="question-4-answers-C"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-C"> a[:] </label>
+        </div>
 
-      <div>
-        <input
-          id="question-4-answers-D"
-          type="radio"
-          name="question-4-answers"
-          value="D"
-        />
-        <label for="question-4-answers-D">D) a[] </label>
-      </div>
+        <div>
+          <input
+            id="question-4-answers-D"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-D"> a[] </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>마지막 인덱스를 찾는데 알맞은 숫자는?</h3>
+        <h3>마지막 인덱스를 찾는데 알맞은 숫자는?</h3>
 
-      <div>
-        <input
-          id="question-5-answers-A"
-          type="radio"
-          name="question-5-answers"
-          value="A"
-        />
-        <label for="question-5-answers-A">A) 0 </label>
-      </div>
+        <div>
+          <input
+            id="question-5-answers-A"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-A"> 0 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-5-answers-B"
-          type="radio"
-          name="question-5-answers"
-          value="B"
-        />
-        <label for="question-5-answers-B">B) -1 </label>
-      </div>
+        <div>
+          <input
+            id="question-5-answers-B"
+            type="radio"
+            name="question-5-answers"
+            value="B"
+          />
+          <label for="question-5-answers-B"> -1 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-5-answers-C"
-          type="radio"
-          name="question-5-answers"
-          value="C"
-        />
-        <label for="question-5-answers-C">C) -2 </label>
-      </div>
+        <div>
+          <input
+            id="question-5-answers-C"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-C"> -2 </label>
+        </div>
 
-      <div>
-        <input
-          id="question-5-answers-D"
-          type="radio"
-          name="question-5-answers"
-          value="D"
-        />
-        <label for="question-5-answers-D">D) 0 </label>
-      </div>
-      <br /><br />
+        <div>
+          <input
+            id="question-5-answers-D"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-D"> 0 </label>
+        </div>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>정답 확인
-      </v-btn>
-    </div>
+        <br /><br />
+      </v-card-text>
 
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn>
+      </v-card-actions>
+    </v-card>
   </div>
 </template>
 

@@ -87,6 +87,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="errorhandling" aft="endl" />
+    <Navigation bef="errorhandling" aft="endl" />
   </div>
 </template>

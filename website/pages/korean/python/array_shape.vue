@@ -61,7 +61,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="array_type" aft="error" />
-
+    <Navigation bef="array_type" aft="error" />
   </div>
 </template>

@@ -454,7 +454,6 @@
         allowfullscreen
       />
     </div>
-
   </div>
 </template>
 

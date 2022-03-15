@@ -17,7 +17,6 @@
 
     <Header-en type="Python" num="40" title="Module"></Header-en>
 
-
     <div>
       <div>
         <h2>import - Import Module</h2>
@@ -113,7 +112,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="etcfunction" aft="modulemaster" />
+    <Navigation bef="etcfunction" aft="modulemaster" />
   </div>
 </template>
 

@@ -72,6 +72,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="basicdatatype" aft="typecasting" />
+    <Navigation bef="basicdatatype" aft="typecasting" />
   </div>
 </template>

@@ -13,7 +13,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           src="https://miro.medium.com/max/1838/1*QT3V91g69EUI7Uv0GY1nsg.png"
           max-width="300"
         />
@@ -40,7 +40,7 @@
     <div>
       <h2>예시</h2>
       <p>위의 lang 변수는 문자열("" 안에)이라는 값을 가지고 있습니다.</p>
-      <CIImage
+      <GlobalImage
         src="https://image-loader-coding-insight.web.app/rust-kr/img/code_variable.png"
         max-width="450"
         :noMargin="true"
@@ -89,6 +89,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="comment" aft="mutable" />
+    <Navigation bef="comment" aft="mutable" />
   </div>
 </template>

@@ -113,7 +113,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="module" aft="pythonmodule" />
+    <Navigation bef="module" aft="pythonmodule" />
   </div>
 </template>
 

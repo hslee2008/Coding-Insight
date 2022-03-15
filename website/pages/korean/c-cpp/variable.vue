@@ -16,7 +16,7 @@
         </p>
       </div>
       <div>
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://mblogthumb-phinf.pstatic.net/20140319_89/leedahee111_1395209827273qETWy_JPEG/lights-cubes-3D--1573013-1920x1080.jpg?type=w2"
           max-width="300px"
@@ -122,7 +122,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fI89ddpqwH_V2tcKZx4VijN0SjNXKPIo7Q&usqp=CAU"
           max-width="300px"
@@ -167,65 +167,65 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="print" aft="variableadvance" />
+    <Navigation bef="print" aft="variableadvance" />
 
-    <div class="quiz">
-      <h2>퀴즈 풀기!</h2>
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>변수란?</h3>
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-A"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) 데이터를 저장할 수 있는 곳 </label>
-      </div>
+        <h3>변수란?</h3>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-A"
+          />
+          <label for="question-1-answers-A"> 데이터를 저장할 수 있는 곳 </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-B"
-          value="B"
-        />
-        <label for="question-1-answers-B"
-          >B) 출력과 입력을 통틀어서 변수라고 합니다
-        </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-B"
+            value="B"
+          />
+          <label for="question-1-answers-B"
+            >출력과 입력을 통틀어서 변수라고 합니다
+          </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-C"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) 변하는 수 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-C"
+          />
+          <label for="question-1-answers-C"> 변하는 수 </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-D"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) 다른 정답 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-D"
+          />
+          <label for="question-1-answers-D"> 다른 정답 </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer"
-        ><v-icon left>mdi-check-decagram</v-icon>정답 확인</v-btn
+      <v-card-actions>
+        <v-btn aria-label="Coding Insight Button" @click="checkAnswer"
+          ><v-icon left>mdi-check-decagram</v-icon>정답 확인</v-btn
+        ></v-card-actions
       >
-    </div>
-
+    </v-card>
   </div>
 </template>
 

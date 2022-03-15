@@ -17,7 +17,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://www.tutorialspoint.com/cprogramming/images/cpp_do_while_loop.jpg"
           max-width="300px"
@@ -73,6 +73,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="doublefor" aft="inffor" />
+    <Navigation bef="doublefor" aft="inffor" />
   </div>
 </template>

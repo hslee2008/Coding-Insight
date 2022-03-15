@@ -147,6 +147,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="type-casting" aft="if" />
+    <Navigation bef="type-casting" aft="if" />
   </div>
 </template>

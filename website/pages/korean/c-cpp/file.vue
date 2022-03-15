@@ -78,6 +78,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="math" aft="readfile" />
+    <Navigation bef="math" aft="readfile" />
   </div>
 </template>

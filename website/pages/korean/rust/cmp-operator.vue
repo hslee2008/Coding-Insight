@@ -52,7 +52,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="boolean" aft="boolean-operator" />
-
+    <Navigation bef="boolean" aft="boolean-operator" />
   </div>
 </template>

@@ -36,7 +36,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://www.javascripttutorial.net/wp-content/uploads/2020/01/JavaScript-for-Loop.png"
           max-width="400px"
@@ -135,6 +135,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="switch" aft="while" />
+    <Navigation bef="switch" aft="while" />
   </div>
 </template>

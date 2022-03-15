@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'CIImage',
+  name: 'GlobalImage',
   props: ['src', 'maxWidth', 'noMargin'],
 };
 </script>

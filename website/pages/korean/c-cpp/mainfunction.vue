@@ -16,7 +16,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVtWFSGRUxMggLLNqG3lCfUkfN02VTaOkHw&usqp=CAU"
           width="400px"
@@ -74,6 +74,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="function" aft="storageclass" />
+    <Navigation bef="function" aft="storageclass" />
   </div>
 </template>

@@ -69,6 +69,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="storageclass" aft="struct" />
+    <Navigation bef="storageclass" aft="struct" />
   </div>
 </template>

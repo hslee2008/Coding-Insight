@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="33" title="Anonymous Function"></Header-en>
 
-
     <div>
       <div>
         <h2>What is Anonymous Function?</h2>
@@ -61,6 +60,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="type" aft="for" />
+    <Navigation bef="type" aft="for" />
   </div>
 </template>

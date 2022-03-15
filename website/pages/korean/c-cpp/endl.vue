@@ -36,6 +36,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="namespace" aft="class" />
+    <Navigation bef="namespace" aft="class" />
   </div>
 </template>

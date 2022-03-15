@@ -15,7 +15,6 @@
 
     <Header-en type="Python" num="38" title="Code in oneline"></Header-en>
 
-
     <div>
       <div>
         <h2>; Semicolon</h2>
@@ -74,7 +73,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="while" aft="etcfunction" />
+    <Navigation bef="while" aft="etcfunction" />
   </div>
 </template>
 

@@ -17,7 +17,7 @@
       </div>
 
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png"
           max-width="300"
         />
@@ -46,6 +46,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="variable" aft="identifier" />
+    <Navigation bef="variable" aft="identifier" />
   </div>
 </template>

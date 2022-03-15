@@ -14,7 +14,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
           width="500px"
@@ -103,7 +103,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="operator" aft="calc" />
+    <Navigation bef="operator" aft="calc" />
   </div>
 </template>
 

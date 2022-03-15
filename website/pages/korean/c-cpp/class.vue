@@ -69,6 +69,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="endl" aft="classmethod" />
+    <Navigation bef="endl" aft="classmethod" />
   </div>
 </template>

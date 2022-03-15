@@ -28,7 +28,6 @@
 
     <Header-en type="Python" num="86" title="Auto Zoom"></Header-en>
 
-
     <div class="text-center">
       <h2>Code</h2>
     </div>
@@ -55,6 +54,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="spam" aft="keyboard" />
+    <Navigation bef="spam" aft="keyboard" />
   </div>
 </template>

@@ -23,7 +23,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
           max-width="300px"
@@ -127,150 +127,145 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="ascii" aft="number" />
+    <Navigation bef="ascii" aft="number" />
 
-    <div class="quiz">
-      <h2>Solve This Quiz!!</h2>
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What is the possible values of a Boolean in Python?</h3>
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-A"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) true, false </label>
-      </div>
+        <h3>What is the possible values of a Boolean in Python?</h3>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-A"
+          />
+          <label for="question-1-answers-A"> true, false </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-B"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) True, false </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-B"
+            value="B"
+          />
+          <label for="question-1-answers-B"> True, false </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-C"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) true, False </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-C"
+          />
+          <label for="question-1-answers-C"> true, False </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-D"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) True, False </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-D"
+          />
+          <label for="question-1-answers-D"> True, False </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What is the value of not (not (not (not (not (not (False))))))</h3>
+        <h3>What is the value of not (not (not (not (not (not (False))))))</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-A"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) False </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+          />
+          <label for="question-2-answers-A"> False </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-B"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) True </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-B"
+            value="B"
+          />
+          <label for="question-2-answers-B"> True </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-C"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) Null </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-C"
+          />
+          <label for="question-2-answers-C"> Null </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-D"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) None </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-D"
+          />
+          <label for="question-2-answers-D"> None </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What is the value of any([True, False, False, False, False])</h3>
+        <h3>What is the value of any([True, False, False, False, False])</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-A"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) False </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-A"
+          />
+          <label for="question-3-answers-A"> False </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-B"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) True </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-B"
+            value="B"
+          />
+          <label for="question-3-answers-B"> True </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-C"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) Null </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-C"
+          />
+          <label for="question-3-answers-C"> Null </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-D"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) None </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-D"
+          />
+          <label for="question-3-answers-D"> None </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>Check Answer
-      </v-btn>
-    </div>
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

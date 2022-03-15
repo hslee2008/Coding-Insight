@@ -49,7 +49,6 @@
 
     <Header-en type="Python" num="74" title="Thread (Advanced)"></Header-en>
 
-
     <div>
       <div>
         <h2>join() method</h2>
@@ -98,6 +97,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="thread" aft="threadmethod" />
+    <Navigation bef="thread" aft="threadmethod" />
   </div>
 </template>

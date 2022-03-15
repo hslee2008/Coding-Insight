@@ -102,6 +102,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="additionaldundermethod" aft="atexit" />
+    <Navigation bef="additionaldundermethod" aft="atexit" />
   </div>
 </template>

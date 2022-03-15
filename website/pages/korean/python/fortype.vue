@@ -16,7 +16,7 @@
 
             이런 순환이 가능한 변수를 Iterable(이-터-러-블)이라고 합니다.<br /><br />
 
-            옆에 있는 CODE1은 이터러블을 사용한 for 문의 예시입니다.<QuadSpace />
+            옆에 있는 CODE1은 이터러블을 사용한 for 문의 예시입니다.<br /><br /><br />
 
             CODE2는 for 반복문을 줄인 코드입니다.<br /><br />
 
@@ -94,6 +94,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="for" aft="forfunction" />
+    <Navigation bef="for" aft="forfunction" />
   </div>
 </template>

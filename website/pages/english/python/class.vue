@@ -28,7 +28,6 @@
 
     <Header-en type="Python" num="46" title="Class"></Header-en>
 
-
     <div>
       <div>
         <h2>Creating class</h2>
@@ -159,6 +158,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="regex" aft="classmethod" />
+    <Navigation bef="regex" aft="classmethod" />
   </div>
 </template>

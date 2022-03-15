@@ -143,201 +143,192 @@
 
       <QuadSpace />
 
-      <NaviBtn bef="vscode" aft="variable" />
+      <Navigation bef="vscode" aft="variable" />
 
       <QuadSpace />
 
-      <div class="quiz">
-        <h2>퀴즈 풀기!</h2>
+      <v-card>
+        <v-card-title>퀴즈 풀기!</v-card-title>
 
-        <v-divider />
+        <v-card-text
+          ><v-divider />
 
-        <br /><br />
+          <br /><br />
 
-        <h3>출력이란?</h3>
-        <div>
-          <input
-            id="question-1-answers-A"
-            type="radio"
-            name="question-1-answers"
-            value="A"
-          />
-          <label for="question-1-answers-A">A) 종이에 프린트하기 </label>
-        </div>
+          <h3>출력이란?</h3>
+          <div>
+            <input
+              id="question-1-answers-A"
+              type="radio"
+              name="question-1-answers"
+            />
+            <label for="question-1-answers-A"> 종이에 프린트하기 </label>
+          </div>
 
-        <div>
-          <input
-            id="question-1-answers-B"
-            type="radio"
-            name="question-1-answers"
-            value="B"
-          />
-          <label for="question-1-answers-B"
-            >B) 정보를 콘솔에 나타나게 만들기
-          </label>
-        </div>
+          <div>
+            <input
+              id="question-1-answers-B"
+              type="radio"
+              name="question-1-answers"
+              value="B"
+            />
+            <label for="question-1-answers-B"
+              >정보를 콘솔에 나타나게 만들기
+            </label>
+          </div>
 
-        <div>
-          <input
-            id="question-1-answers-C"
-            type="radio"
-            name="question-1-answers"
-            value="C"
-          />
-          <label for="question-1-answers-C"
-            >C) 사용자가 정보를 입력하면 변수에 저장하기
-          </label>
-        </div>
+          <div>
+            <input
+              id="question-1-answers-C"
+              type="radio"
+              name="question-1-answers"
+            />
+            <label for="question-1-answers-C"
+              >C) 사용자가 정보를 입력하면 변수에 저장하기
+            </label>
+          </div>
 
-        <div>
-          <input
-            id="question-1-answers-D"
-            type="radio"
-            name="question-1-answers"
-            value="D"
-          />
-          <label for="question-1-answers-D">D) 다른 정답 </label>
-        </div>
+          <div>
+            <input
+              id="question-1-answers-D"
+              type="radio"
+              name="question-1-answers"
+            />
+            <label for="question-1-answers-D"> 다른 정답 </label>
+          </div>
 
-        <br /><br />
+          <br /><br />
 
-        <h3>파이썬에서 프린트를 어떻게 할까요?</h3>
+          <h3>파이썬에서 프린트를 어떻게 할까요?</h3>
 
-        <div>
-          <input
-            id="question-2-answers-A"
-            type="radio"
-            name="question-2-answers"
-            value="A"
-          />
-          <label for="question-2-answers-A">A) print "정보" </label>
-        </div>
+          <div>
+            <input
+              id="question-2-answers-A"
+              type="radio"
+              name="question-2-answers"
+            />
+            <label for="question-2-answers-A"> print "정보" </label>
+          </div>
 
-        <div>
-          <input
-            id="question-2-answers-B"
-            type="radio"
-            name="question-2-answers"
-            value="B"
-          />
-          <label for="question-2-answers-B">B) puts("정보") </label>
-        </div>
+          <div>
+            <input
+              id="question-2-answers-B"
+              type="radio"
+              name="question-2-answers"
+              value="B"
+            />
+            <label for="question-2-answers-B"> puts("정보") </label>
+          </div>
 
-        <div>
-          <input
-            id="question-2-answers-C"
-            type="radio"
-            name="question-2-answers"
-            value="C"
-          />
-          <label for="question-2-answers-C">C) console.log("정보") </label>
-        </div>
+          <div>
+            <input
+              id="question-2-answers-C"
+              type="radio"
+              name="question-2-answers"
+            />
+            <label for="question-2-answers-C"> console.log("정보") </label>
+          </div>
 
-        <div>
-          <input
-            id="question-2-answers-D"
-            type="radio"
-            name="question-2-answers"
-            value="D"
-          />
-          <label for="question-2-answers-D">D) print("정보") </label>
-        </div>
+          <div>
+            <input
+              id="question-2-answers-D"
+              type="radio"
+              name="question-2-answers"
+            />
+            <label for="question-2-answers-D"> print("정보") </label>
+          </div>
 
-        <br /><br />
+          <br /><br />
 
-        <h3>프린트 끝에 다른 데이터를 붙여서 어떻게 출력 할까요?</h3>
+          <h3>프린트 끝에 다른 데이터를 붙여서 어떻게 출력 할까요?</h3>
 
-        <div>
-          <input
-            id="question-3-answers-A"
-            type="radio"
-            name="question-3-answers"
-            value="A"
-          />
-          <label for="question-3-answers-A">A) print("정보", end="") </label>
-        </div>
+          <div>
+            <input
+              id="question-3-answers-A"
+              type="radio"
+              name="question-3-answers"
+            />
+            <label for="question-3-answers-A"> print("정보", end="") </label>
+          </div>
 
-        <div>
-          <input
-            id="question-3-answers-B"
-            type="radio"
-            name="question-3-answers"
-            value="B"
-          />
-          <label for="question-3-answers-B">B) puts("정보", end="") </label>
-        </div>
+          <div>
+            <input
+              id="question-3-answers-B"
+              type="radio"
+              name="question-3-answers"
+              value="B"
+            />
+            <label for="question-3-answers-B"> puts("정보", end="") </label>
+          </div>
 
-        <div>
-          <input
-            id="question-3-answers-C"
-            type="radio"
-            name="question-3-answers"
-            value="C"
-          />
-          <label for="question-3-answers-C">C) print("정보", end="") </label>
-        </div>
-        <div>
-          <input
-            id="question-3-answers-D"
-            type="radio"
-            name="question-3-answers"
-            value="D"
-          />
-          <label for="question-3-answers-D">D) print("정보", theEnd="") </label>
-        </div>
+          <div>
+            <input
+              id="question-3-answers-C"
+              type="radio"
+              name="question-3-answers"
+            />
+            <label for="question-3-answers-C"> print("정보", end="") </label>
+          </div>
+          <div>
+            <input
+              id="question-3-answers-D"
+              type="radio"
+              name="question-3-answers"
+            />
+            <label for="question-3-answers-D"> print("정보", theEnd="") </label>
+          </div>
 
-        <br /><br />
+          <br /><br />
 
-        <h3>파이썬에서 입력을 어떻게 받을까요?</h3>
+          <h3>파이썬에서 입력을 어떻게 받을까요?</h3>
 
-        <div>
-          <input
-            id="question-5-answers-A"
-            type="radio"
-            name="question-5-answers"
-            value="A"
-          />
-          <label for="question-5-answers-A">A) input() </label>
-        </div>
+          <div>
+            <input
+              id="question-5-answers-A"
+              type="radio"
+              name="question-5-answers"
+            />
+            <label for="question-5-answers-A"> input() </label>
+          </div>
 
-        <div>
-          <input
-            id="question-5-answers-B"
-            type="radio"
-            name="question-5-answers"
-            value="B"
-          />
-          <label for="question-5-answers-B">B) print() </label>
-        </div>
+          <div>
+            <input
+              id="question-5-answers-B"
+              type="radio"
+              name="question-5-answers"
+              value="B"
+            />
+            <label for="question-5-answers-B"> print() </label>
+          </div>
 
-        <div>
-          <input
-            id="question-5-answers-C"
-            type="radio"
-            name="question-5-answers"
-            value="C"
-          />
-          <label for="question-5-answers-C">C) end() </label>
-        </div>
+          <div>
+            <input
+              id="question-5-answers-C"
+              type="radio"
+              name="question-5-answers"
+            />
+            <label for="question-5-answers-C"> end() </label>
+          </div>
 
-        <div>
-          <input
-            id="question-5-answers-D"
-            type="radio"
-            name="question-5-answers"
-            value="D"
-          />
-          <label for="question-5-answers-D">D) in() </label>
-        </div>
+          <div>
+            <input
+              id="question-5-answers-D"
+              type="radio"
+              name="question-5-answers"
+            />
+            <label for="question-5-answers-D"> in() </label>
+          </div>
 
-        <br /><br />
+          <QuadSpace
+        /></v-card-text>
 
-        <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-          <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn>
-      </div>
+        <v-card-actions>
+          <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+            <v-icon left>mdi-check-decagram</v-icon>정답 확인
+          </v-btn></v-card-actions
+        >
+      </v-card>
     </div>
-
   </div>
 </template>
 

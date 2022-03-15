@@ -4,7 +4,7 @@
 
     <div>
       <div style="display: flex; justify-content: center">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           class="img-fluid"
           max-width="400px"
@@ -37,7 +37,6 @@
     </div>
 
     <Header-en type="Python" num="57" title="JSON"></Header-en>
-
 
     <div>
       <div>
@@ -127,7 +126,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="pip" aft="array" />
+    <Navigation bef="pip" aft="array" />
   </div>
 </template>
 

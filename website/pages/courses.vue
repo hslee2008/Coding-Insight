@@ -119,7 +119,6 @@
         </v-card-actions>
       </v-card>
     </v-row>
-
   </div>
 </template>
 

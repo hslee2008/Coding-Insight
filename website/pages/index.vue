@@ -25,7 +25,7 @@
 
     <QuadSpace />
 
-    <v-divider></v-divider>
+    <v-divider />
 
     <QuadSpace />
 
@@ -273,6 +273,7 @@
       </v-card>
     </v-row>
 
+    <QuadSpace />
   </div>
 </template>
 

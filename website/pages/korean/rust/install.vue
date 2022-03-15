@@ -55,6 +55,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="/korean/rust/" aft="print" />
+    <Navigation bef="/korean/rust/" aft="print" />
   </div>
 </template>

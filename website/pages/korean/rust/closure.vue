@@ -34,7 +34,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="function" aft="module" />
-
+    <Navigation bef="function" aft="module" />
   </div>
 </template>

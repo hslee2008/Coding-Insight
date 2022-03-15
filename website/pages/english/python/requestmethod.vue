@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="79" title="Request Method"></Header-en>
 
-
     <div>
       <div>
         <h2>Status</h2>
@@ -55,7 +54,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="request" aft="dundermethod" />
+    <Navigation bef="request" aft="dundermethod" />
   </div>
 </template>
 

@@ -3,8 +3,6 @@
     <br /><br />
 
     <div>
-      <br />
-
       <div>
         <h2>What is escape character?</h2>
         <p>
@@ -32,7 +30,6 @@
     </div>
 
     <Header-en type="Python" num="11" title="Escacpe Character"></Header-en>
-
 
     <div>
       <div class="mx-auto my-auto">
@@ -81,70 +78,70 @@
     <QuadSpace />
 
     <div>
-      <div>
-        <h2>\r</h2>
-        <p>
-          Though this character is a bit different depending on your system, \r
-          is usually similar as pressing backspace.<br /><br />
+      <h2>\r</h2>
+      <p>
+        Though this character is a bit different depending on your system, \r is
+        usually similar as pressing backspace.<br /><br />
 
-          <code> text = "Hello!!\rWorld" </code>
+        <code> text = "Hello!!\rWorld" </code>
+      </p>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>\t</h2>
+        <p>
+          \t is similar to pressing tab in keyboard. A tab is equal to 4 spaces
+          ' '.
+          <br /><br />
+
+          <code> essay = "Hello\tWorld" </code>
+
+          We can set our own tab size using expandtabs.
         </p>
       </div>
+      <iframe
+        src="https://trinket.io/embed/python3/82e2765c4e"
+        width="100%"
+        height="356"
+        loading="lazy"
+      />
+    </div>
 
-      <QuadSpace />
+    <QuadSpace />
 
+    <div>
       <div>
-        <div>
-          <h2>\t</h2>
-          <p>
-            \t is similar to pressing tab in keyboard. A tab is equal to 4
-            spaces ' '.
-            <br /><br />
+        <h2>r'string' syntax</h2>
+        <p>
+          Sometimes, we might want to make a string that does not contain any
+          raw strings.<br /><br />
 
-            <code> essay = "Hello\tWorld" </code>
-
-            We can set our own tab size using expandtabs.
-          </p>
-        </div>
-        <iframe
-          src="https://trinket.io/embed/python3/82e2765c4e"
-          width="100%"
-          height="356"
-          loading="lazy"
-        />
+          To do this, we have to put r before the quotation mark.
+        </p>
       </div>
+      <iframe
+        src="https://trinket.io/embed/python/6366397170"
+        width="100%"
+        height="356"
+        loading="lazy"
+        class="mx-auto my-auto"
+      />
+    </div>
 
-      <QuadSpace />
+    <QuadSpace />
 
-      <div>
-        <div>
-          <h2>r'string' syntax</h2>
-          <p>
-            Sometimes, we might want to make a string that does not contain any
-            raw strings.<br /><br />
+    <Navigation bef="password" aft="ascii" />
 
-            To do this, we have to put r before the quotation mark.
-          </p>
-        </div>
-        <iframe
-          src="https://trinket.io/embed/python/6366397170"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="mx-auto my-auto"
-        />
-      </div>
+    <QuadSpace />
 
-      <QuadSpace />
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
 
-      <NaviBtn bef="password" aft="ascii" />
-
-      <QuadSpace />
-
-      <div class="quiz">
-        <h2>Solve This Quiz!!</h2>
-
-        <v-divider />
+      <v-card-text
+        ><v-divider />
 
         <br /><br />
         <h3>How can we put new lines in ''?</h3>
@@ -153,9 +150,8 @@
             type="radio"
             name="question-1-answers"
             id="question-1-answers-A"
-            value="A"
           />
-          <label for="question-1-answers-A">A) \n </label>
+          <label for="question-1-answers-A"> \n </label>
         </div>
 
         <div>
@@ -165,7 +161,7 @@
             id="question-1-answers-B"
             value="B"
           />
-          <label for="question-1-answers-B">B) \a </label>
+          <label for="question-1-answers-B"> \a </label>
         </div>
 
         <div>
@@ -173,9 +169,8 @@
             type="radio"
             name="question-1-answers"
             id="question-1-answers-C"
-            value="C"
           />
-          <label for="question-1-answers-C">C) \r </label>
+          <label for="question-1-answers-C"> \r </label>
         </div>
 
         <div>
@@ -183,19 +178,19 @@
             type="radio"
             name="question-1-answers"
             id="question-1-answers-D"
-            value="D"
           />
-          <label for="question-1-answers-D">D) \t </label>
+          <label for="question-1-answers-D"> \t </label>
         </div>
 
-        <br /><br />
+        <QuadSpace
+      /></v-card-text>
 
-        <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>Check Answer
-        </v-btn>
-      </div>
-      <QuadSpace />
-    </div>
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

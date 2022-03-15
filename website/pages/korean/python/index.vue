@@ -2,7 +2,7 @@
   <div>
     <br /><br />
 
-    <v-row>
+    <v-row class="ma-3">
       <p class="mx-auto my-auto">
         파이썬이라는 단어를 들어보신 적이 있나요?<br /><br />
 
@@ -11,7 +11,7 @@
         파이썬이라는 뱀도 있지만 오늘 배울 것은 뱀이 아니라 코딩 언어입니다.
       </p>
 
-      <CIImage
+      <GlobalImage
         alt="python-factory-picture"
         max-width="200px"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"
@@ -21,69 +21,57 @@
 
     <Header type="파이썬" num="1" title="파이썬의 정의" />
 
-    <v-card class="transparent">
-      <v-row>
-        <div>
-          <h2>블록 코딩과 텍스트 기반 코딩</h2>
+    <div>
+      <h2>블록 코딩과 텍스트 기반 코딩</h2>
 
-          <p>
-            아마도 여러분은 블록코딩에 대해서 많이 알고 있을 것입니다.<br /><br />
+      <p>
+        아마도 여러분은 블록코딩에 대해서 많이 알고 있을 것입니다.<br /><br />
 
-            초등학교에서는 엔트리라는 블록코딩을 공부합니다.<br /><br />
+        초등학교에서는 엔트리라는 블록코딩을 공부합니다.<br /><br />
 
-            블록코딩은 코딩이라는 개념을 처음으로 접하는 분들을 위한 간단한
-            프로그래밍 언어로 기능이 매우 제한되어 있습니다.<br /><br />
+        블록코딩은 코딩이라는 개념을 처음으로 접하는 분들을 위한 간단한
+        프로그래밍 언어로 기능이 매우 제한되어 있습니다.<br /><br />
 
-            이 사이트에서 배울 프로그래밍 언어인 파이썬은 엔트리와 달리 코드를
-            모두 손으로 입력해야 합니다.<br /><br />
+        이 사이트에서 배울 프로그래밍 언어인 파이썬은 엔트리와 달리 코드를 모두
+        손으로 입력해야 합니다.<br /><br />
 
-            하지만 파이썬을 배우면 나만의 앱, 시스템, 코드, 해킹 도구 등 다양한
-            분야에서 다양하게 사용이 될 수 있습니다.
-          </p>
-        </div>
+        하지만 파이썬을 배우면 나만의 앱, 시스템, 코드, 해킹 도구 등 다양한
+        분야에서 다양하게 사용이 될 수 있습니다.
+      </p>
+    </div>
 
-        <div class="mx-auto my-auto">
-          <CIImage
-            alt="python-factory-picture"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
-            max-width="210.5px"
-          />
-        </div>
-      </v-row>
-    </v-card>
+    <GlobalImage
+      alt="python-factory-picture"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
+      max-width="210.5px"
+      class="mx-auto my-auto"
+    />
 
     <QuadSpace />
 
-    <v-card class="transparent">
-      <v-row>
-        <div>
-          <h2>프로그래밍 언어란?</h2>
+    <div>
+      <h2>프로그래밍 언어란?</h2>
 
-          <p>
-            프로그래밍 언어란 사람들과 기계가 소통하기 위하여 만든
-            언어입니다.<br /><br />
+      <p>
+        프로그래밍 언어란 사람들과 기계가 소통하기 위하여 만든 언어입니다.<br /><br />
 
-            한국 사람들은 한국어를 사용하듯이 컴퓨터는 프로그래밍 언어를
-            사용합니다.<br /><br />
+        한국 사람들은 한국어를 사용하듯이 컴퓨터는 프로그래밍 언어를
+        사용합니다.<br /><br />
 
-            기계는 2진수 (0과 1)만 이해할 수 있어서 인간과의 대화가 매우
-            어렵습니다.<br /><br />
+        기계는 2진수 (0과 1)만 이해할 수 있어서 인간과의 대화가 매우
+        어렵습니다.<br /><br />
 
-            코딩 언어를 사용한다면 코딩 언어를 2진수로 자동으로 바꿀 수 있으므로
-            사람들이 어려운 2진수를 배우지 않고도<br />
-            컴퓨터에게 명령을 할 수 있습니다.
-          </p>
-        </div>
-
-        <div class="mx-auto my-auto">
-          <CIImage
-            alt="python-factory-picture"
-            src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
-            max-width="210.5px"
-          />
-        </div>
-      </v-row>
-    </v-card>
+        코딩 언어를 사용한다면 코딩 언어를 2진수로 자동으로 바꿀 수 있으므로
+        사람들이 어려운 2진수를 배우지 않고도<br />
+        컴퓨터에게 명령을 할 수 있습니다.
+      </p>
+    </div>
+    <GlobalImage
+      alt="python-factory-picture"
+      src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
+      max-width="210.5px"
+      class="mx-auto my-auto"
+    />
 
     <QuadSpace />
 
@@ -137,7 +125,7 @@
         </div>
 
         <div class="mx-auto my-auto">
-          <CIImage
+          <GlobalImage
             alt="python-factory-picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDvusEfnc81WXy7PBDME8ZDa7miwprm8Z4Q&usqp=CAU"
             max-width="210.5px"
@@ -189,6 +177,5 @@
         </v-btn>
       </NuxtLink>
     </div>
-
   </div>
 </template>

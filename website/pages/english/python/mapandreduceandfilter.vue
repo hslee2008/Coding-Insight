@@ -134,7 +134,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="logging" aft="zlib" />
+    <Navigation bef="logging" aft="zlib" />
   </div>
 </template>
 

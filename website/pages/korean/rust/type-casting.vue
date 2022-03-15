@@ -43,6 +43,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="array_method" aft="borrow-dereference" />
+    <Navigation bef="array_method" aft="borrow-dereference" />
   </div>
 </template>

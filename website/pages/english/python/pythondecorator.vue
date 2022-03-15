@@ -89,7 +89,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="mydecorator" aft="newline" />
+    <Navigation bef="mydecorator" aft="newline" />
   </div>
 </template>
 

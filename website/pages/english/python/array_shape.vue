@@ -33,7 +33,6 @@
 
     <Header-en type="Python" num="60" title="Array Shape"></Header-en>
 
-
     <div>
       <div>
         <h2>Change Array Shape</h2>
@@ -65,6 +64,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="array_type" aft="error" />
+    <Navigation bef="array_type" aft="error" />
   </div>
 </template>

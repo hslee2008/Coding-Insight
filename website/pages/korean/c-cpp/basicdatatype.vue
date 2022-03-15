@@ -168,6 +168,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="input" aft="otherdatatype" />
+    <Navigation bef="input" aft="otherdatatype" />
   </div>
 </template>

@@ -103,7 +103,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="list" aft="listmethod2" />
+    <Navigation bef="list" aft="listmethod2" />
   </div>
 </template>
 <script>

@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <CIImage
+      <GlobalImage
         src="https://cloudreports.net/wp-content/uploads/2019/06/Function_machine2.png"
         max-width="300"
         class="mx-auto my-auto"
@@ -71,6 +71,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="for" aft="closure" />
+    <Navigation bef="for" aft="closure" />
   </div>
 </template>

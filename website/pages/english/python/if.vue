@@ -28,7 +28,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3wpiBBpzSMnlDX8KrxleWQf5wKSf2lGHbtw&usqp=CAU"
         />
@@ -46,7 +46,6 @@
     </div>
     <QuadSpace />
     <Header-en type="Python" title="If Statement" num="26"></Header-en>
-
 
     <div>
       <div>
@@ -123,6 +122,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="setmethod" aft="ifmaster" />
+    <Navigation bef="setmethod" aft="ifmaster" />
   </div>
 </template>

@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" num="41" title="모듈 마스터하기"></Header-en>
 
-
     <div>
       <div>
         <h2>Making my own module</h2>
@@ -114,7 +113,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="module" aft="pythonmodule" />
+    <Navigation bef="module" aft="pythonmodule" />
   </div>
 </template>
 

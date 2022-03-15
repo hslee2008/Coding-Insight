@@ -112,6 +112,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="vectorbasic" aft="stack" />
+    <Navigation bef="vectorbasic" aft="stack" />
   </div>
 </template>

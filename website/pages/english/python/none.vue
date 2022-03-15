@@ -2,7 +2,6 @@
   <div>
     <Header-en type="Python" title="None" num="24"></Header-en>
 
-
     <div>
       <div>
         <h2>None</h2>
@@ -28,7 +27,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="password-safe" aft="function" />
+    <Navigation bef="password-safe" aft="function" />
   </div>
 </template>
 

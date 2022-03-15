@@ -105,6 +105,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="borrow-dereference" aft="loop" />
+    <Navigation bef="borrow-dereference" aft="loop" />
   </div>
 </template>

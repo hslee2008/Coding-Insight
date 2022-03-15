@@ -59,7 +59,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="while" aft="etcfunction" />
+    <Navigation bef="while" aft="etcfunction" />
   </div>
 </template>
 

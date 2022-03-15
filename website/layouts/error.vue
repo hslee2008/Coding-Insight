@@ -11,8 +11,8 @@
       margin: auto;
     "
   >
-    <v-card class="mx-auto my-auto" max-width="400">
-      <v-alert border="right" colored-border type="error" elevation="2">
+    <v-card class="mx-auto my-auto" max-width="400" color="error">
+      <v-alert color="error" class="ml-2">
         <h1 v-if="error.statusCode === 404">
           {{ pageNotFound }}
         </h1>
@@ -22,14 +22,14 @@
       </v-alert>
 
       <v-card-actions>
-        <v-btn aria-label="Coding Insight Button" @click="refresh">
+        <v-btn aria-label="Coding Insight Button" text @click="refresh">
           <v-icon>mdi-refresh</v-icon></v-btn
         >
-        <v-btn aria-label="Coding Insight Button" @click="backward">
+        <v-btn aria-label="Coding Insight Button" text @click="backward">
           <v-icon>mdi-chevron-left</v-icon></v-btn
         >
 
-        <v-btn aria-label="Coding Insight Button" to="/">
+        <v-btn aria-label="Coding Insight Button" text to="/">
           <v-icon left>mdi-home</v-icon></v-btn
         >
       </v-card-actions>
@@ -49,15 +49,14 @@ export default {
   },
   data() {
     return {
-      pageNotFound: '😭 Error 404 😭',
-      otherError: '😢 Unknown Error 😢',
+      pageNotFound: '💀 Error 404 💀',
+      otherError: '😕 Unknown Error 🤔',
     };
   },
   head() {
-    const title =
-      this.error.statusCode === 404 ? this.pageNotFound : this.otherError;
     return {
-      title,
+      title:
+        this.error.statusCode === 404 ? this.pageNotFound : this.otherError,
     };
   },
   methods: {

@@ -21,7 +21,6 @@
 
     <Header-en type="Python" num="8" title="String"></Header-en>
 
-
     <div>
       <div class="mx-auto my-auto">
         <h2>Multi - line string</h2>
@@ -174,239 +173,229 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="comment" aft="stringmethod1" />
+    <Navigation bef="comment" aft="stringmethod1" />
 
-    <div class="quiz">
-      <h2>Solve This Quiz!!</h2>
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-divider />
+      <v-card-text
+        ><v-divider />
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What is not a syntax we can use for declaring strings in Python?</h3>
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-A"
-          value="A"
-        />
-        <label for="question-1-answers-A">A) !string! </label>
-      </div>
+        <h3>
+          What is not a syntax we can use for declaring strings in Python?
+        </h3>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-A"
+          />
+          <label for="question-1-answers-A"> !string! </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-B"
-          value="B"
-        />
-        <label for="question-1-answers-B">B) "string" </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-B"
+            value="B"
+          />
+          <label for="question-1-answers-B"> "string" </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-C"
-          value="C"
-        />
-        <label for="question-1-answers-C">C) [string] </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-C"
+          />
+          <label for="question-1-answers-C"> [string] </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-1-answers"
-          id="question-1-answers-D"
-          value="D"
-        />
-        <label for="question-1-answers-D">D) Other </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-1-answers"
+            id="question-1-answers-D"
+          />
+          <label for="question-1-answers-D"> Other </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>How can we make multi - line string in Pyton?</h3>
+        <h3>How can we make multi - line string in Pyton?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-A"
-          value="A"
-        />
-        <label for="question-2-answers-A">A) ?string? use </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-A"
+          />
+          <label for="question-2-answers-A"> ?string? use </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-B"
-          value="B"
-        />
-        <label for="question-2-answers-B">B) #string use </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-B"
+            value="B"
+          />
+          <label for="question-2-answers-B"> #string use </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-C"
-          value="C"
-        />
-        <label for="question-2-answers-C">C) """ string """ use </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-C"
+          />
+          <label for="question-2-answers-C"> """ string """ use </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-2-answers"
-          id="question-2-answers-D"
-          value="D"
-        />
-        <label for="question-2-answers-D">D) (string) use </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-2-answers"
+            id="question-2-answers-D"
+          />
+          <label for="question-2-answers-D"> (string) use </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What index can we use to print the third alphabet of "Hello"?</h3>
+        <h3>What index can we use to print the third alphabet of "Hello"?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-A"
-          value="A"
-        />
-        <label for="question-3-answers-A">A) 0 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-A"
+          />
+          <label for="question-3-answers-A"> 0 </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-B"
-          value="B"
-        />
-        <label for="question-3-answers-B">B) 1 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-B"
+            value="B"
+          />
+          <label for="question-3-answers-B"> 1 </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-C"
-          value="C"
-        />
-        <label for="question-3-answers-C">C) 2 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-C"
+          />
+          <label for="question-3-answers-C"> 2 </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-3-answers"
-          id="question-3-answers-D"
-          value="D"
-        />
-        <label for="question-3-answers-D">D) 3 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-3-answers"
+            id="question-3-answers-D"
+          />
+          <label for="question-3-answers-D"> 3 </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>In the 4 code bellow, which has the wrong syntax?</h3>
+        <h3>In the 4 code bellow, which has the wrong syntax?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-4-answers"
-          id="question-4-answers-A"
-          value="A"
-        />
-        <label for="question-4-answers-A">A) a[1:3] </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-4-answers"
+            id="question-4-answers-A"
+          />
+          <label for="question-4-answers-A"> a[1:3] </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-4-answers"
-          id="question-4-answers-B"
-          value="B"
-        />
-        <label for="question-4-answers-B">B) a[:4] </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-4-answers"
+            id="question-4-answers-B"
+            value="B"
+          />
+          <label for="question-4-answers-B"> a[:4] </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-4-answers"
-          id="question-4-answers-C"
-          value="C"
-        />
-        <label for="question-4-answers-C">C) a[:] </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-4-answers"
+            id="question-4-answers-C"
+          />
+          <label for="question-4-answers-C"> a[:] </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-4-answers"
-          id="question-4-answers-D"
-          value="D"
-        />
-        <label for="question-4-answers-D">D) a[] </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-4-answers"
+            id="question-4-answers-D"
+          />
+          <label for="question-4-answers-D"> a[] </label>
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <h3>What is the right index to get the last index of string?</h3>
+        <h3>What is the right index to get the last index of string?</h3>
 
-      <div>
-        <input
-          type="radio"
-          name="question-5-answers"
-          id="question-5-answers-A"
-          value="A"
-        />
-        <label for="question-5-answers-A">A) 0 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-5-answers"
+            id="question-5-answers-A"
+          />
+          <label for="question-5-answers-A"> 0 </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-5-answers"
-          id="question-5-answers-B"
-          value="B"
-        />
-        <label for="question-5-answers-B">B) -1 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-5-answers"
+            id="question-5-answers-B"
+            value="B"
+          />
+          <label for="question-5-answers-B"> -1 </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-5-answers"
-          id="question-5-answers-C"
-          value="C"
-        />
-        <label for="question-5-answers-C">C) -2 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-5-answers"
+            id="question-5-answers-C"
+          />
+          <label for="question-5-answers-C"> -2 </label>
+        </div>
 
-      <div>
-        <input
-          type="radio"
-          name="question-5-answers"
-          id="question-5-answers-D"
-          value="D"
-        />
-        <label for="question-5-answers-D">D) -0 </label>
-      </div>
+        <div>
+          <input
+            type="radio"
+            name="question-5-answers"
+            id="question-5-answers-D"
+          />
+          <label for="question-5-answers-D"> -0 </label>
+        </div>
 
-      <br /><br />
+        <QuadSpace />
+      </v-card-text>
 
-      <v-btn aria-label="Coding Insight Button" @click="checkAnswer">
-        <v-icon left>mdi-check-decagram</v-icon>Check Answer
-      </v-btn>
-    </div>
-
+      <v-card-actions>
+        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn></v-card-actions
+      >
+    </v-card>
   </div>
 </template>
 

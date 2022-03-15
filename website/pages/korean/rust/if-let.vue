@@ -55,6 +55,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="match" aft="function" />
+    <Navigation bef="match" aft="function" />
   </div>
 </template>

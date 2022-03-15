@@ -11,7 +11,7 @@
       "
     >
       <div class="mx-auto my-auto">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbPlGs1KONj35lMRnJTnaPaZ-awICYbPhSw&usqp=CAU"
         />
@@ -116,6 +116,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="variableadvance" aft="basicdatatype" />
+    <Navigation bef="variableadvance" aft="basicdatatype" />
   </div>
 </template>

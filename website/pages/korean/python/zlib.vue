@@ -58,7 +58,7 @@
         </p>
       </div>
       <div style="display: flex; justify-content: center">
-        <CIImage
+        <GlobalImage
           alt="python-factory-picture"
           src="https://en.terminalroot.com.br/assets/img/cppdaily/zlib.png"
           width="400px"
@@ -134,7 +134,7 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="mapandreduceandfilter" aft="decorator" />
+    <Navigation bef="mapandreduceandfilter" aft="decorator" />
   </div>
 </template>
 

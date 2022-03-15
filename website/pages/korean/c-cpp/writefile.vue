@@ -69,6 +69,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="readfile" aft="deletefile" />
+    <Navigation bef="readfile" aft="deletefile" />
   </div>
 </template>

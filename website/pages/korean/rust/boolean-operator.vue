@@ -52,7 +52,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="cmp-operator" aft="char" />
-
+    <Navigation bef="cmp-operator" aft="char" />
   </div>
 </template>

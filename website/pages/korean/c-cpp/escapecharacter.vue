@@ -89,6 +89,6 @@
 
     <QuadSpace />
 
-    <NaviBtn bef="grammar" aft="if" />
+    <Navigation bef="grammar" aft="if" />
   </div>
 </template>
