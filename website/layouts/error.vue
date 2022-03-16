@@ -1,36 +1,20 @@
 <template>
-  <div
-    style="
-      width: 80%;
-      height: 100px;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-    "
-  >
-    <v-card class="mx-auto my-auto" max-width="400" color="error">
-      <v-alert color="error" class="ml-2">
-        <h1 v-if="error.statusCode === 404">
-          {{ pageNotFound }}
-        </h1>
-        <h1 v-else>
-          {{ otherError }}
-        </h1>
-      </v-alert>
+  <div class="ma-auto err">
+    <v-card class="ma-auto" max-width="400" color="error">
+      <v-card-title>
+        {{ error.statusCode === 404 ? pageNotFound : otherError }}
+      </v-card-title>
 
-      <v-card-actions>
-        <v-btn aria-label="Coding Insight Button" text @click="refresh">
+      <v-card-actions class="ml-1">
+        <v-btn aria-label="Coding Insight Button" icon @click="refresh">
           <v-icon>mdi-refresh</v-icon></v-btn
         >
-        <v-btn aria-label="Coding Insight Button" text @click="backward">
+        <v-btn aria-label="Coding Insight Button" icon @click="backward">
           <v-icon>mdi-chevron-left</v-icon></v-btn
         >
 
-        <v-btn aria-label="Coding Insight Button" text to="/">
-          <v-icon left>mdi-home</v-icon></v-btn
+        <v-btn aria-label="Coding Insight Button" icon to="/">
+          <v-icon>mdi-home</v-icon></v-btn
         >
       </v-card-actions>
     </v-card>
@@ -41,12 +25,7 @@
 export default {
   name: 'EmptyLayout',
   layout: 'empty',
-  props: {
-    error: {
-      type: Object,
-      default: null,
-    },
-  },
+  props: ['error'],
   data() {
     return {
       pageNotFound: '💀 Error 404 💀',
@@ -70,8 +49,14 @@ export default {
 };
 </script>
 
-<style scoped>
-h1 {
-  font-size: 20px;
+<style>
+.err {
+  width: 80%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 </style>

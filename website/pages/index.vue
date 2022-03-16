@@ -69,7 +69,7 @@
     <v-card-title>Coding-Insight에서 배우기</v-card-title>
     <v-row style="gap: 50px" class="mx-auto my-auto">
       <div style="width: 290px" class="d-flex">
-        <img src="~/assets/img/learn.svg" alt="learn" style="margin: auto" />
+        <img src="~/assets/svg/learn.svg" alt="learn" style="margin: auto" />
 
         <div>
           <v-card-title>배우기</v-card-title>
@@ -82,7 +82,7 @@
 
       <div style="width: 290px" class="d-flex">
         <img
-          src="~/assets/img/zeroconfig.svg"
+          src="~/assets/svg/zeroconfig.svg"
           alt="zeroconfig"
           style="margin: auto"
         />
@@ -98,7 +98,7 @@
 
       <div style="width: 290px" class="d-flex">
         <img
-          src="~/assets/img/diverse.svg"
+          src="~/assets/svg/diverse.svg"
           alt="diverse"
           style="margin: auto"
         />
@@ -114,7 +114,7 @@
 
       <div style="width: 290px" class="d-flex">
         <img
-          src="~/assets/img/project.svg"
+          src="~/assets/svg/project.svg"
           alt="project"
           style="margin: auto"
         />
@@ -129,7 +129,7 @@
       </div>
 
       <div style="width: 290px" class="d-flex">
-        <img src="~/assets/img/inf.svg" alt="inf" style="margin: auto" />
+        <img src="~/assets/svg/inf.svg" alt="inf" style="margin: auto" />
 
         <div>
           <v-card-title>0부터 무한까지</v-card-title>
@@ -141,7 +141,7 @@
       </div>
 
       <div style="width: 290px" class="d-flex">
-        <img src="~/assets/img/eng.svg" alt="eng" style="margin: auto" />
+        <img src="~/assets/svg/eng.svg" alt="eng" style="margin: auto" />
 
         <div>
           <v-card-title>영어로까지!</v-card-title>

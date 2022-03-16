@@ -1,54 +1,45 @@
 <template>
-  <div class="text-center">
-    <QuadSpace />
+  <div>
+    <br /><br />
 
-    <v-divider />
-
-    <div class="my-5">
+    <div
+      class="text-center my-15 pa-6 rounded-lg"
+      style="background-color: #343b47"
+    >
       <v-btn
         aria-label="Coding Insight Button"
-        class="ma-2"
+        class="mb-10"
         outlined
         @click="speak"
       >
-        {{ count % 2 == 0 ? 'Read' : 'Stop' }}
-
-        <v-icon right>
-          {{ count % 2 == 0 ? 'mdi-bullhorn' : 'mdi-pause-octagon' }}
+        <v-icon left>
+          mdi-{{ notspeaking ? 'bullhorn' : 'pause-octagon' }}
         </v-icon>
-      </v-btn>
 
-      <br /><br />
+        {{ notspeaking ? 'Read' : 'Stop' }}
+      </v-btn>
 
       <h1>
         {{ title }}
       </h1>
-      <h2>
-        <span id="txt">EN Computer Science Lab (</span>CSL<span id="txt"
-          >)</span
-        >
+      <h2 class="font-weight-thin">
+        <span v-if="!$vuetify.breakpoint.mobile">Computer Science Lab -</span>
 
         {{ num }}
       </h2>
     </div>
 
-    <v-divider />
-
-    <QuadSpace />
+    <br /><br />
   </div>
 </template>
 
 <script>
 export default {
   name: 'HeaderPage',
-  props: {
-    title: { type: String, required: true },
-    num: { type: String, required: true },
-    type: { type: String, required: true },
-  },
+  props: ['title', 'num', 'type'],
   data() {
     return {
-      count: 0,
+      notspeaking: true,
     };
   },
   mounted() {
@@ -56,27 +47,25 @@ export default {
   },
   methods: {
     speak() {
-      if (this.count % 2 === 0) {
-        try {
+      try {
+        if (this.notspeaking) {
           const a = new SpeechSynthesisUtterance(
             document.body.innerText.substring(
-              document.body.innerText.indexOf('Read') + 8,
+              document.body.innerText.indexOf('Read') + 4,
             ),
           );
           a.lang = 'ko-kr';
           speechSynthesis.speak(a);
-        } catch (err) {
-          alert(':( Speech Synthesis is not present: (' + err + ')');
-        }
-      } else {
-        try {
+        } else {
           speechSynthesis.cancel();
-        } catch (err) {
-          alert(':( Speech Synthesis is not present');
         }
+      } catch (err) {
+        alert(
+          ':( SpeechSynthesis API is not supported in your browser (Legacy)',
+        );
       }
 
-      this.count++;
+      this.notspeaking = !this.notspeaking;
     },
   },
 };

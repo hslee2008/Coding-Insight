@@ -60,7 +60,7 @@
       <div style="display: flex; justify-content: center">
         <GlobalImage
           alt="python-factory-picture"
-          src="https://en.terminalroot.com.br/assets/img/cppdaily/zlib.png"
+          src="https://en.terminalroot.com.br/assets/svg/cppdaily/zlib.png"
           width="400px"
         />
       </div>

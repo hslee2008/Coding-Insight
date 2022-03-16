@@ -86,10 +86,10 @@ export default {
   },
 
   css: [
-    './assets/css/global.css',
-    './assets/css/transition.css',
-    './assets/css/media.css',
-    './assets/css/scrollbar.css',
+    '~/assets/css/global.css',
+    '~/assets/css/transition.css',
+    '~/assets/css/media.css',
+    '~/assets/css/scrollbar.css',
   ],
 
   // https://go.nuxtjs.dev/config-plugins
@@ -184,7 +184,7 @@ export default {
       background_color: '#23272F',
       display: 'minimal-ui',
       scope: './',
-      start_url: '/',
+      start_url: './',
       prefer_related_applications: false,
       related_applications: [
         {

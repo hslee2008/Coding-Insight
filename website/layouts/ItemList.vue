@@ -7,13 +7,9 @@
         v-for="(item, i) in items[isEnglish() ? json + '_en' : json]"
         :key="json + i.toString()"
         :to="item.to"
-        router
-        exact
         dense
-        color="primary"
-        :active-class="
-          $vuetify.theme.dark ? 'activeListDark' : 'activeListLight'
-        "
+        exact
+        :active-class="'activeList' + $vuetify.theme.dark ? 'Dark' : 'Light'"
         @click="close"
       >
         <v-list-item-icon>
@@ -46,8 +42,7 @@ export default {
   methods: {
     isEnglish() {
       return (
-        this.$nuxt.$route.path.includes('english') ||
-        this.$nuxt.$route.path.includes('-en')
+        this.$route.path.includes('english') || this.$route.path.includes('-en')
       );
     },
   },

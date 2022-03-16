@@ -2,7 +2,7 @@
   <div>
     <br /><br />
 
-    <v-row flex justify="center" class="img-div" style="margin: 10px">
+    <v-row flex justify="center" style="margin: 10px">
       <div class="mx-auto my-auto">
         <h1>
           Welcome to<br />
