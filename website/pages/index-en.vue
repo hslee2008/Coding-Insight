@@ -129,7 +129,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .titleDiv {
   background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHl0aG9uJTIwY29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
   margin: 0 !important;

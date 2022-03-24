@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "generate": "clear && npm run clean && nuxt generate --modern=server && clear",
+    "generate": "clear && npm run clean && nuxt generate --modern=server",
     "clean": "npx prettier --write . && git add --all"
   },
   "dependencies": {

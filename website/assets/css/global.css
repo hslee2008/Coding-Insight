@@ -5,7 +5,7 @@ html {
 }
 
 code {
-  border-left: 2px solid #087EA4;
+  border-left: 2px solid #087ea4;
   font-family: Menlo, Monaco, Consolas, Courier New, monospace;
   font-size: 15px;
   line-height: 1.6;
@@ -42,6 +42,6 @@ iframe {
 /* Specific */
 
 ::selection {
-  background-color: #087EA4;
+  background-color: #087ea4;
   color: #fff;
 }

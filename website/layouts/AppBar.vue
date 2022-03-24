@@ -24,11 +24,13 @@
             :color="$vuetify.theme.dark ? '#23272F' : 'white'"
           >
             <v-img
-              v-if="$vuetify.theme.dark"
-              :src="require('~/assets/svg/dark.svg')"
+              :src="
+                require(`~/assets/svg/${
+                  $vuetify.theme.dark ? 'dark' : 'light'
+                }.svg`)
+              "
               alt="SVG Logo"
             />
-            <img v-else src="~/assets/svg/white.svg" alt="SVG Logo" />
           </v-btn>
         </template>
         <span>Coding-Insight (Home)</span>

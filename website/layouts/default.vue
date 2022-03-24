@@ -16,7 +16,7 @@
           <v-img
             :src="
               require(`~/assets/svg/${
-                $vuetify.theme.dark ? 'dark' : 'white'
+                $vuetify.theme.dark ? 'dark' : 'light'
               }.svg`)
             "
             alt="SVG Logo"
