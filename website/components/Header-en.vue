@@ -4,7 +4,9 @@
 
     <div
       class="text-center my-15 pa-6 rounded-lg"
-      style="background-color: #343b47"
+      :style="
+        'background-color: ' + ($vuetify.theme.dark ? '#343b47' : 'white')
+      "
     >
       <v-btn
         aria-label="Coding Insight Button"
@@ -49,11 +51,7 @@ export default {
     speak() {
       try {
         if (this.notspeaking) {
-          const a = new SpeechSynthesisUtterance(
-            document.body.innerText.substring(
-              document.body.innerText.indexOf('Read') + 4,
-            ),
-          );
+          const a = new SpeechSynthesisUtterance(document.body.innerText);
           a.lang = 'ko-kr';
           speechSynthesis.speak(a);
         } else {
@@ -61,7 +59,7 @@ export default {
         }
       } catch (err) {
         alert(
-          ':( SpeechSynthesis API is not supported in your browser (Legacy)',
+          ':( SpeechSynthesis API is not supported in your browser (Legacy)'
         );
       }
 

@@ -7,7 +7,7 @@
     :color="$vuetify.theme.dark ? '#23272F' : 'white'"
     elevate-on-scroll
   >
-    <v-btn icon @click="changeDrawerMobile">
+    <v-btn aria-label="Mobile Drawer" icon @click="changeDrawerMobile">
       <v-icon>mdi-menu</v-icon>
     </v-btn>
 
@@ -40,11 +40,14 @@
     <v-btn
       aria-label="Coding Insight Button"
       icon
-      fab
       small
-      @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark"
+      @click="$vuetify.theme.dark = !$vuetify.theme.dark"
     >
-      <v-icon>mdi-theme-light-dark</v-icon>
+      <v-icon
+        >mdi-{{
+          $vuetify.theme.dark ? 'white-balance-sunny' : 'weather-night'
+        }}</v-icon
+      >
     </v-btn>
 
     <v-menu
@@ -93,7 +96,7 @@ export default {
         this.$nuxt.$route.path.includes('english') ||
           this.$nuxt.$route.path.includes('-en')
           ? '/index-en'
-          : '/',
+          : '/'
       );
     },
     toEnglish() {
@@ -133,17 +136,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.to-show {
-  display: none;
-}
-@media screen and (max-width: 686px) {
-  .to-hide {
-    display: none;
-  }
-  .to-show {
-    display: block;
-  }
-}
-</style>

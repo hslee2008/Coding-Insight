@@ -275,7 +275,7 @@ export default {
 
       scorePct.innerHTML = `${points} 점`;
       document.querySelector(
-        '.scoreText2',
+        '.scoreText2'
       ).innerHTML = `${questions.length}개 중 ${correctAnswers} 맞았습니다.`;
 
       scoreArea.style.display = 'block';

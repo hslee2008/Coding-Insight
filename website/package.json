@@ -4,19 +4,17 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "generate": "nuxt generate",
+    "generate": "clear && npm run clean && nuxt generate --modern=server && clear",
     "clean": "npx prettier --write . && git add --all"
   },
   "dependencies": {
     "core-js": "^3.21.0",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
-    "vue-server-renderer": "^2.6.14",
     "vuetify": "^2.6.3",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sitemap": "^2.4.0",

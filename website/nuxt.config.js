@@ -110,12 +110,7 @@ export default {
   },
 
   // https://go.nuxtjs.dev/config-modules
-  modules: [
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-    '@nuxtjs/sitemap',
-    '@nuxtjs/robots',
-  ],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap', '@nuxtjs/robots'],
 
   sitemap: {
     hostname: 'https://www.coding-insight.com',
@@ -139,12 +134,6 @@ export default {
       Disallow: '/',
     },
   ],
-
-  // https://go.nuxtjs.dev/config-axios
-  axios: {
-    // https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
-  },
 
   loading: {
     color: 'skyblue',
@@ -182,9 +171,9 @@ export default {
       ],
       theme_color: '#23272F',
       background_color: '#23272F',
-      display: 'minimal-ui',
-      scope: './',
-      start_url: './',
+      display: 'fullscreen',
+      scope: '/',
+      start_url: '/',
       prefer_related_applications: false,
       related_applications: [
         {
@@ -217,12 +206,7 @@ export default {
       screenshots: [
         {
           src: '/pwa/screenshot-home.png',
-          sizes: '1920x897',
-          type: 'image/png',
-        },
-        {
-          src: '/pwa/screenshot-mobile-home.png',
-          sizes: '460x788',
+          sizes: '1917x900',
           type: 'image/png',
         },
       ],

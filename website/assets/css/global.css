@@ -5,7 +5,7 @@ html {
 }
 
 code {
-  border-left: 2px solid #087ea4;
+  border-left: 2px solid #087EA4;
   font-family: Menlo, Monaco, Consolas, Courier New, monospace;
   font-size: 15px;
   line-height: 1.6;
@@ -29,12 +29,6 @@ iframe {
   margin-bottom: 1.6em;
 }
 
-.quiz {
-  background-color: rgb(101, 100, 100);
-  padding: 10px;
-  border-radius: 5px;
-}
-
 /*Theme*/
 
 .theme--dark.v-application {
@@ -43,4 +37,11 @@ iframe {
 
 .theme--light.v-application {
   background-color: var(--v-background-base, rgb(243, 243, 243)) !important;
+}
+
+/* Specific */
+
+::selection {
+  background-color: #087EA4;
+  color: #fff;
 }

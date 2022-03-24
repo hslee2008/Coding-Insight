@@ -1,19 +1,14 @@
 <template>
   <v-card class="transparent mb-15 mt-15">
     <v-card-actions>
-      <v-btn
-        aria-label="Coding Insight Button"
-        :to="!bef.startsWith('/') ? './' + bef : bef"
-        outlined
-        ripple
-      >
-        <v-icon left> mdi-menu-left </v-icon>Back
+      <v-btn v-if="!single" aria-label="Back" :to="bef" ripple color="primary">
+        <v-icon left> mdi-menu-left </v-icon> Back
       </v-btn>
 
       <v-spacer />
 
-      <v-btn aria-label="Coding Insight Button" :to="aft" outlined ripple>
-        Next<v-icon right> mdi-menu-right</v-icon>
+      <v-btn aria-label="Next" :to="aft" ripple color="primary">
+        Next <v-icon right> mdi-menu-right</v-icon>
       </v-btn>
     </v-card-actions>
   </v-card>
@@ -22,6 +17,6 @@
 <script>
 export default {
   name: 'Navigation',
-  props: ['bef', 'aft'],
+  props: ['bef', 'aft', 'single'],
 };
 </script>

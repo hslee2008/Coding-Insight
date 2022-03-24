@@ -154,6 +154,7 @@
           icon
           @click="MobileDrawer = !MobileDrawer"
           class="pa-5"
+          color="error"
         >
           <v-icon>mdi-close</v-icon>
         </v-btn>
@@ -186,7 +187,7 @@
 
           <v-tabs-items
             v-model="tab"
-            class="py-3"
+            class="pa-10"
             :style="
               'background-color: ' +
               ($vuetify.theme.dark ? '#23272F' : '#f5f5f5')
@@ -293,18 +294,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.to-show {
-  display: none;
-}
-
-@media screen and (max-width: 686px) {
-  .to-hide {
-    display: none;
-  }
-  .to-show {
-    display: block;
-  }
-}
-</style>

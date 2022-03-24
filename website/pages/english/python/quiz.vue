@@ -289,7 +289,7 @@ export default {
 
       scorePct.innerHTML = `${points} 점`;
       document.querySelector(
-        '.scoreText2',
+        '.scoreText2'
       ).innerHTML = `${correctAnswers} out of ${questions.length}`;
 
       scoreArea.style.display = 'block';

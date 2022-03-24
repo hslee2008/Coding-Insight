@@ -93,7 +93,9 @@
         rounded
         class="mx-auto my-auto"
       >
-        <GlobalImage src="https://avatars.githubusercontent.com/u/87412592?v=4" />
+        <GlobalImage
+          src="https://avatars.githubusercontent.com/u/87412592?v=4"
+        />
       </v-list-item-avatar>
     </v-list-item>
 
@@ -126,7 +128,9 @@
         rounded
         class="mx-auto my-auto"
       >
-        <GlobalImage src="https://avatars.githubusercontent.com/u/87595094?v=4" />
+        <GlobalImage
+          src="https://avatars.githubusercontent.com/u/87595094?v=4"
+        />
       </v-list-item-avatar>
     </v-list-item>
 

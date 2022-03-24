@@ -4,16 +4,3 @@
     justify-content: initial;
   }
 }
-
-.to-show {
-  display: none;
-}
-
-@media screen and (max-width: 390px) {
-  .to-hide {
-    display: none;
-  }
-  .to-show {
-    display: block;
-  }
-}

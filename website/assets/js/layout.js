@@ -1586,5 +1586,10 @@ export default {
       title: '클로져',
       to: '/korean/rust/closure',
     },
+    {
+      icon: 'sim',
+      title: '모듈',
+      to: '/korean/rust/module',
+    },
   ],
 };

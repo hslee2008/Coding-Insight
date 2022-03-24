@@ -939,7 +939,7 @@ const layout = {
   ],
 };
 
-export function activate(context: vscode.ExtensionContext) {
+export async function activate(context: vscode.ExtensionContext) {
   let searchCodingInsight = vscode.commands.registerCommand(
       'python-factory-web-search.searchCodingInsight',
       async () => {
@@ -961,8 +961,8 @@ export function activate(context: vscode.ExtensionContext) {
       },
     );
 
-  context.subscriptions.push(searchCodingInsight);
-  context.subscriptions.push(searchCodingInsightEN);
+  await context.subscriptions.push(searchCodingInsight);
+  await context.subscriptions.push(searchCodingInsightEN);
 }
 
 export function deactivate() {}

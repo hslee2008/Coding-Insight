@@ -1,4 +1,5 @@
-# What is this directory?
-
-1. Manage all the default Nuxt files for website
-2. Manage all the files that contains text for site
+# Links
+https://materialdesignicons.com/
+http://localhost:3000/
+https://vuetifyjs.com/en/
+https://nuxtjs.org/

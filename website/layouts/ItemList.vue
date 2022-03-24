@@ -1,5 +1,5 @@
 <template>
-  <v-expansion-panel>
+  <v-expansion-panel style="background-color: rgb(0, 0, 0, 0)">
     <v-expansion-panel-header>{{ title }}</v-expansion-panel-header>
 
     <v-expansion-panel-content>
