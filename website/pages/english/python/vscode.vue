@@ -425,7 +425,7 @@
       </div>
     </v-bottom-sheet>
 
-    <Header-en type="Python" num="3" title="VSCode Installation"></Header-en>
+    <Header-en type="Python" num="3" title="VSCode Installation" />
 
     <v-btn
       aria-label="Coding Insight Button"

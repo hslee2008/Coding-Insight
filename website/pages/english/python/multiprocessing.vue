@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="76" title="Multiprocessing"></Header-en>
+    <Header-en type="Python" num="76" title="Multiprocessing" />
 
     <div>
       <div>

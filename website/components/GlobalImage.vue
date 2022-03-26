@@ -3,7 +3,8 @@
     :src="src"
     :max-width="maxWidth"
     alt="Coding-Insight Image"
-    :class="(!noMargin ? 'mx-3 my-3 ' : '') + 'rounded-lg'"
+    class="rounded-lg"
+    style="margin-bottom: 15px !important"
   >
     <template v-slot:placeholder>
       <v-row class="fill-height ma-0" align="center" justify="center">

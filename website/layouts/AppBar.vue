@@ -1,14 +1,27 @@
 <template>
   <v-app-bar
-    fixed
+    :fixed="fixed"
     dense
-    clipped-left
-    app
     :color="$vuetify.theme.dark ? '#23272F' : 'white'"
     elevate-on-scroll
   >
-    <v-btn aria-label="Mobile Drawer" icon @click="changeDrawerMobile">
+    <v-btn
+      v-if="!MobileDrawer"
+      aria-label="Mobile Drawer"
+      icon
+      @click="changeDrawerMobile"
+    >
       <v-icon>mdi-menu</v-icon>
+    </v-btn>
+    <v-btn
+      v-else
+      aria-label="Coding Insight Button"
+      icon
+      @click="changeDrawerMobile"
+      class="pa-5"
+      color="primary"
+    >
+      <v-icon>mdi-close</v-icon>
     </v-btn>
 
     <v-spacer />
@@ -86,7 +99,7 @@
 <script>
 export default {
   name: 'AppHeader',
-  props: ['changeDrawer', 'changeDrawerMobile'],
+  props: ['changeDrawer', 'changeDrawerMobile', 'MobileDrawer', 'fixed'],
   data() {
     return {
       sheet: false,

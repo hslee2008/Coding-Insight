@@ -6,7 +6,7 @@
       <div>
         <h2>stack 사용하기</h2>
         <p>
-          stack은 <kbd>stack&lt;데이터형태></kbd> 형태로 선언하면 됩니다.<br /><br />
+          stack은 <kbd>stack&lt;데이터형태</kbd> 형태로 선언하면 됩니다.<br /><br />
 
           데이터를 추가하기 위해서 push()를 사용하세요.<br /><br />
 

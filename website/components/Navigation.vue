@@ -1,13 +1,20 @@
 <template>
-  <v-card class="transparent mb-15 mt-15">
+  <v-card class="transparent my-15">
     <v-card-actions>
-      <v-btn v-if="!single" aria-label="Back" :to="bef" ripple color="primary">
+      <v-btn
+        v-if="!single"
+        aria-label="Back"
+        :to="bef"
+        ripple
+        outlined
+        color="primary"
+      >
         <v-icon left> mdi-menu-left </v-icon> Back
       </v-btn>
 
       <v-spacer />
 
-      <v-btn aria-label="Next" :to="aft" ripple color="primary">
+      <v-btn aria-label="Next" :to="aft" ripple outlined color="primary">
         Next <v-icon right> mdi-menu-right</v-icon>
       </v-btn>
     </v-card-actions>

@@ -5,7 +5,7 @@
     <div
       class="text-center my-15 pa-6 rounded-lg"
       :style="
-        'background-color: ' + ($vuetify.theme.dark ? '#343b47' : 'white')
+        'background-color: ' + ($vuetify.theme.dark ? '#343b47' : '#F7F6F9')
       "
     >
       <v-btn
@@ -25,7 +25,7 @@
         {{ title }}
       </h1>
       <h2 class="font-weight-thin">
-        <span v-if="!$vuetify.breakpoint.mobile">Computer Science Lab -</span>
+        <span v-if="!$vuetify.breakpoint.sm">Computer Science Lab -</span>
 
         {{ num }}
       </h2>

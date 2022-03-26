@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="5" title="Variable"></Header-en>
+    <Header-en type="Python" num="5" title="Variable" />
 
     <div>
       <div>
@@ -164,8 +164,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

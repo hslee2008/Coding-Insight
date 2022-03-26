@@ -4,6 +4,10 @@ export default {
     dir: '../public_html/',
     devtools: true,
   },
+  cache: {
+    max: 10000,
+    maxAge: 9000000,
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     htmlAttrs: {
@@ -92,9 +96,6 @@ export default {
     '~/assets/css/scrollbar.css',
   ],
 
-  // https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/vuetify.js'],
-
   // https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -109,8 +110,17 @@ export default {
     },
   },
 
+  axios: {
+    baseUrl: '/',
+  },
+
   // https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap', '@nuxtjs/robots'],
+  modules: [
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    '@nuxtjs/axios',
+  ],
 
   sitemap: {
     hostname: 'https://www.coding-insight.com',
@@ -274,6 +284,29 @@ export default {
 
   vuetify: {
     customVariables: ['~/assets/sass/variables.scss'],
+    theme: {
+      dark: true,
+      themes: {
+        dark: {
+          primary: '#149ECA',
+          secondary: '#b0bec5',
+          info: '#2196F3',
+          accent: '#293540',
+          success: '#4CAF50',
+          warning: '#FFC107',
+          error: '#b71c1c',
+        },
+        light: {
+          primary: '#097EA5',
+          secondary: '#b0bec5',
+          info: '#2196F3',
+          accent: '#E6F7FF',
+          success: '#4CAF50',
+          warning: '#FFC107',
+          error: '#b71c1c',
+        },
+      },
+    },
     treeShake: true,
   },
 

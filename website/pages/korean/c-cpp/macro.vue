@@ -27,7 +27,7 @@
 
           매크로는 파일 안의 이름 대신 사용할 값을 지정합니다.<br /><br />
 
-          <kbd>#define &lt;VAR_NAME> &lt;VAR_VALUE></kbd> 형태를 가지고
+          <kbd>#define &lt;VAR_NAME> &lt;VAR_VALUE</kbd> 형태를 가지고
           있습니다.<br /><br />
 
           참고로 매크로의 이름은 다 대문자로 하는 것이 좋습니다.<br /><br />
@@ -71,7 +71,7 @@
       <div>
         <h2>매크로 삭제 - #undef</h2>
         <p>
-          <kbd>#undef &lt;이름></kbd> 형태로 매크로 변수를 삭제합니다.<br /><br />
+          <kbd>#undef &lt;이름</kbd> 형태로 매크로 변수를 삭제합니다.<br /><br />
 
           <code>
             #define MFM 200<br /><br />

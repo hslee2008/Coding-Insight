@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="86" title="Auto Zoom"></Header-en>
+    <Header-en type="Python" num="86" title="Auto Zoom" />
 
     <div class="text-center">
       <h2>Code</h2>

@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="55" title="String as code"></Header-en>
+    <Header-en type="Python" num="55" title="String as code" />
 
     <div>
       <div>

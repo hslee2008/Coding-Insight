@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="54" title="Data Type Change"></Header-en>
+    <Header-en type="Python" num="54" title="Data Type Change" />
 
     <div>
       <div>
@@ -129,7 +129,7 @@
       :items="items"
       :items-per-page="10"
       class="elevation-1"
-    ></v-data-table>
+    />
 
     <QuadSpace />
 

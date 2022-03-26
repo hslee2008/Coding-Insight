@@ -46,10 +46,11 @@
 
         <code> print(type("안녕")) </code>
 
-        <code>&lt;class 'str'></code>은 "안녕"이 str 데이터 변수(str은
+        <code>&lt;class 'str'</code>은 "안녕"이 str 데이터 변수(str은
         문자입니다)라는 것을 알려줍니다.
       </p>
     </div>
+
     <iframe
       src="https://trinket.io/embed/python/1068ac5668"
       width="100%"
@@ -106,8 +107,8 @@
     <v-card>
       <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

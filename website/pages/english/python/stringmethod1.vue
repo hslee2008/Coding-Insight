@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="9" title="String Method 1"></Header-en>
+    <Header-en type="Python" num="9" title="String Method 1" />
 
     <div>
       <div>
@@ -146,8 +146,8 @@
     <v-card>
       <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

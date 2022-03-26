@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="7" title="Comment"></Header-en>
+    <Header-en type="Python" num="7" title="Comment" />
 
     <div>
       <h2>When to use comment?</h2>
@@ -95,8 +95,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

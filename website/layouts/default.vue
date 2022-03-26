@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-navigation-drawer
+      v-show="!$vuetify.breakpoint.mobile"
       v-model="ComputerDrawer"
       app
       width="300"
@@ -99,7 +100,7 @@
             v-for="(langItems, index) in [python_items, c_items, rust_items]"
             :key="index"
           >
-            <v-expansion-panels accordion>
+            <v-expansion-panels flat accordion>
               <ItemList
                 v-for="item in langItems"
                 :key="item.titleen"
@@ -147,81 +148,69 @@
       </v-footer>
     </v-navigation-drawer>
 
-    <v-dialog v-model="MobileDrawer" fullscreen>
-      <v-card :color="$vuetify.theme.dark ? '#23272F' : '#F5F5F5'">
-        <v-btn
-          aria-label="Coding Insight Button"
-          icon
-          @click="MobileDrawer = !MobileDrawer"
-          class="pa-5"
-          color="error"
-        >
-          <v-icon>mdi-close</v-icon>
-        </v-btn>
-
-        <v-tabs v-model="tab" grow>
-          <v-tab
-            :style="
-              'background-color: ' +
-              ($vuetify.theme.dark ? '#23272F' : '#f5f5f5')
-            "
-          >
-            Python
-          </v-tab>
-          <v-tab
-            :style="
-              'background-color: ' +
-              ($vuetify.theme.dark ? '#23272F' : '#f5f5f5')
-            "
-          >
-            C/C++
-          </v-tab>
-          <v-tab
-            :style="
-              'background-color: ' +
-              ($vuetify.theme.dark ? '#23272F' : '#f5f5f5')
-            "
-          >
-            Rust
-          </v-tab>
-
-          <v-tabs-items
-            v-model="tab"
-            class="pa-10"
-            :style="
-              'background-color: ' +
-              ($vuetify.theme.dark ? '#23272F' : '#f5f5f5')
-            "
-          >
-            <v-tab-item
-              v-for="(langItems, index) in [python_items, c_items, rust_items]"
-              :key="index"
-            >
-              <v-expansion-panels accordion>
-                <ItemList
-                  v-for="item in langItems"
-                  :key="item.titleen"
-                  :titleen="item.titleen"
-                  :titlekr="item.titlekr"
-                  :json="item.json"
-                  :close="closeDrawerTwo"
-                />
-              </v-expansion-panels>
-            </v-tab-item>
-          </v-tabs-items>
-        </v-tabs>
-      </v-card>
-    </v-dialog>
-
     <AppBar
-      v-if="$vuetify.breakpoint.mobile"
+      v-if="$vuetify.breakpoint.mobile && !MobileDrawer"
       :changeDrawer="changeDrawer"
       :changeDrawerMobile="changeDrawerMobile"
+      :MobileDrawer="MobileDrawer"
+      :fixed="true"
     />
 
-    <v-main>
+    <v-card
+      v-if="MobileDrawer"
+      :color="$vuetify.theme.dark ? '#23272F' : 'white'"
+    >
+      <AppBar
+        v-if="$vuetify.breakpoint.mobile"
+        :changeDrawer="changeDrawer"
+        :changeDrawerMobile="changeDrawerMobile"
+        :MobileDrawer="MobileDrawer"
+        :fixed="false"
+      />
+
+      <v-tabs v-model="tab" grow>
+        <v-tab
+          v-for="it in ['Python', 'C/C++', 'Rust']"
+          :key="it"
+          ripple
+          :style="
+            'background-color: ' + ($vuetify.theme.dark ? '#23272F' : 'white')
+          "
+        >
+          {{ it }}
+        </v-tab>
+
+        <v-tabs-items
+          v-model="tab"
+          class="pa-5"
+          :style="
+            'background-color: ' + ($vuetify.theme.dark ? '#23272F' : 'white')
+          "
+        >
+          <v-tab-item
+            v-for="(langItems, index) in [python_items, c_items, rust_items]"
+            :key="index"
+          >
+            <v-expansion-panels hover flat accordion>
+              <ItemList
+                v-for="item in langItems"
+                :key="item.titleen"
+                :titleen="item.titleen"
+                :titlekr="item.titlekr"
+                :json="item.json"
+                :close="closeDrawerTwo"
+              />
+            </v-expansion-panels>
+          </v-tab-item>
+        </v-tabs-items>
+      </v-tabs>
+    </v-card>
+
+    <v-main v-else>
       <v-container>
         <Nuxt />
+
+        <br /><br />
       </v-container>
     </v-main>
   </v-app>

@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="Proj - 1" title="Madlibs Game"></Header-en>
+    <Header-en type="Python" num="Proj - 1" title="Madlibs Game" />
 
     <div>
       <div class="mx-auto my-auto">

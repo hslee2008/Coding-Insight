@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="61" title="Error Handling"></Header-en>
+    <Header-en type="Python" num="61" title="Error Handling" />
 
     <div>
       <div>

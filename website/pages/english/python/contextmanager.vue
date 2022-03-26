@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="53" title="Context Manager"></Header-en>
+    <Header-en type="Python" num="53" title="Context Manager" />
 
     <div>
       <div>

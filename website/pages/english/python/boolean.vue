@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="13" title="Boolean"></Header-en>
+    <Header-en type="Python" num="13" title="Boolean" />
 
     <div>
       <div class="mx-auto my-auto">
@@ -132,8 +132,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

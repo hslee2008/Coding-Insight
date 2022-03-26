@@ -1,14 +1,14 @@
 <template>
   <div id="quiz">
     <div class="progress">
-      <div class="progress--bar"></div>
+      <div class="progress--bar" />
     </div>
 
     <h2>Quiz</h2>
 
     <div class="questionArea">
       <div class="question">...</div>
-      <div class="options"></div>
+      <div class="options" />
     </div>
 
     <div class="scoreArea">

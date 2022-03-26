@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="22" title="Dictionary Method"></Header-en>
+    <Header-en type="Python" num="22" title="Dictionary Method" />
 
     <div>
       <div>

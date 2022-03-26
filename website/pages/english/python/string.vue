@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="8" title="String"></Header-en>
+    <Header-en type="Python" num="8" title="String" />
 
     <div>
       <div class="mx-auto my-auto">
@@ -178,8 +178,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

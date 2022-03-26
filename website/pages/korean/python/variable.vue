@@ -172,8 +172,8 @@
     <v-card>
       <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 
@@ -348,14 +348,14 @@
           />
           <label for="question-5-answers-D"> delete() </label>
         </div>
-        <QuadSpace
-      /></v-card-text>
+        <QuadSpace />
+      </v-card-text>
 
       <v-card-actions>
         <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

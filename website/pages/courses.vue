@@ -37,7 +37,7 @@
           <v-btn
             aria-label="Coding Insight Button"
             color="primary"
-            class="ml-2 to-hide"
+            class="ml-2"
             to="/korean/python/quiz"
           >
             <h5 style="font-size: 15px">퀴즈</h5>

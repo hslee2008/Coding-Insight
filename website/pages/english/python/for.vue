@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="34" title="For Loop"></Header-en>
+    <Header-en type="Python" num="34" title="For Loop" />
 
     <div>
       <div>

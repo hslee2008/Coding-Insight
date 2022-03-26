@@ -33,7 +33,7 @@
       />
     </div>
 
-    <Header-en type="Python" title="Tuple" num="24"></Header-en>
+    <Header-en type="Python" title="Tuple" num="24" />
 
     <div>
       <div>

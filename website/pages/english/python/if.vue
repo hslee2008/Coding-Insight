@@ -45,7 +45,7 @@
       />
     </div>
     <QuadSpace />
-    <Header-en type="Python" title="If Statement" num="26"></Header-en>
+    <Header-en type="Python" title="If Statement" num="26" />
 
     <div>
       <div>

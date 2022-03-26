@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="92" title="gTTS"></Header-en>
+    <Header-en type="Python" num="92" title="gTTS" />
 
     <div>
       <div class="mx-auto my-auto">

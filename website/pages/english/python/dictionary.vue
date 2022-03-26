@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="21" title="Dictionary"></Header-en>
+    <Header-en type="Python" num="21" title="Dictionary" />
 
     <div>
       <div>
@@ -96,8 +96,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="10" title="String Method 2"></Header-en>
+    <Header-en type="Python" num="10" title="String Method 2" />
 
     <div>
       <div class="mx-auto my-auto">
@@ -130,8 +130,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

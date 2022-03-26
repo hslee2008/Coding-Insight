@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="84" title="Coroutine"></Header-en>
+    <Header-en type="Python" num="84" title="Coroutine" />
 
     <div>
       <div>

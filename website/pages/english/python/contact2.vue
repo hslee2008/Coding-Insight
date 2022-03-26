@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="Proj: 8" title="Friend List v2"></Header-en>
+    <Header-en type="Python" num="Proj: 8" title="Friend List v2" />
 
     <div>
       <h2>Explanation</h2>

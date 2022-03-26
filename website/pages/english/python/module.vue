@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="40" title="Module"></Header-en>
+    <Header-en type="Python" num="40" title="Module" />
 
     <div>
       <div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="39" title="다양한 함수"></Header-en>
+    <Header-en type="Python" num="39" title="다양한 함수" />
 
     <div>
       <div>

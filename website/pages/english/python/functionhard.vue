@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <Header-en type="Python" num="30" title="Function (Advanced)"></Header-en>
+      <Header-en type="Python" num="30" title="Function (Advanced)" />
 
       <QuadSpace />
 
@@ -149,8 +149,8 @@
     <v-card>
       <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

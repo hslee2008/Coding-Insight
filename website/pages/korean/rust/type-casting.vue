@@ -12,7 +12,7 @@
           형태로 바꾸어야 합니다.<br /><br />
 
           그래서
-          <code class="inline-code">&lt;variable> as &lt;new-type></code> 형태로
+          <code class="inline-code">&lt;variable> as &lt;new-type</code> 형태로
           바꿔주면 됩니다.
         </p>
       </div>

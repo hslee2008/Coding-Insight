@@ -19,7 +19,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="72" title="__name__"></Header-en>
+    <Header-en type="Python" num="72" title="__name__" />
 
     <div>
       <div>

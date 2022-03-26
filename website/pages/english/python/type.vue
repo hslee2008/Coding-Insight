@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <Header-en type="Python" num="32" title="타입 지정"></Header-en>
+      <Header-en type="Python" num="32" title="타입 지정" />
 
       <QuadSpace />
 

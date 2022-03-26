@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="16" title="Numer Types"></Header-en>
+    <Header-en type="Python" num="16" title="Numer Types" />
 
     <div>
       <div>

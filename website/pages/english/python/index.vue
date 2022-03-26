@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="1" title="Definition of Python"></Header-en>
+    <Header-en type="Python" num="1" title="Definition of Python" />
 
     <div>
       <div>

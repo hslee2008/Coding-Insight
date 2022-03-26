@@ -1,10 +1,6 @@
 <template>
   <div>
-    <Header-en
-      type="Python"
-      num="52"
-      title="File making, deleting, encoding"
-    ></Header-en>
+    <Header-en type="Python" num="52" title="File making, deleting, encoding" />
 
     <div>
       <div>
@@ -79,8 +75,8 @@
     <v-card>
       <h2>Solve this quiz!!</h2>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

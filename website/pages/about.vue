@@ -16,7 +16,7 @@
         >
 
         <v-divider class="ml-4 mr-3" />
-        <v-spacer></v-spacer>
+        <v-spacer />
 
         <v-card-actions class="ml-2">
           <v-btn text href="https://www.youtube.com/watch?v=ya7Ud1tTpag">

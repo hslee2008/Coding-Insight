@@ -29,7 +29,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="11" title="Escacpe Character"></Header-en>
+    <Header-en type="Python" num="11" title="Escacpe Character" />
 
     <div>
       <div class="mx-auto my-auto">
@@ -140,8 +140,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
         <h3>How can we put new lines in ''?</h3>

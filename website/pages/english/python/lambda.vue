@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="33" title="Anonymous Function"></Header-en>
+    <Header-en type="Python" num="33" title="Anonymous Function" />
 
     <div>
       <div>

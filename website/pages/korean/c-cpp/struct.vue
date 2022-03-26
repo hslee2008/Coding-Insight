@@ -26,8 +26,8 @@
       <div>
         <h2>구조체 선언</h2>
         <p>
-          1. <kbd>struct &lt;struct 이름></kbd> 형태로
-          <kbd>&lt;struct 이름></kbd> 대신 구조체 이름을 넣으면 됩니다.<br />
+          1. <kbd>struct &lt;struct 이름</kbd> 형태로
+          <kbd>&lt;struct 이름</kbd> 대신 구조체 이름을 넣으면 됩니다.<br />
           2. {} 를 입력한 후 안에 필요한 변수를 저장합니다 (예:
           <kbd>char namPer[99]</kbd> 변수)<br />
           3. typedef를 이용해서 나만의 데이터 형태를 만듭니다.

@@ -1,10 +1,6 @@
 <template>
   <div>
-    <Header-en
-      type="Python"
-      num="81"
-      title="Additional Dunder Method"
-    ></Header-en>
+    <Header-en type="Python" num="81" title="Additional Dunder Method" />
 
     <div>
       <div>

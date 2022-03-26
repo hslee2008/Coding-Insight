@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="Proj: 8" title="Dice"></Header-en>
+    <Header-en type="Python" num="Proj: 8" title="Dice" />
 
     <div>
       <h2>Dice Program</h2>

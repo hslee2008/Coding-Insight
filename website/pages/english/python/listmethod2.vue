@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" title="List Method 2" num="20"></Header-en>
+    <Header-en type="Python" title="List Method 2" num="20" />
 
     <div>
       <div>
@@ -88,8 +88,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

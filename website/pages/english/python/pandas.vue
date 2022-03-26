@@ -21,7 +21,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="91" title="Pandas"></Header-en>
+    <Header-en type="Python" num="91" title="Pandas" />
 
     <div>
       <div>

@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="78" title="Request"></Header-en>
+    <Header-en type="Python" num="78" title="Request" />
 
     <div>
       <div>

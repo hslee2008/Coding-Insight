@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="38" title="Code in oneline"></Header-en>
+    <Header-en type="Python" num="38" title="Code in oneline" />
 
     <div>
       <div>

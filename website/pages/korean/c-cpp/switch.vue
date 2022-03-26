@@ -13,7 +13,7 @@
         </p>
       </div>
       <div class="mx-auto my-auto">
-        <v-switch v-model="switch1"></v-switch>
+        <v-switch v-model="switch1" />
       </div>
     </div>
 

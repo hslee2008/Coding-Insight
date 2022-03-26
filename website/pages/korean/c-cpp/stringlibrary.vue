@@ -16,7 +16,7 @@
           가지고 오려면 #include &lt;>를 사용해서 &lt;> 안에 라이브러리 이름을
           넣습니다.<br /><br />
 
-          <code>#include &lt;string.h></code>
+          <code>#include &lt;string.h</code>
         </p>
       </div>
       <div class="mx-auto my-auto">

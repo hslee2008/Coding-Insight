@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <Header-en type="Python" num="37" title="While Loop"></Header-en>
+      <Header-en type="Python" num="37" title="While Loop" />
 
       <QuadSpace />
 

@@ -27,7 +27,7 @@
 
       <br /><br />
 
-      <Header-en type="Python" num="4" title="Input & Output"></Header-en>
+      <Header-en type="Python" num="4" title="Input & Output" />
 
       <QuadSpace />
 
@@ -65,7 +65,7 @@
       <div>
         <div>
           <h2>print() with sep</h2>
-          <p></p>
+          <p />
           <p>
             If we print "Hello, World!", Python prints "Hello, World!".<br /><br />
 

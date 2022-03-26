@@ -32,7 +32,7 @@
 
           이제 abcdefghij 대신 mt를 사용해도 됩니다.<br /><br />
 
-          <kbd>typedef &lt;typename> &lt;namefortypename></kbd>
+          <kbd>typedef &lt;typename> &lt;namefortypename</kbd>
           형태입니다.<br /><br />
 
           <span class="badge badge-secondary" style="color: red"

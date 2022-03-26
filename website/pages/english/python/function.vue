@@ -24,7 +24,7 @@
       </div>
     </v-row>
 
-    <Header-en type="Python" num="29" title="Function"></Header-en>
+    <Header-en type="Python" num="29" title="Function" />
 
     <div>
       <div>
@@ -147,8 +147,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

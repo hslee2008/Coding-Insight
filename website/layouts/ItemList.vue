@@ -1,5 +1,7 @@
 <template>
-  <v-expansion-panel style="background-color: rgb(0, 0, 0, 0)">
+  <v-expansion-panel
+    :style="'background-color: ' + ($vuetify.theme.dark ? '#23272f' : 'white')"
+  >
     <v-expansion-panel-header>{{ title }}</v-expansion-panel-header>
 
     <v-expansion-panel-content>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" title="Number Method" num="17"></Header-en>
+    <Header-en type="Python" title="Number Method" num="17" />
 
     <div class="header-div bg-black text-white">
       <div>
@@ -36,8 +36,8 @@
     <v-card>
       <v-card-title>Solve This Quiz!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="42" title="Python Module"></Header-en>
+    <Header-en type="Python" num="42" title="Python Module" />
 
     <div>
       <div>

@@ -65,7 +65,7 @@
       <div>
         <h2>데이터 형태 종류</h2>
 
-        <v-treeview hoverable :items="items"></v-treeview>
+        <v-treeview hoverable :items="items" />
       </div>
       <div>
         <iframe

@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="63" title="Logging"></Header-en>
+    <Header-en type="Python" num="63" title="Logging" />
 
     <div>
       <div>

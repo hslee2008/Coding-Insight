@@ -47,8 +47,8 @@
     <v-card>
       <v-card-title>퀴즈 풀기!</v-card-title>
 
-      <v-card-text
-        ><v-divider />
+      <v-card-text>
+        <v-divider />
 
         <br /><br />
 
