@@ -114,7 +114,7 @@
 </template>
 
 <script>
-export default {
-  page: 'WhilePage',
-};
+  export default {
+    page: 'WhilePage',
+  };
 </script>

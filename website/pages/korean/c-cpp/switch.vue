@@ -120,11 +120,11 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      switch1: false,
-    };
-  },
-};
+  export default {
+    data() {
+      return {
+        switch1: false,
+      };
+    },
+  };
 </script>

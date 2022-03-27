@@ -115,7 +115,7 @@
 </template>
 
 <script>
-export default {
-  page: 'ThreadPage',
-};
+  export default {
+    page: 'ThreadPage',
+  };
 </script>

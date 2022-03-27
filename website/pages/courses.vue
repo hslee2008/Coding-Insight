@@ -123,10 +123,10 @@
 </template>
 
 <script>
-export default {
-  name: 'CoursesPage',
-  head: () => ({
-    title: 'Courses',
-  }),
-};
+  export default {
+    name: 'CoursesPage',
+    head: () => ({
+      title: 'Courses',
+    }),
+  };
 </script>

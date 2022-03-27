@@ -113,7 +113,7 @@
 </template>
 
 <script>
-export default {
-  page: 'MadLibPage',
-};
+  export default {
+    page: 'MadLibPage',
+  };
 </script>

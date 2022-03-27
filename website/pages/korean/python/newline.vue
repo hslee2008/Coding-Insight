@@ -43,7 +43,7 @@
 </template>
 
 <script>
-export default {
-  page: 'NewLinePage',
-};
+  export default {
+    page: 'NewLinePage',
+  };
 </script>

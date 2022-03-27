@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" title="None" num="24" />
+    <Header-en type="Python" title="None" num="26" />
 
     <div>
       <div>
@@ -32,7 +32,7 @@
 </template>
 
 <script>
-export default {
-  page: 'NonePage',
-};
+  export default {
+    page: 'NonePage',
+  };
 </script>

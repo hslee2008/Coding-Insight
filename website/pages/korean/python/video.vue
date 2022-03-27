@@ -458,23 +458,23 @@
 </template>
 
 <script defer>
-export default {
-  name: 'VideoPage',
-  data() {
-    return {
-      sheet: false,
-      sheet_1: false,
-      sheet_2: false,
-      sheet_3: false,
-      sheet_4: false,
-      sheet_5: false,
-    };
-  },
-};
+  export default {
+    name: 'VideoPage',
+    data() {
+      return {
+        sheet: false,
+        sheet_1: false,
+        sheet_2: false,
+        sheet_3: false,
+        sheet_4: false,
+        sheet_5: false,
+      };
+    },
+  };
 </script>
 
 <style>
-.divy > * {
-  margin: 15px;
-}
+  .divy > * {
+    margin: 15px;
+  }
 </style>

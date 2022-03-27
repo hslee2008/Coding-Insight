@@ -267,26 +267,26 @@
 </template>
 
 <script>
-export default {
-  name: 'StringMethod2',
-  methods: {
-    checkAnswer() {
-      if (document.getElementById('question-1-answers-A').checked) {
-        alert('1 ✔️!');
-      } else {
-        alert('1 ❌');
-      }
-      if (document.getElementById('question-2-answers-A').checked) {
-        alert('2 ✔️');
-      } else {
-        alert('2 ❌');
-      }
-      if (document.getElementById('question-3-answers-A').checked) {
-        alert('3 ✔️');
-      } else {
-        alert('3 ❌');
-      }
+  export default {
+    name: 'StringMethod2',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-1-answers-A').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+        if (document.getElementById('question-2-answers-A').checked) {
+          alert('2 ✔️');
+        } else {
+          alert('2 ❌');
+        }
+        if (document.getElementById('question-3-answers-A').checked) {
+          alert('3 ✔️');
+        } else {
+          alert('3 ❌');
+        }
+      },
     },
-  },
-};
+  };
 </script>

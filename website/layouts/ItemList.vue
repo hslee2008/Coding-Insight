@@ -27,36 +27,37 @@
 </template>
 
 <script>
-import PythonLinks from '~/assets/js/layout';
-import PythonLinksEN from '~/assets/js/layout_en';
+  import PythonLinks from '~/assets/js/layout';
+  import PythonLinksEN from '~/assets/js/layout_en';
 
-export default {
-  props: ['itemprops', 'titleen', 'titlekr', 'json', 'close'],
-  data() {
-    return {
-      items: {
-        ...PythonLinks,
-        ...PythonLinksEN,
-      },
-      title: this.isEnglish() ? this.titleen : this.titlekr,
-    };
-  },
-  methods: {
-    isEnglish() {
-      return (
-        this.$route.path.includes('english') || this.$route.path.includes('-en')
-      );
+  export default {
+    props: ['itemprops', 'titleen', 'titlekr', 'json', 'close'],
+    data() {
+      return {
+        items: {
+          ...PythonLinks,
+          ...PythonLinksEN,
+        },
+        title: this.isEnglish() ? this.titleen : this.titlekr,
+      };
     },
-  },
-};
+    methods: {
+      isEnglish() {
+        return (
+          this.$route.path.includes('english') ||
+          this.$route.path.includes('-en')
+        );
+      },
+    },
+  };
 </script>
 
 <style>
-.activeListDark {
-  background-color: #23272f;
-}
+  .activeListDark {
+    background-color: #23272f;
+  }
 
-.activeListLight {
-  background-color: #e6f7ff;
-}
+  .activeListLight {
+    background-color: #e6f7ff;
+  }
 </style>

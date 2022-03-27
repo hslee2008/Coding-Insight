@@ -101,7 +101,7 @@
 </template>
 
 <script>
-export default {
-  page: 'JsonPage',
-};
+  export default {
+    page: 'JsonPage',
+  };
 </script>

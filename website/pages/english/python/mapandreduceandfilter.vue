@@ -139,10 +139,10 @@
 </template>
 
 <script>
-export default {
-  page: 'MapAndReduceAndFilterPage',
-  head: () => ({
-    title: 'Map, Reduce, Filter',
-  }),
-};
+  export default {
+    page: 'MapAndReduceAndFilterPage',
+    head: () => ({
+      title: 'Map, Reduce, Filter',
+    }),
+  };
 </script>

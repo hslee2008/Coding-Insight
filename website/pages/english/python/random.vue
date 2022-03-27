@@ -126,7 +126,7 @@
 </template>
 
 <script>
-export default {
-  page: 'RandomPage',
-};
+  export default {
+    page: 'RandomPage',
+  };
 </script>

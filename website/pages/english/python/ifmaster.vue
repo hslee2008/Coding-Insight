@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="27" title="If Master" />
+    <Header-en type="Python" num="28" title="If Master" />
 
     <div>
       <div>
@@ -126,7 +126,7 @@
 </template>
 
 <script>
-export default {
-  page: 'IfMasterPage',
-};
+  export default {
+    page: 'IfMasterPage',
+  };
 </script>

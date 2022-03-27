@@ -112,7 +112,7 @@
 </template>
 
 <script>
-export default {
-  page: 'StringAsCodePage',
-};
+  export default {
+    page: 'StringAsCodePage',
+  };
 </script>

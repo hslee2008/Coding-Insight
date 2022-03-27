@@ -1030,7 +1030,7 @@ export default {
       to: '/korean/rust/if-let',
     },
   ],
-  rust_funcymod: [
+  rust_funcymodcrat: [
     {
       icon: 'function-variant',
       title: '함수',
@@ -1042,9 +1042,36 @@ export default {
       to: '/korean/rust/closure',
     },
     {
-      icon: 'sim',
+      icon: 'package-variant-closed',
       title: '모듈',
       to: '/korean/rust/module',
+    },
+    {
+      icon: 'package-variant',
+      title: 'pub 모듈',
+      to: '/korean/rust/pub',
+    },
+    {
+      icon: 'package-down',
+      title: '모듈 외부',
+      to: '/korean/rust/module_outer',
+    },
+    {
+      icon: 'typewriter',
+      title: 'use 키워드',
+      to: '/korean/rust/use',
+    },
+    {
+      icon: 'cog',
+      title: 'Cargo.toml 파일',
+      to: '/korean/rust/toml',
+    },
+  ],
+  rust_mody: [
+    {
+      icon: 'import',
+      title: '입력',
+      to: '/korean/rust/input',
     },
   ],
 };

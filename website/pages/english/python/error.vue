@@ -109,10 +109,10 @@
 </template>
 
 <script>
-export default {
-  name: 'ErrorPage',
-  head: () => ({
-    title: 'Error Handling',
-  }),
-};
+  export default {
+    name: 'ErrorPage',
+    head: () => ({
+      title: 'Error Handling',
+    }),
+  };
 </script>

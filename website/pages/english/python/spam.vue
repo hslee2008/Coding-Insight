@@ -60,7 +60,7 @@
 </template>
 
 <script>
-export default {
-  page: 'SpamPage',
-};
+  export default {
+    page: 'SpamPage',
+  };
 </script>

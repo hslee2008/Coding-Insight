@@ -247,21 +247,21 @@
 </template>
 
 <script>
-export default {
-  name: 'PrintPage',
-  methods: {
-    checkAnswer() {
-      if (document.getElementById('question-1-answers-B').checked) {
-        alert('1 ✔️!');
-      } else {
-        alert('1 ❌');
-      }
-      if (document.getElementById('question-2-answers-D').checked) {
-        alert('2 ✔️ :)');
-      } else {
-        alert('2 ❌');
-      }
+  export default {
+    name: 'PrintPage',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-1-answers-B').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+        if (document.getElementById('question-2-answers-D').checked) {
+          alert('2 ✔️ :)');
+        } else {
+          alert('2 ❌');
+        }
+      },
     },
-  },
-};
+  };
 </script>

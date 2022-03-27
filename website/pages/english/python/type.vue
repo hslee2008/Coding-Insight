@@ -89,7 +89,7 @@
 </template>
 
 <script>
-export default {
-  page: 'TypePage',
-};
+  export default {
+    page: 'TypePage',
+  };
 </script>

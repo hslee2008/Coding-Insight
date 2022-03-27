@@ -105,7 +105,7 @@
 </template>
 
 <script>
-export default {
-  page: 'PythonDecoratorPage',
-};
+  export default {
+    page: 'PythonDecoratorPage',
+  };
 </script>

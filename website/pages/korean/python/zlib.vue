@@ -139,7 +139,7 @@
 </template>
 
 <script>
-export default {
-  page: 'ZLibPage',
-};
+  export default {
+    page: 'ZLibPage',
+  };
 </script>

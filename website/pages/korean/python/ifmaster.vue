@@ -12,7 +12,7 @@
       />
     </div>
 
-    <Header type="파이썬" num="27" title="조건문 마스터" />
+    <Header type="파이썬" num="28" title="조건문 마스터" />
 
     <div>
       <div>
@@ -99,7 +99,7 @@
 </template>
 
 <script>
-export default {
-  page: 'IfMasterPage',
-};
+  export default {
+    page: 'IfMasterPage',
+  };
 </script>

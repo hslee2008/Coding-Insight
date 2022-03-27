@@ -1,5 +1,3 @@
-/*HTML style*/
-
 html {
   scroll-behavior: smooth;
 }
@@ -28,18 +26,6 @@ iframe {
   margin: 0 auto;
   margin-bottom: 1.6em;
 }
-
-/*Theme*/
-
-.theme--dark.v-application {
-  background-color: var(--v-background-base, #23272f) !important;
-}
-
-.theme--light.v-application {
-  background-color: var(--v-background-base, rgb(243, 243, 243)) !important;
-}
-
-/* Specific */
 
 ::selection {
   background-color: #087ea4;

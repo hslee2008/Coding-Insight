@@ -36,35 +36,35 @@
 </template>
 
 <script>
-export default {
-  name: 'HeaderPage',
-  props: ['title', 'num', 'type'],
-  data() {
-    return {
-      notspeaking: true,
-    };
-  },
-  mounted() {
-    document.title = `${this.type} ${this.title} - Coding-Insight`;
-  },
-  methods: {
-    speak() {
-      try {
-        if (this.notspeaking) {
-          const a = new SpeechSynthesisUtterance(document.body.innerText);
-          a.lang = 'ko-kr';
-          speechSynthesis.speak(a);
-        } else {
-          speechSynthesis.cancel();
-        }
-      } catch (err) {
-        alert(
-          ':( 당신의 디바이스의 브라우저에서 읽어주기 기능이 존재하지 않습니다.'
-        );
-      }
-
-      this.notspeaking = !this.notspeaking;
+  export default {
+    name: 'HeaderPage',
+    props: ['title', 'num', 'type'],
+    data() {
+      return {
+        notspeaking: true,
+      };
     },
-  },
-};
+    mounted() {
+      document.title = `${this.type} ${this.title} - Coding-Insight`;
+    },
+    methods: {
+      speak() {
+        try {
+          if (this.notspeaking) {
+            const a = new SpeechSynthesisUtterance(document.body.innerText);
+            a.lang = 'ko-kr';
+            speechSynthesis.speak(a);
+          } else {
+            speechSynthesis.cancel();
+          }
+        } catch (err) {
+          alert(
+            ':( 당신의 디바이스의 브라우저에서 읽어주기 기능이 존재하지 않습니다.',
+          );
+        }
+
+        this.notspeaking = !this.notspeaking;
+      },
+    },
+  };
 </script>

@@ -219,16 +219,16 @@
 </template>
 
 <script>
-export default {
-  name: 'TuplePage',
-  methods: {
-    checkAnswer() {
-      if (document.getElementById('question-2-answers-D').checked) {
-        alert('1 ✔️!');
-      } else {
-        alert('1 ❌');
-      }
+  export default {
+    name: 'TuplePage',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-2-answers-D').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+      },
     },
-  },
-};
+  };
 </script>

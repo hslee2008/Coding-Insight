@@ -287,7 +287,7 @@
 </template>
 
 <script>
-export default {
-  page: 'MatPlotLibPage',
-};
+  export default {
+    page: 'MatPlotLibPage',
+  };
 </script>

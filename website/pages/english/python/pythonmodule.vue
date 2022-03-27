@@ -67,7 +67,7 @@
 </template>
 
 <script>
-export default {
-  page: 'PythonModulePage',
-};
+  export default {
+    page: 'PythonModulePage',
+  };
 </script>

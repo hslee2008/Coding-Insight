@@ -65,7 +65,7 @@
 </template>
 
 <script>
-export default {
-  page: 'SpecialVariablePage',
-};
+  export default {
+    page: 'SpecialVariablePage',
+  };
 </script>

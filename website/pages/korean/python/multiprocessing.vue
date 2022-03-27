@@ -73,7 +73,7 @@
 </template>
 
 <script>
-export default {
-  page: 'MultiprocessingPage',
-};
+  export default {
+    page: 'MultiprocessingPage',
+  };
 </script>

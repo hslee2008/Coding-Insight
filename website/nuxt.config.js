@@ -90,10 +90,11 @@ export default {
   },
 
   css: [
-    '~/assets/css/global.css',
+    '~/assets/css/theme.css',
     '~/assets/css/transition.css',
     '~/assets/css/media.css',
     '~/assets/css/scrollbar.css',
+    '~/assets/css/component.css',
   ],
 
   // https://go.nuxtjs.dev/config-components
@@ -161,6 +162,38 @@ export default {
 
   //  https://go.nuxtjs.dev/pwa
   pwa: {
+    workbox: {
+      runtimeCaching: [
+        {
+          urlPattern: 'https://fonts.googleapis.com/.*',
+          handler: 'cacheFirst',
+          method: 'GET',
+          strategyOptions: {
+            cacheName: 'google-fonts-webfonts',
+            cacheExpiration: {
+              maxEntries: 60,
+              maxAgeSeconds: 60 * 60 * 24 * 365,
+            },
+          },
+        },
+        {
+          urlPattern: 'https://fonts.gstatic.com/.*',
+          handler: 'cacheFirst',
+          method: 'GET',
+          strategyOptions: {
+            cacheName: 'google-fonts-webfonts',
+            cacheExpiration: {
+              maxEntries: 60,
+              maxAgeSeconds: 60 * 60 * 24 * 365,
+            },
+          },
+        },
+      ],
+    },
+    meta: {
+      appleStatusBarStyle: 'black-translucent',
+      favicon: '/favicon.ico',
+    },
     manifest: {
       name: 'Coding-Insight',
       short_name: 'Coding-Insight',

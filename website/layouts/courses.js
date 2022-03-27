@@ -96,9 +96,14 @@ export default {
       json: 'rust_flow_control',
     },
     {
-      titleen: 'Rust Functions',
-      titlekr: 'Rust 함수와 모듈',
-      json: 'rust_funcymod',
+      titleen: 'Rust Functions, Module, Crate',
+      titlekr: 'Rust 함수, 모듈, Crate',
+      json: 'rust_funcymodcrat',
+    },
+    {
+      titleen: 'Rust Additional Features',
+      titlekr: 'Rust 추가 기능',
+      json: 'rust_mody',
     },
   ],
 };

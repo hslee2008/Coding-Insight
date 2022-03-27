@@ -108,7 +108,7 @@
 </template>
 
 <script>
-export default {
-  page: 'ListPage',
-};
+  export default {
+    page: 'ListPage',
+  };
 </script>

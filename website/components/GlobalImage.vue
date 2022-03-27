@@ -15,8 +15,8 @@
 </template>
 
 <script>
-export default {
-  name: 'GlobalImage',
-  props: ['src', 'maxWidth', 'noMargin'],
-};
+  export default {
+    name: 'GlobalImage',
+    props: ['src', 'maxWidth', 'noMargin'],
+  };
 </script>

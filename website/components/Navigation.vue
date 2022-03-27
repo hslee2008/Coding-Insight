@@ -15,15 +15,15 @@
       <v-spacer />
 
       <v-btn aria-label="Next" :to="aft" ripple outlined color="primary">
-        Next <v-icon right> mdi-menu-right</v-icon>
+        Next <v-icon right> mdi-menu-right </v-icon>
       </v-btn>
     </v-card-actions>
   </v-card>
 </template>
 
 <script>
-export default {
-  name: 'Navigation',
-  props: ['bef', 'aft', 'single'],
-};
+  export default {
+    name: 'Navigation',
+    props: ['bef', 'aft', 'single'],
+  };
 </script>

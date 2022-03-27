@@ -128,7 +128,7 @@
 </template>
 
 <script>
-export default {
-  page: 'MapAndReduceAndFilterPage',
-};
+  export default {
+    page: 'MapAndReduceAndFilterPage',
+  };
 </script>

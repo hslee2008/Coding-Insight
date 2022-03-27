@@ -54,7 +54,7 @@
 </template>
 
 <script>
-export default {
-  page: 'KeyboardPage',
-};
+  export default {
+    page: 'KeyboardPage',
+  };
 </script>

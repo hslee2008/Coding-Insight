@@ -205,7 +205,7 @@
 </template>
 
 <script>
-export default {
-  page: 'PandasPage',
-};
+  export default {
+    page: 'PandasPage',
+  };
 </script>

@@ -138,48 +138,48 @@
 </template>
 
 <script>
-export default {
-  name: 'DataChangePage',
-  data() {
-    return {
-      headers: [
-        {
-          text: 'Data Change',
-          align: 'start',
-          sortable: false,
-          value: 'name',
-        },
-        { text: 'How', value: 'how' },
-        { text: '(EX)', value: 'example' },
-      ],
-      items: [
-        {
-          name: 'List',
-          how: 'list(), slpit()',
-          example: 'list(a), a.split(" ")',
-        },
-        {
-          name: 'Tuple',
-          how: 'tuple()',
-          example: 'tuple(a)',
-        },
-        {
-          name: 'Number',
-          how: 'int(), float(), complex()',
-          example: 'int(a)',
-        },
-        {
-          name: 'Boolean',
-          how: 'bool()',
-          example: 'bool(a)',
-        },
-        {
-          name: 'String',
-          how: 'str()',
-          example: 'str(a)',
-        },
-      ],
-    };
-  },
-};
+  export default {
+    name: 'DataChangePage',
+    data() {
+      return {
+        headers: [
+          {
+            text: 'Data Change',
+            align: 'start',
+            sortable: false,
+            value: 'name',
+          },
+          { text: 'How', value: 'how' },
+          { text: '(EX)', value: 'example' },
+        ],
+        items: [
+          {
+            name: 'List',
+            how: 'list(), slpit()',
+            example: 'list(a), a.split(" ")',
+          },
+          {
+            name: 'Tuple',
+            how: 'tuple()',
+            example: 'tuple(a)',
+          },
+          {
+            name: 'Number',
+            how: 'int(), float(), complex()',
+            example: 'int(a)',
+          },
+          {
+            name: 'Boolean',
+            how: 'bool()',
+            example: 'bool(a)',
+          },
+          {
+            name: 'String',
+            how: 'str()',
+            example: 'str(a)',
+          },
+        ],
+      };
+    },
+  };
 </script>

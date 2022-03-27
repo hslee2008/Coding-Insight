@@ -40,9 +40,17 @@
         </v-btn>
 
         <v-menu
-          v-if="!$route.path.includes('rust') && !$route.path.includes('c-cpp')"
+          v-if="
+            !$nuxt.$route.path.includes('rust') &&
+            !$nuxt.$route.path.includes('c-cpp')
+          "
           open-on-hover
+          top
+          offset-y
+          auto
           close-on-click
+          rounded
+          transition="slide-y-transition"
         >
           <template #activator="{ on, attrs }">
             <v-btn
@@ -56,14 +64,27 @@
           </template>
 
           <v-list>
-            <v-list-item @click="toKorean">
+            <v-list-item @click.stop="toKorean">
               <v-list-item-title>한국어</v-list-item-title>
             </v-list-item>
-            <v-list-item @click="toEnglish">
+            <v-list-item @click.stop="toEnglish">
               <v-list-item-title>English</v-list-item-title>
             </v-list-item>
           </v-list>
         </v-menu>
+        <v-tooltip v-else bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn
+              aria-label="Coding Insight Button"
+              icon
+              v-bind="attrs"
+              v-on="on"
+            >
+              <v-icon>mdi-translate-off</v-icon>
+            </v-btn>
+          </template>
+          <span>No Translation</span>
+        </v-tooltip>
       </v-card-title>
 
       <v-tabs v-model="tab" grow>
@@ -146,6 +167,8 @@
 
         <div class="ml-auto">&copy; {{ new Date().getFullYear() }}</div>
       </v-footer>
+
+      <br /><br />
     </v-navigation-drawer>
 
     <AppBar
@@ -213,73 +236,102 @@
         <br /><br />
       </v-container>
     </v-main>
+
+    <v-snackbar
+      v-model="snackbar"
+      :timeout="4000"
+      :color="$vuetify.theme.dark ? '#23272F' : 'white'"
+      rounded
+    >
+      <v-card-text>
+        <v-icon class="mr-4" :color="$vuetify.theme.dark ? '#23272F' : 'white'">
+          mdi-information-outline
+        </v-icon>
+        <span> New Update! </span>
+      </v-card-text>
+      <template v-slot:action="{ attrs }">
+        <v-btn color="pink" text v-bind="attrs" @click="reload"> Reload </v-btn>
+      </template>
+    </v-snackbar>
   </v-app>
 </template>
 
 <script>
-import courses from './courses';
-import ItemList from './ItemList';
-import AppBar from './AppBar';
+  import courses from './courses';
+  import ItemList from './ItemList';
+  import AppBar from './AppBar';
 
-export default {
-  name: 'AppHeader',
-  components: {
-    ItemList,
-    AppBar,
-  },
-  data() {
-    return {
-      ComputerDrawer: false,
-      MobileDrawer: false,
-      tab: null,
+  export default {
+    name: 'AppHeader',
+    components: {
+      ItemList,
+      AppBar,
+    },
+    data() {
+      return {
+        ComputerDrawer: false,
+        MobileDrawer: false,
+        tab: null,
+        snackbar: false,
 
-      ...courses,
-    };
-  },
-  methods: {
-    changeDrawer() {
-      this.ComputerDrawer = !this.ComputerDrawer;
+        ...courses,
+      };
     },
-    changeDrawerMobile() {
-      this.MobileDrawer = !this.MobileDrawer;
+    methods: {
+      changeDrawer() {
+        this.ComputerDrawer = !this.ComputerDrawer;
+      },
+      changeDrawerMobile() {
+        this.MobileDrawer = !this.MobileDrawer;
+      },
+      closeDrawerTwo() {
+        this.MobileDrawer = false;
+      },
+      reload() {
+        window.location.reload();
+      },
+      toEnglish() {
+        switch ($nuxt.$route.path) {
+          case '/':
+            window.location = '/index-en';
+            break;
+          case '/index-en':
+            window.location = '/index-en';
+            break;
+          default:
+            window.location =
+              '/english/python' +
+              ($nuxt.$route.path === '/'
+                ? '/python'
+                : $nuxt.$route.path.replace('/korean/python', ''));
+            break;
+        }
+      },
+      toKorean() {
+        switch ($nuxt.$route.path) {
+          case '/':
+            window.location = '/';
+            break;
+          case '/index-en':
+            window.location = '/';
+            break;
+          default:
+            window.location =
+              '/korean/python' +
+              ($nuxt.$route.path === '/'
+                ? '/python'
+                : $nuxt.$route.path.replace('/english/python', ''));
+            break;
+        }
+      },
     },
-    closeDrawerTwo() {
-      this.MobileDrawer = false;
+    async mounted() {
+      let workbox = await window.$workbox;
+
+      if (workbox)
+        workbox.addEventListener('installed', event => {
+          if (event.isUpdate) this.snackbar = true;
+        });
     },
-    toEnglish() {
-      switch ($nuxt.$route.path) {
-        case '/':
-          window.location = '/index-en';
-          break;
-        case '/index-en':
-          window.location = '/index-en';
-          break;
-        default:
-          window.location =
-            '/english/python' +
-            ($nuxt.$route.path === '/'
-              ? '/python'
-              : $nuxt.$route.path.replace('/korean/python', ''));
-          break;
-      }
-    },
-    toKorean() {
-      switch ($nuxt.$route.path) {
-        case '/':
-          window.location = '/';
-          break;
-        case '/index-en':
-          window.location = '/';
-          break;
-        default:
-          window.location =
-            '/korean/python' +
-            ($nuxt.$route.path === '/'
-              ? '/python'
-              : $nuxt.$route.path.replace('/english/python', ''));
-          break;
-      }
-    },
-  },
-};
+  };
 </script>

@@ -108,7 +108,7 @@
 </template>
 
 <script>
-export default {
-  page: 'NumberTypePage',
-};
+  export default {
+    page: 'NumberTypePage',
+  };
 </script>

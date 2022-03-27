@@ -736,19 +736,19 @@
 </template>
 
 <script>
-export default {
-  name: 'VSCodePage',
-  data() {
-    return {
-      e3: 1,
-      e4: 1,
-      e5: 1,
-      e6: 1,
-      et: 1,
-      sheet1: false,
-      sheet2: false,
-      sheet3: false,
-    };
-  },
-};
+  export default {
+    name: 'VSCodePage',
+    data() {
+      return {
+        e3: 1,
+        e4: 1,
+        e5: 1,
+        e6: 1,
+        et: 1,
+        sheet1: false,
+        sheet2: false,
+        sheet3: false,
+      };
+    },
+  };
 </script>

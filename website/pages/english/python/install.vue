@@ -460,15 +460,15 @@
 </template>
 
 <script>
-export default {
-  name: 'InstallPage',
-  data() {
-    return {
-      e6: 1,
-      e5: 1,
-      sheet1: false,
-      sheet2: false,
-    };
-  },
-};
+  export default {
+    name: 'InstallPage',
+    data() {
+      return {
+        e6: 1,
+        e5: 1,
+        sheet1: false,
+        sheet2: false,
+      };
+    },
+  };
 </script>

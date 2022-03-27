@@ -121,7 +121,7 @@
 </template>
 
 <script>
-export default {
-  page: 'RequestPage',
-};
+  export default {
+    page: 'RequestPage',
+  };
 </script>

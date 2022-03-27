@@ -2,7 +2,7 @@
   <div>
     <br /><br />
 
-    <h1>pub 사용하기</h1>
+    <h2>pub 사용하기</h2>
     <p>
       쉽게 모듈 안에 함수를 선언할 때 pub를 fn 전에 붙이면 모듈 밖에서도 활용할
       수 있습니다.
@@ -14,9 +14,9 @@
       height="300"
     />
 
-    <Header type="Rust" title="Pub 사용하기" num="35" />
+    <Header type="Rust" title="pub 사용하기" num="35" />
 
-    <h1>모듈 안에서 함수 사용하기</h1>
+    <h2>모듈 안에서 함수 사용하기</h2>
     <p>
       module에서 배웠던 print_this 함수는 모듈 안에서만 쓸 수 있고 이런 함수를
       사용하기 위해서...<br /><br />
@@ -31,7 +31,7 @@
 
     <QuadSpace />
 
-    <h1>super</h1>
+    <h2>super</h2>
     <p>
       사실 지금까지 코드를 짜고 있던 Rust 파일도 모듈이라고 할 수 있습니다.<br /><br />
 

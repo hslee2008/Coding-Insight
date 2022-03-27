@@ -117,7 +117,7 @@
 </template>
 
 <script>
-export default {
-  page: 'ModulePage',
-};
+  export default {
+    page: 'ModulePage',
+  };
 </script>

@@ -90,7 +90,7 @@
 </template>
 
 <script>
-export default {
-  page: 'RegexPage',
-};
+  export default {
+    page: 'RegexPage',
+  };
 </script>

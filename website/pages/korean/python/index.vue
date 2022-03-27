@@ -166,6 +166,6 @@
 
     <QuadSpace />
 
-    <Navigation bef="" aft="install" :single="true" />
+    <Navigation aft="install" :single="true" />
   </div>
 </template>

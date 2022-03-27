@@ -93,16 +93,16 @@
 </template>
 
 <script>
-export default {
-  name: 'NumberMethodPage',
-  methods: {
-    checkAnswer() {
-      if (document.getElementById('question-2-answers-B').checked) {
-        alert('1 ✔️!');
-      } else {
-        alert('1 ❌');
-      }
+  export default {
+    name: 'NumberMethodPage',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-2-answers-B').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+      },
     },
-  },
-};
+  };
 </script>

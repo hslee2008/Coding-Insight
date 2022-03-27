@@ -12,7 +12,7 @@
       />
     </div>
 
-    <Header type="파이썬" title="None" num="24" />
+    <Header type="파이썬" title="None" num="26" />
 
     <div>
       <div>
@@ -39,7 +39,7 @@
 </template>
 
 <script>
-export default {
-  page: 'NonePage',
-};
+  export default {
+    page: 'NonePage',
+  };
 </script>

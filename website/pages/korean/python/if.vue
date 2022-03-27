@@ -37,7 +37,7 @@
       />
     </div>
 
-    <Header type="파이썬" title="조거문" num="26" />
+    <Header type="파이썬" title="조거문" num="27" />
 
     <div>
       <div>

@@ -168,16 +168,16 @@
 </template>
 
 <script>
-export default {
-  name: 'ListMethod2Page',
-  methods: {
-    checkAnswer() {
-      if (document.getElementById('question-2-answers-B').checked) {
-        alert('1 ✔️!');
-      } else {
-        alert('1 ❌');
-      }
+  export default {
+    name: 'ListMethod2Page',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-2-answers-B').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+      },
     },
-  },
-};
+  };
 </script>

@@ -156,7 +156,7 @@
 </template>
 
 <script>
-export default {
-  page: 'TurtlePage',
-};
+  export default {
+    page: 'TurtlePage',
+  };
 </script>

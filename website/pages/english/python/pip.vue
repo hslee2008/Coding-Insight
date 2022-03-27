@@ -100,7 +100,7 @@
 </template>
 
 <script>
-export default {
-  page: 'PipPage',
-};
+  export default {
+    page: 'PipPage',
+  };
 </script>

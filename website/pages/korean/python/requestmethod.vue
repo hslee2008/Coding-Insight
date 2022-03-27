@@ -55,7 +55,7 @@
 </template>
 
 <script>
-export default {
-  page: 'RequestMethodPage',
-};
+  export default {
+    page: 'RequestMethodPage',
+  };
 </script>

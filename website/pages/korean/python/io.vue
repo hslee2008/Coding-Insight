@@ -331,36 +331,36 @@
 </template>
 
 <script>
-export default {
-  name: 'InputOutputPage',
-  methods: {
-    checkAnswer() {
-      if (document.getElementById('question-1-answers-B').checked) {
-        alert('1 ✔️!');
-      } else {
-        alert('1 ❌');
-      }
-      if (document.getElementById('question-2-answers-D').checked) {
-        alert('2 ✔️');
-      } else {
-        alert('2 ❌');
-      }
-      if (document.getElementById('question-3-answers-A').checked) {
-        alert('3 ✔️!');
-      } else {
-        alert('3 틀렸습니다');
-      }
-      if (document.getElementById('question-4-answers-B').checked) {
-        alert('4 ✔️');
-      } else {
-        alert('4 ❌');
-      }
-      if (document.getElementById('question-5-answers-A').checked) {
-        alert('5 ✔️ :o');
-      } else {
-        alert('5 ❌');
-      }
+  export default {
+    name: 'InputOutputPage',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-1-answers-B').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+        if (document.getElementById('question-2-answers-D').checked) {
+          alert('2 ✔️');
+        } else {
+          alert('2 ❌');
+        }
+        if (document.getElementById('question-3-answers-A').checked) {
+          alert('3 ✔️!');
+        } else {
+          alert('3 틀렸습니다');
+        }
+        if (document.getElementById('question-4-answers-B').checked) {
+          alert('4 ✔️');
+        } else {
+          alert('4 ❌');
+        }
+        if (document.getElementById('question-5-answers-A').checked) {
+          alert('5 ✔️ :o');
+        } else {
+          alert('5 ❌');
+        }
+      },
     },
-  },
-};
+  };
 </script>

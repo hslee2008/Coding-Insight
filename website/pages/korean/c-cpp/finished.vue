@@ -15,33 +15,33 @@
 </template>
 
 <script>
-export default {
-  name: 'FinishedPage',
-  data() {
-    return {
-      headers: [
-        {
-          text: '라이브러리/프레입워크',
-          align: 'start',
-          sortable: false,
-          value: 'name',
-        },
-        { text: '링크', value: 'link' },
-        { text: '사용 용도', value: 'topic' },
-      ],
-      items: [
-        {
-          name: 'Unreal Engine',
-          link: 'https://www.unrealengine.com',
-          topic: '게임',
-        },
-        {
-          name: 'QT',
-          link: 'https://www.qt.io/',
-          topic: 'GUI',
-        },
-      ],
-    };
-  },
-};
+  export default {
+    name: 'FinishedPage',
+    data() {
+      return {
+        headers: [
+          {
+            text: '라이브러리/프레입워크',
+            align: 'start',
+            sortable: false,
+            value: 'name',
+          },
+          { text: '링크', value: 'link' },
+          { text: '사용 용도', value: 'topic' },
+        ],
+        items: [
+          {
+            name: 'Unreal Engine',
+            link: 'https://www.unrealengine.com',
+            topic: '게임',
+          },
+          {
+            name: 'QT',
+            link: 'https://www.qt.io/',
+            topic: 'GUI',
+          },
+        ],
+      };
+    },
+  };
 </script>

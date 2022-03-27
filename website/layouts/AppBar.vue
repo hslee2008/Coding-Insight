@@ -11,7 +11,7 @@
       icon
       @click="changeDrawerMobile"
     >
-      <v-icon>mdi-menu</v-icon>
+      <v-icon>mdi-sort-variant</v-icon>
     </v-btn>
     <v-btn
       v-else
@@ -93,61 +93,69 @@
         </v-list-item>
       </v-list>
     </v-menu>
+    <v-tooltip v-else bottom>
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn aria-label="Coding Insight Button" icon v-bind="attrs" v-on="on">
+          <v-icon>mdi-translate-off</v-icon>
+        </v-btn>
+      </template>
+      <span>No Translation</span>
+    </v-tooltip>
   </v-app-bar>
 </template>
 
 <script>
-export default {
-  name: 'AppHeader',
-  props: ['changeDrawer', 'changeDrawerMobile', 'MobileDrawer', 'fixed'],
-  data() {
-    return {
-      sheet: false,
-    };
-  },
-  methods: {
-    gotoHome() {
-      this.$router.push(
-        this.$nuxt.$route.path.includes('english') ||
-          this.$nuxt.$route.path.includes('-en')
-          ? '/index-en'
-          : '/'
-      );
+  export default {
+    name: 'AppHeader',
+    props: ['changeDrawer', 'changeDrawerMobile', 'MobileDrawer', 'fixed'],
+    data() {
+      return {
+        sheet: false,
+      };
     },
-    toEnglish() {
-      switch ($nuxt.$route.path) {
-        case '/':
-          window.location = '/index-en';
-          break;
-        case '/index-en':
-          window.location = '/index-en';
-          break;
-        default:
-          window.location =
-            '/english/python' +
-            ($nuxt.$route.path === '/'
-              ? '/python'
-              : $nuxt.$route.path.replace('/korean/python', ''));
-          break;
-      }
+    methods: {
+      gotoHome() {
+        this.$router.push(
+          this.$nuxt.$route.path.includes('english') ||
+            this.$nuxt.$route.path.includes('-en')
+            ? '/index-en'
+            : '/',
+        );
+      },
+      toEnglish() {
+        switch ($nuxt.$route.path) {
+          case '/':
+            window.location = '/index-en';
+            break;
+          case '/index-en':
+            window.location = '/index-en';
+            break;
+          default:
+            window.location =
+              '/english/python' +
+              ($nuxt.$route.path === '/'
+                ? '/python'
+                : $nuxt.$route.path.replace('/korean/python', ''));
+            break;
+        }
+      },
+      toKorean() {
+        switch ($nuxt.$route.path) {
+          case '/':
+            window.location = '/';
+            break;
+          case '/index-en':
+            window.location = '/';
+            break;
+          default:
+            window.location =
+              '/korean/python' +
+              ($nuxt.$route.path === '/'
+                ? '/python'
+                : $nuxt.$route.path.replace('/english/python', ''));
+            break;
+        }
+      },
     },
-    toKorean() {
-      switch ($nuxt.$route.path) {
-        case '/':
-          window.location = '/';
-          break;
-        case '/index-en':
-          window.location = '/';
-          break;
-        default:
-          window.location =
-            '/korean/python' +
-            ($nuxt.$route.path === '/'
-              ? '/python'
-              : $nuxt.$route.path.replace('/english/python', ''));
-          break;
-      }
-    },
-  },
-};
+  };
 </script>

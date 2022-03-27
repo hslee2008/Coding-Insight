@@ -22,7 +22,7 @@
 </template>
 
 <script>
-export default {
-  page: 'MyDecoratorPage',
-};
+  export default {
+    page: 'MyDecoratorPage',
+  };
 </script>

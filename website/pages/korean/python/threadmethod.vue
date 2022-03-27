@@ -50,7 +50,7 @@
 </template>
 
 <script>
-export default {
-  page: 'ThreadMethodPage',
-};
+  export default {
+    page: 'ThreadMethodPage',
+  };
 </script>

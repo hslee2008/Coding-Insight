@@ -163,7 +163,7 @@
 </template>
 
 <script>
-export default {
-  page: 'SetMethodPage',
-};
+  export default {
+    page: 'SetMethodPage',
+  };
 </script>

@@ -64,7 +64,7 @@
 </template>
 
 <script>
-export default {
-  page: 'OnelinerPage',
-};
+  export default {
+    page: 'OnelinerPage',
+  };
 </script>

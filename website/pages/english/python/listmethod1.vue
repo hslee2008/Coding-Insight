@@ -95,7 +95,7 @@
   </div>
 </template>
 <script>
-export default {
-  page: 'ListMethod1Page',
-};
+  export default {
+    page: 'ListMethod1Page',
+  };
 </script>

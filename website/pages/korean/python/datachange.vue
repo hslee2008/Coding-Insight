@@ -106,48 +106,48 @@
 </template>
 
 <script>
-export default {
-  name: 'DataChangePage',
-  data() {
-    return {
-      headers: [
-        {
-          text: '데이터 형태',
-          align: 'start',
-          sortable: false,
-          value: 'name',
-        },
-        { text: '바꾸는 방법', value: 'how' },
-        { text: '예시', value: 'example' },
-      ],
-      items: [
-        {
-          name: '리스트',
-          how: 'list() 또는 slpit()',
-          example: 'list(a) 또는 a.split(" ")',
-        },
-        {
-          name: '튜플',
-          how: 'tuple()',
-          example: 'tuple(a)',
-        },
-        {
-          name: '숫자',
-          how: 'int(), float(), complex()',
-          example: 'int(a)',
-        },
-        {
-          name: '불리언',
-          how: 'bool()',
-          example: 'bool(a)',
-        },
-        {
-          name: '문자',
-          how: 'str()',
-          example: 'str(a)',
-        },
-      ],
-    };
-  },
-};
+  export default {
+    name: 'DataChangePage',
+    data() {
+      return {
+        headers: [
+          {
+            text: '데이터 형태',
+            align: 'start',
+            sortable: false,
+            value: 'name',
+          },
+          { text: '바꾸는 방법', value: 'how' },
+          { text: '예시', value: 'example' },
+        ],
+        items: [
+          {
+            name: '리스트',
+            how: 'list() 또는 slpit()',
+            example: 'list(a) 또는 a.split(" ")',
+          },
+          {
+            name: '튜플',
+            how: 'tuple()',
+            example: 'tuple(a)',
+          },
+          {
+            name: '숫자',
+            how: 'int(), float(), complex()',
+            example: 'int(a)',
+          },
+          {
+            name: '불리언',
+            how: 'bool()',
+            example: 'bool(a)',
+          },
+          {
+            name: '문자',
+            how: 'str()',
+            example: 'str(a)',
+          },
+        ],
+      };
+    },
+  };
 </script>

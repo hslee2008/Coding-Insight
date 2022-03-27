@@ -178,16 +178,16 @@
 </template>
 
 <script>
-export default {
-  name: 'FunctionPage',
-  methods: {
-    checkAnswer() {
-      if (document.getElementById('question-2-answers-C').checked) {
-        alert('1 ✔️!');
-      } else {
-        alert('1 ❌');
-      }
+  export default {
+    name: 'FunctionPage',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-2-answers-C').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+      },
     },
-  },
-};
+  };
 </script>

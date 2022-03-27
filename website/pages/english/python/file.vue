@@ -78,10 +78,10 @@
 </template>
 
 <script>
-export default {
-  name: 'FilePage',
-  head: () => ({
-    title: 'File',
-  }),
-};
+  export default {
+    name: 'FilePage',
+    head: () => ({
+      title: 'File',
+    }),
+  };
 </script>

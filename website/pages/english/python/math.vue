@@ -117,7 +117,7 @@
 </template>
 
 <script>
-export default {
-  page: 'MathPage',
-};
+  export default {
+    page: 'MathPage',
+  };
 </script>

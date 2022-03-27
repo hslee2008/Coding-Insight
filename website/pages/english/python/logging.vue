@@ -114,7 +114,7 @@
 </template>
 
 <script>
-export default {
-  page: 'LoggingPage',
-};
+  export default {
+    page: 'LoggingPage',
+  };
 </script>

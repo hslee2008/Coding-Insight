@@ -108,7 +108,7 @@
   </div>
 </template>
 <script>
-export default {
-  page: 'OperatorPage',
-};
+  export default {
+    page: 'OperatorPage',
+  };
 </script>

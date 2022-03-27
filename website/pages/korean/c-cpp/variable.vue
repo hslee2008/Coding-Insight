@@ -230,16 +230,16 @@
 </template>
 
 <script>
-export default {
-  name: 'VariablePage',
-  methods: {
-    checkAnswer() {
-      if (document.getElementById('question-1-answers-A').checked) {
-        alert('1 ✔️!');
-      } else {
-        alert('1 ❌');
-      }
+  export default {
+    name: 'VariablePage',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-1-answers-A').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+      },
     },
-  },
-};
+  };
 </script>

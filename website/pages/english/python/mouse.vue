@@ -112,7 +112,7 @@
 </template>
 
 <script>
-export default {
-  page: 'MousePage',
-};
+  export default {
+    page: 'MousePage',
+  };
 </script>
