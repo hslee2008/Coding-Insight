@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>코루틴 만들기</h2>
         <p>
           아주 아주 오래전에 for 반복문에서 yield 키워드에 대하여 배웠습니다.<br /><br />
@@ -12,7 +12,7 @@
           만들 수 있게 도와줍니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://i.pinimg.com/736x/1c/86/84/1c8684b06bc7ad1e1f6b7b0099d87300.jpg"
@@ -45,7 +45,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />

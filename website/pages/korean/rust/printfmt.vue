@@ -20,14 +20,13 @@
       <div>
         <h2>print!()</h2>
         <p>
-          <code class="inline-code">println!()</code>을 사용했을 때는 사실 값을
-          출력하고 그 다음에 새로운 줄을 넣습니다.<br /><br />
+          <code class="ic">println!()</code>을 사용했을 때는 사실 값을 출력하고
+          그 다음에 새로운 줄을 넣습니다.<br /><br />
 
-          예를 들면, <code class="inline-code">println!('Hello World')</code>를
-          실행했을 때 Hello World가 출력되고 그 다음에 새로운 줄로
-          넘어갑니다.<br /><br />
+          예를 들면, <code class="ic">println!('Hello World')</code>를 실행했을
+          때 Hello World가 출력되고 그 다음에 새로운 줄로 넘어갑니다.<br /><br />
 
-          <code class="inline-code">print!()</code>는 그냥 그 값만 출력합니다.
+          <code class="ic">print!()</code>는 그냥 그 값만 출력합니다.
         </p>
       </div>
       <iframe
@@ -37,10 +36,9 @@
       />
       <div>
         <p>
-          위의 화면에서 <code class="inline-code">println!()</code>을 사용했을
-          때는 새로운 줄에 출력되는 것을 확인할 수 있고
-          <code class="inline-code">print!()</code>에서는 같은 줄에서
-          출력됩니다.
+          위의 화면에서 <code class="ic">println!()</code>을 사용했을 때는
+          새로운 줄에 출력되는 것을 확인할 수 있고
+          <code class="ic">print!()</code>에서는 같은 줄에서 출력됩니다.
         </p>
       </div>
     </div>
@@ -51,10 +49,10 @@
       <div>
         <h2>eprint!()와 eprintln!()</h2>
         <p>
-          <code class="inline-code">eprint!()</code>와
-          <code class="inline-code">eprintln!()</code>은
-          <code class="inline-code">print!()</code>와 같지만 에러를 표시할 때
-          사용합니다. <br /><br />
+          <code class="ic">eprint!()</code>와
+          <code class="ic">eprintln!()</code>은
+          <code class="ic">print!()</code>와 같지만 에러를 표시할 때 사용합니다.
+          <br /><br />
 
           이 두 코드는 에러가 생길 때 사용하세요.
         </p>

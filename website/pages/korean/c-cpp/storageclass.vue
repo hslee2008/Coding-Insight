@@ -36,7 +36,7 @@
           <code> const int a = 0; </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/44kK"
           width="100%"
@@ -115,24 +115,18 @@
           계속 더하기 때문입니다.
         </p>
       </div>
-      <div style="display: flex; gap: 10px" class="img-div">
-        <div>
-          <p style="color: red">static을 사용하지 않으면</p>
-          <iframe
-            src="https://www.jdoodle.com/embed/v0/44la"
-            width="600"
-            height="500"
-          />
-        </div>
-        <div>
-          <p style="color: red">static을 사용하면</p>
-          <iframe
-            src="https://www.jdoodle.com/embed/v0/44ll"
-            width="600"
-            height="500"
-          />
-        </div>
-      </div>
+      <p style="color: red">static을 사용하지 않으면</p>
+      <iframe
+        src="https://www.jdoodle.com/embed/v0/44la"
+        width="600"
+        height="500"
+      />
+      <p style="color: red">static을 사용하면</p>
+      <iframe
+        src="https://www.jdoodle.com/embed/v0/44ll"
+        width="600"
+        height="500"
+      />
     </div>
 
     <QuadSpace />

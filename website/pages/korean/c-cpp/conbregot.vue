@@ -3,7 +3,7 @@
     <Header type="C/C++" title="Continue, Break, Goto" num="23" />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>break</h2>
         <p>
           break란 반복문에서 빠져 나오는 코드입니다.<br /><br />
@@ -15,7 +15,7 @@
           저번과는 조금 다르게 5에서 끊겠습니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3YMb"
           width="100%"
@@ -35,7 +35,7 @@
           예를 들면, 0에서 9까지 반복하고 4번은 출력하지 않겠습니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3YMd"
           width="100%"

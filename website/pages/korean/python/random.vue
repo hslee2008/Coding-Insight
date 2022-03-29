@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>무작위의 정의</h2>
         <p>
           우리는 살면서 '무작위'라는 단어를 많이 접했습니다.<br /><br />
@@ -12,7 +12,7 @@
           있습니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXZGVvGnbtF2jLOKPqulX9hEzoHF7BAq69A&usqp=CAU"
@@ -49,7 +49,7 @@
           width="100%"
           height="356"
           loading="lazy"
-          class="mx-auto my-auto"
+          class="ma-auto"
         />
       </div>
     </div>
@@ -82,7 +82,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

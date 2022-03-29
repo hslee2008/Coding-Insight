@@ -4,7 +4,7 @@
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn
-        aria-label="Coding Insight Button"
+        :aria-label="albutt"
         color="primary"
         dark
         @click="sheet1 = !sheet1"
@@ -13,7 +13,7 @@
       </v-btn>
 
       <v-btn
-        aria-label="Coding Insight Button"
+        :aria-label="albutt"
         color="primary"
         dark
         @click="sheet2 = !sheet2"
@@ -62,7 +62,7 @@
                   src="https://image-loader-coding-insight.web.app/py-en/img/vscode.jpg"
                 >
                   <v-card-title>
-                    <p style="color: black">
+                    <p class="black--text">
                       Go to:
                       <a
                         target="_blank"
@@ -71,24 +71,17 @@
                         >VSCode Installation Page</a
                       >
                       and select the correct OS.
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 2"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 2">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -101,28 +94,21 @@
                   src="https://image-loader-coding-insight.web.app/py-en/img/vscodesetup.jpg"
                 >
                   <v-card-title style="color: black; float: right">
-                    <mark
-                      ><p color="black">
+                    <mark>
+                      <p color="black">
                         A new box will appear and click on it.
                       </p></mark
                     >
                   </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 3"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 3">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -134,27 +120,20 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/agree.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
+                  <v-card-title>
+                    <p class="black--text">
                       Click on agree and click the next button.
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 4"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 4">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -166,25 +145,18 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/nextvscode.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">Click on next.</p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">Click on next.</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 5"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 5">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -196,27 +168,18 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/installvscode.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
-                      Click on the install button.
-                    </p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">Click on the install button.</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 6"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 6">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -228,44 +191,37 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/vscodefinish.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">Click on finish</p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">Click on finish</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 7"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 7">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
             <v-stepper-content step="7">
               <v-card>
-                <v-card-title style="float: right"
-                  ><p style="color: black">
+                <v-card-title style="float: right">
+                  <p class="black--text">
                     Now, restart the computer
                   </p></v-card-title
                 >
                 <v-card-actions>
                   <v-btn
-                    aria-label="Coding Insight Button"
+                    :aria-label="albutt"
                     color="primary"
                     @click="sheet1 = !sheet1"
                   >
                     Finish
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
           </v-stepper-items>
@@ -301,27 +257,20 @@
                   src="https://image-loader-coding-insight.web.app/py-en/img/cube.jpg"
                 >
                   <v-card-title>
-                    <p style="color: black">
+                    <p class="black--text">
                       Press on <kbd>CTRL + SHIFT + X</kbd> or press the cube
                       button
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e4 = 2"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e4 = 2">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet2 = !sheet2"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -333,27 +282,20 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/input.jpg"
                 >
-                  <v-card-title style="color: black">
-                    <mark
-                      ><p color="black">Type in "Python" in the input</p></mark
+                  <v-card-title class="black--text">
+                    <mark>
+                      <p color="black">Type in "Python" in the input</p></mark
                     >
                   </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e4 = 3"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e4 = 3">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet2 = !sheet2"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -365,27 +307,18 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/extinstall.jpg"
                 >
-                  <v-card-title
-                    ><p>
-                      Click on the green installation button.
-                    </p></v-card-title
-                  >
+                  <v-card-title>
+                    <p>Click on the green installation button.</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e4 = 4"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e4 = 4">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet2 = !sheet2"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -397,27 +330,20 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/coderunner.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
+                  <v-card-title>
+                    <p class="black--text">
                       Type in code runner and click on the green button, again
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e4 = 5"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e4 = 5">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet2 = !sheet2"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
           </v-stepper-items>
@@ -427,12 +353,7 @@
 
     <Header-en type="Python" num="3" title="VSCode Installation" />
 
-    <v-btn
-      aria-label="Coding Insight Button"
-      color="primary"
-      dark
-      @click="sheet3 = !sheet3"
-    >
+    <v-btn :aria-label="albutt" color="primary" dark @click="sheet3 = !sheet3">
       Start programming in VSCode
     </v-btn>
 
@@ -476,29 +397,22 @@
                   src="https://image-loader-coding-insight.web.app/py-en/img/file.jpg"
                 >
                   <v-card-title>
-                    <p style="color: black">
+                    <p class="black--text">
                       <mark
                         >Press <kbd>CTRL + SHIFT + E</kbd> or click on the file
-                        icon</mark
-                      >
-                    </p></v-card-title
-                  >
+                        icon
+                      </mark>
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 2"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 2">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -510,26 +424,19 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/choose.jpg"
                 >
-                  <v-card-title style="color: black">
-                    <mark
-                      ><p color="black">
+                  <v-card-title class="black--text">
+                    <mark>
+                      <p color="black">
                         Click on the blue "Select Folder" button
                       </p></mark
                     >
                   </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 3"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 3">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -544,28 +451,21 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/background.jpg"
                 >
-                  <v-card-title
-                    ><p>
+                  <v-card-title>
+                    <p>
                       Click on the folder you want your code to be. If you don't
                       know what I am talking about, just select Desktop.
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 4"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 4">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
-                    Cancel
-                  </v-btn></v-card-actions
-                >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3"
+                    >Cancel
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -577,27 +477,18 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/newfile.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
-                      Click on the 'new file' button
-                    </p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">Click on the 'new file' button</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 5"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 5">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
-                    Cancel
-                  </v-btn></v-card-actions
-                >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3"
+                    >Cancel
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -609,27 +500,20 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/filename.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
+                  <v-card-title>
+                    <p class="black--text">
                       Set you file name ending with '.py'
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 6"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 6">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
-                    Cancel
-                  </v-btn></v-card-actions
-                >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3"
+                    >Cancel
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -641,27 +525,20 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/tri.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
+                  <v-card-title>
+                    <p class="black--text">
                       <mark
                         >Type in <code>print("hello world")</code>, click on the
-                        arrow next to triangle, click Run Python</mark
-                      >
-                    </p></v-card-title
-                  >
+                        arrow next to triangle, click Run Python
+                      </mark>
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 7"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 7">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
                     Cancel
                   </v-btn></v-card-actions
                 >
@@ -676,15 +553,13 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-en/img/helloworld.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
-                      Check out your first program 기
-                    </p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">Check out your first program 기</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
                   <v-btn
-                    aria-label="Coding Insight Button"
+                    :aria-label="albutt"
                     color="primary"
                     @click="sheet3 = !sheet3"
                   >
@@ -706,7 +581,7 @@
           computer that this file is for Python only.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           class="v-img-fluid"

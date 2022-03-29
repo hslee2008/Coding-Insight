@@ -2,22 +2,13 @@
   <div>
     <br /><br />
 
-    <v-row class="ma-3">
-      <p class="mx-auto my-auto">
-        파이썬이라는 단어를 들어보신 적이 있나요?<br /><br />
+    <p>
+      파이썬이라는 단어를 들어보신 적이 있나요?<br /><br />
 
-        만일 뱀의 종류 중 하나인 파이썬을 생각하셨다면 틀렸습니다!<br /><br />
+      만일 뱀의 종류 중 하나인 파이썬을 생각하셨다면 틀렸습니다!<br /><br />
 
-        파이썬이라는 뱀도 있지만 오늘 배울 것은 뱀이 아니라 코딩 언어입니다.
-      </p>
-
-      <GlobalImage
-        alt="python-factory-picture"
-        max-width="200px"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"
-        class="mx-auto my-auto"
-      />
-    </v-row>
+      파이썬이라는 뱀도 있지만 오늘 배울 것은 뱀이 아니라 코딩 언어입니다.
+    </p>
 
     <Header type="파이썬" num="1" title="파이썬의 정의" />
 
@@ -44,7 +35,7 @@
       alt="python-factory-picture"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
       max-width="210.5px"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />
@@ -70,7 +61,7 @@
       alt="python-factory-picture"
       src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
       max-width="210.5px"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />
@@ -95,7 +86,7 @@
           코딩을 배울때 많은 사람들은 파이썬부터 배우기 시작합니다.<br /><br />
 
           그 이유는 파이썬은 배우기도 쉽고 간단해서입니다. 그래서 저희도 오늘
-          파이썬부터 시작하겠습니다.<br /><br />
+          파이썬부터 시작하겠습니다.
         </p>
       </div>
     </div>
@@ -124,7 +115,7 @@
           </p>
         </div>
 
-        <div class="mx-auto my-auto">
+        <div class="ma-auto">
           <GlobalImage
             alt="python-factory-picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDvusEfnc81WXy7PBDME8ZDa7miwprm8Z4Q&usqp=CAU"
@@ -151,7 +142,7 @@
 
     <QuadSpace />
 
-    <div class="text-center" style="padding: 10px">
+    <div class="text-center">
       <h1>파이썬 강좌 모음</h1>
 
       <iframe

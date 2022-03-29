@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>Making a login program</h2>
         <p>
           Let's make a login program that prompts the user for password!<br /><br />
@@ -17,7 +17,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           max-width="100px"

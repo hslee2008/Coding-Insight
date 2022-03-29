@@ -52,7 +52,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/47BV"
           width="100%"

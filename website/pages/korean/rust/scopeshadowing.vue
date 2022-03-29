@@ -3,26 +3,17 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
-        <h2>변수 범위</h2>
-        <p>
-          변수의 범위라는 것은 변수를 어디에서까지 사용할 수 있는지를 나타내는
-          것입니다.<br /><br />
+      <h2>변수 범위</h2>
+      <p>
+        변수의 범위라는 것은 변수를 어디에서까지 사용할 수 있는지를 나타내는
+        것입니다.<br /><br />
 
-          어디에서 변수가 만들어지었는지가 중요한데요 {} (코드 블록) 안에서만
-          작동하는 변수와 글로벌 변수가 있습니다.<br /><br />
+        어디에서 변수가 만들어지었는지가 중요한데요 {} (코드 블록) 안에서만
+        작동하는 변수와 글로벌 변수가 있습니다.<br /><br />
 
-          예: main() {} 함수 안에서는 main이만 사용할 수 있고 밖에서 선정하면
-          모든 파일에서 사용할 수 있습니다.
-        </p>
-      </div>
-
-      <div class="mx-auto my-auto">
-        <GlobalImage
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy1JR0zWx1nJyis2cLni6s3IuftL-qTu4aYQ&usqp=CAU"
-          max-width="300"
-        />
-      </div>
+        예: main() {} 함수 안에서는 main이만 사용할 수 있고 밖에서 선정하면 모든
+        파일에서 사용할 수 있습니다.
+      </p>
     </div>
 
     <Header type="Rust" title="변수 범위 및 그림자" num="10" />

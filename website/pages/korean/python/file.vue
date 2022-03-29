@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>파일 처리란?</h2>
         <p>
           파이썬에서는 파일을 만들고, 읽고, 쓰고, 지우는 것이 가능합니다.<br /><br />
@@ -12,7 +12,7 @@
           'open()'이라는 함수는 파일을 여는 메서드입니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
@@ -24,7 +24,7 @@
     <Header type="파이썬" num="49" title="파일" />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>파일 주소</h2>
         <p>
           파일 주소는 파일을 가지고 오는 데 매우 중요한 변수입니다.<br /><br />
@@ -66,7 +66,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

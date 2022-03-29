@@ -101,7 +101,7 @@
     <QuadSpace />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>예시</h2>
         <p>
           <code>
@@ -122,7 +122,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VZp"
           width="600px"
@@ -157,7 +157,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VZs"
           width="100%"

@@ -4,7 +4,7 @@
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn
-        aria-label="Coding Insight Button"
+        :aria-label="albutt"
         color="primary"
         dark
         @click="sheet1 = !sheet1"
@@ -13,7 +13,7 @@
       </v-btn>
 
       <v-btn
-        aria-label="Coding Insight Button"
+        :aria-label="albutt"
         color="primary"
         dark
         @click="sheet2 = !sheet2"
@@ -61,31 +61,24 @@
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/vscode.jpg"
                 >
                   <v-card-title>
-                    <p style="color: black">
+                    <p class="black--text">
                       <a
                         target="_blank"
                         href="https://code.visualstudio.com/download"
                         style="text-decoration: none; color: darkorange"
                         >VSCode 설치 페이지</a
                       >를 방문합니다. 알맞은 컴퓨터 소프트웨어를 선택합니다.
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 2"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 2">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -96,9 +89,9 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/vscodesetup.jpg"
                 >
-                  <v-card-title style="color: black">
-                    <mark
-                      ><p color="black">
+                  <v-card-title class="black--text">
+                    <mark>
+                      <p color="black">
                         새로운 박스가 생길 것이고 설치가 100% 다 되면 그 박스를
                         클릭하세요.
                       </p></mark
@@ -106,20 +99,13 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 3"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 3">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -130,27 +116,20 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/agree.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
+                  <v-card-title>
+                    <p class="black--text">
                       동의합니다 그리고 다음을 누르세요.
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 4"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 4">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -161,27 +140,18 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/nextvscode.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
-                      또 다음을 누르세요.
-                    </p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">또 다음을 누르세요.</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 5"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 5">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -192,27 +162,18 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/installvscode.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
-                      설치 버튼을 누르세요.
-                    </p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">설치 버튼을 누르세요.</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 6"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 6">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -223,44 +184,35 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/vscodefinish.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">끝내기 누르기</p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">끝내기 누르기</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e6 = 7"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 7">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet1 = !sheet1"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
             <v-stepper-content step="7">
               <v-card>
-                <v-card-title style="float: right"
-                  ><p style="color: black">
-                    컴퓨터 다시 시작하기
-                  </p></v-card-title
+                <v-card-title style="float: right">
+                  <p class="black--text">컴퓨터 다시 시작하기</p></v-card-title
                 >
                 <v-card-actions>
                   <v-btn
-                    aria-label="Coding Insight Button"
+                    :aria-label="albutt"
                     color="primary"
                     @click="sheet1 = !sheet1"
                   >
                     Finish
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
           </v-stepper-items>
@@ -295,26 +247,19 @@
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/cube.jpg"
                 >
                   <v-card-title>
-                    <p style="color: black">
+                    <p class="black--text">
                       <kbd>CTRL + SHIFT + X</kbd> 누르거나 큐브 버튼 누르기
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e4 = 2"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e4 = 2">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet2 = !sheet2"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -325,27 +270,20 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/input.jpg"
                 >
-                  <v-card-title style="color: black">
-                    <mark
-                      ><p color="black">박스 안에 "rust"라고 치세요.</p></mark
+                  <v-card-title class="black--text">
+                    <mark>
+                      <p color="black">박스 안에 "rust"라고 치세요.</p></mark
                     >
                   </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="e4 = 3"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="e4 = 3">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet2 = !sheet2"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -356,19 +294,19 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/extinstall.jpg"
                 >
-                  <v-card-title
-                    ><p>초록색 install 버튼을 누르세요.</p></v-card-title
-                  >
+                  <v-card-title>
+                    <p>초록색 install 버튼을 누르세요.</p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
                   <v-btn
-                    aria-label="Coding Insight Button"
+                    :aria-label="albutt"
                     color="primary"
                     @click="sheet2 = !sheet2"
                   >
                     Finish
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
           </v-stepper-items>
@@ -378,12 +316,7 @@
 
     <Header type="Rust" num="3" title="VSCode 설치" />
 
-    <v-btn
-      aria-label="Coding Insight Button"
-      color="primary"
-      dark
-      @click="sheet3 = !sheet3"
-    >
+    <v-btn :aria-label="albutt" color="primary" dark @click="sheet3 = !sheet3">
       VSCode에서 Rust 프로그래밍 작작
     </v-btn>
 
@@ -426,26 +359,19 @@
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/file.jpg"
                 >
                   <v-card-title>
-                    <p style="color: black">
+                    <p class="black--text">
                       <kbd>CTRL + SHIFT + E</kbd> 누르거나 "파일" 버튼 누르기
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 2"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 2">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -456,29 +382,22 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/choose.jpg"
                 >
-                  <v-card-title style="color: black">
-                    <mark
-                      ><p color="black">
+                  <v-card-title class="black--text">
+                    <mark>
+                      <p color="black">
                         파란색 "폴더 선택" 버튼을 누르세요.
                       </p></mark
                     >
                   </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 3"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 3">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -489,28 +408,21 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/background.jpg"
                 >
-                  <v-card-title
-                    ><p>
+                  <v-card-title>
+                    <p>
                       코드를 저장하고 싶은 폴더를 선택하세요. 따로 폴더가 없다면
                       바탕화면을 선택하세요.
-                    </p></v-card-title
-                  >
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 5"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 5">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -521,30 +433,23 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/filename.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
-                      <mark
-                        >cargo init first_rust를 실행해서 새로운 Rust 프로젝트를
-                        시작합니다.</mark
-                      >
-                    </p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">
+                      <mark>
+                        cargo init first_rust를 실행해서 새로운 Rust 프로젝트를
+                        시작합니다.
+                      </mark>
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    color="primary"
-                    @click="et = 6"
-                  >
+                  <v-btn :aria-label="albutt" color="primary" @click="et = 6">
                     Continue
                   </v-btn>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
                     Cancel
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
 
@@ -555,23 +460,20 @@
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/tri.jpg"
                 >
-                  <v-card-title
-                    ><p style="color: black">
-                      <mark
-                        >cd first_rust를 실행해서 first_rust 폴더로 들어가고
-                        cargo run build를 사용해서 파일을 실행합니다.</mark
-                      >
-                    </p></v-card-title
-                  >
+                  <v-card-title>
+                    <p class="black--text">
+                      <mark>
+                        cd first_rust를 실행해서 first_rust 폴더로 들어가고
+                        cargo run build를 사용해서 파일을 실행합니다.
+                      </mark>
+                    </p>
+                  </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn
-                    aria-label="Coding Insight Button"
-                    @click="sheet3 = !sheet3"
-                  >
+                  <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
                     Finish
-                  </v-btn></v-card-actions
-                >
+                  </v-btn>
+                </v-card-actions>
               </v-card>
             </v-stepper-content>
           </v-stepper-items>
@@ -590,7 +492,7 @@
         cargo.toml에서 확인할 수 있습니다.
       </p>
     </div>
-    <div class="mx-auto my-auto">
+    <div class="ma-auto">
       <GlobalImage
         src="https://doc.rust-lang.org/cargo/images/Cargo-Logo-Small.png"
         max-width="300px"
@@ -608,13 +510,13 @@
       위의 코드를 VSCode 터미널에서 실행하면 (<kbd>ctrl + `</kbd>) a라는 이름을
       가진 프로젝트가 만들어지고 그 프로젝트 폴더로 들어갑니다.<br /><br />
 
-      <code class="inline-code">cargo init</code>은 cargo를 사용해 프로젝트를
+      <code class="ic">cargo init</code>은 cargo를 사용해 프로젝트를
       만듭니다.<br /><br />
 
-      <code class="inline-code">&&</code>는 또 다른 커맨드를 실행할 때 사용하는
+      <code class="ic">&&</code>는 또 다른 커맨드를 실행할 때 사용하는
       연산자입니다.<br /><br />
 
-      <code class="inline-code">cd a</code>는 프로젝트 폴더로 이동합니다.<br /><br />
+      <code class="ic">cd a</code>는 프로젝트 폴더로 이동합니다.<br /><br />
     </div>
 
     <QuadSpace />
@@ -623,7 +525,7 @@
     <div>
       <br />
 
-      <code classs="inline-code">cargo run build</code> 코드를 실행하면 빌드를
+      <code classs="ic">cargo run build</code> 코드를 실행하면 빌드를
       시작합니다.<br /><br />
 
       빌드란 프로젝트를 기계가 이해하는 0과 1로 전환하고 실행하는 과정입니다.<br /><br />

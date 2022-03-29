@@ -22,7 +22,7 @@
     <Header type="C/C++" title="C++" num="1" />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>C 다음에는?</h2>
         <p>
           C 언어를 공부했다면 알고리즘을 배우면 좋지만 이를 배우기 전에 C++
@@ -35,7 +35,7 @@
           이를 차근차근 알아보겠습니다!
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://img.icons8.com/ios/452/c-plus-plus-logo.png"
@@ -71,7 +71,7 @@
         to="./io-cpp"
         style="text-decoration: none; float: right"
       >
-        <v-btn aria-label="Coding Insight Button" class="ma-2" outlined>
+        <v-btn :aria-label="albutt" class="ma-2" outlined>
           Next<v-icon right> mdi-arrow-right-circle-outline </v-icon>
         </v-btn>
       </NuxtLink>

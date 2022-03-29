@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>Python Number Types</h2>
         <p>
           There are three types of number in Python.<br /><br />
@@ -12,7 +12,7 @@
           - complex
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
@@ -66,7 +66,7 @@
         width="60%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

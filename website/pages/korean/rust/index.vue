@@ -3,10 +3,10 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <v-icon x-large>mdi-language-rust</v-icon>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <p>
           Rust는 다른 프로그래밍 언어와 달리 매우 "안전하고, 효율적이고, 유용한"
           프로그래밍 언어입니다.<br /><br />
@@ -39,7 +39,7 @@
           마지막으로 Rust는 모든 코딩 분야에서 사용할 수 있어서 유용합니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           max-width="300px"

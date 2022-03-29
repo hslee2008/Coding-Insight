@@ -126,10 +126,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon> Check Answer
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

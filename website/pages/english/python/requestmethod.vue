@@ -16,7 +16,8 @@
           Note that all the status code can be read on
           <a href="https://www.restapitutorial.com/httpstatuscodes.html"
             >Status Code</a
-          ><br /><br />
+          >
+          <br /><br />
 
           To check whether the request succeeded or not, use the 'ok' property
           and check whether it is True or False.<br /><br />
@@ -30,7 +31,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />
@@ -49,7 +50,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />

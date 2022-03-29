@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>숫자 메서드</h2>
         <p>
           Rust의 다양한 숫자 메서드를 알아보겠습니다.<br /><br />

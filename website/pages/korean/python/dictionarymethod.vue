@@ -29,7 +29,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -48,7 +48,7 @@
           width="100%"
           height="356"
           loading="lazy"
-          class="mx-auto my-auto"
+          class="ma-auto"
         />
       </div>
     </div>
@@ -67,7 +67,7 @@
           확인하세요.<br /><br />
 
           만일 새로운 딕셔너리 안에 새로운 key가 있다면 새로운 key를 만들고 이미
-          있다면 그 key의 값을 바꿉니다.<br /><br />
+          있다면 그 key의 값을 바꿉니다.
         </p>
       </div>
       <iframe
@@ -75,7 +75,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -97,7 +97,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

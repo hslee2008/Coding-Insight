@@ -11,7 +11,7 @@
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU78Hj6DPZq_rVh1dyNTc4Lwt_Z05Vr-SRA&usqp=CAU"
         />
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>JSON</h2>
         <p>
           JSON이란 JavaScript Object Notation이라고 데이터를 정리하는 형태 중
@@ -41,7 +41,7 @@
           width="100%"
           height="356"
           loading="lazy"
-          class="mx-auto my-auto"
+          class="ma-auto"
         />
       </div>
     </div>
@@ -61,7 +61,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -90,7 +90,7 @@
         width="100%"
         height="200"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

@@ -17,7 +17,7 @@
           합니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3VrZ"
           height="300px"
@@ -238,10 +238,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

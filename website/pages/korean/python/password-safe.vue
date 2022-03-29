@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>로그인 프로그램</h2>
         <p>
           <NuxtLink aria-label="Go to Coding Insight Page" to="./password"
@@ -18,7 +18,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           max-width="100px"

@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>식별자란?</h2>
         <p>
           식별자는 상자의 형태를 나타내는 것으로, 상자를 바꿀 수 있느냐를
@@ -18,7 +18,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png"
           max-width="300"

@@ -22,7 +22,7 @@
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn
-        aria-label="Coding Insight Button"
+        :aria-label="albutt"
         color="primary"
         dark
         @click="sheet1 = !sheet1"
@@ -31,7 +31,7 @@
       </v-btn>
 
       <v-btn
-        aria-label="Coding Insight Button"
+        :aria-label="albutt"
         color="primary"
         dark
         @click="sheet2 = !sheet2"
@@ -85,24 +85,17 @@
                         href="https://www.python.org/downloads/"
                         target="_blank"
                         >파이썬 공식 사이트</a
-                      ></v-card-title
-                    >
+                      >
+                    </v-card-title>
                   </v-img>
                   <v-card-actions>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      color="primary"
-                      @click="e6 = 2"
-                    >
+                    <v-btn :aria-label="albutt" color="primary" @click="e6 = 2">
                       Continue
                     </v-btn>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      @click="sheet1 = !sheet1"
-                    >
+                    <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                       Cancel
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
 
@@ -117,20 +110,13 @@
                     <v-card-title> 노란색 버튼 클릭</v-card-title>
                   </v-img>
                   <v-card-actions>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      color="primary"
-                      @click="e6 = 3"
-                    >
+                    <v-btn :aria-label="albutt" color="primary" @click="e6 = 3">
                       Continue
                     </v-btn>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      @click="sheet1 = !sheet1"
-                    >
+                    <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                       Cancel
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
 
@@ -142,27 +128,18 @@
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-kr/img/다운로드.jpg"
                   >
-                    <v-card-title
-                      ><mark style="color: black"
-                        >다운로드 시작됨</mark
-                      ></v-card-title
-                    >
+                    <v-card-title>
+                      <mark class="black--text">다운로드 시작됨</mark>
+                    </v-card-title>
                   </v-img>
                   <v-card-actions>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      color="primary"
-                      @click="e6 = 4"
-                    >
+                    <v-btn :aria-label="albutt" color="primary" @click="e6 = 4">
                       Continue
                     </v-btn>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      @click="sheet1 = !sheet1"
-                    >
+                    <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                       Cancel
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
 
@@ -175,29 +152,22 @@
                     src="https://image-loader-coding-insight.web.app/py-kr/img/installnow.jpg"
                   >
                     <v-card-title style="float: right">
-                      <mark
-                        ><p style="color: black">
+                      <mark>
+                        <p class="black--text">
                           Add Python 3.10 to PATH 누르고<br />
                           Customize installation 버튼 누르기
-                        </p></mark
-                      ></v-card-title
-                    >
+                        </p>
+                      </mark>
+                    </v-card-title>
                   </v-img>
                   <v-card-actions>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      color="primary"
-                      @click="e6 = 5"
-                    >
+                    <v-btn :aria-label="albutt" color="primary" @click="e6 = 5">
                       Continue
                     </v-btn>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      @click="sheet1 = !sheet1"
-                    >
+                    <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                       Cancel
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
 
@@ -210,28 +180,19 @@
                     src="https://image-loader-coding-insight.web.app/py-kr/img/설치2.jpg"
                   >
                     <v-card-title>
-                      <mark
-                        ><p style="color: black">
-                          모두 선택하고 다음 누르기
-                        </p></mark
-                      ></v-card-title
-                    >
+                      <mark>
+                        <p class="black--text">모두 선택하고 다음 누르기</p>
+                      </mark>
+                    </v-card-title>
                   </v-img>
                   <v-card-actions>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      color="primary"
-                      @click="e6 = 6"
-                    >
+                    <v-btn :aria-label="albutt" color="primary" @click="e6 = 6">
                       Continue
                     </v-btn>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      @click="sheet1 = !sheet1"
-                    >
+                    <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                       Cancel
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
 
@@ -244,28 +205,21 @@
                     src="https://image-loader-coding-insight.web.app/py-kr/img/adopt.jpg"
                   >
                     <v-card-title>
-                      <mark
-                        ><p style="color: black">
+                      <mark>
+                        <p class="black--text">
                           1부터 5번째 선택하고 설치 누르기
-                        </p></mark
-                      ></v-card-title
-                    >
+                        </p>
+                      </mark>
+                    </v-card-title>
                   </v-img>
                   <v-card-actions>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      color="primary"
-                      @click="e6 = 7"
-                    >
+                    <v-btn :aria-label="albutt" color="primary" @click="e6 = 7">
                       Continue
                     </v-btn>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      @click="sheet1 = !sheet1"
-                    >
+                    <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
                       Cancel
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
 
@@ -274,13 +228,13 @@
                   <h2>끝</h2>
                   <v-card-actions>
                     <v-btn
-                      aria-label="Coding Insight Button"
+                      :aria-label="albutt"
                       color="primary"
                       @click="sheet1 = !sheet1"
                     >
                       Finish
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card></v-stepper-content
               >
             </v-stepper-items>
@@ -316,20 +270,13 @@
                     합니다.</v-card-title
                   >
                   <v-card-actions>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      color="primary"
-                      @click="e5 = 2"
-                    >
+                    <v-btn :aria-label="albutt" color="primary" @click="e5 = 2">
                       Continue
                     </v-btn>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      @click="sheet2 = !sheet2"
-                    >
+                    <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
                       Cancel
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
 
@@ -341,29 +288,20 @@
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-kr/img/idle.jpg"
                   >
-                    <v-card-title style="color: black">
-                      <mark
-                        ><p color="black">
-                          열기 버튼 누르기 또는 엔터 누르기
-                        </p></mark
-                      >
+                    <v-card-title class="black--text">
+                      <mark>
+                        <p color="black">열기 버튼 누르기 또는 엔터 누르기</p>
+                      </mark>
                     </v-card-title>
                   </v-img>
                   <v-card-actions>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      color="primary"
-                      @click="e5 = 3"
-                    >
+                    <v-btn :aria-label="albutt" color="primary" @click="e5 = 3">
                       Continue
                     </v-btn>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      @click="sheet2 = !sheet2"
-                    >
+                    <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
                       Cancel
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
 
@@ -375,28 +313,21 @@
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-kr/img/idle2.jpg"
                   >
-                    <v-card-title style="float: right"
-                      ><p style="color: black">
+                    <v-card-title style="float: right">
+                      <p class="black--text">
                         >>> 다음에 <code>print("Hello, World!")</code>라고 치고
                         엔터 누르기
                       </p></v-card-title
                     >
                   </v-img>
                   <v-card-actions>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      color="primary"
-                      @click="e5 = 4"
-                    >
+                    <v-btn :aria-label="albutt" color="primary" @click="e5 = 4">
                       Continue
                     </v-btn>
-                    <v-btn
-                      aria-label="Coding Insight Button"
-                      @click="sheet2 = !sheet2"
-                    >
+                    <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
                       Cancel
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
 
@@ -408,19 +339,19 @@
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-kr/img/idle3.jpg"
                   >
-                    <v-card-title style="float: right"
-                      ><p style="color: black">결과 확인하기</p></v-card-title
+                    <v-card-title style="float: right">
+                      <p class="black--text">결과 확인하기</p></v-card-title
                     >
                   </v-img>
                   <v-card-actions>
                     <v-btn
-                      aria-label="Coding Insight Button"
+                      :aria-label="albutt"
                       color="primary"
                       @click="sheet2 = !sheet2"
                     >
                       Finish
-                    </v-btn></v-card-actions
-                  >
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-stepper-content>
             </v-stepper-items>
@@ -430,20 +361,14 @@
     </div>
 
     <QuadSpace />
+    <QuadSpace />
 
-    <div
-      style="display: flex; justify-content: center; border-radius: 5px"
-      class="img-div"
-    >
-      <div style="text-align: center; margin: auto">
-        <GlobalImage
-          lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-          alt="python-factory-picture"
-          src="data:image/png;base64,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"
-          max-width="200px"
-        />
+    <div class="d-flex">
+      <div class="ma-auto" v-if="!$vuetify.breakpoint.mobile">
+        <v-icon x-large>mdi-microsoft-visual-studio-code</v-icon>
       </div>
-      <div class="mx-auto my-auto">
+
+      <div class="ma-auto">
         <h2>VSCode란?</h2>
         <p>
           VSCode를 사용해보겠습니다.<br /><br />

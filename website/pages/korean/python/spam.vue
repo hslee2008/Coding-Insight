@@ -3,14 +3,14 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>장난 이메일</h2>
         <p>
           이 프로젝트에서는 친구 또는 가족에게 장난으로 이메일을 보내는 방법을
           알아보겠습니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://www.incimages.com/uploaded_files/image/empty-email_463770.gif"
@@ -53,7 +53,7 @@
       width="100%"
       height="500vh"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />

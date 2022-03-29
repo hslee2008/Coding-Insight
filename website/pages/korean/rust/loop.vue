@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>loop 문</h2>
         <p>
           loop 문이란 {} 안에 들어있는 코드를 무한이 반복하는 형식입니다.<br /><br />
@@ -13,7 +13,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <svg
           width="158"
           height="213"

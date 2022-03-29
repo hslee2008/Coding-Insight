@@ -8,7 +8,3 @@ updates:
     directory: '../app/python-factory-web-search'
     schedule:
       interval: 'daily'
-  - package-ecosystem: 'npm'
-    directory: '../app/pythonfactory'
-    schedule:
-      interval: 'daily'

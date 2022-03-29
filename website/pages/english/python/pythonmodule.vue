@@ -18,7 +18,7 @@
         width="100%"
         height="358"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -26,7 +26,7 @@
 
     <div>
       <div>
-        <div style="padding: 10px">
+        <div>
           <h2>OS</h2>
           <h2>OS란?</h2>
           OS means the computer software.<br /><br />
@@ -55,7 +55,7 @@
           width="100%"
           height="356"
           loading="lazy"
-          class="mx-auto my-auto"
+          class="ma-auto"
         />
       </div>
     </div>

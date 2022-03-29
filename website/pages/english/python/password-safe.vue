@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>Login Program</h2>
         <p>
           In
@@ -19,7 +19,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           max-width="100px"

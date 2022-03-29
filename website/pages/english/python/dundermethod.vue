@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>What is dunder?</h2>
         <p>
           In Context Manager, we learned about __exit__() and __enter__()
@@ -15,7 +15,7 @@
           magic method)
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://media.istockphoto.com/vectors/magic-wand-line-icon-vector-id1164851035?k=6&m=1164851035&s=612x612&w=0&h=ihapeRsHBDDFTTa7CxId_I5ExnbGrJug8aQEVOOviW4="
@@ -82,7 +82,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />
@@ -101,7 +101,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />
@@ -121,7 +121,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />

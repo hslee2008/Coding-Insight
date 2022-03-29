@@ -50,7 +50,7 @@
     <v-alert dense text type="info" dismissible>
       참고로 while let도 사용할 수 있습니다. 똑같은 원리이고 while문에서
       wrapper를 다루는 방법 중 하나입니다.<br />
-      예시: <code class="inline-code">while let Some(i) = value { }</code>
+      예시: <code class="ic">while let Some(i) = value { }</code>
     </v-alert>
 
     <QuadSpace />

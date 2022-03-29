@@ -23,7 +23,7 @@
           *(arr + 2) = 40;
         </code>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/47Au"
           width="100%"
@@ -81,7 +81,7 @@
         사용할 수 있습니다.<br />
         (문자열도 가능합니다. int* ptr 대신 char* ptr로 바꾸세요!)<br /><br />
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/47AG"
           width="100%"
@@ -129,7 +129,7 @@
           }
         </code>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/47AE"
           width="100%"
@@ -179,7 +179,7 @@
           }
         </code>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/47B7"
           width="100%"

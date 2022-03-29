@@ -19,7 +19,7 @@
     <Header type="C/C++" title="Vector" num="4" />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>vector 사용하기</h2>
 
         vector을 사용하기 위해서 vector 라이브러리에서 먼저 가지고
@@ -42,7 +42,7 @@
           }
         </code>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vectorcode.png"

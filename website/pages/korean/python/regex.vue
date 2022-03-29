@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>정규식이란</h2>
         <p>
           정규식은 프로그래밍에서 특정한 규칙을 가진 문자열의 집합을
@@ -15,7 +15,7 @@
           <code> import re #영어로 Regular Expression입니다. (re) </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://cmgcode.com/images/portfolio/regexoff-icon.png"
@@ -40,7 +40,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />
@@ -60,7 +60,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

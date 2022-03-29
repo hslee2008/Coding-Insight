@@ -3,12 +3,12 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>친구 목록 다루기 2</h2>
         <p>파일을 사용해서 친구 목록을 이번에는 저장까지 해보겠습니다</p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           max-width="200px"

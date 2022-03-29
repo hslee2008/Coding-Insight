@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>What is RegEx?</h2>
         <p>
           RegEx is short for Regular Expression.<br /><br />
@@ -18,7 +18,7 @@
           <code> import re </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://cmgcode.com/images/portfolio/regexoff-icon.png"
@@ -55,7 +55,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />
@@ -84,7 +84,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

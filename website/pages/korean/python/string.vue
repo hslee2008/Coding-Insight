@@ -11,15 +11,8 @@
           예를 들어 영어에서는 'A', 'B', 'C' 등을 문자라고 합니다.<br /><br />
 
           파이썬에서 문자란 '' 또는 "" 안에 넣은 데이터 형태를 뜻합니다. 그래서
-          숫자가 따옴표 안에 있어도 문자라고 여겨집니다.<br /><br />
+          숫자가 따옴표 안에 있어도 문자라고 여겨집니다.
         </p>
-      </div>
-      <div style="display: flex; justify-content: center">
-        <GlobalImage
-          alt="python-factory-picture"
-          src="https://img.freepik.com/free-vector/full-color-handwriting-paint-brush-lettering-latin-alphabet-letters_87521-2748.jpg?size=626&ext=jpg&ga=GA1.2.604377791.1627776000"
-          max-width="300px"
-        />
       </div>
     </div>
 
@@ -38,7 +31,7 @@
     <Header type="파이썬" num="8" title="문자열" />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>파이썬에서 문자 만들기</h2>
         <p>
           문자는 항상 '' 또는 "" 안에 값이 있어야 합니다.<br /><br />
@@ -53,7 +46,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -82,7 +75,7 @@
           이 기호 안에 저희는 새로운 줄(enter)을 넣어서 사용할 수 있습니다.
           하지만 ''와 ""에서는 새로운 줄을 사용할 수 없습니다.<br /><br />
 
-          ''' ''' 대신 """ """를 사용해도 됩니다.<br /><br />
+          ''' ''' 대신 """ """를 사용해도 됩니다.
         </p>
       </div>
 
@@ -91,7 +84,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -120,7 +113,7 @@
           하지만 배열(문자열, 리스트 등)에서 첫 번째 인덱스를 출력하기 위해서
           0을 사용합니다. 2번째는 1이고 3번째는 2입니다.<br /><br />
 
-          이 이유는 조금 뒤에 설명하겠습니다.<br /><br />
+          이 이유는 조금 뒤에 설명하겠습니다.
         </p>
       </div>
 
@@ -129,7 +122,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -145,7 +138,7 @@
           [] 안에 ':'를 사용하여 ':' 전에 나오는 인덱스를 포함하고 ':' 다음에
           나오는 인덱스는 제외하고 출력이 됩니다.<br /><br />
 
-          만일 0이 없이 '' 만 있어도 파이썬은 0이라고 인식합니다.<br /><br />
+          만일 0이 없이 '' 만 있어도 파이썬은 0이라고 인식합니다.
         </p>
       </div>
 
@@ -154,7 +147,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -171,7 +164,7 @@
           마지막 숫자는 스텝을 뜻합니다. 스텝은 문자 인덱싱을 셀때 단위입니다.
           예를 들면, 단위를 2로 정하면 2 문자 중 하나씩만 출력됩니다.<br /><br />
 
-          스텝을 -1로 입력하면 거꾸로 바꿀 수 있습니다.<br /><br />
+          스텝을 -1로 입력하면 거꾸로 바꿀 수 있습니다.
         </p>
       </div>
 
@@ -180,7 +173,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -402,7 +395,7 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
         </v-btn>
       </v-card-actions>

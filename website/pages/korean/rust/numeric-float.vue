@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>소수형 데이터 형태</h2>
         <p>
           저번 페이지에서 Rust 정수 형태에 대해 알아 보았습니다.<br /><br />
@@ -13,7 +13,7 @@
           소수는 Rust에서 'f'이고 비트는 32, 64 숫자를 사용합니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <v-icon x-large>mdi-numeric</v-icon>
       </div>
     </div>

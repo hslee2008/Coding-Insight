@@ -40,7 +40,7 @@
 
         참고로 C++에서는 문자열은 "", 문자는 ''를 사용해야 합니다.<br /><br />
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/491S"
           width="100%"
@@ -143,7 +143,7 @@
 
         length()와 size()는 같습니다.<br /><br />
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/4aoo"
           width="100%"

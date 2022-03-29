@@ -22,7 +22,7 @@
           <code> a = 5 > 6 </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
@@ -34,25 +34,24 @@
     <Header-en type="Python" num="13" title="Boolean" />
 
     <div>
-      <div class="mx-auto my-auto">
-        <h2>Something to be careful</h2>
-        <p>
-          In Python, incorrect is False and correct is True.<br /><br />
+      <h2>Something to be careful</h2>
+      <p>
+        In Python, incorrect is False and correct is True.<br /><br />
 
-          I did not made the first alphabet of False and True uppercase on
-          purpose.<br /><br />
+        I did not made the first alphabet of False and True uppercase on
+        purpose.<br /><br />
 
-          Python uses False and True with UPPERCASE letters.
-        </p>
-      </div>
-      <iframe
-        src="https://trinket.io/embed/python/8500bba20b"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="mx-auto my-auto"
-      />
+        Python uses False and True with UPPERCASE letters.
+      </p>
     </div>
+
+    <iframe
+      src="https://trinket.io/embed/python/8500bba20b"
+      width="100%"
+      height="356"
+      loading="lazy"
+      class="ma-auto"
+    />
 
     <QuadSpace />
 
@@ -66,7 +65,7 @@
         width="60%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -98,7 +97,7 @@
         width="60%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -121,7 +120,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -261,10 +260,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>Check Answer
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

@@ -22,7 +22,7 @@
     <Header-en type="Python" num="8" title="String" />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>Multi - line string</h2>
         <p>
           What would you do if there were lots and lots of lines to print?<br /><br />
@@ -57,7 +57,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -77,9 +77,10 @@
             width="100%"
             height="356"
             loading="lazy"
-            class="mx-auto my-auto"
-          ></iframe
-          ><br /><br />
+            class="ma-auto"
+          >
+          </iframe>
+          <br /><br />
 
           The number after [] is called index.<br /><br />
 
@@ -140,7 +141,7 @@
           width="100%"
           height="356"
           loading="lazy"
-          class="mx-auto my-auto"
+          class="ma-auto"
         />
       </div>
     </div>
@@ -391,10 +392,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>Check Answer
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

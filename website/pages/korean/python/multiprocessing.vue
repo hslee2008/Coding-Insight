@@ -10,7 +10,7 @@
           max-width="200px"
         />
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>멀티프로세싱이란?</h2>
         <p>
           멀티프로세싱이라는 것은 어떤 함수를 동시에 실행할 수 있는 모듈
@@ -36,7 +36,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />

@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>친구 목록 다루기</h2>
         <p>
           파이썬 리스트를 사용해서 친구 목록 다루는 프로그램을 만들어
@@ -16,7 +16,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           max-width="200px"

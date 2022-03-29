@@ -15,13 +15,6 @@
           A variable is very similar to a box.
         </p>
       </div>
-      <div class="mx-auto my-auto">
-        <GlobalImage
-          alt="python-factory-picture"
-          src="https://mblogthumb-phinf.pstatic.net/20140319_89/leedahee111_1395209827273qETWy_JPEG/lights-cubes-3D--1573013-1920x1080.jpg?type=w2"
-          max-width="300px"
-        />
-      </div>
     </div>
 
     <Header-en type="Python" num="5" title="Variable" />
@@ -43,7 +36,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -95,14 +88,14 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
     <QuadSpace />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://wallpaperaccess.com/full/3279871.jpg"
@@ -124,7 +117,7 @@
 
           If we run the code above, we get an error.<br /><br />
 
-          We are trying to print a variable that does not exist.<br /><br />
+          We are trying to print a variable that does not exist.
         </p>
       </div>
     </div>
@@ -351,10 +344,10 @@
       /></v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>Check Answer
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

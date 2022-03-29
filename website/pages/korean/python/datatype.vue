@@ -1,6 +1,7 @@
 <template>
   <div>
     <br /><br />
+
     <div>
       <div>
         <h2>데이터 형태란?</h2>
@@ -14,13 +15,6 @@
 
           <code> weather = "대체로 흐림" </code>
         </p>
-      </div>
-      <div class="mx-auto my-auto">
-        <GlobalImage
-          alt="python-factory-picture"
-          src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
-          max-width="300px"
-        />
       </div>
     </div>
 
@@ -46,8 +40,8 @@
 
         <code> print(type("안녕")) </code>
 
-        <code>&lt;class 'str'</code>은 "안녕"이 str 데이터 변수(str은
-        문자입니다)라는 것을 알려줍니다.
+        <code class="ic">&lt;class 'str'></code>은 "안녕"이 str 데이터
+        변수(str은 문자입니다)라는 것을 알려줍니다.
       </p>
     </div>
 
@@ -56,7 +50,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />
@@ -65,17 +59,19 @@
       <div>
         <h2>데이터 형태 확인</h2>
         <p>
-          isinstance()는 변수의 데이터 형태를 확인해주는 함수입니다.<br /><br />
+          <code class="ic">isinstance()</code>는 변수의 데이터 형태를 확인해주는
+          함수입니다.<br /><br />
 
           첫 번째에 변수 이름을 넣고 두 번째에는 데이터 형태 이름을 넣습니다. 이
-          코드를 실행하면 True 또는 False가 출력됩니다.<br /><br />
+          코드를 실행하면 <code class="ic">True</code> 또는
+          <code class="ic">False</code>가 출력됩니다.<br /><br />
 
           <iframe
             src="https://trinket.io/embed/python/437398710e"
             width="100%"
             height="356"
             loading="lazy"
-            class="mx-auto my-auto"
+            class="ma-auto"
           />
 
           <br />
@@ -86,11 +82,11 @@
           isinstance(변수, 변수 형태)의 형태를 가지고 있습니다.<br /><br />
 
           위의 예시는 True를 출력합니다. 그 이유는 "sunny"가 문자(str)이기
-          때문입니다.<br /><br />
+          때문입니다.
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://www.sas.com/en_us/insights/articles/big-data/big-data-privacy/_jcr_content/par02/image_df5.img.jpg/1601048186486.jpg"
@@ -236,10 +232,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

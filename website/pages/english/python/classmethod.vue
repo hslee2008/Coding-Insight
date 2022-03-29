@@ -3,22 +3,13 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
-        <h2>Inheritence</h2>
-        <p>
-          Inheritence means to pass down something from above.<br /><br />
+      <h2>Inheritence</h2>
+      <p>
+        Inheritence means to pass down something from above.<br /><br />
 
-          In Python, inheritence is when a class inherit the variables and
-          functions from another class.
-        </p>
-      </div>
-      <div class="mx-auto my-auto">
-        <GlobalImage
-          alt="python-factory-picture"
-          src="https://pbs.twimg.com/profile_images/502406972453289985/AKdzcXPi.png"
-          width="300px"
-        />
-      </div>
+        In Python, inheritence is when a class inherit the variables and
+        functions from another class.
+      </p>
     </div>
 
     <Header-en type="Python" num="47" title="Class Method" />
@@ -40,7 +31,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />
@@ -59,7 +50,7 @@
           width="100%"
           height="356"
           loading="lazy"
-          class="mx-auto my-auto"
+          class="ma-auto"
         />
       </div>
     </div>
@@ -79,7 +70,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -109,7 +100,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />

@@ -3,7 +3,7 @@
     <Header type="" title="Courses" num="Complete List" />
 
     <v-row flex style="gap: 20px">
-      <v-card class="mx-auto my-auto" max-width="350" min-width="100">
+      <v-card class="ma-auto" max-width="350" min-width="100">
         <v-img
           class="white--text align-end"
           height="200"
@@ -26,7 +26,7 @@
 
         <v-card-actions>
           <v-btn
-            aria-label="Coding Insight Button"
+            :aria-label="albutt"
             color="primary"
             class="ml-2"
             to="/korean/python/"
@@ -35,7 +35,7 @@
             <v-icon dark right> mdi-language-python </v-icon>
           </v-btn>
           <v-btn
-            aria-label="Coding Insight Button"
+            :aria-label="albutt"
             color="primary"
             class="ml-2"
             to="/korean/python/quiz"
@@ -46,7 +46,7 @@
         </v-card-actions>
       </v-card>
 
-      <v-card class="mx-auto my-auto" min-width="100" max-width="350">
+      <v-card class="ma-auto" min-width="100" max-width="350">
         <v-img
           class="white--text align-end"
           height="200"
@@ -68,7 +68,7 @@
 
         <v-card-actions>
           <v-btn
-            aria-label="Coding Insight Button"
+            :aria-label="albutt"
             color="primary"
             to="/korean/c-cpp/"
             class="ml-2"
@@ -76,7 +76,7 @@
             <v-icon dark> mdi-language-c </v-icon>
           </v-btn>
           <v-btn
-            aria-label="Coding Insight Button"
+            :aria-label="albutt"
             color="primary"
             to="/korean/c-cpp/cpp"
             class="ml-2"
@@ -86,7 +86,7 @@
         </v-card-actions>
       </v-card>
 
-      <v-card class="mx-auto my-auto" min-width="100" max-width="350">
+      <v-card class="ma-auto" min-width="100" max-width="350">
         <v-img
           class="white--text align-end"
           height="200"
@@ -108,7 +108,7 @@
 
         <v-card-actions>
           <v-btn
-            aria-label="Coding Insight Button"
+            :aria-label="albutt"
             color="primary"
             to="/korean/rust/"
             class="ml-2"

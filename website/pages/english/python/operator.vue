@@ -90,7 +90,6 @@
           otherwise.<br /><br />
           &lt; returns True if right is bigger and False otherwise. &lt;=returns
           True if right is bigger or equal to left and False otherwise.
-          <br /><br />
         </p>
       </div>
       <iframe
@@ -98,7 +97,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

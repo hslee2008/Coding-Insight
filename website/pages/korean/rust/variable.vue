@@ -3,21 +3,13 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
-        <h2>변수</h2>
-        <p>
-          변수란 정보를 저장할 수 있는 공간을 뜻합니다.<br /><br />
+      <h2>변수</h2>
+      <p>
+        변수란 정보를 저장할 수 있는 공간을 뜻합니다.<br /><br />
 
-          박스 안에 물건을 담아두는 것이 변수에 값을 지정하는 것과 매우
-          비슷합니다.<br /><br />
-        </p>
-      </div>
-      <div class="mx-auto my-auto">
-        <GlobalImage
-          src="https://miro.medium.com/max/1838/1*QT3V91g69EUI7Uv0GY1nsg.png"
-          max-width="300"
-        />
-      </div>
+        박스 안에 물건을 담아두는 것이 변수에 값을 지정하는 것과 매우
+        비슷합니다.
+      </p>
     </div>
 
     <Header type="Rust" title="변수" num="7" />
@@ -71,13 +63,13 @@
           Rust에서 변수를 출력하는 방법을 알아보겠습니다.<br /><br />
 
           원래 쉽게 출력하기 위해서
-          <code class="inline-code">println!()</code> 사이에 넣었습니다.<br /><br />
+          <code class="ic">println!()</code> 사이에 넣었습니다.<br /><br />
 
-          변수를 사용하기 위해서는 <code class="inline-code">{}</code> 사이에
-          변수 이름을 넣으면 됩니다.<br /><br />
+          변수를 사용하기 위해서는 <code class="ic">{}</code> 사이에 변수 이름을
+          넣으면 됩니다.<br /><br />
 
-          또는 '' 사이에 먼저 <code class="inline-code">{}</code>를 넣고 ''
-          다음에 변수 이름을 넣어도 됩니다.
+          또는 '' 사이에 먼저 <code class="ic">{}</code>를 넣고 '' 다음에 변수
+          이름을 넣어도 됩니다.
         </p>
       </div>
       <iframe

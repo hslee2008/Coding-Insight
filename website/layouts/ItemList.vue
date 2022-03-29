@@ -1,25 +1,25 @@
 <template>
   <v-expansion-panel
-    :style="'background-color: ' + ($vuetify.theme.dark ? '#23272f' : 'white')"
+    :style="`background-color: ${$vuetify.theme.dark ? bgd : 'white'}`"
   >
     <v-expansion-panel-header>{{ title }}</v-expansion-panel-header>
 
     <v-expansion-panel-content>
       <v-list-item
-        v-for="(item, i) in items[isEnglish() ? json + '_en' : json]"
-        :key="json + i.toString()"
+        v-for="(item, i) in items[json + (isEnglish() ? '_en' : '')]"
+        :key="item.to + i.toString()"
         :to="item.to"
         dense
         exact
-        :active-class="'activeList' + $vuetify.theme.dark ? 'Dark' : 'Light'"
+        :active-class="`activeList${$vuetify.theme.dark ? 'Dark' : 'Light'}`"
         @click="close"
       >
         <v-list-item-icon>
-          <v-icon>{{ 'mdi-' + item.icon }}</v-icon>
+          <v-icon>mdi-{{ item.icon }}</v-icon>
         </v-list-item-icon>
 
         <v-list-item-content>
-          <v-list-item-title v-text="item.title" />
+          <v-list-item-title>{{ item.title }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </v-expansion-panel-content>
@@ -52,7 +52,7 @@
   };
 </script>
 
-<style>
+<style scoped>
   .activeListDark {
     background-color: #23272f;
   }

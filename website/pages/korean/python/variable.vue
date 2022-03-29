@@ -11,15 +11,8 @@
           예를 들어 상자를 생각해보세요. 상자 안에는 다양한 물건을 담을 수
           있습니다.<br /><br />
           이와 비슷하게 변수도 다양 한 정보를 담을 수 있는 '상자'라고 할 수
-          있습니다.<br /><br />
+          있습니다.
         </p>
-      </div>
-      <div class="mx-auto my-auto">
-        <GlobalImage
-          alt="python-factory-picture"
-          src="https://mblogthumb-phinf.pstatic.net/20140319_89/leedahee111_1395209827273qETWy_JPEG/lights-cubes-3D--1573013-1920x1080.jpg?type=w2"
-          max-width="300px"
-        />
       </div>
     </div>
 
@@ -44,7 +37,7 @@
           변수를 만들려면 다음과 같은 방법을 사용할 수 있습니다. <br /><br />
           <code> NAME = DATA </code>
           에서 NAME은 변수의 이름을 뜻하고 DATA는 값입니다. <br /><br />
-          이렇게 하면 변수를 만들 수 있습니다. <br /><br />
+          이렇게 하면 변수를 만들 수 있습니다.
         </p>
       </div>
       <iframe
@@ -52,7 +45,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -84,7 +77,7 @@
           1. 영문자 (대문자, 소문자), 숫자, 언더바 (_) 만 사용할 수 있습니다.<br /><br />
           2. 변수의 이름의 첫 자리는 숫자이면 안됩니다.<br /><br />
           3. 파이썬 키워드는 변수의 이름으로 사용할 수 없습니다 (키워드에 대한
-          더 자세한 내용은 조금 뒤에 배우겠습니다)<br /><br />
+          더 자세한 내용은 조금 뒤에 배우겠습니다)
         </p>
       </div>
     </div>
@@ -98,7 +91,7 @@
           변수에 저장된 값을 바꾸기 위하여 저희는 먼저 변수를 선언하겠습니다.<br /><br />
           변수를 만들었다면 이제 변수의 값을 새로운 데이터로 바꾸어
           보겠습니다.<br /><br />
-          변수를 만들었을 때와 같이 '변수 이름 = 값' 코드를 실행하면 됩니다.<br /><br />
+          변수를 만들었을 때와 같이 '변수 이름 = 값' 코드를 실행하면 됩니다.
         </p>
       </div>
       <iframe
@@ -106,7 +99,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -352,7 +345,7 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
         </v-btn>
       </v-card-actions>

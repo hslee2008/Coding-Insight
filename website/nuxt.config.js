@@ -92,7 +92,6 @@ export default {
   css: [
     '~/assets/css/theme.css',
     '~/assets/css/transition.css',
-    '~/assets/css/media.css',
     '~/assets/css/scrollbar.css',
     '~/assets/css/component.css',
   ],
@@ -145,6 +144,8 @@ export default {
       Disallow: '/',
     },
   ],
+
+  plugins: ['~/plugins/variable'],
 
   loading: {
     color: 'skyblue',

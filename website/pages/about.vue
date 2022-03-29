@@ -42,7 +42,7 @@
 
       <v-list-item-actions>
         <v-btn
-          aria-label="Coding Insight Button"
+          :aria-label="albutt"
           rounded
           text
           href="https://github.com/HyunseungLee-Travis"
@@ -56,7 +56,7 @@
         v-if="!$vuetify.breakpoint.mobile"
         size="80"
         rounded
-        class="mx-auto my-auto"
+        class="ma-auto"
       >
         <GlobalImage
           src="https://avatars.githubusercontent.com/u/78584173?s=96&v=4"
@@ -77,7 +77,7 @@
 
       <v-list-item-actions>
         <v-btn
-          aria-label="Coding Insight Button"
+          :aria-label="albutt"
           rounded
           text
           href="https://github.com/GMTT902"
@@ -91,7 +91,7 @@
         v-if="!$vuetify.breakpoint.mobile"
         size="80"
         rounded
-        class="mx-auto my-auto"
+        class="ma-auto"
       >
         <GlobalImage
           src="https://avatars.githubusercontent.com/u/87412592?v=4"
@@ -112,7 +112,7 @@
 
       <v-list-item-actions>
         <v-btn
-          aria-label="Coding Insight Button"
+          :aria-label="albutt"
           rounded
           text
           href="https://github.com/kimgun1217"
@@ -126,7 +126,7 @@
         v-if="!$vuetify.breakpoint.mobile"
         size="80"
         rounded
-        class="mx-auto my-auto"
+        class="ma-auto"
       >
         <GlobalImage
           src="https://avatars.githubusercontent.com/u/87595094?v=4"

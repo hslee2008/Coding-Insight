@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>Pandas</h2>
         <p>
           Pandas is a library that can read and analyze data efficiently.<br /><br />
@@ -132,7 +132,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://t1.daumcdn.net/cfile/tistory/9916724E5D3CD66B19"

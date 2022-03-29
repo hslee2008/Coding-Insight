@@ -100,7 +100,7 @@
           width="100%"
           height="356"
           loading="lazy"
-          class="mx-auto my-auto"
+          class="ma-auto"
         />
       </div>
     </div>
@@ -145,8 +145,8 @@
     <Navigation bef="zipping" aft="set" />
 
     <v-card>
-      <v-card-text
-        ><h3>
+      <v-card-text>
+        <h3>
           what is printed when running: print( zip( (1, 2, 3), ("1", "2", "3") )
           ) ?
         </h3>
@@ -210,7 +210,7 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>Check Answer
         </v-btn>
       </v-card-actions>

@@ -1,6 +1,7 @@
 <template>
   <div>
     <br /><br />
+
     <div>
       <div>
         <h2>이스케이프 문자란?</h2>
@@ -21,7 +22,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -40,7 +41,7 @@
     <Header type="파이썬" num="11" title="이스케이프 문자" />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>\'와 \"</h2>
         <p>
           \'와 \"는 각각 ', "와 충돌하지 않게 도와주는 문자입니다.<br /><br />
@@ -49,7 +50,7 @@
 
           그래서 '' 안에 에러 없이 \'를 사용할 수 있습니다.<br /><br />
 
-          \"도 "" 안에서 문제 없이 사용이 가능합니다.<br /><br />
+          \"도 "" 안에서 문제 없이 사용이 가능합니다.
         </p>
       </div>
       <iframe
@@ -57,7 +58,7 @@
         width="60%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -67,7 +68,7 @@
     <QuadSpace />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>\n</h2>
         <p>
           영어로 새로운 줄은 newline이라고 합니다. \n는 엔터와 같습니다.<br /><br />
@@ -75,7 +76,7 @@
           ""와 ''안에는 항상 한 줄 안에만 값이 있어야 합니다.<br /><br />
 
           """ """ 또는 ''' '''를 사용하지 않고 \n를 사용하여 새로운 줄을 만들 수
-          있습니다.<br /><br />
+          있습니다.
         </p>
       </div>
       <iframe
@@ -83,7 +84,7 @@
         width="60%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -110,7 +111,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -151,7 +152,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -209,10 +210,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

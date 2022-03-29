@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>문자열이란?</h2>
         <p>
           문자열은 문자의 배열을 뜻합니다.<br /><br />
@@ -11,7 +11,7 @@
           문자는 한 알파벳이었고 문자열은 단어라고 할 수 있습니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfACCcn3fn-YXylQf1-S3a2wrIXJ51Z6_LzA&usqp=CAU"
@@ -51,7 +51,7 @@
           사용합니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/42tH"
           width="100%"
@@ -77,7 +77,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/42tI"
           width="100%"

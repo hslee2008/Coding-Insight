@@ -3,22 +3,12 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
-        <h2>Making Coroutines</h2>
-        <p>
-          A long time ago, we learned about yield keyword in for loop.<br /><br />
+      <h2>Making Coroutines</h2>
+      <p>
+        A long time ago, we learned about yield keyword in for loop.<br /><br />
 
-          Instead of using yield as return, we can use it for making
-          couroutines.
-        </p>
-      </div>
-      <div class="mx-auto my-auto">
-        <GlobalImage
-          alt="python-factory-picture"
-          src="https://i.pinimg.com/736x/1c/86/84/1c8684b06bc7ad1e1f6b7b0099d87300.jpg"
-          max-width="200px"
-        />
-      </div>
+        Instead of using yield as return, we can use it for making couroutines.
+      </p>
     </div>
 
     <Header-en type="Python" num="84" title="Coroutine" />
@@ -44,7 +34,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />

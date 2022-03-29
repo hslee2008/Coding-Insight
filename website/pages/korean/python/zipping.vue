@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>나만의 압축 프로그램</h2>
         <p>
           사실 윈도우아 맥에는 압축 프로그램이 있습니다.<br /><br />
@@ -14,7 +14,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           max-width="200px"

@@ -3,21 +3,16 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
-        <h2>타입 바꾸는 방법</h2>
-        <p>
-          Rust에서 타입을 바꾸는 방법을 알아보겠습니다.<br /><br />
+      <h2>타입 바꾸는 방법</h2>
+      <div>
+        Rust에서 타입을 바꾸는 방법을 알아보겠습니다.<br /><br />
 
-          예를 들면, i32 형태의 숫자를 소수와 나누기 위해서 먼저 f32 또는 f64
-          형태로 바꾸어야 합니다.<br /><br />
+        예를 들면, i32 형태의 숫자를 소수와 나누기 위해서 먼저 f32 또는 f64
+        형태로 바꾸어야 합니다.<br /><br />
 
-          그래서
-          <code class="inline-code">&lt;variable> as &lt;new-type</code> 형태로
-          바꿔주면 됩니다.
-        </p>
-      </div>
-      <div class="mx-auto my-auto">
-        <v-icon x-large>mdi-database-refresh</v-icon>
+        그래서
+        <code class="ic">&lt;variable> as &lt;new-type</code> 형태로 바꿔주면
+        됩니다.
       </div>
     </div>
 

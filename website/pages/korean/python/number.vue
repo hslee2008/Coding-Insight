@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>변수 - 숫자 선언 방법</h2>
         <p>
           숫자는 우리가 항상 사용하는 것입니다. '사과 2개', '책 3권' 등 다양한
@@ -18,7 +18,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://blog.shabda.co/wp-content/uploads/2015/10/numbers-truth-morality.png"
@@ -49,7 +49,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -71,7 +71,7 @@
           문자입니다.<br /><br />
 
           하지만 두 번째는 &lt;class 'int'>이 출력되었습니다. 그 이유는 숫자는
-          '' 없이 선언해야만 숫자라고 인식이 되기 때문입니다.<br /><br />
+          '' 없이 선언해야만 숫자라고 인식이 되기 때문입니다.
         </p>
       </div>
 
@@ -80,7 +80,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -115,7 +115,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -214,10 +214,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

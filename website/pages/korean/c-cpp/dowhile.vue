@@ -16,7 +16,7 @@
           맞다면 바로 끝냅니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://www.tutorialspoint.com/cprogramming/images/cpp_do_while_loop.jpg"
@@ -53,7 +53,7 @@
           }
         </code>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/3YM3"
           width="100%"

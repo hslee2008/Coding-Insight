@@ -3,24 +3,15 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
-        <h2>출력이란?</h2>
-        <p>
-          출력이란 개발자 또는 사용자가 어떤 정보를 확인하기 위해 컴퓨터 화면에
-          나타내는 작업을 뜻합니다.<br /><br />
+      <h2>출력이란?</h2>
+      <p>
+        출력이란 개발자 또는 사용자가 어떤 정보를 확인하기 위해 컴퓨터 화면에
+        나타내는 작업을 뜻합니다.<br /><br />
 
-          예를 들면, 1 + 1의 값을 컴퓨터 화면에 출력할 수 있습니다. (2)<br /><br />
+        예를 들면, 1 + 1의 값을 컴퓨터 화면에 출력할 수 있습니다. (2)<br /><br />
 
-          참고로 콘솔이라는 것은 모든 정보를 출력하는 곳을 뜻합니다.
-        </p>
-      </div>
-
-      <div class="mx-auto my-auto">
-        <GlobalImage
-          src="https://image-loader-coding-insight.web.app/rust-kr/img/code.png"
-          max-width="300"
-        />
-      </div>
+        참고로 콘솔이라는 것은 모든 정보를 출력하는 곳을 뜻합니다.
+      </p>
     </div>
 
     <Header type="Rust" title="출력과 main()" num="4" />
@@ -61,8 +52,8 @@
           함수는 나중에 자세히 알아보겠지만 쉽게 코드를 담는 부분이라고 생각하면
           됩니다.<br /><br />
 
-          <code class="inline-code">main()</code> 함수는 Rust 코드의 대부분을
-          담을 박스입니다.
+          <code class="ic">main()</code> 함수는 Rust 코드의 대부분을 담을
+          박스입니다.
         </p>
       </div>
       <iframe
@@ -73,7 +64,7 @@
       <div>
         <p>
           이제 위의 코드를 실행하면 에러가 뜹니다. 그 이유는
-          <code class="inline-code">main()</code> 함수 안에 코드를 넣지 않았기
+          <code class="ic">main()</code> 함수 안에 코드를 넣지 않았기
           때문입니다.
         </p>
       </div>

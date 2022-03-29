@@ -1,21 +1,16 @@
 <template>
   <v-card class="transparent my-15">
     <v-card-actions>
-      <v-btn
-        v-if="!single"
-        aria-label="Back"
-        :to="bef"
-        ripple
-        outlined
-        color="primary"
-      >
-        <v-icon left> mdi-menu-left </v-icon> Back
+      <v-btn outlined color="primary" :to="bef">
+        <v-icon left> mdi-chevron-left </v-icon>
+        BACK
       </v-btn>
 
       <v-spacer />
 
-      <v-btn aria-label="Next" :to="aft" ripple outlined color="primary">
-        Next <v-icon right> mdi-menu-right </v-icon>
+      <v-btn outlined color="primary" :to="aft">
+        NEXT
+        <v-icon right> mdi-chevron-right </v-icon>
       </v-btn>
     </v-card-actions>
   </v-card>

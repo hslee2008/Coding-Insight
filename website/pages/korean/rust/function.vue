@@ -6,10 +6,10 @@
       <GlobalImage
         src="https://cloudreports.net/wp-content/uploads/2019/06/Function_machine2.png"
         max-width="300"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>함수란?</h2>
         일상생활에서 함수란 input이 있으면 output을 반환하는 것을 말합니다.<br /><br />
 

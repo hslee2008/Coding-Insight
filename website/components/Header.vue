@@ -4,16 +4,9 @@
 
     <div
       class="text-center my-15 pa-6 rounded-lg"
-      :style="
-        'background-color: ' + ($vuetify.theme.dark ? '#343b47' : '#F7F6F9')
-      "
+      :style="'background-color: ' + ($vuetify.theme.dark ? hdbgd : hdbgl)"
     >
-      <v-btn
-        aria-label="Coding Insight Button"
-        class="mb-10"
-        outlined
-        @click="speak"
-      >
+      <v-btn :aria-label="albutt" class="mb-10" outlined @click="speak">
         <v-icon left>
           mdi-{{ notspeaking ? 'bullhorn' : 'pause-octagon' }}
         </v-icon>

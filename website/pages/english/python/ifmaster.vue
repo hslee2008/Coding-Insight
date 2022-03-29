@@ -39,7 +39,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -47,7 +47,7 @@
 
     <div>
       <div>
-        <div style="padding: 10px">
+        <div>
           <h2>Switch</h2>
           <p>
             Other programming languages such as JavaScript has unique and useful

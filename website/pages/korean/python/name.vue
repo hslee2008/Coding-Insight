@@ -36,7 +36,7 @@
             width="100%"
             height="356"
             loading="lazy"
-            class="mx-auto my-auto"
+            class="ma-auto"
           />
 
           <br /><br />main.py를 실행하면 HI가 두 번 출력이 됩니다.<br /><br />
@@ -46,7 +46,7 @@
             width="100%"
             height="356"
             loading="lazy"
-            class="mx-auto my-auto"
+            class="ma-auto"
           />
 
           <br /><br />위에 있는 예시에 있는 main.py 파일을 실행하면 HI가 한번

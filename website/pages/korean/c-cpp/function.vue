@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>함수란?</h2>
         <p>
           함수란 코드의 모음입니다.<br /><br />
@@ -19,7 +19,7 @@
           반복하여 쓰지 않아도 될 수 있게 만들어 주는 도구입니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://cdn3.iconfinder.com/data/icons/smashicons-development-retro/60/6_-HTML_Functions-_development_coding_code_programming-512.png"
@@ -54,7 +54,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/44gu"
           width="100%"
@@ -91,7 +91,7 @@
           return을 사용하여 함수를 끝내는 것도 가능합니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="data:image/png;base64,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"
@@ -163,7 +163,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <iframe
           src="https://www.jdoodle.com/embed/v0/44gA"
           width="100%"

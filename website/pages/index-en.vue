@@ -3,17 +3,17 @@
     <br /><br />
 
     <v-row flex justify="center" style="margin: 10px">
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h1>
           Welcome to<br />
           <span class="titleforcodinginsight">Coding-Insight</span>
         </h1>
         <h2 style="color: grey">Learn, Practice, Build and Deploy</h2>
         <br />
-        <v-btn aria-label="Coding Insight Button" to="/courses" color="primary"
+        <v-btn :aria-label="albutt" to="/courses" color="primary"
           >Learn Now <v-icon right>mdi-arrow-right-thin</v-icon></v-btn
         >
-        <v-btn aria-label="Coding Insight Button" to="/"
+        <v-btn :aria-label="albutt" to="/"
           >한국어로 <v-icon right>mdi-book-alphabet</v-icon></v-btn
         >
       </div>
@@ -25,7 +25,7 @@
 
     <QuadSpace />
 
-    <v-card class="mx-auto my-auto">
+    <v-card class="ma-auto">
       <v-card-text>
         <h3>After block programming...</h3>
         <v-row style="margin: 1px">
@@ -50,7 +50,7 @@
 
       <v-card-actions>
         <v-btn
-          aria-label="Coding Insight Button"
+          :aria-label="albutt"
           text
           color="teal accent-4"
           href="https://scratch.mit.edu/"
@@ -63,7 +63,7 @@
     <QuadSpace /><QuadSpace />
 
     <v-row flex style="gap: 10px">
-      <v-card class="mx-auto my-auto" max-width="450" min-width="350">
+      <v-card class="ma-auto" max-width="450" min-width="350">
         <v-img
           class="white--text align-end"
           height="200px"
@@ -83,7 +83,7 @@
 
         <v-card-actions>
           <v-btn
-            aria-label="Coding Insight Button"
+            :aria-label="albutt"
             color="primary"
             class="ma-2"
             dark
@@ -93,7 +93,7 @@
             <v-icon dark right> mdi-language-python </v-icon>
           </v-btn>
           <v-btn
-            aria-label="Coding Insight Button"
+            :aria-label="albutt"
             color="primary"
             class="ma-2"
             dark

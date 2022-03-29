@@ -1,5 +1,5 @@
 export default {
-  python_items: [
+  python: [
     {
       titleen: 'Start Python',
       titlekr: '파이썬 시작',
@@ -47,7 +47,7 @@ export default {
       json: 'other',
     },
   ],
-  c_items: [
+  c: [
     {
       titleen: 'Starting C Programming',
       titlekr: 'C 언어 시작',
@@ -79,7 +79,7 @@ export default {
       json: 'cpp_basics',
     },
   ],
-  rust_items: [
+  rust: [
     {
       titleen: 'Rust Start',
       titlekr: 'Rust 시작',

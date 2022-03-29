@@ -21,7 +21,7 @@
 
         불리언 변수는 다음과 같이 선언합니다.<br /><br />
 
-        <code class="inline-code">let is_true: bool = true;</code>
+        <code class="ic">let is_true: bool = true;</code>
 
         참고로 bool은 항상 true 또는 false 값만 가질 수 있습니다.<br /><br />
 

@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>변수 빌리기</h2>
         <p>
           변수를 빌린다는 것은 어떤 변수가 있으면 그 변수의 메모리 주서를
@@ -14,7 +14,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <svg
           width="75"
           height="185"

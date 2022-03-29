@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>str 데이터 형태</h2>
         <p>
           str(문자열)은 char 데이터 형태를 여러게 붙여 놓은 데이터
@@ -20,7 +20,7 @@
         viewBox="0 0 150 122"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        class="mx-auto my-auto"
+        class="ma-auto"
       >
         <rect
           x="120.5"
@@ -167,10 +167,10 @@
       <div>
         <h2>&str과 String</h2>
 
-        &str은 <code class="inline-code">let vari: &str = ""</code> 형태로
-        변수를 선언하면 되고 String은
-        <code class="inline-code">let vari = String::from("")</code>과 같이
-        선언하면 됩니다.<br /><br />
+        &str은 <code class="ic">let vari: &str = ""</code> 형태로 변수를
+        선언하면 되고 String은
+        <code class="ic">let vari = String::from("")</code>과 같이 선언하면
+        됩니다.<br /><br />
 
         참고로 String에 &를 붙이면 &str로 변합니다.<br /><br />
 

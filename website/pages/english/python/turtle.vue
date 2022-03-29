@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>What is Turtle?</h2>
         <p>We use Turtle for drawing and making simple games.</p>
       </div>

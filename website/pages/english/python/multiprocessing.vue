@@ -10,7 +10,7 @@
           max-width="200px"
         />
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>Multiprocessing</h2>
         <p>
           Multiprocessing module helps us run two functions at once.<br /><br />
@@ -36,7 +36,7 @@
       width="100%"
       height="356"
       loading="lazy"
-      class="mx-auto my-auto"
+      class="ma-auto"
     />
 
     <QuadSpace />

@@ -11,7 +11,7 @@
         regex = "1.5"<br />
       </code>
 
-      그리고 <code class="inline-code">cargo run build</code>를 실행합니다.
+      그리고 <code class="ic">cargo run build</code>를 실행합니다.
     </p>
 
     <Header type="Rust" title="Rust 외부 모듈" num="39" />

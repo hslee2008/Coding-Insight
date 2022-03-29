@@ -13,7 +13,7 @@
           디스플레이 장치에 보여주는 작업입니다.<br /><br />
 
           파이썬에서 'Hello, World!'라는 데이터를 출력하는 코드를 작성하고
-          실행하면, 콘솔에 그 단어가 똑같이 나타납니다.<br /><br />
+          실행하면, 콘솔에 그 단어가 똑같이 나타납니다.
         </p>
       </div>
       <code>
@@ -62,7 +62,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -136,7 +136,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -322,7 +322,7 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
         </v-btn>
       </v-card-actions>

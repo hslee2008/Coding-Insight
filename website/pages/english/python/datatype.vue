@@ -1,6 +1,7 @@
 <template>
   <div>
     <br /><br />
+
     <div>
       <div>
         <h2>What is data and data type?</h2>
@@ -18,13 +19,6 @@
 
           <code> weather = "a bit rainy" </code>
         </p>
-      </div>
-      <div class="mx-auto my-auto">
-        <GlobalImage
-          alt="python-factory-picture"
-          src="https://www.internationaldisabilityalliance.org/sites/default/files/blog/big_data.jpg"
-          max-width="300px"
-        />
       </div>
     </div>
 
@@ -53,7 +47,7 @@
         width="70%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -220,10 +214,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

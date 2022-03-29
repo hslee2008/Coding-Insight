@@ -84,7 +84,8 @@
           <mark
             >참고로 변수의 이름은 "" 없이 사용해야 합니다. 그렇지 않으면 변수의
             값 대신 "VARIABLE_NAME"(변수 이름)이 출력됩니다.</mark
-          ><br /><br />
+          >
+          <br /><br />
 
           <code>
             #include &lt;stdio.h><br /><br />
@@ -110,7 +111,7 @@
     <QuadSpace />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>변수 이름을 만들때 규칙</h2>
         <p>
           변수를 만들 때 매우 다양한 규칙이 있습니다.<br /><br />
@@ -118,10 +119,10 @@
           1. 영문자 (대문자, 소문자), 숫자, 언더바 (_) 만 사용할 수 있습니다.<br /><br />
           2. 변수의 이름의 첫 자리는 숫자이면 안됩니다.<br /><br />
           3. 파이썬 키워드는 변수의 이름으로 사용할 수 없습니다 (키워드에 대한
-          더 자세한 내용은 조금 뒤에 배우겠습니다)<br /><br />
+          더 자세한 내용은 조금 뒤에 배우겠습니다)
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fI89ddpqwH_V2tcKZx4VijN0SjNXKPIo7Q&usqp=CAU"
@@ -221,10 +222,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn aria-label="Coding Insight Button" @click="checkAnswer"
-          ><v-icon left>mdi-check-decagram</v-icon>정답 확인</v-btn
-        ></v-card-actions
-      >
+        <v-btn :aria-label="albutt" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인</v-btn
+        >
+      </v-card-actions>
     </v-card>
   </div>
 </template>

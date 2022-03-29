@@ -182,7 +182,7 @@
     <QuadSpace />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>.c란?</h2>
         <p>
           위의 설명에서 항상 파이썬 파일을 만들때 "이름.c" 형태로 정해야한다고

@@ -15,7 +15,7 @@
     <Header type="파이썬" num="10" title="문자열 메서드 2" />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>문자 더하기</h2>
         <p>
           문자를 +를 사용하여 더할 수 있습니다.
@@ -36,7 +36,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -69,7 +69,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -89,7 +89,7 @@
           이 예시에서 name을 기준으로 잘랐습니다. partitionedSentence를 출력하면
           ("Hello. My ", "name", " is Hyunseung")가 터미널에 출력이 되는 것을
           관찰할 수 있습니다. 인덱싱을 사용하여 'name' 전의 문장과 'name' 후의
-          문장을 결합했습니다.<br /><br />
+          문장을 결합했습니다.
         </p>
       </div>
       <iframe
@@ -235,10 +235,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

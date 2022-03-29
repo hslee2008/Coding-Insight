@@ -21,7 +21,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -39,7 +39,7 @@
             width="100%"
             height="356"
             loading="lazy"
-            class="mx-auto my-auto"
+            class="ma-auto"
           />
           <br /><br />먼저, 클래스 안에서 def __init__()이라고 선언한 후 안에
           self, name, age, gender 변수를 만들었습니다.<br /><br />
@@ -74,7 +74,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

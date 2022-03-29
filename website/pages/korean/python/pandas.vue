@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>판다스</h2>
         <p>
           판다스란 파이썬 라이브러리로 데이터를 효율적이고 빠르게 다룰 수 있는
@@ -135,7 +135,7 @@
           </code>
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://t1.daumcdn.net/cfile/tistory/9916724E5D3CD66B19"

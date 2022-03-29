@@ -83,31 +83,21 @@
     <QuadSpace />
 
     <div>
-      <div>
-        <div>
-          <h1>Where did the name 'Python' come from?</h1>
-        </div>
-        <p style="margin: 5px">
-          Python is made by Guido Van Rossum.<br /><br />
+      <h1>Where did the name 'Python' come from?</h1>
 
-          While thinking about the new name of his programming language, Rossum
-          had been watching a comedy show by Monty Python. He named his language
-          after the last name of the main actor.<br /><br />
+      <p>
+        Python is made by Guido Van Rossum.<br /><br />
 
-          The programming language's name 'Python' does not come from the
-          snake.<br /><br />
+        While thinking about the new name of his programming language, Rossum
+        had been watching a comedy show by Monty Python. He named his language
+        after the last name of the main actor.<br /><br />
 
-          If you had been Rossum, about to name the new programming language
-          that will change the world, what would you have named it?
-        </p>
-      </div>
-      <div class="text-center mx-auto img-div">
-        <GlobalImage
-          alt="python-factory-picture"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDvusEfnc81WXy7PBDME8ZDa7miwprm8Z4Q&usqp=CAU"
-          max-width="210.5px"
-        />
-      </div>
+        The programming language's name 'Python' does not come from the
+        snake.<br /><br />
+
+        If you had been Rossum, about to name the new programming language that
+        will change the world, what would you have named it?
+      </p>
     </div>
 
     <QuadSpace />

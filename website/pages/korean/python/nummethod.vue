@@ -27,8 +27,7 @@
 
           a가 음수면 양수로 양수면 똑같이 양수로 바꾼 값이 a의 절댓값입니다.<br /><br />
 
-          영어로 절댓값은 absolute value이고 파이썬에서 줄여서 abs()라고
-          합니다.<br /><br />
+          영어로 절댓값은 absolute value이고 파이썬에서 줄여서 abs()라고 합니다.
         </p>
       </div>
       <iframe
@@ -36,7 +35,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -95,10 +94,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

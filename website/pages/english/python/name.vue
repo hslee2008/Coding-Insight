@@ -32,7 +32,7 @@
             width="100%"
             height="356"
             loading="lazy"
-            class="mx-auto my-auto"
+            class="ma-auto"
           />
 
           <br /><br />If we run the code inside file2.py, "Hi" is printed
@@ -45,7 +45,7 @@
             width="100%"
             height="356"
             loading="lazy"
-            class="mx-auto my-auto"
+            class="ma-auto"
           />
 
           <br /><br />Know, if we run the code inside file2.py, the only thing

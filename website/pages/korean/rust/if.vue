@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>if문</h2>
         <p>
           불리언이 맞다면 실행하고, 거짓이면 실행하지 않는 형식이
@@ -13,7 +13,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <svg
           width="375"
           height="154"

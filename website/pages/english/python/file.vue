@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>What is File Handling?</h2>
         <p>
           In Python, it is very easy to read, write, append, create and delete
@@ -15,7 +15,7 @@
           However, there are much more to it than simply writing to files.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
@@ -27,7 +27,7 @@
     <Header-en type="Python" num="49" title="File" />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>File Path</h2>
         <p>
           File path is the adress of your file in your computer.<br /><br />
@@ -67,7 +67,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 

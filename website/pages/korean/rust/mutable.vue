@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>mut 변수란?</h2>
         <p>
           mut란 변수의 값을 바꿀 수 있다는 뜻입니다.<br /><br />
@@ -16,7 +16,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           src="https://image-loader-coding-insight.web.app/rust-kr/img/code_mut_variable.png"
           max-width="300"

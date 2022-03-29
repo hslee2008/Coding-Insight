@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>Switch</h2>
         <p>
           C 언어에서 switch는 조건문과 비슷하지만 변수와 다른 값을
@@ -12,7 +12,7 @@
           switch는 '=='를 사용한 조건문입니다.
         </p>
       </div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <v-switch v-model="switch1" />
       </div>
     </div>

@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>arr 데이터 형태</h2>
         <p>
           arr은 배열로 데이터 형태의 리스트를 담는 데이터 형태입니다.<br /><br />
@@ -17,7 +17,7 @@
           그리고 [] 안에 각 아이템을 넣습니다.<br /><br />
 
           참고로 나중에 배열의 값을 바꾸기 위해서 mut를 사용할 수도 있습니다
-          (let 다음에 넣어주세요).<br /><br />
+          (let 다음에 넣어주세요).
         </p>
       </div>
       <svg
@@ -27,7 +27,7 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
-        class="mx-auto my-auto"
+        class="ma-auto"
       >
         <rect
           x="206.5"

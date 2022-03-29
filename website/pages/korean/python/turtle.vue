@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>Turtle이란?</h2>
         <p>
           "Turtle이란 영어로 거북이를 뜻합니다."<br /><br />

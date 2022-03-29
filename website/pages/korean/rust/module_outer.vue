@@ -13,7 +13,7 @@
       모듈이라고 할 수 있습니다.)<br /><br />
 
       이제 main.rs 파일 안에 mod 키워드를 사용해서 파일 이름을 넣고
-      <code class="inline-code">파일이름::함수()</code>를 실행합니다.
+      <code class="ic">파일이름::함수()</code>를 실행합니다.
     </p>
 
     <span style="color: grey">main.rs 파일</span>

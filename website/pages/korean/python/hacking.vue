@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <h2>해킹</h2>
         <p>
           파이썬을 사용해서 여러분 집의 인터넷에서 일어나는 모든 일을 알 수 있는
@@ -14,7 +14,7 @@
         </p>
       </div>
 
-      <div class="mx-auto my-auto">
+      <div class="ma-auto">
         <GlobalImage
           alt="python-factory-picture"
           max-width="100px"

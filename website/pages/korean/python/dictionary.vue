@@ -22,7 +22,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -63,7 +63,7 @@
           Value는 "010-1234-5678", 14, "James"입니다.<br /><br />
 
           딕셔너리에서는 Key와 Value에는 정수, 문자열 등 모든 데이터를 넣을 수
-          있습니다.<br /><br />
+          있습니다.
         </p>
       </div>
       <iframe
@@ -71,7 +71,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -98,7 +98,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -111,7 +111,7 @@
           Key의 값을 모두 찾는 것처럼 Value의 모든 값을 찾을 수 있습니다.<br /><br />
 
           values()를 사용하면 dict_values([values]) 형태로 value가 출력이
-          됩니다.<br /><br />
+          됩니다.
         </p>
       </div>
       <iframe
@@ -119,7 +119,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -178,10 +178,10 @@
       </v-card-text>
 
       <v-card-actions>
-        <v-btn text aria-label="Coding Insight Button" @click="checkAnswer">
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
           <v-icon left>mdi-check-decagram</v-icon>정답 확인
-        </v-btn></v-card-actions
-      >
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </div>
 </template>

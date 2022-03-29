@@ -20,14 +20,14 @@
         to="./quiz"
         style="text-decoration: none"
       >
-        <v-btn aria-label="Coding Insight Button"> 다시시작 </v-btn>
+        <v-btn :aria-label="albutt"> 다시시작 </v-btn>
       </NuxtLink>
       <NuxtLink
         aria-label="Go to Coding Insight Page"
         to="/"
         style="text-decoration: none"
       >
-        <v-btn aria-label="Coding Insight Button"> 홈페이지 </v-btn>
+        <v-btn :aria-label="albutt"> 홈페이지 </v-btn>
       </NuxtLink>
     </div>
   </div>
@@ -293,7 +293,7 @@
   };
 </script>
 
-<style>
+<style scoped>
   .wrong {
     animation-duration: 1s;
     animation-name: slidein;

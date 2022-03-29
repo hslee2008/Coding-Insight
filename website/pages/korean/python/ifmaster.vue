@@ -24,7 +24,8 @@
           <code
             >(if 조건이 맞았다면 실행할 코드) if (조건) else (if조건이
             틀리다면)}입니다.</code
-          ><br /><br />
+          >
+          <br /><br />
 
           if-elif-else 조건문을 다음과 같이 사용할 수 있습니다.<br /><br />
 
@@ -41,7 +42,7 @@
         width="100%"
         height="356"
         loading="lazy"
-        class="mx-auto my-auto"
+        class="ma-auto"
       />
     </div>
 
@@ -49,7 +50,7 @@
 
     <div>
       <div>
-        <div style="padding: 10px">
+        <div>
           <h2>Switch</h2>
           <p>
             다른 언어 (예: 자바스크립트)에서는 switch라는 키워드가 있습니다.<br /><br />
@@ -67,7 +68,7 @@
           width="100%"
           height="356"
           loading="lazy"
-          class="mx-auto my-auto"
+          class="ma-auto"
         />
       </div>
     </div>

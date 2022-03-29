@@ -2,8 +2,8 @@
   <v-app-bar
     :fixed="fixed"
     dense
-    :color="$vuetify.theme.dark ? '#23272F' : 'white'"
     elevate-on-scroll
+    :color="$vuetify.theme.dark ? bgd : 'white'"
   >
     <v-btn
       v-if="!MobileDrawer"
@@ -15,7 +15,7 @@
     </v-btn>
     <v-btn
       v-else
-      aria-label="Coding Insight Button"
+      :aria-label="albutt"
       icon
       @click="changeDrawerMobile"
       class="pa-5"
@@ -30,11 +30,11 @@
       <v-tooltip bottom>
         <template v-slot:activator="{ on, attrs }">
           <v-btn
-            aria-label="Coding Insight Button"
+            :aria-label="albutt"
             @click="$router.push('/')"
             v-bind="attrs"
             v-on="on"
-            :color="$vuetify.theme.dark ? '#23272F' : 'white'"
+            :color="$vuetify.theme.dark ? bgd : 'white'"
           >
             <v-img
               :src="
@@ -53,7 +53,7 @@
     <v-spacer />
 
     <v-btn
-      aria-label="Coding Insight Button"
+      :aria-label="albutt"
       icon
       small
       @click="$vuetify.theme.dark = !$vuetify.theme.dark"
@@ -65,42 +65,45 @@
       >
     </v-btn>
 
-    <v-menu
-      v-if="
-        !$nuxt.$route.path.includes('rust') &&
-        !$nuxt.$route.path.includes('c-cpp')
-      "
-      open-on-hover
-      top
-      offset-y
-      auto
-      close-on-click
-      rounded
-      transition="slide-y-transition"
-    >
+    <v-menu close-on-click rounded>
       <template #activator="{ on, attrs }">
-        <v-btn aria-label="Coding Insight Button" icon v-bind="attrs" v-on="on">
-          <v-icon>mdi-translate</v-icon>
+        <v-btn
+          :disabled="
+            $nuxt.$route.path.includes('rust') ||
+            $nuxt.$route.path.includes('c-cpp')
+          "
+          aria-label="Translate"
+          icon
+          v-bind="attrs"
+          v-on="on"
+        >
+          <v-icon>
+            mdi-translate{{
+              $nuxt.$route.path.includes('rust') ||
+              $nuxt.$route.path.includes('c-cpp')
+                ? '-off'
+                : ''
+            }}
+          </v-icon>
         </v-btn>
       </template>
 
       <v-list>
-        <v-list-item @click.stop="toKorean">
+        <v-list-item
+          v-if="!$nuxt.$route.path.includes('korean')"
+          @click.stop="toKorean"
+        >
           <v-list-item-title>한국어</v-list-item-title>
         </v-list-item>
-        <v-list-item @click.stop="toEnglish">
+
+        <v-list-item
+          v-if="!$nuxt.$route.path.includes('english')"
+          @click.stop="toEnglish"
+        >
           <v-list-item-title>English</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-menu>
-    <v-tooltip v-else bottom>
-      <template v-slot:activator="{ on, attrs }">
-        <v-btn aria-label="Coding Insight Button" icon v-bind="attrs" v-on="on">
-          <v-icon>mdi-translate-off</v-icon>
-        </v-btn>
-      </template>
-      <span>No Translation</span>
-    </v-tooltip>
   </v-app-bar>
 </template>
 
@@ -113,6 +116,7 @@
         sheet: false,
       };
     },
+
     methods: {
       gotoHome() {
         this.$router.push(

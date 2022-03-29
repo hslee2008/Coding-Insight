@@ -18,8 +18,8 @@
       <div>
         <h2>주석 달기 (한 줄)</h2>
         <p>
-          <code class="inline-code">//</code>를 사용하면 그 줄에서 이 다음으로
-          나오는 모든 글자들은 다 주석으로 변합니다.<br /><br />
+          <code class="ic">//</code>를 사용하면 그 줄에서 이 다음으로 나오는
+          모든 글자들은 다 주석으로 변합니다.<br /><br />
 
           코드를 실행할 때 다 무시되어서 일부 코드를 없에고 일시적으로 실행하고
           싶다면 주석을 사용하면 됩니다.<br /><br />
@@ -41,10 +41,9 @@
       <div>
         <h2>주석 달기 (블록 줄)</h2>
         <p>
-          <code class="inline-code">//</code>는 그 줄에서 이 다음으로 나오는
-          모든 글자들은 다 주석으로 만들지만
-          <code class="inline-code">/**/</code>는 /*와 */ 사이를 주석으로
-          만들어집니다.<br /><br />
+          <code class="ic">//</code>는 그 줄에서 이 다음으로 나오는 모든
+          글자들은 다 주석으로 만들지만 <code class="ic">/**/</code>는 /*와 */
+          사이를 주석으로 만들어집니다.
         </p>
       </div>
       <iframe
@@ -60,16 +59,16 @@
       <div>
         <h2>주석 달기 (DOC 주석)</h2>
         <p>
-          <code class="inline-code">///</code>와
-          <code class="inline-code">//!</code>는 //와 똑같지만
+          <code class="ic">///</code>와 <code class="ic">//!</code>는 //와
+          똑같지만
           <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a>
           형식을 지원합니다.<br /><br />
 
           Markdown이란 그냥 글이 아니라 특별한 스타일을 넣은 글입니다 (예: 글의
           크기, 모양 등)<br /><br />
 
-          <code class="inline-code">///</code>는 코드 블록(예: main()) 서에서
-          <code class="inline-code">//!</code> 코드 블록 안에서 사용합니다.<br /><br />
+          <code class="ic">///</code>는 코드 블록(예: main()) 서에서
+          <code class="ic">//!</code> 코드 블록 안에서 사용합니다.<br /><br />
 
           밑의 예시에서는 main() 안에서 ///를 사용했고 밖에서 //!를
           사용했습니다.
