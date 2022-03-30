@@ -36,7 +36,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="57" title="JSON" />
+    <Header type="Python" num="57" title="JSON" />
 
     <div>
       <div>

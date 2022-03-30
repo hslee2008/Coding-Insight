@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="52" title="File making, deleting, encoding" />
+    <Header type="Python" num="52" title="File making, deleting, encoding" />
 
     <div>
       <div>

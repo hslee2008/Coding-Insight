@@ -1073,5 +1073,20 @@ export default {
       title: '입력',
       to: '/korean/rust/input',
     },
+    {
+      icon: 'vector-line',
+      title: '백터',
+      to: '/korean/rust/vec',
+    },
+    {
+      icon: 'vector-polyline-edit',
+      title: '백터 메서드',
+      to: '/korean/rust/vec_method',
+    },
+    {
+      icon: 'office-building-outline',
+      title: '구조체',
+      to: '/korean/rust/struct',
+    },
   ],
 };

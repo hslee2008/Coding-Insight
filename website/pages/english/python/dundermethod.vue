@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="80" title="Dunder Method" />
+    <Header type="Python" num="80" title="Dunder Method" />
 
     <div>
       <div>

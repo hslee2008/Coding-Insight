@@ -32,7 +32,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="24" title="Set" />
+    <Header type="Python" num="24" title="Set" />
 
     <div>
       <div>

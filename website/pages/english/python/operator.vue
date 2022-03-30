@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="15" title="Operator" />
+    <Header type="Python" num="15" title="Operator" />
 
     <div>
       <div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="54" title="Data Type Change" />
+    <Header type="Python" num="54" title="Data Type Change" />
 
     <div>
       <div>

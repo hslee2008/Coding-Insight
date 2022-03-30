@@ -8,4 +8,28 @@ Vue.mixin({
 
     albutt: 'Coding-Insight Button',
   }),
+  methods: {
+    toEnglish() {
+      const route = $nuxt.$route.path;
+
+      this.$router.push(
+        route == '/index-en'
+          ? '/index-en'
+          : route == '/'
+          ? '/index-en'
+          : route.replace('korean', 'english'),
+      );
+    },
+    toKorean() {
+      const route = $nuxt.$route.path;
+
+      this.$router.push(
+        route == '/'
+          ? '/'
+          : route == '/index-en'
+          ? '/'
+          : route.replace('english', 'korean'),
+      );
+    },
+  },
 });

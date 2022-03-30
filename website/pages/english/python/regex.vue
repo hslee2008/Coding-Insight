@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="45" title="Regex" />
+    <Header type="Python" num="45" title="Regex" />
 
     <div>
       <div>

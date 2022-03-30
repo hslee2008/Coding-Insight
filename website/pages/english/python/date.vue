@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="43" title="Date" />
+    <Header type="Python" num="43" title="Date" />
 
     <div>
       <div>

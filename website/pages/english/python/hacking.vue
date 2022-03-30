@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="Proj: 7" title="Network Sniffing" />
+    <Header type="Python" num="Proj: 7" title="Network Sniffing" />
 
     <div>
       <h2>Programming Explanation</h2>

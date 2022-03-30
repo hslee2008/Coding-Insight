@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="14" title="Number" />
+    <Header type="Python" num="14" title="Number" />
 
     <div>
       <div>

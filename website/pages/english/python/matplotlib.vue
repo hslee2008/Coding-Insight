@@ -27,7 +27,7 @@
       />
     </div>
 
-    <Header-en type="Python" title="Matplotlib" num="88" />
+    <Header type="Python" title="Matplotlib" num="88" />
 
     <div>
       <div>

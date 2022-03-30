@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="89" title="Mouse" />
+    <Header type="Python" num="89" title="Mouse" />
 
     <div>
       <div>

@@ -9,8 +9,9 @@
     >
       <v-card-title>
         <v-btn
-          aria-label="Home Button"
+          :aria-label="albutt"
           :color="$vuetify.theme.dark ? bgd : 'white'"
+          class="elevation-0"
           to="/"
           text
         >
@@ -27,14 +28,15 @@
         <v-spacer />
 
         <v-btn
-          aria-label="Theme Change"
+          :aria-label="albutt"
           icon
-          small
           @click="$vuetify.theme.dark = !$vuetify.theme.dark"
         >
           <v-icon>
             mdi-{{
-              $vuetify.theme.dark ? 'white-balance-sunny' : 'weather-night'
+              $vuetify.theme.dark
+                ? 'white-balance-sunny'
+                : 'moon-waning-crescent'
             }}
           </v-icon>
         </v-btn>
@@ -42,11 +44,11 @@
         <v-menu open-on-hover close-on-click rounded>
           <template #activator="{ on, attrs }">
             <v-btn
+              :aria-label="albutt"
               :disabled="
                 $nuxt.$route.path.includes('rust') ||
                 $nuxt.$route.path.includes('c-cpp')
               "
-              aria-label="Translate"
               icon
               v-bind="attrs"
               v-on="on"
@@ -63,20 +65,29 @@
           </template>
 
           <v-list>
-            <v-list-item @click.stop="toKorean">
-              <v-list-item-title>한국어</v-list-item-title>
+            <v-list-item
+              v-if="!$nuxt.$route.path.includes('korean')"
+              @click.stop="toKorean"
+            >
+              <v-list-item-title>
+                <v-icon left>mdi-ideogram-cjk-variant</v-icon>
+                한국어
+              </v-list-item-title>
             </v-list-item>
 
-            <v-list-item @click.stop="toEnglish">
-              <v-list-item-title>English</v-list-item-title>
+            <v-list-item
+              v-if="!$nuxt.$route.path.includes('english')"
+              @click.stop="toEnglish"
+            >
+              <v-list-item-title>
+                <v-icon left>mdi-alpha-a</v-icon> English
+              </v-list-item-title>
             </v-list-item>
           </v-list>
         </v-menu>
       </v-card-title>
 
       <Tab :close="closeDrawerMobile" />
-
-      <Footer />
     </v-navigation-drawer>
 
     <AppBar

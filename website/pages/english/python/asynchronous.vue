@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="70" title="Asynchronous" />
+    <Header type="Python" num="70" title="Asynchronous" />
 
     <div>
       <div>

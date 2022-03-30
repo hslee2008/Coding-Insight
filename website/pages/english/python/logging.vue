@@ -23,7 +23,7 @@
       logging.basicConfig(filename="log.log")
     </code>
 
-    <Header-en type="Python" num="63" title="Logging" />
+    <Header type="Python" num="63" title="Logging" />
 
     <div>
       <div>

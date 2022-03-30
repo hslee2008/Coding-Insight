@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="9" title="String Method 1" />
+    <Header type="Python" num="9" title="String Method 1" />
 
     <div>
       <div>

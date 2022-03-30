@@ -30,7 +30,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="64" title="map, reduce, filter" />
+    <Header type="Python" num="64" title="map, reduce, filter" />
 
     <div>
       <div>

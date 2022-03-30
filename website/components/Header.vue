@@ -1,30 +1,34 @@
 <template>
-  <div>
-    <br /><br />
+  <div
+    class="text-center pa-6 rounded-lg shadow-2xl bg-gray-100 overflow-hidden"
+    :style="`background-color: ${
+      $vuetify.theme.dark ? hdbgd : hdbgl
+    }; margin: 100px 0px 100px 0px`"
+  >
+    <v-btn :aria-label="albutt" class="mb-10" outlined @click="speak">
+      <v-icon left>
+        mdi-{{ notspeaking ? 'bullhorn' : 'pause-octagon' }}
+      </v-icon>
 
-    <div
-      class="text-center my-15 pa-6 rounded-lg"
-      :style="'background-color: ' + ($vuetify.theme.dark ? hdbgd : hdbgl)"
-    >
-      <v-btn :aria-label="albutt" class="mb-10" outlined @click="speak">
-        <v-icon left>
-          mdi-{{ notspeaking ? 'bullhorn' : 'pause-octagon' }}
-        </v-icon>
+      {{
+        notspeaking
+          ? isEnglish
+            ? 'Read'
+            : '읽어주기'
+          : isEnglish
+          ? 'Stop'
+          : '멈추기'
+      }}
+    </v-btn>
 
-        {{ notspeaking ? '읽어주기' : '멈추기' }}
-      </v-btn>
+    <h1>
+      {{ title }}
+    </h1>
+    <h2 class="font-weight-thin">
+      <span v-if="!$vuetify.breakpoint.sm">Computer Science Lab -</span>
 
-      <h1>
-        {{ title }}
-      </h1>
-      <h2 class="font-weight-thin">
-        <span v-if="!$vuetify.breakpoint.sm">Computer Science Lab -</span>
-
-        {{ num }}
-      </h2>
-    </div>
-
-    <br /><br />
+      {{ num }}
+    </h2>
   </div>
 </template>
 
@@ -35,24 +39,31 @@
     data() {
       return {
         notspeaking: true,
+        showButton: true,
+        isEnglish: this.type == 'Python',
       };
     },
     mounted() {
       document.title = `${this.type} ${this.title} - Coding-Insight`;
+      this.showButton = 'speechSynthesis' in window ? true : false;
     },
     methods: {
       speak() {
         try {
-          if (this.notspeaking) {
-            const a = new SpeechSynthesisUtterance(document.body.innerText);
-            a.lang = 'ko-kr';
-            speechSynthesis.speak(a);
-          } else {
-            speechSynthesis.cancel();
-          }
-        } catch (err) {
+          const a = new SpeechSynthesisUtterance(
+            document.querySelector('.v-main').innerText,
+          );
+          a.lang = this.isEnglish ? 'en-US' : 'ko-kr';
+
+          this.notspeaking
+            ? speechSynthesis.speak(a)
+            : speechSynthesis.cancel();
+        } catch (e) {
+          this.showButton = false;
           alert(
-            ':( 당신의 디바이스의 브라우저에서 읽어주기 기능이 존재하지 않습니다.',
+            this.isEnglish
+              ? 'This browser does not support voice.' + e
+              : '이 브라우저는 음성을 지원하지 않습니다.',
           );
         }
 

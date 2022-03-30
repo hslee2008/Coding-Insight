@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="12" title="ASCII" />
+    <Header type="Python" num="12" title="ASCII" />
 
     <div>
       <div>

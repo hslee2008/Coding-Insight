@@ -28,7 +28,7 @@
 
       <br /><br />
 
-      <Header-en type="Python" num="4" title="Input & Output" />
+      <Header type="Python" num="4" title="Input & Output" />
 
       <QuadSpace />
 

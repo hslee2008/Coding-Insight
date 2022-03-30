@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="10" title="String Method 2" />
+    <Header type="Python" num="10" title="String Method 2" />
 
     <div>
       <div class="ma-auto">

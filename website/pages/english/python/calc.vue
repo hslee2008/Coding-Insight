@@ -22,7 +22,7 @@
       </p>
     </div>
 
-    <Header-en type="Python" title="Making a calculator" num="Proj: 3" />
+    <Header type="Python" title="Making a calculator" num="Proj: 3" />
 
     <div>
       <div>

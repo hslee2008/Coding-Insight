@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="73" title="Thread" />
+    <Header type="Python" num="73" title="Thread" />
 
     <div>
       <div>

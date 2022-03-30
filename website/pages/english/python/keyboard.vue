@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="87" title="Keyboard" />
+    <Header type="Python" num="87" title="Keyboard" />
 
     <div class="text-center">
       <h2>Write</h2>

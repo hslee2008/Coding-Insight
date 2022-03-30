@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="65" title="zlib" />
+    <Header type="Python" num="65" title="zlib" />
 
     <div>
       <div>

@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="25" title="Set Method" />
+    <Header type="Python" num="25" title="Set Method" />
 
     <div>
       <div>

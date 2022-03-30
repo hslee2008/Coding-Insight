@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="48" title="Math (Statistics)" />
+    <Header type="Python" num="48" title="Math (Statistics)" />
 
     <div>
       <div>

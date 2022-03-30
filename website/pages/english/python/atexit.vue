@@ -12,7 +12,7 @@
       </p>
     </div>
 
-    <Header-en type="Python" num="83" title="atexit" />
+    <Header type="Python" num="83" title="atexit" />
 
     <div>
       <div>

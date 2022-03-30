@@ -12,7 +12,7 @@
       </p>
     </div>
 
-    <Header-en type="Python" num="18" title="List" />
+    <Header type="Python" num="18" title="List" />
 
     <div>
       <div>

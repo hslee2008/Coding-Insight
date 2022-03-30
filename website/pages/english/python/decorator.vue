@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="66" title="Decorator" />
+    <Header type="Python" num="66" title="Decorator" />
 
     <div>
       <div>

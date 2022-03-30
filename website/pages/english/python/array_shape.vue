@@ -31,7 +31,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="60" title="Array Shape" />
+    <Header type="Python" num="60" title="Array Shape" />
 
     <div>
       <div>

@@ -29,7 +29,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="11" title="Escacpe Character" />
+    <Header type="Python" num="11" title="Escacpe Character" />
 
     <div>
       <div class="ma-auto">

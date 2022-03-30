@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <Header-en type="Python" num="36" title="Iterable Function" />
+      <Header type="Python" num="36" title="Iterable Function" />
 
       <QuadSpace />
 

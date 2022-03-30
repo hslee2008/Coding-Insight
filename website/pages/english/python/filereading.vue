@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="50" title="File Reading" />
+    <Header type="Python" num="50" title="File Reading" />
 
     <div>
       <div>

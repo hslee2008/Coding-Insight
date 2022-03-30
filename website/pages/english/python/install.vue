@@ -19,7 +19,7 @@
       </p>
     </div>
 
-    <Header-en type="Python" num="2" title="Installation & First program" />
+    <Header type="Python" num="2" title="Installation & First program" />
 
     <v-row flex justify="center" style="gap: 30px">
       <v-btn

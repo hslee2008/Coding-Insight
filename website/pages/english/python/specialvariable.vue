@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="31" title="Special Variable" />
+    <Header type="Python" num="31" title="Special Variable" />
 
     <div>
       <div>

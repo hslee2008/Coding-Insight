@@ -26,7 +26,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="46" title="Class" />
+    <Header type="Python" num="46" title="Class" />
 
     <div>
       <div>

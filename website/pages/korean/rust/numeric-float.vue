@@ -28,8 +28,8 @@
 
         round()는 가장 가까운 정수를 찾습니다.<br /><br />
 
-        참고로 <IC code="'이름'()" />의 형태를 Rust에서는 '메서드'라고 하고
-        대부분 데이터를 다룰 때 사용합니다.<br /><br />
+        참고로 <code class="ic">'이름'()</code>의 형태를 Rust에서는 '메서드'라고
+        하고 대부분 데이터를 다룰 때 사용합니다.<br /><br />
 
         <iframe
           src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20test_integer%3A%20f32%20%3D%20123.123%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.floor())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.ceil())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.round())%3B%0D%0A%7D"

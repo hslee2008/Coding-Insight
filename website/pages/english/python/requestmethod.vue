@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="79" title="Request Method" />
+    <Header type="Python" num="79" title="Request Method" />
 
     <div>
       <div>

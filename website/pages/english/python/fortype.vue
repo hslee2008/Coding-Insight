@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <Header-en type="Python" num="35" title="For Loop Type" />
+      <Header type="Python" num="35" title="For Loop Type" />
 
       <QuadSpace />
 

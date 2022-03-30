@@ -28,7 +28,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="77" title="Counter" />
+    <Header type="Python" num="77" title="Counter" />
 
     <div>
       <div>

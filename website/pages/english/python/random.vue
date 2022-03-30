@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="44" title="Random" />
+    <Header type="Python" num="44" title="Random" />
 
     <div>
       <div>

@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="21" title="Dictionary" />
+    <Header type="Python" num="21" title="Dictionary" />
 
     <div>
       <div>

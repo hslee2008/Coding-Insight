@@ -138,9 +138,10 @@
         2. 정확도 측정을 위해 다음 코드를 입력합니다.
         <code class="ic">from sklearn.metrics import accuracy_score</code><br />
         3. genre와, no_genre 선언 후 데이터 분리 합니다.
-        <IC
-          code="X_train, X_test, y_train, y_test = train_test_split(no_genre, genre, test_size=0.2)"
-        /><br />
+        <code class="ic"
+          >X_train, X_test, y_train, y_test = train_test_split(no_genre, genre,
+          test_size=0.2)</code
+        ><br />
 
         <br />
         참고로 test_size는 가지고 있는 데이터 (music.csv) 파일 중 얼마나 많은
@@ -150,12 +151,13 @@
         4. 모델 학습 합니다. 참고로 genre, no_genre를 학습하지 않고 X_train과
         Y_train을 사용합니다.<code class="ic">model.fit(X_train, y_train)</code>
         <br />
-        5. 모델 평가합니다. 참고로 X_test, y_test를 사용합니다.<IC
-          code="pred = model.predict(X_test)"
-        /><br />
-        6. 정확도를 측정합니다. 참고로 accuracy_score를 사용합니다.<IC
-          code="print(accuracy_score(y_test, pred))"
-        /><br /><br />
+        5. 모델 평가합니다. 참고로 X_test, y_test를 사용합니다.<code class="ic"
+          >pred = model.predict(X_test)</code
+        ><br />
+        6. 정확도를 측정합니다. 참고로 accuracy_score를 사용합니다.<code
+          class="ic"
+          >print(accuracy_score(y_test, pred))</code
+        ><br /><br />
 
         <iframe
           src="https://trinket.io/embed/python3/282aeb7817"

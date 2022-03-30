@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="5" title="Variable" />
+    <Header type="Python" num="5" title="Variable" />
 
     <div>
       <div>

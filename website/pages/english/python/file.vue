@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="49" title="File" />
+    <Header type="Python" num="49" title="File" />
 
     <div>
       <div class="ma-auto">

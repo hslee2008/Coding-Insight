@@ -16,7 +16,7 @@
       </p>
     </div>
 
-    <Header-en type="Python" num="Proj - 1" title="Madlibs Game" />
+    <Header type="Python" num="Proj - 1" title="Madlibs Game" />
 
     <div>
       <h2>How?</h2>

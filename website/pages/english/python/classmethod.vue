@@ -12,7 +12,7 @@
       </p>
     </div>
 
-    <Header-en type="Python" num="47" title="Class Method" />
+    <Header type="Python" num="47" title="Class Method" />
 
     <div>
       <div>

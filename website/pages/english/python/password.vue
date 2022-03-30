@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="Proj: 2" title="Password Program" />
+    <Header type="Python" num="Proj: 2" title="Password Program" />
 
     <div>
       <h2>Program Explanation</h2>

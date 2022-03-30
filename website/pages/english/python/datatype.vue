@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="6" title="Data Type" />
+    <Header type="Python" num="6" title="Data Type" />
 
     <div>
       <div style="margin: auto; padding-right: 5px">

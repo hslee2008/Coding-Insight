@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="56" title="PIP" />
+    <Header type="Python" num="56" title="PIP" />
 
     <div>
       <div>

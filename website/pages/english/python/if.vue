@@ -37,7 +37,7 @@
       allowfullscreen
     />
 
-    <Header-en type="Python" title="If Statement" num="27" />
+    <Header type="Python" title="If Statement" num="27" />
 
     <h2>if - else</h2>
     <p>

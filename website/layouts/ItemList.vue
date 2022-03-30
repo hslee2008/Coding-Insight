@@ -31,14 +31,14 @@
   import PythonLinksEN from '~/assets/js/layout_en';
 
   export default {
-    props: ['itemprops', 'titleen', 'titlekr', 'json', 'close'],
+    props: ['itemprops', 'en', 'kr', 'json', 'close'],
     data() {
       return {
         items: {
           ...PythonLinks,
           ...PythonLinksEN,
         },
-        title: this.isEnglish() ? this.titleen : this.titlekr,
+        title: this.isEnglish() ? this.en : this.kr,
       };
     },
     methods: {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="28" title="If Master" />
+    <Header type="Python" num="28" title="If Master" />
 
     <div>
       <div>

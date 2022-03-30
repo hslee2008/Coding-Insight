@@ -13,7 +13,7 @@
       </p>
     </div>
 
-    <Header-en type="Python" num="7" title="Comment" />
+    <Header type="Python" num="7" title="Comment" />
 
     <div>
       <h2>When to use comment?</h2>

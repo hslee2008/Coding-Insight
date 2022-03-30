@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="58" title="Array" />
+    <Header type="Python" num="58" title="Array" />
 
     <div>
       <div>

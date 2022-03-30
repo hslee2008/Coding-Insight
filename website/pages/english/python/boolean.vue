@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="13" title="Boolean" />
+    <Header type="Python" num="13" title="Boolean" />
 
     <div>
       <h2>Something to be careful</h2>

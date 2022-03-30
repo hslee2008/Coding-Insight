@@ -7,7 +7,7 @@
       <p>In Python, we can run a string like a code.</p>
     </div>
 
-    <Header-en type="Python" num="55" title="String as code" />
+    <Header type="Python" num="55" title="String as code" />
 
     <div>
       <div>

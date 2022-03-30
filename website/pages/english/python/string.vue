@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <Header-en type="Python" num="8" title="String" />
+    <Header type="Python" num="8" title="String" />
 
     <div>
       <div class="ma-auto">

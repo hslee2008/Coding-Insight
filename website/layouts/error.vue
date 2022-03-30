@@ -1,14 +1,11 @@
 <template>
-  <div class="ma-auto err">
-    <v-card class="ma-auto" max-width="400" color="error">
+  <div class="err">
+    <v-card max-width="400" color="error">
       <v-card-title>
         {{ error.statusCode === 404 ? pageNotFound : otherError }}
       </v-card-title>
 
       <v-card-actions class="ml-1">
-        <v-btn aria-label="Refresh" icon @click="ref">
-          <v-icon>mdi-refresh</v-icon>
-        </v-btn>
         <v-btn aria-label="Back" icon @click="back">
           <v-icon>mdi-chevron-left</v-icon>
         </v-btn>
@@ -52,6 +49,7 @@
     width: 80%;
     height: 100px;
     position: absolute;
+    margin: auto;
     top: 0;
     bottom: 0;
     left: 0;

@@ -8,7 +8,6 @@ export default {
     max: 10000,
     maxAge: 9000000,
   },
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     htmlAttrs: {
       lang: 'en,ko-kr',
@@ -96,10 +95,8 @@ export default {
     '~/assets/css/component.css',
   ],
 
-  // https://go.nuxtjs.dev/config-components
   components: true,
 
-  // https://go.nuxtjs.dev/config-modules
   buildModules: ['@nuxtjs/vuetify'],
 
   vue: {
@@ -114,7 +111,6 @@ export default {
     baseUrl: '/',
   },
 
-  // https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
@@ -161,7 +157,6 @@ export default {
     background: 'black',
   },
 
-  //  https://go.nuxtjs.dev/pwa
   pwa: {
     workbox: {
       runtimeCaching: [
@@ -250,8 +245,17 @@ export default {
       screenshots: [
         {
           src: '/pwa/screenshot-home.png',
-          sizes: '1917x900',
+          sizes: '1920x898',
           type: 'image/png',
+          platform: 'wide',
+          label: 'Homescreen of Coding-Insight',
+        },
+        {
+          src: '/pwa/screenshot-mobile.png',
+          sizes: '816x1260',
+          type: 'image/png',
+          platform: 'narrow',
+          label: 'Homescreen of Coding-Insight',
         },
       ],
       shortcuts: [
@@ -344,7 +348,6 @@ export default {
     treeShake: true,
   },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     devtools: true,
     optmizeCSS: true,
@@ -360,7 +363,6 @@ export default {
       },
     },
     extend(config, { isClient }) {
-      // Extend only webpack config for client-bundle
       if (isClient) {
         config.performance = {
           maxEntrypointSize: 512000,

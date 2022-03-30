@@ -351,7 +351,7 @@
       </div>
     </v-bottom-sheet>
 
-    <Header-en type="Python" num="3" title="VSCode Installation" />
+    <Header type="Python" num="3" title="VSCode Installation" />
 
     <v-btn :aria-label="albutt" color="primary" dark @click="sheet3 = !sheet3">
       Start programming in VSCode

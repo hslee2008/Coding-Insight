@@ -13,7 +13,7 @@
       code.
     </p>
 
-    <Header-en type="Python" num="29" title="Function" />
+    <Header type="Python" num="29" title="Function" />
 
     <div>
       <div>

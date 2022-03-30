@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" title="List Method 2" num="20" />
+    <Header type="Python" title="List Method 2" num="20" />
 
     <div>
       <div>

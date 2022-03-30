@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header-en type="Python" num="41" title="모듈 마스터하기" />
+    <Header type="Python" num="41" title="모듈 마스터하기" />
 
     <div>
       <div>

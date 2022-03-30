@@ -47,7 +47,7 @@
       />
     </div>
 
-    <Header-en type="Python" num="74" title="Thread (Advanced)" />
+    <Header type="Python" num="74" title="Thread (Advanced)" />
 
     <div>
       <div>

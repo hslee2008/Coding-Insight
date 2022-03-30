@@ -3,13 +3,13 @@
     <v-card-actions>
       <v-btn outlined color="primary" :to="bef">
         <v-icon left> mdi-chevron-left </v-icon>
-        BACK
+        Back
       </v-btn>
 
       <v-spacer />
 
       <v-btn outlined color="primary" :to="aft">
-        NEXT
+        Next
         <v-icon right> mdi-chevron-right </v-icon>
       </v-btn>
     </v-card-actions>

@@ -3,7 +3,7 @@
     <br /><br />
 
     <div>
-      <Header-en type="Python" num="30" title="Function (Advanced)" />
+      <Header type="Python" num="30" title="Function (Advanced)" />
 
       <QuadSpace />
 
