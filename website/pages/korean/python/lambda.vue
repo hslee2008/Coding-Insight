@@ -14,13 +14,7 @@
           익명 함수는 이름이 없어서 선언이 되면 바로 사용이 됩니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/215ca4e0af"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}215ca4e0af`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -40,7 +34,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/ad432c8141"
+      :src="`${trinket}ad432c8141`"
       width="100%"
       height="356"
       loading="lazy"

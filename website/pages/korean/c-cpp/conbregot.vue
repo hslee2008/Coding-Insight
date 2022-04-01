@@ -16,11 +16,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3YMb"
-          width="100%"
-          height="300px"
-        />
+        <iframe :src="`${jdoodle}3YMb`" width="100%" height="300px" />
       </div>
     </div>
 
@@ -36,11 +32,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3YMd"
-          width="100%"
-          height="300px"
-        />
+        <iframe :src="`${jdoodle}3YMd`" width="100%" height="300px" />
       </div>
     </div>
 
@@ -59,11 +51,7 @@
           예를 들면, a의 값이 15라면 바로 넘어가겠습니다.
         </p>
       </div>
-      <iframe
-        src="https://www.jdoodle.com/embed/v0/3YMe"
-        width="100%"
-        height="400px"
-      />
+      <iframe :src="`${jdoodle}3YMe`" width="100%" height="400px" />
     </div>
 
     <QuadSpace />

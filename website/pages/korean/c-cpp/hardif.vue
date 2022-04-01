@@ -32,11 +32,7 @@
         </p>
       </div>
       <div>
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3VZT"
-          height="300px"
-          width="100%"
-        />
+        <iframe :src="`${jdoodle}3VZT`" height="300px" width="100%" />
       </div>
     </div>
 
@@ -112,11 +108,7 @@
         </code>
 
         <div class="ma-auto">
-          <iframe
-            src="https://www.jdoodle.com/embed/v0/3VZO"
-            height="300px"
-            width="100%"
-          />
+          <iframe :src="`${jdoodle}3VZO`" height="300px" width="100%" />
         </div>
       </div>
     </div>

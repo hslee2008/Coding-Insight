@@ -17,7 +17,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/4963fa9c31"
+        :src="`${trinket}4963fa9c31`"
         width="60%"
         height="356"
         loading="lazy"
@@ -42,7 +42,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/cf4311e167"
+        :src="`${trinket}cf4311e167`"
         width="60%"
         height="356"
         loading="lazy"
@@ -85,13 +85,7 @@
           in title format.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/75c4671dd7"
-        width="100%"
-        height="300"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}75c4671dd7`" width="100%" height="300" />
     </div>
 
     <QuadSpace />

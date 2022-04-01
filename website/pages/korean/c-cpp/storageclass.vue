@@ -37,11 +37,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/44kK"
-          width="100%"
-          height="300"
-        />
+        <iframe :src="`${jdoodle}44kK`" width="100%" height="300" />
       </div>
     </div>
 
@@ -116,17 +112,9 @@
         </p>
       </div>
       <p style="color: red">static을 사용하지 않으면</p>
-      <iframe
-        src="https://www.jdoodle.com/embed/v0/44la"
-        width="600"
-        height="500"
-      />
+      <iframe :src="`${jdoodle}44la`" width="600" height="500" />
       <p style="color: red">static을 사용하면</p>
-      <iframe
-        src="https://www.jdoodle.com/embed/v0/44ll"
-        width="600"
-        height="500"
-      />
+      <iframe :src="`${jdoodle}44ll`" width="600" height="500" />
     </div>
 
     <QuadSpace />

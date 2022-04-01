@@ -20,7 +20,7 @@
     >
       <v-img
         :src="
-          require(`~/assets/svg/${$vuetify.theme.dark ? 'dark' : 'light'}.svg`)
+          require(`assets/svg/${$vuetify.theme.dark ? 'dark' : 'light'}.svg`)
         "
         alt="SVG Logo"
       />
@@ -40,7 +40,7 @@
       </v-icon>
     </v-btn>
 
-    <v-menu close-on-click>
+    <v-menu>
       <template #activator="{ on, attrs }">
         <v-btn
           :aria-label="albutt"
@@ -66,7 +66,7 @@
       <v-list>
         <v-list-item
           v-if="!$nuxt.$route.path.includes('korean')"
-          @click.stop="toKorean"
+          @click="toKorean"
         >
           <v-list-item-title>
             <v-icon left>mdi-ideogram-cjk-variant</v-icon>
@@ -76,7 +76,7 @@
 
         <v-list-item
           v-if="!$nuxt.$route.path.includes('english')"
-          @click.stop="toEnglish"
+          @click="toEnglish"
         >
           <v-list-item-title>
             <v-icon left>mdi-alpha-a</v-icon> English

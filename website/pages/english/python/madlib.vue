@@ -69,11 +69,7 @@
     <div>
       <h2>Check out the code</h2>
 
-      <iframe
-        src="https://trinket.io/embed/python3/af48f9c529"
-        width="100%"
-        height="356"
-      />
+      <iframe :src="`${trinket}af48f9c529`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

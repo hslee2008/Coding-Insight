@@ -25,7 +25,7 @@
         참고로 클로져는 항상 값을 돌려주는 함수입니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20add_num%20%3D%20%7Cn1%3A%20i32%2C%20n2%3A%20i32%7C%20n1%20%2B %20n2%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20add_num(1%2C%201))%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20add_num(1%2C%202))%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20add_num(1%2C%203))%3B%0D%0A%7D%0D%0A"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20add_num%20%3D%20%7Cn1%3A%20i32%2C%20n2%3A%20i32%7C%20n1%20%2B %20n2%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20add_num(1%2C%201))%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20add_num(1%2C%202))%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20add_num(1%2C%203))%3B%0D%0A%7D%0D%0A`"
           width="100%"
           height="300"
         />

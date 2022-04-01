@@ -44,8 +44,6 @@
         src="https://trinket.io/embed/python/a5d980683b"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -98,8 +96,6 @@
         src="https://trinket.io/embed/python/4745a3ecb9"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 

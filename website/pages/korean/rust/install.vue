@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header type="Rust" title="Rust 설치" num="2" />
+    <Header type="Rust" title="설치" num="2" />
 
     <div>
       <div>

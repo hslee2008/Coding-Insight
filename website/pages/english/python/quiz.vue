@@ -15,18 +15,10 @@
       <div class="scoreText1">--</div>
       <div class="scorePct">--</div>
       <div class="scoreText2">--</div>
-      <NuxtLink
-        aria-label="Go to Coding Insight Page"
-        to="./quiz"
-        style="text-decoration: none"
-      >
+      <NuxtLink :aria-label="allink" to="./quiz" style="text-decoration: none">
         <v-btn :aria-label="albutt"> Restart </v-btn>
       </NuxtLink>
-      <NuxtLink
-        aria-label="Go to Coding Insight Page"
-        to="/"
-        style="text-decoration: none"
-      >
+      <NuxtLink :aria-label="allink" to="/" style="text-decoration: none">
         <v-btn :aria-label="albutt"> Homepage </v-btn>
       </NuxtLink>
     </div>

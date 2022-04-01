@@ -42,13 +42,7 @@
           The code above prints &lt;class 'str'>. str stands for string.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/109be31855"
-        width="70%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}109be31855`" width="70%" height="356" />
     </div>
 
     <QuadSpace />

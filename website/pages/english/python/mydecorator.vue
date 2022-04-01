@@ -12,7 +12,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/98ddcafe80"
+      :src="`${trinket}98ddcafe80`"
       width="100%"
       height="356"
       loading="lazy"

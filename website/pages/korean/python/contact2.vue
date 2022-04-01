@@ -23,20 +23,15 @@
       <h2>프로그램 설명</h2>
       <p>
         1. 코드는 저번 코드에 추가할 것이기 때문에
-        <NuxtLink aria-label="Go to Coding Insight Page" to="./contact"
-          >친구 목록</NuxtLink
-        >에서 확인하세요<br /><br />
+        <NuxtLink :aria-label="allink" to="./contact">친구 목록</NuxtLink>에서
+        확인하세요<br /><br />
       </p>
     </div>
 
     <QuadSpace />
 
     <h2>코드 확인하기</h2>
-    <iframe
-      src="https://trinket.io/embed/python3/9e26723d8a"
-      width="100%"
-      height="356"
-    />
+    <iframe :src="`${trinket}9e26723d8a`" width="100%" height="356" />
 
     <QuadSpace />
 

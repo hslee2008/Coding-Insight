@@ -11,15 +11,9 @@
         몰래 이 프로그램을 사용해서 덧셈의 왕처럼 보일 수 있습니다.<br /><br />
 
         시작하기 전에
-        <NuxtLink aria-label="Go to Coding Insight Page" to="number">
-          숫자 </NuxtLink
-        >,
-        <NuxtLink aria-label="Go to Coding Insight Page" to="operator">
-          연산자 </NuxtLink
-        >,
-        <NuxtLink aria-label="Go to Coding Insight Page" to="numtype">
-          숫자의 종류
-        </NuxtLink>
+        <NuxtLink :aria-label="allink" to="number"> 숫자 </NuxtLink>,
+        <NuxtLink :aria-label="allink" to="operator"> 연산자 </NuxtLink>,
+        <NuxtLink :aria-label="allink" to="numtype"> 숫자의 종류 </NuxtLink>
         부분을 공부하세요.
       </p>
     </div>
@@ -84,11 +78,7 @@
           <code> print(addnum) </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/2a317b1dba"
-        width="100%"
-        height="500"
-      />
+      <iframe :src="`${trinket}2a317b1dba`" width="100%" height="500" />
     </div>
 
     <QuadSpace />

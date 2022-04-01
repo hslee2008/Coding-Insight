@@ -7,7 +7,7 @@
         <h2>Login Program</h2>
         <p>
           In
-          <NuxtLink aria-label="Go to Coding Insight Page" to="./password"
+          <NuxtLink :aria-label="allink" to="./password"
             >the previous login system page</NuxtLink
           >, we made a basic program that logins in if the user gets teh
           password right.<br /><br />
@@ -44,9 +44,7 @@
       <h2>Code explanation</h2>
       <div>
         1) Code is in
-        <NuxtLink aria-label="Go to Coding Insight Page" to="./password"
-          >Login Page</NuxtLink
-        >
+        <NuxtLink :aria-label="allink" to="./password">Login Page</NuxtLink>
         and we will only be adding more to it<br /><br />
 
         2) How many tries? <br /><br />
@@ -60,9 +58,7 @@
         5) The code has "while" which is similar to if statement but you repeat
         the code inside forever until the statement is false. To learn more, go
         to
-        <NuxtLink aria-label="Go to Coding Insight Page" to="./while"
-          >while</NuxtLink
-        >
+        <NuxtLink :aria-label="allink" to="./while">while</NuxtLink>
         page.
       </div>
     </div>

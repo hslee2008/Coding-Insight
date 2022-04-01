@@ -31,7 +31,7 @@
         예를 들면, a는 아스키 코드로 97이라는 숫자를 사용합니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20char1%3A%20char%20%3D%20%27i%27%3B%20%2F%2F%EC%BA%90%EB%A6%AD%ED%84%B0%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bchar1%7D%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20let%20char2%3A%20i32%20%3D%20%27a%27%20as%20i32%3B%20%2F%2Fa%EC%9D%98%20%EC%95%84%EC%8A%A4%ED%82%A4%20%EC%BD%94%EB%93%9C%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bchar2%7D%22)%3B%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20char1%3A%20char%20%3D%20%27i%27%3B%20%2F%2F%EC%BA%90%EB%A6%AD%ED%84%B0%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bchar1%7D%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20let%20char2%3A%20i32%20%3D%20%27a%27%20as%20i32%3B%20%2F%2Fa%EC%9D%98%20%EC%95%84%EC%8A%A4%ED%82%A4%20%EC%BD%94%EB%93%9C%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bchar2%7D%22)%3B%0D%0A%7D`"
           width="100%"
           height="300"
         />
@@ -58,7 +58,7 @@
         is_ascii() 메서드는 char 값이 ASCII 문자인지 확인합니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20char%20%3D%20%27a%27%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_alphabetic())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_lowercase())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_uppercase())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_whitespace())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_alphanumeric())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_numeric())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_ascii())%3B%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20char%20%3D%20%27a%27%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_alphabetic())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_lowercase())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_uppercase())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_whitespace())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_alphanumeric())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_numeric())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_ascii())%3B%0D%0A%7D`"
           width="100%"
           height="400"
         />
@@ -75,7 +75,7 @@
         to_lowercase() 메서드는 char 값을 소문자로 변형합니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20char%20%3D%20%27a%27%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.to_uppercase())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.to_lowercase())%3B%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20char%20%3D%20%27a%27%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.to_uppercase())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.to_lowercase())%3B%0D%0A%7D`"
           width="100%"
           height="400"
         />

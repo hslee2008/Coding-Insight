@@ -13,7 +13,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/32e3c5c425"
+        :src="`${trinket}32e3c5c425`"
         width="100%"
         height="356"
         loading="lazy"
@@ -43,7 +43,7 @@
           if we use del, only the pair will be deleted from the dictionary.
         </p>
         <iframe
-          src="https://trinket.io/embed/python3/1a3ca85630"
+          :src="`${trinket}1a3ca85630`"
           width="100%"
           height="356"
           loading="lazy"
@@ -99,7 +99,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/9b40fb09d3"
+        :src="`${trinket}9b40fb09d3`"
         width="100%"
         height="356"
         loading="lazy"
@@ -132,13 +132,7 @@
           "Hmmm... Not found".
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/c250d6c262"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}c250d6c262`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

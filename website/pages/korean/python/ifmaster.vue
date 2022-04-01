@@ -37,13 +37,7 @@
           >
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/73c3356df0"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}73c3356df0`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -64,7 +58,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/cb9b932e10"
+          :src="`${trinket}cb9b932e10`"
           width="100%"
           height="356"
           loading="lazy"

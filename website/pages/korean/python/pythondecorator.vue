@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header type="파이썬" num="68" title="파이썬 데코레이터" />
+    <Header type="파이썬" num="68" title="데코레이터" />
 
     <div>
       <div>
@@ -72,7 +72,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/25a3cc23d1"
+      :src="`${trinket}25a3cc23d1`"
       width="100%"
       height="356"
       loading="lazy"
@@ -91,7 +91,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/916a1d2442"
+      :src="`${trinket}916a1d2442`"
       width="100%"
       height="356"
       loading="lazy"

@@ -55,7 +55,7 @@
           </code>
         </p>
         <iframe
-          src="https://trinket.io/embed/python3/3500e49e2c"
+          :src="`${trinket}3500e49e2c`"
           width="100%"
           height="356"
           loading="lazy"
@@ -70,13 +70,7 @@
         <h2>Dictionary to JSON</h2>
         <p>json.dumps() method will convert dictionary to JSON.</p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/efb76f8dd2"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}efb76f8dd2`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -115,13 +109,7 @@
         The example above will print the JSON with '. ' seperating keys and
         values and '==>' seperating each pair.
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/efb76f8dd2"
-        width="100%"
-        height="200"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}efb76f8dd2`" width="100%" height="200" />
     </div>
 
     <QuadSpace />

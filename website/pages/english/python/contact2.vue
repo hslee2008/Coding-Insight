@@ -15,7 +15,7 @@
       <h2>Explanation</h2>
       <p>
         1. We will be improving the
-        <NuxtLink aria-label="Go to Coding Insight Page" to="./contact"
+        <NuxtLink :aria-label="allink" to="./contact"
           >previous verison</NuxtLink
         >
         <br /><br />
@@ -25,11 +25,7 @@
     <QuadSpace />
 
     <h2>Check Code</h2>
-    <iframe
-      src="https://trinket.io/embed/python3/9e26723d8a"
-      width="100%"
-      height="356"
-    />
+    <iframe :src="`${trinket}9e26723d8a`" width="100%" height="356" />
 
     <QuadSpace />
 

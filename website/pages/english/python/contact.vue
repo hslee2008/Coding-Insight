@@ -10,7 +10,7 @@
         This is a very simple program.<br /><br />
 
         If you want to make a complex program, go to
-        <NuxtLink aria-label="Go to Coding Insight Page" to="./contact2">
+        <NuxtLink :aria-label="allink" to="./contact2">
           Contact List 2
         </NuxtLink>
         page.

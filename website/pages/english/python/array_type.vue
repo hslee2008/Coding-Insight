@@ -81,13 +81,7 @@
           <code> arr = numpy.array([4, 44, 444, 4444], ndmin=1000) </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/7b99138f0e"
-        width="60%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}7b99138f0e`" width="60%" height="356" />
     </div>
 
     <QuadSpace />
@@ -106,7 +100,7 @@
         x-dimension array requires x number of index to access each item.
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/75087d4767"
+        :src="`${trinket}75087d4767`"
         width="60%"
         height="356"
         loading="lazy"

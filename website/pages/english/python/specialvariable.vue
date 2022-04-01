@@ -26,13 +26,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/db03626a7c"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}db03626a7c`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

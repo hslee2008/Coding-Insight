@@ -14,7 +14,7 @@
       그리고 <code class="ic">cargo run build</code>를 실행합니다.
     </p>
 
-    <Header type="Rust" title="Rust 외부 모듈" num="39" />
+    <Header type="Rust" title="외부 모듈" num="39" />
 
     <h2>extern crate</h2>
     <p>

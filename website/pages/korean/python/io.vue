@@ -57,13 +57,7 @@
         <p>옆에있는 코드를 바꾸고 삼각형 버튼을 눌러서 코드를 실행하세요!</p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python3/62e887bbca"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}62e887bbca`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -135,8 +129,6 @@
         src="https://trinket.io/embed/python/5b6a7a8b2b"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 

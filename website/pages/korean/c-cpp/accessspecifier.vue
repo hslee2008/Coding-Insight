@@ -91,11 +91,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        width="100%"
-        height="400"
-        src="https://www.jdoodle.com/embed/v0/4n6o"
-      />
+      <iframe width="100%" height="400" :src="`${jdoodle}4n6o`" />
     </div>
 
     <QuadSpace />

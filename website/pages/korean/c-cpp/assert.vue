@@ -20,11 +20,7 @@
 
     <Header type="C/C++" title="assert 키워드" num="38" />
 
-    <iframe
-      src="https://www.jdoodle.com/embed/v0/47Bz"
-      width="100%"
-      height="400"
-    />
+    <iframe :src="`${jdoodle}47Bz`" width="100%" height="400" />
 
     <QuadSpace />
 

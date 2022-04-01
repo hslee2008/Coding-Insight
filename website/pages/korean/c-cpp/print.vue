@@ -18,11 +18,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3VrZ"
-          height="300px"
-          width="100%"
-        />
+        <iframe :src="`${jdoodle}3VrZ`" height="300px" width="100%" />
       </div>
     </div>
 
@@ -68,11 +64,7 @@
         그 이유는 '변수' 부분에서 배우겠습니다.<br /><br />
       </div>
       <div>
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3Vs1"
-          width="100%"
-          height="300px"
-        />
+        <iframe :src="`${jdoodle}3Vs1`" width="100%" height="300px" />
       </div>
     </div>
 
@@ -100,11 +92,7 @@
         </p>
       </div>
       <div>
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3Vs3"
-          width="100% "
-          height="400px"
-        />
+        <iframe :src="`${jdoodle}3Vs3`" width="100% " height="400px" />
       </div>
     </div>
 
@@ -131,11 +119,7 @@
         </p>
       </div>
       <div>
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3Vs5"
-          width="100%"
-          height="500px"
-        />
+        <iframe :src="`${jdoodle}3Vs5`" width="100%" height="500px" />
       </div>
     </div>
 

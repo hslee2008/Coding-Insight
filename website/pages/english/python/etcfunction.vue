@@ -22,13 +22,7 @@
           quit() and exit() is exactly same.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/8b75210243"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}8b75210243`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -65,13 +59,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/ea0c810c1a"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}ea0c810c1a`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

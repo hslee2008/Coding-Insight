@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header type="Rust" title="Rust 입력" num="40" />
+    <Header type="Rust" title="입력" num="40" />
 
     <br /><br />
 

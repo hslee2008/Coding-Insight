@@ -23,13 +23,7 @@
           바꿀 수도 있습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/a413df3b12"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}a413df3b12`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -44,13 +38,7 @@
           아이템을 넣을지 입력하면 됩니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/d50ab693f8"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}d50ab693f8`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -67,13 +55,7 @@
           버리는 것과 같이 모든 값을 제거할 수 예시입니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/8ea821b7b4"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}8ea821b7b4`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -92,13 +74,7 @@
         sum() 함수를 사용하면 리스트에 있는 모든 숫자를 더한 값을 찾을 수
         있습니다 (CODE3)
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/7fdd2b43c1"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}7fdd2b43c1`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

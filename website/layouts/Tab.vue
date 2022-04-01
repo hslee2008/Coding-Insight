@@ -14,13 +14,10 @@
         v-model="tab"
         :style="`background-color: ${$vuetify.theme.dark ? bgd : 'white'}`"
       >
-        <v-tab-item
-          v-for="(langItems, index) in [python, c, rust]"
-          :key="index"
-        >
+        <v-tab-item v-for="(li, ind) in [python, c, rust]" :key="ind">
           <v-expansion-panels hover flat accordion>
             <ItemList
-              v-for="item in langItems"
+              v-for="item in li"
               :key="item.en"
               :en="item.en"
               :kr="item.kr"
@@ -44,6 +41,7 @@
   export default {
     name: 'Tab',
     props: ['close'],
+
     components: {
       ItemList,
       Footer,
@@ -52,16 +50,14 @@
     data() {
       return {
         tab: 0,
+
         ...courses,
       };
     },
 
     mounted() {
-      this.tab = $nuxt.$route.path.includes('rust')
-        ? 2
-        : $nuxt.$route.path.includes('c-cpp')
-        ? 1
-        : 0;
+      const route = $nuxt.$route.path;
+      this.tab = route.includes('rust') ? 2 : route.includes('c-cpp') ? 1 : 0;
     },
   };
 </script>

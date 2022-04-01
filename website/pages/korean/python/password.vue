@@ -9,9 +9,8 @@
 
         먼저 시작하기 전에 조건문의 개념을 알아야 합니다. 이 페이지에서 간단히
         소개하겠지만 더 자세히 알고 싶으면
-        <NuxtLink aria-label="Go to Coding Insight Page" to="./if"
-          >조건문 페이지</NuxtLink
-        >를 확인하세요!
+        <NuxtLink :aria-label="allink" to="./if">조건문 페이지</NuxtLink>를
+        확인하세요!
       </p>
     </div>
 
@@ -47,11 +46,7 @@
     <QuadSpace />
 
     <h2>코드 확인하기</h2>
-    <iframe
-      src="https://trinket.io/embed/python3/0b59c71a2d"
-      width="100%"
-      height="356"
-    />
+    <iframe :src="`${trinket}0b59c71a2d`" width="100%" height="356" />
 
     <QuadSpace />
 

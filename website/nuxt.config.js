@@ -1,4 +1,33 @@
 export default {
+  hooks: {
+    'generate:done': () => {
+      console.log(`https://hpanel.hostinger.com/hosting/coding-insight.com/`);
+    },
+  },
+  build: {
+    // analyze: true,
+
+    devtools: true,
+    splitChunks: {
+      layouts: true,
+      pages: true,
+      commons: true,
+    },
+    indicator: true,
+    optmizeCSS: true,
+  },
+  cli: {
+    badgeMessages: ['🔥 Coding-Insight Firing Up 🔥'],
+    bannerColor: 'blue',
+  },
+  css: [
+    'assets/css/component.css',
+    'assets/css/scrollbar.css',
+    'assets/css/theme.css',
+    'assets/css/transition.css',
+  ],
+  components: true,
+
   target: 'static',
   generate: {
     dir: '../public_html/',
@@ -12,7 +41,7 @@ export default {
     htmlAttrs: {
       lang: 'en,ko-kr',
     },
-    titleTemplate: '%s | Coding-Insight',
+    titleTemplate: '%s ❯ Coding-Insight',
     title: 'Coding-Insight',
     meta: [
       {
@@ -87,15 +116,6 @@ export default {
       },
     ],
   },
-
-  css: [
-    '~/assets/css/theme.css',
-    '~/assets/css/transition.css',
-    '~/assets/css/scrollbar.css',
-    '~/assets/css/component.css',
-  ],
-
-  components: true,
 
   buildModules: ['@nuxtjs/vuetify'],
 
@@ -196,7 +216,7 @@ export default {
       version: '2022.02',
       description:
         'Learn programming through learning, practicing, and building. Our site includes full courses of python, c, c++, and rust for free in both Korean and English language.',
-      dir: 'rtl',
+      dir: 'ltr',
       id: '/index.html',
       author: ['Hyunseung', 'Juha', 'Gun'],
       categories: [
@@ -321,7 +341,7 @@ export default {
   },
 
   vuetify: {
-    customVariables: ['~/assets/sass/variables.scss'],
+    customVariables: ['assets/sass/variables.scss'],
     theme: {
       dark: true,
       themes: {
@@ -346,29 +366,5 @@ export default {
       },
     },
     treeShake: true,
-  },
-
-  build: {
-    devtools: true,
-    optmizeCSS: true,
-    splitChunks: {
-      layouts: true,
-      pages: true,
-      commons: true,
-    },
-    html: {
-      minify: {
-        collapseWhitespace: false,
-        removeComments: true,
-      },
-    },
-    extend(config, { isClient }) {
-      if (isClient) {
-        config.performance = {
-          maxEntrypointSize: 512000,
-          maxAssetSize: 512000,
-        };
-      }
-    },
   },
 };

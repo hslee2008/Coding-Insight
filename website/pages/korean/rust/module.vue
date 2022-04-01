@@ -29,7 +29,7 @@
     </p>
 
     <iframe
-      src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=mod%20module_example%20%7B%20%0D%0A%20%20%20%20fn%20print_this()%20%7B%20%0D%0A%20%20%20%20%20%20%20%20println!(%22Hello%2C%20World!%22)%3B%20%0D%0A%20%20%20%20%7D%20%0D%0A%7D%20%0D%0A%0D%0Afn%20main()%20%7B%20%0D%0A%20%20%20%20module_example%3A%3Aprint_this()%3B%20%0D%0A%7D"
+      :src="`${playrust}mod%20module_example%20%7B%20%0D%0A%20%20%20%20fn%20print_this()%20%7B%20%0D%0A%20%20%20%20%20%20%20%20println!(%22Hello%2C%20World!%22)%3B%20%0D%0A%20%20%20%20%7D%20%0D%0A%7D%20%0D%0A%0D%0Afn%20main()%20%7B%20%0D%0A%20%20%20%20module_example%3A%3Aprint_this()%3B%20%0D%0A%7D`"
       width="100%"
       height="300"
     />

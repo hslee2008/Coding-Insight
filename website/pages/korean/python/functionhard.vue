@@ -25,7 +25,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/901f63378a"
+          :src="`${trinket}901f63378a`"
           width="100%"
           height="356"
           loading="lazy"
@@ -48,7 +48,7 @@
             </p>
           </div>
           <iframe
-            src="https://trinket.io/embed/python3/095fe5cab9"
+            :src="`${trinket}095fe5cab9`"
             width="100%"
             height="356"
             loading="lazy"
@@ -73,7 +73,7 @@
             'return' 키워드를 실행하면 함수가 바로 종료합니다.<br /><br />
 
             <iframe
-              src="https://trinket.io/embed/python3/981bc3174e"
+              :src="`${trinket}981bc3174e`"
               width="100%"
               height="356"
               loading="lazy"
@@ -84,7 +84,7 @@
             있습니다. 파이썬에서만 존재하는 기능입니다.<br /><br />
 
             <iframe
-              src="https://trinket.io/embed/python3/aa6a155d5a"
+              :src="`${trinket}aa6a155d5a`"
               width="100%"
               height="356"
               loading="lazy"
@@ -105,7 +105,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/80ed8ae473"
+          :src="`${trinket}80ed8ae473`"
           width="100%"
           height="356"
           loading="lazy"

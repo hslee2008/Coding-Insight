@@ -22,13 +22,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/20b4a15af9"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}20b4a15af9`" width="100%" height="356" />
     </div>
 
     <Header type="Python" num="60" title="Array Shape" />
@@ -55,7 +49,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/2143d07d6a"
+      :src="`${trinket}2143d07d6a`"
       width="60%"
       height="356"
       loading="lazy"

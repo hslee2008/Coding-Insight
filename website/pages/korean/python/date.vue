@@ -32,13 +32,7 @@
           'yyyy-mm-dd hh:mm:ss' 형식으로 출력이 됩니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/437df64da8"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}437df64da8`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -61,13 +55,7 @@
           분은 '%M', 초는 '%S', 마이크로초는 '%f' 입니다
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/b649e0b775"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}b649e0b775`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

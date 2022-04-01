@@ -44,7 +44,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/75d1cbc8dd"
+        :src="`${trinket}75d1cbc8dd`"
         width="100%"
         height="356"
         loading="lazy"
@@ -85,13 +85,7 @@
           string no matter what.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/81191f5590"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}81191f5590`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -123,13 +117,7 @@
           Use int() to make string into a number.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/4b9cfba68b"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}4b9cfba68b`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

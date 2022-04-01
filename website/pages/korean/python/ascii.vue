@@ -49,13 +49,7 @@
           조금 뒤에 배우겠습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/4f4507d894"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}4f4507d894`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -65,13 +59,7 @@
         <h2>chr()</h2>
         <p>반대로, chr()은 아스키코드를 알파벳으로 바꾸는 함수입니다.</p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/2f04cf1944"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}2f04cf1944`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

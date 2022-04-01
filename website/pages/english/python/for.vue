@@ -33,13 +33,7 @@
           예를 들어 1번째 반복에선 a의 첫 번째 값이 i에 들어갑니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/b3dec1798f"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}b3dec1798f`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -65,7 +59,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/b3dec1798f"
+          :src="`${trinket}b3dec1798f`"
           width="100%"
           height="356"
           loading="lazy"
@@ -88,13 +82,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/4712475b5d"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}4712475b5d`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -118,7 +106,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/4712475b5d"
+          :src="`${trinket}4712475b5d`"
           width="100%"
           height="356"
           loading="lazy"
@@ -182,7 +170,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/9f190d6a4f"
+          :src="`${trinket}9f190d6a4f`"
           width="100%"
           height="356"
           loading="lazy"

@@ -83,7 +83,7 @@
       이와 같이 3-D는 3개의 수, 4-D는 4개의 수...를 입력하면 됩니다.
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/4fe0b3d005"
+      :src="`${trinket}4fe0b3d005`"
       width="100%"
       height="356"
       loading="lazy"

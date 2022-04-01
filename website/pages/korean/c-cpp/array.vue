@@ -52,11 +52,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/42tz"
-          width="100%"
-          height="300px"
-        />
+        <iframe :src="`${jdoodle}42tz`" width="100%" height="300px" />
       </div>
     </div>
 
@@ -95,11 +91,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3YMd"
-          width="100%"
-          height="300px"
-        />
+        <iframe :src="`${jdoodle}3YMd`" width="100%" height="300px" />
       </div>
     </div>
 
@@ -119,11 +111,7 @@
         </p>
       </div>
       <div class="text-center">
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/42tF"
-          width="100%"
-          height="400px"
-        />
+        <iframe :src="`${jdoodle}42tF`" width="100%" height="400px" />
       </div>
     </div>
 

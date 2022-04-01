@@ -21,8 +21,6 @@
         src="https://trinket.io/embed/python/cb2f50d77b"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -57,8 +55,6 @@
         src="https://trinket.io/embed/python/5d4e5680b4"
         width="60%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -83,8 +79,6 @@
         src="https://trinket.io/embed/python/c420acd5f8"
         width="60%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -110,8 +104,6 @@
         src="https://trinket.io/embed/python/e24eef8879"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -151,8 +143,6 @@
         src="https://trinket.io/embed/python/6366397170"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 

@@ -16,13 +16,7 @@
           수 있습니다.<br />
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/725e856cf1"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}725e856cf1`" width="100%" height="356" />
     </div>
 
     <Header type="파이썬" num="46" title="클래스" />
@@ -35,7 +29,7 @@
           하지만 이제 __init__() 함수를 사용하면 딕셔너리와 비슷하게 변수를
           저장할 수 있습니다.<br /><br />
           <iframe
-            src="https://trinket.io/embed/python3/1b58b7cdc3"
+            :src="`${trinket}1b58b7cdc3`"
             width="100%"
             height="356"
             loading="lazy"
@@ -69,13 +63,7 @@
           사용하여 값을 찾을 수 있습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/a1a4151531"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}a1a4151531`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

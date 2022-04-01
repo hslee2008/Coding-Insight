@@ -18,13 +18,7 @@
 
         <code> print(matplotlib.__version__) </code>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/3e28c18725"
-        width="60%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}3e28c18725`" width="60%" height="356" />
     </div>
 
     <Header type="Python" title="Matplotlib" num="88" />
@@ -57,7 +51,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/40b5ec6e62"
+      :src="`${trinket}40b5ec6e62`"
       width="100%"
       height="356"
       loading="lazy"
@@ -115,7 +109,7 @@
       </code>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/6d6b423f37"
+      :src="`${trinket}6d6b423f37`"
       width="100%"
       height="356"
       loading="lazy"
@@ -226,7 +220,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/c4218ab83d"
+      :src="`${trinket}c4218ab83d`"
       width="100%"
       height="356"
       loading="lazy"
@@ -273,7 +267,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/074b4c95ef"
+      :src="`${trinket}074b4c95ef`"
       width="100%"
       height="356"
       loading="lazy"

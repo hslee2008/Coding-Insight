@@ -36,13 +36,7 @@
           함수를 실행하기 위하여 '함수 이름 + ()'를 사용할 수 있습니다
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/6de0abee4a"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}6de0abee4a`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -62,7 +56,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/3a2f78ef6b"
+          :src="`${trinket}3a2f78ef6b`"
           width="100%"
           height="356"
           loading="lazy"
@@ -105,13 +99,7 @@
           효율적으로 만들 수 있습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/7e46f0a592"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}7e46f0a592`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

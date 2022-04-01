@@ -44,13 +44,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python3/e6f77e0d9a"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}e6f77e0d9a`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -75,13 +69,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python3/81191f5590"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}81191f5590`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -110,13 +98,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python3/4b9cfba68b"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}4b9cfba68b`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

@@ -100,11 +100,7 @@
           }
         </code>
       </div>
-      <iframe
-        src="https://www.jdoodle.com/embed/v0/4apz"
-        width="100%"
-        height="300"
-      />
+      <iframe :src="`${jdoodle}4apz`" width="100%" height="300" />
     </div>
 
     <QuadSpace />
@@ -155,11 +151,7 @@
           &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br />
           }
         </code>
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/4apA"
-          width="100%"
-          height="300"
-        />
+        <iframe :src="`${jdoodle}4apA`" width="100%" height="300" />
       </div>
     </div>
 

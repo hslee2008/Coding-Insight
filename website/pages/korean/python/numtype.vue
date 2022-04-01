@@ -52,13 +52,7 @@
           수 있습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/0856d3ad88"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}0856d3ad88`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -80,13 +74,7 @@
           예를 들어 3.14159는 소수점 뒤에 숫자가 있기 때문에 소수라고 합니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/e726e404fa"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}e726e404fa`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

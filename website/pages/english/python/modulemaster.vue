@@ -44,7 +44,7 @@
       </div>
 
       <iframe
-        src="https://trinket.io/embed/python3/97e4d4f1d9"
+        :src="`${trinket}97e4d4f1d9`"
         width="100%"
         height="356"
         loading="lazy"

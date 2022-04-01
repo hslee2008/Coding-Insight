@@ -38,13 +38,7 @@
           Reall Done!"
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/d14f421fa3"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}d14f421fa3`" width="100%" height="356" />
     </div>
 
     <Header type="Python" num="74" title="Thread (Advanced)" />
@@ -88,7 +82,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/4b10ddd953"
+      :src="`${trinket}4b10ddd953`"
       width="100%"
       height="356"
       loading="lazy"

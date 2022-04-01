@@ -33,13 +33,7 @@
           실행도 가능합니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/9025f99628"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}9025f99628`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -52,13 +46,7 @@
           실행합니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/9ca04d8e1f"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}9ca04d8e1f`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -78,26 +66,14 @@
           single은 한 코드일 때, exec은 여러 코드일 때 사용할 수 있습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/4b5e8cc791"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}4b5e8cc791`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
 
     <div id="idlepython">
       <h2>나만의 파이썬 IDLE</h2>
-      <iframe
-        src="https://trinket.io/embed/python3/fa7de26cef"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}fa7de26cef`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

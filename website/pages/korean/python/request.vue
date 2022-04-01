@@ -28,13 +28,7 @@
           하나입니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/a8fbf8fda2"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}a8fbf8fda2`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -64,13 +58,7 @@
           있습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/3f896f4b27"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}3f896f4b27`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -98,13 +86,7 @@
           가능합니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/4751110c8f"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}4751110c8f`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

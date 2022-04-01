@@ -17,13 +17,7 @@
           예를 들어 우리반에서 서울에 사는 친구들의 집합을 만들어 보겠습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/17ff96c784"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}17ff96c784`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -65,7 +59,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/1c4e61a04e"
+          :src="`${trinket}1c4e61a04e`"
           width="100%"
           height="356"
           loading="lazy"
@@ -89,13 +83,7 @@
           에러가 생기지 않는 것을 원한다면 discard 메서드를 사용하세요.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/62528e1b44"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}62528e1b44`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

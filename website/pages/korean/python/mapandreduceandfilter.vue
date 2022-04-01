@@ -13,13 +13,7 @@
           않습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/0be5e6efb5"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}0be5e6efb5`" width="100%" height="356" />
     </div>
 
     <Header type="파이썬" num="64" title="map, reduce, filter" />
@@ -31,7 +25,7 @@
           다음과 같은 예시를 보겠습니다.<br /><br />
           매우 간단합니다.<br /><br />
           <iframe
-            src="https://trinket.io/embed/python3/373f6daa17"
+            :src="`${trinket}373f6daa17`"
             width="100%"
             height="356"
             loading="lazy"
@@ -46,7 +40,7 @@
           map() 함수에서 나만의 함수를 넣으려면 lambda(익명 함수)를 이용할 수
           있습니다.<br /><br />
           <iframe
-            src="https://trinket.io/embed/python3/22c2bc5172"
+            :src="`${trinket}22c2bc5172`"
             width="100%"
             height="356"
             loading="lazy"
@@ -88,7 +82,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/9eb9345774"
+      :src="`${trinket}9eb9345774`"
       width="100%"
       height="356"
       loading="lazy"
@@ -114,7 +108,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/294b66f2c5"
+      :src="`${trinket}294b66f2c5`"
       width="100%"
       height="356"
       loading="lazy"

@@ -43,7 +43,7 @@
           "Done"을 출력합니다. 다른 하나는 "World"를 출력합니다.<br /><br />
 
           <iframe
-            src="https://trinket.io/embed/python3/cf48124315"
+            :src="`${trinket}cf48124315`"
             width="100%"
             height="356"
             loading="lazy"
@@ -92,7 +92,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/a21ef7102c"
+      :src="`${trinket}a21ef7102c`"
       width="100%"
       height="356"
       loading="lazy"

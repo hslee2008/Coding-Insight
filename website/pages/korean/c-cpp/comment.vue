@@ -36,11 +36,7 @@
         </p>
       </div>
       <div>
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3VZz"
-          width="100%"
-          height="300"
-        />
+        <iframe :src="`${jdoodle}3VZz`" width="100%" height="300" />
       </div>
     </div>
 
@@ -76,11 +72,7 @@
         </p>
       </div>
       <div>
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3VZB"
-          width="100%"
-          height="300px"
-        />
+        <iframe :src="`${jdoodle}3VZB`" width="100%" height="300px" />
       </div>
     </div>
 

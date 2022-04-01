@@ -138,7 +138,7 @@
         </v-row>
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20mut%20a%20%3D%2010%3B%0D%0A%20%20%20%20let%20b%20%3D%20%26mut%20a%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20*b%20%3D%203%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22b%20%EA%B0%92%3A%20%7B%7D%22%2C%20b)%3B%0D%0A%20%20%20%20println!(%22a%20%EA%B0%92%3A%20%7B%7D%22%2C%20a)%3B%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20mut%20a%20%3D%2010%3B%0D%0A%20%20%20%20let%20b%20%3D%20%26mut%20a%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20*b%20%3D%203%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22b%20%EA%B0%92%3A%20%7B%7D%22%2C%20b)%3B%0D%0A%20%20%20%20println!(%22a%20%EA%B0%92%3A%20%7B%7D%22%2C%20a)%3B%0D%0A%7D`"
           width="100%"
           height="300"
         />

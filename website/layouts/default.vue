@@ -17,7 +17,7 @@
         >
           <v-img
             :src="
-              require(`~/assets/svg/${
+              require(`assets/svg/${
                 $vuetify.theme.dark ? 'dark' : 'light'
               }.svg`)
             "

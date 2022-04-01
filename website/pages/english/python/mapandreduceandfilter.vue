@@ -21,13 +21,7 @@
           Computer Science Lab, we will learn about the alternatives.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/0be5e6efb5"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}0be5e6efb5`" width="100%" height="356" />
     </div>
 
     <Header type="Python" num="64" title="map, reduce, filter" />
@@ -64,7 +58,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/0b62993bad"
+        :src="`${trinket}0b62993bad`"
         width="100%"
         height="356"
         loading="lazy"
@@ -91,7 +85,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/9eb9345774"
+      :src="`${trinket}9eb9345774`"
       width="100%"
       height="356"
       loading="lazy"
@@ -125,7 +119,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/294b66f2c5"
+      :src="`${trinket}294b66f2c5`"
       width="100%"
       height="356"
       loading="lazy"

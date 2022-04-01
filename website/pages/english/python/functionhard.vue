@@ -41,7 +41,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/901f63378a"
+          :src="`${trinket}901f63378a`"
           width="100%"
           height="356"
           loading="lazy"
@@ -75,7 +75,7 @@
             </p>
           </div>
           <iframe
-            src="https://trinket.io/embed/python3/095fe5cab9"
+            :src="`${trinket}095fe5cab9`"
             width="100%"
             height="356"
             loading="lazy"
@@ -97,7 +97,7 @@
             Treat a function that returns value as data type itself.<br /><br />
 
             <iframe
-              src="https://trinket.io/embed/python3/e07973bfc0"
+              :src="`${trinket}e07973bfc0`"
               width="100%"
               height="356"
               loading="lazy"
@@ -110,7 +110,7 @@
             Python.<br /><br />
 
             <iframe
-              src="https://trinket.io/embed/python3/6a2291c952"
+              :src="`${trinket}6a2291c952`"
               width="100%"
               height="356"
               loading="lazy"
@@ -133,7 +133,7 @@
           </p>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/80ed8ae473"
+          :src="`${trinket}80ed8ae473`"
           width="100%"
           height="356"
           loading="lazy"

@@ -122,7 +122,7 @@
         됩니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20s%3A%20%5Bi32%3B%205%5D%20%3D%20%5B1%2C%202%2C%203%2C%204%2C%205%5D%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s%5B0%5D)%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s%5B1%5D)%3B%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20let%20s%3A%20%5Bi32%3B%205%5D%20%3D%20%5B1%2C%202%2C%203%2C%204%2C%205%5D%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s%5B0%5D)%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s%5B1%5D)%3B%0A%7D`"
           width="100%"
           height="300"
         />
@@ -138,7 +138,7 @@
         배열을 출력하기 위해서 디버깅 특성 {:?}를 사용합니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%5Bf32%3B%205%5D%20%3D%20%5B3.1%2C%203.14%2C%203.141%2C%203.1415%2C%203.14159%5D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%3A%3F%7D%22%2C%20val1)%3B%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%5Bf32%3B%205%5D%20%3D%20%5B3.1%2C%203.14%2C%203.141%2C%203.1415%2C%203.14159%5D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%3A%3F%7D%22%2C%20val1)%3B%0D%0A%7D`"
           width="100%"
           height="300"
         />
@@ -156,7 +156,7 @@
         is_empty()를 사용하면 배열이 비어있는지 아닌지 확인할 수 있습니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%5Bf32%3B%205%5D%20%3D%20%5B3.1%2C%203.14%2C%203.141%2C%203.1415%2C%203.14159%5D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%EA%B8%B8%EC%9D%B4%3A%20%7B%7D%22%2C%20val1.len())%3B%0D%0A%20%20%20%20println!(%22%EB%B9%84%EC%96%B4%20%EC%9E%88%EB%82%98%EC%9A%94%3F%3A%20%7B%7D%22%2C%20val1.is_empty())%3B%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%5Bf32%3B%205%5D%20%3D%20%5B3.1%2C%203.14%2C%203.141%2C%203.1415%2C%203.14159%5D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%EA%B8%B8%EC%9D%B4%3A%20%7B%7D%22%2C%20val1.len())%3B%0D%0A%20%20%20%20println!(%22%EB%B9%84%EC%96%B4%20%EC%9E%88%EB%82%98%EC%9A%94%3F%3A%20%7B%7D%22%2C%20val1.is_empty())%3B%0D%0A%7D`"
           width="100%"
           height="300"
         />

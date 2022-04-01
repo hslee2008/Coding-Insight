@@ -17,13 +17,7 @@
           Class is a template code.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/725e856cf1"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}725e856cf1`" width="100%" height="356" />
     </div>
 
     <Header type="Python" num="46" title="Class" />
@@ -114,13 +108,7 @@
           To use the self variable, try 'self.variablename'.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/a1a4151531"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}a1a4151531`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

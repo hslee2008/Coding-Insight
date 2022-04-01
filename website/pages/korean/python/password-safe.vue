@@ -6,7 +6,7 @@
       <div class="ma-auto">
         <h2>로그인 프로그램</h2>
         <p>
-          <NuxtLink aria-label="Go to Coding Insight Page" to="./password"
+          <NuxtLink :aria-label="allink" to="./password"
             >암호 로그인 시스템</NuxtLink
           >
           페이지에서 간단하게 암호 로그인 시스템을 만드는 방법을
@@ -40,7 +40,7 @@
       <h2>코드 설명</h2>
       <div>
         1) 코드는
-        <NuxtLink aria-label="Go to Coding Insight Page" to="./password"
+        <NuxtLink :aria-label="allink" to="./password"
           >암호 로그인 페이지</NuxtLink
         >에서 확인하세요. 추가로 몇 줄만 더 더할 것입니다.<br /><br />
 
@@ -54,9 +54,7 @@
 
         5) 참고로 while이라는 것은 밑 코드에서 guess가 passsword 아닐때만 그
         안의 코드를 계속 실행합니다. 더 자세한 내용은
-        <NuxtLink aria-label="Go to Coding Insight Page" to="./while"
-          >while 반복문</NuxtLink
-        >
+        <NuxtLink :aria-label="allink" to="./while">while 반복문</NuxtLink>
         페이지에서 확인하세요.
       </div>
     </div>
@@ -64,11 +62,7 @@
     <QuadSpace />
 
     <h2>코드 확인하기</h2>
-    <iframe
-      src="https://trinket.io/embed/python3/5382bd569c"
-      width="100%"
-      height="356"
-    />
+    <iframe :src="`${trinket}5382bd569c`" width="100%" height="356" />
 
     <QuadSpace />
 

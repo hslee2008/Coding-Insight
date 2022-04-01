@@ -50,7 +50,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/2390219212"
+      :src="`${trinket}2390219212`"
       width="100%"
       height="356"
       loading="lazy"
@@ -69,7 +69,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/ee9dc05bf9"
+      :src="`${trinket}ee9dc05bf9`"
       width="100%"
       height="356"
       loading="lazy"

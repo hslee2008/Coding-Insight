@@ -12,13 +12,7 @@
           'a' mode adds(appends) to the end of the file.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/890655e828"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}890655e828`" width="100%" height="356" />
     </div>
 
     <Header type="Python" num="51" title="File Writing" />
@@ -65,13 +59,7 @@
           </p>
         </div>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/2fdad67c09"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}2fdad67c09`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

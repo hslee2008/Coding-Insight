@@ -100,11 +100,7 @@
 
     <h2>코드 확인하기</h2>
 
-    <iframe
-      src="https://trinket.io/embed/python3/e1d336381d"
-      width="100%"
-      height="356"
-    />
+    <iframe :src="`${trinket}e1d336381d`" width="100%" height="356" />
 
     <QuadSpace />
 

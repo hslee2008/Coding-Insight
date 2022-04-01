@@ -10,13 +10,7 @@
           new one.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/a413df3b12"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}a413df3b12`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -29,13 +23,7 @@
           called insert().
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/d50ab693f8"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}d50ab693f8`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -54,13 +42,7 @@
           the trash. (Final Code - Code3)
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/8ea821b7b4"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}8ea821b7b4`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -80,13 +62,7 @@
         You can use the sum() function to find the sum of all numbers in a list.
         - Code3
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/7fdd2b43c1"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}7fdd2b43c1`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

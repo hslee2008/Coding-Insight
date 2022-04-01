@@ -62,7 +62,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/ff303b9456"
+        :src="`${trinket}ff303b9456`"
         width="100%"
         height="356"
         loading="lazy"
@@ -92,13 +92,7 @@
           True if right is bigger or equal to left and False otherwise.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/39a09b977e"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}39a09b977e`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

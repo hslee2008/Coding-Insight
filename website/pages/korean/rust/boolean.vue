@@ -26,7 +26,7 @@
         참고로 bool은 항상 true 또는 false 값만 가질 수 있습니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20boolean_value)%3B%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20boolean_value)%3B%0D%0A%7D`"
           width="100%"
           height="300"
         />
@@ -45,7 +45,7 @@
         !!true는 true이고 !!false는 false입니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20!boolean_value)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20!!boolean_value)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20!!!boolean_value)%3B%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20!boolean_value)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20!!boolean_value)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20!!!boolean_value)%3B%0D%0A%7D`"
           width="100%"
           height="300"
         />
@@ -73,7 +73,7 @@
         나중에 더 자세히 알아보겠습니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20let%20num_value%3A%20i32%20%3D%203%3B%0D%0A%20%20%20%20let%20num_value2%3A%20i32%20%3D%204%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20assert!(boolean_value)%3B%0D%0A%20%20%20%20assert_ne(num_value%2C%20num_value2)%3B%0D%0A%20%20%20%20assert_eq(num_value%2C%20num_value2)%3B%20%2F%2F%EC%97%AC%EA%B8%B0%EC%97%90%EC%84%9C%EB%A7%8C%20%EC%97%90%EB%9F%AC%EA%B0%80%20%EC%83%9D%EA%B9%81%EB%8B%88%EB%8B%A4.%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20let%20num_value%3A%20i32%20%3D%203%3B%0D%0A%20%20%20%20let%20num_value2%3A%20i32%20%3D%204%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20assert!(boolean_value)%3B%0D%0A%20%20%20%20assert_ne(num_value%2C%20num_value2)%3B%0D%0A%20%20%20%20assert_eq(num_value%2C%20num_value2)%3B%20%2F%2F%EC%97%AC%EA%B8%B0%EC%97%90%EC%84%9C%EB%A7%8C%20%EC%97%90%EB%9F%AC%EA%B0%80%20%EC%83%9D%EA%B9%81%EB%8B%88%EB%8B%A4.%0D%0A%7D`"
           width="100%"
           height="300"
         />

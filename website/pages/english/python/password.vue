@@ -9,9 +9,7 @@
           Let's make a login program that prompts the user for password!<br /><br />
 
           Note that you need to know about
-          <NuxtLink aria-label="Go to Coding Insight Page" to="./if"
-            >If Statements</NuxtLink
-          >
+          <NuxtLink :aria-label="allink" to="./if">If Statements</NuxtLink>
           before you move on. It will all be explained shortly in this page, but
           use the link for future reference.
         </p>
@@ -58,11 +56,7 @@
     <QuadSpace />
 
     <h2>Check out the program</h2>
-    <iframe
-      src="https://trinket.io/embed/python3/78247d771c"
-      width="100%"
-      height="356"
-    />
+    <iframe :src="`${trinket}78247d771c`" width="100%" height="356" />
 
     <QuadSpace />
 

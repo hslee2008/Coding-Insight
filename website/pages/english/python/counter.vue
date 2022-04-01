@@ -19,13 +19,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/da3dfe80d1"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}da3dfe80d1`" width="100%" height="356" />
     </div>
 
     <Header type="Python" num="77" title="Counter" />
@@ -42,7 +36,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/1784ae1aca"
+      :src="`${trinket}1784ae1aca`"
       width="100%"
       height="356"
       loading="lazy"
@@ -63,7 +57,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/6776498f90"
+      :src="`${trinket}6776498f90`"
       width="100%"
       height="356"
       loading="lazy"
@@ -84,7 +78,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/f918534c52"
+      :src="`${trinket}f918534c52`"
       width="100%"
       height="356"
       loading="lazy"

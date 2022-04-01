@@ -45,13 +45,7 @@
           하지만 이 방법을 사용하지 마세요! import OEM을 사용하면 더 좋습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/a487c1d3fb"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}a487c1d3fb`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

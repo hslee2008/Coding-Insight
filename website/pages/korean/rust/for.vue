@@ -12,7 +12,7 @@
         실행하고 다음의 배열 값을 다시 i 안에 저장하고 이 작업을 반복합니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20for%20i%20in%200..5%20%7B%0D%0A%20%20%20%20%20%20println!(%22%7B%7D%22%2C%20i)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20for%20i%20in%200..5%20%7B%0D%0A%20%20%20%20%20%20println!(%22%7B%7D%22%2C%20i)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D`"
           width="100%"
           height="300"
         />
@@ -39,7 +39,7 @@
         인덱스(5부터 10)를 나타냅니다.<br /><br />
 
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20for%20(count%2C%20i)%20in%20(5..10).enumerate()%20%7B%0D%0A%20%20%20%20%20%20println!(%22count%20%3D%20%7B%7D%2C%20i%20%3D%20%7B%7D%22%2C%20count%2C%20i)%3B%0D%0A%20%20%7D%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20for%20(count%2C%20i)%20in%20(5..10).enumerate()%20%7B%0D%0A%20%20%20%20%20%20println!(%22count%20%3D%20%7B%7D%2C%20i%20%3D%20%7B%7D%22%2C%20count%2C%20i)%3B%0D%0A%20%20%7D%0D%0A%7D`"
           width="100%"
           height="400"
         />

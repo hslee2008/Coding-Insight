@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header type="파이썬" num="42" title="파이썬 모듈" />
+    <Header type="파이썬" num="42" title="모듈" />
 
     <div>
       <div>
@@ -10,13 +10,7 @@
           있습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/cf2c9fad50"
-        width="100%"
-        height="358"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}cf2c9fad50`" width="100%" height="358" />
     </div>
 
     <QuadSpace />
@@ -36,7 +30,7 @@
           컴퓨터에 따라서 clear 또는 cls 일 수도 있습니다.
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/63f69099ff"
+          :src="`${trinket}63f69099ff`"
           width="100%"
           height="356"
           loading="lazy"

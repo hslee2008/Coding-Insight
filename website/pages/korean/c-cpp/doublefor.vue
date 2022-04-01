@@ -56,11 +56,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br />
         }
       </code>
-      <iframe
-        src="https://www.jdoodle.com/embed/v0/3YLZ"
-        width="100%"
-        height="300px"
-      />
+      <iframe :src="`${jdoodle}3YLZ`" width="100%" height="300px" />
     </div>
 
     <QuadSpace />

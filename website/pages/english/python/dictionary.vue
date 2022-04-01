@@ -48,13 +48,7 @@
           We have to use list(mainDict.keys()) to make them into lists.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/1e671b6947"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}1e671b6947`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -80,13 +74,7 @@
           lists.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/1e671b6947"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}1e671b6947`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

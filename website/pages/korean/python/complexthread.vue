@@ -23,13 +23,7 @@
           Done! 과 0.9초 기다리고 Now It is Really Done! 을 출력합니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/d14f421fa3"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}d14f421fa3`" width="100%" height="356" />
     </div>
 
     <Header type="파이썬" num="74" title="스레드 (자세히)" />
@@ -50,7 +44,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/4b10ddd953"
+      :src="`${trinket}4b10ddd953`"
       width="100%"
       height="356"
       loading="lazy"

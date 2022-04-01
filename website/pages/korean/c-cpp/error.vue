@@ -10,11 +10,7 @@
 
           <code> #error "hmmm..." </code>
 
-          <iframe
-            src="https://www.jdoodle.com/embed/v0/47BY"
-            width="100%"
-            height="200"
-          />
+          <iframe :src="`${jdoodle}47BY`" width="100%" height="200" />
         </p>
       </div>
     </div>

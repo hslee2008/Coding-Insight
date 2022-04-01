@@ -28,7 +28,7 @@
           Let's look at the following examples.<br /><br />
 
           <iframe
-            src="https://trinket.io/embed/python3/c6d50081cf"
+            :src="`${trinket}c6d50081cf`"
             width="100%"
             height="356"
             loading="lazy"
@@ -41,7 +41,7 @@
           Let's try changing the contents inside file1.py.<br /><br />
 
           <iframe
-            src="https://trinket.io/embed/python3/b01563dd19"
+            :src="`${trinket}b01563dd19`"
             width="100%"
             height="356"
             loading="lazy"

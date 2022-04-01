@@ -1,5 +1,5 @@
 code {
-  border-left: 2px solid #087ea4;
+  border-left: 3px solid #087ea4;
   font-family: Menlo, Monaco, Consolas, Courier New, monospace;
   font-size: 15px;
   line-height: 1.6;
@@ -10,7 +10,8 @@ code {
 
 .ic {
   display: initial !important;
-  border: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid #087ea4;
 }
 
 iframe {

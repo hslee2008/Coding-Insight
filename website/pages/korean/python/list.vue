@@ -36,13 +36,7 @@
           리스트에서 항상 ,가 데이터들 사이에 있어야 합니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/59634d0a4b"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}59634d0a4b`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -52,13 +46,7 @@
         <h2>리스트 인덱스</h2>
         <p>리스트에서 x번째 값을 찾으려면 인덱싱을 사용하면 됩니다.</p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/151def333f"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}151def333f`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

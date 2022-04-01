@@ -28,7 +28,7 @@
         </p>
       </div>
       <iframe
-        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20println!(%22Hello%2C%20world!%22)%3B%0A%7D"
+        :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20println!(%22Hello%2C%20world!%22)%3B%0A%7D`"
         width="100%"
         height="400"
       />
@@ -57,7 +57,7 @@
         </p>
       </div>
       <iframe
-        src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=println!(%22Hello%2C%20world!%22)%3B"
+        :src="`${playrust}println!(%22Hello%2C%20world!%22)%3B`"
         width="100%"
         height="400"
       />

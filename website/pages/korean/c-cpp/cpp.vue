@@ -67,7 +67,7 @@
 
     <div>
       <NuxtLink
-        aria-label="Go to Coding Insight Page"
+        :aria-label="allink"
         to="./io-cpp"
         style="text-decoration: none; float: right"
       >

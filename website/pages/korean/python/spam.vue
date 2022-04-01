@@ -49,7 +49,7 @@
     <QuadSpace />
 
     <iframe
-      src="https://trinket.io/embed/python3/db9f325b98"
+      :src="`${trinket}db9f325b98`"
       width="100%"
       height="500vh"
       loading="lazy"

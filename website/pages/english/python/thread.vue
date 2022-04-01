@@ -104,7 +104,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/a21ef7102c"
+      :src="`${trinket}a21ef7102c`"
       width="100%"
       height="356"
       loading="lazy"

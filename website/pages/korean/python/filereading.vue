@@ -50,7 +50,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/69df2c15b8"
+      :src="`${trinket}69df2c15b8`"
       width="100%"
       height="356"
       loading="lazy"
@@ -71,7 +71,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/6b4e266873"
+      :src="`${trinket}6b4e266873`"
       width="100%"
       height="356"
       loading="lazy"
@@ -93,7 +93,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/8d79bcebaa"
+      :src="`${trinket}8d79bcebaa`"
       width="100%"
       height="356"
       loading="lazy"
@@ -113,7 +113,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/a301fbf34c"
+      :src="`${trinket}a301fbf34c`"
       width="100%"
       height="356"
       loading="lazy"

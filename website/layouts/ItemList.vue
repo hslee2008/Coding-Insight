@@ -6,7 +6,7 @@
 
     <v-expansion-panel-content>
       <v-list-item
-        v-for="(item, i) in items[json + (isEnglish() ? '_en' : '')]"
+        v-for="(item, i) in links[json + isEnglish()]"
         :key="item.to + i.toString()"
         :to="item.to"
         dense
@@ -27,26 +27,27 @@
 </template>
 
 <script>
-  import PythonLinks from '~/assets/js/layout';
-  import PythonLinksEN from '~/assets/js/layout_en';
+  import PythonLinks from 'assets/js/layout';
+  import PythonLinksEN from 'assets/js/layout_en';
 
   export default {
     props: ['itemprops', 'en', 'kr', 'json', 'close'],
     data() {
       return {
-        items: {
+        links: {
           ...PythonLinks,
           ...PythonLinksEN,
         },
+
         title: this.isEnglish() ? this.en : this.kr,
       };
     },
     methods: {
       isEnglish() {
-        return (
-          this.$route.path.includes('english') ||
+        return this.$route.path.includes('english') ||
           this.$route.path.includes('-en')
-        );
+          ? '_en'
+          : '';
       },
     },
   };

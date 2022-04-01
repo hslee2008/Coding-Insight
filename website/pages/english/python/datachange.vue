@@ -28,7 +28,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/b8df2e09d4"
+      :src="`${trinket}b8df2e09d4`"
       width="100%"
       height="356"
       loading="lazy"
@@ -52,13 +52,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/facd314b6c"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}facd314b6c`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -85,13 +79,7 @@
           NaN is short for Not a Number.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/cf87c918cc"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}cf87c918cc`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -113,13 +101,7 @@
           0 is False and the rest of the number is True.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/314b0e422c"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}314b0e422c`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

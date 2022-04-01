@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header type="Python" num="42" title="Python Module" />
+    <Header type="Python" num="42" title="Module" />
 
     <div>
       <div>
@@ -13,13 +13,7 @@
 
         Using time.sleep(x), we can stop the code for 'x' seconds.
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/cf2c9fad50"
-        width="100%"
-        height="358"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}cf2c9fad50`" width="100%" height="358" />
     </div>
 
     <QuadSpace />
@@ -51,7 +45,7 @@
           </code>
         </div>
         <iframe
-          src="https://trinket.io/embed/python3/63f69099ff"
+          :src="`${trinket}63f69099ff`"
           width="100%"
           height="356"
           loading="lazy"

@@ -27,7 +27,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/c09ee5878e"
+        :src="`${trinket}c09ee5878e`"
         width="100%"
         height="356"
         loading="lazy"
@@ -46,7 +46,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/91ca5b24b6"
+        :src="`${trinket}91ca5b24b6`"
         width="100%"
         height="356"
         loading="lazy"
@@ -74,26 +74,14 @@
           is expression, 'single' is one single line, 'exec' is multi-line code.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/4b5e8cc791"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}4b5e8cc791`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
 
     <div id="idlepython">
       <h2>PROJECT (PROJ: 9): My Own Python IDLE</h2>
-      <iframe
-        src="https://trinket.io/embed/python3/fa7de26cef"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}fa7de26cef`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

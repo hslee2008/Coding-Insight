@@ -47,11 +47,7 @@
 
     <QuadSpace />
 
-    <iframe
-      src="https://trinket.io/embed/python3/7747ffbfd7"
-      width="100%"
-      height="356"
-    />
+    <iframe :src="`${trinket}7747ffbfd7`" width="100%" height="356" />
 
     <QuadSpace />
 

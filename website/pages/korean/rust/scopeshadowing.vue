@@ -31,7 +31,7 @@
       </div>
       <div>
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20let%20testing%20%3D%20%22Hello%2C%20World!%22%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20println!(%22%7B%7D%22%2C%20testing)%3B%0A%20%20%20%20%7D%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20testing)%3B%20%2F%2F%EC%97%90%EB%9F%AC!%20testing%EC%9D%B4%EB%9D%BC%EB%8A%94%20%EB%B3%80%EC%88%98%EA%B0%80%20%EB%B2%94%EC%9C%84%20%EC%95%88%EC%97%90%20%EC%A1%B4%EC%9E%AC%ED%95%98%EC%A7%80%20%EC%95%8A%EC%95%84%EC%9A%94!%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20let%20testing%20%3D%20%22Hello%2C%20World!%22%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20println!(%22%7B%7D%22%2C%20testing)%3B%0A%20%20%20%20%7D%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20testing)%3B%20%2F%2F%EC%97%90%EB%9F%AC!%20testing%EC%9D%B4%EB%9D%BC%EB%8A%94%20%EB%B3%80%EC%88%98%EA%B0%80%20%EB%B2%94%EC%9C%84%20%EC%95%88%EC%97%90%20%EC%A1%B4%EC%9E%AC%ED%95%98%EC%A7%80%20%EC%95%8A%EC%95%84%EC%9A%94!%0A%7D`"
           width="100%"
           height="400"
         />
@@ -54,7 +54,7 @@
       </div>
       <div>
         <iframe
-          src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20lang%20%3D%20%22Rust%22%3B%0D%0A%20%20%20%20println!(%22%EC%BD%94%EB%93%9C%20%EB%B8%94%EB%A1%9D%20%EB%B0%96%3A%20%7Blang%7D%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20%7B%0D%0A%20%20%20%20%20%20%20%20let%20lang%20%3D%20%22Python%22%3B%0D%0A%20%20%20%20%20%20%20%20println!(%22%EC%BD%94%EB%93%9C%20%EB%B8%94%EB%A1%9D%20%EC%95%88%3A%20%7Blang%7D%22)%3B%0D%0A%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%EC%BD%94%EB%93%9C%20%EB%B8%94%EB%A1%9D%20%EB%B0%96%3A%20%7Blang%7D%22)%3B%0D%0A%7D"
+          :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20lang%20%3D%20%22Rust%22%3B%0D%0A%20%20%20%20println!(%22%EC%BD%94%EB%93%9C%20%EB%B8%94%EB%A1%9D%20%EB%B0%96%3A%20%7Blang%7D%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20%7B%0D%0A%20%20%20%20%20%20%20%20let%20lang%20%3D%20%22Python%22%3B%0D%0A%20%20%20%20%20%20%20%20println!(%22%EC%BD%94%EB%93%9C%20%EB%B8%94%EB%A1%9D%20%EC%95%88%3A%20%7Blang%7D%22)%3B%0D%0A%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%EC%BD%94%EB%93%9C%20%EB%B8%94%EB%A1%9D%20%EB%B0%96%3A%20%7Blang%7D%22)%3B%0D%0A%7D`"
           width="100%"
           height="400"
         />

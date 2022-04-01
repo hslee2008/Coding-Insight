@@ -31,13 +31,7 @@
           <code> print(ord(input("One character: "))) </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/4f4507d894"
-        width="60%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}4f4507d894`" width="60%" height="356" />
     </div>
 
     <QuadSpace />
@@ -51,13 +45,7 @@
           <code> print(chr(int(input("A number between 0 and 127: ")))) </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/2f04cf1944"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}2f04cf1944`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

@@ -35,8 +35,6 @@
         src="https://trinket.io/embed/python/a5d980683b"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -83,13 +81,7 @@
         <h2>Change variable value</h2>
         <p>To change the variable's value, simply type in a new value.</p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/ddd8867b8c"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}ddd8867b8c`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

@@ -32,7 +32,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/bbf4c84765"
+      :src="`${trinket}bbf4c84765`"
       width="100%"
       height="356"
       loading="lazy"

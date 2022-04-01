@@ -36,11 +36,7 @@
       </code>
     </div>
     <QuadSpace />
-    <iframe
-      src="https://trinket.io/embed/python3/740f66be1f"
-      width="100%"
-      height="356"
-    />
+    <iframe :src="`${trinket}740f66be1f`" width="100%" height="356" />
 
     <QuadSpace />
 

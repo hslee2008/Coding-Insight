@@ -74,11 +74,7 @@
     <QuadSpace />
 
     <h2>코드 확인하기</h2>
-    <iframe
-      src="https://trinket.io/embed/python3/270cadb63c"
-      width="100%"
-      height="356"
-    />
+    <iframe :src="`${trinket}270cadb63c`" width="100%" height="356" />
 
     <QuadSpace />
 

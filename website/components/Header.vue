@@ -44,7 +44,7 @@
       };
     },
     mounted() {
-      document.title = `${this.type} ${this.title} - Coding-Insight`;
+      document.title = `${this.type} ${this.title} ❯ Coding-Insight`;
       this.showButton = 'speechSynthesis' in window ? true : false;
     },
     methods: {

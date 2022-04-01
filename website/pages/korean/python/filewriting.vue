@@ -12,13 +12,7 @@
           새로운 줄에 쓰고자 하는 텍스트를 더합니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/890655e828"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}890655e828`" width="100%" height="356" />
     </div>
 
     <Header type="파이썬" num="51" title="파일 쓰기" />
@@ -41,13 +35,7 @@
           </p>
         </div>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/2fdad67c09"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}2fdad67c09`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

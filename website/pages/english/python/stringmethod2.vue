@@ -33,8 +33,6 @@
         src="https://trinket.io/embed/python/54f740c487"
         width="60%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -73,8 +71,6 @@
         src="https://trinket.io/embed/python/9da1796e91"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -116,7 +112,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python3/3e76b01efc"
+        :src="`${trinket}3e76b01efc`"
         width="100%"
         height="356"
         loading="lazy"

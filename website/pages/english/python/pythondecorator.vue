@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header num="68" title="Python Decorator" />
+    <Header type="Python" num="68" title="Decorator" />
 
     <div>
       <div>
@@ -63,7 +63,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/9e90d8b9d3"
+      :src="`${trinket}9e90d8b9d3`"
       width="100%"
       height="356"
       loading="lazy"
@@ -81,7 +81,7 @@
       </div>
     </div>
     <iframe
-      src="https://trinket.io/embed/python3/d00208b10a"
+      :src="`${trinket}d00208b10a`"
       width="100%"
       height="356"
       loading="lazy"

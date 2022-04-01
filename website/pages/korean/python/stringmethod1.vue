@@ -29,8 +29,6 @@
         src="https://trinket.io/embed/python/41e9ea9617"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -52,8 +50,6 @@
         src="https://trinket.io/embed/python/a26965d6fd"
         width="100%"
         height="356"
-        loading="lazy"
-        class="ma-auto"
       />
     </div>
 
@@ -76,13 +72,7 @@
           istitle()은 책 제목 형식인지 알려주는 역할을 합니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/75c4671dd7"
-        width="100%"
-        height="300"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}75c4671dd7`" width="100%" height="300" />
     </div>
 
     <QuadSpace />

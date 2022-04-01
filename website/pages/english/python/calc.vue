@@ -9,15 +9,9 @@
         previous page.<br /><br />
 
         Make sure to read
-        <NuxtLink aria-label="Go to Coding Insight Page" to="number">
-          Number </NuxtLink
-        >,
-        <NuxtLink aria-label="Go to Coding Insight Page" to="operator">
-          Operator </NuxtLink
-        >,
-        <NuxtLink aria-label="Go to Coding Insight Page" to="numtype">
-          Number Types
-        </NuxtLink>
+        <NuxtLink :aria-label="allink" to="number"> Number </NuxtLink>,
+        <NuxtLink :aria-label="allink" to="operator"> Operator </NuxtLink>,
+        <NuxtLink :aria-label="allink" to="numtype"> Number Types </NuxtLink>
         before you move on.
       </p>
     </div>
@@ -68,11 +62,7 @@
           <code> print(addnum) </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/6fd6aa9b5a"
-        width="100%"
-        height="356"
-      />
+      <iframe :src="`${trinket}6fd6aa9b5a`" width="100%" height="356" />
     </div>
 
     <QuadSpace />

@@ -95,11 +95,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe
-          src="https://www.jdoodle.com/embed/v0/3YLX"
-          width="100%"
-          height="300px"
-        />
+        <iframe :src="`${jdoodle}3YLX`" width="100%" height="300px" />
       </div>
     </div>
 

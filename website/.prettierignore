@@ -1,2 +1,3 @@
 .nuxt
 *.md
+static/sw.js

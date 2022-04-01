@@ -17,13 +17,7 @@
           예를 들어 보겠습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/ba9dc3b4ac"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}ba9dc3b4ac`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -66,13 +60,7 @@
           있습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/534b32664d"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}534b32664d`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -88,18 +76,11 @@
           됩니다.<br /><br />
 
           keys()는
-          <NuxtLink aria-label="Go to Coding Insight Page" to="./for"
-            >for 반복문</NuxtLink
-          >에서 더 유용하게 사용할 수 있는 예시를 들겠습니다.
+          <NuxtLink :aria-label="allink" to="./for">for 반복문</NuxtLink>에서 더
+          유용하게 사용할 수 있는 예시를 들겠습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/1e671b6947"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}1e671b6947`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
@@ -114,13 +95,7 @@
           됩니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python3/05de91d4c2"
-        width="100%"
-        height="356"
-        loading="lazy"
-        class="ma-auto"
-      />
+      <iframe :src="`${trinket}05de91d4c2`" width="100%" height="356" />
     </div>
 
     <QuadSpace />
