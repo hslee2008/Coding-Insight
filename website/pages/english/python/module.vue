@@ -110,8 +110,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="etcfunction" aft="modulemaster" />
   </div>
 </template>

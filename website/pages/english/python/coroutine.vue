@@ -37,8 +37,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="atexit" aft="spam" />
   </div>
 </template>

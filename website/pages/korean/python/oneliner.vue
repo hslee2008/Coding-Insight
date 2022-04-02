@@ -51,8 +51,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="while" aft="etcfunction" />
   </div>
 </template>

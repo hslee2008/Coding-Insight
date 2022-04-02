@@ -68,8 +68,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="filewriting" aft="contextmanager" />
 
     <v-card>

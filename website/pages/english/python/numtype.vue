@@ -14,7 +14,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200918224427/Number-and-Its-Types.png"
           width="500px"
         />
@@ -77,8 +76,6 @@
         </p>
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="operator" aft="calc" />
   </div>

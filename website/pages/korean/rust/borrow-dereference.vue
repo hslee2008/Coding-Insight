@@ -145,8 +145,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="type-casting" aft="if" />
   </div>
 </template>

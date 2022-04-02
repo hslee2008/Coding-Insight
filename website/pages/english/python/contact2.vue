@@ -27,8 +27,6 @@
     <h2>Check Code</h2>
     <iframe :src="`${trinket}9e26723d8a`" width="100%" height="356" />
 
-    <QuadSpace />
-
     <Navigation bef="contextmanager" aft="datachange" />
   </div>
 </template>

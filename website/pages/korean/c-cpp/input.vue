@@ -12,7 +12,6 @@
     >
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbPlGs1KONj35lMRnJTnaPaZ-awICYbPhSw&usqp=CAU"
         />
       </div>
@@ -105,8 +104,6 @@
         <iframe :src="`${jdoodle}3VZj`" height="300" width="100%" />
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="variableadvance" aft="basicdatatype" />
   </div>

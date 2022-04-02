@@ -77,8 +77,6 @@
       <iframe :src="`${trinket}1e671b6947`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="contact" aft="dictionarymethod" />
 
     <v-card>

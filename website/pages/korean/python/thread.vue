@@ -99,8 +99,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="name" aft="complexthread" />
   </div>
 </template>

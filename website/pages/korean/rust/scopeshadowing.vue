@@ -61,8 +61,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="identifier" aft="datatypes" />
   </div>
 </template>

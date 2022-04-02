@@ -5,7 +5,6 @@
     <div>
       <div style="display: flex; justify-content: center">
         <GlobalImage
-          alt="python-factory-picture"
           class="img-fluid"
           max-width="400px"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU78Hj6DPZq_rVh1dyNTc4Lwt_Z05Vr-SRA&usqp=CAU"
@@ -111,8 +110,6 @@
       </div>
       <iframe :src="`${trinket}efb76f8dd2`" width="100%" height="200" />
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="pip" aft="array" />
   </div>

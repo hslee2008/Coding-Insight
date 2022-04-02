@@ -32,7 +32,6 @@
     </div>
 
     <GlobalImage
-      alt="python-factory-picture"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZigs1DHUC7hB3ugwHL9T-M6NyO54nZvMIiw&usqp=CAU"
       max-width="210.5px"
       class="ma-auto"
@@ -58,7 +57,6 @@
       </p>
     </div>
     <GlobalImage
-      alt="python-factory-picture"
       src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
       max-width="210.5px"
       class="ma-auto"
@@ -117,7 +115,6 @@
 
         <div class="ma-auto">
           <GlobalImage
-            alt="python-factory-picture"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDvusEfnc81WXy7PBDME8ZDa7miwprm8Z4Q&usqp=CAU"
             max-width="210.5px"
           />
@@ -154,8 +151,6 @@
         style="border-radius: 10px"
       />
     </div>
-
-    <QuadSpace />
 
     <Navigation aft="install" :single="true" />
   </div>

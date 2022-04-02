@@ -15,8 +15,8 @@
           link: 'https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search',
         },
         {
-          icon: 'microsoft-teams',
-          link: 'https://coding-insight.com/about',
+          icon: 'video',
+          link: 'https://www.youtube.com/watch?v=ya7Ud1tTpag',
         },
       ]"
       :key="i"
@@ -29,6 +29,6 @@
 
     <v-spacer />
 
-    &copy; {{ new Date().getFullYear() }}
+    &copy; 2021-{{ new Date().getFullYear() }}
   </v-footer>
 </template>

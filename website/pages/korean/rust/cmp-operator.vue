@@ -50,8 +50,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="boolean" aft="boolean-operator" />
   </div>
 </template>

@@ -140,8 +140,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="zipping" aft="set" />
 
     <v-card>

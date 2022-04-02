@@ -124,8 +124,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="cpp" aft="string-cpp" />
   </div>
 </template>

@@ -50,8 +50,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="mutable" aft="scopeshadowing" />
   </div>
 </template>

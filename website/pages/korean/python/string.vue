@@ -163,8 +163,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="comment" aft="stringmethod1" />
 
     <v-card>

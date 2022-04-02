@@ -30,8 +30,6 @@
       <iframe :src="`${jdoodle}4mRR`" width="100%" height="300" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="namespace" aft="class" />
   </div>
 </template>

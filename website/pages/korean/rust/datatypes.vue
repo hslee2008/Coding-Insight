@@ -76,8 +76,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="scopeshadowing" aft="numeric-int" />
   </div>
 </template>

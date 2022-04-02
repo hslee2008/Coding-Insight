@@ -48,8 +48,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="error" aft="random" />
   </div>
 </template>

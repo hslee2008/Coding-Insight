@@ -64,8 +64,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="print" aft="comment" />
   </div>
 </template>

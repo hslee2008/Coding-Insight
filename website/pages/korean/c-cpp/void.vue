@@ -49,8 +49,6 @@
       </code>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="union" aft="include" />
   </div>
 </template>

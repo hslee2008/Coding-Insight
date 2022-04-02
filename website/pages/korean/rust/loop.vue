@@ -107,8 +107,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="if" aft="while" />
   </div>
 </template>

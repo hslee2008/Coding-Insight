@@ -108,8 +108,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="additionaldundermethod" aft="atexit" />
   </div>
 </template>

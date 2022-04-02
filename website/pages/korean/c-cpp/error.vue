@@ -15,8 +15,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="otherif" aft="arrow" />
   </div>
 </template>

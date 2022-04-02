@@ -137,8 +137,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="stack" aft="errorhandling" />
   </div>
 </template>

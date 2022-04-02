@@ -86,8 +86,6 @@
       <iframe width="100%" height="350" :src="`${jdoodle}4n6m`" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="classmethod" aft="accessspecifier" />
   </div>
 </template>

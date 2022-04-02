@@ -30,7 +30,7 @@
         양수란 0보다 큰 수를 뜻합니다 (예: 1, 2, 3)<br /><br />
 
         <v-simple-table>
-          <template v-slot:default>
+          <template #default>
             <thead>
               <tr>
                 <th class="text-left">데이터 형태 이름</th>
@@ -63,7 +63,7 @@
         그래서 0을 포함해서 2<sup>8</sup> - 1(255)까지 저장할 수 있습니다.<br /><br />
 
         <v-simple-table>
-          <template v-slot:default>
+          <template #default>
             <thead>
               <tr>
                 <th class="text-left">데이터 형태 이름</th>
@@ -101,8 +101,6 @@
         />
       </v-card-text>
     </v-card>
-
-    <QuadSpace />
 
     <Navigation bef="datatypes" aft="numeric-float" />
   </div>

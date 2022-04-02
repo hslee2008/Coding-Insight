@@ -18,3 +18,6 @@
 
 - Update Extension Icon from PNG to SVG
 - Fix Bug in extension.ts (Command not found)
+
+[0.0.5]
+Change Extension Display Name

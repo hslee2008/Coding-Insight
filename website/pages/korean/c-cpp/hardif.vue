@@ -113,8 +113,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="if" aft="switch" />
   </div>
 </template>

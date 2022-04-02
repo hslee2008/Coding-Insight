@@ -88,8 +88,6 @@
       />
     </p>
 
-    <QuadSpace />
-
     <Navigation bef="input" aft="vec_method" />
   </div>
 </template>

@@ -126,8 +126,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="logging" aft="zlib" />
   </div>
 </template>

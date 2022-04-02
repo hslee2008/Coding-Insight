@@ -38,8 +38,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="loop" aft="for" />
   </div>
 </template>

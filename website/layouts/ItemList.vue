@@ -8,7 +8,7 @@
       <v-list-item
         v-for="(item, i) in links[json + isEnglish()]"
         :key="item.to + i.toString()"
-        :to="item.to"
+        :to="`/${item.type}/${item.to}`"
         dense
         exact
         :active-class="`activeList${$vuetify.theme.dark ? 'Dark' : 'Light'}`"

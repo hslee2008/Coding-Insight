@@ -56,7 +56,6 @@
             <v-stepper-content step="1">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/vscode.jpg"
                 >
@@ -85,7 +84,6 @@
             <v-stepper-content step="2">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/vscodesetup.jpg"
                 >
@@ -112,7 +110,6 @@
             <v-stepper-content step="3">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/agree.jpg"
                 >
@@ -136,7 +133,6 @@
             <v-stepper-content step="4">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/nextvscode.jpg"
                 >
@@ -158,7 +154,6 @@
             <v-stepper-content step="5">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/installvscode.jpg"
                 >
@@ -180,7 +175,6 @@
             <v-stepper-content step="6">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/vscodefinish.jpg"
                 >
@@ -242,7 +236,6 @@
             <v-stepper-content step="1">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/cube.jpg"
                 >
@@ -266,7 +259,6 @@
             <v-stepper-content step="2">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/input.jpg"
                 >
@@ -290,7 +282,6 @@
             <v-stepper-content step="3">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/extinstall.jpg"
                 >
@@ -354,7 +345,6 @@
             <v-stepper-content step="1">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/file.jpg"
                 >
@@ -378,7 +368,6 @@
             <v-stepper-content step="2">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/choose.jpg"
                 >
@@ -404,7 +393,6 @@
             <v-stepper-content step="3">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/background.jpg"
                 >
@@ -429,7 +417,6 @@
             <v-stepper-content step="5">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/filename.jpg"
                 >
@@ -456,7 +443,6 @@
             <v-stepper-content step="6">
               <v-card>
                 <v-img
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/rust-kr/img/tri.jpg"
                 >
@@ -537,7 +523,7 @@
 
     <h2>폴더 형식</h2>
     <v-treeview hoverable :items="items">
-      <template v-slot:prepend="{ item, open }">
+      <template #prepend="{ item, open }">
         <v-icon v-if="!item.file">
           {{ open ? 'mdi-folder-open' : 'mdi-folder' }}
         </v-icon>
@@ -546,8 +532,6 @@
         </v-icon>
       </template>
     </v-treeview>
-
-    <QuadSpace />
 
     <Navigation bef="install" aft="print" />
   </div>

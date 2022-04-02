@@ -25,8 +25,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="password-safe" aft="function" />
   </div>
 </template>

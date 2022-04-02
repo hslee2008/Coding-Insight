@@ -28,7 +28,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://quizagogo.com/wp-content/uploads/2021/05/True-or-false-1-940x470.jpg"
           max-width="300px"
         />
@@ -114,8 +113,6 @@
         height="356"
       />
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="ascii" aft="number" />
 

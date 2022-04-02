@@ -96,8 +96,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="stringmethod1" aft="password" />
 
     <v-card>

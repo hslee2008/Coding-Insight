@@ -120,8 +120,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="typedef" aft="pointer" />
   </div>
 </template>

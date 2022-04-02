@@ -36,8 +36,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="array_method" aft="borrow-dereference" />
   </div>
 </template>

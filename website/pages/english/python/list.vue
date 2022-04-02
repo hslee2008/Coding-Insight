@@ -72,8 +72,6 @@
       times pattern are added.
     </p>
 
-    <QuadSpace />
-
     <Navigation bef="nummethod" aft="listmethod1" />
   </div>
 </template>

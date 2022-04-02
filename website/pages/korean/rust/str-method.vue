@@ -78,8 +78,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="string" aft="str-method-specific" />
   </div>
 </template>

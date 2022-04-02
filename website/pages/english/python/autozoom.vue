@@ -52,8 +52,6 @@
       keyboard.press_and_release("enter")
     </code>
 
-    <QuadSpace />
-
     <Navigation bef="spam" aft="keyboard" />
   </div>
 </template>

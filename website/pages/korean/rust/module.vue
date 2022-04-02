@@ -41,8 +41,6 @@
       pub를 사용해서 이 에러를 피할 수 있는 방법을 알아보겠습니다.
     </p>
 
-    <QuadSpace />
-
     <Navigation bef="closure" aft="pub" />
   </div>
 </template>

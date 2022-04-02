@@ -20,7 +20,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbvHLIkf7p2IzoQ91r5W7ki5KJoiD4t0oIQQ&usqp=CAU"
         />
       </div>
@@ -100,8 +99,6 @@
         입력하세요.<br /><br />
       </p>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="matplotlib" aft="turtle" />
   </div>

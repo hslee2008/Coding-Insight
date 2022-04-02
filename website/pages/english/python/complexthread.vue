@@ -89,8 +89,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="thread" aft="threadmethod" />
   </div>
 </template>

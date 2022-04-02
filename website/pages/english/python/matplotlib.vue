@@ -274,8 +274,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="keyboard" aft="mouse" />
   </div>
 </template>

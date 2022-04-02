@@ -77,8 +77,6 @@
       <iframe :src="`${trinket}7fdd2b43c1`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="list" aft="listmethod2" />
   </div>
 </template>

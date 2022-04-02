@@ -81,8 +81,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="regex" aft="classmethod" />
   </div>
 </template>

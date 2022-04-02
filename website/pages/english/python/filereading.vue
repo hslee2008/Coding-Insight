@@ -19,7 +19,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
           width="300px"
         />
@@ -115,8 +114,6 @@
       loading="lazy"
       class="ma-auto"
     />
-
-    <QuadSpace />
 
     <Navigation bef="file" aft="filewriting" />
   </div>

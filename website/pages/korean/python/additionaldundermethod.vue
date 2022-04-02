@@ -75,8 +75,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="dundermethod" aft="etcdundermethod" />
   </div>
 </template>

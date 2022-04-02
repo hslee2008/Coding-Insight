@@ -113,8 +113,6 @@
       class="elevation-1"
     />
 
-    <QuadSpace />
-
     <Navigation bef="contact2" aft="stringascode" />
   </div>
 </template>

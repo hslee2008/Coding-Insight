@@ -5,7 +5,6 @@
     <div>
       <div style="display: flex; justify-content: center">
         <GlobalImage
-          alt="python-factory-picture"
           max-width="300px"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"
         />
@@ -50,7 +49,6 @@
       </div>
       <div class="text-center mx-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg"
           max-width="300px"
         />
@@ -99,8 +97,6 @@
         will change the world, what would you have named it?
       </p>
     </div>
-
-    <QuadSpace />
 
     <Navigation aft="install" :single="true" />
   </div>

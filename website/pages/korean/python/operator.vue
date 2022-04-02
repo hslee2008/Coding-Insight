@@ -86,8 +86,6 @@
       <iframe :src="`${trinket}39a09b977e`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="number" aft="numtype" />
   </div>
 </template>

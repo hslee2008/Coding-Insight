@@ -57,7 +57,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/vscode.jpg"
                 >
@@ -87,7 +86,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/vscodesetup.jpg"
                 >
@@ -115,7 +113,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/agree.jpg"
                 >
@@ -140,7 +137,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/nextvscode.jpg"
                 >
@@ -163,7 +159,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/installvscode.jpg"
                 >
@@ -188,7 +183,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/vscodefinish.jpg"
                 >
@@ -251,7 +245,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/cube.jpg"
                 >
@@ -274,7 +267,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/input.jpg"
                 >
@@ -301,7 +293,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/extinstall.jpg"
                 >
@@ -324,7 +315,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/coderunner.jpg"
                 >
@@ -391,7 +381,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/file.jpg"
                 >
@@ -416,7 +405,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/choose.jpg"
                 >
@@ -443,7 +431,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/background.jpg"
                 >
@@ -469,7 +456,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/newfile.jpg"
                 >
@@ -494,7 +480,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/filename.jpg"
                 >
@@ -522,7 +507,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/tri.jpg"
                 >
@@ -550,7 +534,6 @@
               <v-card>
                 <v-img
                   lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                  alt="python-factory-picture"
                   class="white--text align-end"
                   src="https://image-loader-coding-insight.web.app/py-kr/img/helloworld.jpg"
                 >
@@ -592,8 +575,6 @@
         알려줍니다.
       </p>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="install" aft="io" />
   </div>

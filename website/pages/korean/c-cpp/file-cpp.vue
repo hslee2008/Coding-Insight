@@ -88,8 +88,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="inheritance" aft="finished" />
   </div>
 </template>

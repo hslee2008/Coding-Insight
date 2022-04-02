@@ -62,8 +62,6 @@
       <iframe :src="`${trinket}2f04cf1944`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="escapechar" aft="boolean" />
 
     <v-card>

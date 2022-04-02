@@ -65,8 +65,6 @@
       <iframe :src="`${trinket}adcdf0d2c3`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="contact2" aft="datachange" />
   </div>
 </template>

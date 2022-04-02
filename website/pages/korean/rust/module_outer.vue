@@ -16,7 +16,7 @@
       <code class="ic">파일이름::함수()</code>를 실행합니다.
     </p>
 
-    <span style="color: grey">main.rs 파일</span>
+    <span class="grey--text">main.rs 파일</span>
     <code>
       mod my_mod;<br /><br />
 
@@ -28,7 +28,7 @@
       }
     </code>
 
-    <span style="color: grey">my_mod.rs 파일</span>
+    <span class="grey--text">my_mod.rs 파일</span>
     <code>
       pub fn print_this() {<br />
       &nbsp;&nbsp;println!("my_mod.rs 파일 안에서!");<br />
@@ -44,8 +44,6 @@
       참고로 mod file은 file.rs라는 파일이 없으면 file이라는 폴더 안의 mod.rs
       파일이 있는지 확인하고 있다면 가지고 옵니다.
     </p>
-
-    <QuadSpace />
 
     <Navigation bef="pub" aft="use" />
   </div>

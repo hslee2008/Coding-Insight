@@ -13,7 +13,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://pbs.twimg.com/profile_images/502406972453289985/AKdzcXPi.png"
           width="300px"
         />
@@ -112,8 +111,6 @@
       loading="lazy"
       class="ma-auto"
     />
-
-    <QuadSpace />
 
     <Navigation bef="class" aft="math" />
   </div>

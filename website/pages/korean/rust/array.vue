@@ -163,8 +163,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="str-method-specific" aft="array_method" />
   </div>
 </template>

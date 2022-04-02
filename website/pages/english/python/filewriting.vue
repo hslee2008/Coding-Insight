@@ -62,8 +62,6 @@
       <iframe :src="`${trinket}2fdad67c09`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="filereading" aft="etcfile" />
 
     <v-card>

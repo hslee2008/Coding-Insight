@@ -106,8 +106,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="multiprocessing" aft="request" />
   </div>
 </template>

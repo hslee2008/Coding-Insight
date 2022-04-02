@@ -109,8 +109,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="counter" aft="requestmethod" />
   </div>
 </template>

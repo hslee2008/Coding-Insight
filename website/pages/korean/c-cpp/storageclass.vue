@@ -117,8 +117,6 @@
       <iframe :src="`${jdoodle}44ll`" width="600" height="500" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="mainfunction" aft="typedef" />
   </div>
 </template>

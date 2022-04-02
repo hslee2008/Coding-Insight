@@ -58,8 +58,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="type" aft="for" />
   </div>
 </template>

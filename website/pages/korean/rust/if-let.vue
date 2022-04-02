@@ -53,8 +53,6 @@
       예시: <code class="ic">while let Some(i) = value { }</code>
     </v-alert>
 
-    <QuadSpace />
-
     <Navigation bef="match" aft="function" />
   </div>
 </template>

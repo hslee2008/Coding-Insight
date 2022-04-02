@@ -35,7 +35,6 @@
       <GlobalImage
         src="https://image-loader-coding-insight.web.app/rust-kr/img/code_variable.png"
         max-width="450"
-        :noMargin="true"
       />
     </div>
 
@@ -78,8 +77,6 @@
         height="400"
       />
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="comment" aft="mutable" />
   </div>

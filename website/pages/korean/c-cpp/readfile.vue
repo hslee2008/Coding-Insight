@@ -53,8 +53,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="file" aft="writefile" />
   </div>
 </template>

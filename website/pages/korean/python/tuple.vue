@@ -90,8 +90,6 @@
       <iframe :src="`${trinket}1af130ab47`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="zipping" aft="set" />
 
     <QuadSpace />

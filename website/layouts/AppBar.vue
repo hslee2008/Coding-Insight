@@ -17,12 +17,13 @@
       class="elevation-0"
       to="/"
       text
+      small
     >
       <v-img
         :src="
           require(`assets/svg/${$vuetify.theme.dark ? 'dark' : 'light'}.svg`)
         "
-        alt="SVG Logo"
+        alt="SVG"
       />
     </v-btn>
 
@@ -31,6 +32,7 @@
     <v-btn
       :aria-label="albutt"
       icon
+      small
       @click="$vuetify.theme.dark = !$vuetify.theme.dark"
     >
       <v-icon>
@@ -40,50 +42,7 @@
       </v-icon>
     </v-btn>
 
-    <v-menu>
-      <template #activator="{ on, attrs }">
-        <v-btn
-          :aria-label="albutt"
-          :disabled="
-            $nuxt.$route.path.includes('rust') ||
-            $nuxt.$route.path.includes('c-cpp')
-          "
-          icon
-          v-bind="attrs"
-          v-on="on"
-        >
-          <v-icon>
-            mdi-translate{{
-              $nuxt.$route.path.includes('rust') ||
-              $nuxt.$route.path.includes('c-cpp')
-                ? '-off'
-                : ''
-            }}
-          </v-icon>
-        </v-btn>
-      </template>
-
-      <v-list>
-        <v-list-item
-          v-if="!$nuxt.$route.path.includes('korean')"
-          @click="toKorean"
-        >
-          <v-list-item-title>
-            <v-icon left>mdi-ideogram-cjk-variant</v-icon>
-            한국어
-          </v-list-item-title>
-        </v-list-item>
-
-        <v-list-item
-          v-if="!$nuxt.$route.path.includes('english')"
-          @click="toEnglish"
-        >
-          <v-list-item-title>
-            <v-icon left>mdi-alpha-a</v-icon> English
-          </v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-menu>
+    <Translate />
   </v-app-bar>
 </template>
 

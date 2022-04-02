@@ -18,7 +18,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://www.tutorialspoint.com/cprogramming/images/cpp_do_while_loop.jpg"
           max-width="300px"
         />
@@ -66,8 +65,6 @@
         <p>while 조건 다음에 꼭 ;를 붙이세요!</p>
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="doublefor" aft="inffor" />
   </div>

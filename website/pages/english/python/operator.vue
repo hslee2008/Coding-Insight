@@ -17,7 +17,6 @@
       </div>
       <div style="display: flex; justify-content: center">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAEJ9fzr3QpW7a9Ase_cE279O1pTyY4GZ2T4cXc7rXrugIqPf_586nsM-Ajo_Q0Qxuyxk&usqp=CAU"
           max-width="300px"
         />
@@ -94,8 +93,6 @@
       </div>
       <iframe :src="`${trinket}39a09b977e`" width="100%" height="356" />
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="number" aft="numtype" />
   </div>

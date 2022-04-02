@@ -34,8 +34,6 @@
       </code>
     </p>
 
-    <QuadSpace />
-
     <Navigation bef="toml" aft="input" />
   </div>
 </template>

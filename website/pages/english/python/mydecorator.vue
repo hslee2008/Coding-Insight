@@ -18,8 +18,6 @@
       loading="lazy"
     />
 
-    <QuadSpace />
-
     <Navigation bef="decorator" aft="pythondecorator" />
   </div>
 </template>

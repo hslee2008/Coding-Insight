@@ -98,8 +98,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="vectorbasic" aft="stack" />
   </div>
 </template>

@@ -33,8 +33,6 @@
       <iframe :src="`${trinket}db269c0e84`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="calc" aft="list" />
 
     <v-card>

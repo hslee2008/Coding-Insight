@@ -43,8 +43,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="complexthread" aft="multiprocessing" />
   </div>
 </template>

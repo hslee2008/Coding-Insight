@@ -17,7 +17,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://media.istockphoto.com/vectors/magic-wand-line-icon-vector-id1164851035?k=6&m=1164851035&s=612x612&w=0&h=ihapeRsHBDDFTTa7CxId_I5ExnbGrJug8aQEVOOviW4="
           width="300px"
         />
@@ -123,8 +122,6 @@
       loading="lazy"
       class="ma-auto"
     />
-
-    <QuadSpace />
 
     <Navigation bef="requestmethod" aft="additionaldundermethod" />
   </div>

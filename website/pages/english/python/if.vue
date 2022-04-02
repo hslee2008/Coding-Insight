@@ -121,8 +121,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="setmethod" aft="ifmaster" />
   </div>
 </template>

@@ -15,7 +15,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXZGVvGnbtF2jLOKPqulX9hEzoHF7BAq69A&usqp=CAU"
           max-width="400px"
         />
@@ -118,8 +117,6 @@
         loading="lazy"
       />
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="date" aft="dice" />
   </div>

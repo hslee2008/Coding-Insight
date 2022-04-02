@@ -76,8 +76,6 @@
       0이 곱해졌기 때문입니다.
     </p>
 
-    <QuadSpace />
-
     <Navigation bef="nummethod" aft="listmethod1" />
   </div>
 </template>

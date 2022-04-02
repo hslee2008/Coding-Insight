@@ -15,7 +15,6 @@
       </div>
       <div style="display: flex; justify-content: center">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://ih1.redbubble.net/image.455632594.5388/flat,550x550,075,f.u2.jpg"
           width="300px"
         />
@@ -91,8 +90,6 @@
       loading="lazy"
       class="ma-auto"
     />
-
-    <QuadSpace />
 
     <Navigation bef="classmethod" aft="file" />
   </div>

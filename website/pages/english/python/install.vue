@@ -5,7 +5,6 @@
     <div>
       <div style="display: flex; justify-content: center">
         <GlobalImage
-          alt="python-factory-picture"
           max-width="300px"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hQGGTvkDEUH9Bgtv9YRcwhjO8mwFpd5tQA&usqp=CAU"
         />
@@ -77,7 +76,6 @@
                 <v-card>
                   <v-img
                     lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                    alt="python-factory-picture"
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-en/img/python.jpg"
                   >
@@ -104,7 +102,6 @@
                 <v-card>
                   <v-img
                     lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                    alt="python-factory-picture"
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-en/img/button.jpg"
                   >
@@ -125,7 +122,6 @@
                 <v-card>
                   <v-img
                     lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                    alt="python-factory-picture"
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-en/img/다운로드.jpg"
                   >
@@ -148,7 +144,6 @@
                 <v-card>
                   <v-img
                     lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                    alt="python-factory-picture"
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-en/img/installnow.jpg"
                   >
@@ -177,7 +172,6 @@
                 <v-card>
                   <v-img
                     lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                    alt="python-factory-picture"
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-en/img/설치2.jpg"
                   >
@@ -204,7 +198,6 @@
                 <v-card>
                   <v-img
                     lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                    alt="python-factory-picture"
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-en/img/adopt.jpg"
                   >
@@ -283,7 +276,6 @@
                 <v-card>
                   <v-img
                     lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                    alt="python-factory-picture"
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-en/img/idle.jpg"
                   >
@@ -310,7 +302,6 @@
                 <v-card>
                   <v-img
                     lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                    alt="python-factory-picture"
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-en/img/idle2.jpg"
                   >
@@ -336,7 +327,6 @@
                 <v-card>
                   <v-img
                     lazy-src="https://cdn.dribbble.com/users/1390/screenshots/2112301/yota_icons.gif"
-                    alt="python-factory-picture"
                     class="white--text align-end"
                     src="https://image-loader-coding-insight.web.app/py-en/img/idle3.jpg"
                   >
@@ -381,8 +371,6 @@
         </p>
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="/english/python/" aft="vscode" />
   </div>

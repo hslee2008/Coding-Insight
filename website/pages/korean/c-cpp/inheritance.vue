@@ -86,8 +86,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="accessspecifier" aft="file-cpp" />
   </div>
 </template>

@@ -39,8 +39,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="modulemaster" aft="hacking" />
   </div>
 </template>

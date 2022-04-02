@@ -61,8 +61,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="listmethod2" aft="dictionary" />
   </div>
 </template>

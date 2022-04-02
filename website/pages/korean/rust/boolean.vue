@@ -80,8 +80,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="math" aft="cmp-operator" />
   </div>
 </template>

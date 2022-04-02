@@ -44,7 +44,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/vectorcode.png"
           max-width="300"
         />
@@ -154,8 +153,6 @@
         <iframe :src="`${jdoodle}4apA`" width="100%" height="300" />
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="string-cpp" aft="vectormethod" />
   </div>

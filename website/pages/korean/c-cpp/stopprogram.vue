@@ -72,8 +72,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="ctype" aft="math" />
   </div>
 </template>

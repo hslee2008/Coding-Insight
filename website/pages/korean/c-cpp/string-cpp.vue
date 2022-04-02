@@ -140,8 +140,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="io-cpp" aft="vectorbasic" />
   </div>
 </template>

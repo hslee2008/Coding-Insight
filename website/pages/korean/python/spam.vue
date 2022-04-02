@@ -12,7 +12,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://www.incimages.com/uploaded_files/image/empty-email_463770.gif"
           max-width="300px"
         />
@@ -55,8 +54,6 @@
       loading="lazy"
       class="ma-auto"
     />
-
-    <QuadSpace />
 
     <Navigation bef="coroutine" aft="autozoom" />
   </div>

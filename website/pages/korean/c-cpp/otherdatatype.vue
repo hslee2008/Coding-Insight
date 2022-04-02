@@ -70,8 +70,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="basicdatatype" aft="typecasting" />
   </div>
 </template>

@@ -49,8 +49,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="functionhard" aft="type" />
   </div>
 </template>

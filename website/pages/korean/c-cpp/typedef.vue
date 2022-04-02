@@ -63,8 +63,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="storageclass" aft="struct" />
   </div>
 </template>

@@ -30,8 +30,6 @@
       </code>
     </p>
 
-    <QuadSpace />
-
     <Navigation bef="dep" aft="vec" />
   </div>
 </template>

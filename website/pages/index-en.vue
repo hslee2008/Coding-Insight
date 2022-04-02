@@ -8,14 +8,13 @@
           Welcome to<br />
           <span class="titleforcodinginsight">Coding-Insight</span>
         </h1>
-        <h2 style="color: grey">Learn, Practice, Build and Deploy</h2>
+        <h2 class="grey--text">Learn, Practice, Build and Deploy</h2>
+
         <br />
-        <v-btn :aria-label="albutt" to="/courses" color="primary"
-          >Learn Now <v-icon right>mdi-arrow-right-thin</v-icon></v-btn
-        >
-        <v-btn :aria-label="albutt" to="/"
-          >한국어로 <v-icon right>mdi-book-alphabet</v-icon></v-btn
-        >
+
+        <v-btn :aria-label="albutt" block to="/courses" color="primary">
+          Learn Now <v-icon right>mdi-arrow-right-thin</v-icon>
+        </v-btn>
       </div>
     </v-row>
 

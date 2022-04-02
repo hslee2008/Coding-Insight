@@ -32,8 +32,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="function" aft="module" />
   </div>
 </template>

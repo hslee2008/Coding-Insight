@@ -94,8 +94,6 @@
       <iframe width="100%" height="400" :src="`${jdoodle}4n6o`" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="constructor" aft="inheritance" />
   </div>
 </template>

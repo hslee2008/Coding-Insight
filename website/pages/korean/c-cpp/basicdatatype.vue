@@ -158,8 +158,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="input" aft="otherdatatype" />
   </div>
 </template>

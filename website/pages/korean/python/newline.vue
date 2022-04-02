@@ -36,8 +36,6 @@
       loading="lazy"
       class="ma-auto"
     />
-    <QuadSpace />
-
     <Navigation bef="pythondecorator" aft="asynchronous" />
   </div>
 </template>

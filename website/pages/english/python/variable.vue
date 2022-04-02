@@ -89,7 +89,6 @@
     <div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://wallpaperaccess.com/full/3279871.jpg"
           max-width="300px"
         />
@@ -141,8 +140,6 @@
         </p>
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="io" aft="madlib" />
 

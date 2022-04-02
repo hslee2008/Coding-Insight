@@ -85,8 +85,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="error" aft="logging" />
   </div>
 </template>

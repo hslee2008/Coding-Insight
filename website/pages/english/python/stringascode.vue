@@ -84,8 +84,6 @@
       <iframe :src="`${trinket}fa7de26cef`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="datachange" aft="pip" />
   </div>
 </template>

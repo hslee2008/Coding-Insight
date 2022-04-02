@@ -92,8 +92,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="for" aft="forfunction" />
   </div>
 </template>

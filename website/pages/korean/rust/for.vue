@@ -54,8 +54,6 @@
       확인하세요.
     </v-alert>
 
-    <QuadSpace />
-
     <Navigation bef="while" aft="function" />
   </div>
 </template>

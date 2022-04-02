@@ -22,8 +22,6 @@
 
     <iframe :src="`${jdoodle}47Bz`" width="100%" height="400" />
 
-    <QuadSpace />
-
     <Navigation bef="include" aft="macro" />
   </div>
 </template>

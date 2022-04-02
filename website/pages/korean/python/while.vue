@@ -107,8 +107,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="forfunction" aft="oneliner" />
   </div>
 </template>

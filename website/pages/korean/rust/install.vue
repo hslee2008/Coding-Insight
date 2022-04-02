@@ -53,8 +53,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="/korean/rust/" aft="print" />
   </div>
 </template>

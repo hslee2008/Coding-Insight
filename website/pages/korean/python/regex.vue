@@ -17,7 +17,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://cmgcode.com/images/portfolio/regexoff-icon.png"
           width="300px"
         />
@@ -76,8 +75,6 @@
         </p>
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="dice" aft="class" />
   </div>

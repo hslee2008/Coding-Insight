@@ -37,7 +37,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://img.icons8.com/ios/452/c-plus-plus-logo.png"
           max-width="250px"
         />

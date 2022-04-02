@@ -57,8 +57,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="macro" aft="error" />
   </div>
 </template>

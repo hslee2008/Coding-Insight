@@ -37,7 +37,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://www.javascripttutorial.net/wp-content/uploads/2020/01/JavaScript-for-Loop.png"
           max-width="400px"
           style="border-radius: 5px"
@@ -124,8 +123,6 @@
         <iframe :src="`${jdoodle}3YLS`" width="100%" height="300px" />
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="switch" aft="while" />
   </div>

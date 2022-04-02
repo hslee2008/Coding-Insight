@@ -75,8 +75,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="datatype" aft="string" />
 
     <v-card>

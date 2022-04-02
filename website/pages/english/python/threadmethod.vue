@@ -43,8 +43,6 @@
       loading="lazy"
     />
 
-    <QuadSpace />
-
     <Navigation bef="complexthread" aft="multiprocessing" />
   </div>
 </template>

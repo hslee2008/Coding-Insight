@@ -68,8 +68,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="fortype" aft="while" />
   </div>
 </template>

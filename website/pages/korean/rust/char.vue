@@ -82,8 +82,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="boolean-operator" aft="string" />
   </div>
 </template>

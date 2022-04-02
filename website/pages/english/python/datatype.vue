@@ -70,8 +70,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="madlib" aft="comment" />
 
     <v-card>

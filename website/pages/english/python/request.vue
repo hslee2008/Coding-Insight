@@ -16,7 +16,6 @@
       </div>
       <div style="display: flex; justify-content: center">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxLF2l2sITXnde-o9OyhTjoPeWHCWLrC2Ry2-FlQVH-aDSQPE1kh02OMA1yT_Yeui3LM&usqp=CAU"
         />
       </div>
@@ -89,8 +88,6 @@
       </div>
       <iframe :src="`${trinket}4751110c8f`" width="100%" height="356" />
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="counter" aft="requestmethod" />
   </div>

@@ -147,8 +147,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="stopprogram" aft="file" />
   </div>
 </template>

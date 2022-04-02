@@ -111,8 +111,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="module" aft="pythonmodule" />
   </div>
 </template>

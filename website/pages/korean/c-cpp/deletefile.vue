@@ -76,8 +76,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="writefile" aft="cpp" />
   </div>
 </template>

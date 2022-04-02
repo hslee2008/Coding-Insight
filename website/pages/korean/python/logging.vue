@@ -76,8 +76,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="error2" aft="mapandreduceandfilter" />
   </div>
 </template>

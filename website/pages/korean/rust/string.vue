@@ -184,8 +184,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="char" aft="str-method" />
   </div>
 </template>

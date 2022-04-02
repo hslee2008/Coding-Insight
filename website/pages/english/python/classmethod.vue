@@ -97,8 +97,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="class" aft="math" />
   </div>
 </template>

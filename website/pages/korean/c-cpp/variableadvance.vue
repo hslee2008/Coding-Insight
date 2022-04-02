@@ -19,7 +19,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUanGdzUImXThB9bVOyNzTTtTKrN_6zaP1Rw&usqp=CAU"
         />
       </div>
@@ -82,8 +81,6 @@
         <iframe :src="`${jdoodle}3VTI`" width="100%" height="300" />
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="variable" aft="input" />
   </div>

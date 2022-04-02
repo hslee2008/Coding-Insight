@@ -66,8 +66,6 @@
       />
     </p>
 
-    <QuadSpace />
-
     <Navigation bef="vec_method" next="enum" />
   </div>
 </template>

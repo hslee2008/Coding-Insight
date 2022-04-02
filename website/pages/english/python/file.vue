@@ -17,7 +17,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://thumbs.dreamstime.com/b/file-icon-folder-dark-background-simple-vector-117046649.jpg"
           width="300px"
         />
@@ -37,7 +36,6 @@
         </p>
       </div>
       <GlobalImage
-        alt="python-factory-picture"
         class="img-fluid"
         src="https://image-loader-coding-insight.web.app/py-en/img/filepath.jpg"
         max-width="400px"
@@ -64,8 +62,6 @@
       </div>
       <iframe :src="`${trinket}5755f85207`" width="100%" height="356" />
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="math" aft="filereading" />
   </div>

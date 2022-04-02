@@ -146,8 +146,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="password" aft="ascii" />
 
     <v-card>

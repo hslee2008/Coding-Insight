@@ -49,8 +49,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="comment" aft="escapecharacter" />
   </div>
 </template>

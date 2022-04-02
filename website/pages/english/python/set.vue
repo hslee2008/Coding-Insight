@@ -115,8 +115,6 @@
       <iframe :src="`${trinket}62528e1b44`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="tuple" aft="setmethod" />
 
     <v-card>

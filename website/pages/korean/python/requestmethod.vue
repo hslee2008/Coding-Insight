@@ -48,8 +48,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="request" aft="dundermethod" />
   </div>
 </template>

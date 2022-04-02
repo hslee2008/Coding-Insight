@@ -50,8 +50,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="arrow" aft="ctype" />
   </div>
 </template>

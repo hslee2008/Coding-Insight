@@ -54,8 +54,6 @@
       <iframe :src="`${jdoodle}3YMe`" width="100%" height="400px" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="inffor" aft="array" />
   </div>
 </template>

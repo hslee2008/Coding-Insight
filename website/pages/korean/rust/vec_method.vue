@@ -16,8 +16,6 @@
       />
     </p>
 
-    <QuadSpace />
-
     <Navigation bef="vec" aft="struct" />
   </div>
 </template>

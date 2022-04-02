@@ -70,8 +70,6 @@
       그 전에 사용하면 에러가 생깁니다.
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="module_outer" aft="toml" />
   </div>
 </template>

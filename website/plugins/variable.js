@@ -14,28 +14,4 @@ Vue.mixin({
       'https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=',
     jdoodle: 'https://www.jdoodle.com/embed/v0/',
   }),
-  methods: {
-    toEnglish() {
-      const route = $nuxt.$route.path;
-
-      this.$router.push(
-        route == '/index-en'
-          ? '/index-en'
-          : route == '/'
-          ? '/index-en'
-          : route.replace('korean', 'english'),
-      );
-    },
-    toKorean() {
-      const route = $nuxt.$route.path;
-
-      this.$router.push(
-        route == '/'
-          ? '/'
-          : route == '/index-en'
-          ? '/'
-          : route.replace('english', 'korean'),
-      );
-    },
-  },
 });

@@ -76,8 +76,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="etcdundermethod" aft="coroutine" />
   </div>
 </template>

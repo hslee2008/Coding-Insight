@@ -29,8 +29,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="calc" aft="list" />
 
     <v-card>

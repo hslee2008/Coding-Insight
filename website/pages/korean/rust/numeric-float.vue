@@ -57,8 +57,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="numeric-int" aft="math" />
   </div>
 </template>

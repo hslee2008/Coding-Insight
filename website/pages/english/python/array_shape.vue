@@ -56,8 +56,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="array_type" aft="error" />
   </div>
 </template>

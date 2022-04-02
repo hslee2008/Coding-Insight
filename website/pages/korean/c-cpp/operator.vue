@@ -102,8 +102,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="typecasting" aft="comment" />
   </div>
 </template>

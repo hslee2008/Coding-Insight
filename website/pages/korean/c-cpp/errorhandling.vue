@@ -100,8 +100,6 @@
       <iframe :src="`${jdoodle}4iPQ`" width="100%" height="400" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="allheader" aft="namespace" />
   </div>
 </template>

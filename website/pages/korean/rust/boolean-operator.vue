@@ -50,8 +50,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="cmp-operator" aft="char" />
   </div>
 </template>

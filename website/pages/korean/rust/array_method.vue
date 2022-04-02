@@ -77,8 +77,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="array" aft="type-casting" />
   </div>
 </template>

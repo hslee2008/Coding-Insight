@@ -51,8 +51,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="usingpointer" aft="void" />
   </div>
 </template>

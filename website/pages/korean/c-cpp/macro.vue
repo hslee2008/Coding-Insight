@@ -114,8 +114,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="assert" aft="otherif" />
   </div>
 </template>

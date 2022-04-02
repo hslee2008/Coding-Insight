@@ -61,8 +61,6 @@
       >을 참고하세요.
     </v-alert>
 
-    <QuadSpace />
-
     <Navigation bef="use" aft="dep" />
   </div>
 </template>

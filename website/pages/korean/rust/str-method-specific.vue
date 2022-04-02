@@ -90,8 +90,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="str-method" aft="array" />
   </div>
 </template>

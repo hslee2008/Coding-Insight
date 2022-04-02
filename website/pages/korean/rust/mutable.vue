@@ -44,8 +44,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="variable" aft="identifier" />
   </div>
 </template>

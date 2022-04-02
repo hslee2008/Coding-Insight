@@ -135,8 +135,6 @@
       <iframe :src="`${trinket}c250d6c262`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="dictionary" aft="zipping" />
   </div>
 </template>

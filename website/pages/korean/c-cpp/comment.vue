@@ -76,8 +76,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="operator" aft="grammar" />
   </div>
 </template>

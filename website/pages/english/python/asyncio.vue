@@ -128,8 +128,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="asynchronous" aft="name" />
   </div>
 </template>

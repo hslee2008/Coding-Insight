@@ -81,8 +81,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="errorhandling" aft="endl" />
   </div>
 </template>

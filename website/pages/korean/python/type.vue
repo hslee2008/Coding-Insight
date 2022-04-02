@@ -59,8 +59,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="specialvariable" aft="lambda" />
   </div>
 </template>

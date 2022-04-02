@@ -105,8 +105,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="hardif" aft="for" />
   </div>
 </template>

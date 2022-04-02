@@ -132,8 +132,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="vscode" aft="variable" />
 
     <QuadSpace />

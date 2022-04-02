@@ -1,6 +1,6 @@
 {
-  "name": "python-factory-default",
-  "version": "22.3",
+  "name": "coding-insight-website",
+  "version": "22.4",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

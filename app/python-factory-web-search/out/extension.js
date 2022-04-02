@@ -939,12 +939,12 @@ const layout = {
     ],
 };
 async function activate(context) {
-    let searchCodingInsight = vscode.commands.registerCommand('python-factory-web-search.searchCodingInsight', async () => {
+    let searchCodingInsight = vscode.commands.registerCommand( 'python-factory-web-search.searchCodingInsight', async () => {
         const val = (await vscode.window.showQuickPick(layout.pythonkr)) ?? {
             to: 'not defined by user',
         };
         vscode.env.openExternal(vscode.Uri.parse(val.to));
-    }), searchCodingInsightEN = vscode.commands.registerCommand('python-factory-web-search.searchCodingInsightEN', async () => {
+    } ), searchCodingInsightEN = vscode.commands.registerCommand( 'python-factory-web-search.searchCodingInsightEN', async () => {
         const val = (await vscode.window.showQuickPick(layout.pythonkren)) ?? {
             to: 'not defined by user',
         };

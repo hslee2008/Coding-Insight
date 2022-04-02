@@ -7,7 +7,7 @@
       width="300"
       class="mx-2 my-5 rounded-lg transparent"
     >
-      <v-card-title>
+      <v-card-actions>
         <v-btn
           :aria-label="albutt"
           :color="$vuetify.theme.dark ? bgd : 'white'"
@@ -41,51 +41,8 @@
           </v-icon>
         </v-btn>
 
-        <v-menu open-on-hover close-on-click rounded>
-          <template #activator="{ on, attrs }">
-            <v-btn
-              :aria-label="albutt"
-              :disabled="
-                $nuxt.$route.path.includes('rust') ||
-                $nuxt.$route.path.includes('c-cpp')
-              "
-              icon
-              v-bind="attrs"
-              v-on="on"
-            >
-              <v-icon>
-                mdi-translate{{
-                  $nuxt.$route.path.includes('rust') ||
-                  $nuxt.$route.path.includes('c-cpp')
-                    ? '-off'
-                    : ''
-                }}
-              </v-icon>
-            </v-btn>
-          </template>
-
-          <v-list>
-            <v-list-item
-              v-if="!$nuxt.$route.path.includes('korean')"
-              @click.stop="toKorean"
-            >
-              <v-list-item-title>
-                <v-icon left>mdi-ideogram-cjk-variant</v-icon>
-                한국어
-              </v-list-item-title>
-            </v-list-item>
-
-            <v-list-item
-              v-if="!$nuxt.$route.path.includes('english')"
-              @click.stop="toEnglish"
-            >
-              <v-list-item-title>
-                <v-icon left>mdi-alpha-a</v-icon> English
-              </v-list-item-title>
-            </v-list-item>
-          </v-list>
-        </v-menu>
-      </v-card-title>
+        <Translate />
+      </v-card-actions>
 
       <Tab :close="closeDrawerMobile" />
     </v-navigation-drawer>
@@ -94,8 +51,7 @@
       v-if="$vuetify.breakpoint.mobile && !MobileDrawer"
       :changeDrawer="changeDrawer"
       :changeDrawerMobile="changeDrawerMobile"
-      :MobileDrawer="MobileDrawer"
-      :fixed="true"
+      fixed
     />
 
     <v-card v-if="MobileDrawer" :color="$vuetify.theme.dark ? bgd : 'white'">
@@ -104,29 +60,32 @@
         :changeDrawer="changeDrawer"
         :changeDrawerMobile="changeDrawerMobile"
         :MobileDrawer="MobileDrawer"
-        :fixed="false"
       />
 
       <Tab :close="closeDrawerMobile" />
     </v-card>
     <v-main v-else>
-      <v-container> <Nuxt /> <br /><br /> </v-container>
+      <v-container> <Nuxt /> <PageFooter /> </v-container>
     </v-main>
 
     <v-snackbar
       v-model="snackbar"
-      :timeout="4000"
-      :color="$vuetify.theme.dark ? bgd : 'white'"
+      timeout="4000"
+      height="50"
+      color="primary"
       rounded
+      outlined
     >
       <v-card-text>
-        <v-icon class="mr-4" :color="$vuetify.theme.dark ? bgd : 'white'">
-          mdi-information-outline
-        </v-icon>
-        <span> New Update! </span>
+        <v-icon small class="mr-2"> mdi-information-outline </v-icon>
+
+        New Update!
       </v-card-text>
-      <template v-slot:action="{ attrs }">
-        <v-btn color="pink" text v-bind="attrs" @click="reload"> Reload </v-btn>
+
+      <template #action="{ attrs }">
+        <v-btn color="white" text v-bind="attrs" @click="reload">
+          Reload
+        </v-btn>
       </template>
     </v-snackbar>
   </v-app>
@@ -136,6 +95,7 @@
   import Footer from './Footer';
   import Tab from './Tab';
   import AppBar from './AppBar';
+  import PageFooter from './PageFooter';
 
   export default {
     name: 'AppHeader',
@@ -143,7 +103,9 @@
       Footer,
       AppBar,
       Tab,
+      PageFooter,
     },
+
     data() {
       return {
         ComputerDrawer: false,
@@ -151,6 +113,7 @@
         snackbar: false,
       };
     },
+
     methods: {
       changeDrawer() {
         this.ComputerDrawer = !this.ComputerDrawer;
@@ -164,50 +127,11 @@
       reload() {
         window.location.reload();
       },
-      toEnglish() {
-        switch ($nuxt.$route.path) {
-          case '/':
-            window.location = '/index-en';
-            break;
-          case '/index-en':
-            window.location = '/index-en';
-            break;
-          default:
-            window.location =
-              '/english/python' +
-              ($nuxt.$route.path === '/'
-                ? '/python'
-                : $nuxt.$route.path.replace('/korean/python', ''));
-            break;
-        }
-      },
-      toKorean() {
-        switch ($nuxt.$route.path) {
-          case '/':
-            window.location = '/';
-            break;
-          case '/index-en':
-            window.location = '/';
-            break;
-          default:
-            window.location =
-              '/korean/python' +
-              ($nuxt.$route.path === '/'
-                ? '/python'
-                : $nuxt.$route.path.replace('/english/python', ''));
-            break;
-        }
-      },
     },
 
     async mounted() {
       let w = await window.$workbox;
-
-      w &&
-        w.addEventListener(
-          'installed',
-          e => (this.snackbar = e.isUpdate ? true : false),
-        );
+      w && w.addEventListener('installed', e => (this.snackbar = e.update));
     },
   };
 </script>

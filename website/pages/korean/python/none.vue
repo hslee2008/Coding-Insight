@@ -32,8 +32,6 @@
       class="ma-auto"
     />
 
-    <QuadSpace />
-
     <Navigation bef="password-safe" aft="function" />
   </div>
 </template>

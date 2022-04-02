@@ -150,8 +150,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="random" aft="stopprogram" />
   </div>
 </template>

@@ -38,8 +38,6 @@
       key.press_and_relase("ctrl+alt+delete")
     </code>
 
-    <QuadSpace />
-
     <Navigation bef="autozoom" aft="matplotlib" />
   </div>
 </template>

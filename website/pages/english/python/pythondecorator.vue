@@ -87,8 +87,6 @@
       loading="lazy"
     />
 
-    <QuadSpace />
-
     <Navigation bef="mydecorator" aft="newline" />
   </div>
 </template>

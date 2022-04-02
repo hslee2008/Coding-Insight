@@ -12,7 +12,7 @@
 
         2차원 배열은 **(두 개)를 사용하면 됩니다.<br /><br />
 
-        <code v-pre> int** arr = {{1, 1}, {2, 2}}; </code>
+        <code v-html="'int** arr = {{1, 1}, {2, 2}};'" />
 
         그리고 <kbd>*(&lt;포인터 이름> + &lt;인덱스>)</kbd>를 사용하면 배열 또는
         문자열의 인덱스 값을 찾거나 저장할 수 있습니다.<br /><br />
@@ -190,8 +190,6 @@
         <kbd>free(ptr);</kbd>
       </div>
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="pointer" aft="union" />
   </div>

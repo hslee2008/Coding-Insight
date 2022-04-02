@@ -20,7 +20,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://blog.shabda.co/wp-content/uploads/2015/10/numbers-truth-morality.png"
           max-width="300px"
         />
@@ -100,8 +99,6 @@
 
       <iframe :src="`${trinket}4b9cfba68b`" width="100%" height="356" />
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="boolean" aft="operator" />
 

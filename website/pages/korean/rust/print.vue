@@ -70,8 +70,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="setup" aft="printfmt" />
   </div>
 </template>

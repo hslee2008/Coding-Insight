@@ -129,8 +129,6 @@
       />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="none" aft="functionhard" />
 
     <v-card>

@@ -32,7 +32,6 @@
       </div>
       <div class="ma-auto">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmb1a_2sCkKU_ZFxGvyla48iA8hMAjnsmbaA&usqp=CAU"
           width="300"
         />
@@ -64,8 +63,6 @@
       </div>
       <iframe :src="`${trinket}6fd6aa9b5a`" width="100%" height="356" />
     </div>
-
-    <QuadSpace />
 
     <Navigation bef="numtype" aft="nummethod" />
   </div>

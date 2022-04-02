@@ -65,7 +65,6 @@
       </div>
       <div style="display: flex; justify-content: center">
         <GlobalImage
-          alt="python-factory-picture"
           src="https://en.terminalroot.com.br/assets/svg/cppdaily/zlib.png"
           width="400px"
         />
@@ -152,8 +151,6 @@
       loading="lazy"
       class="ma-auto"
     />
-
-    <QuadSpace />
 
     <Navigation bef="mapandreduceandfilter" aft="decorator" />
   </div>

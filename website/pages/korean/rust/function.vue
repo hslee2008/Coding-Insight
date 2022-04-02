@@ -69,8 +69,6 @@
       코드를 줄일 수 있습니다.
     </v-alert>
 
-    <QuadSpace />
-
     <Navigation bef="for" aft="closure" />
   </div>
 </template>

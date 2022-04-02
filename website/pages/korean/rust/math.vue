@@ -74,8 +74,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="numeric-float" aft="boolean" />
   </div>
 </template>

@@ -45,8 +45,6 @@
       height="300"
     />
 
-    <QuadSpace />
-
     <Navigation bef="module" aft="module_outer" />
   </div>
 </template>

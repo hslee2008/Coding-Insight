@@ -79,8 +79,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="grammar" aft="if" />
   </div>
 </template>

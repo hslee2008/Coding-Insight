@@ -142,8 +142,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="function" aft="specialvariable" />
 
     <v-card>

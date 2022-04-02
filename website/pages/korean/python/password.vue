@@ -48,8 +48,6 @@
     <h2>코드 확인하기</h2>
     <iframe :src="`${trinket}0b59c71a2d`" width="100%" height="356" />
 
-    <QuadSpace />
-
     <Navigation bef="stringmethod2" aft="escapechar" />
   </div>
 </template>

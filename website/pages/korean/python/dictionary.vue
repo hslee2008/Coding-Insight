@@ -98,8 +98,6 @@
       <iframe :src="`${trinket}05de91d4c2`" width="100%" height="356" />
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="listmethod2" aft="dictionarymethod" />
 
     <v-card>

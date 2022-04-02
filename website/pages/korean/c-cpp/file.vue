@@ -76,8 +76,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="math" aft="readfile" />
   </div>
 </template>

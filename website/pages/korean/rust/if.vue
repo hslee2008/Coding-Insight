@@ -103,8 +103,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="borrow-dereference" aft="loop" />
   </div>
 </template>

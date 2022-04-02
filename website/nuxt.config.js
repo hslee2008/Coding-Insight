@@ -4,6 +4,7 @@ export default {
       console.log(`https://hpanel.hostinger.com/hosting/coding-insight.com/`);
     },
   },
+  ssr: true,
   build: {
     // analyze: true,
 
@@ -41,7 +42,7 @@ export default {
     htmlAttrs: {
       lang: 'en,ko-kr',
     },
-    titleTemplate: '%s ❯ Coding-Insight',
+    titleTemplate: '%s — Coding Insight',
     title: 'Coding-Insight',
     meta: [
       {
@@ -265,17 +266,17 @@ export default {
       screenshots: [
         {
           src: '/pwa/screenshot-home.png',
-          sizes: '1920x898',
+          sizes: '1920x894',
           type: 'image/png',
           platform: 'wide',
-          label: 'Homescreen of Coding-Insight',
+          label: 'Desktop Homescreen of Coding-Insight',
         },
         {
           src: '/pwa/screenshot-mobile.png',
-          sizes: '816x1260',
+          sizes: '816x1262',
           type: 'image/png',
           platform: 'narrow',
-          label: 'Homescreen of Coding-Insight',
+          label: 'Mobile Homescreen of Coding-Insight',
         },
       ],
       shortcuts: [

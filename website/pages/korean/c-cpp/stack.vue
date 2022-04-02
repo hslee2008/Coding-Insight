@@ -118,8 +118,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="vectormethod" aft="allheader" />
   </div>
 </template>

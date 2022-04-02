@@ -123,8 +123,6 @@
       </div>
     </div>
 
-    <QuadSpace />
-
     <Navigation bef="vscode" aft="variable" />
 
     <v-card>
