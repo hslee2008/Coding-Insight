@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <h2>Cargo.toml 파일</h2>
     <p>
       Cargo.toml 파일은 Rust 프로젝트의 설정을 정의하는 파일입니다.<br /><br />

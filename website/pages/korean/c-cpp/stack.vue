@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>stack 사용하기</h2>
@@ -28,7 +26,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4iuF`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4iuF`" height="300" />
       </div>
     </div>
 
@@ -57,7 +55,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4iuG`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4iuG`" height="300" />
       </div>
     </div>
 
@@ -85,7 +83,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4iuH`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4iuH`" height="300" />
       </div>
     </div>
 
@@ -114,7 +112,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4iuI`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4iuI`" height="300" />
       </div>
     </div>
 

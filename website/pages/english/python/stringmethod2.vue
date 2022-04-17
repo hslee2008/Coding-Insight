@@ -67,11 +67,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/9da1796e91"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/9da1796e91" height="356" />
     </div>
 
     <QuadSpace />
@@ -111,12 +107,7 @@
           sentences after 'name'.
         </p>
       </div>
-      <iframe
-        :src="`${trinket}3e76b01efc`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}3e76b01efc`" height="356" loading="lazy" />
     </div>
 
     <Navigation bef="stringmethod1" aft="password" />

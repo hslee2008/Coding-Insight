@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>bits/stdc++.h</h2>

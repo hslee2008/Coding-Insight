@@ -1,9 +1,7 @@
 <template>
   <div
     class="text-center pa-6 rounded-lg shadow-2xl bg-gray-100 overflow-hidden"
-    :style="`background-color: ${
-      $vuetify.theme.dark ? hdbgd : hdbgl
-    }; margin: 100px 0px 100px 0px`"
+    :style="`background-color: ${hdbgd}; margin: 50px 0px 100px 0px`"
   >
     <v-btn :aria-label="albutt" class="mb-10" outlined @click="speak">
       <v-icon left>

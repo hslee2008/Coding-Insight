@@ -85,7 +85,7 @@
           in title format.
         </p>
       </div>
-      <iframe :src="`${trinket}75c4671dd7`" width="100%" height="300" />
+      <iframe :src="`${trinket}75c4671dd7`" height="300" />
     </div>
 
     <QuadSpace />

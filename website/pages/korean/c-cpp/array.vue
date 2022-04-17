@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>배열이란?</h2>
@@ -51,7 +49,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}42tz`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}42tz`" height="300px" />
       </div>
     </div>
 
@@ -90,7 +88,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3YMd`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3YMd`" height="300px" />
       </div>
     </div>
 
@@ -110,7 +108,7 @@
         </p>
       </div>
       <div class="text-center">
-        <iframe :src="`${jdoodle}42tF`" width="100%" height="400px" />
+        <iframe :src="`${jdoodle}42tF`" height="400px" />
       </div>
     </div>
 

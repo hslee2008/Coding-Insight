@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>키보드</h2>
       <p>

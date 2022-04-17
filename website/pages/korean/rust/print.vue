@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>출력이란?</h2>
       <p>
@@ -29,7 +27,6 @@
       </div>
       <iframe
         :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20println!(%22Hello%2C%20world!%22)%3B%0A%7D`"
-        width="100%"
         height="400"
       />
       <div>
@@ -58,7 +55,6 @@
       </div>
       <iframe
         :src="`${playrust}println!(%22Hello%2C%20world!%22)%3B`"
-        width="100%"
         height="400"
       />
       <div>

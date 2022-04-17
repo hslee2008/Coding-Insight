@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Error</h2>
@@ -57,12 +55,7 @@
       </div>
     </div>
 
-    <iframe
-      :src="`${trinket}560cfc16f4`"
-      width="100%"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket}560cfc16f4`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -75,12 +68,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}fc52c8aa8c`"
-      width="100%"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket}fc52c8aa8c`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -94,12 +82,7 @@
       </div>
     </div>
 
-    <iframe
-      :src="`${trinket}6394505282`"
-      width="100%"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket}6394505282`" height="356" loading="lazy" />
 
     <Navigation bef="array_shape" aft="error2" />
   </div>

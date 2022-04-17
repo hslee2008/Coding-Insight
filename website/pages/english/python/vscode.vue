@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <v-row flex justify="center" style="gap: 30px">
       <v-btn
         :aria-label="albutt"

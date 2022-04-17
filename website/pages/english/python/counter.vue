@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Example and Explanation</h2>
@@ -19,7 +17,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}da3dfe80d1`" width="100%" height="356" />
+      <iframe :src="`${trinket}da3dfe80d1`" height="356" />
     </div>
 
     <Header type="Python" num="77" title="Counter" />
@@ -35,13 +33,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}1784ae1aca`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}1784ae1aca`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -56,13 +48,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}6776498f90`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}6776498f90`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -77,13 +63,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}f918534c52`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}f918534c52`" height="356" loading="lazy" />
 
     <QuadSpace />
 

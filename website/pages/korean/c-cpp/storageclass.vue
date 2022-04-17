@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>스토리지 클래스란?</h2>
@@ -37,7 +35,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}44kK`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}44kK`" height="300" />
       </div>
     </div>
 

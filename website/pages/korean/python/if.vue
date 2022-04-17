@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>조건문</h2>
       <p>
@@ -53,13 +51,7 @@
         논리연산자를 사용하세요.
       </p>
     </div>
-    <iframe
-      :src="`${trinket}9e178be286`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}9e178be286`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -94,13 +86,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}4f34d13cdc`"
-      width="100%"
-      height="450"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}4f34d13cdc`" height="450" loading="lazy" />
 
     <Navigation bef="setmethod" aft="ifmaster" />
   </div>

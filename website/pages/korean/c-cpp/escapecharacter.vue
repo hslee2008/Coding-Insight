@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>이스케이프 문자란?</h2>
       <p>
@@ -32,7 +30,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3VZC`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3VZC`" height="300px" />
       </div>
     </div>
 
@@ -75,7 +73,7 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3VZG`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3VZG`" height="300px" />
       </div>
     </div>
 

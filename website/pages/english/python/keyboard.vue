@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>Keyboard</h2>

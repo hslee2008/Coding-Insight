@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>while 반복문이란?</h2>
@@ -93,7 +91,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3YLX`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3YLX`" height="300px" />
       </div>
     </div>
 

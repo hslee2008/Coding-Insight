@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>union과 struct</h2>
@@ -47,7 +45,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47Bf`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47Bf`" height="300" />
       </div>
     </div>
 

@@ -5,15 +5,12 @@
         v-for="it in ['Python', 'C/C++', 'Rust']"
         :key="it"
         ripple
-        :style="`background-color: ${$vuetify.theme.dark ? bgd : 'white'}`"
+        :style="`background-color: ${bgd}`"
       >
         {{ it }}
       </v-tab>
 
-      <v-tabs-items
-        v-model="tab"
-        :style="`background-color: ${$vuetify.theme.dark ? bgd : 'white'}`"
-      >
+      <v-tabs-items v-model="tab" :style="`background-color: ${bgd}`">
         <v-tab-item v-for="(li, ind) in [python, c, rust]" :key="ind">
           <v-expansion-panels hover flat accordion>
             <ItemList
@@ -40,6 +37,7 @@
 
   export default {
     name: 'Tab',
+
     props: ['close'],
 
     components: {

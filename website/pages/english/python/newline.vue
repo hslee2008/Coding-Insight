@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Problem</h2>
@@ -32,13 +30,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}b6c75a2237`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}b6c75a2237`" height="356" loading="lazy" />
     <Navigation bef="pythondecorator" aft="asynchronous" />
   </div>
 </template>

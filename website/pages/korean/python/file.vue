@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>파일 처리란?</h2>
@@ -59,7 +57,7 @@
           </p>
         </div>
       </div>
-      <iframe :src="`${trinket}5755f85207`" width="100%" height="356" />
+      <iframe :src="`${trinket}5755f85207`" height="356" />
     </div>
 
     <Navigation bef="math" aft="filereading" />

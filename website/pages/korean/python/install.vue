@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div style="display: flex; justify-content: center; margin: 5px">
         <GlobalImage

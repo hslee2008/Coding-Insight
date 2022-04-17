@@ -19,7 +19,7 @@
           the letter and sort them into uppercase.
         </p>
       </div>
-      <iframe :src="`${trinket}44f3241dca`" width="100%" height="356" />
+      <iframe :src="`${trinket}44f3241dca`" height="356" />
     </div>
 
     <QuadSpace />
@@ -31,7 +31,7 @@
           To append a new value to the end of the list, we'll use 'append()'.
         </p>
       </div>
-      <iframe :src="`${trinket}12cc090a48`" width="100%" height="356" />
+      <iframe :src="`${trinket}12cc090a48`" height="356" />
     </div>
 
     <QuadSpace />
@@ -54,7 +54,7 @@
           numbers using max() and min().
         </p>
       </div>
-      <iframe :src="`${trinket}94a4a72417`" width="100%" height="356" />
+      <iframe :src="`${trinket}94a4a72417`" height="356" />
     </div>
 
     <Navigation bef="listmethod1" aft="dictionary" />

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <h2>use 키워드 사용하기</h2>
     <div>
       use를 사용하면 항상 ::를 사용해서 모듈의 함수 또는 변수를 가져오는 경우를
@@ -29,7 +27,6 @@
 
       <iframe
         :src="`${playrust}mod%20printing_module%20%7B%0D%0A%20%20pub%20fn%20print_hello_world()%20%7B%0D%0A%20%20%20%20println!(%22Hello%2C%20World%22)%3B%0D%0A%20%20%7D%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20%2F%2F%20%EC%9D%B4%EB%A0%87%EA%B2%8C%EB%8F%84%20%EA%B0%80%EB%8A%A5%0D%0A%20%20printing_module%3A%3Aprint_hello_world()%3B%0D%0A%0D%0A%20%20%2F%2F%20%EC%9D%B4%EA%B2%83%EB%8F%84%20%EA%B0%80%EB%8A%A5%0D%0A%20%20use%20printing_module%3A%3A%7B%0D%0A%20%20%20%20print_hello_world%0D%0A%20%20%7D%3B%0D%0A%0D%0A%20%20print_hello_world()%3B%0D%0A%7D`"
-        width="100%"
         height="450"
       />
 
@@ -37,7 +34,6 @@
 
       <iframe
         :src="`${playrust}mod%20printing_module%20%7B%0D%0A%20%20pub%20fn%20print_hello_world()%20%7B%0D%0A%20%20%20%20println!(%22Hello%2C%20World%22)%3B%0D%0A%20%20%7D%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20%2F%2F%20%EC%9D%B4%EB%A0%87%EA%B2%8C%EB%8F%84%20%EA%B0%80%EB%8A%A5%0D%0A%20%20printing_module%3A%3Aprint_hello_world()%3B%0D%0A%0D%0A%20%20%2F%2F%20%EC%9D%B4%EA%B2%83%EB%8F%84%20%EA%B0%80%EB%8A%A5%0D%0A%20%20use%20printing_module%3A%3A%7B%0D%0A%20%20%20%20print_hello_world%20as%20phw%0D%0A%20%20%7D%3B%0D%0A%0D%0A%20%20phw()%3B%0D%0A%7D`"
-        width="100%"
         height="450"
       />
     </div>
@@ -55,7 +51,6 @@
 
       <iframe
         :src="`${playrust}mod%20printing_module%20%7B%0D%0A%20%20pub%20fn%20print_hello_world()%20%7B%0D%0A%20%20%20%20println!(%22Hello%2C%20World!%22)%3B%0D%0A%20%20%7D%0D%0A%0D%0A%20%20pub%20fn%20do_this()%20%7B%0D%0A%20%20%20%20println!(%22Do%2C%20This!%22)%3B%0D%0A%20%20%7D%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20use%20printing_module%3A%3A*%3B%0D%0A%0D%0A%20%20print_hello_world()%3B%0D%0A%20%20do_this()%3B%0D%0A%7D`"
-        width="100%"
         height="400"
       />
     </div>

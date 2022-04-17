@@ -14,7 +14,7 @@
           quit() 대신 exit()을 사용해도 됩니다. quit과 exit은 같습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}8b75210243`" width="100%" height="356" />
+      <iframe :src="`${trinket}8b75210243`" height="356" />
     </div>
 
     <QuadSpace />
@@ -27,7 +27,7 @@
           도움 프로그램을 실행하기 위하여 help() 함수를 사용할 수 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}ea0c810c1a`" width="100%" height="356" />
+      <iframe :src="`${trinket}ea0c810c1a`" height="356" />
     </div>
 
     <Navigation bef="oneliner" aft="module" />

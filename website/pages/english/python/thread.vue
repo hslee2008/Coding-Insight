@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>What is thread?</h2>
@@ -102,13 +100,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}a21ef7102c`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}a21ef7102c`" height="356" loading="lazy" />
 
     <Navigation bef="name" aft="complexthread" />
   </div>

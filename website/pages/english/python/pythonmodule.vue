@@ -13,7 +13,7 @@
 
         Using time.sleep(x), we can stop the code for 'x' seconds.
       </div>
-      <iframe :src="`${trinket}cf2c9fad50`" width="100%" height="358" />
+      <iframe :src="`${trinket}cf2c9fad50`" height="358" />
     </div>
 
     <QuadSpace />
@@ -44,13 +44,7 @@
             os.system("cls")
           </code>
         </div>
-        <iframe
-          :src="`${trinket}63f69099ff`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}63f69099ff`" height="356" loading="lazy" />
       </div>
     </div>
 

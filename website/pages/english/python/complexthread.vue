@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Mastering Thread</h2>
@@ -38,7 +36,7 @@
           Reall Done!"
         </p>
       </div>
-      <iframe :src="`${trinket}d14f421fa3`" width="100%" height="356" />
+      <iframe :src="`${trinket}d14f421fa3`" height="356" />
     </div>
 
     <Header type="Python" num="74" title="Thread (Advanced)" />
@@ -81,13 +79,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}4b10ddd953`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}4b10ddd953`" height="356" loading="lazy" />
 
     <Navigation bef="thread" aft="threadmethod" />
   </div>

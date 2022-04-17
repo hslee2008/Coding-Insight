@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div style="display: flex; justify-content: center">
         <GlobalImage
@@ -35,13 +33,7 @@
           json.loads() 메서드 안에 JSON 데이터 형태를 입력하면 파이썬 딕셔너리로
           전환됩니다.
         </p>
-        <iframe
-          :src="`${trinket}0812d9740b`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}0812d9740b`" height="356" loading="lazy" />
       </div>
     </div>
 
@@ -55,7 +47,7 @@
           이용해보겠습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}efb76f8dd2`" width="100%" height="356" />
+      <iframe :src="`${trinket}efb76f8dd2`" height="356" />
     </div>
 
     <QuadSpace />
@@ -78,7 +70,7 @@
         설정해보겠습니다.<br /><br />
         <code> print(json.dumps(someJson, seperator=(". ", "==>"))) </code>
       </div>
-      <iframe :src="`${trinket}efb76f8dd2`" width="100%" height="200" />
+      <iframe :src="`${trinket}efb76f8dd2`" height="200" />
     </div>
 
     <Navigation bef="pip" aft="array" />

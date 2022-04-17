@@ -92,13 +92,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}2dc115b16f`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}2dc115b16f`" height="356" loading="lazy" />
 
     <Navigation bef="additionaldundermethod" aft="atexit" />
   </div>

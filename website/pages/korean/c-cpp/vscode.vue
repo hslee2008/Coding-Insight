@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div style="display: flex; justify-content: space-evenly">
       <div>
         <h2>VSCode 설치하는 방법</h2>

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>조건문 다른 방법으로 만들기</h2>
@@ -53,7 +51,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47BV`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47BV`" height="300" />
       </div>
     </div>
 

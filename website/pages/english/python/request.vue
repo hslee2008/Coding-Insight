@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>What is request?</h2>
@@ -40,7 +38,7 @@
           The get method will fetch the information from the site.
         </p>
       </div>
-      <iframe :src="`${trinket}a8fbf8fda2`" width="100%" height="356" />
+      <iframe :src="`${trinket}a8fbf8fda2`" height="356" />
     </div>
 
     <QuadSpace />
@@ -63,7 +61,7 @@
           We can express the link after identifier? into a dictionary.
         </p>
       </div>
-      <iframe :src="`${trinket}3f896f4b27`" width="100%" height="356" />
+      <iframe :src="`${trinket}3f896f4b27`" height="356" />
     </div>
 
     <QuadSpace />
@@ -86,7 +84,7 @@
         <h2>JSON</h2>
         To print in JSON format, use the json() method.
       </div>
-      <iframe :src="`${trinket}4751110c8f`" width="100%" height="356" />
+      <iframe :src="`${trinket}4751110c8f`" height="356" />
     </div>
 
     <Navigation bef="counter" aft="requestmethod" />

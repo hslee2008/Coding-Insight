@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>모듈의 정의</h2>
@@ -44,13 +42,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}cc5f724ff2`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}cc5f724ff2`" height="356" loading="lazy" />
 
     <QuadSpace />
 

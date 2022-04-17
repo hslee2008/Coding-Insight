@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>변수</h2>
       <p>
@@ -73,7 +71,6 @@
       </div>
       <iframe
         :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20let%20language%20%3D%20%22Rust%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7Blanguage%7D%22)%3B%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7B%7D%22%2C%20language)%3B%0A%7D`"
-        width="100%"
         height="400"
       />
     </div>

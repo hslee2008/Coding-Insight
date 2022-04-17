@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>파일 압축이란?</h2>
@@ -82,13 +80,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}74a9209480`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}74a9209480`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -107,13 +99,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}50ab5d6ef3`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}50ab5d6ef3`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -123,13 +109,7 @@
         <p>압축을 풀기 위하여 zlib.decompress() 메서드를 사용할 수 있습니다.</p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}c42b0b500e`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}c42b0b500e`" height="356" loading="lazy" />
 
     <Navigation bef="mapandreduceandfilter" aft="decorator" />
   </div>

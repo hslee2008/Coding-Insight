@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <Header type="파이썬" num="35" title="반복문 종류" />
 
@@ -29,13 +27,7 @@
             같습니다.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}a532b0eef6`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}a532b0eef6`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />
@@ -52,13 +44,7 @@
               myList를 사용해서 for 반복문을 다시 실행할 수 없습니다.
             </p>
           </div>
-          <iframe
-            :src="`${trinket}c87eacfde8`"
-            width="100%"
-            height="356"
-            loading="lazy"
-            class="ma-auto"
-          />
+          <iframe :src="`${trinket}c87eacfde8`" height="356" loading="lazy" />
         </div>
       </div>
 
@@ -81,13 +67,7 @@
               4. for 반복문을 만듭니다.
             </p>
           </div>
-          <iframe
-            :src="`${trinket}c9ce2cddc8`"
-            width="100%"
-            height="356"
-            loading="lazy"
-            class="ma-auto"
-          />
+          <iframe :src="`${trinket}c9ce2cddc8`" height="356" loading="lazy" />
         </div>
       </div>
     </div>

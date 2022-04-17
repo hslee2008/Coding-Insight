@@ -26,13 +26,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}ae32425775`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}ae32425775`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -45,13 +39,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}30fb5ba090`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}30fb5ba090`" height="356" loading="lazy" />
 
     <Navigation bef="request" aft="dundermethod" />
   </div>

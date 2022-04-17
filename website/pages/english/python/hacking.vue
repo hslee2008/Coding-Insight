@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>Network Sniffing</h2>
@@ -63,12 +61,9 @@
     </div>
     <QuadSpace />
     <iframe
-      width="100%"
-      class="card-img-top"
-      height="200px"
       src="https://www.youtube.com/embed/RZSzjcp_DII"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      height="200"
+      loading="lazy"
     />
 
     <Navigation bef="pythonmodule" aft="date" />

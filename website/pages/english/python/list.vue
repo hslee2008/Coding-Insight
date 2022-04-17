@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>What is list?</h2>
       <p>
@@ -19,7 +17,7 @@
         <h2>Declaring list</h2>
         <p>In Python, use [] to store items seperated by a comma(,).</p>
       </div>
-      <iframe :src="`${trinket}59634d0a4b`" width="100%" height="356" />
+      <iframe :src="`${trinket}59634d0a4b`" height="356" />
     </div>
 
     <QuadSpace />
@@ -29,12 +27,7 @@
         <h2>List index</h2>
         <p>Similar to string index, we can access each item by using index.</p>
       </div>
-      <iframe
-        :src="`${trinket}cc01e5b49a`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}cc01e5b49a`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />

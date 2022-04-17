@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>형태 변형이란?</h2>
@@ -46,7 +44,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3VZv`" height="300" width="100%" />
+        <iframe :src="`${jdoodle}3VZv`" height="300" />
       </div>
     </div>
 

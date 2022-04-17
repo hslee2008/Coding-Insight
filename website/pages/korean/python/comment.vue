@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>주석이란?</h2>
       <p>
@@ -40,10 +38,8 @@
     </div>
     <iframe
       src="https://trinket.io/embed/python/450cb9ddc1"
-      width="100%"
       height="356"
       loading="lazy"
-      class="ma-auto"
     />
 
     <QuadSpace />
@@ -61,11 +57,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python/5f18131ec9"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/5f18131ec9" height="356" />
     </div>
 
     <QuadSpace />
@@ -81,11 +73,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python/ab2de5f9f6"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/ab2de5f9f6" height="356" />
     </div>
 
     <Navigation bef="datatype" aft="string" />

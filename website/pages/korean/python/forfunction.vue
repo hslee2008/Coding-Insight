@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <Header type="파이썬" num="36" title="반복문 함수" />
 
@@ -23,13 +21,7 @@
             메서드를 사용했다면 에러가 생깁니다.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}496fc82d74`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}496fc82d74`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />
@@ -49,13 +41,7 @@
               step은 숫자 간의 간격입니다.
             </p>
           </div>
-          <iframe
-            :src="`${trinket}31f75bee24`"
-            width="100%"
-            height="356"
-            loading="lazy"
-            class="ma-auto"
-          />
+          <iframe :src="`${trinket}31f75bee24`" height="356" loading="lazy" />
         </div>
       </div>
     </div>

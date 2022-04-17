@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <v-row flex justify="center" style="margin: 10px">
       <div class="ma-auto">
         <h1>

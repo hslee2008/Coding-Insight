@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>do - while이란?</h2>
@@ -53,7 +51,7 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3YM3`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3YM3`" height="300px" />
       </div>
     </div>
 

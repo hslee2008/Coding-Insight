@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>str 데이터 형태</h2>
@@ -178,7 +176,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%26str%20%3D%20%22Hello%2C%20World!%22%3B%0D%0A%20%20%20%20let%20val2%20%3D%20String%3A%3Afrom(%22%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%20Rust%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%96%B8%EC%96%B4%20%EB%A1%9C%EA%B3%A0%EA%B0%80%20%EA%B2%8C%EC%9D%B8%EA%B1%B0%20%EC%95%8C%EC%95%98%EB%82%98%EC%9A%94%3F%3F%3F%20%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bval1%7D%22)%3B%0D%0A%20%20%20%20println!(%22%7Bval2%7D%22)%3B%0D%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>식별자란?</h2>
@@ -44,7 +42,6 @@
       <div>
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20let%20unchangeable%20%3D%20%22I%20cannot%20be%20changed...%22%3B%0A%20%20%20%20let%20new_unchangeable%20%3D%20unchangeable%3B%0A%20%20%20%20%0A%20%20%20%20const%20unchangeable_value%20%3D%203%3B%0A%7D`"
-          width="100%"
           height="400"
         />
       </div>

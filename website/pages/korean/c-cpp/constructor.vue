@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Constructor</h2>
@@ -50,7 +48,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${jdoodle}4n6k`" width="100%" height="350" />
+      <iframe :src="`${jdoodle}4n6k`" height="350" />
     </div>
 
     <QuadSpace />
@@ -83,7 +81,7 @@
           </code>
         </p>
       </div>
-      <iframe width="100%" height="350" :src="`${jdoodle}4n6m`" />
+      <iframe height="350" :src="`${jdoodle}4n6m`" />
     </div>
 
     <Navigation bef="classmethod" aft="accessspecifier" />

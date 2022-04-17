@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>What is statistics?</h2>
@@ -61,7 +59,7 @@
           are even numbers of datas.
         </div>
       </div>
-      <iframe :src="`${trinket}b4ab6a9593`" width="100%" height="356" />
+      <iframe :src="`${trinket}b4ab6a9593`" height="356" />
     </div>
 
     <QuadSpace />
@@ -78,7 +76,7 @@
           there are odd numbers of data.
         </p>
       </div>
-      <iframe :src="`${trinket}0a8bc90264`" width="100%" height="356" />
+      <iframe :src="`${trinket}0a8bc90264`" height="356" />
     </div>
 
     <QuadSpace />
@@ -89,13 +87,7 @@
         <p>Mode calculates the most item appearing in list.</p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}0a8bc90264`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}0a8bc90264`" height="356" loading="lazy" />
 
     <Navigation bef="classmethod" aft="file" />
   </div>

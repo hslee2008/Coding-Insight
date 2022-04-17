@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <v-row>
       <div class="ma-auto">
         <h2>함수란?</h2>
@@ -35,7 +33,7 @@
           함수를 실행하기 위하여 '함수 이름 + ()'를 사용할 수 있습니다
         </p>
       </div>
-      <iframe :src="`${trinket}6de0abee4a`" width="100%" height="356" />
+      <iframe :src="`${trinket}6de0abee4a`" height="356" />
     </div>
 
     <QuadSpace />
@@ -54,13 +52,7 @@
             우리가 이 코드를 실행할 때 우리가 원하는 수로 바꿀 수 있습니다.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}3a2f78ef6b`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}3a2f78ef6b`" height="356" loading="lazy" />
       </div>
     </div>
 
@@ -98,7 +90,7 @@
           효율적으로 만들 수 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}7e46f0a592`" width="100%" height="356" />
+      <iframe :src="`${trinket}7e46f0a592`" height="356" />
     </div>
 
     <Navigation bef="none" aft="functionhard" />

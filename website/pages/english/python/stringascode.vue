@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>Can we run string as code?</h2>
       <p>In Python, we can run a string like a code.</p>
@@ -26,12 +24,7 @@
           <code> print(eval(input("Code: "))) </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}c09ee5878e`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}c09ee5878e`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />
@@ -45,12 +38,7 @@
           <code> exec(input("Code: ")) </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}91ca5b24b6`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}91ca5b24b6`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />
@@ -74,14 +62,14 @@
           is expression, 'single' is one single line, 'exec' is multi-line code.
         </p>
       </div>
-      <iframe :src="`${trinket}4b5e8cc791`" width="100%" height="356" />
+      <iframe :src="`${trinket}4b5e8cc791`" height="356" />
     </div>
 
     <QuadSpace />
 
     <div id="idlepython">
       <h2>PROJECT (PROJ: 9): My Own Python IDLE</h2>
-      <iframe :src="`${trinket}fa7de26cef`" width="100%" height="356" />
+      <iframe :src="`${trinket}fa7de26cef`" height="356" />
     </div>
 
     <Navigation bef="datachange" aft="pip" />

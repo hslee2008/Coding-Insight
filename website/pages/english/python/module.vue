@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Definition of Module</h2>
@@ -64,12 +62,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}170c0ea7f7`"
-      width="100%"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket}170c0ea7f7`" height="356" loading="lazy" />
 
     <QuadSpace />
 

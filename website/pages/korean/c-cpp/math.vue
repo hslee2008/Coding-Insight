@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>수학</h2>
@@ -47,7 +45,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4836`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4836`" height="300" />
       </div>
     </div>
 
@@ -79,7 +77,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4839`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4839`" height="300" />
       </div>
     </div>
 
@@ -109,7 +107,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}483e`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}483e`" height="300" />
       </div>
     </div>
 
@@ -143,7 +141,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}483i`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}483i`" height="300" />
       </div>
     </div>
 

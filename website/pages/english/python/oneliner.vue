@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Why should we put codes in one line?</h2>
@@ -36,7 +34,7 @@
           <code> print("Hello", end=" "); print("World") </code>
         </p>
       </div>
-      <iframe :src="`${trinket}724bf9a522`" width="100%" height="356" />
+      <iframe :src="`${trinket}724bf9a522`" height="356" />
     </div>
 
     <QuadSpace />
@@ -55,13 +53,7 @@
             Note: you can also put semicolons after each code.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}ca6f756679`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}ca6f756679`" height="356" loading="lazy" />
       </div>
     </div>
 

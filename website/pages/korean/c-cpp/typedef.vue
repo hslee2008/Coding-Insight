@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>typedef</h2>
@@ -46,7 +44,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}44lE`" width="100%" height="400" />
+        <iframe :src="`${jdoodle}44lE`" height="400" />
       </div>
     </div>
 

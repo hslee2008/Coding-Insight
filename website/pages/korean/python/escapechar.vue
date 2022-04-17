@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>이스케이프 문자란?</h2>
@@ -17,11 +15,7 @@
           모든 이스케이프는 다 \와 원하는 문자를 사용합니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/cb2f50d77b"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/cb2f50d77b" height="356" />
     </div>
 
     <QuadSpace />
@@ -100,11 +94,7 @@
           가능하면 컴퓨터 VSCode에서 실행하세요.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/e24eef8879"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/e24eef8879" height="356" />
     </div>
 
     <QuadSpace />
@@ -139,11 +129,7 @@
           출력됩니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/6366397170"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/6366397170" height="356" />
     </div>
 
     <Navigation bef="password" aft="ascii" />

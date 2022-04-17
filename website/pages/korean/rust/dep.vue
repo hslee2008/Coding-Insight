@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <h2>Rust 외부 모듈 추가</h2>
     <p>
       외부 모듈을 추가하려면 Cargo.toml 파일에 아래와 같이 추가합니다.<br /><br />

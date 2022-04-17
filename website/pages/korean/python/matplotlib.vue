@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>mathplotlib</h2>
@@ -15,7 +13,7 @@
           <code> print(matplotlib.__version__) </code>
         </p>
       </div>
-      <iframe :src="`${trinket}3e28c18725`" width="100%" height="356" />
+      <iframe :src="`${trinket}3e28c18725`" height="356" />
     </div>
 
     <Header type="파이썬" title="Matplotlib" num="88" />
@@ -48,13 +46,7 @@
         n차 방정식: n+1개<br />
       </div>
     </div>
-    <iframe
-      :src="`${trinket}40b5ec6e62`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}40b5ec6e62`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -99,13 +91,7 @@
         </code>
       </p>
     </div>
-    <iframe
-      :src="`${trinket}6d6b423f37`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}6d6b423f37`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -196,13 +182,7 @@
         </div>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}c4218ab83d`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}c4218ab83d`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -228,13 +208,7 @@
         </div>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}074b4c95ef`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}074b4c95ef`" height="356" loading="lazy" />
 
     <Navigation bef="keyboard" aft="mouse" />
   </div>

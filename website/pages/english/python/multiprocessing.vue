@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div style="display: flex; justify-content: center">
         <GlobalImage
@@ -30,13 +28,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}bbf4c84765`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}bbf4c84765`" height="356" loading="lazy" />
 
     <QuadSpace />
 

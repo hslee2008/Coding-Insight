@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>정렬이란?</h2>
@@ -38,7 +36,7 @@
           아래 예제를 따라하며 정렬을 선언해봅시다.
         </p>
       </div>
-      <iframe :src="`${trinket}396ae27df2`" width="100%" height="356" />
+      <iframe :src="`${trinket}396ae27df2`" height="356" />
     </div>
 
     <QuadSpace />
@@ -58,13 +56,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}bd22e54547`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}bd22e54547`" height="356" loading="lazy" />
 
     <Navigation bef="json" aft="array_type" />
   </div>

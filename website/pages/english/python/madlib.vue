@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>What is madlibs?</h2>
       <p>
@@ -69,7 +67,7 @@
     <div>
       <h2>Check out the code</h2>
 
-      <iframe :src="`${trinket}af48f9c529`" width="100%" height="356" />
+      <iframe :src="`${trinket}af48f9c529`" height="356" />
     </div>
 
     <Navigation bef="variable" aft="datatype" />

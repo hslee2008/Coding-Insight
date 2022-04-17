@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div class="text-center">
       <iframe
         width="560"
@@ -33,7 +31,7 @@
           소문자인 것부터 시작하여 대문자로 정리했습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}44f3241dca`" width="100%" height="356" />
+      <iframe :src="`${trinket}44f3241dca`" height="356" />
     </div>
 
     <QuadSpace />
@@ -48,7 +46,7 @@
           list.append(item) 형태로 list 끝에 새로운 item을 더합니다.
         </p>
       </div>
-      <iframe :src="`${trinket}12cc090a48`" width="100%" height="356" />
+      <iframe :src="`${trinket}12cc090a48`" height="356" />
     </div>
 
     <QuadSpace />
@@ -64,7 +62,7 @@
           모두 합친 값을 그 변수 안에 저장하는 메서드입니다.
         </p>
       </div>
-      <iframe :src="`${trinket}7e53c5b5a9`" width="100%" height="356" />
+      <iframe :src="`${trinket}7e53c5b5a9`" height="356" />
     </div>
 
     <QuadSpace />
@@ -77,7 +75,7 @@
           수를 max()와 min()을 사용하여 알 수 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}94a4a72417`" width="100%" height="356" />
+      <iframe :src="`${trinket}94a4a72417`" height="356" />
     </div>
 
     <Navigation bef="listmethod1" aft="dictionary" />

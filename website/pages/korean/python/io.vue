@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div class="header-div text-white">
       <div>
         <h2>출력이란?</h2>
@@ -57,7 +55,7 @@
         <p>옆에있는 코드를 바꾸고 삼각형 버튼을 눌러서 코드를 실행하세요!</p>
       </div>
 
-      <iframe :src="`${trinket}62e887bbca`" width="100%" height="356" />
+      <iframe :src="`${trinket}62e887bbca`" height="356" />
     </div>
 
     <QuadSpace />
@@ -125,11 +123,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python/5b6a7a8b2b"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/5b6a7a8b2b" height="356" />
     </div>
 
     <Navigation bef="vscode" aft="variable" />

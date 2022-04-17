@@ -34,7 +34,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}73c3356df0`" width="100%" height="356" />
+      <iframe :src="`${trinket}73c3356df0`" height="356" />
     </div>
 
     <QuadSpace />
@@ -76,12 +76,7 @@
             console.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}42bf09e347`"
-          width="100%"
-          height="356"
-          loading="lazy"
-        />
+        <iframe :src="`${trinket}42bf09e347`" height="356" loading="lazy" />
       </div>
     </div>
 

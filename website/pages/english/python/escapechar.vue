@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>What is escape character?</h2>
@@ -100,12 +98,7 @@
           We can set our own tab size using expandtabs.
         </p>
       </div>
-      <iframe
-        :src="`${trinket}82e2765c4e`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}82e2765c4e`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />
@@ -120,11 +113,7 @@
           To do this, we have to put r before the quotation mark.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/6366397170"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/6366397170" height="356" />
     </div>
 
     <Navigation bef="password" aft="ascii" />

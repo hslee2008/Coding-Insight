@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>변수란?</h2>
@@ -40,11 +38,7 @@
           이렇게 하면 변수를 만들 수 있습니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/a5d980683b"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/a5d980683b" height="356" />
     </div>
 
     <QuadSpace />
@@ -92,11 +86,7 @@
           변수를 만들었을 때와 같이 '변수 이름 = 값' 코드를 실행하면 됩니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/4745a3ecb9"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/4745a3ecb9" height="356" />
     </div>
 
     <QuadSpace />

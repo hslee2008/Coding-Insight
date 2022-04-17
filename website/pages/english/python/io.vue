@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="header-div text-white">
         <div>
@@ -52,13 +50,7 @@
           </p>
         </div>
 
-        <iframe
-          :src="`${trinket}62e887bbca`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}62e887bbca`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />
@@ -122,10 +114,8 @@
 
         <iframe
           src="https://trinket.io/embed/python/5b6a7a8b2b"
-          width="100%"
           height="356"
           loading="lazy"
-          class="ma-auto"
         />
       </div>
 

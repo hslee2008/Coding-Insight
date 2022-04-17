@@ -1,25 +1,25 @@
 <template>
-  <v-expansion-panel
-    :style="`background-color: ${$vuetify.theme.dark ? bgd : 'white'}`"
-  >
-    <v-expansion-panel-header>{{ title }}</v-expansion-panel-header>
+  <v-expansion-panel :style="`background-color: ${bgd}`">
+    <v-expansion-panel-header>{{
+      englishfy() ? en : kr
+    }}</v-expansion-panel-header>
 
     <v-expansion-panel-content>
       <v-list-item
-        v-for="(item, i) in links[json + isEnglish()]"
+        v-for="(item, i) in links[json + englishfy()]"
         :key="item.to + i.toString()"
         :to="`/${item.type}/${item.to}`"
         dense
         exact
-        :active-class="`activeList${$vuetify.theme.dark ? 'Dark' : 'Light'}`"
-        @click="close"
+        @click="closeIfM"
+        :style="`background-color: ${bgd}`"
       >
         <v-list-item-icon>
           <v-icon>mdi-{{ item.icon }}</v-icon>
         </v-list-item-icon>
 
         <v-list-item-content>
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
+          <v-list-item-title v-text="item.title" />
         </v-list-item-content>
       </v-list-item>
     </v-expansion-panel-content>
@@ -32,33 +32,23 @@
 
   export default {
     props: ['itemprops', 'en', 'kr', 'json', 'close'],
+
     data() {
       return {
         links: {
           ...PythonLinks,
           ...PythonLinksEN,
         },
-
-        title: this.isEnglish() ? this.en : this.kr,
       };
     },
+
     methods: {
-      isEnglish() {
-        return this.$route.path.includes('english') ||
-          this.$route.path.includes('-en')
-          ? '_en'
-          : '';
+      englishfy() {
+        return this.$route.path.includes('english') ? '_en' : '';
+      },
+      closeIfM() {
+        this.$vuetify.breakpoint.mobile && this.close();
       },
     },
   };
 </script>
-
-<style scoped>
-  .activeListDark {
-    background-color: #23272f;
-  }
-
-  .activeListLight {
-    background-color: #e6f7ff;
-  }
-</style>

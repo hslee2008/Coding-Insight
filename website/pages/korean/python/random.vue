@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>무작위의 정의</h2>
@@ -43,13 +41,7 @@
             출력하고 싶다면 random()을 사용하면 됩니다.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}71d6fef8dc`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}71d6fef8dc`" height="356" loading="lazy" />
       </div>
     </div>
 
@@ -76,7 +68,7 @@
           </p>
         </div>
       </div>
-      <iframe :src="`${trinket}2c93c0b550`" width="100%" height="356" />
+      <iframe :src="`${trinket}2c93c0b550`" height="356" />
     </div>
 
     <Navigation bef="date" aft="dice" />

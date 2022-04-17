@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>string.h</h2>
@@ -68,7 +66,7 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}44gl`" width="100%" height="400" />
+        <iframe :src="`${jdoodle}44gl`" height="400" />
       </div>
     </div>
 
@@ -86,7 +84,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}44gm`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}44gm`" height="300" />
       </div>
     </div>
 

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="margin: 5px;">
         <h2>What is operator?</h2>
@@ -60,12 +58,7 @@
           example, a += 1 is euqal to a = a + 1.
         </p>
       </div>
-      <iframe
-        :src="`${trinket}ff303b9456`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}ff303b9456`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />
@@ -91,7 +84,7 @@
           True if right is bigger or equal to left and False otherwise.
         </p>
       </div>
-      <iframe :src="`${trinket}39a09b977e`" width="100%" height="356" />
+      <iframe :src="`${trinket}39a09b977e`" height="356" />
     </div>
 
     <Navigation bef="number" aft="numtype" />

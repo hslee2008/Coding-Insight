@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>변수란?</h2>
@@ -60,7 +58,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VTB`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}3VTB`" height="300" />
       </div>
     </div>
 
@@ -95,7 +93,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VTC`" width="100%" height="500" />
+        <iframe :src="`${jdoodle}3VTC`" height="500" />
       </div>
     </div>
 
@@ -148,7 +146,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VTE`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3VTE`" height="300px" />
       </div>
     </div>
 

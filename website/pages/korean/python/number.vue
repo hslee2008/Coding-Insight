@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>변수 - 숫자 선언 방법</h2>
@@ -43,7 +41,7 @@
         </p>
       </div>
 
-      <iframe :src="`${trinket}e6f77e0d9a`" width="100%" height="356" />
+      <iframe :src="`${trinket}e6f77e0d9a`" height="356" />
     </div>
 
     <QuadSpace />
@@ -68,7 +66,7 @@
         </p>
       </div>
 
-      <iframe :src="`${trinket}81191f5590`" width="100%" height="356" />
+      <iframe :src="`${trinket}81191f5590`" height="356" />
     </div>
 
     <QuadSpace />
@@ -97,7 +95,7 @@
         </p>
       </div>
 
-      <iframe :src="`${trinket}4b9cfba68b`" width="100%" height="356" />
+      <iframe :src="`${trinket}4b9cfba68b`" height="356" />
     </div>
 
     <Navigation bef="boolean" aft="operator" />

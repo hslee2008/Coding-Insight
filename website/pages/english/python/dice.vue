@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>Dice</h2>
@@ -35,7 +33,7 @@
       </code>
     </div>
     <QuadSpace />
-    <iframe :src="`${trinket}740f66be1f`" width="100%" height="356" />
+    <iframe :src="`${trinket}740f66be1f`" height="356" />
 
     <Navigation bef="random" aft="regex" />
   </div>

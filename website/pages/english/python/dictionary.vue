@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>What is dictionary?</h2>
@@ -48,7 +46,7 @@
           We have to use list(mainDict.keys()) to make them into lists.
         </p>
       </div>
-      <iframe :src="`${trinket}1e671b6947`" width="100%" height="356" />
+      <iframe :src="`${trinket}1e671b6947`" height="356" />
     </div>
 
     <QuadSpace />
@@ -74,7 +72,7 @@
           lists.
         </p>
       </div>
-      <iframe :src="`${trinket}1e671b6947`" width="100%" height="356" />
+      <iframe :src="`${trinket}1e671b6947`" height="356" />
     </div>
 
     <Navigation bef="contact" aft="dictionarymethod" />

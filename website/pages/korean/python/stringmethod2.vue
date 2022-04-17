@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div class="text-center">
       <iframe
         width="80%"
@@ -31,11 +29,7 @@
           예를 들어 "Hello" * 2는 "HelloHello"입니다.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/54f740c487"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/54f740c487" height="356" />
     </div>
 
     <QuadSpace />
@@ -62,11 +56,7 @@
           있는지 알 수 있습니다.<br />
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/9da1796e91"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/9da1796e91" height="356" />
     </div>
 
     <QuadSpace />
@@ -90,7 +80,6 @@
       </div>
       <iframe
         src="https://trinket.io/embed/python/d278186aad"
-        width="100%"
         height="356"
         loading="lazy"
       />

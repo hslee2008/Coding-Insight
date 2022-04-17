@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>The definition of random</h2>
@@ -56,7 +54,6 @@
           width="60%"
           height="356"
           loading="lazy"
-          class="ma-auto"
         />
       </div>
     </div>
@@ -110,12 +107,7 @@
           </p>
         </div>
       </div>
-      <iframe
-        :src="`${trinket}6af330fe9a`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}6af330fe9a`" height="356" loading="lazy" />
     </div>
 
     <Navigation bef="date" aft="dice" />

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>데이터 형태란?</h2>
@@ -47,10 +45,8 @@
 
     <iframe
       src="https://trinket.io/embed/python/1068ac5668"
-      width="100%"
       height="356"
       loading="lazy"
-      class="ma-auto"
     />
 
     <QuadSpace />
@@ -68,10 +64,8 @@
 
           <iframe
             src="https://trinket.io/embed/python/437398710e"
-            width="100%"
             height="356"
             loading="lazy"
-            class="ma-auto"
           />
 
           <br />

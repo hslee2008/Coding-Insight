@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>판다스</h2>
@@ -72,7 +70,7 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}ad2ac39772`" width="100%" height="356" />
+    <iframe :src="`${trinket}ad2ac39772`" height="356" />
 
     <QuadSpace />
 
@@ -88,7 +86,7 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}f3002f6946`" width="100%" height="356" />
+    <iframe :src="`${trinket}f3002f6946`" height="356" />
 
     <QuadSpace />
 
@@ -133,7 +131,7 @@
         />
       </div>
     </v-row>
-    <iframe :src="`${trinket}f3002f6946`" width="100%" height="356" />
+    <iframe :src="`${trinket}f3002f6946`" height="356" />
 
     <QuadSpace />
 
@@ -177,7 +175,7 @@
         max-width="500px"
       />
     </div>
-    <iframe :src="`${trinket}9b4294ecdb`" width="100%" height="356" />
+    <iframe :src="`${trinket}9b4294ecdb`" height="356" />
 
     <Navigation bef="turtle" aft="gtts" />
   </div>

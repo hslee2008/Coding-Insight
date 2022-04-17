@@ -35,13 +35,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}4f89284925`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}4f89284925`" height="356" loading="lazy" />
 
     <Navigation bef="complexthread" aft="multiprocessing" />
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="my-5 transparent">
+  <v-footer class="transparent">
     <v-btn
       v-for="(item, i) in [
         {

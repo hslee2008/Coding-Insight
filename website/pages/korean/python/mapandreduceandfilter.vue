@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>조금 더 좋아질 수 있는 코드</h2>
@@ -13,7 +11,7 @@
           않습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}0be5e6efb5`" width="100%" height="356" />
+      <iframe :src="`${trinket}0be5e6efb5`" height="356" />
     </div>
 
     <Header type="파이썬" num="64" title="map, reduce, filter" />
@@ -26,10 +24,8 @@
           매우 간단합니다.<br /><br />
           <iframe
             :src="`${trinket}373f6daa17`"
-            width="100%"
             height="356"
             loading="lazy"
-            class="ma-auto"
           /><br /><br />
           1. 먼저, map() 함수의 첫 번째 매개변수에는 함수의 이름을 넣습니다.<br />
           2. 만일 어떤 계산을 하는 함수 (예: x에 2를 곱하는 함수)가 존재하지
@@ -41,10 +37,8 @@
           있습니다.<br /><br />
           <iframe
             :src="`${trinket}22c2bc5172`"
-            width="100%"
             height="356"
             loading="lazy"
-            class="ma-auto"
           /><br /><br />
           lambda를 이용할 때 첫 번째 매개변수가 들어오는 값(mainList에 있는
           숫자의 값)이기 때문에 매개변수의 이름은 우리가 정할 수 있습니다.<br /><br />
@@ -81,13 +75,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}9eb9345774`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}9eb9345774`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -107,13 +95,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}294b66f2c5`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}294b66f2c5`" height="356" loading="lazy" />
 
     <Navigation bef="logging" aft="zlib" />
   </div>

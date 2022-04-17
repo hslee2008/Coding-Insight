@@ -1,6 +1,6 @@
 <template>
   <div class="mt-15 d-flex" style="flex-wrap: wrap">
-    <v-card width="100%" height="500px">
+    <v-card height="500px">
       <div class="d-flex">
         <div>
           <v-card-title class="text-h5">자동으로 Zoom 열기!</v-card-title>

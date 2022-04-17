@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>C와 C++ 언어 입출력</h2>
@@ -29,7 +27,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}48Mv`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}48Mv`" height="300" />
       </div>
     </div>
 
@@ -74,7 +72,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}48MH`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}48MH`" height="300" />
       </div>
     </div>
 
@@ -104,7 +102,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}48MS`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}48MS`" height="300" />
       </div>
     </div>
 
@@ -120,7 +118,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4aoi`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4aoi`" height="300" />
       </div>
     </div>
 

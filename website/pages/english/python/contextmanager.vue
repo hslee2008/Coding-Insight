@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>What is context manager(with 'with')</h2>
@@ -40,7 +38,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}f10313f544`" width="100%" height="356" />
+      <iframe :src="`${trinket}f10313f544`" height="356" />
     </div>
 
     <QuadSpace />
@@ -69,7 +67,7 @@
           </p>
         </div>
       </div>
-      <iframe :src="`${trinket}adcdf0d2c3`" width="100%" height="356" />
+      <iframe :src="`${trinket}adcdf0d2c3`" height="356" />
     </div>
 
     <Navigation bef="contact2" aft="datachange" />

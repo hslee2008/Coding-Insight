@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>How to use datetime module</h2>
@@ -37,7 +35,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}437df64da8`" width="100%" height="356" />
+      <iframe :src="`${trinket}437df64da8`" height="356" />
     </div>
 
     <QuadSpace />
@@ -67,12 +65,7 @@
           Minute is '%M', second is '%S' and milisecond is '%f'.
         </p>
       </div>
-      <iframe
-        :src="`${trinket}d0f4e3cc48`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}d0f4e3cc48`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />

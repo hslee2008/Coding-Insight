@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>struct 구조체</h2>
@@ -55,7 +53,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47oW`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47oW`" height="300" />
       </div>
     </div>
 
@@ -88,7 +86,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47p1`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47p1`" height="300" />
       </div>
     </div>
 
@@ -116,7 +114,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47p7`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47p7`" height="300" />
       </div>
     </div>
 

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <br /><br />
     <div class="text-center">
       <iframe
         width="560"
@@ -23,7 +22,7 @@
           바꿀 수도 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}a413df3b12`" width="100%" height="356" />
+      <iframe :src="`${trinket}a413df3b12`" height="356" />
     </div>
 
     <QuadSpace />
@@ -38,7 +37,7 @@
           아이템을 넣을지 입력하면 됩니다.
         </p>
       </div>
-      <iframe :src="`${trinket}d50ab693f8`" width="100%" height="356" />
+      <iframe :src="`${trinket}d50ab693f8`" height="356" />
     </div>
 
     <QuadSpace />
@@ -55,7 +54,7 @@
           버리는 것과 같이 모든 값을 제거할 수 예시입니다.
         </p>
       </div>
-      <iframe :src="`${trinket}8ea821b7b4`" width="100%" height="356" />
+      <iframe :src="`${trinket}8ea821b7b4`" height="356" />
     </div>
 
     <QuadSpace />
@@ -74,7 +73,7 @@
         sum() 함수를 사용하면 리스트에 있는 모든 숫자를 더한 값을 찾을 수
         있습니다 (CODE3)
       </div>
-      <iframe :src="`${trinket}7fdd2b43c1`" width="100%" height="356" />
+      <iframe :src="`${trinket}7fdd2b43c1`" height="356" />
     </div>
 
     <Navigation bef="list" aft="listmethod2" />

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>무한 반복문</h2>
@@ -64,7 +62,7 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3YM6`" width="100%" height="400px" />
+        <iframe :src="`${jdoodle}3YM6`" height="400px" />
       </div>
     </div>
 

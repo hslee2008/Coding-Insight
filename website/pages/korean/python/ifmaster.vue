@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div class="text-center">
       <iframe
         width="560"
@@ -37,7 +35,7 @@
           >
         </p>
       </div>
-      <iframe :src="`${trinket}73c3356df0`" width="100%" height="356" />
+      <iframe :src="`${trinket}73c3356df0`" height="356" />
     </div>
 
     <QuadSpace />
@@ -57,13 +55,7 @@
             사용할 수 있습니다.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}cb9b932e10`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}cb9b932e10`" height="356" loading="lazy" />
       </div>
     </div>
 

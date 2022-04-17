@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <v-card class="ma-auto">
       <v-card-text>
         <h3>머신 러닝</h3>
@@ -117,7 +115,7 @@
 
         9. <code class="ic">print(pred)</code> (예측 결과 출력)<br /><br />
 
-        <iframe :src="`${trinket}02de47df74`" width="100%" height="356" />
+        <iframe :src="`${trinket}02de47df74`" height="356" />
       </p>
     </div>
 
@@ -155,8 +153,7 @@
           >print(accuracy_score(y_test, pred))</code
         ><br /><br />
 
-        <iframe :src="`${trinket}282aeb7817`" width="100%" height="356">
-        </iframe>
+        <iframe :src="`${trinket}282aeb7817`" height="356"> </iframe>
         <br /><br />
 
         <v-alert

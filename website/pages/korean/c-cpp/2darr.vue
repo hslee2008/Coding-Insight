@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>2차원 배열이란?</h2>
@@ -45,7 +43,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}44gq`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}44gq`" height="300" />
       </div>
     </div>
 
@@ -62,7 +60,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}44gr`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}44gr`" height="300" />
       </div>
     </div>
 

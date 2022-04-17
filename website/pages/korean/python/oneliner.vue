@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>왜 코드를 한 줄에 넣어야 할까요?</h2>
@@ -27,7 +25,7 @@
           사용하세요.
         </p>
       </div>
-      <iframe :src="`${trinket}724bf9a522`" width="100%" height="356" />
+      <iframe :src="`${trinket}724bf9a522`" height="356" />
     </div>
 
     <QuadSpace />
@@ -41,13 +39,7 @@
             파이썬 코드를 넣지 않아도 코드의 끝에 붙일 수 있습니다.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}ca6f756679`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}ca6f756679`" height="356" loading="lazy" />
       </div>
     </div>
 

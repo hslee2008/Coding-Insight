@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>문자란?</h2>
@@ -41,11 +39,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python/7c86f7328a"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/7c86f7328a" height="356" />
     </div>
 
     <QuadSpace />
@@ -77,11 +71,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python/c420acd5f8"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/c420acd5f8" height="356" />
     </div>
 
     <QuadSpace />
@@ -113,7 +103,7 @@
         </p>
       </div>
 
-      <iframe :src="`${trinket}e1cdc9760f`" width="100%" height="356" />
+      <iframe :src="`${trinket}e1cdc9760f`" height="356" />
     </div>
 
     <QuadSpace />
@@ -132,11 +122,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python/47c742b3bd"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/47c742b3bd" height="356" />
     </div>
 
     <QuadSpace />
@@ -156,11 +142,7 @@
         </p>
       </div>
 
-      <iframe
-        src="https://trinket.io/embed/python/4e95210044"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/4e95210044" height="356" />
     </div>
 
     <Navigation bef="comment" aft="stringmethod1" />

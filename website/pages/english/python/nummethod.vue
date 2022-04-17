@@ -21,12 +21,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}f74cbaa5c3`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}f74cbaa5c3`" height="356" loading="lazy" />
     </div>
 
     <Navigation bef="calc" aft="list" />

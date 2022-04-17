@@ -10,7 +10,7 @@
           있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}cf2c9fad50`" width="100%" height="358" />
+      <iframe :src="`${trinket}cf2c9fad50`" height="358" />
     </div>
 
     <QuadSpace />
@@ -29,13 +29,7 @@
           이때, 터미널에 있는 모든 내용을 다 깨끗이 없애겠습니다.<br /><br />
           컴퓨터에 따라서 clear 또는 cls 일 수도 있습니다.
         </div>
-        <iframe
-          :src="`${trinket}63f69099ff`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}63f69099ff`" height="356" loading="lazy" />
       </div>
     </div>
 

@@ -12,12 +12,7 @@
           <code> a[3] = 'c' </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}32e3c5c425`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}32e3c5c425`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />
@@ -42,13 +37,7 @@
 
           if we use del, only the pair will be deleted from the dictionary.
         </p>
-        <iframe
-          :src="`${trinket}1a3ca85630`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}1a3ca85630`" height="356" loading="lazy" />
       </div>
     </div>
 
@@ -98,12 +87,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}9b40fb09d3`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}9b40fb09d3`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />
@@ -132,7 +116,7 @@
           "Hmmm... Not found".
         </p>
       </div>
-      <iframe :src="`${trinket}c250d6c262`" width="100%" height="356" />
+      <iframe :src="`${trinket}c250d6c262`" height="356" />
     </div>
 
     <Navigation bef="dictionary" aft="zipping" />

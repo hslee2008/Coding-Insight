@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>What is variable?</h2>
@@ -31,11 +29,7 @@
           value of the variable.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/a5d980683b"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/a5d980683b" height="356" />
     </div>
 
     <QuadSpace />
@@ -81,7 +75,7 @@
         <h2>Change variable value</h2>
         <p>To change the variable's value, simply type in a new value.</p>
       </div>
-      <iframe :src="`${trinket}ddd8867b8c`" width="100%" height="356" />
+      <iframe :src="`${trinket}ddd8867b8c`" height="356" />
     </div>
 
     <QuadSpace />

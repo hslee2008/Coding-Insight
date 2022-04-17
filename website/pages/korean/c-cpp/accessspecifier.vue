@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Access Specifier</h2>
@@ -91,7 +89,7 @@
           </code>
         </p>
       </div>
-      <iframe width="100%" height="400" :src="`${jdoodle}4n6o`" />
+      <iframe height="400" :src="`${jdoodle}4n6o`" />
     </div>
 
     <Navigation bef="constructor" aft="inheritance" />

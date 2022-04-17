@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>클래스란?</h2>
@@ -60,7 +58,7 @@
           }</code
         >
       </div>
-      <iframe width="100%" height="300" :src="`${jdoodle}4mS4`" />
+      <iframe height="300" :src="`${jdoodle}4mS4`" />
     </div>
 
     <Navigation bef="endl" aft="classmethod" />

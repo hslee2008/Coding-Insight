@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>데이터 형태란?</h2>
       <p>
@@ -154,7 +152,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3VZs`" width="100%" height="400px" />
+        <iframe :src="`${jdoodle}3VZs`" height="400px" />
       </div>
     </div>
 

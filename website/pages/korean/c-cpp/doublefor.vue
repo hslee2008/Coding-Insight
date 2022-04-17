@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>이중 반복문</h2>
@@ -54,7 +52,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br />
         }
       </code>
-      <iframe :src="`${jdoodle}3YLZ`" width="100%" height="300px" />
+      <iframe :src="`${jdoodle}3YLZ`" height="300px" />
     </div>
 
     <Navigation bef="while" aft="dowhile" />

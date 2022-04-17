@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>장난 이메일</h2>
@@ -47,13 +45,7 @@
 
     <QuadSpace />
 
-    <iframe
-      :src="`${trinket}db9f325b98`"
-      width="100%"
-      height="500vh"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}db9f325b98`" height="500vh" loading="lazy" />
 
     <Navigation bef="coroutine" aft="autozoom" />
   </div>

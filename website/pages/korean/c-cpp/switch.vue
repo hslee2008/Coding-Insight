@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>Switch</h2>
@@ -59,7 +57,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3W93`" height="400px" width="100%" />
+        <iframe :src="`${jdoodle}3W93`" height="400px" />
       </div>
     </div>
 
@@ -101,7 +99,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3Wcm`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3Wcm`" height="300px" />
       </div>
     </div>
 

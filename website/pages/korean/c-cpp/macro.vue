@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>매크로란?</h2>
@@ -57,7 +55,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47BQ`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47BQ`" height="300" />
       </div>
     </div>
 
@@ -81,7 +79,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47BR`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47BR`" height="300" />
       </div>
     </div>
 
@@ -110,7 +108,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47BT`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47BT`" height="300" />
       </div>
     </div>
 

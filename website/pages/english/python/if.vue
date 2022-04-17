@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <h2>If Statement</h2>
     <p>
       If statement is a statement that contains the meaning 'if'.<br /><br />
@@ -75,13 +73,7 @@
         The if statement will run if at least one of the two statement is True.
       </p>
     </div>
-    <iframe
-      :src="`${trinket}9e178be286`"
-      width="100%"
-      height="250"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}9e178be286`" height="250" loading="lazy" />
 
     <QuadSpace />
 
@@ -113,13 +105,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}4f34d13cdc`"
-      width="100%"
-      height="400"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}4f34d13cdc`" height="400" loading="lazy" />
 
     <Navigation bef="setmethod" aft="ifmaster" />
   </div>

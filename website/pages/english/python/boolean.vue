@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>What is Boolean?</h2>
@@ -46,10 +44,8 @@
 
     <iframe
       src="https://trinket.io/embed/python/8500bba20b"
-      width="100%"
       height="356"
       loading="lazy"
-      class="ma-auto"
     />
 
     <QuadSpace />
@@ -106,11 +102,7 @@
           of them are False.
         </p>
       </div>
-      <iframe
-        src="https://trinket.io/embed/python/6d4ae0d672"
-        width="100%"
-        height="356"
-      />
+      <iframe src="https://trinket.io/embed/python/6d4ae0d672" height="356" />
     </div>
 
     <Navigation bef="ascii" aft="number" />

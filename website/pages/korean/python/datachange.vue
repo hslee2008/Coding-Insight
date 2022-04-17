@@ -16,13 +16,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}b8df2e09d4`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}b8df2e09d4`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -34,7 +28,7 @@
           사용하여 튜플로 전환할 수 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}facd314b6c`" width="100%" height="356" />
+      <iframe :src="`${trinket}facd314b6c`" height="356" />
     </div>
 
     <QuadSpace />
@@ -54,7 +48,7 @@
           NaN은 Not a Number의 약자입니다
         </p>
       </div>
-      <iframe :src="`${trinket}cf87c918cc`" width="100%" height="356" />
+      <iframe :src="`${trinket}cf87c918cc`" height="356" />
     </div>
 
     <QuadSpace />
@@ -69,7 +63,7 @@
           0은 항상 False이고 1은 True입니다.
         </p>
       </div>
-      <iframe :src="`${trinket}314b0e422c`" width="100%" height="356" />
+      <iframe :src="`${trinket}314b0e422c`" height="356" />
     </div>
 
     <QuadSpace />

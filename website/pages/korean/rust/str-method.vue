@@ -12,7 +12,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Rust%20Language%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7Ba%7D%EC%9D%98%20%EA%B8%B8%EC%9D%B4%EB%8A%94%20%7B%7D%EC%9E%85%EB%8B%88%EB%8B%A4.%22%2C%20a.len())%3B%0A%20%20%20%20println!(%22a%EA%B0%80%20%EB%B9%84%EC%96%B4%EC%9E%88%EB%82%98%EC%9A%94%3F%20%7B%7D%22%2C%20a.is_empty())%3B%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>
@@ -31,7 +30,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Hello%2C%20World!%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%3A%3F%7D%22%2C%20a.as_bytes())%3B%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>
@@ -57,7 +55,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20let%20a:%20&str%20=%20%22Hello,%20World!%22;%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B:%253F%7D%22,%20a.as_bytes());%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>
@@ -72,7 +69,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Hello%20World%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.contains(%22Hello%22))%3B%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>

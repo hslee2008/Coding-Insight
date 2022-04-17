@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>소수형 데이터 형태</h2>
@@ -33,7 +31,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20test_integer%3A%20f32%20%3D%20123.123%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.floor())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.ceil())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.round())%3B%0D%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>
@@ -51,7 +48,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20test_integer%3A%20f32%20%3D%203.14159%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.trunc())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.fract())%3B%0D%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>

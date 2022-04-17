@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>클래스 안의 함수</h2>
@@ -46,7 +44,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${jdoodle}4mSa`" width="100%" height="300" />
+      <iframe :src="`${jdoodle}4mSa`" height="300" />
     </div>
 
     <QuadSpace />
@@ -77,7 +75,7 @@
           </code>
         </p>
       </div>
-      <iframe width="100%" height="300" :src="`${jdoodle}4mS4`" />
+      <iframe height="300" :src="`${jdoodle}4mS4`" />
     </div>
 
     <Navigation bef="class" aft="constructor" />

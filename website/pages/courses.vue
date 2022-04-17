@@ -90,7 +90,7 @@
         <v-img
           class="white--text align-end"
           height="200"
-          src="https://i2.wp.com/www.thecoderworld.com/wp-content/uploads/2020/04/Rust-Based-Programming-Language.png?fit=1280%2C720&ssl=1"
+          src="https://csiac.org/wp-content/uploads/bb-plugin/cache/Rust-Based-Programming-Language-panorama.png"
         >
           <v-card-title><h4>Rust 프로그래밍 언어</h4></v-card-title>
         </v-img>

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>What is __name__ variable?</h2>
       <p>
@@ -26,26 +24,14 @@
         <p>
           Let's look at the following examples.<br /><br />
 
-          <iframe
-            :src="`${trinket}c6d50081cf`"
-            width="100%"
-            height="356"
-            loading="lazy"
-            class="ma-auto"
-          />
+          <iframe :src="`${trinket}c6d50081cf`" height="356" loading="lazy" />
 
           <br /><br />If we run the code inside file2.py, "Hi" is printed
           twice.<br /><br />
 
           Let's try changing the contents inside file1.py.<br /><br />
 
-          <iframe
-            :src="`${trinket}b01563dd19`"
-            width="100%"
-            height="356"
-            loading="lazy"
-            class="ma-auto"
-          />
+          <iframe :src="`${trinket}b01563dd19`" height="356" loading="lazy" />
 
           <br /><br />Know, if we run the code inside file2.py, the only thing
           we get is one "Hi" instead of two.

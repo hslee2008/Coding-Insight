@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>정렬 모양이란?</h2>
@@ -29,13 +27,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}20b4a15af9`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}20b4a15af9`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -51,13 +43,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}2143d07d6a`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}2143d07d6a`" height="356" loading="lazy" />
 
     <Navigation bef="array_type" aft="error" />
   </div>

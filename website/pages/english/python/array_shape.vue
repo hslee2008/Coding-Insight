@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Array Shapes</h2>
@@ -22,7 +20,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}20b4a15af9`" width="100%" height="356" />
+      <iframe :src="`${trinket}20b4a15af9`" height="356" />
     </div>
 
     <Header type="Python" num="60" title="Array Shape" />
@@ -53,7 +51,6 @@
       width="60%"
       height="356"
       loading="lazy"
-      class="ma-auto"
     />
 
     <Navigation bef="array_type" aft="error" />

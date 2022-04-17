@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <Header type="Python" num="30" title="Function (Advanced)" />
 
@@ -40,13 +38,7 @@
             </code>
           </p>
         </div>
-        <iframe
-          :src="`${trinket}901f63378a`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}901f63378a`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />
@@ -74,13 +66,7 @@
               Therefore, "South Korea" is printed.
             </p>
           </div>
-          <iframe
-            :src="`${trinket}095fe5cab9`"
-            width="100%"
-            height="356"
-            loading="lazy"
-            class="ma-auto"
-          />
+          <iframe :src="`${trinket}095fe5cab9`" height="356" loading="lazy" />
         </div>
       </div>
 
@@ -96,12 +82,7 @@
 
             Treat a function that returns value as data type itself.<br /><br />
 
-            <iframe
-              :src="`${trinket}e07973bfc0`"
-              width="100%"
-              height="356"
-              loading="lazy"
-            />
+            <iframe :src="`${trinket}e07973bfc0`" height="356" loading="lazy" />
 
             Note that returning a value will end the function. The code after
             return will be ignored.<br /><br />
@@ -109,12 +90,7 @@
             We can return multiple values as tuples. This only exists in
             Python.<br /><br />
 
-            <iframe
-              :src="`${trinket}6a2291c952`"
-              width="100%"
-              height="356"
-              loading="lazy"
-            />
+            <iframe :src="`${trinket}6a2291c952`" height="356" loading="lazy" />
 
             TIP: use 'return' without any value after to end the function
             immediately.
@@ -132,13 +108,7 @@
             'pass' keyword.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}80ed8ae473`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}80ed8ae473`" height="356" loading="lazy" />
       </div>
     </div>
 

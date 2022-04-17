@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>카운터에 대한 간단한 예시와 설명</h2>
@@ -16,7 +14,7 @@
           않고 숫자만 이용하여 카운터를 만드는 것이 가능합니다.
         </p>
       </div>
-      <iframe :src="`${trinket}da3dfe80d1`" width="100%" height="356" />
+      <iframe :src="`${trinket}da3dfe80d1`" height="356" />
     </div>
 
     <Header type="파이썬" num="77" title="카원터" />
@@ -32,13 +30,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}1784ae1aca`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}1784ae1aca`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -53,13 +45,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}6776498f90`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}6776498f90`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -73,13 +59,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}f918534c52`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}f918534c52`" height="356" loading="lazy" />
 
     <QuadSpace />
 

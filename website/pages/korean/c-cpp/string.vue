@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>문자열이란?</h2>
@@ -51,7 +49,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}42tH`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}42tH`" height="300px" />
       </div>
     </div>
 
@@ -73,7 +71,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}42tI`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}42tI`" height="300px" />
       </div>
     </div>
 

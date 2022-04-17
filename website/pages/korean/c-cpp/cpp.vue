@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <p>
         C 언어에서 변수를 ++하면 1 증가합니다.<br /><br />

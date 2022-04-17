@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>딕셔너리란?</h2>
@@ -17,7 +15,7 @@
           예를 들어 보겠습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}ba9dc3b4ac`" width="100%" height="356" />
+      <iframe :src="`${trinket}ba9dc3b4ac`" height="356" />
     </div>
 
     <QuadSpace />
@@ -60,7 +58,7 @@
           있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}534b32664d`" width="100%" height="356" />
+      <iframe :src="`${trinket}534b32664d`" height="356" />
     </div>
 
     <QuadSpace />
@@ -80,7 +78,7 @@
           유용하게 사용할 수 있는 예시를 들겠습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}1e671b6947`" width="100%" height="356" />
+      <iframe :src="`${trinket}1e671b6947`" height="356" />
     </div>
 
     <QuadSpace />
@@ -95,7 +93,7 @@
           됩니다.
         </p>
       </div>
-      <iframe :src="`${trinket}05de91d4c2`" width="100%" height="356" />
+      <iframe :src="`${trinket}05de91d4c2`" height="356" />
     </div>
 
     <Navigation bef="listmethod2" aft="dictionarymethod" />

@@ -28,7 +28,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4ePU`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4ePU`" height="300" />
       </div>
     </div>
 
@@ -59,7 +59,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4ePV`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4ePV`" height="300" />
       </div>
     </div>
 
@@ -94,7 +94,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4ePX`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4ePX`" height="300" />
       </div>
     </div>
 

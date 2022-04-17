@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>namespace란?</h2>
@@ -47,7 +45,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${jdoodle}4mRF`" width="100%" height="400" />
+      <iframe :src="`${jdoodle}4mRF`" height="400" />
     </div>
 
     <QuadSpace />

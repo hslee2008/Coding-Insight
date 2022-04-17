@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>집합 연산</h2>
@@ -51,7 +49,7 @@
           누르세요) 연산자를 사용할 수 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}f16d8554a4`" width="100%" height="356" />
+      <iframe :src="`${trinket}f16d8554a4`" height="356" />
     </div>
 
     <QuadSpace />
@@ -78,13 +76,7 @@
             교집합을 찾을 수 있습니다.<br /><br />
           </p>
         </div>
-        <iframe
-          :src="`${trinket}bdb3068e9e`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}bdb3068e9e`" height="356" loading="lazy" />
       </div>
     </div>
 
@@ -102,7 +94,7 @@
           간단하게 '-'를 사용해보겠습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}a69bea0190`" width="100%" height="356" />
+      <iframe :src="`${trinket}a69bea0190`" height="356" />
     </div>
 
     <Navigation bef="set" aft="if" />

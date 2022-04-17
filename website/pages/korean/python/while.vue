@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <Header type="파이썬" num="37" title="While 반복문" />
 
@@ -18,13 +16,7 @@
             것입니다.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}496fc82d74`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}496fc82d74`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />
@@ -60,13 +52,7 @@
             </p>
           </div>
         </div>
-        <iframe
-          :src="`${trinket}3f6d66c42e`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}3f6d66c42e`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />
@@ -81,13 +67,7 @@
             있습니다.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}d35c515f41`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}d35c515f41`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />

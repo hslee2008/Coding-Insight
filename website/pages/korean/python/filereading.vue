@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>파일 읽기란?</h2>
@@ -48,13 +46,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}69df2c15b8`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}69df2c15b8`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -69,13 +61,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}6b4e266873`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}6b4e266873`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -91,13 +77,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}8d79bcebaa`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}8d79bcebaa`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -111,13 +91,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}a301fbf34c`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}a301fbf34c`" height="356" loading="lazy" />
 
     <Navigation bef="file" aft="filewriting" />
   </div>

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <Header type="Python" num="35" title="For Loop Type" />
 
@@ -26,13 +24,7 @@
             of datas.<br /><br />
           </p>
         </div>
-        <iframe
-          :src="`${trinket}a532b0eef6`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}a532b0eef6`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />
@@ -51,13 +43,7 @@
               Using generators preserve more space.
             </p>
           </div>
-          <iframe
-            :src="`${trinket}c87eacfde8`"
-            width="100%"
-            height="356"
-            loading="lazy"
-            class="ma-auto"
-          />
+          <iframe :src="`${trinket}c87eacfde8`" height="356" loading="lazy" />
         </div>
       </div>
 
@@ -77,13 +63,7 @@
               4. Make a for loop that access each item inside generator function
             </p>
           </div>
-          <iframe
-            :src="`${trinket}c9ce2cddc8`"
-            width="100%"
-            height="356"
-            loading="lazy"
-            class="ma-auto"
-          />
+          <iframe :src="`${trinket}c9ce2cddc8`" height="356" loading="lazy" />
         </div>
       </div>
     </div>

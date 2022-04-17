@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>Declare number variable</h2>
@@ -42,12 +40,7 @@
           Instead of using the normal operators, Python uses * and /.
         </p>
       </div>
-      <iframe
-        :src="`${trinket}75d1cbc8dd`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}75d1cbc8dd`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />
@@ -84,7 +77,7 @@
           string no matter what.
         </p>
       </div>
-      <iframe :src="`${trinket}81191f5590`" width="100%" height="356" />
+      <iframe :src="`${trinket}81191f5590`" height="356" />
     </div>
 
     <QuadSpace />
@@ -116,7 +109,7 @@
           Use int() to make string into a number.
         </p>
       </div>
-      <iframe :src="`${trinket}4b9cfba68b`" width="100%" height="356" />
+      <iframe :src="`${trinket}4b9cfba68b`" height="356" />
     </div>
 
     <Navigation bef="boolean" aft="operator" />

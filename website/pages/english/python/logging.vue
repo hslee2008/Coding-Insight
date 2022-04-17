@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <h2>What is logging?</h2>
     <p>
       If there is a problem with a Pyton program and you might want to know what
@@ -35,13 +33,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}9d4fc4880a`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}9d4fc4880a`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -53,12 +45,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}6c1c71f7fd`"
-      width="100%"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket}6c1c71f7fd`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -88,13 +75,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}f9687df6a4`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}f9687df6a4`" height="356" loading="lazy" />
 
     <Navigation bef="error2" aft="mapandreduceandfilter" />
   </div>

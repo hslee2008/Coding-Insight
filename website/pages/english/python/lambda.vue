@@ -50,13 +50,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}ad432c8141`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}ad432c8141`" height="356" loading="lazy" />
 
     <Navigation bef="type" aft="for" />
   </div>

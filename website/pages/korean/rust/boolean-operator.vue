@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>불리언 연산자</h2>
       <p>
@@ -24,7 +22,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20i32%20%3D%2023%3B%0D%0A%20%20%20%20let%20val2%3A%20i32%20%3D%2024%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3C%20val2%20%26%26%20val1%20!%3D%20val2)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3C%20val2%20%26%26%20val1%20%3D%3D%20val2)%3B%0D%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>
@@ -44,7 +41,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20i32%20%3D%2023%3B%0D%0A%20%20%20%20let%20val2%3A%20i32%20%3D%2024%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3C%20val2%20%7C%7C%20val1%20%3D%3D%20val2)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3E%20val2%20%7C%7C%20val1%20%3D%3D%20val2)%3B%0D%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>

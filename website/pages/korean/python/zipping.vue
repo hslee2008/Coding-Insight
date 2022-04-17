@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>나만의 압축 프로그램</h2>
@@ -60,7 +58,7 @@
     <QuadSpace />
 
     <h2>코드 확인하기</h2>
-    <iframe :src="`${trinket}836101c4af`" width="100%" height="356" />
+    <iframe :src="`${trinket}836101c4af`" height="356" />
 
     <Navigation bef="dictionarymethod" aft="tuple" />
   </div>

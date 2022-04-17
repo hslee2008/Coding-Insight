@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>연산자란?</h2>
       <p>
@@ -63,7 +61,7 @@
         </p>
       </div>
 
-      <iframe :src="`${trinket}fd203a6323`" width="100%" height="356" />
+      <iframe :src="`${trinket}fd203a6323`" height="356" />
     </div>
 
     <QuadSpace />
@@ -83,7 +81,7 @@
         </p>
       </div>
 
-      <iframe :src="`${trinket}39a09b977e`" width="100%" height="356" />
+      <iframe :src="`${trinket}39a09b977e`" height="356" />
     </div>
 
     <Navigation bef="number" aft="numtype" />

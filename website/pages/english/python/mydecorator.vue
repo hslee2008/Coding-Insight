@@ -11,12 +11,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}98ddcafe80`"
-      width="100%"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket}98ddcafe80`" height="356" loading="lazy" />
 
     <Navigation bef="decorator" aft="pythondecorator" />
   </div>

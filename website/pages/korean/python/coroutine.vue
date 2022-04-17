@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>코루틴 만들기</h2>
@@ -39,13 +37,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}fe3f6eff37`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}fe3f6eff37`" height="356" loading="lazy" />
 
     <Navigation bef="atexit" aft="spam" />
   </div>

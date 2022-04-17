@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <h2>What is function?</h2>
     <p>
       Function is a group of code in programming language.<br /><br />
@@ -38,12 +36,7 @@
           <code> sayHelloToWorld() </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}221bb999f6`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}221bb999f6`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />
@@ -68,13 +61,7 @@
             <code> addNum(1, 1) </code>
           </p>
         </div>
-        <iframe
-          :src="`${trinket}3a2f78ef6b`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}3a2f78ef6b`" height="356" loading="lazy" />
       </div>
     </div>
 
@@ -121,12 +108,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}18e0db3387`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}18e0db3387`" height="356" loading="lazy" />
     </div>
 
     <Navigation bef="none" aft="functionhard" />

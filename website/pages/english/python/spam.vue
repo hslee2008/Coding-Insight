@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>Spam Email</h2>
@@ -46,7 +44,7 @@
 
     <QuadSpace />
 
-    <iframe :src="`${trinket}7747ffbfd7`" width="100%" height="356" />
+    <iframe :src="`${trinket}7747ffbfd7`" height="356" />
 
     <Navigation bef="coroutine" aft="autozoom" />
   </div>

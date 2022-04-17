@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>친구 목록 다루기 2</h2>
@@ -30,7 +28,7 @@
     <QuadSpace />
 
     <h2>코드 확인하기</h2>
-    <iframe :src="`${trinket}9e26723d8a`" width="100%" height="356" />
+    <iframe :src="`${trinket}9e26723d8a`" height="356" />
 
     <Navigation bef="contextmanager" aft="datachange" />
   </div>

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>에러</h2>
@@ -38,13 +36,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}cc1e7a05d5`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}cc1e7a05d5`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -61,13 +53,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}ed6a6e6033`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}ed6a6e6033`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -80,13 +66,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}14b1f55e66`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}14b1f55e66`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -98,13 +78,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}c6fec3fdb7`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}c6fec3fdb7`" height="356" loading="lazy" />
 
     <Navigation bef="array_shape" aft="error2" />
   </div>

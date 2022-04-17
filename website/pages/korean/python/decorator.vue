@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <GlobalImage
@@ -58,13 +56,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}867aac4aa9`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}867aac4aa9`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -104,13 +96,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}659cf1cdb5`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}659cf1cdb5`" height="356" loading="lazy" />
 
     <Navigation bef="zlib" aft="mydecorator" />
   </div>

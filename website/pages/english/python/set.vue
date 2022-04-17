@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>What is set?</h2>
@@ -24,12 +22,7 @@
           Note that sets do not have an order.
         </p>
       </div>
-      <iframe
-        :src="`${trinket}08504670a3`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}08504670a3`" height="356" loading="lazy" />
     </div>
 
     <Header type="Python" num="24" title="Set" />
@@ -67,12 +60,7 @@
             </code>
           </p>
         </div>
-        <iframe
-          :src="`${trinket}9be0ca57a7`"
-          width="100%"
-          height="356"
-          loading="lazy"
-        />
+        <iframe :src="`${trinket}9be0ca57a7`" height="356" loading="lazy" />
       </div>
     </div>
 
@@ -112,7 +100,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}62528e1b44`" width="100%" height="356" />
+      <iframe :src="`${trinket}62528e1b44`" height="356" />
     </div>
 
     <Navigation bef="tuple" aft="setmethod" />

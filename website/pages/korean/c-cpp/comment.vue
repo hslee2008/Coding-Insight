@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>주석이란?</h2>
       <p>
@@ -36,7 +34,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VZz`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}3VZz`" height="300" />
       </div>
     </div>
 
@@ -72,7 +70,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VZB`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3VZB`" height="300px" />
       </div>
     </div>
 

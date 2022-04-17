@@ -18,7 +18,7 @@
           코드에서 사용할 수 있는 코드로 변합니다.
         </p>
       </div>
-      <iframe :src="`${trinket}db03626a7c`" width="100%" height="356" />
+      <iframe :src="`${trinket}db03626a7c`" height="356" />
     </div>
 
     <QuadSpace />

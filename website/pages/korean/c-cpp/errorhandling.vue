@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>예외 처리란?</h2>
@@ -64,7 +62,7 @@
           msg 변수를 사용할 수 있게 도와줍니다.
         </p>
       </div>
-      <iframe :src="`${jdoodle}4iPQ`" width="100%" height="400" />
+      <iframe :src="`${jdoodle}4iPQ`" height="400" />
     </div>
 
     <QuadSpace />
@@ -97,7 +95,7 @@
           condition!"이라는 에러가 생길 것입니다.
         </p>
       </div>
-      <iframe :src="`${jdoodle}4iPQ`" width="100%" height="400" />
+      <iframe :src="`${jdoodle}4iPQ`" height="400" />
     </div>
 
     <Navigation bef="allheader" aft="namespace" />

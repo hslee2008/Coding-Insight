@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <GlobalImage
         src="https://cloudreports.net/wp-content/uploads/2019/06/Function_machine2.png"
@@ -35,7 +33,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20print_hello_world()%3B%0D%0A%20%20%20%20print_hello_world()%3B%0D%0A%20%20%20%20print_hello_world()%3B%0D%0A%7D%0D%0A%0D%0Afn%20print_hello_world()%20%7B%0D%0A%20%20%20%20println!(%22Hello%2C%20World!%22)%3B%0D%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>
@@ -56,7 +53,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20got_this1%3A%20%26str%20%3D%20print_this_to_console(%22This%20is%20crazy!%22)%3B%0D%0A%20%20%20%20let%20got_this2%3A%20%26str%20%3D%20print_this_to_console(%22But%20here%20is%20my%20number%22)%3B%0D%0A%20%20%20%20let%20got_this3%3A%20%26str%20%3D%20print_this_to_console(%22So%20call%20me%20maybe...%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%EA%B2%B0%EA%B3%BC%3A%20%7Bgot_this1%7D%2C%20%7Bgot_this2%7D%2C%20%7Bgot_this3%7D%22)%0D%0A%7D%0D%0A%0D%0Afn%20print_this_to_console(to_print%3A%20%26str)%20-%3E%20%26str%20%7B%0D%0A%20%20%20%20println!(%22%7Bto_print%7D%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20return%20to_print%3B%0D%0A%7D`"
-          width="100%"
           height="400"
         />
       </div>

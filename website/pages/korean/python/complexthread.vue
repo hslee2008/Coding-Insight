@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>파이썬에서 조금 더 복잡한 스레드 예시</h2>
@@ -23,7 +21,7 @@
           Done! 과 0.9초 기다리고 Now It is Really Done! 을 출력합니다.
         </p>
       </div>
-      <iframe :src="`${trinket}d14f421fa3`" width="100%" height="356" />
+      <iframe :src="`${trinket}d14f421fa3`" height="356" />
     </div>
 
     <Header type="파이썬" num="74" title="스레드 (자세히)" />
@@ -43,13 +41,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}4b10ddd953`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}4b10ddd953`" height="356" loading="lazy" />
 
     <Navigation bef="thread" aft="threadmethod" />
   </div>

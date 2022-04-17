@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>통계란?</h2>
@@ -46,7 +44,7 @@
           분자와 분모를 바꾼 값입니다.
         </div>
       </div>
-      <iframe :src="`${trinket}b4ab6a9593`" width="100%" height="356" />
+      <iframe :src="`${trinket}b4ab6a9593`" height="356" />
     </div>
 
     <QuadSpace />
@@ -67,7 +65,7 @@
           있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}0a8bc90264`" width="100%" height="356" />
+      <iframe :src="`${trinket}0a8bc90264`" height="356" />
     </div>
 
     <QuadSpace />
@@ -83,13 +81,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}0a8bc90264`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}0a8bc90264`" height="356" loading="lazy" />
 
     <Navigation bef="classmethod" aft="file" />
   </div>

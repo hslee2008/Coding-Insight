@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>덧셈 계산기 만들기</h2>
       <p>
@@ -77,7 +75,7 @@
           <code> print(addnum) </code>
         </p>
       </div>
-      <iframe :src="`${trinket}2a317b1dba`" width="100%" height="500" />
+      <iframe :src="`${trinket}2a317b1dba`" height="500" />
     </div>
 
     <Navigation bef="numtype" aft="nummethod" />

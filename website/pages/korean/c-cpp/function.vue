@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>함수란?</h2>
@@ -54,7 +52,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}44gu`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}44gu`" height="300" />
       </div>
     </div>
 
@@ -158,7 +156,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}44gA`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}44gA`" height="300" />
       </div>
     </div>
 

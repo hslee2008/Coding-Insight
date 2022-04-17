@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div class="text-center">
       <iframe
         width="560"
@@ -24,13 +22,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}d02c75249c`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}d02c75249c`" height="356" loading="lazy" />
 
     <Navigation bef="password-safe" aft="function" />
   </div>

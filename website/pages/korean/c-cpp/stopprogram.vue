@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>프로그램 멈추기</h2>
@@ -38,7 +36,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47ZW`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47ZW`" height="300" />
       </div>
     </div>
 
@@ -68,7 +66,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}480F`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}480F`" height="300" />
       </div>
     </div>
 

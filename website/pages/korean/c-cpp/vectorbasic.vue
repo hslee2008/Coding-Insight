@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>vector이란?</h2>
@@ -99,7 +97,7 @@
           }
         </code>
       </div>
-      <iframe :src="`${jdoodle}4apz`" width="100%" height="300" />
+      <iframe :src="`${jdoodle}4apz`" height="300" />
     </div>
 
     <QuadSpace />
@@ -150,7 +148,7 @@
           &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br />
           }
         </code>
-        <iframe :src="`${jdoodle}4apA`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4apA`" height="300" />
       </div>
     </div>
 

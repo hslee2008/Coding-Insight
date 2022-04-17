@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>파이썬 함수 등록</h2>
@@ -44,13 +42,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}2390219212`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}2390219212`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -62,13 +54,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}ee9dc05bf9`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}ee9dc05bf9`" height="356" loading="lazy" />
 
     <Navigation bef="etcdundermethod" aft="coroutine" />
   </div>

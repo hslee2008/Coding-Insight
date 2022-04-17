@@ -26,7 +26,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VZw`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}3VZw`" height="300" />
       </div>
     </div>
 
@@ -65,7 +65,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VZx`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3VZx`" height="300px" />
       </div>
     </div>
 
@@ -98,7 +98,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VZy`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3VZy`" height="300px" />
       </div>
     </div>
 

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>숫자 메서드</h2>
       <p>
@@ -27,7 +25,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20test_integer%3A%20i32%20%3D%204%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.pow(2))%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20let%20test_integer2%3A%20f32%20%3D%204.0%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer2.powf(0.5))%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer2.sqrt())%3B%0D%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>
@@ -47,7 +44,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20test_integer%3A%20i32%20%3D%20-4%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20test_integer.abs())%3B%0D%0A%7D`"
-          width="100%"
           height="300"
         />
       </div>
@@ -66,7 +62,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%3A%20i32%20%3D%203%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22a%20%2B%201%20%3D%20%7B%7D%22%2C%20a%20%2B%201)%3B%0D%0A%20%20%20%20println!(%22a%20-%201%20%3D%20%7B%7D%22%2C%20a%20-%201)%3B%0D%0A%20%20%20%20println!(%22a%20*%201%20%3D%20%7B%7D%22%2C%20a%20*%201)%3B%0D%0A%20%20%20%20println!(%22a%20%2F%201%20%3D%20%7B%7D%22%2C%20a%20%2F%201)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20a%20%2B%3D%201%3B%20%2F%2F%20a%20%3D%20a%20%2B%201%3B%20a%EB%A5%BC%201%20%EB%8D%94%ED%95%98%EA%B3%A0%20%EB%8B%A4%EC%8B%9C%20a%EB%A5%BC%20%EC%A0%80%EC%9E%A5%ED%95%A9%EB%8B%88%EB%8B%A4...%0D%0A%20%20%20%20a%20-%3D%201%3B%0D%0A%20%20%20%20a%20*%3D%201%3B%0D%0A%20%20%20%20a%20%2F%3D%201%3B%0D%0A%7D`"
-          width="100%"
           height="400"
         />
       </div>

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>Set Operation</h2>
@@ -60,7 +58,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}f16d8554a4`" width="100%" height="356" />
+      <iframe :src="`${trinket}f16d8554a4`" height="356" />
     </div>
 
     <QuadSpace />
@@ -101,13 +99,7 @@
             to find the intersection of two sets.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}bdb3068e9e`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}bdb3068e9e`" height="356" loading="lazy" />
       </div>
     </div>
 
@@ -141,7 +133,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}a69bea0190`" width="100%" height="356" />
+      <iframe :src="`${trinket}a69bea0190`" height="356" />
     </div>
 
     <Navigation bef="set" aft="if" />

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>Making a login program</h2>
@@ -55,7 +53,7 @@
     <QuadSpace />
 
     <h2>Check out the program</h2>
-    <iframe :src="`${trinket}78247d771c`" width="100%" height="356" />
+    <iframe :src="`${trinket}78247d771c`" height="356" />
 
     <Navigation bef="stringmethod2" aft="escapechar" />
   </div>

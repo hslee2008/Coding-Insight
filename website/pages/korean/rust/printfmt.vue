@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>println!과 다르게 정보를 출력하는 방법</h2>
@@ -31,7 +29,6 @@
       </div>
       <iframe
         :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20println!(%22Hello%20%22)%3B%0A%20%20%20%20println!(%22World%22)%3B%0A%20%20%20%20%0A%20%20%20%20print!(%22Hello%20%22)%3B%0A%20%20%20%20print!(%22World%22)%3B%0A%7D`"
-        width="100%"
         height="400"
       />
       <div>
@@ -59,7 +56,6 @@
       </div>
       <iframe
         :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20eprint!(%22Error%3A%20System%20Memory%20Overflow%22)%3B%0A%20%20%20%20eprint!(%22Error%3A%20Need%20Sleep%22)%3B%0A%7D`"
-        width="100%"
         height="400"
       />
     </div>

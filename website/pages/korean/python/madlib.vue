@@ -1,6 +1,5 @@
 <template>
   <div>
-    <br /><br />
     <div class="text-center">
       <h2>프로젝트 수업!</h2>
 
@@ -98,7 +97,7 @@
 
     <h2>코드 확인하기</h2>
 
-    <iframe :src="`${trinket}e1d336381d`" width="100%" height="356" />
+    <iframe :src="`${trinket}e1d336381d`" height="356" />
 
     <Navigation bef="variable" aft="datatype" />
   </div>

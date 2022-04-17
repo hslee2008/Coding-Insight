@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>What is tuple?</h2>
@@ -25,12 +23,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}3b0dada577`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}3b0dada577`" height="356" loading="lazy" />
     </div>
 
     <Header type="Python" title="Tuple" num="24" />
@@ -70,12 +63,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}76cd83a2ae`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}76cd83a2ae`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />
@@ -95,13 +83,7 @@
             b = 3,
           </code>
         </p>
-        <iframe
-          :src="`${trinket}1a3ca85630`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}1a3ca85630`" height="356" loading="lazy" />
       </div>
     </div>
 
@@ -132,12 +114,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket}c70ec1ecfe`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}c70ec1ecfe`" height="356" loading="lazy" />
     </div>
 
     <Navigation bef="zipping" aft="set" />

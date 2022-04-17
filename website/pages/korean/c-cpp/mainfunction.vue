@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div class="ma-auto">
         <h2>main() 함수란?</h2>
@@ -63,7 +61,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}44gu`" width="100%" height="400" />
+        <iframe :src="`${jdoodle}44gu`" height="400" />
       </div>
     </div>
 

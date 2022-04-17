@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>assert.h</h2>
@@ -20,7 +18,7 @@
 
     <Header type="C/C++" title="assert 키워드" num="38" />
 
-    <iframe :src="`${jdoodle}47Bz`" width="100%" height="400" />
+    <iframe :src="`${jdoodle}47Bz`" height="400" />
 
     <Navigation bef="include" aft="macro" />
   </div>

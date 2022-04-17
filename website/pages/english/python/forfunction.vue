@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <Header type="Python" num="36" title="Iterable Function" />
 
@@ -57,13 +55,7 @@
               </code>
             </p>
           </div>
-          <iframe
-            :src="`${trinket}31f75bee24`"
-            width="100%"
-            height="356"
-            loading="lazy"
-            class="ma-auto"
-          />
+          <iframe :src="`${trinket}31f75bee24`" height="356" loading="lazy" />
         </div>
       </div>
     </div>

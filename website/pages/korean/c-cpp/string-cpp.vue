@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>C++ 문자열</h2>
@@ -41,7 +39,7 @@
         참고로 C++에서는 문자열은 "", 문자는 ''를 사용해야 합니다.<br /><br />
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}491S`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}491S`" height="300" />
       </div>
     </div>
 
@@ -91,7 +89,7 @@
         사용하세요.<br /><br />
       </div>
       <div>
-        <iframe :src="`${jdoodle}48MS`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}48MS`" height="300" />
       </div>
     </div>
 
@@ -136,7 +134,7 @@
         length()와 size()는 같습니다.<br /><br />
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}4aoo`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}4aoo`" height="300" />
       </div>
     </div>
 

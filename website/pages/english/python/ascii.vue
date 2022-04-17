@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div style="padding: 5px; margin: auto">
         <h2>What is ASCII?</h2>
@@ -45,7 +43,7 @@
           <code> print(chr(int(input("A number between 0 and 127: ")))) </code>
         </p>
       </div>
-      <iframe :src="`${trinket}2f04cf1944`" width="100%" height="356" />
+      <iframe :src="`${trinket}2f04cf1944`" height="356" />
     </div>
 
     <Navigation bef="escapechar" aft="boolean" />

@@ -18,7 +18,7 @@ export default {
     optmizeCSS: true,
   },
   cli: {
-    badgeMessages: ['🔥 Coding-Insight Firing Up 🔥'],
+    badgeMessages: ['🔥 Coding-Insight Website Firing Up 🔥'],
     bannerColor: 'blue',
   },
   css: [
@@ -165,12 +165,11 @@ export default {
   plugins: ['~/plugins/variable'],
 
   loading: {
-    color: 'skyblue',
+    color: '#097FA4',
     failedColor: 'red',
-    height: '5px',
+    height: '2px',
     continuous: true,
-    throttle: 50,
-    css: false,
+    throttle: 0,
   },
   loadingIndicator: {
     name: 'pulse',
@@ -258,22 +257,21 @@ export default {
         },
         {
           src: '/icon.png',
-          sizes: '512x512',
+          sizes: '514x512',
           type: 'image/png',
-          purpose: 'any maskable',
         },
       ],
       screenshots: [
         {
-          src: '/pwa/screenshot-home.png',
-          sizes: '1920x894',
+          src: '/pwa/screenshot/screenshot-home.png',
+          sizes: '1920x895',
           type: 'image/png',
           platform: 'wide',
           label: 'Desktop Homescreen of Coding-Insight',
         },
         {
-          src: '/pwa/screenshot-mobile.png',
-          sizes: '816x1262',
+          src: '/pwa/screenshot/screenshot-mobile.png',
+          sizes: '1002x1258',
           type: 'image/png',
           platform: 'narrow',
           label: 'Mobile Homescreen of Coding-Insight',
@@ -287,7 +285,7 @@ export default {
           description: '파이썬 프로그래밍 언어 배우기',
           icons: [
             {
-              src: '/pwa/python.png',
+              src: '/pwa/icons/python.png',
               sizes: '514x512',
               type: 'image/png',
               purpose: 'any',
@@ -301,7 +299,7 @@ export default {
           description: 'Learn Python Programming Language',
           icons: [
             {
-              src: '/pwa/python.png',
+              src: '/pwa/icons/python.png',
               type: 'image/png',
               purpose: 'any',
             },
@@ -314,7 +312,7 @@ export default {
           description: 'Learn C/C++ Programming Language',
           icons: [
             {
-              src: '/pwa/c cpp.png',
+              src: '/pwa/icons/c cpp.png',
               type: 'image/png',
               purpose: 'any',
             },
@@ -327,7 +325,7 @@ export default {
           description: 'Rust 프로그래밍 언어 배우기',
           icons: [
             {
-              src: '/pwa/rust.png',
+              src: '/pwa/icons/rust.png',
               type: 'image/png',
               purpose: 'any',
             },
@@ -347,7 +345,7 @@ export default {
       dark: true,
       themes: {
         dark: {
-          primary: '#149ECA',
+          primary: '#097FA4',
           secondary: '#b0bec5',
           info: '#2196F3',
           accent: '#293540',
@@ -356,7 +354,7 @@ export default {
           error: '#b71c1c',
         },
         light: {
-          primary: '#097EA5',
+          primary: '#149ECA',
           secondary: '#b0bec5',
           info: '#2196F3',
           accent: '#E6F7FF',

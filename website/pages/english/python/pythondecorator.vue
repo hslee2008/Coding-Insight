@@ -62,12 +62,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}9e90d8b9d3`"
-      width="100%"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket}9e90d8b9d3`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -80,12 +75,7 @@
         </p>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}d00208b10a`"
-      width="100%"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket}d00208b10a`" height="356" loading="lazy" />
 
     <Navigation bef="mydecorator" aft="newline" />
   </div>

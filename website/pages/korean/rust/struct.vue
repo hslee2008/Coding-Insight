@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <h2>struct란?</h2>
     <p>
       struct는 구조체(structure)라는 뜻인데 미리 정의된 구조체를 사용하는
@@ -38,7 +36,6 @@
 
       <iframe
         :src="`${playrust}%0D%0Astruct%20Dictionary%20%7B%0D%0A%20%20word%3A%20String%2C%0D%0A%20%20meaning%3A%20String%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20%20%20let%20dictionary%20%3D%20Dictionary%20%7B%0D%0A%20%20%20%20%20%20%20%20word%3A%20%22%EC%95%88%EB%85%95%22.to_string()%2C%0D%0A%20%20%20%20%20%20%20%20meaning%3A%20%22Hello%22.to_string()%0D%0A%20%20%20%20%7D%3B%0D%0A%0D%0A%20%20%20%20println!(%22%7B%7D%EC%9D%98%20%EB%9C%BB%EC%9D%80%20%7B%7D%EC%9E%85%EB%8B%88%EB%8B%A4.%22%2C%20dictionary.word%2C%20dictionary.meaning)%3B%0D%0A%7D`"
-        width="100%"
         height="400"
       />
     </p>
@@ -61,7 +58,6 @@
 
       <iframe
         :src="`${playrust}struct%20Color(i32%2C%20i32%2C%20i32)%3B%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20let%20black%20%3D%20Color(0%2C%200%2C%200)%3B%0D%0A%20%20let%20Color(r%2C%20g%2C%20b)%20%3D%20black%3B%0D%0A%0D%0A%20%20println!(%22%7B%7D%20%7B%7D%20%7B%7D%22%2C%20r%2C%20g%2C%20b)%3B%0D%0A%7D`"
-        width="100%"
         height="400"
       />
     </p>

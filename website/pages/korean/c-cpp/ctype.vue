@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>ctype.h 라이브러리</h2>
@@ -47,7 +45,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47C5`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47C5`" height="300" />
       </div>
     </div>
 
@@ -81,7 +79,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47C6`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47C6`" height="300" />
       </div>
     </div>
 
@@ -101,7 +99,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;printf("not printable :(");<br />
             }
           </code>
-          <iframe :src="`${jdoodle}47C8`" width="100%" height="300" />
+          <iframe :src="`${jdoodle}47C8`" height="300" />
         </p>
       </div>
     </div>

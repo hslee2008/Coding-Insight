@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>파일 삭제하기</h2>
@@ -43,7 +41,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}48mx`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}48mx`" height="300" />
       </div>
     </div>
 

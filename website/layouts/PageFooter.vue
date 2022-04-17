@@ -32,12 +32,8 @@
         last: '',
       };
     },
-    async mounted() {
-      this.last = await fetch(
-        'https://api.github.com/repos/HyunseungLee-Travis/Coding-Insight/commits/main',
-      )
-        .then(res => res.json())
-        .then(json => json.commit.author.date.slice(0, 10));
+    mounted() {
+      this.last = document.lastModified;
     },
   };
 </script>

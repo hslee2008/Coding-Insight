@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>주석 달기</h2>
       <p>
@@ -30,7 +28,6 @@
       </div>
       <iframe
         :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20%2F%2Fprintln!(%22Hello%20World%22)%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%2C%20World!%22)%3B%0A%7D`"
-        width="100%"
         height="400"
       />
     </div>
@@ -48,7 +45,6 @@
       </div>
       <iframe
         :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20%2F*eprint!(%22Error%3F%3F%3F!!!%22)%3B*%2F%0A%20%20%20%20%0A%20%20%20%20print!(%22%EC%9C%84%20%EC%BD%94%EB%93%9C%EB%8A%94%20%EC%8B%A4%ED%96%89%EC%9D%B4%20X%22)%3B%0A%7D`"
-        width="100%"
         height="400"
       />
     </div>
@@ -76,7 +72,6 @@
       </div>
       <iframe
         :src="`${playrust}%2F%2F%2F%20%23Hello%20World%0D%0Afn%20main()%20%7B%0D%0A%20%20%20%20%2F%2F!%20%23Testing%0D%0A%20%20%20%20println!(%22%7B%7D%20can%20support%20%7B%7D%20notation%22%2C%22Doc%20comment%22%2C%22markdown%22)%3B%0D%0A%7D`"
-        width="100%"
         height="400"
       />
     </div>

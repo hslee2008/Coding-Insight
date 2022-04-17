@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>for 문</h2>
@@ -13,7 +11,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20%20%20for%20i%20in%200..5%20%7B%0D%0A%20%20%20%20%20%20println!(%22%7B%7D%22%2C%20i)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D`"
-          width="100%"
           height="300"
         />
 
@@ -40,7 +37,6 @@
 
         <iframe
           :src="`${playrust}fn%20main()%20%7B%0D%0A%20%20for%20(count%2C%20i)%20in%20(5..10).enumerate()%20%7B%0D%0A%20%20%20%20%20%20println!(%22count%20%3D%20%7B%7D%2C%20i%20%3D%20%7B%7D%22%2C%20count%2C%20i)%3B%0D%0A%20%20%7D%0D%0A%7D`"
-          width="100%"
           height="400"
         />
       </div>

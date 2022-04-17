@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>화살표 키워드란?</h2>
@@ -44,7 +42,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47BZ`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47BZ`" height="300" />
       </div>
     </div>
 

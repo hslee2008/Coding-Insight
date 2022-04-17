@@ -43,12 +43,7 @@
         However, this method is not recommanded. Use import OEM instead.
       </div>
 
-      <iframe
-        :src="`${trinket}97e4d4f1d9`"
-        width="100%"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket}97e4d4f1d9`" height="356" loading="lazy" />
     </div>
 
     <QuadSpace />

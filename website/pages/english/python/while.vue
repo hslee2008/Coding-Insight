@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <Header type="Python" num="37" title="While Loop" />
 
@@ -20,13 +18,7 @@
             create an infinite loop accidently.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}496fc82d74`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}496fc82d74`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />
@@ -66,12 +58,7 @@
           </div>
         </div>
 
-        <iframe
-          :src="`${trinket}9aef21b34d`"
-          width="100%"
-          height="500"
-          loading="lazy"
-        />
+        <iframe :src="`${trinket}9aef21b34d`" height="500" loading="lazy" />
       </div>
 
       <QuadSpace />
@@ -83,13 +70,7 @@
             break statement BREAKS the while or for loop and end it immediately.
           </p>
         </div>
-        <iframe
-          :src="`${trinket}d35c515f41`"
-          width="100%"
-          height="356"
-          loading="lazy"
-          class="ma-auto"
-        />
+        <iframe :src="`${trinket}d35c515f41`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />

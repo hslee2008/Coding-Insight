@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>*를 이용해서 배열과 문자열 선언</h2>
@@ -24,7 +22,7 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47Au`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}47Au`" height="300px" />
       </div>
     </div>
 
@@ -78,7 +76,7 @@
         (문자열도 가능합니다. int* ptr 대신 char* ptr로 바꾸세요!)<br /><br />
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47AG`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47AG`" height="300" />
       </div>
     </div>
 
@@ -122,7 +120,7 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47AE`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47AE`" height="300" />
       </div>
     </div>
 
@@ -168,7 +166,7 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47B7`" width="100%" height="300" />
+        <iframe :src="`${jdoodle}47B7`" height="300" />
       </div>
     </div>
 

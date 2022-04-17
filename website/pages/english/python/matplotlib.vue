@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <div>
         <h2>mathplotlib</h2>
@@ -50,13 +48,7 @@
         nth equation: n+1 list
       </div>
     </div>
-    <iframe
-      :src="`${trinket}40b5ec6e62`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}40b5ec6e62`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -108,13 +100,7 @@
         = 'g')
       </code>
     </div>
-    <iframe
-      :src="`${trinket}6d6b423f37`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}6d6b423f37`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -219,13 +205,7 @@
         </div>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}c4218ab83d`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}c4218ab83d`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -266,13 +246,7 @@
         </div>
       </div>
     </div>
-    <iframe
-      :src="`${trinket}074b4c95ef`"
-      width="100%"
-      height="356"
-      loading="lazy"
-      class="ma-auto"
-    />
+    <iframe :src="`${trinket}074b4c95ef`" height="356" loading="lazy" />
 
     <Navigation bef="keyboard" aft="mouse" />
   </div>

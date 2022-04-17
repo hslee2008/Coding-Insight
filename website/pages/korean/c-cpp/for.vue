@@ -1,7 +1,5 @@
 <template>
   <div>
-    <br /><br />
-
     <div>
       <h2>반복문</h2>
       <p>
@@ -76,7 +74,7 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3YLR`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3YLR`" height="300px" />
       </div>
     </div>
 
@@ -120,7 +118,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3YLS`" width="100%" height="300px" />
+        <iframe :src="`${jdoodle}3YLS`" height="300px" />
       </div>
     </div>
 
