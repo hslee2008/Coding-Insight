@@ -3,8 +3,10 @@
     <v-navigation-drawer
       v-model="drawer"
       app
-      absolute
-      temporary
+      clipped
+      fixed
+      hide-overlay
+      clipped
       width="300"
       class="rounded-lg"
       :style="`background-color: ${bgd}`"
@@ -12,7 +14,7 @@
       <Tab :close="close" />
     </v-navigation-drawer>
 
-    <v-app-bar dense rounded :fixed="true" :color="bgd" elevation="0">
+    <v-app-bar app dense rounded fixed clipped-left :color="bgd" elevation="0">
       <v-btn :aria-label="albutt" icon @click="drawer = !drawer">
         <v-icon>mdi-{{ drawer ? 'close' : 'sort-variant' }}</v-icon>
       </v-btn>
@@ -31,24 +33,37 @@
     <v-main>
       <v-container>
         <br /><br />
+
         <Nuxt />
-        <PageFooter />
+
+        <div
+          v-if="$route.path !== '/' && $route.path !== '/index-en'"
+          class="mx-1 my-16"
+        >
+          Edit on
+          <a
+            aria-label="Edit on GitHub"
+            :href="`https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/website/pages${
+              $nuxt.$route.path +
+              ($nuxt.$route.path.endsWith('/') ? 'index' : '')
+            }.vue`"
+            target="_blank"
+          >
+            GitHub <v-icon x-small color="primary">mdi-open-in-new</v-icon>
+          </a>
+        </div>
       </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-  import Footer from './Footer';
   import Tab from './Tab';
-  import PageFooter from './PageFooter';
 
   export default {
     name: 'DefaultLayout',
     components: {
-      Footer,
       Tab,
-      PageFooter,
     },
     data() {
       return {

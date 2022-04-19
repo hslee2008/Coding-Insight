@@ -26,12 +26,42 @@
       </v-tabs-items>
     </v-tabs>
 
-    <Footer />
+    <v-footer class="transparent">
+      <v-btn
+        v-for="(item, i) in [
+          {
+            icon: 'github',
+            link: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
+          },
+          {
+            icon: 'youtube',
+            link: 'https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA',
+          },
+          {
+            icon: 'microsoft-visual-studio-code',
+            link: 'https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search',
+          },
+          {
+            icon: 'video',
+            link: 'https://www.youtube.com/watch?v=ya7Ud1tTpag',
+          },
+        ]"
+        :key="i"
+        :href="item.link"
+        aria-label="Footer Buttons"
+        icon
+      >
+        <v-icon>mdi-{{ item.icon }}</v-icon>
+      </v-btn>
+
+      <v-spacer />
+
+      &copy; 2021-{{ new Date().getFullYear() }}
+    </v-footer>
   </div>
 </template>
 
 <script>
-  import Footer from './Footer';
   import ItemList from './ItemList.vue';
   import courses from './courses';
 
@@ -42,7 +72,6 @@
 
     components: {
       ItemList,
-      Footer,
     },
 
     data() {

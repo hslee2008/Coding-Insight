@@ -13,7 +13,7 @@
 # Framework
 
 Website: NuxtJS, VueJS, VuetifyJS
-Phone App: Flutter, PWA
+Phone App: PWA
 Computer: PWA
 
 # Links

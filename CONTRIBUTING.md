@@ -1,20 +1,11 @@
-# 기여 - 문제 올리기
+# 시작
 
-[파이썬 팩토리](https://www.coding-insight.com)에 기여를 하는 방법을 알려드리겠습니다.
+먼저, 기여해 주시거나 기여를 생각해 주셔서 감사합니다.
 
-1. [깃허브](https://github.com/)에서 계정 만들기
-2. [문제](https://github.com/HyunseungLee-Travis/Coding-Insight/issues/new) 판에서 새로운 문제를 만들기
-3. 제목 정하기
-4. 내용을 자세히 설명하기
-5. 'Sumbit new issue' 버튼 누르기
+# 문제
 
-# 기여 - 사이트 내용 바꾸기
+문제를 찾았다면 [Issues](https://github.com/HyunseungLee-Travis/Coding-Insight/issues/new) 페이지에서 문제를 설명해주세요.
 
-만일 사이트에서 문제가 있고 어떻게 바꾸는지 아신다면 다음 방법을 따르세요.
+# PR
 
-1. 지금 이 사이에서 프로필 사진 밑에 있는 FORK 버튼 누르고 FOR 만들기
-2. [pull request](https://github.com/HyunseungLee-Travis/Coding-Insight/pulls)에서 새롭게 만들기
-3. 제목 정하기
-4. 설명하기
-5. [1]에서 만든 FORK 올리기
-6. pull request 만들기
+수정할 내용이 있다면 [Fork](https://github.com/HyunseungLee-Travis/Coding-Insight/fork)에서 새로운 저장소를 만들고 [PR](https://github.com/HyunseungLee-Travis/Coding-Insight/compare) 페이지에서 코드를 작성하세요.

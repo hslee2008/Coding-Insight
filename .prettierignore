@@ -1,6 +1,10 @@
-public_html/
-
 app/python-factory-web-search/node_modules
 app/python-factory-web-search/python-factory-web-search-*.vsix
 
 website/.nuxt
+website/node_modules
+website/static/sw.js
+website/todo.md
+website/temp
+
+public_html/

@@ -3,8 +3,9 @@ updates:
   - package-ecosystem: 'npm'
     directory: '../website'
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
+
   - package-ecosystem: 'npm'
     directory: '../app/python-factory-web-search'
     schedule:
-      interval: 'daily'
+      interval: 'weekly'

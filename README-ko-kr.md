@@ -13,7 +13,7 @@
 # 프레임워크
 
 웹사이트: NuxtJS, VueJS, VuetifyJS
-폰 앱: Flutter, PWA
+폰 앱: PWA
 컴퓨터 앱: PWA
 
 # 링크

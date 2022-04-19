@@ -4,7 +4,6 @@ app/python-factory-web-search/python-factory-web-search-*.vsix
 website/.nuxt
 website/node_modules
 website/static/sw.js
-website/plugins/apikey.js
 website/todo.md
 website/temp
 

@@ -264,7 +264,7 @@ export default {
       screenshots: [
         {
           src: '/pwa/screenshot/screenshot-home.png',
-          sizes: '1920x895',
+          sizes: '1920x897',
           type: 'image/png',
           platform: 'wide',
           label: 'Desktop Homescreen of Coding-Insight',

@@ -1,13 +1,12 @@
 tasks:
   - name: 'Nuxt.js'
-    init: cd website && npm install && npm run generate:modern
+    init: cd website && npm install && npm run generate
     command: cd website && npm run dev
     openMode: split-right
-  - name: 'React Native'
-    init: cd app/pythonfactory && npm install -g expo-cli && npm install
-    command: cd app/pythonfactory && npm run start
   - name: 'VSCode Extension'
     init: cd app/python-factory-web-search && npm install
+    openMode: split-left
+    
 ports:
   - port: 8000
     onOpen: open-preview

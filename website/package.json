@@ -1,19 +1,20 @@
 {
   "name": "coding-insight-website",
+  "description": "Website source code for coding-insight.com",
   "version": "22.4",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "generate": "clear && npm run clean && nuxt generate --modern=server",
-    "clean": "npx prettier --write . && git add --all"
+    "clean": "npx prettier --write . && git add --all",
+    "upgrade": "npm outdated && npm upgrade && npm outdated"
   },
   "dependencies": {
     "core-js": "^3.21.0",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
-    "vuetify": "^2.6.3",
-    "webpack": "^4.46.0"
+    "vuetify": "^2.6.3"
   },
   "devDependencies": {
     "@nuxtjs/axios": "^5.13.6",

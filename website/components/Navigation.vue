@@ -2,7 +2,7 @@
   <v-card class="transparent" style="margin-top: 200px; margin-bottom: 100px">
     <v-card-actions>
       <v-tooltip v-if="!single" right>
-        <template v-slot:activator="{ on, attrs }">
+        <template #activator="{ on, attrs }">
           <v-btn
             exact
             outlined
@@ -23,7 +23,7 @@
       <v-spacer />
 
       <v-tooltip left>
-        <template v-slot:activator="{ on, attrs }">
+        <template #activator="{ on, attrs }">
           <v-btn
             exact
             outlined
