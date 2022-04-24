@@ -10,7 +10,7 @@
 
         <br />
 
-        <v-btn :aria-label="albutt" block to="/courses" color="primary">
+        <v-btn :aria-label="albutt" block to="/courses-en" color="primary">
           Learn Now <v-icon right>mdi-arrow-right-thin</v-icon>
         </v-btn>
       </div>
@@ -57,9 +57,12 @@
       </v-card-actions>
     </v-card>
 
-    <QuadSpace /><QuadSpace />
+    <QuadSpace />
+    <QuadSpace />
 
-    <v-row flex style="gap: 10px">
+    <h3 class="text-center">Check all courses</h3>
+    <br />
+    <v-row flex style="gap: 20px">
       <v-card class="ma-auto" max-width="450" min-width="350">
         <v-img
           class="white--text align-end"
@@ -102,6 +105,8 @@
         </v-card-actions>
       </v-card>
     </v-row>
+
+    <QuadSpace />
   </div>
 </template>
 

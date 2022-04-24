@@ -14,6 +14,7 @@
           실행하면, 콘솔에 그 단어가 똑같이 나타납니다.
         </p>
       </div>
+
       <code>
         print("Hello, World!")<br />
         print("안녕하세요")<br />

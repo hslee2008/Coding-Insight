@@ -9,19 +9,19 @@
       clipped
       width="300"
       class="rounded-lg"
-      :style="`background-color: ${bgd}`"
+      color="#282C34"
     >
       <Tab :close="close" />
     </v-navigation-drawer>
 
-    <v-app-bar app dense rounded fixed clipped-left :color="bgd" elevation="0">
+    <v-app-bar app dense rounded fixed clipped-left color="#282C34">
       <v-btn :aria-label="albutt" icon @click="drawer = !drawer">
         <v-icon>mdi-{{ drawer ? 'close' : 'sort-variant' }}</v-icon>
       </v-btn>
 
       <v-spacer />
 
-      <v-btn :aria-label="albutt" :color="bgd" class="elevation-0" to="/" text>
+      <v-btn :aria-label="albutt" class="elevation-0" href="/" text>
         <v-img :src="require('./dark.svg')" alt="SVG Logo" />
       </v-btn>
 
@@ -59,11 +59,13 @@
 
 <script>
   import Tab from './Tab';
+  import Translate from './Translate';
 
   export default {
     name: 'DefaultLayout',
     components: {
       Tab,
+      Translate,
     },
     data() {
       return {

@@ -1,5 +1,5 @@
 <template>
-  <v-expansion-panel :style="`background-color: ${bgd}`">
+  <v-expansion-panel style="background-color: #282c34">
     <v-expansion-panel-header>{{
       englishfy() ? en : kr
     }}</v-expansion-panel-header>
@@ -12,7 +12,7 @@
         dense
         exact
         @click="closeIfM"
-        :style="`background-color: ${bgd}`"
+        color="#282C34"
       >
         <v-list-item-icon>
           <v-icon>mdi-{{ item.icon }}</v-icon>

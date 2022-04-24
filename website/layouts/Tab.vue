@@ -5,12 +5,12 @@
         v-for="it in ['Python', 'C/C++', 'Rust']"
         :key="it"
         ripple
-        :style="`background-color: ${bgd}`"
+        style="background-color: #282c34"
       >
         {{ it }}
       </v-tab>
 
-      <v-tabs-items v-model="tab" :style="`background-color: ${bgd}`">
+      <v-tabs-items v-model="tab" style="background-color: #282c34">
         <v-tab-item v-for="(li, ind) in [python, c, rust]" :key="ind">
           <v-expansion-panels hover flat accordion>
             <ItemList
@@ -26,7 +26,7 @@
       </v-tabs-items>
     </v-tabs>
 
-    <v-footer class="transparent">
+    <v-footer style="background-color: #282c34">
       <v-btn
         v-for="(item, i) in [
           {
@@ -67,21 +67,16 @@
 
   export default {
     name: 'Tab',
-
     props: ['close'],
-
     components: {
       ItemList,
     },
-
     data() {
       return {
         tab: 0,
-
         ...courses,
       };
     },
-
     mounted() {
       const route = $nuxt.$route.path;
       this.tab = route.includes('rust') ? 2 : route.includes('c-cpp') ? 1 : 0;

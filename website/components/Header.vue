@@ -1,7 +1,7 @@
 <template>
   <div
     class="text-center pa-6 rounded-lg shadow-2xl bg-gray-100 overflow-hidden"
-    :style="`background-color: ${hdbgd}; margin: 50px 0px 100px 0px`"
+    style="background-color: #343b47; margin: 50px 0px 100px 0px"
   >
     <v-btn :aria-label="albutt" class="mb-10" outlined @click="speak">
       <v-icon left>
@@ -41,12 +41,10 @@
         isEnglish: this.type === 'Python',
       };
     },
-
     mounted() {
       document.title = `${this.type} ${this.title} — Coding-Insight`;
       this.showButton = 'speechSynthesis' in window ? true : false;
     },
-
     methods: {
       speak() {
         try {

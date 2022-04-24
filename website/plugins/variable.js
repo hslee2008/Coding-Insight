@@ -2,9 +2,6 @@ import Vue from 'vue';
 
 Vue.mixin({
   data: () => ({
-    bgd: '#23272F',
-    hdbgd: '#343b47',
-
     albutt: 'Coding-Insight Button',
     allink: 'Coding-Insight Link',
 

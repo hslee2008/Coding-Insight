@@ -68,7 +68,7 @@
     <QuadSpace />
     <QuadSpace />
 
-    <h3>모든 강좌 확인하기</h3>
+    <h3 class="text-center">모든 강좌 확인하기</h3>
     <br />
     <v-row flex style="gap: 20px">
       <v-card class="ma-auto" max-width="350" min-width="100">

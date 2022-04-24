@@ -4,7 +4,7 @@ html {
 
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 500ms ease-in-out;
+  transition: opacity 250ms ease-in-out;
 }
 
 .page-enter,

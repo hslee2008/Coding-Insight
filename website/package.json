@@ -3,7 +3,7 @@
   "description": "Website source code for coding-insight.com",
   "version": "22.4",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "clear && nuxt",
     "build": "nuxt build",
     "generate": "clear && npm run clean && nuxt generate --modern=server",
     "clean": "npx prettier --write . && git add --all",

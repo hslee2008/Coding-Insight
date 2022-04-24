@@ -22,7 +22,7 @@
 
     <v-bottom-sheet v-model="sheet1" scrollable>
       <div>
-        <v-stepper v-model="e6" non-linear>
+        <v-stepper v-model="bsheet2" non-linear>
           <v-stepper-header non-linear-header>
             <v-stepper-step editable step="1"> </v-stepper-step>
 
@@ -70,7 +70,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 2">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet2 = 2"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
@@ -97,7 +101,11 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 3">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet2 = 3"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
@@ -120,7 +128,11 @@
                     </p></v-card-title
                   >
                   <v-card-actions>
-                    <v-btn :aria-label="albutt" color="primary" @click="e6 = 4">
+                    <v-btn
+                      :aria-label="albutt"
+                      color="primary"
+                      @click="bsheet2 = 4"
+                    >
                       Continue
                     </v-btn>
                     <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
@@ -143,7 +155,11 @@
                   >
                 </v-img>
                 <v-card-actions
-                  ><v-btn :aria-label="albutt" color="primary" @click="e6 = 5">
+                  ><v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet2 = 5"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
@@ -167,7 +183,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 6">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet2 = 6"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
@@ -189,7 +209,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="e6 = 7">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet2 = 7"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet1 = !sheet1">
@@ -222,7 +246,7 @@
 
     <v-bottom-sheet v-model="sheet2" scrollable>
       <div>
-        <v-stepper v-model="e4" non-linear>
+        <v-stepper v-model="bsheet1" non-linear>
           <v-stepper-header non-linear-header>
             <v-stepper-step editable step="1"> </v-stepper-step>
 
@@ -277,7 +301,11 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="e4 = 3">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet1 = 3"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
@@ -299,7 +327,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="e4 = 4">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet1 = 4"
+                  >
                     Continue</v-btn
                   >
                   <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
@@ -324,7 +356,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="e4 = 5">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet1 = 5"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet2 = !sheet2">
@@ -346,7 +382,7 @@
 
     <v-bottom-sheet v-model="sheet3" scrollable>
       <div>
-        <v-stepper v-model="et" non-linear>
+        <v-stepper v-model="bsheet3" non-linear>
           <v-stepper-header non-linear-header>
             <v-stepper-step editable step="1"> </v-stepper-step>
 
@@ -389,7 +425,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="et = 2">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet3 = 2"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
@@ -415,7 +455,11 @@
                   </v-card-title>
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="et = 3">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet3 = 3"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
@@ -440,7 +484,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="et = 4">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet3 = 4"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
@@ -464,7 +512,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="et = 5">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet3 = 5"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
@@ -491,7 +543,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="et = 6">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet3 = 6"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
@@ -518,7 +574,11 @@
                   >
                 </v-img>
                 <v-card-actions>
-                  <v-btn :aria-label="albutt" color="primary" @click="et = 7">
+                  <v-btn
+                    :aria-label="albutt"
+                    color="primary"
+                    @click="bsheet3 = 7"
+                  >
                     Continue
                   </v-btn>
                   <v-btn :aria-label="albutt" @click="sheet3 = !sheet3">
@@ -554,23 +614,20 @@
         </v-stepper>
       </div>
     </v-bottom-sheet>
+
     <QuadSpace />
 
     <div>
       <h2>.py?</h2>
       <p>
-        위의 설명에서 항상 파이썬 파일을 만들때 "이름.py" 형태로 정해야한다고
-        했습니다.
-      </p>
-      <br />
-      <p>
+        위의 설명에서 항상 파이썬 파일을 만들때
+        <code class="ic">이름.py</code> 형태로 정해야한다고 했습니다.<br /><br />
+
         그 이유는 컴퓨터에게 파일의 형태(종류)가 무엇이지 설명해야하기
-        때문입니다.
-      </p>
-      <br />
-      <p>
-        .py는 python의 약자로 컴퓨터에게 우리가 만든 파일이 파이썬 파일이라고
-        알려줍니다.
+        때문입니다.<br /><br />
+
+        <code class="ic">.py</code>는 python의 약자로 컴퓨터에게 우리가 만든
+        파일이 파이썬 파일이라고 알려줍니다.
       </p>
     </div>
 
@@ -583,9 +640,9 @@
     name: 'VSCodePage',
     data() {
       return {
-        e4: 1,
-        e6: 1,
-        et: 1,
+        bsheet1: 1,
+        bsheet2: 1,
+        bsheet3: 1,
         sheet1: false,
         sheet2: false,
         sheet3: false,

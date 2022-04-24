@@ -1,3 +1,7 @@
 .theme--dark.v-application {
-  background-color: var(--v-background-base, #23272f) !important;
+  background-color: var(--v-background-base, #282c34) !important;
+}
+
+.theme--dark.v-application code {
+  background-color: #282c34 !important;
 }

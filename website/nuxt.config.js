@@ -4,7 +4,6 @@ export default {
       console.log(`https://hpanel.hostinger.com/hosting/coding-insight.com/`);
     },
   },
-  ssr: true,
   build: {
     // analyze: true,
 
