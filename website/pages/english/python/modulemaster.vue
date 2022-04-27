@@ -11,7 +11,7 @@
         Our file name will be 'OEM'(Odd, Even Module).<br /><br />
 
         File OEM.py<br />
-        <code>
+        <code v-highlight class="python">
           def isEven(num):<br />
           &nbsp;return num%2==0<br /><br />
 
@@ -23,7 +23,7 @@
         OEM.py.<br /><br />
 
         File main.py
-        <code>
+        <code v-highlight class="python">
           from OEM import isEven<br /><br />
 
           print(isEven(3)) #False is printed
@@ -76,13 +76,13 @@
             Similar to 'import' we can fetch modules using a function rather
             than a keyword.<br /><br />
 
-            <code> os = __import__("os") </code>
+            <code v-highlight class="python"> os = __import__("os") </code>
 
             If you want to fetch your own file, type in the whole path of it.<br /><br />
 
             We will learn about whole path later in 'handling files' page.<br /><br />
 
-            <code> myMod = __import__(r"C:\main.py") </code>
+            <code v-highlight class="python"> myMod = __import__(r"C:\main.py") </code>
 
             To copy whole path, right click on file and click on 'Copy Path'.
           </p>

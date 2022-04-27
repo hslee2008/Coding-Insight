@@ -9,7 +9,7 @@
 
           예를 들면, 먼저 간단한 struct 만들겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             struct student {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;char name[80];<br />
             &nbsp;&nbsp;&nbsp;&nbsp;int age;<br />
@@ -32,7 +32,7 @@
 
           '.'와 비슷한데 변수가 포인터일때 사용합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             emp = (struct student*)malloc(sizeof(struct student));<br /><br />
 
             emp->age = 18;<br /><br />

@@ -6,7 +6,7 @@
       <div>
         <h2>asyncio</h2>
         <p>
-          <code>
+          <code v-highlight class="python">
             import asyncio<br /><br />
 
             async def main():<br />
@@ -29,7 +29,7 @@
           Await keyword will wait till the function after the keyword
           finishes.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import asyncio<br /><br />
 
             async def main():<br />
@@ -62,7 +62,7 @@
         <p>
           Using the await keyword, Python will wait till that is finished.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             async def main():<br />
             &nbsp;&nbsp;print("Hello", end = ">")<br />
             &nbsp;&nbsp;task = asyncio.create_task(secondMain())<br />
@@ -74,7 +74,7 @@
 
           This is because Python will wait till secondMain() finishes.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             async def main():<br />
             &nbsp;&nbsp;print("Hello", end = ">")<br />
             &nbsp;&nbsp;task = asyncio.create_task(secondMain())<br />
@@ -94,7 +94,7 @@
       <div>
         <h2>Example</h2>
         <p>
-          <code>
+          <code v-highlight class="python">
             async def fetchData():<br />
             &nbsp;&nbsp;print("started fetching...")<br />
             &nbsp;&nbsp;asyncio.sleep(2)<br />
@@ -112,7 +112,7 @@
           printNum() takes about 0.25 seconds. How can we run thetwo function
           above at the same time?
 
-          <code>
+          <code v-highlight class="python">
             async def main():<br />
             &nbsp;&nbsp;task1 = asyncio.create_task(fetchData())<br />
             &nbsp;&nbsp;task2 = asyncio.create_task(printNum())<br /><br />

@@ -69,7 +69,7 @@
             Run the command 'pip install packagename' to install a specific
             pacakge(replace pacakgename with the name of the pacakge).<br /><br />
 
-            <code> pip install camelcase </code>
+            <code v-highlight class="python"> pip install camelcase </code>
           </p>
         </div>
       </div>
@@ -84,7 +84,7 @@
           <p>
             The 'pip uninstall packagename' will uninstall the pacakge.<br /><br />
 
-            <code> pip show pygame </code>
+            <code v-highlight class="python"> pip show pygame </code>
           </p>
         </div>
       </div>

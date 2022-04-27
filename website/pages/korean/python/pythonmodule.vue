@@ -22,7 +22,7 @@
           <h2>OS란?</h2>
           OS는 컴퓨터의 소프트웨어 이름을 뜻합니다.<br /><br />
           우리의 컴퓨터를 원하는 만큼 제어를 할 수 있습니다.<br /><br />
-          <code>import os</code>
+          <code v-highlight class="python">import os</code>
           <h2>OS - 파이썬 터미널 깨끗이 만들기</h2>
           가끔 파이썬 코드를 실행하며 많이 더러워지고 스크린에 너무 많은 정보가
           쌓일 수 있습니다.<br /><br />

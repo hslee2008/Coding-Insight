@@ -41,7 +41,7 @@
           기본적인 형태는 다음과 같습니다. Key와 Value의 쌍은 하나의 딕셔너리
           안에 저장할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             {<br />
             Key1:Value1,<br />
             Key2:Value2,<br />

@@ -14,7 +14,7 @@
 
           Then, assign the value to it.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def helloWorld():<br />
             &nbsp;global message<br />
             &nbsp;message = "Hello, World!"<br />
@@ -39,7 +39,7 @@
             Nonlocal is the opposite of global as it sets the variable to be
             only allowed inside a function or statement.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               def testing():<br />
               &nbsp;nonlocal message<br />
               &nbsp;message = "Hello, World!"<br />

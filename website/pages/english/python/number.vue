@@ -11,7 +11,7 @@
           To declare numbers, assign the number without quotation marks to the
           variable.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             age = 12<br />
             print(age)
           </code>
@@ -56,14 +56,14 @@
           The other way is to simply define them as a number without the
           quotation mark.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             firstNumber = "1"<br />
             secondNumber = 1
           </code>
 
           Is there a different? Yes.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             print(type(firstNumber))<br />
             print(type(secondNumber))
           </code>
@@ -88,7 +88,7 @@
         <p>
           input() always returns string.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             firstNumber = input("Number 1: ")<br />
             secondNumber = input("Number 2: ")<br /><br />
 

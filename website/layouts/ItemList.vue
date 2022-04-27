@@ -12,7 +12,7 @@
         dense
         exact
         @click="closeIfM"
-        color="#282C34"
+        color="#097FA4"
       >
         <v-list-item-icon>
           <v-icon>mdi-{{ item.icon }}</v-icon>

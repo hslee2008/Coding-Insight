@@ -37,7 +37,7 @@
           또는 name variablename형태를 사용해서 어떠한 변수 하나만 선언도
           가능합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             struct Person<br />
             {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;char namPer[99];<br />
@@ -66,7 +66,7 @@
           struct와 typedef를 같이 사용하면 쉽고 간단하게 super struct를 만들 수
           있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             typedef struct Person<br />
             {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;char namPer[99];<br />
@@ -80,7 +80,7 @@
 
           이런 방법을 사용하면 더 예쁘게 보입니다.<br /><br />
 
-          <code
+          <code v-highlight class="cpp"
             >typedef struct &lt;struct 이름> {변수} &lt;대신 사용할 이름></code
           >
         </p>
@@ -99,7 +99,7 @@
           .(점)을 사용하면 strcut의 각 변수의 이름을 사용해서 그것의 값을 찾거나
           변경할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             typedef struct Person<br />
             {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;char namPer[99];<br />

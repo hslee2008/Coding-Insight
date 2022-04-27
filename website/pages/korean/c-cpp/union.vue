@@ -19,7 +19,7 @@
       <div>
         <h2>union 선언</h2>
         <p>
-          <code>
+          <code v-highlight class="cpp">
             union DATA {<br />
             &nbsp;&nbsp;int a;<br />
             &nbsp;&nbsp;char aa;<br />
@@ -30,7 +30,7 @@
 
           참고로 struct와 같이 typedef와 같이 사용할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             typedef union Person<br />
             {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;char namPer[99];<br />

@@ -22,7 +22,7 @@
           // 다음에 있는 모든 문자들은 다 주석 안에 포함이 되고 코드를 실행할 때
           C 언어는 그것을 무시합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -51,7 +51,7 @@
 
           /**/ 안에 있는 모든 문자들은 주석입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

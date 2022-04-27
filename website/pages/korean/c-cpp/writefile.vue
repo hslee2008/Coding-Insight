@@ -8,7 +8,7 @@
 
           w는 writing의 약자입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             FILE * fp = fopen("test.txt", "w");<br /><br />
 
             fclose(fp);
@@ -29,7 +29,7 @@
 
           다음, 파일 안에 새롭게 쓸 내용을 문자열로 넣습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             FILE * fp = fopen("test.txt", "w");<br /><br />
 
             fprintf(fp, "blablabla");<br /><br />
@@ -54,7 +54,7 @@
           하지만, a 모드를 사용하면 파일 내용 다음에 새롭게 내용을 추가하지
           완벽하게 덮어쓰지는 않습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             FILE * fp = fopen("test.txt", "a");<br /><br />
 
             fprintf(fp, "blablabla");<br /><br />

@@ -12,7 +12,7 @@
           사용자가 어떤 값을 입력하면 숫자 '5'와 비교하는 프로그램을
           만들겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             userNumber = int(input("숫자를 입력하세요: "))<br /><br />
 
             print(userNumber > 5) #userNumber가 5보다 큰지 비교하고 결과를
@@ -21,7 +21,7 @@
 
           불리언 형태로 변수를 선언할 수도 있습니다.<br /><br />
 
-          <code> a = 5 > 6 </code>
+          <code v-highlight class="python"> a = 5 > 6 </code>
         </p>
       </div>
       <div class="ma-auto">

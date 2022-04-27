@@ -4,12 +4,12 @@
     <p>
       외부 모듈을 추가하려면 Cargo.toml 파일에 아래와 같이 추가합니다.<br /><br />
 
-      <code>
+      <code v-highlight class="rust">
         [dependencies]<br />
         regex = "1.5"<br />
       </code>
 
-      그리고 <code class="ic">cargo run build</code>를 실행합니다.
+      그리고 <code v-highlight class="rust ic">cargo run build</code>를 실행합니다.
     </p>
 
     <Header type="Rust" title="외부 모듈" num="39" />
@@ -20,7 +20,7 @@
 
       그리고 원한다면 use를 사용해서 모듈을 사용할 수 있습니다.<br /><br />
 
-      <code>
+      <code v-highlight class="rust">
         extern crate regex;<br />
         use regex::Regex;<br /><br />
 

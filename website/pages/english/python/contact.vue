@@ -33,14 +33,14 @@
       <h2>Code explanation</h2>
       <div>
         1) Make a friends list<br /><br />
-        <code>friends = []</code>
+        <code v-highlight class="python">friends = []</code>
         2. Ask for mode<br /><br />
-        <code
+        <code v-highlight class="python"
           >mode = input("What do you want to do? (a: Add, r: Remove, p: Print
           All): ")</code
         >
         3. If for comparison: a, r, p<br /><br />
-        <code>
+        <code v-highlight class="python">
           if mode == "a":<br />
           &nbsp;&nbsp;#Add<br />
           elif mode == "r":<br />
@@ -49,13 +49,13 @@
           &nbsp;&nbsp;#Print All
         </code>
         4. Add friend <br /><br />
-        <code> friends.append( input("Friend Name: ") ) </code>
+        <code v-highlight class="python"> friends.append( input("Friend Name: ") ) </code>
         5. Delete Friend<br /><br />
-        <code>
+        <code v-highlight class="python">
           del friends[ int(input("Which friend? (number): ")) ]<br />
         </code>
         6. Print Every Friend<br /><br />
-        <code> print(*friends) </code>
+        <code v-highlight class="python"> print(*friends) </code>
       </div>
     </div>
 

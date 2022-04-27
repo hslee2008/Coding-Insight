@@ -16,14 +16,14 @@
           Simply put in 'True' at daemon parameter in threading.Thread()
           method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainThread = threading.Thread(target = mainFunc, daemon = True)
           </code>
 
           To find whether a specific thread is daemon or not, use the 'daemon'
           property.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainThread = threading.Thread(target = mainFunc, daemon = True)<br />
             print(mainThread.daemon) # True is printed
           </code>
@@ -31,7 +31,7 @@
           Finally, we can make a thread that is not a daemon into a daemon if it
           is not running.<br /><br />
 
-          <code> mainThread.setDaemon(True) </code>
+          <code v-highlight class="python"> mainThread.setDaemon(True) </code>
         </p>
       </div>
     </div>

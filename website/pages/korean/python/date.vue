@@ -6,7 +6,7 @@
         <p>
           날짜는 모듈이어서 먼저 가지고 와야 합니다.<br /><br />
 
-          <code> import datetime </code>
+          <code v-highlight class="python"> import datetime </code>
         </p>
       </div>
       <div class="ma-auto">

@@ -10,7 +10,7 @@
           컴퓨터에서도 항상 사용되는 데이터의 형태입니다. 다음과 같이 데이터를
           선언하고 사용할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             age = 12<br />
             print(age)
           </code>

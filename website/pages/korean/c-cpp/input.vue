@@ -48,7 +48,7 @@
         scanf()는 먼저 %를 사용하여 어떤 정보를 받을 것인지 알려주어야
         합니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br /><br />
 
           int main()<br />
@@ -82,7 +82,7 @@
           참고로 scanf()는 변수를 입력해야 되었습니다. 하지만 getchar()은 변수의
           값을 바꾸는 형태로 변수 안에 저장하는 형식입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

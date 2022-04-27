@@ -8,7 +8,7 @@
 
           랜덤 함수는 stdlib.h 라이브러리 안에 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br />
             #include &lt;stdlib.h><br />
             #include &lt;time.h>
@@ -28,7 +28,7 @@
           rand() 함수는 무작위로 0부터 2147483647(int의 가장 큰 값) 사이의 수를
           선택합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br />
             #include &lt;stdlib.h><br />
             #include &lt;time.h><br /><br />

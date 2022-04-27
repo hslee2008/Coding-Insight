@@ -26,7 +26,7 @@
           항상 abcdefghij라고 사용하면 매우 불편하니까 typedef를 사용해 간단히
           만들겠습니다.<br /><br />
 
-          <code> typedef abcdefghij mt; </code>
+          <code v-highlight class="cpp"> typedef abcdefghij mt; </code>
 
           이제 abcdefghij 대신 mt를 사용해도 됩니다.<br /><br />
 
@@ -36,7 +36,7 @@
           <span class="badge badge-secondary" style="color: red"
             >또 다른 예시</span
           >
-          <code>
+          <code v-highlight class="cpp">
             typedef const unsigned long long int culli;<br /><br />
 
             culli a = 4;

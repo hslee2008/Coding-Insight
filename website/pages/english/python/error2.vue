@@ -9,7 +9,7 @@
           We can get the error message(what the error is about) in Python using
           the 'as' keyword after 'except'.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             try:<br />
             &nbsp;a()<br />
             except NameError as ERR:<br />
@@ -33,7 +33,7 @@
 
           This method is best with 'try - except' clause.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             x = -1<br /><br />
 
             if x &lt; 0:<br />
@@ -57,7 +57,7 @@
           Simply put 'from variable' after exception which will re-make or
           re-raise the error.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             try:<br />
             &nbsp;a()<br />
             except NameError as ERR:<br />

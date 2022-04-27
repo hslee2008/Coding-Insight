@@ -42,7 +42,7 @@
           There will be three self variable inside the class, but the second and
           third one will have _ and __ before attached.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             clas Person:<br />
             &nbsp;def __init__(self):<br />
             &nbsp;&nbsp;self.test1 = 1<br />

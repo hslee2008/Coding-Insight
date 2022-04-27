@@ -7,10 +7,10 @@
           mathplotlib = math + plot + libarary<br /><br />
           matplotlib는 수학과 그래프를 다루는 파이썬 모듈입니다.<br /><br />
           matplotlib는 모듈이이어서 먼저 가지고 와야합니다.<br /><br />
-          <code> import matplotlib </code>
+          <code v-highlight class="python"> import matplotlib </code>
           matplotlib의 버전을 출력하기 위하여 다음과 같은 방법을 사용할 수
           있습니다.
-          <code> print(matplotlib.__version__) </code>
+          <code v-highlight class="python"> print(matplotlib.__version__) </code>
         </p>
       </div>
       <iframe :src="`${trinket}3e28c18725`" height="356" />
@@ -25,7 +25,7 @@
         matplotlib에서는 리스트를 이용하여 함수의 정의역과 치역을 계산합니다.<br /><br />
         정의역은 x의 값들이고 치역은 y의 값들입니다.<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           import matplotlib.pyplot as plt<br /><br />
 
           plt.plot([1, 10], [1, 10])<br />
@@ -56,7 +56,7 @@
       <p>
         matplotlib에서의 마커는 그래프가 꺽이는 부분에 점을 넣을 수 있습니다.
       </p>
-      <p><code> plt.plot([1, 10, 30], [1, 10, 20], marker="x") </code></p>
+      <p><code v-highlight class="python"> plt.plot([1, 10, 30], [1, 10, 20], marker="x") </code></p>
       <p>marker 매개변수로 문자를 넣을 수 있습니다.</p>
       <h3>문자 fmt</h3>
       <p>
@@ -68,16 +68,16 @@
         - 선, --줄선, -. 줄/점 선) 세 번째는 그래프의 색깔입니다. (색깔의 첫
         번째 색깔)
       </p>
-      <p><code> plt.plot([1, 10, 20], [1, 24, 44], 'o:r') </code></p>
+      <p><code v-highlight class="python"> plt.plot([1, 10, 20], [1, 24, 44], 'o:r') </code></p>
       <h3>마커 크기</h3>
       <p>마커의 크기는 매개변수 ms에 수를 입력하면 됩니다.</p>
       <p>
-        <code> plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30) </code>
+        <code v-highlight class="python"> plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30) </code>
       </p>
       <h3>마커 윤곽선</h3>
       <p>마커의 윤곽선은 mec를 이용하여 지정할 수 있습니다.</p>
       <p>
-        <code>
+        <code v-highlight class="python">
           plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r')
         </code>
       </p>
@@ -85,7 +85,7 @@
       <h3>마커 색깔</h3>
       <p>
         마커의 색깔은 mfc (marker + face + color)로 설정할 수 있습니다.
-        <code>
+        <code v-highlight class="python">
           plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r',
           mfc = 'g')
         </code>
@@ -104,12 +104,12 @@
           선의 스타일로 linestyle 매개변수에 dotted, dotted, dashed, None,
           dashdot, solid를 사용할 수 있습니다. linestyle은 ls로도 사용할 수
           있습니다.<br /><br />
-          <code>
+          <code v-highlight class="python">
             plt.plot([1, 10, 20], [1, 24, 44], linestyle = 'dashed')
           </code>
           <h2>선 폭</h2>
           선의 폭은 linewidth 또는 lw로 설정할 수 있습니다.<br /><br />
-          <code> plt.plot([1, 4, 5], [1, 4, 6], linewidth = '3.14159') </code>
+          <code v-highlight class="python"> plt.plot([1, 4, 5], [1, 4, 6], linewidth = '3.14159') </code>
         </div>
       </div>
     </div>
@@ -123,15 +123,15 @@
           <p>
             x 쪽이 무엇인지 사용자에게 알려주어야합니다. 시간일 수도 있고 값일
             수도 있습니다.<br /><br />
-            <code>
+            <code v-highlight class="python">
               plt.xlabel("Time (h)")<br />
               plt.ylabel("Money (w)")
             </code>
             그래프의 제목은 title() 메서드를 사용할 수 있습니다.<br /><br />
-            <code> plt.title("Money spent") </code>
+            <code v-highlight class="python"> plt.title("Money spent") </code>
             그래프 제목의 스타일과 위치를 바꾸기 위하여 다음과 같은 방법을
             사용할 수 있습니다.<br /><br />
-            <code>
+            <code v-highlight class="python">
               font1 = {<br />
               'family': "serif",<br />
               'color': "black",<br />
@@ -154,7 +154,7 @@
             점을 여러개 만들고 싶다면 scatter 메서드를 사용할 수 있습니다.<br /><br />
             scatter는 영어로 '튀다'라는 뜻을 가지고 있지만 '퍼져있다'라는 뜻고
             가지고 있습니다.<br /><br />
-            <code>
+            <code v-highlight class="python">
               plt.scatter([0, 1, 2, 3, 4, 5], [0, 10, 20, 30, 40, 50])<br />
               plt.show()
             </code>

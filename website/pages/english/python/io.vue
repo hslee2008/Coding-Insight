@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <div class="header-div text-white">
+      <div>
         <div>
           <h2>What is printing?</h2>
           <p>
@@ -16,7 +16,7 @@
             To print information to the console, use the following code.
           </p>
         </div>
-        <code>
+        <code v-highlight class="python">
           print("Hello, World!")<br />
           print("안녕하세요")<br />
           print("5")<br />
@@ -30,7 +30,7 @@
 
       <QuadSpace />
 
-      <div class="norm-div bg-black text-white">
+      <div >
         <div>
           <h2>print() but with end</h2>
           <p>
@@ -46,7 +46,7 @@
             For example, if we want to print "Hello, World!"(without "") and
             then a period, we can use end to store '.'.<br /><br />
 
-            <code> print("Hello, World!", end=".") </code>
+            <code v-highlight class="python"> print("Hello, World!", end=".") </code>
           </p>
         </div>
 
@@ -66,7 +66,7 @@
             commans inside print(). Python will automatically squish the texts
             with spaces between them.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               print("Hello, World!")<br />
               print("Hello", "World")
             </code>
@@ -77,7 +77,7 @@
 
             We can use 'sep' to store the character inside<br /><br />
 
-            <code> print("Hello", "World", sep=" ,") </code>
+            <code v-highlight class="python"> print("Hello", "World", sep=" ,") </code>
           </p>
         </div>
       </div>
@@ -99,7 +99,7 @@
             3. If the two password is the same, login otherwise stay logged
             out.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               if 'password' == input("Password:"):<br />
               &emsp;print("Login")
             </code>

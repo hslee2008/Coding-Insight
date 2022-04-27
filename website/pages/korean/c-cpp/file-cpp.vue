@@ -9,7 +9,7 @@
           fstream 라이브러리를 사용하려면 항상 &lt;iostream>과 &lt;fstream>
           헤더를 가지고 오세요.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             #include &lt;fstream>
           </code>
@@ -38,7 +38,7 @@
 
           참고로 파일을 닫아야지 메모리 사용량을 줄일 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             #include &lt;fstream><br />
             using namespace std;<br /><br />
@@ -72,7 +72,7 @@
           4. while 반복문 안에 문자열변수를 사용합니다.<br />
           5. 마지막으로, 파일을 닫습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             string a;<br />
             ifstream file("myfile.txt");<br /><br />
 

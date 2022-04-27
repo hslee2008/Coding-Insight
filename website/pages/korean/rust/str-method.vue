@@ -50,7 +50,7 @@
 
         문자열의 인덱스는 &str에서 chars()로 바꾸고 nth()를 사용해서 n번째
         인덱스를 찾을 수 있습니다. 참고로 nth()는 사실
-        <code class="ic">Some("")</code>를 반환하기 때문에 Some()을 없에기
+        <code v-highlight class="rust ic">Some("")</code>를 반환하기 때문에 Some()을 없에기
         위해서 unwrap()를 사용합니다.<br /><br />
 
         <iframe

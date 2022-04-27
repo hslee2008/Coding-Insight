@@ -45,10 +45,10 @@
         and we will only be adding more to it<br /><br />
 
         2) How many tries? <br /><br />
-        <code> guess_try = 0 </code>
+        <code v-highlight class="python"> guess_try = 0 </code>
 
         3) Add 1 to the try variable<br /><br />
-        <code> guess_try += 1 </code>
+        <code v-highlight class="python"> guess_try += 1 </code>
 
         4) if guess_try is higher than 3, do not allow login<br /><br />
 

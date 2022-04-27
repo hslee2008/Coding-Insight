@@ -30,11 +30,11 @@
         <p>
           We have to import numpy module to use array in Python.<br /><br />
 
-          <code> import numpy </code>
+          <code v-highlight class="python"> import numpy </code>
 
           Let's make an array of numbers from 1 to 5.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import numpy<br /><br />
 
             arr = numpy.array([1, 2, 3, 4, 5])<br /><br />
@@ -61,7 +61,7 @@
 
           This way, it is much more easier to read.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import numpy<br /><br />
 
             mainArray = numpy.array([1, 2, 3])<br /><br />

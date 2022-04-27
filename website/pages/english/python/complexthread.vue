@@ -6,7 +6,7 @@
         <p>
           Let's try looking into a much more complex thread.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import threading, time<br /><br />
 
             def thread1():<br />
@@ -48,7 +48,7 @@
           Similar to 'await' in asyncio, join() method will wait till that
           thread is finished.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import threading, time<br /><br />
 
             def thread1():<br />

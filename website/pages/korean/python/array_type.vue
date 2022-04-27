@@ -24,7 +24,7 @@
       <p>
         0-D 정렬은 값이 1개입니다. 0-D는 Scalars라고도 합니다.<br /><br />
 
-        <code> arr = numpy.array(44) </code>
+        <code v-highlight class="python"> arr = numpy.array(44) </code>
       </p>
     </div>
 
@@ -35,7 +35,7 @@
       <p>
         1-D 정렬은 정렬이 1개입니다. 1-D는 uni-dimension이라고도 합니다.<br /><br />
 
-        <code> arr = numpy.array([4, 44, 444]) </code>
+        <code v-highlight class="python"> arr = numpy.array([4, 44, 444]) </code>
       </p>
     </div>
 
@@ -48,7 +48,7 @@
 
         정렬의 치수는 무한대로 늘어날 수 있습니다.<br /><br />
 
-        <code> arr = numpy.array([ [4, 44, 444], [3, 3, 444] ]) </code>
+        <code v-highlight class="python"> arr = numpy.array([ [4, 44, 444], [3, 3, 444] ]) </code>
       </p>
     </div>
 
@@ -59,11 +59,11 @@
       <mark>정렬의 치수</mark>를 알기 위하여 항상 numpy 정렬을 선언한 후
       ndim이라는 값을 이용할 수 있습니다.<br /><br />
 
-      <code> print(arr.ndim) </code>
+      <code v-highlight class="python"> print(arr.ndim) </code>
 
       <br /><br />정렬을 만들 때 정렬의 치수를 지정할 수도 있습니다.<br /><br />
 
-      <code> arr = numpy.array([4, 44, 444, 4444], ndmin=1000) </code>
+      <code v-highlight class="python"> arr = numpy.array([4, 44, 444, 4444], ndmin=1000) </code>
     </p>
 
     <QuadSpace />

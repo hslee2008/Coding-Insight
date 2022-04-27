@@ -26,7 +26,7 @@
 
           Do not put '.py'(extension) at the end, only the file name.<br /><br />
 
-          <code> import math </code>
+          <code v-highlight class="python"> import math </code>
 
           We use math for mathematical operation.
         </p>
@@ -42,7 +42,7 @@
           When we use dir(), we can see all the available functions and
           variables.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import math<br /><br />
 
             print(dir(math))
@@ -54,7 +54,7 @@
           sqrt is short for Square Root and it is used for finding square root
           of a number.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import math<br /><br />
 
             print(math.sqrt(4))
@@ -81,7 +81,7 @@
 
           1. Store all information on a variable<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import abcdefghijklmnopqrstuvwxyz<br /><br />
 
             alphabet = abcdefghijklmnopqrstuvwxyz<br /><br />
@@ -92,7 +92,7 @@
 
           2. Using as keyword<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import abcdefghijklmnopqrstuvwxyz as alphabet<br /><br />
 
             alphabet.abc()

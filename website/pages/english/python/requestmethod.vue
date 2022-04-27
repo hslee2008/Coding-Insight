@@ -9,7 +9,7 @@
           Using the status_code property, we can figure out the status of our
           request.<br /><br />
 
-          <code> print(a.status_code) </code>
+          <code v-highlight class="python"> print(a.status_code) </code>
 
           If 200 is printed, the request is a success.<br /><br />
 
@@ -22,7 +22,7 @@
           To check whether the request succeeded or not, use the 'ok' property
           and check whether it is True or False.<br /><br />
 
-          <code> print(a.ok) </code>
+          <code v-highlight class="python"> print(a.ok) </code>
         </p>
       </div>
     </div>

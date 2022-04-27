@@ -35,7 +35,7 @@
 
           We can calculate average like below<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             dataList = input().split(",")<br />
             print(sum(dataList)/len(dataList))
           </code>

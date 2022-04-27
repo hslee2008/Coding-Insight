@@ -33,7 +33,7 @@
         <h2>변수 선언하기</h2>
         <p>
           변수를 만들려면 다음과 같은 방법을 사용할 수 있습니다. <br /><br />
-          <code> NAME = DATA </code>
+          <code v-highlight class="python"> name = data </code>
           에서 NAME은 변수의 이름을 뜻하고 DATA는 값입니다. <br /><br />
           이렇게 하면 변수를 만들 수 있습니다.
         </p>
@@ -49,10 +49,14 @@
         <p>
           변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이
           출력되지 않고 변수의 값이 출력됩니다.<br /><br />
-          <code>
-            name = "John"<br />
-            print(name) #John이 출력됩니다.
-          </code>
+
+          <code
+            v-highlight
+            class="python"
+            style="white-space: pre"
+            v-html="`name = 'John'\nprint(name) #John이 출력됩니다.`"
+          />
+
           파이썬에서 변수의 이름은 대문자 소문자가 구별됩니다. <br /><br />
           NAME과 name은 다릅니다.
         </p>
@@ -101,7 +105,7 @@
       없다면 삭제해도 됩니다.<br /><br />
       삭제는 del 키워드를 사용하고 뒤에 변수 이름을 넣으면 이제 변수를 다시
       사용할 수 없게 됩니다.<br /><br /><br />
-      <code>
+      <code v-highlight class="python">
         name = "Coding-Insight"<br /><br />
         del name<br /><br />
         print(name)
@@ -121,7 +125,7 @@
           위의 방법을 따르면 첫 번째 변수에 첫 번째 값이 저장되고 두 번째에는 두
           번째 값이 지정됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a, b, c = 1, 2, 3<br /><br />
 
             print(a) #1이 출력된다
@@ -132,7 +136,7 @@
           그래서 파이썬에서는 변수를 '='로 연결하여 끝에 한 값을 넣어주면 모든
           변수에 그 마지막 값이 저장됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = b = c = d = e = "alphabet"<br /><br />
 
             print(a) #alphabet이 출력된다<br />

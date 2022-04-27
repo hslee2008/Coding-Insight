@@ -38,7 +38,7 @@
           Note that depending on your terminal and system, it can be either
           'cls' or 'clear'.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import os<br /><br />
 
             os.system("cls")

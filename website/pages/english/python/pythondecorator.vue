@@ -8,7 +8,7 @@
         <p>
           Let's try making a 'Teacher' class.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             class Teacher:<br />
             &nbsp;def __init__(self, name, subjectTeaching):<br />
             &nbsp;&nbsp;self.name = name<br />
@@ -23,7 +23,7 @@
           However, if we add @property decorator to the name, the name()
           function can be used with name(sort of like variable) instead.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             @property<br />
             &nbsp;def name(self):<br />
             &nbsp;&nbsp;return self.name
@@ -32,7 +32,7 @@
           Furthermore, we can make a function that sets the self value using
           @selfvariable.setter property.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             @name.setter #set name variable to something new<br />
             &nbsp;def name(self, val):<br />
             &nbsp;&nbsp;self.name = val
@@ -41,7 +41,7 @@
           Finally, we can make a function that deletes a specific self variable
           by using @selfvariable.deleter decorator.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             @name.deleter<br />
             def name(self, val):<br />
             &nbsp;print('삭제하겠습니다….)<br /><br />

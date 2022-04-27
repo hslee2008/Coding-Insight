@@ -12,7 +12,7 @@
           While list() function can be used for any type of data, we can only
           use split() for strings.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "abcdefghijklmnop"<br />
             print(list(a))
           </code>
@@ -20,7 +20,7 @@
           The split() method will split the string into multiple pieces
           according to the given character.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "HelloAWorld."<br />
             print(a.split("A"))
           </code>
@@ -40,7 +40,7 @@
           If you want to convert a string into tuple, make sure to use split()
           method first then to turn that into a tuple.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "Hello! World! My! name! is! Hyunseung"<br />
             print(tuple(a.split("!")))
           </code>
@@ -58,7 +58,7 @@
           To convert to each type of number(int, float, complex), use int(),
           float() and complex() method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "32"<br /><br />
 
             print(int(a))
@@ -68,7 +68,7 @@
           numbers(e.g. alphabets), running int(), float() or complex() will
           return NaN.<br /><br />
 
-          <code>NaN</code>
+          <code v-highlight class="python">NaN</code>
 
           NaN is short for Not a Number.
         </p>
@@ -86,7 +86,7 @@
 
           bool() function will turn the number into either True or False.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = 0<br /><br />
 
             print(bool(a))

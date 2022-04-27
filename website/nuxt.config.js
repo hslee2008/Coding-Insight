@@ -136,6 +136,12 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     '@nuxtjs/axios',
+    [
+      'nuxt-highlightjs',
+      {
+        style: 'vs2015',
+      },
+    ],
   ],
 
   sitemap: {

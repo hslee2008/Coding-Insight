@@ -37,7 +37,7 @@
         <p>
           GMAIL에 로그인할 때 처음으로 뜨는 스크린의 URL은 다음과 같습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             https://accounts.google.com/signin/v2/identifier?<br />
             continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&<br />
             service=mail&<br />
@@ -97,7 +97,7 @@
           하지만 어떤 아이템의 수가 음의 정수가 될 수 있습니다.<br /><br />
           물건이 0보다 적게 있다는 것이 말은 되지 않지만 파이썬 카운터에서는
           가능합니다.<br /><br />
-          <code>
+          <code v-highlight class="python">
             a = Counter(a = 4, b = 5)<br />
             b = Counter(a = 6, b = 9)<br /><br />
 

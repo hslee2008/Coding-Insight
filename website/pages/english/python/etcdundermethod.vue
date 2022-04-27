@@ -6,7 +6,7 @@
       <div>
         <h2>Operation Dunder method</h2>
         <p>
-          <code>
+          <code v-highlight class="python">
             neg__()<br />
             pos__()<br />
             abs__()<br />
@@ -36,7 +36,7 @@
       <div>
         <h2>Arithmetic Dunder Method</h2>
         <p>
-          <code>
+          <code v-highlight class="python">
             radd__(self, a) # +<br />
             rsub__(self, a) # -<br />
             rmul__(self, a) # *<br />
@@ -64,7 +64,7 @@
       <div>
         <h2>Other</h2>
         <p>
-          <code>
+          <code v-highlight class="python">
             contains__(self, ITEM)<br />
             reversed__(self)<br />
             iter__(self)<br />

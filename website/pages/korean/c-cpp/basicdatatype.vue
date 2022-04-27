@@ -102,7 +102,7 @@
       <div class="ma-auto">
         <h2>예시</h2>
         <p>
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -137,7 +137,7 @@
           .x 전에 다른 숫자 y를 넣으면 그 숫자가 y만큼 길이를 가질 때 까지 앞에
           ' '를 넣습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

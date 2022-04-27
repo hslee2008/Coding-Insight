@@ -36,7 +36,7 @@
             다시 말해, NONLOCAL은 그 들여쓰기가 된 부분에서만 사용할 수
             있습니다.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               def testing():<br />
               &nbsp;&nbsp;nonlocal message<br />
               &nbsp;&nbsp;message = "Hello, World!"<br />

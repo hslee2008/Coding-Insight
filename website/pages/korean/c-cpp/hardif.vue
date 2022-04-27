@@ -12,7 +12,7 @@
           만일 if 안에 있는 조건이 옳다면 else 안에 있는 코드는 실행하지 않을
           것입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -55,7 +55,7 @@
           마지막으로, else문 안에 있는 if문에 else문을 달아 50보다 적으면
           '게임x'를 출력하겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -87,7 +87,7 @@
         else 문 안의 if문과 같은 else if 문은 if 문의 조건이 틀렸다면 else if
         문의 조건을 확인합니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br /><br />
 
           int main()<br />

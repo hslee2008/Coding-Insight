@@ -62,7 +62,7 @@
           마지막에 ','를 넣어 다시는 값을 원하지 않는다고 파이썬에게 알려주는
           것이 가능합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = 1, 2,<br />
             b = 3,
           </code>

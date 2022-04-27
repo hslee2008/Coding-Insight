@@ -45,7 +45,7 @@
     <div>
       <div>
         <h2>예시</h2>
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br /><br />
 
           int main()<br />

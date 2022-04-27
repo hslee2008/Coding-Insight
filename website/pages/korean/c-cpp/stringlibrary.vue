@@ -14,7 +14,7 @@
           가지고 오려면 #include &lt;>를 사용해서 &lt;> 안에 라이브러리 이름을
           넣습니다.<br /><br />
 
-          <code>#include &lt;string.h</code>
+          <code v-highlight class="cpp">#include &lt;string.h</code>
         </p>
       </div>
       <div class="ma-auto">
@@ -40,7 +40,7 @@
 
         secondString은 변수가 아닌 문자열이어도 됩니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           char str[99];<br /><br />
 
           strcpy(str, "Hello, World!");<br /><br />
@@ -56,7 +56,7 @@
         strncat(string, secondString, x) 형태로 string에 secondString의
         x번째에서 끊어서 붙입니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           char strs[99] = "Hello ";<br />
           char secStr[99] = "World";<br /><br />
 
@@ -78,7 +78,7 @@
         <p>
           strlen(string) 형태로 string 문자열의 길이를 알 수 있습니다.<br /><br />
 
-          <code> printf("%d", strlen("C is awsome")); </code>
+          <code v-highlight class="cpp"> printf("%d", strlen("C is awsome")); </code>
 
           참고로 공백 포함입니다.
         </p>

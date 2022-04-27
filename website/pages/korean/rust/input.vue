@@ -13,7 +13,7 @@
 
       입력을 사용하기 위해서 std::io 모듈을 사용해야 됩니다.<br /><br />
 
-      <code>
+      <code v-highlight class="rust">
         use std::io;<br /><br />
 
         fn main() {<br />

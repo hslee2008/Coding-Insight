@@ -29,7 +29,7 @@
         <p>
           Let's first make a class that does nothing and has nothing.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             class Person:<br />
             &nbsp;pass<br /><br />
 
@@ -38,14 +38,14 @@
 
           Now, let's try printing 'a' or Person().<br /><br />
 
-          <code> print(a) </code>
+          <code v-highlight class="python"> print(a) </code>
 
           We just get a weird string that we cannot understand.<br /><br />
 
           However, when we print this way, we can specify what to return instead
           of the weird string we saw earlier.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             class Person:<br />
             &nbsp;def __init__(self, name):<br />
             &nbsp;&nbsp;self.name = name<br /><br />
@@ -60,7 +60,7 @@
           Furthermore, using repr() on that class will return a specific object
           inside the __repr__() dunder method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             class Person:<br />
             &nbsp;def __init__(self, name):<br />
             &nbsp;&nbsp;self.name = name<br /><br />

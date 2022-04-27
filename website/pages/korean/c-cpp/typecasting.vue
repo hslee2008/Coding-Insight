@@ -27,7 +27,7 @@
           2. 다른 변수 char 안에 unsigned char 'A' 변수를 넣는 방법이
           있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

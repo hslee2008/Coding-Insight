@@ -19,7 +19,7 @@
 
           %를 출력하고 싶다면 %%를 "" 안에 넣으면 출력은 %가 됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -63,7 +63,7 @@
 
           예를 들면, "Hello\nWorld"는 "Hello(새로운 줄)World"와 같습니다.
         </p>
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br /><br />
 
           int main()<br />

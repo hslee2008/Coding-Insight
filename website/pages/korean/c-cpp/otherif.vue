@@ -12,7 +12,7 @@
           쉽게 설명하자면, #이 없는 조건문은 조건을 따라 실행하고 #가 있다면
           쉽게 미리 어떤 코드를 실행할지 정합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #if 1 == 1<br />
             printf("1");<br />
             #else<br />
@@ -41,7 +41,7 @@
           #else가 존재하면 #else와 #if까지의 코드는 if안에 있고 그렇지 않다면
           #if부터 #endif까지가 if의 코드입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #if (1 == 1)<br />
             printf("1 is equal to 1");<br />
             #else<br />

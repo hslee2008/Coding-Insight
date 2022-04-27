@@ -23,7 +23,7 @@
 
           참고로 exit()는 stdlib.h라이브러리 안에 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             int a;<br />
             scanf("%d", &a);<br /><br />
 
@@ -53,7 +53,7 @@
 
           exit()은 프로그램을 정리하고 끝냅니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             int a;<br />
             scanf("%d", &a);<br /><br />
 

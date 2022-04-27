@@ -17,7 +17,7 @@
           For example, let's try creating a set of students who are taller than
           160cm in class.<br /><br />
 
-          <code> people = {"Elvis", "Taylor", "Michael", "John"} </code>
+          <code v-highlight class="python"> people = {"Elvis", "Taylor", "Michael", "John"} </code>
 
           Note that sets do not have an order.
         </p>
@@ -46,14 +46,14 @@
             To add a value to the end of a set, we'll use a function called
             'add'.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               tallPeople = {"Random Guy", "Hyunseung", "Mrs. Jone"}<br />
               tallPeople.add("3Einstein")
             </code>
 
             You can use 'update()' to attach a set to the first one.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               tallPeople = {"Einstein", "Isaac", "Tesla"}<br />
               shortPeople = {"I.M Short", "Random Guy"}<br />
               tallPeople.update(shortPeople)
@@ -72,7 +72,7 @@
         <p>
           Let's remove the item 'red' from the values ​​in the set.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             colorSet = {"red", "green", "blue", "orange"}<br />
             colorSet.remove('red')<br /><br />
 
@@ -83,7 +83,7 @@
           certain set, an error occurs. If you want no errors, use the discard
           method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             colorSet = {"red", "green", "blue", "orange"}<br />
             colorSet.discard('black') #colorSet set has not changed.<br /><br />
 
@@ -92,7 +92,7 @@
 
           You can use the clear method to clear all the items in the set.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             colorSet = {"red", "green", "blue", "orange"}<br />
             colorSet.clear()<br /><br />
 

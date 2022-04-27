@@ -6,7 +6,7 @@
         <p>
           Let's fetch datetime module first.<br /><br />
 
-          <code> import datetime </code>
+          <code v-highlight class="python"> import datetime </code>
         </p>
       </div>
       <div class="ma-auto">
@@ -28,7 +28,7 @@
 
           The format will be: 'yyyy-mm-dd hh:mm:ss'.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import datetime<br /><br />
 
             print(datetime.datetime.now())
@@ -47,7 +47,7 @@
           To get each of hour, minute, second and milisecond, ues the strftime()
           method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import datetime<br /><br />
 
             rightNow = datetime.datetime.now()<br />

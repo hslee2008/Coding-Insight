@@ -106,7 +106,7 @@
           탭은 스페이스바를 4번 누른 것과 같습니다. 탭은 우리 자판에서 tab
           버튼을 누르면 됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             essay = "안녕하세요.\t저는 파이썬을 코딩할 줄 알아요..."
           </code>
         </p>

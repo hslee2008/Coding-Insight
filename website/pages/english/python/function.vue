@@ -22,7 +22,7 @@
 
           Then, put the group of code inside the function (indentation!!!).<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def sayHelloToWorld():<br />
             &nbsp;print("Hello, World!")
           </code>
@@ -33,7 +33,7 @@
 
           In this case, sayHelloWorld().<br /><br />
 
-          <code> sayHelloToWorld() </code>
+          <code v-highlight class="python"> sayHelloToWorld() </code>
         </p>
       </div>
       <iframe :src="`${trinket}221bb999f6`" height="356" loading="lazy" />
@@ -51,14 +51,14 @@
             For example, if we want to make a function that prints the sum of
             two numbers, we can make 2 parameters.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               def addNum(a, b):<br />
               &nbsp;print(a+b)
             </code>
 
             When using the parameter, put each value inside ().<br /><br />
 
-            <code> addNum(1, 1) </code>
+            <code v-highlight class="python"> addNum(1, 1) </code>
           </p>
         </div>
         <iframe :src="`${trinket}3a2f78ef6b`" height="356" loading="lazy" />
@@ -73,7 +73,7 @@
         <p>
           We can use the apply() function to run.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def printWithEnd(a, b, c=None):<br />
             &nbsp;print(a + b, end = c)<br /><br />
 
@@ -99,7 +99,7 @@
           Instead of big chuncks of code inside if statement, we need to put in
           only one line of code: addNumbers()<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def addNumbers():<br />
             &nbsp;firstNum = int(input("First Number: "))<br />
             &nbsp;secondNum = int(input("Second Number: "))<br />

@@ -43,7 +43,7 @@
           만일 문자 안에 있는 문자가 숫자가 아니라면 다음과 같은 결과가 나올
           것입니다.<br /><br />
 
-          <code>NaN</code>
+          <code v-highlight class="python">NaN</code>
 
           NaN은 Not a Number의 약자입니다
         </p>

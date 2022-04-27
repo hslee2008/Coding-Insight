@@ -9,7 +9,7 @@
         iostream을 가지고 오면 저절로 string이라는 데이터 형태를 사용할 수
         있습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           using namespace std;
         </code>
@@ -24,7 +24,7 @@
 
         string이라는 데이터 형태를 사용해보겠습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           using namespace std;<br /><br />
 
@@ -55,7 +55,7 @@
 
         &lt;&lt;는 cout에서 출력할 때 옆에 출력하겠다는 뜻입니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           using namespace std;<br /><br />
 
@@ -70,7 +70,7 @@
 
         append() 메서드를 사용해도 됩니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           using namespace std;<br /><br />
 
@@ -118,7 +118,7 @@
 
         length()와 size()는 문자열의 길이를 돌려주는 메서드입니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           using namespace std;<br /><br />
 

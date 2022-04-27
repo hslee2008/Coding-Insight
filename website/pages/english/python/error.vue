@@ -40,7 +40,7 @@
           We have to put in a code to tell the users you cannot divide a number
           by 0.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             try:<br />
             &nbsp;ur = 2/int(input("Type in a number that will divide 2: "))<br />
             &nbsp;print(ur)<br />

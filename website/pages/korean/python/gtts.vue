@@ -10,7 +10,7 @@
 
           먼저, GTTS를 설치하기 위해서 다음 코드를 실행하세요.<br /><br />
 
-          <code> pip install gtts </code>
+          <code v-highlight class="python"> pip install gtts </code>
         </p>
       </div>
 
@@ -29,7 +29,7 @@
         <p>
           터미널을 키고 다음 코드를 실행하세요.<br /><br />
 
-          <code> gtts-cli 'hello' --output hello.mp3 </code>
+          <code v-highlight class="python"> gtts-cli 'hello' --output hello.mp3 </code>
 
           위의 코드를 실행하면 hellp.mp3라는 새로운 파일이 만들어 집니다.<br /><br />
 
@@ -53,7 +53,7 @@
         <p>
           파이썬에서 GTTS를 사용하겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             from gtts import gTTS<br /><br />
 
             tts = gTTS('Python is awsome', lang="en")<br />

@@ -27,7 +27,7 @@
           참고로 namespace 안에 있는 함수를 사용하기 위해서는 이름::을 함수 이름
           전에 붙어야 합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             using namespace std; <br /><br />
 
@@ -57,7 +57,7 @@
           using namespace 이름을 넣으면 그 다음 나오는 모든 코드는 namespace가
           그 namespace일 것입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             using namespace std;<br /><br />
 

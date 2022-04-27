@@ -53,7 +53,7 @@
 
           예를 들어<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             hello<br />
             world
           </code>
@@ -86,7 +86,7 @@
           예를 들어 Hello에서 첫 번째 문자를 출력하기 위해서 인덱스 0을 사용할
           수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "Hello"<br />
             print(a[0])
           </code>

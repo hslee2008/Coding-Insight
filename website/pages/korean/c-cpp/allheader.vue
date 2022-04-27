@@ -8,7 +8,7 @@
         이때, 하나하나 다 가지고 오지 않고 bits/stdc++.h라는 파일 하나만
         사용해도 됩니다.<br /><br />
 
-        <code> #include &lt;bits/stdc++.h> </code>
+        <code v-highlight class="cpp"> #include &lt;bits/stdc++.h> </code>
       </div>
     </div>
 

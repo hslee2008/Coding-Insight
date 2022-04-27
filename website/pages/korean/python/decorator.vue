@@ -37,7 +37,7 @@
           사용자가 지정한 값을 반환하는 것도 가능하지만 이 예시에서는 쉽게
           설명하기 위하여 -4를 돌려주는 함수를 만들겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def returnVal():<br />
             &nbsp;&nbsp;return -4
           </code>
@@ -67,7 +67,7 @@
           데코레이터를 사용하기 위하여 returnVal() 함수를 선언하기 바로 전에
           다음과 같은 코드를 붙여넣습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             @minusDecorator<br />
             def returnVal():return -4
           </code>

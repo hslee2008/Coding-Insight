@@ -35,7 +35,7 @@
 
           We can find the union of two sets using union() method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             firstColorSet = {"red", "orange", "yellow"}<br />
             secondColorSet = {"green", "blue", "black"}<br /><br />
 
@@ -51,7 +51,7 @@
           the key above enter and shift together) which finds the union of two
           numbers.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             A = {1, 2}<br />
             B = {2, 3}<br />
             print(A | B)
@@ -78,7 +78,7 @@
             stored inside variable or directly printed.<br /><br />
 
             intersection_update()<br />
-            <code>
+            <code v-highlight class="python">
               firstColorSet = {"red", "orange", "yellow", "green"}<br />
               secondColorSet = {"green", "blue", "black"}<br /><br />
 
@@ -88,7 +88,7 @@
             </code>
 
             intersection()<br />
-            <code>
+            <code v-highlight class="python">
               firstColorSet = {"red", "orange", "yellow", "green"}<br />
               secondColorSet = {"green", "blue", "black"}<br /><br />
 
@@ -115,7 +115,7 @@
           symmetric_difference() method exists too and it returns new set while
           symmetric_dffierence_update() will change the first set.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             bcl = {"Javascript", "C++", "C", "Python"}<br />
             greatButNotTheBestLCodingLanguage = {"C++", "C", "Python"}<br /><br />
 
@@ -126,7 +126,7 @@
 
           Tip: use - for much easier operations.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             A = {1, 2}<br />
             B = {2, 3}<br />
             print(A - B)

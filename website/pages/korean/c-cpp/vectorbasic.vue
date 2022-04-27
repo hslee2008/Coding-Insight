@@ -23,12 +23,12 @@
         vector을 사용하기 위해서 vector 라이브러리에서 먼저 가지고
         오겠습니다.<br /><br />
 
-        <code> #include &lt;vector> </code>
+        <code v-highlight class="cpp"> #include &lt;vector> </code>
 
         vector은 vector&lt;데이터형태> 모양이고 데이터 형태를 &lt;> 안에 넣으면
         됩니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           #include &lt;vector><br /><br />
 
@@ -56,7 +56,7 @@
         vector 끝에는 push_back()이라는 메서드를 이용해서 끝에 새로운 값을 더할
         수 있습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           #include &lt;vector><br />
           using namespace std;<br /><br />
@@ -80,7 +80,7 @@
 
         두 번째에는 더하고 싶은 값을 넣으면 됩니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           #include &lt;vector><br />
           using namespace std;<br /><br />
@@ -109,7 +109,7 @@
         가장 뒤에 있는 vector 아이템은 pop_back() 메서드를 사용해서 제거할 수
         있습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           #include &lt;vector><br />
           using namespace std;<br /><br />
@@ -134,7 +134,7 @@
         또는 erase()를 사용해서 어떤 한 인덱스에 있는 값을 제거할 수
         있습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;iostream><br />
           #include &lt;vector><br />
           using namespace std;<br /><br />

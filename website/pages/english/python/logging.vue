@@ -15,7 +15,7 @@
       But first, we have to set the log file where our loggings will be stored.
     </p>
 
-    <code>
+    <code v-highlight class="python">
       import logging<br /><br />
 
       logging.basicConfig(filename="log.log")
@@ -56,7 +56,7 @@
           logging.error() is for logging error messages if something went
           wrong.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import logging<br /><br />
 
             logging.error("You are too smart!")
@@ -66,7 +66,7 @@
 
           Exception is when a variable value went wrong.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import logging<br /><br />
 
             logging.exception("you cannot use this number because it is not

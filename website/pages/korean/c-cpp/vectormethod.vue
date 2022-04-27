@@ -10,7 +10,7 @@
 
           첫 번째 아이템은 front() 메서드를 사용해서 출력할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             #include &lt;vector><br />
             using namespace std;<br /><br />
@@ -43,7 +43,7 @@
           0이 출력되면 아이템이 들어있고(False) 1이면 아무것도
           없습니다(True).<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             #include &lt;vector><br />
             using namespace std;<br /><br />
@@ -76,7 +76,7 @@
 
           그래서 clear()을 실행하면 vector안의 모든 데이터들이 버려집니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             #include &lt;vector><br />
             using namespace std;<br /><br />

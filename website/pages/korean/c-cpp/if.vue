@@ -38,7 +38,7 @@
           하지만 시험 점수가 100점이 아니면 {} 안에 있는 코드를 실행하지 않고
           넘어갑니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br />
 
             int main()<br />
@@ -71,7 +71,7 @@
 
           {}를 생략한다면 복잡한 조건문을 사용할 때 이해하기 더 쉽습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -103,7 +103,7 @@
           연산자이기 때문에 어떤 변수 안에 조건이 맞다면 특별한 정보를 저장하기
           그렇지 않다면 다른 것을 저장하는 형태를 가지고 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br />
 
             int main()<br />

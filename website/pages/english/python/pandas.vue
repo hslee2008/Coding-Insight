@@ -9,7 +9,7 @@
           Python does not have Pandas installed by default, so we will install
           it right now in the terminal.<br /><br />
 
-          <code> pip install pandas </code>
+          <code v-highlight class="python"> pip install pandas </code>
         </p>
       </div>
       <GlobalImage
@@ -29,7 +29,7 @@
 
           First, we have to import pandas first.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             s = pd.Series(["A", "B", "C"])<br />
@@ -39,7 +39,7 @@
           If we run the code above, the following text appears in the
           console.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             0 A<br />
             1 B<br />
             2 C<br />
@@ -49,7 +49,7 @@
           Furthermore, we can set our own values for index(the numbers appearing
           before each value).<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             s = pd.Series(["A", "B", "C"], index=["First: ", "Second: ", "Third:
@@ -59,7 +59,7 @@
 
           Finally, we can access each value assigned to index using [].<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             s = pd.Series(["A", "B", "C"], index=["First: ", "Second: ", "Third:
@@ -105,7 +105,7 @@
 
           We can do that easily by using the read_clipboard() method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             print(pd.read_clipboard())
@@ -113,7 +113,7 @@
 
           Using to_clipbaord(), we can push our own data to the clipboard.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             df = pd.DataFrame([1, 2, 3], [4, 5, 6], columns=['A', 'B', 'C'])<br />
@@ -144,7 +144,7 @@
 
           Simply put in the file path in read_csv().<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             df = pd.read_csv('data.csv')<br /><br />
@@ -157,7 +157,7 @@
 
           Use the to_string() method to print every single data.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             df = pd.read_csv('data.csv')<br /><br />

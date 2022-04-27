@@ -21,7 +21,7 @@
           So, if we put a backslash after boolean statement, the next line
           automatically goes inside the if statement.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             if 1 == 1:\<br />
             print("1 is equal to 1")
           </code>

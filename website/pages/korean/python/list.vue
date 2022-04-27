@@ -58,17 +58,17 @@
 
       예를 들어 1에서 시작하여 2씩 증가하는 리스트를 만들겠습니다.<br /><br />
 
-      <code>1, 3, 5, 7</code>
+      <code v-highlight class="python">1, 3, 5, 7</code>
 
       처음에 1에서 시작했습니다. 처음에는
-      <code class="ic">1 + (2 * 0)</code>입니다.<br /><br />
+      <code v-highlight class="python ic">1 + (2 * 0)</code>입니다.<br /><br />
 
       1에서 2 증가했습니다. 이 순서의 공차(차이)는 2입니다. 두 번째 값은 1 +
       (2+1)입니다.<br /><br />
 
       이렇게 계속하면 다음과 같은 공식이 나옵니다.<br /><br />
 
-      <code>a = 1 + {2 * (a-1)}</code>
+      <code v-highlight class="python">a = 1 + {2 * (a-1)}</code>
 
       그래서 첫 번째 리스트 값을 0을 이용해서 찾는 이유는 공차의 값을 기준으로
       0이 곱해졌기 때문입니다.

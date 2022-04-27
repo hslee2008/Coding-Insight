@@ -63,14 +63,14 @@
         sentence라는 변수 안에 "Roses are ?. Violets are ?. And I like ?."라는
         문장을 저장하겠습니다.<br /><br />
 
-        <code> sentence = "Roses are {}. Violets are {}. And I like {}." </code>
+        <code v-highlight class="python"> sentence = "Roses are {}. Violets are {}. And I like {}." </code>
 
         {}는 빈칸이고 나중에 {} 안에 단어를 넣을 것입니다.<br /><br />
 
         <h2>2. 입력받기</h2>
         입력은 input()을 사용해 총 3개를 받겠습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           fw = input("형용사(영어): ")<br />
           sw = input("형용사(영어): ")<br />
           tw = input("사람: ")
@@ -79,7 +79,7 @@
         format()이라는 메서드를 사용해 sentence 안에 있는 모든 {}를 새로운
         값으로 변화하게 만들어 보겠습니다.<br /><br />
 
-        <code> finish = sentence.format(fw, sw, tw) </code>
+        <code v-highlight class="python"> finish = sentence.format(fw, sw, tw) </code>
 
         format을 사용하면 문장 안에 있는 {}들은 나타나느 순서대로 fw, sw, tw로
         바뀝니다.<br /><br />
@@ -89,7 +89,7 @@
         <h2>4. 출력하기</h2>
         출력은 print()를 사용하겠습니다.<br /><br />
 
-        <code> print(finish) </code>
+        <code v-highlight class="python"> print(finish) </code>
       </div>
     </div>
 

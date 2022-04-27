@@ -9,7 +9,7 @@
           Let's try to make a program that prints whether the number user typed
           in is bigger than 5.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             userNumber = int(input("Number: "))<br /><br />
 
             print(userNumber > 5) #whether userNumber is bigger than 5
@@ -17,7 +17,7 @@
 
           We can also store boolean values in variables.<br /><br />
 
-          <code> a = 5 > 6 </code>
+          <code v-highlight class="python"> a = 5 > 6 </code>
         </p>
       </div>
       <div class="ma-auto">
@@ -70,7 +70,7 @@
         <p>
           Let's look at the following example.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             assert 2 > 1<br />
             print("YES. 2 is bigger than 1")
           </code>
@@ -81,7 +81,7 @@
 
           We can also make your own message.<br /><br />
 
-          <code> assert 1 > 2, "Hmmm... 🐛🐛🐛(bug) found in code." </code>
+          <code v-highlight class="python"> assert 1 > 2, "Hmmm... 🐛🐛🐛(bug) found in code." </code>
         </p>
       </div>
 

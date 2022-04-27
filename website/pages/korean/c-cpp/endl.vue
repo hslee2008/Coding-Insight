@@ -12,7 +12,7 @@
 
           endl은 "\n"를 더합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             using namespace std;<br /><br />
 

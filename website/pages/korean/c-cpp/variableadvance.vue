@@ -14,7 +14,7 @@
           이렇게 다양한 변수가 같은 데이터 형태라면 ','를 사용하고 처음에만
           데이터 형태를 붙이면 됩니다.<br /><br />
 
-          <code> int a = 1, b = 2, c = 3; </code>
+          <code v-highlight class="cpp"> int a = 1, b = 2, c = 3; </code>
         </p>
       </div>
       <div class="ma-auto">
@@ -38,7 +38,7 @@
           기억하세요! 변수의 값을 바꾸고 싶으면 데이터 형태를 붙이면 안됩니다!
           만일 붙이면 새로운 변수가 만들어 집니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             int a;<br />
             a = 1;
           </code>
@@ -64,7 +64,7 @@
           상자도 집 안에 넣으면 그 집에서만 사용할 수 있지만 밖에 있다면 모든
           집에서 사용이 가능합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int a = 6;<br /><br />

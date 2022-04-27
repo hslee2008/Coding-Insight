@@ -8,7 +8,7 @@
 
           For example, let's look at the following string.<br /><br />
 
-          <code> ""HI" said Clara" </code>
+          <code v-highlight class="python"> ""HI" said Clara" </code>
 
           To us, we can distinguish that HI is sperate from the entire
           sentence.<br /><br />
@@ -37,7 +37,7 @@
 
           It can be used inside ' and " without any conflicts.<br /><br />
 
-          <code> text = '\'escape character\'' </code>
+          <code v-highlight class="python"> text = '\'escape character\'' </code>
         </p>
       </div>
       <iframe
@@ -60,7 +60,7 @@
 
           \n is same as pressing enter.<br /><br />
 
-          <code> text = "Hello\nWorld" </code>
+          <code v-highlight class="python"> text = "Hello\nWorld" </code>
         </p>
       </div>
       <iframe
@@ -79,7 +79,7 @@
         Though this character is a bit different depending on your system, \r is
         usually similar as pressing backspace.<br /><br />
 
-        <code> text = "Hello!!\rWorld" </code>
+        <code v-highlight class="python"> text = "Hello!!\rWorld" </code>
       </p>
     </div>
 
@@ -93,7 +93,7 @@
           ' '.
           <br /><br />
 
-          <code> essay = "Hello\tWorld" </code>
+          <code v-highlight class="python"> essay = "Hello\tWorld" </code>
 
           We can set our own tab size using expandtabs.
         </p>

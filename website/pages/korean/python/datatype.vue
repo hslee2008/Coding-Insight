@@ -11,7 +11,7 @@
           사람이 가장 자주 접하는 데이터 형태인 문자는 ""를 사용하여 변수 안에
           저장할 수 있습니다..<br /><br />
 
-          <code> weather = "대체로 흐림" </code>
+          <code v-highlight class="python"> weather = "대체로 흐림" </code>
         </p>
       </div>
     </div>
@@ -36,9 +36,9 @@
         저희는 파이썬에서 type() 함수를 사용하여 변수의 데이터 형태를 알 수
         있습니다.<br /><br />
 
-        <code> print(type("안녕")) </code>
+        <code v-highlight class="python"> print(type("안녕")) </code>
 
-        <code class="ic">&lt;class 'str'></code>은 "안녕"이 str 데이터
+        <code v-highlight class="python ic">&lt;class 'str'></code>은 "안녕"이 str 데이터
         변수(str은 문자입니다)라는 것을 알려줍니다.
       </p>
     </div>
@@ -55,12 +55,12 @@
       <div>
         <h2>데이터 형태 확인</h2>
         <p>
-          <code class="ic">isinstance()</code>는 변수의 데이터 형태를 확인해주는
+          <code v-highlight class="python ic">isinstance()</code>는 변수의 데이터 형태를 확인해주는
           함수입니다.<br /><br />
 
           첫 번째에 변수 이름을 넣고 두 번째에는 데이터 형태 이름을 넣습니다. 이
-          코드를 실행하면 <code class="ic">True</code> 또는
-          <code class="ic">False</code>가 출력됩니다.<br /><br />
+          코드를 실행하면 <code v-highlight class="python ic">True</code> 또는
+          <code v-highlight class="python ic">False</code>가 출력됩니다.<br /><br />
 
           <iframe
             src="https://trinket.io/embed/python/437398710e"

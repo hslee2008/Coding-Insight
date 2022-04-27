@@ -34,7 +34,7 @@
           하지만 알면 좋고 특별한 상황에서 유용하게 사용할 수 있습니다.
         </p>
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br /><br />
 
           ing main()<br />

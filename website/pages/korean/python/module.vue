@@ -22,7 +22,7 @@
           모듈을 가지고 오려면 'import 모듈 이름' 형태를 사용하면 됩니다.<br /><br />
           참고로 우리만의 모듈을 만들어 인터넷에 올리는 것도 가능하지만 먼저
           모듈에 대하여 더 알아보겠습니다.<br /><br />
-          <code> import math </code>
+          <code v-highlight class="python"> import math </code>
         </p>
       </div>
     </div>
@@ -57,14 +57,14 @@
           그래서 긴 모듈 이름의 불편함을 최소화하기 위하여 다음과 같은 두 가지의
           방법이 있습니다.<br /><br />
           1. 새로운 변수를 만들어 모듈 저장<br /><br />
-          <code>
+          <code v-highlight class="python">
             import abcdefghijklmnopqrstuvwxyz<br /><br />
             alphabet = abcdefghijklmnopqrstuvwxyz<br /><br />
             alphabet.abc()<br />
             abcdefghibjkmnopqrstuvwxyz.abc() #위의 코드와 같음
           </code>
           2. as 이용하기<br /><br />
-          <code>
+          <code v-highlight class="python">
             import abcdefghijklmnopqrstuvwxyz as alphabet<br /><br />
             alphabet.abc()
           </code>

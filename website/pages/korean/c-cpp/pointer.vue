@@ -36,7 +36,7 @@
         3. 포인터 adr 안에 a의 주소를 넣습니다.<br />
         4. adr의 값(a의 주소)를 출력합니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br /><br />
 
           int main()<br />
@@ -71,7 +71,7 @@
 
         선언된 포인터 adr을 사용해서 변수 a를 바꾸겠습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br /><br />
 
           int main()<br />

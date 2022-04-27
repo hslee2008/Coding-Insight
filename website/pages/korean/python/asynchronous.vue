@@ -29,7 +29,7 @@
         <p>
           모듈을 가지고 오기 위하여 다음 코드를 실행하겠습니다.<br /><br />
 
-          <code> import asyncio </code>
+          <code v-highlight class="python"> import asyncio </code>
         </p>
       </div>
     </div>
@@ -42,7 +42,7 @@
         <p>
           다음 예시를 보겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             print("Hello")<br />
             print("World")
           </code>

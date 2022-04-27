@@ -6,16 +6,16 @@
         *를 이용하면 [] 안에 길이를 넣지 않아도 자동으로 배열과 문자열을 선언할
         수 있습니다.<br /><br />
 
-        <code> int* arr = {1, 2, 3, 4, 5}; </code>
+        <code v-highlight class="cpp"> int* arr = {1, 2, 3, 4, 5}; </code>
 
         2차원 배열은 **(두 개)를 사용하면 됩니다.<br /><br />
 
-        <code v-html="'int** arr = {{1, 1}, {2, 2}};'" />
+        <code v-highlight class="cpp" v-html="'int** arr = {{1, 1}, {2, 2}};'" />
 
         그리고 <kbd>*(&lt;포인터 이름> + &lt;인덱스>)</kbd>를 사용하면 배열 또는
         문자열의 인덱스 값을 찾거나 저장할 수 있습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           int* arr;<br /><br />
 
           *(arr + 2) = 40;
@@ -37,7 +37,7 @@
         동적이라는 것은 사용자에게서부터 입력을 받아 배열의 길이를 저장한다는
         뜻입니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br />
           #include &lt;stdlib.h><br /><br />
 
@@ -96,7 +96,7 @@
         참고로 n은 총 배열의 길이이고 sizeof(int)는 int의 메모리 양을 각
         저장합니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br />
           #include &lt;stdlib.h><br /><br />
 
@@ -132,7 +132,7 @@
 
         realloc을 사용해서 다시 메모리의 길이를 다시 지정할 수 있습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           size_t number = 7;<br />
           ptr = (int*)realloc(number, sizeof(int));
         </code>
@@ -149,7 +149,7 @@
 
         free를 사용하면 포인터를 완벽히 컴퓨터 메모리에서 삭제할 수 있습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br /><br />
 
           int main() {<br />

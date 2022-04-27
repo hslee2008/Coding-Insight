@@ -61,18 +61,18 @@
         <p>
           두 숫자 안에 입력을 받겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             num1 = input("숫자1: ")<br />
             num2 = input("숫자2: ")
           </code>
 
           float() 메서드를 사용해서 소수로 전환하고 더하겠습니다.<br /><br />
 
-          <code> addnum = float(num1) + float(num2) </code>
+          <code v-highlight class="python"> addnum = float(num1) + float(num2) </code>
 
           그리고 addnum을 출력하겠습니다.<br /><br />
 
-          <code> print(addnum) </code>
+          <code v-highlight class="python"> print(addnum) </code>
         </p>
       </div>
       <iframe :src="`${trinket}2a317b1dba`" height="500" />

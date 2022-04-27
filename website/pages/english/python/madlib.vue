@@ -34,14 +34,14 @@
       In <var>sentence</var>, we will put in the following sentence: "Roses are
       ?. Violets are ?. And I like ?."<br /><br />
 
-      <code> sentence = "Roses are {}. Violets are {}. And I like {}." </code>
+      <code v-highlight class="python"> sentence = "Roses are {}. Violets are {}. And I like {}." </code>
 
       {} is the blank space. We will fill in, later.<br /><br />
 
       <h2>2. Get input</h2>
       We will get total of 3 inputs from user.<br /><br />
 
-      <code>
+      <code v-highlight class="python">
         fw = input("Adjective: ")<br />
         sw = input("Adjective: ")<br />
         tw = input("Person name: ")
@@ -51,7 +51,7 @@
       The format() method will put in the blank space swith the inputs we got
       from user ony by one from left to right.<br /><br />
 
-      <code> finish = sentence.format(fw, sw, tw) </code>
+      <code v-highlight class="python"> finish = sentence.format(fw, sw, tw) </code>
 
       Now, the sentence will be "Roses are {first word here}. Violets are
       {second word here}. And I like {third word here}." <br /><br />
@@ -59,7 +59,7 @@
       <h2>4. Printing the output</h2>
       Now, print <var>finish</var> variable which contains our final output<br /><br />
 
-      <code> print(finish) </code>
+      <code v-highlight class="python"> print(finish) </code>
     </div>
 
     <QuadSpace />

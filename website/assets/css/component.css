@@ -6,6 +6,7 @@ code {
   margin-bottom: 1.6em;
   padding: 15px;
   display: block;
+  white-space: pre;
 }
 
 .ic {

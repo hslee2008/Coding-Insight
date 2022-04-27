@@ -7,7 +7,7 @@
           C++ 클래스에서 constructor는 클래스가 선언이 되자 마자 바로 실행할
           코드를 담은 함수를 말합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             class person {<br />
             &nbsp;&nbsp;public:<br />
             &nbsp;&nbsp;&nbsp;&nbsp;person() {<br />
@@ -28,7 +28,7 @@
           constructor 안에 매개변수를 만들면 '.'를 사용해서 정보를 넣지 않고도
           정보를 입력할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             class person {<br />
             &nbsp;&nbsp;public:<br />
             &nbsp;&nbsp;&nbsp;&nbsp;int age;<br />
@@ -59,7 +59,7 @@
         <p>
           Constructor를 밖에서 선언해보겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             class person {<br />
             &nbsp;&nbsp;public:<br />
             &nbsp;&nbsp;&nbsp;&nbsp;int age;<br />

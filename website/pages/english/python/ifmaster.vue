@@ -12,12 +12,12 @@
           Howwever, using this syntax, it simplifies if statement into one
           single line.<br /><br />
 
-          <code> if a > b: print("as is greater than b") </code>
+          <code v-highlight class="python"> if a > b: print("as is greater than b") </code>
 
           In if-else statement has the following syntax: (statement is True) if
           (satement) else (statement is False).<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = 2<br />
             b = 5<br /><br />
 
@@ -27,7 +27,7 @@
           if-elif-else statement just have extra 'else (second if is True) if
           (second if)' line between simple if-else statement.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = 3320<br />
             b = 312330<br />
             print("A") if a > b else print("=") if a == b else print("B")
@@ -54,7 +54,7 @@
 
             Therefore, we have to use another way.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               x = input("type in either a or b: ")<br /><br />
 
               a = {<br />
@@ -89,7 +89,7 @@
           Indentation is when you make an extra space before the first alphabet
           of the parahraph so that the reader will recognize it is the start.<br /><br />
 
-          <code> &nbsp;Start of paragraph. blablablablabla... </code>
+          <code v-highlight class="python"> &nbsp;Start of paragraph. blablablablabla... </code>
 
           In Python, if you want a code to be inside a syntax (e.g. if
           statement), you HAVE to indent.<br /><br />
@@ -97,7 +97,7 @@
           Otherwise, Python will raise an indentation error or think the code is
           outside of if statement.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             if 1==1:<br />
             &nbsp;print('testing')<br />
             print("this is not running in if statement")

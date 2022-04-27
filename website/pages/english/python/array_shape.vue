@@ -13,7 +13,7 @@
           The first number will be the number of arrays inside array. The second
           will be the number of items in each array(In 2D).<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             arr = numpy.array([ [1, 2, 3], [4, 5, 6] ])<br /><br />
 
             print(arr.shape)
@@ -32,7 +32,7 @@
           We can also format the array into a new shape using the reshape()
           method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             arr = nmpy.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])<br /><br />
 
             newArray = arr.reshape(2, 5)<br /><br />

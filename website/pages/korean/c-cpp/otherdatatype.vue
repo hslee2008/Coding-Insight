@@ -17,7 +17,7 @@
 
           아쉽게도 long long long int는 존재하지 않습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -49,7 +49,7 @@
           signed char은 조금 더 긴 char를 뜻합니다. 문자 하나는 0부터 255까지의
           값을 가질 수 있지만 signed char는 -128부터 127까지 가능합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

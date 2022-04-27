@@ -10,7 +10,7 @@
 
           Let's look at the example below.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "Hello"<br /><br />
 
             a = None<br /><br />

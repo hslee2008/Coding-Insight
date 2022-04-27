@@ -45,7 +45,7 @@
         </p>
       </div>
       <div class="ma-auto">
-        <code> #include &lt;stdio.h> </code>
+        <code v-highlight class="cpp"> #include &lt;stdio.h> </code>
       </div>
     </div>
 

@@ -21,7 +21,7 @@
 
           The example below will get a single-line code and execute it.<br /><br />
 
-          <code> print(eval(input("Code: "))) </code>
+          <code v-highlight class="python"> print(eval(input("Code: "))) </code>
         </p>
       </div>
       <iframe :src="`${trinket}c09ee5878e`" height="356" loading="lazy" />
@@ -35,7 +35,7 @@
         <p>
           exec() is short for execute and it runs a Python code.<br /><br />
 
-          <code> exec(input("Code: ")) </code>
+          <code v-highlight class="python"> exec(input("Code: ")) </code>
         </p>
       </div>
       <iframe :src="`${trinket}91ca5b24b6`" height="356" loading="lazy" />
@@ -49,7 +49,7 @@
         <p>
           compile() will turn string into binary code and run that.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             x = compile("print('Hello, World!')", None, 'eval')<br /><br />
 
             exec(x)

@@ -32,7 +32,7 @@
           variable you will be storing your file in.<br />
           4. Put in your code inside the context manager.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             with open("example.txt", "w") as mainFile:<br />
             &nbsp;mainFile.write("testing123")
           </code>

@@ -27,7 +27,7 @@
         <p>
           Let's try fetching `https://api.github.com/events` data.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import requests<br /><br />
 
             a = requests.get('https://api.github.com/events')<br /><br />
@@ -49,7 +49,7 @@
         <p>
           When logging in to gmail, we use the following link.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
           </code>
 

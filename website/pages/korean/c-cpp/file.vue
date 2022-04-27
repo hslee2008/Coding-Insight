@@ -12,7 +12,7 @@
           C 언어에서 파일을 다루기 위해서 stdlib.h라는 라이브러리를 먼저 가지고
           와야합니다.<br /><br />
 
-          <code> #include &lt;stdlib.h> </code>
+          <code v-highlight class="cpp"> #include &lt;stdlib.h> </code>
         </p>
       </div>
     </div>
@@ -27,7 +27,7 @@
 
           그 변수의 형태는 FILE이고 포인터를 사용해야 합니다.<br /><br />
 
-          <code> FILE * fp </code>
+          <code v-highlight class="cpp"> FILE * fp </code>
 
           위의 fp라는 변수 안에 파일을 저장하겠습니다.
         </p>
@@ -52,7 +52,7 @@
 
           파일 여는 모드는 조금 나중에 더 자세히 배우겠습니다.<br /><br />
 
-          <code> FILE * fp = fopen("test.txt", "r"); </code>
+          <code v-highlight class="cpp"> FILE * fp = fopen("test.txt", "r"); </code>
 
           여기에서 r은 파일을 읽겠다는 뜻입니다.
         </p>
@@ -69,7 +69,7 @@
 
           그렇게 하지 않는다면 에러가 생길 수 있습니다.<br /><br />
 
-          <code> fclose(fp); </code>
+          <code v-highlight class="cpp"> fclose(fp); </code>
         </p>
       </div>
     </div>

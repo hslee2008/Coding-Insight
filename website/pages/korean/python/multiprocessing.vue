@@ -12,7 +12,7 @@
         <p>
           멀티프로세싱이라는 것은 어떤 함수를 동시에 실행할 수 있는 모듈
           이름입니다.<br /><br />
-          <code> import multiprocessing </code>
+          <code v-highlight class="python"> import multiprocessing </code>
         </p>
       </div>
     </div>
@@ -49,7 +49,7 @@
         <h2>terminate()</h2>
         terminate()는 멀티프로세싱을 멈춥니다.<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           p1 = multiprocessing.Process(target=threTime, args=(10, ))<br /><br />
           p1.start()<br />
           p1.terminate()

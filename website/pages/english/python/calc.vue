@@ -44,7 +44,7 @@
         <p>
           We will get input from two numbers<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             num1 = input("Num1: ")<br />
             num2 = input("Num2: ")
           </code>
@@ -52,11 +52,11 @@
           Using the float() method, we will convert the number into float and
           add them together<br /><br />
 
-          <code> addnum = float(num1) + float(num2) </code>
+          <code v-highlight class="python"> addnum = float(num1) + float(num2) </code>
 
           We print <var>addnum</var> variable<br /><br />
 
-          <code> print(addnum) </code>
+          <code v-highlight class="python"> print(addnum) </code>
         </p>
       </div>
       <iframe :src="`${trinket}6fd6aa9b5a`" height="356" />

@@ -6,7 +6,7 @@
         <p>
           파일을 완벽하게 삭제하는 함수는 stdio.h 라이브러리 안에 있습니다.<br /><br />
 
-          <code> #include &lt;stdio.h> </code>
+          <code v-highlight class="cpp"> #include &lt;stdio.h> </code>
         </p>
       </div>
     </div>
@@ -24,7 +24,7 @@
           만일 remove() 함수가 성공했다면 0이 되돌려지고 그렇지 않다면 1이
           되돌려질 것입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

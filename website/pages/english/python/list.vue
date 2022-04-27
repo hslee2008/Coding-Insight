@@ -47,7 +47,7 @@
 
       For example, let's think about a list that increases by 2.<br /><br />
 
-      <code> sequence = [1, 3, 5, 7] </code>
+      <code v-highlight class="python"> sequence = [1, 3, 5, 7] </code>
 
       Starting from 1, each items increased by 2.<br /><br />
 

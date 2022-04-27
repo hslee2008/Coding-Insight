@@ -33,7 +33,7 @@
     <div class="text-center">
       <h2>코드</h2>
     </div>
-    <code>
+    <code v-highlight class="python">
       import webbrowser, keyboard, time<br /><br />
 
       minute = int(input("몇 분 기달리기: "))<br /><br />

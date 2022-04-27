@@ -86,7 +86,7 @@
       <v-card-text>
         MIN은 최소값을 뜻하고, MAX는 최대값을 뜻합니다.<br /><br />
 
-        <code>(숫자형태)::MIN와 (숫자형태)::MAX</code>
+        <code v-highlight class="rust">(숫자형태)::MIN와 (숫자형태)::MAX</code>
 
         MIN을 출력하면 숫자형태의 최소값을 출력합니다 (예: i8, i16 등)<br /><br />
 

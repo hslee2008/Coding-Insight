@@ -58,12 +58,12 @@
             PIP에서 파이썬 모듈을 설치할 수 있습니다. CMD에서 다음과 같은 코드를
             입력 후 엔터를 누르세요.<br /><br />
 
-            <code> pip install camelcase </code>
+            <code v-highlight class="python"> pip install camelcase </code>
 
             Camelcase라는 모듈을 설치했습니다. 그 다음 pip uninstall camelcase를
             입력하시면 Camelcase가 삭제됩니다.<br /><br />
 
-            <code> pip uninstall camelcase </code>
+            <code v-highlight class="python"> pip uninstall camelcase </code>
           </p>
         </div>
       </div>
@@ -78,7 +78,7 @@
           어떤 PIP package에 대한 정보를 보기 위하여 pip show 커맨드를 사용할 수
           있습니다.<br /><br />
 
-          <code> pip show pygame</code>
+          <code v-highlight class="python"> pip show pygame</code>
 
           위 커맨드를 실행하면 이름, 버전, 설명, 웹사이트, 작가 이름과 이메일,
           라이선스, 설치된 장소, 그리고 이 모듈을 사용하기 위하여 어떤 환경이

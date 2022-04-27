@@ -28,7 +28,7 @@
           1. 배열과 비슷하게 {} 안에 문자 하나하나 집어 넣을 수 있습니다<br />
           2. 또는 "" 안에 텍스트를 넣을 수 있습니다.<br /><br />
 
-          <code> char message[] = "Hello, World!" </code>
+          <code v-highlight class="cpp"> char message[] = "Hello, World!" </code>
         </p>
       </div>
     </div>
@@ -62,7 +62,7 @@
           문자를 출력할 때 붙이려면 '%s%s'을 옆에 놓아서 변수를 두 개 입력할 수
           있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             char a[] = "Hello ";<br />
             char b[] = "World";<br /><br />
 

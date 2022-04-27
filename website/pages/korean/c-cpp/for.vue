@@ -60,7 +60,7 @@
           그리고 변수, 조건, 바뀌는 양은 항상 ';' 를 사이에 두어야 합니다.
           (마지막에는 넣으면 안됩니다!)<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -98,7 +98,7 @@
           그리고 i의 값을 for반복문 전에 지정하면 처음(변수 부분)은 없애도
           됩니다. ';'만 사용하세요.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

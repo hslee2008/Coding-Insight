@@ -8,7 +8,7 @@
 
           준비:<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br />
             #include &lt;math.h>
           </code>
@@ -32,7 +32,7 @@
 
           (그래서 printf에서는 %lf를 사용하세요!).<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br />
             #include &lt;math.h><br /><br />
 
@@ -64,7 +64,7 @@
           거듭제곱근은 거듭제곱의 반대이고 pow(2, 3)에서 3 대신 1/3으로 하면
           3제곱근을 계산할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br />
             #include &lt;math.h><br /><br />
 
@@ -94,7 +94,7 @@
 
           제곱근은 sqrt() 함수를 사용해서 쉽고 계산할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br />
             #include &lt;math.h><br /><br />
 
@@ -126,7 +126,7 @@
 
           C 언어에서 절댓값은 fabs() 함수를 사용해서 찾을 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br />
             #include &lt;math.h><br /><br />
 

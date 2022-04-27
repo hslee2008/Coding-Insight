@@ -13,7 +13,7 @@
             정할 수 있습니다!<br /><br />
 
             코드
-            <code
+            <code v-highlight class="python"
               >def wowAnd(nextToWow):<br />&nbsp;&nbsp;return "wow " +
               nextToWow</code
             >에서 사용자가 소수로 nextToWow 매개변수의 값을 숫자로 입력할 수

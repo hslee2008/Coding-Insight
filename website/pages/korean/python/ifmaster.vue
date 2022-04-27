@@ -19,7 +19,7 @@
           if-else 조건문은 다음과 같은 형태로도 사용할 수 있습니다.<br /><br />
 
           형태는
-          <code
+          <code v-highlight class="python"
             >(if 조건이 맞았다면 실행할 코드) if (조건) else (if조건이
             틀리다면)}입니다.</code
           >
@@ -28,7 +28,7 @@
           if-elif-else 조건문을 다음과 같이 사용할 수 있습니다.<br /><br />
 
           형태는
-          <code
+          <code v-highlight class="python"
             >(if 조건 1이 맞았다면 실행할 코드) if (조건) else (if 조건2가
             맞았다면 실행할 코드) if (조건2) else (if 조건문이 둘 다 틀리다면
             실행할 코드)</code

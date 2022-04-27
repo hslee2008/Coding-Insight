@@ -8,7 +8,7 @@
 
           모드는 'r'을 사용하면 됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             FILE * fp = fopen("test.txt", "r");<br /><br />
 
             fprintf(fp, "blablabla");<br /><br />
@@ -37,7 +37,7 @@
 
           참고로 char[] 안에 있는 파일 내용은 %s를 사용해서 출력합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             char string[999];<br />
             FILE * fp = fopen("test.txt", "r");<br /><br />
 

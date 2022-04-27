@@ -25,7 +25,7 @@
       smtplib와 ssl을 설치 해야합니다. 아마도 이미 설치 되어있겠지만 혹시
       모르니까 이 코드를 터미널에서 실행을 하세요.<br /><br />
 
-      <code> pip install smtpllib & pip install ssl </code>
+      <code v-highlight class="python"> pip install smtpllib & pip install ssl </code>
 
       먼저, 저의 컴퓨터에서 서버를 연결을 해야합니다. 서버란, 이메일을 보내는
       기계라고 할 수 있습니다.<br /><br />
@@ -33,7 +33,7 @@
       터미널(VSCode에서 <kbd>ctrl+`</kbd>)에서 다음과 같은 코드를 집어넣고
       엔터를 누르세요.<br /><br />
 
-      <code> python -m smtpd -c DebuggingServer -n localhost:1025 </code>
+      <code v-highlight class="python"> python -m smtpd -c DebuggingServer -n localhost:1025 </code>
 
       계정에서 먼저 파이썬이 로그인을 하는 것을 허락해야합니다.
       <a href="https://myaccount.google.com/lesssecureapps">설정</a>에서 허락을

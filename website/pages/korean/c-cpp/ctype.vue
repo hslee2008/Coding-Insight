@@ -10,7 +10,7 @@
           쉽게 설명하지면, ctype 라이브러리를 사용하여 C 언어에 있는 다양한
           데이터 형태를 다룰 수 있습니다.<br /><br />
 
-          <code> #include &lt;ctype.h> </code>
+          <code v-highlight class="cpp"> #include &lt;ctype.h> </code>
         </p>
       </div>
     </div>
@@ -24,7 +24,7 @@
           islower()이라는 함수는 문자를 입력하면 영문자가 소문자인지 확인하는
           함수입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             if (islower('a')) {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;printf("lower");<br />
             } else {<br />
@@ -34,7 +34,7 @@
 
           tolower()은 문자를 소문자로 바꾸는 함수입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             if (islower('a')) {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;printf("lower");<br />
             } else {<br />
@@ -58,7 +58,7 @@
           isupper()이라는 함수는 문자를 입력하면 영문자가 대문자인지 확인하는
           함수입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             if (isupper('A')) {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;printf("upper");<br />
             } else {<br />
@@ -68,7 +68,7 @@
 
           toupper()은 문자를 대문자로 바꾸는 함수입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             if (islower('A')) {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;printf("upper");<br />
             } else {<br />
@@ -92,7 +92,7 @@
           ctype.h의 isprint() 함수를 사용하면 그 문자가 터미널에 출력이 될 수
           있는지 확인할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             if (isprint('a')) {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;printf("printable!");<br />
             } else {<br />

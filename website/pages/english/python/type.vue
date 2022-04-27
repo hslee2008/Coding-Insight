@@ -15,7 +15,7 @@
             To decide the return value, put '-> str' after the parenthesis so
             that the developer does not return the wrong kind of format.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               def wowAnd(nextToWow: str) -> str:<br />
               &nbsp;return "wow " + nextToWow
             </code>
@@ -41,7 +41,7 @@
 
             Callable means we can reference them and run the code inside.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               def testing():<br />
               &nbsp;print("hello world")<br /><br />
 
@@ -54,7 +54,7 @@
             We can use callable to prevent silly errors such as mistaking a
             function name for variable name and vice versa.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               def testing():<br />
               &nbsp;print("hello world")<br /><br />
 

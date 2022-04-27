@@ -72,7 +72,7 @@
 
           이 기능은 for 반복문에서는 if를 사용해야 되서 조금 더 복잡합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

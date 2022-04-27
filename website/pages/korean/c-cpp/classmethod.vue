@@ -19,7 +19,7 @@
         <p>
           메서드는 public: 키워드 안에 함수를 넣으면 그것이 메서드가 됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             class chess {<br />
             &nbsp;&nbsp;public: void movePiece() {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; "Moved This Piece";<br />
@@ -29,7 +29,7 @@
 
           메서드를 사용해 보겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             class chess {<br />
             &nbsp;&nbsp;public: void movePiece() {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; "Moved This Piece";<br />
@@ -55,7 +55,7 @@
         <p>
           클래스를 밖에서 선언해보겠습니다.
 
-          <code>
+          <code v-highlight class="cpp">
             class chess {<br />
             &nbsp;&nbsp;public:<br />
             void movePiece();<br />

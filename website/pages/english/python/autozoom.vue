@@ -29,7 +29,7 @@
     <div class="text-center">
       <h2>Code</h2>
     </div>
-    <code>
+    <code v-highlight class="python">
       import webbrowser, keyboard, time<br /><br />
 
       minute = int(input("Time to wait(minute): "))<br /><br />

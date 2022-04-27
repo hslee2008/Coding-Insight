@@ -9,7 +9,7 @@
           +, -, *, /를 사용하면 더하기, 빼기, 곱하기, 나누기를 할 수
           있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -45,7 +45,7 @@
           예를 들면, a += 2는 원래 a 값에 2를 더하고 그 값을 a 안에
           저장합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -77,7 +77,7 @@
         <p>
           ++을 사용하면 1을 증가시키고 --를 사용하면 1이 감소됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

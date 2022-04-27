@@ -9,7 +9,7 @@
       외부 라이브러리를 사용하는 경우, 이를 설치하고 Cargo.toml 파일에 추가해야
       합니다.<br /><br />
 
-      <code>
+      <code v-highlight class="rust">
         [package]<br />
         name = "a"<br />
         version = "0.1.0"<br />
@@ -30,7 +30,7 @@
 
       이름, 버전, 개발자 등 프로젝트에 대한 다양한 정보를 바꿀 수 있습니다.<br /><br />
 
-      <code>
+      <code v-highlight class="rust">
         [package]<br />
         name = "a"<br />
         version = "0.1.0"<br />

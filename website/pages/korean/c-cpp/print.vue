@@ -31,7 +31,7 @@
 
         영어, 한글 등 텍스트를 출력하기 위하여 printf()를 사용해 보겠습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           #include &lt;stdio.h><br /><br />
 
           int main()<br />
@@ -48,7 +48,7 @@
         먼저, 텍스트와 비슷하게 "" 안에 넣어서 출력할 수 있습니다.<br />
         두 번째는 숫자를 포멧하여 출력하는 방법이 있습니다.<br /><br />
 
-        <code>
+        <code v-highlight class="cpp">
           printf("숫자: 314");<br />
           printf("숫자: %d", 3);
         </code>
@@ -78,7 +78,7 @@
 
           알파벳 하나를 출력하기 위해서 putchar()를 사용할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -104,7 +104,7 @@
           puts()는 printf()와 비슷하지만 문자와 양의 정수만 출력이 가능하고 항상
           끝에 새로운 줄을 붙입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

@@ -9,7 +9,7 @@
           We can always quit the Python program whenever we want by using either
           quit() or exit().<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a == 1<br /><br />
 
             while True:<br />
@@ -38,7 +38,7 @@
 
           The following text should appear.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             Welcome to Python 3.9's help utility!<br /><br />
 
             If this is your first time using Python, you should definitely check

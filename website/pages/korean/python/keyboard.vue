@@ -7,7 +7,7 @@
 
         먼저 키보드 모듈을 설치하겠습니다.<br /><br />
 
-        <code>pip install keyboard</code>
+        <code v-highlight class="python">pip install keyboard</code>
       </p>
     </div>
 
@@ -18,7 +18,7 @@
     </div>
     키보드를 이용하여 'Python keyboard control'을 써보겠습니다.<br /><br />
 
-    <code>
+    <code v-highlight class="python">
       import keyboard as key<br /><br />
 
       key.write("Python keyboard control")
@@ -30,7 +30,7 @@
     키보드에서 shift(쉬프트), alt(알트), 그리고 ctrl(컨트롤) 키를 이용하기
     위하여 press_and_release() 메서드를 사용할 수 있습니다.<br /><br />
 
-    <code>
+    <code v-highlight class="python">
       import keyboard as key<br /><br />
 
       key.press_and_relase("ctrl+alt+delete")

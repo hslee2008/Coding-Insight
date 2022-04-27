@@ -35,7 +35,7 @@
           {} 안에 {}를 넣고 아이템을 입력합니다.<br /><br />
           6. ; 입력하기<br /><br />
 
-          <code
+          <code v-highlight class="cpp"
             v-html="
               'int grid[19][19];<br />int test[4][4] = {{0, 1, 2, 3}, {0, 1, 2, 3}, {0, 1, 2, 3}, {0, 1, 2, 3}};'
             "
@@ -55,7 +55,7 @@
         <p>
           인덱싱은 이름[ ][ ] 형태로 1차원과 비슷합니다.<br /><br />
 
-          <code v-html="`int grid[2][2] =
+          <code v-highlight class="cpp" v-html="`int grid[2][2] =
           {{0, 1}, {0, 1}};<br /><br />printf("%d", grid[0][0]);`" />
         </p>
       </div>

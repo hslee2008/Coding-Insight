@@ -8,7 +8,7 @@
         <p>
           다음과 같은 클래스를 만들어 보겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             class Teacher:<br />
             &nbsp;&nbsp;def __init__(self, name, subjectTeaching):<br />
             &nbsp;&nbsp;&nbsp;&nbsp;self.name = name<br />
@@ -26,14 +26,14 @@
           그래서 이 코드를 함수 앞에 넣으면 그 함수는 이제 클래스에서 변수가
           됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             @property def name(self):<br />
             &nbsp;&nbsp; return self.name
           </code>
 
           그리고 그 값을 바꿀 수도 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             @name.setter #name 함수의 값을 정하는 새로운 함수를 만들겠습니다<br />
             def name(self, val):<br />
             &nbsp;&nbsp;self.name = val
@@ -41,7 +41,7 @@
 
           다음과 같은 코드를 실행할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             myFavTeacher = Teacher("MR JAY")<br />
             print(myFavTeacher.name)<br />
             myFavTeacher.name = 'MS GOULD'<br />
@@ -50,7 +50,7 @@
 
           또 값을 지울 수도 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             @name.deleter def name(self, val):<br />
             &nbsp;&nbsp;print('삭제하겠습니다….)<br />
             &nbsp;&nbsp;del self.name

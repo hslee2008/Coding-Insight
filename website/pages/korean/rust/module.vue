@@ -17,7 +17,7 @@
     <h2>모듈 선언</h2>
     <p>모듈은 mod 키워드를 사용해서 선언을 합니다.</p>
 
-    <code> mod 모듈이름 { ... } </code>
+    <code v-highlight class="rust"> mod 모듈이름 { ... } </code>
 
     <QuadSpace />
 

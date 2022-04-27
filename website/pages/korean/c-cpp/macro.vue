@@ -35,7 +35,7 @@
 
           또한, 매크로의 값은 바꿀 수 없습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #define MFM 200<br /><br />
 
             int main() {<br />
@@ -45,7 +45,7 @@
 
           변수만이 아니라 함수처럼도 사용이 가능합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #define MFM (a) (a * 4)<br /><br />
 
             int main() {<br />
@@ -67,7 +67,7 @@
         <p>
           <kbd>#undef &lt;이름</kbd> 형태로 매크로 변수를 삭제합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #define MFM 200<br /><br />
 
             printf("%d", MFM);<br /><br />
@@ -96,7 +96,7 @@
 
           #else도 사용할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #define NOINPUT<br /><br />
 
             #ifdef NOINPUT<br />

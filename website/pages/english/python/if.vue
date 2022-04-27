@@ -12,7 +12,7 @@
       In Python, we can try that statement out with something called if
       statement.<br /><br />
 
-      <code>
+      <code v-highlight class="python">
         a = input("Score:")<br /><br />
         if a == "100":<br />
         &nbsp;&nbsp;print("play game")
@@ -41,7 +41,7 @@
     <p>
       If - else statement is very similar to if statement above.<br /><br />
       However, we will be adding a new code to run if the statment is false.<br /><br />
-      <code>
+      <code v-highlight class="python">
         a = input("Score:")<br /><br />
         if a == "100":<br />
         &nbsp;print("candy")<br />

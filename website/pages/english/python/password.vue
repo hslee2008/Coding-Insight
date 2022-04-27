@@ -37,11 +37,11 @@
       <h2>Code Explanation</h2>
       <div>
         1) We ask for the password.<br /><br />
-        <code>guess = input("Password Guess: ")</code>
+        <code v-highlight class="python">guess = input("Password Guess: ")</code>
         2. Is it really the real "password"?<br /><br />
-        <code>if (guess == "password")</code>
+        <code v-highlight class="python">if (guess == "password")</code>
         3. If it is, print "login" and print "not password" otherwise<br /><br />
-        <code>
+        <code v-highlight class="python">
           if guess == "password":<br />
           &nbsp;&nbsp;print("login")<br />
           else:<br />

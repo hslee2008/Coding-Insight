@@ -38,7 +38,7 @@
           만일 아이템을 아직 넣고 싶지 않다면 배열 아이템의 계수 선언후 바로 ;를
           넣으세요.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             int classroom[6] = {31, 32, 30, 29, 34, 32};<br /><br />
 
             int classroomS[6];
@@ -68,7 +68,7 @@
           예를 들면, 배열의 첫 번째 아이템에 값 '30'을 대입하기 위해서 다음과
           같은 방법을 사용할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             int class[6];<br /><br />
 
             class[0] = 30;
@@ -84,7 +84,7 @@
           0부터 5까지 아이템의 입력을 받고 싶다면 다음과 같이 for 반복문을
           사용할 수 있습니다.<br /><br />
 
-          <code> for (int i = 0; i &lt; 6; i++) scanf("%d", class[i]); </code>
+          <code v-highlight class="cpp"> for (int i = 0; i &lt; 6; i++) scanf("%d", class[i]); </code>
         </p>
       </div>
       <div class="ma-auto">
@@ -121,7 +121,7 @@
           배열을 다 0으로 초기화하려면 아이템을 {} 안에 넣을 때 대신 0을 넣고
           ,를 입력하면 모든 아이템이 다 '0'으로 초기화 됩니다.<br /><br />
 
-          <code> int class[6] = {0,}; </code>
+          <code v-highlight class="cpp"> int class[6] = {0,}; </code>
         </p>
       </div>
     </div>

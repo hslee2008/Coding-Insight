@@ -31,7 +31,7 @@
           모르고 값을 바꾸거나 절대로 변함이 없을 변수는 앞에 'const'를
           붙이세요!<br /><br />
 
-          <code> const int a = 0; </code>
+          <code v-highlight class="cpp"> const int a = 0; </code>
         </p>
       </div>
       <div class="ma-auto">
@@ -61,7 +61,7 @@
           static을 사용하면 함수에서 지역 변수를 사용할 때 전에 있는 값을
           유지하게 만들 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             void doThis() {<br />
@@ -86,7 +86,7 @@
           a라는 변수는 지역변수이기 때문에 함수 안에서만 사용하니 다시 새로운
           변수가 저번 변수를 덮고 초기화 시킵니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             void doThis() {<br />

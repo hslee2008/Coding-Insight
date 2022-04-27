@@ -12,7 +12,7 @@
         <p>
           Multiprocessing module helps us run two functions at once.<br /><br />
 
-          <code> import multiprocessing </code>
+          <code v-highlight class="python"> import multiprocessing </code>
         </p>
       </div>
     </div>
@@ -51,7 +51,7 @@
         <h2>terminate()</h2>
         Terminate will stop the multiprocess<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           p1 = multiprocessing.Process(target=threTime, args=(10, ))<br /><br />
 
           p1.start()<br />

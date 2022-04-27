@@ -73,7 +73,7 @@
 
           물건이 0보다 적게 있다는 것이 말은 되지 않지만 파이썬 카운터에서는
           가능합니다.<br /><br />
-          <code>
+          <code v-highlight class="python">
             a = Counter(a = 4, b = 5) b = Counter(a = 6, b = 9)
             print(a.subtract(b))
           </code>

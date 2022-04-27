@@ -39,7 +39,7 @@
 
           참고로 name.exe 다음에 나오는 값들은 ' '로 분리됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main(int a, int b) {<br />
@@ -51,7 +51,7 @@
 
           그리고 다음과 같이 VSCode 터미널에 입력합니다.<br /><br />
 
-          <code> a.exe 1 1 </code>
+          <code v-highlight class="cpp"> a.exe 1 1 </code>
 
           참고로 a.exe 대신 여러분의 파일명을 입력하세요. 아마도 a.exe일
           것입니다.<br /><br />

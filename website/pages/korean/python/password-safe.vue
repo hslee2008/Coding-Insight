@@ -42,10 +42,10 @@
         >에서 확인하세요. 추가로 몇 줄만 더 더할 것입니다.<br /><br />
 
         2) 몇 번 시도했는지 <br /><br />
-        <code> guess_try = 0 </code>
+        <code v-highlight class="python"> guess_try = 0 </code>
 
         3) 암호가 아니면 guess_try 1 추가<br /><br />
-        <code> guess_try += 1 </code>
+        <code v-highlight class="python"> guess_try += 1 </code>
 
         4) guess_try가 3번 이상이면 로그인 거절<br /><br />
 

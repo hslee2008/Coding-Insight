@@ -15,7 +15,7 @@
             Using this format, we do not need to consider the order of the
             parameter.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               def subtractThis(firstNumber, secondNumber):<br />
               &nbsp;print(firstNumber - secondNumber)<br /><br />
 
@@ -29,7 +29,7 @@
             To access each value, simply fetch the value like dictionary(e.g.
             dictionary[key]).<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               def addOnlyFirstAndSecond(**numbers):<br />
               &nbsp;print(numbers["firstNumber"] + numbers["secondNumber"])<br /><br />
 
@@ -51,7 +51,7 @@
               Using the default value, if the user typed in nothing(or the value
               is None), the default value will be assigned the the parameter.<br /><br />
 
-              <code>
+              <code v-highlight class="python">
                 def printMyCountry(country = "South Korea"):<br />
                 &nbsp;print("I was born in " + country)<br /><br />
 

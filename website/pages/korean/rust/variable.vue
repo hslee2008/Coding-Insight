@@ -60,12 +60,12 @@
           Rust에서 변수를 출력하는 방법을 알아보겠습니다.<br /><br />
 
           원래 쉽게 출력하기 위해서
-          <code class="ic">println!()</code> 사이에 넣었습니다.<br /><br />
+          <code v-highlight class="rust ic">println!()</code> 사이에 넣었습니다.<br /><br />
 
-          변수를 사용하기 위해서는 <code class="ic">{}</code> 사이에 변수 이름을
+          변수를 사용하기 위해서는 <code v-highlight class="rust ic">{}</code> 사이에 변수 이름을
           넣으면 됩니다.<br /><br />
 
-          또는 '' 사이에 먼저 <code class="ic">{}</code>를 넣고 '' 다음에 변수
+          또는 '' 사이에 먼저 <code v-highlight class="rust ic">{}</code>를 넣고 '' 다음에 변수
           이름을 넣어도 됩니다.
         </p>
       </div>

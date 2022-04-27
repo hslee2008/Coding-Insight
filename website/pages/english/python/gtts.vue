@@ -11,7 +11,7 @@
 
           First, let's install gtts by running the following command.<br /><br />
 
-          <code> pip install gtts </code>
+          <code v-highlight class="python"> pip install gtts </code>
         </p>
       </div>
 
@@ -30,7 +30,7 @@
         <p>
           Open a new terminal and run the following command.<br /><br />
 
-          <code> gtts-cli 'hello' --output hello.mp3 </code>
+          <code v-highlight class="python"> gtts-cli 'hello' --output hello.mp3 </code>
 
           If we run the command above, a new file named hello.mp3 will be
           made.<br /><br />
@@ -55,7 +55,7 @@
         <p>
           Now, let's try making computer speak in Python file.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             from gtts import gTTS<br /><br />
 
             tts = gTTS('Python is awsome', lang="en")<br />

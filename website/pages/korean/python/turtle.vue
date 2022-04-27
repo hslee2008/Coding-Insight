@@ -36,7 +36,7 @@
           한다면 우리가 터틀을 가지고올 때 터틀 모듈이 아니라 우리의 파일을
           가지고 옵니다.<br /><br />
 
-          <code> import turtle as turty </code>
+          <code v-highlight class="python"> import turtle as turty </code>
         </p>
       </div>
     </div>
@@ -69,7 +69,7 @@
       우리가 getscreen 메서드를 사용했을 때 새로은 창이 생겼고 그 가운데에
       마우스가 있었습니다. 그 마우스를 파이썬에서는 '터틀'이라고 합니다. 이
       터틀을 움직이게 하기 위하여 4개의 메서드가 있습니다.<br /><br />
-      <code>
+      <code v-highlight class="python">
         import turtle as turty<br /><br />
 
         mainTurty = turty.Turtle()<br /><br />
@@ -99,7 +99,7 @@
         많이 하시는 말씀입니다. 여기서 goto를 따서 터틀을 움직이게 할 수
         있습니다.
       </p>
-      <code>
+      <code v-highlight class="python">
         import turtle as turty<br /><br />
 
         mainTurty = turty.Turtle()<br /><br />
@@ -116,7 +116,7 @@
         다음 3 메서드 goto, setpos, setposition은 다 같은 것을 하는
         메서드입니다.
       </p>
-      <code>
+      <code v-highlight class="python">
         import turtle as turty<br /><br />
 
         mainTurty = turty.Turtle()<br /><br />
@@ -132,7 +132,7 @@
         x, y 좌표 하나하나 지정하고 싶다면 setx() 또는 sety() 함수를 사용할 수
         있습니다.
       </p>
-      <code>
+      <code v-highlight class="python">
         import turtle as turty<br /><br />
 
         mainTurty = turty.Turtle()<br /><br />
@@ -152,7 +152,7 @@
         각도를 기준으로 터틀이 보는 각도를 정할 수 있습니다. setheading()과
         seth()를 이용하여 터틀 보는 방향을 바꿀 수 있습니다.
       </p>
-      <code>
+      <code v-highlight class="python">
         import turtle as turty<br /><br />
 
         mainTurty = turty.Turtle()<br /><br />

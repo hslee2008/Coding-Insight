@@ -31,14 +31,14 @@
 
           With class, create one class then declare them seperatley.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             class MyCar:<br />
             &nbsp;model_name = QWE_123
           </code>
 
           To make a car, use 'new classname()' code.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             myCar = new MyCar()<br />
             print(myCar.model_name) #QWE_123
           </code>
@@ -66,7 +66,7 @@
           In the example below, we can put in information between () when
           declaring.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             class Person:<br />
             &nbsp;def __init__(self, name, age, gender):<br />
             &nbsp;&nbsp;self.name = name<br />
@@ -124,7 +124,7 @@
           Furthoremore, self does not need to be 'self'. It can be 'abc' or
           'python' or anything as long as all the self is same.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             class Person:<br />
             &nbsp;def __init__(abc, name, age, gender):<br />
             &nbsp;&nbsp;abc.name = name<br />

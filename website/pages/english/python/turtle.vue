@@ -26,7 +26,7 @@
           When you are making Python file, do not name it turtle(because Python
           will import from your file instead of turtle file).<br /><br />
 
-          <code> import turtle as turty </code>
+          <code v-highlight class="python"> import turtle as turty </code>
         </p>
       </div>
     </div>
@@ -41,7 +41,7 @@
 
           Use the getscreen() method to show the screen.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import turtle as turty<br /><br />
 
             turty.getscreen()
@@ -50,7 +50,7 @@
           Now, let's try making a turtle(character) in that window using the
           Turtle() method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import turtle as turty<br /><br />
 
             mainTurty = turty.Turtle()
@@ -74,7 +74,7 @@
         Furthermore, if you want to turn the turtle, use the right() & left()
         method then put in the degree.<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           import turtle as turty<br /><br />
 
           mainTurty = turty.Turtle()<br /><br />
@@ -94,7 +94,7 @@
         We can use the goto() method to move turtle to a specific x and y
         coordinate.<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           import turtle as turty<br /><br />
 
           mainTurty = turty.Turtle()<br /><br />
@@ -107,7 +107,7 @@
         Note that you can also use the setpos(), setposition() method to move
         turtle to specific place.<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           import turtle as turty<br /><br />
 
           mainTurty = turty.Turtle()<br /><br />
@@ -122,7 +122,7 @@
         Use setx() and sety() function to move turtle to specific x and y
         coordinate.<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           import turtle as turty<br /><br />
 
           mainTurty = turty.Turtle()<br /><br />
@@ -136,7 +136,7 @@
         You can set the angle the turtle will be looking at by using the
         setheading() or seth() method.<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           import turtle as turty<br /><br />
 
           mainTurty = turty.Turtle()<br /><br />

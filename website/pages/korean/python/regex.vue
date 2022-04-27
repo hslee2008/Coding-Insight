@@ -10,7 +10,7 @@
           하나하나 다 코드 안에 쳐야합니다.<br /><br />
           하지만 정규식을 사용하면 아주 간단합니다.<br /><br />
           정규식은 모듈이어서 먼저 가지고 와야 합니다.<br /><br />
-          <code> import re #영어로 Regular Expression입니다. (re) </code>
+          <code v-highlight class="python"> import re #영어로 Regular Expression입니다. (re) </code>
         </p>
       </div>
       <div class="ma-auto">

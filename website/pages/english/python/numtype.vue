@@ -27,7 +27,7 @@
           int is short for integer.<br /><br />
           Integer is number such as -5, -4, -3, -2, -1, 0, 1, 2, 3, and so on.
           It is a whole number.<br /><br />
-          <code>
+          <code v-highlight class="python">
             a = -1<br />
             b = 123
           </code>
@@ -52,7 +52,7 @@
           For example, the number 3.14159 is a float as it is a number between 3
           and 4 with more digits after '.'.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             floatNumber = 3.14159265358979323846264<br />
             print(type(floatNumber)) #&lt;class 'float'> is printed
           </code>

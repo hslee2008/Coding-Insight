@@ -46,7 +46,7 @@
 
     <QuadSpace />
 
-    <div class="header-div bg-black text-white">
+    <div >
       <div>
         <h2>문자의 대소문자</h2>
         <p>
@@ -74,7 +74,7 @@
         <p>
           index() 메서드를 사용하여 문자 안에 또 다른 문자가 존재하는지 알 수
           있습니다.<br /><br />
-          <code> print('abcdef'.index('abc')) </code>
+          <code v-highlight class="python"> print('abcdef'.index('abc')) </code>
           만일 문자열이 문자 안에 없다면 에러가 생깁니다.
         </p>
       </div>
@@ -94,14 +94,14 @@
         <p>
           파이썬에서 센터링이란 문자를 ' '로 둘러싸는 것을 뜻합니다. ' '로
           둘러싸여 있지만 가운데에 있는 것처럼 보입니다.<br /><br />
-          <code>
+          <code v-highlight class="python">
             txt = "Hello, World!"<br />
             x = txt.center(50)<br />
             print(x)
           </code>
           center에서 첫 번째 숫자는 문자를 센터하는 ' '의 수이고 두 번째는
           문자를 센터할 문자입니다.<br /><br />
-          <code>
+          <code v-highlight class="python">
             txt = "Hello, World!"<br />
             x = txt.center(50, '|')<br />
             print(x)

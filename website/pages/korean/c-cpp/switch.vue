@@ -26,7 +26,7 @@
           예를 들면, char를 입력 받아 A이면 1, B이면 2, C이면 3그리고 F이면
           6까지 출력하는 프로그램을 만들어 보겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -76,7 +76,7 @@
           4. 그리고 항상 a의 값이 A라면 실행할 코드 다음에 "break"를 넣어야
           합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

@@ -31,7 +31,7 @@
         <p>
           read() method gives us ALL the text inside that file.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainFile = open("text.txt", "r")<br /><br />
 
             print(mainFile.read()) #Python is fantastic
@@ -51,7 +51,7 @@
 
           Using for loop, we can read each line.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainFile = open("text.txt", "r")<br /><br />
 
             print(mainFile.readline()) #Python is fantastic

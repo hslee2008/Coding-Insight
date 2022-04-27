@@ -9,7 +9,7 @@
           Inside a dictionary variable named 'md', let's try adding 'c' value to
           the '3' key.<br /><br />
 
-          <code> a[3] = 'c' </code>
+          <code v-highlight class="python"> a[3] = 'c' </code>
         </p>
       </div>
       <iframe :src="`${trinket}32e3c5c425`" height="356" loading="lazy" />
@@ -28,7 +28,7 @@
 
           Use the del keyword.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a={1:"A",2:"B",3;"C"}<br />
             del a[1]<br /><br />
 
@@ -50,7 +50,7 @@
           To change the value of key, type in the key name inside [] and new
           value after it.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainDict = {<br />
             "member1": "John",<br />
             "member2": "Sam",<br />
@@ -71,7 +71,7 @@
           dictionary, it updates it. If the key does not exist in dictionary, it
           adds new ones.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             cars = {<br />
             "brand": "Ford",<br />
             "model": "Mustang",<br />
@@ -100,7 +100,7 @@
 
           If the value does not exist, it will return a default value.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainDict = {<br />
             "member1": "John",<br />
             "member2": "Sam",<br />

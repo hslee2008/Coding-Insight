@@ -22,7 +22,7 @@
         <p>
           private 안에 있는 모든 변수들은 밖에서 사용이 불가능합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             class person {<br />
             &nbsp;&nbsp;public:<br />
             &nbsp;&nbsp;&nbsp;&nbsp;int age;<br />
@@ -43,11 +43,11 @@
 
           위의 코드를 실행하면 다음 에러가 생깁니다.<br /><br />
 
-          <code> error: cardNumber is private </code>
+          <code v-highlight class="cpp"> error: cardNumber is private </code>
 
           변수를 바로 class 안에 선언해도 private입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             class person {<br />
             &nbsp;&nbsp;int cardNumber; //private<br />
             };
@@ -65,7 +65,7 @@
           private 변수는 그 클래스 안에서만 사용할 수 있기 때문에 밖에서는
           메서드를 사용해서만 가능합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             class person {<br />
             &nbsp;&nbsp;public:<br />
             &nbsp;&nbsp;&nbsp;&nbsp;int age;<br />

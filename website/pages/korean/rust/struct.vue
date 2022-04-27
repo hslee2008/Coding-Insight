@@ -18,7 +18,7 @@
     <p>
       구조체를 선언하는 방법은 다음과 같습니다.<br /><br />
 
-      <code>
+      <code v-highlight class="rust">
         struct Dictionary {<br />
         &nbsp;&nbsp;word: String,<br />
         &nbsp;&nbsp;meaning: String<br />
@@ -27,7 +27,7 @@
 
       그리고 구조체를 사용하기 위해서 아래와 같이 사용합니다.<br /><br />
 
-      <code>
+      <code v-highlight class="rust">
         let dictionary = Dictionary {<br />
         &nbsp;&nbsp;word: "안녕".to_string(),<br />
         &nbsp;&nbsp;meaning: "Hello".to_string()<br />
@@ -50,7 +50,7 @@
       i64 등 여러 개의 데이터 형태를 가질 수 있습니다.<br /><br />
 
       튜플은 ()를 사용해서 만들 수 있고 튜플 구조체는
-      <code class="ic">struct Random(String, String)</code> 등으로 선언할 수
+      <code v-highlight class="rust ic">struct Random(String, String)</code> 등으로 선언할 수
       있습니다.<br /><br />
 
       튜플 구조체나 튜플은 대부분 값을 모아서 함수로 반환하거나 함수의 값을

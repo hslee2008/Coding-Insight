@@ -45,7 +45,7 @@
             Iterable are simpley a group of data types that can be accessed with
             indexing (e.g. lists).<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               a = [1,2,3,4,5]<br /><br />
 
               for i in a:<br />
@@ -67,7 +67,7 @@
         <p>
           range() function gives us a range data type between two numbers.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             for i in range(10): #0 ~ 9<br />
             &nbsp;print(i)
           </code>
@@ -88,7 +88,7 @@
 
             If the loop finishes, it runs additional code.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               for i in range(10):<br />
               &nbsp;print(i)<br />
               else:<br />
@@ -115,7 +115,7 @@
             The best way to do is by first storing the iteration data types
             (range) inside a variable and use it in for loops.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               for i in range(10):<br />
               &nbsp;print("*" * i)<br /><br />
 
@@ -142,7 +142,7 @@
             The for loop will stop so other values of i will not be
             considered.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               for i in range(10):<br />
               &nbsp;if i == 5:<br />
               &nbsp;break<br />

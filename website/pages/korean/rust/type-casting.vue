@@ -9,7 +9,7 @@
         형태로 바꾸어야 합니다.<br /><br />
 
         그래서
-        <code class="ic">&lt;variable> as &lt;new-type</code> 형태로 바꿔주면
+        <code v-highlight class="rust ic">&lt;variable> as &lt;new-type</code> 형태로 바꿔주면
         됩니다.
       </div>
     </div>

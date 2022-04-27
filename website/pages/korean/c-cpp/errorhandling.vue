@@ -30,7 +30,7 @@
           에러가 일어났을 때 프로그램을 중단하지 않고 바로 catch() 안에 있는
           코드를 실행할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             using namespace std;<br /><br />
 
@@ -82,7 +82,7 @@
         <p>
           나만의 에러는 throw라는 키워드를 사용해서 만들 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             double division(int a, int b) {<br />
             &nbsp;&nbsp;if( b == 0 ) {<br />
             &nbsp;&nbsp;&nbsp;&nbsp;throw "Division by zero condition!";<br />

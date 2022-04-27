@@ -10,7 +10,7 @@
           하지만 stdio.h 라이브러리를 가지고 오지 않고 cstdio 파일을 가지고 오면
           사용할 수 있습니다.<br /><br />
 
-          <code> #include &lt;cstdio> </code>
+          <code v-highlight class="cpp"> #include &lt;cstdio> </code>
 
           C++ 입출력은 cstdio 라이브러리 대신 iostream이라는 라이브러리를 가지고
           오겠습니다.<br /><br />
@@ -20,7 +20,7 @@
           이 코드를 사용하지 않으면 항상 모든 C++ 함수 앞에 std::라는 것을
           붙여야 하기 때문입니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             using namespace std;
           </code>
@@ -44,7 +44,7 @@
 
           <kbd>cout &lt;&lt; "Hello, World!" ;</kbd> <br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             using namespace std;<br /><br />
 
@@ -58,7 +58,7 @@
           참고로 &lt;&lt; 는 출력하고 싶은 데이터를 서로 합하는 키워드이기도
           합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             using namespace std;<br /><br />
 
@@ -85,7 +85,7 @@
           C++ 입력은 cin 키워드를 사용하고 >>를 입력하고 변수의 이름을
           넣습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             using namespace std;<br /><br />
 
@@ -114,7 +114,7 @@
         <p>
           C++에서 새로운 줄을 출력할 때 endl이라는 변수를 사용할 수 있습니다.<br /><br />
 
-          <code> cout &lt;&lt; "Hello, World!" &lt;&lt; endl; </code>
+          <code v-highlight class="cpp"> cout &lt;&lt; "Hello, World!" &lt;&lt; endl; </code>
         </p>
       </div>
       <div class="ma-auto">

@@ -41,14 +41,14 @@
       <h2>코드 설명</h2>
       <div>
         1) 친구 리스트 변수 만들기<br /><br />
-        <code>friends = []</code>
+        <code v-highlight class="python">friends = []</code>
         2. 무엇을 하고 싶은지 물어보니다<br /><br />
-        <code
+        <code v-highlight class="python"
           >mode = input("무엇을 하고 싶나요 (a: 추가, r:력삭제, p: 모두 출력):
           ")</code
         >
         3. 조건문을 사용해 a, r, p일 때 코드를 준비합니다.<br /><br />
-        <code>
+        <code v-highlight class="python">
           if mode == "a":<br />
           &nbsp;&nbsp;#추가 코드<br />
           elif mode == "r":<br />
@@ -57,14 +57,14 @@
           &nbsp;&nbsp;#모두 출력 코드
         </code>
         4. 추가 코드는 다음과 같습니다.<br /><br />
-        <code> friends.append( input("친구 이름: ") ) </code>
+        <code v-highlight class="python"> friends.append( input("친구 이름: ") ) </code>
         5. 삭제 코드는 다음과 같습니다.<br /><br />
-        <code>
+        <code v-highlight class="python">
           del friends[ int(input("친구 목록에서 몇 번째에 있나요?: ")) ]<br />
           print("이제 친구가 아닌건가요? 어쩄든 제거했습니다.")
         </code>
         6. 모두 출력 코드는 다음과 같습니다.<br /><br />
-        <code> print(*friends) </code>
+        <code v-highlight class="python"> print(*friends) </code>
       </div>
     </div>
 

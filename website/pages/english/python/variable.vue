@@ -23,7 +23,7 @@
         <p>
           To declare a variable in Python, we can use the following syntax.<br /><br />
 
-          <code> NAME = DATA </code>
+          <code v-highlight class="python"> NAME = DATA </code>
 
           In the syntax above, NAME is the name of the variable and DATA is the
           value of the variable.
@@ -41,7 +41,7 @@
           You can use the value of the variable by using the name of it without
           "".<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             name = "John"<br /><br />
             print(name)
           </code>
@@ -94,7 +94,7 @@
 
           Simply use del keyword to delete name.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             name = "Coding-Insight"<br />
             del name<br />
             print(name)
@@ -116,7 +116,7 @@
           To declare mutiple variable and assign multiple values, use commas to
           seperate names and values left and right side of '='.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a, b, c = 1, 2, 3<br />
             print(a)
           </code>
@@ -124,7 +124,7 @@
           To assign single value to multiple variable, line them up and put
           value at the end.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = b = c = d = e = "alphabet"<br /><br />
 
             print(a)<br />

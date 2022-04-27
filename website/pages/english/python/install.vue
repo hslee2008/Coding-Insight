@@ -306,7 +306,7 @@
                     <v-card-title style="float: right">
                       <p class="black--text">
                         After '>>>' type in
-                        <code>print("Hello, World!")</code> and press Enter.
+                        <code v-highlight class="python">print("Hello, World!")</code> and press Enter.
                       </p></v-card-title
                     >
                   </v-img>

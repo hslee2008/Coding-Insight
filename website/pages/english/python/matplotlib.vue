@@ -10,11 +10,11 @@
 
         Let's first import matplotlib module.<br /><br />
 
-        <code> import matplotlib </code>
+        <code v-highlight class="python"> import matplotlib </code>
 
         To print matplotlib version, use the __version__ property.<br /><br />
 
-        <code> print(matplotlib.__version__) </code>
+        <code v-highlight class="python"> print(matplotlib.__version__) </code>
       </div>
       <iframe :src="`${trinket}3e28c18725`" width="60%" height="356" />
     </div>
@@ -29,7 +29,7 @@
 
         When you run the Pthon file, a graph will be automatically drawn.<br /><br />
 
-        <code>
+        <code v-highlight class="python">
           import matplotlib.pyplot as plt<br /><br />
 
           plt.plot([1, 10], [1, 10])<br />
@@ -58,7 +58,7 @@
 
       Marker is a character that can be put on a part where the graph bends.<br /><br />
 
-      <code> plt.plot([1, 10, 30], [1, 10, 20], marker="x") </code>
+      <code v-highlight class="python"> plt.plot([1, 10, 30], [1, 10, 20], marker="x") </code>
 
       Put in the character inside marker.<br /><br />
 
@@ -72,20 +72,20 @@
       line/dot)<br />
       The color of graph.<br /><br />
 
-      <code> plt.plot([1, 10, 20], [1, 24, 44], 'o:r') </code>
+      <code v-highlight class="python"> plt.plot([1, 10, 20], [1, 24, 44], 'o:r') </code>
 
       <h2>marker size</h2>
 
       To specify your marker size, use the ms parameter and insert an
       integer.<br /><br />
 
-      <code> plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30) </code>
+      <code v-highlight class="python"> plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30) </code>
 
       <h2>marker border</h2>
 
       Specify marker boarder color using mec parameter.<br /><br />
 
-      <code>
+      <code v-highlight class="python">
         plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r')
       </code>
 
@@ -95,7 +95,7 @@
 
       Marker color can be colored with using mfc parameter.<br /><br />
 
-      <code>
+      <code v-highlight class="python">
         plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r', mfc
         = 'g')
       </code>
@@ -117,7 +117,7 @@
 
           You can also use ls which is the same thing as linestyle.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             plt.plot([1, 10, 20], [1, 24, 44], linestyle = 'dashed')
           </code>
 
@@ -125,7 +125,7 @@
 
           Line width can be set with linewidth or lw parameter.<br /><br />
 
-          <code> plt.plot([1, 4, 5], [1, 4, 6], linewidth = 3.14159) </code>
+          <code v-highlight class="python"> plt.plot([1, 4, 5], [1, 4, 6], linewidth = 3.14159) </code>
         </div>
       </div>
     </div>
@@ -143,7 +143,7 @@
             The label tells the reader what the graph is about and what unit we
             are using.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               plt.xlabel("Time (h)")<br />
               plt.ylabel("Money (w)")
             </code>
@@ -151,11 +151,11 @@
             We can also set the entire title of the graph by using the title()
             method.<br /><br />
 
-            <code> plt.title("Money spent") </code>
+            <code v-highlight class="python"> plt.title("Money spent") </code>
 
             Use the fontdict method to insert font style of the title.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               font1 = {<br />
               'family': "serif",<br />
               'color': "black",<br />
@@ -179,7 +179,7 @@
             scatter is basically a group of dots scattered all over the
             graph.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               plt.scatter([0, 1, 2, 3, 4, 5], [0, 10, 20, 30, 40, 50])<br />
               plt.show()
             </code>
@@ -220,7 +220,7 @@
 
             Use the pie() method.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               import matplotlib.pyplot as plt<br /><br />
 
               mylabels = ["Oranges", "Bananas", "Cherries", "Apples"]<br /><br />
@@ -238,7 +238,7 @@
 
             legend() is a method that sets the pie chart's title.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               plt.pie([50, 30, 20], labels = ["Chrome", "Firefox", "Safari"])<br />
               plt.legend(title = "Three most commonly used browsers")
             </code>

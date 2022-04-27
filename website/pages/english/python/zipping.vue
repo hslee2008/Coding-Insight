@@ -38,21 +38,21 @@
       <h2>Code Explanation</h2>
       <div>
         1) Input Sentence<br /><br />
-        <code> sent = input("Sentence to zip: ") </code>
+        <code v-highlight class="python"> sent = input("Sentence to zip: ") </code>
         2) Info (dictionary)<br /><br />
-        <code> zipp_info = {} </code>
+        <code v-highlight class="python"> zipp_info = {} </code>
         3) zip<br /><br />
-        <code>
+        <code v-highlight class="python">
           sent = sent.replace("Hello", "0")<br />
           sent = sent.replace("World", "1")
         </code>
         4) Save zip info (Only works for Hello, World words) =<br /><br />
-        <code>
+        <code v-highlight class="python">
           zipp_info["Hello"] = "0"<br />
           zipp_info["World"] = "0"
         </code>
         5) Print output<br /><br />
-        <code>print(sent)</code>
+        <code v-highlight class="python">print(sent)</code>
       </div>
     </div>
 

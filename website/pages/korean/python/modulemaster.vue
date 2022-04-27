@@ -13,7 +13,7 @@
           우리의 모듈 이름을 'OEM'(Odd, Even Module)로 정하려면 파일의 이름은
           'OEM'으로 만들면 됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             #OEM<br />
             def isEven(num):<br />
             &nbsp;return num%2==0<br /><br />
@@ -25,7 +25,7 @@
           그리고 우리의 중요한 코드를 담을 'main.py' 파일을 만드세요. 그리고
           isEven을 사용하기 위하여 isEven을 가지고 오겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             #main<br />
             from OEM import isEven<br /><br />
 
@@ -35,7 +35,7 @@
           하지만 isEven만 사용이 가능하고 isOdd는 불가능합니다. 그래서 모든
           함수를 가지고 오기 위하여 \*를 사용할 수 있습니다<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             from OEM import *<br /><br />
 
             print(OEM.isEven(3)) #False가 출력됩니다<br />
@@ -62,7 +62,7 @@
 
             터미널에 다음과 같은 코드를 실행하세요.<br /><br />
 
-            <code>python filename.py register -r</code>
+            <code v-highlight class="python">python filename.py register -r</code>
           </p>
         </div>
       </div>
@@ -78,11 +78,11 @@
             파이썬에서 __import()__ 함수를 사용한다면 모듈을 불러올 수
             있습니다.<br /><br />
 
-            <code> OS = __import__("os") </code>
+            <code v-highlight class="python"> OS = __import__("os") </code>
 
             나만의 모듈은 모듈 파일의 주소를 적어주면 됩니다.<br /><br />
 
-            <code> myMod = __import__(r"C:\main.py") </code>
+            <code v-highlight class="python"> myMod = __import__(r"C:\main.py") </code>
 
             파일의 주소는 VSCode에서 파일에 우클릭하고 Copy path를 누르면 복사할
             수 있습니다.

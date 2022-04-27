@@ -13,7 +13,7 @@
 
           However, we can do this with one method from module.<br /><br />
 
-          <code> import re </code>
+          <code v-highlight class="python"> import re </code>
         </p>
       </div>
       <div class="ma-auto">
@@ -33,7 +33,7 @@
           Using match() method, we can easily find whether a string starts with
           certain patterns.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import re<br /><br />
 
             pattern = "123"<br />
@@ -59,7 +59,7 @@
             While match() matches the start of a string with substring, search()
             searches globally(every where in string).<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               import re<br /><br />
 
               pattern = "123"<br />

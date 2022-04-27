@@ -7,7 +7,7 @@
           Beginnrs usually makes a code like the following when they are asked
           to create a program that iterates through a list and raise by 2.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainList = [1, 2, 3]<br />
             newList = []<br /><br />
 
@@ -30,7 +30,7 @@
         <p>
           Let's first look at an example of map().<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainList = [1, 2, 3]<br />
             newList = list(map(square, mainList))
           </code>
@@ -46,7 +46,7 @@
           If you want to make your own function, use the lambda(anonymous
           function) and make 1 parameter and 1 returning value.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainList = [1, 2, 3]<br />
             newList = list(map(lambda n: n * 2, mainList))
           </code>
@@ -68,7 +68,7 @@
 
           For example, let's try removing any numbers that is below 0.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainList = [1, 2, 3, -1, -2, 5]<br />
             newList = filter(lambda number: number &lt; 0, mainList)
           </code>
@@ -90,7 +90,7 @@
 
           For example, you can merge all strings together in a list.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             from functools import reduce<br /><br />
 
             mainList = ["Hello", " ", "World", "."]<br />

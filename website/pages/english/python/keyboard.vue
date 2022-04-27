@@ -6,7 +6,7 @@
         <p>
           Let's try controlling keyboard using the keyboard module.<br /><br />
 
-          <code> pip install keyboard </code>
+          <code v-highlight class="python"> pip install keyboard </code>
         </p>
       </div>
       <div class="ma-auto">
@@ -25,7 +25,7 @@
     Let's try writing the text 'Python keyboard controll' where the console
     is.<br /><br />
 
-    <code>
+    <code v-highlight class="python">
       import keyboard as key<br /><br />
 
       key.write("Python keyboard control")
@@ -36,7 +36,7 @@
     </div>
     You can press each key by typing in the name of the key.<br /><br />
 
-    <code>
+    <code v-highlight class="python">
       import keyboard as key<br /><br />
 
       key.press_and_relase("ctrl+alt+delete")

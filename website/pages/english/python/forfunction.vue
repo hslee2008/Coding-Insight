@@ -13,7 +13,7 @@
 
             Using __next__() method, we are going to get each item in order.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               i = iter(["One", "Two", "Three", "Four"])<br /><br />
 
               print(i.__next__())
@@ -49,7 +49,7 @@
               step is the distance between the first number and second number,
               second number and third number and so on.<br /><br />
 
-              <code>
+              <code v-highlight class="python">
                 for i in range(1, 10, 2):<br />
                 &nbsp;print(i, end=" ")
               </code>

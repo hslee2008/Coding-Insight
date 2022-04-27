@@ -27,7 +27,7 @@
         <p>
           Let's fetch random module first.<br /><br />
 
-          <code> import random as R </code>
+          <code v-highlight class="python"> import random as R </code>
         </p>
       </div>
     </div>
@@ -42,7 +42,7 @@
             To get a random float betweeen 0 and 1(till 15th place), simply use
             the random() function from the module.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               import random as R<br /><br />
 
               print(R.random())
@@ -68,7 +68,7 @@
             To get any natural numbers between 'a' and 'b' randomly, use the
             uniform() function.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               import random as R<br /><br />
 
               print(R.uniform(1, 10))
@@ -77,7 +77,7 @@
             Similar to uniform(), randint() gets random natural numbers between
             'a' and 'b'.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               import random as R<br /><br />
 
               print(R.randint(1, 6))
@@ -86,7 +86,7 @@
             randrange() is very similar to uniform() and randint() but it has
             start, end, and step.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               import random as R<br /><br />
 
               print(R.randrange(1, 7, 2)) #select from 1, 3, 5 and 7
@@ -98,7 +98,7 @@
             The third number is the number that should have the highest
             possibilty of being selected.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               import random as R<br /><br />
 
               print(R.triangular(1, 6, 3)) #1~6 is selected randomly but numbers

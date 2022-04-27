@@ -2,7 +2,7 @@
   <div>
     <Header type="Python" title="Number Method" num="17" />
 
-    <div class="header-div bg-black text-white">
+    <div >
       <div>
         <h2>Absolute Value</h2>
         <p>
@@ -13,7 +13,7 @@
 
           For example, the absolute value of -4 is euqal to 4.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             num = int(input("Number: "))<br />
             absVal = abs(num)<br /><br />
 

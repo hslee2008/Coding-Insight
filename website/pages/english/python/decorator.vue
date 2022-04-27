@@ -27,7 +27,7 @@
           Let's try making a function that calculates the square root of a
           number.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def squareRootOf(a):<br />
             &nbsp;return a ** 0.5
           </code>
@@ -43,7 +43,7 @@
 
           Let's try doing it in a little bit differently.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def minusDecorator(mainFunction):<br />
             &nbsp;def mainFunc():<br />
             &nbsp;&nbsp;func = mainFunction() #now, func do the same thing as
@@ -57,7 +57,7 @@
           Now, if we put in a function that returns negative number, the
           absolute value of that number will be given instead.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def returnVal():<br />
             &nbsp;return -4
           </code>
@@ -66,7 +66,7 @@
 
           Now, let's try using them.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             decorate = minusDecorator(returnVal())<br /><br />
 
             print(squareRootOf(decorate()))
@@ -95,7 +95,7 @@
           This way, every time we run returnVal() function, we will get an
           absolute value of -4 instead of getting -4.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             @minusDecorator<br />
             def returnVal():<br />
             &nbsp;return -4

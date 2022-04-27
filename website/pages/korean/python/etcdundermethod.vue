@@ -6,7 +6,7 @@
       <div>
         <h2>숫자 던더 메서드</h2>
         <p>
-          <code>
+          <code v-highlight class="python">
             __neg__()<br />
             __pos__()<br />
             __abs__()<br />
@@ -33,7 +33,7 @@
       <div>
         <h2>연산자 던더 메서드</h2>
         <p>
-          <code>
+          <code v-highlight class="python">
             __radd__(self, a) # +<br />
             __rsub__(self, a) # -<br />
             __rmul__(self, a) # *<br />
@@ -63,7 +63,7 @@
       <div>
         <h2>더 다양한 던더 메서드</h2>
         <p>
-          <code>
+          <code v-highlight class="python">
             __contains__(self, ITEM)<br />
             __reversed__(self)<br />
             __iter__(self)<br />

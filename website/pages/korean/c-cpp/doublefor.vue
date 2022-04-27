@@ -37,7 +37,7 @@
     <QuadSpace />
 
     <div>
-      <code>
+      <code v-highlight class="cpp">
         #include &lt;stdio.h><br /><br />
 
         int main()<br />

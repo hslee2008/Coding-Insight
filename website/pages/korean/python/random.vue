@@ -25,7 +25,7 @@
         <h2>파이썬 무작위 모듈</h2>
         <p>
           'random' 모듈을 가지고 오겠습니다.<br /><br />
-          <code> import random as R </code>
+          <code v-highlight class="python"> import random as R </code>
         </p>
       </div>
     </div>

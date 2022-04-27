@@ -31,7 +31,7 @@
         class="ma-3"
         style="width: 95%; height: 400px"
       />
-      <code v-else class="ma-3">
+      <code v-highlight class="python ma-3" v-else>
         import webbrowser, keyboard, time<br /><br />
 
         minute = int(input("몇 분 기달리기: "))<br /><br />
@@ -89,7 +89,7 @@
         class="ma-3"
         style="width: 95%; height: 400px"
       />
-      <code v-else class="ma-3">
+      <code v-highlight class="python ma-3" v-else>
         import sys,math,random,pygame<br />
         from pygame.locals import QUIT, KEYDOWN, K_LEFT, K_RIGHT, Rect<br /><br />
 
@@ -231,7 +231,7 @@
         class="ma-3"
         style="width: 95%; height: 400px"
       />
-      <code v-else class="ma-3">
+      <code v-highlight class="python ma-3" v-else>
         import socket, struct, binascii<br /><br />
 
         HOST = socket.gethostbyname(socket.gethostname())<br />
@@ -295,7 +295,7 @@
         class="ma-3"
         style="width: 95%; height: 400px"
       />
-      <code v-else class="ma-3"> 코드 없음. 동영상 확인 </code>
+      <code v-highlight class="python ma-3" v-else> 코드 없음. 동영상 확인 </code>
     </v-card>
 
     <v-card
@@ -335,7 +335,7 @@
         class="ma-3"
         style="width: 95%; height: 400px"
       />
-      <code v-else class="ma-3">
+      <code v-highlight class="python ma-3" v-else>
         from socket import *<br />
         import time<br /><br />
 

@@ -13,11 +13,11 @@
       모듈이라고 할 수 있습니다.)<br /><br />
 
       이제 main.rs 파일 안에 mod 키워드를 사용해서 파일 이름을 넣고
-      <code class="ic">파일이름::함수()</code>를 실행합니다.
+      <code v-highlight class="rust ic">파일이름::함수()</code>를 실행합니다.
     </p>
 
     <span class="grey--text">main.rs 파일</span>
-    <code>
+    <code v-highlight class="rust">
       mod my_mod;<br /><br />
 
       fn main() {<br />
@@ -29,7 +29,7 @@
     </code>
 
     <span class="grey--text">my_mod.rs 파일</span>
-    <code>
+    <code v-highlight class="rust">
       pub fn print_this() {<br />
       &nbsp;&nbsp;println!("my_mod.rs 파일 안에서!");<br />
       }

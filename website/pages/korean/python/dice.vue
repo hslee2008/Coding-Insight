@@ -27,7 +27,7 @@
       <h2>코드 설명</h2>
       <div>⚀⚁⚂⚃⚄⚅ 중 하나를 무작위로 선택해서 출력하겠습니다.</div>
       <br />
-      <code>
+      <code v-highlight class="python">
         import random<br />
         random.choice(["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"])
       </code>

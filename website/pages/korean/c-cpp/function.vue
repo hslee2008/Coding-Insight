@@ -40,7 +40,7 @@
 
           밑에 있는 예시는 숫자 '5'를 되돌려 줍니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             int returnFive() {<br />
             &nbsp;&nbsp;return 5;<br />
             }<br /><br />
@@ -108,7 +108,7 @@
 
           그 입력된 값은 일반 변수와 같이 '이름'을 사용하면 됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             int returnDouble(int a) {<br />
             &nbsp;&nbsp;return 2 * a;<br />
             }<br /><br />
@@ -139,7 +139,7 @@
           하지만 함수의 원형을 먼저 선언하고 나중에 코드를 입력하면 main 함수
           다음에 doThis() 함수가 있어도 에러가 발생하지 않습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             int returnTriple(int a);<br /><br />
 
             int main() {<br />

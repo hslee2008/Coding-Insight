@@ -61,9 +61,9 @@
     <div>
       <h1>준비</h1>
       <p>
-        1. <code class="ic">pip install pandas</code>와
-        <code class="ic">pip install -U scikit-learn</code> 터미널에서
-        실행하기<br />
+        1. <code v-highlight class="python ic">pip install pandas</code>와
+        <code v-highlight class="python ic">pip install -U scikit-learn</code>
+        터미널에서 실행하기<br />
         2. <NuxtLink download to="data/music.csv">music.csv</NuxtLink> 파일
         다운로드 받기 (꼭 파이썬 파일과 똑같은 폴더 안에 넣기)<br />
         3. 코드 짜기!
@@ -75,9 +75,13 @@
     <div>
       <h1>코드</h1>
       <p>
-        1. <code class="ic">import pandas as pd</code> (판다스 가지고 오기)<br />
+        1.
+        <code v-highlight class="python ic">import pandas as pd</code> (판다스
+        가지고 오기)<br />
         2.
-        <code class="ic">from sklearn.tree import DecisionTreeClassifier</code>
+        <code v-highlight class="python ic"
+          >from sklearn.tree import DecisionTreeClassifier</code
+        >
         (sklearn 가지고 오기)<br />
 
         <br />
@@ -87,12 +91,18 @@
         <br /><br />
 
         3.
-        <code class="ic">data_mus = pd.read_csv('music.csv')</code>
+        <code v-highlight class="python ic"
+          >data_mus = pd.read_csv('music.csv')</code
+        >
         (판다스로 뮤직 데이터 불러오기)<br />
         4.
-        <code class="ic">no_genre = data_mus.drop(columns=['genre'])</code>
+        <code v-highlight class="python ic"
+          >no_genre = data_mus.drop(columns=['genre'])</code
+        >
         (genre 삭제)<br />
-        5. <code class="ic">genre = data_mus['genre']</code> (genre 저장)<br />
+        5.
+        <code v-highlight class="python ic">genre = data_mus['genre']</code>
+        (genre 저장)<br />
 
         <br />
         저흐는 총 2개의 데이터 변수 (no_genre, genre)를 사용해서 어떤 나이의
@@ -102,10 +112,17 @@
         <br /><br />
 
         6.
-        <code class="ic">model = DecisionTreeClassifier()</code> (모델 생성)<br />
-        7. <code class="ic">model.fit(no_genre, genre)</code> (모델 학습)<br />
+        <code v-highlight class="python ic"
+          >model = DecisionTreeClassifier()</code
+        >
+        (모델 생성)<br />
+        7.
+        <code v-highlight class="python ic">model.fit(no_genre, genre)</code>
+        (모델 학습)<br />
         8.
-        <code class="ic">pred = model.predict([[21, 1], [22, 0]])</code>
+        <code v-highlight class="python ic"
+          >pred = model.predict([[21, 1], [22, 0]])</code
+        >
         (모델 )<br />
 
         <br />
@@ -113,7 +130,8 @@
         예측해서 결과를 pred 변수 안에 저장할 것입니다.
         <br /><br />
 
-        9. <code class="ic">print(pred)</code> (예측 결과 출력)<br /><br />
+        9. <code v-highlight class="python ic">print(pred)</code> (예측 결과
+        출력)<br /><br />
 
         <iframe :src="`${trinket}02de47df74`" height="356" />
       </p>
@@ -125,14 +143,16 @@
       <h1>추가로 정확도 측정하기</h1>
       <p>
         1. sklearn을 가지고 온 후 또 다른 train_test_split 함수를 가지고 온다.
-        <code class="ic"
+        <code v-highlight class="python ic"
           >from sklearn.model_selection import train_test_split</code
         >
         <br />
         2. 정확도 측정을 위해 다음 코드를 입력합니다.
-        <code class="ic">from sklearn.metrics import accuracy_score</code><br />
+        <code v-highlight class="python ic"
+          >from sklearn.metrics import accuracy_score</code
+        ><br />
         3. genre와, no_genre 선언 후 데이터 분리 합니다.
-        <code class="ic"
+        <code v-highlight class="python ic"
           >X_train, X_test, y_train, y_test = train_test_split(no_genre, genre,
           test_size=0.2)</code
         ><br />
@@ -143,13 +163,18 @@
         <br /><br />
 
         4. 모델 학습 합니다. 참고로 genre, no_genre를 학습하지 않고 X_train과
-        Y_train을 사용합니다.<code class="ic">model.fit(X_train, y_train)</code>
+        Y_train을 사용합니다.<code v-highlight class="python ic"
+          >model.fit(X_train, y_train)</code
+        >
         <br />
-        5. 모델 평가합니다. 참고로 X_test, y_test를 사용합니다.<code class="ic"
+        5. 모델 평가합니다. 참고로 X_test, y_test를 사용합니다.<code
+          v-highlight
+          class="python ic"
           >pred = model.predict(X_test)</code
         ><br />
         6. 정확도를 측정합니다. 참고로 accuracy_score를 사용합니다.<code
-          class="ic"
+          v-highlight
+          class="python ic"
           >print(accuracy_score(y_test, pred))</code
         ><br /><br />
 

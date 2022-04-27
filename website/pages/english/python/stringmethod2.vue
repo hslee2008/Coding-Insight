@@ -8,7 +8,7 @@
         <p>
           Characters can be added using '+'.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "Hello "<br />
             b = "World"<br /><br />
 
@@ -19,7 +19,7 @@
 
           Here's another way to do it:<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "+-" * 10<br /><br />
 
             print(a)
@@ -61,7 +61,7 @@
           'isprintable' can print information, and 'isspace' consists only of
           spaces.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             txt = "Hello, World! 123456789"<br />
             print(txt.isalnum()) #True is output
           </code>
@@ -78,7 +78,7 @@
         <p>
           I'm going to make a program to filter out bad words.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             badWord = input("Bad word: ")<br />
             badSentence = ("I am not " + badWord + ".")<br />
             filterBadWord = (badSentence.partition(badWord))<br /><br />
@@ -92,7 +92,7 @@
 
           Let's take another example:<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             partitionedSentence = ("Hello. My name is
             Hyunseung.".partition("name"))<br /><br />
 

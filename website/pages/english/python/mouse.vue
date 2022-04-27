@@ -11,11 +11,11 @@
 
           Run the following command to install mouse.<br /><br />
 
-          <code>pip install mouse</code>
+          <code v-highlight class="python">pip install mouse</code>
 
           Now, let's import mouse.<br /><br />
 
-          <code> import mouse as m </code>
+          <code v-highlight class="python"> import mouse as m </code>
         </p>
       </div>
       <div class="ma-auto">
@@ -35,7 +35,7 @@
           of mouse.<br /><br />
 
           The middle is same as pressing <kbd>ctrl</kbd> and clicking right.
-          <code>
+          <code v-highlight class="python">
             m.click("left")<br />
             m.click("right")<br />
             m.click("middle")
@@ -52,7 +52,7 @@
         To get the x and y coordinate of you mouse, use he get_position()
         method.<br /><br />
 
-        <code> print(m.get_position()) </code>
+        <code v-highlight class="python"> print(m.get_position()) </code>
       </p>
     </div>
 
@@ -68,7 +68,7 @@
 
         You can also specify the duration.<br /><br />
 
-        <code> m.drag(0, 0, 200, 200, duration=3.0) </code>
+        <code v-highlight class="python"> m.drag(0, 0, 200, 200, duration=3.0) </code>
 
         If we run that command right now in VSCode, the window is dragged to 200
         and 200.
@@ -84,7 +84,7 @@
 
         You will move right and top of your mouse by 100.<br /><br />
 
-        <code> b.move(100, 100, duration=3.0) </code>
+        <code v-highlight class="python"> b.move(100, 100, duration=3.0) </code>
       </p>
     </div>
 
@@ -98,7 +98,7 @@
         If the number is positive, you will move up and a negative number will
         scroll down.<br /><br />
 
-        <code> m.scroll(-2) </code>
+        <code v-highlight class="python"> m.scroll(-2) </code>
       </p>
     </div>
 

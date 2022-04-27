@@ -15,7 +15,7 @@
 
           The example below is a way to declare srings in Python.<br /><br />
 
-          <code> weather = "a bit rainy" </code>
+          <code v-highlight class="python"> weather = "a bit rainy" </code>
         </p>
       </div>
     </div>
@@ -31,7 +31,7 @@
 
           Simply put any variables inside to see the data type.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "Hello"<br /><br />
 
             print(type(a))
@@ -58,7 +58,7 @@
           The code will return either True or False. These are called
           Boolean.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             weather = "sunny"<br />
             print(isinstance(weather, str))
           </code>

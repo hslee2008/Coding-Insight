@@ -30,7 +30,7 @@
             <p>
               The following is an example of while loop.<br /><br />
 
-              <code>
+              <code v-highlight class="python">
                 a = 5<br /><br />
 
                 while a != 0: #if a is not 0<br />
@@ -44,7 +44,7 @@
               Becareful because you do not want to create a loop like the
               following.<br /><br />
 
-              <code>
+              <code v-highlight class="python">
                 a = 5<br /><br />
 
                 while a != 0: #if a is not 0<br />

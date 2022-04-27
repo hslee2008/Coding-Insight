@@ -29,7 +29,7 @@
           First, we have to fetch the asynchronous module which is named
           'asyncio'.<br /><br />
 
-          <code> import asyncio </code>
+          <code v-highlight class="python"> import asyncio </code>
         </p>
       </div>
     </div>
@@ -42,7 +42,7 @@
         <p>
           Let's loook at the following code.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             print("Hello")<br />
             print("World")
           </code>

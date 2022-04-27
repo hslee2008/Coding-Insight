@@ -26,7 +26,7 @@
 
         round()는 가장 가까운 정수를 찾습니다.<br /><br />
 
-        참고로 <code class="ic">'이름'()</code>의 형태를 Rust에서는 '메서드'라고
+        참고로 <code v-highlight class="rust ic">'이름'()</code>의 형태를 Rust에서는 '메서드'라고
         하고 대부분 데이터를 다룰 때 사용합니다.<br /><br />
 
         <iframe

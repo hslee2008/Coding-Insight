@@ -10,7 +10,7 @@
           판다스는 기본적으로 설치되어 있지 않기 때문에 PIP을 이용해서
           설치하겠습니다.<br /><br />
 
-          <code> pip install pandas </code>
+          <code v-highlight class="python"> pip install pandas </code>
         </p>
       </div>
       <GlobalImage
@@ -30,7 +30,7 @@
 
           먼저, 판다스를 가지고 오고 Series() 클래스를 새롭게 만들겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             s = pd.Series(["A", "B", "C"])<br />
@@ -39,7 +39,7 @@
 
           위의 코드를 실행하면 다음과 같은 표가 콘솔에 출력됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             0 A<br />
             1 B<br />
             2 C<br />
@@ -49,7 +49,7 @@
           그리고 각 값 앞에 출력 되는 값은 index 매개변수 안에 집어 넣을 수
           있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             s = pd.Series(["A", "B", "C"], index=["First: ", "Second: ", "Third:
@@ -60,7 +60,7 @@
           마지막으로, Series() 클래스 안에 있는 값들을 딕셔너리와 비슷하게 키를
           사용해서 값을 가지고 올 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             s = pd.Series(["A", "B", "C"], index=["First: ", "Second: ", "Third:
@@ -107,7 +107,7 @@
           read_clipboard() 메서드를 사용하면 클립보드에 있는 콘텐츠를 읽을 수
           있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             print(pd.read_clipboard())
@@ -116,7 +116,7 @@
           to_clipboard()를 사용하면 클리보드에 우리가 원하는 텍스트를 넣을 수
           있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             df = pd.DataFrame([1, 2, 3], [4, 5, 6], columns=['A', 'B', 'C'])<br />
@@ -147,7 +147,7 @@
 
           read_csv() 안에 CSV 파일의 주소를 넣고 출력하면 정리됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             df = pd.read_csv('data.csv')<br /><br />
@@ -160,7 +160,7 @@
 
           다 출력하고 싶다면 to_string() 메서드를 사용하세요.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import pandas as pd<br /><br />
 
             df = pd.read_csv('data.csv')<br /><br />

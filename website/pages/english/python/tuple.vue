@@ -15,7 +15,7 @@
 
           Tuples use () instead of [].<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             bestCodingLangTuple = ("Javascript") #nobody can change this<br />
             print(bestCodingLangTuple)<br /><br />
 
@@ -37,7 +37,7 @@
           If we lign the same number of new variable names on left and put the
           tuple after '='. Variable number should be equal to tuple length.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             fruits = ("apple", "banana", "cherry")<br /><br />
 
             green, yellow, red = fruits #green = apple, yellow = banana, red =
@@ -51,7 +51,7 @@
           If we want to store the REST of values of tuples inside variable, use
           the * after variable name.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             fruits = ("apple", "banana", "cherry", "melon")<br /><br />
 
             (green, yellow, red*) = fruits # same as above but red is euqal to
@@ -78,7 +78,7 @@
           Now, nobody can add more to it! (Adding is possible though changing is
           not)<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = 1, 2,<br />
             b = 3,
           </code>
@@ -104,7 +104,7 @@
           inside a tuple. In other words, double tuple is created which has
           tuples containing each item of the original tuple.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             firstTup = (1, 2, 3, 4, 5)<br />
             secondTup = ("one", "two", "three", "four", "five")<br /><br />
 

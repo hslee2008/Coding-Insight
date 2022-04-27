@@ -43,7 +43,7 @@
 
           Let's make two threads.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def thread1():<br />
             &nbsp;print("Hello")<br />
             &nbsp;time.sleep(1)<br />
@@ -70,11 +70,11 @@
         <p>
           Let's first import threading and time module.<br /><br />
 
-          <code> import threading, time </code>
+          <code v-highlight class="python"> import threading, time </code>
 
           Now, let's make two threads.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def thread1():<br />
             &nbsp;print("Hello")<br />
             &nbsp;time.sleep(1)<br />
@@ -86,7 +86,7 @@
 
           Now, let's run the thread.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainThread = threading.Thread(target=thread1, args=())
             mainThread.start() print(mainThread.active_count())
           </code>

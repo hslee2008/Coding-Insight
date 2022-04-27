@@ -17,7 +17,7 @@
         <p>
           Sometimes, there are tons of repeating words in sentence.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             And miles to go before I sleep, and miles to go before I sleep.
           </code>
 
@@ -26,7 +26,7 @@
           What would happen if we made a dictionary of these repeating
           digits?<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             {<br />
             "miles": 0,<br />
             "to": 1,<br />
@@ -40,7 +40,7 @@
           Using the dictionary above, we can make a new sentenec below that will
           take much less space.<br /><br />
 
-          <code> And 0 1 2 3 4 5, and 0 1 2 3 4 5. </code>
+          <code v-highlight class="python"> And 0 1 2 3 4 5, and 0 1 2 3 4 5. </code>
         </p>
       </div>
     </div>
@@ -58,7 +58,7 @@
 
           Let's import zlib first.<br /><br />
 
-          <code> import zlib </code>
+          <code v-highlight class="python"> import zlib </code>
         </p>
       </div>
       <div style="display: flex; justify-content: center">
@@ -77,7 +77,7 @@
         <p>
           Let's try compressing strings.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import zlib<br /><br />
 
             mainString = b"And miles to go before I sleep, and miles to go

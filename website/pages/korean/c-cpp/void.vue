@@ -23,7 +23,7 @@
 
       그리고 항상 return 0; 코드를 마지막에 넣었습니다.<br /><br />
 
-      <code>
+      <code v-highlight class="cpp">
         int main() {<br />
         &nbsp;&nbsp;return 0;<br />
         }
@@ -32,7 +32,7 @@
       하지만 이제는 귀찮게 return 0;을 사용하지 않고 void 데이터 형태를 이용하면
       return하지 않아도 됩니다.<br /><br />
 
-      <code>
+      <code v-highlight class="cpp">
         void main() {<br /><br />
 
         }
@@ -40,7 +40,7 @@
 
       또는 void를 사용해 아무것도 돌려주지 않는 함수를 만들 수도 있습니다.<br /><br />
 
-      <code>
+      <code v-highlight class="cpp">
         void testing() {<br />
         &nbsp;&nbsp;printf("Hello, World!");<br />
         }

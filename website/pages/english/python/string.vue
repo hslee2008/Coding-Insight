@@ -29,7 +29,7 @@
 
           Nightmare.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             THE BOY WHO LIVED M r. and Mrs. Dursley, of number four, Privet
             Drive, were proud to say that they were perfectly normal, thank you
             very much. They were the last people you’d expect to be involved in
@@ -88,7 +88,7 @@
         <p>
           Using -1 starts from backward.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = "Hello"<br /><br />
 
             # H E L L O<br />

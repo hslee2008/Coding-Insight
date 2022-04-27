@@ -10,7 +10,7 @@
           For example, let's try to find the number of each items using the
           Counter() fuction.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             from collections import Counter<br /><br />
 
             print(Counter(["A", "A", "B"])) #{"A": 2, "B": 1}
@@ -76,7 +76,7 @@
           If the number gets below zero, Python will keep it that way even
           though having -1 items does not make sense.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = Counter(a = 4, b = 5)<br />
             b = Counter(a = 6, b = 9)<br /><br />
 

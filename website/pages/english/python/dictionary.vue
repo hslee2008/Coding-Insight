@@ -27,7 +27,7 @@
         <p>
           To get a list of keys, use the keys() method.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainDict = {<br />
             "member1": "John",<br />
             "member2": "Sam",<br />
@@ -58,7 +58,7 @@
           Similar to keys() method, we can also use values() to get all the
           values of dictionary.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainDict = {<br />
             "member1": "John",<br />
             "member2": "Sam",<br />

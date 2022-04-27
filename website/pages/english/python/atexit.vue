@@ -18,7 +18,7 @@
         <p>
           Let's try making a file editor using Python.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             with open(input("Full path: "), "w") as f: &nbsp;f.write(input("New
             Content: "))
           </code>
@@ -31,7 +31,7 @@
           We can use the atexit.register() method to register a specific
           function to run when program ends.<br />
 
-          <code>
+          <code v-highlight class="python">
             import atexit<br /><br />
 
             def informAbort(f):<br />

@@ -8,7 +8,7 @@
 
           데이터를 추가하기 위해서 push()를 사용하세요.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             #include &lt;stack><br />
             using namespace std;<br /><br />
@@ -40,7 +40,7 @@
 
           push()를 사용하면 뒤에 새로운 아이템을 더합니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             #include &lt;stack><br />
             using namespace std;<br /><br />
@@ -67,7 +67,7 @@
         <p>
           size()를 사용하면 정수로 stack 안에 있는 아이템의 개수를 알 수
           있습니다.<br /><br />
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             #include &lt;stack><br />
             using namespace std;<br /><br />
@@ -95,7 +95,7 @@
         <p>
           top()을 사용하면 stack에서 가장 위에 있는 아이템을 찾을 수
           있습니다.<br /><br />
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;iostream><br />
             #include &lt;stack><br />
             using namespace std;<br /><br />

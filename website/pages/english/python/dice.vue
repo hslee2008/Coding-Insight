@@ -27,7 +27,7 @@
       <h2>Code Explanation</h2>
       <div>Choose one of ⚀⚁⚂⚃⚄⚅.</div>
       <br />
-      <code>
+      <code v-highlight class="python">
         import random<br />
         random.choice(["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"])
       </code>

@@ -27,7 +27,7 @@
           3. insert ':'<br />
           4. Put in the return value<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def runThis(a):<br />
             &nbsp;a(6)<br /><br />
 
@@ -39,7 +39,7 @@
           If you have more than 1 parameter, put in ','(Comma) between the
           parameter.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             def runThis(a):<br />
             &nbsp;a(6)<br /><br />
 

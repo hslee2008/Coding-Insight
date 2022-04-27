@@ -13,7 +13,7 @@
         넣으세요!
       </p>
 
-      <code>
+      <code v-highlight class="python">
         import logging<br /><br />
         logging.basicConfig(filename="log.log")
       </code>

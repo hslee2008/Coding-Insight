@@ -8,7 +8,7 @@
         <p>
           먼저 async 함수를 만들겠습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import asyncio<br /><br />
 
             async def main():<br />
@@ -31,7 +31,7 @@
           async 모듈을 사용하여 오래 걸리는 secondMain() 함수를
           print("Finished")와 같이 사용할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             import asyncio<br /><br />
 
             async def main():<br />
@@ -64,7 +64,7 @@
           하지만, 오래 걸리는 함수가 끝날 때까지 기다리기 위하여 await 키워드를
           사용할 수 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             async def main():<br />
             &nbsp;&nbsp;print("Hello")<br />
             &nbsp;&nbsp;task = asyncio.create_task(secondMain())<br />
@@ -79,7 +79,7 @@
 
           asyncio는 매우 신기한 특징을 가지고 있습니다.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             async def main():<br />
             &nbsp;&nbsp;print("Hello")<br />
             &nbsp;&nbsp;task = asyncio.create_task(secondMain())<br />
@@ -104,7 +104,7 @@
       <div>
         <h2>예시</h2>
         <p>
-          <code>
+          <code v-highlight class="python">
             async def fetchData():<br />
             &nbsp;&nbsp;print("started fetching...")<br /><br />
 
@@ -125,7 +125,7 @@
 
           그렇다면 위의 코드를 어떻게 동시에 실행할까요?<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             async def main():<br />
             &nbsp;&nbsp;task1 = asyncio.create_task(fetchData())<br />
             &nbsp;&nbsp;task2 = asyncio.create_task(printNum())<br /><br />

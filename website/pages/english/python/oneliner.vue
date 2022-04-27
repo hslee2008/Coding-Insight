@@ -24,14 +24,14 @@
 
           For example, let's look at the code below.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             print("Hello", end=" ")<br />
             print("World")
           </code>
 
           The code above is equal to the code below.<br /><br />
 
-          <code> print("Hello", end=" "); print("World") </code>
+          <code v-highlight class="python"> print("Hello", end=" "); print("World") </code>
         </p>
       </div>
       <iframe :src="`${trinket}724bf9a522`" height="356" />

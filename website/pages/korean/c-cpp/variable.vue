@@ -29,7 +29,7 @@
         <p>
           변수는 다음과 같은 방법으로 선언합니다.<br /><br />
 
-          <code>DATA_TYPE VARIABLE_NAME = VARIABLE_VALUE</code>
+          <code v-highlight class="cpp">DATA_TYPE VARIABLE_NAME = VARIABLE_VALUE</code>
 
           DATA_TYPE은 데이터 형태로 나중에 배울 내용이지만 어떤 형태의 물건이
           들어갈 수 있는지 알려주는 부분입니다.<br /><br />
@@ -52,7 +52,7 @@
         <p>
           예를 들어, 정수 a에 숫자 6을 저장하겠습니다.<br /><br />
 
-          <code>int a = 6;</code>
+          <code v-highlight class="cpp">int a = 6;</code>
 
           위에서 int가 정수, a가 변수 이름, 6이 변수 값입니다.
         </p>
@@ -80,7 +80,7 @@
           >
           <br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />
@@ -132,7 +132,7 @@
 
           변수를 만들었을 때와 같이 '변수 이름 = 값' 코드를 실행하면 됩니다.<br /><br />
 
-          <code>
+          <code v-highlight class="cpp">
             #include &lt;stdio.h><br /><br />
 
             int main()<br />

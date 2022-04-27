@@ -8,7 +8,7 @@
         <p>
           파일을 만들기 위해서는 'x' 모드를 사용할 수 있습니다.<br /><br />
 
-          <code> mainFile = open("example.txt", "x")</code>
+          <code v-highlight class="python"> mainFile = open("example.txt", "x")</code>
 
           만일 example.txt 라는 파일이 이미 존재한다면 에러가 생기게 되고,
           그렇지 않다면 example.txt 파일을 만들 수 있습니다.
@@ -25,7 +25,7 @@
           <p>
             파일을 삭제하려면 os라는 모듈을 사용해야 합니다.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               import os<br /><br />
 
               os.remove("example.txt") #첫 번째 방법<br />
@@ -49,7 +49,7 @@
             파이썬은 기본적으로 Ascii Code 형식을 지원하지만 이모지의 경우는
             UTF-8를 사용하기 때문에 인코딩을 사용하여 변환해줘야 합니다.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               mainFile = open("example.txt", "r", encoding="UTF-8")<br /><br />
 
               mainFile.close()

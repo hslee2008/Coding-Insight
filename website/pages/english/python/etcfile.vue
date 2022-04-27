@@ -10,7 +10,7 @@
 
           Note that error will occur when the file already exists.<br /><br />
 
-          <code> mainFile = open("example.txt", "x") </code>
+          <code v-highlight class="python"> mainFile = open("example.txt", "x") </code>
 
           Adding '+' at the end of original mode will let us write and read file
           both at once(It will also create file if it does not exist).
@@ -27,7 +27,7 @@
           <p>
             To remove files, use the 'os' module we learned before.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               import os<br /><br />
 
               os.remove("example.txt") #using remove() function<br />
@@ -58,7 +58,7 @@
             Use UTF-8 if you have emojis, special characters, or other language
             character inside your file.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               mainFile = open("example.txt", "r", encoding="UTF-8")<br /><br />
 
               mainFile.close()

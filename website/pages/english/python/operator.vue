@@ -69,7 +69,7 @@
         <p>
           Compare operators compares two values.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             a = 3<br />
             b = 3<br /><br />
 

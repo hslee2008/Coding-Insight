@@ -15,14 +15,14 @@
         <h2>파일 압축의 원리</h2>
         <p>
           파일에서는 반복되는 단어들이 많이 있습니다.<br /><br />
-          <code>
+          <code v-highlight class="python">
             And miles to go before I sleep, and miles to go before I sleep.
           </code>
           miles, to, go, before, I, sleep와 같은 단어들은 2번 반복이 됩니다.<br /><br />
           만일 이 파일 옆에 따로 딕셔너리를 만들어서 이 값들 대신 다른 값을
           넣는다면 어떻게 될까요?<br /><br />
           다음과 같은 딕셔너리를 만들 수 있습니다.<br /><br />
-          <code>
+          <code v-highlight class="python">
             {<br />
             "miles": 0,<br />
             "to": 1,<br />
@@ -34,7 +34,7 @@
           </code>
           위의 딕셔너리를 사용하여 파일을 압축한다면 다음과 같은 내용으로 바뀔
           수 있습니다.<br /><br />
-          <code> And 0 1 2 3 4 5, and 0 1 2 3 4 5. </code>
+          <code v-highlight class="python"> And 0 1 2 3 4 5, and 0 1 2 3 4 5. </code>
         </p>
       </div>
     </div>
@@ -50,9 +50,9 @@
           zlib이라는 모듈입니다.<br /><br />
           zlib은 ZIP COMPRESSION LIBRARY의 약자입니다.<br /><br />
           먼저, PIP을 이용하여 zlib을 내려받겠습니다.<br /><br />
-          <code>pip install zlib</code>
+          <code v-highlight class="python">pip install zlib</code>
           다음에, 새로운 파일을 만들어 zlib 모듈을 가지고 오겠습니다.<br /><br />
-          <code> import zlib </code>
+          <code v-highlight class="python"> import zlib </code>
         </p>
       </div>
       <div style="display: flex; justify-content: center">

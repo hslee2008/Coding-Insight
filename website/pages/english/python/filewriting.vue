@@ -21,7 +21,7 @@
         <p>
           Using the write() method, we can write to the file.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainFile = open("example.txt", "a")<br />
             mainFile.write("Now the file has more content!")<br />
             mainFile.close()
@@ -30,7 +30,7 @@
           While the top example added the text to the content, the example below
           will change the content entirely.<br /><br />
 
-          <code>
+          <code v-highlight class="python">
             mainFile = open("example.txt", "w")<br />
             mainFile.write("new content")<br />
             mainFile.close()
@@ -49,7 +49,7 @@
             writelines() will write each items in iterable in one line in a
             file.<br /><br />
 
-            <code>
+            <code v-highlight class="python">
               mainfile = open("example.txt", "w")<br />
               print(mainfile.writelines(["1", "2", "3", "4"]))<br />
               mainfile.close()
