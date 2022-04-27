@@ -57,7 +57,9 @@
           &nbsp;&nbsp;#모두 출력 코드
         </code>
         4. 추가 코드는 다음과 같습니다.<br /><br />
-        <code v-highlight class="python"> friends.append( input("친구 이름: ") ) </code>
+        <code v-highlight class="python">
+          friends.append( input("친구 이름: ") )
+        </code>
         5. 삭제 코드는 다음과 같습니다.<br /><br />
         <code v-highlight class="python">
           del friends[ int(input("친구 목록에서 몇 번째에 있나요?: ")) ]<br />

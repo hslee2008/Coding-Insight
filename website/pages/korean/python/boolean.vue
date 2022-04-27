@@ -47,7 +47,7 @@
           소수로 소문자로 사용하면 다음과 같은 에러가 생깁니다.
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/8500bba20b" height="356" />
+      <iframe :src="`${trinket2}8500bba20b`" height="356" />
     </div>
 
     <QuadSpace />
@@ -60,7 +60,7 @@
           붙이면 그 반대가 출력됩니다.
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/5fbbc3204c" height="356" />
+      <iframe :src="`${trinket2}5fbbc3204c`" height="356" />
     </div>
 
     <QuadSpace />
@@ -97,7 +97,7 @@
           출력합니다.
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/6d4ae0d672" height="356" />
+      <iframe :src="`${trinket2}6d4ae0d672`" height="356" />
     </div>
 
     <Navigation bef="ascii" aft="number" />

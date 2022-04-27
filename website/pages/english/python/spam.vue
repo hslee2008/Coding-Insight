@@ -24,14 +24,18 @@
       We first have to download smtplib and ssl module using PIP to use email
       service.<br /><br />
 
-      <code v-highlight class="python"> pip install smtpllib & pip install ssl </code>
+      <code v-highlight class="python">
+        pip install smtpllib & pip install ssl
+      </code>
 
       First, we have to connect our computer to SMTPD server which sends
       email.<br /><br />
 
       Run the following code.<br /><br />
 
-      <code v-highlight class="python"> python -m smtpd -c DebuggingServer -n localhost:1025 </code>
+      <code v-highlight class="python">
+        python -m smtpd -c DebuggingServer -n localhost:1025
+      </code>
 
       We first have to let Python login to our google gmail account.<br /><br />
 

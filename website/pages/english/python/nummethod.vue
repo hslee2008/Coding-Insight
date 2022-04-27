@@ -2,7 +2,7 @@
   <div>
     <Header type="Python" title="Number Method" num="17" />
 
-    <div >
+    <div>
       <div>
         <h2>Absolute Value</h2>
         <p>

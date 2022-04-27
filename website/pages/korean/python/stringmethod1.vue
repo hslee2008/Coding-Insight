@@ -24,7 +24,7 @@
           len은 영어로 '길이'를 뜻하는 length의 줄임말입니다.
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/41e9ea9617" height="356" />
+      <iframe :src="`${trinket2}41e9ea9617`" height="356" />
     </div>
 
     <QuadSpace />
@@ -41,12 +41,12 @@
           파이썬에게 물어보는 것과 같습니다.
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/a26965d6fd" height="356" />
+      <iframe :src="`${trinket2}a26965d6fd`" height="356" />
     </div>
 
     <QuadSpace />
 
-    <div >
+    <div>
       <div>
         <h2>문자의 대소문자</h2>
         <p>

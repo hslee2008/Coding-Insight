@@ -35,7 +35,9 @@
       <p>
         1-D 정렬은 정렬이 1개입니다. 1-D는 uni-dimension이라고도 합니다.<br /><br />
 
-        <code v-highlight class="python"> arr = numpy.array([4, 44, 444]) </code>
+        <code v-highlight class="python">
+          arr = numpy.array([4, 44, 444])
+        </code>
       </p>
     </div>
 
@@ -48,7 +50,9 @@
 
         정렬의 치수는 무한대로 늘어날 수 있습니다.<br /><br />
 
-        <code v-highlight class="python"> arr = numpy.array([ [4, 44, 444], [3, 3, 444] ]) </code>
+        <code v-highlight class="python">
+          arr = numpy.array([ [4, 44, 444], [3, 3, 444] ])
+        </code>
       </p>
     </div>
 
@@ -63,7 +67,9 @@
 
       <br /><br />정렬을 만들 때 정렬의 치수를 지정할 수도 있습니다.<br /><br />
 
-      <code v-highlight class="python"> arr = numpy.array([4, 44, 444, 4444], ndmin=1000) </code>
+      <code v-highlight class="python">
+        arr = numpy.array([4, 44, 444, 4444], ndmin=1000)
+      </code>
     </p>
 
     <QuadSpace />

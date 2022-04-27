@@ -49,7 +49,9 @@
           &nbsp;&nbsp;#Print All
         </code>
         4. Add friend <br /><br />
-        <code v-highlight class="python"> friends.append( input("Friend Name: ") ) </code>
+        <code v-highlight class="python">
+          friends.append( input("Friend Name: ") )
+        </code>
         5. Delete Friend<br /><br />
         <code v-highlight class="python">
           del friends[ int(input("Which friend? (number): ")) ]<br />

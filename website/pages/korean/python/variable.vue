@@ -1,18 +1,14 @@
 <template>
   <div>
-    <div>
-      <div>
-        <h2>변수란?</h2>
-        <p>
-          프로그래밍에서는 변수라고 하면 어떤 정보를 담을 수 있는 장소를
-          뜻합니다. <br /><br />
-          예를 들어 상자를 생각해보세요. 상자 안에는 다양한 물건을 담을 수
-          있습니다.<br /><br />
-          이와 비슷하게 변수도 다양 한 정보를 담을 수 있는 '상자'라고 할 수
-          있습니다.
-        </p>
-      </div>
-    </div>
+    <h2>변수란?</h2>
+    <p>
+      프로그래밍에서는 변수라고 하면 어떤 정보를 담을 수 있는 장소를 뜻합니다.
+      <br /><br />
+      예를 들어 상자를 생각해보세요. 상자 안에는 다양한 물건을 담을 수
+      있습니다.<br /><br />
+      이와 비슷하게 변수도 다양 한 정보를 담을 수 있는 '상자'라고 할 수
+      있습니다.
+    </p>
 
     <QuadSpace />
 
@@ -28,124 +24,115 @@
 
     <Header type="파이썬" num="5" title="변수" />
 
-    <div>
-      <div>
-        <h2>변수 선언하기</h2>
-        <p>
-          변수를 만들려면 다음과 같은 방법을 사용할 수 있습니다. <br /><br />
-          <code v-highlight class="python"> name = data </code>
-          에서 NAME은 변수의 이름을 뜻하고 DATA는 값입니다. <br /><br />
-          이렇게 하면 변수를 만들 수 있습니다.
-        </p>
-      </div>
-      <iframe src="https://trinket.io/embed/python/a5d980683b" height="356" />
-    </div>
+    <h2>변수 선언하기</h2>
+    <p>
+      변수를 만들려면 다음과 같은 방법을 사용할 수 있습니다. <br /><br />
+
+      <code v-highlight class="python"> name = data </code>
+
+      에서 NAME은 변수의 이름을 뜻하고 DATA는 값입니다. <br /><br />
+
+      이렇게 하면 변수를 만들 수 있습니다.
+    </p>
+    <iframe :src="`${trinket2}a5d980683b`" height="356" />
 
     <QuadSpace />
 
-    <div>
-      <div>
-        <h2>변수 사용 방법</h2>
-        <p>
-          변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이
-          출력되지 않고 변수의 값이 출력됩니다.<br /><br />
+    <h2>변수 사용 방법</h2>
+    <p>
+      변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이
+      출력되지 않고 변수의 값이 출력됩니다.<br /><br />
 
-          <code
-            v-highlight
-            class="python"
-            style="white-space: pre"
-            v-html="`name = 'John'\nprint(name) #John이 출력됩니다.`"
-          />
+      <code
+        v-highlight
+        class="python"
+        v-html="`name = 'John'\nprint(name) #John이 출력됩니다.`"
+      />
 
-          파이썬에서 변수의 이름은 대문자 소문자가 구별됩니다. <br /><br />
-          NAME과 name은 다릅니다.
-        </p>
-      </div>
-    </div>
+      파이썬에서 변수의 이름은 대문자 소문자가 구별됩니다. <br /><br />
+      NAME과 name은 다릅니다.
+    </p>
 
     <QuadSpace />
 
-    <div>
-      <div>
-        <h2>변수 이름을 만들때 규칙</h2>
-        <p>
-          변수를 만들 때 매우 다양한 규칙이 있습니다.<br /><br />
-          1. 영문자 (대문자, 소문자), 숫자, 언더바 (_) 만 사용할 수 있습니다.<br /><br />
-          2. 변수의 이름의 첫 자리는 숫자이면 안됩니다.<br /><br />
-          3. 파이썬 키워드는 변수의 이름으로 사용할 수 없습니다 (키워드에 대한
-          더 자세한 내용은 조금 뒤에 배우겠습니다)
-        </p>
-      </div>
-    </div>
+    <h2>변수 이름을 만들때 규칙</h2>
+    <p>
+      변수를 만들 때 매우 다양한 규칙이 있습니다.<br /><br />
+
+      1. 영문자 (대문자, 소문자), 숫자, 언더바 (_) 만 사용할 수 있습니다.<br />
+      2. 변수의 이름의 첫 자리는 숫자이면 안됩니다.<br />
+      3. 파이썬 키워드는 변수의 이름으로 사용할 수 없습니다 (키워드에 대한 더
+      자세한 내용은 조금 뒤에 배우겠습니다)
+    </p>
 
     <QuadSpace />
 
-    <div>
-      <div>
-        <h2>변수 값 바꾸기</h2>
-        <p>
-          변수에 저장된 값을 바꾸기 위하여 저희는 먼저 변수를 선언하겠습니다.<br /><br />
-          변수를 만들었다면 이제 변수의 값을 새로운 데이터로 바꾸어
-          보겠습니다.<br /><br />
-          변수를 만들었을 때와 같이 '변수 이름 = 값' 코드를 실행하면 됩니다.
-        </p>
-      </div>
-      <iframe src="https://trinket.io/embed/python/4745a3ecb9" height="356" />
-    </div>
+    <h2>변수 값 바꾸기</h2>
+    <p>
+      변수에 저장된 값을 바꾸기 위하여 저희는 먼저 변수를 선언하겠습니다.<br /><br />
+
+      변수를 만들었다면 이제 변수의 값을 새로운 데이터로 바꾸어 보겠습니다.<br /><br />
+
+      변수를 만들었을 때와 같이
+      <code v-highlight class="python ic" v-html="`'변수 이름 = 값'`" />
+      코드를 실행하면 됩니다.
+    </p>
+    <iframe :src="`${trinket2}4745a3ecb9`" height="200" />
 
     <QuadSpace />
 
-    <GlobalImage
-      src="https://wallpaperaccess.com/full/3279871.jpg"
-      max-width="300px"
-    />
     <h2>변수 삭제하기</h2>
     <p>
       변수가 더 이상 필요 없고 이 코드가 실행되고 있는 기기에 저장 공간이 많이
       없다면 삭제해도 됩니다.<br /><br />
+
       삭제는 del 키워드를 사용하고 뒤에 변수 이름을 넣으면 이제 변수를 다시
       사용할 수 없게 됩니다.<br /><br /><br />
-      <code v-highlight class="python">
-        name = "Coding-Insight"<br /><br />
-        del name<br /><br />
-        print(name)
-      </code>
+
+      <code
+        v-highlight
+        class="python"
+        v-html="`name = 'Coding-Insight'\ndel name\nprint(name)`"
+      />
+
       이 코드를 실행하면 에러가 생깁니다.<br /><br />
+
       그 이유는 name이라는 변수가 삭제되어 존재하지 않기 때문입니다.<br /><br />
     </p>
 
     <QuadSpace />
 
-    <div>
-      <div>
-        <h2>변수를 한번에 많이 선정하기</h2>
-        <p>
-          처음에는 원하는 변수들의 이름을 다 쉼표로 나누고 '='를 붙입니다.<br /><br />
-          '=' 뒤에 각 변수의 값을 순서대로 나열합니다.<br /><br />
-          위의 방법을 따르면 첫 번째 변수에 첫 번째 값이 저장되고 두 번째에는 두
-          번째 값이 지정됩니다.<br /><br />
+    <h2>변수를 한번에 많이 선정하기</h2>
+    <p>
+      처음에는 원하는 변수들의 이름을 다 쉼표로 나누고 '='를 붙입니다.<br /><br />
 
-          <code v-highlight class="python">
-            a, b, c = 1, 2, 3<br /><br />
+      '=' 뒤에 각 변수의 값을 순서대로 나열합니다.<br /><br />
 
-            print(a) #1이 출력된다
-          </code>
+      위의 방법을 따르면 첫 번째 변수에 첫 번째 값이 저장되고 두 번째에는 두
+      번째 값이 지정됩니다.<br /><br />
 
-          변수 5개에 값 "alphabet"을 저장하고 싶다고 가정을 해보겠습니다.<br /><br />
-          하지만 name="alphabet" 코드를 5번 실행하려면 시간이 많이 걸립니다.
-          그래서 파이썬에서는 변수를 '='로 연결하여 끝에 한 값을 넣어주면 모든
-          변수에 그 마지막 값이 저장됩니다.<br /><br />
+      <code
+        v-highlight
+        class="python"
+        v-html="`a, b, c = 1, 2, 3\nprint(a, b, c) # 1 2 3이 출력됩니다.`"
+      />
 
-          <code v-highlight class="python">
-            a = b = c = d = e = "alphabet"<br /><br />
+      변수 5개에 값 "alphabet"을 저장하고 싶다고 가정을 해보겠습니다.<br /><br />
 
-            print(a) #alphabet이 출력된다<br />
-            print(b) #alphabet이 출력된다<br />
-            print(c) #alphabet이 출력된다
-          </code>
-        </p>
-      </div>
-    </div>
+      하지만 name="alphabet" 코드를 5번 실행하려면 시간이 많이 걸립니다.<br /><br />
+
+      그래서 파이썬에서는 변수를 '='로 연결하여 끝에 한 값을 넣어주면 모든
+      변수에 그 마지막 값이 저장됩니다.<br /><br />
+
+      <code
+        v-highlight
+        class="python"
+        v-html="
+          `a = b = c = d = e = 'alphabet'\nprint(a, b, c, d, e) # alphabet이 5번 출력됩니다.`
+        "
+      />
+    </p>
+    <iframe :src="`${trinket}ac33761c8a`" height="356" />
 
     <Navigation bef="io" aft="madlib" />
 

@@ -68,7 +68,9 @@
 
         You can also specify the duration.<br /><br />
 
-        <code v-highlight class="python"> m.drag(0, 0, 200, 200, duration=3.0) </code>
+        <code v-highlight class="python">
+          m.drag(0, 0, 200, 200, duration=3.0)
+        </code>
 
         If we run that command right now in VSCode, the window is dragged to 200
         and 200.

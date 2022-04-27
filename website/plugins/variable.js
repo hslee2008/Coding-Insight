@@ -6,6 +6,7 @@ Vue.mixin({
     allink: 'Coding-Insight Link',
 
     trinket: 'https://trinket.io/embed/python3/',
+    trinket2: 'https://trinket.io/embed/python/',
     playrust:
       'https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=',
     jdoodle: 'https://www.jdoodle.com/embed/v0/',

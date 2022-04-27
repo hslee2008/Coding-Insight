@@ -30,7 +30,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python/54f740c487"
+        :src="`${trinket2}54f740c487`"
         width="60%"
         height="356"
       />
@@ -67,7 +67,7 @@
           </code>
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/9da1796e91" height="356" />
+      <iframe :src="`${trinket2}9da1796e91`" height="356" />
     </div>
 
     <QuadSpace />

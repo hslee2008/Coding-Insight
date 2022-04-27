@@ -29,7 +29,9 @@
         <p>
           터미널을 키고 다음 코드를 실행하세요.<br /><br />
 
-          <code v-highlight class="python"> gtts-cli 'hello' --output hello.mp3 </code>
+          <code v-highlight class="python">
+            gtts-cli 'hello' --output hello.mp3
+          </code>
 
           위의 코드를 실행하면 hellp.mp3라는 새로운 파일이 만들어 집니다.<br /><br />
 

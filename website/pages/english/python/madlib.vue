@@ -34,7 +34,9 @@
       In <var>sentence</var>, we will put in the following sentence: "Roses are
       ?. Violets are ?. And I like ?."<br /><br />
 
-      <code v-highlight class="python"> sentence = "Roses are {}. Violets are {}. And I like {}." </code>
+      <code v-highlight class="python">
+        sentence = "Roses are {}. Violets are {}. And I like {}."
+      </code>
 
       {} is the blank space. We will fill in, later.<br /><br />
 
@@ -51,7 +53,9 @@
       The format() method will put in the blank space swith the inputs we got
       from user ony by one from left to right.<br /><br />
 
-      <code v-highlight class="python"> finish = sentence.format(fw, sw, tw) </code>
+      <code v-highlight class="python">
+        finish = sentence.format(fw, sw, tw)
+      </code>
 
       Now, the sentence will be "Roses are {first word here}. Violets are
       {second word here}. And I like {third word here}." <br /><br />

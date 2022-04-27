@@ -295,7 +295,9 @@
         class="ma-3"
         style="width: 95%; height: 400px"
       />
-      <code v-highlight class="python ma-3" v-else> 코드 없음. 동영상 확인 </code>
+      <code v-highlight class="python ma-3" v-else>
+        코드 없음. 동영상 확인
+      </code>
     </v-card>
 
     <v-card

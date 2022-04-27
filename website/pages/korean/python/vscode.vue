@@ -621,13 +621,14 @@
       <h2>.py?</h2>
       <p>
         위의 설명에서 항상 파이썬 파일을 만들때
-        <code v-highlight class="python ic">이름.py</code> 형태로 정해야한다고 했습니다.<br /><br />
+        <code v-highlight class="python ic">이름.py</code> 형태로 정해야한다고
+        했습니다.<br /><br />
 
         그 이유는 컴퓨터에게 파일의 형태(종류)가 무엇이지 설명해야하기
         때문입니다.<br /><br />
 
-        <code v-highlight class="python ic">.py</code>는 python의 약자로 컴퓨터에게 우리가 만든
-        파일이 파이썬 파일이라고 알려줍니다.
+        <code v-highlight class="python ic">.py</code>는 python의 약자로
+        컴퓨터에게 우리가 만든 파일이 파이썬 파일이라고 알려줍니다.
       </p>
     </div>
 

@@ -26,7 +26,9 @@
         <p>
           Using ord(), we can get the ASCII value of a character.<br /><br />
 
-          <code v-highlight class="python"> print(ord(input("One character: "))) </code>
+          <code v-highlight class="python">
+            print(ord(input("One character: ")))
+          </code>
         </p>
       </div>
       <iframe :src="`${trinket}4f4507d894`" width="60%" height="356" />
@@ -40,7 +42,9 @@
         <p>
           On the other hand, chr() prints the character of ASCII code.<br /><br />
 
-          <code v-highlight class="python"> print(chr(int(input("A number between 0 and 127: ")))) </code>
+          <code v-highlight class="python">
+            print(chr(int(input("A number between 0 and 127: "))))
+          </code>
         </p>
       </div>
       <iframe :src="`${trinket}2f04cf1944`" height="356" />

@@ -165,10 +165,11 @@
       <div>
         <h2>&str과 String</h2>
 
-        &str은 <code v-highlight class="rust ic">let vari: &str = ""</code> 형태로 변수를
-        선언하면 되고 String은
-        <code v-highlight class="rust ic">let vari = String::from("")</code>과 같이 선언하면
-        됩니다.<br /><br />
+        &str은
+        <code v-highlight class="rust ic">let vari: &str = ""</code> 형태로
+        변수를 선언하면 되고 String은
+        <code v-highlight class="rust ic">let vari = String::from("")</code>과
+        같이 선언하면 됩니다.<br /><br />
 
         참고로 String에 &를 붙이면 &str로 변합니다.<br /><br />
 

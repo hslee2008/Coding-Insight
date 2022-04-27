@@ -43,14 +43,14 @@
       <div>
         <h2>main()이란?</h2>
         <p>
-          코딩 언어에서 <code v-highlight class="rust ic">main()</code>이라는 것을 "함수"라고
-          부릅니다. <br /><br />
+          코딩 언어에서 <code v-highlight class="rust ic">main()</code>이라는
+          것을 "함수"라고 부릅니다. <br /><br />
 
           함수는 나중에 자세히 알아보겠지만 쉽게 코드를 담는 부분이라고 생각하면
           됩니다.<br /><br />
 
-          <code v-highlight class="rust ic">main()</code> 함수는 Rust 코드의 대부분을 담을
-          박스입니다.
+          <code v-highlight class="rust ic">main()</code> 함수는 Rust 코드의
+          대부분을 담을 박스입니다.
         </p>
       </div>
       <iframe
@@ -60,8 +60,8 @@
       <div>
         <p>
           이제 위의 코드를 실행하면 에러가 뜹니다. 그 이유는
-          <code v-highlight class="rust ic">main()</code> 함수 안에 코드를 넣지 않았기
-          때문입니다.
+          <code v-highlight class="rust ic">main()</code> 함수 안에 코드를 넣지
+          않았기 때문입니다.
         </p>
       </div>
     </div>

@@ -38,7 +38,9 @@
       <h2>Code Explanation</h2>
       <div>
         1) Input Sentence<br /><br />
-        <code v-highlight class="python"> sent = input("Sentence to zip: ") </code>
+        <code v-highlight class="python">
+          sent = input("Sentence to zip: ")
+        </code>
         2) Info (dictionary)<br /><br />
         <code v-highlight class="python"> zipp_info = {} </code>
         3) zip<br /><br />

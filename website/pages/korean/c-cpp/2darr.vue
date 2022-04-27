@@ -35,7 +35,9 @@
           {} 안에 {}를 넣고 아이템을 입력합니다.<br /><br />
           6. ; 입력하기<br /><br />
 
-          <code v-highlight class="cpp"
+          <code
+            v-highlight
+            class="cpp"
             v-html="
               'int grid[19][19];<br />int test[4][4] = {{0, 1, 2, 3}, {0, 1, 2, 3}, {0, 1, 2, 3}, {0, 1, 2, 3}};'
             "

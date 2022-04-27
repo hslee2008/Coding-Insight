@@ -304,8 +304,10 @@
                   >
                     <v-card-title style="float: right">
                       <p class="black--text">
-                        >>> 다음에 <code v-highlight class="python">print("Hello, World!")</code>라고 치고
-                        엔터 누르기
+                        >>> 다음에
+                        <code v-highlight class="python"
+                          >print("Hello, World!")</code
+                        >라고 치고 엔터 누르기
                       </p></v-card-title
                     >
                   </v-img>

@@ -62,7 +62,9 @@
 
             터미널에 다음과 같은 코드를 실행하세요.<br /><br />
 
-            <code v-highlight class="python">python filename.py register -r</code>
+            <code v-highlight class="python"
+              >python filename.py register -r</code
+            >
           </p>
         </div>
       </div>
@@ -82,7 +84,9 @@
 
             나만의 모듈은 모듈 파일의 주소를 적어주면 됩니다.<br /><br />
 
-            <code v-highlight class="python"> myMod = __import__(r"C:\main.py") </code>
+            <code v-highlight class="python">
+              myMod = __import__(r"C:\main.py")
+            </code>
 
             파일의 주소는 VSCode에서 파일에 우클릭하고 Copy path를 누르면 복사할
             수 있습니다.

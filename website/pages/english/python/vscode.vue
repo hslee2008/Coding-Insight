@@ -510,8 +510,10 @@
                   <v-card-title>
                     <p class="black--text">
                       <mark
-                        >Type in <code v-highlight class="python">print("hello world")</code>, click on the
-                        arrow next to triangle, click Run Python
+                        >Type in
+                        <code v-highlight class="python"
+                          >print("hello world")</code
+                        >, click on the arrow next to triangle, click Run Python
                       </mark>
                     </p>
                   </v-card-title>

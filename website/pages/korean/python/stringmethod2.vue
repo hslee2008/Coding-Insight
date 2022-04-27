@@ -29,7 +29,7 @@
           예를 들어 "Hello" * 2는 "HelloHello"입니다.
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/54f740c487" height="356" />
+      <iframe :src="`${trinket2}54f740c487`" height="356" />
     </div>
 
     <QuadSpace />
@@ -56,7 +56,7 @@
           있는지 알 수 있습니다.<br />
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/9da1796e91" height="356" />
+      <iframe :src="`${trinket2}9da1796e91`" height="356" />
     </div>
 
     <QuadSpace />
@@ -79,7 +79,7 @@
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python/d278186aad"
+        :src="`${trinket2}d278186aad`"
         height="356"
         loading="lazy"
       />

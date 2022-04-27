@@ -52,7 +52,9 @@
           Using the float() method, we will convert the number into float and
           add them together<br /><br />
 
-          <code v-highlight class="python"> addnum = float(num1) + float(num2) </code>
+          <code v-highlight class="python">
+            addnum = float(num1) + float(num2)
+          </code>
 
           We print <var>addnum</var> variable<br /><br />
 

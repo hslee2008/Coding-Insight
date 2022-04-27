@@ -28,7 +28,9 @@
           1. 배열과 비슷하게 {} 안에 문자 하나하나 집어 넣을 수 있습니다<br />
           2. 또는 "" 안에 텍스트를 넣을 수 있습니다.<br /><br />
 
-          <code v-highlight class="cpp"> char message[] = "Hello, World!" </code>
+          <code v-highlight class="cpp">
+            char message[] = "Hello, World!"
+          </code>
         </p>
       </div>
     </div>

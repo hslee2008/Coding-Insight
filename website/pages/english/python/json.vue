@@ -79,13 +79,17 @@
         We can set the indentation of each pair, making it easier for us to read
         in the terminal(if we print JSON).<br /><br />
 
-        <code v-highlight class="python"> print(json.dumps(someJson, indent=2)) </code>
+        <code v-highlight class="python">
+          print(json.dumps(someJson, indent=2))
+        </code>
 
         <h2>Sort JSON</h2>
 
         We can sort JSON keys in alphabetical descending order.<br /><br />
 
-        <code v-highlight class="python"> print(json.dumps(someJson, indent=2, sort_keys=True)) </code>
+        <code v-highlight class="python">
+          print(json.dumps(someJson, indent=2, sort_keys=True))
+        </code>
 
         <h2>JSON characters</h2>
 
@@ -96,7 +100,9 @@
         Using the 'seperator' argument in dumps() method, we can set the
         character to use instead of ':' and ','(Comma).<br /><br />
 
-        <code v-highlight class="python"> print(json.dumps(someJson, seperator=(". ", "==>"))) </code>
+        <code v-highlight class="python">
+          print(json.dumps(someJson, seperator=(". ", "==>")))
+        </code>
 
         The example above will print the JSON with '. ' seperating keys and
         values and '==>' seperating each pair.

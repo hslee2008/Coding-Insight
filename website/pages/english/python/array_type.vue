@@ -43,7 +43,9 @@
 
           We also call it an uni-dimension.<br /><br />
 
-          <code v-highlight class="python"> arr = numpy.array([4, 44, 444]) </code>
+          <code v-highlight class="python">
+            arr = numpy.array([4, 44, 444])
+          </code>
         </p>
       </div>
     </div>
@@ -56,7 +58,9 @@
         <p>
           2D means there is an array inside an array.<br /><br />
 
-          <code v-highlight class="python"> arr = numpy.array([ [4, 44, 444], [3, 3, 444] ]) </code>
+          <code v-highlight class="python">
+            arr = numpy.array([ [4, 44, 444], [3, 3, 444] ])
+          </code>
 
           Note that there could be as many arrays inside arrays you want.
         </p>
@@ -75,7 +79,9 @@
 
           If we want, we can format a specific array with specific type.<br /><br />
 
-          <code v-highlight class="python"> arr = numpy.array([4, 44, 444, 4444], ndmin=1000) </code>
+          <code v-highlight class="python">
+            arr = numpy.array([4, 44, 444, 4444], ndmin=1000)
+          </code>
         </p>
       </div>
       <iframe :src="`${trinket}7b99138f0e`" width="60%" height="356" />

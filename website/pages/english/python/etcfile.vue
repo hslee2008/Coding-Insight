@@ -10,7 +10,9 @@
 
           Note that error will occur when the file already exists.<br /><br />
 
-          <code v-highlight class="python"> mainFile = open("example.txt", "x") </code>
+          <code v-highlight class="python">
+            mainFile = open("example.txt", "x")
+          </code>
 
           Adding '+' at the end of original mode will let us write and read file
           both at once(It will also create file if it does not exist).

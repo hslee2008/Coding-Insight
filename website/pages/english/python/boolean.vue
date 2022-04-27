@@ -43,7 +43,7 @@
     </div>
 
     <iframe
-      src="https://trinket.io/embed/python/8500bba20b"
+      :src="`${trinket2}8500bba20b`"
       height="356"
       loading="lazy"
     />
@@ -56,7 +56,7 @@
         <p>Using not, we can switch from true to false and vice versa.</p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python/5fbbc3204c"
+        :src="`${trinket2}5fbbc3204c`"
         width="60%"
         height="356"
       />
@@ -81,7 +81,9 @@
 
           We can also make your own message.<br /><br />
 
-          <code v-highlight class="python"> assert 1 > 2, "Hmmm... 🐛🐛🐛(bug) found in code." </code>
+          <code v-highlight class="python">
+            assert 1 > 2, "Hmmm... 🐛🐛🐛(bug) found in code."
+          </code>
         </p>
       </div>
 
@@ -102,7 +104,7 @@
           of them are False.
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/6d4ae0d672" height="356" />
+      <iframe :src="`${trinket2}6d4ae0d672`" height="356" />
     </div>
 
     <Navigation bef="ascii" aft="number" />

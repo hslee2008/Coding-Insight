@@ -25,7 +25,9 @@
       <div>
         <h2>클래스 만들기</h2>
         <p>
-          <code v-highlight class="cpp"> class person { public: int age; string name; };</code>
+          <code v-highlight class="cpp">
+            class person { public: int age; string name; };</code
+          >
 
           1. 먼저, class를 사용해서 클래스를 만듭니다. 클래스의 이름은
           person입니다.<br />

@@ -37,11 +37,13 @@
 
           It can be used inside ' and " without any conflicts.<br /><br />
 
-          <code v-highlight class="python"> text = '\'escape character\'' </code>
+          <code v-highlight class="python">
+            text = '\'escape character\''
+          </code>
         </p>
       </div>
       <iframe
-        src="https://trinket.io/embed/python/5d4e5680b4"
+        :src="`${trinket2}5d4e5680b4`"
         width="60%"
         height="356"
       />
@@ -113,7 +115,7 @@
           To do this, we have to put r before the quotation mark.
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/6366397170" height="356" />
+      <iframe :src="`${trinket2}6366397170`" height="356" />
     </div>
 
     <Navigation bef="password" aft="ascii" />

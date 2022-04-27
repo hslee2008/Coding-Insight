@@ -30,7 +30,9 @@
         <p>
           Open a new terminal and run the following command.<br /><br />
 
-          <code v-highlight class="python"> gtts-cli 'hello' --output hello.mp3 </code>
+          <code v-highlight class="python">
+            gtts-cli 'hello' --output hello.mp3
+          </code>
 
           If we run the command above, a new file named hello.mp3 will be
           made.<br /><br />

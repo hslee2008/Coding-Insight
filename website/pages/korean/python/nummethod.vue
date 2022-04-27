@@ -14,7 +14,7 @@
 
     <Header type="파이썬" title="숫자 메서드" num="17" />
 
-    <div >
+    <div>
       <div>
         <h2>절댓값</h2>
         <p>

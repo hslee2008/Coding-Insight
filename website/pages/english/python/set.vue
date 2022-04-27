@@ -17,7 +17,9 @@
           For example, let's try creating a set of students who are taller than
           160cm in class.<br /><br />
 
-          <code v-highlight class="python"> people = {"Elvis", "Taylor", "Michael", "John"} </code>
+          <code v-highlight class="python">
+            people = {"Elvis", "Taylor", "Michael", "John"}
+          </code>
 
           Note that sets do not have an order.
         </p>

@@ -29,7 +29,9 @@
         <p>
           변수는 다음과 같은 방법으로 선언합니다.<br /><br />
 
-          <code v-highlight class="cpp">DATA_TYPE VARIABLE_NAME = VARIABLE_VALUE</code>
+          <code v-highlight class="cpp"
+            >DATA_TYPE VARIABLE_NAME = VARIABLE_VALUE</code
+          >
 
           DATA_TYPE은 데이터 형태로 나중에 배울 내용이지만 어떤 형태의 물건이
           들어갈 수 있는지 알려주는 부분입니다.<br /><br />

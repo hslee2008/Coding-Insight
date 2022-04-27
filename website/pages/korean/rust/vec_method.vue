@@ -4,8 +4,8 @@
 
     <h2>::new() 사용하기</h2>
     <p>
-      <code v-highlight class="rust ic"> Vec::new() </code>를 사용하면 백터를 생성할 수
-      있습니다.<br /><br />
+      <code v-highlight class="rust ic"> Vec::new() </code>를 사용하면 백터를
+      생성할 수 있습니다.<br /><br />
 
       new를 사용하면 크기가 0이고 값이 없는 Vec가 만들어집니다.<br /><br />
 

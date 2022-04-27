@@ -58,7 +58,9 @@
 
       Marker is a character that can be put on a part where the graph bends.<br /><br />
 
-      <code v-highlight class="python"> plt.plot([1, 10, 30], [1, 10, 20], marker="x") </code>
+      <code v-highlight class="python">
+        plt.plot([1, 10, 30], [1, 10, 20], marker="x")
+      </code>
 
       Put in the character inside marker.<br /><br />
 
@@ -72,14 +74,18 @@
       line/dot)<br />
       The color of graph.<br /><br />
 
-      <code v-highlight class="python"> plt.plot([1, 10, 20], [1, 24, 44], 'o:r') </code>
+      <code v-highlight class="python">
+        plt.plot([1, 10, 20], [1, 24, 44], 'o:r')
+      </code>
 
       <h2>marker size</h2>
 
       To specify your marker size, use the ms parameter and insert an
       integer.<br /><br />
 
-      <code v-highlight class="python"> plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30) </code>
+      <code v-highlight class="python">
+        plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30)
+      </code>
 
       <h2>marker border</h2>
 
@@ -125,7 +131,9 @@
 
           Line width can be set with linewidth or lw parameter.<br /><br />
 
-          <code v-highlight class="python"> plt.plot([1, 4, 5], [1, 4, 6], linewidth = 3.14159) </code>
+          <code v-highlight class="python">
+            plt.plot([1, 4, 5], [1, 4, 6], linewidth = 3.14159)
+          </code>
         </div>
       </div>
     </div>

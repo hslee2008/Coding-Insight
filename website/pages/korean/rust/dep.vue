@@ -9,7 +9,8 @@
         regex = "1.5"<br />
       </code>
 
-      그리고 <code v-highlight class="rust ic">cargo run build</code>를 실행합니다.
+      그리고 <code v-highlight class="rust ic">cargo run build</code>를
+      실행합니다.
     </p>
 
     <Header type="Rust" title="외부 모듈" num="39" />

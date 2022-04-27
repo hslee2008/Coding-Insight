@@ -38,13 +38,13 @@
 
         <code v-highlight class="python"> print(type("안녕")) </code>
 
-        <code v-highlight class="python ic">&lt;class 'str'></code>은 "안녕"이 str 데이터
-        변수(str은 문자입니다)라는 것을 알려줍니다.
+        <code v-highlight class="python ic">&lt;class 'str'></code>은 "안녕"이
+        str 데이터 변수(str은 문자입니다)라는 것을 알려줍니다.
       </p>
     </div>
 
     <iframe
-      src="https://trinket.io/embed/python/1068ac5668"
+      :src="`${trinket2}1068ac5668`"
       height="356"
       loading="lazy"
     />
@@ -55,15 +55,15 @@
       <div>
         <h2>데이터 형태 확인</h2>
         <p>
-          <code v-highlight class="python ic">isinstance()</code>는 변수의 데이터 형태를 확인해주는
-          함수입니다.<br /><br />
+          <code v-highlight class="python ic">isinstance()</code>는 변수의
+          데이터 형태를 확인해주는 함수입니다.<br /><br />
 
           첫 번째에 변수 이름을 넣고 두 번째에는 데이터 형태 이름을 넣습니다. 이
           코드를 실행하면 <code v-highlight class="python ic">True</code> 또는
           <code v-highlight class="python ic">False</code>가 출력됩니다.<br /><br />
 
           <iframe
-            src="https://trinket.io/embed/python/437398710e"
+            :src="`${trinket2}437398710e`"
             height="356"
             loading="lazy"
           />

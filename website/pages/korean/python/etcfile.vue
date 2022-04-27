@@ -8,7 +8,9 @@
         <p>
           파일을 만들기 위해서는 'x' 모드를 사용할 수 있습니다.<br /><br />
 
-          <code v-highlight class="python"> mainFile = open("example.txt", "x")</code>
+          <code v-highlight class="python">
+            mainFile = open("example.txt", "x")</code
+          >
 
           만일 example.txt 라는 파일이 이미 존재한다면 에러가 생기게 되고,
           그렇지 않다면 example.txt 파일을 만들 수 있습니다.

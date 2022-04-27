@@ -84,7 +84,9 @@
           0부터 5까지 아이템의 입력을 받고 싶다면 다음과 같이 for 반복문을
           사용할 수 있습니다.<br /><br />
 
-          <code v-highlight class="cpp"> for (int i = 0; i &lt; 6; i++) scanf("%d", class[i]); </code>
+          <code v-highlight class="cpp">
+            for (int i = 0; i &lt; 6; i++) scanf("%d", class[i]);
+          </code>
         </p>
       </div>
       <div class="ma-auto">

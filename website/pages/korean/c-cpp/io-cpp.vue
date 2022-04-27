@@ -114,7 +114,9 @@
         <p>
           C++에서 새로운 줄을 출력할 때 endl이라는 변수를 사용할 수 있습니다.<br /><br />
 
-          <code v-highlight class="cpp"> cout &lt;&lt; "Hello, World!" &lt;&lt; endl; </code>
+          <code v-highlight class="cpp">
+            cout &lt;&lt; "Hello, World!" &lt;&lt; endl;
+          </code>
         </p>
       </div>
       <div class="ma-auto">

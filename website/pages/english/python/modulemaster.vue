@@ -82,7 +82,9 @@
 
             We will learn about whole path later in 'handling files' page.<br /><br />
 
-            <code v-highlight class="python"> myMod = __import__(r"C:\main.py") </code>
+            <code v-highlight class="python">
+              myMod = __import__(r"C:\main.py")
+            </code>
 
             To copy whole path, right click on file and click on 'Copy Path'.
           </p>

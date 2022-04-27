@@ -30,7 +30,7 @@
 
       <QuadSpace />
 
-      <div >
+      <div>
         <div>
           <h2>print() but with end</h2>
           <p>
@@ -46,7 +46,9 @@
             For example, if we want to print "Hello, World!"(without "") and
             then a period, we can use end to store '.'.<br /><br />
 
-            <code v-highlight class="python"> print("Hello, World!", end=".") </code>
+            <code v-highlight class="python">
+              print("Hello, World!", end=".")
+            </code>
           </p>
         </div>
 
@@ -77,7 +79,9 @@
 
             We can use 'sep' to store the character inside<br /><br />
 
-            <code v-highlight class="python"> print("Hello", "World", sep=" ,") </code>
+            <code v-highlight class="python">
+              print("Hello", "World", sep=" ,")
+            </code>
           </p>
         </div>
       </div>
@@ -113,7 +117,7 @@
         </div>
 
         <iframe
-          src="https://trinket.io/embed/python/5b6a7a8b2b"
+          :src="`${trinket2}5b6a7a8b2b`"
           height="356"
           loading="lazy"
         />

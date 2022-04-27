@@ -28,7 +28,9 @@
       <h2>코드 설명</h2>
       <div>
         1) 사용자에게 암호를 맞추라고 물어봅니다.<br /><br />
-        <code v-highlight class="python">guess = input("로그인하기 위한 암호: ")</code>
+        <code v-highlight class="python"
+          >guess = input("로그인하기 위한 암호: ")</code
+        >
         2. 암호인지 비교하기 (진짜 암호: "password")<br /><br />
         <code v-highlight class="python">if (guess == "password")</code>
         3. 맞으면 login 출력, 아니면 not password 출력<br /><br />

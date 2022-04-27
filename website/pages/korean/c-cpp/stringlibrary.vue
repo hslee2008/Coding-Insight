@@ -78,7 +78,9 @@
         <p>
           strlen(string) 형태로 string 문자열의 길이를 알 수 있습니다.<br /><br />
 
-          <code v-highlight class="cpp"> printf("%d", strlen("C is awsome")); </code>
+          <code v-highlight class="cpp">
+            printf("%d", strlen("C is awsome"));
+          </code>
 
           참고로 공백 포함입니다.
         </p>

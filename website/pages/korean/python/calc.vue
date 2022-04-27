@@ -68,7 +68,9 @@
 
           float() 메서드를 사용해서 소수로 전환하고 더하겠습니다.<br /><br />
 
-          <code v-highlight class="python"> addnum = float(num1) + float(num2) </code>
+          <code v-highlight class="python">
+            addnum = float(num1) + float(num2)
+          </code>
 
           그리고 addnum을 출력하겠습니다.<br /><br />
 

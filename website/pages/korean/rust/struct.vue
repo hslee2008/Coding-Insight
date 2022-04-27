@@ -50,8 +50,8 @@
       i64 등 여러 개의 데이터 형태를 가질 수 있습니다.<br /><br />
 
       튜플은 ()를 사용해서 만들 수 있고 튜플 구조체는
-      <code v-highlight class="rust ic">struct Random(String, String)</code> 등으로 선언할 수
-      있습니다.<br /><br />
+      <code v-highlight class="rust ic">struct Random(String, String)</code>
+      등으로 선언할 수 있습니다.<br /><br />
 
       튜플 구조체나 튜플은 대부분 값을 모아서 함수로 반환하거나 함수의 값을
       받아서 사용합니다.<br /><br />

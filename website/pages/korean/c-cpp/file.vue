@@ -52,7 +52,9 @@
 
           파일 여는 모드는 조금 나중에 더 자세히 배우겠습니다.<br /><br />
 
-          <code v-highlight class="cpp"> FILE * fp = fopen("test.txt", "r"); </code>
+          <code v-highlight class="cpp">
+            FILE * fp = fopen("test.txt", "r");
+          </code>
 
           여기에서 r은 파일을 읽겠다는 뜻입니다.
         </p>

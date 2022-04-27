@@ -40,7 +40,9 @@
           Using the dictionary above, we can make a new sentenec below that will
           take much less space.<br /><br />
 
-          <code v-highlight class="python"> And 0 1 2 3 4 5, and 0 1 2 3 4 5. </code>
+          <code v-highlight class="python">
+            And 0 1 2 3 4 5, and 0 1 2 3 4 5.
+          </code>
         </p>
       </div>
     </div>

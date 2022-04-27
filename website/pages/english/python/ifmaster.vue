@@ -12,7 +12,9 @@
           Howwever, using this syntax, it simplifies if statement into one
           single line.<br /><br />
 
-          <code v-highlight class="python"> if a > b: print("as is greater than b") </code>
+          <code v-highlight class="python">
+            if a > b: print("as is greater than b")
+          </code>
 
           In if-else statement has the following syntax: (statement is True) if
           (satement) else (statement is False).<br /><br />
@@ -89,7 +91,9 @@
           Indentation is when you make an extra space before the first alphabet
           of the parahraph so that the reader will recognize it is the start.<br /><br />
 
-          <code v-highlight class="python"> &nbsp;Start of paragraph. blablablablabla... </code>
+          <code v-highlight class="python">
+            &nbsp;Start of paragraph. blablablablabla...
+          </code>
 
           In Python, if you want a code to be inside a syntax (e.g. if
           statement), you HAVE to indent.<br /><br />

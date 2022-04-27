@@ -45,8 +45,8 @@
         뜻입니다. int와 bit는 숫자를 더 자세히 다루는 장에서 알아보겠습니다.<br /><br />
 
         데이터 형태를 지정하기 위해서 변수 이름 다음에
-        <code v-highlight class="rust ic">:</code>을 붙이고 데이터 형태 이름(예: i64)를 넣고
-        다음에 값을 넣습니다.
+        <code v-highlight class="rust ic">:</code>을 붙이고 데이터 형태 이름(예:
+        i64)를 넣고 다음에 값을 넣습니다.
       </div>
       <div>
         <iframe

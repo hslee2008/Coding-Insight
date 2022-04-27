@@ -50,7 +50,7 @@
         </p>
       </div>
 
-      <iframe src="https://trinket.io/embed/python/7c86f7328a" height="356" />
+      <iframe :src="`${trinket2}7c86f7328a`" height="356" />
     </div>
 
     <QuadSpace />

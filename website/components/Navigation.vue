@@ -17,7 +17,7 @@
           </v-btn>
         </template>
 
-        <span>{{ bef }}</span>
+        <span>{{ bef.toUpperCase() }}</span>
       </v-tooltip>
 
       <v-spacer />
@@ -38,7 +38,7 @@
           </v-btn>
         </template>
 
-        <span>{{ aft }}</span>
+        <span>{{ aft.toUpperCase() }}</span>
       </v-tooltip>
     </v-card-actions>
   </v-card>

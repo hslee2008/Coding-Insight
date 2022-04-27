@@ -29,7 +29,7 @@
           value of the variable.
         </p>
       </div>
-      <iframe src="https://trinket.io/embed/python/a5d980683b" height="356" />
+      <iframe :src="`${trinket2}a5d980683b`" height="356" />
     </div>
 
     <QuadSpace />

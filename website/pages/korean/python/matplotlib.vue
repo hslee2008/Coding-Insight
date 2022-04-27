@@ -10,7 +10,9 @@
           <code v-highlight class="python"> import matplotlib </code>
           matplotlib의 버전을 출력하기 위하여 다음과 같은 방법을 사용할 수
           있습니다.
-          <code v-highlight class="python"> print(matplotlib.__version__) </code>
+          <code v-highlight class="python">
+            print(matplotlib.__version__)
+          </code>
         </p>
       </div>
       <iframe :src="`${trinket}3e28c18725`" height="356" />
@@ -56,7 +58,11 @@
       <p>
         matplotlib에서의 마커는 그래프가 꺽이는 부분에 점을 넣을 수 있습니다.
       </p>
-      <p><code v-highlight class="python"> plt.plot([1, 10, 30], [1, 10, 20], marker="x") </code></p>
+      <p>
+        <code v-highlight class="python">
+          plt.plot([1, 10, 30], [1, 10, 20], marker="x")
+        </code>
+      </p>
       <p>marker 매개변수로 문자를 넣을 수 있습니다.</p>
       <h3>문자 fmt</h3>
       <p>
@@ -68,11 +74,17 @@
         - 선, --줄선, -. 줄/점 선) 세 번째는 그래프의 색깔입니다. (색깔의 첫
         번째 색깔)
       </p>
-      <p><code v-highlight class="python"> plt.plot([1, 10, 20], [1, 24, 44], 'o:r') </code></p>
+      <p>
+        <code v-highlight class="python">
+          plt.plot([1, 10, 20], [1, 24, 44], 'o:r')
+        </code>
+      </p>
       <h3>마커 크기</h3>
       <p>마커의 크기는 매개변수 ms에 수를 입력하면 됩니다.</p>
       <p>
-        <code v-highlight class="python"> plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30) </code>
+        <code v-highlight class="python">
+          plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30)
+        </code>
       </p>
       <h3>마커 윤곽선</h3>
       <p>마커의 윤곽선은 mec를 이용하여 지정할 수 있습니다.</p>
@@ -109,7 +121,9 @@
           </code>
           <h2>선 폭</h2>
           선의 폭은 linewidth 또는 lw로 설정할 수 있습니다.<br /><br />
-          <code v-highlight class="python"> plt.plot([1, 4, 5], [1, 4, 6], linewidth = '3.14159') </code>
+          <code v-highlight class="python">
+            plt.plot([1, 4, 5], [1, 4, 6], linewidth = '3.14159')
+          </code>
         </div>
       </div>
     </div>

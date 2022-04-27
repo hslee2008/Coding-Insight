@@ -34,7 +34,9 @@
           </code>
           위의 딕셔너리를 사용하여 파일을 압축한다면 다음과 같은 내용으로 바뀔
           수 있습니다.<br /><br />
-          <code v-highlight class="python"> And 0 1 2 3 4 5, and 0 1 2 3 4 5. </code>
+          <code v-highlight class="python">
+            And 0 1 2 3 4 5, and 0 1 2 3 4 5.
+          </code>
         </p>
       </div>
     </div>

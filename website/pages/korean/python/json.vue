@@ -59,16 +59,22 @@
         <h2>들여쓰기</h2>
         JSON의 들여쓰기의 값도 정할 수 있습니다. 들여쓰기란 TAB의 값을
         말합니다.<br /><br />
-        <code v-highlight class="python"> print(json.dumps(someJson, indent=2)) </code>
+        <code v-highlight class="python">
+          print(json.dumps(someJson, indent=2))
+        </code>
         <h2>알파벳 순서</h2>
         JSON의 키에서 알파벳 순서대로 배열을 할 수 있습니다.<br /><br />
-        <code v-highlight class="python"> print(json.dumps(someJson, indent=2, sort_keys=True)) </code>
+        <code v-highlight class="python">
+          print(json.dumps(someJson, indent=2, sort_keys=True))
+        </code>
         <h2>JSON 표현 방법</h2>
         JSON의 키와 값은 딕셔너리처럼 ':'으로 나눌 수 있습니다.<br /><br />
         JSON에서 키와 값들은 ','로 분류가 됩니다.<br /><br />
         JSON에서 seperator 매개변수를 이용하여 우리만의 표현 방법을
         설정해보겠습니다.<br /><br />
-        <code v-highlight class="python"> print(json.dumps(someJson, seperator=(". ", "==>"))) </code>
+        <code v-highlight class="python">
+          print(json.dumps(someJson, seperator=(". ", "==>")))
+        </code>
       </div>
       <iframe :src="`${trinket}efb76f8dd2`" height="200" />
     </div>

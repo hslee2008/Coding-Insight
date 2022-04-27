@@ -63,7 +63,9 @@
       <p>
         드래깅은 마우스에 위에 있는 물질을 좌표로 움직이는 행위입니다.<br /><br />
 
-        <code v-highlight class="python"> m.drag(0, 0, 200, 200, duration=3.0) </code>
+        <code v-highlight class="python">
+          m.drag(0, 0, 200, 200, duration=3.0)
+        </code>
 
         위의 커맨드를 지금 실행하면 VSCode 창이 드래깅됩니다.
       </p>

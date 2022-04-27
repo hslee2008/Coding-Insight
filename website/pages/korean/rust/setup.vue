@@ -494,13 +494,14 @@
       위의 코드를 VSCode 터미널에서 실행하면 (<kbd>ctrl + `</kbd>) a라는 이름을
       가진 프로젝트가 만들어지고 그 프로젝트 폴더로 들어갑니다.<br /><br />
 
-      <code v-highlight class="rust ic">cargo init</code>은 cargo를 사용해 프로젝트를
-      만듭니다.<br /><br />
+      <code v-highlight class="rust ic">cargo init</code>은 cargo를 사용해
+      프로젝트를 만듭니다.<br /><br />
 
-      <code v-highlight class="rust ic">&&</code>는 또 다른 커맨드를 실행할 때 사용하는
-      연산자입니다.<br /><br />
+      <code v-highlight class="rust ic">&&</code>는 또 다른 커맨드를 실행할 때
+      사용하는 연산자입니다.<br /><br />
 
-      <code v-highlight class="rust ic">cd a</code>는 프로젝트 폴더로 이동합니다.<br /><br />
+      <code v-highlight class="rust ic">cd a</code>는 프로젝트 폴더로
+      이동합니다.<br /><br />
     </div>
 
     <QuadSpace />
