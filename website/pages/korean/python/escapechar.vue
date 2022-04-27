@@ -45,11 +45,7 @@
           \"도 "" 안에서 문제 없이 사용이 가능합니다.
         </p>
       </div>
-      <iframe
-        :src="`${trinket2}5d4e5680b4`"
-        width="60%"
-        height="356"
-      />
+      <iframe :src="`${trinket2}5d4e5680b4`" width="60%" height="356" />
     </div>
 
     <br />참고할 내용: 컴퓨터에 따라 W와 선이 그어진 모양으로 보일 수 있고 /
@@ -69,11 +65,7 @@
           있습니다.
         </p>
       </div>
-      <iframe
-        :src="`${trinket2}c420acd5f8`"
-        width="60%"
-        height="356"
-      />
+      <iframe :src="`${trinket2}c420acd5f8`" width="60%" height="356" />
     </div>
 
     <QuadSpace />

@@ -42,11 +42,7 @@
           </code>
         </p>
       </div>
-      <iframe
-        :src="`${trinket2}5d4e5680b4`"
-        width="60%"
-        height="356"
-      />
+      <iframe :src="`${trinket2}5d4e5680b4`" width="60%" height="356" />
     </div>
 
     <br />Note that depending on your computer, it might look like a big W or a

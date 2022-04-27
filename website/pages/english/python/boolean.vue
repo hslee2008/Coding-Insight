@@ -42,11 +42,7 @@
       </p>
     </div>
 
-    <iframe
-      :src="`${trinket2}8500bba20b`"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket2}8500bba20b`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -55,11 +51,7 @@
         <h2>not keyword</h2>
         <p>Using not, we can switch from true to false and vice versa.</p>
       </div>
-      <iframe
-        :src="`${trinket2}5fbbc3204c`"
-        width="60%"
-        height="356"
-      />
+      <iframe :src="`${trinket2}5fbbc3204c`" width="60%" height="356" />
     </div>
 
     <QuadSpace />

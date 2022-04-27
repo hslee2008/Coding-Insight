@@ -43,11 +43,7 @@
       </p>
     </div>
 
-    <iframe
-      :src="`${trinket2}1068ac5668`"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket2}1068ac5668`" height="356" loading="lazy" />
 
     <QuadSpace />
 
@@ -62,11 +58,7 @@
           코드를 실행하면 <code v-highlight class="python ic">True</code> 또는
           <code v-highlight class="python ic">False</code>가 출력됩니다.<br /><br />
 
-          <iframe
-            :src="`${trinket2}437398710e`"
-            height="356"
-            loading="lazy"
-          />
+          <iframe :src="`${trinket2}437398710e`" height="356" loading="lazy" />
 
           <br />
 

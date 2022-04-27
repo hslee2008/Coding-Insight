@@ -116,11 +116,7 @@
           </p>
         </div>
 
-        <iframe
-          :src="`${trinket2}5b6a7a8b2b`"
-          height="356"
-          loading="lazy"
-        />
+        <iframe :src="`${trinket2}5b6a7a8b2b`" height="356" loading="lazy" />
       </div>
 
       <QuadSpace />

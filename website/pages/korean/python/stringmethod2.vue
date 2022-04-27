@@ -78,11 +78,7 @@
           문장을 결합했습니다.
         </p>
       </div>
-      <iframe
-        :src="`${trinket2}d278186aad`"
-        height="356"
-        loading="lazy"
-      />
+      <iframe :src="`${trinket2}d278186aad`" height="356" loading="lazy" />
     </div>
 
     <Navigation bef="stringmethod1" aft="password" />

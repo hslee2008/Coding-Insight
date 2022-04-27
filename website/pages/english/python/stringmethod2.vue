@@ -29,11 +29,7 @@
           the letter.
         </p>
       </div>
-      <iframe
-        :src="`${trinket2}54f740c487`"
-        width="60%"
-        height="356"
-      />
+      <iframe :src="`${trinket2}54f740c487`" width="60%" height="356" />
     </div>
 
     <QuadSpace />

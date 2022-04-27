@@ -36,11 +36,7 @@
         가능하다.
       </p>
     </div>
-    <iframe
-      :src="`${trinket2}450cb9ddc1`"
-      height="356"
-      loading="lazy"
-    />
+    <iframe :src="`${trinket2}450cb9ddc1`" height="356" loading="lazy" />
 
     <QuadSpace />
 
