@@ -1,4 +1,4 @@
-![Screenshot Home](/website/static/pwa/screenshot/screenshot-home.png)
+[![Screenshot Home](/website/static/pwa/screenshot/screenshot-home.png)](https://www.coding-insight.com/)
 
 <span>![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=%23097FA4&up_message=online&url=https%3A%2F%2Fwww.coding-insight.com&style=for-the-badge)</span>
 <span>![Contributors](https://img.shields.io/github/contributors/HyunseungLee-Travis/Coding-Insight?style=for-the-badge)</span>
