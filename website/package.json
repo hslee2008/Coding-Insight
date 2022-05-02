@@ -8,7 +8,7 @@
     "clean": "npx prettier --write . && git add --all"
   },
   "dependencies": {
-    "core-js": "^3.22.1",
+    "core-js": "^3.22.3",
     "nuxt": "^2.15.8",
     "nuxt-highlightjs": "^1.0.2",
     "vue": "^2.6.14",
