@@ -1,0 +1,117 @@
+<template>
+  <div>
+    <div>
+      <div>
+        <h2>파일에 쓰기</h2>
+        <p>
+          파일을 쓰는데는 두 가지 모드가 있습니다.<br /><br />
+
+          'w'는 그 파일 안에 있는 모든 내용을 새로운 텍스트로 바꾸고 'a'는
+          새로운 줄에 쓰고자 하는 텍스트를 더합니다.
+        </p>
+      </div>
+      <iframe :src="`${trinket}890655e828`" height="356" />
+    </div>
+
+    <Header type="파이썬" num="51" title="파일 쓰기" />
+
+    <div>
+      <div>
+        <h2>write()</h2>
+        <p>write() 메서드를 사용하면 파일에 새로운 내용을 쓸 수 있습니다.</p>
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <div>
+          <h2>writelines()</h2>
+          <p>
+            writelines()는 문자로 구성된 리스트의 값들을 결합하고 파일에 씁니다.
+          </p>
+        </div>
+      </div>
+      <iframe :src="`${trinket}2fdad67c09`" height="356" />
+    </div>
+
+    <Navigation bef="filereading" aft="etcfile" />
+
+    <v-card>
+      <v-card-title>퀴즈 풀기!</v-card-title>
+
+      <v-card-text>
+        <v-divider />
+
+        <br /><br />
+
+        <h3>
+          파일 example.txt에는 'Hello'라는 내용이 있습니다. 만일 파일
+          example.txt에 ' World'라고 a모드를 사용하여 쓰면 코드 실행 후 파일의
+          내용은?
+        </h3>
+
+        <div>
+          <input
+            id="question-2-answers-A"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> "HelloWorld" </label>
+        </div>
+
+        <div>
+          <input
+            id="question-2-answers-B"
+            type="radio"
+            name="question-2-answers"
+            value="B"
+          />
+          <label for="question-2-answers-B"> "Hello, World!" </label>
+        </div>
+
+        <div>
+          <input
+            id="question-2-answers-C"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"> "World" </label>
+        </div>
+
+        <div>
+          <input
+            id="question-2-answers-D"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> " World" </label>
+        </div>
+
+        <QuadSpace />
+      </v-card-text>
+
+      <v-card-actions>
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>정답 확인
+        </v-btn>
+      </v-card-actions>
+    </v-card>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'FileWritingPage',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-2-answers-B').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+      },
+    },
+  };
+</script>

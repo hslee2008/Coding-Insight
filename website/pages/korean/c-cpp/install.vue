@@ -1,0 +1,84 @@
+<template>
+  <div>
+    <div>
+      <div class="ma-auto">
+        <GlobalImage
+          style="margin: auto"
+          max-width="200px"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPjleIlueqMrDS881Bze3_OAT-MLIE4IDN8YkdRPmRsw3BpspkOdQkplMwig3WeJ23ZQ&usqp=CAU-"
+        />
+      </div>
+      <div class="ma-auto">
+        <h2>컴파일러 설치</h2>
+        컴파일러는 C 언어를 2진수로 전환해서 컴퓨터가 이해할 수 있게 도와주는
+        도구입니다.<br /><br />
+        원래는 컴퓨터가 C 언어를 이해할 수 없습니다.<br /><br />
+        하지만 컴파일러를 설치 받으면 컴퓨터가 번역기(컴파일러)를 사용해서
+        이해할 수 있습니다.
+      </div>
+    </div>
+
+    <Header type="C/C++" title="컴파일러 설치" num="2" />
+
+    <div>
+      <div>
+        <h2>컴파일러란?</h2>
+        <p>
+          컴파일러는 C 언어를 2진수로 전환해서 컴퓨터가 이해할 수 있게 도와주는
+          도구입니다.<br /><br />
+          원래는 컴퓨터가 C 언어를 이해할 수 없습니다.<br /><br />
+          하지만 컴파일러를 설치 받으면 컴퓨터가 번역기(컴파일러)를 사용해서
+          이해할 수 있습니다.
+        </p>
+      </div>
+      <div class="ma-auto">
+        <GlobalImage
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATwAAACgCAMAAACmCCC4AAABVlBMVEX////7/f53d3f1+PykpKTh4+X/AAAAAADz9vnv8fOLjY+RkpTl5+np7O+YmpyEhYa4uLjOzs5xc3X5///l6vLj6PLv9fvu///5+fnCwsLY2Njz+v/z8/P/6Ojs7Ozb29vZ4Oz/jY3m9P2TveOsrKv/8PBERUf8R0nP1dtffJZ3ocl6q9j/enr/u7soKixNTU1mZ2dUVFT/nJz/zc3/ISH4nqH4fID8Wlz8aGr919i4vMDvxMs0Njf9P0GnsLns0tp6jJ10kauxwdGVsMqAo8OkxuYVFRX1kpf9UVLxq7I4PUNCTViWnqdpb3h9g4tMWWVVaXs0UGhDZIGxwtOIpsNdYmiattD/NTWNlJ8oSGbut7//JycnOUvv1906WnpwbmtBbJR2f4ZNfKiYqrpPbowcMURwkK9qkbV7k6m4z+WIr9QfPVgAGzOHs9zK3e8lVoIHPWQOHy9XgpzhAAASK0lEQVR4nO2d/V/ayPbHZ4Ak8pwwIRCCgIgYrUKozxERH7cPaNutrF67tutll2J3y937//9yzwRQUKRB8v1u+0o+tSRMwkzy5pw5MxByEHLkyJEjR44c/T8oXnRZII0fq9HcJysaLf4fITGvpN+KWoKhsXb3T1nRaDhuRS2AIJVKPu2VXh9xTy5mTHhBZfI2SXgKP+2c7ynBJwThSfi8PoQnFgqMC2/yNjGyCF5cCGthWUg/wY4BngUaH54FjVoELyXzvOtVTRaYsV9KLW/yA/iR4aU9QinMa69rupAa86UOPMET8J+UPLn8SU1OjNf12R5eMscn62rmtMSHXlUr43V9tofH5OT0SSaTUSMR3vWmqgsB8/hsDy/hSeRq0Uw0GtXrYb7+tiGb7/rsDi8uhBgXRReNilKl7vHUf2+Y7vrsDi/lkZmS2FO0onn8b/b2TXZ9doeX9ieEU1EMduAFJSak5XzvznRToz6bw4vLOcZXEUVvT5JbdIXlyM8Huhz4ZvU2h5fiPSktI4rSnaamBC3Hv1nYl7854bU5PMbDJ+rgrt6pPrm9IU3IvWu+/1bXZ3N4go8OVMBtpwbouZmILx3++Wx/9LDF3vDi4LWf9A68vk+7gJ+kl8AmF34ZOWyxN7xAiE8WM1148d6HXXFgF5Sip1qarzffj8Bnb3iJkCCcRLvwbj8pdFN4YjSq1v1MqH6QkB97ua3hxQVf2l/pg0cL7+BlMrViki/pwmOvtzU8GKgESpnM4/DapWT4Hf9o0Pjn4c1NU6Gt89uS6fPntPx85xxGCjtbKE53mENoY36glsnhpX1yYiS8fVeg9Fb+jvu8JZYKbbGwPmNoi10Hgqsby/Pnc4jdgk2gJYRW2YFaJocHAxX+YhS8i5zwupp49PX/PLytlZUtdotMswSjpfWlpfVNgEfQCksIYacBHuxLyIwBj/TXMjG8ZM4TiFRGwaun/f+qPD7LHQZPDvfWQh5jwdAvqSMuukmja577r5gE3gy7ym7ObMyzMYy2NlamN2NX7AyFF4sp7BVhtwme83rXl9zYaniMx5MqDsAbjLaZfS1Z/Plxrx0KL5fvrbl6GOFN0Y87m8Ag8P2XmIdnHMkAPBJ7yW5frs0APHzJru2yAO/F2tbchxdr5ztBCs9w2/UX8BDrb9g0vOFnn0wILi2QKJ0CvOBweLVQ4teFR2PtUHjpQql7GQGff6XTpSDruuwvIAqPSDAEfzo8Vzh1D940y15mszGA5gZzW9ui8M43lklwY3MzFiObVwCPeL2iV1l9Ijym+PBqkHha4CP1ejmX8pR0adDy4l140RMh9LGRfrzih/DSx1GpmKOFclkUKzKsATtd9xXA4Dx5BeYuD6bL5uHluEIOhQb6vI3dbFZSgpdZjOZ2OvBmYgQr29D9bW4uUXgxRQG+9+G5zTZa5rR7vX5AEHx++fTkpFhKpDWfKN2bnnXglRKfftNHzG4fwJM9KFRGqg8hj07cbqLnwGeJp4x0DuAJ4dPT0+vc/VoCRZ85+TWO4wolb1+bODZvxFs2RtbZrtazbky2floDGW77kuo+PF/YbKMFaFTrc96UINeuKRT95OSkHE7livrAlRxdePuuxK9NYYR5D+3zBq8/otuhr5NEuoYfdngUnkswqRDH5T3h4CC8tbnpOQgQeG766mr6KrDNroML4+Ud0DyFNw/a2SD3LU822WaizB1rd3OseELQK8JFiIkLp9dgfPV8jnG5GNz/uYoB75TP/d14fKDyEF4SAmueg4gqMJHOlVyRgBxxFWmRhjw06MJf+F4t5t02VObjg30eJvMvYzHwVQgY4JygK4AHO6ydb19uX16KmMSyMQhTD+CZdttCpA8BA2YHPXm8chq6rnjjTO365LWWFko5t/vuE1FvUBQzJUb7TQ+MqPc+PLAsBQT2RW2sJyiR4H/v6QPrMw/P6EEGp2ek57YYGwdO4dExyVrXh0mnWCJPjrZ9fTR4bKVWraW9KU+1dp1LJdOham1h4VUYAofcRw8sT9WE1/8e+WnyA3i9CtwQsY1Ppd137wjtDjrLJ8MzNAgPX+1egXazdJRgjBR2rxQon9s1dEWLjGvKrnaVJ8G7UxLQVYIoqVZrVViq1YtatarCsvq2yCfCYVUK9gSxMpR710qMauNBn3d3CdfI67sGNRk8cFawt6yEbwsk+u50fHiwuL+WseHB8ETfb9VSKC5XFxZgifSFhQU6GINl9bUmyJpfvFOEd30cMb1A38P0DKiAfcO/W3PGHcvuOEGfleNBgx8TXpwR9IaKcONCv2g1RLV1oddq+0G1VpMvGmqmsbfwOpzgtUq0q4yWePX7iOkF+j7goQfmjEcV9zQevKQgVPaqYG3C3t5eCwrUvdaeaiz3WrDE+3vNt8VcIlTX6aw2E624+D9GTS/QdwLvaRoPHpNbaDab1Upt70wUz2qMUN2f2q9WAkJ1b78FHSBTa+03m29KfNpVVym9U971rjZieoHsBE/W3jap9iH2Tp0BMigMtmAJvXumVW3Bcmq/ufcahqzatZrJlPjSz6OmF8hW8GTXm8Nm8/MFn2Yqe+8PqrqxPKsFUFLvLJna58+fF/L+gJy/2Ndyr05k53tbQ4zMy6FicxHwtFpn8MrMwd7eYRSh961K9ayzbB20pzIHh9D1JT0FV/iPi1HTC2QjeCkZxAM9qj0Y5CHcPmwxOK5/PlxsBGB5eNg0AsjnxSb4rstTesWPml4gG8GjfisLcmnBoLfYosM7981epQbWJp7BsnlDnzJy8/BmcXEhH+bLvm9drGIfeHR6IQtCuH7YwVejPjl1s1iBoBA/W1ykVuc93Pv8Hmzyl8XFtwWPPHJ6gWwFD8UFgAfj4K7xHVa8UCgeNGS1cta+aVRUupxt6UzlbPFLO/Qm9K1r9OwED+GELCQSaV/98FnHd43Pqd5/bh7Qjb80D3+B5c3i3uKztnr96xveucRsQGmgl2aET9Uvz6gWG0xcP7tpn1W8qcbhly+HejKpLz67ybQ+vnt3Onp6gWwHDwUMekyofmbQe3bWOMwglP3SOPty43a3vzQai7PRxrs/P77NCd+ItfaDR8NGgmFSadfJ2VcD36EeCOqHz44WwdDSh8++tt9//OvP32tmrum2HTyEwXXTTCAgf4ocfO1a35cjCYHv6odfb9r//vPP31rmfk1gP3g942MY/lP9oOO8BzTu7j9bPMqc/f3Xf5pmf8JnR3h0wAw9X5pGjk+tL9T8Wg29BegO/v7rX58r3+7surInPGPIlwClZY92Ypjf4mx7/2fo7Bqy+d/u2RSe8U2Q8bVkIpFzaW+bX9vqwl9/fGzp4/xq1Lbw6FUDt1/88uFS9Y//vquO+XtlG8MzrK8jQXj17r9vTQ1P+mVreBB40118hdfhMTq7rrz/yH1VvFY06rPk97bxlEDtL8KP/qJsqKYKVtxcRxsPXkizotHjB1e6PVFJ2vsFRn/XM1TYCq81Ln4cZ2fy7Z1MVGMVvAmOwBqNdR4WNTrWOzbkKERRxNIRXUrZmyMokUSMYKI2RhXWaLzD/icafXgUNzezN9KssZSOZhGKfr2ZRUfZyWq1j46iAA8s7tnXI7DArwjNtr+OY3l2ljhL/4BhOwqWR+HdOPBMKvrVbcDLzLZnwfLQUQY9c9zWnNpH2DC+9g1CWdrnodnZqANvDBluC0Z4NNstmHXgmZa7bSykdrtb0Hb6PEeOHDly5MiRI0eOHDly5MiRI0eOHDly5MiRI0eOHDlyZAfFI1Zc4Rr55q8rByRb0+h4Zxq2pM2BWwfaJ1HmmKzN1PIPJcq0oM1xE2VGrDhRcg+eFRe5/giJMiNWnCitZQCeBfoRfsRildsOwrPJL4AceP1y4E2g8fs8Cxp14E0g28KzQraF51jenRx4E8hx2wnkWN4EcixvAjmWN4EceBPIcdsJ5FjeBLICnvZJy8Gj+Ttb2BbeEHHhEJdGfjPZz3u12BTekN05EXEqYrwoHU+n4yhAH5h4OklvA8wMu0vN9wwvvnT3rc7SGn1cX1qCx+crt8VrS90VC+BhLnJdAn4COtY4rohKHKehcomTOXDm44fZ0r5TeM876TLnWIC3skw1zb6A8o3VmZ0Pc+h8GTaBdhB60UuXaYHbArzTDrxCCYkcUvUQh/J5mudp6i7v4GAtI+HFUwiPunVhPHX32NMT4cVXduZ3OjY1vbKydf4cxSm8jZ2d853VFXaDpuObI3F2Ge0sI7Q1Pf18HrY+Gd4wyzPclsLTFYZTj5kKh8oVxR3keE4dVv1DeEmaiqt3P2qBQ2mus5qi3w75ABPfl5mZpzkfUYLrr/KJ8J6zM8szy91Vlv2wNjPDJjFOPl8hz4nCbhCAF5Niq8tk5yXBJBZbnidkg+16tiWWd+0ri4ST0bGOGU7nQhEDHsY+riSZgxfg4IHrAurAM3ZJcAGUou4f6Ut0xtOcj7d8OzIPzzjxLrwVdi2mKJ07KWGapPByc5P1YnzFrousJLHzK9PJ1Y3tdXaLnL8khtu+mIGHceHFH552V1jT6kRSIipyqThYV0J1VUNhHXZUOV0xAw/OnSOIskc4Hu/AwxjBKq6HkZ87RsxxANNNcBhxgEdgm9Dl2zkw8/B8tBfuwnvBSllJMt5g7F5il7LZmNiF52WlKcA0Q8TVVXY3Ftug8Fa2tnevtubHhse4mPun3RUmigJHQLNdKdit0DXFTYBaXObI0Jx0w+CFPDlA7c5zHCNwJA2vLHIwAIqcSsVaXk1wZIpuQlqJ4+UC8dLkiYTWUuJc48HzcHmhlyhzgxWl3u20tj6sxUDZNWCJX8wobCzGbsSIOxtYe7m2tvbyCuC5Y9msErtzW/MZ9zjoe4a6rdtIb0UPwt3NrmY8S3GcONRrh8IrleqcTophuRBSKTxUL4gMF5yqMxwpefgKLhYklcORY1UBtz0uSboBL3IsGl+aBzSdN6cwzVkZMeBhsLzekWAi/bRK9cFLlsHkVlmwuI0YGMTuxiaIpZa3vbu7u30Hz5cz2aZc5rjjkGvosAIb711nC+4+hbcvKErDb8w2DJ6igNuS8qmuZwzLQ/kKkWgoqnOkXuR0iEZE5BTNr1B4nEpU6umoVCNGZYGSx6RcFJ5mwCOX7FrvRnrYHVvaXFlZWWa9ZHr50hDAw4hcrYNm2G6fx7J98EIm28xReB4Tc9vI7UwDzO+RXYbAy0oELM/H6XkC8MBNQ1zOA3GoxFUUiSuodJPnlaL5FNrnaRCXOKTnwAlzZVrLGG577E91+zw8tXMXbTFZ+gncVqJ9XifVnkSjLcIQVX4CXRE3bKbpMp/gtuUS/8j0TPMhF4yLkeAKh2F00r1Sjj/2IM/QYd4QeKmC5EYlXVJ8BRmrecIUFMVfzkNfLkPc9pZPFbfiK5ckJVxTkFxXpEhBLyOtgJVawUi9bB5ego4PuwFDES/Pdza7KMgSC6O7c4DnpqkLIZKwLzrwaILW+Q+km3GSvBg7YCQT8fun3ZUvguIwnehcr5PXe0O7MueBbdqwuoZd6EOzKELMUejIgUjwB6vwgOka/Jcw3QRHTgcW8JQmHZVoD0tTj6KnjvOwlKXG1jkasm1kAH4p9Tpu98tLCm+6UwzjPLeRvJBcvuwe/uTjvEBBpWnL/RrCjAuXK5xqFGNU8kBJedhnLUNmGLSf7GT4vM1sbQQempced27OaTw31nobuwHq6fDAcaXuUKWTLpMmn+7Li0nfl64PZ5Vu4k5a8FR4D3YXOEzCLuLTMB30R6CHN/IvY1IKwc6Fcee2fbeSvH9XyYHnuPfQKX3q3Bbj27uN9nLD3k+X+UgxsgYeIeFrFKoTGNqqdRoIO7G3A0//Vi3fywcDdzcS7SsYUYyscFuAh13lYNGARydZandWAW6Lfih4Y2tyy0sfi1gpcwVR0iL1SMTFqR2rhuHUJ+QtD7tK3YF3VxaGkK8zNBJCEES9aCvrugpjFTKkftvCeyBMXnlIJwOxMQryZYyhI6aTXL4wdI5hW3gPdocgxRgDhp6UDjw6mAgETX2qYl94ndDdH4vw3drwu47bFt4QPX6Xbzx8k23hWdGobeFZIdvCcyzvTg68CeS47QRyLG8COfAmkOO2E8ixvAnkWN4EcixvAjnwJpDjthPoO7C8HzdR5ndgeXmzV5mMkn9MeH4rGs2PlyPRkhMdvOIFM5bIO9Z5eK1pdCx4Fp3oQIfzAyfKVMZLbWpJm7cn+j842JLwUMovpgAAAABJRU5ErkJggg=="
+          max-width="300px"
+        />
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>C 컴파일러 설치 방법</h2>
+        <p>
+          1. 먼저,
+          <a href="https://jmeubank.github.io/tdm-gcc/"
+            >C 언어 tdm 컴파일러 사이트</a
+          >에 들어갑니다.<br /><br />
+          <GlobalImage
+            src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/tdm-gcc.jpg"
+            width="700px"
+          /><br /><br />
+          2. 다음, 가장 위에 있는 링크(Read More...)를 클릭합니다. 3. 첫 번째
+          버튼(가장 위에)를 클릭합니다.<br /><br />
+          <GlobalImage
+            src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/button.jpg"
+            width="700px"
+          /><br /><br />
+          4. 설치가 끝날 때까지 기다리고 브라우저 밑에 새로 생긴 버튼을
+          클릭합니다.<br /><br />
+          <GlobalImage
+            src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/click.jpg"
+            width="700px"
+          /><br /><br />
+          5. 다음, create 버튼을 클릭합니다.<br /><br />
+          <GlobalImage
+            src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/create.jpg"
+          /><br /><br />
+          6. 다음, 두 번째 옵션(MinGW-w64)을 선택하고 Next 버튼을 클릭합니다.<br /><br />
+          <GlobalImage
+            src="https://image-loader-coding-insight.web.app/c-cpp-kr/img/system.jpg"
+          /><br /><br />
+          7. 글을 칠 수 있는 박스 안에 'C:\'라고 타이핑을 합니다.<br /><br />
+          8. Install 버튼을 누르고 기다립니다.
+        </p>
+      </div>
+    </div>
+
+    <Navigation bef="/korean/c-cpp/" aft="vscode" />
+  </div>
+</template>

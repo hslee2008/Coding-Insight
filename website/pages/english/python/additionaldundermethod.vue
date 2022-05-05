@@ -1,0 +1,65 @@
+<template>
+  <div>
+    <Header type="Python" num="81" title="Additional Dunder Method" />
+
+    <div>
+      <div>
+        <h2>__call__() and __mul__()</h2>
+        <p>
+          Class cannot be ran like a function.<br /><br />
+
+          However, using the __call__() dunder method, we can specify the code
+          we want to run.<br /><br />
+
+          The __mul__() dunder method can make us do multiplcation operation on
+          that class.
+        </p>
+      </div>
+    </div>
+    <iframe :src="`${trinket}f57619f30e`" height="356" loading="lazy" />
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>__len__()</h2>
+        <p>
+          When the len() function runs on a class, we can specify the code to
+          run or value to return.
+        </p>
+      </div>
+    </div>
+    <iframe :src="`${trinket}686326e052`" height="356" loading="lazy" />
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>_ & __ difference</h2>
+        <p>
+          Let's try making a simple class.<br /><br />
+
+          There will be three self variable inside the class, but the second and
+          third one will have _ and __ before attached.<br /><br />
+
+          <code v-highlight class="python">
+            clas Person:<br />
+            &nbsp;def __init__(self):<br />
+            &nbsp;&nbsp;self.test1 = 1<br />
+            &nbsp;&nbsp;self._test2 = 2<br />
+            &nbsp;&nbsp;self.__test3 = 3
+          </code>
+
+          If we have __ before the variable, using the dir() function on that
+          class will not show it. Instead, another variable named _Person__test3
+          will show(fake variable!). Instead of using __test3, we can use
+          _Person__test3. Having '_' before variable will simply hide it without
+          changing it's name.
+        </p>
+      </div>
+    </div>
+    <iframe :src="`${trinket}3b038ad255`" height="356" loading="lazy" />
+
+    <Navigation bef="dundermethod" aft="etcdundermethod" />
+  </div>
+</template>

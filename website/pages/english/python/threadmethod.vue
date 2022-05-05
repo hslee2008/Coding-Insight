@@ -1,0 +1,49 @@
+<template>
+  <div>
+    <Header num="75" title="스레드 메서드" />
+
+    <div>
+      <div>
+        <h2>daemon</h2>
+        <p>
+          Daemon is a thread that runs in the background.<br /><br />
+
+          Daemon threads will run till the end even though the main
+          thread(Python file) stops.<br /><br />
+
+          Furthermore, it runs the last.<br /><br />
+
+          Simply put in 'True' at daemon parameter in threading.Thread()
+          method.<br /><br />
+
+          <code v-highlight class="python">
+            mainThread = threading.Thread(target = mainFunc, daemon = True)
+          </code>
+
+          To find whether a specific thread is daemon or not, use the 'daemon'
+          property.<br /><br />
+
+          <code v-highlight class="python">
+            mainThread = threading.Thread(target = mainFunc, daemon = True)<br />
+            print(mainThread.daemon) # True is printed
+          </code>
+
+          Finally, we can make a thread that is not a daemon into a daemon if it
+          is not running.<br /><br />
+
+          <code v-highlight class="python"> mainThread.setDaemon(True) </code>
+        </p>
+      </div>
+    </div>
+
+    <iframe :src="`${trinket}fee2312fc6`" height="356" loading="lazy" />
+
+    <Navigation bef="complexthread" aft="multiprocessing" />
+  </div>
+</template>
+
+<script>
+  export default {
+    page: 'ThreadMethodPage',
+  };
+</script>

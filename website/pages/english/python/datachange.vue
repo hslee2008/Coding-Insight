@@ -1,0 +1,159 @@
+<template>
+  <div>
+    <Header type="Python" num="54" title="Data Type Change" />
+
+    <div>
+      <div>
+        <h2>To List</h2>
+        <p>
+          To change any kind of data into a list, use the list() function and
+          split() method.<br /><br />
+
+          While list() function can be used for any type of data, we can only
+          use split() for strings.<br /><br />
+
+          <code v-highlight class="python">
+            a = "abcdefghijklmnop"<br />
+            print(list(a))
+          </code>
+
+          The split() method will split the string into multiple pieces
+          according to the given character.<br /><br />
+
+          <code v-highlight class="python">
+            a = "HelloAWorld."<br />
+            print(a.split("A"))
+          </code>
+        </p>
+      </div>
+    </div>
+    <iframe :src="`${trinket}b8df2e09d4`" height="356" loading="lazy" />
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>To Tuple</h2>
+        <p>
+          Using tuple(), we can change anything to a tuple.<br /><br />
+
+          If you want to convert a string into tuple, make sure to use split()
+          method first then to turn that into a tuple.<br /><br />
+
+          <code v-highlight class="python">
+            a = "Hello! World! My! name! is! Hyunseung"<br />
+            print(tuple(a.split("!")))
+          </code>
+        </p>
+      </div>
+      <iframe :src="`${trinket}facd314b6c`" height="356" />
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>To Number</h2>
+        <p>
+          To convert to each type of number(int, float, complex), use int(),
+          float() and complex() method.<br /><br />
+
+          <code v-highlight class="python">
+            a = "32"<br /><br />
+
+            print(int(a))
+          </code>
+
+          Know that if you have a string that contains digits other than
+          numbers(e.g. alphabets), running int(), float() or complex() will
+          return NaN.<br /><br />
+
+          <code v-highlight class="python">NaN</code>
+
+          NaN is short for Not a Number.
+        </p>
+      </div>
+      <iframe :src="`${trinket}cf87c918cc`" height="356" />
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>To Boolean</h2>
+        <p>
+          The only data type boolean can convert is integer.<br /><br />
+
+          bool() function will turn the number into either True or False.<br /><br />
+
+          <code v-highlight class="python">
+            a = 0<br /><br />
+
+            print(bool(a))
+          </code>
+
+          0 is False and the rest of the number is True.
+        </p>
+      </div>
+      <iframe :src="`${trinket}314b0e422c`" height="356" />
+    </div>
+
+    <QuadSpace />
+
+    <v-data-table
+      :headers="headers"
+      :items="items"
+      :items-per-page="10"
+      class="elevation-1"
+    />
+
+    <Navigation bef="contact2" aft="stringascode" />
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'DataChangePage',
+    data() {
+      return {
+        headers: [
+          {
+            text: 'Data Change',
+            align: 'start',
+            sortable: false,
+            value: 'name',
+          },
+          { text: 'How', value: 'how' },
+          { text: '(EX)', value: 'example' },
+        ],
+        items: [
+          {
+            name: 'List',
+            how: 'list(), slpit()',
+            example: 'list(a), a.split(" ")',
+          },
+          {
+            name: 'Tuple',
+            how: 'tuple()',
+            example: 'tuple(a)',
+          },
+          {
+            name: 'Number',
+            how: 'int(), float(), complex()',
+            example: 'int(a)',
+          },
+          {
+            name: 'Boolean',
+            how: 'bool()',
+            example: 'bool(a)',
+          },
+          {
+            name: 'String',
+            how: 'str()',
+            example: 'str(a)',
+          },
+        ],
+      };
+    },
+  };
+</script>

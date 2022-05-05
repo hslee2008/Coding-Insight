@@ -1,0 +1,70 @@
+<template>
+  <div>
+    <div>
+      <div>
+        <h2>Why should we put codes in one line?</h2>
+        <p>
+          Some computers are very slow.<br /><br />
+
+          It might be necessary to care about performance of your program/app.
+        </p>
+      </div>
+    </div>
+
+    <Header type="Python" num="38" title="Code in oneline" />
+
+    <div>
+      <div>
+        <h2>; Semicolon</h2>
+        <p>
+          In other programming languages such as JavaScript, there is
+          ';'(semicolon) to seperate code.<br /><br />
+
+          It exists in Python, but it is uncommon.<br /><br />
+
+          For example, let's look at the code below.<br /><br />
+
+          <code v-highlight class="python">
+            print("Hello", end=" ")<br />
+            print("World")
+          </code>
+
+          The code above is equal to the code below.<br /><br />
+
+          <code v-highlight class="python">
+            print("Hello", end=" "); print("World")
+          </code>
+        </p>
+      </div>
+      <iframe :src="`${trinket}724bf9a522`" height="356" />
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <div>
+          <h2>More explanation</h2>
+          <p>
+            In Python, semicolons are purely optional.<br /><br />
+
+            You can use it and not use it.<br /><br />
+
+            It does not make a single difference.<br /><br />
+
+            Note: you can also put semicolons after each code.
+          </p>
+        </div>
+        <iframe :src="`${trinket}ca6f756679`" height="356" loading="lazy" />
+      </div>
+    </div>
+
+    <Navigation bef="while" aft="etcfunction" />
+  </div>
+</template>
+
+<script>
+  export default {
+    page: 'OnelinerPage',
+  };
+</script>

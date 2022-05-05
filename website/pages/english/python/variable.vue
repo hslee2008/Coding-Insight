@@ -1,0 +1,371 @@
+<template>
+  <div>
+    <div>
+      <div>
+        <h2>What is variable?</h2>
+        <p>
+          A variable in programming language is a place where you can store
+          information.<br /><br />
+
+          For example, think of a box. It can contain anything that fits into
+          it.<br /><br />
+
+          A variable is very similar to a box.
+        </p>
+      </div>
+    </div>
+
+    <Header type="Python" num="5" title="Variable" />
+
+    <div>
+      <div>
+        <h2>Declare variable</h2>
+        <p>
+          To declare a variable in Python, we can use the following syntax.<br /><br />
+
+          <code v-highlight class="python"> NAME = DATA </code>
+
+          In the syntax above, NAME is the name of the variable and DATA is the
+          value of the variable.
+        </p>
+      </div>
+      <iframe :src="`${trinket2}a5d980683b`" height="356" />
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>Using variable</h2>
+        <p>
+          You can use the value of the variable by using the name of it without
+          "".<br /><br />
+
+          <code v-highlight class="python">
+            name = "John"<br /><br />
+            print(name)
+          </code>
+
+          In Python, the lower and uppercase of the variable name matters. NAME
+          and name is different.
+        </p>
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>Variable name rules</h2>
+        <p>
+          There are three rules in variable names.<br /><br />
+
+          1. Only alphabets, numbers and _ is allowed<br />
+          2. The first letter of variable name should not be a number<br />
+          3. You cannot use certain names like (yield, return) - this group is
+          called keywords
+        </p>
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>Change variable value</h2>
+        <p>To change the variable's value, simply type in a new value.</p>
+      </div>
+      <iframe :src="`${trinket}ddd8867b8c`" height="356" />
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div class="ma-auto">
+        <GlobalImage
+          src="https://wallpaperaccess.com/full/3279871.jpg"
+          max-width="300px"
+        />
+      </div>
+      <div>
+        <h2>Delete variable</h2>
+        <p>
+          We can delete variables to preserve more space.<br /><br />
+
+          Simply use del keyword to delete name.<br /><br />
+
+          <code v-highlight class="python">
+            name = "Coding-Insight"<br />
+            del name<br />
+            print(name)
+          </code>
+
+          If we run the code above, we get an error.<br /><br />
+
+          We are trying to print a variable that does not exist.
+        </p>
+      </div>
+    </div>
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>Declare multiple variables at once</h2>
+        <p>
+          To declare mutiple variable and assign multiple values, use commas to
+          seperate names and values left and right side of '='.<br /><br />
+
+          <code v-highlight class="python">
+            a, b, c = 1, 2, 3<br />
+            print(a)
+          </code>
+
+          To assign single value to multiple variable, line them up and put
+          value at the end.<br /><br />
+
+          <code v-highlight class="python">
+            a = b = c = d = e = "alphabet"<br /><br />
+
+            print(a)<br />
+            print(b)<br />
+            print(c)
+          </code>
+        </p>
+      </div>
+    </div>
+
+    <Navigation bef="io" aft="madlib" />
+
+    <v-card>
+      <v-card-title>Solve This Quiz!</v-card-title>
+
+      <v-card-text>
+        <v-divider />
+
+        <br /><br />
+
+        <h3>What is variable?</h3>
+        <div>
+          <input
+            id="question-1-answers-A"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-A"
+            >A) A) A place where you can store data
+          </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-B"
+            type="radio"
+            name="question-1-answers"
+            value="B"
+          />
+          <label for="question-1-answers-B"
+            >Input and Output combined is called a variable
+          </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-C"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-C"> Changing number </label>
+        </div>
+        <div>
+          <input
+            id="question-1-answers-D"
+            type="radio"
+            name="question-1-answers"
+          />
+          <label for="question-1-answers-D"> Other </label>
+        </div>
+        <br /><br />
+        <h3>How do we declare variable in Python?</h3>
+        <div>
+          <input
+            id="question-2-answers-A"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-A"> value = variable name </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-B"
+            type="radio"
+            name="question-2-answers"
+            value="B"
+          />
+          <label for="question-2-answers-B"> value == variable name </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-C"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-C"> variable name == value </label>
+        </div>
+        <div>
+          <input
+            id="question-2-answers-D"
+            type="radio"
+            name="question-2-answers"
+          />
+          <label for="question-2-answers-D"> variable name = value </label>
+        </div>
+        <br /><br />
+        <h3>Which one goes against the rule of variable names in Python?</h3>
+        <div>
+          <input
+            id="question-3-answers-A"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-A"> hello </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-B"
+            type="radio"
+            name="question-3-answers"
+            value="B"
+          />
+          <label for="question-3-answers-B"> hello! </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-C"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-C"> hello_world </label>
+        </div>
+        <div>
+          <input
+            id="question-3-answers-D"
+            type="radio"
+            name="question-3-answers"
+          />
+          <label for="question-3-answers-D"> hello123 </label>
+        </div>
+        <br /><br />
+        <h3>How do we change variable's value in Python?</h3>
+        <div>
+          <input
+            id="question-4-answers-A"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-A"> variable name = value </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-B"
+            type="radio"
+            name="question-4-answers"
+            value="B"
+          />
+          <label for="question-4-answers-B"> variable name == value </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-C"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-C"> value = variable name </label>
+        </div>
+        <div>
+          <input
+            id="question-4-answers-D"
+            type="radio"
+            name="question-4-answers"
+          />
+          <label for="question-4-answers-D"> value == variable name </label>
+        </div>
+        <br /><br />
+        <h3>How do we delete variables?</h3>
+        <div>
+          <input
+            id="question-5-answers-A"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-A"> del </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-B"
+            type="radio"
+            name="question-5-answers"
+            value="B"
+          />
+          <label for="question-5-answers-B"> del() </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-C"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-C"> delete </label>
+        </div>
+        <div>
+          <input
+            id="question-5-answers-D"
+            type="radio"
+            name="question-5-answers"
+          />
+          <label for="question-5-answers-D"> delete() </label>
+        </div>
+        <QuadSpace
+      /></v-card-text>
+
+      <v-card-actions>
+        <v-btn text :aria-label="albutt" @click="checkAnswer">
+          <v-icon left>mdi-check-decagram</v-icon>Check Answer
+        </v-btn>
+      </v-card-actions>
+    </v-card>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'VariablePage',
+    methods: {
+      checkAnswer() {
+        if (document.getElementById('question-1-answers-A').checked) {
+          alert('1 ✔️!');
+        } else {
+          alert('1 ❌');
+        }
+        if (document.getElementById('question-2-answers-D').checked) {
+          alert('2 ✔️');
+        } else {
+          alert('2 ❌');
+        }
+        if (document.getElementById('question-3-answers-B').checked) {
+          alert('3 ✔️!');
+        } else {
+          alert('3 ❌');
+        }
+        if (document.getElementById('question-4-answers-A').checked) {
+          alert('4 ✔️');
+        } else {
+          alert('4 ❌');
+        }
+        if (document.getElementById('question-5-answers-A').checked) {
+          alert('5 ✔️ :o');
+        } else {
+          alert('5 ❌');
+        }
+      },
+    },
+  };
+</script>

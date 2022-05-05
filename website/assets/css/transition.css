@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 250ms ease-in-out;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}

@@ -1,0 +1,108 @@
+<template>
+  <div>
+    <div>
+      <div class="ma-auto">
+        <h2>What is dunder?</h2>
+        <p>
+          In Context Manager, we learned about __exit__() and __enter__()
+          method.<br /><br />
+
+          These are called dunder method.<br /><br />
+
+          Methods that starts with __ and __ is called dunder method (a.k.a.
+          magic method)
+        </p>
+      </div>
+      <div class="ma-auto">
+        <GlobalImage
+          src="https://media.istockphoto.com/vectors/magic-wand-line-icon-vector-id1164851035?k=6&m=1164851035&s=612x612&w=0&h=ihapeRsHBDDFTTa7CxId_I5ExnbGrJug8aQEVOOviW4="
+          width="300px"
+        />
+      </div>
+    </div>
+
+    <Header type="Python" num="80" title="Dunder Method" />
+
+    <div>
+      <div>
+        <h2>__str__() and __repr__()</h2>
+        <p>
+          Let's first make a class that does nothing and has nothing.<br /><br />
+
+          <code v-highlight class="python">
+            class Person:<br />
+            &nbsp;pass<br /><br />
+
+            a = Person()
+          </code>
+
+          Now, let's try printing 'a' or Person().<br /><br />
+
+          <code v-highlight class="python"> print(a) </code>
+
+          We just get a weird string that we cannot understand.<br /><br />
+
+          However, when we print this way, we can specify what to return instead
+          of the weird string we saw earlier.<br /><br />
+
+          <code v-highlight class="python">
+            class Person:<br />
+            &nbsp;def __init__(self, name):<br />
+            &nbsp;&nbsp;self.name = name<br /><br />
+
+            &nbsp;def __str__(self):<br />
+            &nbsp;&nbsp;return "A person named " + self.name
+          </code>
+
+          Now, if we make a Person() class and print that, we get 'A person
+          named yourname'.<br /><br />
+
+          Furthermore, using repr() on that class will return a specific object
+          inside the __repr__() dunder method.<br /><br />
+
+          <code v-highlight class="python">
+            class Person:<br />
+            &nbsp;def __init__(self, name):<br />
+            &nbsp;&nbsp;self.name = name<br /><br />
+
+            &nbsp;def __str__(self):<br />
+            &nbsp;&nbsp;return "__str__"<br /><br />
+
+            &nbsp;def __repr__(self):<br />
+            &nbsp;&nbsp;return "__repr__"
+          </code>
+        </p>
+      </div>
+    </div>
+    <iframe :src="`${trinket}f4dfd29f8c`" height="356" loading="lazy" />
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>__del__()</h2>
+        <p>
+          We can even delete the class by using 'del' keyword and when we do
+          that, we can run a specific code.
+        </p>
+      </div>
+    </div>
+    <iframe :src="`${trinket}3c64d6b06e`" height="356" loading="lazy" />
+
+    <QuadSpace />
+
+    <div>
+      <div>
+        <h2>__new__()</h2>
+        <p>
+          When a class is amde, we can run a specific code inside __new__().<br /><br />
+
+          "I am created by you!" is printed.
+        </p>
+      </div>
+    </div>
+    <iframe :src="`${trinket}5505e2e889`" height="356" loading="lazy" />
+
+    <Navigation bef="requestmethod" aft="additionaldundermethod" />
+  </div>
+</template>
