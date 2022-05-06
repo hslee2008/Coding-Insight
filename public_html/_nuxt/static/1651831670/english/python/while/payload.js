@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/english/python/while", {data:[{}],fetch:{},mutations:void 0});

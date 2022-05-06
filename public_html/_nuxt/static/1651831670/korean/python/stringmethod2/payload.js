@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/python/stringmethod2", {data:[{}],fetch:{},mutations:void 0});

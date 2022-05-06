@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/c-cpp/macro", {data:[{}],fetch:{},mutations:void 0});

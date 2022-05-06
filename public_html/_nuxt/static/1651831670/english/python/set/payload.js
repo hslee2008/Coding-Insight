@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/english/python/set", {data:[{}],fetch:{},mutations:void 0});

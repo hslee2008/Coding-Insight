@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/python/complexthread", {data:[{}],fetch:{},mutations:void 0});

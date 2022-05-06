@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/rust/str-method-specific", {data:[{}],fetch:{},mutations:void 0});

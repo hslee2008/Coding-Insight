@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/c-cpp/random", {data:[{}],fetch:{},mutations:void 0});

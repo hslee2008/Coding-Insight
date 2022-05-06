@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/english/python/newline", {data:[{}],fetch:{},mutations:void 0});

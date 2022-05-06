@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/c-cpp/stopprogram", {data:[{}],fetch:{},mutations:void 0});

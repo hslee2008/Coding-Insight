@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/python/dictionary", {data:[{}],fetch:{},mutations:void 0});

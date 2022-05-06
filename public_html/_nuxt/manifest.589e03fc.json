@@ -1,0 +1,169 @@
+{
+  "name": "Coding-Insight",
+  "short_name": "Coding-Insight",
+  "description": "Learn programming through learning, practicing, and building. Our site includes full courses of python, c, c++, and rust for free in both Korean and English language.",
+  "icons": [
+    {
+      "src": "/pwa/256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "514x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/_nuxt/icons/icon_64x64.4c06bf.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_120x120.4c06bf.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_144x144.4c06bf.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_152x152.4c06bf.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_192x192.4c06bf.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_384x384.4c06bf.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_512x512.4c06bf.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#23272F",
+  "theme_color": "#23272F",
+  "lang": "en",
+  "dir": "ltr",
+  "version": "2022.02",
+  "id": "/index.html",
+  "author": [
+    "Hyunseung",
+    "Juha",
+    "Gun"
+  ],
+  "categories": [
+    "python",
+    "c",
+    "c++",
+    "rust",
+    "programming",
+    "coding-insight",
+    "python-factory"
+  ],
+  "scope": "/",
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://www.coding-insight.com",
+      "id": "com.Coding-Insight.app"
+    }
+  ],
+  "orientation": "portrait",
+  "screenshots": [
+    {
+      "src": "/pwa/screenshot/screenshot-home.png",
+      "sizes": "1920x897",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Desktop Homescreen of Coding-Insight"
+    },
+    {
+      "src": "/pwa/screenshot/screenshot-mobile.png",
+      "sizes": "1002x1258",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Mobile Homescreen of Coding-Insight"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "파이썬",
+      "short_name": "파이썬",
+      "url": "/korean/python",
+      "description": "파이썬 프로그래밍 언어 배우기",
+      "icons": [
+        {
+          "src": "/pwa/icons/python.png",
+          "sizes": "514x512",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "short_name": "Python",
+      "url": "/english/python",
+      "description": "Learn Python Programming Language",
+      "icons": [
+        {
+          "src": "/pwa/icons/python.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "C/C++",
+      "short_name": "C/C++",
+      "url": "/korean/c-cpp",
+      "description": "Learn C/C++ Programming Language",
+      "icons": [
+        {
+          "src": "/pwa/icons/c cpp.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Rust",
+      "short_name": "Rust",
+      "url": "/korean/rust",
+      "description": "Rust 프로그래밍 언어 배우기",
+      "icons": [
+        {
+          "src": "/pwa/icons/rust.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+  ]
+}

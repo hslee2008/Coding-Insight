@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/rust/if-let", {data:[{}],fetch:{},mutations:void 0});

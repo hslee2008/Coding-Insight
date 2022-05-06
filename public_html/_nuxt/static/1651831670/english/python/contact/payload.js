@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/english/python/contact", {data:[{}],fetch:{},mutations:void 0});

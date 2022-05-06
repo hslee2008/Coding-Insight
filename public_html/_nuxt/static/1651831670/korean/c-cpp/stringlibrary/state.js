@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1651831670",layout:"default",error:a,serverRendered:true,routePath:"\u002Fkorean\u002Fc-cpp\u002Fstringlibrary",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null));

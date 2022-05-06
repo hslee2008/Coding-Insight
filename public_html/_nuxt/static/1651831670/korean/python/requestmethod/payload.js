@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/python/requestmethod", {data:[{}],fetch:{},mutations:void 0});

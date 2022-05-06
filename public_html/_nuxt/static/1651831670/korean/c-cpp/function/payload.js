@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/c-cpp/function", {data:[{}],fetch:{},mutations:void 0});

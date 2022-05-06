@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/korean/rust/printfmt", {data:[{}],fetch:{},mutations:void 0});
