@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/c-cpp/otherdatatype", {data:[{}],fetch:{},mutations:void 0});

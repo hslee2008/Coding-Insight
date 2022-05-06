@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/english/python/keyboard", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/python/madlib", {data:[{}],fetch:{},mutations:void 0});

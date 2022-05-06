@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/english/python/random", {data:[{}],fetch:{},mutations:void 0});

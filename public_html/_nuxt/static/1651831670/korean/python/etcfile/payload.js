@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/python/etcfile", {data:[{}],fetch:{},mutations:void 0});

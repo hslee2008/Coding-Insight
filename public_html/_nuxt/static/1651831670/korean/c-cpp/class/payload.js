@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/c-cpp/class", {data:[{}],fetch:{},mutations:void 0});

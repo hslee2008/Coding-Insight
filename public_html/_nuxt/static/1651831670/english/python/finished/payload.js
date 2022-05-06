@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/english/python/finished", {data:[{}],fetch:{},mutations:void 0});

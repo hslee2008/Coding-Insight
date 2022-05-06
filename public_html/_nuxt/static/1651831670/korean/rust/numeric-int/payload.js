@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/rust/numeric-int", {data:[{}],fetch:{},mutations:void 0});

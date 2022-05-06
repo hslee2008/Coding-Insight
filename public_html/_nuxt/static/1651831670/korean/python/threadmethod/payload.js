@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/python/threadmethod", {data:[{}],fetch:{},mutations:void 0});

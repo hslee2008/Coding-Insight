@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/python/calc", {data:[{}],fetch:{},mutations:void 0});

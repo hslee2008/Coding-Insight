@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/python/listmethod2", {data:[{}],fetch:{},mutations:void 0});

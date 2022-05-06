@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/rust/datatypes", {data:[{}],fetch:{},mutations:void 0});

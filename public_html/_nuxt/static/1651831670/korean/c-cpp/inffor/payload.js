@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/c-cpp/inffor", {data:[{}],fetch:{},mutations:void 0});

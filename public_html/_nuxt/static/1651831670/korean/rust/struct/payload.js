@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/rust/struct", {data:[{}],fetch:{},mutations:void 0});

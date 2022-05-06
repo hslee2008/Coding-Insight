@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/korean/rust/closure", {data:[{}],fetch:{},mutations:void 0});
