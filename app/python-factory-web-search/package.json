@@ -29,7 +29,7 @@
   },
   "description": "Learn more efficiently using this extension in Python-Factory (coding-insight.com)",
   "devDependencies": {
-    "@types/vscode": "^1.63.0",
+    "@types/vscode": "^1.67.0",
     "@vscode/test-electron": "^2.0.3",
     "glob": "^8.0.1",
     "mocha": "^10.0.0",
