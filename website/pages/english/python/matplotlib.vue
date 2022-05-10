@@ -16,7 +16,12 @@
 
         <code v-highlight class="python"> print(matplotlib.__version__) </code>
       </div>
-      <iframe :src="`${trinket}3e28c18725`" width="60%" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}3e28c18725`"
+        width="60%"
+        height="356"
+      />
     </div>
 
     <Header type="Python" title="Matplotlib" num="88" />
@@ -48,7 +53,12 @@
         nth equation: n+1 list
       </div>
     </div>
-    <iframe :src="`${trinket}40b5ec6e62`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}40b5ec6e62`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -106,7 +116,12 @@
         = 'g')
       </code>
     </div>
-    <iframe :src="`${trinket}6d6b423f37`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}6d6b423f37`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -213,7 +228,12 @@
         </div>
       </div>
     </div>
-    <iframe :src="`${trinket}c4218ab83d`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}c4218ab83d`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -254,7 +274,12 @@
         </div>
       </div>
     </div>
-    <iframe :src="`${trinket}074b4c95ef`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}074b4c95ef`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="keyboard" aft="mouse" />
   </div>

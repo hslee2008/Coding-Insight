@@ -35,7 +35,11 @@
           >
         </p>
       </div>
-      <iframe :src="`${trinket}73c3356df0`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}73c3356df0`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -55,7 +59,12 @@
             사용할 수 있습니다.
           </p>
         </div>
-        <iframe :src="`${trinket}cb9b932e10`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}cb9b932e10`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 

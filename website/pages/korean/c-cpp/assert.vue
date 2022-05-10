@@ -18,7 +18,7 @@
 
     <Header type="C/C++" title="assert 키워드" num="38" />
 
-    <iframe :src="`${jdoodle}47Bz`" height="400" />
+    <iframe title="JDoodle C and CPP" :src="`${jdoodle}47Bz`" height="400" />
 
     <Navigation bef="include" aft="macro" />
   </div>

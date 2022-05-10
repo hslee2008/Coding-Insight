@@ -42,7 +42,12 @@
       </p>
     </div>
 
-    <iframe :src="`${trinket2}8500bba20b`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket2 Python"
+      :src="`${trinket2}8500bba20b`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -51,7 +56,12 @@
         <h2>not keyword</h2>
         <p>Using not, we can switch from true to false and vice versa.</p>
       </div>
-      <iframe :src="`${trinket2}5fbbc3204c`" width="60%" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}5fbbc3204c`"
+        width="60%"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -79,7 +89,12 @@
         </p>
       </div>
 
-      <iframe :src="`${trinket}b23c21c043`" width="60%" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}b23c21c043`"
+        width="60%"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -96,7 +111,11 @@
           of them are False.
         </p>
       </div>
-      <iframe :src="`${trinket2}6d4ae0d672`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}6d4ae0d672`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="ascii" aft="number" />

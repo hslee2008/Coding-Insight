@@ -45,7 +45,11 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47C5`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}47C5`"
+          height="300"
+        />
       </div>
     </div>
 
@@ -79,7 +83,11 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47C6`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}47C6`"
+          height="300"
+        />
       </div>
     </div>
 
@@ -99,7 +107,11 @@
             &nbsp;&nbsp;&nbsp;&nbsp;printf("not printable :(");<br />
             }
           </code>
-          <iframe :src="`${jdoodle}47C8`" height="300" />
+          <iframe
+            title="JDoodle C and CPP"
+            :src="`${jdoodle}47C8`"
+            height="300"
+          />
         </p>
       </div>
     </div>

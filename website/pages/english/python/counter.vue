@@ -17,7 +17,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}da3dfe80d1`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}da3dfe80d1`"
+        height="356"
+      />
     </div>
 
     <Header type="Python" num="77" title="Counter" />
@@ -33,7 +37,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}1784ae1aca`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}1784ae1aca`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -48,7 +57,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}6776498f90`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}6776498f90`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -63,7 +77,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}f918534c52`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}f918534c52`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 

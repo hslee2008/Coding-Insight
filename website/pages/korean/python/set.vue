@@ -15,7 +15,11 @@
           예를 들어 우리반에서 서울에 사는 친구들의 집합을 만들어 보겠습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}17ff96c784`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}17ff96c784`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -56,7 +60,12 @@
             집합에 있는 값들의 순서는 항상 바뀝니다.
           </p>
         </div>
-        <iframe :src="`${trinket}1c4e61a04e`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}1c4e61a04e`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -75,7 +84,11 @@
           에러가 생기지 않는 것을 원한다면 discard 메서드를 사용하세요.
         </p>
       </div>
-      <iframe :src="`${trinket}62528e1b44`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}62528e1b44`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="tuple" aft="setmethod" />

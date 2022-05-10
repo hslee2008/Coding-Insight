@@ -34,7 +34,11 @@
 
       이렇게 하면 변수를 만들 수 있습니다.
     </p>
-    <iframe :src="`${trinket2}a5d980683b`" height="356" />
+    <iframe
+      title="Trinket2 Python"
+      :src="`${trinket2}a5d980683b`"
+      height="356"
+    />
 
     <QuadSpace />
 
@@ -77,7 +81,11 @@
       <code v-highlight class="python ic" v-html="`'변수 이름 = 값'`" />
       코드를 실행하면 됩니다.
     </p>
-    <iframe :src="`${trinket2}4745a3ecb9`" height="200" />
+    <iframe
+      title="Trinket2 Python"
+      :src="`${trinket2}4745a3ecb9`"
+      height="200"
+    />
 
     <QuadSpace />
 
@@ -132,7 +140,7 @@
         "
       />
     </p>
-    <iframe :src="`${trinket}ac33761c8a`" height="356" />
+    <iframe title="Trinket Python" :src="`${trinket}ac33761c8a`" height="356" />
 
     <Navigation bef="io" aft="madlib" />
 

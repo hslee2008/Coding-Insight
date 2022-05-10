@@ -18,7 +18,12 @@
             create an infinite loop accidently.
           </p>
         </div>
-        <iframe :src="`${trinket}496fc82d74`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}496fc82d74`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />
@@ -58,7 +63,12 @@
           </div>
         </div>
 
-        <iframe :src="`${trinket}9aef21b34d`" height="500" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}9aef21b34d`"
+          height="500"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />
@@ -70,7 +80,12 @@
             break statement BREAKS the while or for loop and end it immediately.
           </p>
         </div>
-        <iframe :src="`${trinket}d35c515f41`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}d35c515f41`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />

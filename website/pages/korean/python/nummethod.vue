@@ -28,7 +28,11 @@
           영어로 절댓값은 absolute value이고 파이썬에서 줄여서 abs()라고 합니다.
         </p>
       </div>
-      <iframe :src="`${trinket}db269c0e84`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}db269c0e84`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="calc" aft="list" />

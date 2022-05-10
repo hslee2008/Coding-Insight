@@ -97,7 +97,7 @@
           }
         </code>
       </div>
-      <iframe :src="`${jdoodle}4apz`" height="300" />
+      <iframe title="JDoodle C and CPP" :src="`${jdoodle}4apz`" height="300" />
     </div>
 
     <QuadSpace />
@@ -148,7 +148,11 @@
           &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br />
           }
         </code>
-        <iframe :src="`${jdoodle}4apA`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}4apA`"
+          height="300"
+        />
       </div>
     </div>
 

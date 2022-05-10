@@ -22,7 +22,12 @@
             이를 방지하기 위하여 다음과 같은 방법이 있습니다.
           </p>
         </div>
-        <iframe :src="`${trinket}215ca4e0af`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}215ca4e0af`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />
@@ -41,7 +46,12 @@
             에러를 방지할 수 있습니다.
           </p>
         </div>
-        <iframe :src="`${trinket}a5ed372467`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}a5ed372467`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 

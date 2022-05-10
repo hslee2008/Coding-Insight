@@ -12,7 +12,12 @@
           <code v-highlight class="python"> a[3] = 'c' </code>
         </p>
       </div>
-      <iframe :src="`${trinket}32e3c5c425`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}32e3c5c425`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />
@@ -37,7 +42,12 @@
 
           if we use del, only the pair will be deleted from the dictionary.
         </p>
-        <iframe :src="`${trinket}1a3ca85630`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}1a3ca85630`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -87,7 +97,12 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}9b40fb09d3`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}9b40fb09d3`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />
@@ -116,7 +131,11 @@
           "Hmmm... Not found".
         </p>
       </div>
-      <iframe :src="`${trinket}c250d6c262`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}c250d6c262`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="dictionary" aft="zipping" />

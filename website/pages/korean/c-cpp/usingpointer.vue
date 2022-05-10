@@ -26,7 +26,11 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47Au`" height="300px" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}47Au`"
+          height="300px"
+        />
       </div>
     </div>
 
@@ -80,7 +84,11 @@
         (문자열도 가능합니다. int* ptr 대신 char* ptr로 바꾸세요!)<br /><br />
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47AG`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}47AG`"
+          height="300"
+        />
       </div>
     </div>
 
@@ -124,7 +132,11 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47AE`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}47AE`"
+          height="300"
+        />
       </div>
     </div>
 
@@ -170,7 +182,11 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47B7`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}47B7`"
+          height="300"
+        />
       </div>
     </div>
 

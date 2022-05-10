@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>How to install VSCode</h1>
+    <h2>How to install VSCode</h2>
 
     <v-img
       src="https://image-loader-coding-insight.web.app/py-en/img/vscode.jpg"
@@ -8,9 +8,9 @@
     <p>
       Go to:
       <a
+        aria-label="VSCode Installation Page (opens in a new window)"
         target="_blank"
         href="https://code.visualstudio.com/download"
-        style="text-decoration: none; color: darkorange"
         >VSCode Installation Page</a
       >
       and select the correct OS.
@@ -43,7 +43,7 @@
 
     <p>Now, restart the computer</p>
 
-    <h1>Setting VSCode up to code</h1>
+    <h2>Setting VSCode up to code</h2>
 
     <v-img
       src="https://image-loader-coding-insight.web.app/py-en/img/cube.jpg"
@@ -67,7 +67,7 @@
 
     <Header type="Python" num="3" title="VSCode Installation" />
 
-    <h1>Start programming in VSCode</h1>
+    <h2>Start programming in VSCode</h2>
 
     <v-img
       src="https://image-loader-coding-insight.web.app/py-en/img/file.jpg"

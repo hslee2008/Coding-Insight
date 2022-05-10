@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h1>VSCode 설치</h1>
+    <h2>VSCode 설치</h2>
 
     <v-img
       src="https://image-loader-coding-insight.web.app/py-kr/img/vscode.jpg"
     />
     <p>
       <a
+        aria-label="VSCode installation page (opens in a new window)"
         target="_blank"
         href="https://code.visualstudio.com/download"
-        style="text-decoration: none; color: darkorange"
         >VSCode 설치 페이지</a
       >를 방문합니다. 알맞은 컴퓨터 소프트웨어를 선택합니다.
     </p>
@@ -41,7 +41,7 @@
 
     <p>컴퓨터 다시 시작하기</p>
 
-    <h1>코딩 준비하기</h1>
+    <h2>코딩 준비하기</h2>
 
     <v-img
       src="https://image-loader-coding-insight.web.app/py-kr/img/cube.jpg"

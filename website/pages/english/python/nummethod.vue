@@ -21,7 +21,12 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}f74cbaa5c3`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}f74cbaa5c3`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <Navigation bef="calc" aft="list" />

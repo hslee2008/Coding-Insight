@@ -20,7 +20,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}20b4a15af9`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}20b4a15af9`"
+        height="356"
+      />
     </div>
 
     <Header type="Python" num="60" title="Array Shape" />

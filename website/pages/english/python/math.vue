@@ -59,7 +59,11 @@
           are even numbers of datas.
         </div>
       </div>
-      <iframe :src="`${trinket}b4ab6a9593`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}b4ab6a9593`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -76,7 +80,11 @@
           there are odd numbers of data.
         </p>
       </div>
-      <iframe :src="`${trinket}0a8bc90264`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}0a8bc90264`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -87,7 +95,12 @@
         <p>Mode calculates the most item appearing in list.</p>
       </div>
     </div>
-    <iframe :src="`${trinket}0a8bc90264`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}0a8bc90264`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="classmethod" aft="file" />
   </div>

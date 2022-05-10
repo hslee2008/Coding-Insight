@@ -107,7 +107,12 @@
           </p>
         </div>
       </div>
-      <iframe :src="`${trinket}6af330fe9a`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}6af330fe9a`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <Navigation bef="date" aft="dice" />

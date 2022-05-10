@@ -16,7 +16,12 @@
             것입니다.
           </p>
         </div>
-        <iframe :src="`${trinket}496fc82d74`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}496fc82d74`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />
@@ -52,7 +57,12 @@
             </p>
           </div>
         </div>
-        <iframe :src="`${trinket}3f6d66c42e`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}3f6d66c42e`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />
@@ -67,7 +77,12 @@
             있습니다.
           </p>
         </div>
-        <iframe :src="`${trinket}d35c515f41`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}d35c515f41`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />

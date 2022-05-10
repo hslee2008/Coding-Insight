@@ -23,7 +23,12 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}3b0dada577`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}3b0dada577`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <Header type="Python" title="Tuple" num="24" />
@@ -63,7 +68,12 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}76cd83a2ae`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}76cd83a2ae`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />
@@ -83,7 +93,12 @@
             b = 3,
           </code>
         </p>
-        <iframe :src="`${trinket}1a3ca85630`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}1a3ca85630`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -114,7 +129,12 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}c70ec1ecfe`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}c70ec1ecfe`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <Navigation bef="zipping" aft="set" />

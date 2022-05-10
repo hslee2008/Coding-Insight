@@ -40,7 +40,12 @@
           The code above prints &lt;class 'str'>. str stands for string.
         </p>
       </div>
-      <iframe :src="`${trinket}109be31855`" width="70%" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}109be31855`"
+        width="70%"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

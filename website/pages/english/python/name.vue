@@ -24,14 +24,24 @@
         <p>
           Let's look at the following examples.<br /><br />
 
-          <iframe :src="`${trinket}c6d50081cf`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}c6d50081cf`"
+            height="356"
+            loading="lazy"
+          />
 
           <br /><br />If we run the code inside file2.py, "Hi" is printed
           twice.<br /><br />
 
           Let's try changing the contents inside file1.py.<br /><br />
 
-          <iframe :src="`${trinket}b01563dd19`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}b01563dd19`"
+            height="356"
+            loading="lazy"
+          />
 
           <br /><br />Know, if we run the code inside file2.py, the only thing
           we get is one "Hi" instead of two.

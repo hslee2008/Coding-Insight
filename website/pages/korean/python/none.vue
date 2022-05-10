@@ -22,7 +22,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}d02c75249c`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}d02c75249c`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="password-safe" aft="function" />
   </div>

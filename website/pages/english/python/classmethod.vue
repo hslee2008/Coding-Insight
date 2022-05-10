@@ -24,7 +24,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}e0b362c25c`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}e0b362c25c`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -37,7 +42,12 @@
             gender).
           </p>
         </div>
-        <iframe :src="`${trinket}8e1797ce82`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}8e1797ce82`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -51,7 +61,11 @@
           super().__init__().
         </p>
       </div>
-      <iframe :src="`${trinket}e9f98d6de4`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}e9f98d6de4`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -75,7 +89,12 @@
         </div>
       </div>
     </div>
-    <iframe :src="`${trinket}45cfee23ee`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}45cfee23ee`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="class" aft="math" />
   </div>

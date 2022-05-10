@@ -50,7 +50,11 @@
         </p>
       </div>
 
-      <iframe :src="`${trinket2}7c86f7328a`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}7c86f7328a`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -64,7 +68,12 @@
           For example, we can use the following code to print the first alphabet
           of 'Hello'.<br /><br />
 
-          <iframe :src="`${trinket}c826f990bd`" height="356" loading="lazy">
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}c826f990bd`"
+            height="356"
+            loading="lazy"
+          >
           </iframe>
           <br /><br />
 
@@ -99,7 +108,12 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}048c09e858`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}048c09e858`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />
@@ -117,7 +131,12 @@
           So, using [:] will print everything.
         </p>
 
-        <iframe :src="`${trinket}e1cdc9760f`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}e1cdc9760f`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -139,7 +158,12 @@
           In other words, it prints the string backward.
         </p>
       </div>
-      <iframe :src="`${trinket}751018529e`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}751018529e`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <Navigation bef="comment" aft="stringmethod1" />

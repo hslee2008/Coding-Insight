@@ -30,7 +30,11 @@
           예를 들어 1번째 반복에선 a의 첫 번째 값이 i에 들어갑니다.
         </p>
       </div>
-      <iframe :src="`${trinket}b3dec1798f`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}b3dec1798f`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -55,7 +59,12 @@
             If we run the code above, numbers from 1 to 5 is printed.
           </p>
         </div>
-        <iframe :src="`${trinket}b3dec1798f`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}b3dec1798f`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -73,7 +82,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}4712475b5d`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}4712475b5d`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -96,7 +109,12 @@
             </code>
           </p>
         </div>
-        <iframe :src="`${trinket}4712475b5d`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}4712475b5d`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -154,7 +172,12 @@
             stopped faster than without it.
           </p>
         </div>
-        <iframe :src="`${trinket}9f190d6a4f`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}9f190d6a4f`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 

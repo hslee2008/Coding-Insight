@@ -28,11 +28,21 @@
         <p>
           다음과 같은 예시를 보겠습니다.<br /><br />
 
-          <iframe :src="`${trinket}c6d50081cf`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}c6d50081cf`"
+            height="356"
+            loading="lazy"
+          />
 
           <br /><br />main.py를 실행하면 HI가 두 번 출력이 됩니다.<br /><br />
 
-          <iframe :src="`${trinket}b01563dd19`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}b01563dd19`"
+            height="356"
+            loading="lazy"
+          />
 
           <br /><br />위에 있는 예시에 있는 main.py 파일을 실행하면 HI가 한번
           출력됩니다.<br /><br />

@@ -85,7 +85,12 @@
 
       이와 같이 3-D는 3개의 수, 4-D는 4개의 수...를 입력하면 됩니다.
     </div>
-    <iframe :src="`${trinket}4fe0b3d005`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}4fe0b3d005`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="array" aft="array_shape" />
   </div>

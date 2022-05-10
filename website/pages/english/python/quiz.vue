@@ -15,12 +15,8 @@
       <div class="scoreText1">--</div>
       <div class="scorePct">--</div>
       <div class="scoreText2">--</div>
-      <NuxtLink :aria-label="allink" to="./quiz" style="text-decoration: none">
-        <v-btn :aria-label="albutt"> Restart </v-btn>
-      </NuxtLink>
-      <NuxtLink :aria-label="allink" to="/" style="text-decoration: none">
-        <v-btn :aria-label="albutt"> Homepage </v-btn>
-      </NuxtLink>
+      <v-btn :aria-label="albutt" to="./quiz"> Restart </v-btn>
+      <v-btn :aria-label="albutt" to="/"> Homepage </v-btn>
     </div>
   </div>
 </template>

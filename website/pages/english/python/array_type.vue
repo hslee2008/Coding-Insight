@@ -84,7 +84,12 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}7b99138f0e`" width="60%" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}7b99138f0e`"
+        width="60%"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

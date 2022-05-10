@@ -33,7 +33,7 @@
       </code>
     </div>
     <QuadSpace />
-    <iframe :src="`${trinket}740f66be1f`" height="356" />
+    <iframe title="Trinket Python" :src="`${trinket}740f66be1f`" height="356" />
 
     <Navigation bef="random" aft="regex" />
   </div>

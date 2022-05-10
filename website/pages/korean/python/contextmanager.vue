@@ -40,7 +40,11 @@
           그리고 그 안에는 파일을 다루는 코드만 있으면 됩니다!
         </p>
       </div>
-      <iframe :src="`${trinket}f10313f544`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}f10313f544`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -60,7 +64,11 @@
           </p>
         </div>
       </div>
-      <iframe :src="`${trinket}adcdf0d2c3`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}adcdf0d2c3`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="contact2" aft="datachange" />

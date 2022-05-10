@@ -60,9 +60,9 @@
                   <v-card-title>
                     <p class="black--text">
                       <a
+                        aria-label="VSCode installation page (opens in a new window)"
                         target="_blank"
                         href="https://code.visualstudio.com/download"
-                        style="text-decoration: none; color: darkorange"
                         >VSCode 설치 페이지</a
                       >를 방문합니다. 알맞은 컴퓨터 소프트웨어를 선택합니다.
                     </p>

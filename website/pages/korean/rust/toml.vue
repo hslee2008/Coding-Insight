@@ -53,6 +53,7 @@
     <v-alert dense text type="info" dismissible>
       더 많은 정보를 알고 싶다면,
       <a
+        aria-label="Cargo.toml 파일"
         href="https://doc.rust-lang.org/cargo/reference/manifest.html"
         target="_blank"
         >Cargo.toml 파일</a

@@ -57,7 +57,11 @@
           </p>
         </div>
       </div>
-      <iframe :src="`${trinket}5755f85207`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}5755f85207`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="math" aft="filereading" />

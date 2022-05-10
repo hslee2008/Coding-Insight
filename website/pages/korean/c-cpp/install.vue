@@ -46,7 +46,7 @@
         <h2>C 컴파일러 설치 방법</h2>
         <p>
           1. 먼저,
-          <a href="https://jmeubank.github.io/tdm-gcc/"
+          <a :aria-label="allink" href="https://jmeubank.github.io/tdm-gcc/"
             >C 언어 tdm 컴파일러 사이트</a
           >에 들어갑니다.<br /><br />
           <GlobalImage

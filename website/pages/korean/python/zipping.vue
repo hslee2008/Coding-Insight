@@ -58,7 +58,7 @@
     <QuadSpace />
 
     <h2>코드 확인하기</h2>
-    <iframe :src="`${trinket}836101c4af`" height="356" />
+    <iframe title="Trinket Python" :src="`${trinket}836101c4af`" height="356" />
 
     <Navigation bef="dictionarymethod" aft="tuple" />
   </div>

@@ -40,7 +40,9 @@
       We first have to let Python login to our google gmail account.<br /><br />
 
       Go to Google Account
-      <a href="https://myaccount.google.com/lesssecureapps">setting</a>
+      <a :aria-label="allink" href="https://myaccount.google.com/lesssecureapps"
+        >setting</a
+      >
       and click on allow.<br /><br />
 
       Make sure you are not using not underage account.
@@ -48,7 +50,7 @@
 
     <QuadSpace />
 
-    <iframe :src="`${trinket}7747ffbfd7`" height="356" />
+    <iframe title="Trinket Python" :src="`${trinket}7747ffbfd7`" height="356" />
 
     <Navigation bef="coroutine" aft="autozoom" />
   </div>

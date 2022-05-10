@@ -27,7 +27,12 @@
             같습니다.
           </p>
         </div>
-        <iframe :src="`${trinket}a532b0eef6`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}a532b0eef6`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />
@@ -44,7 +49,12 @@
               myList를 사용해서 for 반복문을 다시 실행할 수 없습니다.
             </p>
           </div>
-          <iframe :src="`${trinket}c87eacfde8`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}c87eacfde8`"
+            height="356"
+            loading="lazy"
+          />
         </div>
       </div>
 
@@ -67,7 +77,12 @@
               4. for 반복문을 만듭니다.
             </p>
           </div>
-          <iframe :src="`${trinket}c9ce2cddc8`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}c9ce2cddc8`"
+            height="356"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>

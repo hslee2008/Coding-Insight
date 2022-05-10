@@ -51,21 +51,26 @@
       colored-border
       icon="mdi-robot-excited"
     >
-      시작하기 전에 꼭 <NuxtLink to="/korean/python/pandas">판다스</NuxtLink>,
-      <NuxtLink to="/korean/python/pip">PIP</NuxtLink>,
-      <NuxtLink to="/korean/python/module">모듈</NuxtLink>을 공부하고 오세요.
+      시작하기 전에 꼭
+      <NuxtLink :aria-label="allink" to="/korean/python/pandas">판다스</NuxtLink
+      >, <NuxtLink :aria-label="allink" to="/korean/python/pip">PIP</NuxtLink>,
+      <NuxtLink :aria-label="allink" to="/korean/python/module">모듈</NuxtLink
+      >을 공부하고 오세요.
     </v-alert>
 
     <QuadSpace />
 
     <div>
-      <h1>준비</h1>
+      <h2>준비</h2>
       <p>
         1. <code v-highlight class="python ic">pip install pandas</code>와
         <code v-highlight class="python ic">pip install -U scikit-learn</code>
         터미널에서 실행하기<br />
-        2. <NuxtLink download to="data/music.csv">music.csv</NuxtLink> 파일
-        다운로드 받기 (꼭 파이썬 파일과 똑같은 폴더 안에 넣기)<br />
+        2.
+        <NuxtLink :aria-label="allink" download to="data/music.csv"
+          >music.csv</NuxtLink
+        >
+        파일 다운로드 받기 (꼭 파이썬 파일과 똑같은 폴더 안에 넣기)<br />
         3. 코드 짜기!
       </p>
     </div>
@@ -73,7 +78,7 @@
     <QuadSpace />
 
     <div>
-      <h1>코드</h1>
+      <h2>코드</h2>
       <p>
         1.
         <code v-highlight class="python ic">import pandas as pd</code> (판다스
@@ -133,14 +138,18 @@
         9. <code v-highlight class="python ic">print(pred)</code> (예측 결과
         출력)<br /><br />
 
-        <iframe :src="`${trinket}02de47df74`" height="356" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}02de47df74`"
+          height="356"
+        />
       </p>
     </div>
 
     <QuadSpace />
 
     <div>
-      <h1>추가로 정확도 측정하기</h1>
+      <h2>추가로 정확도 측정하기</h2>
       <p>
         1. sklearn을 가지고 온 후 또 다른 train_test_split 함수를 가지고 온다.
         <code v-highlight class="python ic"
@@ -178,7 +187,12 @@
           >print(accuracy_score(y_test, pred))</code
         ><br /><br />
 
-        <iframe :src="`${trinket}282aeb7817`" height="356"> </iframe>
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}282aeb7817`"
+          height="356"
+        >
+        </iframe>
         <br /><br />
 
         <v-alert

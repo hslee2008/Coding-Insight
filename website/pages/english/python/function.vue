@@ -36,7 +36,12 @@
           <code v-highlight class="python"> sayHelloToWorld() </code>
         </p>
       </div>
-      <iframe :src="`${trinket}221bb999f6`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}221bb999f6`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />
@@ -61,7 +66,12 @@
             <code v-highlight class="python"> addNum(1, 1) </code>
           </p>
         </div>
-        <iframe :src="`${trinket}3a2f78ef6b`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}3a2f78ef6b`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -108,7 +118,12 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}18e0db3387`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}18e0db3387`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <Navigation bef="none" aft="functionhard" />

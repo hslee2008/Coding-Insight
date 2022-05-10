@@ -11,14 +11,22 @@
           200이 출력이 된다면 성공했습니다.<br /><br />
 
           모든 status_code는
-          <a href="https://www.restapitutorial.com/httpstatuscodes.html">여기</a
+          <a
+            :aria-label="allink"
+            href="https://www.restapitutorial.com/httpstatuscodes.html"
+            >여기</a
           >에서 배울 수 있습니다.<br /><br />
 
           쉽게 성공했는지만 확인하기 위하여 ok 키를 이용할 수 있습니다.
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}ae32425775`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}ae32425775`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -34,7 +42,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}30fb5ba090`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}30fb5ba090`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="request" aft="dundermethod" />
   </div>

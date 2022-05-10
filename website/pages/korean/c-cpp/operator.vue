@@ -26,7 +26,11 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VZw`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VZw`"
+          height="300"
+        />
       </div>
     </div>
 
@@ -65,7 +69,11 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VZx`" height="300px" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VZx`"
+          height="300px"
+        />
       </div>
     </div>
 
@@ -98,7 +106,11 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VZy`" height="300px" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VZy`"
+          height="300px"
+        />
       </div>
     </div>
 

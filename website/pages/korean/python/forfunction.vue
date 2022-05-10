@@ -21,7 +21,12 @@
             메서드를 사용했다면 에러가 생깁니다.
           </p>
         </div>
-        <iframe :src="`${trinket}496fc82d74`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}496fc82d74`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />
@@ -41,7 +46,12 @@
               step은 숫자 간의 간격입니다.
             </p>
           </div>
-          <iframe :src="`${trinket}31f75bee24`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}31f75bee24`"
+            height="356"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>

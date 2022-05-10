@@ -42,7 +42,12 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket2}5d4e5680b4`" width="60%" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}5d4e5680b4`"
+        width="60%"
+        height="356"
+      />
     </div>
 
     <br />Note that depending on your computer, it might look like a big W or a
@@ -96,7 +101,12 @@
           We can set our own tab size using expandtabs.
         </p>
       </div>
-      <iframe :src="`${trinket}82e2765c4e`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}82e2765c4e`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />
@@ -111,7 +121,11 @@
           To do this, we have to put r before the quotation mark.
         </p>
       </div>
-      <iframe :src="`${trinket2}6366397170`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}6366397170`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="password" aft="ascii" />

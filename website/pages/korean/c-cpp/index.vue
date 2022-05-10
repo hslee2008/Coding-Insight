@@ -29,7 +29,7 @@
 
     <div>
       <div>
-        <h1>코딩 언어란?</h1>
+        <h2>코딩 언어란?</h2>
         <p>
           2진수를 아시나요? 2진수는 0과 1입니다.<br /><br />
 
@@ -65,7 +65,7 @@
     <div>
       <div>
         <div>
-          <h1>C 언어의 단점과 장점</h1>
+          <h2>C 언어의 단점과 장점</h2>
           <p>
             C 언어는 2진수에 가까워 매우 효율적입니다.<br /><br />
 
@@ -103,7 +103,7 @@
       class="d-flex justify-content-center align-items-center w-100"
       style="height: 70px"
     >
-      <h1>C 언어를 알면?</h1>
+      <h2>C 언어를 알면?</h2>
     </div>
     <div>
       <p>
@@ -134,7 +134,7 @@
         />
       </div>
       <div class="ma-auto">
-        <h1>이 사이트에서 C 언어 배우기</h1>
+        <h2>이 사이트에서 C 언어 배우기</h2>
         <p>
           이 사이트는 C 언어를 설명합니다.<br /><br />
 

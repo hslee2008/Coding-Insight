@@ -29,7 +29,12 @@
           the letter.
         </p>
       </div>
-      <iframe :src="`${trinket2}54f740c487`" width="60%" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}54f740c487`"
+        width="60%"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -63,7 +68,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket2}9da1796e91`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}9da1796e91`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -103,7 +112,12 @@
           sentences after 'name'.
         </p>
       </div>
-      <iframe :src="`${trinket}3e76b01efc`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}3e76b01efc`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <Navigation bef="stringmethod1" aft="password" />

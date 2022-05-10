@@ -29,7 +29,11 @@
           예를 들어 "Hello" * 2는 "HelloHello"입니다.
         </p>
       </div>
-      <iframe :src="`${trinket2}54f740c487`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}54f740c487`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -56,7 +60,11 @@
           있는지 알 수 있습니다.<br />
         </p>
       </div>
-      <iframe :src="`${trinket2}9da1796e91`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}9da1796e91`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -78,7 +86,12 @@
           문장을 결합했습니다.
         </p>
       </div>
-      <iframe :src="`${trinket2}d278186aad`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}d278186aad`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <Navigation bef="stringmethod1" aft="password" />

@@ -10,7 +10,11 @@
           new one.
         </p>
       </div>
-      <iframe :src="`${trinket}a413df3b12`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}a413df3b12`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -23,7 +27,11 @@
           called insert().
         </p>
       </div>
-      <iframe :src="`${trinket}d50ab693f8`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}d50ab693f8`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -42,7 +50,11 @@
           the trash. (Final Code - Code3)
         </p>
       </div>
-      <iframe :src="`${trinket}8ea821b7b4`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}8ea821b7b4`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -62,7 +74,11 @@
         You can use the sum() function to find the sum of all numbers in a list.
         - Code3
       </div>
-      <iframe :src="`${trinket}7fdd2b43c1`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}7fdd2b43c1`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="list" aft="listmethod2" />

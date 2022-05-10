@@ -10,7 +10,11 @@
           'a' mode adds(appends) to the end of the file.
         </p>
       </div>
-      <iframe :src="`${trinket}890655e828`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}890655e828`"
+        height="356"
+      />
     </div>
 
     <Header type="Python" num="51" title="File Writing" />
@@ -57,7 +61,11 @@
           </p>
         </div>
       </div>
-      <iframe :src="`${trinket}2fdad67c09`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}2fdad67c09`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="filereading" aft="etcfile" />

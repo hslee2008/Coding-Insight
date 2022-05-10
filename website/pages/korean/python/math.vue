@@ -44,7 +44,11 @@
           분자와 분모를 바꾼 값입니다.
         </div>
       </div>
-      <iframe :src="`${trinket}b4ab6a9593`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}b4ab6a9593`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -65,7 +69,11 @@
           있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}0a8bc90264`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}0a8bc90264`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -81,7 +89,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}0a8bc90264`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}0a8bc90264`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="classmethod" aft="file" />
   </div>

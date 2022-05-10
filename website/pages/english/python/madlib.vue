@@ -71,7 +71,11 @@
     <div>
       <h2>Check out the code</h2>
 
-      <iframe :src="`${trinket}af48f9c529`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}af48f9c529`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="variable" aft="datatype" />

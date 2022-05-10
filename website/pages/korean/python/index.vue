@@ -64,7 +64,7 @@
 
     <div>
       <div>
-        <h1>파이썬으로 할 수 있는 것들</h1>
+        <h2>파이썬으로 할 수 있는 것들</h2>
       </div>
       <div>
         <p>
@@ -123,7 +123,7 @@
     <QuadSpace />
 
     <div>
-      <h1>파이썬의 장점</h1>
+      <h2>파이썬의 장점</h2>
     </div>
     <div>
       <p>
@@ -138,7 +138,7 @@
     <QuadSpace />
 
     <div class="text-center">
-      <h1>파이썬 강좌 모음</h1>
+      <h2>파이썬 강좌 모음</h2>
 
       <iframe
         width="80%"

@@ -27,6 +27,7 @@
         </p>
       </div>
       <iframe
+        title="Rust Playground"
         :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20%2F%2Fprintln!(%22Hello%20World%22)%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%2C%20World!%22)%3B%0A%7D`"
         height="400"
       />
@@ -45,6 +46,7 @@
         </p>
       </div>
       <iframe
+        title="Rust Playground"
         :src="`${playrust}fn%20main()%20%7B%0A%20%20%20%20%2F*eprint!(%22Error%3F%3F%3F!!!%22)%3B*%2F%0A%20%20%20%20%0A%20%20%20%20print!(%22%EC%9C%84%20%EC%BD%94%EB%93%9C%EB%8A%94%20%EC%8B%A4%ED%96%89%EC%9D%B4%20X%22)%3B%0A%7D`"
         height="400"
       />
@@ -58,7 +60,11 @@
         <p>
           <code v-highlight class="rust ic">///</code>와
           <code v-highlight class="rust ic">//!</code>는 //와 똑같지만
-          <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a>
+          <a
+            :aria-label="allink"
+            href="https://www.markdownguide.org/basic-syntax/"
+            >Markdown</a
+          >
           형식을 지원합니다.<br /><br />
 
           Markdown이란 그냥 글이 아니라 특별한 스타일을 넣은 글입니다 (예: 글의
@@ -73,6 +79,7 @@
         </p>
       </div>
       <iframe
+        title="Rust Playground"
         :src="`${playrust}%2F%2F%2F%20%23Hello%20World%0D%0Afn%20main()%20%7B%0D%0A%20%20%20%20%2F%2F!%20%23Testing%0D%0A%20%20%20%20println!(%22%7B%7D%20can%20support%20%7B%7D%20notation%22%2C%22Doc%20comment%22%2C%22markdown%22)%3B%0D%0A%7D`"
         height="400"
       />

@@ -40,7 +40,12 @@
           Instead of using the normal operators, Python uses * and /.
         </p>
       </div>
-      <iframe :src="`${trinket}75d1cbc8dd`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}75d1cbc8dd`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />
@@ -77,7 +82,11 @@
           string no matter what.
         </p>
       </div>
-      <iframe :src="`${trinket}81191f5590`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}81191f5590`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -109,7 +118,11 @@
           Use int() to make string into a number.
         </p>
       </div>
-      <iframe :src="`${trinket}4b9cfba68b`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}4b9cfba68b`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="boolean" aft="operator" />

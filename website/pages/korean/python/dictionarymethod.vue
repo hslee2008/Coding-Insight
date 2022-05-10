@@ -22,7 +22,11 @@
           추가시키는 방법 중 인덱싱을 사용하는 방법이 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}bb91a39a67`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}bb91a39a67`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -35,7 +39,12 @@
 
           del 딕셔너리 이름[Key]를 입력하면 삭제할 수 있습니다.
         </p>
-        <iframe :src="`${trinket}1a3ca85630`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}1a3ca85630`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -56,7 +65,11 @@
           있다면 그 key의 값을 바꿉니다.
         </p>
       </div>
-      <iframe :src="`${trinket}c093c433f6`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}c093c433f6`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -72,7 +85,11 @@
           딕셔너리에 존재하지 않는다면 출력될 값을 입력하면 됩니다.
         </p>
       </div>
-      <iframe :src="`${trinket}c250d6c262`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}c250d6c262`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="dictionary" aft="zipping" />

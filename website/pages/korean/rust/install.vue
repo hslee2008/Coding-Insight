@@ -10,6 +10,7 @@
 
           1.
           <a
+            :aria-label="allink"
             href="https://visualstudio.microsoft.com/ko/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15"
             >Visual Studio 마이크로소프트 15</a
           >
@@ -38,6 +39,7 @@
         <p>
           1.
           <a
+            :aria-label="allink"
             href="https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe"
             >Rust 공식 웹사이트</a
           >에서 rust를 다운로드 받습니다.<br /><br />

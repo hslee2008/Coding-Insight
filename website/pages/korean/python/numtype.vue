@@ -49,7 +49,11 @@
           수 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}0856d3ad88`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}0856d3ad88`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -71,7 +75,11 @@
           예를 들어 3.14159는 소수점 뒤에 숫자가 있기 때문에 소수라고 합니다.
         </p>
       </div>
-      <iframe :src="`${trinket}e726e404fa`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}e726e404fa`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

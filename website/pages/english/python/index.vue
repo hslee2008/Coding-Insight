@@ -24,7 +24,7 @@
     <div>
       <div>
         <div>
-          <h1>The definition of Programming</h1>
+          <h2>The definition of Programming</h2>
         </div>
         <div>
           <p>
@@ -56,7 +56,7 @@
     <QuadSpace />
 
     <div>
-      <h1>What can you do with Python?</h1>
+      <h2>What can you do with Python?</h2>
     </div>
     <div>
       <p>
@@ -79,7 +79,7 @@
     <QuadSpace />
 
     <div>
-      <h1>Where did the name 'Python' come from?</h1>
+      <h2>Where did the name 'Python' come from?</h2>
 
       <p>
         Python is made by Guido Van Rossum.<br /><br />

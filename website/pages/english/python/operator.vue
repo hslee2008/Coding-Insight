@@ -58,7 +58,12 @@
           example, a += 1 is euqal to a = a + 1.
         </p>
       </div>
-      <iframe :src="`${trinket}ff303b9456`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}ff303b9456`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />
@@ -84,7 +89,11 @@
           True if right is bigger or equal to left and False otherwise.
         </p>
       </div>
-      <iframe :src="`${trinket}39a09b977e`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}39a09b977e`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="number" aft="numtype" />

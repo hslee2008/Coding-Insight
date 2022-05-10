@@ -16,7 +16,11 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3VrZ`" height="300px" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VrZ`"
+          height="300px"
+        />
       </div>
     </div>
 
@@ -62,7 +66,11 @@
         그 이유는 '변수' 부분에서 배우겠습니다.<br /><br />
       </div>
       <div>
-        <iframe :src="`${jdoodle}3Vs1`" height="300px" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3Vs1`"
+          height="300px"
+        />
       </div>
     </div>
 
@@ -90,7 +98,12 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3Vs3`" width="100% " height="400px" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3Vs3`"
+          width="100% "
+          height="400px"
+        />
       </div>
     </div>
 
@@ -117,7 +130,11 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3Vs5`" height="500px" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3Vs5`"
+          height="500px"
+        />
       </div>
     </div>
 

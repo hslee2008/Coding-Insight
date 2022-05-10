@@ -11,7 +11,11 @@
           않습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}0be5e6efb5`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}0be5e6efb5`"
+        height="356"
+      />
     </div>
 
     <Header type="파이썬" num="64" title="map, reduce, filter" />
@@ -75,7 +79,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}9eb9345774`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}9eb9345774`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -95,7 +104,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}294b66f2c5`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}294b66f2c5`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="logging" aft="zlib" />
   </div>

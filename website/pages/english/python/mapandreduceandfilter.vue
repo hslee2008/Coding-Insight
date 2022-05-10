@@ -19,7 +19,11 @@
           Computer Science Lab, we will learn about the alternatives.
         </p>
       </div>
-      <iframe :src="`${trinket}0be5e6efb5`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}0be5e6efb5`"
+        height="356"
+      />
     </div>
 
     <Header type="Python" num="64" title="map, reduce, filter" />
@@ -55,7 +59,12 @@
           multipled by 2 and replaced by twice of itself.
         </p>
       </div>
-      <iframe :src="`${trinket}0b62993bad`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}0b62993bad`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />
@@ -77,7 +86,13 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}9eb9345774`" height="356" loading="lazy"> </iframe>
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}9eb9345774`"
+      height="356"
+      loading="lazy"
+    >
+    </iframe>
 
     <QuadSpace />
 
@@ -104,7 +119,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}294b66f2c5`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}294b66f2c5`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="logging" aft="zlib" />
   </div>

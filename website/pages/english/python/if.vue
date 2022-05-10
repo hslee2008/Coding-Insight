@@ -73,7 +73,12 @@
         The if statement will run if at least one of the two statement is True.
       </p>
     </div>
-    <iframe :src="`${trinket}9e178be286`" height="250" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}9e178be286`"
+      height="250"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -105,7 +110,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}4f34d13cdc`" height="400" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}4f34d13cdc`"
+      height="400"
+      loading="lazy"
+    />
 
     <Navigation bef="setmethod" aft="ifmaster" />
   </div>

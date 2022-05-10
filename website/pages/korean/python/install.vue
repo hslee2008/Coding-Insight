@@ -78,6 +78,7 @@
                   >
                     <v-card-title>
                       <a
+                        aria-label="Python Official Site (opens in a new window)"
                         href="https://www.python.org/downloads/"
                         target="_blank"
                         >파이썬 공식 사이트</a

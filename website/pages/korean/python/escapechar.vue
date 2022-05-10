@@ -15,7 +15,11 @@
           모든 이스케이프는 다 \와 원하는 문자를 사용합니다.
         </p>
       </div>
-      <iframe :src="`${trinket2}cb2f50d77b`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}cb2f50d77b`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -45,7 +49,12 @@
           \"도 "" 안에서 문제 없이 사용이 가능합니다.
         </p>
       </div>
-      <iframe :src="`${trinket2}5d4e5680b4`" width="60%" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}5d4e5680b4`"
+        width="60%"
+        height="356"
+      />
     </div>
 
     <br />참고할 내용: 컴퓨터에 따라 W와 선이 그어진 모양으로 보일 수 있고 /
@@ -65,7 +74,12 @@
           있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket2}c420acd5f8`" width="60%" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}c420acd5f8`"
+        width="60%"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -86,7 +100,11 @@
           가능하면 컴퓨터 VSCode에서 실행하세요.
         </p>
       </div>
-      <iframe :src="`${trinket2}e24eef8879`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}e24eef8879`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -121,7 +139,11 @@
           출력됩니다.
         </p>
       </div>
-      <iframe :src="`${trinket2}6366397170`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}6366397170`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="password" aft="ascii" />

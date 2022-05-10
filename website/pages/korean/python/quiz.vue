@@ -15,12 +15,9 @@
       <div class="scoreText1">--</div>
       <div class="scorePct">--</div>
       <div class="scoreText2">--</div>
-      <NuxtLink :aria-label="allink" to="./quiz" style="text-decoration: none">
-        <v-btn :aria-label="albutt"> 다시시작 </v-btn>
-      </NuxtLink>
-      <NuxtLink :aria-label="allink" to="/" style="text-decoration: none">
-        <v-btn :aria-label="albutt"> 홈페이지 </v-btn>
-      </NuxtLink>
+
+      <v-btn :aria-label="albutt" to="./quiz"> 다시시작 </v-btn>
+      <v-btn :aria-label="albutt" to="/"> 홈페이지 </v-btn>
     </div>
   </div>
 </template>

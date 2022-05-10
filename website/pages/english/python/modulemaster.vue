@@ -43,7 +43,12 @@
         However, this method is not recommanded. Use import OEM instead.
       </div>
 
-      <iframe :src="`${trinket}97e4d4f1d9`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}97e4d4f1d9`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />

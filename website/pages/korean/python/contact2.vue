@@ -28,7 +28,7 @@
     <QuadSpace />
 
     <h2>코드 확인하기</h2>
-    <iframe :src="`${trinket}9e26723d8a`" height="356" />
+    <iframe title="Trinket Python" :src="`${trinket}9e26723d8a`" height="356" />
 
     <Navigation bef="contextmanager" aft="datachange" />
   </div>

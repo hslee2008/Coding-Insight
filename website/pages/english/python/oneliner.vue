@@ -36,7 +36,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}724bf9a522`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}724bf9a522`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -55,7 +59,12 @@
             Note: you can also put semicolons after each code.
           </p>
         </div>
-        <iframe :src="`${trinket}ca6f756679`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}ca6f756679`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 

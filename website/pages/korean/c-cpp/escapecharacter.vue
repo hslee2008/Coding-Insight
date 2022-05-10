@@ -30,7 +30,11 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3VZC`" height="300px" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VZC`"
+          height="300px"
+        />
       </div>
     </div>
 
@@ -73,7 +77,11 @@
         </code>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3VZG`" height="300px" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VZG`"
+          height="300px"
+        />
       </div>
     </div>
 

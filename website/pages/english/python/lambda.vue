@@ -50,7 +50,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}ad432c8141`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}ad432c8141`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="type" aft="for" />
   </div>

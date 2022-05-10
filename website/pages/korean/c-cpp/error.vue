@@ -10,7 +10,11 @@
 
           <code v-highlight class="cpp"> #error "hmmm..." </code>
 
-          <iframe :src="`${jdoodle}47BY`" height="200" />
+          <iframe
+            title="JDoodle C and CPP"
+            :src="`${jdoodle}47BY`"
+            height="200"
+          />
         </p>
       </div>
     </div>

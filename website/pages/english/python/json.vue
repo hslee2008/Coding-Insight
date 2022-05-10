@@ -51,7 +51,12 @@
             print(json.loads(someJson)["name"]) #Hyunseung Lee is rinted
           </code>
         </p>
-        <iframe :src="`${trinket}3500e49e2c`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}3500e49e2c`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -62,7 +67,11 @@
         <h2>Dictionary to JSON</h2>
         <p>json.dumps() method will convert dictionary to JSON.</p>
       </div>
-      <iframe :src="`${trinket}efb76f8dd2`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}efb76f8dd2`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -107,7 +116,11 @@
         The example above will print the JSON with '. ' seperating keys and
         values and '==>' seperating each pair.
       </div>
-      <iframe :src="`${trinket}efb76f8dd2`" height="200" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}efb76f8dd2`"
+        height="200"
+      />
     </div>
 
     <Navigation bef="pip" aft="array" />

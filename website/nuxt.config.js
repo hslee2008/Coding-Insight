@@ -220,7 +220,7 @@ export default {
       short_name: 'Coding-Insight',
       version: '2022.02',
       description:
-        'Learn programming through learning, practicing, and building. Our site includes full courses of python, c, c++, and rust for free in both Korean and English language.',
+        'Learn programming through learning, practicing, and building. Site includes full courses of python, c, c++, and rust.',
       dir: 'ltr',
       id: '/index.html',
       author: ['Hyunseung', 'Juha', 'Gun'],

@@ -66,7 +66,11 @@
         "Interactive Mode"를 키고 "Result"(검은색 박스) 안에 숫자를
         입력하세요.<br /><br />
 
-        <iframe :src="`${jdoodle}3VZe`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VZe`"
+          height="300"
+        />
       </div>
     </div>
 
@@ -99,7 +103,11 @@
       <div class="ma-auto">
         여기도 "Interactive Mode"를 켜야 합니다.<br /><br />
 
-        <iframe :src="`${jdoodle}3VZj`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VZj`"
+          height="300"
+        />
       </div>
     </div>
 

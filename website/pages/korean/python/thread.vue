@@ -40,7 +40,12 @@
           만일 스레드가 2개가 있고 하나는 "Hello"를 출력하고 1초 기다리고
           "Done"을 출력합니다. 다른 하나는 "World"를 출력합니다.<br /><br />
 
-          <iframe :src="`${trinket}cf48124315`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}cf48124315`"
+            height="356"
+            loading="lazy"
+          />
 
           <br /><br />만일 thread 1을 실행하고 thread 2를 실행하면 Hello done
           World가 출력됩니다.<br /><br />
@@ -83,7 +88,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}a21ef7102c`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}a21ef7102c`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="name" aft="complexthread" />
   </div>

@@ -48,7 +48,7 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${jdoodle}4n6k`" height="350" />
+      <iframe title="JDoodle C and CPP" :src="`${jdoodle}4n6k`" height="350" />
     </div>
 
     <QuadSpace />

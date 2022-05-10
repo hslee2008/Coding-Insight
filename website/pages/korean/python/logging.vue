@@ -31,7 +31,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}9d4fc4880a`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}9d4fc4880a`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -41,7 +46,12 @@
         <p>warning은 사용자에게 에러가 났다는 사실을 경고하는 코드입니다.</p>
       </div>
     </div>
-    <iframe :src="`${trinket}784c0fc5a6`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}784c0fc5a6`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -54,7 +64,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}f9687df6a4`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}f9687df6a4`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="error2" aft="mapandreduceandfilter" />
   </div>

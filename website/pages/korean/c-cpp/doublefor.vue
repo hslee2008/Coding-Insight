@@ -52,7 +52,11 @@
         &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br />
         }
       </code>
-      <iframe :src="`${jdoodle}3YLZ`" height="300px" />
+      <iframe
+        title="JDoodle C and CPP"
+        :src="`${jdoodle}3YLZ`"
+        height="300px"
+      />
     </div>
 
     <Navigation bef="while" aft="dowhile" />

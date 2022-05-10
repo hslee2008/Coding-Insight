@@ -11,8 +11,9 @@
 
           하지만 Rust는 코딩을 처음 배우는 사람에게는 매우 어렵고 복잡할 수 있기
           때문에
-          <a href="/korean/python/" style="color: yellow">파이썬</a>을 먼저
-          배우는 것을 권장합니다.
+          <a :aria-label="allink" href="/korean/python/" style="color: yellow"
+            >파이썬</a
+          >을 먼저 배우는 것을 권장합니다.
         </p>
       </div>
     </div>
@@ -22,7 +23,7 @@
     <div>
       <div>
         <div>
-          <h1>Rust의 특징</h1>
+          <h2>Rust의 특징</h2>
         </div>
         <p>
           Rust를 설명하기 위해서는 딱 3가지 단어만 필요합니다. "안전, 효율,
@@ -51,7 +52,7 @@
     <div>
       <div>
         <div>
-          <h1>Rust의 단점</h1>
+          <h2>Rust의 단점</h2>
         </div>
         <div>
           <p>

@@ -62,16 +62,6 @@
 
     <QuadSpace />
 
-    <div>
-      <NuxtLink
-        :aria-label="allink"
-        to="./io-cpp"
-        style="text-decoration: none; float: right"
-      >
-        <v-btn :aria-label="albutt" class="ma-2" outlined>
-          Next<v-icon right> mdi-arrow-right-circle-outline </v-icon>
-        </v-btn>
-      </NuxtLink>
-    </div>
+    <Navigation aft="io-cpp" :single="true" />
   </div>
 </template>

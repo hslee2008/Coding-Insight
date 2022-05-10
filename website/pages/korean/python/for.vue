@@ -33,7 +33,11 @@
           예를 들어 1번째 반복에선 a의 첫 번째 값이 i에 들어갑니다.
         </p>
       </div>
-      <iframe :src="`${trinket}b3dec1798f`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}b3dec1798f`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -52,7 +56,12 @@
             range() 함수에 대한 더 자세한 내용은 조금 뒤 배우겠습니다.
           </p>
         </div>
-        <iframe :src="`${trinket}dab1cb41c0`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}dab1cb41c0`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -67,7 +76,12 @@
             else문 안에 있는 파이썬 코드를 실행합니다.
           </p>
         </div>
-        <iframe :src="`${trinket}4712475b5d`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}4712475b5d`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -110,7 +124,12 @@
             Done!!!을 출력합니다.
           </p>
         </div>
-        <iframe :src="`${trinket}9f190d6a4f`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}9f190d6a4f`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 

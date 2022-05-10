@@ -22,7 +22,11 @@
           기능이 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}069924886e`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}069924886e`"
+        height="356"
+      />
     </div>
 
     <br /><br />
@@ -47,7 +51,11 @@
         <h2>튜플 풀기</h2>
         <p>CODE1과 같이 튜플을 만들고 상자같이 풀 수 있습니다.</p>
       </div>
-      <iframe :src="`${trinket}8c81ff1498`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}8c81ff1498`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -67,7 +75,11 @@
             b = 3,
           </code>
         </p>
-        <iframe :src="`${trinket}0cc2f9e56d`" height="356" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}0cc2f9e56d`"
+          height="356"
+        />
       </div>
     </div>
 
@@ -85,7 +97,11 @@
           사용해야 합니다.
         </p>
       </div>
-      <iframe :src="`${trinket}1af130ab47`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}1af130ab47`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="zipping" aft="set" />

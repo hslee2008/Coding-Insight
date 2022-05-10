@@ -47,7 +47,11 @@
           조금 뒤에 배우겠습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}4f4507d894`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}4f4507d894`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -57,7 +61,11 @@
         <h2>chr()</h2>
         <p>반대로, chr()은 아스키코드를 알파벳으로 바꾸는 함수입니다.</p>
       </div>
-      <iframe :src="`${trinket}2f04cf1944`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}2f04cf1944`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="escapechar" aft="boolean" />

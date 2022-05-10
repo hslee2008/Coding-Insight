@@ -77,7 +77,11 @@
           <code v-highlight class="python"> print(addnum) </code>
         </p>
       </div>
-      <iframe :src="`${trinket}2a317b1dba`" height="500" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}2a317b1dba`"
+        height="500"
+      />
     </div>
 
     <Navigation bef="numtype" aft="nummethod" />

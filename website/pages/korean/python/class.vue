@@ -14,7 +14,11 @@
           수 있습니다.<br />
         </p>
       </div>
-      <iframe :src="`${trinket}725e856cf1`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}725e856cf1`"
+        height="356"
+      />
     </div>
 
     <Header type="파이썬" num="46" title="클래스" />
@@ -26,7 +30,12 @@
           첫 번째 예시는 딕셔너리와 같은 역할을 하고 있습니다.<br /><br />
           하지만 이제 __init__() 함수를 사용하면 딕셔너리와 비슷하게 변수를
           저장할 수 있습니다.<br /><br />
-          <iframe :src="`${trinket}1b58b7cdc3`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}1b58b7cdc3`"
+            height="356"
+            loading="lazy"
+          />
           <br /><br />먼저, 클래스 안에서 def __init__()이라고 선언한 후 안에
           self, name, age, gender 변수를 만들었습니다.<br /><br />
           self는 항상 첫 번째에 있어야 합니다.<br /><br />
@@ -55,7 +64,11 @@
           사용하여 값을 찾을 수 있습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}a1a4151531`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}a1a4151531`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

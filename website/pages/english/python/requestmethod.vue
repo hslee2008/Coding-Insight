@@ -14,7 +14,9 @@
           If 200 is printed, the request is a success.<br /><br />
 
           Note that all the status code can be read on
-          <a href="https://www.restapitutorial.com/httpstatuscodes.html"
+          <a
+            :aria-label="allink"
+            href="https://www.restapitutorial.com/httpstatuscodes.html"
             >Status Code</a
           >
           <br /><br />
@@ -26,7 +28,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}ae32425775`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}ae32425775`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -39,7 +46,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}30fb5ba090`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}30fb5ba090`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="request" aft="dundermethod" />
   </div>

@@ -17,7 +17,11 @@
         <h2>Declaring list</h2>
         <p>In Python, use [] to store items seperated by a comma(,).</p>
       </div>
-      <iframe :src="`${trinket}59634d0a4b`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}59634d0a4b`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -27,7 +31,12 @@
         <h2>List index</h2>
         <p>Similar to string index, we can access each item by using index.</p>
       </div>
-      <iframe :src="`${trinket}cc01e5b49a`" height="356" loading="lazy" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}cc01e5b49a`"
+        height="356"
+        loading="lazy"
+      />
     </div>
 
     <QuadSpace />

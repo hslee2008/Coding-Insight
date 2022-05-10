@@ -15,7 +15,11 @@
           Class is a template code.
         </p>
       </div>
-      <iframe :src="`${trinket}725e856cf1`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}725e856cf1`"
+        height="356"
+      />
     </div>
 
     <Header type="Python" num="46" title="Class" />
@@ -106,7 +110,11 @@
           To use the self variable, try 'self.variablename'.
         </p>
       </div>
-      <iframe :src="`${trinket}a1a4151531`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}a1a4151531`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

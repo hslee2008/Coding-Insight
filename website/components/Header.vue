@@ -8,7 +8,7 @@
         <v-icon> mdi-{{ notspeaking ? 'bullhorn' : 'pause-octagon' }} </v-icon>
       </v-btn>
       <v-btn
-        aria-label="Edit on GitHub"
+        aria-label="Edit on GitHub (opens in a new window)"
         icon
         :href="`https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/website/pages${
           $nuxt.$route.path + ($nuxt.$route.path.endsWith('/') ? 'index' : '')
@@ -18,7 +18,7 @@
         <v-icon>mdi-text-box-search-outline</v-icon>
       </v-btn>
       <v-btn
-        aria-label="Bug Report"
+        aria-label="Bug Report (opens in a new window)"
         icon
         :href="`https://github.com/HyunseungLee-Travis/Coding-Insight/issues/new?assignees=&labels=%F0%9F%90%9B&template=bug_report.md&title=%F0%9F%90%9B+Report+%F0%9F%90%9B (${$nuxt.$route.path})`"
         target="_blank"

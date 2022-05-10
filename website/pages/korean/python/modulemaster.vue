@@ -45,7 +45,11 @@
           하지만 이 방법을 사용하지 마세요! import OEM을 사용하면 더 좋습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}a487c1d3fb`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}a487c1d3fb`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

@@ -100,7 +100,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}a21ef7102c`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}a21ef7102c`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="name" aft="complexthread" />
   </div>

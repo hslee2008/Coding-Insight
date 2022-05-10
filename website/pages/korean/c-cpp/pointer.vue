@@ -57,7 +57,11 @@
         또한, 변수의 주소는 &를 사용하고 포인터를 출력할 때 %p를 사용합니다.<br /><br />
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47pe`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}47pe`"
+          height="300"
+        />
       </div>
     </div>
 
@@ -98,7 +102,11 @@
         주소로 바꿉니다.<br /><br />
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}47pf`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}47pf`"
+          height="300"
+        />
       </div>
     </div>
 

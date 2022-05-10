@@ -4,7 +4,7 @@
       Page not found {{ $nuxt.$route.path }}
     </h1>
     <h1 v-else>An error occurred</h1>
-    <NuxtLink to="/">Home page</NuxtLink>
+    <NuxtLink :aria-label="allink" to="/">Home page</NuxtLink>
   </div>
 </template>
 

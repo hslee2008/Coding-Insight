@@ -36,7 +36,11 @@
           Reall Done!"
         </p>
       </div>
-      <iframe :src="`${trinket}d14f421fa3`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}d14f421fa3`"
+        height="356"
+      />
     </div>
 
     <Header type="Python" num="74" title="Thread (Advanced)" />
@@ -79,7 +83,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}4b10ddd953`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}4b10ddd953`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="thread" aft="threadmethod" />
   </div>

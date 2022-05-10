@@ -25,7 +25,11 @@
           사용하세요.
         </p>
       </div>
-      <iframe :src="`${trinket}724bf9a522`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}724bf9a522`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -39,7 +43,12 @@
             파이썬 코드를 넣지 않아도 코드의 끝에 붙일 수 있습니다.
           </p>
         </div>
-        <iframe :src="`${trinket}ca6f756679`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}ca6f756679`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 

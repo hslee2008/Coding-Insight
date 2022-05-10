@@ -79,6 +79,7 @@
                   >
                     <v-card-title>
                       <a
+                        aria-label="Official Python Site (opens in a new window)"
                         href="https://www.python.org/downloads/"
                         target="_blank"
                         >Official Python Site</a

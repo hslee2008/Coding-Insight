@@ -36,7 +36,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}cc1e7a05d5`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}cc1e7a05d5`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -53,7 +58,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}ed6a6e6033`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}ed6a6e6033`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -66,7 +76,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}14b1f55e66`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}14b1f55e66`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -78,7 +93,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}c6fec3fdb7`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}c6fec3fdb7`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="array_shape" aft="error2" />
   </div>

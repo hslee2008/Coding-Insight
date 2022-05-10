@@ -26,6 +26,7 @@
       호출할 수 있습니다.<br /><br />
 
       <iframe
+        title="Rust Playground"
         :src="`${playrust}mod%20printing_module%20%7B%0D%0A%20%20pub%20fn%20print_hello_world()%20%7B%0D%0A%20%20%20%20println!(%22Hello%2C%20World%22)%3B%0D%0A%20%20%7D%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20%2F%2F%20%EC%9D%B4%EB%A0%87%EA%B2%8C%EB%8F%84%20%EA%B0%80%EB%8A%A5%0D%0A%20%20printing_module%3A%3Aprint_hello_world()%3B%0D%0A%0D%0A%20%20%2F%2F%20%EC%9D%B4%EA%B2%83%EB%8F%84%20%EA%B0%80%EB%8A%A5%0D%0A%20%20use%20printing_module%3A%3A%7B%0D%0A%20%20%20%20print_hello_world%0D%0A%20%20%7D%3B%0D%0A%0D%0A%20%20print_hello_world()%3B%0D%0A%7D`"
         height="450"
       />
@@ -33,6 +34,7 @@
       나만의 이름을 지정해서 사용하는 경우는 다음과 같습니다.<br /><br />
 
       <iframe
+        title="Rust Playground"
         :src="`${playrust}mod%20printing_module%20%7B%0D%0A%20%20pub%20fn%20print_hello_world()%20%7B%0D%0A%20%20%20%20println!(%22Hello%2C%20World%22)%3B%0D%0A%20%20%7D%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20%2F%2F%20%EC%9D%B4%EB%A0%87%EA%B2%8C%EB%8F%84%20%EA%B0%80%EB%8A%A5%0D%0A%20%20printing_module%3A%3Aprint_hello_world()%3B%0D%0A%0D%0A%20%20%2F%2F%20%EC%9D%B4%EA%B2%83%EB%8F%84%20%EA%B0%80%EB%8A%A5%0D%0A%20%20use%20printing_module%3A%3A%7B%0D%0A%20%20%20%20print_hello_world%20as%20phw%0D%0A%20%20%7D%3B%0D%0A%0D%0A%20%20phw()%3B%0D%0A%7D`"
         height="450"
       />
@@ -51,6 +53,7 @@
       <code v-highlight class="rust ic">*</code>를 사용해도 됩니다.<br /><br />
 
       <iframe
+        title="Rust Playground"
         :src="`${playrust}mod%20printing_module%20%7B%0D%0A%20%20pub%20fn%20print_hello_world()%20%7B%0D%0A%20%20%20%20println!(%22Hello%2C%20World!%22)%3B%0D%0A%20%20%7D%0D%0A%0D%0A%20%20pub%20fn%20do_this()%20%7B%0D%0A%20%20%20%20println!(%22Do%2C%20This!%22)%3B%0D%0A%20%20%7D%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20use%20printing_module%3A%3A*%3B%0D%0A%0D%0A%20%20print_hello_world()%3B%0D%0A%20%20do_this()%3B%0D%0A%7D`"
         height="400"
       />

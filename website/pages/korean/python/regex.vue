@@ -34,7 +34,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}6b78aaf023`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}6b78aaf023`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -48,7 +53,11 @@
           </p>
         </div>
       </div>
-      <iframe :src="`${trinket}6d2e182407`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}6d2e182407`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

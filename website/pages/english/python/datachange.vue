@@ -27,7 +27,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}b8df2e09d4`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}b8df2e09d4`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -46,7 +51,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}facd314b6c`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}facd314b6c`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -73,7 +82,11 @@
           NaN is short for Not a Number.
         </p>
       </div>
-      <iframe :src="`${trinket}cf87c918cc`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}cf87c918cc`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -95,7 +108,11 @@
           0 is False and the rest of the number is True.
         </p>
       </div>
-      <iframe :src="`${trinket}314b0e422c`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}314b0e422c`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

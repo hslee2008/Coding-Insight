@@ -46,7 +46,11 @@
           We have to use list(mainDict.keys()) to make them into lists.
         </p>
       </div>
-      <iframe :src="`${trinket}1e671b6947`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}1e671b6947`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -72,7 +76,11 @@
           lists.
         </p>
       </div>
-      <iframe :src="`${trinket}1e671b6947`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}1e671b6947`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="contact" aft="dictionarymethod" />

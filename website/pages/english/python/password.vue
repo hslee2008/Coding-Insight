@@ -55,7 +55,7 @@
     <QuadSpace />
 
     <h2>Check out the program</h2>
-    <iframe :src="`${trinket}78247d771c`" height="356" />
+    <iframe title="Trinket Python" :src="`${trinket}78247d771c`" height="356" />
 
     <Navigation bef="stringmethod2" aft="escapechar" />
   </div>

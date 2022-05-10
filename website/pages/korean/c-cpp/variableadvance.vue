@@ -45,7 +45,11 @@
         </p>
       </div>
       <div>
-        <iframe :src="`${jdoodle}3VTG`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VTG`"
+          height="300"
+        />
       </div>
     </div>
 
@@ -78,7 +82,11 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}3VTI`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}3VTI`"
+          height="300"
+        />
       </div>
     </div>
 

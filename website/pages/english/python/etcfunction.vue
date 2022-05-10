@@ -22,7 +22,11 @@
           quit() and exit() is exactly same.
         </p>
       </div>
-      <iframe :src="`${trinket}8b75210243`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}8b75210243`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -59,7 +63,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}ea0c810c1a`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}ea0c810c1a`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="oneliner" aft="module" />

@@ -27,7 +27,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}b6c75a2237`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}b6c75a2237`"
+      height="356"
+      loading="lazy"
+    />
     <Navigation bef="pythondecorator" aft="asynchronous" />
   </div>
 </template>

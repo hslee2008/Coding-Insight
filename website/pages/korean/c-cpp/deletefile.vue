@@ -41,7 +41,11 @@
         </p>
       </div>
       <div class="ma-auto">
-        <iframe :src="`${jdoodle}48mx`" height="300" />
+        <iframe
+          title="JDoodle C and CPP"
+          :src="`${jdoodle}48mx`"
+          height="300"
+        />
       </div>
     </div>
 

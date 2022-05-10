@@ -55,7 +55,12 @@
               </code>
             </p>
           </div>
-          <iframe :src="`${trinket}31f75bee24`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}31f75bee24`"
+            height="356"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>

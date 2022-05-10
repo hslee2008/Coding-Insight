@@ -40,8 +40,9 @@
       </code>
 
       계정에서 먼저 파이썬이 로그인을 하는 것을 허락해야합니다.
-      <a href="https://myaccount.google.com/lesssecureapps">설정</a>에서 허락을
-      누르세요.<br /><br />
+      <a :aria-label="allink" href="https://myaccount.google.com/lesssecureapps"
+        >설정</a
+      >에서 허락을 누르세요.<br /><br />
 
       만일 구글이 당신의 계정을 블록킹 했다면 다른 계정으로 하세요. 참고로 그
       계정과 밑에 있는 코드의 계정 이메일이 일치해야합니다.
@@ -49,7 +50,12 @@
 
     <QuadSpace />
 
-    <iframe :src="`${trinket}db9f325b98`" height="500vh" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}db9f325b98`"
+      height="500vh"
+      loading="lazy"
+    />
 
     <Navigation bef="coroutine" aft="autozoom" />
   </div>

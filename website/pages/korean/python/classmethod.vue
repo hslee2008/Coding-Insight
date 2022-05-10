@@ -28,7 +28,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}e0b362c25c`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}e0b362c25c`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -45,7 +50,12 @@
             gender)를 init 메서드 안에 넣을 수 있습니다.
           </p>
         </div>
-        <iframe :src="`${trinket}8e1797ce82`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}8e1797ce82`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -59,7 +69,12 @@
         </div>
       </div>
     </div>
-    <iframe :src="`${trinket}e9f98d6de4`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}e9f98d6de4`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -84,7 +99,12 @@
         </div>
       </div>
     </div>
-    <iframe :src="`${trinket}45cfee23ee`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}45cfee23ee`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="class" aft="math" />
   </div>

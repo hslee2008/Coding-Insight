@@ -14,7 +14,11 @@
           않고 숫자만 이용하여 카운터를 만드는 것이 가능합니다.
         </p>
       </div>
-      <iframe :src="`${trinket}da3dfe80d1`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}da3dfe80d1`"
+        height="356"
+      />
     </div>
 
     <Header type="파이썬" num="77" title="카원터" />
@@ -30,7 +34,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}1784ae1aca`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}1784ae1aca`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -45,7 +54,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}6776498f90`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}6776498f90`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -59,7 +73,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}f918534c52`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}f918534c52`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 

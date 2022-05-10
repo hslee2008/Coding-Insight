@@ -26,7 +26,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}db03626a7c`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}db03626a7c`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

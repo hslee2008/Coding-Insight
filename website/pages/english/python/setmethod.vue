@@ -58,7 +58,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}f16d8554a4`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}f16d8554a4`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -99,7 +103,12 @@
             to find the intersection of two sets.
           </p>
         </div>
-        <iframe :src="`${trinket}bdb3068e9e`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}bdb3068e9e`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -133,7 +142,11 @@
           </code>
         </p>
       </div>
-      <iframe :src="`${trinket}a69bea0190`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}a69bea0190`"
+        height="356"
+      />
     </div>
 
     <Navigation bef="set" aft="if" />

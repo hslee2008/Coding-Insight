@@ -82,7 +82,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}867aac4aa9`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}867aac4aa9`"
+      height="356"
+      loading="lazy"
+    />
 
     <QuadSpace />
 
@@ -115,7 +120,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}659cf1cdb5`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}659cf1cdb5`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="mapandreduceandfilter" aft="mydecorator" />
   </div>

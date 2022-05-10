@@ -22,7 +22,12 @@
             매개변수의 이름입니다.
           </p>
         </div>
-        <iframe :src="`${trinket}901f63378a`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}901f63378a`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />
@@ -39,7 +44,12 @@
               정할 수 있습니다.
             </p>
           </div>
-          <iframe :src="`${trinket}095fe5cab9`" height="356" loading="lazy" />
+          <iframe
+            title="Trinket Python"
+            :src="`${trinket}095fe5cab9`"
+            height="356"
+            loading="lazy"
+          />
         </div>
       </div>
 
@@ -58,12 +68,22 @@
             'return' 키워드 다음에 나오는 코드는 다 무시됩니다. 그 이유는
             'return' 키워드를 실행하면 함수가 바로 종료합니다.<br /><br />
 
-            <iframe :src="`${trinket}981bc3174e`" height="356" loading="lazy" />
+            <iframe
+              title="Trinket Python"
+              :src="`${trinket}981bc3174e`"
+              height="356"
+              loading="lazy"
+            />
 
             <br /><br />return 키워드에서 하나 이상 변수를 되돌려주는 방법이
             있습니다. 파이썬에서만 존재하는 기능입니다.<br /><br />
 
-            <iframe :src="`${trinket}aa6a155d5a`" height="356" loading="lazy" />
+            <iframe
+              title="Trinket Python"
+              :src="`${trinket}aa6a155d5a`"
+              height="356"
+              loading="lazy"
+            />
           </p>
         </div>
       </div>
@@ -78,7 +98,12 @@
             사용할 수 있습니다.
           </p>
         </div>
-        <iframe :src="`${trinket}80ed8ae473`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}80ed8ae473`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 

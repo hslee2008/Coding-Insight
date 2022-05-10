@@ -35,7 +35,12 @@
         </p>
       </div>
     </div>
-    <iframe :src="`${trinket}4f89284925`" height="356" loading="lazy" />
+    <iframe
+      title="Trinket Python"
+      :src="`${trinket}4f89284925`"
+      height="356"
+      loading="lazy"
+    />
 
     <Navigation bef="complexthread" aft="multiprocessing" />
   </div>

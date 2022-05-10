@@ -33,7 +33,12 @@
           json.loads() 메서드 안에 JSON 데이터 형태를 입력하면 파이썬 딕셔너리로
           전환됩니다.
         </p>
-        <iframe :src="`${trinket}0812d9740b`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}0812d9740b`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
@@ -47,7 +52,11 @@
           이용해보겠습니다.
         </p>
       </div>
-      <iframe :src="`${trinket}efb76f8dd2`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}efb76f8dd2`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -76,7 +85,11 @@
           print(json.dumps(someJson, seperator=(". ", "==>")))
         </code>
       </div>
-      <iframe :src="`${trinket}efb76f8dd2`" height="200" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}efb76f8dd2`"
+        height="200"
+      />
     </div>
 
     <Navigation bef="pip" aft="array" />

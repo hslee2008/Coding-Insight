@@ -29,7 +29,11 @@
           value of the variable.
         </p>
       </div>
-      <iframe :src="`${trinket2}a5d980683b`" height="356" />
+      <iframe
+        title="Trinket2 Python"
+        :src="`${trinket2}a5d980683b`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />
@@ -75,7 +79,11 @@
         <h2>Change variable value</h2>
         <p>To change the variable's value, simply type in a new value.</p>
       </div>
-      <iframe :src="`${trinket}ddd8867b8c`" height="356" />
+      <iframe
+        title="Trinket Python"
+        :src="`${trinket}ddd8867b8c`"
+        height="356"
+      />
     </div>
 
     <QuadSpace />

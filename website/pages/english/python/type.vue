@@ -24,7 +24,12 @@
             will be a string and that the return value is a string.
           </p>
         </div>
-        <iframe :src="`${trinket}215ca4e0af`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}215ca4e0af`"
+          height="356"
+          loading="lazy"
+        />
       </div>
 
       <QuadSpace />
@@ -64,7 +69,12 @@
             </code>
           </p>
         </div>
-        <iframe :src="`${trinket}a5ed372467`" height="356" loading="lazy" />
+        <iframe
+          title="Trinket Python"
+          :src="`${trinket}a5ed372467`"
+          height="356"
+          loading="lazy"
+        />
       </div>
     </div>
 
