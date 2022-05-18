@@ -2,35 +2,42 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import CodeBlock from '@theme/CodeBlock';
+import GitHubButton from 'react-github-btn';
+import classNames from 'classnames';
 
 import styles from './index.module.css';
-
-function HeroButtons() {
-  return (
-    <div className={styles.HeroButtons}>
-      <a
-        className="button button--primary button--lg"
-        href="/docs/getting-started/"
-      >
-        시작하기
-      </a>
-      <a class="button black-text" href="/docs/getting-started/">
-        어디서 시작할까요 ›
-      </a>
-    </div>
-  );
-}
 
 function HeroHeader() {
   return (
     <header className={styles.Hero}>
+      <GitHubButton
+        href="https://github.com/HyunseungLee-Travis/Coding-Insight"
+        data-icon="octicon-star"
+        data-size="large"
+        data-show-count="true"
+        aria-label="Star HyunseungLee-Travis/Coding-Insight on GitHub"
+      >
+        Star
+      </GitHubButton>
+
       <div className={styles.HeroContainer}>
-        <CodeBlock className="language-python codeblock">
-          print("Learning from Coding-Insight")
-        </CodeBlock>
-        <h1 className="hero__title">Coding-Insight</h1>
-        <p className="hero__subtitle">Learn, Practice, Build and Deploy</p>
-        <HeroButtons />
+        <h1 className={styles.HeroTitle}>Coding-Insight</h1>
+        <p className={styles.HeroSubTitle}>Learn, Practice, Build and Deploy</p>
+
+        <div className={styles.HeroButtons}>
+          <a
+            className={classNames('button', ' button--lg', styles.HeroButton)}
+            href="/docs/getting-started/"
+          >
+            시작하기
+          </a>
+          <a
+            className={classNames('button', styles.blackText)}
+            href="/docs/getting-started/"
+          >
+            어디서 시작할까요 ›
+          </a>
+        </div>
       </div>
     </header>
   );
@@ -40,13 +47,14 @@ function Entry() {
   return (
     <main>
       <div className={styles.Entry}>
+        <img
+          alt="Entry"
+          src="https://playentry.org/img/defaultOgImage.png"
+          width="300px"
+          className={styles.EntryImage}
+        />
+
         <div>
-          <img
-            alt="Entry"
-            src="https://playentry.org/img/defaultOgImage.png"
-            width="300px"
-            class={styles.EntryImage}
-          />
           <h2>블록코딩을 넘어서 텍스트 코딩으로!</h2>
           <p>
             블록코딩을 넘어서 파이썬으로! 엔트리라고 들어보신적 있으신가요?
@@ -77,9 +85,9 @@ function IntroVideo() {
         height="315"
         src="https://www.youtube.com/embed/ya7Ud1tTpag"
         title="YouTube video player"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
         className={styles.IntroVideo}
       />
     </div>
@@ -96,7 +104,6 @@ export default function Home() {
       <HeroHeader />
       <Entry />
       <IntroVideo />
-      <HeroButtons />
     </Layout>
   );
 }

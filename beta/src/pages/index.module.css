@@ -1,58 +1,46 @@
-.Entry {
+.Hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  padding: 20px;
-  background-color: var(--ifm-color-very-light);
-  border-radius: 5px;
-  margin-top: 20px;
+  align-items: center;
+  padding: 5rem;
+  background-color: #292c35;
 }
 
-.EntryImage {
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 10px;
-  margin-bottom: 10px;
+.GithubButtonStart {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .HeroContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 30px;
 }
 
-.HeroButtons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 50px;
+.HeroTitle {
+  color: var(--ifm-color-onlydark-primary);
+  font-weight: bold;
+  line-height: 1;
+  font-size: 60px;
 }
 
-.IntroVideo {
-  border-radius: 10px;
-  margin: 10px;
+.HeroSubTitle {
+  font-weight: bold;
+  line-height: 1.3;
+  font-size: 30px;
+  color: white;
 }
 
-@media only screen and (max-width: 615px) {
-  .IntroVideo {
-    width: 280px;
-    height: 157.5px;
-    border-radius: 10px;
-    margin: 10px;
-  }
+.HeroButton {
+  background-color: var(--ifm-color-onlydark-primary);
+  color: black;
 }
 
-.IntroVideoWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  margin-top: 30px;
+.blackText {
+  color: var(--ifm-color-onlydark-primary);
+}
+
+.blackText:hover {
+  color: var(--ifm-color-onlydark-primary);
+  text-decoration: underline;
 }

@@ -51,9 +51,9 @@ const config = {
       announcementBar: {
         id: 'newlook',
         content: '🚀 저희 사이트는 새로운 모습으로 변했습니다!',
-        backgroundColor: '#EBFBF6',
-        textColor: '#091E42',
-        isCloseable: true,
+        backgroundColor: '#20232a',
+        textColor: '#fff',
+        isCloseable: false,
       },
       image: 'img/coding-insight',
       colorMode: {
@@ -62,7 +62,6 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        hideOnScroll: true,
         title: 'Coding-Insight',
         logo: {
           alt: 'Coding-Insight Logo Logo',
@@ -74,8 +73,8 @@ const config = {
           { to: '/docs/rust', label: 'Rust', position: 'left' },
           {
             href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
-            label: 'GitHub',
             position: 'right',
+            className: 'navbar-github-link',
           },
         ],
       },
