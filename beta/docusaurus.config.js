@@ -61,7 +61,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: '/docs/파이썬', label: '파이썬', position: 'left' },
+          { to: '/docs/python', label: '파이썬', position: 'left' },
           { to: '/docs/c-cpp', label: 'C/C++', position: 'left' },
           { to: '/docs/rust', label: 'Rust', position: 'left' },
           {
@@ -79,7 +79,7 @@ const config = {
             items: [
               {
                 label: '파이썬',
-                to: '/docs/파이썬',
+                to: '/docs/python',
               },
               {
                 label: 'C/C++',
@@ -130,6 +130,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: [ 'rust' ],
       },
     }),
 };

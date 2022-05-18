@@ -2,46 +2,49 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Coding-Insight에서 시작하기
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Coding-Insight에 대해 1분만에 어디에서 시작할지 알아보겠습니다.
+## 시작하기
 
-## Getting Started
+Coding-Insight에는 총 4개의 언어를 설명하는 페이지가 있습니다.
 
-Get started by **creating a new site**.
+> Python, C, C++, Rust
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+각 언어에 대해 조금 알아보고 어디에서 시작할지 생각해 보겠습니다.
 
-### What you'll need
+## 파이썬
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+[파이썬](/docs/python)은 처음으로 프로그래밍을 하는 사람들을 위해 디자인된 언어입니다.
 
-## Generate a new site
+다른 언어들과 달리 매우 간단하고 누구나 이해할 수 있는 형태를 가지고 있습니다.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```python
+print("파이썬 프로그래밍 언어부터 시작할까요?")
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## C/C++
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+[C아 C++](/docs/c-cpp)은 40년 이상 개발자들과 같이 진화해 왔던 프로그래밍 언어입니다.
 
-## Start your site
+개발자들에게 모든 일을 넘겨주어서 설정, 메모리 다루기 등 다양한 활동이 다 개발자가 해야하는 일이 됩니다.
 
-Run the development server:
+파이썬 같은 경우는 다 파이썬 프로그램이 다 자동화하여 실행하긴 합니다.
 
-```bash
-cd my-website
-npm run start
+```c
+printf("C 언어도 좋습니다");
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+```cpp
+cout << "C++은 C 언어보다 더 기능이 많이 들어 있는 프로그래밍 언어입니다";
+```
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## Rust
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+[Rust](/docs/rust)는 대부분의 개발자들이 미래의 프로그래밍 언어라고 생각할 정도로 발전을 많이 했는데...
+
+다른 프로그래밍 언어와 달리 매우 이해하기 어렵기 때문에 먼저 이 언어를 배우는 것은 권장하지 않습니다.
+
+```rust
+println!("Rust는 어렵습니다. 하지만 재미있습니다")
+```
