@@ -48,14 +48,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'newlook',
-        content: '🚀 저희 사이트는 새로운 모습으로 변했습니다!',
-        backgroundColor: '#20232a',
-        textColor: '#fff',
-        isCloseable: false,
-      },
-      image: 'img/coding-insight',
+      image: 'img/coding-insight.png',
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
@@ -74,7 +67,7 @@ const config = {
           {
             href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
             position: 'right',
-            className: 'navbar-github-link',
+            className: 'header-github-link',
           },
         ],
       },

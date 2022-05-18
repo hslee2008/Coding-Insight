@@ -1,16 +1,15 @@
-.Hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem;
-  background-color: #292c35;
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 100px;
 }
 
-.GithubButtonStart {
-  position: absolute;
-  top: 0;
-  right: 0;
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
 }
 
 .HeroContainer {
@@ -18,29 +17,85 @@
 }
 
 .HeroTitle {
-  color: var(--ifm-color-onlydark-primary);
+  color: var(--ifm-color-primary);
   font-weight: bold;
   line-height: 1;
   font-size: 60px;
 }
 
 .HeroSubTitle {
-  font-weight: bold;
-  line-height: 1.3;
-  font-size: 30px;
-  color: white;
+  font-size: 1.5rem;
+}
+
+.HeroContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeroButton,
+.GettingStarted {
+  border: double 4px transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 0;
+  width: 100%;
+  margin: 5px;
+  transition: 0.2s;
+  color: var(--ifm-hero-text-color) !important;
+}
+
+.HeroButton:hover,
+.GettingStarted:hover {
+  color: var(--ifm-hero-background-color) !important;
 }
 
 .HeroButton {
-  background-color: var(--ifm-color-onlydark-primary);
-  color: black;
+  background-image: linear-gradient(
+      var(--ifm-hero-background-color),
+      var(--ifm-hero-background-color)
+    ),
+    radial-gradient(circle at top left, #0198f1, #48f9c7);
 }
 
-.blackText {
-  color: var(--ifm-color-onlydark-primary);
+.HeroButton:hover {
+  background-image: linear-gradient(transparent, transparent),
+    radial-gradient(circle at top left, #0198f1, #48f9c7);
 }
 
-.blackText:hover {
-  color: var(--ifm-color-onlydark-primary);
-  text-decoration: underline;
+.GettingStarted {
+  background-image: linear-gradient(
+      var(--ifm-hero-background-color),
+      var(--ifm-hero-background-color)
+    ),
+    radial-gradient(circle at top left, #fff04d, #ff8e13);
+}
+
+.GettingStarted:hover {
+  background-image: linear-gradient(transparent, transparent),
+    radial-gradient(circle at top left, #fff04d, #ff8e13);
+}
+
+.HeroButton span,
+.GettingStarted span {
+  padding: 10px;
+  display: inline-block;
+  font-size: 1.6em;
+}
+
+.IntroVideoWrapper {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IntroVideo {
+  border-radius: 10px;
+}
+
+.Badges {
+  text-align: center;
+  margin-bottom: 200px;
+  margin-top: 100px;
 }
