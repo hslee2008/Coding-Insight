@@ -111,7 +111,7 @@ function HeroHeader() {
                   ' button--lg',
                   styles.HeroButton,
                 )}
-                to="/docs/getting-started/"
+                to="/docs/python/"
               >
                 <span>시작하기</span>
               </Link>
