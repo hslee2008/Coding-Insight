@@ -135,26 +135,6 @@ function HeroHeader() {
   );
 }
 
-function IntroVideo() {
-  return (
-    <div className={styles.IntroVideoWrapper}>
-      <div>
-        <h1>인트로 비디오</h1>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/ya7Ud1tTpag"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className={styles.IntroVideo}
-        />
-      </div>
-    </div>
-  );
-}
-
 function Features() {
   return (
     features &&
@@ -190,7 +170,6 @@ export default function Home() {
     >
       <HeroHeader />
       <Features />
-      <IntroVideo />
     </Layout>
   );
 }
