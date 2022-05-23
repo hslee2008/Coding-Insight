@@ -130,9 +130,71 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: [ 'rust' ],
+        additionalLanguages: ['rust'],
       },
     }),
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        // @ts-ignore
+        debug: process.env.NODE_ENV === 'development',
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'saveData',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/pwa/96x96.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/pwa/favicon-apple-touch-icon.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/pwa/144x144.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/pwa/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#0F0F0F',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#0F0F0F',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/pwa/256x256.svg',
+            color: '#0F0F0F',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-dTileColor',
+            content: '#0F0F0F',
+          },
+        ],
+      },
+    ],
+  ],
 };
 
 module.exports = config;

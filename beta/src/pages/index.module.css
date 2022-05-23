@@ -98,6 +98,13 @@
   margin-bottom: 50px;
 }
 
+.blockCodingDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
