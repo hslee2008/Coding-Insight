@@ -13,7 +13,7 @@ id: 'comment'
 
 <iframe src="https://www.youtube.com/embed/nJg2uCjwKa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 🗨️ 주석을 사용해야 하는 상황
+## 주석을 사용해야 하는 상황
 
 1. 팀으로 일할 때 코드의 부분의 기능을 설명할 때
 
@@ -23,7 +23,7 @@ id: 'comment'
 
 <iframe src="https://trinket.io/embed/python/450cb9ddc1" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-## ↔️ 한 줄 주석
+## 한 줄 주석
 
 파이썬에서는 주석을 달기 위하여 `#`를 사용합니다.
 
@@ -35,7 +35,7 @@ id: 'comment'
 
 <iframe src="https://trinket.io/embed/python/5f18131ec9" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-## 🗂️ 한 줄 이상 주석
+## 한 줄 이상 주석
 
 주석을 많이 작성하거나 하나 이상 줄을 만들고 싶다면 다음과 같은 방법을 사용할 수 있습니다.
 

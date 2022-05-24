@@ -3,7 +3,7 @@ sidebar_position: 8
 id: 'madlibs'
 ---
 
-# 매드립 게임
+# 매드립 게임 프로젝트
 
 매드립스는 빈칸이 있는 곳에 단어들을 넣으며 문장을 만들어 나가는 게임입니다.
 
@@ -11,7 +11,7 @@ id: 'madlibs'
 
 ![Mad Libs](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUnR3OVF_3m7noHBoE4X3o7t7id6ONlGD60g&usqp=CAU)
 
-## 🏗️ 만드는 방법
+##️ 만드는 방법
 
 어떻게 매드립스 게임을 만들지 알아보겠습니다.
 
@@ -19,7 +19,7 @@ id: 'madlibs'
 2. 다음, 사용자의 입력을 input()을 사용해 받을 것입니다.
 3. 마지막으로 그 입력을 빈칸에 넣어 문장을 완성하고 출력할 것입니다.
 
-## 🎮 게임 만들기
+## 게임 만들기
 
 1. 빈 칸이 들어 있는 문장 만들기
    - sentence라는 변수 안에 "Roses are ?. Violets are ?. And I like ?."라는 문장을 저장하겠습니다.
@@ -54,6 +54,6 @@ finish = sentence.format(fw, sw, tw)
 print(finish)
 ```
 
-## ✔️ 확인하기
+##️ 확인하기
 
 <iframe src="https://trinket.io/embed/python3/e1d336381d" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -54,9 +54,3 @@ iframe {
   height: 50vh;
   opacity: 0.8;
 }
-
-@media only screen and (max-width: 400px) {
-  iframe {
-    height: 20vh !important;
-  }
-}

@@ -13,7 +13,7 @@ id: 'variable'
 
 <iframe src="https://www.youtube.com/embed/Qu5_eBK6OkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 📛 변수 선언하기
+## 변수 선언하기
 
 변수를 만들려면 다음과 같은 방법을 사용할 수 있습니다.
 
@@ -27,7 +27,7 @@ name = data
 
 <iframe src="https://trinket.io/embed/python/a5d980683b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-## 🧰 변수 사용 방법
+## 변수 사용 방법
 
 변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이 출력되지 않고 변수의 값이 출력됩니다.
 
@@ -40,7 +40,7 @@ print(name) #John이 출력됩니다.
 
 NAME과 name은 대문자와 수문자가 다르기 때문에 다른 변수입니다.
 
-## 📘 변수 이름을 만들때 규칙
+## 변수 이름을 만들때 규칙
 
 변수를 만들 때 매우 다양한 규칙이 있습니다.
 

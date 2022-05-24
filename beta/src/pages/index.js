@@ -87,7 +87,7 @@ function HeroButton() {
           <div className="col col--4 col--offset-2">
             <Link
               className={classNames('button', ' button--lg', styles.HeroButton)}
-              to="/docs/python/"
+              to="/docs/python/start/python"
             >
               <span>시작하기</span>
             </Link>

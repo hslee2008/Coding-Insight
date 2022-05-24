@@ -1,6 +1,4 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -54,6 +52,13 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
+      announcementBar: {
+        id: 'rc',
+        content: '🚀 새로운 Coding-Insight 버전이 출시되었습니다 🚀',
+        backgroundColor: 'var(--ifm-color-primary)',
+        textColor: 'var(--ifm-button-color)',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Coding-Insight',
         logo: {
@@ -70,6 +75,10 @@ const config = {
                 label: '코딩 인사이트에 대해',
                 to: 'about',
               },
+              {
+                label: '인트로 비디오',
+                href: 'https://www.youtube.com/watch?v=ya7Ud1tTpag',
+              },
             ],
           },
           {
@@ -81,7 +90,7 @@ const config = {
             label: '프로그래밍 언어',
             position: 'left',
             items: [
-              { to: '/docs/python', label: '파이썬' },
+              { to: '/docs/python/start/python', label: '파이썬' },
               { to: '/docs/c-cpp', label: 'C/C++' },
               { to: '/docs/rust', label: 'Rust' },
             ],
@@ -105,7 +114,7 @@ const config = {
             items: [
               {
                 label: '파이썬',
-                to: '/docs/python',
+                to: '/docs/python/start/python',
               },
               {
                 label: 'C/C++',
@@ -123,6 +132,10 @@ const config = {
               {
                 label: 'Contributors',
                 href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/graphs/contributors',
+              },
+              {
+                label: 'Contributing',
+                href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/blob/main/CONTRIBUTING.md',
               },
             ],
           },
@@ -174,7 +187,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/pwa/96x96.png',
+            href: '/beta/pwa/96x96.png',
           },
           {
             tagName: 'meta',
@@ -184,17 +197,17 @@ const config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/pwa/favicon-apple-touch-icon.png',
+            href: '/beta/pwa/favicon-apple-touch-icon.png',
           },
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            content: '/pwa/144x144.png',
+            content: '/beta/pwa/144x144.png',
           },
           {
             tagName: 'link',
             rel: 'manifest',
-            href: '/pwa/manifest.json',
+            href: '/beta/pwa/manifest.json',
           },
           {
             tagName: 'meta',
@@ -209,7 +222,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/pwa/256x256.svg',
+            href: '/beta/pwa/256x256.svg',
             color: '#0F0F0F',
           },
           {

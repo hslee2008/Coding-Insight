@@ -17,7 +17,7 @@ weather = "대체로 흐림"
 
 <iframe src="https://www.youtube.com/embed/DDrOcpflWDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 🔍 데이터 형태 찾기
+## 데이터 형태 찾기
 
 저희는 파이썬에서 `type()` 함수를 사용하여 변수의 데이터 형태를 알 수 있습니다.
 
@@ -29,7 +29,7 @@ print(type("안녕"))
 
 <iframe src="https://trinket.io/embed/python/1068ac5668" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-## ☑️ 데이터 형태 확인
+##️ 데이터 형태 확인
 
 `isinstance()`는 변수의 데이터 형태를 확인해주는 함수입니다.
 

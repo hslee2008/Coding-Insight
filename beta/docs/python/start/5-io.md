@@ -7,7 +7,7 @@ id: 'io'
 
 <iframe src="https://www.youtube.com/embed/QXtsTPcvuqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 🖨️ 출력
+##️ 출력
 
 대부분의 사람들은 '출력하다'라는 단어를 들으면 '프린트하다'를 생각합니다.
 
@@ -22,7 +22,7 @@ print('5')
 print('!@#$')
 ```
 
-## 🔣 입력
+## 입력
 
 프로그래밍에서 정보를 입력한다는 것은 사용자가 특정한 정보를 콘솔에 넣고 그것을 저장하는 작업을 뜻합니다.
 

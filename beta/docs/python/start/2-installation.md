@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-id: "installation"
+id: 'installation'
 ---
 
 # 파이썬 설치
@@ -9,7 +9,7 @@ id: "installation"
 
 이 프로그램은 파이썬 [공식 사이트](https://www.python.org/downloads/)에서 확인할 수 있습니다.
 
-## 🖥️ 컴파일러 설치
+## 컴파일러 설치
 
 ### Download Python 버튼 누르기
 
@@ -35,16 +35,17 @@ id: "installation"
 
 ![끝내기](/img/python/installation/setup_finished.png)
 
-## ⚙️ 옵션들 설명
-| 옵션 이름 | 설명 |
-|---|---|
-| Add Python 3.10 to PATH | 파이썬을 컴퓨터에서 실행하기 위한 옵션 |
-| Documentation | 파이썬 오프라인 서류 다운로드 옵션 |
-| PIP | 파이썬 도구 설치 도움이 |
-| tcl/tck and IDLE | 파이썬 GUI와 간단히 파이썬 실행 도움이 |
-| Python test suite | 파이썬 테스트 도구 |
-| py launcher | 파이썬 파일 실행 도움이
-| Install for all users | 컴퓨터 사용자가 모두 사용할 수 있게 |
-| Associate files with Python (requires the py launcher) | 파이썬 파일을 파이썬으로 실행 |
-| Create shortcuts for intalled applications | 파이썬 앱을 위해 바로가기 만들기 |
-| Precompile standard library | 파이썬 도구 미리 컴파일하기 |
+## 옵션들 설명
+
+| 옵션 이름                                              | 설명                                   |
+| ------------------------------------------------------ | -------------------------------------- |
+| Add Python 3.10 to PATH                                | 파이썬을 컴퓨터에서 실행하기 위한 옵션 |
+| Documentation                                          | 파이썬 오프라인 서류 다운로드 옵션     |
+| PIP                                                    | 파이썬 도구 설치 도움이                |
+| tcl/tck and IDLE                                       | 파이썬 GUI와 간단히 파이썬 실행 도움이 |
+| Python test suite                                      | 파이썬 테스트 도구                     |
+| py launcher                                            | 파이썬 파일 실행 도움이                |
+| Install for all users                                  | 컴퓨터 사용자가 모두 사용할 수 있게    |
+| Associate files with Python (requires the py launcher) | 파이썬 파일을 파이썬으로 실행          |
+| Create shortcuts for intalled applications             | 파이썬 앱을 위해 바로가기 만들기       |
+| Precompile standard library                            | 파이썬 도구 미리 컴파일하기            |

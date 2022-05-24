@@ -9,7 +9,7 @@ VSCode를 사용해보겠습니다.
 
 VSCode는 파이썬 코드를 편집하는 과정을 쉽게 만들어주는 컴퓨터 앱입니다.
 
-## 🖱️ VSCode 프로그램 설치
+## VSCode 프로그램 설치
 
 ### 다운로드 페이지
 
@@ -37,7 +37,7 @@ VSCode는 파이썬 코드를 편집하는 과정을 쉽게 만들어주는 컴�
 
 ![끝내기](/img/python/vscode/vscode_finished.png)
 
-## 🔨 필요한 추가 도구 설치
+## 필요한 추가 도구 설치
 
 ### <kbd>CTRL + SHIFT + X</kbd> 누르기 (또는 큐브)
 
@@ -51,7 +51,7 @@ VSCode는 파이썬 코드를 편집하는 과정을 쉽게 만들어주는 컴�
 
 ![파이썬 익스텐션 Code Runner](/img/python/vscode/code_runner_extension_install.png)
 
-## 🌎 VSCode에서 파이썬 프로그래밍 시작
+## VSCode에서 파이썬 프로그래밍 시작
 
 ### 파일 버튼 누리고 폴더 선택 버튼 누르기
 

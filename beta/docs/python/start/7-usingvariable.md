@@ -9,7 +9,7 @@ id: 'usingvariable'
 
 <iframe src="https://www.youtube.com/embed/Qu5_eBK6OkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 💹 변수 값 바꾸기
+## 변수 값 바꾸기
 
 변수에 저장된 값을 바꾸기 위하여 저희는 먼저 변수를 선언하겠습니다.
 
@@ -19,7 +19,7 @@ id: 'usingvariable'
 
 <iframe src="https://trinket.io/embed/python/4745a3ecb9" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-## ❌ 변수 삭제하기
+## 변수 삭제하기
 
 변수가 더 이상 필요 없고 이 코드가 실행되고 있는 기기에 저장 공간이 많이 없다면 삭제해도 됩니다.
 
@@ -35,7 +35,7 @@ print(name)
 
 그 이유는 name이라는 변수가 삭제되어 존재하지 않기 때문입니다.
 
-## 🐛 변수를 한번에 많이 선정하기
+## 변수를 한번에 많이 선정하기
 
 처음에는 원하는 변수들의 이름을 다 쉼표로 나누고 '='를 붙입니다.
 
