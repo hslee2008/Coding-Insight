@@ -11,7 +11,7 @@ const config = {
   titleDelimiter: '|',
 
   url: 'https://coding-insight.com',
-  baseUrl: '/',
+  baseUrl: '/beta/',
   baseUrlIssueBanner: true,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',

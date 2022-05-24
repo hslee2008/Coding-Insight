@@ -73,10 +73,4 @@ VSCode는 파이썬 코드를 편집하는 과정을 쉽게 만들어주는 컴�
 
 :::
 
-### 코드 작성, 삼각형 버트 누르고 결과 확인
-
-```python
-print("hello world")
-```
-
-![결과](/img/python/vscode/code_runner_hello_world.png)
+파이썬 코드를 실행하는 방법은 다음시간에 배우겠습니다.

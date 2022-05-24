@@ -1,0 +1,49 @@
+---
+sidebar_position: 4
+id: 'running'
+---
+
+# 파이썬 실행 방법
+
+파이썬을 실행하는 방법은 크게 3가지 방법이 있습니다.
+
+## 1. Code Runner 사용하기
+
+코드를 작성하고 삼각형 버튼을 누르면 결과를 확인할 수 있습니다.
+
+하지만 입력 (다음 시간에 배울 내용) 기능이 없기 때문에 입력을 할 때에는 다른 방법을 사용해야 합니다.
+
+```python
+print("hello world")
+```
+
+![결과](/img/python/run/code_runner_hello_world.png)
+
+## 2. 터미널 사용하기
+
+터미널이란 코드를 실행할 수 있는 공간입니다.
+
+컴퓨터에게 파이썬 코드를 실행하라고 알려주기 위해서 다음을 실행합니다.
+
+```bash
+python hello.py
+```
+
+hello 대신 만든 파이썬 파일 이름을 넣으세요.
+
+1. 터미널을 열기 위해서는 VSCode에서 `` ctrl + ` ``를 누르거나 (즉, ctrl을 누르면서 `누르기)
+2. Terminal > New Terminal을 버튼을 클릭하면 됩니다.
+
+![터미널](/img/python/run/new_terminal.png)
+
+![결과 확인](/img/python/run/result_hello_terminal.png)
+
+## 3. IDLE
+
+파이썬을 설치할 때 'IDLE' 옵션을 선택했으면 IDLE가 자동으로 설치 됩니다.
+
+앱 리스트에서 IDLE를 찾고 실행하면 다음과 같은 창이 뜨는데...
+
+![IDLE](/img/python/run/idle.png)
+
+![IDLE 결과](/img/python/run/idle_hello_world.png)
