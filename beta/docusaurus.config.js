@@ -19,8 +19,8 @@ const config = {
   favicon: 'img/favicon.ico',
 
   i18n: {
-    defaultLocale: 'ko-kr',
-    locales: ['ko-kr'],
+    defaultLocale: 'ko',
+    locales: ['ko'],
   },
 
   presets: [
@@ -61,9 +61,35 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: '/docs/python', label: '파이썬', position: 'left' },
-          { to: '/docs/c-cpp', label: 'C/C++', position: 'left' },
-          { to: '/docs/rust', label: 'Rust', position: 'left' },
+          {
+            to: 'about',
+            label: 'About',
+            position: 'left',
+            items: [
+              {
+                label: '코딩 인사이트에 대해',
+                to: 'about',
+              },
+            ],
+          },
+          {
+            label: '가이드',
+            to: '/docs/guides',
+          },
+          {
+            to: '/docs/getting-started',
+            label: '프로그래밍 언어',
+            position: 'left',
+            items: [
+              { to: '/docs/python', label: '파이썬' },
+              { to: '/docs/c-cpp', label: 'C/C++' },
+              { to: '/docs/rust', label: 'Rust' },
+            ],
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
             position: 'right',

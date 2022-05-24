@@ -1,27 +1,18 @@
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-onlydark-primary: #25c2a0;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
-  --ifm-color-very-light: #f4f7f7;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-heading-line-height: 1.4;
+  --ifm-font-size-base: 95%;
+  --ifm-contents-border-color: var(--ifm-color-emphasis-300);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --ifm-color-very-light: #20232a;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #67d6ed;
+  --ifm-color-primary-dark: #25444b;
+  --ifm-color-primary-darker: #39cae8;
+  --ifm-color-primary-darkest: #19b5d5;
+  --ifm-color-primary-light: #85def1;
+  --ifm-color-primary-lighter: #95e2f2;
+  --ifm-color-primary-lightest: #c2eff8;
 }
 
 .header-github-link::before {
@@ -38,6 +29,17 @@ html[data-theme='light'] .header-github-link::before {
     no-repeat;
 }
 
+.markdown {
+  --ifm-heading-line-height: 1.4;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
 .header-github-link:hover {
   opacity: 0.5;
 }
@@ -52,7 +54,6 @@ iframe {
   height: 50vh;
   opacity: 0.8;
 }
-
 
 @media only screen and (max-width: 400px) {
   iframe {

@@ -17,6 +17,14 @@
   font-size: 60px;
 }
 
+.TagLine {
+  font-size: 50px;
+}
+
+.Title {
+  font-size: 70px;
+}
+
 .HeroSubTitle {
   font-size: 1.5rem;
 }
@@ -109,6 +117,14 @@
   .heroBanner {
     padding: 2rem;
   }
+
+  .TagLine {
+    font-size: 30px;
+  }
+
+  .Title {
+    font-size: 50px;
+  }
 }
 
 @media screen and (max-width: 545px) {
@@ -119,5 +135,13 @@
   .HeroButton,
   .GettingStarted {
     font-size: 0.9em;
+  }
+
+  .TagLine {
+    font-size: 20px;
+  }
+
+  .Title {
+    font-size: 40px;
   }
 }

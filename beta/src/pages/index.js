@@ -101,7 +101,7 @@ function HeroButton() {
               )}
               to="/docs/getting-started/"
             >
-              <span>어디서 시작할까요</span>
+              <span>더 알아보기</span>
             </Link>
           </div>
         </div>
@@ -110,7 +110,7 @@ function HeroButton() {
   );
 }
 
-function HeroHeader() {
+function HeroHeader({ title, tagline }) {
   return (
     <header className={styles.heroBanner}>
       <BrowserOnly>
@@ -128,6 +128,8 @@ function HeroHeader() {
           );
         }}
       </BrowserOnly>
+      <h1 className={styles.Title}>{title}</h1>
+      <p className={styles.TagLine}>{tagline}</p>
       <HeroButton />
     </header>
   );
@@ -191,11 +193,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <Layout
-      title={siteConfig.title}
-      description="Description will go into a meta tag in <head />"
-    >
-      <HeroHeader />
+    <Layout title={siteConfig.title} description={siteConfig.tagline}>
+      <HeroHeader title={siteConfig.title} tagline={siteConfig.tagline} />
       <Features />
       <Entry />
       <HeroButton />
