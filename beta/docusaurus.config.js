@@ -63,7 +63,7 @@ const config = {
         title: 'Coding-Insight',
         logo: {
           alt: 'Coding-Insight Logo Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.png',
         },
         items: [
           {
@@ -222,7 +222,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/beta/pwa/256x256.svg',
+            href: '/beta/pwa/256x256.png',
             color: '#0F0F0F',
           },
           {
