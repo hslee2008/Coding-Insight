@@ -35,6 +35,17 @@ id: 'installation'
 
 ![끝내기](/img/python/installation/setup_finished.png)
 
+### 확인하기
+
+윈도우는 CMD와 MAC는 Terminal에서 다음 명령어를 실행합니다.
+
+```bash
+python --version
+```
+
+![Terminal](/img/python/installation/mac-terminal.jpg)
+![CMD](/img/python/installation/window-cmd.png)
+
 ## 옵션들 설명
 
 | 옵션 이름                                              | 설명                                   |

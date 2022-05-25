@@ -44,6 +44,14 @@ hello 대신 만든 파이썬 파일 이름을 넣으세요.
 
 앱 리스트에서 IDLE를 찾고 실행하면 다음과 같은 창이 뜨는데...
 
-![IDLE](/img/python/run/idle.png)
-
 ![IDLE 결과](/img/python/run/idle_hello_world.png)
+
+`print("Hello World")`라고 입력하고 엔터를 누르면 실행이 됩니다.
+
+## 4. Trinket (웹사이트에서)
+
+폰이나 다른 기기여서 파이썬을 실행을 하지 못하는 경우에는 Trinket을 사용하면 됩니다.
+
+저희 사이트는 [Trinket](https://trinket.io)에서 IDLE를 사용해 직접 웹사이트에서 코드를 실행할 수 있습니다.
+
+<iframe src="https://trinket.io/embed/python3/93a3b5a1dc" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

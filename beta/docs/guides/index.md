@@ -50,3 +50,11 @@ os.system('shutdown -s -t 0')
 ### 비디오
 
 <iframe src="https://www.youtube.com/embed/QXtsTPcvuqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 오프라인 사용
+
+만일 인터넷과 연결되어 있지 않다면 미리 다운로드를 받아서 웹사이트를 사용할 수 있습니다.
+
+![PWA](/img/guides/pwa.png)
+
+이제 오프라인과 온라인에서도 앱으로 설치되어 있기 때문에 쉽게 사용이 가능합니다.
