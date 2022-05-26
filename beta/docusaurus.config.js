@@ -52,13 +52,6 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
-      announcementBar: {
-        id: 'rc',
-        content: '🚀 새로운 Coding-Insight 버전이 출시되었습니다 🚀',
-        backgroundColor: 'var(--ifm-color-primary)',
-        textColor: 'var(--ifm-button-color)',
-        isCloseable: false,
-      },
       navbar: {
         title: 'Coding-Insight',
         logo: {

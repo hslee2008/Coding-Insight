@@ -52,7 +52,7 @@ print(a[0])
 
 <iframe src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-## 인덱싱이 x를 사용하면 x-1 번째를 출력하는 이유
+## 인덱싱 x를 사용하면 x-1인 이유
 
 :::note
 
