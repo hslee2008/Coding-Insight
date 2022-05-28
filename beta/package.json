@@ -15,9 +15,9 @@
     "clean": "npx prettier --write . && git add --all"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.20",
-    "@docusaurus/plugin-pwa": "2.0.0-beta.20",
-    "@docusaurus/preset-classic": "2.0.0-beta.20",
+    "@docusaurus/core": "^2.0.0-beta.21",
+    "@docusaurus/plugin-pwa": "^2.0.0-beta.21",
+    "@docusaurus/preset-classic": "^2.0.0-beta.21",
     "@lottiefiles/lottie-player": "^1.5.7",
     "@mdi/js": "^6.6.96",
     "@mdi/react": "^1.6.0",
@@ -28,7 +28,7 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.20",
+    "@docusaurus/module-type-aliases": "^2.0.0-beta.21",
     "prettier": "^2.6.2"
   },
   "browserslist": {
