@@ -51,3 +51,71 @@ print(sent)
 ```
 
 <iframe src="https://trinket.io/embed/python3/836101c4af" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+## 실체 파이썬 압축 프로그램
+
+<details>
+  <summary>실제 파이썬 압축 프로그램 사용해 보기</summary>
+  <div>
+
+## ZLIB 모듈
+
+파이썬에서는 파일 또는 데이터 형태를 압축할 수 있는 모듈이 있습니다.
+
+zlib이라는 모듈입니다.
+
+zlib은 ZIP COMPRESSION LIBRARY의 약자입니다.
+
+먼저, PIP을 이용하여 zlib을 내려받겠습니다.
+
+```bash
+pip install zlib
+```
+
+다음에, 새로운 파일을 만들어 zlib 모듈을 가지고 오겠습니다.
+
+```python
+import zlib
+```
+
+## 압축하기
+
+문자를 압축하겠습니다.
+
+아래 코드에 대한 설명을 하자면
+
+1. 먼저, `zlib` 모듈을 가지고 옵니다.
+2. 다음, 압축할 문자를 만듭니다. 이 문자는 `byte` 문자여야 하니 문자 앞에 `b`를 붙입니다.
+3. 그리고, `zlib.compress()` 메서드를 이용하여 압축합니다.
+
+아래의 코드를 실행하면 `63`, `44` 숫자가 나옵니다. 이처럼 길이가 63인 문자를 길이가 `44`인 문자로 바꾸기가 가능합니다.
+
+<iframe src="https://trinket.io/embed/python3/74a9209480" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+## level
+
+문자 압축을 하는데 다양한 level이 있습니다.
+
+zlib에서는 총 10개의 level (0~9)이 있습니다.
+
+```
+0 - 가장 낮은 level로 압축을 하지 않습니다.
+1 - 두 번째로 낮은 level로 압축을 조금 합니다. 속도는 빠릅니다.
+...
+9 - 가장 높은 level로 압축은 많이 하지만 속도는 느립니다.
+```
+
+하지만 위의 예시에서는 1(원래 값)과 9와 차이가 없습니다.
+
+그 이유는 너무 짧기 때문입니다.
+
+<iframe src="https://trinket.io/embed/python3/50ab5d6ef3" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+## 압축 풀기
+
+압축을 풀기 위하여 `zlib.decompress()` 메서드를 사용할 수 있습니다.
+
+<iframe src="https://trinket.io/embed/python3/c42b0b500e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+  </div>
+</details>
