@@ -29,7 +29,7 @@ id: 'writing'
 
 파일을 만들기 위해서는 `x` 모드를 사용할 수 있습니다.
 
-```python
+```py
 mainFile = open("example.txt", "x")
 ```
 
@@ -39,7 +39,7 @@ mainFile = open("example.txt", "x")
 
 파일을 삭제하려면 os라는 모듈을 사용해야 합니다.
 
-```python
+```py
 import os
 os.remove("example.txt") #첫 번째 방법
 os.rmdir("example.txt") #두 번째 방법 (ReMoveDIRectory)

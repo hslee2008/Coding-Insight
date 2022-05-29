@@ -25,14 +25,14 @@ id: 'madlibs'
    - sentence라는 변수 안에 "Roses are ?. Violets are ?. And I like ?."라는 문장을 저장하겠습니다.
    - {}는 빈칸이고 나중에 {} 안에 단어를 넣을 것입니다.
 
-```python
+```py
 sentence = "Roses are {}. Violets are {}. And I like {}."
 ```
 
 2. 입력받기
    - 입력은 input()을 사용해 총 3개를 받겠습니다.
 
-```python
+```py
 fw = input("형용사(영어): ")
 sw = input("형용사(영어): ")
 tw = input("사람: ")
@@ -43,14 +43,14 @@ tw = input("사람: ")
    - format을 사용하면 문장 안에 있는 {}들은 나타나느 순서대로 fw, sw, tw로 바뀝니다.
    - 그래서 처음의 {}는 fw의 값, 두 번째는 sw, 그리고 마지막은 tw로 바뀝니다.
 
-```python
+```py
 finish = sentence.format(fw, sw, tw)
 ```
 
 4. 출력하기
    - 출력은 print()를 사용하겠습니다.
 
-```python
+```py
 print(finish)
 ```
 

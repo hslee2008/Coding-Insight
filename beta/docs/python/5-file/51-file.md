@@ -41,7 +41,7 @@ id: 'file'
 
 파이썬은 기본적으로 Ascii Code 형식을 지원하지만 이모지의 경우는 `UTF-8`를 사용하기 때문에 인코딩을 사용하여 변환해줘야 합니다.
 
-```python
+```py
 mainFile = open("example.txt", "r", encoding="UTF-8")
 mainFile.close()
 ```

@@ -9,7 +9,7 @@ id: 'indexing'
 
 예를 들어 Hello에서 첫 번째 문자를 출력하기 위해서 인덱스 0을 사용할 수 있습니다.
 
-```python
+```py
 a = "Hello"
 print(a[0])
 ```

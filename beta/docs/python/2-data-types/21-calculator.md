@@ -25,20 +25,20 @@ id: 'calculator'
 
 두 숫자 안에 입력을 받겠습니다.
 
-```python
+```py
 num1 = input("숫자1: ")
 num2 = input("숫자2: ")
 ```
 
 `float()` 메서드를 사용해서 소수로 전환하고 더하겠습니다.
 
-```python
+```py
 addnum = float(num1) + float(num2)
 ```
 
 그리고 `addnum`을 출력하겠습니다.
 
-```python
+```py
 print(addnum)
 ```
 

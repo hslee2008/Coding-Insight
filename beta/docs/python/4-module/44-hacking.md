@@ -15,7 +15,7 @@ id: 'hacking'
 
 ## 코드
 
-```python
+```py
 import socket, struct, binascii
 
 HOST = socket.gethostbyname(socket.gethostname())

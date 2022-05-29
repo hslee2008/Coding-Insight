@@ -33,7 +33,7 @@ JSON을 만들 때 다양한 설정이 있습니다.
 
 JSON의 들여쓰기의 값도 정할 수 있습니다. 들여쓰기란 TAB의 값을 말합니다.
 
-```python
+```py
 print(json.dumps(someJson, indent=2))
 ```
 
@@ -41,7 +41,7 @@ print(json.dumps(someJson, indent=2))
 
 JSON의 키에서 알파벳 순서대로 배열을 할 수 있습니다.
 
-```python
+```py
 print(json.dumps(someJson, indent=2, sort_keys=True))
 ```
 
@@ -53,6 +53,6 @@ JSON에서 키와 값들은 ','로 분류가 됩니다.
 
 JSON에서 seperator 매개변수를 이용하여 우리만의 표현 방법을 설정해보겠습니다.
 
-```python
+```py
 print(json.dumps(someJson, seperator=(". ", "==>")))
 ```

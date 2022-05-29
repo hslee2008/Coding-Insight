@@ -61,7 +61,7 @@ id: 'function'
 
 또는 `apply()` 함수를 이용하여 또 다른 함수를 실행하는 것도 가능합니다.
 
-```python
+```py
 def printWithEnd(a, b, c=None):
   print(a + b, end = c)
 

@@ -13,7 +13,7 @@ id: 'number'
 
 다음과 같이 데이터를 선언하고 사용할 수 있습니다.
 
-```python
+```py
 age = 12
 print(age)
 ```

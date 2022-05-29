@@ -68,7 +68,7 @@ id: 'stringmethod'
 
 `index()` 메서드를 사용하여 문자 안에 또 다른 문자가 존재하는지 알 수 있습니다.
 
-```python
+```py
 print('abcdef'.index('abc'))
 ```
 
@@ -78,7 +78,7 @@ print('abcdef'.index('abc'))
 
 파이썬에서 센터링이란 문자를 ' '로 둘러싸는 것을 뜻합니다. ' '로 둘러싸여 있지만 가운데에 있는 것처럼 보입니다.
 
-```python
+```py
 txt = "Hello, World!"
 x = txt.center(50)
 print(x)
@@ -86,7 +86,7 @@ print(x)
 
 `center`에서 첫 번째 숫자는 문자를 센터하는 ' '의 수이고 두 번째는 문자를 센터할 문자입니다.
 
-```python
+```py
 txt = "Hello, World!"
 x = txt.center(50, '|')
 print(x)

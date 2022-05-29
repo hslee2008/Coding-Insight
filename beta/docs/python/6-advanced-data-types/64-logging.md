@@ -11,7 +11,7 @@ id: 'logging'
 
 그 로그 파일을 만드려면 `basicConfig()` 메서드를 먼저 사용해서 파일 이름을 넣으세요!
 
-```python
+```py
 import logging
 logging.basicConfig(filename="log.log")
 ```

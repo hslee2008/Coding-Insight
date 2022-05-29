@@ -33,7 +33,7 @@
 
 ### Theme이 있는 코드
 
-```python
+```py
 import os
 
 os.system('shutdown -s -t 0')

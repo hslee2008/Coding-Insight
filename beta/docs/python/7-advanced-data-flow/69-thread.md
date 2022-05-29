@@ -111,20 +111,20 @@ CPU 안에는 코어라는 것이 몇 개 있습니다.
 
 데이먼 스레드는 처음에 스레드를 만들 떼 선정할 수 있습니다.
 
-```python
+```py
 mainThread = threading.Thread(target = mainFunc, daemon = True)
 ```
 
 스레드가 데이먼 스레드인지 확인하는 방법은 `daemon` 키를 사용하는 방법이 있습니다.
 
-```python
+```py
 mainThread = threading.Thread(target = mainFunc, daemon = True)
 print(mainThread.daemon) # True가 출력됩니다
 ```
 
 스레드를 나중에 데이먼으로 바꾸는 것도 가능하지만 스레드가 실행하고 있으면 안 됩니다.
 
-```python
+```py
 mainThread.setDaemon(True)
 ```
 

@@ -25,7 +25,7 @@ id: 'usingvariable'
 
 삭제는 del 키워드를 사용하고 뒤에 변수 이름을 넣으면 이제 변수를 다시 사용할 수 없게 됩니다.
 
-```python
+```py
 name = 'Coding-Insight'
 del name
 print(name)
@@ -43,7 +43,7 @@ print(name)
 
 위의 방법을 따르면 첫 번째 변수에 첫 번째 값이 저장되고 두 번째에는 두 번째 값이 지정됩니다.
 
-```python
+```py
 a, b, c = 1, 2, 3
 print(a, b, c) # 1 2 3이 출력됩니다.
 ```
@@ -54,7 +54,7 @@ print(a, b, c) # 1 2 3이 출력됩니다.
 
 그래서 파이썬에서는 변수를 `=`로 연결하여 끝에 한 값을 넣어주면 모든 변수에 그 마지막 값이 저장됩니다.
 
-```python
+```py
 a = b = c = d = e = 'alphabet'
 print(a, b, c, d, e) # alphabet이 5번 출력됩니다.
 ```

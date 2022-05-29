@@ -17,7 +17,7 @@ id: 'async'
 
 모듈을 가지고 오기 위하여 다음 코드를 실행하겠습니다.
 
-```python
+```py
 import asyncio
 ```
 
@@ -25,7 +25,7 @@ import asyncio
 
 다음 예시를 보겠습니다.
 
-```python
+```py
 print("Hello")
 print("World")
 ```
@@ -44,7 +44,7 @@ print("World")
 
 먼저 async 함수를 만들겠습니다.
 
-```python
+```py
 import asyncio
 
 async def main():
@@ -64,7 +64,7 @@ async def secondMain():
 
 `async` 모듈을 사용하여 오래 걸리는 `secondMain()` 함수를 `print("Finished")`와 같이 사용할 수 있습니다.
 
-```python
+```py
 import asyncio
 
 async def main():
@@ -86,7 +86,7 @@ async def secondMain():
 
 하지만, 오래 걸리는 함수가 끝날 때까지 기다리기 위하여 await 키워드를 사용할 수 있습니다.
 
-```python
+```py
 async def main():
   print("Hello")
   task = asyncio.create_task(secondMain())
@@ -100,7 +100,7 @@ async def main():
 
 asyncio는 매우 신기한 특징을 가지고 있습니다.
 
-```python
+```py
 async def main():
   print("Hello")
   task = asyncio.create_task(secondMain())
@@ -115,7 +115,7 @@ async def main():
 하지만 몇 초 기다리는 코드가 있다면 그 다음에 실행이 됩니다.
 
 ## 예시
-```python
+```py
 async def fetchData():
   print("started fetching...")
   asyncio.sleep(2)
@@ -132,7 +132,7 @@ async def printNum():
 
 그렇다면 위의 코드를 어떻게 동시에 실행할까요?
 
-```python
+```py
 async def main():
   task1 = asyncio.create_task(fetchData())
   task2 = asyncio.create_task(printNum())

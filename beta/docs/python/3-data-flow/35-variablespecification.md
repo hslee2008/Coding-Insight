@@ -25,7 +25,7 @@ GLOBAL은 그 파일 안에서 변수를 사용할 수 있지만 NONLOCAL은 그
 
 다시 말해, NONLOCAL은 그 들여쓰기가 된 부분에서만 사용할 수 있습니다.
 
-```python
+```py
 def testing():
   nonlocal message
   message = "Hello, World!"

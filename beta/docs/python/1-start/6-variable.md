@@ -17,7 +17,7 @@ id: 'variable'
 
 변수를 만들려면 다음과 같은 방법을 사용할 수 있습니다.
 
-```python
+```py
 name = data
 ```
 
@@ -31,7 +31,7 @@ name = data
 
 변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이 출력되지 않고 변수의 값이 출력됩니다.
 
-```python
+```py
 name = 'John'
 print(name) #John이 출력됩니다.
 ```

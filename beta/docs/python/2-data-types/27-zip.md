@@ -20,33 +20,33 @@ id: 'zip'
 
 1. 문장 입력
 
-```python
+```py
 sent = input("압축할 글: ")
 ```
 
 2. 압축 정보
 
-```python
+```py
 zipp_info = {}
 ```
 
 3. 압축하기
 
-```python
+```py
 sent = sent.replace("Hello", "0")
 sent = sent.replace("World", "1")
 ```
 
 4. 압축 정보 저장
 
-```python
+```py
 zipp_info["Hello"] = "0"
 zipp_info["World"] = "0"
 ```
 
 5. 압축 결과 출력
 
-```python
+```py
 print(sent)
 ```
 
@@ -74,7 +74,7 @@ pip install zlib
 
 다음에, 새로운 파일을 만들어 zlib 모듈을 가지고 오겠습니다.
 
-```python
+```py
 import zlib
 ```
 

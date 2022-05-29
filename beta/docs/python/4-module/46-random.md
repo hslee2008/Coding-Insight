@@ -7,7 +7,7 @@ id: 'random'
 
 `random` 모듈을 가지고 오겠습니다.
 
-```python
+```py
 import random as R
 ```
 

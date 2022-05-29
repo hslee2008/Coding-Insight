@@ -23,7 +23,7 @@ id: 'decorator'
 
 이제 우리가 원하는 값을 반환하는 함수를 만들겠습니다. 입력을 사용하여 사용자가 지정한 값을 반환하는 것도 가능하지만 이 예시에서는 쉽게 설명하기 위하여 -4를 돌려주는 함수를 만들겠습니다.
 
-```python
+```py
 def returnVal():
   return -4
 ```
@@ -46,7 +46,7 @@ def returnVal():
 
 데코레이터를 사용하기 위하여 `returnVal()` 함수를 선언하기 바로 전에 다음과 같은 코드를 붙여넣습니다.
 
-```python
+```py
 @minusDecorator def returnVal():
   return -4
 ```
@@ -71,7 +71,7 @@ def returnVal():
 
 다음과 같은 클래스를 만들어 보겠습니다.
 
-```python
+```py
 class Teacher:
   def __init__(self, name, subjectTeaching):
     self.name = name
@@ -87,7 +87,7 @@ class Teacher:
 
 그래서 이 코드를 함수 앞에 넣으면 그 함수는 이제 클래스에서 변수가 됩니다.
 
-```python
+```py
 @property def name(self):
   return self.name
 ```
@@ -96,14 +96,14 @@ class Teacher:
 
 `@name.setter #name` 함수의 값을 정하는 새로운 함수를 만들겠습니다
 
-```python
+```py
 def name(self, val):
   self.name = val
 ```
 
 다음과 같은 코드를 실행할 수 있습니다.
 
-```python
+```py
 myFavTeacher = Teacher("MR JAY")
 print(myFavTeacher.name)
 
@@ -113,7 +113,7 @@ print(myFavTeacher.name)
 
 또 값을 지울 수도 있습니다.
 
-```python
+```py
 @name.deleter def name(self, val):
   print('삭제하겠습니다….')
   del self.name

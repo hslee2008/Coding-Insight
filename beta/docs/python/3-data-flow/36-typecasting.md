@@ -9,7 +9,7 @@ id: 'typecasting'
 
 사용자가 매개변수와 함수를 만들 때 돌아오는 값과 매개변수의 타입을 정할 수 있습니다!
 
-```python
+```py
 def wowAnd(nextToWow):
   return "wow " + nextToWow
 ```

@@ -13,7 +13,7 @@ id: 'regex'
 
 정규식은 모듈이어서 먼저 가지고 와야 합니다.
 
-```python
+```py
 import re #영어로 Regular Expression입니다. (re)
 ```
 

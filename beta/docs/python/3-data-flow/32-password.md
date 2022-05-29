@@ -17,13 +17,13 @@ id: 'password'
 
 2. 몇 번 시도했는지 저장하기
 
-```python
+```py
 guess_try = 0
 ```
 
 3. 암호가 아니면 `guess_try`에 1 증가
 
-```python
+```py
 guess_try += 1
 ```
 

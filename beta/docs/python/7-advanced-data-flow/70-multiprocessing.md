@@ -7,7 +7,7 @@ id: 'multiprocessing'
 
 멀티프로세싱이라는 것은 어떤 함수를 동시에 실행할 수 있는 모듈 이름입니다.
 
-```python
+```py
 import multiprocessing
 ```
 
@@ -36,7 +36,7 @@ import multiprocessing
 
 `terminate()`는 멀티프로세싱을 멈춥니다.
 
-```python
+```py
 p1 = multiprocessing.Process(target=threTime, args=(10, ))
 p1.start()
 p1.terminate()

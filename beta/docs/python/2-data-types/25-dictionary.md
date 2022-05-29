@@ -23,7 +23,7 @@ id: 'dictionary'
 
 기본적인 형태는 다음과 같습니다. Key와 Value의 쌍은 하나의 딕셔너리 안에 저장할 수 있습니다.
 
-```python
+```py
 { Key1:Value1, Key2:Value2, Key3:Value3 }
 ```
 

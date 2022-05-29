@@ -7,7 +7,7 @@ id: 'date'
 
 날짜는 모듈이어서 먼저 가지고 와야 합니다.
 
-```python
+```py
 import datetime
 ```
 

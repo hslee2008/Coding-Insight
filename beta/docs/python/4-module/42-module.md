@@ -19,7 +19,7 @@ id: 'module'
 우리만의 모듈을 만들어 인터넷에 올리는 것도 가능하지만 먼저 모듈에 대하여 더 알아보겠습니다.
 :::
 
-```python
+```py
 import math
 ```
 
@@ -45,7 +45,7 @@ import math
 
 1. 새로운 변수를 만들어 모듈 저장
 
-```python
+```py
 import abcdefghijklmnopqrstuvwxyz
 
 alphabet = abcdefghijklmnopqrstuvwxyz
@@ -56,7 +56,7 @@ abcdefghibjkmnopqrstuvwxyz.abc() #위의 코드와 같음
 
 2. as 이용하기
 
-```python
+```py
 import abcdefghijklmnopqrstuvwxyz as alphabet
 alphabet.abc()
 ```
@@ -67,7 +67,7 @@ alphabet.abc()
 
 우리의 모듈 이름을 `OEM`(Odd, Even Module)로 정하려면 파일의 이름은 'OEM'으로 만들면 됩니다.
 
-```python
+```py
 #OEM
 def isEven(num):
   return num % 2 == 0
@@ -80,7 +80,7 @@ def isOdd(num):
 
 `isEven`을 사용하기 위하여 `isEven`을 가지고 오겠습니다.
 
-```python
+```py
 #main
 from OEM import isEven
 print(isEven(3)) #False가 출력됩니다
@@ -90,7 +90,7 @@ print(isEven(3)) #False가 출력됩니다
 
 그래서 모든 함수를 가지고 오기 위하여 `*`를 사용할 수 있습니다
 
-```python
+```py
 from OEM import *
 print(OEM.isEven(3)) #False가 출력됩니다
 print(OEM.isOdd(5)) #True가 출력됩니다
@@ -118,13 +118,13 @@ python filename.py register -r
 
 파이썬에서 `__import()__` 함수를 사용한다면 모듈을 불러올 수 있습니다.
 
-```python
+```py
 OS = __import__("os")
 ```
 
 나만의 모듈은 모듈 파일의 주소를 적어주면 됩니다.
 
-```python
+```py
 myMod = __import__(r"C:\main.py")
 ```
 
