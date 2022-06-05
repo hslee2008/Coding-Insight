@@ -85,7 +85,7 @@ const config = {
             items: [
               { to: '/docs/python/start/python', label: '파이썬' },
               { to: '/docs/c-cpp', label: 'C/C++' },
-              { to: '/docs/rust', label: 'Rust' },
+              { to: '/docs/rust/start/rust', label: 'Rust' },
             ],
           },
           {
