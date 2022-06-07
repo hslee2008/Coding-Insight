@@ -9,7 +9,7 @@ id: 'pandas'
 
 판다스는 기본적으로 설치되어 있지 않기 때문에 PIP을 이용해서 설치하겠습니다.
 
-```bash
+```sh
 pip install pandas
 ```
 

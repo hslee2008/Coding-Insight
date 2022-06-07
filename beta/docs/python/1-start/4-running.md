@@ -25,7 +25,7 @@ print("hello world")
 
 컴퓨터에게 파이썬 코드를 실행하라고 알려주기 위해서 다음을 실행합니다.
 
-```bash
+```sh
 python hello.py
 ```
 

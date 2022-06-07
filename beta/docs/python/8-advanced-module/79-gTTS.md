@@ -11,7 +11,7 @@ gTTS는 문자를 컴퓨터가 말하게 만들 수 있는 기능을 가지고 �
 
 먼저, gTTS를 설치하기 위해서 다음 코드를 실행하세요.
 
-```bash
+```sh
 pip install gtts
 ```
 
@@ -19,7 +19,7 @@ pip install gtts
 
 터미널을 키고 다음 코드를 실행하세요.
 
-```bash
+```sh
 gtts-cli 'hello' --output hello.mp3
 ```
 

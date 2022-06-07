@@ -11,7 +11,7 @@ id: 'project'
 
 아마도 이미 설치 되어있겠지만 혹시 모르니까 이 코드를 터미널에서 실행을 하세요.
 
-```bash
+```sh
 pip install smtpllib
 pip install ssl
 ```
@@ -20,7 +20,7 @@ pip install ssl
 
 서버란, 이메일을 보내는 기계라고 할 수 있습니다.
 
-```bash
+```sh
 python -m smtpd -c DebuggingServer -n localhost:1025
 ```
 
@@ -39,7 +39,7 @@ python -m smtpd -c DebuggingServer -n localhost:1025
 
 먼저, 파이썬 모듈의 도움이 필요합니다. 줌 링크를 열기 위하여 webbrowser와, 키보드에서 엔터와 비밀번호를 칠 때, 그리고 로딩하는데 코드를 멈출 수 있는 time 모듈이 필요합니다.
 
-```bash
+```sh
 pip install keyboard
 pip install webbrowser
 ```

@@ -110,7 +110,7 @@ print(OEM.isOdd(5)) #True가 출력됩니다
 
 터미널에 다음과 같은 코드를 실행하세요.
 
-```bash
+```sh
 python filename.py register -r
 ```
 

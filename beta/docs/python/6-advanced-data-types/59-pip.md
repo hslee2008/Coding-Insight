@@ -30,7 +30,7 @@ PIP는 파이썬에서 파일 또는 모듈을 다루는 프로그램 이름입�
 
 PIP에서 파이썬 모듈을 설치할 수 있습니다. CMD에서 다음과 같은 코드를 입력 후 엔터를 누르세요.
 
-```bash
+```sh
 pip install camelcase
 ```
 
@@ -38,7 +38,7 @@ camelcase라는 모듈을 설치했습니다.
 
 그 다음 `pip uninstall camelcase`를 입력하시면 camelcase가 삭제됩니다.
 
-```bash
+```sh
 pip uninstall camelcase
 ```
 
@@ -46,7 +46,7 @@ pip uninstall camelcase
 
 어떤 package에 대한 정보를 보기 위하여 `pip show` 커맨드를 사용할 수 있습니다.
 
-```bash
+```sh
 pip show pygame
 ```
 

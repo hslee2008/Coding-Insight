@@ -7,7 +7,7 @@ id: 'keyboardmouse'
 
 ## 설치하기
 
-```bash
+```sh
 pip install keyboard
 pip install mouse
 ```

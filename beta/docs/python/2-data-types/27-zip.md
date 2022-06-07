@@ -68,7 +68,7 @@ zlib은 ZIP COMPRESSION LIBRARY의 약자입니다.
 
 먼저, PIP을 이용하여 zlib을 내려받겠습니다.
 
-```bash
+```sh
 pip install zlib
 ```
 
