@@ -7,7 +7,7 @@ id: 'usingvariable'
 
 변수를 사용하는 방법을 알아보겠습니다.
 
-<iframe src="https://www.youtube.com/embed/Qu5_eBK6OkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Qu5_eBK6OkI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 변수 값 바꾸기
 
@@ -17,7 +17,7 @@ id: 'usingvariable'
 
 변수를 만들었을 때와 같이 '변수 이름 = 값' 코드를 실행하면 됩니다.
 
-<iframe src="https://trinket.io/embed/python/4745a3ecb9" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/4745a3ecb9" height="400" />
 
 ## 변수 삭제하기
 
@@ -59,4 +59,4 @@ a = b = c = d = e = 'alphabet'
 print(a, b, c, d, e) # alphabet이 5번 출력됩니다.
 ```
 
-<iframe src="https://trinket.io/embed/python3/ac33761c8a" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/ac33761c8a" height="400" />

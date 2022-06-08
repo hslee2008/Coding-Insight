@@ -33,7 +33,7 @@ id: 'file'
 그렇지 않으면 파이썬 코드가 끝나도 계속 파일이 읽어질 수 있습니다.
 :::
 
-<iframe src="https://trinket.io/embed/python3/5755f85207" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/5755f85207" height="400" />
 
 ## 인코딩
 

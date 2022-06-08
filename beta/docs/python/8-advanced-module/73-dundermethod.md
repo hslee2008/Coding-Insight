@@ -30,7 +30,7 @@ id: 'dundermethod'
 
 `repr()`는 문자로 바꾸는 함수입니다.
 
-<iframe src="https://trinket.io/embed/python3/f4dfd29f8c" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/f4dfd29f8c" height="400" />
 
 ## `__del__()`
 
@@ -38,7 +38,7 @@ id: 'dundermethod'
 
 파이썬에서 클래스가 삭제되면 실행할 코드를 `__del__()` 함수 안에 담을 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/3c64d6b06e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/3c64d6b06e" height="400" />
 
 ## `__new__()`
 
@@ -48,19 +48,19 @@ new는 새롭다는 뜻으로 파이썬에서는 클래스가 만들어졌을 �
 
 `"I am created by you!"`가 출력이 됩니다.
 
-<iframe src="https://trinket.io/embed/python3/5505e2e889" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/5505e2e889" height="400" />
 
 ## `__call__()`
 
 `__call__()`을 사용하면 클래스가 함수처럼 실행이 되면 어떤 코드를 런할 수 있는 던더 메서드입니다.
 
-<iframe src="https://trinket.io/embed/python3/f57619f30e" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/f57619f30e" height="500" />
 
 ## `__len__()`
 
 `len` 던더 메서드가 `len()` 함수를 클래스에 실행 했을 때 대신 실행할 코드를 넣는 곳입니다.
 
-<iframe src="https://trinket.io/embed/python3/686326e052" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/686326e052" height="400" />
 
 ## `_` & `__` 차이 (클래스 변수)
 
@@ -80,7 +80,7 @@ new는 새롭다는 뜻으로 파이썬에서는 클래스가 만들어졌을 �
 
 그리고 `_`는 변수를 숨기지만 이름을 바꾸지는 않을 변수입니다.
 
-<iframe src="https://trinket.io/embed/python3/3b038ad255" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/3b038ad255" height="400" />
 
 ## 숫자 던더 메서드
 
@@ -144,4 +144,4 @@ __bool__(self)
 
 그 설명을 `__doc__`를 사용하여 출력할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/2dc115b16f" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/2dc115b16f" height="400" />

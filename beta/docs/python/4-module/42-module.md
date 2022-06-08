@@ -33,7 +33,7 @@ import math
 
 이 함수를 사용하기 위하여 `모듈이름.함수이름()` 형태를 사용할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/cc5f724ff2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/cc5f724ff2" height="400" />
 
 ## 'as' 키워드
 
@@ -100,7 +100,7 @@ print(OEM.isOdd(5)) #True가 출력됩니다
 
 `import OEM`을 사용하면 더 좋습니다.
 
-<iframe src="https://trinket.io/embed/python3/18e9b5aa47" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/18e9b5aa47" height="400" />
 
 ## 모듈 출판하기
 

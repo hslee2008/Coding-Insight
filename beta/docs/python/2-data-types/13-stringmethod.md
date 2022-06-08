@@ -5,9 +5,9 @@ id: 'stringmethod'
 
 # 문자열 메서드
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D4xUOyss96k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D4xUOyss96k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4_uGNu9IlCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4_uGNu9IlCU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 문자열 메서드란?
 
@@ -35,12 +35,12 @@ id: 'stringmethod'
 
 `istitle()`은 책 제목 형식인지 알려주는 역할을 합니다.
 
-<iframe src="https://trinket.io/embed/python3/75c4671dd7" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/75c4671dd7" height="400" />
 
 ## 문자에 대한 정보 구하는 메서드
 
 | 메서드         | 설명                                     |
-| -------------- | ---------------------------------------- |
+| :-------------- | :---------------------------------------- |
 | isalnum()      | 문자가 알파벳과 숫자로만 이루어져 있는지 |
 | isalpha()      | 문자가 알파벳으로만 되어있는지           |
 | isdecimal()    | 숫자(0~9)로만 이루어져 있는지            |
@@ -50,7 +50,7 @@ id: 'stringmethod'
 | isprintable()  | 출력하는 것이 가능한지                   |
 | isspace()      | 스페이스(공백)로만 이루어져 있는지       |
 
-<iframe src="https://trinket.io/embed/python/9da1796e91" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/9da1796e91" height="400" />
 
 ## len()
 
@@ -62,7 +62,7 @@ id: 'stringmethod'
 
 `len`은 영어로 '길이'를 뜻하는 `length`의 줄임말입니다.
 
-<iframe src="https://trinket.io/embed/python/41e9ea9617" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/41e9ea9617" height="400" />
 
 ## index()
 
@@ -92,7 +92,7 @@ x = txt.center(50, '|')
 print(x)
 ```
 
-<iframe src="https://trinket.io/embed/python3/6051c25773" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/6051c25773" height="400" />
 
 ## partition()
 
@@ -108,7 +108,7 @@ print(x)
 
 인덱싱을 사용하여 `name` 전의 문장과 `name` 후의 문장을 결합했습니다.
 
-<iframe src="https://trinket.io/embed/python/d278186aad" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/d278186aad" height="400" />
 
 ## ~ in ~
 
@@ -120,7 +120,7 @@ print(x)
 
 'in'은 한국어로 '안'이라는 뜻으로 "abc가 abcdef 안에 있나요?"라고 파이썬에게 물어보는 것과 같습니다.
 
-<iframe src="https://trinket.io/embed/python/a26965d6fd" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/a26965d6fd" height="400" />
 
 ## +와 \*
 
@@ -134,4 +134,4 @@ print(x)
 
 예를 들어 `"Hello" * 2`는 `HelloHello`입니다.
 
-<iframe src="https://trinket.io/embed/python/54f740c487" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/54f740c487" height="400" />

@@ -22,13 +22,13 @@ INFO는 INFORMATION의 약자이고 정보를 뜻합니다.
 
 파이썬 코드를 테스트할 때 정보를 얻고 싶다면(예: 어떨 때의 값) `logging.info()` 메서드를 사용할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/9d4fc4880a" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/9d4fc4880a" height="400" />
 
 ## WARNING
 
 warning은 사용자에게 에러가 났다는 사실을 경고하는 코드입니다.
 
-<iframe src="https://trinket.io/embed/python3/784c0fc5a6" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/784c0fc5a6" height="400" />
 
 ## ERROR와 EXCEPTION
 
@@ -38,4 +38,4 @@ EXCEPTION은 예외를 뜻합니다.
 
 위에서 설명한 ERROR 메서드와 비슷합니다.
 
-<iframe src="https://trinket.io/embed/python3/f9687df6a4" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/f9687df6a4" height="400" />

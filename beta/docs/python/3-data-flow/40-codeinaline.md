@@ -25,7 +25,7 @@ id: 'codeinaline'
 꼭 필요할 때만 사용하세요.
 :::
 
-<iframe src="https://trinket.io/embed/python3/724bf9a522" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/724bf9a522" height="400" />
 
 ## 세미콜론에 대한 추가 설명
 

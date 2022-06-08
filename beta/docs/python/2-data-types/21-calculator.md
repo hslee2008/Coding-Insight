@@ -9,7 +9,7 @@ id: 'calculator'
 
 몰래 이 프로그램을 사용해서 덧셈의 왕처럼 보일 수 있습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-CRGv2pHTjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-CRGv2pHTjs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 코드 설명
 
@@ -42,4 +42,4 @@ addnum = float(num1) + float(num2)
 print(addnum)
 ```
 
-<iframe src="https://trinket.io/embed/python3/2a317b1dba" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/2a317b1dba" height="400" />

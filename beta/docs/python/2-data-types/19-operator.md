@@ -11,7 +11,7 @@ id: 'operator'
 
 이 장에서는 파이썬에서 사용되고 알면 좋은 연산자에 대하여 배우겠습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sGZLq4VZW58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sGZLq4VZW58" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 산수 연산자
 
@@ -29,7 +29,7 @@ id: 'operator'
 
 `-=`, `_=`, `/=`, `**=`, `%=`, `//=` 등 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/fd203a6323" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/fd203a6323" height="400" />
 
 ## 비교 연산자
 
@@ -47,4 +47,4 @@ id: 'operator'
 
 `<` 는 두 값 중 더 작은 것이 무엇인지 알려줍니다.
 
-<iframe src="https://trinket.io/embed/python3/39a09b977e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/39a09b977e" height="400" />

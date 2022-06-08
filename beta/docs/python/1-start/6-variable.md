@@ -11,7 +11,7 @@ id: 'variable'
 
 이와 비슷하게 변수도 다양 한 정보를 담을 수 있는 '상자'라고 할 수 있습니다.
 
-<iframe src="https://www.youtube.com/embed/Qu5_eBK6OkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Qu5_eBK6OkI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 변수 선언하기
 
@@ -25,7 +25,7 @@ name = data
 
 이렇게 하면 변수를 만들 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python/a5d980683b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/a5d980683b" height="400" />
 
 ## 변수 사용 방법
 

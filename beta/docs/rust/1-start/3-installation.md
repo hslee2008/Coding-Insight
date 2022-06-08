@@ -35,6 +35,26 @@ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 xcode-select --install
 ```
 
+## Linux (Debian)
+
+```sh
+sudo apt update
+sudo apt install libwebkit2gtk-4.0-dev \
+    build-essential \
+    curl \
+    wget \
+    libssl-dev \
+    libgtk-3-dev \
+    libayatana-appindicator3-dev \
+    librsvg2-dev
+```
+
+curl을 사용해서 설치합니다.
+
+```sh
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+
 ## 설치 되었는지 확인하기
 
 ```sh

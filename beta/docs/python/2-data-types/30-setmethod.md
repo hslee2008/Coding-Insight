@@ -23,7 +23,7 @@ id: 'setmethod'
 
 또는 더 간단하고 쉽게 | (엔터 위에 있는 키보드(\)와 shift를 같이 누르세요) 연산자를 사용할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/f16d8554a4" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/f16d8554a4" height="400" />
 
 ## 교집합
 
@@ -37,7 +37,7 @@ id: 'setmethod'
 
 `intersection_update()`과 `intersection()` 대신 & 연산자를 사용하여 교집합을 찾을 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/bdb3068e9e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/bdb3068e9e" height="400" />
 
 ## 차집합
 
@@ -47,4 +47,4 @@ id: 'setmethod'
 
 간단하게 '-'를 사용해보겠습니다.
 
-<iframe src="https://trinket.io/embed/python3/a69bea0190" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/a69bea0190" height="400" />

@@ -9,7 +9,7 @@ id: 'error'
 
 `except`에서 에러의 메시지를 알 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/92021ab319" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/92021ab319" height="400" />
 
 ## 나만의 에러
 
@@ -19,7 +19,7 @@ id: 'error'
 
 괄호 안에 에러 설명을 넣을 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/bc5786961c" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/bc5786961c" height="400" />
 
 ## 에러 처리 다시 만들기
 
@@ -27,4 +27,4 @@ id: 'error'
 
 `raise Exception()` 다음에 `from ERR`를 붙이면 됩니다.
 
-<iframe src="https://trinket.io/embed/python3/dbdf0c2a5e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/dbdf0c2a5e" height="400" />

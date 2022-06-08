@@ -15,7 +15,7 @@ id: 'datatype'
 weather = "대체로 흐림"
 ```
 
-<iframe src="https://www.youtube.com/embed/DDrOcpflWDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/DDrOcpflWDc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 데이터 형태 찾기
 
@@ -27,7 +27,7 @@ print(type("안녕"))
 
 `<class 'str'>`는 "안녕"이 `str` 데이터 변수(`str`은 문자입니다)라는 것을 알려줍니다.
 
-<iframe src="https://trinket.io/embed/python/1068ac5668" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/1068ac5668" height="400" />
 
 ##️ 데이터 형태 확인
 
@@ -35,7 +35,7 @@ print(type("안녕"))
 
 첫 번째에 변수 이름을 넣고 두 번째에는 데이터 형태 이름을 넣습니다. 이 코드를 실행하면 `True` 또는 `False`가 출력됩니다.
 
-<iframe src="https://trinket.io/embed/python/437398710e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/437398710e" height="400" />
 
 위의 예시에서는 `weather` 변수가 `str`인지 알려주는 프로그램을 만들었습니다.
 

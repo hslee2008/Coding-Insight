@@ -57,7 +57,7 @@ pred = model.predict([[21, 1], [22, 0]])
 print(pred)
 ```
 
-<iframe src="https://trinket.io/embed/python3/02de47df74" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/02de47df74" height="400" />
 
 ## 추가로 정확도 측정하기
 
@@ -75,7 +75,7 @@ pred = model.predict(X_test)
 print(accuracy_score(y_test, pred))
 ```
 
-<iframe src="https://trinket.io/embed/python3/282aeb7817" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/282aeb7817" height="400" />
 
 :::note
 참고로 실행하면 정확도가 항상 달라지는 것을 확인할 수 있습니다.

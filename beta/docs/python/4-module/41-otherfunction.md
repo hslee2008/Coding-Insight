@@ -15,7 +15,7 @@ id: 'otherfunction'
 
 `quit()` 대신 `exit()`을 사용해도 됩니다.
 
-<iframe src="https://trinket.io/embed/python3/8b75210243" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/8b75210243" height="400" />
 
 ## help()
 
@@ -23,4 +23,4 @@ id: 'otherfunction'
 
 도움 프로그램을 실행하기 위하여 `help()` 함수를 사용할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/ea0c810c1a" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/ea0c810c1a" height="400" />

@@ -32,7 +32,7 @@ python -m smtpd -c DebuggingServer -n localhost:1025
 
 참고로 그 계정과 밑에 있는 코드의 계정 이메일이 일치해야합니다.
 
-<iframe src="https://trinket.io/embed/python3/db9f325b98" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/db9f325b98" height="400" />
 
 ## 자동으로 줌 열기
 파이썬에서 자동으로 줌을 열 수 있습니다.

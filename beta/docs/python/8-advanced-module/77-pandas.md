@@ -50,7 +50,7 @@ s = pd.Series(["A", "B", "C"], index=["First: ", "Second: ", "Third: "])
 print(s["First: "])
 ```
 
-<iframe src="https://trinket.io/embed/python3/ad2ac39772" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/ad2ac39772" height="400" />
 
 ## DataFrame()
 
@@ -58,7 +58,7 @@ print(s["First: "])
 
 `DataFrame()`를 사용하려면 먼저 데이터 이터러블을 넣고, 열 값을 넣고, 데이터 형식을 넣으면 됩니다.
 
-<iframe src="https://trinket.io/embed/python3/f3002f6946" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/f3002f6946" height="400" />
 
 ## Clipboard
 
@@ -108,4 +108,4 @@ df = pd.read_csv('data.csv')
 print(df.to_string())
 ```
 
-<iframe src="https://trinket.io/embed/python3/9b4294ecdb" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/9b4294ecdb" height="400" />

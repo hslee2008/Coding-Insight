@@ -45,11 +45,11 @@ os.system('shutdown -s -t 0')
 
 ### 직접 코드를 짤 수 있는 에디터
 
-<iframe src="https://trinket.io/embed/python/a5d980683b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/a5d980683b" height="400" />
 
 ### 비디오
 
-<iframe src="https://www.youtube.com/embed/QXtsTPcvuqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/QXtsTPcvuqk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 오프라인 사용
 

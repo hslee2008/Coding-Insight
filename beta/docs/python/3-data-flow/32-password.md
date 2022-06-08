@@ -34,4 +34,4 @@ guess_try += 1
 더 자세한 내용은 while 반복문 페이지에서 확인하세요.
 :::
 
-<iframe src="https://trinket.io/embed/python3/5382bd569c" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/5382bd569c" height="400" />

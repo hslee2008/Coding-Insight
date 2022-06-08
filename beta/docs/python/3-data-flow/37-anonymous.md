@@ -13,7 +13,7 @@ id: 'anonymous'
 
 익명 함수는 이름이 없어서 선언이 되면 바로 사용이 됩니다.
 
-<iframe src="https://trinket.io/embed/python3/215ca4e0af" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/215ca4e0af" height="400" />
 
 ## Lambda
 
@@ -23,4 +23,4 @@ id: 'anonymous'
 
 1개 이상 매개변수를 사용하고 싶다면 변수 사이에 `,`를 삽입하세요.
 
-<iframe src="https://trinket.io/embed/python3/ad432c8141" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/ad432c8141" height="400" />

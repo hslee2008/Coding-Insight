@@ -15,7 +15,7 @@ import random as R
 
 무작위 모듈에서 숫자 0에서 1 사이의 소수(15자리까지)를 선택하여 출력하고 싶다면 `random()`을 사용하면 됩니다.
 
-<iframe src="https://trinket.io/embed/python3/71d6fef8dc" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/71d6fef8dc" height="400" />
 
 ## 두 숫자 사이의 무작위 값 구하기
 
@@ -37,4 +37,4 @@ import random as R
 
 마지막으로 `triangular()`라는 메서드를 사용하면 어떤 범위 안에서의 정수를 랜덤으로 선택하는 것도 가능하지만 어떤 수가 나올 수 있는 확률을 높이는 방법도 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/2c93c0b550" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/2c93c0b550" height="400" />

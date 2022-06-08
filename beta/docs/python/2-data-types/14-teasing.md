@@ -15,4 +15,4 @@ id: 'teasing'
 
 `print(name, "바보")`를 실행하면 친구의 이름과 `바보`를 출력합니다.
 
-<iframe src="https://trinket.io/embed/python3/947151bed1" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/947151bed1" height="400" />

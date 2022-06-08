@@ -50,7 +50,7 @@ zipp_info["World"] = "0"
 print(sent)
 ```
 
-<iframe src="https://trinket.io/embed/python3/836101c4af" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/836101c4af" height="400" />
 
 ## 실체 파이썬 압축 프로그램
 
@@ -90,7 +90,7 @@ import zlib
 
 아래의 코드를 실행하면 `63`, `44` 숫자가 나옵니다. 이처럼 길이가 63인 문자를 길이가 `44`인 문자로 바꾸기가 가능합니다.
 
-<iframe src="https://trinket.io/embed/python3/74a9209480" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/74a9209480" height="400" />
 
 ## level
 
@@ -109,13 +109,13 @@ zlib에서는 총 10개의 level (0~9)이 있습니다.
 
 그 이유는 너무 짧기 때문입니다.
 
-<iframe src="https://trinket.io/embed/python3/50ab5d6ef3" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/50ab5d6ef3" height="400" />
 
 ## 압축 풀기
 
 압축을 풀기 위하여 `zlib.decompress()` 메서드를 사용할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/c42b0b500e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/c42b0b500e" height="400" />
 
   </div>
 </details>

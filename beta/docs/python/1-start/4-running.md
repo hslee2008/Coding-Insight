@@ -70,7 +70,7 @@ hello 대신 만든 파이썬 파일 이름을 넣으세요.
 
 만일 조건문 안에 한줄 이상 코드를 사용하고 싶다면 `;` 를 사용할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/b6c75a2237" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/b6c75a2237" height="400" />
 
 더 자세한 내용은 조건문에서 확인하세요.
 
@@ -82,4 +82,4 @@ hello 대신 만든 파이썬 파일 이름을 넣으세요.
 
 저희 사이트는 [Trinket](https://trinket.io)에서 IDLE를 사용해 직접 웹사이트에서 코드를 실행할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/93a3b5a1dc" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/93a3b5a1dc" height="400" />

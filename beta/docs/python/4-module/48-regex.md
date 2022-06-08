@@ -21,13 +21,13 @@ import re #영어로 Regular Expression입니다. (re)
 
 `re.match()` 메서드를 사용하면 어떤 두 문자에서 동일한 시작 부분을 알 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/6b78aaf023" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/6b78aaf023" height="400" />
 
 ## 문자의 값 찾기
 
 `match()`는 문자의 시작 부분을 알 수 있지만 `re.search()` 메서드를 사용한다면 전체 값에서의 같은 부분을 계산할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/6d2e182407" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/6d2e182407" height="400" />
 
 ## 정규식 문자
 

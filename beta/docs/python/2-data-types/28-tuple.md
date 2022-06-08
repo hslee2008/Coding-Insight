@@ -5,7 +5,7 @@ id: 'tuple'
 
 # 튜플
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iIUhChzGajA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iIUhChzGajA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 튜플이란 리스트와 같지만 안에 있는 값을 바꿀 수 없는 데이터의 형태를 뜻합니다.
 
@@ -13,19 +13,19 @@ id: 'tuple'
 
 그래서 파이썬 프로그램을 짜는데 절대로 사용자가 수정하면 안 되는 데이터들(예: 점수, 시험 성적, ...)을 튜플 안에 저장할 수 있습니다.
 
-튜플에서는 대괄호[] 대신 소괄호()를 사용합니다. CODE1에서 확인하겠습니다.
+튜플에서는 대괄호`[]` 대신 소괄호`()`를 사용합니다. CODE1에서 확인하겠습니다.
 
 CODE2와 같이 강제로 바꾸려 한다면 에러가 출력됩니다.
 
-CODE3와 같이 파이썬에서 신기하게도 () 없이도 튜플이라고 인식할 수 있는 기능이 있습니다.
+CODE3와 같이 파이썬에서 신기하게도 `()` 없이도 튜플이라고 인식할 수 있는 기능이 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/069924886e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/069924886e" height="400" />
 
 ## 튜플 풀기
 
 CODE1과 같이 튜플을 만들고 상자같이 풀 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/8c81ff1498" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/8c81ff1498" height="400" />
 
 ## 튜플 길이 지정하기
 
@@ -37,7 +37,7 @@ CODE1과 같이 튜플을 만들고 상자같이 풀 수 있습니다.
 a = 1, 2, b = 3,
 ```
 
-<iframe src="https://trinket.io/embed/python3/0cc2f9e56d" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/0cc2f9e56d" height="400" />
 
 ## zip()
 
@@ -47,4 +47,4 @@ zip이란 우리가 지퍼를 올려서 닫는 것을 뜻합니다.
 
 `zipped`를 사용했지만 실제로 튜플을 보기 위하여 `tuple()` 함수를 사용해야 합니다.
 
-<iframe src="https://trinket.io/embed/python3/1af130ab47" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/1af130ab47" height="400" />

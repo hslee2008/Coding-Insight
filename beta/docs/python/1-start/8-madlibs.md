@@ -56,4 +56,4 @@ print(finish)
 
 ##️ 확인하기
 
-<iframe src="https://trinket.io/embed/python3/e1d336381d" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/e1d336381d" height="400" />

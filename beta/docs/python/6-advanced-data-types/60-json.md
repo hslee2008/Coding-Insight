@@ -17,13 +17,13 @@ JSON은 딕셔너리와 비슷하지만 항상 문자는 "" 안에 있어야하�
 
 `json.loads()` 메서드 안에 JSON 데이터 형태를 입력하면 파이썬 딕셔너리로 전환됩니다.
 
-<iframe src="https://trinket.io/embed/python3/0812d9740b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/0812d9740b" height="400" />
 
 ## 딕셔너리를 JSON으로
 
-파이썬 딕셔너리를 JSON으로 전환하기 위하여 json.dumps() 메서드를 이용해보겠습니다.
+파이썬 딕셔너리를 JSON으로 전환하기 위하여 `json.dumps()` 메서드를 이용해보겠습니다.
 
-<iframe src="https://trinket.io/embed/python3/efb76f8dd2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/efb76f8dd2" height="400" />
 
 ## JSON 포맷
 

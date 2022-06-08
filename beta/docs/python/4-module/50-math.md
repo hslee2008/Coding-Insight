@@ -31,7 +31,7 @@ mean은 영어로 평균을 뜻합니다.
 
 `harmonic_mean()`은 `mean()`과 같지만 분자 평균의 숫자가 짝수일 때의 분자와 분모를 바꾼 값입니다.
 
-<iframe src="https://trinket.io/embed/python3/b4ab6a9593" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/b4ab6a9593" height="400" />
 
 ## 중앙값 median()
 
@@ -45,7 +45,7 @@ mean은 영어로 평균을 뜻합니다.
 
 `statistics` 모듈을 사용하면 다음과 같은 방법으로 중앙값을 쉽게 찾을 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/0a8bc90264" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/0a8bc90264" height="400" />
 
 ## 최빈값
 
@@ -53,4 +53,4 @@ mean은 영어로 평균을 뜻합니다.
 
 평균과 중앙값은 숫자만 입력할 수 있지만 모든 데이터 형태를 사용할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/0a8bc90264" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/0a8bc90264" height="400" />

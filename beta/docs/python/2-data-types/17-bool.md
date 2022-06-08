@@ -22,7 +22,7 @@ print(userNumber > 5) #userNumber가 5보다 큰지 비교하고 결과를 출�
 a = 5 > 6
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QRDmXqVbNPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QRDmXqVbNPs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 주의할 점
 
@@ -32,13 +32,13 @@ a = 5 > 6
 
 소수로 소문자로 사용하면 다음과 같은 에러가 생깁니다.
 
-<iframe src="https://trinket.io/embed/python/8500bba20b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/8500bba20b" height="400" />
 
 ## not 연산자
 
 불리언에서 `True`를 `False`로 `False`를 `True`로 바꾸기 위하여 `not`을 변수 앞에 붙이면 그 반대가 출력됩니다.
 
-<iframe src="https://trinket.io/embed/python/5fbbc3204c" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/5fbbc3204c" height="400" />
 
 ## assert()
 
@@ -56,7 +56,7 @@ CODE2는 2가 1보다 크지 않기 때문에 에러가 생깁니다.
 
 파이썬 프로그램에서 나만의 메시지를 만들려면 불리언 뒤에 메시지를 넣으면 됩니다. (CODE3를 확인하세요)
 
-<iframe src="https://trinket.io/embed/python3/b23c21c043" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/b23c21c043" height="400" />
 
 ## all()과 any()
 
@@ -64,4 +64,4 @@ CODE2는 2가 1보다 크지 않기 때문에 에러가 생깁니다.
 
 이 메서드는 한 값이 `True`여도 `True`이고 모두 다 `True`가 아니면 `False`를 출력합니다.
 
-<iframe src="https://trinket.io/embed/python/6d4ae0d672" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/6d4ae0d672" height="400" />

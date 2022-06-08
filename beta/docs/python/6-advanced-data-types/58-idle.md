@@ -5,4 +5,4 @@ id: 'idle'
 
 # 나만의 IDLE
 
-<iframe src="https://trinket.io/embed/python3/fa7de26cef" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/fa7de26cef" height="400" />

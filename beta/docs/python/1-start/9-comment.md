@@ -11,7 +11,7 @@ id: 'comment'
 
 비슷하게 프로그래밍에서 우리의 코드를 이해하는 것을 도와주기 위한 설명을 넣을 수 있습니다.
 
-<iframe src="https://www.youtube.com/embed/nJg2uCjwKa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/nJg2uCjwKa4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 주석을 사용해야 하는 상황
 
@@ -21,7 +21,7 @@ id: 'comment'
 
 3. 코드를 주석으로 만들면 그 코드가 없을 때 프로그램이 어떻게 실행되는지 확인할 때 (주석은 실행이 되지 않는다)
 
-<iframe src="https://trinket.io/embed/python/450cb9ddc1" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/450cb9ddc1" height="400" />
 
 ## 한 줄 주석
 
@@ -33,7 +33,7 @@ id: 'comment'
 
 다음은 주석의 예시입니다.
 
-<iframe src="https://trinket.io/embed/python/5f18131ec9" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/5f18131ec9" height="400" />
 
 ## 한 줄 이상 주석
 
@@ -41,4 +41,4 @@ id: 'comment'
 
 `''' '''`와 `""" """` 둘다 한 줄 이상 주석을 다는데 사용할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python/ab2de5f9f6" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/ab2de5f9f6" height="400" />

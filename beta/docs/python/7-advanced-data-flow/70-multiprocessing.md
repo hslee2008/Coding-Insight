@@ -15,7 +15,7 @@ import multiprocessing
 
 `multiprocessing.Process()` 메서드를 사용하여 멀티프로세싱을 만들 수 있고 `start()`를 사용하여 그 프로세스를 실행할 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python3/bbf4c84765" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/bbf4c84765" height="400" />
 
 ## 주의할 것
 

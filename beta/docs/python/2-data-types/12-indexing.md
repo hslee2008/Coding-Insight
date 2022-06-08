@@ -24,7 +24,7 @@ print(a[0])
 
 이 이유는 조금 뒤에 설명하겠습니다.
 
-<iframe src="https://trinket.io/embed/python3/e1cdc9760f" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python3/e1cdc9760f" height="400" />
 
 ## 문자 인덱싱 (x ~ y 값)
 
@@ -34,7 +34,7 @@ print(a[0])
 
 만일 0이 없이 `''` 만 있어도 파이썬은 0이라고 인식합니다.
 
-<iframe src="https://trinket.io/embed/python/47c742b3bd" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/47c742b3bd" height="400" />
 
 ## 거꾸로 문자 뒤집기
 
@@ -50,7 +50,7 @@ print(a[0])
 
 스텝을 -1로 입력하면 거꾸로 바꿀 수 있습니다.
 
-<iframe src="https://trinket.io/embed/python/4e95210044" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Python Playground" src="https://trinket.io/embed/python/4e95210044" height="400" />
 
 ## 인덱싱 x를 사용하면 x-1인 이유
 
