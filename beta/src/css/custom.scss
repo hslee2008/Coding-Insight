@@ -1,5 +1,4 @@
 @import 'shared';
-
 :root {
   --brand: #61dafb;
   --dark: #282c34;
@@ -14,7 +13,7 @@
   --ifm-font-size-base: 17px;
   --ifm-spacing-horizontal: 16px;
   --ifm-navbar-item-padding-horizontal: 18px;
-  --ifm-menu-link-padding-horizontal: 0;
+  --ifm-menu-link-padding-horizontal: 10px;
   --ifm-toc-padding-vertical: 6px;
   --ifm-toc-link-color: var(--ifm-color-emphasis-700);
   --ifm-code-font-size: 90%;
@@ -41,21 +40,6 @@ html[data-theme='dark'] {
   color: var(--ifm-font-color-secondary);
 }
 
-/* Content */
-.main-wrapper {
-  max-width: 1400px;
-  width: 1400px;
-  align-self: center;
-  font-weight: 300;
-}
-
-@media (max-width: 1416px) {
-  .main-wrapper {
-    max-width: 100%;
-    width: 100%;
-  }
-}
-
 /* Sidebars */
 
 html[data-theme='dark'] {
@@ -67,11 +51,6 @@ html[data-theme='dark'] {
 .navbar {
   &.navbar--dark {
     background-color: var(--deepdark);
-  }
-
-  .navbar__inner {
-    max-width: 1360px;
-    margin: 0 auto;
   }
 
   .navbar__title {
@@ -95,6 +74,7 @@ html[data-theme='dark'] {
         font-weight: 400;
         font-size: 14px;
       }
+
       ul {
         top: calc(100% + 0px);
         left: 0;
@@ -133,7 +113,8 @@ But the navbar sidebar should still support light theme
 So we need to "revert" some CSS vars to not enforce dark mode
  */
 .navbar--dark {
-  --ifm-menu-link-sublist-icon-filter: inherit; /* reset to non-dark value */
+  --ifm-menu-link-sublist-icon-filter: inherit;
+  /* reset to non-dark value */
   --ifm-menu-color: inherit;
   --ifm-navbar-background-color: var(--divider);
 }
@@ -181,7 +162,6 @@ html[data-theme='dark'] {
     }
   }
 }
-
 /* Sidebar */
 
 aside[class^='theme-doc-sidebar-container'] {
@@ -198,6 +178,11 @@ aside[class^='theme-doc-sidebar-container'] {
     min-width: 0 !important;
     margin-right: 0;
   }
+}
+
+.menu--responsive .menu__button {
+  right: 1.3rem;
+  bottom: 1.3rem;
 }
 
 html[data-theme='dark'] .menu {
@@ -309,10 +294,3 @@ button[class*='tocCollapsibleButton'] {
     }
   }
 }
-
-/*
-  Mark pages as "new" using href attribute:
-  - to show badge in all versions use "PAGEID"
-  - to restrict badge only to the current/default version use "docs/PAGEID"
-  - to restrict badge only to the next version use "next/PAGEID"
-*/
