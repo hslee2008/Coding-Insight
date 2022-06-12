@@ -29,7 +29,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/beta/docs/',
+            'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/beta/',
         },
         blog: {
           showReadingTime: true,
@@ -37,7 +37,12 @@ const config = {
             'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/beta/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.scss'),
+            require.resolve('./src/css/markdown.scss'),
+            require.resolve('./src/css/customElements.scss'),
+            require.resolve('./src/css/footer.scss'),
+          ],
         },
       }),
     ],
@@ -115,7 +120,7 @@ const config = {
               },
               {
                 label: 'Rust',
-                to: '/docs/rust',
+                to: '/docs/rust/start/rust',
               },
             ],
           },
@@ -166,6 +171,7 @@ const config = {
       },
     }),
   plugins: [
+    'docusaurus-plugin-sass',
     [
       '@docusaurus/plugin-pwa',
       {

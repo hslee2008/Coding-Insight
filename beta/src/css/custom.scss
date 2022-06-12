@@ -1,0 +1,318 @@
+@import 'shared';
+
+:root {
+  --brand: #61dafb;
+  --dark: #282c34;
+  --deepdark: #20232a;
+  --light: #373940;
+  --text: #1a1a1a;
+  --subtle: #767676;
+  --divider: #ececec;
+  --tintColor: #f7f7f7;
+  --rn-note-background: rgba(255, 229, 100, 0.25);
+  --ifm-color-primary: #06bcee;
+  --ifm-font-size-base: 17px;
+  --ifm-spacing-horizontal: 16px;
+  --ifm-navbar-item-padding-horizontal: 18px;
+  --ifm-menu-link-padding-horizontal: 0;
+  --ifm-toc-padding-vertical: 6px;
+  --ifm-toc-link-color: var(--ifm-color-emphasis-700);
+  --ifm-code-font-size: 90%;
+  --ifm-code-border-radius: 5px;
+  --ifm-blockquote-color: var(--ifm-font-color-base);
+  --ifm-blockquote-font-size: 16px;
+  --ifm-table-head-color: var(--subtle);
+  --ifm-link-hover-decoration: none;
+  --ifm-transition-fast: 0;
+  --ifm-transition-slow: 0;
+  --ifm-pre-line-height: 1.5;
+  --ifm-color-warning: #ffe564;
+  --ifm-table-border-width: 0.005rem;
+}
+
+html[data-theme='dark'] {
+  --ifm-code-background: rgba(255, 255, 255, 0.06);
+  --ifm-toc-border-color: var(--dark);
+  --ifm-color-emphasis-300: var(--dark);
+  --ifm-hr-border-color: var(--dark);
+}
+
+::marker {
+  color: var(--ifm-font-color-secondary);
+}
+
+/* Content */
+.main-wrapper {
+  max-width: 1400px;
+  width: 1400px;
+  align-self: center;
+  font-weight: 300;
+}
+
+@media (max-width: 1416px) {
+  .main-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Sidebars */
+
+html[data-theme='dark'] {
+  @extend %scrollbar-style-dark;
+}
+
+/* Navbar */
+
+.navbar {
+  &.navbar--dark {
+    background-color: var(--deepdark);
+  }
+
+  .navbar__inner {
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+
+  .navbar__title {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .navbar__brand:hover {
+    color: var(--brand);
+  }
+
+  .navbar__item {
+    &.navbar__link {
+      font-weight: 400;
+      font-size: 17px;
+      user-select: none;
+    }
+
+    &.dropdown {
+      a {
+        font-weight: 400;
+        font-size: 14px;
+      }
+      ul {
+        top: calc(100% + 0px);
+        left: 0;
+      }
+    }
+  }
+
+  .navbar__logo {
+    transition: transform 0.5s;
+  }
+
+  .navbar__brand:hover .navbar__logo {
+    transform: rotate(360deg);
+  }
+
+  .clean-btn:hover {
+    background: var(--ifm-color-emphasis-800);
+  }
+
+  .dropdown__menu {
+    min-width: 120px;
+
+    a.dropdown__link--active {
+      font-weight: 600;
+    }
+  }
+
+  .navbar-sidebar__back:hover {
+    background: var(--ifm-code-background);
+  }
+}
+
+/*
+Config has themeConfig.navbar.style === "dark"
+But the navbar sidebar should still support light theme
+So we need to "revert" some CSS vars to not enforce dark mode
+ */
+.navbar--dark {
+  --ifm-menu-link-sublist-icon-filter: inherit; /* reset to non-dark value */
+  --ifm-menu-color: inherit;
+  --ifm-navbar-background-color: var(--divider);
+}
+
+.navbar-sidebar {
+  .navbar-sidebar__brand {
+    background-color: var(--deepdark);
+  }
+
+  .navbar-github-link {
+    &:after {
+      content: 'GitHub';
+      background-image: none;
+      height: 20px;
+    }
+
+    &:hover:after {
+      opacity: 1;
+    }
+  }
+
+  .navbar__link--active:after {
+    display: none;
+  }
+}
+
+html[data-theme='dark'] {
+  .navbar-sidebar {
+    background: var(--ifm-background-color);
+  }
+
+  .navbar button[class*='toggleButton']:hover {
+    background: var(--ifm-color-emphasis-200);
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    .navbar__item.navbar__link {
+      font-size: 15px;
+
+      &.navbar__link--active:after {
+        top: 20px;
+      }
+    }
+  }
+}
+
+/* Sidebar */
+
+aside[class^='theme-doc-sidebar-container'] {
+  margin-right: 16px;
+
+  .thin-scrollbar {
+    @extend %scrollbar-style;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  aside[class^='theme-doc-sidebar-container'] {
+    width: 0 !important;
+    min-width: 0 !important;
+    margin-right: 0;
+  }
+}
+
+html[data-theme='dark'] .menu {
+  @extend %scrollbar-style-dark;
+}
+
+/* TOC */
+
+div[class^='tableOfContents'] {
+  min-width: 100%;
+  width: 100%;
+
+  @extend %scrollbar-style;
+}
+
+.table-of-contents {
+  li {
+    margin: 7px var(--ifm-toc-padding-vertical);
+  }
+
+  ul {
+    padding-left: 0.35rem;
+
+    li {
+      margin: 4px var(--ifm-toc-padding-vertical);
+    }
+  }
+
+  .table-of-contents__link {
+    font-size: 12px;
+    display: block;
+
+    code {
+      background: none;
+      padding: 0;
+      border: 0;
+    }
+
+    &:hover {
+      color: var(--ifm-link-color);
+
+      code {
+        color: var(--ifm-link-color);
+      }
+    }
+  }
+
+  .table-of-contents__link--active {
+    font-weight: 500;
+    margin-left: -16px;
+    padding-left: 12px;
+    color: var(--ifm-font-color-base);
+    border-left: 4px solid var(--brand);
+
+    code {
+      font-weight: 600;
+      color: var(--ifm-font-color-base);
+      white-space: nowrap;
+    }
+
+    &:hover {
+      color: var(--ifm-font-color-base);
+
+      code {
+        color: var(--ifm-font-color-base);
+      }
+    }
+  }
+}
+
+html[data-theme='dark'] div[class^='tableOfContents'] {
+  @extend %scrollbar-style-dark;
+}
+
+button[class*='tocCollapsibleButton'] {
+  color: var(--ifm-color-content-secondary);
+}
+
+/* Edit page */
+
+.theme-doc-footer {
+  margin-top: 40px !important;
+  margin-bottom: 16px !important;
+  font-size: 15px;
+  color: var(--subtle);
+
+  a {
+    @extend %button-link-style;
+
+    svg {
+      color: var(--ifm-color-primary);
+    }
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 996px) {
+  .theme-doc-footer .col {
+    flex-basis: 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .theme-doc-footer .col {
+    text-align: center;
+
+    &:first-child {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+/*
+  Mark pages as "new" using href attribute:
+  - to show badge in all versions use "PAGEID"
+  - to restrict badge only to the current/default version use "docs/PAGEID"
+  - to restrict badge only to the next version use "next/PAGEID"
+*/

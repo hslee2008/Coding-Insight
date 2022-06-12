@@ -6,7 +6,6 @@ import classNames from 'classnames';
 import React from 'react';
 import styles from './index.module.css';
 
-
 function Cards() {
   const cards = [
     {
@@ -40,7 +39,7 @@ function Cards() {
     },
     {
       imageUrl: 'img/svg/only.svg',
-      description: '유일하게 어린이를 위해 작성된 웹사이트',
+      description: '유일하게 어린이들도 이해할 수 있는 웹사이트',
       nobutton: true,
     },
   ];
@@ -130,7 +129,9 @@ export default function Home() {
       <HeroHeader title={siteConfig.title} tagline={siteConfig.tagline} />
       <Cards />
 
-      <br /><br />
+
+      <br />
+      <br />
     </Layout>
   );
 }

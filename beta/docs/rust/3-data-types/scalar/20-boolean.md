@@ -25,7 +25,7 @@ let is_true: bool = true;
 
 <iframe
   title="Rust Playground"
-  src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2022&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20boolean_value)%3B%0D%0A%7D"
+  src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20boolean_value)%3B%0D%0A%7D"
   height="400"
 />
 

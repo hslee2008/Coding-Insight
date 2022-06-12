@@ -29,7 +29,7 @@ print(type("안녕"))
 
 <iframe title="Python Playground" src="https://trinket.io/embed/python/1068ac5668" height="400" />
 
-##️ 데이터 형태 확인
+## 데이터 형태 확인
 
 `isinstance()`는 변수의 데이터 형태를 확인해주는 함수입니다.
 

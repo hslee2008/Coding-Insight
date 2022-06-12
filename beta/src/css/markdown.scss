@@ -1,0 +1,217 @@
+@import 'shared';
+
+hr {
+  border: 0;
+  height: 0.01rem;
+  background-color: var(--ifm-table-border-color);
+}
+
+/* Light */
+.markdown {
+  code {
+    border-color: transparent;
+    vertical-align: initial;
+    font-size: 90% !important;
+  }
+
+  blockquote {
+    background-color: var(--rn-note-background);
+    border-left: 8px solid var(--ifm-color-warning);
+    padding: 15px 30px 15px 15px;
+
+    code {
+      background-color: rgba(0, 0, 0, 0.07);
+    }
+
+    a code {
+      background-color: transparent;
+      white-space: pre;
+    }
+  }
+
+  a {
+    @extend %link-style;
+
+    code {
+      background-color: transparent;
+      font-size: 90%;
+      padding: 0 6px;
+      top: -1px;
+      position: relative;
+    }
+
+    .hermes-logo {
+      float: right;
+      margin: -30px 4px 0;
+    }
+
+    @media screen and (max-width: 960px) {
+      .hermes-logo {
+        margin: 0 4px 30px;
+        width: 100%;
+      }
+    }
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  table {
+    border-collapse: collapse;
+    display: table;
+    margin: 20px 0;
+    width: 100%;
+
+    thead tr {
+      background-color: var(--divider);
+      border: 0;
+    }
+
+    tr th {
+      text-transform: uppercase;
+      padding: 6px 10px;
+      font-size: 0.7rem;
+      text-align: left;
+    }
+
+    tr td {
+      font-size: 90%;
+      line-height: 1.3em;
+      padding: 10px;
+      text-align: left;
+
+      code {
+        display: inline-block;
+        line-height: 1.2em;
+        vertical-align: top;
+      }
+
+      ul {
+        margin: 8px 0 0 0;
+        padding: 4px 0 4px 20px;
+      }
+    }
+
+    hr {
+      margin: 12px 0;
+    }
+
+    .wideColumn {
+      width: 128px;
+    }
+
+    .widerColumn {
+      width: 180px;
+    }
+
+    .table-heading {
+      font-weight: var(--ifm-table-head-font-weight);
+      border-bottom: 2px solid var(--ifm-table-border-color);
+    }
+
+    div[class*='codeBlockContainer'] {
+      &,
+      & pre {
+        margin-bottom: 0;
+      }
+
+      pre code {
+        padding: 12px 16px;
+        white-space: break-spaces;
+      }
+
+      button {
+        display: none;
+      }
+    }
+  }
+
+  figure {
+    text-align: center;
+    padding: 8px;
+
+    figcaption {
+      padding: 8px;
+      font-size: 0.9rem;
+      color: var(--subtle);
+
+      code {
+        color: var(--subtle);
+      }
+    }
+  }
+
+  .docusaurus-highlight-code-line {
+    background-color: var(--light);
+  }
+
+  div[class*='codeBlockContainer'] {
+    box-shadow: none;
+    margin-bottom: 1rem;
+  }
+
+  div[class*='codeBlockLines'] {
+    font-size: 80%;
+  }
+
+  div[class*='codeBlockTitle'] {
+    color: var(--subtle) !important;
+    background-color: var(--ifm-table-border-color) !important;
+  }
+
+  button[class^='copyButton'] {
+    font-size: 13px;
+  }
+
+  .prism-code {
+    @extend %scrollbar-style;
+  }
+
+  .tabs {
+    border-bottom: 1px solid var(--ifm-table-border-color);
+    color: var(--ifm-font-color-base);
+
+    .tabs__item {
+      font-weight: normal;
+      font-size: 15px;
+      color: var(--ifm-font-color-base);
+      user-select: none;
+
+      &:hover {
+        border-radius: var(--ifm-global-radius) var(--ifm-global-radius) 0 0;
+      }
+
+      &.tabs__item--active {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+/* Dark */
+html[data-theme='dark'] {
+  .markdown {
+    a {
+      @extend %link-style-dark;
+    }
+
+    blockquote {
+      code {
+        background-color: rgba(255, 255, 255, 0.09);
+      }
+
+      a code {
+        background-color: transparent;
+      }
+    }
+
+    table thead tr {
+      background-color: var(--ifm-menu-color-background-active);
+    }
+
+    .prism-code {
+      @extend %scrollbar-style-dark;
+    }
+  }
+}
