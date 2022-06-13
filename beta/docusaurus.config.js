@@ -30,6 +30,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/beta/',
+          breadcrumbs: false,
         },
         blog: {
           showReadingTime: true,

@@ -5,6 +5,7 @@ sidebar_position: 1
 # 시작하기 전...
 
 Coding-Insight에 대해 1분만에 어디에서 시작할지 알아보겠습니다.
+
 ## 시작하기
 
 Coding-Insight에는 총 4개의 언어를 설명하는 페이지가 있습니다.

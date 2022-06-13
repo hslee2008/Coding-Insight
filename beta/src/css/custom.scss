@@ -1,4 +1,5 @@
 @import 'shared';
+
 :root {
   --brand: #61dafb;
   --dark: #282c34;
@@ -147,7 +148,7 @@ html[data-theme='dark'] {
   }
 
   .navbar button[class*='toggleButton']:hover {
-    background: var(--ifm-color-emphasis-200);
+    background: var(--ifm-color-emphasis-100);
   }
 }
 

@@ -23,24 +23,28 @@ function Cards() {
     },
     {
       imageUrl: 'img/svg/undraw_around_the_world_re_rb1p.svg',
+      linkText: '한국어와 영어',
       description:
         '웹사이트는 직접 번역된 한국어와 영어로 만들었습니다. 자연스럽지 않은 공식 해외 사이트와는 다릅니다.',
       nobutton: true,
     },
     {
       imageUrl: 'img/svg/undraw_progressive_app_m-9-ms.svg',
+      linkText: 'PWA',
       description: 'PWA 기술로 모든 기기에서도 접속이 간편하고 빠른 웹사이트',
       nobutton: true,
     },
     {
       imageUrl: 'img/svg/undraw_project_complete_lwss.svg',
+      linkText: '스스로',
       description: '스스로 프로젝트를 만들고 배우는 웹사이트',
       nobutton: true,
     },
     {
       imageUrl: 'img/svg/only.svg',
+      linkText: '어린이들도',
       description: '유일하게 어린이들도 이해할 수 있는 웹사이트',
-      nobutton: true,
+      link: '/beta/about',
     },
   ];
 
@@ -75,7 +79,7 @@ function HeroHeader({ title, tagline }) {
           require('@lottiefiles/lottie-player');
           return (
             <Lottie-Player
-              src="/beta/img/search-splash.json"
+              src="/beta/splash.json"
               background="transparent"
               speed="1"
               style={{ height: '30vh', margin: 'auto' }}
@@ -128,7 +132,6 @@ export default function Home() {
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <HeroHeader title={siteConfig.title} tagline={siteConfig.tagline} />
       <Cards />
-
 
       <br />
       <br />

@@ -4,6 +4,13 @@ module.exports = {
     {
       type: 'category',
       label: '파이썬',
+      link: {
+        type: 'generated-index',
+        title: '파이썬',
+        description:
+          '파이썬은 처음으로 프로그래밍을 하는 사람들을 위해 디자인된 언어입니다.',
+        keywords: ['python', 'python3', '파이썬'],
+      },
       items: [
         {
           type: 'category',
@@ -90,6 +97,13 @@ module.exports = {
     {
       type: 'category',
       label: 'Rust',
+      link: {
+        type: 'generated-index',
+        title: 'Rust',
+        description:
+          'Rust는 다른 프로그래밍 언어와 달리 매우 "안전하고, 효율적이고, 유용한" 프로그래밍 언어입니다.',
+        keywords: ['rust', 'rustlang', 'rust-lang'],
+      },
       items: [
         {
           type: 'category',

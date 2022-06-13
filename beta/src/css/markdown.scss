@@ -22,35 +22,6 @@ hr {
     code {
       background-color: rgba(0, 0, 0, 0.07);
     }
-
-    a code {
-      background-color: transparent;
-      white-space: pre;
-    }
-  }
-
-  a {
-    @extend %link-style;
-
-    code {
-      background-color: transparent;
-      font-size: 90%;
-      padding: 0 6px;
-      top: -1px;
-      position: relative;
-    }
-
-    .hermes-logo {
-      float: right;
-      margin: -30px 4px 0;
-    }
-
-    @media screen and (max-width: 960px) {
-      .hermes-logo {
-        margin: 0 4px 30px;
-        width: 100%;
-      }
-    }
   }
 
   strong {
@@ -192,10 +163,6 @@ hr {
 /* Dark */
 html[data-theme='dark'] {
   .markdown {
-    a {
-      @extend %link-style-dark;
-    }
-
     blockquote {
       code {
         background-color: rgba(255, 255, 255, 0.09);
