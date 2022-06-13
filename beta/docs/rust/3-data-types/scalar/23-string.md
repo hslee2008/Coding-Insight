@@ -43,7 +43,9 @@ String은 heap에만 저장할 수 있습니다.
   height="400"
 />
 
-## 길이와 관련된 메서드
+## 다양한 매서드
+
+### 길이와 관련된 메서드
 
 `len()`을 사용하면 `&str`의 길이를 알 수 있습니다.
 
@@ -62,6 +64,72 @@ String은 heap에만 저장할 수 있습니다.
 지금부터 배우는 메서드는 다 `String`과 `&str` 형태에 사용할 수 있습니다.
 
 :::
+
+### 인덱스 메서드
+
+인덱스란 문자열에서 각 문자의 위치 번호를 뜻합니다.
+
+0 인덱스는 첫 번째 문자를 뜻합니다.
+
+1 인덱스는 두 번째 문자를 뜻합니다.
+
+사실 `x` 인덱스는 `x + 1` 번째 문자입니다.
+
+문자열의 인덱스는 `&str`에서 `chars()`로 바꾸고 `nth()`를 사용해서 `n`번째 인덱스를 찾을 수 있습니다.
+
+<iframe
+  title="Rust Playground"
+  src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Superman%22%3B%0A%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.chars().nth(0).unwrap())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.chars().nth(1).unwrap())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.chars().nth(2).unwrap())%3B%0A%7D"
+  height="400"
+/>
+
+:::note
+
+참고로 `nth()`는 사실 `Some("")`를 반환하기 때문에 `Some()`을 없에기 위해서 `unwrap()`를 사용합니다.
+
+:::
+
+### 대소문자
+
+`to_ascii_uppercase()`는 문자열(모든 문자들)을 대문자로 변환합니다.
+
+`to_ascii_lowercase()`는 문자열(모든 문자들)을 소문자로 변환합니다.
+
+참고로 `to_uppercase()`나 `to_lowercase()`와 다르게 ascii 대소문자 변형은 알파벳만 변환하지 않고 그리스어, 라틴어 등도 가능합니다.
+
+<iframe
+  title="Rust Playground"
+  src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20s%20%3D%20%22Gr%C3%BC%C3%9Fe%2C%20J%C3%BCrgen%20%E2%9D%A4%22%3B%0A%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_ascii_uppercase())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_ascii_lowercase())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_uppercase())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_lowercase())%3B%0A%7D"
+  height="400"
+  />
+
+### contains() 메서드
+
+어떤 값이 문자열에 포함되어 있는지 확인하는 메서드입니다.
+
+<iframe
+  title="Rust Playground"
+  src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Hello%20World%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.contains(%22Hello%22))%3B%0A%7D"
+  height="400"
+/>
+
+### repeat() 메서드
+
+`repeat(x)`은 어떤 문자열을 x번 반복하는 메서드입니다.
+
+참고로 x 숫자가 너무 크면 panic이 생깁니다.
+
+panic이라는 것은 Rust에서 코드르 실행하는 동안 예외, 에러 발생 또는 아주 위험한 코드이면 panic합니다.
+
+### startswith() 메서드
+
+`startswith()`을 사용하면 어떤 문자열이 어떤 값으로 시작하는지 확인합니다.
+
+<iframe
+  title="Rust Playground"
+  src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=fn%20main()%20%7B%0A%20%20%20%20let%20s%20%3D%20%22L%C3%B6we%20%E8%80%81%E8%99%8E%20L%C3%A9opard%20Gepardi%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.starts_with(%22L%22))%3B%0A%7D"
+  height="400"
+/>
 
 ## ASCII 코드
 
