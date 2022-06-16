@@ -2,10 +2,103 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const navbarItems = [
+  {
+    to: 'about',
+    label: 'About',
+    position: 'left',
+    items: [
+      {
+        label: '코딩 인사이트에 대해',
+        to: 'about',
+      },
+      {
+        label: '인트로 비디오',
+        href: 'https://www.youtube.com/watch?v=ya7Ud1tTpag',
+      },
+    ],
+  },
+  {
+    label: '가이드',
+    to: '/docs/guides',
+  },
+  {
+    to: '/docs/getting-started',
+    label: '프로그래밍 언어',
+    position: 'left',
+    items: [
+      { to: '/docs/python/start/python', label: '파이썬' },
+      { to: '/docs/c-cpp', label: 'C/C++' },
+      { to: '/docs/rust/start/rust', label: 'Rust' },
+    ],
+  },
+  {
+    href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
+    'aria-label': 'GitHub',
+    position: 'right',
+    className: 'header-github-link',
+  },
+  {
+    type: 'localeDropdown',
+    position: 'right',
+  },
+];
+
+const footerLinks = [
+  {
+    title: 'Docs',
+    items: [
+      {
+        label: '파이썬',
+        to: '/docs/python/start/python',
+      },
+      {
+        label: 'C/C++',
+        to: '/docs/c-cpp',
+      },
+      {
+        label: 'Rust',
+        to: '/docs/rust/start/rust',
+      },
+    ],
+  },
+  {
+    title: 'Community',
+    items: [
+      {
+        label: 'Contributors',
+        href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/graphs/contributors',
+      },
+      {
+        label: 'Contributing',
+        href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/blob/main/CONTRIBUTING.md',
+      },
+    ],
+  },
+  {
+    title: 'Links',
+    items: [
+      {
+        label: 'GitHub',
+        href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
+      },
+      {
+        label: 'YouTube',
+        href: 'https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA',
+      },
+      {
+        label: 'VSCode Extension',
+        href: 'https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search',
+      },
+    ],
+  },
+];
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Coding-Insight',
   tagline: 'Learn, Practice, Build and Deploy',
+  projectName: 'coding-insight',
   titleDelimiter: '|',
 
   url: 'https://coding-insight.com',
@@ -30,12 +123,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/beta/',
+          sidebarCollapsible: true,
           breadcrumbs: false,
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/beta/blog/',
         },
         theme: {
           customCss: [
@@ -56,106 +145,20 @@ const config = {
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
-        respectPrefersColorScheme: false,
+        respectPrefersColorScheme: true,
       },
       navbar: {
+        hideOnScroll: false,
         title: 'Coding-Insight',
         logo: {
           alt: 'Coding-Insight Logo Logo',
           src: 'img/favicon.png',
         },
-        items: [
-          {
-            to: 'about',
-            label: 'About',
-            position: 'left',
-            items: [
-              {
-                label: '코딩 인사이트에 대해',
-                to: 'about',
-              },
-              {
-                label: '인트로 비디오',
-                href: 'https://www.youtube.com/watch?v=ya7Ud1tTpag',
-              },
-            ],
-          },
-          {
-            label: '가이드',
-            to: '/docs/guides',
-          },
-          {
-            to: '/docs/getting-started',
-            label: '프로그래밍 언어',
-            position: 'left',
-            items: [
-              { to: '/docs/python/start/python', label: '파이썬' },
-              { to: '/docs/c-cpp', label: 'C/C++' },
-              { to: '/docs/rust/start/rust', label: 'Rust' },
-            ],
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
-            position: 'right',
-            className: 'header-github-link',
-          },
-        ],
+        items: navbarItems,
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: '파이썬',
-                to: '/docs/python/start/python',
-              },
-              {
-                label: 'C/C++',
-                to: '/docs/c-cpp',
-              },
-              {
-                label: 'Rust',
-                to: '/docs/rust/start/rust',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Contributors',
-                href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/graphs/contributors',
-              },
-              {
-                label: 'Contributing',
-                href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/blob/main/CONTRIBUTING.md',
-              },
-            ],
-          },
-          {
-            title: 'Links',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
-              },
-              {
-                label: 'YouTube',
-                href: 'https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA',
-              },
-              {
-                label: 'VSCode Extension',
-                href: 'https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search',
-              },
-            ],
-          },
-        ],
+        links: footerLinks,
         logo: {
           alt: 'Coding-Insgiht Logo',
           src: 'img/logo.svg',
@@ -233,6 +236,7 @@ const config = {
         ],
       },
     ],
+    ['@docusaurus/plugin-ideal-image', {}],
   ],
 };
 
