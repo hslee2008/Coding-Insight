@@ -16,7 +16,3 @@
 - Home Page: http://coding-insight.com/
 - GitHub: https://github.com/HyunseungLee-Travis/Coding-Insight
 - Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search
-
-# Other
-
-[Open in Gitpod](https://hyunseungleetra-codingin-kgg26mbu8wo.ws-us27.gitpod.io/)
