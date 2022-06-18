@@ -128,10 +128,10 @@ const config = {
         },
         theme: {
           customCss: [
-            require.resolve('./src/css/custom.scss'),
-            require.resolve('./src/css/markdown.scss'),
-            require.resolve('./src/css/customElements.scss'),
-            require.resolve('./src/css/footer.scss'),
+            require.resolve( './src/css/custom.scss' ),
+            require.resolve( './src/css/github-header.scss' ),
+            require.resolve( './src/css/footer.scss' ),
+            require.resolve( './src/css/markdown.scss' ),
           ],
         },
       }),
@@ -161,10 +161,10 @@ const config = {
         links: footerLinks,
         logo: {
           alt: 'Coding-Insgiht Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.png',
           href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
-          width: 160,
-          height: 51,
+          width: 100,
+          height: 600,
         },
         copyright: `Copyright © ${new Date().getFullYear()} Coding-Insight`,
       },
