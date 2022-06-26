@@ -1,2 +1,3 @@
-.nuxt
-static/sw.js
+.docusaurus
+build
+node_modules

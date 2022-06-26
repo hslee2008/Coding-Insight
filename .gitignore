@@ -1,10 +1,14 @@
 app/python-factory-web-search/node_modules
 app/python-factory-web-search/python-factory-web-search-*.vsix
 
-website/.nuxt
+old/.nuxt
+old/node_modules
+old/static/sw.js
+old/todo.md
+old/temp
+
 website/node_modules
-website/static/sw.js
-website/todo.md
-website/temp
+website/build
+website/.docusaurus
 
 public_html/
