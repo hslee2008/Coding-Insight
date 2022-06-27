@@ -121,10 +121,6 @@ const navbarItems = [
     ],
   },
   {
-    label: '가이드',
-    to: '/docs/guides',
-  },
-  {
     to: '/docs/getting-started',
     label: '프로그래밍 언어',
     position: 'left',
@@ -196,25 +192,143 @@ const footerLinks = [
   },
 ];
 
+const themeConfig = {
+  algolia,
+  image: 'img/coding-insight.png',
+  colorMode: {
+    defaultMode: 'dark',
+    disableSwitch: false,
+    respectPrefersColorScheme: true,
+  },
+  navbar: {
+    hideOnScroll: false,
+    title: 'Coding-Insight',
+    logo: {
+      alt: 'Coding-Insight Logo Logo',
+      src: 'img/favicon.png',
+    },
+    items: navbarItems,
+  },
+  footer: {
+    style: 'dark',
+    links: footerLinks,
+    logo: {
+      alt: 'Coding-Insgiht Logo',
+      src: 'img/favicon.png',
+      href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
+      width: 100,
+      height: 400,
+    },
+    copyright: `Copyright © ${new Date().getFullYear()} Coding-Insight Team. Built with Docusaurus.`,
+  },
+  prism: {
+    theme: lightCodeTheme,
+    darkTheme: darkCodeTheme,
+    additionalLanguages: ['rust'],
+  },
+  metadata: [
+    {
+      name: 'keywords',
+      content: 'programming, coding, coding-insight, python-factory',
+    },
+  ],
+};
+
+const plugins = [
+  'docusaurus-plugin-sass',
+  '@docusaurus/plugin-ideal-image',
+  [
+    '@docusaurus/plugin-pwa',
+    {
+      debug: process.env.NODE_ENV === 'development',
+      offlineModeActivationStrategies: [
+        'appInstalled',
+        'standalone',
+        'saveData',
+      ],
+      pwaHead: [
+        {
+          tagName: 'link',
+          rel: 'icon',
+          href: '/pwa/96x96.png',
+        },
+        {
+          tagName: 'meta',
+          name: 'apple-mobile-web-app-capable',
+          content: 'yes',
+        },
+        {
+          tagName: 'link',
+          rel: 'apple-touch-icon',
+          href: '/pwa/favicon-apple-touch-icon.png',
+        },
+        {
+          tagName: 'meta',
+          name: 'msapplication-TileImage',
+          content: '/pwa/144x144.png',
+        },
+        {
+          tagName: 'link',
+          rel: 'manifest',
+          href: '/pwa/manifest.json',
+        },
+        {
+          tagName: 'meta',
+          name: 'theme-color',
+          content: '#0F0F0F',
+        },
+        {
+          tagName: 'meta',
+          name: 'apple-mobile-web-app-status-bar-style',
+          content: '#0F0F0F',
+        },
+        {
+          tagName: 'link',
+          rel: 'mask-icon',
+          href: '/pwa/256x256.png',
+          color: '#0F0F0F',
+        },
+        {
+          tagName: 'meta',
+          name: 'msapplication-dTileColor',
+          content: '#0F0F0F',
+        },
+      ],
+    },
+  ],
+  [
+    '@docusaurus/theme-search-algolia',
+    {
+      id: 'R3K9KZ97RY',
+    },
+  ],
+];
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Coding-Insight',
-  tagline: 'Learn, Practice, Build and Deploy',
-  projectName: 'coding-insight',
-  titleDelimiter: '|',
-
   url: 'https://coding-insight.com',
   baseUrl: '/',
-  baseUrlIssueBanner: true,
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
-  onDuplicateRoutes: 'ignore',
-  favicon: 'img/favicon.ico',
 
+  favicon: 'img/favicon.ico',
+  trailingSlash: false,
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko'],
   },
+  noIndex: false,
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+  onDuplicateRoutes: 'ignore',
+  tagline: 'Learn, Practice, Build and Deploy',
+  organizationName: 'HyunseungLee-Travis',
+  projectName: 'Coding-Insight',
+  themeConfig,
+  plugins,
+  staticDirectories: ['static'],
+  titleDelimiter: '|',
+
+  baseUrlIssueBanner: true,
 
   presets: [
     [
@@ -224,9 +338,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/',
+            'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/website/',
           sidebarCollapsible: true,
-          breadcrumbs: false,
         },
         theme: {
           customCss: [
@@ -237,120 +350,6 @@ const config = {
           ],
         },
       }),
-    ],
-  ],
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      algolia,
-      image: 'img/coding-insight.png',
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
-      },
-      navbar: {
-        hideOnScroll: false,
-        title: 'Coding-Insight',
-        logo: {
-          alt: 'Coding-Insight Logo Logo',
-          src: 'img/favicon.png',
-        },
-        items: navbarItems,
-      },
-      footer: {
-        style: 'dark',
-        links: footerLinks,
-        logo: {
-          alt: 'Coding-Insgiht Logo',
-          src: 'img/favicon.png',
-          href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
-          width: 100,
-          height: 600,
-        },
-        copyright: `Copyright © ${new Date().getFullYear()} Coding-Insight`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-        additionalLanguages: ['rust'],
-      },
-      metadata: [
-        {
-          name: 'keywords',
-          content: 'programming, coding, coding-insight, python-factory',
-        },
-      ],
-    }),
-  plugins: [
-    'docusaurus-plugin-sass',
-    [
-      '@docusaurus/plugin-pwa',
-      {
-        // @ts-ignore
-        debug: process.env.NODE_ENV === 'development',
-        offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'saveData',
-        ],
-        pwaHead: [
-          {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/pwa/96x96.png',
-          },
-          {
-            tagName: 'meta',
-            name: 'apple-mobile-web-app-capable',
-            content: 'yes',
-          },
-          {
-            tagName: 'link',
-            rel: 'apple-touch-icon',
-            href: '/pwa/favicon-apple-touch-icon.png',
-          },
-          {
-            tagName: 'meta',
-            name: 'msapplication-TileImage',
-            content: '/pwa/144x144.png',
-          },
-          {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/pwa/manifest.json',
-          },
-          {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: '#0F0F0F',
-          },
-          {
-            tagName: 'meta',
-            name: 'apple-mobile-web-app-status-bar-style',
-            content: '#0F0F0F',
-          },
-          {
-            tagName: 'link',
-            rel: 'mask-icon',
-            href: '/pwa/256x256.png',
-            color: '#0F0F0F',
-          },
-          {
-            tagName: 'meta',
-            name: 'msapplication-dTileColor',
-            content: '#0F0F0F',
-          },
-        ],
-      },
-    ],
-    ['@docusaurus/plugin-ideal-image', {}],
-    [
-      '@docusaurus/theme-search-algolia',
-      {
-        id: 'R3K9KZ97RY',
-      },
     ],
   ],
 };
