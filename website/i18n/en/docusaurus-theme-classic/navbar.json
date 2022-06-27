@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Coding-Insight",
+    "description": "The title in the navbar"
+  },
+  "item.label.About": {
+    "message": "About",
+    "description": "Navbar item with label About"
+  },
+  "item.label.프로그래밍 언어": {
+    "message": "Programming",
+    "description": "Navbar item with label 프로그래밍 언어"
+  },
+  "item.label.코딩 인사이트에 대해": {
+    "message": "About",
+    "description": "Navbar item with label 코딩 인사이트에 대해"
+  },
+  "item.label.인트로 비디오": {
+    "message": "Intro Video",
+    "description": "Navbar item with label 인트로 비디오"
+  },
+  "item.label.파이썬": {
+    "message": "Python",
+    "description": "Navbar item with label 파이썬"
+  },
+  "item.label.C/C++": {
+    "message": "C/C++",
+    "description": "Navbar item with label C/C++"
+  },
+  "item.label.Rust": {
+    "message": "Rust",
+    "description": "Navbar item with label Rust"
+  }
+}

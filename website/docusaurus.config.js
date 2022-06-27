@@ -314,7 +314,7 @@ const config = {
   trailingSlash: false,
   i18n: {
     defaultLocale: 'ko',
-    locales: ['ko'],
+    locales: ['ko', 'en'],
   },
   noIndex: false,
   onBrokenLinks: 'warn',

@@ -6,6 +6,8 @@ import classNames from 'classnames';
 import React from 'react';
 import styles from './index.module.css';
 
+import Translate from '@docusaurus/Translate';
+
 function Cards() {
   const cards = [
     {
@@ -79,7 +81,7 @@ function HeroHeader({ title, tagline }) {
           require('@lottiefiles/lottie-player');
           return (
             <Lottie-Player
-              src="/splash.json"
+              src="./splash.json"
               background="transparent"
               speed="1"
               style={{ height: '30vh', margin: 'auto' }}
