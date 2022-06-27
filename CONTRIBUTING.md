@@ -20,3 +20,15 @@
 6. `yarn start` 또는 `npm run dev`
 
 수정이 끝났으면 PR을 만들면 됩니다.
+
+# Translating
+
+Follow the steps above.
+
+Then run,
+
+```
+yarn run write-translations -- --locale en
+```
+
+Replace en with the locale you want to translate to.

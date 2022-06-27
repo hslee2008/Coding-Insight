@@ -1,11 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: 'npm'
-    directory: '../website'
+  - package-ecosystem: "yarn"
+    directory: ".."
     schedule:
-      interval: 'weekly'
-
-  - package-ecosystem: 'npm'
-    directory: '../app/python-factory-web-search'
-    schedule:
-      interval: 'weekly'
+      interval: "daily"

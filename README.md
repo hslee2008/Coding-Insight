@@ -1,18 +1,32 @@
-[![Screenshot Home](/website/static/pwa/screenshot/screenshot-home.png)](https://www.coding-insight.com/)
+# Directory
 
-<span>![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=%23097FA4&up_message=online&url=https%3A%2F%2Fwww.coding-insight.com&style=for-the-badge)</span>
-<span>![Contributors](https://img.shields.io/github/contributors/HyunseungLee-Travis/Coding-Insight?style=for-the-badge)</span>
-<span>![Size](https://img.shields.io/github/languages/code-size/HyunseungLee-Travis/Coding-Insight?style=for-the-badge)</span>
+This is the directory for website source cod for: https://www.coding-insight.com
 
-# Developers
+![Screenshot Computer](./static/pwa/screenshot/screenshot-home.png)
 
-- [Hyunseung](https://github.com/HyunseungLee-Travis)
-- [Juha](https://github.com/GMTT902)
-- [Gun](https://github.com/kimgun1217)
+# 🔧 Website configuration
 
-# Links
+The main config file for the website can be found at `website/docusaurus.config.js`. This file tells Docusaurus how to build the website. Edits to this file are rarely necessary.
 
-- YouTube: https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA
-- Home Page: http://coding-insight.com/
-- GitHub: https://github.com/HyunseungLee-Travis/Coding-Insight
-- Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search
+The core subdirectory contains JavaScript and React components that are the core part of the website.
+
+The `src/pages` subdirectory contains the React components that make up the non-documentation pages of the site, such as the homepage.
+
+# Running locally
+
+`cd website` to go into the website portion of the project.
+`yarn start` to start the development server (powered by Docusaurus).
+open http://localhost:3000/ to open the site in your favorite browser.
+
+# 👏 Contributing
+
+Create a branch
+
+1. `git checkout main` from any folder in your local `coding-insight` repository.
+2. `git pull origin main` to ensure you have the latest main code.
+3. `git checkout -b the-name-of-my-branch` to create a branch.
+   > replace `the-name-of-my-branch` with a suitable name, such as `update-animations-page`
+
+# 📄 License
+
+Coding-Insight is MIT licensed.
