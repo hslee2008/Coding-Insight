@@ -2,102 +2,7 @@ const algolia = {
   appId: "R3K9KZ97RY",
   apiKey: "7ce7ed346b7a011ff4a2694a8f630488",
   indexName: "crawler_Coding-Insight",
-  indexPrefix: "crawler_",
-  rateLimit: 8,
-  startUrls: ["https://www.coding-insight.com"],
-  renderJavaScript: false,
-  sitemaps: ["https://www.coding-insight.com/sitemap.xml"],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://www.coding-insight.com/**"],
-  actions: [
-    {
-      indexName: "crawler_Coding-Insight",
-      pathsToMatch: ["https://www.coding-insight.com/**"],
-      recordExtractor: ({ $, helpers }) => {
-        const lvl0 =
-          $(
-            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
-          )
-            .last()
-            .text() || "Documentation";
-        return helpers.docsearch({
-          recordProps: {
-            lvl0: {
-              selectors: "",
-              defaultValue: lvl0,
-            },
-            lvl1: ["header h1", "article h1"],
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            content: "article p, article li, article td:last-child",
-          },
-          aggregateContent: true,
-          recordVersion: "v3",
-        });
-      },
-    },
-  ],
-  initialIndexSettings: {
-    "Coding-Insight": {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
-      attributesToHighlight: ["hierarchy", "content"],
-      attributesToSnippet: ["content:10"],
-      camelCaseAttributes: ["hierarchy", "content"],
-      searchableAttributes: [
-        "unordered(hierarchy.lvl0)",
-        "unordered(hierarchy.lvl1)",
-        "unordered(hierarchy.lvl2)",
-        "unordered(hierarchy.lvl3)",
-        "unordered(hierarchy.lvl4)",
-        "unordered(hierarchy.lvl5)",
-        "unordered(hierarchy.lvl6)",
-        "content",
-      ],
-      distinct: true,
-      attributeForDistinct: "url",
-      customRanking: [
-        "desc(weight.pageRank)",
-        "desc(weight.level)",
-        "asc(weight.position)",
-      ],
-      ranking: [
-        "words",
-        "filters",
-        "typo",
-        "attribute",
-        "proximity",
-        "exact",
-        "custom",
-      ],
-      highlightPreTag: '<span class="algolia-docsearch-suggestion--highlight">',
-      highlightPostTag: "</span>",
-      minWordSizefor1Typo: 3,
-      minWordSizefor2Typos: 7,
-      allowTyposOnNumericTokens: false,
-      minProximity: 1,
-      ignorePlurals: true,
-      advancedSyntax: true,
-      attributeCriteriaComputedByMinProximity: true,
-      removeWordsIfNoResults: "allOptional",
-    },
-  },
+  contextualSearch: true,
 };
 
 const navbarItems = [
@@ -138,7 +43,7 @@ const navbarItems = [
     dropdownItemsAfter: [
       {
         href: "https://github.com/HyunseungLee-Travis/Coding-Insight/blob/main/CONTRIBUTING.md",
-        label: "Help us",
+        label: "Help us Translate",
       },
     ],
   },
@@ -218,10 +123,10 @@ const themeConfig = {
       alt: "Coding-Insgiht Logo",
       src: "img/favicon.png",
       href: "https://github.com/HyunseungLee-Travis/Coding-Insight",
-      width: 100,
-      height: 400,
+      width: 50,
+      height: 200,
     },
-    copyright: `Copyright © ${new Date().getFullYear()} Coding-Insight Team. Built with Docusaurus.`,
+    copyright: `Copyright © ${new Date().getFullYear()} Coding-Insight, Team.`,
   },
   prism: {
     theme: require("prism-react-renderer/themes/github"),
@@ -242,32 +147,13 @@ const plugins = [
   [
     "@docusaurus/plugin-pwa",
     {
-      debug: process.env.NODE_ENV === "development",
-      offlineModeActivationStrategies: [
-        "appInstalled",
-        "standalone",
-        "saveData",
-      ],
+      debug: true,
+      offlineModeActivationStrategies: ["appInstalled", "queryString"],
       pwaHead: [
         {
           tagName: "link",
           rel: "icon",
-          href: "/pwa/96x96.png",
-        },
-        {
-          tagName: "meta",
-          name: "apple-mobile-web-app-capable",
-          content: "yes",
-        },
-        {
-          tagName: "link",
-          rel: "apple-touch-icon",
-          href: "/pwa/favicon-apple-touch-icon.png",
-        },
-        {
-          tagName: "meta",
-          name: "msapplication-TileImage",
-          content: "/pwa/144x144.png",
+          href: "/pwa/512x512.png",
         },
         {
           tagName: "link",
@@ -277,31 +163,40 @@ const plugins = [
         {
           tagName: "meta",
           name: "theme-color",
-          content: "#0F0F0F",
+          content: "#242526",
+        },
+        {
+          tagName: "meta",
+          name: "apple-mobile-web-app-capable",
+          content: "yes",
         },
         {
           tagName: "meta",
           name: "apple-mobile-web-app-status-bar-style",
-          content: "#0F0F0F",
+          content: "#242526",
+        },
+        {
+          tagName: "link",
+          rel: "apple-touch-icon",
+          href: "/pwa/favicon-apple-touch-icon.png",
         },
         {
           tagName: "link",
           rel: "mask-icon",
-          href: "/pwa/256x256.png",
-          color: "#0F0F0F",
+          href: "/pwa/512x512.png",
+          color: "#06bcee",
+        },
+        {
+          tagName: "meta",
+          name: "msapplication-TileImage",
+          href: "/pwa/512x512.png",
         },
         {
           tagName: "meta",
           name: "msapplication-dTileColor",
-          content: "#0F0F0F",
+          content: "#242526",
         },
       ],
-    },
-  ],
-  [
-    "@docusaurus/theme-search-algolia",
-    {
-      id: "R3K9KZ97RY",
     },
   ],
 ];
@@ -349,6 +244,7 @@ const config = {
             require.resolve("./src/css/github-header.scss"),
             require.resolve("./src/css/footer.scss"),
             require.resolve("./src/css/markdown.scss"),
+            require.resolve("./src/css/edit.scss"),
           ],
         },
       }),
