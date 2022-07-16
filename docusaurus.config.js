@@ -208,7 +208,7 @@ const config = {
   baseUrl: "/",
 
   favicon: "img/favicon.ico",
-  trailingSlash: false,
+  trailingSlash: true,
   i18n: {
     defaultLocale: "ko",
     locales: ["ko", "en"],
@@ -245,6 +245,7 @@ const config = {
             require.resolve("./src/css/footer.scss"),
             require.resolve("./src/css/markdown.scss"),
             require.resolve("./src/css/edit.scss"),
+            require.resolve("./src/css/quiz.scss"),
           ],
         },
       }),

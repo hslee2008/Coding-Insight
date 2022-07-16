@@ -1,0 +1,31 @@
+@import 'shared';
+
+.react-quiz-container {
+  margin-top: 100px !important;
+  padding: 10px !important;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.quiz-result-filter {
+  background-color: transparent !important;
+}
+
+.react-quiz-container .result-answer-wrapper h3 {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.startQuizBtn {
+  display: inline-block !important;
+  padding: 8px 16px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  border-radius: var(--ifm-global-radius) !important;
+  background-color: transparent !important;
+  color: var(--subtle) !important;
+
+  &:hover {
+    background: var(--ifm-menu-color-background-hover) !important;
+    color: var(--ifm-link-color) !important;
+  }
+}

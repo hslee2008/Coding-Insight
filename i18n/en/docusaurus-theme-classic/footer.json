@@ -12,7 +12,7 @@
     "description": "The title of the footer links column with title=Links in the footer"
   },
   "link.item.label.파이썬": {
-    "message": "파이썬",
+    "message": "Python",
     "description": "The label of footer link with label=파이썬 linking to /docs/python/start/python"
   },
   "link.item.label.C/C++": {
@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=VSCode Extension linking to https://marketplace.visualstudio.com/items?itemName=HyunseungLee.python-factory-web-search"
   },
   "copyright": {
-    "message": "Copyright © 2022 Coding-Insight 팀.",
+    "message": "Copyright © 2022 Coding-Insight, Team.",
     "description": "The footer copyright"
   }
 }
