@@ -15,7 +15,14 @@ id: 'string'
 
 문자열은 문자의 모음인데 파이썬에서는 같은 개념입니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NT0qINEacEo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/NT0qINEacEo"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+/>
 
 ## 파이썬에서 문자 만들기
 
@@ -25,7 +32,11 @@ id: 'string'
 
 옆에 있는 예시를 보면 `Hello`와 `World`가 한 줄에 없어서 에러가 생긴 것입니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/7c86f7328a" height="400" />
+<iframe
+  title="Python Playground"
+  src="https://trinket.io/embed/python/7c86f7328a"
+  height="400"
+/>
 
 ## 문자 - 여러 줄
 
@@ -41,4 +52,8 @@ id: 'string'
 
 `''' '''` 대신 `""" """`를 사용해도 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/c420acd5f8" height="400" />
+<iframe
+  title="Python Playground"
+  src="https://trinket.io/embed/python/c420acd5f8"
+  height="400"
+/>

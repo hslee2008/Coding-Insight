@@ -5,9 +5,23 @@ id: 'stringmethod'
 
 # 문자열 메서드
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D4xUOyss96k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/D4xUOyss96k"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4_uGNu9IlCU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/4_uGNu9IlCU"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+/>
 
 ## 문자열 메서드란?
 
@@ -35,12 +49,16 @@ id: 'stringmethod'
 
 `istitle()`은 책 제목 형식인지 알려주는 역할을 합니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/75c4671dd7" height="400" />
+<iframe
+  title="Python Playground"
+  src="https://trinket.io/embed/python3/75c4671dd7"
+  height="400"
+/>
 
 ## 문자에 대한 정보 구하는 메서드
 
 | 메서드         | 설명                                     |
-| :-------------- | :---------------------------------------- |
+| :------------- | :--------------------------------------- |
 | isalnum()      | 문자가 알파벳과 숫자로만 이루어져 있는지 |
 | isalpha()      | 문자가 알파벳으로만 되어있는지           |
 | isdecimal()    | 숫자(0~9)로만 이루어져 있는지            |
@@ -50,7 +68,11 @@ id: 'stringmethod'
 | isprintable()  | 출력하는 것이 가능한지                   |
 | isspace()      | 스페이스(공백)로만 이루어져 있는지       |
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/9da1796e91" height="400" />
+<iframe
+  title="Python Playground"
+  src="https://trinket.io/embed/python/9da1796e91"
+  height="400"
+/>
 
 ## len()
 
@@ -62,7 +84,11 @@ id: 'stringmethod'
 
 `len`은 영어로 '길이'를 뜻하는 `length`의 줄임말입니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/41e9ea9617" height="400" />
+<iframe
+  title="Python Playground"
+  src="https://trinket.io/embed/python/41e9ea9617"
+  height="400"
+/>
 
 ## index()
 
@@ -92,7 +118,11 @@ x = txt.center(50, '|')
 print(x)
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/6051c25773" height="400" />
+<iframe
+  title="Python Playground"
+  src="https://trinket.io/embed/python3/6051c25773"
+  height="400"
+/>
 
 ## partition()
 
@@ -108,7 +138,11 @@ print(x)
 
 인덱싱을 사용하여 `name` 전의 문장과 `name` 후의 문장을 결합했습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/d278186aad" height="400" />
+<iframe
+  title="Python Playground"
+  src="https://trinket.io/embed/python/d278186aad"
+  height="400"
+/>
 
 ## ~ in ~
 
@@ -120,7 +154,11 @@ print(x)
 
 'in'은 한국어로 '안'이라는 뜻으로 "abc가 abcdef 안에 있나요?"라고 파이썬에게 물어보는 것과 같습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/a26965d6fd" height="400" />
+<iframe
+  title="Python Playground"
+  src="https://trinket.io/embed/python/a26965d6fd"
+  height="400"
+/>
 
 ## +와 \*
 
@@ -134,4 +172,51 @@ print(x)
 
 예를 들어 `"Hello" * 2`는 `HelloHello`입니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/54f740c487" height="400" />
+<iframe
+  title="Python Playground"
+  src="https://trinket.io/embed/python/54f740c487"
+  height="400"
+/>
+
+import Quiz from '@site/src/components/Quiz'
+
+<Quiz
+  quiz={{
+    quizTitle: '파이썬 퀴즈 6',
+    quizSynopsis: '문자열 메서드 연습',
+    nrOfQuestions: '3',
+    questions: [
+      {
+        question: 'len("Python")을 실행하면 무엇이 출력됩니까?',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['3', '4', '5', '6'],
+        correctAnswer: '4',
+        explanation:
+          'Python에는 6개의 문자가 있고 len()은 문자열에서의 문자의 개수를 구하는 메서드이기 때문에 6이 출력됩니다.',
+        point: '10'
+      },
+      {
+        question: 'len("python"[0])를 실행하면 무엇이 출력됩니까?',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['1', '2', '0', '6'],
+        correctAnswer: '1',
+        explanation:
+          '고난이도 문제: "python"은 6개 문자를 가지고 있지만 "python"[0]는 사실 "p"이기 때문에 1이 출력됩니다.',
+        point: '40'
+      },
+      {
+        question:
+          '"python"[1]*3 + "python"[2]*3 + "python"[3]*3를 실행하면 무엇이 출력됩니까?',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['yyyttthhh', 'ttthhhyyy', 'hhhtttyyy', 'ttttttttt'],
+        correctAnswer: '1',
+        explanation:
+          '고고난이도 문제: "python"[1]*3 + "python"[2]*3 + "python"[3]*3은 "python"의 첫번째 문자를 3번 반복하고 두번째 문자를 3번 반복하고 세번째 문자를 3번 반복하여 "yyyttthhh"가 출력됩니다.',
+        point: '50'
+      }
+    ]
+  }}
+/>
