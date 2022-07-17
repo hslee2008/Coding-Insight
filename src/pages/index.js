@@ -1,4 +1,3 @@
-import BrowserOnly from '@docusaurus/BrowserOnly'
 import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
@@ -6,12 +5,15 @@ import classNames from 'classnames'
 import React from 'react'
 import styles from './index.module.css'
 
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+import CodeBlock from '@theme/CodeBlock'
 import Translate, { translate } from '@docusaurus/Translate'
 
 function Cards() {
   const cards = [
     {
-      imageUrl: 'img/svg/undraw_open_source_-1-qxw.svg',
+      imageUrl: 'img/svg/open_source_-1-qxw.svg',
       linkText: translate({
         message: '깃허브',
         description: 'Card'
@@ -24,7 +26,7 @@ function Cards() {
       })
     },
     {
-      imageUrl: 'img/svg/undraw_awards_fieb.svg',
+      imageUrl: 'img/svg/awards_fieb.svg',
       linkText: 'YSC',
       link: 'https://www.scienceall.com/science-circles-info-2022/',
       description: translate({
@@ -33,7 +35,7 @@ function Cards() {
       })
     },
     {
-      imageUrl: 'img/svg/undraw_around_the_world_re_rb1p.svg',
+      imageUrl: 'img/svg/around_the_world_re_rb1p.svg',
       linkText: translate({
         message: '한국어와 영어',
         description: 'Card'
@@ -46,7 +48,7 @@ function Cards() {
       nobutton: true
     },
     {
-      imageUrl: 'img/svg/undraw_progressive_app_m-9-ms.svg',
+      imageUrl: 'img/svg/progressive_app_m-9-ms.svg',
       linkText: 'PWA',
       description: translate({
         message: '웹사이트를 모바일에서 접근할 수 있도록 설계하였습니다 (PWA).',
@@ -55,7 +57,7 @@ function Cards() {
       nobutton: true
     },
     {
-      imageUrl: 'img/svg/undraw_project_complete_lwss.svg',
+      imageUrl: 'img/svg/project_complete_lwss.svg',
       linkText: translate({
         message: '스스',
         description: 'Card'
@@ -105,57 +107,55 @@ function Cards() {
 
 function HeroHeader({ title, tagline }) {
   return (
-    <header className={styles.heroBanner}>
-      <BrowserOnly>
-        {() => {
-          require('@lottiefiles/lottie-player')
-          return (
-            <Lottie-Player
-              src="./splash.json"
-              background="transparent"
-              speed="1"
-              style={{ height: '30vh', margin: 'auto' }}
-              autoplay
-              loop
-            />
-          )
-        }}
-      </BrowserOnly>
-      <h1 className={styles.Title}>{title}</h1>
-      <p className={styles.TagLine}>{tagline}</p>
-      <div className={styles.HeroContainer}>
-        <div className={styles.container}>
-          <div className="row">
-            <div className="col col--4 col--offset-2">
-              <Link
-                className={classNames(
-                  'button',
-                  ' button--lg',
-                  styles.HeroButton
-                )}
-                to="/docs/python/start/python"
-              >
-                <span>
-                  <Translate>시작하기</Translate>
-                </span>
-              </Link>
-            </div>
-            <div className="col col--4">
-              <Link
-                className={classNames(
-                  'button',
-                  ' button--lg',
-                  styles.GettingStarted
-                )}
-                to="/docs/getting-started/"
-              >
-                <span>
-                  <Translate>더 알아보기</Translate>
-                </span>
-              </Link>
-            </div>
-          </div>
+    <header
+      style={{ backgroundColor: '#242526' }}
+      className={styles.heroHeader}
+    >
+      <div className={styles.hero}>
+        <img
+          className={styles.heroImg}
+          src="img/favicon.png"
+          alt="Coding Insight"
+        />
+      </div>
+      <div className={styles.heroTwo}>
+        <h1 className={styles.Title}>{title}</h1>
+        <p className={styles.TagLine}>{tagline}</p>
+      </div>
+      <div className={styles.Code}>
+        <div>
+          <Tabs>
+            <TabItem value="Python" label="Python" default>
+              <CodeBlock language="python">
+                import requests{'\n'}
+                url = "https://coding-insight.com"{'\n'}
+                requests.get(url)
+              </CodeBlock>
+            </TabItem>
+            <TabItem value="C/C++" label="C/C++">
+              <CodeBlock language="c">
+                #include &lt;iostream&gt;{'\n'}
+                int main() &#123;{'\n'}
+                &nbsp;&nbsp;std::cout &lt;&lt; "thgisni-gnidoc";
+                {'\n'}
+                &#125;
+              </CodeBlock>
+            </TabItem>
+            <TabItem value="Rust" label="Rust">
+              <CodeBlock language="rust">
+                fn main() &#123;{'\n'}
+                &nbsp;&nbsp;println!("Hello, world!");
+                {'\n'}&#125;
+              </CodeBlock>
+            </TabItem>
+          </Tabs>
         </div>
+        <Link
+          className={classNames('button button--secondary button--lg')}
+          to="/docs/python/start/python"
+        >
+          <Translate>시작하기</Translate>
+        </Link>
       </div>
     </header>
   )
