@@ -55,30 +55,6 @@ function Cards() {
         description: 'Card'
       }),
       nobutton: true
-    },
-    {
-      imageUrl: 'img/svg/project_complete_lwss.svg',
-      linkText: translate({
-        message: '스스',
-        description: 'Card'
-      }),
-      description: translate({
-        message: '스스로 프로젝트를 만들고 배우는 웹사이트',
-        description: 'Card'
-      }),
-      nobutton: true
-    },
-    {
-      imageUrl: 'img/svg/only.svg',
-      linkText: translate({
-        message: '어린이들도',
-        description: 'Card'
-      }),
-      description: translate({
-        message: '어린이들도 쉽게 코딩할 수 있는 웹사이트',
-        description: 'Card'
-      }),
-      link: '/about'
     }
   ]
 
@@ -97,7 +73,7 @@ function Cards() {
             )}
           </div>
           <div className={classNames(styles.cardSide, styles.cardImage)}>
-            <img src={card.imageUrl} />
+            <img src={card.imageUrl} alt={card.description} />
           </div>
         </div>
       ))}
@@ -108,7 +84,7 @@ function Cards() {
 function HeroHeader({ title, tagline }) {
   return (
     <header
-      style={{ backgroundColor: "var(--back)" }}
+      style={{ backgroundColor: 'var(--back)' }}
       className={styles.heroHeader}
     >
       <div className={styles.hero}>

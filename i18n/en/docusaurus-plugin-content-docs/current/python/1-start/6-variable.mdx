@@ -3,32 +3,25 @@ sidebar_position: 6
 id: 'variable'
 ---
 
-# 변수
+# Variables
 
-프로그래밍에서는 변수라고 하면 어떤 정보를 담을 수 있는 장소를 뜻합니다.
+Variables are used to store data to the device.
 
-예를 들어 상자를 생각해보세요. 상자 안에는 다양한 물건을 담을 수 있습니다.
+Think of a box that you put stuff in, and then you can take stuff out.
 
-이와 비슷하게 변수도 다양 한 정보를 담을 수 있는 '상자'라고 할 수 있습니다.
+Here, data means the stuff you put in the box.
 
-<iframe
-  src="https://www.youtube.com/embed/Qu5_eBK6OkI"
-  title="YouTube video player"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-/>
+It could be numbers, letters, lists, set, functions and more.
 
-## 변수 선언하기
+## Declaring Variables
 
-변수를 만들려면 다음과 같은 방법을 사용할 수 있습니다.
+Python uses the following syntax to store `data` into `name` variable.
 
 ```py
 name = data
 ```
 
-에서 NAME은 변수의 이름을 뜻하고 DATA는 값입니다.
-
-이렇게 하면 변수를 만들 수 있습니다.
+A real-world example looks like the following.
 
 <iframe
   title="Python Playground"
@@ -36,59 +29,59 @@ name = data
   height="400"
 />
 
-## 변수 사용 방법
+## Using Variables
 
-변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이 출력되지 않고 변수의 값이 출력됩니다.
+After saving the data into the variable, use can use whatever were saved in the variable.
+
+However, the point of the variable is that you could change it (it is dynamic).
+
+So, to access the variables, just reference it using the name of the variable.
 
 ```py
 name = 'John'
-print(name) #John이 출력됩니다.
+print(name)
 ```
 
-파이썬에서 변수의 이름은 대문자 소문자가 구별됩니다.
+## Rules for the name
 
-NAME과 name은 대문자와 수문자가 다르기 때문에 다른 변수입니다.
+There are a few rules for the name of the variable.
 
-## 변수 이름을 만들때 규칙
+If you do not follow these rules, error will be thrown (you won't be able to run the code).
 
-변수를 만들 때 매우 다양한 규칙이 있습니다.
+1. Only English and other letters, numbers, underscores(\_) is allowed.
+2. The first letter cannot be a number (Something like `1name` is not allowed).
+3. The name cannot be a reserved word (Something like `if` is not allowed).
 
-1. 영문자 (대문자, 소문자), 숫자, 언더바 (\_) 만 사용할 수 있습니다.
-2. 변수의 이름의 첫 자리는 숫자이면 안됩니다.
-3. 파이썬 키워드는 변수의 이름으로 사용할 수 없습니다 (키워드에 대한 더 자세한 내용은 조금 뒤에 배우겠습니다)
-
-import Quiz from '@site/src/components/Quiz'
+import Quiz from 'react-quiz-component'
 
 <Quiz
   quiz={{
-    quizTitle: '파이썬 퀴즈 2',
-    quizSynopsis:
-      '변수 대해 공부한 후 파이썬 퀴즈를 통해 더 자세히 알아보세요. 퀴즈를 시작하기 위해 아래 버튼을 클릭하세요.',
+    quizTitle: 'Python Quiz 2',
+    quizSynopsis: 'Quiz about variables! Test your knowledge about variables!',
     nrOfQuestions: '2',
     questions: [
       {
-        question: '다음 중 변수 이름에 허용되는 문자를 선택하세요',
+        question: 'Select the correct variable name for the following',
         questionType: 'text',
         answerSelectionType: 'single',
         answers: ['!ilovepython', '#ilovepython', 'i@python', 'i_love_python'],
         correctAnswer: '4',
-        explanation:
-          '!#@ 등의 특수 문자가 포함되어 있으면 안됩니다. 하지만 _는 사용해도 됩니다.',
+        explanation: 'Characters such as !#@ is not allowed.',
         point: '40'
       },
       {
-        question: '입력을 받고 변수 안에 그 값을 저장하세요',
+        question: 'Store inputed data into the variable name',
         questionType: 'text',
         answerSelectionType: 'single',
         answers: [
-          'name = input("이름을 입력하세요: ")',
-          'input("이름을 입력하세요: ") = name',
-          'input = name("이름을 입력하세요: ")',
-          'name("이름을 입력하세요: ") = input'
+          'name = input("name: ")',
+          'input("name: ") = name',
+          'input = name("name: ")',
+          'name("name: ") = input'
         ],
         correctAnswer: '1',
         explanation:
-          'input()는 파이썬에서 사용자가 입력하는 함수입니다. 그리도 name = 형태로 name에 그 값을 저장할 수 있습니다',
+          'input() returns what was inputed by the user. You can store it by assigning the value to a variable.',
         point: '60'
       }
     ]

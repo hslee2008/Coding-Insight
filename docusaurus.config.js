@@ -107,7 +107,7 @@ const themeConfig = {
     title: 'Coding-Insight',
     logo: {
       alt: 'Coding-Insight Logo Logo',
-      src: 'img/favicon.png'
+      src: 'pwa/96x96.png'
     },
     items: navbarItems
   },
@@ -116,10 +116,10 @@ const themeConfig = {
     links: footerLinks,
     logo: {
       alt: 'Coding-Insgiht Logo',
-      src: 'img/favicon.png',
+      src: '/pwa/50x54.png',
       href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
       width: 50,
-      height: 200
+      height: 54
     },
     copyright: `Copyright © ${new Date().getFullYear()} Coding-Insight, Team.`
   },
@@ -132,6 +132,14 @@ const themeConfig = {
     {
       name: 'keywords',
       content: 'programming, coding, coding-insight, python-factory'
+    },
+    {
+      name: 'description',
+      content: 'Learn, Practice, Build and Deploy'
+    },
+    {
+      name: 'author',
+      content: 'Hyunseung Lee, Juha Im, Kim Gun'
     }
   ]
 }
@@ -143,7 +151,14 @@ const plugins = [
     '@docusaurus/plugin-pwa',
     {
       debug: true,
-      offlineModeActivationStrategies: ['appInstalled', 'queryString'],
+      offlineModeActivationStrategies: [
+        'appInstalled',
+        'queryString',
+        'standalone',
+        'mobile',
+        'saveData',
+        'always'
+      ],
       pwaHead: [
         {
           tagName: 'link',
@@ -235,10 +250,6 @@ const config = {
         theme: {
           customCss: [
             require.resolve('./src/css/custom.scss'),
-            require.resolve('./src/css/github-header.scss'),
-            require.resolve('./src/css/footer.scss'),
-            require.resolve('./src/css/markdown.scss'),
-            require.resolve('./src/css/edit.scss'),
             require.resolve('./src/css/quiz.scss')
           ]
         }

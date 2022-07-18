@@ -1,16 +1,10 @@
-@import 'shared';
-
 .react-quiz-container {
-  margin-top: 100px !important;
+  margin: 100px 0 0 0 !important;
   padding: 10px !important;
   border: 1px solid #ccc;
   border-radius: 5px;
-}
 
-@media (max-width: 768px) {
-  .react-quiz-container {
-    margin: 0 !important;
-    padding: 5px !important;
+  @media only screen and (max-width: 768px) {
     width: 100% !important;
   }
 }
@@ -20,15 +14,15 @@
 }
 
 .startQuizBtn {
-  display: inline-block !important;
   padding: 8px 16px !important;
   border: 1px solid var(--ifm-color-emphasis-300) !important;
   border-radius: var(--ifm-global-radius) !important;
   background-color: transparent !important;
-  color: var(--ifm-color-primary) !important;
+  color: var(--ifm-font-color-base) !important;
 
   &:hover {
     background: var(--ifm-menu-color-background-hover) !important;
     color: var(--ifm-link-color) !important;
+    color: var(--ifm-color-primary) !important;
   }
 }
