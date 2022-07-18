@@ -35,7 +35,7 @@ id: 'installation'
 
 ![끝내기](/img/python/installation/setup_finished.png)
 
-### 확인하기
+## 확인하기
 
 윈도우는 CMD와 MAC는 Terminal에서 다음 명령어를 실행합니다.
 

@@ -22,7 +22,6 @@ const navbarItems = [
     ]
   },
   {
-    to: '/docs/getting-started',
     label: '프로그래밍 언어',
     position: 'left',
     items: [

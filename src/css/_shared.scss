@@ -37,3 +37,24 @@
     background: var(--ifm-color-emphasis-200);
   }
 }
+
+%link-style {
+  display: initial;
+  color: var(--ifm-font-color-base);
+  background-color: rgba(187, 239, 253, 0.3);
+  border-radius: var(--ifm-global-radius);
+
+  &:hover {
+    background-color: rgba(187, 239, 253, 0.6);
+  }
+}
+
+%link-style-dark {
+  background-color: rgba(97, 218, 251, 0.12);
+  border-bottom-color: rgba(97, 218, 251, 0.3);
+
+  &:hover {
+    background-color: rgba(97, 218, 251, 0.4);
+    border-bottom-color: var(--brand);
+  }
+}

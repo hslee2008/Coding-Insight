@@ -7,13 +7,16 @@
   border-radius: 5px;
 }
 
-.quiz-result-filter {
-  background-color: transparent !important;
+@media (max-width: 768px) {
+  .react-quiz-container {
+    margin: 0 !important;
+    padding: 5px !important;
+    width: 100% !important;
+  }
 }
 
-.react-quiz-container .result-answer-wrapper h3 {
-  border-top-left-radius: 0px !important;
-  border-top-right-radius: 0px !important;
+.quiz-result-filter {
+  background-color: transparent !important;
 }
 
 .startQuizBtn {
@@ -22,7 +25,7 @@
   border: 1px solid var(--ifm-color-emphasis-300) !important;
   border-radius: var(--ifm-global-radius) !important;
   background-color: transparent !important;
-  color: black !important;
+  color: var(--ifm-color-primary) !important;
 
   &:hover {
     background: var(--ifm-menu-color-background-hover) !important;

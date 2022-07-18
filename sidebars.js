@@ -1,6 +1,5 @@
 module.exports = {
   mySidebar: [
-    'getting-started',
     {
       type: 'category',
       label: '파이썬',

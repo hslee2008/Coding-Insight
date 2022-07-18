@@ -1,6 +1,8 @@
 @import 'shared';
 
 :root {
+  --brand: #61dafb;
+  --back: white;
   --ifm-navbar-item-padding-horizontal: 18px;
   --ifm-menu-link-padding-horizontal: 10px;
   --ifm-toc-padding-vertical: 6px;
@@ -13,6 +15,7 @@
 }
 
 html[data-theme='dark'] {
+  --back: #242526;
   --ifm-color-emphasis-300: #282c34;
   --ifm-color-primary: #67d6ed;
   --ifm-color-primary-dark: #49cee9;

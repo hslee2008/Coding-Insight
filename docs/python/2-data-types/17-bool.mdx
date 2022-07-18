@@ -95,7 +95,7 @@ import Quiz from '@site/src/components/Quiz'
   quiz={{
     quizTitle: '파이썬 퀴즈 7',
     quizSynopsis: 'bool 연습',
-    nrOfQuestions: '2',
+    nrOfQuestions: '3',
     questions: [
       {
         question: 'print(all([True, False, True, True]))',
@@ -104,8 +104,28 @@ import Quiz from '@site/src/components/Quiz'
         answers: ['False', 'True', '에러', 'NaN'],
         correctAnswer: '1',
         explanation:
-          'all()은 리스트에서 모든 값이 `True`이면 `True`를 돌려주고 하나라도 `True`가 아니면 `False`를 돌려줍니다.',
-        point: '100'
+          'all()은 리스트에서 모든 값이 True이면 True를 돌려주고 하나라도 True가 아니면 False를 돌려줍니다.',
+        point: '40'
+      },
+      {
+        question: 'print(any([True, False, True, True]))',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['False', 'True', '에러', 'NaN'],
+        correctAnswer: '2',
+        explanation:
+          'any()은 리스트에서 하나라도 True이면 True를 돌려주고 모든 값이 True이면 True를 돌려줍니다.',
+        point: '40'
+      },
+      {
+        question: 'print(not not True)',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['True', 'False', '에러', 'NaN'],
+        correctAnswer: '1',
+        explanation:
+          'not 연산자는 불리언에서 True를 False로 False를 True로 바꾸기 위하여 not을 변수 앞에 붙이면 그 반대가 출력됩니다. ',
+        point: '20'
       }
     ]
   }}
