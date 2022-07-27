@@ -1,8 +1,3 @@
----
-sidebar_position: 17
-id: 'int'
----
-
 # 정수
 
 숫자형 데이터 형태란 숫자를 저장할 수 있는 변수를 뜻합니다.
@@ -55,6 +50,7 @@ MIN은 최소값을 뜻하고, MAX는 최대값을 뜻합니다.
 `MAX`를 출력하면 숫자형태의 최댓값을 출력합니다 (예: `i8`, `i16` 등)
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20test_integer%3A%20i8%20%3D%20123%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Btest_integer%7D%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22i8%EC%9D%98%20%EC%B5%9C%EC%86%8C%EA%B0%92%3A%20%7B%7D%22%2C%20i8%3A%3AMIN)%3B%0D%0A%20%20%20%20println!(%22i8%EC%9D%98%20%EC%B5%9C%EB%8C%93%EA%B0%92%3A%20%7B%7D%22%2C%20i8%3A%3AMAX)%3B%0D%0A%7D%0D%0A"
   height="400"

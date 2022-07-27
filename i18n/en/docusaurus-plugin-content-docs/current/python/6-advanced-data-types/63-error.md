@@ -1,15 +1,11 @@
----
-sidebar_position: 63
-id: 'error'
----
-
 # 에러
 
 ## 에러 메시지
 
 `except`에서 에러의 메시지를 알 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/92021ab319" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/92021ab319" height="400" />
 
 ## 나만의 에러
 
@@ -19,7 +15,8 @@ id: 'error'
 
 괄호 안에 에러 설명을 넣을 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/bc5786961c" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/bc5786961c" height="400" />
 
 ## 에러 처리 다시 만들기
 
@@ -27,4 +24,5 @@ id: 'error'
 
 `raise Exception()` 다음에 `from ERR`를 붙이면 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/dbdf0c2a5e" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/dbdf0c2a5e" height="400" />

@@ -1,8 +1,3 @@
----
-sidebar_position: 23
-id: 'string'
----
-
 # 문자열 (str)
 
 str(문자열)은 char 데이터 형태를 여러게 붙여 놓은 데이터 형태입니다.
@@ -38,6 +33,7 @@ String은 heap에만 저장할 수 있습니다.
 `&`에 대해서는 나중에 더 자세히 배우겠습니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%26str%20%3D%20%22Hello%2C%20World!%22%3B%0D%0A%20%20%20%20let%20val2%20%3D%20String%3A%3Afrom(%22%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%20Rust%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%96%B8%EC%96%B4%20%EB%A1%9C%EA%B3%A0%EA%B0%80%20%EA%B2%8C%EC%9D%B8%EA%B1%B0%20%EC%95%8C%EC%95%98%EB%82%98%EC%9A%94%3F%3F%3F%20%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bval1%7D%22)%3B%0D%0A%20%20%20%20println!(%22%7Bval2%7D%22)%3B%0D%0A%7D"
   height="400"
@@ -54,6 +50,7 @@ String은 heap에만 저장할 수 있습니다.
 즉, `len()`의 값이 0인지 확인합니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%20%3D%20String%3A%3Afrom(%22Rust%20Language%22)%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7Ba%7D%EC%9D%98%20%EA%B8%B8%EC%9D%B4%EB%8A%94%20%7B%7D%EC%9E%85%EB%8B%88%EB%8B%A4.%22%2C%20a.len())%3B%0A%20%20%20%20println!(%22a%EA%B0%80%20%EB%B9%84%EC%96%B4%EC%9E%88%EB%82%98%EC%9A%94%3F%20%7B%7D%22%2C%20a.is_empty())%3B%0A%7D"
   height="400"
@@ -78,6 +75,7 @@ String은 heap에만 저장할 수 있습니다.
 문자열의 인덱스는 `&str`에서 `chars()`로 바꾸고 `nth()`를 사용해서 `n`번째 인덱스를 찾을 수 있습니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Superman%22%3B%0A%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.chars().nth(0).unwrap())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.chars().nth(1).unwrap())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.chars().nth(2).unwrap())%3B%0A%7D"
   height="400"
@@ -98,22 +96,24 @@ String은 heap에만 저장할 수 있습니다.
 참고로 `to_uppercase()`나 `to_lowercase()`와 다르게 ascii 대소문자 변형은 알파벳만 변환하지 않고 그리스어, 라틴어 등도 가능합니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20s%20%3D%20%22Gr%C3%BC%C3%9Fe%2C%20J%C3%BCrgen%20%E2%9D%A4%22%3B%0A%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_ascii_uppercase())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_ascii_lowercase())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_uppercase())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_lowercase())%3B%0A%7D"
   height="400"
   />
 
-### contains() 메서드
+### `contains()` 메서드
 
 어떤 값이 문자열에 포함되어 있는지 확인하는 메서드입니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Hello%20World%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.contains(%22Hello%22))%3B%0A%7D"
   height="400"
 />
 
-### repeat() 메서드
+### `repeat()` 메서드
 
 `repeat(x)`은 어떤 문자열을 x번 반복하는 메서드입니다.
 
@@ -121,11 +121,12 @@ String은 heap에만 저장할 수 있습니다.
 
 panic이라는 것은 Rust에서 코드르 실행하는 동안 예외, 에러 발생 또는 아주 위험한 코드이면 panic합니다.
 
-### startswith() 메서드
+### `startswith()` 메서드
 
 `startswith()`을 사용하면 어떤 문자열이 어떤 값으로 시작하는지 확인합니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=fn%20main()%20%7B%0A%20%20%20%20let%20s%20%3D%20%22L%C3%B6we%20%E8%80%81%E8%99%8E%20L%C3%A9opard%20Gepardi%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.starts_with(%22L%22))%3B%0A%7D"
   height="400"
@@ -140,6 +141,7 @@ panic이라는 것은 Rust에서 코드르 실행하는 동안 예외, 에러 �
 참고로 배열을 출력하기 위해서는 `{}` 대신 `{:?}`를 사용해야 합니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Hello%2C%20World!%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%3A%3F%7D%22%2C%20a.as_bytes())%3B%0A%7D"
   height="400"

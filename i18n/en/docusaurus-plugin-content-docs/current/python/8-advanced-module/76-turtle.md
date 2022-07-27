@@ -1,8 +1,3 @@
----
-sidebar_position: 76
-id: 'turtle'
----
-
 # 터틀
 
 Turtle은 파이썬에서 그래픽을 만드는데 사용되는 모듈입니다.

@@ -1,15 +1,11 @@
----
-sidebar_position: 21
-id: 'calculator'
----
-
 # 덧셈 계산기 만들기
 
 이번 시간에는 저번에 배운 숫자와 연산자를 사용해 간단한 덧셈 계산기를 만들어보겠습니다.
 
 몰래 이 프로그램을 사용해서 덧셈의 왕처럼 보일 수 있습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-CRGv2pHTjs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+<iframe
+  loading="lazy" width="560" height="315" className="youtube" src="https://www.youtube.com/embed/-CRGv2pHTjs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 코드 설명
 
@@ -42,4 +38,5 @@ addnum = float(num1) + float(num2)
 print(addnum)
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/2a317b1dba" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/2a317b1dba" height="400" />

@@ -23,23 +23,8 @@
     "message": "Using PWA tech to make the website accessible from mobile devices.",
     "description": "Card"
   },
-  "스스": {
-    "message": "Source",
-    "description": "Card"
-  },
-  "스스로 프로젝트를 만들고 배우는 웹사이트": {
-    "message": "Website from which you could learn to code",
-    "description": "Card"
-  },
-  "어린이들도": {
-    "message": "For Children",
-    "description": "Card"
-  },
   "시작하기": {
     "message": "Get Started"
-  },
-  "더 알아보기": {
-    "message": "Learn More"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
@@ -454,9 +439,5 @@
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
     "message": "Close",
     "description": "The ARIA label for close button of PWA reload popup"
-  },
-  "어린이들도 쉽게 코딩할 수 있는 웹사이트": {
-    "message": "Everybody can code and should",
-    "description": "Card"
   }
 }

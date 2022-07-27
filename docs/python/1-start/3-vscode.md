@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-id: 'VSCode'
----
-
 # VSCode
 
 VSCode를 사용해보겠습니다.

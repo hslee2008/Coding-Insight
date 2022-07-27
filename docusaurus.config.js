@@ -26,7 +26,6 @@ const navbarItems = [
     position: 'left',
     items: [
       { to: '/docs/python/start/python', label: '파이썬' },
-      { to: '/docs/c-cpp', label: 'C/C++' },
       { to: '/docs/rust/start/rust', label: 'Rust' }
     ]
   },
@@ -45,20 +44,20 @@ const navbarItems = [
         label: 'Help us Translate'
       }
     ]
+  },
+  {
+    type: 'search',
+    position: 'right'
   }
 ]
 
 const footerLinks = [
   {
-    title: 'Docs',
+    title: '튜토리얼',
     items: [
       {
         label: '파이썬',
         to: '/docs/python/start/python'
-      },
-      {
-        label: 'C/C++',
-        to: '/docs/c-cpp'
       },
       {
         label: 'Rust',
@@ -67,28 +66,32 @@ const footerLinks = [
     ]
   },
   {
-    title: 'Community',
+    title: '커뮤니티',
     items: [
       {
-        label: 'Contributors',
+        label: '기여자들',
         href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/graphs/contributors'
       },
       {
-        label: 'Contributing',
+        label: '기여하기',
         href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/blob/main/CONTRIBUTING.md'
       }
     ]
   },
   {
-    title: 'Links',
+    title: '링크',
     items: [
       {
-        label: 'GitHub',
+        label: '깃허브',
         href: 'https://github.com/HyunseungLee-Travis/Coding-Insight'
       },
       {
-        label: 'YouTube',
+        label: '유튜브',
         href: 'https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA'
+      },
+      {
+        label: '검색',
+        href: '/search/'
       }
     ]
   }
@@ -126,7 +129,7 @@ const themeConfig = {
   prism: {
     theme: require('prism-react-renderer/themes/github'),
     darkTheme: require('prism-react-renderer/themes/oceanicNext'),
-    additionalLanguages: ['rust']
+    additionalLanguages: ['rust', 'toml', 'powershell', 'bash']
   },
   metadata: [
     {
@@ -150,14 +153,12 @@ const plugins = [
   [
     '@docusaurus/plugin-pwa',
     {
-      debug: true,
+      debug: process.env.NODE_ENV === 'development',
       offlineModeActivationStrategies: [
         'appInstalled',
-        'queryString',
         'standalone',
-        'mobile',
         'saveData',
-        'always'
+        'queryString'
       ],
       pwaHead: [
         {
@@ -242,10 +243,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: './docs/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/',
-          sidebarCollapsible: true
+          sidebarCollapsible: true,
+          exclude: [ '**/_*.{md,mdx}' ],
+          remarkPlugins: [require('mdx-mermaid')],
         },
         theme: {
           customCss: [

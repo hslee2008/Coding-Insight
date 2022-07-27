@@ -1,8 +1,3 @@
----
-sidebar_position: 33
-id: 'function'
----
-
 # 함수
 
 코딩에서 함수의 정의란 코드의 모음을 뜻합니다.
@@ -19,7 +14,8 @@ id: 'function'
 
 함수를 실행하기 위하여 `함수이름()`를 사용할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/6de0abee4a" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/6de0abee4a" height="400" />
 
 ## 매개변수
 
@@ -35,7 +31,8 @@ id: 'function'
 매개변수를 선언하고 싶지 않거나, 초기화하고 싶거나, 만일 개발자가 매개변수에 새로운 값을 넣는지 넣지 않는지 확인할 수 있습니다.
 :::
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/3a2f78ef6b" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/3a2f78ef6b" height="400" />
 
 ### 키워드 매개변수
 
@@ -47,7 +44,8 @@ id: 'function'
 
 딕셔너리의 이름은 매개변수의 이름이고 키의 이름은 사용자가 입력한 매개변수의 이름입니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/901f63378a" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/901f63378a" height="400" />
 
 ### 매개변수 기본값 지정하는 방법
 
@@ -55,9 +53,10 @@ id: 'function'
 
 이때 우리는 만일 변수의 값이 `None`이 되는 것을 막기 위하여 기본값을 정할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/095fe5cab9" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/095fe5cab9" height="400" />
 
-## apply()
+## `apply()`
 
 또는 `apply()` 함수를 이용하여 또 다른 함수를 실행하는 것도 가능합니다.
 
@@ -80,17 +79,20 @@ apply(printWithEnd, ("hello", "world"), {'c': ""} )
 
 그 이유는 `return` 키워드를 실행하면 함수가 바로 종료합니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/981bc3174e" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/981bc3174e" height="400" />
 
 return 키워드에서 하나 이상 변수를 되돌려주는 방법이 있습니다. 파이썬에서만 존재하는 기능입니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/aa6a155d5a" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/aa6a155d5a" height="400" />
 
 ### pass 키워드
 
 만일 아무것도 하지 않은 함수를 만들고 싶다면 'pass'라는 키워드를 사용할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/80ed8ae473" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/80ed8ae473" height="400" />
 
 ## 함수의 중요성
 
@@ -100,4 +102,5 @@ return 키워드에서 하나 이상 변수를 되돌려주는 방법이 있습�
 
 매우 복잡하지 않나요? 다음 코드를 `addNumbers`라는 함수를 만들어 효율적으로 만들 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/7e46f0a592" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/7e46f0a592" height="400" />

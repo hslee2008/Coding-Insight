@@ -23,10 +23,6 @@
     "message": "Python",
     "description": "Navbar item with label 파이썬"
   },
-  "item.label.C/C++": {
-    "message": "C/C++",
-    "description": "Navbar item with label C/C++"
-  },
   "item.label.Rust": {
     "message": "Rust",
     "description": "Navbar item with label Rust"

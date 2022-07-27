@@ -1,8 +1,3 @@
----
-sidebar_position: 59
-id: 'pip'
----
-
 # PIP
 
 PIP는 파이썬에서 파일 또는 모듈을 다루는 프로그램 이름입니다.

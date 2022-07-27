@@ -1,8 +1,3 @@
----
-sidebar_position: 66
-id: 'decorator'
----
-
 # 데코레이터
 
 데코레이터는 한국어로 번역하면 '장식하는 물체'입니다.
@@ -40,7 +35,8 @@ def returnVal():
 
 그래서 파이썬에는 더 쉬운 방법이 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/867aac4aa9" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/867aac4aa9" height="400" />
 
 ## 사용 방법
 
@@ -61,13 +57,15 @@ def returnVal():
 
 데코레이터를 2개 이상 사용하기 위하여 `@minusDecorator` 밑에 또 다른 데코레이터 코드를 넣고 그다음에 함수를 넣을 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/659cf1cdb5" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/659cf1cdb5" height="400" />
 
 ## @mydecorator
 
 데코레이터를 사용하면 나만의 기능을 더 추가할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/98ddcafe80" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/98ddcafe80" height="400" />
 
 다음과 같은 클래스를 만들어 보겠습니다.
 
@@ -127,7 +125,8 @@ print(myFavTeacher.name)
 
 그래서 `__init__()` 안에 있는 변수는 다음 함수에서 존재하지 않습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/25a3cc23d1" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/25a3cc23d1" height="400" />
 
 ## @staticmethod
 
@@ -135,4 +134,5 @@ print(myFavTeacher.name)
 
 만일 클래스 밖에서 사용했다면 에러가 생길 것입니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/916a1d2442" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/916a1d2442" height="400" />

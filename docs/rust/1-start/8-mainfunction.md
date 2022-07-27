@@ -1,8 +1,3 @@
----
-sidebar_position: 8
-id: 'mainfunction'
----
-
 # main 함수
 
 코딩 언어에서 `main()`이라는 것을 "main 함수"라고 부릅니다.
@@ -12,6 +7,7 @@ id: 'mainfunction'
 `main()` 함수는 Rust 코드의 대부분을 담을 박스입니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20println!(%22Hello%2C%20world!%22)%3B%0A%7D"
   height="400"

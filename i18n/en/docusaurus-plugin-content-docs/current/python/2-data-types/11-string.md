@@ -1,8 +1,3 @@
----
-sidebar_position: 11
-id: 'string'
----
-
 # 문자와 문자열
 
 문자란 언어를 구성하는 기호를 뜻합니다.
@@ -16,9 +11,10 @@ id: 'string'
 문자열은 문자의 모음인데 파이썬에서는 같은 개념입니다.
 
 <iframe
+  loading="lazy"
   width="560"
   height="315"
-  src="https://www.youtube.com/embed/NT0qINEacEo"
+  className="youtube" src="https://www.youtube.com/embed/NT0qINEacEo"
   title="YouTube video player"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -33,6 +29,7 @@ id: 'string'
 옆에 있는 예시를 보면 `Hello`와 `World`가 한 줄에 없어서 에러가 생긴 것입니다.
 
 <iframe
+  loading="lazy"
   title="Python Playground"
   src="https://trinket.io/embed/python/7c86f7328a"
   height="400"
@@ -53,6 +50,7 @@ id: 'string'
 `''' '''` 대신 `""" """`를 사용해도 됩니다.
 
 <iframe
+  loading="lazy"
   title="Python Playground"
   src="https://trinket.io/embed/python/c420acd5f8"
   height="400"

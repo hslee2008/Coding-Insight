@@ -1,8 +1,3 @@
----
-sidebar_position: 51
-id: 'file'
----
-
 # 파일 처리
 
 파이썬에서는 파일을 만들고, 읽고, 쓰고, 지우는 것이 가능합니다.
@@ -33,7 +28,8 @@ id: 'file'
 그렇지 않으면 파이썬 코드가 끝나도 계속 파일이 읽어질 수 있습니다.
 :::
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/5755f85207" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/5755f85207" height="400" />
 
 ## 인코딩
 

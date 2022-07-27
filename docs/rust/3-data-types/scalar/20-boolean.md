@@ -1,8 +1,3 @@
----
-sidebar_position: 20
-id: 'boolean'
----
-
 # 불리언
 
 불리언이이란 참과 거짓을 나타내는 값입니다.
@@ -24,6 +19,7 @@ let is_true: bool = true;
 :::
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20boolean_value)%3B%0D%0A%7D"
   height="400"
@@ -37,7 +33,7 @@ let is_true: bool = true;
 
 `!!true`는 `true`이고 `!!false`는 `false`입니다.
 
-## assert!(), assert_eq!(), assert_ne!()
+## `assert!()`, assert_eq!(), assert_ne!()
 
 `assert!()`는 불리언 값이 참이어야 하는 경우에만 실행되고, 거짓이면 에러를 발생시킵니다.
 
@@ -54,6 +50,7 @@ let is_true: bool = true;
 :::
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20boolean_value%3A%20bool%20%3D%20true%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20!boolean_value)%3B%20%2F%2F%20false%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20!!boolean_value)%3B%20%2F%2F%20true%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20!!!boolean_value)%3B%20%2F%2F%20false%0D%0A%7D"
   height="400"

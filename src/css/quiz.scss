@@ -21,8 +21,7 @@
   color: var(--ifm-font-color-base) !important;
 
   &:hover {
-    background: var(--ifm-menu-color-background-hover) !important;
-    color: var(--ifm-link-color) !important;
+    background-color: var(--ifm-menu-color-background-hover) !important;
     color: var(--ifm-color-primary) !important;
   }
 }

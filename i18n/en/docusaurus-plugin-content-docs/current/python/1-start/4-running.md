@@ -1,8 +1,3 @@
----
-sidebar_position: 4
-id: 'running'
----
-
 # How to run Python files
 
 There are three ways to run Python files:
@@ -59,4 +54,5 @@ Typing `print("Hello World")` and pressing entering will print the result.
 
 Our site uses the [Trinket](https://trinket.io) to run Python code.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/93a3b5a1dc" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/93a3b5a1dc" height="400" />

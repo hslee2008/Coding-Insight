@@ -1,8 +1,3 @@
----
-sidebar_position: 77
-id: 'pandas'
----
-
 # 판다스
 
 판다스란 파이썬 라이브러리로 데이터를 효율적이고 빠르게 다룰 수 있는 함수와 메서드를 담고 있습니다.
@@ -50,15 +45,17 @@ s = pd.Series(["A", "B", "C"], index=["First: ", "Second: ", "Third: "])
 print(s["First: "])
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/ad2ac39772" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/ad2ac39772" height="400" />
 
-## DataFrame()
+## `DataFrame()`
 
 판다스의 `DataFrame()` 클래스는 이터러블을 테이블 형식으로 콘솔에 출력할 수 있습니다.
 
 `DataFrame()`를 사용하려면 먼저 데이터 이터러블을 넣고, 열 값을 넣고, 데이터 형식을 넣으면 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/f3002f6946" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/f3002f6946" height="400" />
 
 ## Clipboard
 
@@ -108,4 +105,5 @@ df = pd.read_csv('data.csv')
 print(df.to_string())
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/9b4294ecdb" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/9b4294ecdb" height="400" />

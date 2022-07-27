@@ -1,8 +1,3 @@
----
-sidebar_position: 7
-id: 'cargotoml'
----
-
 # Cargo.toml 파일
 
 `Cargo.toml` 파일은 Rust 프로젝트의 설정을 정의하는 파일입니다.
@@ -48,6 +43,7 @@ links = ["https://www.coding-insight.com"]
 출처: [Cargo.toml](https://doc.rust-lang.org/cargo/reference/manifest.html)
 
 <iframe
+  loading="lazy"
   title="Cargo Toml"
   src="https://doc.rust-lang.org/cargo/reference/manifest.html"
 />

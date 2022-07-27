@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-id: 'python'
----
-
 # 파이썬
 
 파이썬이라는 단어를 들어보신 적이 있나요?
@@ -46,15 +41,17 @@ id: 'python'
 
 파이썬은 '귀도 반 로섬'이라는 발명가가 만들었습니다.
 
+[![Guido van Rossum](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Guido-portrait-2014-drc.jpg/1280px-Guido-portrait-2014-drc.jpg)](https://en.wikipedia.org/wiki/Guido_van_Rossum)
+
 그가 새로 만든 코딩 언어의 이름을 무엇으로 지을지 생각하고 있을 때 그는 영국의 코미디언 몬티 파이썬의 쇼를 보고 있었습니다.
 
 우연히 그는 코미디언의 마지막 이름 '파이썬'을 따라 새로운 코딩 언어의 이름을 지었습니다.
 
 파이썬 코딩 언어는 뱀 파이썬 이름을 따라서 붙인 것이 아니라 코미디언 쇼 팀 이름입니다.
 
-여러분은 새로운 코딩 언어를 만들었다면 이름을 무엇으로 정했을 것 같나요?
-
 ![몬티 파이썬](http://img.khan.co.kr/newsmaker/1123/20150505_44.jpg)
+
+여러분은 혁신적인 새로운 코딩 언어를 만들었다면 이름을 무엇으로 정했을 것 같나요?
 
 ## 파이썬의 장점
 

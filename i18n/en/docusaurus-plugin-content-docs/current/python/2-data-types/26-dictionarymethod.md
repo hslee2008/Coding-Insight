@@ -1,11 +1,7 @@
----
-sidebar_position: 26
-id: 'dictionarymethod'
----
-
 # 딕셔너리 메서드
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SaJzwva53zo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+<iframe
+  loading="lazy" width="560" height="315" className="youtube" src="https://www.youtube.com/embed/SaJzwva53zo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## 딕셔너리 쌍 추가하기
 
@@ -13,7 +9,8 @@ id: 'dictionarymethod'
 
 인덱싱을 사용하면 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/bb91a39a67" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/bb91a39a67" height="400" />
 
 ## 딕셔너리 쌍 삭제하기
 
@@ -21,9 +18,10 @@ id: 'dictionarymethod'
 
 `del` 딕셔너리 `이름[Key]`를 입력하면 삭제할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/1a3ca85630" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/1a3ca85630" height="400" />
 
-## update()
+## `update()`
 
 딕셔너리 Key의 값을 바꾸고 싶다면 딕셔너리에서 Key를 선택한 후 새로운 값을 입력하면 됩니다. CODE1에서 확인하세요.
 
@@ -31,12 +29,14 @@ id: 'dictionarymethod'
 
 만일 새로운 딕셔너리 안에 새로운 key가 있다면 새로운 key를 만들고 이미 있다면 그 key의 값을 바꿉니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/c093c433f6" height="500" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/c093c433f6" height="500" />
 
-## get()
+## `get()`
 
 딕셔너리에서 Key의 Value를 찾기 위하여 get()라는 메서드를 사용할 수 있습니다.
 
 첫 번째 매개변수에는 아이템의 값을 넣고 두 번째는 만일 그 값이 딕셔너리에 존재하지 않는다면 출력될 값을 입력하면 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/c250d6c262" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/c250d6c262" height="400" />

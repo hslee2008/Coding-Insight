@@ -1,8 +1,3 @@
----
-sidebar_position: 56
-id: 'changedatatype'
----
-
 # 데이터 형태 바꾸기
 
 ## 리스트로 바꾸기
@@ -14,13 +9,15 @@ id: 'changedatatype'
 
 두 번째 방법은 `split()` 메서드를 이용하여, 문자 또는 문자를 기준으로 문자를 리스트로 자를 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/b8df2e09d4" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/b8df2e09d4" height="400" />
 
 ## 튜플로 바꾸기
 
 튜플로 바꾸기 위하여 문자를 먼저 리스트로 바꾸고 `tuple()` 메서드를 사용하여 튜플로 전환할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/facd314b6c" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/facd314b6c" height="400" />
 
 ## 숫자로 바꾸기
 
@@ -34,7 +31,8 @@ NaN
 
 `NaN`은 Not a Number의 약자입니다
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/cf87c918cc" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/cf87c918cc" height="400" />
 
 ## 불리언으로 바꾸기
 
@@ -44,7 +42,8 @@ NaN
 
 0은 항상 `False`이고 1은 `True`입니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/314b0e422c" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/314b0e422c" height="400" />
 
 ## 정리
 

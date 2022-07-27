@@ -1,8 +1,3 @@
----
-sidebar_position: 78
-id: 'matplotlib'
----
-
 # mathplotlib
 
 ```
@@ -23,7 +18,8 @@ matplotlib의 버전을 출력하기 위하여 다음과 같은 방법을 사용
 print(matplotlib.__version__)
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/3e28c18725" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/3e28c18725" height="400" />
 
 ## 그래프 그리기
 
@@ -47,7 +43,8 @@ pyplot은 Python + plot입니다.
 
 `x`도 되고 `o`도 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/40b5ec6e62" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/40b5ec6e62" height="400" />
 
 ## 마커
 
@@ -101,7 +98,8 @@ plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r')
 plt.plot([1, 10, 20], [1, 24, 44], marker = "o", ms = 30, mec = 'r', mfc = 'g')
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/6d6b423f37" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/6d6b423f37" height="400" />
 
 ## 선
 
@@ -175,7 +173,8 @@ plt.show()
 
 `historgrams`는 `hist()` 메서드를 사용할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/c4218ab83d" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/c4218ab83d" height="400" />
 
 ## pie
 
@@ -192,4 +191,5 @@ pie 그래프란 pie와 모양이 비슷하게 생긴 그래프를 뜻합니다.
 
 파이그래프의 재목은 label을 지정하고 `legend()`를 이용하여 정할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/074b4c95ef" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/074b4c95ef" height="400" />

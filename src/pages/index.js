@@ -1,10 +1,9 @@
+import React from 'react'
 import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import classNames from 'classnames'
-import React from 'react'
-import styles from './index.module.css'
-
+import styles from './index.module.scss'
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 import CodeBlock from '@theme/CodeBlock'
@@ -108,15 +107,6 @@ function HeroHeader({ title, tagline }) {
                 requests.get(url)
               </CodeBlock>
             </TabItem>
-            <TabItem value="C/C++" label="C/C++">
-              <CodeBlock language="c">
-                #include &lt;iostream&gt;{'\n'}
-                int main() &#123;{'\n'}
-                &nbsp;&nbsp;std::cout &lt;&lt; "thgisni-gnidoc";
-                {'\n'}
-                &#125;
-              </CodeBlock>
-            </TabItem>
             <TabItem value="Rust" label="Rust">
               <CodeBlock language="rust">
                 fn main() &#123;{'\n'}
@@ -137,16 +127,42 @@ function HeroHeader({ title, tagline }) {
   )
 }
 
+function Entry() {
+  return (
+    <section className={classNames(styles.EntryContainer)}>
+      <div className={classNames(styles.card, 'card')}>
+        <div className={classNames(styles.cardSide, styles.cardLeading)}>
+          <h2>엔트리를 넘어서 파이썬으로!</h2>
+          <p>
+            엔트리라고 들어보신적 있으신가요? 엔트리는 블록코딩의 한 종류입니다.
+            <br />
+            <br />
+            블록코딩이란 처음으로 코딩을 배우고 있는 학생들을 위해서 블록
+            형식으로 구성된 코딩 종류를 뜻합니다.
+            <br />
+            <br />
+            사실 블록코딩으로는 직업을 가질 수 없고 이로 만들 수 있는 것은 매우
+            재한적이기 때문에 텍스트 기반 프로그래밍 언어를 꼭 배워야 합니다.
+            <br />
+            <br />
+            저희 사이트에는 파이썬 그리고 Rust 내용이 있습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+  )
+}
+
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext()
+  const {
+    siteConfig: { title, tagline }
+  } = useDocusaurusContext()
 
   return (
-    <Layout title={siteConfig.title} description={siteConfig.tagline}>
-      <HeroHeader title={siteConfig.title} tagline={siteConfig.tagline} />
+    <Layout title={title} description={tagline}>
+      <HeroHeader title={title} tagline={tagline} />
       <Cards />
-
-      <br />
-      <br />
+      <Entry />
     </Layout>
   )
 }

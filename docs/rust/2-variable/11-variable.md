@@ -1,8 +1,3 @@
----
-sidebar_position: 11
-id: 'variable'
----
-
 # 변수
 
 변수란 정보를 저장할 수 있는 공간을 뜻합니다.
@@ -45,6 +40,7 @@ Rust에서 변수를 출력하는 방법을 알아보겠습니다.
 또는 `''` 사이에 먼저 `{}`를 넣고 `''` 다음에 변수 이름을 넣어도 됩니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20language%20%3D%20%22Rust%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7Blanguage%7D%22)%3B%0A%20%20%20%20println!(%22Hello%20you!%20I%20am%20learning%20%7B%7D%22%2C%20language)%3B%0A%7D"
   height="400"

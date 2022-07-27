@@ -1,8 +1,3 @@
----
-sidebar_position: 79
-id: 'gTTS'
----
-
 # gTTS
 
 gTTS는 문자를 컴퓨터가 말하게 만들 수 있는 기능을 가지고 있습니다.

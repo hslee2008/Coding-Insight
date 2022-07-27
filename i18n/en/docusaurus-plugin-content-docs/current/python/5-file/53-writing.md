@@ -1,25 +1,22 @@
----
-sidebar_position: 53
-id: 'writing'
----
-
 # 파일 쓰기
 
 파일을 쓰는데는 두 가지 모드가 있습니다.
 
 'w'는 그 파일 안에 있는 모든 내용을 새로운 텍스트로 바꾸고 'a'는 새로운 줄에 쓰고자 하는 텍스트를 더합니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/890655e828" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/890655e828" height="400" />
 
-## write()
+## `write()`
 
 `write()` 메서드를 사용하면 파일에 새로운 내용을 쓸 수 있습니다.
 
-## writelines()
+## `writelines()`
 
 `writelines()`는 문자로 구성된 리스트의 값들을 결합하고 파일에 씁니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/2fdad67c09" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/2fdad67c09" height="400" />
 
 <br /><br /><br /><br /><br />
 

@@ -1,4 +1,5 @@
 :root {
+  font-family: 'Rubik', sans-serif;
   --brand: #61dafb;
   --back: white;
   --ifm-navbar-item-padding-horizontal: 18px;
@@ -93,7 +94,7 @@ html[data-theme='light'] {
 }
 
 .DocSearch {
-  border-radius: 5px !important;
+  border-radius: 10px !important;
 }
 
 .navbar {
@@ -174,8 +175,14 @@ html {
     border-radius: 10px;
   }
 
+  .youtube {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
   iframe {
     width: 100%;
-    height: 50vh;
+    height: 400px;
   }
 }

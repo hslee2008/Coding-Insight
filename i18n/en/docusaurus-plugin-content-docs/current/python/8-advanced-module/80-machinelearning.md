@@ -1,8 +1,3 @@
----
-sidebar_position: 80
-id: 'machinelearning'
----
-
 # 머신 러닝
 
 영화에서 보면 AI가 세상을 정복해서 인간보다 더 똑똑해 지는 장면들이 자주 등장합니다.
@@ -57,7 +52,8 @@ pred = model.predict([[21, 1], [22, 0]])
 print(pred)
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/02de47df74" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/02de47df74" height="400" />
 
 ## 추가로 정확도 측정하기
 
@@ -75,7 +71,8 @@ pred = model.predict(X_test)
 print(accuracy_score(y_test, pred))
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/282aeb7817" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/282aeb7817" height="400" />
 
 :::note
 참고로 실행하면 정확도가 항상 달라지는 것을 확인할 수 있습니다.

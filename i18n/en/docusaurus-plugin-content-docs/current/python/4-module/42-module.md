@@ -1,8 +1,3 @@
----
-sidebar_position: 42
-id: 'module'
----
-
 # 모듈
 
 파이썬에서 모듈이란 클래스, 함수, 변수, 코드 등 다양한 정보를 저장하고 있거나 실행할 수 있는 코드의 모임이라고 할 수 있습니다.
@@ -23,7 +18,7 @@ id: 'module'
 import math
 ```
 
-## dir()
+## `dir()`
 
 모듈에서 모든 함수, 클래스, 변수 이름을 보기 위하여 `dir(모듈이름)` 사용할 수 있습니다.
 
@@ -33,7 +28,8 @@ import math
 
 이 함수를 사용하기 위하여 `모듈이름.함수이름()` 형태를 사용할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/cc5f724ff2" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/cc5f724ff2" height="400" />
 
 ## 'as' 키워드
 
@@ -100,7 +96,8 @@ print(OEM.isOdd(5)) #True가 출력됩니다
 
 `import OEM`을 사용하면 더 좋습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/18e9b5aa47" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/18e9b5aa47" height="400" />
 
 ## 모듈 출판하기
 

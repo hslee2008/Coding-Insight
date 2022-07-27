@@ -1,8 +1,3 @@
----
-sidebar_position: 35
-id: 'typecasting'
----
-
 # 타입 지정
 
 ## 타입 지정 ->
@@ -18,7 +13,8 @@ def wowAnd(nextToWow):
 
 이를 방지하기 위하여 다음과 같은 방법이 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/215ca4e0af" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/215ca4e0af" height="400" />
 
 ## 함수의 실행 여부
 
@@ -28,4 +24,5 @@ def wowAnd(nextToWow):
 
 `callable()`을 사용하면 어떤 변수를 실행할 수 있는지 알고 다음과 같은 에러를 방지할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/a5ed372467" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/a5ed372467" height="400" />

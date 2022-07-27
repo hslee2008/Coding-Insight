@@ -1,8 +1,3 @@
----
-sidebar_position: 10
-id: 'comment'
----
-
 # 주석
 
 주석이라는 것은 프로그램에서 노트를 달고 싶을 때 사용합니다.
@@ -18,6 +13,7 @@ id: 'comment'
 밑 화면에서는 `Hello World`는 주석이어서 출력이 않되고 `Hello, World!`만 출력됩니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20%2F%2Fprintln!(%22Hello%20World%22)%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%2C%20World!%22)%3B%0A%7D"
   height="400"
@@ -38,6 +34,7 @@ id: 'comment'
 `//`는 그 줄에서 이 다음으로 나오는 모든 글자들은 다 주석으로 만들지만 `/**/`는 `/*`와 `*/` 사이를 주석으로 만듭니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playrground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20%2F*eprint!(%22Error%3F%3F%3F!!!%22)%3B*%2F%0A%20%20%20%20%0A%20%20%20%20print!(%22%EC%9C%84%20%EC%BD%94%EB%93%9C%EB%8A%94%20%EC%8B%A4%ED%96%89%EC%9D%B4%20X%22)%3B%0A%7D"
   height="400"
@@ -52,6 +49,7 @@ Markdown이란 글이 아니라 특별한 스타일을 넣은 글입니다 (예:
 `///`는 코드 블록 (예: `main()`) 밖에서 `//!` 코드 블록 안에서 사용합니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=%2F%2F%2F%20%23Hello%20World%0D%0Afn%20main()%20%7B%0D%0A%20%20%20%20%2F%2F!%20%23Testing%0D%0A%20%20%20%20println!(%22%7B%7D%20can%20support%20%7B%7D%20notation%22%2C%22Doc%20comment%22%2C%22markdown%22)%3B%0D%0A%7D"
   height="400"

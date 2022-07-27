@@ -1,8 +1,3 @@
----
-sidebar_position: 4
-id: 'running'
----
-
 # 파이썬 실행 방법
 
 파이썬을 실행하는 방법은 크게 3가지 방법이 있습니다.
@@ -54,4 +49,5 @@ hello 대신 만든 파이썬 파일 이름을 넣으세요.
 
 저희 사이트는 [Trinket](https://trinket.io)에서 IDLE를 사용해 직접 웹사이트에서 코드를 실행할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/93a3b5a1dc" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/93a3b5a1dc" height="400" />

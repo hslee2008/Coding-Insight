@@ -1,8 +1,3 @@
----
-sidebar_position: 44
-id: 'hacking'
----
-
 # 해킹
 
 파이썬을 사용해서 여러분 집의 인터넷에서 일어나는 모든 일을 알 수 있는 프로그램을 만들어 보겠습니다.
@@ -36,4 +31,5 @@ while True:
 ```
 
 ## 비디오
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RZSzjcp_DII" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+<iframe
+  loading="lazy" width="560" height="315" className="youtube" src="https://www.youtube.com/embed/RZSzjcp_DII" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />

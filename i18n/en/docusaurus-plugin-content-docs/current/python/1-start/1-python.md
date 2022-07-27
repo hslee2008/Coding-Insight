@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-id: 'python'
----
-
 # Python
 
 Have you ever heard the word 'Python'?
@@ -56,9 +51,9 @@ He was thinking of a new name for his programming language, and he decided to us
 
 It happens he was watching a show by 'Monty Python'.
 
-What would you have chosen for a newly developed language that will change the world?
-
 ![Monty Python](http://img.khan.co.kr/newsmaker/1123/20150505_44.jpg)
+
+What would you have chosen for a newly developed language that will change the world?
 
 ## The advantages of Python
 

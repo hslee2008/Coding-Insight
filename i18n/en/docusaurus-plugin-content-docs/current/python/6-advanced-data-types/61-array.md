@@ -1,8 +1,3 @@
----
-sidebar_position: 61
-id: 'array'
----
-
 # 정렬
 
 리스트는 정보를 저장하는 데이터 데이터 형태의 종류입니다.
@@ -21,7 +16,8 @@ id: 'array'
 
 아래 예제를 따라하며 정렬을 선언해봅시다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/396ae27df2" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/396ae27df2" height="400" />
 
 ## 정렬 숫자 연산
 
@@ -31,4 +27,5 @@ id: 'array'
 
 정렬을 사용하면 바로 그 변수를 연산하여도 잘 작동이 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/bd22e54547" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/bd22e54547" height="400" />

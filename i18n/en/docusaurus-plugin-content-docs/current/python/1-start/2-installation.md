@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-id: 'installation'
----
-
 # Python Installation
 
 We need to install a program (Compiler) that can translate Python code into 0s and 1s.

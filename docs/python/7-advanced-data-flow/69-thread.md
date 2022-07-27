@@ -1,8 +1,3 @@
----
-sidebar_position: 69
-id: 'thread'
----
-
 # 스레드
 
 설명할 것이 조금 많습니다.
@@ -39,7 +34,8 @@ CPU 안에는 코어라는 것이 몇 개 있습니다.
 
 다른 하나는 `"World"`를 출력합니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/cf48124315" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/cf48124315" height="400" />
 
 만일 thread 1을 실행하고 thread 2를 실행하면 `Hello done World`가 출력됩니다.
 
@@ -69,7 +65,8 @@ CPU 안에는 코어라는 것이 몇 개 있습니다.
 
 만일 `start()`를 사용한다면 thread 1은 실행이 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/a21ef7102c" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/a21ef7102c" height="400" />
 
 ## 파이썬에서 조금 더 복잡한 스레드 예시
 
@@ -85,7 +82,8 @@ CPU 안에는 코어라는 것이 몇 개 있습니다.
 6. 다음에 `"Finally"`를 출력합니다. 그 이유는 0.95가 1보다 더 작기 때문입니다.
 7. 첫 번째 스레드에 있는 코드를 다 실행했으니 이제 스레드 2에 있는 `Done!` 과 0.9초 기다리고 `Now It is Really Done!` 을 출력합니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/d14f421fa3" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/d14f421fa3" height="400" />
 
 ## .join 메서드
 
@@ -97,7 +95,8 @@ CPU 안에는 코어라는 것이 몇 개 있습니다.
 
 밑의 코드는 5 스텝까지 같지만 `mainThread.join()` 메서드가 있어 `Done!` 과 `Now It is Really Done!` 이 먼저 출력이 되고 `Finally!` 가 출력이 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/4b10ddd953" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/4b10ddd953" height="400" />
 
 ## 데이먼 (daemon)
 
@@ -128,4 +127,5 @@ print(mainThread.daemon) # True가 출력됩니다
 mainThread.setDaemon(True)
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/4f89284925" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/4f89284925" height="400" />

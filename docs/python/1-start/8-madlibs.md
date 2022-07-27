@@ -1,8 +1,3 @@
----
-sidebar_position: 8
-id: 'madlibs'
----
-
 # 매드립 게임 프로젝트
 
 매드립스는 빈칸이 있는 곳에 단어들을 넣으며 문장을 만들어 나가는 게임입니다.
@@ -56,4 +51,5 @@ print(finish)
 
 ##️ 확인하기
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/e1d336381d" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/e1d336381d" height="400" />

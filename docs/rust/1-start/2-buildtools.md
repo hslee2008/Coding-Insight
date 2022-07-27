@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-id: 'buildtools'
----
-
 # Build Tools 설치
 
 Rust는 직접 이진수로 바꾸지 않고 C++ Build Tools라는 도구의 도움을 받습니다.

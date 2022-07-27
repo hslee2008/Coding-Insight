@@ -1,8 +1,3 @@
----
-sidebar_position: 47
-id: 'dice'
----
-
 # 주사위
 
 주사위를 무작위로 굴려 출력하는 프로그램을 만들어 보겠습니다.
@@ -16,4 +11,5 @@ import random
 random.choice(["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"])
 ```
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/740f66be1f" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/740f66be1f" height="400" />

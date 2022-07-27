@@ -1,8 +1,3 @@
----
-sidebar_position: 5
-id: 'rustc'
----
-
 # 컴파일러 (rustc)
 
 rustc는 rust 컴파일러로 rust 코드를 `exe` 파일로 전환하여 모든 기기에서 실행 가능하게 만듭니다.

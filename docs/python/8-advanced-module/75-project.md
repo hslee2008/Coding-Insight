@@ -1,8 +1,3 @@
----
-sidebar_position: 75
-id: 'project'
----
-
 # 다양한 프로젝트
 
 ## 스펨 이메일 장난
@@ -32,7 +27,8 @@ python -m smtpd -c DebuggingServer -n localhost:1025
 
 참고로 그 계정과 밑에 있는 코드의 계정 이메일이 일치해야합니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/db9f325b98" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/db9f325b98" height="400" />
 
 ## 자동으로 줌 열기
 파이썬에서 자동으로 줌을 열 수 있습니다.

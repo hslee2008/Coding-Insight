@@ -1,8 +1,3 @@
----
-sidebar_position: 13
-id: 'identifier'
----
-
 # 식별자
 
 식별자는 상자의 형태를 나타내는 것으로, 상자를 바꿀 수 있느냐를 지정합니다.
@@ -26,6 +21,7 @@ const mood = "happy";
 그래서 어떤 변수의 값을 다른 변수에 저장하고 싶다면 immutable을 사용하고 아니면 값만 저장하고 싶다면 `const`를 사용하세요.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20unchangeable%20%3D%20%22I%20cannot%20be%20changed...%22%3B%0A%20%20%20%20let%20new_unchangeable%20%3D%20unchangeable%3B%0A%20%20%20%20%0A%20%20%20%20const%20unchangeable_value%20%3D%203%3B%0A%7D"
   height="400"

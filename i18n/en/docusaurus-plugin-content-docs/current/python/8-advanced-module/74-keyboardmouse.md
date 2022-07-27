@@ -1,8 +1,3 @@
----
-sidebar_position: 74
-id: 'keyboardmouse'
----
-
 # 키보드와 마우스 제어
 
 ## 설치하기

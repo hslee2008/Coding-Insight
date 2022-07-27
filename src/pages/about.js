@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '@theme/Layout'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import Link from '@docusaurus/Link' 
+import Link from '@docusaurus/Link'
 
 export default function About() {
   const { siteConfig } = useDocusaurusContext()
@@ -20,7 +20,7 @@ export default function About() {
           <Link href="https://github.com/HyunseungLee-Travis/Coding-Insight">
             깃허브
           </Link>
-          를 들어가 주세요.
+          를 방문해 주세요.
         </p>
 
         <h2>개발자</h2>

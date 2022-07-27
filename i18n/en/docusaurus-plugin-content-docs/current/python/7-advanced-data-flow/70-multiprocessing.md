@@ -1,8 +1,3 @@
----
-sidebar_position: 70
-id: 'multiprocessing'
----
-
 # 멀티프로세싱
 
 멀티프로세싱이라는 것은 어떤 함수를 동시에 실행할 수 있는 모듈 이름입니다.
@@ -15,7 +10,8 @@ import multiprocessing
 
 `multiprocessing.Process()` 메서드를 사용하여 멀티프로세싱을 만들 수 있고 `start()`를 사용하여 그 프로세스를 실행할 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/bbf4c84765" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/bbf4c84765" height="400" />
 
 ## 주의할 것
 
@@ -32,7 +28,7 @@ import multiprocessing
 
 `daemon`과 `name` 키는 스레드와 같습니다.
 
-### terminate()
+### `terminate()`
 
 `terminate()`는 멀티프로세싱을 멈춥니다.
 

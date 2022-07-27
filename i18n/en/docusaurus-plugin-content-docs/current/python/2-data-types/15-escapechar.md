@@ -1,13 +1,9 @@
----
-sidebar_position: 15
-id: 'escapechar'
----
-
 # 이스케이프 문자
 
 다음 코드는 문제가 됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/cb2f50d77b" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python/cb2f50d77b" height="400" />
 
 이스케이프는 탈출하다를 뜻합니다.
 
@@ -23,7 +19,8 @@ id: 'escapechar'
 모든 이스케이프는 다 `\`를 앞에 붙여서 이스케이프 문자라고 파이썬 컴파일러에게 알려줍니다.
 :::
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/X3D4VTMiLL4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+<iframe
+  loading="lazy" width="560" height="315" className="youtube" src="https://www.youtube.com/embed/X3D4VTMiLL4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
 
 ## \'와 \"
 
@@ -35,7 +32,8 @@ id: 'escapechar'
 
 `\"`도 `""` 안에서 문제 없이 사용이 가능합니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/5d4e5680b4" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python/5d4e5680b4" height="400" />
 
 :::note
 컴퓨터에 따라 W와 선이 그어진 모양으로 보일 수 있고 / 옆으로 뒤집어진 모양으로 보일 수도 있습니다.
@@ -49,7 +47,8 @@ id: 'escapechar'
 
 `""" """` 또는 `''' '''`를 사용하지 않고 `\n`를 사용하여 새로운 줄을 만들 수 있습니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/c420acd5f8" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python/c420acd5f8" height="400" />
 
 ## \t
 
@@ -71,4 +70,5 @@ essay = "안녕하세요.\t저는 파이썬을 코딩할 줄 알아요..."
 
 옆에 있는 예시를 보면 `\n`은 새로운 줄로 출력되지 않고 `\n`로 출력됩니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python/6dc36d8ca4" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python/6dc36d8ca4" height="400" />

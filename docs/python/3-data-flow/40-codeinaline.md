@@ -1,8 +1,3 @@
----
-sidebar_position: 40
-id: 'codeinaline'
----
-
 # 코드를 한 줄에
 
 ## 왜 코드를 한 줄에 넣어야 할까요?
@@ -25,7 +20,8 @@ id: 'codeinaline'
 꼭 필요할 때만 사용하세요.
 :::
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/724bf9a522" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/724bf9a522" height="400" />
 
 ## 세미콜론에 대한 추가 설명
 

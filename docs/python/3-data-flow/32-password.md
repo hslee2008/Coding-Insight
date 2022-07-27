@@ -1,8 +1,3 @@
----
-sidebar_position: 32
-id: 'password'
----
-
 # 로그인 프로그램
 
 파이썬을 사용해서 암호 로그인 프로그램을 만들어 보겠습니다!
@@ -10,6 +5,20 @@ id: 'password'
 먼저 시작하기 전에 조건문의 개념을 알아야 합니다.
 
 추가할 기능: 만일 3번 이상 로그인 못하면 로그인 거절하기.
+
+## 그래프
+
+```mermaid
+graph TD;
+    로그인-->암호;
+    암호-->틀림;
+    암호-->맞음;
+    맞음-->성공;
+    틀림-->3번반복;
+    3번반복-->실패;
+    3번반복-->성공
+    3번반복-->틀림;
+```
 
 ## 코드 설명
 
@@ -34,4 +43,5 @@ guess_try += 1
 더 자세한 내용은 while 반복문 페이지에서 확인하세요.
 :::
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/5382bd569c" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/5382bd569c" height="400" />

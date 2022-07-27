@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-id: 'VSCode'
----
-
 # VSCode
 
 VSCode is a 'text editor'.

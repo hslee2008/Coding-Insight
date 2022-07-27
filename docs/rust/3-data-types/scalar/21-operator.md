@@ -1,8 +1,3 @@
----
-sidebar_position: 21
-id: 'operator'
----
-
 # 연산자
 
 ## 비교 연산자
@@ -20,6 +15,7 @@ id: 'operator'
 `>=`는 왼쪽 숫자가 크거나 같으면 `true`이고 `<=`는 오른쪽 숫자가 크거나 같으면 `true`입니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20i32%20%3D%203%3B%0D%0A%20%20%20%20let%20val2%3A%20i32%20%3D%204%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3E%20val2)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3C%20val2)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3E%3D%20val2)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3C%3D%20val2)%3B%0D%0A%7D"
   height="400"
@@ -32,6 +28,7 @@ id: 'operator'
 값이 다른지 비교할 때는 `!=`를 사용합니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20i32%20%3D%203%3B%0D%0A%20%20%20%20let%20val2%3A%20i32%20%3D%204%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3D%3D%20val2)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20!%3D%20val2)%3B%0D%0A%7D"
   height="400"
@@ -46,6 +43,7 @@ id: 'operator'
 그래서 `true && true`이면 값이 `true`이고 `false && true`와 `true && false`는 값이 `false`입니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20i32%20%3D%2023%3B%0D%0A%20%20%20%20let%20val2%3A%20i32%20%3D%2024%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3C%20val2%20%26%26%20val1%20!%3D%20val2)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3C%20val2%20%26%26%20val1%20%3D%3D%20val2)%3B%0D%0A%7D"
   height="400"
@@ -60,6 +58,7 @@ id: 'operator'
 `false || false`일 때만 값이 `false`입니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20i32%20%3D%2023%3B%0D%0A%20%20%20%20let%20val2%3A%20i32%20%3D%2024%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3C%20val2%20%7C%7C%20val1%20%3D%3D%20val2)%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1%20%3E%20val2%20%7C%7C%20val1%20%3D%3D%20val2)%3B%0D%0A%7D"
   height="400"

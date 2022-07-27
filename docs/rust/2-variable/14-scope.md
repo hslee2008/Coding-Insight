@@ -1,8 +1,3 @@
----
-sidebar_position: 14
-id: 'scope'
----
-
 # 변수 범위
 
 변수의 범위라는 것은 변수를 어디에서까지 사용할 수 있는지를 나타내는 것입니다.
@@ -20,6 +15,7 @@ id: 'scope'
 지금까지 알아보았던 변수는(저번 페이지) 다 `main()`의 지역 변수입니다.
 
 <iframe
+  loading="lazy"
   title="Rust Playground"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20let%20testing%20%3D%20%22Hello%2C%20World!%22%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20println!(%22%7B%7D%22%2C%20testing)%3B%0A%20%20%20%20%7D%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20testing)%3B%20%2F%2F%EC%97%90%EB%9F%AC!%20testing%EC%9D%B4%EB%9D%BC%EB%8A%94%20%EB%B3%80%EC%88%98%EA%B0%80%20%EB%B2%94%EC%9C%84%20%EC%95%88%EC%97%90%20%EC%A1%B4%EC%9E%AC%ED%95%98%EC%A7%80%20%EC%95%8A%EC%95%84%EC%9A%94!%0A%7D"
   height="400"

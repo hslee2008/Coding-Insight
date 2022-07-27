@@ -1,8 +1,3 @@
----
-sidebar_position: 6
-id: 'cargo'
----
-
 # 프로젝트 생성 (cargo)
 
 cargo는 Rust에서 프로젝트의 기본 구조를 만듭니다.

@@ -1,13 +1,11 @@
----
-sidebar_position: 1
-id: 'rust'
----
-
 # Rust
 
 Rust는 다른 프로그래밍 언어와 달리 매우 "안전하고, 효율적이고, 유용한" 프로그래밍 언어입니다.
 
 하지만 Rust는 코딩을 처음 배우는 사람에게는 매우 어렵고 복잡할 수 있기 때문에 [파이썬](/docs/python/start/python)을 먼저 배우는 것을 권장합니다.
+
+
+![Rust](https://doc.rust-lang.org/book/img/ferris/does_not_compile.svg)
 
 ## 프로그래밍 언어란?
 

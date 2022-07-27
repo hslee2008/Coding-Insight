@@ -1,8 +1,3 @@
----
-sidebar_position: 12
-id: 'mut'
----
-
 # mut 변수
 
 `mut`란 변수의 값을 바꿀 수 있다는 뜻입니다.

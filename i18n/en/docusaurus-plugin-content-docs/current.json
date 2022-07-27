@@ -74,5 +74,21 @@
   "sidebar.mySidebar.category.컴파운드": {
     "message": "Compound",
     "description": "The label for category 컴파운드 in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.함수": {
+    "message": "Function",
+    "description": "The label for category 함수 in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.메모리": {
+    "message": "Memory",
+    "description": "The label for category 메모리 in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.에러 핸들링과 에트리뷰트": {
+    "message": "Error Handling and Attributes",
+    "description": "The label for category 에러 핸들링과 에트리뷰트 in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.라이브러리": {
+    "message": "Library",
+    "description": "The label for category 라이브러리 in sidebar mySidebar"
   }
 }

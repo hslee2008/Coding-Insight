@@ -1,59 +1,51 @@
----
-sidebar_position: 8
-id: 'madlibs'
----
+# Mad Libs Game
 
-# 매드립 게임 프로젝트
+Made libs is a game where you create a story by filling in blanks with words.
 
-매드립스는 빈칸이 있는 곳에 단어들을 넣으며 문장을 만들어 나가는 게임입니다.
-
-파이썬을 사용해서 매드립을 만들어 보겠습니다.
+Let's try making this game in Python.
 
 ![Mad Libs](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUnR3OVF_3m7noHBoE4X3o7t7id6ONlGD60g&usqp=CAU)
 
-##️ 만드는 방법
+## How it works
 
-어떻게 매드립스 게임을 만들지 알아보겠습니다.
+1. First, we will make a template for the story with few blanks
+2. Next, we will fill in the blank with user input (`input()`)
+3. Lastly, we will print that entire sentence
 
-1. 먼저, 기본 문장 틀을 만들어 빈칸과 단어를 넣을 것입니다. (예: "Roses are 빈칸")
-2. 다음, 사용자의 입력을 input()을 사용해 받을 것입니다.
-3. 마지막으로 그 입력을 빈칸에 넣어 문장을 완성하고 출력할 것입니다.
+## Making the game in Python
 
-## 게임 만들기
-
-1. 빈 칸이 들어 있는 문장 만들기
-   - sentence라는 변수 안에 "Roses are ?. Violets are ?. And I like ?."라는 문장을 저장하겠습니다.
-   - {}는 빈칸이고 나중에 {} 안에 단어를 넣을 것입니다.
+1. Make a template
+   - Let's set "Roses are ?. Violets are ?. And I like ?." as the template
+   - `{}` is the placeholder for the blanks
 
 ```py
 sentence = "Roses are {}. Violets are {}. And I like {}."
 ```
 
-2. 입력받기
-   - 입력은 input()을 사용해 총 3개를 받겠습니다.
+2. Ask the user for the values of the blanks
+   - We will use `input()` to get the user's input (`fw`, `sw`, and `tw`)
 
 ```py
-fw = input("형용사(영어): ")
-sw = input("형용사(영어): ")
-tw = input("사람: ")
+fw = input("Adjective   : ")
+sw = input("Adjective 2 : ")
+tw = input("Person's name: ")
 ```
 
-3. 빈칸에 넣기
-   - format()이라는 메서드를 사용해 sentence 안에 있는 모든 {}를 새로운 값으로 변화하게 만들어 보겠습니다.
-   - format을 사용하면 문장 안에 있는 {}들은 나타나느 순서대로 fw, sw, tw로 바뀝니다.
-   - 그래서 처음의 {}는 fw의 값, 두 번째는 sw, 그리고 마지막은 tw로 바뀝니다.
+3. Fill in the blanks in the template
+   - Using the `format()` method will replace all the blanks with the user's input
 
 ```py
 finish = sentence.format(fw, sw, tw)
 ```
 
-4. 출력하기
-   - 출력은 print()를 사용하겠습니다.
+4. Printing
+   - We will print the finished story
 
 ```py
 print(finish)
 ```
 
-##️ 확인하기
+## Checking your work
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/e1d336381d" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/4ddbc052d0" height="400" />

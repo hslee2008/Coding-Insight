@@ -1,8 +1,3 @@
----
-sidebar_position: 34
-id: 'variablespecification'
----
-
 # 변수 설정
 
 ## Global 변수
@@ -15,7 +10,8 @@ id: 'variablespecification'
 
 `global` 다음에 변수 이름을 사용하고 변수 이름에 값을 선언하면 모든 코드에서 사용할 수 있는 코드로 변합니다.
 
-<iframe title="Python Playground" src="https://trinket.io/embed/python3/db03626a7c" height="400" />
+<iframe
+  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/db03626a7c" height="400" />
 
 ## Nonlocal 변수
 
