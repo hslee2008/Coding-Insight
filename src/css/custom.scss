@@ -97,16 +97,6 @@ html[data-theme='light'] {
   border-radius: 10px !important;
 }
 
-.navbar {
-  .navbar__logo {
-    transition: transform 0.5s;
-  }
-
-  .navbar__brand:hover .navbar__logo {
-    transform: rotate(360deg);
-  }
-}
-
 aside[class^='theme-doc-sidebar-container'] {
   margin-right: 16px;
 }

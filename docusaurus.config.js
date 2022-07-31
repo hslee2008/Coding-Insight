@@ -110,7 +110,9 @@ const themeConfig = {
     title: 'Coding-Insight',
     logo: {
       alt: 'Coding-Insight Logo Logo',
-      src: 'pwa/96x96.png'
+      src: 'pwa/30x30.png',
+      width: 30,
+      height: 30
     },
     items: navbarItems
   },
@@ -174,7 +176,7 @@ const plugins = [
         {
           tagName: 'meta',
           name: 'theme-color',
-          content: '#242526'
+          content: '#252426'
         },
         {
           tagName: 'meta',
@@ -184,7 +186,7 @@ const plugins = [
         {
           tagName: 'meta',
           name: 'apple-mobile-web-app-status-bar-style',
-          content: '#242526'
+          content: '#252426'
         },
         {
           tagName: 'link',
@@ -205,7 +207,7 @@ const plugins = [
         {
           tagName: 'meta',
           name: 'msapplication-dTileColor',
-          content: '#242526'
+          content: '#252426'
         }
       ]
     }
@@ -248,8 +250,8 @@ const config = {
           editUrl:
             'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/',
           sidebarCollapsible: true,
-          exclude: [ '**/_*.{md,mdx}' ],
-          remarkPlugins: [require('mdx-mermaid')],
+          exclude: ['**/_*.{md,mdx}'],
+          remarkPlugins: [require('mdx-mermaid')]
         },
         theme: {
           customCss: [
