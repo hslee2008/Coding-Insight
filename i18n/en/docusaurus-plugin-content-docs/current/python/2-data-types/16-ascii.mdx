@@ -1,0 +1,75 @@
+# ASCII
+
+ASCII is short for American Standard Code for Information Interchange.
+
+It basically means representing alphabets as numbers for easier use.
+
+ASCII encodes all the alphabets and special characters with numbers from 0 to 127.
+
+## `ord()`
+
+To find the ASCII value of a character, use `ord()`.
+
+```python
+ord('a')
+# 97
+```
+
+You can only put in one character at a time.
+
+:::note If you want to find the ASCII value of a sentence, use the [for loop](/en/docs/python/data-flow/for/). :::
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/4f4507d894"
+  height="400"
+/>
+
+## `chr()`
+
+To find the character from the ASCII value, use `chr()`.
+
+```python
+chr(97)
+# 'a'
+```
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/2f04cf1944"
+  height="400"
+/>
+
+import Quiz from 'react-quiz-component';
+
+<Quiz
+  quiz={{
+    quizTitle: 'Python Quiz 6',
+    quizSynopsis: 'ASCII',
+    nrOfQuestions: '2',
+    questions: [
+      {
+        question: 'print(ord("a") + 5)',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['102', '97', '98', '99'],
+        correctAnswer: '1',
+        explanation:
+          'The ascii value of "a" is 97. Add 5 to it and you get 102.',
+        point: '80',
+      },
+      {
+        question: 'print(ord(chr(97)))',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['97', 'a', 'A', '아무것도 안나옴'],
+        correctAnswer: '1',
+        explanation:
+          'The ascii value of "a" is 97. Use chr() to find the character.',
+        point: '20',
+      },
+    ],
+  }}
+/>

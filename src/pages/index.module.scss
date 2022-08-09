@@ -1,0 +1,144 @@
+.TagLine {
+  font-size: 50px;
+}
+
+.Title {
+  font-size: 70px;
+}
+
+.Code {
+  padding: 0 100px 50px 100px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroImg {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 966px) {
+  .heroHeader {
+    padding: 0 50px 50px 50px;
+  }
+
+  .Code {
+    padding: 0 10px 10px 10px;
+  }
+
+  .hero {
+    padding: 2rem;
+  }
+
+  .TagLine {
+    font-size: 30px;
+  }
+
+  .Title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .heroHeader {
+    padding: 0;
+  }
+
+  .TagLine {
+    font-size: 20px;
+  }
+
+  .Title {
+    font-size: 40px;
+  }
+}
+
+/* Hero */
+.heroTwo,
+.hero {
+  text-align: center;
+}
+
+/* Cards */
+.cardContainer {
+  padding: 2rem 7rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.EntryContainer {
+  padding: 2rem 7rem;
+}
+
+.card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.cardSide {
+  flex: 1 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardLeading {
+  align-items: flex-start;
+}
+
+.cardImage {
+  position: relative;
+
+  img {
+    position: absolute;
+    height: 100%;
+    padding: 1rem;
+  }
+}
+
+.cardSpacer {
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .cardContainer {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: unset;
+  }
+
+  .EntryContainer {
+    padding: 2rem;
+  }
+
+  .card {
+    flex: 1 0 100%;
+    flex-direction: column;
+  }
+
+  .cardSide {
+    flex: 0 1 auto;
+    height: auto;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .cardImage {
+    position: unset;
+    align-items: center;
+    order: -1;
+
+    img {
+      position: unset;
+      max-height: 20vh;
+    }
+  }
+}

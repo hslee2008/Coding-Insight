@@ -1,0 +1,56 @@
+{
+  "short_name": "Coding-Insight",
+  "name": "Coding-Insight",
+  "icons": [
+    {
+      "src": "/pwa/96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/pwa/144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/pwa/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/pwa/256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/pwa/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#1B1B1D",
+  "display": "standalone",
+  "display_override": ["fullscreen", "minimal-ui"],
+  "scope": "/",
+  "theme_color": "#1B1B1D",
+  "description": "Learn, Practice, Build and Deploy",
+  "screenshots": [
+    {
+      "src": "/pwa/screenshot/screenshot-home.png",
+      "type": "image/png",
+      "sizes": "1900x827"
+    }
+  ],
+  "categories": ["documentation", "coding-insight"],
+  "orientation": "portrait",
+  "dir": "ltr",
+  "lang": "en-US",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://coding-insight.con/pwa/manifest.json"
+    }
+  ]
+}

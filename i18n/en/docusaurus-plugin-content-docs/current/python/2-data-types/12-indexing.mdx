@@ -1,0 +1,137 @@
+# Indexing
+
+Indexing is a way to access elements of a collection.
+
+So, in a string, there are just a list of characters.
+
+To access a character at a specific location, yo ucan use 'indexing'.
+
+```py
+a = "Hello"
+print(a[0])
+```
+
+Putting a number inside `[]` will give you the character at that index.
+
+But note that the index starts at 0.
+
+So, the first character is at index 0, the second at index 1, etc.
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/e1cdc9760f"
+  height="400"
+/>
+
+:::note The 5th line will make an error.
+
+This is because the index (5) is out of range.
+
+Out of range means that the index value does not exist in the string. :::
+
+## String indexing (from `x` to `y`)
+
+To get a string of range of characters, you can use the `:` operator.
+
+The number before the `:` is the starting index, and the number after the `:` is the ending index.
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/4576e27caf"
+  height="400"
+/>
+
+The second code example above has an empty space before `:`.
+
+The empty space means `0`.
+
+So, `[0:1]` is equal to `[:1]`.
+
+## Reversing a string
+
+To reverse a string, we can select all the string first by `[:]`.
+
+To flip it sideways, we can use the `:-1` which means Python will count the string backward.
+
+Resulting in the string being flipped by `[::-1]`.
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/c0331e8ab5"
+  height="400"
+/>
+
+## 인덱싱 x를 사용하면 x-1인 이유
+
+:::note
+
+왜 저희는 목록의 첫 번째로 1을 사용하는데 코딩에서는 0부터 시작할까요?
+
+그 이유는 '수학'입니다. 리스트는 한국어로 번역하면 '목록'입니다. 목록에는 '순서'가 있습니다.
+
+예를 들어 1에서 시작하여 2씩 증가하는 리스트를 만들겠습니다.
+
+1, 3, 5, 7 처음에 1에서 시작했습니다. 처음에는 1 + (2 \* 0)입니다.
+
+1에서 2 증가했습니다. 이 순서의 공차(차이)는 2입니다. 두 번째 값은 1 + (2+1)입니다.
+
+이렇게 계속하면 다음과 같은 공식이 나옵니다.
+
+a = 1 + {2 \* (a-1)} 그래서 첫 번째 리스트 값을 0을 이용해서 찾는 이유는 공차의 값을 기준으로 0이 곱해졌기 때문입니다.
+
+:::
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  quiz={{
+    quizTitle: '파이썬 퀴즈 5',
+    quizSynopsis: '인덱싱에 대한 파이썬 퀴즈입니다.',
+    nrOfQuestions: '4',
+    questions: [
+      {
+        question: 'print("Python"[1])를 실행하면 무엇이 출력됩니까?',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ["'y'", "'P'", "'o'", "'on'"],
+        correctAnswer: '1',
+        explanation:
+          '[1]은 문자열의 두 번째 문자를 의미합니다. 즉, 문자열의 첫 번째 문자는 0번째 문자입니다.',
+        point: '30',
+      },
+      {
+        question: 'print("Hello World"[0])를 실행하면 무엇이 출력됩니까?',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ["'d'", "'e'", "'H'", "'W'"],
+        correctAnswer: '3',
+        explanation:
+          '[0]은 첫 번째 문자를 의미합니다. 즉, "Hello World"[0]은 "H"를 의미합니다.',
+        point: '30',
+      },
+      {
+        question: 'print("Dude!"[-1])를 실행하면 무엇이 출력됩니까?',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ["'D'", "'u'", "'e'", "'!'"],
+        correctAnswer: '4',
+        explanation:
+          '[-1]은 문자열의 마지막 문자를 의미합니다. 즉, 문자열의 마지막 문자는 !입니다.',
+        point: '30',
+      },
+      {
+        question: 'print("Dude!"[::-1])를 실행하면 무엇이 출력됩니까?',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ["'!eduD'", "'Dude!'", "'!dude'", "'dude'"],
+        correctAnswer: '1',
+        explanation:
+          '[::-1]은 문자열의 역순을 의미합니다. 즉, "Dude!"[::-1]은 "!eduD"를 의미합니다.',
+        point: '10',
+      },
+    ],
+  }}
+/>

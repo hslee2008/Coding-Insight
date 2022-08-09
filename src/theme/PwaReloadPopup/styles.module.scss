@@ -1,0 +1,50 @@
+.popup {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  width: 344px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.popup p {
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .popup {
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.buttonContainer :global(.close) {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  &:focus {
+    outline: rgba(0, 0, 0, 0.1) auto 5px;
+  }
+}

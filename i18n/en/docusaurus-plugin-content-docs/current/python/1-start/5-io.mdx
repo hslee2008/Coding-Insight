@@ -1,0 +1,91 @@
+# Input & Output
+
+Input is when you enter information to a program, function to get an output.
+
+The output here is the result of the program.
+
+## Printing
+
+Printing is the process of writing something to the screen.
+
+If you want to print the text "Hello World" you could use something like the following.
+
+```py
+print('Hello, World!')
+print('5')
+print('!@#$')
+```
+
+The text inside the quotes is what is printed.
+
+## Input
+
+Input is when you let the users enter information into a program.
+
+It is either saved or used directly in the program.
+
+```py
+print(input('>>>'))
+```
+
+The user can now type in after '>>>' in the program.
+
+Here, we are getting the information from the user and printing it.
+
+import Quiz from 'react-quiz-component';
+
+<Quiz
+  quiz={{
+    quizTitle: 'Python Quiz 1',
+    quizSynopsis: 'This is a quiz about input and output in Python. ',
+    nrOfQuestions: '3',
+    questions: [
+      {
+        question: 'How to print "Hello World!" in Python?',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: [
+          'print("Hello World!")',
+          'input("Hello World!")',
+          'console.log("Hello World!")',
+          'cout << "Hello World!"',
+        ],
+        correctAnswer: '1',
+        explanation:
+          'print() is a code that shows information to the screen (this is called printing).',
+        point: '20',
+      },
+      {
+        question: 'How to get information about the name of the user?',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: [
+          'print("Name: ")',
+          'input("Name: ")',
+          'get("Name: ")',
+          'cin >> "Name: "',
+        ],
+        correctAnswer: '2',
+        explanation:
+          'input() is a code that collects information from the user.',
+        point: '20',
+      },
+      {
+        question:
+          "How to get input of the user's name and print it out directly?",
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: [
+          'print("Name: ")',
+          'print(input("Name: "))',
+          'input("Name: ")',
+          'input(print("Name: "))',
+        ],
+        correctAnswer: '2',
+        explanation:
+          'After using input() you can surround it with print() to print what is entered by the user.',
+        point: '60',
+      },
+    ],
+  }}
+/>

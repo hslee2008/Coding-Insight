@@ -1,0 +1,70 @@
+# Data Type
+
+Different numbers, alphebets, lists are called 'Data Types'.
+
+For example, putting anything inside `""` is a string.
+
+```py
+weather = "sunny"
+```
+
+## Finding out the data type
+
+Using `type()` function, we can find out the data type of the variable.
+
+```py
+print(type("Hello, World"))
+```
+
+`<class 'str'>`is the result of running the code above.
+
+It means `"Hello World"` is a string class, which basically means it is a string type.
+
+## Checking the data type
+
+`isinstance()` is a function that checkes if the variable is a sepcfici type.
+
+Put the variable inside the parentheses, and the type of the variable inside the parentheses (2nd
+
+The result will be either `True` or `False`
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/85c6b99c02"
+  height="400"
+/>
+
+Because `"sunny"` is a string, `isinstance("sunny", str)` will return `True`.
+
+:::note In Python, string means letters and we use `str`. :::
+
+import Quiz from 'react-quiz-component';
+
+<Quiz
+  quiz={{
+    quizTitle: 'Python Quiz 4',
+    quizSynopsis: 'Quiz for data types',
+    nrOfQuestions: '2',
+    questions: [
+      {
+        question: 'What is the data type of "Python"',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['String', 'Number', 'List', 'Dictionary'],
+        correctAnswer: '1',
+        explanation: '"Python" with the quotes is a string.',
+        point: '40',
+      },
+      {
+        question: 'Running isinstance("stupid head", str) prints...',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['True', 'False', 'Error'],
+        correctAnswer: '1',
+        explanation: '"stupid head" is a string.',
+        point: '60',
+      },
+    ],
+  }}
+/>

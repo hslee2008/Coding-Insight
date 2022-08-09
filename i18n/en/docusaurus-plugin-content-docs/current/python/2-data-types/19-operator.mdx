@@ -1,0 +1,132 @@
+# Operator
+
+Operators are used to perform mathematical operations on the values of two or more variables.
+
+In the last article, we learn about the basic arithmetics.
+
+## More about arithmetic operators
+
+There are `%`, `**`, and `//` operators that are used to perform modulo, exponentiation, and integer division.
+
+Modulo is the remainder of a division, exponentiation means raising a number to a power, and integer division is the division of two numbers without a remainder.
+
+```py
+5 % 2
+5 ** 2
+5 // 2
+```
+
+## Assignment Operators
+
+Assignment operators are used to perform operations and assign that value to a variable.
+
+```py
+x = 5
+x += 2
+```
+
+The code above adds 2 to the variable and assigns the result to x.
+
+```py
+x = 5
+x = x + 2
+```
+
+The code above does the exact ame thing but is more repetitive.
+
+There are assignment operators of every arithmetic operators `-=`, `_=`, `/=`, `**=`, `%=`, `//=`.
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/6bc8341f11"
+  height="400"
+/>
+
+## Comparison Operators
+
+Comparison Operators compare two values and return a boolean value.
+
+```py
+5 > 2
+5 < 2
+5 == 2
+5 != 2
+5 >= 2
+5 <= 2
+```
+
+Note that they return boolean values.
+
+`==` returns whether two values are the same while `!=` returns whether two values are different.
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/39a09b977e"
+  height="400"
+/>
+
+## Logical Operators
+
+Logical operators are used to combine boolean values.
+
+```py
+True and True
+True and False
+False and True
+False and False
+True or True
+True or False
+False or True
+False or False
+```
+
+import Quiz from 'react-quiz-component';
+
+<Quiz
+  quiz={{
+    quizTitle: 'Python Quiz 8',
+    quizSynopsis: 'Different Operators',
+    nrOfQuestions: '4',
+    questions: [
+      {
+        question: '(1 + 2) * 3 == 6',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['True', 'False'],
+        correctAnswer: '2',
+        explanation:
+          'The correct answer is False. (1 + 2) is 3 and 3 * 3 is not equal to 6.',
+        point: '25',
+      },
+      {
+        question: '1 + 2 + 3 <= 6',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['True', 'False'],
+        correctAnswer: '1',
+        explanation: '1 + 2 + 3 is 6 and 6 is not less than or equal to 6.',
+        point: '25',
+      },
+      {
+        question: '1 + 2 + 3 != 6',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['True', 'False'],
+        correctAnswer: '2',
+        explanation: '1 + 2 + 3 is 6 and 6 is equal to 6',
+        point: '25',
+      },
+      {
+        question: '1 + 2 + 3 > 6',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['True', 'False'],
+        correctAnswer: '2',
+        explanation: '1 + 2 + 3 is 6 and 6 is not greater than 6',
+        point: '25',
+      },
+    ],
+  }}
+/>

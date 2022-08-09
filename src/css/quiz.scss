@@ -1,0 +1,27 @@
+.react-quiz-container {
+  margin: 100px 0 0 0 !important;
+  padding: 10px !important;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  @media only screen and (max-width: 768px) {
+    width: 100% !important;
+  }
+}
+
+.quiz-result-filter {
+  background-color: transparent !important;
+}
+
+.startQuizBtn {
+  padding: 8px 16px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  border-radius: var(--ifm-global-radius) !important;
+  background-color: transparent !important;
+  color: var(--ifm-font-color-base) !important;
+
+  &:hover {
+    background-color: var(--ifm-menu-color-background-hover) !important;
+    color: var(--ifm-color-primary) !important;
+  }
+}

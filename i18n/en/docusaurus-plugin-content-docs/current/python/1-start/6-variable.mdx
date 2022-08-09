@@ -1,0 +1,85 @@
+# Variables
+
+Variables are used to store data to the device.
+
+Think of a box that you put stuff in, and then you can take stuff out.
+
+Here, data means the stuff you put in the box.
+
+It could be numbers, letters, lists, set, functions and more.
+
+## Declaring Variables
+
+Python uses the following syntax to store `data` into `name` variable.
+
+```py
+name = data
+```
+
+A real-world example looks like the following.
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/a5d980683b"
+  height="400"
+/>
+
+## Using Variables
+
+After saving the data into the variable, use can use whatever were saved in the variable.
+
+However, the point of the variable is that you could change it (it is dynamic).
+
+So, to access the variables, just reference it using the name of the variable.
+
+```py
+name = 'John'
+print(name)
+```
+
+## Rules for the name
+
+There are a few rules for the name of the variable.
+
+If you do not follow these rules, error will be thrown (you won't be able to run the code).
+
+1. Only English and other letters, numbers, underscores(\_) is allowed.
+2. The first letter cannot be a number (Something like `1name` is not allowed).
+3. The name cannot be a reserved word (Something like `if` is not allowed).
+
+import Quiz from 'react-quiz-component';
+
+<Quiz
+  quiz={{
+    quizTitle: 'Python Quiz 2',
+    quizSynopsis: 'Quiz about variables! Test your knowledge about variables!',
+    nrOfQuestions: '2',
+    questions: [
+      {
+        question: 'Select the correct variable name for the following',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['!ilovepython', '#ilovepython', 'i@python', 'i_love_python'],
+        correctAnswer: '4',
+        explanation: 'Characters such as !#@ is not allowed.',
+        point: '40',
+      },
+      {
+        question: 'Store inputed data into the variable name',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: [
+          'name = input("name: ")',
+          'input("name: ") = name',
+          'input = name("name: ")',
+          'name("name: ") = input',
+        ],
+        correctAnswer: '1',
+        explanation:
+          'input() returns what was inputed by the user. You can store it by assigning the value to a variable.',
+        point: '60',
+      },
+    ],
+  }}
+/>

@@ -1,0 +1,93 @@
+# 변수
+
+프로그래밍에서는 변수라고 하면 어떤 정보를 담을 수 있는 장소를 뜻합니다.
+
+예를 들어 상자를 생각해보세요. 상자 안에는 다양한 물건을 담을 수 있습니다.
+
+이와 비슷하게 변수도 다양 한 정보를 담을 수 있는 '상자'라고 할 수 있습니다.
+
+<iframe
+  loading="lazy"
+  className="youtube"
+  src="https://www.youtube.com/embed/Qu5_eBK6OkI"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+/>
+
+## 변수 선언하기
+
+변수를 만들려면 다음과 같은 방법을 사용할 수 있습니다.
+
+```py
+name = data
+```
+
+에서 NAME은 변수의 이름을 뜻하고 DATA는 값입니다.
+
+이렇게 하면 변수를 만들 수 있습니다.
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/a5d980683b"
+  height="400"
+/>
+
+## 변수 사용 방법
+
+변수를 사용하기 위해서는 변수의 이름을 print()안에 넣으면 변수 이름이 출력되지 않고 변수의 값이 출력됩니다.
+
+```py
+name = 'John'
+print(name)
+```
+
+파이썬에서 변수의 이름은 대문자 소문자가 구별됩니다.
+
+NAME과 name은 대문자와 수문자가 다르기 때문에 다른 변수입니다.
+
+## 변수 이름을 만들때 규칙
+
+변수를 만들 때 매우 다양한 규칙이 있습니다.
+
+1. 영문자 (대문자, 소문자), 숫자, 언더바 (\_) 만 사용할 수 있습니다.
+2. 변수의 이름의 첫 자리는 숫자이면 안됩니다.
+3. 파이썬 키워드는 변수의 이름으로 사용할 수 없습니다 (키워드에 대한 더 자세한 내용은 조금 뒤에 배우겠습니다)
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  quiz={{
+    quizTitle: '파이썬 퀴즈 2',
+    quizSynopsis:
+      '변수 대해 공부한 후 파이썬 퀴즈를 통해 더 자세히 알아보세요. 퀴즈를 시작하기 위해 아래 버튼을 클릭하세요.',
+    nrOfQuestions: '2',
+    questions: [
+      {
+        question: '다음 중 변수 이름에 허용되는 문자를 선택하세요',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['!ilovepython', '#ilovepython', 'i@python', 'i_love_python'],
+        correctAnswer: '4',
+        explanation:
+          '!#@ 등의 특수 문자가 포함되어 있으면 안됩니다. 하지만 _는 사용해도 됩니다.',
+        point: '40',
+      },
+      {
+        question: '입력을 받고 변수 안에 그 값을 저장하세요',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: [
+          'name = input("이름을 입력하세요: ")',
+          'input("이름을 입력하세요: ") = name',
+          'input = name("이름을 입력하세요: ")',
+          'name("이름을 입력하세요: ") = input',
+        ],
+        correctAnswer: '1',
+        explanation:
+          'input()는 파이썬에서 사용자가 입력하는 함수입니다. 그리도 name = 형태로 name에 그 값을 저장할 수 있습니다',
+        point: '60',
+      },
+    ],
+  }}
+/>

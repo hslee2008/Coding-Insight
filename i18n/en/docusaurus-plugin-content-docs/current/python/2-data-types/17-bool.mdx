@@ -1,0 +1,112 @@
+# Boolean
+
+Boolean is a value that represents a true or false value.
+
+We usually use Boolean values to represent conditions in our programs.
+
+```py
+userNumber = int(input("Random Number: "))
+print(userNumber > 5)
+```
+
+We can also save boolean values into variables.
+
+```py
+a = 5 > 6
+```
+
+:::note In Python alone, boolean values needs to be capitalized.
+
+Other programming languages use values such as `true` and `false`.
+
+Python uses `True` and `False`.
+
+Python will read `true` and `false` like a variable name.
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/8500bba20b"
+  height="300"
+/>
+:::
+
+## `not` operator
+
+`not` operator flips the value of boolean into the opposite value.
+
+```py
+not True
+```
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/5fbbc3204c"
+  height="400"
+/>
+
+## `assert()` method
+
+`assert` method is commonly used to check a value of a boolean.
+
+If that value is false, the program will stop and print an error message.
+
+```sh
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    assert False
+AssertionError
+```
+
+If it is true, then the program will continue.
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/b23c21c043"
+  height="400"
+/>
+
+## `all()` and `any()`
+
+If a list is given (or a tuple), then `all()` will return true if all the values are true.
+
+```py
+all([True, True, True])
+```
+
+`any()` will return true if any of the values is true.
+
+```py
+any([False, False, False])
+```
+
+<iframe
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/6d4ae0d672"
+  height="400"
+/>
+
+import Quiz from 'react-quiz-component';
+
+<Quiz
+  quiz={{
+    quizTitle: 'Python Quiz 7',
+    quizSynopsis: 'boolean',
+    nrOfQuestions: '1',
+    questions: [
+      {
+        question: 'print(all([True, False, True, True]))',
+        questionType: 'text',
+        answerSelectionType: 'single',
+        answers: ['False', 'True', 'true', 'false'],
+        correctAnswer: '1',
+        explanation:
+          'all() returns true if all the values are true. In this case, all the values are true, so it returns true.',
+        point: '100',
+      },
+    ],
+  }}
+/>
