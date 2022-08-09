@@ -1,4 +1,4 @@
-# 문자와 문자열 인덱싱
+# 인덱싱
 
 문자에서 선택하고 싶은 한 장소의 정보를 찾아내는 작업을 인덱싱이라고 하고 그 장소를 인덱스라고 합니다.
 
@@ -21,10 +21,18 @@ print(a[0])
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python3/e1cdc9760f"
   height="400"
 />
+
+:::note
+5번째 줄의 코드에서 에러가 발생합니다.
+
+그 이유는 인덱스는 0부터 시작하므로 5번째 인덱스는 4입니다.
+
+5 인덱스는 존재하지 않기 때문에 에러가 발생합니다.
+:::
 
 ## 문자 인덱싱 (x ~ y 값)
 
@@ -36,8 +44,8 @@ print(a[0])
 
 <iframe
   loading="lazy"
-  title="Python Playground"
-  src="https://trinket.io/embed/python/47c742b3bd"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/4576e27caf"
   height="400"
 />
 
@@ -57,8 +65,8 @@ print(a[0])
 
 <iframe
   loading="lazy"
-  title="Python Playground"
-  src="https://trinket.io/embed/python/4e95210044"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/c0331e8ab5"
   height="400"
 />
 
@@ -84,54 +92,54 @@ a = 1 + {2 \* (a-1)}
 
 :::
 
-import Quiz from '@site/src/components/Quiz'
+import Quiz from "@site/src/components/Quiz";
 
 <Quiz
   quiz={{
-    quizTitle: '파이썬 퀴즈 5',
-    quizSynopsis: '인덱싱에 대한 파이썬 퀴즈입니다.',
-    nrOfQuestions: '4',
+    quizTitle: "파이썬 퀴즈 5",
+    quizSynopsis: "인덱싱에 대한 파이썬 퀴즈입니다.",
+    nrOfQuestions: "4",
     questions: [
       {
         question: 'print("Python"[1])를 실행하면 무엇이 출력됩니까?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: ["'y'", "'P'", "'o'", "'on'"],
-        correctAnswer: '1',
+        correctAnswer: "1",
         explanation:
-          '[1]은 문자열의 두 번째 문자를 의미합니다. 즉, 문자열의 첫 번째 문자는 0번째 문자입니다.',
-        point: '30'
+          "[1]은 문자열의 두 번째 문자를 의미합니다. 즉, 문자열의 첫 번째 문자는 0번째 문자입니다.",
+        point: "30",
       },
       {
         question: 'print("Hello World"[0])를 실행하면 무엇이 출력됩니까?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: ["'d'", "'e'", "'H'", "'W'"],
-        correctAnswer: '3',
+        correctAnswer: "3",
         explanation:
           '[0]은 첫 번째 문자를 의미합니다. 즉, "Hello World"[0]은 "H"를 의미합니다.',
-        point: '30'
+        point: "30",
       },
       {
         question: 'print("Dude!"[-1])를 실행하면 무엇이 출력됩니까?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: ["'D'", "'u'", "'e'", "'!'"],
-        correctAnswer: '4',
+        correctAnswer: "4",
         explanation:
-          '[-1]은 문자열의 마지막 문자를 의미합니다. 즉, 문자열의 마지막 문자는 !입니다.',
-        point: '30'
+          "[-1]은 문자열의 마지막 문자를 의미합니다. 즉, 문자열의 마지막 문자는 !입니다.",
+        point: "30",
       },
       {
         question: 'print("Dude!"[::-1])를 실행하면 무엇이 출력됩니까?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: ["'!eduD'", "'Dude!'", "'!dude'", "'dude'"],
-        correctAnswer: '1',
+        correctAnswer: "1",
         explanation:
           '[::-1]은 문자열의 역순을 의미합니다. 즉, "Dude!"[::-1]은 "!eduD"를 의미합니다.',
-        point: '10'
+        point: "10",
       },
-    ]
+    ],
   }}
 />

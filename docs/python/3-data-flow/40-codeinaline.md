@@ -21,7 +21,11 @@
 :::
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/724bf9a522" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/724bf9a522"
+  height="400"
+/>
 
 ## 세미콜론에 대한 추가 설명
 

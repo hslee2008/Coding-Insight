@@ -110,6 +110,7 @@ async def main():
 하지만 몇 초 기다리는 코드가 있다면 그 다음에 실행이 됩니다.
 
 ## 예시
+
 ```py
 async def fetchData():
   print("started fetching...")
@@ -139,4 +140,3 @@ async def main():
 하지만 만일 `await` 하지 않고 바로 `returnVal`을 만들면 아직 없는 값을 출력하는 것이기 때문에 코드에 버그가 생깁니다.
 
 `await`을 하면 그 데이터를 기다리는데 `printNum()` 함수도 실행합니다.
-

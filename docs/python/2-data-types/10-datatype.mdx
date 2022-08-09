@@ -12,9 +12,9 @@ weather = "대체로 흐림"
 
 <iframe
   loading="lazy"
-  className="youtube" src="https://www.youtube.com/embed/DDrOcpflWDc"
+  className="youtube"
+  src="https://www.youtube.com/embed/DDrOcpflWDc"
   title="YouTube video player"
-  frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 />
 
@@ -30,7 +30,7 @@ print(type("안녕"))
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python/85c6b99c02"
   height="400"
 />
@@ -43,7 +43,7 @@ print(type("안녕"))
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python/437398710e"
   height="400"
 />
@@ -54,34 +54,34 @@ print(type("안녕"))
 
 위의 예시는 `True`를 출력합니다. 그 이유는 `sunny`가 문자(`str`)이기 때문입니다.
 
-import Quiz from '@site/src/components/Quiz'
+import Quiz from "@site/src/components/Quiz";
 
 <Quiz
   quiz={{
-    quizTitle: '파이썬 퀴즈 4',
-    quizSynopsis: '데이터 형태에 대한 파이썬 퀴즈입니다.',
-    nrOfQuestions: '2',
+    quizTitle: "파이썬 퀴즈 4",
+    quizSynopsis: "데이터 형태에 대한 파이썬 퀴즈입니다.",
+    nrOfQuestions: "2",
     questions: [
       {
         question: '"Python"의 데이터 형태는 무엇인가요?',
-        questionType: 'text',
-        answerSelectionType: 'single',
-        answers: ['문자', '숫자', '배열', '딕셔너리'],
-        correctAnswer: '1',
+        questionType: "text",
+        answerSelectionType: "single",
+        answers: ["문자", "숫자", "배열", "딕셔너리"],
+        correctAnswer: "1",
         explanation:
           '"Python"과 같이 \'\' 또는 ""에 들어 있는 글들을 다 문자라고 합니다.',
-        point: '40'
+        point: "40",
       },
       {
         question: 'isinstance("안녕", str)의 결과는?',
-        questionType: 'text',
-        answerSelectionType: 'single',
-        answers: ['True', 'False', '에러'],
-        correctAnswer: '1',
+        questionType: "text",
+        answerSelectionType: "single",
+        answers: ["True", "False", "에러"],
+        correctAnswer: "1",
         explanation:
-          'isinstance()를 통해서 데이터 형태를 확인할 수 있습니다. 위의 예시에서는 weather 변수가 str이므로 True를 출력합니다.',
-        point: '60'
-      }
-    ]
+          "isinstance()를 통해서 데이터 형태를 확인할 수 있습니다. 위의 예시에서는 weather 변수가 str이므로 True를 출력합니다.",
+        point: "60",
+      },
+    ],
   }}
 />

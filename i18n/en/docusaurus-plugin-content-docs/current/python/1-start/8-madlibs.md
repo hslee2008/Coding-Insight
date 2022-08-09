@@ -48,4 +48,8 @@ print(finish)
 ## Checking your work
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/4ddbc052d0" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/4ddbc052d0"
+  height="400"
+/>

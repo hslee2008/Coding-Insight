@@ -22,7 +22,7 @@ const mood = "happy";
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20unchangeable%20%3D%20%22I%20cannot%20be%20changed...%22%3B%0A%20%20%20%20let%20new_unchangeable%20%3D%20unchangeable%3B%0A%20%20%20%20%0A%20%20%20%20const%20unchangeable_value%20%3D%203%3B%0A%7D"
   height="400"
 />

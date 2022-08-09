@@ -29,7 +29,11 @@
 :::
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/5755f85207" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/5755f85207"
+  height="400"
+/>
 
 ## 인코딩
 

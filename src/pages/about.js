@@ -1,22 +1,22 @@
-import React from 'react'
-import Layout from '@theme/Layout'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import Link from '@docusaurus/Link'
+import React from "react";
+import Layout from "@theme/Layout";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Link from "@docusaurus/Link";
 
 export default function About() {
-  const { siteConfig } = useDocusaurusContext()
+  const { siteConfig } = useDocusaurusContext();
 
   return (
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <div
         style={{
-          padding: 20
+          padding: 20,
         }}
       >
         <h1>About</h1>
 
         <p>
-          저희에 대해 알아보고 싶으면{' '}
+          저희에 대해 알아보고 싶으면{" "}
           <Link href="https://github.com/HyunseungLee-Travis/Coding-Insight">
             깃허브
           </Link>
@@ -37,5 +37,5 @@ export default function About() {
         </ul>
       </div>
     </Layout>
-  )
+  );
 }

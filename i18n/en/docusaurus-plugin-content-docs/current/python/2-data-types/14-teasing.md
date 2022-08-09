@@ -1,14 +1,14 @@
-# 친구 놀리기 프로젝트
+# The Teasing Project
 
-친구를 놀리는 방법을 알아보겠습니다.
+Let's learn how to tease other people using Python as a tool.
 
-친구의 이름을 입력하면 ` 바보` 가 이름 다음에 출력되게 만들겠습니다.
+For example, we can print 'stupid' next to someone's name.
 
 ## 코드
 
-`name = input()` 코드를 실행하면 `name`이라는 변수 안에 입력된 친구의 이름이 저장됩니다.
-
-`print(name, "바보")`를 실행하면 친구의 이름과 `바보`를 출력합니다.
-
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/947151bed1" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/c5ef44cd00"
+  height="400"
+/>

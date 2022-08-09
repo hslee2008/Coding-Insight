@@ -2,9 +2,9 @@
 
 <iframe
   loading="lazy"
-  className="youtube" src="https://www.youtube.com/embed/QXtsTPcvuqk"
+  className="youtube"
+  src="https://www.youtube.com/embed/QXtsTPcvuqk"
   title="YouTube video player"
-  frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 />
 
@@ -31,63 +31,63 @@ print('!@#$')
 print(input('>>>'))
 ```
 
-import Quiz from '@site/src/components/Quiz'
+import Quiz from "@site/src/components/Quiz";
 
 <Quiz
   quiz={{
-    quizTitle: '파이썬 퀴즈 1',
+    quizTitle: "파이썬 퀴즈 1",
     quizSynopsis:
-      '입출력에 대해 공부한 후 파이썬 퀴즈를 통해 더 자세히 알아보세요. 퀴즈를 시작하기 위해 아래 버튼을 클릭하세요.',
-    nrOfQuestions: '3',
+      "입출력에 대해 공부한 후 파이썬 퀴즈를 통해 더 자세히 알아보세요. 퀴즈를 시작하기 위해 아래 버튼을 클릭하세요.",
+    nrOfQuestions: "3",
     questions: [
       {
         question:
           '파이썬에서 "Hello World!"라는 문자열을 출력하는 코드를 선택하면?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: [
           'print("Hello World!")',
           'input("Hello World!")',
           'console.log("Hello World!")',
-          'cout << "Hello World!"'
+          'cout << "Hello World!"',
         ],
-        correctAnswer: '1',
+        correctAnswer: "1",
         explanation:
-          'print()는 파이썬에서 출력하는 함수입니다. 출력하는 문자열을 인자로 받아서 출력합니다.',
-        point: '20'
+          "print()는 파이썬에서 출력하는 함수입니다. 출력하는 문자열을 인자로 받아서 출력합니다.",
+        point: "20",
       },
       {
         question:
           '파이썬에서 "안녕하세요: "라는 문자 뒤에 사용자의 이름을 추가하는 코드를 선택하면?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: [
           'print("안녕하세요: ")',
           'input("안녕하세요")',
           'input("안녕하세요:")',
-          'input("안녕하세요!")'
+          'input("안녕하세요!")',
         ],
-        correctAnswer: '3',
+        correctAnswer: "3",
         explanation:
-          'input()는 파이썬에서 사용자가 입력하는 함수입니다. 사용자가 입력하는 문자열을 인자로 받아서 저장합니다.',
-        point: '20'
+          "input()는 파이썬에서 사용자가 입력하는 함수입니다. 사용자가 입력하는 문자열을 인자로 받아서 저장합니다.",
+        point: "20",
       },
       {
         question:
-          '사람의 이름을 입력하고 바로 그 이름을 출력하는 코드를 선택하면?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+          "사람의 이름을 입력하고 바로 그 이름을 출력하는 코드를 선택하면?",
+        questionType: "text",
+        answerSelectionType: "single",
         answers: [
           'print("이름: ")',
           'print(input("이름: "))',
           'input("이름: ")',
-          'input(print("이름: "))'
+          'input(print("이름: "))',
         ],
-        correctAnswer: '2',
+        correctAnswer: "2",
         explanation:
-          '이름 값을 바로 받고 출력하려면 input()을 사용하고 그 값을 print()로 출력하는 코드를 사용하면 됩니다.',
-        point: '60'
-      }
-    ]
+          "이름 값을 바로 받고 출력하려면 input()을 사용하고 그 값을 print()로 출력하는 코드를 사용하면 됩니다.",
+        point: "60",
+      },
+    ],
   }}
 />

@@ -8,9 +8,9 @@
 
 <iframe
   loading="lazy"
-  className="youtube" src="https://www.youtube.com/embed/Qu5_eBK6OkI"
+  className="youtube"
+  src="https://www.youtube.com/embed/Qu5_eBK6OkI"
   title="YouTube video player"
-  frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 />
 
@@ -28,7 +28,7 @@ name = data
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python/a5d980683b"
   height="400"
 />
@@ -54,40 +54,40 @@ NAME과 name은 대문자와 수문자가 다르기 때문에 다른 변수입�
 2. 변수의 이름의 첫 자리는 숫자이면 안됩니다.
 3. 파이썬 키워드는 변수의 이름으로 사용할 수 없습니다 (키워드에 대한 더 자세한 내용은 조금 뒤에 배우겠습니다)
 
-import Quiz from '@site/src/components/Quiz'
+import Quiz from "@site/src/components/Quiz";
 
 <Quiz
   quiz={{
-    quizTitle: '파이썬 퀴즈 2',
+    quizTitle: "파이썬 퀴즈 2",
     quizSynopsis:
-      '변수 대해 공부한 후 파이썬 퀴즈를 통해 더 자세히 알아보세요. 퀴즈를 시작하기 위해 아래 버튼을 클릭하세요.',
-    nrOfQuestions: '2',
+      "변수 대해 공부한 후 파이썬 퀴즈를 통해 더 자세히 알아보세요. 퀴즈를 시작하기 위해 아래 버튼을 클릭하세요.",
+    nrOfQuestions: "2",
     questions: [
       {
-        question: '다음 중 변수 이름에 허용되는 문자를 선택하세요',
-        questionType: 'text',
-        answerSelectionType: 'single',
-        answers: ['!ilovepython', '#ilovepython', 'i@python', 'i_love_python'],
-        correctAnswer: '4',
+        question: "다음 중 변수 이름에 허용되는 문자를 선택하세요",
+        questionType: "text",
+        answerSelectionType: "single",
+        answers: ["!ilovepython", "#ilovepython", "i@python", "i_love_python"],
+        correctAnswer: "4",
         explanation:
-          '!#@ 등의 특수 문자가 포함되어 있으면 안됩니다. 하지만 _는 사용해도 됩니다.',
-        point: '40'
+          "!#@ 등의 특수 문자가 포함되어 있으면 안됩니다. 하지만 _는 사용해도 됩니다.",
+        point: "40",
       },
       {
-        question: '입력을 받고 변수 안에 그 값을 저장하세요',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        question: "입력을 받고 변수 안에 그 값을 저장하세요",
+        questionType: "text",
+        answerSelectionType: "single",
         answers: [
           'name = input("이름을 입력하세요: ")',
           'input("이름을 입력하세요: ") = name',
           'input = name("이름을 입력하세요: ")',
-          'name("이름을 입력하세요: ") = input'
+          'name("이름을 입력하세요: ") = input',
         ],
-        correctAnswer: '1',
+        correctAnswer: "1",
         explanation:
-          'input()는 파이썬에서 사용자가 입력하는 함수입니다. 그리도 name = 형태로 name에 그 값을 저장할 수 있습니다',
-        point: '60'
-      }
-    ]
+          "input()는 파이썬에서 사용자가 입력하는 함수입니다. 그리도 name = 형태로 name에 그 값을 저장할 수 있습니다",
+        point: "60",
+      },
+    ],
   }}
 />

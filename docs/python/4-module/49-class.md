@@ -11,7 +11,11 @@
 이제 이 자동차에 대한 정보를 얻기 위하여 `new MyCar()`라고 객체를 만들 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/725e856cf1" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/725e856cf1"
+  height="400"
+/>
 
 ## `__init__()`
 
@@ -20,7 +24,11 @@
 하지만 이제 `__init__()` 함수를 사용하면 딕셔너리와 비슷하게 변수를 저장할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/1b58b7cdc3" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/1b58b7cdc3"
+  height="400"
+/>
 
 먼저, 클래스 안에서 `def __init__()`이라고 선언한 후 안에 `self`, `name`, `age`, `gender` 변수를 만들었습니다.
 
@@ -45,7 +53,11 @@ self 매개변수는 항상 존재해야 합니다.
 이름 'Hyunseung'은 `self` 안에 딕셔너리와 비슷하게 있어서 `self.name`을 사용하여 값을 찾을 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/a1a4151531" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/a1a4151531"
+  height="400"
+/>
 
 ## self (자신!)
 
@@ -68,7 +80,11 @@ self 매개변수는 항상 존재해야 합니다.
 클래스에서도 클래스와 클래스끼리 서로 함수와 변수를 주고받을 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/e0b362c25c" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/e0b362c25c"
+  height="400"
+/>
 
 ### 문제의 해결
 
@@ -81,14 +97,22 @@ self 매개변수는 항상 존재해야 합니다.
 이를 방지하기 위하여 `Person.__init__(python_class, name, age, gender)`를 `init` 메서드 안에 넣을 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/8e1797ce82" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/8e1797ce82"
+  height="400"
+/>
 
 ## `super()`
 
 `super()` 함수를 이용하면 매우 더 편리할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/e9f98d6de4" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/e9f98d6de4"
+  height="400"
+/>
 
 ## attribute
 
@@ -107,4 +131,8 @@ self 매개변수는 항상 존재해야 합니다.
 마지막으로, 클래스의 변수를 삭제할 수 있는 무서운 기능이 있는 `delattr()`을 사용하면 변수의 에러를 피하는 것이 가능합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/45cfee23ee" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/45cfee23ee"
+  height="400"
+/>

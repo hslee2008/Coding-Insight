@@ -24,7 +24,11 @@ print(age)
 CODE2에서는 조금 더 복잡한 계산을 할 수 있는 연산자의 예시입니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/e6f77e0d9a" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/e6f77e0d9a"
+  height="400"
+/>
 
 ## 숫자와 '숫자'의 차이
 
@@ -45,7 +49,11 @@ CODE2에서는 조금 더 복잡한 계산을 할 수 있는 연산자의 예시
 이유는 숫자는 `''` 없이 선언해야만 숫자라고 인식이 되기 때문입니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/81191f5590" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/81191f5590"
+  height="400"
+/>
 
 ## `input()`을 숫자로
 
@@ -70,4 +78,8 @@ CODE2에서는 조금 더 복잡한 계산을 할 수 있는 연산자의 예시
 옆에 있는 코드를 `int()`를 사용해서 고쳐보세요!
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/4b9cfba68b" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/4b9cfba68b"
+  height="400"
+/>

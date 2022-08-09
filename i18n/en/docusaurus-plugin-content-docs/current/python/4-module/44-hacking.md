@@ -31,5 +31,11 @@ while True:
 ```
 
 ## 비디오
+
 <iframe
-  loading="lazy" width="560" height="315" className="youtube" src="https://www.youtube.com/embed/RZSzjcp_DII" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+  loading="lazy"
+  className="youtube"
+  src="https://www.youtube.com/embed/RZSzjcp_DII"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+/>

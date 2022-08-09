@@ -14,7 +14,7 @@
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20%2F%2Fprintln!(%22Hello%20World%22)%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22Hello%2C%20World!%22)%3B%0A%7D"
   height="400"
 />
@@ -27,7 +27,6 @@
 
 예를 들면, `println!("{} {}", 1, 2)`는 `"1 2"`를 출력합니다.
 :::note
-
 
 ## 주석 달기 (블록 줄)
 
@@ -50,7 +49,7 @@ Markdown이란 글이 아니라 특별한 스타일을 넣은 글입니다 (예:
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=%2F%2F%2F%20%23Hello%20World%0D%0Afn%20main()%20%7B%0D%0A%20%20%20%20%2F%2F!%20%23Testing%0D%0A%20%20%20%20println!(%22%7B%7D%20can%20support%20%7B%7D%20notation%22%2C%22Doc%20comment%22%2C%22markdown%22)%3B%0D%0A%7D"
   height="400"
 />

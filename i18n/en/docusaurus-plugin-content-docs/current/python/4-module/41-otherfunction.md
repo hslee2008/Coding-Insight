@@ -1,6 +1,6 @@
 # 다양한 파이썬 함수
 
-## `quit()`과 exit()
+## `quit()`과 `exit()`
 
 파이썬 코드가 계속 실행이 될 때가 있습니다.
 
@@ -11,7 +11,11 @@
 `quit()` 대신 `exit()`을 사용해도 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/8b75210243" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/8b75210243"
+  height="400"
+/>
 
 ## `help()`
 
@@ -20,4 +24,8 @@
 도움 프로그램을 실행하기 위하여 `help()` 함수를 사용할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/ea0c810c1a" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/ea0c810c1a"
+  height="400"
+/>

@@ -18,11 +18,9 @@ A가 크게 보이지만 ASCII에서는 a가 더 큽니다.
 
 <iframe
   loading="lazy"
-  width="560"
-  height="315"
-  className="youtube" src="https://www.youtube.com/embed/YnFUR00gk5s"
+  className="youtube"
+  src="https://www.youtube.com/embed/YnFUR00gk5s"
   title="YouTube video player"
-  frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 />
 
@@ -36,7 +34,7 @@ A가 크게 보이지만 ASCII에서는 a가 더 큽니다.
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python3/4f4507d894"
   height="400"
 />
@@ -47,38 +45,39 @@ A가 크게 보이지만 ASCII에서는 a가 더 큽니다.
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python3/2f04cf1944"
   height="400"
 />
 
-import Quiz from '@site/src/components/Quiz'
+import Quiz from "@site/src/components/Quiz";
 
 <Quiz
   quiz={{
-    quizTitle: '파이썬 퀴즈 6',
-    quizSynopsis: '문자열 메서드 연습',
-    nrOfQuestions: '2',
+    quizTitle: "파이썬 퀴즈 6",
+    quizSynopsis: "문자열 메서드 연습",
+    nrOfQuestions: "2",
     questions: [
       {
         question: 'print(ord("a") + 5)를 실행하면 무엇이 나오나요?',
-        questionType: 'text',
-        answerSelectionType: 'single',
-        answers: ['102', '97', '98', '99'],
-        correctAnswer: '1',
+        questionType: "text",
+        answerSelectionType: "single",
+        answers: ["102", "97", "98", "99"],
+        correctAnswer: "1",
         explanation:
           '고난이도 문제: ord("a")는 97이지만 5를 더했으므로 102가 나옵니다.',
-        point: '80'
+        point: "80",
       },
       {
-        question: 'print(ord(chr(97)))를 실행하면 무엇이 출력됩니까?',
-        questionType: 'text',
-        answerSelectionType: 'single',
-        answers: ['97', 'a', 'A', '아무것도 안나옴'],
-        correctAnswer: '1',
-        explanation: 'chr(97)은 a이지만 다시 ord()를 실행했으므로 97이 나옵니다.',
-        point: '20'
-      }
-    ]
+        question: "print(ord(chr(97)))를 실행하면 무엇이 출력됩니까?",
+        questionType: "text",
+        answerSelectionType: "single",
+        answers: ["97", "a", "A", "아무것도 안나옴"],
+        correctAnswer: "1",
+        explanation:
+          "chr(97)은 a이지만 다시 ord()를 실행했으므로 97이 나옵니다.",
+        point: "20",
+      },
+    ],
   }}
 />

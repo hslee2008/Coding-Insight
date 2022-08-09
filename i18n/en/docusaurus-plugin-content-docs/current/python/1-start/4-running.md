@@ -55,4 +55,8 @@ Typing `print("Hello World")` and pressing entering will print the result.
 Our site uses the [Trinket](https://trinket.io) to run Python code.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/93a3b5a1dc" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/93a3b5a1dc"
+  height="400"
+/>

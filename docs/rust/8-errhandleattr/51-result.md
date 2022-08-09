@@ -84,7 +84,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20let%20x%3A%20%26str%20%3D%20Some(%22Hello%22).unwrap()%3B%0D%0A%20%20println!(%22%7Bx%7D%22)%3B%0D%0A%7D`"
   height="400"
 />

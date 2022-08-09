@@ -5,7 +5,11 @@ while 반복문이란 반복문의 일종으로 주어진 불리언 자료형 �
 쉽게 말해서 어떤 조건을 만족시킨다면 코드를 무한반복 시키는 것입니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/496fc82d74" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/496fc82d74"
+  height="400"
+/>
 
 :::note
 for v.s. while
@@ -15,7 +19,7 @@ for v.s. while
 2. 하나하나 변수를 선언하지 않아도 된다.
 3. 더 다양한 옵션이 있다(이터러블, yield 등).
 4. 더 효율적이고 효과적이다.
-:::
+   :::
 
 ## While 반복문 사용법
 
@@ -40,7 +44,11 @@ while 문에서는 무한 반복문을 조심해야 합니다. 무한 반복문�
 3. 다음에, 만든 변수를 감소시키거나 증가시킵니다. (예: `a += 1`, `a -= 1`)
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/3f6d66c42e" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/3f6d66c42e"
+  height="400"
+/>
 
 ## break 문
 
@@ -49,4 +57,8 @@ break 문은 while True 문을 정지시킬 때 사용하는 코드입니다.
 이 코드 역시 무한반복문이 일어나면 터미널에서 ctrl+c로 멈출 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/d35c515f41" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/d35c515f41"
+  height="400"
+/>

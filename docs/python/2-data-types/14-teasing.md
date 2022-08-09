@@ -11,4 +11,8 @@
 `print(name, "바보")`를 실행하면 친구의 이름과 `바보`를 출력합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/947151bed1" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/947151bed1"
+  height="400"
+/>

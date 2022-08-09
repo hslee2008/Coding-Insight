@@ -9,7 +9,11 @@
 for 반복문은 상대적으로 느리므로 매우 크고 복잡한 앱을 만드는 데 좋지 않습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/0be5e6efb5" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/0be5e6efb5"
+  height="400"
+/>
 
 ## `map()`
 
@@ -18,7 +22,11 @@ for 반복문은 상대적으로 느리므로 매우 크고 복잡한 앱을 만
 매우 간단합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/373f6daa17" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/373f6daa17"
+  height="400"
+/>
 
 1. 먼저, `map()` 함수의 첫 번째 매개변수에는 함수의 이름을 넣습니다.
 2. 만일 어떤 계산을 하는 함수 (예: x에 2를 곱하는 함수)가 존재하지 않는다면 그 함수를 만드세요.
@@ -28,7 +36,11 @@ for 반복문은 상대적으로 느리므로 매우 크고 복잡한 앱을 만
 `map()` 함수에서 나만의 함수를 넣으려면 `lambda(익명 함수)`를 이용할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/22c2bc5172" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/22c2bc5172"
+  height="400"
+/>
 
 `lambda`를 이용할 때 첫 번째 매개변수가 들어오는 값(`mainList`에 있는 숫자의 값)이기 때문에 매개변수의 이름은 우리가 정할 수 있습니다.
 
@@ -58,7 +70,11 @@ n이 될 수 있고 `number` 또는 `num`이 될 수 있지만 존재해야 하�
 참고로 `map()`과 같이 `lambda` 대신 `def`를 이용한 함수여도 되고 이미 존재하는 함수를 사용해도 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/9eb9345774" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/9eb9345774"
+  height="400"
+/>
 
 ## `reduce()`
 
@@ -73,4 +89,8 @@ n이 될 수 있고 `number` 또는 `num`이 될 수 있지만 존재해야 하�
 만일 `reduce()`의 값이 여러 개라면 먼저 하나하나 함수에 집어넣고 돌아오는 값을 저장한 후 모든 값을 한꺼번에 돌려줍니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/294b66f2c5" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/294b66f2c5"
+  height="400"
+/>

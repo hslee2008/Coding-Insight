@@ -1,0 +1,46 @@
+{
+  "link.title.튜토리얼": {
+    "message": "튜토리얼",
+    "description": "The title of the footer links column with title=튜토리얼 in the footer"
+  },
+  "link.title.커뮤니티": {
+    "message": "커뮤니티",
+    "description": "The title of the footer links column with title=커뮤니티 in the footer"
+  },
+  "link.title.링크": {
+    "message": "링크",
+    "description": "The title of the footer links column with title=링크 in the footer"
+  },
+  "link.item.label.파이썬": {
+    "message": "파이썬",
+    "description": "The label of footer link with label=파이썬 linking to /docs/python/start/python"
+  },
+  "link.item.label.Rust": {
+    "message": "Rust",
+    "description": "The label of footer link with label=Rust linking to /docs/rust/start/rust"
+  },
+  "link.item.label.기여자들": {
+    "message": "기여자들",
+    "description": "The label of footer link with label=기여자들 linking to https://github.com/HyunseungLee-Travis/Coding-Insight/graphs/contributors"
+  },
+  "link.item.label.기여하기": {
+    "message": "기여하기",
+    "description": "The label of footer link with label=기여하기 linking to https://github.com/HyunseungLee-Travis/Coding-Insight/blob/main/CONTRIBUTING.md"
+  },
+  "link.item.label.깃허브": {
+    "message": "깃허브",
+    "description": "The label of footer link with label=깃허브 linking to https://github.com/HyunseungLee-Travis/Coding-Insight"
+  },
+  "link.item.label.유튜브": {
+    "message": "유튜브",
+    "description": "The label of footer link with label=유튜브 linking to https://www.youtube.com/channel/UChTUaMMkavu5hxIA7Gd4kfA"
+  },
+  "link.item.label.검색": {
+    "message": "검색",
+    "description": "The label of footer link with label=검색 linking to /search/"
+  },
+  "copyright": {
+    "message": "Copyright © 2022 Coding-Insight, Team.",
+    "description": "The footer copyright"
+  }
+}

@@ -11,7 +11,11 @@
 `global` 다음에 변수 이름을 사용하고 변수 이름에 값을 선언하면 모든 코드에서 사용할 수 있는 코드로 변합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/db03626a7c" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/db03626a7c"
+  height="400"
+/>
 
 ## Nonlocal 변수
 

@@ -8,7 +8,7 @@
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20println!(%22Hello%2C%20world!%22)%3B%0A%7D"
   height="400"
 />

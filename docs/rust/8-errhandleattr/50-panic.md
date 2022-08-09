@@ -10,7 +10,7 @@ Rust는 매우 보안이 신경을 쓰는 편이어서 조금의 실수라도 �
 1. 코드를 이진수로 바꾸기 (컴파일)
 2. 파일에 저장하기
 3. 파일 실행하기
-:::
+   :::
 
 그래서 에러가 있으면 컴파일도 하지 못하는데요 이 과정에서 생기는 문제를 'panic'이라고 합니다.
 
@@ -18,7 +18,7 @@ Rust는 매우 보안이 신경을 쓰는 편이어서 조금의 실수라도 �
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20panic!(%22oopsie!%22)%3B%0D%0A%7D"
   height="400"
 />

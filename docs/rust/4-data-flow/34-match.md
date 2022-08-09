@@ -82,7 +82,7 @@ fn main(){
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%7B%0D%0A%20%20%20let%20course%20%3D%20%22Rust%22%3B%0D%0A%20%20%20%0D%0A%20%20%20let%20found_course%20%3D%20match%20course%20%7B%0D%0A%20%20%20%20%20%20%22Rust%22%20%3D%3E%20%22Rust%20F*ck%22%2C%0D%0A%20%20%20%20%20%20%22Java%22%20%3D%3E%20%22Java%22%2C%0D%0A%20%20%20%20%20%20%22C%2B%2B%22%20%3D%3E%20%22C%20Plus%20Plus%22%2C%0D%0A%20%20%20%20%20%20%22C%23%22%20%3D%3E%20%22C%20Sharp%22%2C%0D%0A%20%20%20%20%20%20_%20%3D%3E%20%22Unknown%20Language%22%0D%0A%20%20%20%7D%3B%0D%0A%0D%0A%20%20%20println!(%22Course%20name%20%3A%20%7B%7D%22%2Cfound_course)%3B%0D%0A%7D"
   height="400"
 />

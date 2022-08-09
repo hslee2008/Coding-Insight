@@ -15,7 +15,11 @@
 GET은 HTTP 메서드로 HTTP에 있는 데이터를 가지고 오는 방법의 하나입니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/a8fbf8fda2" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/a8fbf8fda2"
+  height="400"
+/>
 
 ## params
 
@@ -30,7 +34,11 @@ https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.goo
 그리고 `indentifier?` 뒤에 있는 데이터가 다 딕셔너리로 표현이 될 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/3f896f4b27" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/3f896f4b27"
+  height="400"
+/>
 
 ## 리스폰스
 
@@ -49,7 +57,11 @@ https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.goo
 반응.encoding의 형태로 encoding의 값을 알 수 있고 지정하는 것이 가능합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/4751110c8f" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/4751110c8f"
+  height="400"
+/>
 
 ## status_code
 
@@ -62,7 +74,11 @@ https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.goo
 쉽게 성공했는지만 확인하기 위하여 ok 키를 이용할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/ae32425775" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/ae32425775"
+  height="400"
+/>
 
 ## header
 
@@ -71,4 +87,8 @@ https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.goo
 머리글은 영어로 header라고 하고 `header` 매개변수 안에 딕셔너리로 나만의 머리글을 만드는 것이 가능합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/30fb5ba090" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/30fb5ba090"
+  height="400"
+/>

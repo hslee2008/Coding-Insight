@@ -5,7 +5,11 @@
 파이썬 코드를 3초 멈추게 하기 위해 `time.sleep(3)` 메서드를 사용할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/cf2c9fad50" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/cf2c9fad50"
+  height="400"
+/>
 
 ## OS 모듈 - `system()`
 
@@ -28,4 +32,8 @@ import os
 컴퓨터에 따라서 `clear` 또는 `cls` 일 수도 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/63f69099ff" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/63f69099ff"
+  height="400"
+/>

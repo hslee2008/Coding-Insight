@@ -52,4 +52,8 @@ print(finish)
 ##️ 확인하기
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/e1d336381d" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/e1d336381d"
+  height="400"
+/>

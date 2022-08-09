@@ -35,7 +35,7 @@ fn main() {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=struct%20GenVal%3CT%3E%20%7B%0D%0A%20%20random_value%3A%20T%0D%0A%7D%0D%0A%0D%0Aimpl%3CT%3E%20GenVal%3CT%3E%20%7B%0D%0A%20%20fn%20new(value%3A%20T)%20-%3E%20GenVal%3CT%3E%20%7B%0D%0A%20%20%20%20GenVal%20%7B%20random_value%3A%20value%20%7D%0D%0A%20%20%7D%0D%0A%0D%0A%20%20fn%20get_value(%26self)%20-%3E%20%26T%20%7B%0D%0A%20%20%20%20%26self.random_value%0D%0A%20%20%7D%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20let%20gen_val%20%3D%20GenVal%3A%3Anew(10)%3B%0D%0A%20%20println!(%22%7B%7D%22%2C%20gen_val.get_value())%3B%0D%0A%7D"
   height="400"
 />

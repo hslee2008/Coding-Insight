@@ -18,7 +18,7 @@
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20char1%3A%20char%20%3D%20%27i%27%3B%20%2F%2F%EC%BA%90%EB%A6%AD%ED%84%B0%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bchar1%7D%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20let%20char2%3A%20i32%20%3D%20%27a%27%20as%20i32%3B%20%2F%2Fa%EC%9D%98%20%EC%95%84%EC%8A%A4%ED%82%A4%20%EC%BD%94%EB%93%9C%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bchar2%7D%22)%3B%0D%0A%7D"
   height="400"
 />
@@ -39,7 +39,7 @@
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20char%20%3D%20%27a%27%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_alphabetic())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_lowercase())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_uppercase())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_whitespace())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_alphanumeric())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_numeric())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.is_ascii())%3B%0D%0A%7D"
   height="400"
 />
@@ -52,7 +52,7 @@
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20char%20%3D%20%27a%27%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.to_uppercase())%3B%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20val1.to_lowercase())%3B%0D%0A%7D"
   height="400"
 />

@@ -24,7 +24,7 @@ let mut arr: [i32;5] = [1,2,3,4,5];
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20s%3A%20%5Bi32%3B%205%5D%20%3D%20%5B1%2C%202%2C%203%2C%204%2C%205%5D%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s%5B0%5D)%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s%5B1%5D)%3B%0A%7D"
   height="400"
 />
@@ -35,7 +35,7 @@ let mut arr: [i32;5] = [1,2,3,4,5];
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%5Bf32%3B%205%5D%20%3D%20%5B3.1%2C%203.14%2C%203.141%2C%203.1415%2C%203.14159%5D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%3A%3F%7D%22%2C%20val1)%3B%0D%0A%7D"
   height="400"
 />
@@ -48,7 +48,7 @@ let mut arr: [i32;5] = [1,2,3,4,5];
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%5Bf32%3B%205%5D%20%3D%20%5B3.1%2C%203.14%2C%203.141%2C%203.1415%2C%203.14159%5D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%EA%B8%B8%EC%9D%B4%3A%20%7B%7D%22%2C%20val1.len())%3B%0D%0A%20%20%20%20println!(%22%EB%B9%84%EC%96%B4%20%EC%9E%88%EB%82%98%EC%9A%94%3F%3A%20%7B%7D%22%2C%20val1.is_empty())%3B%0D%0A%7D"
   height="400"
 />
@@ -63,7 +63,7 @@ let mut arr: [i32;5] = [1,2,3,4,5];
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20mut%20val1%3A%20%5Bf32%3B%205%5D%20%3D%20%5B3.1%2C%203.14%2C%203.141%2C%203.1415%2C%203.14159%5D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20val1.swap(0%2C%201)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7B%3A%3F%7D%22%2C%20val1)%3B%0D%0A%7D"
   height="400"
 />
@@ -76,7 +76,7 @@ let mut arr: [i32;5] = [1,2,3,4,5];
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20mut%20val1%3A%20%5Bf32%3B%205%5D%20%3D%20%5B3.1%2C%203.14%2C%203.141%2C%203.1415%2C%203.14159%5D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20val1.reverse()%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%EB%92%A4%EC%A7%91%ED%9E%98%3A%20%7B%3A%3F%7D%22%2C%20val1)%3B%0D%0A%7D"
   height="400"
 />

@@ -12,11 +12,8 @@
 
 <iframe
   loading="lazy"
-  width="560"
-  height="315"
   className="youtube" src="https://www.youtube.com/embed/NT0qINEacEo"
   title="YouTube video player"
-  frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 />
 
@@ -30,7 +27,7 @@
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python/7c86f7328a"
   height="400"
 />
@@ -51,7 +48,7 @@
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python/c420acd5f8"
   height="400"
 />

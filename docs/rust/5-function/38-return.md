@@ -17,7 +17,7 @@ fn main() {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20add_one(x%3A%20i32)%20-%3E%20i32%20%7B%0D%0A%20%20x%20%2B%201%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20let%20five%20%3D%20add_one(4)%3B%0D%0A%20%20println!(%22The%20value%20of%20five%20is%3A%20%7B%7D%22%2C%20five)%3B%0D%0A%7D"
   height="400"
 />
@@ -61,7 +61,7 @@ fn calculate_area_perimeter(x: i32, y: i32) -> (i32, i32) {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20let%20length%20%3D%204%3B%0D%0A%20%20let%20width%20%3D%203%3B%0D%0A%0D%0A%20%20println!(%22Rectangle%20lenth%3A%7B%7D%22%2C%20length)%3B%0D%0A%20%20println!(%22Rectangle%20width%3A%7B%7D%22%2C%20width)%3B%0D%0A%0D%0A%20%20let%20(area%2C%20perimeter)%20%3D%20calculate_area_perimeter(length%2C%20width)%3B%0D%0A%20%20println!(%22%EB%84%93%EC%9D%B4%3A%20%7B%7D%2C%20%EA%B2%89%EB%84%93%EC%9D%B4%3A%20%7B%7D%22%2C%20area%2C%20perimeter)%3B%0D%0A%7D%0D%0A%0D%0A%2F%2F%20%EA%B2%89%EB%84%93%EC%9D%B4%EC%99%80%20%EB%84%93%EC%9D%B4%20%EA%B5%AC%ED%95%98%EA%B8%B0%0D%0Afn%20calculate_area_perimeter(x%3A%20i32%2C%20y%3A%20i32)%20-%3E%20(i32%2C%20i32)%20%7B%0D%0A%20%20let%20area%20%3D%20x%20*%20y%3B%0D%0A%20%20let%20perimeter%20%3D%202%20*%20(x%20%2B%20y)%3B%0D%0A%0D%0A%20%20(area%2C%20perimeter)%0D%0A%7D"
   height="500"
 />

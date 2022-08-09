@@ -1,7 +1,12 @@
 # 딕셔너리
 
 <iframe
-  loading="lazy" width="560" height="315" className="youtube" src="https://www.youtube.com/embed/LmDFgFK4mFA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+  loading="lazy"
+  className="youtube"
+  src="https://www.youtube.com/embed/LmDFgFK4mFA"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+/>
 
 딕셔너리(DICTIONARY)는 한국어로 '사전'을 뜻합니다.
 
@@ -12,7 +17,11 @@
 예를 들어 보겠습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/ba9dc3b4ac" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/ba9dc3b4ac"
+  height="400"
+/>
 
 ## 딕셔너리 만드는 방법
 
@@ -31,7 +40,11 @@
 딕셔너리에서는 Key와 Value에는 정수, 문자열 등 모든 데이터를 넣을 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/534b32664d" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/534b32664d"
+  height="400"
+/>
 
 ## `keys()`
 
@@ -42,7 +55,11 @@
 `keys()`는 for [반복문](/docs/python/data-flow/for) 에서 더 유용하게 사용할 수 있는 예시를 들겠습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/1e671b6947" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/1e671b6947"
+  height="400"
+/>
 
 ## `values()`
 
@@ -51,4 +68,8 @@ Key의 값을 모두 찾는 것처럼 Value의 모든 값을 찾을 수 있습�
 `values()`를 사용하면 `dict_values([values])` 형태로 value가 출력이 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/05de91d4c2" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/05de91d4c2"
+  height="400"
+/>

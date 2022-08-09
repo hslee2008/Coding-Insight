@@ -13,7 +13,11 @@ for 뒤에는 임의의 변수 이름을 쓰고 in 뒤에는 이터러블(리스
 for 문이 실행될 때는 i 변수에 리스트의 값이 차례대로 들어갑니다. 예를 들어 1번째 반복에선 a의 첫 번째 값이 i에 들어갑니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/b3dec1798f" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/b3dec1798f"
+  height="400"
+/>
 
 ## `for + range()`
 
@@ -26,14 +30,22 @@ for 문이 실행될 때는 i 변수에 리스트의 값이 차례대로 들어�
 `range()` 함수에 대한 더 자세한 내용은 조금 뒤 배우겠습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/dab1cb41c0" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/dab1cb41c0"
+  height="400"
+/>
 
 ## for + else
 
 조건문에서 공부했던 else를 for과 같이 사용하면 for의 range가 끝나면 else문 안에 있는 파이썬 코드를 실행합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/4712475b5d" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/4712475b5d"
+  height="400"
+/>
 
 :::note
 for 반복문은 하나하나 값을 모두 가지고 와서 for 문 안에 있는 코드를 실행하는 코드여서 매우 느립니다.
@@ -56,7 +68,11 @@ for 반복문은 하나하나 값을 모두 가지고 와서 for 문 안에 있�
 하지만 만일 수가 5가 된다면 바로 for 반복문을 멈추고 `Done!!!`을 출력합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/9f190d6a4f" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/9f190d6a4f"
+  height="400"
+/>
 
 ## Iterable
 
@@ -75,7 +91,11 @@ CODE2는 for 반복문을 줄인 코드입니다.
 for 키워드 전에는 돌려주는 값이고 그다음은 원래 for 반복문 형태와 같습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/a532b0eef6" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/a532b0eef6"
+  height="400"
+/>
 
 ## Generator
 
@@ -86,7 +106,11 @@ Generator(제너레이터)는 이터러블과 같다고 할 수 있습니다.
 `myList`를 사용해서 for 반복문을 다시 실행할 수 없습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/c87eacfde8" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/c87eacfde8"
+  height="400"
+/>
 
 ## yield
 
@@ -100,7 +124,11 @@ yield를 사용하면 매우 효율적이게 작업을 처리할 수 있습니�
 4. for 반복문을 만듭니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/c9ce2cddc8" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/c9ce2cddc8"
+  height="400"
+/>
 
 ## `iter()`와 \_\_next\_\_()
 
@@ -115,7 +143,11 @@ yield를 사용하면 매우 효율적이게 작업을 처리할 수 있습니�
 만일 마지막 값까지 도착했고 더 이상 값이 존재하지 않는데 `__next__()` 메서드를 사용했다면 에러가 생깁니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/496fc82d74" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/496fc82d74"
+  height="400"
+/>
 
 ## `range()`
 
@@ -130,4 +162,8 @@ yield를 사용하면 매우 효율적이게 작업을 처리할 수 있습니�
 `step`은 숫자 간의 간격입니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/31f75bee24" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/31f75bee24"
+  height="400"
+/>

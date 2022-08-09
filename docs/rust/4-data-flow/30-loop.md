@@ -25,7 +25,7 @@ loop {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22%F0%9F%A4%B1%22%3B%0D%0A%20%20%20%20let%20mut%20count%3A%20i32%20%3D%200%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20loop%20%7B%0D%0A%20%20%20%20%20%20%20%20if%20count%20%3E%3D%205%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20break%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20println!(%22Hello%2C%20Mom!%20%7Ba%7D%22)%3B%0D%0A%20%20%20%20%20%20%20%20count%20%2B%3D%201%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
   height="400"
 />
@@ -44,7 +44,7 @@ outer loop에서는 5이상이면 outer loop가 중단됩니다.
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20mut%20inner_count%3A%20i32%20%3D%200%3B%0A%20%20%20%20%0A%20%20%20%20%27outer%3A%20loop%20%7B%0A%20%20%20%20%20%20%20%20println!(%22Entered%20the%20outer%20loop%22)%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20inner_count%20%2B%3D%201%3B%0A%0A%20%20%20%20%20%20%20%20%27inner%3A%20loop%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20println!(%22Entered%20the%20inner%20loop%22)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20inner_count%20%2B%3D%201%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20inner_count%20%3E%3D%203%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20break%20%27inner%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20if%20inner_count%20%3E%3D%205%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20break%20%27outer%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%0A%20%20%20%20println!(%22Exited%20the%20outer%20loop%22)%3B%0A%7D%0A"
   height="600"
 />
@@ -57,7 +57,7 @@ outer loop에서는 5이상이면 outer loop가 중단됩니다.
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20mut%20string%20%3D%20String%3A%3Afrom(%22%22)%3B%0D%0A%20%20%20%20let%20mut%20count%3A%20i32%20%3D%200%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20let%20result%3A%20String%20%3D%20loop%20%7B%0D%0A%20%20%20%20%20%20%20%20string%20%2B%3D%20%22*%22%3B%0D%0A%20%20%20%20%20%20%20%20count%20%2B%3D%201%3B%0D%0A%20%20%20%20%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20if%20count%20%3E%3D%2010%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20break%20string%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%7D%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bresult%7D%22)%3B%0D%0A%7D"
   height="400"
 />

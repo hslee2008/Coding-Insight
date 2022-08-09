@@ -18,7 +18,7 @@ Vec는 `Vec<데이터>`로 선언할 수 있습니다.
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20mut%20veccy%3A%20Vec%3Ci32%3E%20%3D%20vec!%5B1%2C%202%2C%203%2C%204%2C%205%5D%3B%0D%0A%0D%0A%20%20%20%20veccy.push(6)%3B%0D%0A%20%20%20%20veccy.pop()%3B%0D%0A%0D%0A%20%20%20%20println!(%22%7B%3A%3F%7D%22%2C%20veccy)%3B%0D%0A%7D"
   height="400"
 />
@@ -51,7 +51,7 @@ Vec는 `Vec<데이터>`로 선언할 수 있습니다.
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20veccy%3A%20Vec%3Ci32%3E%20%3D%20vec!%5B1%2C%202%2C%203%2C%204%2C%205%5D%3B%0D%0A%0D%0A%20%20%20%20println!(%22Vec%EC%9D%98%20%ED%81%AC%EA%B8%B0%20%5B1%2C%202%2C%203%2C%204%2C%205%5D%3A%20%7B%7D%22%2C%20veccy.len())%3B%0D%0A%0D%0A%20%20%20%20println!(%22%EC%B2%AB%20%EB%B2%88%EC%A7%B8!%20%7B%7D%22%2C%20veccy%5B0%5D)%3B%0D%0A%0D%0A%20%20%20%20for%20x%20in%20veccy.iter()%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22%3E%20%7B%7D%22%2C%20x)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
   height="400"
 />
@@ -66,7 +66,7 @@ last는 백터의 가장 마지막 값을 찾고 `_mut()`를 붙이면 mut 변�
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20veccy%3A%20Vec%3Ci32%3E%20%3D%20vec!%5B1%2C%202%2C%203%2C%204%2C%205%5D%3B%0D%0A%0D%0A%20%20%20%20println!(%22Vec%EC%9D%98%20%ED%81%AC%EA%B8%B0%20%5B1%2C%202%2C%203%2C%204%2C%205%5D%3A%20%7B%7D%22%2C%20veccy.len())%3B%0D%0A%0D%0A%20%20%20%20println!(%22%EC%B2%AB%20%EB%B2%88%EC%A7%B8!%20%7B%7D%22%2C%20veccy%5B0%5D)%3B%0D%0A%0D%0A%20%20%20%20for%20x%20in%20veccy.iter()%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22%3E%20%7B%7D%22%2C%20x)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
   height="400"
 />
@@ -87,7 +87,7 @@ for (index, value) in veccy.iter().enumerate() {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20veccy%3A%20Vec%3Ci32%3E%20%3D%20vec!%5B1%2C%202%2C%203%2C%204%2C%205%5D%3B%0D%0A%0D%0A%20%20%20%20for%20(index%2C%20value)%20in%20veccy.iter().enumerate()%20%7B%0D%0A%20%20%20%20%20%20%20%20println!(%22%7B%7D%EC%97%90%20%7B%7D%22%2C%20value%2C%20index)%3B%0D%0A%20%20%20%20%7D%0D%0A%7D"
   height="400"
 />
@@ -100,7 +100,7 @@ for (index, value) in veccy.iter().enumerate() {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20mut%20vec%20%3D%20Vec%3A%3Anew()%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20vec.push(1)%3B%0D%0A%0D%0A%20%20%20%20println!(%22%7B%7D%22%2C%20vec%5B0%5D)%3B%0D%0A%7D"
   height="400"
 />

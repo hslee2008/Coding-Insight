@@ -5,7 +5,12 @@
 몰래 이 프로그램을 사용해서 덧셈의 왕처럼 보일 수 있습니다.
 
 <iframe
-  loading="lazy" width="560" height="315" className="youtube" src="https://www.youtube.com/embed/-CRGv2pHTjs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+  loading="lazy"
+  className="youtube"
+  src="https://www.youtube.com/embed/-CRGv2pHTjs"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+/>
 
 ## 코드 설명
 
@@ -39,4 +44,8 @@ print(addnum)
 ```
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/2a317b1dba" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/2a317b1dba"
+  height="400"
+/>

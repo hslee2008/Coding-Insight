@@ -36,7 +36,7 @@ fn main() {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=mod%20r%20%7B%0D%0A%20%20pub%20fn%20print_statement()%7B%0D%0A%20%20%20%20println!(%22r%EC%9D%98%20%ED%95%A8%EC%88%98%22)%3B%0D%0A%20%20%7D%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20r%3A%3Aprint_statement()%3B%0D%0A%7D"
   height="300"
 />
@@ -65,7 +65,7 @@ fn main() {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=mod%20r%20%7B%0D%0A%20%20fn%20print_statement()%20%7B%0D%0A%20%20%20%20println!(%22r%EC%9D%98%20private%20%ED%95%A8%EC%88%98%22)%3B%0D%0A%20%20%7D%0D%0A%0D%0A%20%20pub%20fn%20printing()%20%7B%0D%0A%20%20%20%20self%3A%3Aprint_statement()%3B%0D%0A%20%20%7D%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20%20r%3A%3Aprinting()%3B%0D%0A%7D"
   height="400"
 />
@@ -97,7 +97,7 @@ mod outer_module {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20outer_module%3A%3Ainner_module%3A%3Amy_public_function()%3B%0D%0A%7D%0D%0A%0D%0Amod%20outer_module%20%7B%0D%0A%20%20fn%20my_private_function()%20%7B%0D%0A%20%20%20%20println!(%22Hi%2C%20I%20got%20into%20the%20private%20function%20of%20outer%20module%22)%3B%0D%0A%20%20%7D%0D%0A%0D%0A%20%20pub%20mod%20inner_module%20%7B%0D%0A%20%20%20%20pub%20fn%20my_public_function()%20%7B%0D%0A%20%20%20%20%20%20println!(%22Hi%2C%20I%20got%20into%20the%20public%20function%20of%20inner%20module%22)%3B%0D%0A%20%20%20%20%20%20println!(%22I%27ll%20invoke%20private%20function%20of%20outer%20module%22)%3B%0D%0A%20%20%20%20%20%20super%3A%3Amy_private_function()%3B%0D%0A%20%20%20%20%7D%0D%0A%20%20%7D%0D%0A%7D"
   height="450"
 />
@@ -110,7 +110,7 @@ mod outer_module {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20println!(%22Let%27s%20go%20inside%20the%20module%22)%3B%0D%0A%20%20my_module%20%3A%3Amy_public_function()%3B%0D%0A%7D%0D%0A%0D%0Afn%20my_function()%7B%0D%0A%20%20println!(%22Hi%2C%20you%20came%20inside%20the%20root%20function%20using%20super%22)%3B%0D%0A%7D%0D%0A%0D%0Amod%20my_module%20%7B%0D%0A%20%20pub%20fn%20my_public_function()%20%7B%0D%0A%20%20%20%20println!(%22Invoke%20root%20function%22)%3B%0D%0A%20%20%20%20super%3A%3Amy_function()%3B%0D%0A%20%20%7D%0D%0A%7D
 "
   height="450"

@@ -29,7 +29,11 @@ import math
 이 함수를 사용하기 위하여 `모듈이름.함수이름()` 형태를 사용할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/cc5f724ff2" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/cc5f724ff2"
+  height="400"
+/>
 
 ## 'as' 키워드
 
@@ -97,7 +101,11 @@ print(OEM.isOdd(5)) #True가 출력됩니다
 `import OEM`을 사용하면 더 좋습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/18e9b5aa47" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/18e9b5aa47"
+  height="400"
+/>
 
 ## 모듈 출판하기
 

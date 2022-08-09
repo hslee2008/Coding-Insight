@@ -1,7 +1,12 @@
 # 집합
 
 <iframe
-  loading="lazy" width="560" height="315" className="youtube" src="https://www.youtube.com/embed/D3sZWUlvDuY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+  loading="lazy"
+  className="youtube"
+  src="https://www.youtube.com/embed/D3sZWUlvDuY"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+/>
 
 집합이란 어떤 객관적인 조건에 따라 나뉘어진 목록이라고 할 수 있습니다.
 
@@ -14,7 +19,11 @@
 예를 들어 우리반에서 서울에 사는 친구들의 집합을 만들어 보겠습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/17ff96c784" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/17ff96c784"
+  height="400"
+/>
 
 ## 집합의 특징
 
@@ -33,7 +42,11 @@ CODE1 예시를 확인하세요.
 CODE2에서 확인할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/1c4e61a04e" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/1c4e61a04e"
+  height="400"
+/>
 
 ## 집합 값 제거
 
@@ -44,4 +57,8 @@ CODE2에서 확인할 수 있습니다.
 에러가 생기지 않는 것을 원한다면 `discard()` 메서드를 사용하세요.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/62528e1b44" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/62528e1b44"
+  height="400"
+/>

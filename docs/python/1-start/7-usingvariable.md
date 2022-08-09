@@ -14,7 +14,11 @@
 변수를 만들었을 때와 같이 '변수 이름 = 값' 코드를 실행하면 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/a95ad0ea6f" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/a95ad0ea6f"
+  height="400"
+/>
 
 ## 변수 삭제하기
 
@@ -57,4 +61,8 @@ print(a, b, c, d, e) # alphabet이 5번 출력됩니다.
 ```
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/ac33761c8a" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/ac33761c8a"
+  height="400"
+/>

@@ -19,7 +19,11 @@
 또는 더 간단하고 쉽게 | (엔터 위에 있는 키보드(\)와 shift를 같이 누르세요) 연산자를 사용할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/f16d8554a4" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/f16d8554a4"
+  height="400"
+/>
 
 ## 교집합
 
@@ -34,7 +38,11 @@
 `intersection_update()`과 `intersection()` 대신 & 연산자를 사용하여 교집합을 찾을 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/bdb3068e9e" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/bdb3068e9e"
+  height="400"
+/>
 
 ## 차집합
 
@@ -45,4 +53,8 @@
 간단하게 '-'를 사용해보겠습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/a69bea0190" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/a69bea0190"
+  height="400"
+/>

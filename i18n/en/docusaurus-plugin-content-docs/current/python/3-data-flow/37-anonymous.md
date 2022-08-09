@@ -9,7 +9,11 @@
 익명 함수는 이름이 없어서 선언이 되면 바로 사용이 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/215ca4e0af" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/215ca4e0af"
+  height="400"
+/>
 
 ## Lambda
 
@@ -20,4 +24,8 @@
 1개 이상 매개변수를 사용하고 싶다면 변수 사이에 `,`를 삽입하세요.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/ad432c8141" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/ad432c8141"
+  height="400"
+/>

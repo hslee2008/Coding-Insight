@@ -7,7 +7,12 @@
 - complex(허수)
 
 <iframe
-  loading="lazy" width="560" height="315" className="youtube" src="https://www.youtube.com/embed/NhzBkfhAb3g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+  loading="lazy"
+  className="youtube"
+  src="https://www.youtube.com/embed/NhzBkfhAb3g"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+/>
 
 ## int 정수
 
@@ -20,7 +25,11 @@
 변수 형태의 정수인지 확인하기 위해서 저희는 다음과 같은 함수를 사용할 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/0856d3ad88" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/0856d3ad88"
+  height="400"
+/>
 
 ## float 소수
 
@@ -31,11 +40,19 @@
 예를 들어 3.14159는 소수점 뒤에 숫자가 있기 때문에 소수라고 합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/e726e404fa" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/e726e404fa"
+  height="400"
+/>
 
 ## complex 허수
 
 허수란 존재하지 않는 수로 √-1을 의미합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/aac1e0774c" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/aac1e0774c"
+  height="400"
+/>

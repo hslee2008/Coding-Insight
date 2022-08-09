@@ -1,64 +1,68 @@
-# 문자와 문자열 인덱싱
+# Indexing
 
-문자에서 선택하고 싶은 한 장소의 정보를 찾아내는 작업을 인덱싱이라고 하고 그 장소를 인덱스라고 합니다.
+Indexing is a way to access elements of a collection.
 
-예를 들어 Hello에서 첫 번째 문자를 출력하기 위해서 인덱스 0을 사용할 수 있습니다.
+So, in a string, there are just a list of characters.
+
+To access a character at a specific location, yo ucan use 'indexing'.
 
 ```py
 a = "Hello"
 print(a[0])
 ```
 
-문자 다음에 나오는 `[]` 대괄호 안에 있는 숫자는 문자의 인덱스입니다.
+Putting a number inside `[]` will give you the character at that index.
 
-일상생활에서 '처음'이라고 하면 보통 1을 생각합니다.
+But note that the index starts at 0.
 
-하지만 배열(문자열, 리스트 등)에서 첫 번째 인덱스를 출력하기 위해서 0을 사용합니다.
-
-2번째는 1이고 3번째는 2입니다.
-
-이 이유는 조금 뒤에 설명하겠습니다.
+So, the first character is at index 0, the second at index 1, etc.
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python3/e1cdc9760f"
   height="400"
 />
 
-## 문자 인덱싱 (x ~ y 값)
+:::note
+The 5th line will make an error.
 
-문자에서 어떤 범위의 부분 문자를 구하기 위하여 다음과 같은 방법을 사용할 수 있습니다.
+This is because the index (5) is out of range.
 
-`[]` 안에 `:`를 사용하여 `:` 전에 나오는 인덱스를 포함하고 `:` 다음에 나오는 인덱스는 제외하고 출력이 됩니다.
+Out of range means that the index value does not exist in the string.
+:::
 
-만일 0이 없이 `''` 만 있어도 파이썬은 0이라고 인식합니다.
+## String indexing (from `x` to `y`)
+
+To get a string of range of characters, you can use the `:` operator.
+
+The number before the `:` is the starting index, and the number after the `:` is the ending index.
 
 <iframe
   loading="lazy"
-  title="Python Playground"
-  src="https://trinket.io/embed/python/47c742b3bd"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/4576e27caf"
   height="400"
 />
 
-## 거꾸로 문자 뒤집기
+The second code example above has an empty space before `:`.
 
-문자를 거꾸로 바꾸기 위하여 인덱싱을 사용할 수도 있습니다.
+The empty space means `0`.
 
-옆의 예시에서 `::-1`은 `0:0:-1`을 생략한 코드입니다.
+So, `[0:1]` is equal to `[:1]`.
 
-마지막 숫자는 스텝을 뜻합니다.
+## Reversing a string
 
-스텝은 문자 인덱싱을 셀때 단위입니다.
+To reverse a string, we can select all the string first by `[:]`.
 
-예를 들면, 단위를 2로 정하면 2 문자 중 하나씩만 출력됩니다.
+To flip it sideways, we can use the `:-1` which means Python will count the string backward.
 
-스텝을 -1로 입력하면 거꾸로 바꿀 수 있습니다.
+Resulting in the string being flipped by `[::-1]`.
 
 <iframe
   loading="lazy"
-  title="Python Playground"
-  src="https://trinket.io/embed/python/4e95210044"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python/c0331e8ab5"
   height="400"
 />
 
@@ -84,54 +88,54 @@ a = 1 + {2 \* (a-1)}
 
 :::
 
-import Quiz from '@site/src/components/Quiz'
+import Quiz from "@site/src/components/Quiz";
 
 <Quiz
   quiz={{
-    quizTitle: '파이썬 퀴즈 5',
-    quizSynopsis: '인덱싱에 대한 파이썬 퀴즈입니다.',
-    nrOfQuestions: '4',
+    quizTitle: "파이썬 퀴즈 5",
+    quizSynopsis: "인덱싱에 대한 파이썬 퀴즈입니다.",
+    nrOfQuestions: "4",
     questions: [
       {
         question: 'print("Python"[1])를 실행하면 무엇이 출력됩니까?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: ["'y'", "'P'", "'o'", "'on'"],
-        correctAnswer: '1',
+        correctAnswer: "1",
         explanation:
-          '[1]은 문자열의 두 번째 문자를 의미합니다. 즉, 문자열의 첫 번째 문자는 0번째 문자입니다.',
-        point: '30'
+          "[1]은 문자열의 두 번째 문자를 의미합니다. 즉, 문자열의 첫 번째 문자는 0번째 문자입니다.",
+        point: "30",
       },
       {
         question: 'print("Hello World"[0])를 실행하면 무엇이 출력됩니까?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: ["'d'", "'e'", "'H'", "'W'"],
-        correctAnswer: '3',
+        correctAnswer: "3",
         explanation:
           '[0]은 첫 번째 문자를 의미합니다. 즉, "Hello World"[0]은 "H"를 의미합니다.',
-        point: '30'
+        point: "30",
       },
       {
         question: 'print("Dude!"[-1])를 실행하면 무엇이 출력됩니까?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: ["'D'", "'u'", "'e'", "'!'"],
-        correctAnswer: '4',
+        correctAnswer: "4",
         explanation:
-          '[-1]은 문자열의 마지막 문자를 의미합니다. 즉, 문자열의 마지막 문자는 !입니다.',
-        point: '30'
+          "[-1]은 문자열의 마지막 문자를 의미합니다. 즉, 문자열의 마지막 문자는 !입니다.",
+        point: "30",
       },
       {
         question: 'print("Dude!"[::-1])를 실행하면 무엇이 출력됩니까?',
-        questionType: 'text',
-        answerSelectionType: 'single',
+        questionType: "text",
+        answerSelectionType: "single",
         answers: ["'!eduD'", "'Dude!'", "'!dude'", "'dude'"],
-        correctAnswer: '1',
+        correctAnswer: "1",
         explanation:
           '[::-1]은 문자열의 역순을 의미합니다. 즉, "Dude!"[::-1]은 "!eduD"를 의미합니다.',
-        point: '10'
+        point: "10",
       },
-    ]
+    ],
   }}
 />

@@ -27,7 +27,11 @@ raw 문자열이란 이스케이프 문자를 동작시키지 않고 그대로 �
 이스케이프 문자를 선언하는 코드 "`\`(역슬래시)"는 파일의 주소에도 있으므로 이스케이프 문자를 사용하지 않겠다고 raw 문자열을 사용하여 파이썬에게 알려주어야 합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/69df2c15b8" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/69df2c15b8"
+  height="400"
+/>
 
 ## `readline()`
 
@@ -36,7 +40,11 @@ raw 문자열이란 이스케이프 문자를 동작시키지 않고 그대로 �
 두 개 이상의 줄을 읽으려면 for 반복문을 사용하여 줄을 시작부터 순차적으로 읽을 수 있습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/6b4e266873" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/6b4e266873"
+  height="400"
+/>
 
 ## `readlines()`
 
@@ -45,7 +53,11 @@ raw 문자열이란 이스케이프 문자를 동작시키지 않고 그대로 �
 `readline()`은 한 줄만 읽는 코드이지만` readlines()`는 매개변수가 지정하는 만큼의 줄을 읽는 코드입니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/8d79bcebaa" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/8d79bcebaa"
+  height="400"
+/>
 
 ## `readable()`
 
@@ -54,4 +66,8 @@ raw 문자열이란 이스케이프 문자를 동작시키지 않고 그대로 �
 만일 파일을 읽는 것이 가능하면 True를 돌려주고 그렇지 않다면 False를 돌려줍니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/a301fbf34c" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/a301fbf34c"
+  height="400"
+/>

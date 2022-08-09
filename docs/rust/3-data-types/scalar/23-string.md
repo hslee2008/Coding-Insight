@@ -34,7 +34,7 @@ String은 heap에만 저장할 수 있습니다.
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0D%0A%20%20%20%20let%20val1%3A%20%26str%20%3D%20%22Hello%2C%20World!%22%3B%0D%0A%20%20%20%20let%20val2%20%3D%20String%3A%3Afrom(%22%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%20Rust%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%96%B8%EC%96%B4%20%EB%A1%9C%EA%B3%A0%EA%B0%80%20%EA%B2%8C%EC%9D%B8%EA%B1%B0%20%EC%95%8C%EC%95%98%EB%82%98%EC%9A%94%3F%3F%3F%20%F0%9F%A6%80%F0%9F%A6%80%F0%9F%A6%80%22)%3B%0D%0A%20%20%20%20%0D%0A%20%20%20%20println!(%22%7Bval1%7D%22)%3B%0D%0A%20%20%20%20println!(%22%7Bval2%7D%22)%3B%0D%0A%7D"
   height="400"
 />
@@ -51,7 +51,7 @@ String은 heap에만 저장할 수 있습니다.
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%20%3D%20String%3A%3Afrom(%22Rust%20Language%22)%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7Ba%7D%EC%9D%98%20%EA%B8%B8%EC%9D%B4%EB%8A%94%20%7B%7D%EC%9E%85%EB%8B%88%EB%8B%A4.%22%2C%20a.len())%3B%0A%20%20%20%20println!(%22a%EA%B0%80%20%EB%B9%84%EC%96%B4%EC%9E%88%EB%82%98%EC%9A%94%3F%20%7B%7D%22%2C%20a.is_empty())%3B%0A%7D"
   height="400"
 />
@@ -76,7 +76,7 @@ String은 heap에만 저장할 수 있습니다.
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Superman%22%3B%0A%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.chars().nth(0).unwrap())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.chars().nth(1).unwrap())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.chars().nth(2).unwrap())%3B%0A%7D"
   height="400"
 />
@@ -97,7 +97,7 @@ String은 heap에만 저장할 수 있습니다.
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20s%20%3D%20%22Gr%C3%BC%C3%9Fe%2C%20J%C3%BCrgen%20%E2%9D%A4%22%3B%0A%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_ascii_uppercase())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_ascii_lowercase())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_uppercase())%3B%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.to_lowercase())%3B%0A%7D"
   height="400"
   />
@@ -108,7 +108,7 @@ String은 heap에만 저장할 수 있습니다.
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Hello%20World%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20a.contains(%22Hello%22))%3B%0A%7D"
   height="400"
 />
@@ -127,7 +127,7 @@ panic이라는 것은 Rust에서 코드르 실행하는 동안 예외, 에러 �
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=fn%20main()%20%7B%0A%20%20%20%20let%20s%20%3D%20%22L%C3%B6we%20%E8%80%81%E8%99%8E%20L%C3%A9opard%20Gepardi%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%7D%22%2C%20s.starts_with(%22L%22))%3B%0A%7D"
   height="400"
 />
@@ -142,7 +142,7 @@ panic이라는 것은 Rust에서 코드르 실행하는 동안 예외, 에러 �
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20main()%20%7B%0A%20%20%20%20let%20a%3A%20%26str%20%3D%20%22Hello%2C%20World!%22%3B%0A%20%20%20%20%0A%20%20%20%20println!(%22%7B%3A%3F%7D%22%2C%20a.as_bytes())%3B%0A%7D"
   height="400"
 />

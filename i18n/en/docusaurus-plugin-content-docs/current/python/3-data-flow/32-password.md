@@ -30,4 +30,8 @@ guess_try += 1
 :::
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/5382bd569c" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/5382bd569c"
+  height="400"
+/>

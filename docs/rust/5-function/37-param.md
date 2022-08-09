@@ -16,7 +16,7 @@ fn main() {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20add(x%3A%20i32%2C%20y%3A%20i32)%20%7B%0D%0A%20%20println!(%22%7B%7D%22%2C%20x%20%2B%20y)%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20add(1%2C%202)%3B%0D%0A%7D"
   height="400"
 />
@@ -52,7 +52,7 @@ fn main() {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20square(mut%20n%3A%20i32)%7B%0D%0A%20%20n%20%3D%20n%20*%20n%3B%0D%0A%20%20println!(%22%ED%95%A8%EC%88%98%20%EC%95%88%3A%20%7B%7D%22%2C%20n)%3B%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20let%20n%20%3D%204%3B%0D%0A%20%20println!(%22%ED%95%A8%EC%88%98%20%EC%A0%84%3A%20%7B%7D%22%2C%20n)%3B%0D%0A%20%20square(n)%3B%0D%0A%20%20println!(%22%ED%95%A8%EC%88%98%20%EC%8B%A4%ED%96%89%ED%95%A8%22)%3B%0D%0A%20%20println!(%22%ED%95%A8%EC%88%98%20%ED%9B%84%3A%20%7B%7D%22%2C%20n)%3B%0D%0A%7D"
   height="400"
 />
@@ -84,7 +84,7 @@ fn main() {
 
 <iframe
   loading="lazy"
-  title="Rust Playground"
+  title="Rust IDLE"
   src="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=fn%20square(n%3A%20%26mut%20i32)%7B%0D%0A%20%20*n%20%3D%20*n%20*%20*n%3B%0D%0A%20%20println!(%22%ED%95%A8%EC%88%98%20%EC%95%88%3A%20%7B%7D%22%2C%20n)%3B%0D%0A%7D%0D%0A%0D%0Afn%20main()%20%7B%0D%0A%20%20let%20mut%20n%20%3D%204%3B%0D%0A%20%20println!(%22%ED%95%A8%EC%88%98%20%EC%A0%84%3A%20%7B%7D%22%2C%20n)%3B%0D%0A%20%20square(%26mut%20n)%3B%0D%0A%20%20println!(%22%ED%95%A8%EC%88%98%20%EC%8B%A4%ED%96%89%ED%95%A8%22)%3B%0D%0A%20%20println!(%22%ED%95%A8%EC%88%98%20%ED%9B%84%3A%20%7B%7D%22%2C%20n)%3B%0D%0A%7D"
   heght="400"
 />

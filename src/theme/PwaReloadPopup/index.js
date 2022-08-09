@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
-import clsx from 'clsx'
-import Translate, { translate } from '@docusaurus/Translate'
-import styles from './styles.module.scss'
+import React, { useState } from "react";
+import clsx from "clsx";
+import Translate, { translate } from "@docusaurus/Translate";
+import styles from "./styles.module.scss";
 export default function PwaReloadPopup({ onReload }) {
-  const [isVisible, setIsVisible] = useState(true)
+  const [isVisible, setIsVisible] = useState(true);
 
   return (
     isVisible && (
-      <div className={clsx('alert', 'alert--secondary', styles.popup)}>
+      <div className={clsx("alert", "alert--secondary", styles.popup)}>
         <p>
           <Translate
             id="theme.PwaReloadPopup.info"
@@ -20,8 +20,8 @@ export default function PwaReloadPopup({ onReload }) {
           <button
             className="button button--link"
             onClick={() => {
-              setIsVisible(false)
-              onReload()
+              setIsVisible(false);
+              onReload();
             }}
           >
             <Translate
@@ -34,9 +34,10 @@ export default function PwaReloadPopup({ onReload }) {
 
           <button
             aria-label={translate({
-              id: 'theme.PwaReloadPopup.closeButtonAriaLabel',
-              message: 'Close',
-              description: 'The ARIA label for close button of PWA reload popup'
+              id: "theme.PwaReloadPopup.closeButtonAriaLabel",
+              message: "Close",
+              description:
+                "The ARIA label for close button of PWA reload popup",
             })}
             className="close"
             onClick={() => setIsVisible(false)}
@@ -46,5 +47,5 @@ export default function PwaReloadPopup({ onReload }) {
         </div>
       </div>
     )
-  )
+  );
 }

@@ -19,11 +19,9 @@ a = 5 > 6
 
 <iframe
   loading="lazy"
-  width="560"
-  height="315"
-  className="youtube" src="https://www.youtube.com/embed/QRDmXqVbNPs"
+  className="youtube"
+  src="https://www.youtube.com/embed/QRDmXqVbNPs"
   title="YouTube video player"
-  frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 />
 
@@ -37,7 +35,7 @@ a = 5 > 6
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python/8500bba20b"
   height="400"
 />
@@ -48,7 +46,7 @@ a = 5 > 6
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python/5fbbc3204c"
   height="400"
 />
@@ -71,7 +69,7 @@ CODE2는 2가 1보다 크지 않기 때문에 에러가 생깁니다.
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python3/b23c21c043"
   height="400"
 />
@@ -84,49 +82,49 @@ CODE2는 2가 1보다 크지 않기 때문에 에러가 생깁니다.
 
 <iframe
   loading="lazy"
-  title="Python Playground"
+  title="Python IDLE Trinket"
   src="https://trinket.io/embed/python/6d4ae0d672"
   height="400"
 />
 
-import Quiz from '@site/src/components/Quiz'
+import Quiz from "@site/src/components/Quiz";
 
 <Quiz
   quiz={{
-    quizTitle: '파이썬 퀴즈 7',
-    quizSynopsis: 'bool 연습',
-    nrOfQuestions: '3',
+    quizTitle: "파이썬 퀴즈 7",
+    quizSynopsis: "bool 연습",
+    nrOfQuestions: "3",
     questions: [
       {
-        question: 'print(all([True, False, True, True]))',
-        questionType: 'text',
-        answerSelectionType: 'single',
-        answers: ['False', 'True', '에러', 'NaN'],
-        correctAnswer: '1',
+        question: "print(all([True, False, True, True]))",
+        questionType: "text",
+        answerSelectionType: "single",
+        answers: ["False", "True", "에러", "NaN"],
+        correctAnswer: "1",
         explanation:
-          'all()은 리스트에서 모든 값이 True이면 True를 돌려주고 하나라도 True가 아니면 False를 돌려줍니다.',
-        point: '40'
+          "all()은 리스트에서 모든 값이 True이면 True를 돌려주고 하나라도 True가 아니면 False를 돌려줍니다.",
+        point: "40",
       },
       {
-        question: 'print(any([True, False, True, True]))',
-        questionType: 'text',
-        answerSelectionType: 'single',
-        answers: ['False', 'True', '에러', 'NaN'],
-        correctAnswer: '2',
+        question: "print(any([True, False, True, True]))",
+        questionType: "text",
+        answerSelectionType: "single",
+        answers: ["False", "True", "에러", "NaN"],
+        correctAnswer: "2",
         explanation:
-          'any()은 리스트에서 하나라도 True이면 True를 돌려주고 모든 값이 True이면 True를 돌려줍니다.',
-        point: '40'
+          "any()은 리스트에서 하나라도 True이면 True를 돌려주고 모든 값이 True이면 True를 돌려줍니다.",
+        point: "40",
       },
       {
-        question: 'print(not not True)',
-        questionType: 'text',
-        answerSelectionType: 'single',
-        answers: ['True', 'False', '에러', 'NaN'],
-        correctAnswer: '1',
+        question: "print(not not True)",
+        questionType: "text",
+        answerSelectionType: "single",
+        answers: ["True", "False", "에러", "NaN"],
+        correctAnswer: "1",
         explanation:
-          'not 연산자는 불리언에서 True를 False로 False를 True로 바꾸기 위하여 not을 변수 앞에 붙이면 그 반대가 출력됩니다. ',
-        point: '20'
-      }
-    ]
+          "not 연산자는 불리언에서 True를 False로 False를 True로 바꾸기 위하여 not을 변수 앞에 붙이면 그 반대가 출력됩니다. ",
+        point: "20",
+      },
+    ],
   }}
 />

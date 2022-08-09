@@ -28,9 +28,14 @@ python -m smtpd -c DebuggingServer -n localhost:1025
 참고로 그 계정과 밑에 있는 코드의 계정 이메일이 일치해야합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/db9f325b98" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/db9f325b98"
+  height="400"
+/>
 
 ## 자동으로 줌 열기
+
 파이썬에서 자동으로 줌을 열 수 있습니다.
 
 먼저, 파이썬 모듈의 도움이 필요합니다. 줌 링크를 열기 위하여 webbrowser와, 키보드에서 엔터와 비밀번호를 칠 때, 그리고 로딩하는데 코드를 멈출 수 있는 time 모듈이 필요합니다.

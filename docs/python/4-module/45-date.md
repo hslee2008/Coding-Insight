@@ -13,7 +13,11 @@ import datetime
 `'yyyy-mm-dd hh:mm:ss'` 형식으로 출력이 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/437df64da8" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/437df64da8"
+  height="400"
+/>
 
 ## 시, 분, 초, 마이크로초
 
@@ -28,7 +32,11 @@ import datetime
 분은 `%M`, 초는 `%S`, 마이크로초는 `%f` 입니다
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/b649e0b775" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/b649e0b775"
+  height="400"
+/>
 
 ## 요일, 월, 년
 

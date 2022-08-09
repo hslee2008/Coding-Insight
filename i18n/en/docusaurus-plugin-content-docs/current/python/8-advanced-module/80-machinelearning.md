@@ -53,7 +53,11 @@ print(pred)
 ```
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/02de47df74" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/02de47df74"
+  height="400"
+/>
 
 ## 추가로 정확도 측정하기
 
@@ -72,7 +76,11 @@ print(accuracy_score(y_test, pred))
 ```
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/282aeb7817" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/282aeb7817"
+  height="400"
+/>
 
 :::note
 참고로 실행하면 정확도가 항상 달라지는 것을 확인할 수 있습니다.

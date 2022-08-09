@@ -12,4 +12,8 @@ random.choice(["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"])
 ```
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/740f66be1f" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/740f66be1f"
+  height="400"
+/>

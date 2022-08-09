@@ -5,7 +5,11 @@
 'w'는 그 파일 안에 있는 모든 내용을 새로운 텍스트로 바꾸고 'a'는 새로운 줄에 쓰고자 하는 텍스트를 더합니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/890655e828" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/890655e828"
+  height="400"
+/>
 
 ## `write()`
 
@@ -16,7 +20,11 @@
 `writelines()`는 문자로 구성된 리스트의 값들을 결합하고 파일에 씁니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/2fdad67c09" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/2fdad67c09"
+  height="400"
+/>
 
 <br /><br /><br /><br /><br />
 

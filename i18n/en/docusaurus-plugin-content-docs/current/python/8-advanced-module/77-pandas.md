@@ -46,7 +46,11 @@ print(s["First: "])
 ```
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/ad2ac39772" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/ad2ac39772"
+  height="400"
+/>
 
 ## `DataFrame()`
 
@@ -55,7 +59,11 @@ print(s["First: "])
 `DataFrame()`를 사용하려면 먼저 데이터 이터러블을 넣고, 열 값을 넣고, 데이터 형식을 넣으면 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/f3002f6946" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/f3002f6946"
+  height="400"
+/>
 
 ## Clipboard
 
@@ -83,6 +91,7 @@ df.to_clipboard(index = False)
 ```
 
 ## CSV
+
 CSV는 Comma-Seperated Values의 약자로 `,`(쉼표)로 구분한 값들의 모음입니다.
 
 마이크로소프트의 EXCEL을 사용해서 CSV 파일을 만들고 그 파일을 판다스를 이용해서 간단하게 표로 만들어 보겠습니다.
@@ -106,4 +115,8 @@ print(df.to_string())
 ```
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/9b4294ecdb" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/9b4294ecdb"
+  height="400"
+/>

@@ -15,7 +15,11 @@ If the variable does exist, it will be changed.
 :::
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/a95ad0ea6f" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/a95ad0ea6f"
+  height="400"
+/>
 
 ## Deleting Variables
 

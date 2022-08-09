@@ -59,7 +59,11 @@ uni-dimension 정렬의 인덱싱은 리스트 인덱싱과 같습니다.
 이와 같이 3-D는 3개의 수, 4-D는 4개의 수...를 입력하면 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/4fe0b3d005" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/4fe0b3d005"
+  height="400"
+/>
 
 ## 정렬 모양
 
@@ -78,7 +82,11 @@ uni-dimension 정렬의 인덱싱은 리스트 인덱싱과 같습니다.
 `(2, 3)`에서 2란 2-D 정렬을 뜻하고 3은 3개 아이템이 있다는 뜻입니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/20b4a15af9" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/20b4a15af9"
+  height="400"
+/>
 
 ### 정렬 모양 바꾸기
 
@@ -87,4 +95,8 @@ uni-dimension 정렬의 인덱싱은 리스트 인덱싱과 같습니다.
 첫 번째 매개변수에는 정렬의 치수를 입력하고, 두 번째 매개변수에는 정렬 아이템의 개수를 입력하면 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/2143d07d6a" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/2143d07d6a"
+  height="400"
+/>

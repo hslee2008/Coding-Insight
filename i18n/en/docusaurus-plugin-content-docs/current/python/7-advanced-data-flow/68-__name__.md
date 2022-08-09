@@ -11,12 +11,20 @@
 다음과 같은 예시를 보겠습니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/c6d50081cf" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/c6d50081cf"
+  height="400"
+/>
 
 main.py를 실행하면 HI가 두 번 출력이 됩니다.
 
 <iframe
-  loading="lazy" title="Python Playground" src="https://trinket.io/embed/python3/b01563dd19" height="400" />
+  loading="lazy"
+  title="Python IDLE Trinket"
+  src="https://trinket.io/embed/python3/b01563dd19"
+  height="400"
+/>
 
 위에 있는 예시에 있는 main.py 파일을 실행하면 HI가 한번 출력됩니다.
 
