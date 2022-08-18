@@ -22,12 +22,12 @@ const navbarItems = [
     ],
   },
   {
-    label: '프로그래밍 언어',
-    position: 'left',
-    items: [
-      {to: '/docs/python/start/python', label: '파이썬'},
-      {to: '/docs/rust/start/rust', label: 'Rust'},
-    ],
+    label: "파이썬",
+    to: "/docs/python/start/python",
+  },
+  {
+    label: "Rust",
+    to: "/docs/rust/start/rust",
   },
   {
     href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',

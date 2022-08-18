@@ -82,9 +82,7 @@ function Cards() {
 
 function HeroHeader({title, tagline}) {
   return (
-    <header
-      style={{backgroundColor: 'var(--back)'}}
-      className={styles.heroHeader}>
+    <header className={styles.heroHeader}>
       <div className={styles.hero}>
         <img
           className={styles.heroImg}
