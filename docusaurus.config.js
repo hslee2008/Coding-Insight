@@ -22,12 +22,12 @@ const navbarItems = [
     ],
   },
   {
-    label: "파이썬",
-    to: "/docs/python/start/python",
+    label: '파이썬',
+    to: '/docs/python/start/python',
   },
   {
-    label: "Rust",
-    to: "/docs/rust/start/rust",
+    label: 'Rust',
+    to: '/docs/rust/start/rust',
   },
   {
     href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
@@ -240,6 +240,20 @@ const config = {
   baseUrlIssueBanner: true,
 
   presets: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-YVYVSKB94S',
+        anonymizeIP: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: '4142504402',
+        anonymizeIP: true,
+      },
+    ],
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
