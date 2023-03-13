@@ -17,7 +17,7 @@ function Cards() {
         message: '깃허브',
         description: 'Card',
       }),
-      link: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
+      link: 'https://github.com/hslee2008/Coding-Insight',
       description: translate({
         message:
           '모든 소스를 다 깃허브에서 확인인 할 수 있고 여러분도 기여할 수 있는 프로젝트입니다.',

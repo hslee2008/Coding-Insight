@@ -30,7 +30,7 @@ const navbarItems = [
     to: '/docs/rust/start/rust',
   },
   {
-    href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
+    href: 'https://github.com/hslee2008/Coding-Insight',
     'aria-label': 'GitHub',
     position: 'right',
     className: 'header-github-link',
@@ -40,7 +40,7 @@ const navbarItems = [
     position: 'right',
     dropdownItemsAfter: [
       {
-        href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/blob/main/CONTRIBUTING.md',
+        href: 'https://github.com/hslee2008/Coding-Insight/blob/main/CONTRIBUTING.md',
         label: 'Help us Translate',
       },
     ],
@@ -70,11 +70,11 @@ const footerLinks = [
     items: [
       {
         label: '기여자들',
-        href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/graphs/contributors',
+        href: 'https://github.com/hslee2008/Coding-Insight/graphs/contributors',
       },
       {
         label: '기여하기',
-        href: 'https://github.com/HyunseungLee-Travis/Coding-Insight/blob/main/CONTRIBUTING.md',
+        href: 'https://github.com/hslee2008/Coding-Insight/blob/main/CONTRIBUTING.md',
       },
     ],
   },
@@ -83,7 +83,7 @@ const footerLinks = [
     items: [
       {
         label: '깃허브',
-        href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
+        href: 'https://github.com/hslee2008/Coding-Insight',
       },
       {
         label: '유튜브',
@@ -122,7 +122,7 @@ const themeConfig = {
     logo: {
       alt: 'Coding-Insgiht Logo',
       src: '/pwa/50x54.png',
-      href: 'https://github.com/HyunseungLee-Travis/Coding-Insight',
+      href: 'https://github.com/hslee2008/Coding-Insight',
       width: 50,
       height: 54,
     },
@@ -231,7 +231,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   onDuplicateRoutes: 'ignore',
   tagline: 'Learn, Practice, Build and Deploy',
-  organizationName: 'HyunseungLee-Travis',
+  organizationName: 'hslee2008',
   projectName: 'Coding-Insight',
   themeConfig,
   plugins,
@@ -261,8 +261,7 @@ const config = {
         docs: {
           path: './docs/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/HyunseungLee-Travis/Coding-Insight/tree/main/',
+          editUrl: 'https://github.com/hslee2008/Coding-Insight/tree/main/',
           sidebarCollapsible: true,
           exclude: ['**/_*.{md,mdx}'],
           remarkPlugins: [require('mdx-mermaid')],
