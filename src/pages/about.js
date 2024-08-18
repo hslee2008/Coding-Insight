@@ -25,12 +25,6 @@ export default function About() {
           <li>
             <a href="https://github.com/hslee2008">Hyunseung Lee</a>
           </li>
-          <li>
-            <a href="https://github.com/GMTT902">GMTT902</a>
-          </li>
-          <li>
-            <a href="https://github.com/kimgun1217">kimgun1217</a>
-          </li>
         </ul>
       </div>
     </Layout>
